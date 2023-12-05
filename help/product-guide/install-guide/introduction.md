@@ -1,15 +1,15 @@
 ---
-title: Over deze handleiding
+title: Installatie op locatie
 description: Leer hoe u AEM hulplijnen kunt downloaden, installeren en configureren.
 exl-id: 90d5ad94-eb68-4d73-9b23-a1f3d4b802ba
-source-git-commit: b8fba97d5e686fd09b094a6cf5b52aa08ef2d069
+source-git-commit: 02b33615669945cf65f70d6fd2de81bfd340a0ab
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
 
-# Over deze handleiding {#id175MC0P0S5Z}
+# Installatie op locatie {#id175MC0P0S5Z}
 
 Adobe Experience Manager-hulplijnen \(later doorverwezen naar *Hulplijnen AEM*\) is een krachtige oplossing voor componentinhoudsbeheer op bedrijfsniveau \(CCMS\). Het maakt native DITA-ondersteuning in Adobe Experience Manager mogelijk en biedt AEM de mogelijkheid om op DITA gebaseerde inhoud te maken en te leveren. Het machtigt auteurs om inhoud tot stand te brengen gebruikend om het even welk off-line DITA auteursgereedschap, zoals Adobe FrameMaker of een makkelijk te gebruiken ingebouwde Redacteur van het Web.
 
