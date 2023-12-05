@@ -2,9 +2,9 @@
 title: Inhoud vertalen
 description: Leer hoe u uw inhoud in meerdere talen vertaalt.
 exl-id: c8dacbdc-4b0b-44ca-82d4-889cd83741ff
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: 0afe8bf9b16b1d1367971462b0d44f1721b317c5
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '165'
 ht-degree: 0%
 
 ---
@@ -41,13 +41,14 @@ In deze sessie leert u over het volgende:
 
 - **Functievideo&#39;s** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
-- **Handboek** - [Inhoud vertalen](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Ftranslation.html)
+- **Handboek** - [Inhoud vertalen](/help/product-guide/install-guide/translation.md)
 
 - **Forum van de Gemeenschap** - Voor sessiespecifieke community-interacties over Experience League gaat u naar [Forum met AEM hulplijnen](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)
 
 >[!NOTE]
 >
 > De functies die in deze sessie worden weergegeven, zijn beschikbaar in de volgende versies van AEM hulplijnen:
+>
 > - On-prem 4.1 of hoger
 > - Cloud Servicen 2207 of hoger
 
