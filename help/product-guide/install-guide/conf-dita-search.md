@@ -2,9 +2,9 @@
 title: Zoeken naar gebruikersinterface van AEM Assets configureren
 description: Leer hoe u zoekopdrachten voor de gebruikersinterface van AEM Assets kunt configureren
 exl-id: b920ba7f-e8fc-4af6-aa8a-b8516b1cffc0
-source-git-commit: 247f4d8fe744b6f9d285a7f61c2b31628de2bb36
+source-git-commit: 31dc283a5e51fc9c504ac4e75a9719dc247e90eb
 workflow-type: tm+mt
-source-wordcount: '1695'
+source-wordcount: '1696'
 ht-degree: 0%
 
 ---
@@ -70,6 +70,7 @@ Voer het volgende uit om op UUID-Gebaseerde onderzoekscomponent in AEM Assets UI
 
    - **Veldlabel**: UUID
    - **Eigenschapnaam**: jcr:content/fmUuid
+
 1. Klikken **Gereed** om uw wijzigingen op te slaan.
 
    Als u de optie Filters opent in de interface Elementen, wordt de zoekfilteroptie op basis van UIS weergegeven.
@@ -118,7 +119,7 @@ De standaardonderzoeksconfiguratie staat u toe om naar alle elementen en attribu
 >
 > Als u met de standaardonderzoeksconfiguratie binnen wilt gaan `prolog` , kunt u dit proces overslaan.
 
-Dit bestand bevat twee hoofdsecties: een kenmerkset en een regelset. Hieronder ziet u een fragment van de sectie voor regelsets:
+Dit bestand bevat twee kenmerkensets voor hoofdsecties en een regelset. Hieronder ziet u een fragment van de sectie voor regelsets:
 
 ```XML
 <ruleset filetypes="xml dita"><!-- Element rules --><rule xpath="//[contains(@class, 'topic/topic')]/[contains(@class, 'topic/prolog')]//*[not(*)]" text="yes" attributeset="all-attrs" /><!-- Attribute rules --><rule xpath="//[contains(@class, 'topic/topic')]/[contains(@class, 'topic/prolog')]///@[local-name() != 'class']" /></ruleset>
@@ -127,7 +128,6 @@ Dit bestand bevat twee hoofdsecties: een kenmerkset en een regelset. Hieronder z
 In het gedeelte Regelset kunt u het volgende opgeven:
 
 - Regels om de elementen te extraheren
-
 - Regels voor het uitnemen van kenmerken
 
 

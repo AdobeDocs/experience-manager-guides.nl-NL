@@ -2,7 +2,7 @@
 title: Installatie op locatie
 description: Leer hoe u AEM hulplijnen kunt downloaden, installeren en configureren.
 exl-id: 90d5ad94-eb68-4d73-9b23-a1f3d4b802ba
-source-git-commit: 02b33615669945cf65f70d6fd2de81bfd340a0ab
+source-git-commit: 31dc283a5e51fc9c504ac4e75a9719dc247e90eb
 workflow-type: tm+mt
 source-wordcount: '581'
 ht-degree: 0%
@@ -27,39 +27,22 @@ Deze handleiding is bedoeld voor het volgende type publiek:
 De informatie in deze handleiding is als volgt geordend:
 
 - [Over deze handleiding](#id175MC0P0S5Z): Dit onderwerp biedt een inleiding tot deze handleiding, het beoogde publiek en de manier waarop de informatie in deze handleiding is georganiseerd.
-
 - [Downloaden en installeren](download-install.md#): In dit onderwerp wordt beschreven hoe u AEM hulplijnen kunt downloaden, installeren of upgraden.
-
 - [Beheer en beveiliging van gebruikers](user-admin-sec.md#): Dit onderwerp beschrijft het kernconcept gebruikers en authentificatie in AEM en de standaardgebruikersgroepen die door AEM Gidsen worden gecreeerd.
-
 - [Aangepaste DITA-OT en DITA-specialisatie gebruiken](dita-ot-specialization.md#): Dit onderwerp verklaart hoe te om douaneDITA-OT stop-ins te vormen en specialisatie te gebruiken DITA.
-
 - [Documentstatussen configureren](customize-doc-state.md#): Dit onderwerp verklaart hoe te om douanestatus voor uw documenten te vormen DITA.
-
 - [Bestaande inhoud migreren](migrate-content.md#): In dit onderwerp wordt beschreven hoe u uw bestaande inhoud in AEM opslagplaats aan boord kunt nemen.
-
 - [Bestandsnamen configureren](conf-file-names.md#): In dit onderwerp wordt uitgelegd hoe u instellingen configureert om automatisch bestandsnamen toe te wijzen en regex te definiëren voor geldige bestandsnaamtekens.
-
 - [Onderwerp- en kaartsjablonen configureren](conf-template-tags.md#): Dit onderwerp beschrijft hoe te om onderwerp en kaartmalplaatjes te vormen om aan uw auteursbehoeften te voldoen. Leer over het etiketteren van systeem in AEM en hoe te om markeringen te vormen om met AEM Gidsen te werken.
-
 - [Webeditor aanpassen](conf-web-editor.md#): Dit onderwerp verklaart de diverse aanpassingen die u in de Redacteur van het Web kunt maken om zijn functionaliteit te verbeteren.
-
 - [De Geavanceerde Kaarteditor instellen als standaard](conf-map-editor.md#id194GHE0I0CW): Dit onderwerp verklaart hoe te om de Geavanceerde Redacteur van de Kaart als standaardredacteur voor kaartdossiers te vormen.
-
 - [@navtitle-kenmerk standaard opnemen](auto-add-navtitle.md#): In dit onderwerp wordt uitgelegd hoe u het dialoogvenster `@navtitle` standaard verwijzen naar een referentiebestand in een kaart.
-
 - [Profielen op algemeen niveau of mapniveau configureren](conf-folder-level.md#): In dit onderwerp wordt uitgelegd hoe u mapprofielen maakt en machtigingen geeft aan specifieke gebruikers.
-
 - [Versiebeheer](version-management.md#): Dit onderwerp beschrijft hoe te om automatische dossiercontrole voor dossiers te vormen die voor het uitgeven in de Redacteur van het Web worden geopend.
-
 - [XML-editors die zijn gebaseerd op een desktopcomputer integreren](integrate-desktop-editors.md#): Dit onderwerp beschrijft de montages u het uitgeven documenten in een externe redacteur van XML moet toelaten.
-
 - [Instellingen voor uitvoergeneratie configureren](conf-output-generation.md#): Dit onderwerp beschrijft de diverse configuraties die u kunt maken om het standaardproces van de outputgeneratie aan te passen.
-
 - [Workflows configureren en aanpassen](customize-workflows.md#): Dit onderwerp beschrijft de diverse configuraties om de standaardwerkschema&#39;s aan te passen die in AEM Gidsen worden verscheept.
-
 - [Inhoud vertalen](translation.md#): In dit onderwerp vindt u koppelingen naar de desbetreffende Help-artikelen in AEM documentatie, zodat u het vertaalframework kunt begrijpen en configureren. Leer ook hoe u op componenten gebaseerde vertaalworkflows kunt inschakelen.
-
 - [Zoeken naar gebruikersinterface van AEM Assets configureren](conf-dita-search.md#): Dit onderwerp beschrijft hoe te om DITA inhoudsonderzoek in Activa UI te vormen en uw douanekenmerken in onderzoek toe te voegen.
 
 
