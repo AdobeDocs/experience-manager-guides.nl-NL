@@ -2,9 +2,9 @@
 title: Migratie van niet-UUID naar UUID-inhoud
 description: Leer hoe u niet-UUID naar UUID-inhoud migreert
 exl-id: f8b723bf-84c0-4fe6-936e-63970fb3e417
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: 0c45b3bee77d04f031dea157e7d3671b2cc11b45
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: '53'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ U kunt niet-UUID-inhoud migreren naar UUID.
 
 >[!IMPORTANT]
 >
-> Voordat u inhoud naar de UUID-server migreert, moet u controleren of u een niet-UUID-server hebt waarop versie 4.0 of 4.1 van AEM hulplijnen is geïnstalleerd.
+> Voordat u inhoud naar de UUID-server migreert, moet u controleren of er een niet-UUID-server is geïnstalleerd waarop de versie van compatibele AEM hulplijnen is geïnstalleerd.
 
 
 
-* [**Inhoud migreren met versies**](./migrate-non-uuid-uuid-with-versions.md)
-* [**Inhoud migreren zonder versies**](./migrate-non-uuid-uuid-without-versions.md)
+* [**Geversierde inhoud migreren**](./migrate-non-uuid-uuid-with-versions.md)
+* [**Niet-geversierde inhoud migreren**](./migrate-non-uuid-uuid-without-versions.md)
