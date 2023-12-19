@@ -1,7 +1,7 @@
 ---
 title: Niet-UUID-inhoud met versies omzetten in UUID-inhoud
 description: Leer hoe u niet-UUID-inhoud met versies naar UUID-inhoud migreert.
-source-git-commit: b4ba381cad13960f2fd514b23c66016f0e08e273
+source-git-commit: d37cb4a416d85b072c152d795d8a28b5ac70ef4e
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 0%
@@ -58,6 +58,7 @@ Voer de volgende controles uit op de niet-UUID-versie (4.1 niet-UUID of 4.3.0 ni
    >[!NOTE]
    >
    >Dit hulpprogramma verwijdert geen versies die in basislijnen of revisies worden gebruikt of heeft labels.
+
 1. Starten `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
 1. Selecteren **Compatibiliteitsbeoordeling**  in het linkerdeelvenster en bladert u door een mappad.
 1. Controleer de compatibiliteit om de volgende informatie weer te geven:
