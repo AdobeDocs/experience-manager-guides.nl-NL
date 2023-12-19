@@ -1,7 +1,7 @@
 ---
 title: Niet-UUID-inhoud met versies omzetten in UUID-inhoud
 description: Leer hoe u niet-UUID-inhoud met versies naar UUID-inhoud migreert.
-source-git-commit: 4888bd4647a7ec8bbd4e53786b267cca96630219
+source-git-commit: b4ba381cad13960f2fd514b23c66016f0e08e273
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 0%
@@ -54,8 +54,7 @@ Voer de volgende controles uit op de niet-UUID-versie (4.1 niet-UUID of 4.3.0 ni
    >* U hebt beheerdersmachtigingen nodig om de migratie uit te voeren.
    >* Het wordt aanbevolen de bestanden met fouten te corrigeren voordat u verdergaat met de migratie.
 
-1. (Optioneel) Voer versiebeheer uit op de inhoud om overbodige versies te verwijderen en het migratieproces te versnellen. Selecteer de optie als u versiereiniging wilt uitvoeren
-   **Versie wissen** vanuit het migratiescherm en ga naar de gebruikersinterface met de URL `http://<server- name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
+1. (Optioneel) Voer versiebeheer uit op de inhoud om overbodige versies te verwijderen en het migratieproces te versnellen. Selecteer de optie als u versiereiniging wilt uitvoeren **Versie wissen** vanuit het migratiescherm en ga naar de gebruikersinterface met de URL `http://<server- name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
    >[!NOTE]
    >
    >Dit hulpprogramma verwijdert geen versies die in basislijnen of revisies worden gebruikt of heeft labels.
