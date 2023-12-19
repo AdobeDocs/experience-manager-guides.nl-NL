@@ -1,7 +1,7 @@
 ---
 title: Niet-UUID-inhoud met versies omzetten in UUID-inhoud
 description: Leer hoe u niet-UUID-inhoud met versies naar UUID-inhoud migreert.
-source-git-commit: 0d985688af601ca51822b116ea4baafce19f0658
+source-git-commit: b57364fa52d48791fbab07125f13007c563b7781
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 0%
@@ -53,19 +53,19 @@ Voer de volgende controles uit op de niet-UUID-versie (4.1 niet-UUID of 4.3.0 ni
    >
    >* U hebt beheerdersmachtigingen nodig om de migratie uit te voeren.
    >* Het wordt aanbevolen de bestanden met fouten te corrigeren voordat u verdergaat met de migratie.
-1. (Optioneel) Voer versiebeheer uit op de inhoud om overbodige versies te verwijderen en het migratieproces te versnellen. Selecteer de optie als u versiereiniging wilt uitvoeren **Versie wissen** vanuit het migratiescherm en ga naar de gebruikersinterface met de URL `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
+
+1. (Optioneel) Voer versiebeheer uit op de inhoud om overbodige versies te verwijderen en het migratieproces te versnellen. Selecteer de optie als u versiereiniging wilt uitvoeren
+   **Versie wissen** vanuit het migratiescherm en ga naar de gebruikersinterface met de URL `http://<server- name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
    >[!NOTE]
    >
    >Dit hulpprogramma verwijdert geen versies die in basislijnen of revisies worden gebruikt of heeft labels.
-1. Starten `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
+1. Starten `http://<server- name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
 1. Selecteren **Compatibiliteitsbeoordeling**  in het linkerdeelvenster en bladert u door een mappad.
 1. Controleer de compatibiliteit om de volgende informatie weer te geven:
    * Totaal aantal bestanden
    * Totaal aantal versies
    * Geschatte tijd voor migratie
    * Aantal bestanden met fouten
-
-
 
    ![compatibiliteitsbeoordelingstabblad in migratie](assets/migration-compatibility-assessment.png){width="800" align="left"}
 
