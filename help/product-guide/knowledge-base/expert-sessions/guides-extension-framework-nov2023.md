@@ -2,9 +2,9 @@
 title: Extension Framework of AEM Guides - Customize Web-Editor and Review UI
 description: Met het extensieframework Hulplijnen kunt u de gewenste secties van de Ui- of Webeditor-revisie aanpassen door JSON, CSS en JavaScript eenvoudig bij te werken.
 exl-id: 7b2efae3-be8c-4259-babb-f28a6903116a
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: 9406895007386cbd15d5a9412457333493d7bb36
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ In deze sessie hebt u kennis genomen van het volgende:
 
 - **Gedocumenteerde gevallen van veelvuldig gebruik** - [over Experience League](https://guides-extension.vercel.app/docs/aem_guides_framework/basic_customisation)
 
-- **Openbare opslagplaats met voorbeelden** - [op GIT](https://github.com/adobe/guides-extension/tree/sc-expert-session). Verwijs tak verwijzen sc-deskundige-zitting
+- **Openbare opslagplaats met voorbeelden** - [op GIT](https://github.com/adobe/guides-extension/tree/sc-expert-session). Verwijs tak sc-deskundige-zitting
 
 
 >[!NOTE]
