@@ -1,12 +1,12 @@
 ---
 title: Informatie over Adobe Experience Manager-hulplijnen
-description: Leer meer over Adobe Experience Manager Guides, een op DITA gebaseerde oplossing voor contentbeheer op bedrijfsniveau. De voordelen van AEM hulplijnen kennen.
-short-description: Meer informatie over AEM gidsen, een op DITA gebaseerde oplossing voor contentbeheer op bedrijfsniveau.
+description: Meer informatie over Adobe Experience Manager Guides, een op DITA gebaseerde oplossing voor contentbeheer op bedrijfsniveau. De voordelen van AEM Guides leren kennen.
+short-description: Meer informatie over AEM Guides, een op DITA gebaseerde oplossing voor contentbeheer op bedrijfsniveau.
 exl-id: 474e7eab-3474-4362-9f1d-17cc98e53184
 source-git-commit: b8fba97d5e686fd09b094a6cf5b52aa08ef2d069
 workflow-type: tm+mt
 source-wordcount: '279'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 

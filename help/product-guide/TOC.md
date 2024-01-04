@@ -1,11 +1,11 @@
 ---
-user-guide-title: Hulplijnen Experience Manager
-user-guide-description: Lees de productdocumentatie voor Adobe Experience Manager Guides.
-breadcrumb-title: Hulplijnen AEM
+user-guide-title: Experience Manager Guides
+user-guide-description: Lees productdocumentatie voor Adobe Experience Manager Guides.
+breadcrumb-title: Handleiding voor AEM Guides
 source-git-commit: 9406895007386cbd15d5a9412457333493d7bb36
 workflow-type: tm+mt
 source-wordcount: '1638'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
