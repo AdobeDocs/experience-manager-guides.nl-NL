@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lees productdocumentatie voor Adobe Experience Manager Guides.
 breadcrumb-title: Handleiding voor AEM Guides
-source-git-commit: 5962414dfc065543b946cac1468a5f62013073cf
+source-git-commit: 2f5e951d3452e05fb307d6c34487269b5172000e
 workflow-type: tm+mt
-source-wordcount: '1660'
+source-wordcount: '1679'
 ht-degree: 2%
 
 ---
@@ -392,6 +392,18 @@ ht-degree: 2%
             + Schematron {#schematron}
                + [Schematron-validatie](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
       + Extensiekader voor hulplijnen {#extention-framework}
+         + Aem Guides Framework {#aem-guides-framework}
+            + [Basisaanpassingen](./guides-ui-extensions/aem_guides_framework/basic-customisation.md)
+            + [JUI Framework](./guides-ui-extensions/aem_guides_framework/jui-framework.md)
+            + Componenten {#framework-components}
+               + [Knop](./guides-ui-extensions/aem_guides_framework/components/button.md)
+               + [Pictogram](./guides-ui-extensions/aem_guides_framework/components/icon.md)
+               + [Label](./guides-ui-extensions/aem_guides_framework/components/label.md)
+               + [Lijst](./guides-ui-extensions/aem_guides_framework/components/list.md)
+               + [Tekstgebied](./guides-ui-extensions/aem_guides_framework/components/textArea.md)
+            + Widgets {#framework-widgets}
+               + [Widgets renderen](./guides-ui-extensions/aem_guides_framework/Widgets/rendering-widget.md)
+               + [Standaardwidgets](./guides-ui-extensions/aem_guides_framework/Widgets/basic-widget.md)
          + Aan de slag {#getting-started}
             + [Inleiding](./guides-ui-extensions/getting-started/Introduction.md)
             + [Installatiehandleiding](./guides-ui-extensions/getting-started/integrating-customisations.md)
@@ -400,8 +412,9 @@ ht-degree: 2%
             + [Eenvoudige aanpassing](./guides-ui-extensions/customisations/add-button.md)
             + [Contextmenu&#39;s aanpassen](./guides-ui-extensions/customisations/context-menus.md)
             + [Werkbalk en werkbalk aanpassen](./guides-ui-extensions/customisations/toolbar-topbar.md)
-         + Controleren{#review-app-customisations}
-            + [Onderdelen](./guides-ui-extensions/customisations/ReviewApp/components.md)
+            + Controleren{#review-app-customisations}
+               + [Onderdelen](./guides-ui-extensions/customisations/ReviewApp/components.md)
+               + [Aanpassen](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
       + Publiceren {#publishing}
          + [AEM Omgeving configureren voor publiceren via native PDF](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
          + [FMPS en hulplijnen](./knowledge-base/kb-articles/publishing/fmpsandguides.md)

@@ -1,12 +1,12 @@
 ---
-sidebar_position: 5
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+title: Lijst
+description: Lijst
+source-git-commit: dfd4c898d3c093bfee1a8a6efff4e395efd20c60
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: '59'
 ht-degree: 0%
 
 ---
-
 
 # Lijst
 
@@ -33,7 +33,7 @@ const listJSON =  {
 },
 ```
 
-ItemConfig is gewoonlijk een `widget`. Ga voor meer informatie over widgets naar [Widgets](../Widgets/basic_widget.md)
+ItemConfig is gewoonlijk een `widget`. Ga voor meer informatie over widgets naar [Widgets](../Widgets/basic-widget.md)
 
 De gerenderde lijst ziet er als volgt uit:
 

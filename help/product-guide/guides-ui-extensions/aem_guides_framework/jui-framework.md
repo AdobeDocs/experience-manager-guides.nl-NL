@@ -1,8 +1,9 @@
 ---
-sidebar_position: 4
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+title: Jui Framework
+description: Werken met Jui Framework
+source-git-commit: a61abc0d2b480e276991db916ba0cbf630ca7996
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
@@ -23,7 +24,7 @@ De bibliotheek JUI-React-Spectrum heeft omslag widgets van de Adobe React de com
 
 ### MVC UI-ontwerp
 
-![Alt-tekst](./imgs/jui-mvc-flow.png)
+![JUI MVC-stroom](./imgs/jui-mvc-flow.png)
 
 ### Widget
 
@@ -35,7 +36,7 @@ De bibliotheek JUI-React-Spectrum heeft omslag widgets van de Adobe React de com
 - Kan andere widgets hebben
 - App is een widget
 
-![Alt-tekst](./imgs/jui-widget.png)
+![JUI-widget](./imgs/jui-widget.png)
 
 ### Element
 
@@ -76,4 +77,4 @@ De bibliotheek JUI-React-Spectrum heeft omslag widgets van de Adobe React de com
 
 ### Voorbeeld van toepassingsontwerp
 
-![Alt-tekst](./imgs/jui-sample-app.png)
+![Voorbeeldtoepassing](./imgs/jui-sample-app.png)

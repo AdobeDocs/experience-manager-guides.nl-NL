@@ -1,10 +1,14 @@
 ---
-source-git-commit: 5962414dfc065543b946cac1468a5f62013073cf
+title: Aanpassen
+description: De revisie-app aanpassen
+source-git-commit: a61abc0d2b480e276991db916ba0cbf630ca7996
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
+
+
 # De revisie-app aanpassen
 
 Om de aanpassing van de revisie-app te vereenvoudigen, hebben we enkele haken weergegeven die hieronder worden beschreven en uitgelegd:
@@ -14,7 +18,7 @@ Om de aanpassing van de revisie-app te vereenvoudigen, hebben we enkele haken we
 - id: `review_comment`
 - haak: `this.updateExtraProps`:
 
-Zoals besproken [hier](../../aem_guides_framework/basic_customisation.md)Alle nieuwe kenmerken die tijdens de aanpassing zijn toegevoegd, worden onder `this.model.extraProps`. De methode `updateExtraProps` Hiermee kunt u kenmerken toevoegen aan een revisieopmerking, waarbij u ook de update en opslag van het toegevoegde kenmerk op de server afhandelt.
+Zoals besproken [hier](../../aem_guides_framework/basic-customisation.md)Alle nieuwe kenmerken die tijdens de aanpassing zijn toegevoegd, worden onder `this.model.extraProps`. De methode `updateExtraProps` Hiermee kunt u kenmerken toevoegen aan een revisieopmerking, waarbij u ook de update en opslag van het toegevoegde kenmerk op de server afhandelt.
 
 ### Voorbeeld van gebruik
 
