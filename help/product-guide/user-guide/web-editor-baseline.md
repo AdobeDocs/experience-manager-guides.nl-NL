@@ -2,9 +2,9 @@
 title: Basislijnen maken en beheren vanuit de webeditor
 description: Maak en beheer basislijnen in de webeditor in AEM hulplijnen. Leer hoe u basislijnen maakt op basis van labels en filters toepast op de basislijnen.
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: f02a9e4a71796996a4ea933cb3c5b983103a251b
 workflow-type: tm+mt
-source-wordcount: '1468'
+source-wordcount: '1617'
 ht-degree: 0%
 
 ---
@@ -26,13 +26,13 @@ U kunt een basislijn van de Redacteur van het Web tot stand brengen door de volg
 
    ![Deelvenster Basleine](images/baseline-manage.png){width="800" align="left"}
 
-1. Op de **Basislijn** klikt u op + pictogram rechtsboven. U kunt een basislijn met een specifieke versie van de onderwerpen en van verwijzingen voorzien inhoud tot stand brengen beschikbaar op een specifieke datum en een tijd, of met een etiket dat voor een versie van onderwerpen wordt bepaald.
-1. Voer een naam in voor de basislijn in **Naam basislijn**.
-1. In **Basislijnoptie** U kunt kiezen **Bestandsversie gebruiken** of **Labels gebruiken** optie:
+1. Op de **Basislijn** selecteert u het plus-pictogram (+) rechtsboven om een basislijn te maken.
+1. Voer een naam in voor de basislijn in **Naam**.
+1. In **Configuratie** U kunt kiezen **Handmatige update** of **Automatisch bijwerken** optie:
 
-   **Bestandsversie gebruiken**: U kunt een statische basislijn met een specifieke versie van de onderwerpen en van verwijzingen voorzien inhoud tot stand brengen beschikbaar op een specifieke datum en een tijd, of met een etiket dat voor een versie van onderwerpen wordt bepaald:
+   **Handmatige update**: U kunt handmatig een statische basislijn maken met een specifieke versie van de onderwerpen en inhoud waarnaar wordt verwezen, beschikbaar op een specifieke datum en tijd, of met een label dat is gedefinieerd voor een versie van de onderwerpen:
 
-   - In **Stel de meest recente versie in op basis van** Selecteer een van de volgende opties:
+   - In **Selecteer de versie op basis van** Selecteer een van de volgende opties:
 
 
       1. **Datum** &lt;time stamp=&quot;&quot;>: Kies de versie van de onderwerpen op de opgegeven datum en tijd.
@@ -52,9 +52,9 @@ U kunt een basislijn van de Redacteur van het Web tot stand brengen door de volg
 
          Nadat u een label of versie hebt geselecteerd als op datum, worden alle onderwerpen waarnaar wordt verwezen en mediabestanden in de kaart dienovereenkomstig geselecteerd. Deze selectie van onderwerpen wordt niet getoond op het gebruikersinterface, maar het wordt bewaard in het achterste eind.
 
-   **Labels gebruiken**: Selecteer deze optie voor het maken van de basislijn om de onderwerpen te kiezen op basis van het label dat op deze onderwerpen is toegepast.
+   **Automatisch bijwerken**: Selecteer deze optie voor het maken van de basislijn om de onderwerpen automatisch te selecteren op basis van het label dat op de onderwerpen is toegepast.
 
-   Basislijnen op basis van labels worden dynamisch bijgewerkt. Als u een basislijn genereert, een basislijn downloadt of een vertaalproject maakt met een basislijn, worden de bestanden dynamisch gekozen op basis van de bijgewerkte labels. Bijvoorbeeld, als u versie 1.2 van een onderwerp met Versie 1.0 van het Etiket voor de basislijn en recentere bijgewerkte versie 1.5 met Versie 1.0 van het Etiket hebt gebruikt, zal de basislijn dynamisch worden bijgewerkt, en versie 1.5 zal worden gebruikt.
+   Basislijnen die zijn gemaakt met de configuratie voor automatische updates worden dynamisch bijgewerkt. Als u een basislijn genereert, een basislijn downloadt of een vertaalproject maakt met een basislijn, worden de bestanden dynamisch gekozen op basis van de bijgewerkte labels. Bijvoorbeeld, als u versie 1.2 van een onderwerp met Versie 1.0 van het Etiket voor de basislijn en recentere bijgewerkte versie 1.5 met Versie 1.0 van het Etiket hebt gebruikt, zal de basislijn dynamisch worden bijgewerkt, en versie 1.5 zal worden gebruikt.
 
    ![Een basislijn maken](images/dynamic-baseline.png){width="550" align="left"}
 
@@ -78,16 +78,7 @@ U kunt uw bestaande basislijnen beheren met de verschillende functies op het bas
 
 - U kunt zoeken naar een bestaande basislijn met het tekstvak in het deelvenster Basislijn. Gebruik de **Filter toepassen** om alle basislijnen weer te geven of de basislijnen weer te geven met de aanmaakstatus Voltooid, Bezig of Mislukt.
 - Gebruik de **Vernieuwen** in het deelvenster Basislijn om opnieuw te controleren op alle basislijnen en een nieuwe lijst met basislijnen weer te geven voor de DITA-kaart die wordt geopend in de Kaartweergave.
-- U kunt de inhoud van een bestaande statische basislijn weergeven of bewerken door te dubbelklikken op de basislijn in de lijst in het deelvenster Basislijn. In het basislijnbewerkingsvenster in het midden worden het DITA-kaartbestand, de inhoud of onderwerpen van de kaart en de inhoud waarnaar wordt verwezen, weergegeven.
-
-
-  ![opties van een basislijn](images/baseline-options.png){width="800" align="left"}
-
-
-
-  U kunt ook de volgende bewerkingen op de basislijn uitvoeren vanuit het menu Opties:
-
-- **Bewerken**, **Dupliceren,** **Naam wijzigen**, of **Verwijderen** een bestaande basislijn.
+- U kunt de inhoud van een bestaande statische basislijn weergeven of bewerken door te dubbelklikken op de basislijn in de lijst in het dialoogvenster **Basislijn** deelvenster. In het basislijnbewerkingsvenster in het midden worden het DITA-kaartbestand, de inhoud of onderwerpen van de kaart en de inhoud waarnaar wordt verwezen, weergegeven.
 
   >[!NOTE]
   >
@@ -95,7 +86,25 @@ U kunt uw bestaande basislijnen beheren met de verschillende functies op het bas
   >
   >Met de bewerking Bewerken in het geval van een dynamische basislijn kunt u de eigenschappen van de basislijn bewerken terwijl de referenties voor dynamische basislijnen bij uitvoering worden gegenereerd met de labels.
 
-- Bestaande labels toevoegen, verwijderen of wijzigen in het menu **Labels beheren** optie voor statische basislijnen. Als uw beheerder vooraf bepaalde etiketten heeft gevormd, dan wordt u getoond die etiketten in Add drop-down lijst van het Etiket. Zie voor meer informatie over het toevoegen van labels [Labels gebruiken](web-editor-use-label.md#).
+  ![opties van een basislijn](images/baseline-options.png){width="800" align="left"}
+
+
+
+  U kunt ook de volgende bewerkingen op de basislijn uitvoeren vanuit het menu Opties:
+- **Een basislijn dupliceren**: U kunt een basislijn dupliceren en deze aanpassen aan uw vereisten.
+  ![een basislijn dupliceren](images/baseline-duplicate.png){width="300" align="left"}
+  *Dupliceer een basislijn op basis van een label of maak een exacte kopie.*
+
+   1. Selecteren **Dupliceren** in het menu Opties van een basislijn. De **Basislijn dupliceren** wordt geopend.
+      >[!NOTE]
+      > 
+      >De standaardnaam van de basislijn is `<selected baseline name>`_suffix (zoals sample-baseline_1). U kunt de naam naar wens wijzigen.
+   1. In **Selecteer de versie op basis van** kunt u kiezen voor **Exacte kopie** of de **Label** optie:
+      - **Exacte kopie**: Met Hulplijnen voor Experience Manager wordt dezelfde versie van alle onderwerpen gekozen en wordt een exacte kopie van de gedupliceerde basislijn gemaakt.
+      - **Label**: U kunt een label kiezen in de vervolgkeuzelijst. De Gidsen van de Experience Manager selecteert die versies van de onderwerpen met het geselecteerde die etiket voor hen wordt bepaald, terwijl voor de resterende onderwerpen, het de versie van de gedupliceerde basislijn kiest. U selecteert bijvoorbeeld het label `Release 1.0` in het vervolgkeuzemenu selecteert u de versies van de onderwerpen waarvoor u dit label hebt gedefinieerd. Voor alle andere onderwerpen, kiest het de versie van de gedupliceerde basislijn.
+   1. Klikken **Dupliceren**.
+- **Naam wijzigen**, of **Verwijderen** een bestaande basislijn.
+- Bestaande labels toevoegen, verwijderen of wijzigen in het menu **Labels beheren** optie voor statische basislijnen. Als uw beheerder vooraf gedefinieerde labels heeft geconfigureerd, worden deze labels weergegeven in de vervolgkeuzelijst Label toevoegen. Zie voor meer informatie over het toevoegen van labels [Labels gebruiken](web-editor-use-label.md#).
 
   >[!NOTE]
   >
@@ -123,3 +132,4 @@ Het pictogram Filters in het dialoogvenster **Basislijnfilters** kunt u filters 
 Nadat u de basislijn hebt bewerkt, kunt u op de knop **Opslaan** aan de bovenkant om de wijzigingen in de basislijn op te slaan. U kunt op de knop **Herstellen** als u de wijziging niet wilt opslaan en de basislijn opnieuw wilt instellen. Wanneer u op de knop **Herstellen** er verschijnt een waarschuwing dat de niet-opgeslagen wijzigingen verloren gaan.
 
 **Bovenliggend onderwerp:**[ Werken met de webeditor](web-editor.md)
+

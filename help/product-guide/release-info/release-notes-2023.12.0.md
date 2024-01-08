@@ -1,7 +1,7 @@
 ---
-title: Opmerkingen bij de release | Upgrade-instructies en vaste problemen in Adobe Experience Manager-hulplijnen, release december 2023
+title: Opmerkingen bij de release | Upgrade-instructies en opgeloste problemen in Adobe Experience Manager-hulplijnen, release van december 2023
 description: Leer over de insectenmoeilijke situaties en hoe te aan de versie van December 2023 as a Cloud Service van de Gidsen van Adobe Experience Manager te bevorderen.
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
 source-wordcount: '1319'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Voor meer informatie over de nieuwe eigenschappen en de verhogingen, mening [Nie
 Voer de volgende stappen uit om de huidige as a Cloud Service installatie van de hulplijnen voor Experience Managers bij te werken:
 
 1. Controle uit de code van Git van Cloud Servicen en schakelaar aan de tak die in de pijpleiding van Cloud Servicen wordt gevormd die aan het milieu beantwoordt dat u wilt bevorderen.
-2. Bijwerken `<dox.version>` eigenschap in `/dox/dox.installer/pom.xml` bestand van uw Cloud Servicen Git-code naar 2023.12.0.16.
+2. Bijwerken `<dox.version>` eigenschap in `/dox/dox.installer/pom.xml` bestand van uw Cloud Servicen Git-code naar 2023.12.0.15.
 3. Leg de wijzigingen vast en voer de pijplijn met Cloud Servicen uit om naar de release van december 2023 van as a Cloud Service hulplijnen voor Experience Manager te upgraden.
 
 ## Stappen om de trigger van een script via een servlet in te schakelen
@@ -88,7 +88,7 @@ Voer de volgende stappen uit voor de nabewerking van de bestaande inhoud en het 
 
 Voer de volgende stappen uit om de bestaande inhoud te indexeren en de nieuwe vondst en vervangt tekst op kaartniveau en onderwerpenlijst onder het rapportlusje te gebruiken:
 
-1. Voer een verzoek van de POST op de server uit (met correcte authentificatie) - `http://<server:port>/bin/guides/map-find/indexing`. (Optioneel: u kunt specifieke paden van de kaarten doorgeven om deze te indexeren. Standaard worden alle kaarten geïndexeerd|| Bijvoorbeeld: `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
+1. Voer een verzoek van de POST op de server uit (met correcte authentificatie) - `http://<server:port>/bin/guides/map-find/indexing`. (Optioneel) U kunt specifieke paden van de kaarten doorgeven om deze te indexeren. Standaard worden alle kaarten geïndexeerd|| Bijvoorbeeld: `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
 1. U kunt ook een hoofdmap doorgeven om de DITA-kaarten van een specifieke map (en de bijbehorende submappen) te indexeren. Bijvoorbeeld: `http://<server:port>/bin/guides/map-find/indexing?root=/content/dam/test`. Wanneer zowel de parameter paths als de hoofdparameter worden doorgegeven, wordt alleen de parameter paths gebruikt.
 

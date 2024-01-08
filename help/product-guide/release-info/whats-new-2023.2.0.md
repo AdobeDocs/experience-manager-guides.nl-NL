@@ -2,9 +2,9 @@
 title: Opmerkingen bij de release | Adobe Experience Manager Guides as a Cloud Service, release februari 2023
 description: Release van Adobe Experience Manager Guides as a Cloud Service in februari
 exl-id: 090eaf94-fe3a-47e9-9937-f84f8434550d
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '1425'
+source-wordcount: '1426'
 ht-degree: 0%
 
 ---
@@ -121,7 +121,7 @@ Met de nieuwe publicatiemicroservice kunt u grote publicatiewerkbelastingen tege
 
 Voor elke publicatieaanvraag AEM as a Cloud Service hulplijnen wordt een aparte container uitgevoerd die horizontaal wordt geschaald volgens de wensen van de gebruiker. Hierdoor kunt u meerdere publicatieverzoeken uitvoeren en de prestaties verbeteren.
 
-Zie voor meer informatie [Nieuwe op microservice gebaseerde publicatie configureren voor as a Cloud Service AEM hulplijnen](/help/product-guide/knowledge-base/publishing/configure-microservices.md).
+Zie voor meer informatie [Nieuwe op microservice gebaseerde publicatie configureren voor as a Cloud Service AEM hulplijnen](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/publishing/configure-microservices.md).
 
 ## Native PDF | Een aangepaste bladwijzer toevoegen in PDF-uitvoer
 
@@ -132,7 +132,7 @@ Nu kunt u voor eenvoudige navigatie een aangepaste bladwijzer toevoegen aan een 
 AEM de Gidsen verstrekt de eigenschap om douanemateriaal op de ingangen van TOC of een bepaald onderwerp in de output van PDF toe te passen. U kunt bijvoorbeeld de kleur wijzigen van de tekst in de inhoudsopgave en de titel van het onderwerp. U kunt stijlen ook toepassen op de volledige inhoud binnen het onderwerp.
 
 
-## Native PDF | De paginamarkering opmaken in de voetnootcomponent
+## Native PDF | De paginamarkering in de voetnootcomponent opmaken
 
 Nu kunt u de paginamarkering opmaken in de voetnoten. U kunt bijvoorbeeld vierkante haakjes toevoegen of de kleur ervan wijzigen. Met deze stijlen kunnen gebruikers gemakkelijk de paginamarkeringen in het document herkennen.
 

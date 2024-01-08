@@ -2,9 +2,9 @@
 title: Rapporten in AEM
 description: Leer welke rapporten in AEM beschikbaar zijn om gebruikers te helpen de kwaliteit van de inhoud te verbeteren.
 exl-id: f0d761ff-efea-452c-bb8e-865f34a182fc
-source-git-commit: 0afe8bf9b16b1d1367971462b0d44f1721b317c5
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,6 @@ In een organisatorische opstelling, wilt u de algemene volledigheid van uw inhou
 ## Overzicht van sessie
 
 In deze sessie hebben we offline rapporten voor gebruikers weergegeven. We hebben het volgende in grote lijnen besproken:
-
 - Document- (kaart) en onderwerprapporten
 - Metagegevensrapporten en opties voor beheer van bulkmetagegevens
 - Rapporten voor hergebruik van inhoud
@@ -41,7 +40,6 @@ In deze sessie hebben we offline rapporten voor gebruikers weergegeven. We hebbe
 ## Toetsen
 
 In deze sessie hebt u kennis genomen van het volgende:
-
 - Belang van rapporten in het CCMS
 - beschikbaar in de tekstrapporten
 - voorbeelden van rapportage over inhoud
@@ -53,14 +51,13 @@ In deze sessie hebt u kennis genomen van het volgende:
 
 - **Functievideo&#39;s** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/working-with-reports.html?lang=en)
 
-- **Handboek** - [Inhoud auteur](/help/product-guide/user-guide/reports-intro.md)
+- **Handboek** - [Inhoud auteur](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
 
 - **Forum van de Gemeenschap** - Voor sessiespecifieke community-interacties over Experience League gaat u naar  [Forum met AEM hulplijnen](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
 > De functies die in deze sessie worden weergegeven, zijn beschikbaar in de volgende versies van AEM hulplijnen:
->
 > - On-prem: 4.2 of hoger
 > - Cloud Servicen: 2302 of hoger
 

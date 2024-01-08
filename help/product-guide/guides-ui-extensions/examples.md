@@ -1,8 +1,8 @@
 ---
 sidebar_position: 8
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ In dit bestand berekenen en toewijzen we de unieke opmerking-id die in het dialo
 5. [Deelvenster Onderwerpbeoordelingen](../../src/review_app_examples/topic_reviews.ts): Dit bestand is uitgebreid [Deelvenster Inline revisie](../../src/review_app_examples/inline_review_panel.ts) zodat toegevoegde aanpassingen ook aan de revisie-app werken.
 
 6. [Accepteren met dialoogvenster Wijzigen](../../src/review_app_examples/accept_with_modification_dialog.ts)
-Dit is een voorbeeld van het toevoegen van een nieuwe widget aan de app. Hier hebben we een nieuw dialoogvenster gemaakt met twee invoertekstvelden: `Revised Text` en `Adjudicator Comment Rationale`
+Dit is een voorbeeld van het toevoegen van nieuwe widgets aan app. Hier hebben we een nieuw dialoogvenster gemaakt met twee invoertekstvelden: `Revised Text` en `Adjudicator Comment Rationale`
 
 ![Accepteren met dialoogvenster Wijzigen](./imgs/accept_with_modification_dialogue.png)
 

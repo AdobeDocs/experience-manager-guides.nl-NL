@@ -2,9 +2,9 @@
 title: De publicatiefunctie Native PDF aanpassen en configureren
 description: Leer hoe u de verschillende onderdelen van de functie Native PDF aanpast en configureert.
 exl-id: 00bc894a-031e-4d09-bd30-331399fedbc8
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: c79f1d114d8a708cd088f2846243bbcfeed6e620
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,7 @@ Raadpleeg de volgende secties voor meer informatie:
 * [Componenten van een PDF-sjabloon](../native-pdf/components-pdf-template.md)
 * [Een pagina-indeling ontwerpen](../native-pdf/design-page-layout.md)
 * [Ondersteuning voor taalvariabelen](../native-pdf/native-pdf-language-variables.md)
+* [Variabelen in de PDF-uitvoer](../native-pdf/native-pdf-variables.md)
 * Algemene inhoudsstijlen {#content-styles}
    * [Werken met algemene inhoudsstijlen](../native-pdf/stylesheet.md)
    * [Werken met aangepaste wijzigingsbalken](../native-pdf/change-bar-style.md)

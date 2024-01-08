@@ -2,9 +2,9 @@
 title: Inhoud beheren met behulp van basislijnen
 description: Leer hoe u basislijnen kunt gebruiken om uw inhoud effectief te beheren.
 exl-id: 3fc2e889-b255-4e8d-9750-ab61337107ae
-source-git-commit: 0afe8bf9b16b1d1367971462b0d44f1721b317c5
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '183'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,6 @@ In deze sessie leert u hoe u basislijnen kunt gebruiken om uw inhoud effectief t
 ## Toetsen
 
 In deze sessie leert u over het volgende:
-
 - Verschillende basislijnbewerkingen in AEM hulplijnen
 - Downloaden, publiceren en vertalen met een basislijn
 - Aanbevolen procedures voor het gebruik van een basislijn
@@ -41,14 +40,13 @@ In deze sessie leert u over het volgende:
 
 - **Functievideo&#39;s** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
-- **Handboek** - [Werken met basislijn](/help/product-guide/user-guide/generate-output-use-baseline-for-publishing.md)
+- **Handboek** - [Werken met basislijn](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html)
 
 - **Forum van de Gemeenschap** - Voor sessiespecifieke community-interacties over Experience League gaat u naar [Forum met AEM hulplijnen](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
 >De functies die in deze sessie worden weergegeven, zijn beschikbaar in de volgende versies van AEM hulplijnen:
->
 > - On-prem 4.1 en hoger
 > - Cloud Servicen 2211 en hoger
 

@@ -2,9 +2,9 @@
 title: De functies van de webeditor kennen
 description: Ontdek functies van de webeditor in AEM hulplijnen. Zorg dat u de interface van de webeditor kent, zoals de hoofdwerkbalk, de secundaire werkbalk, het linkerdeelvenster, het bewerkingsgebied van inhoud en het rechterdeelvenster.
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: 9d9a1f270873869ce8261aae439f0ecd7d9fea94
 workflow-type: tm+mt
-source-wordcount: '17222'
+source-wordcount: '17364'
 ht-degree: 0%
 
 ---
@@ -147,17 +147,19 @@ In het volgende schermafbeelding worden slechts 3 van de 4 geconfigureerde eleme
 
   ![](images/editor-setting-add-attributes-list.png-to-element.PNG){width="300" align="left"}
 
-- **Profiel publiceren**: Dit bevat de publicatieprofielen die kunnen worden gebruikt om de basisuitvoer van de kennis te publiceren. U kunt een nieuw profiel maken voor een geselecteerd type consument. Bijvoorbeeld Salesforce.
+- **Profiel publiceren**: Dit bevat de publicatieprofielen die kunnen worden gebruikt om de **Kennisbank** uitvoer. U kunt een nieuw profiel voor een doelkennisbasis tot stand brengen. Bijvoorbeeld Salesforce of ServiceNow.
 
-   - **Vereisten voor het maken van een Salesforce-publicatieprofiel**
+   - **Een Salesforce-publicatieprofiel maken**
 
-      - Maak een verbonden app voor Salesforce. Zie voor meer informatie [OAuth-instellingen inschakelen voor API-integratie](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&amp;type=5).
+     **Vereisten**
+
+      - Maak een verbonden app voor Salesforce. Raadpleeg voor meer informatie [OAuth-instellingen inschakelen voor API-integratie](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&amp;type=5).
 
       - Zorg tijdens het configureren van de verbonden app voor het volgende:
 
          - Geef de callback op.
 
-           `URL: http://: <server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
+           `URL: http://<server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
 
          - Selecteer de volgende OAuth-bereiken:
             - Volledige toegang (volledig)
@@ -166,18 +168,38 @@ In het volgende schermafbeelding worden slechts 3 van de 4 geconfigureerde eleme
   Als de app eenmaal is geconfigureerd, biedt Salesforce een **Consumentencode** en **Consumentengeheim**.
 
   Deze kunnen worden gebruikt om het Salesforce-publicatieprofiel te maken.
-  ![profielen in editorinstellingen](./images/create-profile-editor-settings.png){width="300" align="left"}
 
 
+   - Als u een Salesforce-publicatieprofiel wilt maken, selecteert u de optie **Salesforce** Kennisbasis van de **Servertype** vervolgkeuzelijst. Voer een profielnaam in. In de **Site-URL** voert u de consumentensite in die u wilt gebruiken om de uitvoer te publiceren en voegt u vervolgens de **Consumentencode** en **Consumentengeheim** verstrekt door de consumentenwebsite van Salesforce. Dan, **Valideren** en **Opslaan** het nieuwe profiel.
+     ![salesforce publicatieprofiel in editorinstellingen](./images/salesforce-publish-profile.png){width="550" align="left"}
 
-- Als u een publicatieprofiel wilt maken, kunt u een kennisbasis zoals Salesforce selecteren in het menu **Servertype** vervolgkeuzelijst. Voer een profielnaam in. In de **Site-URL** Voer de consumentensite in die u wilt gebruiken voor het publiceren van de uitvoer en voeg vervolgens de **Consumentencode** en **Consumentengeheim** verstrekt door de consumentensite zoals Salesforce. Meld u vervolgens aan bij het nieuwe profiel.
-
-  >[!NOTE]
-  >
-  >Om een volmacht voor Salesforce in de Gidsen van de Experience Manager te vormen, gebruik Apache de Configuratie van de Volmacht van HTTP Componenten in AEM. Leer hoe u [vorm volmacht voor de Controle van de Verbinding AEM](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
+     >[!NOTE]
+     >
+     >Om een volmacht voor Salesforce in de Gidsen van de Experience Manager te vormen, gebruik Apache de Configuratie van de Volmacht van HTTP Componenten in AEM. Leer hoe u [vorm volmacht voor de Controle van de Verbinding AEM](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
 
 
-  Nadat u zich hebt aangemeld, kunt u het publicatieprofiel selecteren in de uitvoervoorinstellingen van een DITA-kaart en de uitvoer voor geselecteerde artikelen genereren. Zie voor meer informatie [Publiceren op basis van artikelen vanuit de webeditor](../install-guide/configure-article-based-publishing.md) in de Installatie- en configuratiehandleiding.
+   - **Een ServiceNow-publicatieprofiel maken**
+
+     **Vereisten**
+
+     Vorm de server ServiceNow om de activa te uploaden.
+      - Verbinding maken met de **ServiceNow** server.
+      - Navigeren naar **Systeemeigenschappen** > **Beveiliging**.
+      - Schakel de volgende optie uit:
+
+        **Deze eigenschap moet worden ingesteld om MIME-typecontrole te activeren voor uploads (alle versies Eureka en up). Schakelt mime-validatie (true) of uit (false) voor de bestandsbijlagen. Bestandsextensies die zijn geconfigureerd via glide.gehechtheid.extensions worden tijdens het uploaden gecontroleerd op het MIME-type.**
+
+      - Klikken **Opslaan**.
+
+     Als u de app hebt geconfigureerd, maakt u de **ServiceNow** Profiel publiceren.
+   - Om een Publish Profiel tot stand te brengen, selecteer de Kennisbank ServiceNow van **Servertype** vervolgkeuzelijst. Een profiel invoeren **Naam**. In de **ServiceNow URL** voert u de consumentensite in die u voor het publiceren van de uitvoer wilt gebruiken en voegt u vervolgens de **Gebruikersnaam** en **Wachtwoord** verstrekt door de de consument ServiceNow plaats. Dan, **Valideren** en **Opslaan** het nieuwe profiel.
+
+     ![ServiceNow-publicatieprofiel](./images/service-now-publish-profile.png){width="550" align="left"}
+
+  Nadat u hebt gevalideerd, kunt u het publicatieprofiel selecteren in de uitvoervoorinstellingen van een DITA-kaart en deze gebruiken om de uitvoer naar de  **Salesforce** of **ServiceNow** server die u hebt gekozen.
+
+  Meer informatie over de [Kennisbank](../user-guide/generate-output-knowledge-base.md) uitvoervoorinstelling.
+
 
 - **Validatie**: Dit lusje bevat opties om de Bevestigingen van het Schema in de redacteur van het Web te vormen. U kunt de volgende functies inschakelen:
 
@@ -186,7 +208,7 @@ In het volgende schermafbeelding worden slechts 3 van de 4 geconfigureerde eleme
      >[!NOTE]
      >Het geselecteerde schemabestand of de geselecteerde schemabestanden blijven aanwezig voor het geselecteerde mapprofiel.
 
-     ![Validatie in editorinstellingen](./images/editor-setting-validation.png){width="300" align="left"}
+     ![Validatie in editorinstellingen](./images/editor-setting-validation.png){width="550" align="left"}
 Hiermee voorkomt u dat gebruikers een bestand opslaan dat een regel verbreekt die is gedefinieerd in de geselecteerde Schema-bestanden. Als u deze optie niet selecteert, wordt het bestand niet gevalideerd voordat de wijzigingen worden opgeslagen.
 
    - **Laat alle gebruikers schemabestanden toevoegen in het validatievenster**: Selecteer deze optie als u wilt dat gebruikers een willekeurig schemabestand kunnen toevoegen in het deelvenster Validatie van de webeditor. Dit staat de gebruikers toe om dossiers Schematron toe te voegen en dan de onderwerpen tegen het dossier van Schematron te bevestigen. Als deze optie niet is geselecteerd, **Schematron-bestand toevoegen** is niet beschikbaar voor de gebruikers in het dialoogvenster **Deelvenster Validatie** van de webeditor.
@@ -232,9 +254,8 @@ De gebruikersvoorkeuren zijn beschikbaar voor alle auteurs. Met de voorkeuren ka
 
 - **Hoofdmap selecteren**: Selecteer een DITA-toewijzingsbestand om sleutelverwijzingen of woordenboekitems op te lossen. De geselecteerde hoofdmap heeft de hoogste prioriteit om toetsverwijzingen op te lossen. Zie voor meer informatie [Belangrijke verwijzingen oplossen](map-editor-other-features.md#id176GD01H05Z).
 
-
 >[!NOTE]
->
+> 
 > Als u geen wortelkaart wilt gebruiken, dan zorg ervoor dat **Hoofdmap selecteren** veld is leeg.
 
 **De modus Auteur, Bron en Voorvertoning**
@@ -666,7 +687,7 @@ Met AEM hulplijnen kunt u labels opgeven in een tekstindeling met vrije vorm of 
 
 Deze labels worden in de vorm van een vervolgkeuzelijst weergegeven aan auteurs, waar ze een label moeten opgeven. Dit zorgt ervoor dat alleen vooraf gedefinieerde, consistente labels in het systeem worden gebruikt.
 
-Er zijn verschillende methoden om labels toe te passen op uw onderwerpen - [Versiehistorie](web-editor-use-label.md#) paneel in de interface Elementen, [Basislijnen](/help/product-guide/user-guide/generate-output-use-baseline-for-publishing.md#id184KD0T305Z) UI en de Redacteur van het Web. De eigenschap van het Etiket van de Versie in de Redacteur van het Web geeft auteurs snelle en gemakkelijke manier om etiketten aan hun onderwerpen toe te wijzen.
+Er zijn verschillende methoden om labels toe te passen op uw onderwerpen - [Versiehistorie](web-editor-use-label.md) paneel in de interface Elementen, [Basislijnen](/help/product-guide/user-guide/generate-output-use-baseline-for-publishing.md) UI en de Redacteur van het Web. De eigenschap van het Etiket van de Versie in de Redacteur van het Web geeft auteurs snelle en gemakkelijke manier om etiketten aan hun onderwerpen toe te wijzen.
 
 Om etiketten aan uw onderwerp van de Redacteur van het Web toe te voegen, voer de volgende stappen uit:
 

@@ -2,9 +2,9 @@
 title: Workflow na generatie
 description: Een overzicht van de workflow na de generatie met een voorbeeld
 exl-id: e19fdc0b-0ec6-46ce-81ed-e9490d12c029
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -20,15 +20,13 @@ U kunt bijvoorbeeld bepaalde eigenschappen instellen voor de uitvoer van de PDF,
 ### Een workflowproces maken
 
 Maak een op Java of ECMA gebaseerd workflowproces dat de bewerking uitvoert op de gegenereerde uitvoer. Bijvoorbeeld, kopieert het kopiëren van sommige meta-gegevens van bron aan de geproduceerde inhoud of het manipuleren van meta-gegevens van de geproduceerde output.
-
 - We nemen bijvoorbeeld een voorbeeld van het maken van een dergelijk proces met behulp van ECMA-script (u kunt het bijgevoegde pakket raadplegen)
-- Raadpleeg de sectie &quot;*Workflow voor het genereren na uitvoer aanpassen*&quot; van [Installatie- en configuratiehandleiding](/help/product-guide/install-guide/customize-workflows.md#id17A6GI004Y4)
+- Raadpleeg de sectie &quot;*Workflow voor het genereren na uitvoer aanpassen*&quot; van [Installatie- en configuratiehandleiding](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_Installation-Configuration-Guide_EN.pdf#page=119)
 
 
 ### Een workflowmodel maken
 
 Met het proces van het douanewerkschema dat u in vorige stap creeerde, creeer een werkschemamodel en voeg die processtap aan het toe.
-
 - U moet ook een verplichte processtap toevoegen &quot;*Post Generation voltooien*&quot; als de laatste stap van de workflow.
 
 Verwijs hieronder getoonde model van het steekproefwerkschema:

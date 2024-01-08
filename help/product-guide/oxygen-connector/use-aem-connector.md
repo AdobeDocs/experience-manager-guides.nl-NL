@@ -4,9 +4,9 @@ description: Leer hoe u Oxygen-insteekmodule voor Adobe Experience Manager-hulpl
 hide: true
 hidefromtoc: true
 exl-id: 9a140564-27eb-404e-93a5-f5c81364e7f7
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: 0e19b870541e8e65dc371eb01fc3256f172c1a91
 workflow-type: tm+mt
-source-wordcount: '6101'
+source-wordcount: '6294'
 ht-degree: 0%
 
 ---
@@ -246,22 +246,21 @@ Voer de volgende stappen uit om profielkenmerken en kruisverwijzingen te configu
 
    ![documenttype koppelen](images/document_type_association.png){width="650" align="left"}
 
-1. In de **Classpath** selecteert u com.adobe.o2.connector in het dialoogvenster **Loader van bovenliggende klasse gebruiken vanuit insteekmodule met id** vervolgkeuzelijst.
+1. In de **Classpath** tab, selecteert u `com.adobe.o2.connector` in de **Loader van bovenliggende klasse gebruiken vanuit insteekmodule met id** vervolgkeuzelijst.
 
    ![Tabblad Klassepad](images/dita-extension.png){width="650" align="left"}
 
 1. In de **Extensies** wijzigt u de volgende wijzigingen:
-   - Klikken **Kies** naast de **Auteur Extension State Listener** krachtens **Afzonderlijke extensies** en selecteer CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn in het dialoogvenster **Klasse** lijst. Klikken **OK**.
-   - Klikken **Kies** naast de **Editor aangepaste kenmerkwaarde auteur** krachtens **Afzonderlijke extensies** en selecteer CustomValueEditor - com.adobe.o2.framework.extn in het dialoogvenster **Klasse** lijst. Klikken **OK**.
-Het volgende schermschot toont gevormd **Extensie** tab voor DITA-onderwerpen:
 
-     ![Gevormde uitbreiding voor onderwerpen DITA](images/dita-topic-extension-tab.png){width="650" align="left"}
-
-   - Klikken **Kies** naast de **Extensiebundel** en selecteer LinkResolverExtensionBundle - com.adobe.o2.framework.extn in het dialoogvenster **Klasse** lijst. Klikken **OK**.
-
+   - Klikken **Kies** naast de **Extensiebundel** en selecteert u   `LinkResolverExtensionBundle - com.adobe.o2.framework.extn` in de **Klasse** lijst. Klikken **OK**.
      ![Gevormde uitbreiding voor onderwerpen DITA](images/dita-map-extenstion-link-resolve.png) {width="650" align="left"}
+   - Klikken **Kies** naast de **Auteur Extension State Listener** krachtens **Afzonderlijke extensies** en selecteert u `CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn` in de **Klasse** lijst. Klikken **OK**.
+   - Klikken **Kies** naast de **Editor aangepaste kenmerkwaarde auteur** krachtens **Afzonderlijke extensies** en selecteert u `CustomValueEditor - com.adobe.o2.framework.extn` in de **Klasse** lijst. Klikken **OK**.
+   - Klikken **Kies** naast de **Invoeghandler voor externe objecten van auteur** krachtens **Afzonderlijke extensies** en selecteert u `CustomURLInsertionHandler - com.adobe.o2.ui ` in de **Klasse** lijst. Klikken **OK**.
 
 
+   Het volgende schermschot toont gevormd **Extensie** tab voor DITA-onderwerpen:
+   <img src="images/dita-topic-extension-tab.png" alt="Gevormde uitbreiding voor onderwerpen DITA" width="650" border="2px">
 1. Klikken **OK** in alle dialoogvensters om uw wijzigingen op te slaan.
 
 ### DITA-kaartextensie configureren
@@ -274,16 +273,19 @@ Voer de volgende stappen uit om de DITA kaartuitbreiding te vormen:
 1. In de **Koppeling naar documenttype** tab, selecteert u **DITA-kaart** en klik vervolgens op **Uitbreiden**.
 1. In de **Classpath** selecteert u com.adobe.o2.connector in het dialoogvenster **Loader van bovenliggende klasse gebruiken vanuit insteekmodule met id** vervolgkeuzelijst.
 1. In de **Extensies** wijzigt u de volgende wijzigingen:
-1. 
-   - Klikken **Kies** naast de **Auteur Extension State Listener** krachtens **Afzonderlijke extensies** en selecteer CustomDITAMapAuthorExtensionStateListener - com.adobe.o2.framework.extn in het dialoogvenster **Klasse** lijst. Klikken **OK**.
-- Klikken **Kies** naast de **Editor aangepaste kenmerkwaarde auteur** krachtens **Afzonderlijke extensies** en selecteer CustomValueEditor - com.adobe.o2.framework.extn in het dialoogvenster **Klasse** lijst. Klikken **OK**.
-- *\(Optioneel\)* Als u verwijzingen niet wilt oplossen terwijl het openen van een kaartdossier, dan moet u de volgende extra configuratie uitvoeren:
+   - Klikken **Kies** naast de **Extensiebundel** en selecteert u   `com.adobe.o2.framework.extn.LinkResolverDITAMapExtensionBundle` in de **Klasse** lijst. Klikken **OK**.
 
-  Klikken **Kies** naast de **Resolver van verwijzingen** krachtens **Afzonderlijke extensies** en selecteer CustomDITAMapReferenceResolver - com.adobe.o2.framework.extn in het dialoogvenster **Klasse** lijst. Klikken **OK**.
+   - Klikken **Kies** naast de **Auteur Extension State Listener** krachtens **Afzonderlijke extensies** en selecteert u `CustomDITAMapAuthorExtensionStateListener - com.adobe.o2.framework.extn` in de **Klasse** lijst. Klikken **OK**.
 
-  Het volgende schermschot toont gevormd **Extensie** tab:
+   - Klikken **Kies** naast de **Invoeghandler voor externe objecten van auteur** krachtens **Afzonderlijke extensies** en selecteert u `CustomURLInsertionHandler - com.adobe.o2.ui ` in de **Klasse** lijst. Klikken **OK**.
 
-  ![Gevormde uitbreiding voor kaart DITA](images/dita-map-extension-tab.png){width="650" align="left"}
+   - Klikken **Kies** naast de **Editor aangepaste kenmerkwaarde auteur** krachtens **Afzonderlijke extensies** en selecteert u `CustomValueEditor - com.adobe.o2.framework.extn` in de **Klasse** lijst. Klikken **OK**.
+
+   - Klikken **Kies** naast de **Verwijzingen oplossen** krachtens **Afzonderlijke extensies** en selecteert u `CustomDITAMapReferenceResolver - com.adobe.o2` in de **Klasse** lijst. Klikken **OK**.
+   - *\(Optioneel\)* Als u verwijzingen niet wilt oplossen terwijl het openen van een kaartdossier, dan moet u de volgende extra configuratie uitvoeren:
+
+   Het volgende schermschot toont gevormd **Extensie** tab:
+   <img src="images/dita-map-extension-tab.png" alt="Gevormde uitbreiding voor kaart DITA" width="650" border="2px">
 
 1. Klikken **OK** in alle dialoogvensters om uw wijzigingen op te slaan.
 
@@ -440,7 +442,7 @@ Wanneer u een bestand incheckt, wordt de lokale kopie van uw systeem opgeslagen 
 
    ![Het dialoogvenster Inchecken](images/checkin-dropdown-labels.png){width="550" align="left"}
 
-   U kunt veelvoudige etiketten (die door komma&#39;s worden gescheiden) aan de zelfde versie van een onderwerp toevoegen.  Bijvoorbeeld: *Adobe*, *AEM*,*Hulplijnen*
+   U kunt veelvoudige etiketten (die door komma&#39;s worden gescheiden) aan de zelfde versie van een onderwerp toevoegen.  Bijvoorbeeld: *Adobe*, *AEM*, *Hulplijnen*.
 Nochtans, kunt u niet het zelfde etiket aan de verschillende versies van een onderwerp toevoegen. Als u een label toevoegt dat u al aan een eerdere versie hebt toegevoegd, wordt het toegevoegd aan de meest recente versie en verwijderd uit de vorige versie.
 
    >[!NOTE]
@@ -511,7 +513,7 @@ Bij het verplaatsen of kopiëren van inhoud van uw lokale systeem naar AEM opsla
 
 - Wanneer u inhoud uitcheckt vanuit AEM opslagplaats en wijzigingen aanbrengt in uw lokale systeem, moet u ervoor zorgen dat de bestandsnaam niet wordt gewijzigd op het moment dat het bestand wordt geüpload.
 
-- Als u een verwijzing invoegt in DITA Maps Manager, wordt de titel van het bestand weergegeven en niet de UUID. Als de titel niet aanwezig is, dan toont het filename.
+- Als u een verwijzing invoegt in DITA Maps Manager of de Editor, wordt de titel van het bestand weergegeven en niet de UUID. Als de titel niet aanwezig is, dan toont het filename.
 
 ### Favorieten toevoegen of verwijderen {#id195HC04405P}
 
@@ -607,6 +609,24 @@ Voer de volgende stappen uit om een onderwerp DITA in de Auteur van XML van Zuur
    >[!NOTE]
    >
    >Controleer of u het onderwerp incheckt met de Oxygen-insteekmodule voor AEM hulplijnen. Als u incheckt vanuit de AEM webinterface, worden de wijzigingen die u aanbrengt in de Oxygen XML-auteur niet opgeslagen in de ingecheckte versie van het onderwerp.
+
+**Voeg een verwijzing naar een onderwerp van de bewaarplaats van de Gidsen van de Experience Manager in**
+
+U kunt een onderwerp ook slepen en laten vallen om de verwijzing in een onderwerp of een kaart op te nemen DITA.
+>[!NOTE]
+>
+> U moet een bestand uitchecken voordat u er een verwijzing naar toevoegt.
+
+De volgende elementen worden toegevoegd op basis van het type verwijzingen:
+
+Als u aan de Redacteur met een open onderwerp laat vallen:
+- Er wordt een verwijzing toegevoegd met `<image>` -element voor de afbeeldingen.
+- Een objectelement wordt toegevoegd voor een video of audio.
+- De `<xref>`  Het element wordt toegevoegd voor alle andere verwijzingen zoals onderwerp, kaart, DITAVAL, PDF, ZIP, en XML.
+
+Als u naar Editor of DITA Maps Manager met een geopende Kaart daalt:
+- De `<mapref>` element wordt toegevoegd voor kaartverwijzingen, die een kaart DITA, een boekkaart, of een OnderwerpRegeling omvatten.
+- De `<topicref>` Het element wordt toegevoegd voor alle andere verwijzingen zoals onderwerp, kaart, DITAVAL, PDF, ZIP, en XML.
 
 
 ## Werken met kenmerkprofielen {#id1827JA002YK}

@@ -2,9 +2,9 @@
 title: Aangepaste stijlen toevoegen aan webeditor van hulplijnen
 description: Leer hoe u aangepaste stijlen toevoegt om de vormgeving van de gulden-webeditor te wijzigen.
 exl-id: 03143fb2-d05d-4103-b172-8b91880b7f9e
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,6 @@ Gebruik de mapprofielen om de *css_layout.css* onder het tabblad &quot;XML Edito
 [Gebruik deze koppeling voor meer informatie over het mapprofiel en het configureren van de CSS-sjabloonlay-out](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=en#customize-the-css-template-layout)
 
 Gebruik het volgende om bovenstaande stijl in uw webeditor in te stellen:
-
 - Gebruiken [css_layout.css](../../../assets/authoring/webeditor-customstyles-css_layout.css) en uploadt u het naar het gewenste mapprofiel
 - Het bijgevoegde pakket installeren [webeditor-styles-resources.zip](../../../assets/authoring/webeditor-styles-resources.zip) het gebruiken van AEM pakketmanager om de middelen te installeren die in het bovengenoemde CSS dossier worden gebruikt
 
@@ -57,4 +56,4 @@ Please note this is compatible to AEM Guides version 4.2 and AEM Guides cloud ve
 
 ## Verwijzingen
 
-U kunt ook geïnteresseerd zijn in de sessie met experts over webeditor-configuraties en aanpassingen die in [Expertsessie voor spetters](/help/product-guide/knowledge-base/expert-sessions/webbased-authoring-jan2023.md)
+U kunt ook geïnteresseerd zijn in de sessie met experts over webeditor-configuraties en aanpassingen die in [Expertsessie voor spetters](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/webbased-authoring-jan2023.html?lang=en)

@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lees productdocumentatie voor Adobe Experience Manager Guides.
 breadcrumb-title: Handleiding voor AEM Guides
-source-git-commit: 2f5e951d3452e05fb307d6c34487269b5172000e
+source-git-commit: 2c81d111dede5301366169ba5f4c3825ac39c491
 workflow-type: tm+mt
-source-wordcount: '1679'
+source-wordcount: '1686'
 ht-degree: 2%
 
 ---
@@ -155,6 +155,7 @@ ht-degree: 2%
       + Uitvoervoorinstellingen in AEM hulplijnen {#output-presets-aemg}
          + [Site AEM](./user-guide/generate-output-aem-site.md)
          + [PDF](./user-guide/generate-output-pdf.md)
+         + [Kennisbank](./user-guide/generate-output-knowledge-base.md)
          + [HTML 5](./user-guide/generate-output-html5.md)
          + [EPUB](./user-guide/generate-output-epub.md)
          + [Aangepast](./user-guide/generate-output-custom.md)
@@ -266,6 +267,7 @@ ht-degree: 2%
             + [PDF-sjabloon](./native-pdf/pdf-template.md)
             + [Componenten van een PDF-sjabloon](./native-pdf/components-pdf-template.md)
             + [Een pagina-indeling ontwerpen](./native-pdf/design-page-layout.md)
+            + [Variabelen in de PDF-uitvoer](./native-pdf/native-pdf-variables.md)
             + [Ondersteuning voor taalvariabelen](./native-pdf/native-pdf-language-variables.md)
             + Algemene inhoudsstijlen {#content-styles}
                + [Werken met algemene inhoudsstijlen](./native-pdf/stylesheet.md)
@@ -430,3 +432,4 @@ ht-degree: 2%
          + [Werken met voorwaardelijke inhoud](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
          + [Werken met toetsen](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
    + [Zuurstofaansluiting gebruiken](./oxygen-connector/use-aem-connector.md)
+

@@ -2,9 +2,9 @@
 title: Native PDF-publicaties
 description: Leer hoe u PDF kunt publiceren met de native PDF-engine in AEM hulplijnen.
 exl-id: e7ba6d2d-ebfb-4400-9b10-c4fb173123cf
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '204'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,6 @@ In deze sessie leert u hoe u PDF kunt publiceren met de native PDF-engine in AEM
 ## Toetsen
 
 In deze sessie leert u over het volgende:
-
 - PDF Publishing Essentials
 - Verschillende onderdelen van de PDF-sjabloon maken en aanpassen
 - Inhoud structureren en opmaken voor publicatie
@@ -42,14 +41,13 @@ In deze sessie leert u over het volgende:
 
 - **Functievideo&#39;s** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
-- **Handboek** - [Native PDF-publicatie](/help/product-guide/native-pdf/pdf-template.md)
+- **Handboek** - [Native PDF-publicatie](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/configuring/config-native-pdf-publish/pdf-template.html?lang=en)
 
 - **Forum van de Gemeenschap** - Voor sessiespecifieke community-interacties over Experience League gaat u naar  [Forum met AEM hulplijnen](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
 > De functies die in deze sessie worden weergegeven, zijn beschikbaar in de volgende versies van AEM hulplijnen:
->
 > - On-prem 4.2 of hoger
 > - Cloud Servicen 2211 en hoger
 

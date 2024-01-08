@@ -1,15 +1,15 @@
 ---
-title: Documentatie voor hulplijnen voor Experience Managers
-description: Zoek productdocumentatie voor Experience Manager Guides (voorheen XML Documentation voor Adobe Experience Manager). Leer over inheemse steun DITA en gestructureerd creatie in Experience Manager.
+title: Tutorials voor hulplijnen voor Experience Managers
+description: Bekijk zelfstudievideo's voor Experience Manager Guides (voorheen XML Documentation voor Adobe Experience Manager). Leer over inheemse steun DITA en gestructureerd creatie in Experience Manager.
 exl-id: 06dd1b77-1a98-430f-8322-475d4fa4947b
-source-git-commit: 0afe8bf9b16b1d1367971462b0d44f1721b317c5
+source-git-commit: f02a9e4a71796996a4ea933cb3c5b983103a251b
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Experience Manager Guides] overzicht {#overview}
+# Tutorials voor [!DNL Adobe Experience Manager Guides] {#overview}
 
 [!DNL Experience Manager Guides] (wordt _[!DNL AEM Guides]_hieronder) is een krachtige, onderneming-rang oplossing van het componentenbeheer (CCMS). Het maakt native DITA-ondersteuning in de Experience Manager mogelijk en biedt AEM de mogelijkheid om op DITA gebaseerde inhoud te maken en te leveren. Auteurs kunnen hiermee inhoud maken met elk offline DITA-ontwerpgereedschap, zoals Adobe FrameMaker of een gebruiksvriendelijke ingebouwde webeditor.
 
@@ -21,17 +21,17 @@ Met [!DNL AEM Guides] kunnen bedrijven naadloze en persoonlijke ervaringen aan e
 > 
 > Adobe Experience Manager Guides was voorheen gemarkeerd als _XML Documentation voor Adobe Experience Manager_. Houd er rekening mee dat bepaalde verwijzingen in de documentatie mogelijk nog steeds verwijzen naar eerdere branding, maar nog steeds van toepassing zijn op de huidige aanbieding.
 
-## Videozelfstudies
+## Nieuwe functies
 
-* **[[!DNL AEM Guides] Aan de slag - zelfstudie](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/getting-started/overview.html){target=_blank}**
+* **[[!DNL AEM Guides] Aan de slag-cursus](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/getting-started/overview.html){target="blank"}**
 
   _Leer hoe u inhoud maakt, ordent, ontwerpt en publiceert met [!DNL Adobe Experience Manager Guides]._
 
-* **[[!DNL AEM Guides] Authoring in de ingebouwde webeditor](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html){target=_blank}**
+* **[[!DNL AEM Guides] Authoring in de ingebouwde webeditor](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html){target="blank"}**
 
   _Leer hoe u inhoud ontwerpt met de native webeditor in  [!DNL Adobe Experience Manager Guides]. Meer informatie over gebruikersvoorkeuren, editorinstellingen, configuratie, werkbalken en meer._
 
-* **[Uitvoergeneratie met [!DNL AEM Guides]](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/overview.html){target=_blank}**
+* **[Uitvoergeneratie met [!DNL AEM Guides]](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/overview.html){target="blank"}**
 
   _Leer hoe u uitvoer genereert met [!DNL Adobe Experience Manager Guides]. Meer informatie over de verschillende functies die beschikbaar zijn voor het genereren van uitvoer: rapporten, basislijnen, voorwaarden, probleemoplossing, bulkpublicaties en activering._
 
@@ -88,11 +88,9 @@ Dummy links cause validation to fail
 
 -->
 
-<!--
 
-## Additional Resources
+## Aanvullende bronnen
 
-* [[!DNL AEM Guides] Online User Guide](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html)
-* [[!DNL AEM Guides] PDF Guides](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
-* [Experience League - Explore AEM](https://experienceleague.adobe.com/#recommended/solutions/experience-manager)
--->
+* [[!DNL AEM Guides] Online gebruikershandleiding](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html)
+* [[!DNL AEM Guides] PDF-hulplijnen](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
+* [Experience League - AEM verkennen](https://experienceleague.adobe.com/#recommended/solutions/experience-manager)

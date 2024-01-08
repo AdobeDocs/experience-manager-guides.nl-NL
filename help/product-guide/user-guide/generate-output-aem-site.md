@@ -2,9 +2,9 @@
 title: Site AEM
 description: Maak en configureer AEM sitevoorinstelling in AEM. Gebruik AEM siteondersteuning om op artikelen gebaseerde uitvoer te genereren, onderwerpen voor uitvoerkoppelingen te genereren, conref te publiceren en een tekenreeks in de inhoud te zoeken.
 exl-id: 019d9fbf-2f23-4669-8022-d693be75c1c3
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: b8c90eb8d1acfe6777a615bd71367027cd8d1c3b
 workflow-type: tm+mt
-source-wordcount: '2570'
+source-wordcount: '2577'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ De volgende opties zijn beschikbaar voor de AEM Site-uitvoer:
 
 U kunt de AEM sitevoorinstelling op twee manieren maken:
 
-**Vanuit de webeditor:** Open in het deelvenster Opslagplaats het DITA-toewijzingsbestand in Kaartweergave en selecteer vervolgens op het tabblad Uitvoer het pictogram + om een uitvoervoorinstelling te maken. Selecteer vervolgens AEM Site in het keuzemenu Type in het dialoogvenster Voorinstelling toevoegen. In de webeditor zijn de configuraties georganiseerd onder de tabbladen Algemeen en Geavanceerd:
+**Vanuit de webeditor:** Open in het deelvenster Opslagplaats het DITA-kaartbestand in de Kaartweergave en selecteer vervolgens op het tabblad Uitvoer het pictogram + om een uitvoervoorinstelling te maken. Selecteer vervolgens AEM Site in de keuzelijst Type in het dialoogvenster Voorinstelling toevoegen. In de redacteur van het Web zijn de configuraties georganiseerd onder Algemene en Geavanceerde lusjes:
 
 **Algemeen**
 
@@ -65,7 +65,7 @@ De volgende opties zijn beschikbaar voor de AEM Site-uitvoer:
 | Afzonderlijke PDF genereren voor elk onderwerp | Indien geselecteerd, wordt een PDF ook gecreeerd voor elk onderwerp in de kaart DITA. Als u deze optie kiest, wordt een nieuwe optie PDF-pad splitsen weergegeven.<br><br>In het Splitste gebied van de Weg van de PDF, specificeer de weg om de PDF op te slaan die voor elk onderwerp worden geproduceerd.<br><br>**Opmerking**: AEM Hulplijnen gebruiken de insteekmodule DITA-OT met de naam pdfx om PDF voor elk onderwerp te genereren. Deze plug-in is gebundeld met het DITA-OT-pakket dat buiten de box wordt geleverd. U kunt deze plug-in naar wens aanpassen om PDF te genereren. Als u een aangepaste insteekmodule DITA-OT gebruikt, moet u de insteekmodule pdfx integreren voor het genereren van PDF op onderwerpniveau. |
 | Workflow na generatie uitvoeren | Wanneer u deze optie kiest, wordt een nieuwe vervolgkeuzelijst Werkstroom na generatie weergegeven met alle werkstromen die in AEM zijn geconfigureerd. U moet een werkstroom selecteren die u wilt uitvoeren nadat de werkstroom van de outputgeneratie is voltooid. |
 | Basislijn gebruiken | Als u een basislijn voor de geselecteerde kaart hebt gecreeerd DITA, selecteer deze optie om de versie te specificeren die u wilt publiceren.<br><br>**Belangrijk**: Wanneer u incrementele uitvoer voor de AEM Site genereert, wordt de uitvoer gemaakt met de huidige versie van de bestanden en niet met de gekoppelde basislijn.<br><br>Zie [Werken met basislijn](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) voor meer details. |
-| Eigenschappen | Selecteer de eigenschappen die u als metagegevens wilt verwerken. Deze eigenschappen worden ingesteld op de pagina Eigenschappen van de DITA-kaart of het bladwijzerbestand. De eigenschappen die u in de vervolgkeuzelijst selecteert, worden onder het veld Eigenschappen weergegeven en uit de vervolgkeuzelijst verwijderd.<br><br>**Opmerking**: De eigenschappen van de metagegevens zijn hoofdlettergevoelig.<br><br>*Als u een basislijn hebt geselecteerd, zijn de waarden voor de eigenschappen gebaseerd op de versie van de geselecteerde basislijn.<br>* Als u geen basislijn hebt geselecteerd, zijn de waarden voor de eigenschappen gebaseerd op de meest recente versie.<br><br>U kunt de metagegevens ook doorgeven aan de uitvoer met DITA-OT-publicatie. Zie voor meer informatie [Geef de metagegevens door aan de uitvoer met DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA).<br><br>**Opmerking**: Als u geen definitie hebt gegeven van `cq:tags` in de optie Eigenschappen, dan de waarden voor `cq:tags` worden gekozen uit de huidige werkkopie, zelfs als u een basislijn hebt geselecteerd voor publicatie. |
+| Eigenschappen | Selecteer de eigenschappen die u als metagegevens wilt verwerken. Deze eigenschappen worden ingesteld op de pagina Eigenschappen van de DITA-kaart of het bladwijzerbestand. De eigenschappen die u in de vervolgkeuzelijst selecteert, worden onder de **Eigenschappen** veld. Selecteer het kruispictogram naast de eigenschap om deze te verwijderen. <br><br>**Opmerking**: De eigenschappen van de metagegevens zijn hoofdlettergevoelig.<br><br>*Als u een basislijn hebt geselecteerd, zijn de waarden voor de eigenschappen gebaseerd op de versie van de geselecteerde basislijn.<br>* Als u geen basislijn hebt geselecteerd, zijn de waarden voor de eigenschappen gebaseerd op de meest recente versie.<br><br>U kunt de metagegevens ook doorgeven aan de uitvoer met DITA-OT-publicatie. Zie voor meer informatie [Geef de metagegevens door aan de uitvoer met DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA).<br><br>**Opmerking**: Als u geen definitie hebt gegeven van `cq:tags` in de optie Eigenschappen, dan de waarden voor `cq:tags` worden gekozen uit de huidige werkkopie, zelfs als u een basislijn hebt geselecteerd voor publicatie. |
 | Kaarteigenschappen gebruiken als deze ontbreken bij onderwerp | Als deze optie is geselecteerd, worden de eigenschappen die voor het kaartbestand zijn gedefinieerd, ook gekopieerd naar de onderwerpen waar deze eigenschappen niet zijn gedefinieerd. Houd rekening met de volgende punten wanneer u deze optie gebruikt:<br><br>*Alleen eigenschappen String, Date of Long (enkelvoudig en geavanceerd) kunnen worden doorgegeven aan de AEM sitepagina&#39;s.<br>* De metagegevenswaarden voor een eigenschap van het type String ondersteunen geen speciale tekens (zoals `@, #, " "`).<br>* Deze optie dient te worden gebruikt in combinatie met de `Properties` -optie. |
 
 ## Aanvullende notitie op AEM site
@@ -78,7 +78,7 @@ U kunt de output van de Plaats van de AEM voor één of meerdere onderwerpen, of
 
 Het is een zeer gemeenschappelijk scenario om een grote reeks documentatie te hebben die zich over veelvoudige omslagen en kaarten DITA uitgespreid. Het wordt bijzonder ingewikkeld om inhoud te publiceren die van diverse plaatsen verbonden is. Standaard alle koppelingen `<xref>` worden gemaakt met de `local` `@scope`. Het publiceren van dergelijke onderwerpen impliceert geen uitdaging, aangezien het directe verbinding aan het onderwerp gebruikt. Als het onderwerp buiten de huidige kaart DITA is, toont de verbinding niet de verbonden inhoud.
 
-Een andere manier om inhoud te koppelen, is het maken van een koppeling met de `peer` `@scope`. Voor dergelijke inhoud, wordt de verbinding opgelost in runtime door de gevormde context voor het verbonden onderwerp van de het publiceren van de kaart DITA context te kiezen. In de volgende schermafbeelding ziet u het deelvenster Eigenschappen voor een koppeling met de `peer` `@scope`:
+Een andere manier om inhoud te koppelen, is het maken van een koppeling met de `peer` `@scope`. Voor dergelijke inhoud, wordt de verbinding opgelost in runtime door de titel van het dossier en de gevormde context voor het verbonden onderwerp van de DITA kaart te kiezen publiceert context. In de volgende schermafbeelding ziet u het deelvenster Eigenschappen voor een koppeling met de `peer` `@scope`:
 
 ![](images/peer-link-scope-link.png){width="800" align="left"}
 

@@ -2,9 +2,9 @@
 title: Native PDF publiceren - Leren met voorbeelden (deel 1)
 description: Met de Native PDF-publiceerengine kunt u de inhoudslay-out van het document bepalen en de gewenste secties naar wens manipuleren met behulp van eenvoudig bij te werken CSS, HTML en JavaScript.
 exl-id: ddaf4e83-9958-42c5-b172-4c9f8e923910
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '256'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,6 @@ In deze sessie leert u met behulp van enkele voorbeelden hoe u functies van Nati
 ## Toetsen
 
 In deze sessie hebt u het volgende geleerd voor het publiceren van Native PDF:
-
 - Basisfuncties zoals MathML, watermerk en wijzigingen in tracks inschakelen
 - Aangepaste lettertypen gebruiken
 - Metagegevens van DITA XML gebruiken in de uitvoer van PDF
@@ -41,18 +40,17 @@ In deze sessie hebt u het volgende geleerd voor het publiceren van Native PDF:
 
 ## Gerelateerde bronnen
 
-- **Instellingstappen van native PDF** - [Experience League](/help/product-guide/knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
+- **Instellingstappen van native PDF** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.html?lang=en)
 
-- **Functioneel overzicht van publicaties van Native PDF** - [over Experience League](/help/product-guide/knowledge-base/expert-sessions/native-pdf-publishing-essentials-feb23.md)
+- **Functioneel overzicht van publicaties van Native PDF** - [over Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23.html?lang=en)
 
-- **Gedocumenteerde gevallen van veelvuldig gebruik** - [over Experience League](/help/product-guide/native-pdf/stylesheet.md)
+- **Gedocumenteerde gevallen van veelvuldig gebruik** - [over Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/content-styles/stylesheet.html?lang=en)
 
 - **Forum van de Gemeenschap** - Voor sessiespecifieke community-interacties over Experience League gaat u naar  [Forum met AEM hulplijnen](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
 > De functies die in deze sessie worden weergegeven, zijn beschikbaar in de volgende versies van AEM hulplijnen:
->
 > - On-prem 4.2 of hoger
 > - Cloud Servicen 2303 en hoger
 

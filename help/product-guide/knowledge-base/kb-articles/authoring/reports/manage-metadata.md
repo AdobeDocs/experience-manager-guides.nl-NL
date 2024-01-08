@@ -2,9 +2,9 @@
 title: Tags voor DITA-bestanden beheren in AEM hulplijnen
 description: Kort artikel voor informatie over het beheren van cq:tags in AEM hulplijnen
 exl-id: 2d805c26-df9b-405a-81ca-7aa84c6f86c8
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '280'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ U kunt ook bestaande tags verwijderen die veel voorkomen in geselecteerde bestan
 
 ### Lijst in beheren->metagegevens zijn leeg of onvolledig
 
-Als de lijst leeg of onvolledig is dan kunt u het indexeren op uw ditamap moeten in werking stellen, kunt u verwijzen [Upgradeinstructies (index uw inhoud)](/help/product-guide/install-guide/upgrade-xml-documentation.md#steps-to-index-the-existing-content-to-use-the-new-find-and-replace%3A)
+`If list is empty or  incomplete then you may need to run the indexing on your ditamap, You can refer` [Upgradeinstructies (index uw inhoud)](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/download-install-upgrade-aemg/upgrade-xml-documentation.html?lang=en#steps-to-index-the-existing-content-to-use-the-new-find-and-replace%3A)
 
 ### Aangepaste metagegevens komen niet voor in de lijst
 
@@ -54,8 +54,8 @@ Als de lijst leeg of onvolledig is dan kunt u het indexeren op uw ditamap moeten
 
 ## Overige nuttige bronnen
 
-- [Labels voor bulkcodes op basis van het kaartdashboard (UI Middelen)](/help/product-guide/user-guide/map-editor-bulk-tagging.md)
-- [Ditamap-rapporten in de webeditor](/help/product-guide/user-guide/reports-web-editor.md)
+- [Labels voor bulkcodes op basis van het kaartdashboard (UI Middelen)](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/manaege-metadata/map-editor-bulk-tagging.html?lang=en)
+- [Ditamap-rapporten in de webeditor](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/reports-aem-guide/reports-web-editor.html?lang=en)
 - [Tags in AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/configuring/tagging.html?lang=en)
 
 

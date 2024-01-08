@@ -1,9 +1,9 @@
 ---
 title: Opmerkingen bij de release | Nieuwe functies in de Adobe Experience Manager-hulplijnen, release van december 2023
 description: Leer de nieuwe en verbeterde functies in de release van Adobe Experience Manager Guides van december 2023 as a Cloud Service.
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: a2605a7758f53fd877f28cad98a1ef17f9f87b50
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1017'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,15 @@ Dit artikel behandelt de nieuwe en verbeterde functies in versie december 2023 v
 Voor meer informatie over de upgrade-instructies, compatibiliteitsmatrix en de problemen die in deze release zijn opgelost, raadpleegt u [Opmerkingen bij de release](release-notes-2023.12.0.md).
 
 
-## Variabelen in de native PDF-uitvoer gebruiken
+## Variabelen gebruiken in de PDF-uitvoer
 
-U kunt veranderlijke reeksen gebruiken om informatie dynamisch op te nemen en te beheren die op specifieke voorwaarden zoals productnamen en versies kan veranderen. Met deze functie kunt u dezelfde PDF-indeling gebruiken en uitvoerbestanden met verschillende waarden genereren. U hoeft niet voor elke set waarden afzonderlijke indelingen te maken.
+U kunt variabelen gebruiken om herbruikbare informatie dynamisch in te voegen en te beheren. Met de Experience Manager-hulplijnen kunt u tijdens het genereren van de PDF-uitvoer variabelen maken, bewerken en voorvertonen. U kunt snel de waarden van variabelen wijzigen en uw documenten overdraagbaar en gemakkelijk bijwerken.
 
-U kunt bijvoorbeeld een variabele maken die is ingesteld voor elk product. Deze variabele set kan bestaan uit variabelen voor verschillende productdetails zoals ProductName, VersionNumber en ReleaseDate. Vervolgens kunt u verschillende waarden toevoegen voor deze variabelen.
+![native pdf-variabelen](assets/add-variable-default.png){width="800" align="left"}
+
+*Maak en beheer variabelen in de webeditor.*
+
+U kunt ook variabelesets maken die de standaardwaarden overschrijven en alternatieve waarden aan uw variabelen toewijzen. Voeg deze variabelen in de pagina-indeling in en gebruik dezelfde PDF-indeling. U hoeft niet voor elke set waarden een aparte indeling te maken. U kunt bijvoorbeeld een variabele maken voor elke productrelease. Deze variabele kan bestaan uit variabelen voor verschillende productdetails zoals productnaam, versienummer en releasedatum. Vervolgens kunt u verschillende waarden toevoegen voor deze variabelen.
 
 **Variabele set 1: Adobe-set1**
 
@@ -27,30 +31,25 @@ U kunt bijvoorbeeld een variabele maken die is ingesteld voor elk product. Deze 
 * Versienummer: 2311
 * Releasedatum: 02-11-2023
 
-**Variabele set 1: Adobe-set2**
+**Variabele set 2: Adobe-set2**
 
 * ProductName: Experience Manager Guides
 * Versienummer: 2310
 * Releasedatum: 27-09-2023
 
 
-![native pdf-variabelen](assets/native-pdf-variables.png){width="800" align="left"}
-
-*Maak variabelen op het tabblad Uitvoer in de webeditor.*
-
-U kunt ook variabelen maken met waarden met HTML-tags. Voeg bijvoorbeeld afbeeldingen van de inhoud DAM toe met de opdracht `<img>` -tag.
-
-Nadat u de variabelen hebt gemaakt, kunt u de variabelen op de juiste plaatsen in het document toevoegen met de paginalay-outs in de uitvoersjablonen. De waarden worden automatisch gekozen in de PDF-uitvoer op basis van de variabeleset die u selecteert in de uitvoervoorinstelling.
-
-
 
 <img src="./assets/native-pdf-variable-output.png" alt="Voettekst in PDF-uitvoer" width="500" border="2px">
 
-*Genereer de uitvoer van de native PDF met behulp van variabelen in de indeling PDF.*
+*Genereer de PDF-uitvoer met behulp van variabelen in de PDF-indeling.*
 
-Met deze functie kunt u aangepaste uitvoer genereren met dynamische inhoud in uw documentatie en wijzigingen efficiënt beheren. U kunt ook stijlen toepassen en markeringen voor HTML gebruiken om de variabelen op te maken.
+U kunt stijlen toepassen en markeringen van de HTML gebruiken om de variabelen te formatteren.  U kunt de waarden voor alle variabelen ook snel bijwerken wanneer dat nodig is en de uitvoer opnieuw genereren. Als u bijvoorbeeld de details voor een versie moet bijwerken, kunt u de waarde van de versie in de variabele VersionNumber bewerken en de uitvoer opnieuw genereren.
 
-U kunt de waarden voor elke variabele die u hebt ingesteld, ook snel bijwerken wanneer dat nodig is en de uitvoer opnieuw genereren. Als u bijvoorbeeld de details voor een versie moet bijwerken, kunt u de waarde van de versie bijwerken in VersionNumber en de uitvoer opnieuw genereren.
+
+Meer informatie over het gebruik van [variabelen in de PDF-uitvoer](../native-pdf/native-pdf-variables.md).
+
+
+
 
 
 ## Nieuwe ervaring om de kenmerken te bewerken
@@ -89,6 +88,7 @@ Met deze functie kunt u inhoud, zoals tekst, video&#39;s en afbeeldingen, public
 
 *Creeer een output vooraf ingesteld voor de de kennisbasis ServiceNow.*
 
+Meer informatie over de [Kennisbank](../user-guide/generate-output-knowledge-base.md) uitvoervoorinstellingen.
 
 ## Verbeterd dashboard voor kaartverzameling
 
@@ -124,6 +124,8 @@ Hiermee kunt u ook een basislijn dupliceren op basis van het label. De verwijzin
 ![een basislijn dupliceren ](assets/duplicate-baseline.png) {width="300" align="left"}
 
 *Dupliceer een basislijn op basis van een label of maak een exacte kopie.*
+
+Meer informatie over hoe [basislijnen maken en beheren vanuit de webeditor](../user-guide/web-editor-baseline.md).
 
 ## Verbeterd proces voor het maken van bulkactivering van kaartcollectie
 

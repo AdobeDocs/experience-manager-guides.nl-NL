@@ -2,9 +2,9 @@
 title: Inhoud en Sjabloon instellen
 description: Leer hoe u alles in het werk moet stellen om inhoud en sjablonen in AEM hulplijnen in te stellen.
 exl-id: f125bad9-33a2-4de5-b43f-d6368d61879b
-source-git-commit: 0afe8bf9b16b1d1367971462b0d44f1721b317c5
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ De hoeveelheid inhoud die u binnen een systeem beheert, ter ondersteuning van ve
 ## Overzicht van sessie
 
 In deze vergadering hebben we in grote lijnen het volgende besproken:
-
 - verschillende aspecten van de inhoudsinstellingen (categorisering, classificatie, metagegevens)
 - het plaatsen inhoudsmalplaatje (onderwerpmalplaatjes, kaartmalplaatjes, fragmenten)
+
 
 
 ## Sessieopname
@@ -38,7 +38,6 @@ In deze vergadering hebben we in grote lijnen het volgende besproken:
 ## Toetsen
 
 In deze sessie hebt u kennis genomen van het volgende:
-
 - Tijd besteed aan analyses en nadenken voordat u inhoud importeert/maakt
 - De inhoud classificeren en indelen om deze af te stemmen op verschillende gebruikerssegmenten (eindgebruikers of auteur)
 - Metagegevensmogelijkheden gebruiken om de productiviteit van de gebruiker te verbeteren
@@ -52,14 +51,13 @@ In deze sessie hebt u kennis genomen van het volgende:
 
 - **Functievideo&#39;s** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/folder-profiles.html)
 
-- **Handboek** - [Inhoud auteur](/help/product-guide/user-guide/reports-intro.md)
+- **Handboek** - [Inhoud auteur](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
 
 - **Forum van de Gemeenschap** - Voor sessiespecifieke community-interacties over Experience League gaat u naar  [Forum met AEM hulplijnen](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
 > De functies die in deze sessie worden weergegeven, zijn beschikbaar in de volgende versies van AEM hulplijnen:
->
 > - On-prem: 4.2 of hoger
 > - Cloud Servicen: 2303 of hoger
 

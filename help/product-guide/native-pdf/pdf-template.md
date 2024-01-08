@@ -2,9 +2,9 @@
 title: Native PDF-sjablonen maken en aanpassen
 description: Leer hoe u Native PDF-sjablonen maakt en aanpast.
 exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: '1154'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Selecteer deze optie om de eigenschappen van de sjabloon weer te geven en te bew
 Selecteer deze optie om de sjabloon weer te geven in de interface Middelen. Aangezien het de wortelplaats van het malplaatje opent, kunt u alle middelen van het malplaatje bekijken.
 
 Nadat u de aangepaste sjabloon hebt gemaakt, kunt u deze kiezen in de paginalay-outs in de voorinstelling voor PDF-uitvoer.
-Leer hoe u [een PDF-uitvoer publiceren](/help/product-guide/web-editor/native-pdf-web-editor.md).
+Leer hoe u [een PDF-uitvoer publiceren](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=en).
 
 >[!NOTE]
 >
@@ -112,7 +112,6 @@ Voor meer informatie over het instellen van algemene profielen en mapprofielen, 
 U kunt sjablonen aanpassen door de sjablooncomponenten aan te passen en stijlindelingen toe te passen aan de hand van opmaakmodellen.
 
 Voer de volgende stappen uit om een PDF-sjabloon aan te passen:
-
 1. Ga in de webeditor naar de **Uitvoer** tab.
 1. Vouw de linkerzijbalk uit en selecteer **Sjablonen**.
 

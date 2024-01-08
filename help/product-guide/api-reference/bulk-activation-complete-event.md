@@ -1,7 +1,7 @@
 ---
 title: Bulkactivering voltooid, gebeurtenishandler
 description: Meer informatie over de volledige gebeurtenishandler voor bulkactivering
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: 8f1bb12a92ab9a63aef1765e51159644242683a0
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 0%
@@ -11,7 +11,6 @@ ht-degree: 0%
 # Bulkactivering voltooid, gebeurtenishandler
 
 Hulplijnen voor Experience Manager worden getoond `com/adobe/fmdita/replication/complete` gebeurtenis die wordt gebruikt om bewerkingen uit te voeren na voltooiing van een bulkactiveringsproces. Deze gebeurtenis wordt geactiveerd wanneer een bulkactiveringsproces wordt voltooid. Als u bijvoorbeeld de bulkactivering van een AEM sitevoorinstelling van een kaart uitvoert, wordt deze gebeurtenis aangeroepen nadat het activeringsproces is beëindigd.
-
 
 U moet een AEM gebeurtenishandler maken om de eigenschappen te lezen die beschikbaar zijn in deze gebeurtenis en verdere verwerking uit te voeren.
 

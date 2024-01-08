@@ -2,9 +2,9 @@
 title: Webinhoud van auteur
 description: Leer hoe u gestructureerde inhoud ontwerpt met de webeditor.
 exl-id: ab051c14-5c1e-4685-89e8-3c90dff9ea5e
-source-git-commit: 0afe8bf9b16b1d1367971462b0d44f1721b317c5
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,6 @@ In deze sessie leert u met de webeditor inhoud maken, publiceren en beheren.
 ## Toetsen
 
 In deze sessie leert u over het volgende:
-
 - Instellingen configureren voor webeditor
 - De mogelijkheden van webeditors gebruiken om de productiviteit van auteurs te verbeteren
 - De beschikbare functies uitbreiden en integreren
@@ -41,14 +40,13 @@ In deze sessie leert u over het volgende:
 
 - **Functievideo&#39;s** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
-- **Handboek** - [Inhoud auteur](/help/product-guide/user-guide/authoring-content.md)
+- **Handboek** - [Inhoud auteur](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map/authoring-content.html)
 
 - **Forum van de Gemeenschap** - Voor sessiespecifieke community-interacties over Experience League gaat u naar  [Forum met AEM hulplijnen](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
 > De functies die in deze sessie worden weergegeven, zijn beschikbaar in de volgende versies van AEM hulplijnen:
->
 > - On-prem 4.1.3 of hoger
 > - Cloud Servicen 2211 en hoger
 

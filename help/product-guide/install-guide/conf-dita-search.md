@@ -2,9 +2,9 @@
 title: Zoeken naar gebruikersinterface van AEM Assets configureren
 description: Leer hoe u zoekopdrachten voor de gebruikersinterface van AEM Assets kunt configureren
 exl-id: b920ba7f-e8fc-4af6-aa8a-b8516b1cffc0
-source-git-commit: 31dc283a5e51fc9c504ac4e75a9719dc247e90eb
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '1696'
+source-wordcount: '1697'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,6 @@ Voer het volgende uit om op UUID-Gebaseerde onderzoekscomponent in AEM Assets UI
 
    - **Veldlabel**: UUID
    - **Eigenschapnaam**: jcr:content/fmUuid
-
 1. Klikken **Gereed** om uw wijzigingen op te slaan.
 
    Als u de optie Filters opent in de interface Elementen, wordt de zoekfilteroptie op basis van UIS weergegeven.
@@ -119,7 +118,7 @@ De standaardonderzoeksconfiguratie staat u toe om naar alle elementen en attribu
 >
 > Als u met de standaardonderzoeksconfiguratie binnen wilt gaan `prolog` , kunt u dit proces overslaan.
 
-Dit bestand bevat twee kenmerkensets voor hoofdsecties en een regelset. Hieronder ziet u een fragment van de sectie voor regelsets:
+Dit bestand bevat twee hoofdsecties: een kenmerkset en een regelset. Hieronder ziet u een fragment van de sectie voor regelsets:
 
 ```XML
 <ruleset filetypes="xml dita"><!-- Element rules --><rule xpath="//[contains(@class, 'topic/topic')]/[contains(@class, 'topic/prolog')]//*[not(*)]" text="yes" attributeset="all-attrs" /><!-- Attribute rules --><rule xpath="//[contains(@class, 'topic/topic')]/[contains(@class, 'topic/prolog')]///@[local-name() != 'class']" /></ruleset>
@@ -128,6 +127,7 @@ Dit bestand bevat twee kenmerkensets voor hoofdsecties en een regelset. Hieronde
 In het gedeelte Regelset kunt u het volgende opgeven:
 
 - Regels om de elementen te extraheren
+
 - Regels voor het uitnemen van kenmerken
 
 
@@ -135,15 +135,15 @@ Een regel bestaat uit het volgende:
 
 xpath : Dit is de XPath-query die de elementen of kenmerken van DITA-bestanden ophaalt. De standaardconfiguratie voor de elementregel wint allen terug `prolog` elementen. En, wint de standaardconfiguratie voor de attributenregel alle attributen van terug `prolog` elementen. U kunt een vraag van XPath specificeren om de elementen of de attributen in series te vervaardigen die u wilt zoeken.
 
-De XPath-query bevat de klassenaam van het documenttype. De `topic/topic` De klasse wordt gebruikt voor onderwerptype DITA documenten. Als u een regel wilt maken voor andere DITA-documenten, moet u de volgende klassenamen gebruiken:
-
-| Documenttype | Klassenaam |
-|-------------|----------|
-| Onderwerp | - onderwerp/onderwerp |
-| Taak | - onderwerp/onderwerp/taak |
-| Concept | - onderwerp/onderwerp/concept |
-| Referentie | - onderwerp/onderwerpverwijzing/verwijzing |
-| Kaart | - kaart/kaart |
+    De XPath-query bevat de klassenaam van het documenttype. De klasse ` topic/topic ` wordt gebruikt voor onderwerptype DITA documenten. Als u een regel wilt maken voor andere DITA-documenten, moet u de volgende klassenamen gebruiken:
+    
+    |Documenttype|Klassenaam|
+    |—|—|
+    |Onderwerp|- onderwerp/onderwerp|
+    |Taak|- onderwerp/onderwerp/taak|
+    |Concept|- onderwerp/onderwerp/concept|
+    |Referentie|- onderwerp/onderwerp/referentie|
+    |Kaart|- kaart/kaart|
 
 text : Als u naar de tekst binnen het opgegeven element wilt zoeken, geeft u de waarde ja op. Als u geen waarde opgeeft, worden alleen de kenmerken in het element geserialiseerd. De kenmerken waarnaar u wilt zoeken, moeten worden opgegeven in de sectie voor kenmerksets.
 

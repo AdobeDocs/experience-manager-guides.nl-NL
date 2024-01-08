@@ -2,9 +2,9 @@
 title: Nieuwe aangepaste actieknop toevoegen op de werkbalk Webeditor
 description: Leer hoe u een nieuwe aangepaste knop toevoegt op de werkbalk voor spetters en javascript aanroept om deze aan te passen.
 exl-id: 34999db6-027a-4d93-944f-b285b4a44288
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
@@ -60,10 +60,7 @@ Gebruik de mapprofielen om de *ui_config.json* onder het tabblad &quot;XML Edito
 
 ### De klikgebeurtenis voor de nieuwe knop afhandelen
 
->[!NOTE]
->
->De hieronder vermelde stappen zijn beschikbaar als pakket in dit bericht
-
+    OPMERKING: de hieronder vermelde stappen zijn beschikbaar als pakket dat in dit bericht is bijgevoegd
 
 
 - Nadat u het mapprofiel hebt opgeslagen, maakt u een &quot;cq:ClientLibraryFolder&quot; onder een projectmap (mogelijk onder */apps*) en voegt eigenschappen toe, zoals in de onderstaande schermafbeelding wordt getoond:
