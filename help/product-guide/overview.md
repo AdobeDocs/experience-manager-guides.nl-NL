@@ -2,14 +2,14 @@
 title: Tutorials voor hulplijnen voor Experience Managers
 description: Bekijk zelfstudievideo's voor Experience Manager Guides (voorheen XML Documentation voor Adobe Experience Manager). Leer over inheemse steun DITA en gestructureerd creatie in Experience Manager.
 exl-id: 06dd1b77-1a98-430f-8322-475d4fa4947b
-source-git-commit: f02a9e4a71796996a4ea933cb3c5b983103a251b
+source-git-commit: 4bb3a064a44b0b0c638ef22d0d7c219c77a20b20
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
 
-# Tutorials voor [!DNL Adobe Experience Manager Guides] {#overview}
+# Documentatie AEM hulplijnen
 
 [!DNL Experience Manager Guides] (wordt _[!DNL AEM Guides]_hieronder) is een krachtige, onderneming-rang oplossing van het componentenbeheer (CCMS). Het maakt native DITA-ondersteuning in de Experience Manager mogelijk en biedt AEM de mogelijkheid om op DITA gebaseerde inhoud te maken en te leveren. Auteurs kunnen hiermee inhoud maken met elk offline DITA-ontwerpgereedschap, zoals Adobe FrameMaker of een gebruiksvriendelijke ingebouwde webeditor.
 
