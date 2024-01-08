@@ -2,7 +2,7 @@
 title: Aangepaste DITA-OT en DITA-specialisatie gebruiken
 description: Leer hoe u aangepaste DITA-OT- en DITA-specialisatie gebruikt
 exl-id: ddc1393b-b269-40e5-9627-96dad82b42e9
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: 8e8e64ad1105b0546856cb82b47547ceacd405b9
 workflow-type: tm+mt
 source-wordcount: '2093'
 ht-degree: 0%
@@ -156,7 +156,7 @@ Voer de volgende stappen uit om een nieuw profiel te creëren en het te vormen o
 
 1. Upload de map naar de volgende locatie:
 
-   `/libs/fmdita/dita_resources`
+   `/apps/fmdita/dita_resources`
 
 1. Klik op de Adobe Experience Manager-koppeling bovenaan en kies **Gereedschappen**.
 
