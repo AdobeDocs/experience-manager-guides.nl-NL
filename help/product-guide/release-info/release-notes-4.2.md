@@ -2,7 +2,9 @@
 title: Opmerkingen bij de release | Adobe Experience Manager Guides 4.2 release
 description: Meer informatie over de opgeloste problemen en hoe u een upgrade uitvoert naar 4.2-versies van Adobe Experience Manager-hulplijnen
 exl-id: 8a7fef77-63af-462f-89c5-054ab31e079b
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1391'
 ht-degree: 0%
@@ -103,7 +105,7 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 
 * Het kopiëren van een DITA-kaart-element (van de Asset UI) veroorzaakt onjuiste basislijnen in het gekopieerde element. 11218
 * Er wordt geen waarschuwingsbericht weergegeven bij het uploaden van een bestand dat groter is dan de limiet die is toegestaan in AEM (standaard 2 GB). 10817
-* Web Editor-basislijn | Het gedrag van de kolom Laatste is verschillend in het nieuwe basislijndashboard binnen de Redacteur van het Web. 10808
+* Web Editor-basislijn | Het gedrag van de Meest recente kolom is verschillend in het nieuwe basislijndashboard binnen de Redacteur van het Web. 10808
 * Vertaling | De vertaaltaak wordt niet gestart vanwege ongeldige /libs/fmdita/i18n/ja.json. 10543
 * Vertaling | Er is een fout opgetreden in een bereikvertaalproject dat is gemaakt op het vertaaldashboard (Menselijke vertaling). 10526
 * Vertaling | Nabewerking wordt geblokkeerd voor de gehele taalmap waarvan de middelen aanwezig zijn in een actief vertaalproject. (1032)
@@ -119,19 +121,19 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 * De knop Logbestand weergeven werkt niet als het genereren van de PDF mislukt voor een voorinstelling. 10576
 * De luisteraar van de uitgever toont niet de gevraagde gegevens in info- logboeken, en het bevat ook sommige junk logboeken.(10567)
 * Native PDF | PDF genereren mislukt met een Null-aanwijzeruitzondering. 10950
-* Native PDF | conkeyref wordt niet opgelost in de gegenereerde uitvoer. 10564
+* Native PDF | conkeyref wordt niet opgelost in de geproduceerde output. 10564
 * Native PDF | Problemen treden op met de metagegevens van een kaart waarnaar in de uitvoer van de PDF moet worden verwezen.(10556)
-* Native PDF | Problemen treden op bij het roteren van de tabelkop. (10555)
-* Native PDF | Problemen doen zich voor bij het verwijderen van onderwerpen met verwerkingsrol=&#39;resource-only&#39;. (10554)
+* Native PDF | Er treden problemen op bij het roteren van de tabelkop. (10555)
+* Native PDF | De kwesties komen bij het verwijderen van onderwerpen voor die verwerkingsrol=&#39;middel-slechts&#39; hebben. (10554)
 * Native PDF | Lege toetsaanslagen worden weergegeven in PDF-uitvoer. (10553)
 * Native PDF | Genest `<indexterm>` niet genest zijn in native PDF-export. 10521
 * Native PDF | Native PDF gebruikt inline stijl in plaats van klassenaam voor de gegenereerde tags. 10498
-* Native PDF | Geneste topicref in aanhangsels worden allemaal omgezet in h1 in de tijdelijke HTML.(10454)
-* Native PDF | Kan de onderwerpen over de voorgrond niet verbergen in de inhoudsopgave. 10355
+* Native PDF | Geneste topicref in aanhangsels wordt allen omgezet aan h1 in tijdelijke HTML.(10454)
+* Native PDF | Kan de onderwerpen frontMatrix niet verbergen in de inhoudsopgave. 10355
 * Native PDF | Kenmerk tabelframe niet doorgegeven aan de tijdelijke HTML (als klasse). 10353
 * Native PDF | Tijdelijke HTML-bestanden voegen de klassen colsep en rowsep toe aan <td> en <th> zelfs als hun waarde 0 in bronDITA is. 10352
-* Native PDF | Als u de paginanummers opnieuw instelt in de hoofdstuklayout, wordt de nummering vanaf het einde van het vorige hoofdstuk gestart. 10154
-* Native PDF | De belangrijkste verwijzingen voor keydefs met beeld of externe verbindingen worden niet opgelost. 10063
+* Native PDF | Als u de paginanummers opnieuw instelt in de hoofdstuklayout, wordt de nummering vanaf het einde van het vorige hoofdstuk willekeurig gestart. 10154
+* Native PDF | Belangrijke referenties voor toetsaanslagen met afbeeldings- of externe koppelingen worden niet opgelost. 10063
 * Native PDF | Bijlage wordt weergegeven als een hoofdstuk in gegenereerde PDF. 9829
 * Het tabblad Sjabloon in de XML-editor wordt niet weergegeven bij Mapprofielbeheerders. (10266)
 * Het publiceren van de basislijn ontbreekt voor PDF die gebruikend FrameMaker Publishing Server 2020 wordt geproduceerd. (10551)

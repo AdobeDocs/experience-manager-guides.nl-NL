@@ -2,7 +2,9 @@
 title: De functies van de webeditor kennen
 description: Ontdek functies van de webeditor in AEM hulplijnen. Zorg dat u de interface van de webeditor kent, zoals de hoofdwerkbalk, de secundaire werkbalk, het linkerdeelvenster, het bewerkingsgebied van inhoud en het rechterdeelvenster.
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
-source-git-commit: 9d9a1f270873869ce8261aae439f0ecd7d9fea94
+feature: Authoring, Features of Web Editor
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '17364'
 ht-degree: 0%

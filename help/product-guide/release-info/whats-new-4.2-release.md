@@ -1,8 +1,10 @@
 ---
-title: Opmerkingen bij de release | Nieuwe functies in de release van Adobe Experience Manager Guides 4.2
+title: Opmerkingen bij de release | Nieuwe functies in de release Adobe Experience Manager Guides 4.2
 description: Leer de nieuwe en verbeterde functies in 4.2-versies van Adobe Experience Manager Guides
 exl-id: 46367ccf-58ff-4889-8314-cdd5bf5d0f1d
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: What's New
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '2423'
 ht-degree: 0%
@@ -189,7 +191,7 @@ Met AEM hulplijnen kunt u nu kiezen **Titel gebruiken in Editor en kaartbeheer**
 
 U kunt de metagegevens instellen vanuit de uitvoervoorinstelling van een DITA-kaart. U kunt de metagegevens Titel, Auteur, Onderwerp en Trefwoorden instellen. Deze metagegevens worden toegewezen aan de metagegevens in de bestandseigenschappen van de uitvoer PDF. Deze metagegevens overschrijven de metagegevens die op boekniveau zijn gedefinieerd. U kunt de metagegevens specifiek definiëren in elke uitvoervoorinstelling en deze doorgeven aan de PDF van de uitvoer.
 
-## Native PDF | PDF met wijzigingsbalk geeft het verschil tussen documentversies aan
+## Native PDF | PDF met wijzigingsbalk die het verschil tussen documentversies aangeeft
 
 Nu kunt u een PDF maken die de verschillen in inhoud tussen twee versies weergeeft met de wijzigingsbalk. U kunt de huidige versie vergelijken met een basislijn van de vorige versie of de twee geselecteerde basislijnversies vergelijken.
 
@@ -199,7 +201,7 @@ Er wordt een wijzigingsbalk weergegeven in de PDF om de gewijzigde, ingevoegde o
 * Ingevoegde inhoud in groene kleur en onderstreept weergeven
 * De verwijderde inhoud rood weergeven en doorhalen
 
-## Native PDF | Variabele-ondersteuning voor uitvoerpad en naam van PDF-bestand
+## Native PDF | Ondersteuning voor variabelen voor Uitvoerpad en bestandsnaam PDF
 
 U kunt nu ook de volgende variabelen gebruiken om het uitvoerpad en het PDF-bestand te definiëren. U kunt een enkele of een combinatie van variabelen gebruiken om de volgende opties te definiëren:
 * `${map_filename}`
@@ -209,7 +211,7 @@ U kunt nu ook de volgende variabelen gebruiken om het uitvoerpad en het PDF-best
 * `${map_parentpath}` (Alleen voor uitvoerpad)
 * `${path_after_langfolder}` (Alleen voor uitvoerpad)
 
-## Native PDF | Inhoudsopgave genereren voor DITA-kaarten en paginalay-outs opnieuw ordenen
+## Native PDF | Inhoudsopgave genereren voor DITA-kaarten en de paginalay-outs opnieuw ordenen
 
 Nu kunt u TOC in kaarten ook produceren DITA gebruikend een geavanceerde PDF het plaatsen van het malplaatje. U kunt de weergave van de verschillende paginalay-outs in- of uitschakelen en ook de positie ervan wijzigen.
 

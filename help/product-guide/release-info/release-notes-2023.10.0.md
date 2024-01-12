@@ -1,8 +1,10 @@
 ---
-title: Opmerkingen bij de release | Upgrade-instructies en opgeloste problemen in Adobe Experience Manager-hulplijnen, release oktober 2023
+title: Opmerkingen bij de release | Oplossingen voor upgrades en opgeloste problemen in de Adobe Experience Manager-hulplijnen, release van oktober 2023
 description: Meer informatie over de opgeloste problemen en hoe u een upgrade uitvoert naar de as a Cloud Service release van Adobe Experience Manager Guides van oktober 2023
 exl-id: 536d2ec2-31a0-4533-9c29-16a27525acca
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1045'
 ht-degree: 0%
@@ -137,8 +139,8 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 
 ### Publiceren
 
-- Native PDF | De volgorde van de onderwerpen is niet vast wanneer de PDF-uitvoer wordt gegenereerd. 13157
-- Native PDF| Geen standaardstijltag beschikbaar voor `<p>`element. (12559)
+- Native PDF | De orde van de onderwerpen is niet vast wanneer de output van de PDF wordt geproduceerd. 13157
+- Oorspronkelijke PDF| Er is geen standaardstijltag beschikbaar voor `<p>`element. (12559)
 - Native PDF | Inline stijlen die worden toegepast op het inhoudsgebied, worden niet toegepast op de onderwerpen voor- en achtermaterie. 13510
 - De `DeliveryTarget` attribuut wordt niet verspreid bij het produceren van de output van de Plaats van de AEM.  13132
 - De **Publiceren** De workflow blijft vastzitten tijdens het genereren van AEM Site-uitvoer voor inhoud met bepaalde fouten. 12000

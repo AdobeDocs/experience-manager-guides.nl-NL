@@ -1,8 +1,10 @@
 ---
-title: Opmerkingen bij de release | Upgradeinstructies en opgeloste problemen in de Adobe Experience Manager Guides 4.2.1 release
+title: Opmerkingen bij de release | Upgradeinstructies en opgeloste problemen in Adobe Experience Manager Guides 4.2.1 release
 description: Meer informatie over de opgeloste problemen en hoe u een upgrade kunt uitvoeren naar 4.2.1-versies van Adobe Experience Manager-hulplijnen
 exl-id: a75ec83f-564b-4243-b5c5-341049521adb
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '876'
 ht-degree: 0%
@@ -78,11 +80,11 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 * Moeilijk om een list-item te slepen en neer te zetten, wordt tekst verplaatst in plaats van het list-item. (11566)
 * Bij het ontwerpen in het element dat groen (Wijzigingen bijhouden) wordt weergegeven, wordt de nieuwe inhoud weergegeven als een wijziging in de track, ook al is de trackwijziging uitgeschakeld. 7021)
 * Browser (de Redacteur van het Web) bevriest bij het laden van inhoud met douaneschema. (1121)
-* Native PDF | Bij het maken van een uitvoervoorinstelling met de optie Toevoegen aan mapprofiel mislukt het genereren van de PDF met een Null-aanwijzeruitzondering. 10950
+* Native PDF | Bij het maken van een uitvoervoorinstelling met de optie Toevoegen aan mapprofiel mislukt het genereren van de PDF met een Null-aanwijzer. 10950
 * Native PDF | Met de tag Afbeelding wordt het kenmerk display-inline toegevoegd aan alle afbeeldingen. 10653
 * Het invoegen van audio- en video-multimediabestanden mislukt in de YouTube-indeling onder de **Multimedia invoegen** pictogram. 11320
 * Validatiefout treedt op wanneer een kaart wordt gemaakt met behulp van de sjabloon met een speciaal titelelement. 11212
-* Webeditor | Vaste spatie wordt toegevoegd in de Redacteur van XML terwijl het uitgeven van een onderwerp. (11786)
+* Webeditor | De vaste ruimte wordt toegevoegd in de Redacteur van XML terwijl het uitgeven van een onderwerp. (11786)
 
 ### Beheer
 
@@ -94,13 +96,13 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 ### Publiceren
 
 * Native PDF | Het publiceren van inhoud die een outputklasse met steunen () heeft leidt tot een het publiceren bevriezing. (1936)
-* JSON-uitvoer | Metagegevens met kenmerk eigenschap als `"value in spaces and double quotes"` leidt tot een publicatiefout. (1933)
+* JSON-uitvoer | Metagegevens met hyperlinks die eigenschapswaarde hebben als `"value in spaces and double quotes"` leidt tot een publicatiefout. (1933)
 * Probleem treedt op bij AEM zoeken op de site (werkt niet meer dan 2-3 knooppunten op het niveau van de site). 11352
 * Webeditor | Uitvoerpad en sjabloon kunnen niet worden geselecteerd in de AEM Voorinstelling. (11530)
 * Bij een upgrade van 4.1.x naar 4.2 werkt de Native PDF-engine niet en wordt zelfs voor het ondersteunde besturingssysteem NullPointerException gegenereerd.11526
 * Het proces van de PDF van de download werkt niet geschikt in de Redacteur van het Web. 11496
 * Native PDF | Conceptopmerkingen worden standaard verborgen in de gegenereerde uitvoer. 10560
-* Native PDF | navtitle is niet geëerd voor topichead. 10509
+* Native PDF | navtitle wordt niet geëerd voor topichead . 10509
 * Native PDF | Toevoegen `xref` naar een afbeelding wordt de afbeelding niet op de gegenereerde PDF weergegeven. 11346
 * Native PDF | voetnoot in de tabelkoptekst leidt tot vette en gecentreerde tekst in de bijbehorende voettekst op de pagina in de PDF-uitvoer. 10610
 

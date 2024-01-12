@@ -2,7 +2,9 @@
 title: Voorinstellingen voor voorwaarden gebruiken
 description: Zorg dat u weet hoe voorinstellingen voor voorwaarden in AEM hulplijnen worden gebruikt. Leer voorinstellingen voor voorwaarden in AEM maken, bewerken, kopiëren en verwijderen.
 exl-id: f6865a34-abdd-4d23-b903-0211bebd13b7
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Publishing
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1210'
 ht-degree: 0%

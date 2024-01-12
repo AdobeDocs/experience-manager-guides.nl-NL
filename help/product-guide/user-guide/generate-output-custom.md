@@ -2,7 +2,9 @@
 title: Aangepast
 description: Leer hoe u aangepaste voorinstellingen maakt in de webeditor en het kaartdashboard. Configureer een aangepaste uitvoervoorinstelling in AEM hulplijnen.
 exl-id: 1bb14411-ec94-4960-92ba-3b2ff7a29932
-source-git-commit: b8c90eb8d1acfe6777a615bd71367027cd8d1c3b
+feature: Publishing
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '934'
 ht-degree: 0%

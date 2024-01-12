@@ -2,7 +2,9 @@
 title: Opmerkingen bij de release | Upgrade-instructies en opgeloste problemen in Adobe Experience Manager-hulplijnen, release van juni 2023
 description: Meer informatie over de opgeloste problemen en hoe u een upgrade uitvoert naar de as a Cloud Service release van Adobe Experience Manager Guides in juni 2023
 exl-id: df17ee33-9f50-4223-ab9f-a57a31097d22
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1170'
 ht-degree: 0%
@@ -123,8 +125,8 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 
 - Navtitle wordt verwijderd uit content33 bij het schakelen van de layoutweergave naar de auteur- of bronweergave. 12174
 - Soms treedt een toepassingsfout op bij het klikken op een DITA-kaart. (11842)
-- Webeditor | Vaste spatie wordt toegevoegd in de Redacteur van XML terwijl het uitgeven van een onderwerp. (11786)
-- Elementinterface | In de lijstweergave kunnen de overbelaste beschikbare kolommen niet worden samengevoegd. 11528
+- Webeditor | De vaste ruimte wordt toegevoegd in de Redacteur van XML terwijl het uitgeven van een onderwerp. (11786)
+- Elementinterface | In de lijstweergave kunnen de overschreven beschikbare kolommen niet worden samengevoegd. 11528
 - Keyref wordt niet opgelost in de kaartweergave. (11490)
 - Het bovenste menu wordt niet weergegeven wanneer u door de XML-editor navigeert. 10868
 - `conref` in tag ph | Het weergegeven dialoogvenster Bladeren is onjuist. 9481
@@ -142,17 +144,17 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 
 - Publiceren naar AEM site mislukt bij het lezen van tijdelijke bestanden uit pod die mogelijk zijn vernieuwd of opnieuw zijn gestart. (1213)
 - Native PDF | Het publiceren van inhoud die een outputklasse met steunen () heeft leidt tot een het publiceren bevriezing. (1936)
-- JSON-uitvoer | Metagegevens met kenmerk eigenschap als `"value in spaces and double quotes"` leidt tot een publicatiefout. (1933)
+- JSON-uitvoer | Metagegevens met hyperlinks die eigenschapswaarde hebben als `"value in spaces and double quotes"` leidt tot een publicatiefout. (1933)
 - Webeditor | Uitvoerpad en sjabloon kunnen niet worden geselecteerd in de AEM Voorinstelling. (11530)
-- Native PDF | Aangepaste kenmerken worden niet doorgegeven aan tijdelijke HTML- of PDF-engine. (DXML-12005)
+- Native PDF | Aangepaste kenmerken worden niet doorgegeven aan de HTML- of PDF-engine. (DXML-12005)
 - Native PDF | Java OutOfMemoryError treedt op bij het publiceren van grote inhoud. (11789)
 - JSON-uitvoer | De `fmUuid` eigenschap op het JCr:content-knooppunt van JSON verschilt van de &quot;id&quot; in de JSON. 11564
-- JSON-uitvoer | Als de kaart en het onderwerp met dezelfde bestandsnaam aanwezig zijn, wordt JSON voor de kaart verwijderd. 11524
+- JSON-uitvoer | Als de kaart en het onderwerp met zelfde filename aanwezig zijn, wordt JSON voor de kaart verwijderd. 11524
 - Native PDF | Xref drukt de inhoud van href onderwerptitel in plaats van het etiket Xref. (11322)
-- Native PDF | De sjablooninstellingen voor PDF kunnen niet worden opgeslagen. 10751
-- Native PDF | De tekst breidt zich voorbij de kolombreedte uit bij het opnemen van meerdere voorkeuren. 10876
+- Native PDF | Kan de sjablooninstellingen voor PDF niet opslaan. 10751
+- Native PDF | De tekst breidt zich voorbij de kolombreedte uit bij het opnemen van meerdere Xrefs. 10876
 - Native PDF | `<note>``</note>` element genereert geen extra bereiktitel van het type. 10549
-- Native PDF | De metagegevens voor de taal kunnen niet in de gegenereerde PDF worden ingesteld om te voldoen aan WCAG 2.0. (12296)
+- Native PDF | De taalmeta-gegevens kunnen niet in geproduceerde PDF worden geplaatst om aan WCAG 2.0 te voldoen. (12296)
 
 
 

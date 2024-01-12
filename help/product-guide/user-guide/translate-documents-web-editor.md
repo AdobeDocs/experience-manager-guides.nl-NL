@@ -2,7 +2,9 @@
 title: Documenten vertalen vanuit de webeditor
 description: Vertaal uw inhoud vanuit de webeditor naar meerdere talen. Leer hoe u een vertaalproject maakt, regels toevoegt, versies weergeeft en bestanden die niet gesynchroniseerd zijn, in AEM hulplijnen sluit.
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring, Features of Web Editor, Translation
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '1907'
 ht-degree: 0%

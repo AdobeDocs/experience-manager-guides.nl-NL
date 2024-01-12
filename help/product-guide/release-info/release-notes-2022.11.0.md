@@ -1,8 +1,10 @@
 ---
-title: Opmerkingen bij de release | as a Cloud Service Adobe Experience Manager-hulplijnen, release november 2022
+title: Opmerkingen bij de release | Adobe Experience Manager Guides as a Cloud Service, release november 2022
 description: Release van Adobe Experience Manager Guides as a Cloud Service in november
 exl-id: 9f329ec1-dd74-47cc-8567-3fadd962584a
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1384'
 ht-degree: 0%
@@ -100,7 +102,7 @@ In het vertaaldashboard, kunt u de kolom van het Etiket van de Versie ook zien. 
 <img src="assets/send-translation.png" alt="verzenden voor vertaling" width="600">
 
 
-### Native PDF | PDF met wijzigingsbalk geeft het verschil tussen documentversies aan
+### Native PDF | PDF met wijzigingsbalk die het verschil tussen documentversies aangeeft
 
 Nu kunt u een PDF maken die de verschillen in inhoud tussen twee versies weergeeft met de wijzigingsbalk. U kunt de huidige versie vergelijken met een basislijn van de vorige versie of de twee geselecteerde basislijnversies vergelijken.
 
@@ -110,7 +112,7 @@ Er wordt een wijzigingsbalk weergegeven in de PDF om de gewijzigde, ingevoegde o
 * Ingevoegde inhoud in groene kleur en onderstreept weergeven
 * De verwijderde inhoud rood weergeven en doorhalen
 
-### Native PDF | Variabele-ondersteuning voor uitvoerpad en naam van PDF-bestand
+### Native PDF | Ondersteuning voor variabelen voor Uitvoerpad en bestandsnaam PDF
 
 U kunt nu ook de volgende variabelen gebruiken om het uitvoerpad en het PDF-bestand te definiëren. U kunt een enkele of een combinatie van variabelen gebruiken om de volgende opties te definiëren:
 * `${map_filename}`
@@ -121,7 +123,7 @@ U kunt nu ook de volgende variabelen gebruiken om het uitvoerpad en het PDF-best
 * `${path_after_langfolder}` (Alleen voor uitvoerpad)
 
 
-### Native PDF | Inhoudsopgave genereren voor DITA-kaarten en paginalay-outs opnieuw ordenen
+### Native PDF | Inhoudsopgave genereren voor DITA-kaarten en de paginalay-outs opnieuw ordenen
 
 Nu kunt u TOC in kaarten ook produceren DITA gebruikend een geavanceerde PDF het plaatsen van het malplaatje. U kunt de weergave van de verschillende paginalay-outs in- of uitschakelen en ook de positie ervan wijzigen.
 
@@ -130,7 +132,7 @@ Nu kunt u TOC in kaarten ook produceren DITA gebruikend een geavanceerde PDF het
 De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weergegeven:
 
 * Native PDF | `conkeyref` wordt niet opgelost in de gegenereerde PDF-uitvoer. 10564
-* Native PDF | Problemen treden op bij het benaderen van metagegevens van een kaart in de uitvoer van de PDF. (10556)
+* Native PDF | Er doen zich problemen voor bij de toegang tot metagegevens van een kaart in de uitvoer van PDF. (10556)
 * Native PDF | Inline stijl wordt gebruikt voor het genereren van tags in plaats van klassenaam.  10498
 * De webeditor laadt regelmatig een lege pagina. 10678
 * Publiceren via PDF mislukt als we een voorinstelling maken door een bestaande voorinstelling te dupliceren. 10584

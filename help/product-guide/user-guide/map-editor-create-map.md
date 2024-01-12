@@ -2,7 +2,9 @@
 title: Een kaart maken
 description: Maak een kaart met Kaarteditor in AEM hulplijnen. Zoek de stappen om een kaartdossier tot stand te brengen dat op een kaartmalplaatje wordt gebaseerd.
 exl-id: b9cda118-ab6f-4d6b-9616-a083180ba069
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring, Map Editor
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%

@@ -2,7 +2,9 @@
 title: Een voorvertoning van een onderwerp weergeven
 description: Leer hoe u een voorvertoning van een onderwerp kunt weergeven in AEM hulplijnen. In de voorvertoningsmodus vindt u informatie over de functies die beschikbaar zijn. Vertakking, herstel en volgende versies in AEM hulplijnen.
 exl-id: f4013ac6-226a-4e66-bd7b-604ac7c361ae
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1859'
 ht-degree: 0%

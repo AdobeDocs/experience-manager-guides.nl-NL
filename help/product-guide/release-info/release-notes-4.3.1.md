@@ -1,8 +1,10 @@
 ---
-title: Opmerkingen bij de release | Upgradeinstructies en opgeloste problemen in de Adobe Experience Manager Guides 4.3.1 release
+title: Opmerkingen bij de release | Upgradeinstructies en opgeloste problemen in Adobe Experience Manager Guides 4.3.1 release
 description: Meer informatie over de opgeloste problemen en hoe u een upgrade uitvoert naar 4.3.1-versies van Adobe Experience Manager-hulplijnen
 exl-id: 3fb6dc31-ec6e-40f5-ab3f-a6e591da315e
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1306'
 ht-degree: 0%
@@ -104,8 +106,8 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 
 ### Publiceren
 
-- Native PDF | De volgorde van de onderwerpen is niet vast wanneer de PDF-uitvoer wordt gegenereerd. 13157
-- Native PDF| Geen standaardstijltag beschikbaar voor `<p>`element. (12559)
+- Native PDF | De orde van de onderwerpen is niet vast wanneer de output van de PDF wordt geproduceerd. 13157
+- Oorspronkelijke PDF| Er is geen standaardstijltag beschikbaar voor `<p>`element. (12559)
 - Native PDF | Inline stijlen die worden toegepast op het inhoudsgebied, worden niet toegepast op de onderwerpen voor- en achtermaterie. 13510
 - De `DeliveryTarget` attribuut wordt niet verspreid bij het produceren van de output van de Plaats van de AEM.  13132
 - De **Publiceren** De workflow blijft vastzitten tijdens het genereren van AEM Site-uitvoer voor inhoud met bepaalde fouten. 12000
@@ -114,10 +116,10 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 - Native PDF | Wanneer het onderwerp en de titel zelfde identiteitskaart hebben, leidt het tot een misvormde generatie van de output van PDF. (12644)
 - Native PDF | Bij het toevoegen van een outputklasse aan een ouder `<topicref>` element in een kaart DITA en het toepassen van douanestijl op de outputklasse, wordt het stileren toegepast op elementen binnen het onderwerplichaam, met inbegrip van sectitels. (12166)
 - Incrementeel publiceren werkt niet als een DITA-kaart meerdere databases heeft. (1217)
-- Site AEM | Bij het creëren van een kaart met keydef die aan een onderwerp als variabele richten en het toevoegen van verwerkings-rol=middel-slechts leidt tot sommige onverwachte pagina&#39;s. (12099)
+- Site AEM | Bij het creëren van een kaart met keydef richtend aan een onderwerp als variabele en toevoegend verwerkings-rol=middel-slechts leidt tot sommige onverwachte pagina&#39;s. (12099)
 - Als om het even welke activa van DAM van AEM in om het even welke output buiten de AEM plaats worden gebruikt, dan weerspiegelen de meta-gegevens &quot;jcr:createdBy&quot;niet de naam van de uitgever of de naam van de gebruiker die de kaart of het onderwerp DITA het laatst wijzigde. 12090
-- AEM Sites | DITA-kaart met padtekst in de navtitle (met niet-ondersteunde tekens) leidt tot onjuiste pagina-URL&#39;s. (1978)
-- Native PDF | Problemen ter ondersteuning van topichead/topicmeta/navtitle in FrontMatting en Backissue. (1969)
+- AEM Sites | De DITA-kaart met padgegevens in de navtitle (met niet-ondersteunde tekens) leidt tot onjuiste pagina-URL&#39;s. (1978)
+- Native PDF | Er doen zich problemen voor ter ondersteuning van topichead / topicmeta / navtitle in FrontMatting en Backissue. (1969)
 - Native PDF | Het genereren van PDF voor grote documenten kost veel tijd. (1955)
 - Native PDF | Als de naam van een voorinstelling wordt gewijzigd, wordt een NullPointerException gegenereerd terwijl een PDF-uitvoer wordt gegenereerd. (11889)
 - De `<conref>` inhoud wordt niet weergegeven in de PDF-uitvoer. (1131)

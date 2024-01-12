@@ -2,7 +2,9 @@
 title: Werken met de Kaarteditor
 description: Werken met de Kaarteditor in AEM hulplijnen. Leer een kaartbestand maken en bewerken in AEM kaarteditor.
 exl-id: 1c780ae2-6917-474f-8222-cb93807426e2
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring, Map Editor
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 0%

@@ -2,7 +2,9 @@
 title: Opmerkingen bij de release | Nieuwe functies in de release van Adobe Experience Manager Guides 4.3.1
 description: Meer informatie over de nieuwe en verbeterde functies in de 4.3.1-releases van Adobe Experience Manager Guides
 exl-id: 14db7453-ccc1-4709-903f-677f55c263b2
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: What's New
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1127'
 ht-degree: 0%

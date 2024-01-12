@@ -2,7 +2,9 @@
 title: Citaten in uw inhoud toevoegen en beheren
 description: Verwijzingen toevoegen en beheren in AEM hulplijnen. Leer hoe u inhoud met citaten toepast, importeert, filtert, zoekt, wijzigt, aanhalingsstijl, bewerkt, voorvertoning, invoegt, verwijdert en genereert.
 exl-id: 685d747d-e017-4350-a6bf-822fd55c76e8
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring, Features of Web Editor
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '1887'
 ht-degree: 0%
@@ -133,7 +135,7 @@ De volgende opties zijn beschikbaar in het vervolgkeuzemenu:
 | MLA | APA | Chicago | IEEE | AHA |
 |---|---|---|---|---|
 | Moderne taalassociatiestijl <br> | American Psychological Association Style | Handleiding Chicago | Institute for Electrical and Electronics Engineers Style | American Heart Association Style |
-| Voorbeeld:<br> Crawford, Claire, et al. *Emotionele inhoud van donkere herinneringen* Bewerkt door Memory, vol. 16, 2010, Amsterdam. | Voorbeeld: <br> Crawford, C., J., &amp; C. (2010) *Emotionele inhoud van donkere herinneringen* (505-16°). 10.1080/09658210902067289 | Voorbeeld: <br> Crawford, Claire, et al. *Emotionele inhoud van donkere herinneringen*. 505-16, 2010. | Voorbeeld: <br> C. Crawford, J. , en C. , *Emotionele inhoud van donkere herinneringen*. Amsterdam, 2010. | Voorbeeld: <br> C. Crawford, J. , en C. , *Emotionele inhoud van donkere herinneringen*. Amsterdam, 2010. |
+| Voorbeeld:<br> Crawford, Claire, et al. *Emotionele inhoud van donkere herinneringen* Bewerkt door Memory, vol. 16, 2010, Amsterdam. | Voorbeeld: <br> Crawford, C., J., &amp; , C. (2010). *Emotionele inhoud van donkere herinneringen* (505-16°). 10.1080/09658210902067289 | Voorbeeld: <br> Crawford, Claire, et al. *Emotionele inhoud van donkere herinneringen*. 505-16, 2010. | Voorbeeld: <br> C. Crawford, J. , en C. , *Emotionele inhoud van donkere herinneringen*. Amsterdam, 2010. | Voorbeeld: <br> C. Crawford, J. , en C. , *Emotionele inhoud van donkere herinneringen*. Amsterdam, 2010. |
 
 
 ## Een citaat bewerken

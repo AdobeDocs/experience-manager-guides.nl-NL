@@ -2,7 +2,9 @@
 title: Opmerkingen bij de release | Adobe Experience Manager Guides as a Cloud Service, release september 2022
 description: Release Adobe Experience Manager Guides as a Cloud Service september
 exl-id: f6247f91-43cc-43a4-a6f8-3b1f09d0533f
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1299'
 ht-degree: 0%
@@ -100,25 +102,25 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 * Automatische navigatie naar het pad in het dialoogvenster Bladeren van de site werkt niet zoals bladeren door bestanden. (9920)
 * Het deelvenster Omtrek geeft geen inhoud weer wanneer u overschakelt van **Auteur** tot **Bron** -modus. 10319
 * Conref in een nieuw gecreeerd onderwerp gebruikend een inhoud in het onderwerpmalplaatje werkt niet. De gekopieerde hash-id wordt niet bijgewerkt in de inhoudskopie. 9890
-* Web-editor | Er bestaat geen lader tijdens het maken van een kaart op basis van de kaartsjabloon. 9891
-* Nieuwe kaarteditor | Toegevoegde vette of cursieve tekst in de kaartitel wordt niet behouden als we van **Auteur** aan de **Layout** weergeven. 10218
-* Nieuwe kaarteditor | Voorwaarden die op een verwijzing worden toegepast, kunnen niet uit de layoutweergave worden verwijderd. 10213
-* Nieuwe kaarteditor | Het toepassen van voorwaardenverwijzingen werkt in de layoutweergave niet zoals in de weergave Auteur. (10198)
-* Nieuwe kaarteditor | Naar links verplaatsen in het contextmenu verwijdert de verwijzing als deze niet naar links kan worden verplaatst. 10219
+* Web-editor | Er bestaat geen lader tijdens het maken van een kaart van de kaartsjabloon. 9891
+* Nieuwe kaarteditor | Toegevoegde vette of cursieve tekst in de kaartitel wordt niet behouden als wij van **Auteur** aan de **Layout** weergeven. 10218
+* Nieuwe kaarteditor | De voorwaarden die op een verwijzing worden toegepast, kunnen niet uit de layoutweergave worden verwijderd. 10213
+* Nieuwe kaarteditor | Het toepassen van voorwaardenverwijzingen werkt niet in de mening van de Lay-out zoals de mening van de Auteur. (10198)
+* Nieuwe kaarteditor | Met de optie Naar links verplaatsen in het contextmenu wordt de verwijzing verwijderd als deze niet naar links kan worden verplaatst. 10219
 * Nieuwe kaarteditor |Het pictogram wordt onjuist weergegeven voor de verwijzingen in een kaart die is gemaakt met de layoutweergave. (10197)
-* Deelvenster Opslagplaats | Klik met de rechtermuisknop in het deelvenster Opslagplaats om een toepassingsfout te maken. 10123
-* Zoeken en vervangen | Donkere modus is niet leesbaar voor zoekresultaten in de webeditor. (978)
-* Vertaling | Metagegevens en codes worden niet aan de vertaalde kopieën doorgegeven. 4696
+* Deelvenster Opslagplaats | Klik met de rechtermuisknop in het deelvenster Opslagruimte geeft een toepassingsfout. 10123
+* Zoeken en vervangen | De donkere modus is niet leesbaar voor zoekresultaten in de webeditor. (978)
+* Vertaling | Metagegevens en tags worden niet doorgegeven aan de vertaalde kopieën. 4696
 * Bij kopiëren en plakken (ctrl+c/ctrl+v) treedt een fout op in de auteurmodus. 10304
-* PDF-sjabloon | Als u achtergrondafbeeldingen toevoegt aan een paginalay-out, wordt het afbeeldingspad absoluut weergegeven en worden de afbeeldingen niet weergegeven in de uitvoer PDF. 10297
-* Native PDF | De titel van het hoofdstuk en de koptekst van het hoofdstuk werken niet in PDF-publicaties. (9947)
+* PDF-sjabloon | Als u achtergrondafbeeldingen toevoegt aan een paginalay-out, wordt het afbeeldingspad absoluut weergegeven en worden de afbeeldingen niet weergegeven in de PDF van de uitvoer. 10297
+* Native PDF | De titel van het hoofdstuk en de koptekst van het hoofdstuk werken niet in het publiceren van PDF. (9947)
 * Native PDF | `xref` voor een concept wordt niet correct opgelost voor een specifiek onderwerp DITA. (1029)
-* Native PDF | Bijschrifttekst voor een tabel kan niet worden weergegeven in de gegenereerde PDF-uitvoer. 9827
+* Native PDF | Kan de bijschrifttekst voor een tabel niet weergeven in de gegenereerde PDF-uitvoer. 9827
 * Native PDF | Verwijzingen in bijlagen worden niet als bijlagen weergegeven in PDF-uitvoer. (10182)
 * Native PDF | Het kenmerk Frame voor een tabel wordt niet doorgegeven aan de tijdelijke HTML (als klasse). 10353
-* Native PDF | temp-bestanden voegen de klassen colsep en rowsep toe aan td en de HTML, zelfs als de waarde 0 is in de bron-DITA. 10352
-* Native PDF | Metagegevens voor criteria die in paginalay-out zijn toegevoegd, worden niet nageleefd. 10377
-* Native PDF | Het genereren van PDF mislukt voor specifieke inhoud. (9927)
+* Native PDF | temp HTML-bestanden voegen de klassen colsep en rowsep toe aan td en de klassen zelfs als de waarde 0 is in de bron-DITA. 10352
+* Native PDF | Metagegevens voor criteria die in paginalay-out zijn toegevoegd, worden niet ondersteund. 10377
+* Native PDF | Genereren van PDF mislukt voor specifieke inhoud. (9927)
 * Native PDF | Inhoud via conkeyref wordt niet weergegeven in de PDF-uitvoer. 9836
 * Native PDF | Belangrijke referenties voor Keydefs met afbeeldingen of externe koppelingen zijn niet opgelost. 10063
 * In de weergave Auteur voor een kaart wordt geen plaatsaanduidingstekst weergegeven voor tabellen en figuurlijsten. (10330)

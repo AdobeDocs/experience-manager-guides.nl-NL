@@ -2,7 +2,9 @@
 title: Opmerkingen bij de release | Nieuwe functies in de release van Adobe Experience Manager Guides 4.2.1
 description: Leer de nieuwe en verbeterde functies in 4.2.1-releases van Adobe Experience Manager-hulplijnen
 exl-id: 441aa7ec-d88c-42cb-83f0-d0f6e58bfa41
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: What's New
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 0%
@@ -71,7 +73,7 @@ Zie voor meer informatie [Werken met aangepaste wijzigingsbalken](../native-pdf/
 
 
 
-## Native PDF | De paginamarkering opmaken in de voetnootcomponent
+## Native PDF | De paginamarkering in de voetnootcomponent opmaken
 
 Nu kunt u de paginamarkering opmaken in de voetnoten. U kunt bijvoorbeeld vierkante haakjes toevoegen of de kleur ervan wijzigen. Met deze stijlen kunnen gebruikers gemakkelijk de paginamarkeringen in het document herkennen.
 

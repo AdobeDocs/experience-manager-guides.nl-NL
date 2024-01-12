@@ -2,7 +2,9 @@
 title: Opmerkingen bij de release | Adobe Experience Manager Guides as a Cloud Service, release augustus 2022
 description: Release van Adobe Experience Manager Guides as a Cloud Service in augustus
 exl-id: a01bfe8a-4715-438c-bb94-aa1d31f6662d
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 0%
@@ -95,9 +97,9 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 * Bijgewerkte Node.js wordt niet gebruikt voor het publiceren. 9835
 * Het DITA-onderwerp wordt niet automatisch bijgewerkt met de wijzigingen die op het tabblad **Eigenschappen** pagina. 8745
 * FrontMattelement wanneer toegevoegd aan een DITA-boekenkaart werkt niet correct. 9507
-* Native PDF | Bij gebruik wordt een lege PDF gegenereerd **Snel genereren** voor meerdere bestanden als er een leeg element is geselecteerd. (9822)
-* Native PDF | Aanhangsel wordt gepubliceerd als een hoofdstuk in de PDF-uitvoer. 9829
-* Native PDF | Wanneer een SVG-afbeelding wordt bewerkt, wordt deze niet weergegeven in de paginalay-out. 9069
+* Native PDF | Er wordt een lege PDF gegenereerd bij gebruik **Snel genereren** voor meerdere bestanden als er een leeg element is geselecteerd. (9822)
+* Native PDF | Aanhangsel wordt gepubliceerd als een hoofdstuk in de uitvoer van PDF. 9829
+* Native PDF | Wanneer een SVG-afbeelding wordt bewerkt, wordt deze niet bijgewerkt weergegeven in de paginalay-out. 9069
 * Een normaal afbreekstreepje wordt ingevoegd wanneer een `Nonbreaking Hyphen` teken wordt ingevoegd met de **Speciaal teken invoegen** in. 8919
 * De Redacteur van XML toont geen bijgewerkte beelden in de onderwerpen als zij zijn uitgegeven. 9500
 * Wanneer u de uitvoer publiceert via de Editor, kunnen de voorinstellingen niet worden verwijderd uit het dialoogvenster **Uitvoer** tab. 9100

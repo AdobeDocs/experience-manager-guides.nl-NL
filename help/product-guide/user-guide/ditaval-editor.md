@@ -2,7 +2,9 @@
 title: DITAVAL-editor gebruiken
 description: Leer hoe u DITAVAL-bestanden maakt en bewerkt met de DIVATAL Editor in AEM hulplijnen. Weet hoe de DITAVAL-editor DITAVAL-bestanden ondersteunt in auteur- en bronweergaven.
 exl-id: f3901a4f-1925-42aa-b773-0d6f18175ce8
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring, DITAVAL Editor
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 0%

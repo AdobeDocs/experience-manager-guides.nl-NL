@@ -2,7 +2,9 @@
 title: Opmerkingen bij de release [!DNL AEM Guides], release januari 2022
 description: Release van januari [!DNL Adobe Experience Manager Guides] as a Cloud Service
 exl-id: b2da77fa-f17c-440b-be59-acaafcd9a57c
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '2441'
 ht-degree: 0%
@@ -236,7 +238,7 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 
 * HTML naar DITA-conversie | Tabel met &#39;tr&#39; met lege &#39;td&#39;-items veroorzaakt extra rijen in de uitvoer. 8132
 * HTML naar DITA-conversie | HTML met een tabel met meerdere hoofdletters mislukt, met uitzondering van de tabel. 7940
-* HTML naar DITA-conversie | Fouten als bron-HTML opmerkingen heeft. 7937
+* HTML naar DITA-conversie | fouten uit als bron HTML opmerkingen heeft. 7937
 * Het importeren van DITA 1.3 DITA-bestanden zorgt ervoor dat sommige href wordt getransformeerd naar onjuist gevormde koppelingen. 8019
 
 ## Bekende problemen

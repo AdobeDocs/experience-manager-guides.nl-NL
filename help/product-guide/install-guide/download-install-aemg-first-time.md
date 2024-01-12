@@ -2,7 +2,10 @@
 title: Download en installeer AEM voor het eerst
 description: Leer hoe u voor het eerst AEM hulplijnen kunt downloaden en installeren
 exl-id: 830a4381-303c-419c-b87f-9563352a7eeb
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Introduction, Installation
+role: Admin
+level: Experienced
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 0%

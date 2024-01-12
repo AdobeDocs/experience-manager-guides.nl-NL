@@ -2,7 +2,9 @@
 title: Inhoud ontwerpen met bureaubladgereedschappen
 description: Inhoud ontwerpen met bureaubladgereedschappen in AEM hulplijnen. Leer hoe u met Adobe FrameMaker en Oxygen XML Editor werkt om DITA-inhoud te ontwerpen en publiceren.
 exl-id: d2c54f28-9433-46ee-adc2-d021c6bd5eb7
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring, Desktop Tools
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '84'
 ht-degree: 0%

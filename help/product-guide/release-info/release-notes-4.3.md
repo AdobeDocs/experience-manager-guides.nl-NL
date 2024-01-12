@@ -1,8 +1,10 @@
 ---
-title: Opmerkingen bij de release | Upgradeinstructies en opgeloste problemen in de release van Adobe Experience Manager Guides 4.3.0
+title: Opmerkingen bij de release | Upgradeinstructies en opgeloste problemen in Adobe Experience Manager Guides 4.3.0 release
 description: Meer informatie over de opgeloste problemen en hoe u een upgrade uitvoert naar 4.3.0-versies van Adobe Experience Manager-hulplijnen
 exl-id: 7fb568a0-0b88-4ea0-9b79-2625336348ff
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1086'
 ht-degree: 0%
@@ -87,7 +89,7 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 - Kan inhoudsfragment niet bewerken in de kolomweergave met AEM hulplijnen geïnstalleerd. 7342
 - Inhoud gaat verloren wanneer een onverpakt xref zich onder subelementtags bevindt. 12532
 - De goedkeuringswerkstroom werkt niet wanneer de documentstatus wordt gewijzigd in &quot;eindstatus&quot; in de bestandseigenschappen van het rechterdeelvenster. (1026)
-- Elementinterface | In de lijstweergave kunnen de overbelaste beschikbare kolommen niet worden samengevoegd. 11528
+- Elementinterface | In de lijstweergave kunnen de overschreven beschikbare kolommen niet worden samengevoegd. 11528
 - Keyref wordt niet opgelost in de kaartweergave. (11490)
 - Het bovenste menu wordt niet weergegeven wanneer u door de XML-editor navigeert. 10868
 - `conref` in tag ph | Het weergegeven dialoogvenster Bladeren is onjuist. 9481
@@ -110,16 +112,16 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 
 - Publiceren mislukt bij het wijzigen van de naam van een Native PDF-voorinstelling. 12564
 - Als u een Native PDF-sjabloon dupliceert, wordt de standaardsjabloonlocatie gebruikt in plaats van de beschikbare aangepaste sjabloonlocatie. 12563
-- Native PDF | De metagegevens voor de taal kunnen niet in de gegenereerde PDF worden ingesteld om te voldoen aan WCAG 2.0. 12407
+- Native PDF | De taalmeta-gegevens kunnen niet in geproduceerde PDF worden geplaatst om aan WCAG 2.0 te voldoen. 12407
 - Publiceren naar AEM site mislukt bij het lezen van tijdelijke bestanden uit pod die mogelijk zijn vernieuwd of opnieuw zijn gestart. (1213)
-- Native PDF | Aangepaste kenmerken worden niet doorgegeven aan tijdelijke HTML- of PDF-engine. (DXML-12005)
+- Native PDF | Aangepaste kenmerken worden niet doorgegeven aan de HTML- of PDF-engine. (DXML-12005)
 - Native PDF | Java OutOfMemoryError treedt op bij het publiceren van grote inhoud. (11789)
 - Native PDF | Xref drukt de inhoud van href onderwerptitel in plaats van het etiket Xref. (11322)
-- Native PDF | De sjablooninstellingen voor PDF kunnen niet worden opgeslagen. 10751
-- Native PDF | De tekst breidt zich voorbij de kolombreedte uit bij het opnemen van meerdere voorkeuren. 10876
+- Native PDF | Kan de sjablooninstellingen voor PDF niet opslaan. 10751
+- Native PDF | De tekst breidt zich voorbij de kolombreedte uit bij het opnemen van meerdere Xrefs. 10876
 - Native PDF | `<note>``</note>` element genereert geen extra bereiktitel van het type. 10549
 - JSON-uitvoer | De `fmUuid` eigenschap op het JCr:content-knooppunt van JSON verschilt van de &quot;id&quot; in de JSON. 11564
-- JSON-uitvoer | Als de kaart en het onderwerp met dezelfde bestandsnaam aanwezig zijn, wordt JSON voor de kaart verwijderd. 11524
+- JSON-uitvoer | Als de kaart en het onderwerp met zelfde filename aanwezig zijn, wordt JSON voor de kaart verwijderd. 11524
 
 ## Bekend probleem
 

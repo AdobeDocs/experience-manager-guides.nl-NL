@@ -1,8 +1,10 @@
 ---
-title: Opmerkingen bij de release | as a Cloud Service Adobe Experience Manager-hulplijnen, release oktober 2022
+title: Opmerkingen bij de release | Adobe Experience Manager Guides as a Cloud Service, release oktober 2022
 description: Release van Adobe Experience Manager Guides as a Cloud Service in oktober
 exl-id: 38638080-625c-49c3-9e54-56cc23831546
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 0%
@@ -61,12 +63,12 @@ Selecteer een of meer voorinstellingen en genereer snel de uitvoer. U kunt ook s
 
 De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weergegeven:
 
-* Native PDF | Fout bij het verwijderen van brononderwerpen uit de uitvoer van de PDF. (10554)
-* Native PDF | Lege toetsaanslagen verschijnen in de uitvoer van de PDF. (10553)
+* Native PDF | De fout komt op de verwijdering van middel-enige onderwerpen van de output van PDF voor. (10554)
+* Native PDF | Lege toetsaanslagen worden weergegeven in de PDF-uitvoer. (10553)
 * Native PDF | `navtitle` for `topichead` is niet geëerd. 10509
-* Native PDF | Steun nodig voor amd64 JDK-aroma&#39;s. 10465
-* Native PDF | Kan de onderwerpen over de voorgrond niet verbergen in de inhoudsopgave. 10355
-* Native PDF | Als u het paginanummer in de hoofdstuklayout opnieuw opstart, wordt de nummering vanaf het einde van het vorige hoofdstuk gestart. 10154
+* Native PDF | Ondersteuning nodig voor amd64 JDK-aroma&#39;s. 10465
+* Native PDF | Kan de onderwerpen frontMatrix niet verbergen in de inhoudsopgave. 10355
+* Native PDF | Wanneer u het paginanummer in de hoofdstuklayout opnieuw start, wordt de nummering vanaf het einde van het vorige hoofdstuk willekeurig gestart. 10154
 * Chrome-browser | Het scherm wordt leeg wanneer u elementen uit de gebruikersinterface sleept en neerzet. Bijvoorbeeld bij het slepen van een voorwaarde vanuit het deelvenster Voorwaarden. 10524
 * Node-eigenschappen worden verwijderd nadat een element is gekopieerd en geplakt. 10053
 * Bij klikken  **Sluiten** gebruikers werden omgeleid naar middelen - de ervaring is gecorrigeerd om gebruikers naar de AEM homepage te brengen . 9654

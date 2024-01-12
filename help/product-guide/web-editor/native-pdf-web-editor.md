@@ -2,7 +2,9 @@
 title: Native PDF | PDF-uitvoergeneratie
 description: Leer hoe u het publiceren van eigen PDF kunt gebruiken, een voorinstelling voor PDF-uitvoer kunt maken en genereren, tijdelijke bestanden kunt downloaden nadat u de uitvoer van eigen PDF hebt gegenereerd en taalvariabelen in AEM hulplijnen kunt gebruiken.
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: b8c90eb8d1acfe6777a615bd71367027cd8d1c3b
+feature: Publishing, Web Editor, Native PDF Output
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '3196'
 ht-degree: 0%

@@ -2,7 +2,10 @@
 title: API's die zijn gebaseerd op Java om te werken met basislijnen en labels
 description: Meer informatie over de op Java gebaseerde API's om met basislijnen en labels te werken
 exl-id: 0e2ba1bb-f5bf-44da-848a-a55385460c83
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Java-Based API Baseline
+role: Developer
+level: Experienced
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '890'
 ht-degree: 0%

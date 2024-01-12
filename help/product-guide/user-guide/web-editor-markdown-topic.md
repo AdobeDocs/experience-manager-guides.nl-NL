@@ -2,7 +2,9 @@
 title: Documenten met opmaak auteur
 description: Markeringsdocumenten van auteurs uit de webeditor. Leer hoe u een onderwerp over markeringen maakt, ontwerpt en er een voorvertoning van weergeeft in AEM hulplijnen.
 exl-id: def14e35-27c5-4b90-bc3d-eef7e8f317d2
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring, Features of Web Editor
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 0%

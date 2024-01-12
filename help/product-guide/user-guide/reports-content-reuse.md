@@ -2,7 +2,9 @@
 title: Rapport voor hergebruik van inhoud
 description: Leer hoe u het rapport voor hergebruik van inhoud bekijkt in AEM hulplijnen. Genereer het rapport om het percentage voor hergebruik van de inhoud te zoeken.
 exl-id: ccae4303-75b1-4077-829a-7ef6a14fd8ad
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Report Generation
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%

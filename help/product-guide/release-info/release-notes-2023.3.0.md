@@ -1,8 +1,10 @@
 ---
-title: Opmerkingen bij de release | Adobe Experience Manager-hulplijnen as a Cloud Service, release maart 2023
+title: Opmerkingen bij de release | Adobe Experience Manager Guides as a Cloud Service, release maart 2023
 description: Release van Adobe Experience Manager Guides as a Cloud Service in maart
 exl-id: 6a0bba92-7d7d-4b20-ad46-0eacc91268da
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 0%
@@ -58,7 +60,7 @@ In deze sectie wordt een overzicht gegeven van de compatibiliteitsmatrix voor de
 De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weergegeven:
 
 * Het proces van de PDF van de download werkt niet geschikt in de Redacteur van het Web. 11496
-* JSON-uitvoer | Metagegevens met kenmerk eigenschap als `"value in spaces and double quotes"` leidt tot een publicatiefout. 11438
+* JSON-uitvoer | Metagegevens met hyperlinks die eigenschapswaarde hebben als `"value in spaces and double quotes"` leidt tot een publicatiefout. 11438
 * Het invoegen van audio- en video-multimediabestanden mislukt in de YouTube-indeling onder de **Multimedia invoegen** pictogram. 11320
 * Validatiefout treedt op wanneer een kaart wordt gemaakt met behulp van de sjabloon met een speciaal titelelement. 11212
 * Native PDF | voetnoot in de tabelkoptekst leidt tot vette en gecentreerde tekst in de bijbehorende voettekst op de pagina in de PDF-uitvoer. 10610

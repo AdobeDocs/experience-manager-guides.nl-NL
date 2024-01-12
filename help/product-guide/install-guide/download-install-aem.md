@@ -2,7 +2,10 @@
 title: Adobe Experience Manager installeren
 description: Leer hoe u Adobe Experience Manager kunt installeren
 exl-id: 4693b102-b75a-4904-b2d5-914e774305f3
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Introduction, Installation
+role: Admin
+level: Experienced
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 0%
@@ -20,7 +23,7 @@ AEM hulplijnen is een insteekmodule die boven op Adobe Experience Manager wordt 
 
 >[!IMPORTANT]
 >
-> Als u Java 11 met AEM 6.5.x gebruikt, kunt u een probleem onder ogen zien - *JDK 11-oorzaken`NoClassDefFoundError`*. Vernieuwen [JDK 11 veroorzaakt NoClassDefFoundError \| AEM 6.5](https://helpx.adobe.com/experience-manager/kb/jdk-11-causes-noclassdeffounderror---aem-6-5.html) artikel om dit probleem op te lossen.
+> Als u Java 11 met AEM 6.5.x gebruikt, kunt u een probleem onder ogen zien - *JDK 11-oorzaken`NoClassDefFoundError`*. Vernieuwen [JDK 11 veroorzaakt NoClassDefFoundError \| AEM 6,5](https://helpx.adobe.com/experience-manager/kb/jdk-11-causes-noclassdeffounderror---aem-6-5.html) artikel om dit probleem op te lossen.
 
 Zodra u de plaatsingsstrategie hebt geïdentificeerd die het beste voor uw organisatie werkt, voer het installatieproces uit zoals die in *[Aan de slag](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/deploy.html#GettingStarted)* in AEM documentatie.
 
