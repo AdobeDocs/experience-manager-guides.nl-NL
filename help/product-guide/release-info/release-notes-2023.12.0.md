@@ -3,7 +3,7 @@ title: Opmerkingen bij de release | Upgrade-instructies en opgeloste problemen i
 description: Leer over de insectenmoeilijke situaties en hoe te aan de versie van December 2023 as a Cloud Service van de Gidsen van Adobe Experience Manager te bevorderen.
 feature: Release Notes
 role: Leader
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 110a358ce6c0525f7b1eae075d89d78f8014ceff
 workflow-type: tm+mt
 source-wordcount: '1319'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Voor meer informatie over de nieuwe eigenschappen en de verhogingen, mening [Nie
 Voer de volgende stappen uit om de huidige as a Cloud Service installatie van de hulplijnen voor Experience Managers bij te werken:
 
 1. Controle uit de code van Git van Cloud Servicen en schakelaar aan de tak die in de pijpleiding van Cloud Servicen wordt gevormd die aan het milieu beantwoordt dat u wilt bevorderen.
-2. Bijwerken `<dox.version>` eigenschap in `/dox/dox.installer/pom.xml` bestand van uw Cloud Servicen Git-code naar 2023.12.0.15.
+2. Bijwerken `<dox.version>` eigenschap in `/dox/dox.installer/pom.xml` bestand van uw Cloud Servicen Git-code naar 2023.12.0.16.
 3. Leg de wijzigingen vast en voer de pijplijn met Cloud Servicen uit om naar de release van december 2023 van as a Cloud Service hulplijnen voor Experience Manager te upgraden.
 
 ## Stappen om de trigger van een script via een servlet in te schakelen
