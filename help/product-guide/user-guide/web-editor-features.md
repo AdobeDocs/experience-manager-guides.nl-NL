@@ -4,9 +4,9 @@ description: Ontdek functies van de webeditor in AEM hulplijnen. Zorg dat u de i
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '17364'
+source-wordcount: '17861'
 ht-degree: 0%
 
 ---
@@ -228,6 +228,27 @@ Hiermee voorkomt u dat gebruikers een bestand opslaan dat een regel verbreekt di
 
   ![](images/editor-setting-translation.png){width="550" align="left"}
 
+- **Metagegevens**: U kunt de versiemetagegevens van het onderwerp en hun waarden controleren die in worden getoond **Versiehistorie** in.  Geef in het pad naar de metagegevens de locatie op van de knooppunten waaruit u de metagegevens wilt kiezen. U kunt ook een aangepaste naam voor de metagegevens definiëren als label. De standaardeigenschappen zijn Titel, Documentstatus en Labels.
+
+  De metagegevens kunnen worden gekozen uit elke eigenschap onder de `/jcr:content` knooppunt van het element, zodat u het pad van de eigenschap kunt toevoegen als het pad naar metagegevens.
+
+
+  Er wordt een fout weergegeven als het pad naar de metagegevens leeg is. Als u het label leeg laat, wordt het laatste element als label gekozen.
+
+
+
+
+  ![tabblad Metagegevens in de editorinstellingen](images/editor-setting-metadata.png){width="550" align="left"}
+
+  *De metagegevens voor de **Versiehistorie**in.*
+
+
+
+
+  U kunt ook de volgorde definiëren waarin deze metagegevenstags worden weergegeven. Als u de standaardvolgorde van deze tags wilt wijzigen, selecteert u de stippelbalken om de tags naar de gewenste locatie te slepen.
+De metagegevenslabels worden in dezelfde volgorde in de **Versiehistorie** van de webeditor.
+
+
 
 **Gebruikersvoorkeuren** - ![](images/user_preference_editor_icon.svg)
 
@@ -270,9 +291,16 @@ De secundaire werkbalk wordt weergegeven wanneer u een onderwerp opent voor bewe
 
 **Element invoegen** - ![](images/Add_icon.svg)
 
-Hiermee voegt u een geldig element in op de huidige of volgende geldige locatie. Als u in een blokelement werkt, zoals een `note`gebruikt u vervolgens het pictogram Element invoegen om een nieuw element in te voegen na het pictogram `note` element. In het volgende scherm is een notitie-element ingevoegd in het p \(alinea\)-element:
+Hiermee voegt u een geldig element in op de huidige of volgende geldige locatie. U kunt ook de sneltoets gebruiken ***Alt***+***Enter*** om het pop-upvenster Element invoegen te openen. U bewerkt bijvoorbeeld een alinea en vervolgens in het dialoogvenster **Element invoegen** een lijst met elementen die in de alinea kunnen worden ingevoegd. Selecteer het element dat u wilt invoegen. U kunt het toetsenbord gebruiken om door de lijst met elementen te bladeren en op ***Enter*** om het vereiste element in te voegen. U kunt ook een teken of tekenreeks typen in het zoekvak en zoeken naar de elementen die ermee beginnen.
 
-![](images/note-in-para-insert-element_cs.png){width="800" align="left"}
+
+![element invoegen](images/insert-element.png){width="300" align="left"}
+
+*Voer &quot;t&quot; in om te zoeken naar alle geldige elementen die met &quot;t&quot; beginnen.*
+
+Als u in een blokelement werkt, zoals een `note`gebruikt u vervolgens het pictogram Element invoegen om een nieuw element in te voegen na het pictogram `note` element. In het volgende scherm is een notitie-element ingevoegd in het p \(alinea\)-element:
+
+![Element invoegen in een blokelement](images/note-in-para-insert-element_cs.png){width="800" align="left"}
 
 Als u op Enter drukt in het notitie-element, wordt een nieuwe alinea gemaakt in het notitie-element zelf. Als u een nieuw element buiten de notitie wilt invoegen, klikt u op het p-element \(gemarkeerd in schermafbeelding\) in de elementenbroodkruimel en klikt u op het pictogram Element invoegen of drukt u op ***Alt***+***Enter*** om het pop-upvenster Element invoegen te openen. Selecteer vervolgens het gewenste element en druk op Enter om het geselecteerde element in te voegen na het notitie-element.
 
@@ -282,7 +310,7 @@ U kunt ook een element tussen twee elementen toevoegen wanneer er een knipperend
 
 Als u bijvoorbeeld aan een DITA-onderwerp werkt en de blokcursor tussen de korte beschrijving en het hoofdgedeelte knippert, kunt u `prolog` en voeg dan auteursrecht, auteur, en andere details toe.
 
-Een andere manier om nieuw element in te voeren is door het contextmenu te gebruiken. Klik met de rechtermuisknop op een willekeurige plaats in het document om het contextmenu aan te roepen. Kies in dit menu de optie Element invoegen om het dialoogvenster Element invoegen weer te geven en kies het element dat u wilt invoegen.
+Een andere manier om nieuw element in te voeren is door het contextmenu te gebruiken. Klik met de rechtermuisknop op een willekeurige plaats in het document om het contextmenu aan te roepen. In dit menu kiest u **Element invoegen** om de **Element invoegen** en kiest u het element dat u wilt invoegen.
 
 ![](images/insert-element-before-after.png){width="300" align="left"}
 
@@ -297,6 +325,10 @@ Hiermee maakt u een genummerde lijst op de huidige of volgende geldige locatie. 
 **Lijst met opsommingstekens invoegen/verwijderen** - ![](images/BulletList_icon.svg)
 
 Hiermee maakt u een lijst met opsommingstekens op de huidige of volgende geldige locatie. Als u op een lijst met opsommingstekens klikt en op dit pictogram klikt, wordt het item omgezet in een normale alinea.
+
+>[!NOTE]
+>
+>U kunt ook de optie **Gesplitste lijst** in het contextmenu van een lijstitem om de huidige lijst te splitsen en een nieuwe lijst op hetzelfde niveau te beginnen.
 
 **Tabel invoegen** - ![](images/Table_icon.svg)
 
@@ -640,9 +672,10 @@ Voer de volgende stappen uit om wijzigingen in een kaartbestand samen te voegen:
 
 **Versiehistorie** - ![](images/version-history-web-editor-ico.svg)
 
-AEM Gidsen verstrekt diverse manieren om de versies te bekijken die voor uw onderwerpdossiers en ook manieren worden gecreeerd om aan een specifieke versie terug te keren. De meeste van deze functies zijn echter beschikbaar buiten de webeditor.
 
-De eigenschap van de Geschiedenis van de Versie in de Redacteur van het Web staat u toe om niet alleen de beschikbare versies en de etiketten op uw actief onderwerp te controleren, maar geeft u ook de flexibiliteit om aan om het even welke versie van de redacteur zelf terug te keren.
+De **Versiehistorie** De eigenschap in de Redacteur van het Web staat u toe om de beschikbare versies van uw DITA- dossiers te controleren, hen te vergelijken, en aan om het even welke versie van de redacteur zelf terug te keren.
+
+In de versiegeschiedenis kunt u de inhoud en metagegevens van de huidige versie (die ook een werkende kopie kan zijn) vergelijken met elke vorige versie van hetzelfde bestand. U kunt ook de labels en opmerkingen voor de vergeleken versies weergeven.
 
 Ga als volgt te werk om de versiegeschiedenis te openen en terug te keren naar een specifieke versie van het onderwerp:
 
@@ -650,19 +683,39 @@ Ga als volgt te werk om de versiegeschiedenis te openen en terug te keren naar e
 
 1. Klikken **Versiehistorie**.
 
-   Het dialoogvenster Versiegeschiedenis wordt weergegeven.
+   De **Versiehistorie** wordt weergegeven.
 
-   ![](images/version-history-dialog-web-editor.png){width="550" align="left"}
+   ![Dialoogvenster Versiehistorie](images/version-history-dialog-web-editor.png){width="550" align="left"}
+   *Bekijk een voorvertoning van de wijzigingen in de verschillende versies van een onderwerp.*
 
-1. Kies een versie van het onderwerp waarnaar u wilt terugkeren in het dialoogvenster **Versie selecteren** vervolgkeuzelijst.
+1. Kies een versie van het onderwerp dat u wilt vergelijken of waar in terug in **Vergelijken met** vervolgkeuzelijst.
 
    >[!NOTE]
    >
    > Als er op een versie labels zijn toegepast, worden deze ook tussen haakjes en het versienummer weergegeven.
 
-   Als u een versie in de vervolgkeuzelijst kiest, wordt de optie Terugkeren naar geselecteerde versie beschikbaar gesteld. Het voorproefvenster toont de verschillen tussen de huidige versie en de geselecteerde versie van het onderwerp.
 
-   ![](images/version-history-revert-diff-dialog-web-editor.png){width="550" align="left"}
+
+1. Inschakelen **Labels en opmerkingen weergeven** om de labels en opmerkingen weer te geven die zijn toegepast op de huidige en de vergeleken versies.
+
+1. U kunt ook de volgende informatie weergeven in het dialoogvenster **Versiehistorie** dialoogvenster:
+
+   **Voorvertoning** tab: De toegevoegde inhoud is in een groen lettertype en de verwijderde inhoud in een rood lettertype.
+
+   **Metagegevens** tab: De toegevoegde metagegevens zijn in een groen lettertype en de verwijderde metagegevens in een rood lettertype.
+   ![Metagegevensverschil voor versies ](images/metadata-version-diff.png){width="550" align="left"}
+   *Vergelijk de metagegevens van verschillende versies in de versiegeschiedenis.*
+
+   >[!NOTE]
+   >
+   > De systeembeheerder kan de metagegevens wijzigen die moeten worden weergegeven op het tabblad Metagegevens in de Editor-instellingen.
+
+   U kunt ook de gebruikers- en tijdgegevens weergeven van de huidige en de vergeleken versie.
+
+
+
+1. Wanneer u een versie in de vervolgkeuzelijst kiest, wordt de **De optie Geselecteerde versie herstellen** beschikbaar gesteld. Het voorproefvenster toont de verschillen tussen de huidige versie en de geselecteerde versie van het onderwerp.
+
 
 1. Klikken **Geselecteerde versie herstellen** om uw het werk exemplaar met de geselecteerde versie van het onderwerp terug te keren.
 
@@ -1114,7 +1167,10 @@ In de **Kaart downloaden** kunt u de volgende opties kiezen:
 
   U kunt het kaartbestand ook downloaden zonder een optie te selecteren. In dat geval worden de laatste voortgezette versies van de onderwerpen waarnaar wordt verwezen en de mediabestanden gedownload.
 
-  Nadat u op de knop **Downloaden** knop, wordt de aanvraag voor het downloaden van de kaart in de wachtrij geplaatst. U ontvangt een melding die klaar is voor downloaden op de kaart als de kaart kan worden gedownload. Als het downloaden mislukt, ontvangt u een melding dat het downloaden van de kaart is mislukt
+
+  Nadat u op de knop **Downloaden** knoop, wordt het kaartuitvoerpakketverzoek een rij gevormd. De **Succes** wordt weergegeven als het pakket is gemaakt.  U kunt op de knop **Downloaden** van de knop **Succes** in.
+
+  U ontvangt een melding die klaar is voor downloaden op de kaart als de kaart kan worden gedownload. Als het downloaden mislukt, ontvangt u een melding dat het downloaden van de kaart is mislukt.
 
   U hebt toegang tot de downloadkoppeling via het AEM-meldingsvak. Selecteer het gegenereerde kaartbericht in het Postvak In als u de kaart in de ZIP-indeling wilt downloaden.
 
@@ -1801,7 +1857,9 @@ Als uw beheerder een profiel voor attributen heeft gecreeerd, dan zult u die att
 
 **Bestandseigenschappen** -  ![](images/topic-properties-icon.svg)
 
-U geeft de eigenschappen van het geselecteerde bestand weer door te klikken op het pictogram Bestandseigenschappen in het rechterdeelvenster. De bestandseigenschappen hebben de volgende twee secties:
+De eigenschappen van het geselecteerde bestand weergeven door op Bestandseigenschappen te klikken ![](images/topic-properties-icon.svg) in het rechterdeelvenster. De functie Bestandseigenschappen is beschikbaar in alle vier de modi of weergaven: Indeling, Auteur, Bron en Voorvertoning.
+
+De bestandseigenschappen hebben de volgende twee secties:
 
 **Algemeen**
 

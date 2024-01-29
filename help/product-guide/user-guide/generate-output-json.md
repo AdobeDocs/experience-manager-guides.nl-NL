@@ -4,9 +4,9 @@ description: Leer hoe u een JSON-voorinstelling maakt in de webeditor en het kaa
 exl-id: 9eb426fc-ca0a-4932-8a55-fea731281a0a
 feature: Publishing
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '626'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,6 @@ In de redacteur van het Web, zijn de volgende configuraties georganiseerd onder 
 
 Zie voor meer informatie [JSON-configuratie](#id231KJA00REJ).
 
-**Van het kaartdashboard**
-
-Als u uitvoervoorinstellingen voor PDF wilt openen, klikt u op een DITA-toewijzingsbestand in de interface Middelen, klikt u op Voorinstellingen uitvoer en vervolgens op de optie HTML5. Klik in het dashboard Kaart op **Bewerken** bovenaan om de verschillende configuraties bij te werken, en klik dan **Opslaan**.
 
 **JSON-configuratie**
 

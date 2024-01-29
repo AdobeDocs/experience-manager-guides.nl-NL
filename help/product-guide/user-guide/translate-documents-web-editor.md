@@ -4,9 +4,9 @@ description: Vertaal uw inhoud vanuit de webeditor naar meerdere talen. Leer hoe
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '1907'
+source-wordcount: '1925'
 ht-degree: 0%
 
 ---
@@ -37,8 +37,8 @@ Voordat u de stappen in deze procedure uitvoert, moet u controleren of u de vere
 ## Een vertaalproject maken
 
 1. Open in het deelvenster Opslagplaats het DITA-kaartbestand in de kaartweergave.
-1. Klik op de knop **Beheren** tab. In het deelvenster Vertaling wordt de hyperlinktitel van de DITA-kaart weergegeven, samen met de **Talen** lijst.
-1. Van de **Talen** selecteert u de landinstelling waarnaar u het project wilt vertalen. U kunt **Alles** om uw project in alle beschikbare talen te vertalen.
+1. Klik op de knop **Beheren** tab. In het deelvenster Vertaling worden de **Beschikbare talen** lijst.
+1. Van de **Beschikbare talen** selecteert u de landinstelling waarnaar u het project wilt vertalen. U kunt **Alles selecteren** om uw project in alle beschikbare talen te vertalen.
 
    >[!NOTE]
    >
@@ -46,11 +46,13 @@ Voordat u de stappen in deze procedure uitvoert, moet u controleren of u de vere
 
    >[!IMPORTANT]
    >
-   > Taal toont alleen de talen waarvoor een taalmap parallel aan de brontaal wordt gemaakt. Een taalmap die op een ander niveau is gemaakt, zoals één niveau lager in de brontaalmap, wordt ook niet weergegeven. Zorg ervoor dat u alle doeltaalmappen maakt op hetzelfde niveau als de brontaalmap.
+   > In de lijst worden alleen de talen weergegeven waarvoor een taalmap is gemaakt parallel aan de brontaal. Een taalmap die op een ander niveau is gemaakt, zoals één niveau lager in de brontaalmap, wordt ook niet weergegeven. Zorg ervoor dat u alle doeltaalmappen maakt op hetzelfde niveau als de brontaalmap.
 
-   ![](images/translation-languages.png){width="350" align="left"}
+   ![](images/translation-languages.png){width="300" align="left"}
 
-1. U kunt ook de volgende opties gebruiken:
+1. U kunt ook een van de volgende opties selecteren om uw project te vertalen:
+
+   **Geen** Selecteer deze optie om de standaardversies van de bestanden te vertalen. Deze optie is standaard ingeschakeld.
 
    **Basislijn gebruiken:** U kunt een basislijn selecteren om uw project te vertalen. Klik op Basislijn gebruiken en kies een basislijn die op de kaart is gemaakt. Alle bestanden die deel uitmaken van de geselecteerde basislijn, worden weergegeven op de pagina Vertalen. Nadat de inhoud is vertaald, kunt u de vertaalde basislijn exporteren. Voor meer informatie over het exporteren van de vertaalde basislijn raadpleegt u [Vertaalde basislijn exporteren](generate-output-use-baseline-for-publishing.md#id196SE600GHS).
 
@@ -146,7 +148,7 @@ Als u bijvoorbeeld bronbestanden met het versielabel hebt `Release 1.0` vervolge
 
 AEM Gidsen verstrekt de eigenschap om de verschillen tussen de geselecteerde versie en de laatste vertaalde bronversie van de onderwerpen te controleren. U kunt ervoor kiezen om de **Niet gesynchroniseerd** op basis van de aangebrachte wijzigingen.
 
-![](images/translation-version-diff.png){width="800" align="left"}
+![](images/translation-version-diff.png){width="650" align="left"}
 
 Selecteer de **Verschil tonen** pictogram \(![](images/show-difference-icon.svg)\) voor een onderwerp om de verschillen tussen de laatste vertaalde versie en de huidige versie van het geselecteerde dossier te zien.
 

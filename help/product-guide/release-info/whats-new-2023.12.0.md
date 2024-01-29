@@ -3,9 +3,9 @@ title: Opmerkingen bij de release | Nieuwe functies in de Adobe Experience Manag
 description: Leer de nieuwe en verbeterde functies in de release van Adobe Experience Manager Guides van december 2023 as a Cloud Service.
 feature: What's New
 role: Leader
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '966'
 ht-degree: 0%
 
 ---
@@ -128,13 +128,6 @@ Hiermee kunt u ook een basislijn dupliceren op basis van het label. De verwijzin
 *Dupliceer een basislijn op basis van een label of maak een exacte kopie.*
 
 Meer informatie over hoe [basislijnen maken en beheren vanuit de webeditor](../user-guide/web-editor-baseline.md).
-
-## Verbeterd proces voor het maken van bulkactivering van kaartcollectie
-
-Het proces om een inzameling van de bulkactiveringskaart te creëren is nu harmonieer. Wanneer nu de pagina Resultaten van activering wordt weergegeven, kunt u de resultaten van activering en logboekbestanden bekijken.
-Raadpleeg voor meer informatie [Een verzameling bulkactiveringskaarten maken](../user-guide/conf-bulk-activation-create-map-collection.md).
-
-
 
 ## Cross-map koppelingen in de Site-uitvoer oplossen
 

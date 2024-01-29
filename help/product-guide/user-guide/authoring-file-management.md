@@ -4,9 +4,9 @@ description: Leer hoe u bestanden en mappen in AEM hulplijnen kunt beheren. Kopi
 exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '3108'
+source-wordcount: '3109'
 ht-degree: 0%
 
 ---
@@ -181,7 +181,7 @@ Voer de volgende stappen uit om bestanden in bulk te verplaatsen:
    > Selecteren <img src="images/info-icon.svg" width="25">   in de buurt van een veld voor meer informatie.
 
    - **Batchgrootte**: Geef het aantal bestanden op dat u wilt verplaatsen in één batch. De standaardwaarden bij 50 bestanden.
-   - **Slaapinterval**: Geef de tijd op in seconden die het proces moet wachten voordat de volgende batch wordt gestart. Tijdens dit slaaptijdinterval corrigeert het systeem de verwijzingen naar en van de verplaatste bestanden. Het standaardslaapinterval is 60 seconden.
+   - **Slaapinterval (seconden)**: Geef de tijd op in seconden die het proces moet wachten voordat de volgende batch wordt gestart. Tijdens dit slaaptijdinterval corrigeert het systeem de verwijzingen naar en van de verplaatste bestanden. Het standaardslaapinterval is 60 seconden.
 
 
    - **Achtervoegsel toevoegen aan dubbele mappen**: Als u mappen met dezelfde naam verplaatst, moet u deze optie selecteren. In de vorige schermafbeelding bevat de opdracht **Bronpad** bevat de naam van de mappen die u wilt verplaatsen. De omslag genoemd onderwerp bestaat bij twee verschillende plaatsen — test-A en test-B. Wanneer u deze optie selecteert, worden de mappen verplaatst. De eerste verplaatste omslag zal onderwerp worden genoemd terwijl de tweede omslag topic0 zal worden genoemd. Met de verplaatsingsbewerking voegt u een achtervoegsel in de opeenvolgende reeks \(0, 1, 2, enzovoort\) toe aan de mappen met dezelfde naam.

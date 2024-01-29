@@ -4,9 +4,9 @@ description: Leer hoe u het publiceren van eigen PDF kunt gebruiken, een voorins
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
 feature: Publishing, Web Editor, Native PDF Output
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '3196'
+source-wordcount: '3293'
 ht-degree: 0%
 
 ---
@@ -87,16 +87,20 @@ Metagegevens zijn de beschrijving of definitie van de inhoud. Metagegevens helpe
 
 Gebruik het tabblad Metagegevens om de metagegevensvelden in te stellen, zoals de naam van de auteur, de documenttitel, trefwoorden, copyrightinformatie en andere gegevensvelden voor de uitvoer van de PDF. U kunt ook aangepaste metagegevens toevoegen voor uw PDF-uitvoer.
 
-Deze metagegevens worden toegewezen aan de metagegevens op het tabblad Beschrijving in de documenteigenschappen van de uitvoer-PDF.
+Deze metagegevens worden toegewezen aan de metagegevens in het dialoogvenster **Beschrijving** binnen de **Documenteigenschappen** van uw uitvoer PDF.
 
-**Opmerking**: Deze metagegevens overschrijven de metagegevens die op boekniveau zijn gedefinieerd.
+
 
 <img src="assets/pdf-metadata.png" alt="tabblad Metagegevens" width="600">
 
-Uit de uitvoervoorinstellingen **PDF selecteren** > **Metagegevens** als u opties voor metagegevens wilt toevoegen en aanpassen.
+Selecteer in de uitvoervoorinstellingen de optie  **PDF** > **Native-PDF** > **Metagegevens** als u opties voor metagegevens wilt toevoegen en aanpassen.
+* **Metagegevens gebruiken die zijn toegevoegd aan topicmeta**
+
+  Deze optie is standaard ingeschakeld. U kunt de meta-gegevens gebruiken die u in het topicmeta element van de kaart DITA hebt toegevoegd om de meta-gegevensgebieden van de output van de PDF te bevolken.
+
 * **XMP bestand opgeven**
 
-  Metagegevensvelden kunnen rechtstreeks worden gevuld door te importeren [XMP](https://www.adobe.com/products/xmp.html) (Extensible Metadata Platform)-bestand. U kunt hier een voorbeeld XMP bestand downloaden.
+  U kunt de metagegevensvelden ook rechtstreeks vullen door te importeren [XMP](https://www.adobe.com/products/xmp.html) (Extensible Metadata Platform)-bestand. U kunt hier een voorbeeld XMP bestand downloaden.
 
 [Downloaden](assets/SampleXMP.xmp)
 
@@ -169,6 +173,7 @@ Gebruik de volgende opties om geavanceerde instellingen op te geven voor het sam
 | **MathML-vergelijkingen inschakelen** | Selecteer deze optie om MathML-vergelijkingen in uw inhoud te renderen. De vergelijkingen worden anders standaard genegeerd. |
 | **Tijdelijke bestanden downloaden** | Selecteer deze optie als u de tussentijdse HTML-bestanden wilt downloaden die tijdens het genereren van de native PDF-uitvoer zijn gemaakt. U kunt de tijdelijke bestanden later downloaden nadat u de uitvoer hebt gegenereerd. |
 | **PDF-conformiteit** | Dit is de standaard waarmee u de PDF wilt opslaan om ervoor te zorgen dat deze compatibel is. Selecteer een optie in het vervolgkeuzemenu om een keuze te maken in de lijst met beschikbare PDF-standaarden. Zie voor meer informatie over de ondersteunde standaarden [PDF-standaarden](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
+| **Bestandseigenschappen** | Selecteer de metagegevens die u wilt doorgeven aan het publiceren van de native PDF. In het vervolgkeuzemenu worden zowel de aangepaste als de standaardeigenschappen weergegeven. Bijvoorbeeld: `dc:description`, `dc:language`, `dc:title`, en `docstate` zijn de standaardeigenschappen terwijl u `author` als de aangepaste eigenschap. De geselecteerde eigenschappen van metagegevens worden doorgegeven aan het PDF-bestand dat wordt gegenereerd met Native PDF. <br> Deze eigenschappen worden gekozen uit de `metadataList` bestand beschikbaar op:`/libs/fmdita/config/metadataList`. <br>Dit bestand kan worden bedekt door: `/apps/fmdita/config/metadataList`. |
 
 
 ## Een PDF-uitvoer genereren {#generate-pdf-output}
