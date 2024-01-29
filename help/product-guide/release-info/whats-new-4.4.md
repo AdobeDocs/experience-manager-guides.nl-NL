@@ -1,9 +1,9 @@
 ---
 title: Opmerkingen bij de release | Nieuwe functies in de release van Adobe Experience Manager Guides 4.4.0
 description: Meer informatie over de nieuwe en verbeterde functies in de 4.4.0-versie van Adobe Experience Manager Guides
-source-git-commit: ca86700d033ad8eb7cdba917f010f3aa71113a19
+source-git-commit: 027e8e6a6119145a5b2255449514a76488c90463
 workflow-type: tm+mt
-source-wordcount: '2293'
+source-wordcount: '2307'
 ht-degree: 0%
 
 ---
@@ -177,6 +177,7 @@ Met de hulplijnen voor Experience Managers kunt u als beheerder de URL van de ui
 
 Experience Manager biedt de functie om basislijnen te maken door de onderwerpen automatisch te kiezen op basis van het label dat op hen is toegepast. Nu kunt u ook naadloos meerdere uitvoervoorinstellingen publiceren met automatische basislijnen van dezelfde DITA-kaart. U hoeft niet slechts één voorinstelling tegelijk te publiceren, maar u kunt gemakkelijk meerdere uitvoervoorinstellingen tegelijk publiceren.
 
+Meer informatie over hoe [basislijnen maken en beheren vanuit de webeditor](../user-guide/web-editor-baseline.md).
 
 ## Native PDF-verbeteringen
 
@@ -219,7 +220,7 @@ Meer informatie over het gebruik van [variabelen in de PDF-uitvoer](../native-pd
 ### Metagegevens van elementen doorgeven aan de PDF-uitvoer
 
 Experience Manager biedt nu de mogelijkheid om de metagegevenseigenschappen van de elementen over te brengen van de DITA-kaart naar de PDF-uitvoer.
-In de uitvoervoorinstelling Eigen PDF kunt u de metagegevens kiezen die u wilt doorgeven aan het publicatieproces voor PDF. U kunt zowel de aangepaste als de standaardeigenschappen selecteren.  De geselecteerde eigenschappen van metagegevens worden overgebracht naar het PDF-bestand dat wordt gegenereerd met Native PDF.
+In de uitvoervoorinstelling Eigen PDF kunt u de metagegevens kiezen die u wilt doorgeven aan het publicatieproces van de PDF. U kunt zowel de aangepaste als de standaardeigenschappen selecteren.  De geselecteerde eigenschappen van metagegevens worden overgebracht naar het PDF-bestand dat wordt gegenereerd met Native PDF.
 
 Deze functie is handig omdat u de eigenschappen van elementen, zoals auteur, aanmaakdatum of documenttitel, consistent kunt houden. Hierdoor kunt u uw documenten gemakkelijker organiseren, doorzoeken en indelen.
 
