@@ -2,7 +2,7 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lees productdocumentatie voor Adobe Experience Manager Guides.
 breadcrumb-title: Documentatie voor AEM Guides
-source-git-commit: 1171f785ff183f9d3332842fb9a15e123041de4a
+source-git-commit: ae821964e123079707f51377390df378230680fc
 workflow-type: tm+mt
 source-wordcount: '1699'
 ht-degree: 2%
@@ -21,63 +21,63 @@ ht-degree: 2%
          + [Implementatieinstructies](./release-info/deploy-xml-on-aemaacs.md)
          + Versies van 2023 {#2023-releases}
             + Release december {#2312-release}
-               + [Nieuwe functies](./release-info/whats-new-2023.12.0.md)
-               + [Release-opmerkingen](./release-info/release-notes-2023.12.0.md)
+               + [Nieuwe functies](./release-info/whats-new-2023-12-0.md)
+               + [Release-opmerkingen](./release-info/release-notes-2023-12-0.md)
             + Release november {#2311-release}
-               + [Nieuwe functies](./release-info/whats-new-2023.11.0.md)
-               + [Release-opmerkingen](./release-info/release-notes-2023.11.0.md)
+               + [Nieuwe functies](./release-info/whats-new-2023-11-0.md)
+               + [Release-opmerkingen](./release-info/release-notes-2023-11-0.md)
             + Release oktober {#2310-release}
-               + [Nieuwe functies](./release-info/whats-new-2023.10.0.md)
-               + [Release-opmerkingen](./release-info/release-notes-2023.10.0.md)
+               + [Nieuwe functies](./release-info/whats-new-2023-10-0.md)
+               + [Release-opmerkingen](./release-info/release-notes-2023-10-0.md)
             + Release september {#2309-release}
-               + [Nieuwe functies](./release-info/whats-new-2023.9.0.md)
-               + [Release-opmerkingen](./release-info/release-notes-2023.9.0.md)
+               + [Nieuwe functies](./release-info/whats-new-2023-9-0.md)
+               + [Release-opmerkingen](./release-info/release-notes-2023-9-0.md)
             + Release juli {#2307-release}
-               + [Nieuwe functies](./release-info/whats-new-2023.7.0.md)
-               + [Release-opmerkingen](./release-info/release-notes-2023.7.0.md)
+               + [Nieuwe functies](./release-info/whats-new-2023-7-0.md)
+               + [Release-opmerkingen](./release-info/release-notes-2023-7-0.md)
             + Release juni {#2306-release}
-               + [Nieuwe functies](./release-info/whats-new-2023.6.0.md)
-               + [Release-opmerkingen](./release-info/release-notes-2023.6.0.md)
+               + [Nieuwe functies](./release-info/whats-new-2023-6-0.md)
+               + [Release-opmerkingen](./release-info/release-notes-2023-6-0.md)
             + Release april {#2304-release}
-               + [Nieuwe functies](./release-info/whats-new-2023.4.0.md)
-               + [Releaseopmerkingen](./release-info/release-notes-2023.4.0.md)
+               + [Nieuwe functies](./release-info/whats-new-2023-4-0.md)
+               + [Releaseopmerkingen](./release-info/release-notes-2023-4-0.md)
             + Release maart {#2303-release}
-               + [Nieuwe functies](./release-info/whats-new-2023.3.0.md)
-               + [Releaseopmerkingen](./release-info/release-notes-2023.3.0.md)
+               + [Nieuwe functies](./release-info/whats-new-2023-3-0.md)
+               + [Releaseopmerkingen](./release-info/release-notes-2023-3-0.md)
             + Release februari {#2302-release}
-               + [Nieuwe functies](./release-info/whats-new-2023.2.0.md)
-               + [Releaseopmerkingen](./release-info/release-notes-2023.2.0.md)
+               + [Nieuwe functies](./release-info/whats-new-2023-2-0.md)
+               + [Releaseopmerkingen](./release-info/release-notes-2023-2-0.md)
          + Versies van 2022 {#2022-releases}
-            + [Release-aantekeningen november](./release-info/release-notes-2022.11.0.md)
-            + [Release-aantekeningen oktober](./release-info/release-notes-2022.10.0.md)
-            + [Release-aantekeningen september](./release-info/release-notes-2022.9.0.md)
-            + [Release-aantekeningen augustus](./release-info/release-notes-2022.8.0.md)
-            + [Release-aantekeningen mei](./release-info/release-notes-2022.5.0.md)
-            + [Release-aantekeningen april](./release-info/release-notes-2022.4.0.md)
-            + [Opmerkingen bij de release maart](./release-info/release-notes-2022.3.0.md)
-            + [Opmerkingen bij de release februari](./release-info/release-notes-2022.2.0.md)
-            + [Release-aantekeningen januari](./release-info/release-notes-2022.1.0.md)
+            + [Release-aantekeningen november](./release-info/release-notes-2022-11-0.md)
+            + [Release-aantekeningen oktober](./release-info/release-notes-2022-10-0.md)
+            + [Release-aantekeningen september](./release-info/release-notes-2022-9-0.md)
+            + [Release-aantekeningen augustus](./release-info/release-notes-2022-8-0.md)
+            + [Release-aantekeningen mei](./release-info/release-notes-2022-5-0.md)
+            + [Release-aantekeningen april](./release-info/release-notes-2022-4-0.md)
+            + [Opmerkingen bij de release maart](./release-info/release-notes-2022-3-0.md)
+            + [Opmerkingen bij de release februari](./release-info/release-notes-2022-2-0.md)
+            + [Release-aantekeningen januari](./release-info/release-notes-2022-1-0.md)
       + On-prem/Managed Services {#on-prem-release-notes}
       + 4.4.0 Release {#44-release}
          + Nieuwe functies {#44-whats-new}
-            + [4.4 Nieuwe functies](./release-info/whats-new-4.4.md)
+            + [4.4 Nieuwe functies](./release-info/whats-new-4-4.md)
          + Opmerkingen bij de release {#44-release-notes}
-            + [4.4 Opmerkingen bij de release](./release-info/release-notes-4.4.md)
+            + [4.4 Opmerkingen bij de release](./release-info/release-notes-4-4.md)
       + 4.3.0 Release {#43-release}
          + Nieuwe functies {#43-whats-new}
-            + [4.3.1 Nieuwe functies](./release-info/whats-new-4.3.1-release.md)
-            + [4.3.0 Nieuwe functies](./release-info/whats-new-4.3-release.md)
+            + [4.3.1 Nieuwe functies](./release-info/whats-new-4-3-1-release.md)
+            + [4.3.0 Nieuwe functies](./release-info/whats-new-4-3-release.md)
          + Opmerkingen bij de release {#43-release-notes}
-            + [4.3.1 Opmerkingen bij de release](./release-info/release-notes-4.3.1.md)
-            + [4.3.0 Opmerkingen bij de release](./release-info/release-notes-4.3.md)
+            + [4.3.1 Opmerkingen bij de release](./release-info/release-notes-4-3-1.md)
+            + [4.3.0 Opmerkingen bij de release](./release-info/release-notes-4-3.md)
       + 4.2 Release {#42-release}
          + Nieuwe functies {#42-whats-new}
-            + [4.2.1 Nieuwe functies](./release-info/whats-new-4.2.1-release.md)
-            + [4.2 Nieuwe functies](./release-info/whats-new-4.2-release.md)
+            + [4.2.1 Nieuwe functies](./release-info/whats-new-4-2-1-release.md)
+            + [4.2 Nieuwe functies](./release-info/whats-new-4-2-release.md)
          + Opmerkingen bij de release {#42-release-notes}
-            + [4.2.1 Opmerkingen bij de release](./release-info/release-notes-4.2.1.md)
-            + [4.2 Opmerkingen bij de release](./release-info/release-notes-4.2.md)
-      + [Opmerkingen bij de release 4.1.x](./release-info/release-notes-4.1.md)
+            + [4.2.1 Opmerkingen bij de release](./release-info/release-notes-4-2-1.md)
+            + [4.2 Opmerkingen bij de release](./release-info/release-notes-4-2.md)
+      + [Opmerkingen bij de release 4.1.x](./release-info/release-notes-4-1.md)
       + [Opmerkingen bij de release 4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
       + [Opmerkingen bij de release 3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 + Handboek {#user-guide}

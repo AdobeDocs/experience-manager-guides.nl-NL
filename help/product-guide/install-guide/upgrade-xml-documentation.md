@@ -5,7 +5,7 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
+source-git-commit: 5a444e88b0adba7fa3d498437df39b729b10b5eb
 workflow-type: tm+mt
 source-wordcount: '5744'
 ht-degree: 0%
@@ -237,7 +237,7 @@ Nadat u de Gidsen van de Experience Manager installeert, kunt u de diverse confi
    - ui\_config.json\(kan zijn ingesteld in mapprofielen\)
    - gewijzigd `com.adobe.fmdita.config.ConfigManager`
    - Controleren of er in de aangepaste code oude paden werden gebruikt \(zoals vermeld in het dialoogvenster [Migratietoewijzing](#id2244LE040XA) sectie\) - zou aan de nieuwe wegen moeten worden bijgewerkt zodat de aanpassingen ook zoals verwacht werken.
-1. Lees over om het even welke nieuwe configuraties die in de huidige versie \(controle worden gebracht [Opmerkingen bij de release](../release-info/release-notes-4.3.md)\) en controleer of de functionaliteit wordt beïnvloed en neem vervolgens de juiste actie. Een voorbeeld hiervan is &quot;Verbeterde bestands- en versieverwerking&quot; die is geïntroduceerd in versie 4.0, waarvoor u een configuratie moet inschakelen.
+1. Lees over om het even welke nieuwe configuraties die in de huidige versie \(controle worden gebracht [Opmerkingen bij de release](../release-info/release-notes-4-3.md)\) en controleer of de functionaliteit wordt beïnvloed en neem vervolgens de juiste actie. Een voorbeeld hiervan is &quot;Verbeterde bestands- en versieverwerking&quot; die is geïntroduceerd in versie 4.0, waarvoor u een configuratie moet inschakelen.
 
 ## Stappen om de bestaande inhoud te indexeren voor het gebruik van de nieuwe zoek- en vervangactie:
 
@@ -452,7 +452,7 @@ Nadat u de Gidsen van de Experience Manager installeert, kunt u de diverse confi
    - ui\_config.json\(kan zijn ingesteld in mapprofielen\)
    - gewijzigd `com.adobe.fmdita.config.ConfigManager`
    - Controleren of er in de aangepaste code oude paden werden gebruikt \(zoals vermeld in het dialoogvenster [Migratietoewijzing](#id2244LE040XA) sectie\) - zou aan de nieuwe wegen moeten worden bijgewerkt zodat de aanpassingen ook zoals verwacht werken.
-1. Lees over om het even welke nieuwe configuraties die in de huidige versie \(controle worden gebracht [Opmerkingen bij de release](../release-info/release-notes-4.2.1.md)\) en controleer of de functionaliteit wordt beïnvloed en neem vervolgens de juiste actie. Een voorbeeld hiervan is &quot;Verbeterde bestands- en versieverwerking&quot; die is geïntroduceerd in versie 4.0, waarvoor u een configuratie moet inschakelen.
+1. Lees over om het even welke nieuwe configuraties die in de huidige versie \(controle worden gebracht [Opmerkingen bij de release](../release-info/release-notes-4-2-1.md)\) en controleer of de functionaliteit wordt beïnvloed en neem vervolgens de juiste actie. Een voorbeeld hiervan is &quot;Verbeterde bestands- en versieverwerking&quot; die is geïntroduceerd in versie 4.0, waarvoor u een configuratie moet inschakelen.
 
 ## Stappen om de bestaande inhoud te indexeren voor het gebruik van de nieuwe zoek- en vervangactie:
 
