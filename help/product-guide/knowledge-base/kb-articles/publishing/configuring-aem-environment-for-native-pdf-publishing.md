@@ -4,9 +4,9 @@ description: AEM omgeving configureren voor publicatie op eigen PDF
 exl-id: 40266ca0-0b0b-4418-b606-f70270addbaa
 feature: Native PDF Output
 role: User, Admin
-source-git-commit: a41fed965ed9fe33994478d51030eefdad1037de
+source-git-commit: 1baed01b2e573d79d4baaa6a551966ce59449136
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '902'
 ht-degree: 1%
 
 ---
@@ -181,12 +181,6 @@ Als het probleem zich blijft voordoen zelfs nadat de Java-omgeving is gecorrigee
 
 Valideer de time-outeigenschapswaarde voor het knooppunt nodejs in /var/dxml/profiles/b1aad0a7-9079-e56c-1ed8-6fcababe8166/nodejs in de CRX-opslagplaats. De standaardwaarde is 300.
 
-### Fout bij het uitpakken van de gebiedsuitzondering (tekenreeks te lang)
-![Tekenreeks te lange uitzondering](..//assets/publishing/string-too-long-error.png)
-
-Om deze uitzondering te omzeilen:
-1. Verwijder enkele stijlen die niet nodig zijn om deze kleiner te maken.
-2. Maak meerdere stijlpagina&#39;s in plaats van één grote css.
 
 
 Als u problemen ondervindt tijdens het uitvoeren van een van de bovenstaande stappen, plaatst u uw vraag op de Community voor AEM [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) voor hulp.
