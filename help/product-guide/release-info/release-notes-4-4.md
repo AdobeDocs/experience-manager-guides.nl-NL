@@ -1,9 +1,9 @@
 ---
 title: Opmerkingen bij de release | Upgradeinstructies en opgeloste problemen in Adobe Experience Manager Guides 4.4.0 release
 description: Meer informatie over de opgeloste problemen en over het upgraden naar versie 4.4.0 van de Adobe Experience Manager-hulplijnen
-source-git-commit: 5a444e88b0adba7fa3d498437df39b729b10b5eb
+source-git-commit: 1b25f1df67fa2442ab79830dc2ac5a6eabd0394c
 workflow-type: tm+mt
-source-wordcount: '1808'
+source-wordcount: '1820'
 ht-degree: 0%
 
 ---
@@ -17,14 +17,14 @@ Zie voor meer informatie over de nieuwe functies en verbeteringen [Nieuwe functi
 ## Upgrade naar versie 4.4.0 van de hulplijnen voor Experience Managers
 
 
-U kunt eenvoudig uw huidige versie van Hulplijnen upgraden naar versie 4.4.0. Voordat u verdergaat met de upgrade naar versie 4.4.0 van de Experience Manager-hulplijnen, moet u rekening houden met de volgende punten:
+U kunt uw huidige versie van de Gidsen van de Experience Manager aan versie 4.4.0 gemakkelijk bevorderen. Voordat u verdergaat met de upgrade naar versie 4.4.0 van de Experience Manager-hulplijnen, moet u rekening houden met de volgende punten:
 
 
 - Als u versie 4.3.1, 4.3.0 of 4.2.1 (Hotfix 4.2.1.3) gebruikt, kunt u rechtstreeks upgraden naar versie 4.4.0.
 - Als u versie 4.2, 4.1 of 4.1.x gebruikt, moet u een upgrade naar versie 4.3.1, 4.3.0 of 4.2.1 (Hotfix 4.2.1.3) uitvoeren voordat u een upgrade naar versie 4.4.0 uitvoert.
 - Als u versie 4.0 gebruikt, moet u een upgrade naar versie 4.2 uitvoeren voordat u een upgrade naar versie 4.3.x uitvoert.
 - Als u versie 3.8.5 gebruikt, moet u een upgrade naar versie 4.0 uitvoeren voordat u een upgrade naar versie 4.2 uitvoert.
-- Als u een versie hebt die ouder is dan 3.8.5, raadpleegt u de sectie Upgradehulplijnen voor Experience Managers in de productspecifieke installatiehandleiding.
+- Als u een versie gebruikt die ouder is dan 3.8.5, raadpleegt u de sectie met instructies voor upgrades van Experience Manager in de productspecifieke installatiegids die beschikbaar is op [Adobe Experience Manager-hulplijnen Help PDF archiveren](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 
 

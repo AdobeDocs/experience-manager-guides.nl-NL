@@ -4,9 +4,9 @@ description: Meer informatie over de opgeloste problemen en hoe u een upgrade ui
 exl-id: 3fb6dc31-ec6e-40f5-ab3f-a6e591da315e
 feature: Release Notes
 role: Leader
-source-git-commit: 5a444e88b0adba7fa3d498437df39b729b10b5eb
+source-git-commit: 1b25f1df67fa2442ab79830dc2ac5a6eabd0394c
 workflow-type: tm+mt
-source-wordcount: '1306'
+source-wordcount: '1308'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Zie voor meer informatie over de nieuwe functies en verbeteringen [Nieuwe functi
 ## Upgrade naar versie 4.3.1 van de Experience Manager-hulplijnen
 
 
-U kunt eenvoudig uw huidige versie van Hulplijnen upgraden naar versie 4.3.1. Voordat u verdergaat met de upgrade naar versie 4.3.1 van de Experience Manager-hulplijnen, moet u rekening houden met de volgende punten: u kunt de huidige versie van de Experience Manager-hulplijnen bijwerken naar versie 4.3.1
+U kunt uw huidige versie van de Gidsen van de Experience Manager aan versie 4.3.1 gemakkelijk bevorderen. Voordat u verdergaat met de upgrade naar versie 4.3.1 van de Experience Manager-hulplijnen, moet u rekening houden met de volgende punten: u kunt de huidige versie van de Experience Manager-hulplijnen bijwerken naar versie 4.3.1
 
 
 - Als u versie 4.3.0, 4.2 of 4.2.1 gebruikt, kunt u rechtstreeks upgraden naar versie 4.3.1.

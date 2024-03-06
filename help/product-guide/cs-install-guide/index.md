@@ -1,7 +1,7 @@
 ---
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: 22150456d455687a1e3bf36695ce6c1238f92e0c
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '227'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
    - [De module AEM hulplijnen gebruiken](download-install-dxml-first-time.md)
    - [Dispatcher configureren](download-install-configure-dispatcher.md)
    - [De installatie van AEM hulplijnen controleren](download-install-verify-dxml-installation.md)
-   - [Upgrade uitvoeren AEM hulplijnen](download-install-upgrade-dxml.md)
    - [Configuratieoverschrijvingen](download-install-additional-config-override.md)
    - [Recommendations for performance optimization](download-install-recommend-perf-optimiz.md)
 - [Beheer en beveiliging van gebruikers](user-admin-sec.md)

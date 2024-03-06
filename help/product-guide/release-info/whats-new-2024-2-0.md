@@ -1,34 +1,41 @@
 ---
-title: Opmerkingen bij de release | Nieuwe functies in de Adobe Experience Manager-hulplijnen, release 2024
-description: Leer de nieuwe en verbeterde functies in de release van Adobe Experience Manager Guides van februari 2024 as a Cloud Service.
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+title: Opmerkingen bij de release | Nieuwe functies in de Adobe Experience Manager-hulplijnen, release 2024.2.0
+description: Leer de nieuwe en verbeterde functies in de 2024.2.0-release van Adobe Experience Manager Guides as a Cloud Service.
+source-git-commit: f5940d0ddf19733411532281fb614690075c02ee
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1069'
 ht-degree: 0%
 
 ---
 
-# Nieuwe functies in de release van Adobe Experience Manager Guides van februari 2024 as a Cloud Service
+# Nieuwe functies in de release 2024.2.0
 
-Dit artikel behandelt de nieuwe en verbeterde functies in de release van Adobe Experience Manager Guides van februari 2024 (later aangeduid als *Experience Manager-hulplijnen as a Cloud Service*).
+Dit artikel behandelt de nieuwe en verbeterde functies in de release 2024.2.0 van Adobe Experience Manager Guides.
 
-Voor meer informatie over de upgrade-instructies, compatibiliteitsmatrix en de problemen die in deze release zijn opgelost, raadpleegt u [Opmerkingen bij de release](release-notes-2023-12-0.md).
+Voor de lijst met problemen die in deze release zijn opgelost, raadpleegt u [Opgeloste problemen in de release 2024.2.0](fixed-issues-2024-2-0.md).
 
-## Slimme suggesties op basis van AI voor het schrijven van inhoud
+
+Meer informatie over [upgradeinstructies voor de release van 2024.2.0](upgrade-instructions-2024-2-0.md).
+
+
+
+## Slimme suggesties voor AI om inhoudsverwijzingen toe te voegen tijdens het ontwerpen van inhoud
 
 Nu, kunt u uw auteursreis met Slimme Suggesties, een nieuwe op AI-Gebaseerde eigenschap in de Redacteur van het Web verbeteren. Terwijl u uw inhoud ontwerpt, biedt deze intelligente functie real-time suggesties voor inhoudsverwijzingen, die uw werkschema verbeteren, nauwkeurigheid toevoegen en ongekende efficiency verzekeren.
 
 
 Om de inhoud correct en consistent te houden, blijven de zoekopdracht en de suggesties beperkt tot de inhoud die eigendom is van uw organisatie en komen ze veel overeen met de trefwoorden die u zoekt.
 
-![Deelvenster Slimme suggesties in de webeditor ](web-editor-smart-suggestion.png) {width="800" align="left"}
+![Deelvenster Slimme suggesties in de webeditor ](assets/web-editor-smart-suggestion.png) {width="800" align="left"}
 
 
 *Bekijk slimme suggesties om overeenkomstige inhoudsverwijzingen van uw inhoudsbewaarplaats te vinden en toe te voegen.*
 
-U kunt de huidige inhoud ook vergelijken met vergelijkbare inhoud in de andere onderwerpen. Dan, kunt u de stukken van inhoud uit diverse onderwerpen gemakkelijk selecteren en hen toevoegen als inhoudsverwijzingen in uw huidige onderwerp. Door de inhoudsverwijzingen toe te voegen, worden updates beter beheerbaar, vooral in grotere documentatieprojecten. Stel dat u een brochure maakt over de nieuwste functies van uw product. In dat geval kunt u de bijgewerkte specificaties snel toevoegen als inhoudsverwijzingen uit de verwante functiedocumenten.
+U kunt de huidige inhoud ook vergelijken met vergelijkbare inhoud in de andere onderwerpen. Dan, kunt u de stukken van inhoud uit diverse onderwerpen gemakkelijk selecteren en hen toevoegen als inhoudsverwijzingen in uw huidige onderwerp. Door de inhoudsverwijzingen toe te voegen, worden updates beter beheerbaar, vooral in grotere documentatieprojecten. U maakt bijvoorbeeld een brochure over de nieuwste functies van uw product. In dat geval kunt u de bijgewerkte specificaties snel toevoegen als inhoudsverwijzingen uit de verwante functiedocumenten.
 
 Met deze intelligente functie vermindert u het handmatig doorzoeken van gerelateerde inhoud en helpt u zich te richten op het maken van nieuwe inhoud.  Het helpt ook consistentie te handhaven en bevordert betere teamsamenwerking.
+
+Meer informatie over [Slimme AI-suggesties voor het schrijven van inhoud](../user-guide/authoring-ai-based-smart-suggestions.md).
 
 ## De omgezette eigenschap van de versiegeschiedenis in de Redacteur van het Web
 
@@ -40,7 +47,7 @@ De Gidsen van de Experience Manager verstrekken nu een verbeterde eigenschap van
 
 Meer informatie over de **Versiehistorie** functiebeschrijving in het dialoogvenster [Linkerdeelvenster](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.
 
-## Verbeterd deelvenster Vertaling
+## Verbeterde gebruikerservaring in het deelvenster Vertaling
 
 De **Vertaling** het panel is verbeterd .  U kunt de **Beschikbare talen** en selecteer snel de landinstelling waarin u uw project wilt vertalen. Met één selectie kunt u ook **Alles selecteren** om uw project in alle beschikbare talen te vertalen.
 
@@ -66,7 +73,7 @@ Als u bijvoorbeeld een alinea bewerkt en een element wilt invoegen, kunt u zoeke
 Voor meer informatie bekijkt u de **Element invoegen** functiebeschrijving in het dialoogvenster [Linkerdeelvenster](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.
 
 
-## De mogelijkheid om een lijst op hetzelfde niveau te splitsen
+## Mogelijkheid om de huidige lijst te splitsen en te beginnen met een nieuw lijstitem op hetzelfde niveau
 
 Nu, kunt u uw lijst in de Redacteur van het Web gemakkelijk verdelen. Selecteer de **Gesplitste lijst** in het contextmenu van een lijstitem om de huidige lijst te splitsen. Er wordt een nieuwe lijst gemaakt op hetzelfde niveau, te beginnen met het lijstitem dat u hebt geselecteerd voor de splitsing.
 
@@ -82,14 +89,14 @@ U hebt nu toegang tot de **Bestandseigenschappen** in alle vier de modi of weerg
 
 Voor meer informatie bekijkt u de **Bestandseigenschappen** functiebeschrijving in het dialoogvenster [Rechterdeelvenster](../user-guide/web-editor-features.md#id2051EB003YK) sectie.
 
-## Meerdere uitvoervoorinstellingen parallel publiceren
+## Mogelijkheid om meerdere uitvoervoorinstellingen met dynamische basislijnen parallel te publiceren
 
 Experience Manager biedt de functie om basislijnen te maken door de onderwerpen automatisch te kiezen op basis van het label dat op hen is toegepast. Nu kunt u ook naadloos meerdere uitvoervoorinstellingen publiceren met automatische basislijnen van dezelfde DITA-kaart. U hoeft niet slechts één voorinstelling tegelijk te publiceren, maar u kunt gemakkelijk meerdere uitvoervoorinstellingen tegelijk publiceren.
 
 
 ## Native PDF-verbeteringen
 
-De volgende Native PDF-verbeteringen zijn doorgevoerd in de release van februari 2024:
+De volgende Native PDF-verbeteringen zijn uitgevoerd in de release 2024.2.0:
 
 ### Metagegevens van elementen doorgeven aan de uitvoer van de PDF
 

@@ -5,15 +5,17 @@ exl-id: 3bb28304-d8e2-45eb-8297-546eed428b8c
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 1b25f1df67fa2442ab79830dc2ac5a6eabd0394c
 workflow-type: tm+mt
-source-wordcount: '50'
+source-wordcount: '52'
 ht-degree: 0%
 
 ---
 
-# De module AEM hulplijnen gebruiken {#id213BCL00KEV}
+# Adobe Experience Manager-hulplijnen gebruiken, module {#id213BCL00KEV}
 
-U kunt beginnen met het implementeren van AEM hulplijnen via Cloud Manager. Om de module op te stellen kunt u de instructies volgen die in [as a Cloud Service implementatie van hulplijnen AEM](https://experienceleague.adobe.com/docs/experience-manager-xml-documentation-learn/tutorials/release-info/release-notes/cloud-release-notes/deploy-xml-on-aemaacs.html).
+U kunt beginnen met het implementeren van hulplijnen voor Experience Managers via Cloud Manager. Om de module op te stellen kunt u de instructies volgen die in [as a Cloud Service implementatie van hulplijnen AEM](../release-info/deploy-xml-on-aemaacs.md)
+
+
 
 **Bovenliggend onderwerp:**[ Downloaden en installeren](download-install.md)

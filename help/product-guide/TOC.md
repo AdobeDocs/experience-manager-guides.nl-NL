@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lees productdocumentatie voor Adobe Experience Manager Guides.
 breadcrumb-title: Documentatie voor AEM Guides
-source-git-commit: 8fc1a5232bcc9049b16def8d629ab45a278a2c8f
+source-git-commit: 933d683ec970417d4aac739c3cae19c103170ae9
 workflow-type: tm+mt
-source-wordcount: '1711'
+source-wordcount: '1740'
 ht-degree: 2%
 
 ---
@@ -15,10 +15,16 @@ ht-degree: 2%
 - [[!DNL AEM Guides] overzicht](overview.md)
 - [Disclaimer](./user-guide/rebranding-disclaimer.md)
 - Gegevens vrijgeven {#release-info}
+
    - [[!DNL AEM Guides] lozingen](./release-info/latest-release-info.md)
    - Opmerkingen bij de release {#release-notes}
       - Cloud Servicen {#cloud-release-notes}
          - [Implementatieinstructies](./release-info/deploy-xml-on-aemaacs.md)
+         - Versies van 2024 {#2024-releases}
+            - 2024.2.0 Release {#2402-release}
+               - [Nieuwe functies](./release-info/whats-new-2024-2-0.md)
+               - [Opgeloste problemen](./release-info/fixed-issues-2024-2-0.md)
+               - [Upgradeinstructies](./release-info/upgrade-instructions-2024-2-0.md)
          - Versies van 2023 {#2023-releases}
             - Release december {#2312-release}
                - [Nieuwe functies](./release-info/whats-new-2023-12-0.md)
@@ -108,6 +114,7 @@ ht-degree: 2%
                - [Andere functies in de webeditor](./user-guide/web-editor-other-features.md)
                - [Weergaven van de webeditor](./user-guide/web-editor-views.md)
                - [Ondersteuning voor Schematron-bestanden](./user-guide/support-schematron-file.md)
+               - [Slimme suggesties (bèta) voor auteur van inhoud](./user-guide/authoring-ai-based-smart-suggestions.md)
                - [De documenten van de Prijsverhoging van de auteur van het Web](./user-guide/web-editor-markdown-topic.md)
                - [citaten toevoegen aan uw inhoud](./user-guide/web-editor-apply-citations.md)
                - [Gegevens uit uw gegevensbronnen gebruiken](./user-guide/web-editor-content-snippet.md)
@@ -219,8 +226,8 @@ ht-degree: 2%
       - Inhoud migreren {#content-migration}
          - [Migratie van niet-UUID naar UUID-inhoud](./install-guide/migrate-uuid-non-uuid.md)
          - Migratieproces {#migration-process}
-            - [Inhoud met versiebeheer migreren](./install-guide/migrate-non-uuid-uuid-with-versions.md)
-            - [Niet-geversierde inhoud migreren](./install-guide/migrate-non-uuid-uuid-without-versions.md)
+            - [Niet-UUID-inhoud migreren met versies](./install-guide/migrate-non-uuid-uuid-with-versions.md)
+            - [Niet-UUID-inhoud migreren zonder versies](./install-guide/migrate-non-uuid-uuid-without-versions.md)
          - [Bestaande inhoud migreren](./install-guide/migrate-content.md)
          - [Bestaande DITA-inhoud uploaden](./install-guide/migrate-content-upload-existing-dita-content.md)
          - [Niet-DITA-inhoud migreren](./install-guide/migrate-content-non-dita.md)
@@ -322,6 +329,7 @@ ht-degree: 2%
       - Werken met de webeditorconfiguraties {#web-editor-configs-cs}
          - [Webeditor aanpassen](./cs-install-guide/conf-web-editor.md)
          - [Werkbalk Aanpassen](./cs-install-guide/conf-web-editor-customize-toolbar.md)
+         - [De door AI aangedreven slimme suggesties voor het ontwerpen configureren](./cs-install-guide/conf-smart-suggestions.md)
          - [Standaardwaarde voor de weergave Codes configureren](./cs-install-guide/configure-default-value-tags-view.md)
          - [Weergave van op UUID gebaseerde koppelingen configureren](./cs-install-guide/conf-uuid-based-links.md)
          - [DITA-onderwerp of toewijzingsbestanden openen op hetzelfde tabblad](./cs-install-guide/open-dita-files-same-tab.md)

@@ -5,9 +5,9 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 1b25f1df67fa2442ab79830dc2ac5a6eabd0394c
 workflow-type: tm+mt
-source-wordcount: '3967'
+source-wordcount: '4285'
 ht-degree: 0%
 
 ---
@@ -405,6 +405,43 @@ Als u een bestaande uitvoervoorinstelling hebt bijgewerkt of als u een nieuwe ui
 
 1. Klikken **OK** om wijzigingen toe te passen uit de geselecteerde uitvoervoorinstellingen op alle bestaande DITA-kaarten.
 
+
+
+## Slimme suggesties op basis van AI configureren in de webeditor {#conf-ai-smart-suggestions}
+
+Voor ![AEM ](assets/aem-cloud-icon.svg) Experience Manager-hulplijnen as a Cloud Service.
+
+U kunt de op AI-Gebaseerde Slimme Suggesties vormen en de auteurs helpen de bestaande inhoud hergebruiken en gemakkelijk correcte en verenigbare inhoudsverwijzingen creëren. De **AI-configuratie** kunt u de instellingen van het deelvenster Slimme suggesties in de webeditor bepalen.
+
+Voer de volgende stappen uit om standaardAI configuratie op het globale of omslag-vlakke profiel te vormen:
+1. Meld u aan bij Adobe Experience Manager als beheerder of gebruiker met beheerdersrechten voor een profiel op mapniveau.
+1. Selecteer de **Adobe Experience Manager** koppeling bovenaan en kies **Gereedschappen**.
+1. Selecteren **Hulplijnen** in de lijst met gereedschappen en selecteer de **Mapprofielen** tegel.
+1. Selecteer de profieltegel die u wilt vormen.
+
+   >[!NOTE]
+   >
+   >U kunt op AI gebaseerde slimme suggesties aan het globale of een omslag-niveau profiel vormen.
+
+1. Selecteer op de profielpagina de optie **AI-configuratie** tab.
+   ![Tabblad AI-configuratie in algemeen profiel](assets/global-profile-AI-configuration-cs.png) {width="800" align="left"}
+
+1. Klikken **Bewerken**.
+1. Als beheerder kunt u de volgende instellingen configureren:
+
+   **Minimum aantal tekens**: Voer het minimale aantal tekens in dat de auteurs moeten invoeren om de suggesties te krijgen. Als dit getal bijvoorbeeld 7 is, moet de auteur ten minste 7 tekens toevoegen om een slimme suggestie weer te geven.
+
+   **Maximumaantal suggesties**: Voer het maximum aantal suggesties in dat de auteurs kunnen ophalen tijdens het ontwerpen van de inhoud. Als dit getal bijvoorbeeld 5 is, kan de auteur maximaal vijf slimme suggesties weergeven.
+
+   **Bestanden en mappen**: Selecteer de bestanden of mappen waaruit de slimme suggesties moeten worden weergegeven. *Voor de consistentie van de inhoud is het raadzaam dat er geen twee items in de lijst gemeenschappelijke bestanden hebben*. Nadat u de bestanden en mappen hebt geselecteerd, worden deze weergegeven.
+
+1. Klikken **Opslaan**.
+
+   >[!NOTE]
+   >
+   > De laatste geïndexeerde statusdetails worden bovenaan weergegeven nadat u het bestand hebt opgeslagen.
+
+Meer informatie over weergeven en toevoegen [Slimme suggesties op basis van AI](../user-guide/authoring-ai-based-smart-suggestions.md) om inhoudsverwijzingen toe te voegen terwijl het ontwerpen in de Redacteur van het Web.
 
 ## De XML-webeditor configureren en aanpassen {#id2065G300O5Z}
 
