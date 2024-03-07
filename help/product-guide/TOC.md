@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lees productdocumentatie voor Adobe Experience Manager Guides.
 breadcrumb-title: Documentatie voor AEM Guides
-source-git-commit: 933d683ec970417d4aac739c3cae19c103170ae9
+source-git-commit: d886d25f90f95c01009c0a9586df6b32754223cb
 workflow-type: tm+mt
-source-wordcount: '1740'
+source-wordcount: '1742'
 ht-degree: 2%
 
 ---
@@ -15,8 +15,6 @@ ht-degree: 2%
 - [[!DNL AEM Guides] overzicht](overview.md)
 - [Disclaimer](./user-guide/rebranding-disclaimer.md)
 - Gegevens vrijgeven {#release-info}
-
-   - [[!DNL AEM Guides] lozingen](./release-info/latest-release-info.md)
    - Opmerkingen bij de release {#release-notes}
       - Cloud Servicen {#cloud-release-notes}
          - [Implementatieinstructies](./release-info/deploy-xml-on-aemaacs.md)
@@ -63,12 +61,15 @@ ht-degree: 2%
             - [Opmerkingen bij de release maart](./release-info/release-notes-2022-3-0.md)
             - [Opmerkingen bij de release februari](./release-info/release-notes-2022-2-0.md)
             - [Release-aantekeningen januari](./release-info/release-notes-2022-1-0.md)
-      - On-prem/Managed Services {#on-prem-release-notes}
-      - 4.4.0 Release {#44-release}
-         - Nieuwe functies {#44-whats-new}
-            - [4.4 Nieuwe functies](./release-info/whats-new-4-4.md)
-         - Opmerkingen bij de release {#44-release-notes}
-            - [4.4 Opmerkingen bij de release](./release-info/release-notes-4-4.md)
+   - On-prem/Managed Services {#on-prem-release-notes}
+      - [[!DNL AEM Guides] lozingen](./release-info/latest-release-info.md)
+      - 4.4.0 Release {#440-release}
+         - [Nieuwe functies](./release-info/whats-new-4-4.md)
+         - [Opgeloste problemen](./release-info/fixed-issues-4-4.md)
+         - [Upgradeinstructies](./release-info/upgrade-instructions-4-4.md)
+      - 4.3.1.5 Release {#4315-release}
+         - [Opgeloste problemen](./release-info/fixed-issues-4-3-1-5.md)
+         - [Upgradeinstructies](./release-info/upgrade-instructions-4-3-1-5.md)
       - 4.3.0 Release {#43-release}
          - Nieuwe functies {#43-whats-new}
             - [4.3.1 Nieuwe functies](./release-info/whats-new-4-3-1-release.md)

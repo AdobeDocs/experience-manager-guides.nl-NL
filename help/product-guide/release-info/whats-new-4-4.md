@@ -1,18 +1,23 @@
 ---
 title: Opmerkingen bij de release | Nieuwe functies in de release van Adobe Experience Manager Guides 4.4.0
 description: Meer informatie over de nieuwe en verbeterde functies in de 4.4.0-versie van Adobe Experience Manager Guides
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+role: Leader
+source-git-commit: 8f8075b205725a55b93286c804b879353b4d965d
 workflow-type: tm+mt
 source-wordcount: '2307'
 ht-degree: 0%
 
 ---
 
-# Nieuwe functies in de release 4.4.0 van Adobe Experience Manager Guides (januari 2024)
+# Nieuwe functies in de release 4.4.0 (januari 2024)
 
-Dit artikel behandelt de nieuwe en verbeterde functies in versie 4.4.0 van de Gidsen van Adobe Experience Manager (later genoemd *Hulplijnen Experience Manager*).
+Dit artikel behandelt de nieuwe en verbeterde functies in versie 4.4.0 van de Gidsen van Adobe Experience Manager.
 
-Voor meer informatie over de upgrade-instructies, compatibiliteitsmatrix en de problemen die in deze release zijn opgelost, raadpleegt u [Opmerkingen bij de release](./release-notes-4-4.md).
+Voor de lijst met problemen die in deze release zijn opgelost, raadpleegt u [4.4.0-release. Dit probleem is nu opgelost.](../release-info/fixed-issues-4-4.md).
+
+Meer informatie over [upgradeinstructies voor de release 4.4.0](../release-info/upgrade-instructions-4-4.md).
+
+
 
 ## De omgezette eigenschap van de versiegeschiedenis in de Redacteur van het Web
 

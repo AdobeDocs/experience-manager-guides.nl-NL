@@ -1,28 +1,28 @@
 ---
 title: Technische voorschriften
-description: Leer de technische vereisten om met AEM gidsen te werken
+description: Leer de technische vereisten voor het werken met Adobe Experience Manager Guides
 exl-id: d69245b0-bf20-43c1-b46e-b6c220319690
 feature: Introduction, Installation
 role: Admin
 level: Experienced
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 60e905bf4027ee6c0390bf067b95517ab770ed7b
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '91'
 ht-degree: 0%
 
 ---
 
 # Technische voorschriften {#id213BCG003XA}
 
-Voordat u AEM hulplijnen 4.3 installeert, moet u controleren of uw systeem aan de volgende technische vereisten voldoet:
+Voordat u AEM hulplijnen 4.4 installeert, moet u controleren of uw systeem voldoet aan de volgende technische vereisten:
 
 **Adobe Experience Manager**
 
-- Versie 6.5 Service Pack 18, 17, 16, 15 of 14
+- Versie 6.5 Service Pack 19, 18, of 17
 
 >[!IMPORTANT]
 >
-> Voor AEM de outputproductie van de Plaats, moet uw AEM publicatieinstantie Service Pack 18, 17, 16, 15, of 14 hebben.
+> Voor AEM de outputproductie van de Plaats, moet uw AEM publicatieinstantie Service Pack 19, 18, of 17 hebben.
 
 **Besturingssystemen**
 

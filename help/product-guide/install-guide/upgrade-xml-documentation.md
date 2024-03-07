@@ -5,9 +5,9 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 5a444e88b0adba7fa3d498437df39b729b10b5eb
+source-git-commit: 98fec02367c7e3f33f2511e51675d9e02e41170a
 workflow-type: tm+mt
-source-wordcount: '5744'
+source-wordcount: '5940'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 U kunt uw huidige versie van de Gidsen van de Experience Manager aan versie 4.4.0 bevorderen:
 
-- Als u versie 4.3.1, 4.3.0 of 4.2.1 (Hotfix 4.2.1.3) gebruikt, kunt u rechtstreeks upgraden naar versie 4.4.0.
+- Als u versie 4.3.1.5, 4.3.1, 4.3.0 of 4.2.1 (Hotfix 4.2.1.3) gebruikt, kunt u rechtstreeks upgraden naar versie 4.4.0.
 - Als u versie 4.2, 4.1 of 4.1.x gebruikt, moet u een upgrade naar versie 4.3.1, 4.3.0 of 4.2.1 (Hotfix 4.2.1.3) uitvoeren voordat u een upgrade naar versie 4.4.0 uitvoert.
 - Als u versie 4.0 gebruikt, moet u een upgrade naar versie 4.2 uitvoeren voordat u een upgrade naar versie 4.3.x uitvoert.
 - Als u versie 3.8.5 gebruikt, moet u een upgrade naar versie 4.0 uitvoeren voordat u een upgrade naar versie 4.2 uitvoert.
@@ -38,6 +38,7 @@ Raadpleeg de volgende procedures voor meer informatie:
 - [Upgrade naar versie 4.2.1](#upgrade-version-4-2-1)
 - [Upgrade naar versie 4.3.0](#upgrade-version-4-3)
 - [Upgrade naar versie 4.3.1](#upgrade-version-4-3-1)
+- [Upgrade naar versie 4.3.1.5](#upgrade-version-4-3-1-5)
 - [Upgrade naar versie 4.4.0](#upgrade-version-4-4-0)
 
 
@@ -53,7 +54,9 @@ Voordat u het proces uitvoert, moet u bepaalde taken uitvoeren. De volgende subs
 
 >[!NOTE]
 >
-> Dit upgradeproces is alleen van toepassing van versie 3.8.5 tot versie 4.0. Raadpleeg voor het upgradeproces van versie 3.4 of hoger naar versie 3.8.5 de *Hulplijnen Experience Manager bijwerken* in de productspecifieke installatiehandleiding beschikbaar in het gedeelte [Help-archiveringspagina](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
+> Dit upgradeproces is alleen van toepassing van versie 3.8.5 tot versie 4.0. Raadpleeg voor het upgradeproces van versie 3.4 of hoger naar versie 3.8.5 de *Hulplijnen Experience Manager bijwerken* in de productspecifieke installatiehandleiding beschikbaar op [Adobe Experience Manager Guides Help PDF archief](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
+
+
 
 ****Vereisten****
 
@@ -726,6 +729,48 @@ Voer de volgende stappen uit voor de naverwerking van de bestaande inhoud en het
 
 
 1. Terugkeren naar de standaardwaarde of vorige bestaande waarde van `queryLimitReads` als u dit in stap 1 hebt gewijzigd.
+
+
+
+## Upgrade naar versie 4.3.1.5 {#upgrade-version-4-3-1-5}
+
+De upgrade naar versie 4.3.1.5 is afhankelijk van de huidige versie van Hulplijnen voor Experience Managers. Als u versie 4.3.1 gebruikt, kunt u rechtstreeks upgraden naar versie 4.3.1.5.
+
+
+
+## Versie 4.3.1.5 installeren
+
+1. Download het versiepakket 4.3.1.5 van [Distributieportaal voor software voor Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. Installeer versie 4.3.1.5.
+
+1. Wacht tot het installatieproces is voltooid.
+1. U kunt de aanpassingen blijven bijwerken zoals in de volgende sectie wordt beschreven.
+
+
+## Nadat u versie 4.3.1.5 hebt geïnstalleerd
+
+
+>[!NOTE]
+>
+>Als u de bundel org.apache.velocity wilt gebruiken, voert u de volgende stappen uit voordat u de bundel uploadt:
+> 1. Ga naar `<server>:<port>/system/console/bundles`.
+> 1. Zoeken naar org.apache.velocity.
+> 1. Verwijder de gezochte bundel.
+> 1. Installeer de vereiste snelheidsbundel.
+
+
+1. Nadat de upgrade is voltooid, zorgt u ervoor dat alle aanpassingen/overlays worden gevalideerd en bijgewerkt zodat ze overeenkomen met de nieuwe toepassingscode. Hieronder volgen enkele voorbeelden:
+   - Alle onderdelen die zijn overschreven door `/libs/fmdita` of` /libs` moeten worden vergeleken met de nieuwe productcode en updates moeten worden uitgevoerd in overbelaste bestanden onder `/apps` .
+   - Alle clientlibcategorieën die worden gebruikt van het product, dienen te worden gecontroleerd op wijzigingen. Overschreven configuraties \(voorbeelden verderop\) moeten worden vergeleken met de nieuwste configuraties om de nieuwste functies te krijgen:
+   - `elementmapping.xml`
+   - `ui\_config.json\` (Mogelijk is ingesteld in mapprofielen\)
+   - gewijzigd `com.adobe.fmdita.config.ConfigManager`
+
+
+
+
+
+
 
 ## Upgrade naar versie 4.4.0 {#upgrade-version-4-4-0}
 
