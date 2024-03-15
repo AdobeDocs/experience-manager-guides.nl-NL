@@ -1,7 +1,7 @@
 ---
 title: Opmerkingen bij de release | Upgrade-instructies en opgeloste problemen in Adobe Experience Manager-hulplijnen, release 2024.2.0
 description: Leer meer over de compatibiliteitsmatrix en hoe u een upgrade uitvoert naar de 2024.2.0-release van de as a Cloud Service Adobe Experience Manager-hulplijnen.
-source-git-commit: e7457762ced59f696c5bd762c719cfd59b357250
+source-git-commit: 9022b8fbae9ff9eba962ca75e25c1f1137b008f8
 workflow-type: tm+mt
 source-wordcount: '866'
 ht-degree: 0%
@@ -33,7 +33,7 @@ In deze sectie wordt een overzicht gegeven van de compatibiliteitsmatrix voor de
 
 | Hulplijnen Experience Managers als cloudrelease | Oxygeenaansluiting, Windows | Oxygeenconnector Mac | Bewerken in Oxygen Windows | Bewerken in Oxygen Mac |
 | --- | --- | --- | --- | --- |
-| 2024,2,0 | 3.4-uuid 1 | 3.4-uuid 1 | 2,3 | 2,3 |
+| 2024,2,0 | 3,5-uuid 1 | 3,5-uuid 1 | 2,3 | 2,3 |
 |  |  |  |  |
 
 
