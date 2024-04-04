@@ -5,7 +5,7 @@ exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 7790aa9dce9a586b8b422dc6deeecab3d53aca8d
+source-git-commit: a6c87e6f9a68962488e70985a0513dcb05eaa9cd
 workflow-type: tm+mt
 source-wordcount: '1151'
 ht-degree: 0%
@@ -29,7 +29,7 @@ U kunt aangepaste PDF-sjablonen maken met specifieke paginalay-outs en opmaak de
 Voer de volgende stappen uit om een nieuwe PDF-sjabloon te maken:
 
 1. Ga in de webeditor naar de **Uitvoer** tab.
-1. Selecteren **Sjablonen** ![sjabloonpictogram](./assets/template.svg) in het linkerdeelvenster.
+1. Selecteren **Sjablonen** <img src="./assets/template.png" alt= "sjabloonpictogram" width="25"> in het linkerdeelvenster.
 
    <img src="assets/create-pdf-template.png" alt="PDF-sjabloon maken" width="400">
 
