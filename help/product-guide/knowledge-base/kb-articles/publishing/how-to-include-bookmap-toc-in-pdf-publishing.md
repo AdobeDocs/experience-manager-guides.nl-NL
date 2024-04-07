@@ -2,10 +2,12 @@
 title: Publiceren van inhoudsopgave (Inhoudsopgave) met NativePDF
 description: Inhoudsopgave en andere boekenlijst voor uw dita-boekmap publiceren met NativePDF
 feature: Native PDF Output
+author: Pulkit Nagpal(punagpal)
 role: User, Admin
-source-git-commit: 6ccaef5d35d492fe8dbe0f8b52af8d11258f3d2a
+exl-id: c551f0a8-f973-4c5a-bd34-f52890a91342
+source-git-commit: 7638f3634ad45bbadda64ec6e3f706cbb65d696c
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
@@ -36,6 +38,31 @@ De specificatie DITA staat het plaatsen van TOC en bookliklisten binnen toe `<ba
       <indexlist/>
     </booklists>
   </backmatter>
+```
+
+Voorbeeldstructuur van een boekenkaart met inhoudsopgave, figuurlijst en tabellijst op voorgrond en indexlijst op achtergrond.
+
+```
+<bookmap>
+  <title>My Bookmap Title </title>
+  <frontmatter>
+    <booklists>
+      <toc/>
+      <figurelist/>
+      <tablelist/>
+    </booklists>
+  </frontmatter>
+
+  <chapter href="chapter1.ditamap">
+  <chapter href="chapter2.ditamap">
+  </chapter>
+
+  <backmatter>
+    <booklists>
+      <indexlist/>
+    </booklists>
+  </backmatter>
+</bookmap>
 ```
 
 De inhoudsopgave en de opnamelijsten worden automatisch gegenereerd op basis van de structuur die in uw boekenkaart is gedefinieerd.
@@ -71,6 +98,7 @@ Als u Ditamap publiceert, geeft Native PDF automatisch functionaliteit om inhoud
 <br>
 <br>
 
-Plaats je vragen op de Community voor AEM gidsen [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) voor eventuele query&#39;s.
+Plaatsen in de Gemeenschap AEM gidsen [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) voor eventuele query&#39;s.
+
 
 
