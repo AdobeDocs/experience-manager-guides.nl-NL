@@ -2,9 +2,9 @@
 title: DITA-inhoud opnieuw gebruiken in AEM hulplijnen
 description: In dit korte artikel wordt uitgelegd hoe AEM hulplijnen en DITA u tijd en moeite besparen wanneer u inhoud opnieuw gebruikt
 role: User, Admin
-source-git-commit: 6ff99d32dd7a30c1104a79da4f223defe109f190
+source-git-commit: 8fceb5e76dcc946efc118b217e93088619c5c5c6
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '556'
 ht-degree: 0%
 
 ---
@@ -12,6 +12,12 @@ ht-degree: 0%
 # Inhoud opnieuw gebruiken in AEM hulplijnen
 
 Adobe AEM hulplijnen maken gebruik van de sterke punten van DITA om een gebruikersvriendelijke interface voor hergebruik van inhoud te bieden.
+
+In dit artikel zouden we het hebben over:
+
+1. Herbruikbaarheid met onderwerpverwijzing (`topicrefs`)
+2. Herbruikbaarheid met inhoudsverwijzing (`conref` en `conkeyref`)
+3. Knopinfo voor hergebruik van inhoud met slepen en neerzetten in AEM hulplijnen
 
 ## Herbruikbaarheid met onderwerpverwijzingen (topicref)
 
@@ -129,7 +135,7 @@ Stap 2: Selecteer (facultatief) uw wortelkaart, sleutel, en fragment dat opnieuw
 Hier is de hoofdmap automatisch geselecteerd omdat deze al was geopend in de kaartweergave
 
 
-### Inhoud opnieuw gebruiken met één klik in AEM hulplijnen
+## Inhoud opnieuw gebruiken met één klik in AEM hulplijnen
 
 AEM Hulplijnen bieden de mogelijkheid om inhoud met één muisklik opnieuw te gebruiken om verwijzingen naar inhoud toe te voegen.
 
