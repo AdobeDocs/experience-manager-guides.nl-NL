@@ -1,23 +1,24 @@
 ---
 title: DITA-inhoud opnieuw gebruiken in AEM hulplijnen
-description: In dit korte artikel wordt uitgelegd hoe AEM hulplijnen en DITA u tijd en moeite besparen wanneer u inhoud opnieuw gebruikt
+description: In dit korte artikel wordt uitgelegd hoe AEM hulplijnen en DITA u tijd en moeite besparen wanneer u inhoud hergebruikt
 role: User, Admin
-source-git-commit: 8fceb5e76dcc946efc118b217e93088619c5c5c6
+exl-id: 1522ebf5-2aea-4d8f-ade7-367227b31dd9
+source-git-commit: 4160c990bafe41611714ef66ee361aba0ef47c0a
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '553'
 ht-degree: 0%
 
 ---
 
-# Inhoud opnieuw gebruiken in AEM hulplijnen
+# Herbruikbaarheid van inhoud in AEM hulplijnen
 
 Adobe AEM hulplijnen maken gebruik van de sterke punten van DITA om een gebruikersvriendelijke interface voor hergebruik van inhoud te bieden.
 
 In dit artikel zouden we het hebben over:
 
-1. Herbruikbaarheid met onderwerpverwijzing (`topicrefs`)
-2. Herbruikbaarheid met inhoudsverwijzing (`conref` en `conkeyref`)
-3. Knopinfo voor hergebruik van inhoud met slepen en neerzetten in AEM hulplijnen
+1. [Herbruikbaarheid met onderwerpverwijzing (](#reusability-using-topic-referencestopicref)
+2. [Herbruikbaarheid met inhoudsverwijzing (](#reusability-using-content-reference-conref--conkeyref)
+3. [Knopinfo voor hergebruik van inhoud met slepen en neerzetten in AEM hulplijnen](#reuse-content-with-a-single-click-in-aem-guides)
 
 ## Herbruikbaarheid met onderwerpverwijzingen (topicref)
 
@@ -80,7 +81,7 @@ hier `conref=kyc_procedures.dita#indvidual_kyc` kyc_procedures.dita is de bestan
 
 Kyc_procedure.dita blijft de enige informatiebron. Als er om het even welke veranderingen in het KYC proces zoals vereist door verordeningen zijn, moet u eenvoudig één onderwerp bijwerken, en die veranderingen worden automatisch weerspiegeld in alle onderwerpen die naar het verwijzen.
 
-Met AEM hulplijnen klikt u erop
+Met AEM hulplijnen klikt u twee keer op het gereedschap
 
 Stap 1: klik op Herbruikbare inhoud invoegen
 ![werkbalk](../../assets/publishing/content-reusability_image1.png)
@@ -124,7 +125,7 @@ Sleutel - &quot;Kyc_procedure&quot; zal de enige bron van informatie blijven. Al
 
 Hier wordt het onderwerppad gewijzigd van &quot;kyc_procedure_2020.dita&quot; in &quot;kyc_procedure_2024.dita&quot; vanwege recente wijzigingen in de regelgeving.
 
-Met AEM hulplijnen klikt u erop
+Met AEM hulplijnen klikt u twee keer op het gereedschap
 
 Stap 1: klik op Herbruikbare inhoud invoegen
 ![werkbalk](../../assets/publishing/content-reusability_image1.png)
@@ -143,7 +144,7 @@ Stap 1: Voeg een generisch onderwerp aan Herbruikbare inhoud toe
 
 ![Herbruikbare inhoud toevoegen](../../assets/publishing/content-reusability_image4.png)
 
-Stap 2: Zodra toegevoegd, belemmering, en laat vallen het fragment dat u binnen in om het even welk van uw bestemmingsonderwerpen wilt hergebruiken.
+Stap 2: Zodra toegevoegd, belemmering, en laat vallen het fragment dat u in om het even welk van uw bestemmingsonderwerpen wilt opnieuw gebruiken.
 
 ![Opnieuw te gebruiken inhoud gif toevoegen](../../assets/publishing/content-reusability_image5.gif)
 
@@ -153,7 +154,7 @@ Stap 2: Zodra toegevoegd, belemmering, en laat vallen het fragment dat u binnen 
 
 - ### Alle inhoud wordt niet weergegeven nadat u een bestand/sleutel hebt geselecteerd in het dialoogvenster Inhoud opnieuw gebruiken
 
-U moet identiteitskaart aan fragmenten (elementen Dita) toewijzen die u in andere onderwerpen wilt hergebruiken
+U moet id&#39;s toewijzen aan fragmenten (Dita-elementen) die u opnieuw wilt gebruiken in andere onderwerpen
 
 - ## Toetsen worden niet weergegeven in het dialoogvenster Inhoud opnieuw gebruiken
 
@@ -164,4 +165,3 @@ Zorg ervoor dat u de hoofdmap/bovenliggende map hebt geopend in de kaartweergave
 
 
 Plaatsen in de Gemeenschap AEM gidsen [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) voor eventuele query&#39;s.
-
