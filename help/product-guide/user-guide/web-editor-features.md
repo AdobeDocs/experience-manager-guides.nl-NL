@@ -4,7 +4,7 @@ description: Ontdek functies van de webeditor in AEM hulplijnen. Zorg dat u de i
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
+source-git-commit: 1b338bb702267640bc3f5b5de4b00051979b562f
 workflow-type: tm+mt
 source-wordcount: '18678'
 ht-degree: 0%
@@ -233,6 +233,7 @@ Hiermee voorkomt u dat gebruikers een bestand opslaan dat een regel verbreekt di
 
      Typ de eerste paar tekens van de taal of de taalcode om de gewenste talen te filteren. Typ bijvoorbeeld &#39;en&#39; om alle talen te filteren die &#39;en&#39; bevatten aan het begin van hun naam of code.
       1. Selecteren **Gereed** om de geselecteerde talen toe te voegen aan de groep. De talen worden weergegeven. Wanneer u drie of meer talen toevoegt, **Meer weergeven** worden weergegeven. U kunt **Meer weergeven** om alle talen in de groep weer te geven.
+
          >[!TIP]
          >
          > Schakelen **Meer weergeven** tot **Minder tonen** en bekijk slechts een paar talen.
@@ -303,6 +304,7 @@ De gebruikersvoorkeuren zijn beschikbaar voor alle auteurs. Met de voorkeuren ka
   ![tabblad Weergave van gebruikersvoorkeuren](images/user_preference_editor_appearance.png){width="550" align="left"}
 
    - **Bestanden weergeven op**: Selecteer de standaardmanier om de bestanden weer te geven in de webeditor. U kunt de bestandenlijst weergeven op titel of bestandsnaam in de verschillende deelvensters van het dialoogvenster **Auteur** weergeven.
+
      >[!NOTE]
      >
      > Standaard worden de bestanden op titel weergegeven in de webeditor.
@@ -846,7 +848,9 @@ In het linkerdeelvenster hebt u toegang tot de volgende functies:
 **Favorieten** -  ![](images/favorite-collections.svg)
 
 Als u werkt aan een set bestanden of mappen, kunt u deze toevoegen aan uw favoriete lijst en ze snel openen. De lijst Favorieten bevat de lijst met documenten die u hebt toegevoegd en andere openbaar toegankelijke lijsten met favoriete documenten van de andere gebruikers.
+
 Standaard kunt u de bestanden op titels weergeven. Terwijl u de cursor op een bestand plaatst, kunt u de bestandstitel en het bestandspad weergeven als knopinfo.
+
 >[!NOTE]
 >
 > Als beheerder, kunt u ook verkiezen om de lijst van dossiers door filenames in de Redacteur van het Web te bekijken. Selecteer de **Bestandsnaam** van de **Bestanden weergeven op** sectie in **Gebruikersvoorkeuren** ![](images/user_preference_editor_icon.svg).
@@ -878,6 +882,7 @@ Als u een bestand aan uw favoriete verzameling wilt toevoegen, gebruikt u een va
 U kunt ook veel handelingen uitvoeren met het menu Opties dat beschikbaar is voor een verzameling Favorieten:
 
 ![](images/favorites-options.png){width="400" align="left"}
+
 - **Naam wijzigen**: Wijzig de naam van de geselecteerde verzameling.
 - **Verwijderen**: Verwijder de geselecteerde verzameling.
 - **Vernieuwen**: Haal een nieuwe lijst met bestanden en mappen op uit de opslagplaats.
@@ -965,11 +970,12 @@ Dit is synchroon met het zoekvak in het venster Opslagplaats. Als u bijvoorbeeld
 
 
 - Selecteer de **Filter sluiten** ![pictogram sluiten](images/close-icon.svg) om het filter te sluiten en terug te keren naar de boomstructuurweergave van de repository.
+
   >[!NOTE]
   >
   >Uw systeembeheerder kan de tekstfilters ook vormen en andere filters tonen of verbergen. Zie voor meer informatie *Tekstfilters configureren* in de sectie Adobe Experience Manager-hulplijnen installeren en configureren as a Cloud Service.
-
-  De lijst met gefilterde bestanden die de gezochte tekst bevatten, wordt weergegeven. De bestanden met de tekst `general purpose` worden weergegeven in de vorige schermafbeelding. U kunt meerdere bestanden in de gefilterde lijst selecteren en ze naar een kaart slepen die u wilt bewerken.
+  >
+  >De lijst met gefilterde bestanden die de gezochte tekst bevatten, wordt weergegeven. De bestanden met de tekst `general purpose` worden weergegeven in de vorige schermafbeelding. U kunt meerdere bestanden in de gefilterde lijst selecteren en ze naar een kaart slepen die u wilt bewerken.
 
 
 
@@ -1067,6 +1073,7 @@ De verschillende opties in het menu Opties worden hieronder uitgelegd:
   ![](images/rename-move-asset.png){width="550" align="left"}
 
   >[!NOTE]
+  >
   > U kunt een bestand ook naar een andere doelmap slepen.
 
   **Uitsluitingsscenario&#39;s**
@@ -1078,6 +1085,7 @@ De verschillende opties in het menu Opties worden hieronder uitgelegd:
    - Als een andere gebruiker het bestand uitcheckt, kunt u de naam van het bestand niet wijzigen of het bestand verplaatsen, wordt de optie Naam wijzigen of Verplaatsen naar voor het bestand niet weergegeven.
 
   >[!NOTE]
+  >
   > Als uw beheerder u de toestemmingen op een omslag heeft gegeven, dan slechts **Naam wijzigen** of **Verplaatsen naar** worden weergegeven.
 
   <details>
@@ -1206,6 +1214,7 @@ Voer een **Titel** voor de map, die automatisch wordt omgezet in de mapnaam. Het
 Wanneer u op het pictogram Kaartweergave klikt, wordt een lijst met onderwerpen in het kaartbestand weergegeven. Als u geen kaartbestand hebt geopend, wordt de Kaartweergave leeg weergegeven. Als u dubbelklikt op een kaartbestand, wordt het kaartbestand in deze weergave geopend. U kunt op om het even welk dossier binnen de kaart tweemaal klikken om het in de Redacteur van het Web te openen.
 
 Standaard kunt u de bestanden op titels weergeven. Terwijl u de cursor op een bestand plaatst, kunt u de bestandstitel en het bestandspad weergeven als knopinfo.
+
 >[!NOTE]
 >
 >Als beheerder kunt u ook de bestandsnaam bekijken van de bovenliggende kaart die momenteel is geopend in de kaartweergave. Selecteer de **Bestandsnaam** van de **Bestanden weergeven op** sectie in **Gebruikersvoorkeuren** ![](images/user_preference_editor_icon.svg).
@@ -1255,12 +1264,13 @@ U kunt de volgende handelingen uitvoeren met het menu Opties van het kaartbestan
 
 - **Weergeven in interface Elementen**: Gebruik deze optie om een voorvertoning van het kaartbestand weer te geven in de interface Middelen. In deze weergave worden alle onderwerpbestanden in de kaart weergegeven in één weergave voor elke pagina.
 - **Kaart downloaden**: Selecteer deze optie om het dialoogvenster **Kaart downloaden** in.
+
 In de **Kaart downloaden** kunt u de volgende opties kiezen:
-   - **Basislijn gebruiken**: Selecteer deze optie om een lijst met basislijnen op te halen die voor de DITA-kaart zijn gemaakt. Als u het kaartbestand en de inhoud ervan wilt downloaden op basis van een specifieke basislijn, selecteert u de basislijn in de vervolgkeuzelijst. Voor meer informatie over het werken met Baselines, bekijkt [Werken met basislijn](./generate-output-use-baseline-for-publishing.md).
-   - **Bestandshiërarchie afvlakken**: Selecteer deze optie als u alle onderwerpen en mediabestanden waarnaar wordt verwezen, in één map wilt opslaan.
+
+- **Basislijn gebruiken**: Selecteer deze optie om een lijst met basislijnen op te halen die voor de DITA-kaart zijn gemaakt. Als u het kaartbestand en de inhoud ervan wilt downloaden op basis van een specifieke basislijn, selecteert u de basislijn in de vervolgkeuzelijst. Voor meer informatie over het werken met Baselines, bekijkt [Werken met basislijn](./generate-output-use-baseline-for-publishing.md).
+- **Bestandshiërarchie afvlakken**: Selecteer deze optie als u alle onderwerpen en mediabestanden waarnaar wordt verwezen, in één map wilt opslaan.
 
   U kunt het kaartbestand ook downloaden zonder een optie te selecteren. In dat geval worden de laatste voortgezette versies van de onderwerpen waarnaar wordt verwezen en de mediabestanden gedownload.
-
 
   Nadat u op de knop **Downloaden** knoop, wordt het kaartuitvoerpakketverzoek een rij gevormd. De **Succes** wordt weergegeven als het pakket is gemaakt.  U kunt op de knop **Downloaden** van de knop **Succes** in.
 
@@ -1387,6 +1397,7 @@ Een van de belangrijkste functies van DITA is de mogelijkheid om inhoud opnieuw 
 U kunt herbruikbare inhoud eenvoudig van het deelvenster naar het huidige onderwerp slepen en deze inhoud snel en eenvoudig invoegen. U kunt ook een voorvertoning van de inhoud weergeven voordat u deze in het document invoegt.
 
 Standaard kunt u de bestanden op titels weergeven. Terwijl u de cursor op een bestand plaatst, kunt u de bestandstitel en het bestandspad weergeven als knopinfo.
+
 >[!NOTE]
 >
 > Als beheerder, kunt u ook verkiezen om de lijst van dossiers door filenames in de Redacteur van het Web te bekijken. Selecteer de **Bestandsnaam** van de **Bestanden weergeven op** sectie in **Gebruikersvoorkeuren** ![](images/user_preference_editor_icon.svg).
@@ -1770,7 +1781,9 @@ Met het menu Opties van een bestaande sjabloon kunt u ervoor kiezen **Bewerken**
 **Controleren** -  ![](images/active-review-tasklist-icon.svg)
 
 AEM Gidsen verstrekt de eigenschap om alle overzichtstaken in uw projecten te tonen. U kunt alle revisieprojecten en de actieve revisietaken in de revisieprojecten weergeven, waarvan u deel uitmaakt in het dialoogvenster **Controleren** deelvenster.  Vervolgens kunt u de revisietaken openen om de opmerkingen van de verschillende revisoren weer te geven.
+
 De revisietaken worden weergegeven in het deelvenster. Standaard kunt u de bestanden op titels weergeven. Terwijl u de cursor op een bestand plaatst, kunt u de bestandstitel en het bestandspad weergeven als knopinfo.
+
 >[!NOTE]
 >
 > Als beheerder, kunt u ook verkiezen om de lijst van dossiers door filenames in de Redacteur van het Web te bekijken. Selecteer de **Bestandsnaam** van de **Bestanden weergeven op** sectie in **Gebruikersvoorkeuren** ![](images/user_preference_editor_icon.svg).
@@ -1805,6 +1818,7 @@ Voer de volgende stappen uit om de revisieopmerkingen weer te geven in de actiev
    >[!NOTE]
    > 
    > De **Controleren** en de **Opmerkingen** zijn altijd synchroon. In het venster Opmerkingen worden de opmerkingen geladen op basis van de revisietaak die in het deelvenster Revisie is geladen.
+   >
    > Voor meer informatie over hoe u de opmerkingen kunt verwerken, bekijkt u [Opmerkingen voor revisie van adres](review-address-review-comments.md#).
 
 **Zoeken en vervangen** -  ![](images/FindAndReplace_icon.svg)
@@ -1814,6 +1828,7 @@ Onder in het linkerdeelvenster vindt u het pictogram Zoeken en vervangen. Met he
 ![](images/map-find-replace.png){width="800" align="left"}
 
 Standaard kunt u de bestanden op titels weergeven. Terwijl u de cursor op een bestand plaatst, kunt u de bestandstitel en het bestandspad weergeven als knopinfo.
+
 >[!NOTE]
 >
 > Als beheerder, kunt u ook verkiezen om de lijst van filenames in de Redacteur van het Web te bekijken. Selecteer de **Bestandsnaam** van de **Bestanden weergeven op** sectie in **Gebruikersvoorkeuren** ![](images/user_preference_editor_icon.svg).
@@ -1822,6 +1837,7 @@ Voer de volgende stappen uit om de algemene zoek- en vervangactie uit te voeren:
 
 1. De globale **Zoeken en vervangen** deelvenster.
 1. Klik op de knop **Zoeken in** selecteert u een van de volgende opties om de zoekopdracht uit te voeren.
+
    - **Huidige kaart**: Naar de huidige geopende kaart zoeken
 
      >[!NOTE]
@@ -1875,9 +1891,7 @@ Voer de volgende stappen uit om de algemene zoek- en vervangactie uit te voeren:
 
 1. Druk op Enter of selecteer **Zoeken** pictogram \( ![](images/search-icon.svg)\) om de zoekopdracht uit te voeren.
 1. Selecteer een bestand in de lijst met zoekresultaten. Het bestand wordt geopend in het bewerkingsgebied van de inhoud en de gezochte term wordt gemarkeerd in de inhoud.
-
 1. Klikken **Eén exemplaar vervangen** \( ![](images/replace-icon.svg)\) om de momenteel gemarkeerde zoekterm in het onderwerp te vervangen of op Volgende overeenkomst te klikken ![](images/next-match-in-search.png) of ![](images/previous-match-in-search.png) Vorige overeenkomst om naar de volgende of vorige instantie van de tekst te gaan.
-
 1. Klikken **Alles vervangen in bestand** \( ![](images/replace-all-in-file-icon.svg)\) om alle instanties van de gezochte term in één bestand te vervangen door de vervangterm in één klik. Er wordt een melding weergegeven nadat u alle instanties in het geselecteerde bestand hebt vervangen.
 
    >[!NOTE]
@@ -1904,6 +1918,7 @@ U kunt ook de opdracht **Zoeken op kaart** van de **Opties** menu van een kaart 
 In het inhoudsbewerkingsgebied wordt de inhoud van het onderwerp of de kaart weergegeven. U kunt alle inhoud in dit gebied bewerken. Het geeft een WYSIWYG-weergave van de inhoud die u bewerkt. U kunt veelvoudige onderwerpen hebben die tezelfdertijd worden geopend, die in hun respectieve lusjes worden getoond.
 
 Standaard kunt u de bestandstitels op de tabbladen weergeven. Terwijl u de cursor op een bestand plaatst, kunt u de bestandstitel en het bestandspad weergeven als knopinfo.
+
 >[!NOTE]
 >
 > Als beheerder kunt u de lijst met bestanden ook weergeven op bestandsnamen op de tabbladen. Selecteer de **Bestandsnaam** van de **Bestanden weergeven op** sectie in **Gebruikersvoorkeuren** ![](images/user_preference_editor_icon.svg).
@@ -1985,6 +2000,7 @@ In het gedeelte Verwijzingen hebt u toegang tot de volgende functies:
 - **Uitgaande koppelingen:** De uitgaande Verbindingen maken een lijst van de documenten waarnaar in het huidige document wordt verwezen.
 
 Standaard kunt u de bestanden op titels weergeven. Terwijl u de cursor op een bestand plaatst, kunt u de bestandstitel en het bestandspad weergeven als knopinfo.
+
 >[!NOTE]
 >
 > Als beheerder, kunt u ook verkiezen om de lijst van dossiers door filenames in de Redacteur van het Web te bekijken. Selecteer de **Bestandsnaam** van de **Bestanden weergeven op** sectie in **Gebruikersvoorkeuren** ![](images/user_preference_editor_icon.svg).
@@ -2014,4 +2030,3 @@ Met de functie Bijgehouden wijzigingen in het rechterdeelvenster kunt u de infor
 > De functie Bijgehouden wijzigingen toont alle updates die zijn bijgehouden met de functie Wijzigingen bijhouden inschakelen/uitschakelen op de hoofdwerkbalk. Zie voor meer informatie [Wijzigingen bijhouden inschakelen/uitschakelen](#id205DF0203Y4).
 
 **Bovenliggend onderwerp:**[ Werken met de webeditor](web-editor.md)
-
