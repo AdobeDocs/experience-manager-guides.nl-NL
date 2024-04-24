@@ -5,9 +5,9 @@ exl-id: d7cd412b-89ea-43a5-97b3-09944863bbee
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: acd16f23a7b3023a62b3c15007b03d4f3b2cfb4f
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '788'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 # Vorm een gegevensbronschakelaar van het gebruikersinterface
 
 De Gidsen van de Experience Manager komt met **Gegevensbronnen** hulpmiddel dat u helpt uit-van-de-doosschakelaars voor gegevensbronnen vormen. U kunt opstelling JIRA, SQL (MySQL, PostgreSQL, de Server van Microsoft SQL, SQLite, MariaDB, H2DB), de schakelaars van de Cliënt van de Handel van Adobe, Elasticsearch, en Algemene REST.
+
+Naast deze out-of-the-box schakelaars, verstrekt de Gidsen van de Experience Manager de schakelaars voor Salsify, Akeneo, en Microsoft Azure DevOps Boards (ADO) gegevensbronnen. U kunt ze downloaden en installeren. De gebruikers kunnen deze schakelaars dan vormen.
+
+U kunt ook verbinding maken met JSON-gegevensbestanden via een bestandsconnector. Upload het JSON-bestand van uw computer of blader erdoor vanaf de Adobe Experience Manager-elementen. Creëer vervolgens inhoudsfragmenten of -onderwerpen met behulp van de generatoren.
 
 Voer de volgende stappen uit om een connector te configureren:
 
@@ -37,14 +41,19 @@ Voer de volgende stappen uit om een connector te configureren:
 1. Voer de configuratie- en verbindingsgegevens in volgens de database.
 
    >[!TIP]
+   >
    >* Overslaan <img src="./assets/info-details.svg" alt= "info icon" width="25"> in de buurt van het veld voor meer informatie.
    > * Velden met * zijn verplicht. U kunt bijvoorbeeld de volgende gegevens invoeren voor de aansluiting van de Elasticsearch.
 
    * **Naam**: Voer de naam van de gegevensbron in.
-   * Verificatietype: selecteer het type verificatie in het keuzemenu. Voorbeeld: Basic username-password authentication
+   * **Type verificatie**: Selecteer het type verificatie in de keuzelijst. Voorbeeld: Basic username-password authentication
    * **Gebruikersnaam**: Voer uw gebruikersnaam in.
    * **Wachtwoord**: Voer uw gebruikersnaam en wachtwoord in.
    * **URL**: Voeg de API-URL toe.
+
+
+1. Selecteer de **Fabriekssjablonen uitsluiten** optie om de fabrieksmalplaatjes van voor onderwerp en fragmentgeneratie uit te sluiten worden gebruikt. Zij worden niet onder de **Gegevenstoewijzingssjabloon** vervolgkeuzelijst  **Generator voor inhoudsfragmenten toevoegen** of de **Onderwerpgenerator toevoegen** in.
+
 
 1. Selecteren **Verbinding testen**. U kunt de **Verbinding testen** Deze knop is alleen ingeschakeld nadat u de vereiste details hebt toegevoegd. Een succesbericht weergeven als de verbindingsgegevens juist zijn. Anders wordt mogelijk een foutbericht weergegeven.
 
@@ -54,6 +63,21 @@ Voer de volgende stappen uit om een connector te configureren:
 
 
    Als de connector is opgeslagen, kunt u de verbonden gegevensbron op de pagina weergeven.
+
+**Verbinding maken met meerdere bronnen**
+
+U kunt veelvoudige middelen toevoegen of gebruiken die op verschillende URLs voor sommige schakelaars zoals Generische Cliënt van de REST, Salsify, Akeneo, en Microsoft Azure DevOps Boards (ADO) worden gebaseerd. Dan, verbind met hen om inhoudsfragmenten of onderwerpen tot stand te brengen gebruikend de generators voor hen.
+
+Voer de volgende stappen uit om een bron te maken:
+
+1. Selecteren ![pictogram toevoegen](assets/Add_icon.svg) in de **Sectie URL-bron** om een bron voor elke URL toe te voegen.
+1. Configureer alle details in het dialoogvenster **Bron toevoegen** in.
+1. Klikken **Toevoegen**.
+1. U kunt ![bewerkingspictogram](assets/edit_pencil_icon.svg) of verwijderen ![delete](assets/Delete_icon.svg) de bron in de URL-bronlijst.
+
+1. U kunt ook de standaardbronnen gebruiken die beschikbaar zijn voor gegevensbronnen zoals Salsify, Akeneo en Microsoft ADO. Schakel de opties UIT voor de bron die u niet wilt configureren voor een gegevensbron.
+
+Dit helpt u om gegevens van om het even welke middelen voor een bepaalde gegevensbron in één enkel inhoudsfragment of onderwerp snel te halen.
 
 ## Beschikbare functies voor een aansluiting
 

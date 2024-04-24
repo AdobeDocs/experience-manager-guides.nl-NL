@@ -4,9 +4,9 @@ description: Leer hoe u een PDF-voorinstelling maakt in de webeditor en het kaar
 exl-id: f12c91fd-3f95-478e-a9cd-68d037206ee8
 feature: Publishing
 role: User
-source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
+source-git-commit: b82f1f3b42f85cce8420d3962c69cd3bafc5728d
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '1050'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ De **Algemeen** bevat de volgende configuraties:
 Het tabblad Geavanceerd bevat de volgende configuraties:
 
 - Versiering inschakelen
-- Tijdelijke DITA-OT-bestanden opschonen
+- Tijdelijke bestanden downloaden
 
 Zie voor meer informatie [PDF-configuratie](#id231KIM004X1).
 
@@ -63,7 +63,7 @@ De volgende opties zijn beschikbaar voor de Uitvoer van PDF:
 | Transformatienaam | Geef het type uitvoer op dat u wilt genereren. Dit is vereist als u uitvoer wilt genereren met uw eigen aangepaste plug-in, die is geïntegreerd in de DITA-OT-plug-in. Als u bijvoorbeeld XHTML-uitvoer wilt genereren, geeft u `xhtml`. Voor een lijst van transformaties beschikbaar in DITA-OT, zie [DITA-OT-transformaties (uitvoerindelingen)](http://www.dita-ot.org/2.3/user-guide/AvailableTransforms.html) in OASIS DITA-OT User Guide. |
 | Bestandsnaam | Geef de bestandsnaam op waarmee u de PDF wilt opslaan.<br><br>U kunt ook variabelen gebruiken wanneer u de bestandsnaam PDF instelt. Voor meer informatie over het gebruik van variabelen raadpleegt u [Variabelen gebruiken voor het instellen van de opties Doelpad, Sitenaam of Bestandsnaam](generate-output-use-variables.md#id18BUG70K05Z).<br><br>**Opmerking**: Als u geen bestandsnaam opgeeft, wordt de titel van de DITA-kaart gebruikt om de uiteindelijke naam van het PDF te genereren. Als de kaart geen titel heeft, dan wordt de het dossiernaam van de kaart DITA gebruikt aan naam de definitieve PDF. De bestandsnaam wordt ontsmet volgens de regels die in het systeem zijn geconfigureerd voor het verwerken van elk ongeldig teken. |
 | Doelpad | Het pad in uw AEM opslagplaats waar de PDF is opgeslagen.<br><br>U kunt ook variabelen gebruiken bij het instellen van het bestemmingspad. Voor meer informatie over het gebruik van variabelen raadpleegt u [Variabelen gebruiken voor het instellen van de opties Doelpad, Sitenaam of Bestandsnaam](generate-output-use-variables.md#id18BUG70K05Z). |
-| Tijdelijke DITA-OT-bestanden opschonen | Selecteer deze optie als u de tijdelijke bestanden die door DITA-OT worden gegenereerd, wilt opschonen. De plaats waar DITA-OT tijdelijke dossiers opslaat kan in het logboek van de outputgeneratie worden gevonden.<br><br>Als er fouten optreden bij het genereren van uitvoer via DITA-OT, kunt u deze optie uitschakelen om de tijdelijke bestanden te behouden. Vervolgens kunt u deze bestanden gebruiken om fouten met uitvoergeneratie op te lossen. |
+| Tijdelijke bestanden downloaden | Selecteer deze optie om de tijdelijke bestanden te downloaden die door DITA-OT worden gegenereerd. De plaats waar DITA-OT tijdelijke dossiers opslaat kan in het logboek van de outputgeneratie worden gevonden. Als er fouten optreden bij het genereren van uitvoer via DITA-OT, selecteert u deze optie om de tijdelijke bestanden te behouden. Vervolgens kunt u deze bestanden gebruiken om fouten met uitvoergeneratie op te lossen.<br> <br>  Selecteer na het genereren van de uitvoer de optie **Tijdelijke bestanden downloaden** ![pictogram Tijdelijke bestanden downloaden](images/download-temp-files-icon.png) pictogram om de ZIP-map met de tijdelijke bestanden te downloaden. <br><br> **Opmerking**: Als u bepaalde bestandseigenschappen selecteert en vervolgens de tijdelijke bestanden downloadt, krijgt u ook de opdracht *metadata.xml* in de ZIP-map. |
 | Basislijn gebruiken | Als u een basislijn voor de geselecteerde kaart hebt gecreeerd DITA, selecteer deze optie om de versie te specificeren die u wilt publiceren.<br><br>Zie [Werken met basislijn](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) voor meer details. |
 | Bestandseigenschappen | Selecteer de eigenschappen die u als metagegevens wilt verwerken. Deze eigenschappen worden ingesteld op de pagina Eigenschappen van de DITA-kaart of het bladwijzerbestand. De eigenschappen die u in de vervolgkeuzelijst selecteert, worden onder de **Bestandseigenschappen** veld. Selecteer het kruispictogram naast de eigenschap om deze te verwijderen. <br><br>Opmerking: u kunt de metagegevens ook doorgeven aan de uitvoer met DITA-OT-publicatie. Zie voor meer informatie [Geef de metagegevens door aan de uitvoer met DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
 

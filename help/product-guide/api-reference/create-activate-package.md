@@ -1,31 +1,52 @@
 ---
-title: REST API voor het maken en activeren van pakketten
-description: Meer informatie over de REST API voor het maken en activeren van pakketten
+title: REST-API voor het maken en activeren van pakketten
+description: Meer informatie over de REST-API voor het maken en activeren van pakketten
 exl-id: 90686f77-a769-44bc-90eb-116cf9d0341e
 feature: Rest API Packages
 role: Developer
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 32da48d82b1267bb220424edf385035426293b66
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
 
-# REST API voor het maken en activeren van pakketten {#id198CF0260Y4}
+# REST-API voor het maken en activeren van pakketten {#id198CF0260Y4}
 
-Met de volgende REST API kunt u CRX-pakketten maken en activeren.
+Met de volgende REST-API kunt u CRX-pakketten maken en activeren.
 
 ## Pakket maken en activeren
 
-Een methode van de POST die tot CRX pakket leidt en activeert.
+Een methode POST waarmee een CRX-pakket wordt gemaakt en geactiveerd.
 
-**Aanvraag-URL**: http://*&lt;aem-guides-server>*: *&lt;port-number>*/bin/fmdita/activate
+**Aanvraag-URL**:
+*&lt;aem-guides-server\>* http://: *&lt;port-number\>*/bin/fmdita/activate&lt;/port-number\>&lt;/aem-guides-server\>
 
-**Parameters**: De aanvraagquery bestaat uit de tekenreeks JSON-regels. Het inhoudstype van het verzoek van de POST moet worden geplaatst aan `application/json; charset=UTF-8`.
+**Parameters**:
+De aanvraagquery bestaat uit de JSON-regelsreeks. Het inhoudstype van de POST-aanvraag moet zijn ingesteld op `application/json; charset=UTF-8`.
 
-**Voorbeeld**: In het volgende voorbeeld wordt de API-aanroep met de opdracht curl getoond:
+**Voorbeeld**:
+In het volgende voorbeeld wordt de API-aanroep getoond met de opdracht Krullen:
 
-    &quot;
-    curl -u &lt;*username*>:&lt;*password*> -H &quot;Content-Type: application/json; charset=UTF-8&quot; -k -X POST -d &quot;{[JSON rules string](create-activate-package-java.md#example-create-activate-package-id198JH0B905Z)&quot; http://&lt;*ave em-guides-server*>:&lt;*poort-nummer*>/bin/fmdita/activate
-    &quot;
+```XML
+curl -u <*username*>:<*password*> -H "Content-Type: application/json; charset=UTF-8"  -k -X POST -d "{[JSON rules string](create-activate-package-java.md#example-create-activate-package-id198JH0B905Z)}" http://<*aem-guides-server*>:<*port-number*>/bin/fmdita/activate
+```
+
+
+**Optionele parameter**
+
+`activationTarget`
+
+**Geldige waarden**
+
+`preview` of `publish` voor cloudservice en `publish` voor on-premises software
+
+Als de parameter een ongeldige waarde bevat, mislukt de activering van het pakket. In het volgende voorbeeld wordt de API-aanroep getoond met de opdracht Krullen en een optionele parameter:
+
+
+    &#39;&#39;&#39;XML curl
+    
+    -u &lt;*username*>:&lt;*password*> -H &quot;Content-Type: application/json; charset=UTF-8&quot; -k -X POST -d &quot;{[JSON rules string](create-activate-package-java.md#example-create-activate-package-id198JH0B905Z)}&quot; http://&lt;*aem-guides-server*>:&lt;*port-number*>/bin/fmdita/activate?activationTarget=&lt;validActivationTargetValue>&#39;&#39;
+    &#39;&#39;
+&lt;/validActivationTargetValue>&lt;/*port-number*>&lt;/*aem-guides-server*>&lt;/*password*>&lt;/*username*>

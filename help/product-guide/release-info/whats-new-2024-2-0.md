@@ -1,16 +1,17 @@
 ---
 title: Opmerkingen bij de release | Nieuwe functies in de Adobe Experience Manager-hulplijnen, release 2024.2.0
 description: Leer de nieuwe en verbeterde functies in de 2024.2.0-release van Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: f5940d0ddf19733411532281fb614690075c02ee
+exl-id: 234d430a-d775-484a-aea8-6e422b0a01eb
+source-git-commit: b1bb2b9da71bf0551fe40c84ac382df0e78e007b
 workflow-type: tm+mt
-source-wordcount: '1069'
+source-wordcount: '1066'
 ht-degree: 0%
 
 ---
 
 # Nieuwe functies in de release 2024.2.0
 
-Dit artikel behandelt de nieuwe en verbeterde functies in de release 2024.2.0 van Adobe Experience Manager Guides.
+Dit artikel behandelt de nieuwe en verbeterde functies van de release 2024.2.0 van Adobe Experience Manager Guides.
 
 Voor de lijst met problemen die in deze release zijn opgelost, raadpleegt u [Opgeloste problemen in de release 2024.2.0](fixed-issues-2024-2-0.md).
 

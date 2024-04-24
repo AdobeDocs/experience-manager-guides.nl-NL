@@ -4,9 +4,9 @@ description: Andere functies van de webeditor in AEM hulplijnen bekijken. Leer h
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: caf00a014838751675aed11e5687a81fe7ad2e7c
 workflow-type: tm+mt
-source-wordcount: '2247'
+source-wordcount: '2532'
 ht-degree: 0%
 
 ---
@@ -159,15 +159,25 @@ Afhankelijk van of het bestand vergrendeld/ontgrendeld is en of de opgeslagen of
 
 **MathML-vergelijkingen invoegen**
 
-- AEM Gidsen geeft u een uit-van-de-doos steun voor het opnemen van vergelijkingen MathML door integratie met [MathType Web](https://docs.wiris.com/en/mathtype/mathtype_web/intro) toepassing. Als u een MathML-vergelijking wilt invoegen, klikt u op de **Element invoegen** pictogram en type mathml. Wanneer u een mathml-element in de lijst selecteert, wordt het dialoogvenster MathML invoegen weergegeven:
+- De Gidsen van de Experience Manager geeft u een uit-van-de-doossteun voor het opnemen van vergelijkingen MathML door integratie met [MathType Web](https://docs.wiris.com/en/mathtype/mathtype_web/intro) toepassing. Als u een MathML-vergelijking wilt invoegen, selecteert u de **Element invoegen** pictogram en type mathml. Wanneer u een mathml-element in de lijst selecteert, wordt **MathML invoegen** wordt weergegeven:
 
-![](images/insert-mathml-equation.png){width="550" align="left"}
+![wiskundige vergelijking invoegen in mathml-editor](images/insert-mathml-equation.png){width="550" align="left"}
 
-Maak uw vergelijking met de MathML-vergelijkingsgereedschappen en klik op Invoegen om deze aan uw document toe te voegen. De vergelijking wordt ingevoegd met lichtgrijze achtergrond, zoals hieronder wordt getoond:
+Gebruikend de MathML vergelijkingshulpmiddelen, creeer uw vergelijking en klik **Invoegen** om het aan uw document toe te voegen. De vergelijking wordt ingevoegd met lichtgrijze achtergrond, zoals hieronder wordt getoond:
 
-![](images/sample-mathml-equation.PNG){width="400" align="left"}
+![monster mathml vergelijking](images/sample-mathml-equation.PNG){width="400" align="left"}
 
 U kunt op elk gewenst moment een vergelijking bijwerken door met de rechtermuisknop op een bestaande vergelijking te klikken en **MathML bewerken** in het contextmenu.
+
+- **Validatie van vergelijkingen in de redacteur MathML**
+
+  De Gidsen van de Experience Manager bevestigt vergelijkingen MathML wanneer u sparen een onderwerp dat hen bevat.
+Wanneer u een vergelijking gebruikend de redacteur MathML opneemt, benadrukt de Gidsen van de Experience Manager de vergelijking in rood als er om het even welke syntaxiskwesties zijn. U kunt dit corrigeren voordat u het invoegt. Als u geen wijzigingen aanbrengt, maar selecteert u **Invoegen** wordt een waarschuwing weergegeven.
+
+  ![wiskundige vergelijking valideren](images/validate-mathml-equation.png){width="400" align="left"}
+
+  Als u de vergelijking MathML opneemt die een syntaxisfout bevat, komt een bevestigingsfout voor wanneer u probeert om het onderwerp op te slaan.
+
 
 **Voetnoten invoegen**
 
@@ -203,11 +213,30 @@ Naast het contextmenu van de broodkruimel, kan het anders noemen de dialoog van 
 
 - Als u een element loskoppelt, kunt u de elementtag verwijderen uit de geselecteerde tekst en deze samenvoegen met het bovenliggende element. Als u bijvoorbeeld een `p` element binnen een `note` -element, kunt u de omloop van het `p` -element om de tekst direct in het `note` element. De **Element opheffen** Deze optie is beschikbaar in het contextmenu van de breadcrumb van het onderwerp. Als u een element wilt opheffen, klikt u met de rechtermuisknop op het element om het contextmenu te openen en selecteert u vervolgens **Element opheffen** om het element te verwijderen en de tekst van het element met zijn ouderelement samen te voegen.
 
+**Witruimte-verwerking voor DITA-elementen**
+
+- In XML omvatten witruimten spaties, tabs, regeleinden en lege regels. Met de hulplijnen voor Experience Managers worden meerdere witruimten die hiermee samenhangen, in één spatie omgezet. Dit helpt u de mening WYSIWYG van de Redacteur van het Web bewaren.
+
+  >[!NOTE]
+  >
+  >In sommige elementen waar witruimten moeten worden behouden volgens de DITA-regels, blijven de verschillende witruimten die daaruit voortvloeien behouden. Bijvoorbeeld: `<pre>` en `<codeblock>` elementen.
+
+
 **Regeleinden en inspringing behouden**
 
 - DITA-elementen die regeleinde en spaties bevatten, worden ondersteund en gerenderd volgens hun definitie in de modus Auteur, Bron of Voorvertoning en ook in de uiteindelijke gepubliceerde uitvoer. In de volgende schermafbeelding wordt de inhoud in het dialoogvenster `msgblock` element waarin de regeleinden en spaties \(inspringing\) zijn behouden:
 
 ![](images/new-line-support_cs.png){width="500" align="left"}
+
+
+
+**Afhandeling van vaste spaties in de webeditor**
+
+- U kunt vaste spaties in uw document invoegen met behulp van de **Speciale tekens invoegen**  ![pictogram Speciale tekens invoegen](images/insert-special-chars-icon.svg) of de **Alt** + **Spatie** sneltoetsen.  Deze vaste spaties verschijnen als indicator terwijl u een onderwerp in de Redacteur van het Web uitgeeft. U kunt de weergave van de vaste spaties uitschakelen met de opdracht **Vaste-spatie-indicator weergeven in de modus Schrijver** van de **Weergave** tabblad van het **Gebruikersvoorkeuren** ![Pictogram Voorkeuren gebruiker](images/user_preference_editor_icon.svg)..
+
+- Als u inhoud met een vaste spatie uit externe bronnen kopieert en plakt in het dialoogvenster **Auteur** wordt de vaste spatie omgezet in een spatie.
+Als u echter inhoud kopieert en plakt met een vaste spatie uit de **Auteur** het blijft behouden .
+
 
 **Element-id automatisch genereren**
 

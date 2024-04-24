@@ -4,9 +4,9 @@ description: Gebruik gegevens uit uw gegevensbron in AEM hulplijnen. Leer hoe u 
 exl-id: fbd5eff2-451b-49d6-ba77-6eb271e94349
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 2e5bf87b65cca6b522fcb97db1f40f98f020927a
 workflow-type: tm+mt
-source-wordcount: '2066'
+source-wordcount: '2389'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,11 @@ ht-degree: 0%
 
 A **gegevensbron** is een systeem waarin u de gegevens voor uw organisatie opslaat en beheert. Dit zijn uw systemen van verslag zoals JIRA, SQL Gegevensbestanden, PIM, of PLM. AEM de Gidsen verstrekt de eigenschap om met uw gegevensbron te verbinden en de gegevens van hen te gebruiken.
 
+U kunt ook verbinding maken met JSON-gegevensbestanden via een bestandsconnector. Upload het JSON-bestand van uw computer of blader erdoor vanaf de Adobe Experience Manager-elementen. Creëer vervolgens inhoudsfragmenten of -onderwerpen met behulp van de generatoren.
+
 ## Deelvenster Gegevensbronnen
 
-Selecteren **Gegevensbronnen** ![](images/data-source-icon.svg) in het linkerpaneel om de verbonden gegevensbronnen te bekijken. Het paneel van Gegevensbronnen opent en toont alle verbonden gegevensbronnen.
+Selecteren **Gegevensbronnen** ![gegevensbron](images/data-source-icon.svg) in het linkerpaneel om de verbonden gegevensbronnen te bekijken. Het paneel van Gegevensbronnen opent en toont alle verbonden gegevensbronnen.
 
 Gebaseerd op uw opstelling kan uw beheerder een gegevensbronschakelaar vormen:
 
@@ -80,11 +82,23 @@ Voer de volgende stappen uit om een inhoudsfragment tot stand te brengen gebruik
 1. Selecteer een gegevensbron om de inhoudsfragmentgenerators te bekijken beschikbaar voor de geselecteerde gegevensbron.
 
    ![](images/code-snippet-generator.png){width="300" align="left"}
+
    *In het deelvenster Gegevensbronnen worden de beschikbare generatoren voor inhoudsfragmenten weergegeven.*
 
 1. Selecteren **Toevoegen** om een nieuwe inhoudsfragmentgenerator toe te voegen. De **Generator voor inhoudsfragmenten toevoegen** wordt geopend.
 
-1. Voer de query in het tekstvak Gegevensquery in.
+1. Voer de query in het dialoogvenster **Gegevensquery** tekstvak.  Selecteren **Voorbeeldquery kopiëren** om snel een gegevensvraag te kopiëren. In plaats van de query handmatig te maken, kunt u de voorbeeldquery kopiëren en plakken in de **Gegevensquery** tekstvak. Dan, geef eenvoudig de vraag volgens uw gegevensvereisten uit.
+
+   >[!NOTE]
+   >
+   >Experience Manager verstrekt verschillende steekproefvragen voor alle middelen in de diverse gegevensbronnen. Deze kaart aan de gegevensbron waarvan u de gegevens haalt.
+
+1. Als u een bestandsconnector gebruikt, kunt u het JSON-bestand vanaf uw computer uploaden of door een JSON-bestand bladeren vanuit Adobe Experience Manager-middelen.
+
+   >[!NOTE]
+   >
+   > Als u een bestandsconnector gebruikt, kunt u de opties voor het uploaden naar bestanden bekijken of door bestanden bladeren in plaats van een gegevensquery.
+
 1. Selecteer in het menu van het palet **Gegevenstoewijzingssjabloon** vervolgkeuzelijst.
 De out-of-the-box malplaatjes voor de geselecteerde gegevensbron worden getoond in drop-down. Bijvoorbeeld, kunt u het &quot;sql-lijst&quot;malplaatje voor datasource bekijken genoemd &quot;PostSQL&quot;gegevensbron.
 
@@ -93,6 +107,12 @@ De out-of-the-box malplaatjes voor de geselecteerde gegevensbron worden getoond 
    > Als uw beheerder aangepaste sjablonen heeft geconfigureerd, worden deze sjablonen ook weergegeven in de vervolgkeuzelijst (op basis van de sjabloonpadconfiguraties die de beheerder heeft uitgevoerd).
    >   
    >U kunt ook de gereedschappen Snelheid gebruiken in de sjablonen. Meer informatie over hoe [Snelheidsgereedschappen gebruiken](#use-velocity-tools).
+
+1. De **Bron** het keuzemenu wordt weergegeven voor bepaalde connectors, zoals REST Client, Salsify, Akeneo en Microsoft ADO.  Selecteer om het even welk middel van dropdown en verbind met het om een inhoudsfragment of een onderwerp tot stand te brengen gebruikend de generator voor het.
+
+   >[!NOTE]
+   >
+   > Uw beheerder kan standaardmiddelen vormen of middelen voor veelvoudige URLs toevoegen terwijl het vormen van de gegevensbronschakelaars.
 
 1. Klikken **Ophalen** om de gegevens van de gegevensbron te halen en het malplaatje op de gegevens toe te passen die uit de SQL vraag voortvloeien.
 
@@ -144,6 +164,8 @@ De onderwerpgenerator kan de onderwerpen tot stand brengen die de gegevens en ee
 
 
 
+
+
 ### Een onderwerp maken
 
 Voer de volgende stappen uit om een onderwerp tot stand te brengen gebruikend de onderwerpgenerator:
@@ -166,7 +188,18 @@ Voer de volgende stappen uit om een onderwerp tot stand te brengen gebruikend de
 
    *Voeg de Vraag van Gegevens, het kaartmalplaatje van Gegevens, en de details van de wortelknoop voor de onderwerpgenerator toe en geef het een unieke naam in het paneel van de Configuratie van de Ophalen.*
 
-   1. Voer de query in het dialoogvenster **Gegevensquery** tekstvak.
+   1. Voer de query in het dialoogvenster **Gegevensquery** tekstvak. Selecteren **Voorbeeldquery kopiëren** om snel een gegevensvraag te kopiëren. In plaats van de query handmatig te maken, kunt u de voorbeeldquery kopiëren en plakken in de **Gegevensquery** tekstvak. Dan, geef eenvoudig de vraag volgens uw gegevensvereisten uit.
+
+      >[!NOTE]
+      >
+      >Experience Manager verstrekt verschillende steekproefvragen voor alle middelen in de diverse gegevensbronnen. Deze kaart aan de gegevensbron waarvan u de gegevens haalt.
+
+   1. Als u een bestandsconnector gebruikt, kunt u het JSON-bestand vanaf uw computer uploaden of door een JSON-bestand bladeren vanuit Adobe Experience Manager-middelen.
+
+      >[!NOTE]
+      >
+      > Als u een bestandsconnector gebruikt, kunt u de opties voor het uploaden naar bestanden bekijken of door bestanden bladeren in plaats van een gegevensquery.
+
    1. Selecteer in het menu van het palet **Gegevenstoewijzingssjabloon** vervolgkeuzelijst.
 
       >[!NOTE]

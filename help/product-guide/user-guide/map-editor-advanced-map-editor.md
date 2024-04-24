@@ -4,9 +4,9 @@ description: Leer hoe u met de geavanceerde kaarteditor in AEM hulplijnen werkt.
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 6201434d3dd8336bf9fe1bce6368d5dbb9c56162
 workflow-type: tm+mt
-source-wordcount: '3695'
+source-wordcount: '3788'
 ht-degree: 0%
 
 ---
@@ -340,7 +340,12 @@ Ga als volgt te werk om onderwerpen te bewerken via een DITA-kaart:
 
      U kunt alle geselecteerde onderwerpen opslaan of de onderwerpen deselecteren die u niet wilt opslaan.
 
-   - U kunt het onderwerp inchecken met de **Opslaan als nieuwe versie en ontgrendelen** knop. Wanneer u sparen een revisie van het onderwerp, wordt een nieuwe revisie gecreeerd en het slot is ook versie.
+   - U kunt het onderwerp inchecken met de **Opslaan als nieuwe versie en ontgrendelen** knop. Wanneer u sparen een versie van het onderwerp, wordt een nieuwe versie gecreeerd en het slot wordt ook vrijgegeven.
+
+     Sla uw wijzigingen op voordat u de bestanden incheckt.  Wanneer u de wijzigingen opslaat, wordt het XML-bestand gevalideerd.
+
+   - U kunt ook meerdere onderwerpen selecteren en inchecken met de opdracht **Opslaan als nieuwe versie en ontgrendelen** knop. Wanneer u sparen een versie van de onderwerpen, wordt een nieuwe versie gecreeerd voor elk onderwerp, en het slot wordt ook vrijgegeven. U kunt ook de voortgang bekijken van het inchecken van de onderwerpen vanuit de **Opslaan als nieuwe versie en ontgrendelen** in. Er wordt een succesbericht weergegeven wanneer de bestanden zijn ingecheckt.
+
    - Als uw beheerder de optie heeft ingeschakeld om bestanden bij het sluiten in te checken, wordt u gevraagd om bestanden op te slaan wanneer de uitgecheckte bestanden worden gesloten. Als deze optie is ingeschakeld en u de editor sluit met gewijzigde bestanden, wordt een lijst weergegeven met uitgecheckte bestanden die moeten worden opgeslagen. De uitgecheckte bestanden worden weergegeven met een vergrendelingspictogram:
 
      ![](images/save-on-close.PNG){width="550" align="left"}

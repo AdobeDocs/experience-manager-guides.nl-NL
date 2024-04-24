@@ -4,24 +4,28 @@ description: Leer hoe u nieuwe op microservice gebaseerde publicaties voor AEM h
 exl-id: 92e3091d-6337-4dc6-9609-12b1503684cd
 feature: Microservice in AEM Guides
 role: User, Admin
-source-git-commit: 462647f953895f1976af5383124129c3ee869fe9
+source-git-commit: f929d4fd74e98e2025d80c14dbef6aeb464c0dd5
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '711'
 ht-degree: 0%
 
 ---
 
-# Nieuwe op microservice gebaseerde publicatie configureren voor as a Cloud Service AEM hulplijnen
+# Op microservice gebaseerde publicaties configureren met JWT-verificatie
 
-Met de nieuwe publicatiemicroservice kunnen gebruikers tegelijkertijd grote publicatiewerklasten uitvoeren op AEM as a Cloud Service hulplijnen en het toonaangevende Adobe I/O Runtime-serverplatform benutten.
-
-Voor elke publicatieaanvraag AEM as a Cloud Service hulplijnen wordt een aparte container uitgevoerd die horizontaal wordt geschaald volgens de wensen van de gebruiker. Dit biedt gebruikers de mogelijkheid om meerdere publicatieverzoeken uit te voeren en betere prestaties te krijgen dan hun grote AEM.
+[!BADGE Cloud Service]{type=Informative}
 
 >[!NOTE]
 >
-> Op microservices gebaseerde publicaties in AEM hulplijnen ondersteunen de typen PDF (zowel op basis van Native als DITA-OT), HTML5, JSON en CUSTOM van voorinstellingen voor uitvoer.
+> De geloofsbrieven van de Rekening van de Dienst (JWT) zijn afgekeurd ten gunste van de geloofsbrieven van de Server-aan-Server OAuth. Uw toepassingen die gebruikmaken van de JWT-referenties (Service Account) werken niet meer na 1 januari 2025. U moet vóór 1 januari 2025 naar de nieuwe referentie migreren om ervoor te zorgen dat uw toepassing blijft werken. Meer informatie over [migreren van de credentie van de Rekening van de Dienst (JWT) aan OAuth server-aan-Server referentie](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/).
 
-Aangezien de nieuwe service voor publicatie in de cloud wordt beveiligd door verificatie op basis van Adobe IMS JWT, moeten klanten onderstaande stappen volgen om hun omgevingen te integreren met beveiligde tokengebaseerde verificatieworkflows van de Adobe en de nieuwe, op de cloud gebaseerde schaalbare publicatieoplossing te gaan gebruiken.
+
+
+Op microservice gebaseerde publicaties in Adobe Experience Manager Guides as a Cloud Service ondersteunen de typen PDF (zowel op basis van Native als van DITA-OT), HTML5, JSON en CUSTOM van voorinstellingen voor uitvoer.
+
+Aangezien de JWT-gegevens (Service Account) zijn afgekeurd, wordt het aanbevolen om op Adobe IMS gebaseerde verificatie te gebruiken. Leer hoe u [op microservice gebaseerde publicaties configureren met OAuth-verificatie](configure-microservices-imt-config.md).
+
+Voor de service voor publicatie in de cloud die wordt beveiligd door verificatie op basis van Adobe IMS JWT, moeten klanten onderstaande stappen volgen om hun omgevingen te integreren met beveiligde tokengebaseerde verificatieworkflows van de Adobe en de nieuwe, op de cloud gebaseerde schaalbare publicatieoplossing te gaan gebruiken.
 
 
 ## IMS-configuraties maken in Adobe Developer Console
@@ -80,7 +84,7 @@ Voer de volgende stappen uit om configuratie IMS aan het milieu toe te voegen:
 >
 > U moet de inhoud van het JSON-bestand met persoonlijke sleutel en servicedetails openen, kopiëren en in de waardekolom van het deelvenster Configuratie plakken, zoals in de bovenstaande schermafbeelding wordt getoond.
 
-Zodra u de configuratie IMS aan het milieu hebt toegevoegd, voer de volgende stappen uit om deze eigenschappen met AEM Gidsen te verbinden gebruikend OSGi:
+Zodra u de configuratie IMS aan het milieu hebt toegevoegd, voer de volgende stappen uit om deze eigenschappen met de Gidsen van de Experience Manager te verbinden gebruikend OSGi:
 
 1. Voeg de onderstaande twee bestanden toe in uw Git-projectcode voor cloudbeheer (zie voor de bestandsinhoud) [Bijlage](#appendix)).
 

@@ -4,9 +4,9 @@ description: Vertaal uw inhoud vanuit de webeditor naar meerdere talen. Leer hoe
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
+source-git-commit: ce7619538b229625277a552071bed8800e67f677
 workflow-type: tm+mt
-source-wordcount: '1925'
+source-wordcount: '2246'
 ht-degree: 0%
 
 ---
@@ -36,19 +36,37 @@ Voordat u de stappen in deze procedure uitvoert, moet u controleren of u de vere
 
 ## Een vertaalproject maken
 
-1. Open in het deelvenster Opslagplaats het DITA-kaartbestand in de kaartweergave.
-1. Klik op de knop **Beheren** tab. In het deelvenster Vertaling worden de **Beschikbare talen** lijst.
-1. Van de **Beschikbare talen** selecteert u de landinstelling waarnaar u het project wilt vertalen. U kunt **Alles selecteren** om uw project in alle beschikbare talen te vertalen.
+1. In de **Bewaarplaats** opent u het DITA-kaartbestand in de kaartweergave.
+1. Klik op de knop **Beheren** tab. De **Het deelvenster Vertaling** geeft de beschikbare taalgroepen weer.
 
-   >[!NOTE]
-   >
-   > De lijst bevat de taalmappen en hun taalcodes. Frans \(fr\) en Duits \(de\).
+1. Als gebruiker, kunt u de taalgroepen bekijken die aan uw omslagprofiel worden gevormd. De taalgroepen geven de taalmappen en hun taalcodes weer. De taalgroep met de naam G1 bevat bijvoorbeeld de volgende mappen: Italiaans \(it\), Duits \(de\), Frans \(fr\) en Engels \(en\).
+
+   ![vertaaldeelvenster](images/translation-languages.png){width="300" align="left"}
+
+   *Selecteer de taalgroepen of talen waarin u uw documenten wilt vertalen.*
+
 
    >[!IMPORTANT]
    >
-   > In de lijst worden alleen de talen weergegeven waarvoor een taalmap is gemaakt parallel aan de brontaal. Een taalmap die op een ander niveau is gemaakt, zoals één niveau lager in de brontaalmap, wordt ook niet weergegeven. Zorg ervoor dat u alle doeltaalmappen maakt op hetzelfde niveau als de brontaalmap.
+   > U kunt alleen de talen selecteren en vertalen waarvoor u de doelmap naast de brontaal hebt gemaakt. Een taalmap die op een ander niveau is gemaakt, zoals één niveau lager in de brontaalmap, wordt ook niet weergegeven. Zorg ervoor dat u alle doeltaalmappen maakt op hetzelfde niveau als de brontaalmap.
 
-   ![](images/translation-languages.png){width="300" align="left"}
+
+
+1. U kunt elke taalgroep selecteren als doel voor de vertaling. Als u **Alles selecteren**, worden de geselecteerde bestanden vertaald in alle beschikbare talen binnen de bestaande taalgroepen.
+
+   De taalmapoptie verschijnt grijs uit en toont een waarschuwingsteken:
+
+   - Als de doelmap voor een taal ontbreekt.
+   - Als de doeltaal gelijk is aan de bron.
+
+
+   >[!NOTE]
+   >
+   > Als u de doelmap voor een taal maakt nadat u de taalgroep hebt gemaakt, vernieuwt u de browser om de taal in de taalgroepen in te schakelen.
+
+1. Als u een bepaalde taal kiest, wordt deze weergegeven als geselecteerd onder alle taalgroepen die u hebt geselecteerd. Als je naar een taal vertaalt, is het in één keer vertaald voor alle taalgroepen. Bijvoorbeeld, als het Duits in zowel G1 als G2 taalgroepen aanwezig is, is het geselecteerd voor beide.
+
+1. Van de **Overige talen**, kunt u elke taal kiezen waarvoor u de doelmap hebt gemaakt, maar die geen deel uitmaakt van een taalgroep.
 
 1. U kunt ook een van de volgende opties selecteren om uw project te vertalen:
 
@@ -113,7 +131,7 @@ Met AEM hulplijnen kunnen uw beheerders de vertaalregels configureren. De indeli
 
 SRX-bestanden moeten een naam hebben `<language-code>.srx`. Bijvoorbeeld, en-US, of ar-AE.
 
->[Opmerking]
+>[!NOTE]
 >De titel is niet hoofdlettergevoelig, dus je kunt &#39;en-US&#39;, &#39;en-us&#39; of &#39;EN-us&#39; hebben. Bovendien kunnen AEM hulplijnen &#39;-&#39; (afbreekstreepje) of &#39;_&#39; (onderstrepingsteken) oplossen. Dus je kunt &#39;en-US&#39; of &#39;en_US&#39; hebben.
 
 U kunt deze bestanden ook in elke map plaatsen die zich in de hoofdmap met AEM elementen bevindt. `./content/dam`.
@@ -188,5 +206,19 @@ Sommige verwijzingen op het vertaaldashboard zijn mogelijk in uitvoering. Deze v
 Klik op de naam van de verwijzing in het dialoogvenster om deze te openen in de voorvertoningsmodus. U kunt ook op het vertaalproject klikken om de vertaling te starten.
 
 ![](images/translation-in-progress.png){width="550" align="left"}
+
+
+## Een voltooid vertaalproject automatisch verwijderen of uitschakelen
+
+>[!NOTE]
+> 
+>Deze functie is beschikbaar voor de nieuwe vertaalprojecten die u maakt met de release 2404 of hoger van de hulplijnen voor Experience Managers.  Dit heeft geen gevolgen voor bestaande projecten.
+
+Uw beheerder kan de **Overdrachtsproject opschonen na voltooiing** optie onder de **Vertaling** tab in **Editor-instellingen** om de vertaalprojecten automatisch uit te schakelen of te schrappen.
+
+Voor het uitvoeren van documentbeheer, verstrekt de Gidsen van de Experience Manager de capaciteit om de vertaalprojecten te schrappen nadat u de vertaling hebt voltooid.
+
+U kunt de vertaalprojecten ook onbruikbaar maken als u hen later wilt gebruiken. Als u een project verwijdert, worden alle bestanden en mappen in het project verwijderd. Als u een project uitschakelt, wordt het niet verwijderd, maar wordt het bijgehouden in de opslagplaats. U kunt een uitgeschakeld project echter niet bijwerken of bewerken.  Het verwijderen of uitschakelen van een project heeft geen invloed op de vertaalstatus van verwijzingen.
+
 
 **Bovenliggend onderwerp:**[ Werken met de webeditor](web-editor.md)

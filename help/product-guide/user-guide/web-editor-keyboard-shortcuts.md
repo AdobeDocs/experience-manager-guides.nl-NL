@@ -4,9 +4,9 @@ description: Ontdek tijdbesparende sneltoetsen in de webeditor van AEM hulplijne
 exl-id: d843c5a9-04f8-44f2-9bf5-60cb4ed7fa38
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 33da473cfa8c654a5413f9d8cbe9c43acaf65766
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -49,5 +49,6 @@ Er zijn vele verrichtingen in de Redacteur van het Web die u het gebruiken van d
 | Dialoogvenster Afdrukken openen | ***Ctrl***+**P** | ***Opdracht***+**P** |
 | Laatste handeling ongedaan maken | ***Ctrl***+**Z** | ***Opdracht***+**Z** |
 | Laatste handeling opnieuw | ***Ctrl***+**Y** | ***Opdracht***+**Y** |
+| Vaste spatie invoegen `(&nbsp;)` | ***Alt***+**Spatie** | ***Optie***+**Spatie** |
 
 **Bovenliggend onderwerp:** [Werken met de webeditor](web-editor.md)

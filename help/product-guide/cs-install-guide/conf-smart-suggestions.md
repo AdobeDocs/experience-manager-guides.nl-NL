@@ -1,9 +1,10 @@
 ---
 title: De slimme suggesties voor het ontwerpen configureren
 description: Leer hoe u de slimme suggesties voor het ontwerpen configureert
-source-git-commit: 1cdad275651b78d794ebc3f4ad9ead266ebeb0bd
+exl-id: a595ca1f-0123-40d3-a79c-a066bc6517b4
+source-git-commit: b2042431e96f2cbd90eea9c8cfcdb3e7033e26bb
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '745'
 ht-degree: 0%
 
 ---
@@ -15,6 +16,11 @@ Als beheerder, kunt u de Slimme eigenschap van Suggesties voor de auteurs vormen
 ## IMS-configuraties maken in Adobe Developer Console
 
 Voer de volgende stappen uit om IMS-configuraties te maken in Adobe Developer Console:
+
+>[!NOTE]
+>
+>Als u reeds een project OAuth hebt gecreeerd om op microservice-gebaseerde het publiceren te vormen, kunt u de volgende stappen overslaan om het project tot stand te brengen.
+
 1. Starten [Adobe Developer Console](https://developer.adobe.com/console).
 1. Nadat u zich met succes hebt aangemeld bij de Developer Console, kunt u de **Home** scherm. De **Home** het scherm is waar u informatie en snelle verbindingen, met inbegrip van top-navigatiekoppelingen aan Projecten en Downloads gemakkelijk kunt vinden.
 1. Als u een nieuw, leeg project wilt maken, selecteert u  **Nieuw project maken** van de  **Snel starten** koppelingen.
@@ -38,9 +44,20 @@ Voer de volgende stappen uit om IMS-configuraties te maken in Adobe Developer Co
    ![verbonden referenties](assets/conf-ss-connected-credentials.png) {width="800" align="left"}
 
    *Maak verbinding met het project om de referentie-details weer te geven.*
-1. Kopieer de toetsen CLIENT_ID en CLIENT_SECRET.
 
-U hebt nu de OAuth authentificatiedetails gevormd. Houd deze twee toetsen bij de hand, zoals in de volgende sectie wordt vereist.
+1. Terugkeren naar de **Projecten** en selecteert u **Overzicht van project** links.
+
+   <img src="assets/project-overview.png" alt="projectoverzicht" width="500">
+
+   *Ga aan de slag met het nieuwe project.*
+
+1. Klik op de knop **Downloaden** bovenaan om de service JSON te downloaden.
+
+   <img src="assets/download-json.png" alt="download json" width="500">
+
+   *Download de JSON-servicegegevens.*
+
+U hebt de OAuth-verificatiedetails geconfigureerd en de JSON-servicedetails gedownload. Houd dit bestand bij de hand zoals in de volgende sectie wordt vereist.
 
 ### IMS-configuratie toevoegen aan de omgeving
 
@@ -48,11 +65,14 @@ Voer de volgende stappen uit om configuratie IMS aan het milieu toe te voegen:
 
 1. Open Experience Manager en selecteer dan uw programma dat het milieu bevat u wilt vormen.
 1. Schakel over naar de **Omgevingen** tab.
-1. Selecteer de omgevingsnaam die u wilt configureren. Hiermee navigeert u naar de pagina Informatie over omgeving.
+1. Selecteer de omgevingsnaam die u wilt configureren. Ga dan naar de **Omgevingsinformatie** pagina.
 1. Schakel over naar de **Configuratie** tab.
-1. Voeg de toetsen CLIENT_ID en CLIENT_SECRET toe, zoals in de volgende schermafbeelding wordt getoond. Zorg ervoor u de zelfde namen en configuratie gebruikt zoals hieronder benadrukt.
-   ![Omgevingsconfiguratie](assets/conf-ss-environment.png) {width="800" align="left"}
-   *Voeg de details van de omgevingsconfiguratie toe.*
+1. Werk het JSON-veld SERVICE_ACCOUNT_DETAILS bij. Zorg ervoor dat u dezelfde naam en configuratie gebruikt als in de volgende schermafbeelding.
+
+![ims-serviceconfiguratie](assets/ims-service-account-config.png){width="800" align="left"}
+
+
+*Voeg de details van de omgevingsconfiguratie toe.*
 
 
 
@@ -61,7 +81,7 @@ Zodra u de configuratie IMS aan het milieu hebt toegevoegd, voer de volgende sta
 
 1. Voeg in uw Git-projectcode voor cloudbeheer de onderstaande twee bestanden toe (voor bestandsinhoud, weergave [Bijlage](#appendix)).
 
-   * `com.adobe.fmdita.ims.service.ImsOauthUserAccountHeadersImpl.cfg.json`
+   * `com.adobe.aem.guides.eventing.ImsConfiguratorService.cfg.json`
    * `com.adobe.fmdita.smartsuggest.service.SmartSuggestConfigurationConsumer.cfg.json`
 1. Zorg ervoor dat de toegevoegde bestanden worden gedekt door uw `filter.xml`.
 1. Leg de Git-wijzigingen vast en duw erop.
@@ -74,15 +94,13 @@ Zodra dit wordt gedaan, zou u de slimme eigenschap van suggesties moeten kunnen 
 ## Bijlage {#appendix}
 
 **Bestand**:
-`com.adobe.fmdita.ims.service.ImsOauthUserAccountHeadersImpl.cfg.json`
+`com.adobe.aem.guides.eventing.ImsConfiguratorService.cfg.json`
 
 **Inhoud**:
 
 ```
 {
-  "client.id": "$[secret:CLIENT_ID]",
-  "client.secret": "$[secret:CLIENT_SECRET]",
-  "ims.url": "https://ims-na1.adobelogin.com"
+ "service.account.details": "$[secret:SERVICE_ACCOUNT_DETAILS]",
 }
 ```
 

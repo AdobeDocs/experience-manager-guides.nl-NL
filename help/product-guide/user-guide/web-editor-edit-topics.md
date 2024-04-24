@@ -4,9 +4,9 @@ description: Leer onderwerpen te bewerken in de webeditor. U kent verschillende 
 exl-id: 8da37a81-e8c3-434f-b3f4-4723d87c2ade
 feature: Authoring, Web Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 05848b381999bf00d480b618ccb604c1798cc5dd
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '647'
 ht-degree: 0%
 
 ---
@@ -35,23 +35,34 @@ De Redacteur van het Web komt met een waaier van het uitgeven eigenschappen die 
    >
    > Als u geen wijzigingen wilt doorvoeren in AEM opslagplaats, klikt u op **Sluiten** en klik vervolgens op **Sluiten zonder opslaan** in het dialoogvenster Niet-opgeslagen wijzigingen.
 
-   **Browser vernieuwen tijdens bewerken van bestanden**
+## Browser vernieuwen tijdens bewerken van bestanden
+
 De Gidsen van de Experience Manager verleent de steun om browser te verfrissen terwijl u uw inhoud in de Redacteur van het Web uitgeeft. Met deze functie kunt u doorgaan met het bewerken van inhoud voor het geval u tijdens het werken een toepassingsfout tegenkomt. Als u de browser vernieuwt terwijl een of meer bestanden met niet-opgeslagen wijzigingen worden geopend voor bewerking, wordt u gewaarschuwd dat de niet-opgeslagen wijzigingen verloren kunnen gaan. U kunt de vernieuwingsbewerking annuleren en uw bestanden opslaan om de wijzigingen te behouden.
 
-   Zelfs bij het verfrissen van browser, worden de meningen van de linkerzijde en het juiste paneel behouden in de Redacteur van het Web. Met de hulplijnen Experience Manager wordt de laatst opgeslagen status van de bestanden hersteld die in de webeditor zijn geopend wanneer u de browser vernieuwt. De bestanden die bijvoorbeeld in het deelvenster Opslagplaats worden geopend, worden opnieuw geopend. Het kaartvenster blijft samen met de eerder geopende kaart behouden.
+Zelfs bij het verfrissen van browser, worden de meningen van de linkerzijde en het juiste paneel behouden in de Redacteur van het Web. Met de hulplijnen Experience Manager wordt de laatst opgeslagen status van de bestanden hersteld die in de webeditor zijn geopend wanneer u de browser vernieuwt. De bestanden die bijvoorbeeld in het deelvenster Opslagplaats worden geopend, worden opnieuw geopend. Het kaartvenster blijft samen met de eerder geopende kaart behouden.
 
-   Het actieve onderwerp of de kaart DITA wordt opnieuw geopend in het inhoudsuitgevende gebied.
+Het actieve onderwerp of de kaart DITA wordt opnieuw geopend in het inhoudsuitgevende gebied.
 
-   Het rechterdeelvenster wordt ook opnieuw geopend en geeft dezelfde weergave weer als vóór het vernieuwen.
+Het rechterdeelvenster wordt ook opnieuw geopend en geeft dezelfde weergave weer als vóór het vernieuwen.
 
-   **Werkkopie-indicator**
+## Werkkopie-indicator
+
 AEM Hulplijnen biedt de werkkopie-indicator die aangeeft of de huidige \(werkkopie\) van het bestand al dan niet synchroon is met de opgeslagen versie. Als u wijzigingen hebt aangebracht in uw huidige kopie en uw bestand niet hebt opgeslagen, wordt een \*-markering weergegeven samen met de titel op het tabblad Bestand van het onderwerp. Deze indicator dient als herinnering om uw wijzigingen op te slaan en verdwijnt wanneer u het bestand opslaat.
 
-   ![](images/working-copy-text-update-indicator.png){width="550" align="left"}
+![werkkopie-indicator](images/working-copy-text-update-indicator.png){width="550" align="left"}
 
-   AEM Hulplijnen geven ook aan of de laatste opgeslagen \(werkende\) kopie van het bestand al dan niet synchroon is met de opgeslagen versie. Als u enkele niet-opgeslagen wijzigingen hebt aangebracht tussen de werkkopie en de laatst opgeslagen versie, wordt een \*-markering weergegeven samen met de versiegegevens die worden weergegeven in de rechterbovenhoek van het tabblad Bestandsbeheer van het onderwerp. Deze indicator dient als herinnering voor het opslaan en maken van een versie van de huidige \(werkende\) versie van het bestand.
+AEM Hulplijnen geven ook aan of de laatste opgeslagen \(werkende\) kopie van het bestand al dan niet synchroon is met de opgeslagen versie. Als u enkele niet-opgeslagen wijzigingen hebt aangebracht tussen de werkkopie en de laatst opgeslagen versie, wordt een \*-markering weergegeven samen met de versiegegevens die worden weergegeven in de rechterbovenhoek van het tabblad Bestandsbeheer van het onderwerp. Deze indicator dient als herinnering voor het opslaan en maken van een versie van de huidige \(werkende\) versie van het bestand.
 
-   ![](images/version-update-indicator.png){width="550" align="left"}
+![Version update-indicator](images/version-update-indicator.png){width="550" align="left"}
+
+
+
+
+## Een geopend bestand zoeken in de Weergave opslagplaats
+
+Terwijl u een dossier in de Redacteur van het Web opent, verstrekt de Gidsen van de Experience Manager de eigenschap om van het dossier in de Mening van de Bewaarplaats de plaats te bepalen. Het huidige onderwerp wordt bijvoorbeeld gezocht terwijl u het bewerkt.
+
+U kunt de functie uitschakelen om het bestand te zoeken in het dialoogvenster **Bestanden altijd zoeken in opslagplaats** van de **Weergave** tabblad van het **Gebruikersvoorkeuren**.
 
 
 **Bovenliggend onderwerp:**[ Werken met de webeditor](web-editor.md)

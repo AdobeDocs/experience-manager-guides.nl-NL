@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lees productdocumentatie voor Adobe Experience Manager Guides.
 breadcrumb-title: Documentatie voor AEM Guides
-source-git-commit: 6ff99d32dd7a30c1104a79da4f223defe109f190
+source-git-commit: e8febe389ed805375d4b79570cd9a0e023e046f3
 workflow-type: tm+mt
-source-wordcount: '1754'
+source-wordcount: '1777'
 ht-degree: 2%
 
 ---
@@ -19,6 +19,10 @@ ht-degree: 2%
       - Cloud Servicen {#cloud-release-notes}
          - [Implementatieinstructies](./release-info/deploy-xml-on-aemaacs.md)
          - Versies van 2024 {#2024-releases}
+            - 2024.4.0 Release {#2404-release}
+               - [Nieuwe functies](./release-info/whats-new-2024-04-0.md)
+               - [Opgeloste problemen](./release-info/fixed-issues-2024-04-0.md)
+               - [Upgradeinstructies](./release-info/upgrade-instructions-2024-04-0.md)
             - 2024.2.0 Release {#2402-release}
                - [Nieuwe functies](./release-info/whats-new-2024-2-0.md)
                - [Opgeloste problemen](./release-info/fixed-issues-2024-2-0.md)
@@ -115,7 +119,7 @@ ht-degree: 2%
                - [Andere functies in de webeditor](./user-guide/web-editor-other-features.md)
                - [Weergaven van de webeditor](./user-guide/web-editor-views.md)
                - [Ondersteuning voor Schematron-bestanden](./user-guide/support-schematron-file.md)
-               - [Slimme suggesties (bèta) voor auteur van inhoud](./user-guide/authoring-ai-based-smart-suggestions.md)
+               - [Slimme suggesties voor AI-toepassingen om inhoud te ontwerpen](./user-guide/authoring-ai-based-smart-suggestions.md)
                - [De documenten van de Prijsverhoging van de auteur van het Web](./user-guide/web-editor-markdown-topic.md)
                - [citaten toevoegen aan uw inhoud](./user-guide/web-editor-apply-citations.md)
                - [Gegevens uit uw gegevensbronnen gebruiken](./user-guide/web-editor-content-snippet.md)
@@ -317,6 +321,7 @@ ht-degree: 2%
       - Werken met aangepaste DITA-OT en specialisatie {#custom-dita-ot-spec-cs}
          - [Aangepaste DITA-OT en DITA-specialisatie gebruiken](./cs-install-guide/dita-ot-specialization.md)
       - Op UUID en niet-UUID gebaseerde bestandsnamen configureren {#conf-non-uuid-filename-cs}
+         - [Nabewerking voor een map configureren](./cs-install-guide/conf-folder-post-processing.md)
          - [Bestandsnamen configureren](./cs-install-guide/conf-file-names.md)
          - [Automatische bestandsnamen configureren op basis van UUID](./cs-install-guide/conf-auto-uuid-filenames.md)
          - [Regx configureren voor geldige bestandsnaamtekens](./cs-install-guide/conf-file-names-valid-regx.md)
@@ -441,7 +446,9 @@ ht-degree: 2%
 
          - [FMPS en hulplijnen](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
          - [Microservice architectuur en prestaties](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
-         - [Op microservice gebaseerde publicaties configureren](./knowledge-base/publishing/configure-microservices.md)
+         - [Op microservice gebaseerde publicaties configureren met JWT-verificatie](./knowledge-base/publishing/configure-microservices.md)
+         - [Op microservice gebaseerde publicaties configureren met OAuth-verificatie](./knowledge-base/publishing/configure-microservices-imt-config.md)
+
          - [Referentiedocumenten publiceren over AEM cloud](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
          - [Een aangepaste DITA-OT instellen](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
       - Workflows {#workflows}

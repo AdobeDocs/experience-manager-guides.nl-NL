@@ -4,9 +4,9 @@ description: Ontdek functies van de webeditor in AEM hulplijnen. Zorg dat u de i
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
+source-git-commit: 43bdcba4642c9d75585bc571acf0cb0da22a5f4c
 workflow-type: tm+mt
-source-wordcount: '17861'
+source-wordcount: '18678'
 ht-degree: 0%
 
 ---
@@ -222,11 +222,33 @@ Hiermee voorkomt u dat gebruikers een bestand opslaan dat een regel verbreekt di
 
   ![](images/editor-settings-display-attributes.png){width="550" align="left"}
 
-- **Vertaling**: Dit tabblad bevat de optie om de bronlabels aan de doelversie door te geven.
+- **Vertaling**: Dit lusje bevat de opties om taalgroepen tot stand te brengen, de bronetiketten aan de doelversie te verspreiden, en het vertaalproject schoon te maken.
+  ![](images/editor-setting-translation.png){width="550" align="left"}
+
+   - **Taalgroepen**: Als beheerder kunt u een groep talen maken en deze gebruiken als een set om de inhoud te vertalen.\
+     Voer de volgende stappen uit om een nieuwe taalgroep te maken:
+      1. Selecteer Toevoegen ![pictogram toevoegen](images/Add_icon.svg) pictogram.
+      1. Voer de naam van de taalgroep in. Elke taal moet een unieke naam hebben. U kunt een fout weergeven als het naamveld leeg is of als de naam niet uniek is.
+      1. Selecteer de talen in het vervolgkeuzemenu. U kunt meerdere talen selecteren.
+
+     Typ de eerste paar tekens van de taal of de taalcode om de gewenste talen te filteren. Typ bijvoorbeeld &quot;en&quot; om alle talen te filteren die &quot;en&quot; aan het begin van hun naam of code bevatten.
+      1. Selecteren **Gereed** om de geselecteerde talen toe te voegen aan de groep. De talen worden weergegeven. Wanneer u drie of meer talen toevoegt, **Meer weergeven** worden weergegeven. U kunt **Meer weergeven** om alle talen in de groep weer te geven.
+         >[!TIP]
+         >
+         > Schakelen **Meer weergeven** tot **Minder tonen** en bekijk slechts een paar talen.
+
+      1. Houd de muis boven de talen in een groep die u wilt bewerken ![bewerkingspictogram](images/edit_pencil_icon.svg) of verwijderen ![delete](images/Delete_icon.svg) de taalgroepen.
+      1. Sla de **Editor-instellingen**.
+
+         >[!NOTE]
+         >
+         >Als gebruiker, kunt u de taalgroepen bekijken die aan uw omslagprofiel worden gevormd.
 
    - **Bronversielabels doorgeven aan de doelversie**: Selecteer deze optie om het label van de versie van het bronbestand aan het vertaalde bestand door te geven. Deze optie is standaard uitgeschakeld.
+   - **Overdrachtsproject opschonen na voltooiing**: Selecteer deze optie om de vertaalprojecten te vormen die na de vertaling moeten worden onbruikbaar gemaakt of automatisch worden geschrapt. Standaard, **Geen** is geselecteerd, dus het project bestaat na vertaling.
 
-  ![](images/editor-setting-translation.png){width="550" align="left"}
+     U kunt de vertaalprojecten onbruikbaar maken als u hen later wilt gebruiken. Als u een project verwijdert, worden alle bestanden en mappen in het project permanent verwijderd.
+
 
 - **Metagegevens**: U kunt de versiemetagegevens van het onderwerp en hun waarden controleren die in worden getoond **Versiehistorie** in.  Geef in het pad naar de metagegevens de locatie op van de knooppunten waaruit u de metagegevens wilt kiezen. U kunt ook een aangepaste naam voor de metagegevens definiëren als label. De standaardeigenschappen zijn Titel, Documentstatus en Labels.
 
@@ -250,36 +272,48 @@ De metagegevenslabels worden in dezelfde volgorde in de **Versiehistorie** van d
 
 
 
-**Gebruikersvoorkeuren** - ![](images/user_preference_editor_icon.svg)
+**Gebruikersvoorkeuren** - ![pictogram met gebruikersvoorkeuren](images/user_preference_editor_icon.svg)
 
 De gebruikersvoorkeuren zijn beschikbaar voor alle auteurs. Met de voorkeuren kan een auteur de volgende instellingen configureren:
 
-![](images/user_preference_editor.PNG){width="550" align="left"}
 
-- **Apparaatthema gebruiken**: Schakel dit selectievakje in als u wilt dat AEM hulplijnen automatisch schakelen tussen lichte en donkere thema&#39;s op basis van het thema van uw apparaat.
 
-- **Bestanden weergeven op**: Selecteer de standaardmanier om de bestanden weer te geven in de webeditor. U kunt de bestandenlijst weergeven op titel of bestandsnaam in de verschillende deelvensters van het dialoogvenster **Auteur** weergeven.
-  >[!NOTE]
-  >
-  > Standaard worden de bestanden op titel weergegeven in de webeditor.
+- **Algemeen**: Op het tabblad Algemeen kunt u de volgende instellingen configureren:
 
-- **Thema**: U kunt kiezen uit de thema&#39;s Licht, Lichter, Donker of Donkerst voor de editor. Bij het lichtste thema gebruiken de werkbalken en deelvensters een lichtere grijze achtergrond. In het geval van Licht-thema gebruiken de werkbalken en deelvensters lichtgrijze achtergrondkleur. In het geval van het donkerste thema gebruiken de werkbalken en deelvensters een donkerdere achtergrond voor zwarte kleuren. In het geval van Donker thema gebruiken de werkbalken en deelvensters een achtergrond met zwarte kleuren. In alle thema&#39;s wordt het bewerkingsgebied van de inhoud weergegeven in een witte kleur.
+  ![Tabblad Algemeen voor gebruikersvoorkeuren](images/user_preference_editor.PNG){width="550" align="left"}
 
-- **Mapprofielen**: Het profiel Map bestuurt diverse configuraties met betrekking tot voorwaardelijke kenmerken, ontwerpsjablonen, uitvoervoorinstellingen en de configuraties van de webeditor. Het algemene profiel wordt standaard weergegeven. Als uw beheerder mapprofielen heeft geconfigureerd in het systeem, worden deze mapprofielen ook weergegeven in de lijst Mapprofielen.
+   - **Mapprofielen**: Het profiel Map bestuurt diverse configuraties met betrekking tot voorwaardelijke kenmerken, ontwerpsjablonen, uitvoervoorinstellingen en de configuraties van de webeditor. Het algemene profiel wordt standaard weergegeven. Als uw beheerder mapprofielen heeft geconfigureerd in het systeem, worden deze mapprofielen ook weergegeven in de lijst Mapprofielen.
 
-  De configuraties van de Redacteur van het Web die een beheerder in het omslagprofiel kan bepalen omvatten: het aanpassen van gebruikersinterface met inbegrip van de toolbarpictogrammen, de lay-out van de Redacteur van het Web, fragmenten, en wortelkaart. Zie voor meer informatie *Profielen op algemeen niveau of mapniveau configureren* in de as a Cloud Service Adobe Experience Manager-hulplijnen installeren en configureren.
+     De configuraties van de Redacteur van het Web die een beheerder in het omslagprofiel kan bepalen omvatten: het aanpassen van gebruikersinterface met inbegrip van de toolbarpictogrammen, de lay-out van de Redacteur van het Web, fragmenten, en wortelkaart. Zie voor meer informatie *Profielen op algemeen niveau of mapniveau configureren* in de as a Cloud Service Adobe Experience Manager-hulplijnen installeren en configureren.
 
-  >[!NOTE]
-  >
-  > De naam van het huidige mapprofiel wordt weergegeven als een label voor het pictogram Gebruikersvoorkeuren op de hoofdwerkbalk.
+     >[!NOTE]
+     >
+     > De naam van het huidige mapprofiel wordt weergegeven als een label voor het pictogram Gebruikersvoorkeuren op de hoofdwerkbalk.
 
-- **Basispad**: Door gebrek, wanneer u tot de AEM bewaarplaats van de Redacteur van het Web toegang hebt, wordt u getoond activa van de /content/dam plaats. De werkmap bevat hoogstwaarschijnlijk enkele mappen in de map /content/dam/. Het zou u een paar klikken nemen om de werkende omslag telkens te bereiken. U kunt het Basispad instellen op uw werkmap en vervolgens in de weergave Opslagplaats de inhoud van die locatie vooraf weergeven. Hierdoor neemt de tijd voor toegang tot uw werkmap af. Ook, wanneer u om het even welk verwijzing of media dossier in uw onderwerp opneemt, doorbladert het dossier plaats begint met de omslag die in de Weg van de Basis wordt geplaatst.
+   - **Basispad**: Door gebrek, wanneer u tot de AEM bewaarplaats van de Redacteur van het Web toegang hebt, wordt u getoond activa van de /content/dam plaats. De werkmap bevat hoogstwaarschijnlijk enkele mappen in de map /content/dam/. Het zou u een paar klikken nemen om de werkende omslag telkens te bereiken. U kunt het Basispad instellen op uw werkmap en vervolgens in de weergave Opslagplaats de inhoud van die locatie vooraf weergeven. Hierdoor neemt de tijd voor toegang tot uw werkmap af. Ook, wanneer u om het even welk verwijzing of media dossier in uw onderwerp opneemt, doorbladert het dossier plaats begint met de omslag die in de Weg van de Basis wordt geplaatst.
 
-- **Hoofdmap selecteren**: Selecteer een DITA-toewijzingsbestand om sleutelverwijzingen of woordenboekitems op te lossen. De geselecteerde hoofdmap heeft de hoogste prioriteit om toetsverwijzingen op te lossen. Zie voor meer informatie [Belangrijke verwijzingen oplossen](map-editor-other-features.md#id176GD01H05Z).
+   - **Hoofdmap selecteren**: Selecteer een DITA-toewijzingsbestand om sleutelverwijzingen of woordenboekitems op te lossen. De geselecteerde hoofdmap heeft de hoogste prioriteit om toetsverwijzingen op te lossen. Zie voor meer informatie [Belangrijke verwijzingen oplossen](map-editor-other-features.md#id176GD01H05Z).
 
->[!NOTE]
-> 
-> Als u geen wortelkaart wilt gebruiken, dan zorg ervoor dat **Hoofdmap selecteren** veld is leeg.
+     >[!NOTE]
+     >    
+     > Als u geen wortelkaart wilt gebruiken, dan zorg ervoor dat **Hoofdmap selecteren** veld is leeg.
+
+- **Weergave**: Selecteer de thema&#39;s voor de webeditor en de bronweergave van het inhoudsbewerkingsgebied.
+
+  ![tabblad Weergave van gebruikersvoorkeuren](images/user_preference_editor_appearance.png){width="550" align="left"}
+
+   - **Bestanden weergeven op**: Selecteer de standaardmanier om de bestanden weer te geven in de webeditor. U kunt de bestandenlijst weergeven op titel of bestandsnaam in de verschillende deelvensters van het dialoogvenster **Auteur** weergeven.
+     >[!NOTE]
+     >
+     > Standaard worden de bestanden op titel weergegeven in de webeditor.
+
+   - **Toepassingsthema**: U kunt kiezen uit de **Licht** of **Donker** thema&#39;s voor de toepassing. Voor de **Licht** in de werkbalken en deelvensters wordt een lichtgrijze achtergrond gebruikt. Voor de **Donker** in de werkbalken en deelvensters wordt een zwarte achtergrond gebruikt. Selecteren **Apparaatthema gebruiken** om Experience Manager Guides toe te staan de lichte en donkere thema&#39;s te selecteren op basis van het thema van uw apparaat.  In alle thema&#39;s wordt het bewerkingsgebied van de inhoud weergegeven in de witte kleur van de achtergrond in het dialoogvenster **Auteur** weergeven.
+
+   - **Bronweergavethema**: - U kunt kiezen uit de **Licht** of **Donker** thema&#39;s voor het inhoudsbewerkingsgebied in de bronweergave. Voor de **Licht** in het inhoudsbewerkingsgebied wordt een lichtgrijze achtergrond voor de bronweergave gebruikt, terwijl in het geval van **Donker** wordt een achtergrond met een zwarte kleur gebruikt. Selecteren **Apparaatthema gebruiken** om Experience Manager Guides toe te staan de lichte en donkere thema&#39;s te selecteren op basis van het thema van uw apparaat.
+
+   - **Bestanden altijd zoeken in de opslagplaats**: Selecteer deze optie om de locatie van een bestand in de opslagplaats weer te geven terwijl u het bewerkt in de webeditor.
+
+   - **Vaste-spatie-indicator weergeven in de modus Schrijver**: Selecteer deze optie om een indicator voor de vaste spaties te tonen terwijl het uitgeven van het in de Redacteur van het Web. Deze is standaard ingeschakeld.
 
 **De modus Auteur, Bron en Voorvertoning**
 
@@ -291,7 +325,19 @@ De secundaire werkbalk wordt weergegeven wanneer u een onderwerp opent voor bewe
 
 **Element invoegen** - ![](images/Add_icon.svg)
 
-Hiermee voegt u een geldig element in op de huidige of volgende geldige locatie. U kunt ook de sneltoets gebruiken ***Alt***+***Enter*** om het pop-upvenster Element invoegen te openen. U bewerkt bijvoorbeeld een alinea en vervolgens in het dialoogvenster **Element invoegen** een lijst met elementen die in de alinea kunnen worden ingevoegd. Selecteer het element dat u wilt invoegen. U kunt het toetsenbord gebruiken om door de lijst met elementen te bladeren en op ***Enter*** om het vereiste element in te voegen. U kunt ook een teken of tekenreeks typen in het zoekvak en zoeken naar de elementen die ermee beginnen.
+Hiermee voegt u een geldig element in op de huidige of volgende geldige locatie. U kunt ook de sneltoets gebruiken ***Alt***+***Enter*** om het pop-upvenster Element invoegen te openen. U bewerkt bijvoorbeeld een alinea en vervolgens in het dialoogvenster **Element invoegen** een lijst met elementen die in de alinea kunnen worden ingevoegd. Selecteer het element dat u wilt invoegen. U kunt het toetsenbord gebruiken om door de lijst met elementen te bladeren en op ***Enter*** om het vereiste element in te voegen.
+
+U kunt twee typen geldige elementen weergeven:
+
+- **Geldige elementen op de huidige locatie**: De lijst bevat de elementen die u op de huidige cursorlocatie zelf kunt invoegen.
+
+- **Geldige elementen buiten de huidige locatie**: De lijst bevat de elementen die u kunt invoegen na een van de bovenliggende elementen voor het huidige element in de elementhiërarchie.
+
+
+
+Als u bijvoorbeeld binnen de inline `<b>` element, kunt u elementen invoegen, zoals `<u>`, `<xref>`, `<i>` op de huidige locatie. U kunt daarentegen elementen invoegen, zoals `<table>` en `<topic>` buiten de huidige locatie.
+
+U kunt ook een teken of tekenreeks typen in het zoekvak en zoeken naar de elementen die ermee beginnen.
 
 
 ![element invoegen](images/insert-element.png){width="300" align="left"}
@@ -863,22 +909,70 @@ Selecteer een kaart en druk binnengaan of dubbelklik om het in te openen in **Ka
 
 **Filter Zoeken**
 
-De webeditor biedt verbeterde filters voor het zoeken naar tekst. Klik op Filterzoekopdracht \(![](images/filter-search-icon.svg)\)pictogram om het deelvenster Filters te openen. U kunt zoeken naar tekst in de bestanden die zich op het geselecteerde pad van de AEM bevinden. In de onderstaande screenshot wordt bijvoorbeeld gezocht naar &#39;algemeen doel&#39;.
+De webeditor biedt verbeterde filters voor het zoeken naar tekst. U kunt zoeken en filteren naar tekst in de bestanden die zich op het geselecteerde pad van de Adobe Experience Manager-opslagplaats bevinden. Deze zoekt in de titel, de bestandsnaam en de inhoud in de bestanden.
 
-![](images/repository-filter-search.png){width="400" align="left"}
 
-U hebt ook de volgende opties om de bestanden te filteren en uw zoekopdracht in de AEM opslagplaats te beperken:
+![zoekbestanden in de dataweergave](images/repository-filter-search.png){width="300" align="left"}
 
-- **DITA-bestanden**: U kunt alles zoeken **DITA-onderwerpen** en **DITA-kaarten** aanwezig op het geselecteerde pad.
-- **Niet-DITA-bestanden**: U kunt zoeken naar **Afbeeldingsbestanden**, **Multimedia**, en **Documenten** in het geselecteerde pad.
-- **DITA-elementen**: U kunt ook zoeken naar specifieke waarden in de kenmerken van de opgegeven DITA-elementen.
-- **Uitgecheckt door**: U kunt zoeken naar bestanden die door de opgegeven gebruiker zijn uitgecheckt.
-- **Laatst gewijzigd**: U kunt zoeken naar bestanden die het laatst zijn gewijzigd na een geselecteerde datum, maar vóór een geselecteerde datum. U kunt ook zoeken naar bestanden die het laatst zijn gewijzigd in de afgelopen twee uur, vorige week, vorige maand of vorig jaar.
+*Filters toepassen op de zoekopdracht naar de bestanden die de tekst bevatten`general purpose.`*
+
+Selecteer de **Filter Zoeken** \(![Filterpictogram Zoeken](images/filter-search-icon.svg)\) gebruiken om het filter op pop-up te openen.
+
+>[!NOTE]
+>
+> Wanneer u tekst doorzoekt of bestanden filtert, verschijnt er een blauwe stip op het tabblad **Filter Zoeken**  \(![Filterpictogram Zoeken](images/filter-search-icon.svg)\) om aan te geven dat we in het deelvenster Zoeken staan en dat sommige filters zijn toegepast.
+
+
+U hebt de volgende opties om de bestanden te filteren en uw zoekopdracht in de Adobe Experience Manager-opslagplaats te beperken:
+
+- **DITA-bestanden**: U kunt alles zoeken **DITA-onderwerpen** en **DITA-kaarten** aanwezig op het geselecteerde pad. Deze zijn standaard geselecteerd.
+- **Niet-DITA-bestanden**: U kunt zoeken naar **Ditavale bestanden**,  **Afbeeldingsbestanden**, **Multimedia**, **Documenten**, en **Json** in het geselecteerde pad.
+
+![snelzoekfilter ](images/repository-filter-search-quick.png) {width="300" align="left"}
+
+*Gebruik de snelle filters om naar DITA en niet-DITA dossiers te zoeken.*
+
+**Geavanceerd filteren**
+
+Selecteer de **Geavanceerd filteren** ![pictogram geavanceerd filter](images/advanced-filter-gear-icon.svg)pictogram om het **Geavanceerd filter** in.
+
+U kunt de volgende opties weergeven onder de **Algemeen** en **Geavanceerd** tabs.
+
+![dialoogvenster voor geavanceerd filter](images/repository-filter-search-advanced.png) {width="800" align="left"}
+
+
+**Algemeen**
+
+- **De zoekresultaten zijn als volgt**: Zoek naar tekst in de bestanden op het geselecteerde pad van de Adobe Experience Manager-opslagplaats. De tekst wordt doorzocht in de titel, de bestandsnaam en de inhoud in de bestanden.
+
+Dit is synchroon met het zoekvak in het venster Opslagplaats. Als u bijvoorbeeld `general purpose` in het zoekvak in het paneel van de repository wordt het ook weergegeven in **Geavanceerd filter** en omgekeerd.
+
+- **Zoeken in**: Selecteer het pad waar u de bestanden in de Adobe Experience Manager-opslagplaats wilt zoeken.
+
+- **Uitgecheckt door**: U kunt zoeken naar bestanden die de opgegeven gebruiker uitcheckt.
+- **Laatst gewijzigd**: U kunt zoeken naar bestanden die het laatst zijn gewijzigd na een geselecteerde datum, maar vóór een geselecteerde datum.
+- **Gewijzigd vóór**: U kunt zoeken naar bestanden die het laatst zijn gewijzigd vóór een geselecteerde datum.
+- **Tijdskader**: U kunt ook zoeken naar bestanden die de laatste twee uur, vorige week, vorige maand of vorig jaar zijn gewijzigd.
 - **Tags**: U kunt zoeken naar bestanden waarop specifieke tags zijn toegepast. U kunt de tag typen of deze selecteren in de vervolgkeuzelijst.
 
-**Opmerking:** Uw systeembeheerder kan de tekstfilters ook vormen en andere filters tonen of verbergen. Zie voor meer informatie *Tekstfilters configureren* in de sectie Adobe Experience Manager-hulplijnen installeren en configureren as a Cloud Service.
+**Geavanceerd**
 
-De lijst met gefilterde bestanden die de gezochte tekst bevatten, wordt weergegeven. In het bovenstaande screenshot worden bijvoorbeeld de bestanden met de tekst &#39;algemeen doel&#39; weergegeven. U kunt meerdere bestanden in de gefilterde lijst selecteren en ze slepen en neerzetten op een kaart die is geopend voor bewerken.
+- **DITA-elementen**: U kunt ook zoeken naar specifieke waarden in de kenmerken van de opgegeven DITA-elementen.
+   - Selecteren **Element toevoegen** ![pictogram toevoegen](images/Add_icon.svg) om de elementen, kenmerken en waarden toe te voegen.
+   - Pas de filters toe die u hebt geselecteerd.
+
+- Selecteren **Alles wissen** om alle toegepaste filters te wissen.
+
+
+- Selecteer de **Filter sluiten** ![pictogram sluiten](images/close-icon.svg) om het filter te sluiten en terug te keren naar de boomstructuurweergave van de repository.
+  >[!NOTE]
+  >
+  >Uw systeembeheerder kan de tekstfilters ook vormen en andere filters tonen of verbergen. Zie voor meer informatie *Tekstfilters configureren* in de sectie Adobe Experience Manager-hulplijnen installeren en configureren as a Cloud Service.
+
+  De lijst met gefilterde bestanden die de gezochte tekst bevatten, wordt weergegeven. De bestanden met de tekst `general purpose` worden weergegeven in de vorige schermafbeelding. U kunt meerdere bestanden in de gefilterde lijst selecteren en ze naar een kaart slepen die u wilt bewerken.
+
+
+
 
 **Menu Opties**
 
@@ -895,7 +989,7 @@ U kunt de volgende handelingen uitvoeren met het menu Opties van een *map* in de
 
 
 
-- **Elementen uploaden**: Upload een bestand van uw lokale systeem naar de geselecteerde map in AEM opslagplaats. U kunt bestanden ook van uw lokale systeem naar het huidige werkonderwerp slepen. Dit is zeer nuttig als u beelden van uw lokaal systeem in uw onderwerp wilt opnemen.
+- **Elementen uploaden**: Upload een bestand van uw lokale systeem naar de geselecteerde map in de Adobe Experience Manager-opslagplaats. U kunt bestanden ook van uw lokale systeem naar het huidige werkonderwerp slepen. Dit is zeer nuttig als u beelden van uw lokaal systeem in uw onderwerp wilt opnemen.
 
   ![](images/upload-assets.png){width="550" align="left"}
 
@@ -1576,7 +1670,7 @@ Gebruik bijvoorbeeld de volgende opsomming om de `@platform` aan de `<shortdesc>
 </details>
 
 
-**Vervolgkeuzelijst Kenmerken**
+**Attributen** vervolgkeuzelijst
 
 U kunt de waarde van het onderwerpschema ook wijzigen met de optie **Attributen** vervolgkeuzelijst **Eigenschappen van inhoud** in het deelvenster **Auteur** weergeven.
 ![](images/subject-scheme-attribute-dropdown.png){width="200" align="left"}
@@ -1828,10 +1922,13 @@ Het rechterdeelvenster is een permanent deelvenster dat informatie bevat over he
 
 In het rechterdeelvenster hebt u toegang tot de volgende functies:
 
-**Eigenschappen van inhoud** -  ![](images/content-properties-icon.svg)
+**Eigenschappen van inhoud** -  ![inhoudseigenschappen](images/content-properties-icon.svg)
 
-U kunt de functie Eigenschappen van inhoud openen door op het pictogram Eigenschappen van inhoud in het rechterdeelvenster te klikken. Het deelvenster Eigenschappen voor inhoud bevat informatie over het type element dat momenteel is geselecteerd in het document en de kenmerken ervan.
-U kunt de kenmerken eenvoudig toevoegen, bewerken of verwijderen.
+U hebt toegang tot **Eigenschappen van inhoud** door de **Eigenschappen van inhoud** in het rechterdeelvenster. De **Eigenschappen van inhoud** bevat informatie over het type van het momenteel geselecteerde element in het document en de bijbehorende kenmerken.
+
+**Type**: U kunt de tags in de volledige hiërarchie voor de huidige tag weergeven en selecteren in het vervolgkeuzemenu.
+
+**Attributen**: De **Attributen** het vervolgkeuzevenster is beschikbaar in de weergaven Layout, Auteur en Bron. U kunt de kenmerken eenvoudig toevoegen, bewerken of verwijderen.
 
 1. Klikken **+ Toevoegen**.
 
