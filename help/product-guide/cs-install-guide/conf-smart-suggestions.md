@@ -2,7 +2,7 @@
 title: De slimme suggesties voor het ontwerpen configureren
 description: Leer hoe u de slimme suggesties voor het ontwerpen configureert
 exl-id: a595ca1f-0123-40d3-a79c-a066bc6517b4
-source-git-commit: b2042431e96f2cbd90eea9c8cfcdb3e7033e26bb
+source-git-commit: d3e0c475ebd50a2664ea45c293d34b3a10772633
 workflow-type: tm+mt
 source-wordcount: '745'
 ht-degree: 0%
@@ -34,7 +34,9 @@ Voer de volgende stappen uit om IMS-configuraties te maken in Adobe Developer Co
    *Voeg API voor I/O-beheer toe aan uw project.*
 
 1. Een nieuwe **OAuth-referentie** en sla deze op.
-   ![OAuth-referentietegel in configuratie-API](assets/conf-ss-OAuth-credential.png) {width="3000" align="left"}
+
+   ![OAuth-referentietegel in configuratie-API](assets/conf-ss-OAuth-credential.png)
+
    *Configureer de OAuth-referentie voor uw API.*
 
 1. In de  **Projecten** tab, kiest u **OAuth Server naar Server** en selecteert u vervolgens de nieuwe referenties.
