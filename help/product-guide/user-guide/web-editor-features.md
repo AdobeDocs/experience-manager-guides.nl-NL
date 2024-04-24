@@ -4,7 +4,7 @@ description: Ontdek functies van de webeditor in AEM hulplijnen. Zorg dat u de i
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 43bdcba4642c9d75585bc571acf0cb0da22a5f4c
+source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
 workflow-type: tm+mt
 source-wordcount: '18678'
 ht-degree: 0%
@@ -231,7 +231,7 @@ Hiermee voorkomt u dat gebruikers een bestand opslaan dat een regel verbreekt di
       1. Voer de naam van de taalgroep in. Elke taal moet een unieke naam hebben. U kunt een fout weergeven als het naamveld leeg is of als de naam niet uniek is.
       1. Selecteer de talen in het vervolgkeuzemenu. U kunt meerdere talen selecteren.
 
-     Typ de eerste paar tekens van de taal of de taalcode om de gewenste talen te filteren. Typ bijvoorbeeld &quot;en&quot; om alle talen te filteren die &quot;en&quot; aan het begin van hun naam of code bevatten.
+     Typ de eerste paar tekens van de taal of de taalcode om de gewenste talen te filteren. Typ bijvoorbeeld &#39;en&#39; om alle talen te filteren die &#39;en&#39; bevatten aan het begin van hun naam of code.
       1. Selecteren **Gereed** om de geselecteerde talen toe te voegen aan de groep. De talen worden weergegeven. Wanneer u drie of meer talen toevoegt, **Meer weergeven** worden weergegeven. U kunt **Meer weergeven** om alle talen in de groep weer te geven.
          >[!TIP]
          >
@@ -342,7 +342,7 @@ U kunt ook een teken of tekenreeks typen in het zoekvak en zoeken naar de elemen
 
 ![element invoegen](images/insert-element.png){width="300" align="left"}
 
-*Voer &quot;t&quot; in om te zoeken naar alle geldige elementen die met &quot;t&quot; beginnen.*
+*Voer &#39;t&#39; in om te zoeken naar alle geldige elementen die met &#39;t&#39; beginnen.*
 
 Als u in een blokelement werkt, zoals een `note`gebruikt u vervolgens het pictogram Element invoegen om een nieuw element in te voegen na het pictogram `note` element. In het volgende scherm is een notitie-element ingevoegd in het p \(alinea\)-element:
 
@@ -2014,3 +2014,4 @@ Met de functie Bijgehouden wijzigingen in het rechterdeelvenster kunt u de infor
 > De functie Bijgehouden wijzigingen toont alle updates die zijn bijgehouden met de functie Wijzigingen bijhouden inschakelen/uitschakelen op de hoofdwerkbalk. Zie voor meer informatie [Wijzigingen bijhouden inschakelen/uitschakelen](#id205DF0203Y4).
 
 **Bovenliggend onderwerp:**[ Werken met de webeditor](web-editor.md)
+

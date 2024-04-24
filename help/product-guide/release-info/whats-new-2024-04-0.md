@@ -1,7 +1,7 @@
 ---
 title: Opmerkingen bij de release | Nieuwe functies in de Adobe Experience Manager-hulplijnen, release 2024.4.0
 description: Leer de nieuwe en verbeterde functies in de 2024.4.0-release van Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 9a0d2886012bd1695387a93984ccac5127384db3
+source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
 workflow-type: tm+mt
 source-wordcount: '1806'
 ht-degree: 0%
@@ -223,3 +223,4 @@ De JWT-gegevens (Service Account) zijn vervangen door de **OAuth Server-to-Serve
 
 
 De service voor het publiceren van wolken voor hulplijnen voor Experience Managers wordt nu beveiligd door verificatie op basis van een handleiding van Adobe IMS. Leer hoe u [op microservice gebaseerde publicaties configureren met OAuth-verificatie](../knowledge-base/publishing/configure-microservices-imt-config.md).
+

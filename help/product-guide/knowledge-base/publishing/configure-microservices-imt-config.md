@@ -3,7 +3,7 @@ title: Op microservice gebaseerde publicaties configureren met OAuth-verificatie
 description: Leer hoe u op microservice gebaseerde publicaties kunt configureren met OAuth-verificatie voor AEM hulplijnen.
 feature: Microservice in AEM Guides
 role: User, Admin
-source-git-commit: 17116ed5619b7177cf0174449d67cfebf5b9cf46
+source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 0%
@@ -21,9 +21,6 @@ Voor elke publicatieaanvraag voert de as a Cloud Service Experience Manager Guid
 > Op microservice gebaseerde publicaties in de Hulplijnen van de Experience Manager ondersteunen de typen PDF (zowel Native als DITA-OT gebaseerd), HTML5, JSON en AANGEPASTE uitvoervoorinstellingen.
 
 Aangezien de service voor publicatie in de cloud wordt beveiligd door verificatie op basis van OAuth van Adobe IMS, voert u de volgende stappen uit om hun omgevingen te integreren met beveiligde tokengebaseerde verificatieworkflows van de Adobe en de op de cloud gebaseerde schaalbare publicatieoplossing te gaan gebruiken.
-
-
-
 
 
 ## IMS-configuraties maken in Adobe Developer Console

@@ -5,7 +5,7 @@ exl-id: 5af78233-343e-47ba-b60c-b7f4789e2406
 feature: Translation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
 workflow-type: tm+mt
 source-wordcount: '651'
 ht-degree: 0%
@@ -85,3 +85,4 @@ Gebruik de instructies die worden gegeven in [Configuratieoverschrijvingen](down
 | PID | Eigenschappensleutel | Waarde van eigenschap |
 |---|------------|--------------|
 | `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | Booleaans: <br> - Als u de naverwerkingsbewerking niet wilt uitvoeren op de tijdelijke bestanden, *Uitschakelen* \( false\) de **Na het proces gemaakte taalkopieën** -optie.<br> - Als u de naverwerkingsbewerking wilt uitvoeren op de tijdelijke bestanden, *Inschakelen* \( true\) de **Na het proces gemaakte taalkopieën** -optie.<br> **Standaardwaarde**: false |
+

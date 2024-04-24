@@ -1,7 +1,7 @@
 ---
 title: Opmerkingen bij de release | Opgeloste problemen in Adobe Experience Manager Guides, release 2024.4.0
 description: Meer informatie over de opgeloste problemen vindt u in de 2024.04.0-release van Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 9d1b0bea20b2fe3ae8fb2ee7cf4387cf7271562d
+source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 0%
@@ -64,4 +64,5 @@ Meer informatie over [upgradeinstructies voor de release van 2024.04.0](upgrade-
 ## Vertaling
 
 - **Vertaling accepteren** kan de vertaling van tijdelijke bestanden niet voltooien. (14665)
+
 
