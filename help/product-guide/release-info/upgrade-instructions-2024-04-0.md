@@ -1,9 +1,10 @@
 ---
 title: Opmerkingen bij de release | Instructies voor upgrades en opgeloste problemen in de Adobe Experience Manager-hulplijnen, release 2024.04.0
 description: Leer meer over de compatibiliteitsmatrix en hoe u een upgrade uitvoert naar de 2024.04.0-release van de Adobe Experience Manager-hulplijnen as a Cloud Service.
-source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
+exl-id: deca46e5-12cc-497f-84af-61ee02da3d65
+source-git-commit: 989f1628adf417167525a068845203380573b077
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '916'
 ht-degree: 0%
 
 ---
@@ -45,6 +46,12 @@ In deze sectie wordt een overzicht gegeven van de compatibiliteitsmatrix voor de
 ## Upgrade naar 2024.04.0-release
 
 De Gidsen van de Experience Manager wordt automatisch bevorderd na bevordering van de huidige (recentste) versie van as a Cloud Service Experience Manager.
+
+>[!NOTE]
+>
+> Als u de huidige (nieuwste) release hebt gebruikt, kunt u alle overschreven configuraties vergelijken met de nieuwste configuraties om de nieuwste functies te krijgen:
+>- ui_config.json (kan zijn ingesteld in mapprofielen)
+
 
 
 Voer de volgende stappen voor as a Cloud Service Gidsen van de Experience Manager uit als u het niet eerder voor uw bestaande versie hebt gedaan:
@@ -130,4 +137,3 @@ Hulplijnen voor Experience Manager hebben een [**aangepaste herschrijffunctie vo
 Als u een andere aangepaste schrijver voor de spelling in uw codebase hebt, gebruikt u een `'order'` waarde groter dan 50, aangezien de Experience Manager Gidsen herschrijver gebruikt `'order'` 50 Als u dit wilt overschrijven, hebt u een waarde > 50 nodig. Voor meer informatie, bekijkt u [Output Rewriting Pipelines](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
 
 Tijdens deze upgrade, sinds de `'order'` waarde is gewijzigd van 1000 in 50, moet u de bestaande aangepaste rewriter, indien aanwezig, samenvoegen met `fmdita-rewriter`.
-
