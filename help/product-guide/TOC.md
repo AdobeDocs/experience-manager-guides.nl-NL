@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lees productdocumentatie voor Adobe Experience Manager Guides.
 breadcrumb-title: Documentatie voor AEM Guides
-source-git-commit: e8febe389ed805375d4b79570cd9a0e023e046f3
+source-git-commit: ca1123005d1f36cba11b3f93a89de47006bfead4
 workflow-type: tm+mt
-source-wordcount: '1777'
+source-wordcount: '1783'
 ht-degree: 2%
 
 ---
@@ -404,8 +404,6 @@ ht-degree: 2%
       - [Inhoud vertalen in hulplijnen - deel 2](./knowledge-base/expert-sessions/translating-content-using-aem-guides-part2-feb2024.md)
    - Artikelen {#kb-articles}
       - Authoring {#authoring}
-         - Rapporten {#reports}
-            - [Metagegevens voor uw DITA-inhoud beheren](./knowledge-base/kb-articles/authoring/reports/manage-metadata.md)
          - Webeditor {#webeditor}
             - [Inhoud opnieuw gebruiken in AEM hulplijnen](./knowledge-base/kb-articles/authoring/webeditor/content-reusability-in-aem-guides.md)
             - Aanpassen {#customizing}
@@ -415,6 +413,9 @@ ht-degree: 2%
                - [Contextmenu Bestand aanpassen](./knowledge-base/kb-articles/authoring/webeditor/customization/remove-delete-from-webeditor.md)
             - Schematron {#schematron}
                - [Schematron-validatie](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
+         - Rapporten {#reports}
+            - [Metagegevens voor uw DITA-inhoud beheren](./knowledge-base/kb-articles/authoring/reports/manage-metadata.md)
+         - [Pictogram definiëren voor aangepaste bewerkingstypen](./knowledge-base/kb-articles/authoring/define-icon-for-custom-ditatypes.md)
       - Extensiekader voor hulplijnen {#extention-framework}
          - Aem Guides Framework {#aem-guides-framework}
             - [Basisaanpassingen](./guides-ui-extensions/aem_guides_framework/basic-customisation.md)
