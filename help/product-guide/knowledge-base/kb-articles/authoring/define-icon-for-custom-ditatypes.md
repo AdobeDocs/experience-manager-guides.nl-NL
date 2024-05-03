@@ -1,24 +1,24 @@
 ---
 title: Pictogram configureren voor aangepaste bewerkingstypen
 description: Leer hoe u het pictogram voor aangepaste gegevenstypen definieert, zodat het pictogram op een andere gebruikersinterface wordt weergegeven in AEM
-source-git-commit: 60d4aeec9841fdab8ff97d975fbbe4a640ccf9e8
+source-git-commit: de281989de21d8bf4ba771670d7cb871a089b1e1
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---
 
-# Het vormen pictogram voor de types van douane dita (onderwerp of kaart)
+# Het vormen pictogram voor douane/gespecialiseerde dita (onderwerp of kaart) types
 
 
 ## Probleemverklaring
 
-Met douaneschema in AEMGidsen wordt gebruikt, kunt u douaneonderwerp of kaarttypes tot stand brengen en met die u de douaneonderwerpen/de kaarten kunt zien tonen geen pictogram in de Web-redacteur of Activa UI. Zie onderstaande schermafbeelding ter referentie
+Met douaneschema in AEMGidsen wordt gebruikt, kunt u douaneonderwerp of kaarttypes tot stand brengen en waarmee u de types van douaneonderwerp/kaart kunt opmerken tonen geen pictogram in Web-redacteur of Activa UI die. Zie onderstaande schermafbeelding ter referentie
 
 ![screenshot ter referentie](../assets/authoring/custom-ditatype-icon-notshown.png)
 
 
-Zo om een pictogram aan de types van douaneonderwerp/kaart toe te wijzen moet u het volgende doen:
+Zo om een pictogram aan de types van douaneonderwerp/kaart toe te wijzen, moet u het volgende doen:
 - Het aangepaste onderwerp-/kaarttype zoeken
 - Stijlen schrijven om het gewenste pictogram voor het aangepaste type toe te voegen
 
