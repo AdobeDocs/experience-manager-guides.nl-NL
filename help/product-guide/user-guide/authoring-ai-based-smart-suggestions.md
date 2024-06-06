@@ -1,14 +1,13 @@
 ---
 title: Slimme suggesties voor AI-toepassingen om inhoud te ontwerpen
 description: Leer om op AI-Gebaseerde Slimme Suggesties in de Redacteur van het Web te bekijken en te gebruiken.
-source-git-commit: eea4a30b91fd5c28647fd7ea95dd8058ec411adc
+exl-id: 23c5285e-0d4f-484a-a062-fe1ba1608b8d
+source-git-commit: 75425d82ee55485503ea6678030c5e919e50a691
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '789'
 ht-degree: 0%
 
 ---
-
-
 
 # Slimme suggesties voor AI-toepassingen om inhoud te ontwerpen
 
@@ -76,6 +75,8 @@ Voer de volgende stappen uit om de slimme suggesties te bekijken om aangewezen i
 1. U kunt ook **Accepteren** of **Weigeren** in de **Inhoud opnieuw gebruiken** het kader met suggesties voor de desbetreffende aanbevelingen.
 
 
-
 Deze intelligente functie is handig en minimaliseert het handmatig zoeken naar inhoud, zodat u zich meer kunt concentreren op het genereren van nieuwe inhoud. Het vergemakkelijkt ook betere teamsamenwerking en helpt consistentie in de inhoud te handhaven die door diverse auteurs wordt gecreeerd.
 
+>[!NOTE]
+>
+>Met slimme suggesties blijven uw gegevens na de huidige sessie behouden. Voor reacties baseren slimme suggesties zich alleen op de index die is gemaakt op de inhoud in uw interne database. Externe AI-gereedschappen worden niet gebruikt, zodat uw gegevens binnen het systeem blijven.
