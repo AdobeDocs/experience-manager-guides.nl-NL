@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lees productdocumentatie voor Adobe Experience Manager Guides.
 breadcrumb-title: Documentatie voor AEM Guides
-source-git-commit: 56fa545f1dd32bcc3ec533cffb14a364b934ba20
+source-git-commit: bcb61127f5f69ac39860a90eac2e1a56ecd1de31
 workflow-type: tm+mt
-source-wordcount: '1792'
+source-wordcount: '1815'
 ht-degree: 2%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 2%
       - Cloud Servicen {#cloud-release-notes}
          - [Implementatieinstructies](./release-info/deploy-xml-on-aemaacs.md)
          - Versies van 2024 {#2024-releases}
+            - 2024.6.0 Release {#2406-release}
+               - [Nieuwe functies](./release-info/whats-new-2024-06-0.md)
+               - [Opgeloste problemen](./release-info/fixed-issues-2024-06-0.md)
+               - [Upgradeinstructies](./release-info/upgrade-instructions-2024-06-0.md)
             - 2024.4.0 Release {#2404-release}
                - [Nieuwe functies](./release-info/whats-new-2024-04-0.md)
                - [Opgeloste problemen](./release-info/fixed-issues-2024-04-0.md)
@@ -121,6 +125,7 @@ ht-degree: 2%
                - [Weergaven van de webeditor](./user-guide/web-editor-views.md)
                - [Ondersteuning voor Schematron-bestanden](./user-guide/support-schematron-file.md)
                - [Slimme suggesties voor AI-toepassingen om inhoud te ontwerpen](./user-guide/authoring-ai-based-smart-suggestions.md)
+
                - [De documenten van de Prijsverhoging van de auteur van het Web](./user-guide/web-editor-markdown-topic.md)
                - [citaten toevoegen aan uw inhoud](./user-guide/web-editor-apply-citations.md)
                - [Gegevens uit uw gegevensbronnen gebruiken](./user-guide/web-editor-content-snippet.md)
@@ -191,7 +196,8 @@ ht-degree: 2%
          - [Aanvullende speciale tekens configureren](./web-editor/configure-additional-special-characters.md)
       - [Publicatietaken beheren met het dashboard Publiceren](./user-guide/generate-output-publish-dashboard.md)
       - [Basisprobleemoplossing](./user-guide/generate-output-basic-troubleshooting.md)
-      - [Publiceren naar een inhoudsfragment](./user-guide/publish-content-fragment.md)
+      - [Inhoudsfragmenten publiceren](./user-guide/publish-content-fragment.md)
+      - [Fragmenten voor ervaring publiceren](./user-guide/publish-experience-fragment.md)
       - Bulkactivering van inhoud {#bulk-activation}
          - [Bulkactivering van gepubliceerde inhoud](./user-guide/conf-bulk-activation.md)
          - [Een verzameling bulkactiveringskaarten maken](./user-guide/conf-bulk-activation-create-map-collection.md)
@@ -240,10 +246,11 @@ ht-degree: 2%
       - Werken met aangepaste DITA-OT en specialisatie {#custom-dita-ot-spec}
          - [Aangepaste DITA-OT en DITA-specialisatie gebruiken](./install-guide/dita-ot-specialization.md)
       - Op UUID en niet-UUID gebaseerde bestandsnamen configureren {#conf-non-uuid-filename}
-         - [Bestandsnamen configureren](./install-guide/conf-file-names.md)
-         - [Automatische bestandsnamen configureren op basis van UUID](./install-guide/conf-auto-uuid-filenames.md)
-         - [Regx configureren voor geldige bestandsnaamtekens](./install-guide/conf-file-names-valid-regx.md)
-         - [Geldige bestandsnamen voor AEM Site-uitvoer configureren](./install-guide/conf-file-names-valid-regx-aem-site-output.md)
+      - [Nabewerking voor een map configureren](./install-guide/conf-folder-post-processing.md)
+      - [Bestandsnamen configureren](./install-guide/conf-file-names.md)
+      - [Automatische bestandsnamen configureren op basis van UUID](./install-guide/conf-auto-uuid-filenames.md)
+      - [Regx configureren voor geldige bestandsnaamtekens](./install-guide/conf-file-names-valid-regx.md)
+      - [Geldige bestandsnamen voor AEM Site-uitvoer configureren](./install-guide/conf-file-names-valid-regx-aem-site-output.md)
       - Werken met onderwerp- en kaartsjablonen {#topic-map-template}
          - [Onderwerp- en kaartsjablonen configureren](./install-guide/conf-template-tags.md)
          - [Aangepaste DITA-onderwerpsjabloon configureren](./install-guide/conf-template-tags-custom-dita-topic-template.md)
@@ -287,6 +294,7 @@ ht-degree: 2%
             - [Een pagina-indeling ontwerpen](./native-pdf/design-page-layout.md)
             - [Variabelen in de PDF-uitvoer](./native-pdf/native-pdf-variables.md)
             - [Ondersteuning voor taalvariabelen](./native-pdf/native-pdf-language-variables.md)
+            - [Een streepjescode toevoegen aan de PDF-uitvoer](./native-pdf/add-barcode.md)
             - Algemene inhoudsstijlen {#content-styles}
                - [Werken met algemene inhoudsstijlen](./native-pdf/stylesheet.md)
                - [Werken met aangepaste wijzigingsbalken](./native-pdf/change-bar-style.md)
@@ -295,8 +303,7 @@ ht-degree: 2%
                - [JavaScript gebruiken om met inhoud of stijl te werken](./native-pdf/use-javascript-content-style.md)
                - [Stijlen toepassen op voetnoten](./native-pdf/footnote-number-style.md)
          - [JVM-vlaggen configureren voor Native PDF Publishing](./native-pdf/configure-jvm-flags.md)
-         - [Een koppeling maken tussen een onderwerp en een inhoudsfragment](./install-guide/conf-content-fragment-mapping.md)
-      - Werken met aangepaste workflows {#custom-workflow}
+         - Werken met aangepaste workflows {#custom-workflow}
          - [Workflows configureren en aanpassen](./install-guide/customize-workflows.md)
       - Werken met vertaalconfiguraties {#translate-config}
          - [Inhoud vertalen](./install-guide/translation.md)
@@ -365,6 +372,7 @@ ht-degree: 2%
          - [Systeemeigen PDF-publicatie](./cs-install-guide/native-pdf-publishing.md)
          - [Knooppuntproces configureren voor publiceren in eigen PDF](./native-pdf/configure-node-options.md)
          - [Een koppeling maken tussen een onderwerp en een inhoudsfragment](./cs-install-guide/conf-content-fragment-mapping-cs.md)
+         - [Een koppeling maken tussen een onderwerp en een ervaringsfragment](./cs-install-guide/conf-experience-fragment-mapping-cs.md)
       - Werken met aangepaste workflows {#custom-workflow-cs}
          - [Workflows configureren en aanpassen](./cs-install-guide/customize-workflows.md)
       - Werken met vertaalconfiguraties {#translate-config-cs}

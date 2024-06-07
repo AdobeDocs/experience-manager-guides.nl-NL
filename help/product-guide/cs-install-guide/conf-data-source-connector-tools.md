@@ -5,9 +5,9 @@ exl-id: d7cd412b-89ea-43a5-97b3-09944863bbee
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: acd16f23a7b3023a62b3c15007b03d4f3b2cfb4f
+source-git-commit: 873542cb2e8e1b7e80e0ecc113cae4f603b18592
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '902'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,11 @@ ht-degree: 0%
 
 De Gidsen van de Experience Manager komt met **Gegevensbronnen** hulpmiddel dat u helpt uit-van-de-doosschakelaars voor gegevensbronnen vormen. U kunt opstelling JIRA, SQL (MySQL, PostgreSQL, de Server van Microsoft SQL, SQLite, MariaDB, H2DB), de schakelaars van de Cliënt van de Handel van Adobe, Elasticsearch, en Algemene REST.
 
-Naast deze out-of-the-box schakelaars, verstrekt de Gidsen van de Experience Manager de schakelaars voor Salsify, Akeneo, en Microsoft Azure DevOps Boards (ADO) gegevensbronnen. U kunt ze downloaden en installeren. De gebruikers kunnen deze schakelaars dan vormen.
+
+Naast deze out-of-the-box schakelaars, verstrekt de Gidsen van de Experience Manager de schakelaars voor Salsify, Akeneo, en Microsoft Azure DevOps Boards (ADO) gegevensbronnen. U kunt deze opensource-connectors downloaden en installeren via de [Maven Central-opslagplaats](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides). De gebruikers kunnen deze schakelaars dan vormen.
+Leer hoe u [een opensource-connector installeren](#install-open-source-connector).
+
+
 
 U kunt ook verbinding maken met JSON-gegevensbestanden via een bestandsconnector. Upload het JSON-bestand van uw computer of blader erdoor vanaf de Adobe Experience Manager-elementen. Creëer vervolgens inhoudsfragmenten of -onderwerpen met behulp van de generatoren.
 
@@ -78,6 +82,39 @@ Voer de volgende stappen uit om een bron te maken:
 1. U kunt ook de standaardbronnen gebruiken die beschikbaar zijn voor gegevensbronnen zoals Salsify, Akeneo en Microsoft ADO. Schakel de opties UIT voor de bron die u niet wilt configureren voor een gegevensbron.
 
 Dit helpt u om gegevens van om het even welke middelen voor een bepaalde gegevensbron in één enkel inhoudsfragment of onderwerp snel te halen.
+
+
+
+## Een opensource-connector installeren{#install-open-source-connector}
+
+Een afhankelijkheid publiceren die aanwezig is op de knop [Maven Central-opslagplaats](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides) aan de Cloud Servicen, moet u het gebiedsdeel voor een open-bronschakelaar omvatten en inbedden.
+
+1. Afhankelijkheid toevoegen in `all/pom.xml`  in uw Git-projectcode voor cloudbeheer. U kunt bijvoorbeeld de volgende afhankelijkheid toevoegen voor de gegevensbronaansluiting van Microsoft Azure DevOps Boards.
+
+
+   ```
+   <dependency>
+       <groupId>com.adobe.aem.addon.guides</groupId>
+       <artifactId>konnect-azure-devops</artifactId>
+       <version>1.0.0</version>
+       <type>jar</type>
+   </dependency> 
+   ```
+
+1. Sluit de toegevoegde afhankelijkheid in.
+
+       &quot;
+       &lt;embedded>
+       &lt;groupid>com.adobe.aem.addon.guides&lt;/groupid>
+       &lt;artifactid>konnect-azure devops&lt;/artifactid>
+       &lt;type>jar&lt;/type>
+       &lt;target>/apps/aemdoxonaemcsstageprogram-vendor-packages/content/install&lt;/target>
+       &lt;/embedded>
+       &quot;
+   
+1. Stel de pijpleiding in werking om de veranderingen in de Cloud Servicen toe te passen.
+De connector wordt in uw omgeving geïnstalleerd.
+
 
 ## Beschikbare functies voor een aansluiting
 

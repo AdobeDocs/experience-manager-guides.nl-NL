@@ -5,9 +5,9 @@ exl-id: 5af78233-343e-47ba-b60c-b7f4789e2406
 feature: Translation
 role: Admin
 level: Experienced
-source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
+source-git-commit: bcb61127f5f69ac39860a90eac2e1a56ecd1de31
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -68,9 +68,26 @@ Op basis van de vertaalworkflow die in uw installatie wordt gebruikt, moet de op
 |---|------------|--------------|
 | `com.adobe.fmdita.config.ConfigManager` | `component.translation` | Booleaans: <br> - Als u menselijke vertaling gebruikt, dan *Uitschakelen* \( `false`\) de **Workflow voor op componenten gebaseerde omzetting** -optie. <br> - Als u automatische vertaling gebruikt, *\( inschakelen `true`\)* de **Workflow voor op componenten gebaseerde omzetting** -optie. |
 
+
+
+## De workflow voor veroudering configureren
+
+U wordt aangeraden de nieuwste workflow voor vertaling te gebruiken, die betere prestaties biedt. Als u echter de verouderde vertaalworkflow wilt gebruiken, kunt u deze configureren.
+
+Gebruik de instructies die worden gegeven in [Configuratieoverschrijvingen](download-install-additional-config-override.md#) om het configuratiebestand te maken. Geef in het configuratiebestand de volgende gegevens (eigenschap) op om de workflow voor veroudering te configureren:
+
+
+
+
+| PID | Eigenschappensleutel | Waarde van eigenschap |
+|---|------------|--------------|
+| `com.adobe.fmdita.config.ConfigManager` | `translation.workflow.version.legacy` | Booleaans: <br> - Als u de meest recente vertaalworkflow gebruikt, *Uitschakelen* \( `false`\) de **Verouderde vertaalworkflow uitvoeren** -optie. De meest recente vertaalworkflow is standaard ingeschakeld. <br> - Als u de verouderde vertaling gebruikt, *\( inschakelen `true`\)* de **Verouderde vertaalworkflow uitvoeren** -optie. |
+
+
+
 >[!NOTE]
 >
-> Als u vertaalschakelaar gebruikt, dan zorg ervoor dat u de schakelaar hebt gevormd zoals die in wordt beschreven *[Het Kader voor de Integratie van de Vertaling vormen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)* onderwerp in AEM documentatie.
+> Als u vertaalschakelaar gebruikt, dan zorg ervoor dat u de schakelaar hebt gevormd zoals die in wordt beschreven *[Het Kader voor de Integratie van de Vertaling vormen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)* in de documentatie van Adobe Experience Manager.
 
 >[!IMPORTANT]
 >

@@ -5,9 +5,9 @@ exl-id: 90686f77-a769-44bc-90eb-116cf9d0341e
 feature: Rest API Packages
 role: Developer
 level: Experienced
-source-git-commit: 32da48d82b1267bb220424edf385035426293b66
+source-git-commit: b95a64ca2e8ebffebec3d8ff8704f76f7faceca2
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,15 @@ curl -u <*username*>:<*password*> -H "Content-Type: application/json; charset=UT
 
 `preview` of `publish` voor cloudservice en `publish` voor on-premises software
 
-Als de parameter een ongeldige waarde bevat, mislukt de activering van het pakket. In het volgende voorbeeld wordt de API-aanroep getoond met de opdracht Krullen en een optionele parameter:
+- Als de parameter voor Cloud Service een ongeldige waarde bevat, mislukt de activering van het pakket.
+
+- Als bij on-premises software de parameter een ongeldige waarde bevat, wordt de fout geregistreerd en wordt de publicatie uitgevoerd met de standaardwaarde, `publish`.
+
+Als u de optionele parameter toch wilt definiëren, `activationTarget`wordt deze geactiveerd met de standaard publicatie-agent voor zowel cloudservice als software op locatie.
+
+
+
+In het volgende voorbeeld wordt de API-aanroep getoond met de opdracht Krullen en een optionele parameter:
 
 
     &#39;&#39;&#39;XML curl

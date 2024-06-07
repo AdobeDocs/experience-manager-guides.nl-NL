@@ -5,9 +5,9 @@ exl-id: 00bc894a-031e-4d09-bd30-331399fedbc8
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 3bdc3c6370bbad67f9c31f538a49bee105fec0f9
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,7 @@ Raadpleeg de volgende secties voor meer informatie:
 * [Een pagina-indeling ontwerpen](../native-pdf/design-page-layout.md)
 * [Ondersteuning voor taalvariabelen](../native-pdf/native-pdf-language-variables.md)
 * [Variabelen in de PDF-uitvoer](../native-pdf/native-pdf-variables.md)
+* [Een streepjescode toevoegen aan de PDF-uitvoer](../native-pdf/add-barcode.md)
 * Algemene inhoudsstijlen {#content-styles}
    * [Werken met algemene inhoudsstijlen](../native-pdf/stylesheet.md)
    * [Werken met aangepaste wijzigingsbalken](../native-pdf/change-bar-style.md)

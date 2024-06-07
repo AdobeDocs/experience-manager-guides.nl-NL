@@ -5,9 +5,9 @@ exl-id: 438e2964-b9c7-462a-a68c-8031bd97911c
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: f8c71e18f5e2e5dbc5a2abdbb92c72fdad3bb233
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
@@ -94,4 +94,4 @@ Voorbeeldbestand:
 ]
 ```
 
-U kunt het gehele onderwerp met de standaardafbeelding publiceren. Selecteer de `Full Topic` van de vervolgkeuzelijst in het dialoogvenster **Publiceren als inhoudsfragment** en heeft het veld topicData in het fragmentmodel van de inhoud.
+U kunt het gehele onderwerp met de standaardafbeelding publiceren. Selecteer de `Full Topic` afbeelding van de vervolgkeuzelijst **Inhoudsfragment genereren** en heeft het veld &quot;topicData&quot; in het fragmentmodel van de inhoud.

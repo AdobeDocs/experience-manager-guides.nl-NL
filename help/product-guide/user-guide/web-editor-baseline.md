@@ -4,9 +4,9 @@ description: Maak en beheer basislijnen in de webeditor in AEM hulplijnen. Leer 
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
+source-git-commit: c4c5fa16daf3f713f85783152094c8af59eb4f8c
 workflow-type: tm+mt
-source-wordcount: '1687'
+source-wordcount: '1699'
 ht-degree: 0%
 
 ---
@@ -60,8 +60,12 @@ U kunt een basislijn van de Redacteur van het Web tot stand brengen door de volg
 
    ![Een basislijn maken](images/dynamic-baseline.png){width="300" align="left"}
 
-   - **Labels selecteren**: Als voor de onderwerpen labels zijn opgegeven, gebruikt u de opdracht **Labels selecteren** keuzelijst die u in het dialoogvenster [vermelde labels](#labels-list).
+   - **Labels**: Als voor de onderwerpen labels zijn opgegeven, gebruikt u de opdracht **Labels** keuzelijst die u in het dialoogvenster [vermelde labels](#labels-list).
 De eerst geselecteerde labels krijgen een hogere prioriteit dan de latere labels.
+
+     >[!NOTE]
+     >
+     >Terwijl de labels worden gesleept, wordt een lader weergegeven en wordt het vervolgkeuzemenu uitgeschakeld.
 
      Voor dynamische basislijnen worden de labels opgehaald uit de laatst opgeslagen versie en de huidige werkkopie van de kaart. Als u bijvoorbeeld labels hebt gemaakt   `Label Release A.1.0 ` en `Label Release A.1.1` voor versies 1.0 en 1.1 van Onderwerp A en etiketten `Label Release B.1.0` en `Label Release B.1.1` voor versies 1.0 en 1.1 van Onderwerp B. Dan kunt u Onderwerp A aan Kaart A in versie 1.0 en Onderwerp B aan Kaart A in 1.0* (het werk exemplaar) toevoegen. In dit geval kunt u  `Label Release A.1.0 `, `Label Release A.1.1`, `Label Release B.1.0`, en `Label Release B.1.1` in de vervolgkeuzelijst met dynamische basislijnlabels.
 

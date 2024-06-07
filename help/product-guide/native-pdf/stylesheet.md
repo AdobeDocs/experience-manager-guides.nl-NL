@@ -5,9 +5,9 @@ exl-id: 42ba7347-d81d-45d9-9627-8d164e4f9539
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: f98aa2b4b196ee0fd46542317894163b64b8a486
 workflow-type: tm+mt
-source-wordcount: '3525'
+source-wordcount: '3778'
 ht-degree: 0%
 
 ---
@@ -374,3 +374,63 @@ In het volgende voorbeeld wordt de titel van een nieuw venster gemaakt (`wintitl
 In de volgende schermafbeelding wordt de stijl van de venstertitel weergegeven die wordt toegepast op de tekst &quot;Primair besturingselement&quot;.
 
 <img src="./assets/other-style-wintitle.png" width="500">
+
+
+## Een unieke stijl voor een lay-out van één pagina definiëren
+
+Bij het publiceren van de uitvoer van de eigen PDF worden alle stijlen samengevoegd in de uiteindelijke PDF. Het is van cruciaal belang dat u een unieke stijl toewijst aan elke sjabloon in de CSS.
+Gebruik verschillende CSS-stijlnamen om specifieke lettertypen en stijlen toe te passen op verschillende secties van een PDF. U kunt bijvoorbeeld het gewenste lettertype voor de omslagpagina definiëren met behulp van de volgende CSS.
+
+```css
+...
+[data-page-layout="Front"] * { 
+    font-size: 18pt; 
+}  
+...
+```
+
+
+Voor de rest van het document wordt het standaardlettertype gebruikt dat u hebt opgegeven voor de body-tag in `content.css` of `layout.css`. Dit zorgt ervoor dat stijlen niet worden samengevoegd en dat elke sectie zijn voorgenomen ontwerp behoudt. Als u verschillende tekengrootten wilt gebruiken, maakt u daarvoor specifieke stijlen.
+
+U kunt bijvoorbeeld de volgende stijlen definiëren om tekengrootte 18 te definiëren op de voorste omslagalinea&#39;s en tekengrootte 11 pt voor de achterste omslagpagina:
+
+```css
+[data-page-layout="Front"] p { //For all paragraphs inside Front page
+  font-size: 18pt; 
+} 
+  
+[data-page-layout="Back"] p { //For all paragraphs inside Back page
+  font-size: 11pt; 
+}
+```
+
+>[!NOTE]
+>
+In het vorige voorbeeld zijn &quot;Voor&quot; en &quot;Terug&quot; de voorbeeldnamen van de lay-outbestanden die u in de sjablonen kunt gebruiken.
+
+
+## Aangepaste CSS-stijl definiëren voor voor- en achtervoegselinhoud
+
+Als u aangepaste CSS-stijlen definieert, krijgen deze de eerste prioriteit tijdens het genereren van de uitvoer van de native PDF.
+In de volgende standaard CSS-stijl worden zowel voor- als achtervoegselinhoud verborgen.
+
+```css
+...
+.prefix-content, .suffix-content{
+    display: none;
+} 
+...
+```
+
+Deze voorvoegsels toestaan in het dialoogvenster `<note>` -element, neemt u de volgende CSS op in uw `content.css`:
+
+```css
+...
+.prefix-content{
+    display: inline !important;
+}
+...
+```
+
+De `<note>` element genereert een extra element `<span>` met het klassevoorvoegsel. De inhoud komt overeen met het type-kenmerk. Deze CSS-regel is gericht op `.prefix-content` klasse binnen `<note>` elementen met een tekstkenmerk, zodat u de inhoud van het voorvoegsel naar wens kunt opmaken of bewerken.
+

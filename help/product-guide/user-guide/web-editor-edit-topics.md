@@ -4,9 +4,9 @@ description: Leer onderwerpen te bewerken in de webeditor. U kent verschillende 
 exl-id: 8da37a81-e8c3-434f-b3f4-4723d87c2ade
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 05848b381999bf00d480b618ccb604c1798cc5dd
+source-git-commit: d30f05ff614693beca5d9cf7f206a36f3dadfc8b
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '889'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,24 @@ De Redacteur van het Web komt met een waaier van het uitgeven eigenschappen die 
    >[!NOTE]
    >
    > Als u geen wijzigingen wilt doorvoeren in AEM opslagplaats, klikt u op **Sluiten** en klik vervolgens op **Sluiten zonder opslaan** in het dialoogvenster Niet-opgeslagen wijzigingen.
+
+
+## Gedeeltelijke selectie van inhoud tussen elementen
+
+Met de hulplijnen voor Experience Managers kunt u ook inhoud selecteren over verschillende elementen. Nadat u de inhoud hebt geselecteerd, kunt u de volgende bewerkingen uitvoeren:
+- Opmaak en verwijderen: de geselecteerde inhoud vet maken, cursief maken, onderstrepen of zelfs verwijderen. De inhoud van de geldige open labels wordt vervolgens samengevoegd en weergegeven onder één element. U kunt bijvoorbeeld de inhoud in een alinea selecteren en de selectie uitbreiden naar een andere alinea. Als u de geselecteerde inhoud vervolgens vet maakt, wordt alle vette inhoud van de geopende labels samengevoegd en weergegeven onder één alinea-element.
+
+Als u de geselecteerde inhoud verwijdert, wordt de resterende inhoud na het verwijderen in de geopende tags samengevoegd.
+
+- Omring de inhoud met een geldig element: voer de volgende stappen uit om de inhoud te laten omlopen met een geldig element:
+   - Selecteer de inhoud in een element.
+   - Selecteer de ![toevoegen](images/Add_icon.svg) pictogram van de secundaire werkbalk bovenaan om de **Omcirkelen met element** in. In het dialoogvenster worden de geldige elementen voor de geselecteerde inhoud weergegeven.
+     >[!NOTE]
+     >
+     > U kunt het dialoogvenster Surround met element ook weergeven door het contextmenu van de geselecteerde inhoud te selecteren.
+
+   - Selecteer een element in het dialoogvenster. De geselecteerde inhoud wordt ondergebracht in dat element. Als u bijvoorbeeld de inhoud in een alinea selecteert en vervolgens de optie `<note>` element uit de **Omcirkelen met element** wordt de geselecteerde inhoud onder een notitie weergegeven.\
+     ![dialoogvenster element surround](./images/surround-element.png) {width="300" align="left"}
 
 ## Browser vernieuwen tijdens bewerken van bestanden
 

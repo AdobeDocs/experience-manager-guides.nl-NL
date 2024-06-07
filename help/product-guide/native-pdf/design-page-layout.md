@@ -5,9 +5,9 @@ exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: aad652509c54b516fca49b7ca28d7dd5547f9a1b
 workflow-type: tm+mt
-source-wordcount: '4825'
+source-wordcount: '4972'
 ht-degree: 0%
 
 ---
@@ -352,25 +352,39 @@ Velden zijn erg handig wanneer u een vooraf gedefinieerde informatie wilt invoeg
 
 Er zijn de volgende categorieën voor gebieden die u in uw paginalay-out kunt opnemen:
 
+* Metagegevens
+* Onderwerptitel
+* Titel hoofdstuk
+* Kaarttitel
+* Paginanummer
+* Hoofdstuknummer
+* Totaal aantal pagina&#39;s
 * Datum
 * Tijd
-* Onderwerptitel
-* Projecttitel
-* Paginanummer
-* Totaal pagina
-* Titel hoofdstuk
-* Hoofdstuknummer
-* Metagegevens
+
 
 Elk van deze veldcategorieën bevat verschillende variaties waarin de veldinformatie kan worden ingevoegd. Een datumveld kan bijvoorbeeld verschillende variaties hebben, zoals `YYYY-MM-DD`, `MM/DD/YY`, `MM/DD/YYYY` enzovoort. Op dezelfde manier kan het paginanummer variaties hebben in de vorm van Romeinse, decimale of zelfs landspecifieke notaties, zoals _Arabisch_, _Devanagari_, _Hebreeuws_ en meer.
 
-Naast de vooraf gedefinieerde velden kunt u ook metagegevens toevoegen als variabelen of velden in de paginalay-out. Deze metagegevens worden opgeslagen in de inhoud van de DITA-bronkaart en kunnen gemakkelijk worden ingevoegd in uw paginalay-out.
 
-U kunt ook de eigenschappen van metagegevens selecteren uit uw elementen en deze toevoegen aan de pagina-indeling. De metagegevens van de elementen worden vervolgens gepubliceerd voor uw PDF-uitvoer. Deze metagegevenseigenschappen van de elementen worden ingesteld op basis van de **Eigenschappen** pagina van de DITA-kaart of het bladwijzerbestand.
+Naast de vooraf gedefinieerde velden kunt u ook metagegevens toevoegen als variabelen of velden in de paginalay-out. Deze metagegevens worden opgeslagen in uw bron-DITA **Inhoud toewijzen** of kan worden gekozen uit de DITA **Eigenschappen van Map-bestand** of de **Eigenschappen van onderwerpbestanden** en eenvoudig in uw paginalay-out invoegen.
+
+U kunt de metagegevens selecteren uit de volgende opties:
+
+* **Inhoud toewijzen** bevat de metagegevens die u in het dialoogvenster `<topicmeta>` -element van de DITA-kaart.
+* **Eigenschappen van Map-bestand** bevat de metagegevens die u kunt openen via de **Eigenschappen** pagina van een DITA-kaart.
+* **Eigenschappen van onderwerpbestanden** bevat de metagegevens die u kunt openen via de **Eigenschappen** pagina van een onderwerp.
+
+
+U kunt metagegevens combineren vanuit **Eigenschappen van Map-bestand** en **Eigenschappen van onderwerpbestanden** in één document. U kunt bijvoorbeeld een PDF publiceren met de kaarthoofdtitel op de voorpagina en de titel van het onderwerp in de koptekst van andere pagina&#39;s. Hiertoe kunt u de metagegevens van de kaarttitel toevoegen vanuit het dialoogvenster **Eigenschappen van Map-bestand** op de omslagpagina-indeling. Voeg vervolgens de metagegevens van de onderwerptitel toe vanuit het dialoogvenster **Eigenschappen van onderwerpbestanden**  aan de kopbal op de pagina van Hoofdstuk en van Onderwerpen lay-out.
+
+Als één onderwerp op een pagina beëindigt terwijl andere op de zelfde pagina begint, worden de meta-gegevens van het eerste onderwerp gekozen. U kunt ook aangepaste eigenschappen toevoegen en deze vervolgens als velden in de paginalay-out invoegen.
+
 
 >[!NOTE]
 >
 > De metagegevensvelden worden weergegeven op basis van uw selectie van element of kaart in het deelvenster **Van** vervolgkeuzelijst.
+
+
 
 
 <!--For more information, see [Add fields and metadata](design-page-layout.md#add-fields-and-metadata).-->
@@ -395,7 +409,7 @@ In het volgende voorbeeld worden een paginanummer en een hoofdstuktitel ingevoeg
 
 1. Selecteer de **Paginanummer** categorie in de lijst Veld, de **default(1)** paginanummerindeling in de lijst Indeling en klik op **Invoegen**.
 
-   <img src="./assets/insert-page-number-field.svg" width="400">
+   <img src="./assets/insert-page-number-field.png" width="400">
 
    >[!NOTE]
    >

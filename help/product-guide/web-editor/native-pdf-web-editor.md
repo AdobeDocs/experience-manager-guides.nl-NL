@@ -4,9 +4,9 @@ description: Leer hoe u het publiceren van eigen PDF kunt gebruiken, een voorins
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
 feature: Publishing, Web Editor, Native PDF Output
 role: User
-source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
+source-git-commit: e78749b1d5b4ba944cbca69ba65c6d28355b2c34
 workflow-type: tm+mt
-source-wordcount: '3293'
+source-wordcount: '3362'
 ht-degree: 0%
 
 ---
@@ -212,3 +212,10 @@ Als u **Tijdelijke bestanden downloaden** in de Geavanceerde instellingen kunt u
 
 AEM de Gidsen verleent ook de steun voor taalvariabelen. Selecteren **Taalvariabelen** <img src="./assets/language-variables.svg" width="25">  in het linkerpaneel om een gelokaliseerde versie van de uit-van-de-doos etiketten zoals Nota, Voorzichtigheid, en Waarschuwing of statische tekst in de output van PDF te bepalen. Zie voor meer informatie [Ondersteuning voor taalvariabelen](../native-pdf/native-pdf-language-variables.md).
 
+
+
+### Ondersteuning voor opmaakdocumenten
+
+De Gidsen van de Experience Manager verleent ook steun voor uw documenten van de Prijsverhoging.  Markeringsbestanden zijn gemakkelijk te ontwerpen en bieden ook diverse opmaakopties. Leer hoe u [auteur Markdown documenten van de Redacteur van het Web](../user-guide/web-editor-markdown-topic.md).
+
+U kunt de onderwerpen van de Prijsverhoging aan uw kaart toevoegen DITA en de output van de PDF produceren gebruikend de Inheemse PDF output stelt vooraf in.  Leer hoe te vormen of [een voorinstelling voor PDF-uitvoer maken](#create-a-pdf-output-preset-create-output-preset).

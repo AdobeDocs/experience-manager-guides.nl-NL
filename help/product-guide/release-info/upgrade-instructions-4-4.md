@@ -2,9 +2,10 @@
 title: Opmerkingen bij de release | Upgradeinstructies voor de release van Adobe Experience Manager Guides 4.4.0
 description: Leer hoe u een upgrade uitvoert naar de versie 4.4.0 van de Adobe Experience Manager-hulplijnen
 role: Leader
-source-git-commit: 2209fd311ca1ad524db35633b8be22f6d303346d
+exl-id: 884178b6-7a72-471a-a6e3-238a543fb227
+source-git-commit: 47c06dcc30b34780cbd26ded1ca400a5056a59ba
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -27,10 +28,10 @@ In deze sectie wordt een overzicht gegeven van de compatibiliteitsmatrix voor de
 ### Adobe Experience Manager
 
 **4.4.0 Niet-UUID**
-Versie 6.5 Service Pack 19, 18, 17
+Versie 6.5 Service Pack 20, 19, 18, of 17
 
 **4.4.0 UUID**
-Versie 6.5 Service Pack 19, 18, 17
+Versie 6.5 Service Pack 20, 19, 18, of 17
 
 
 Voor meer informatie bekijkt u de [Technische voorschriften](../install-guide/download-install-technical-requirements.md) in de installatie- en configuratiehandleiding op locatie.
@@ -82,4 +83,3 @@ U kunt eenvoudig uw huidige versie van Hulplijnen upgraden naar versie 4.4.0. Vo
 >U moet AEM de dienstpak installeren alvorens de versie van de Gidsen van de Experience Manager te bevorderen.
 
 Zie voor meer informatie [Upgradeinstructies voor de On-premise releases](../install-guide/upgrade-xml-documentation.md) van Experience Manager Guides.
-
