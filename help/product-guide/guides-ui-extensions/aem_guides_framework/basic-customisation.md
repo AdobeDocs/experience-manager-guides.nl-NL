@@ -2,7 +2,8 @@
 title: De app aanpassen
 description: De app aanpassen
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 3e454c48-2168-41a5-bbab-05c8a5b5aeb1
+source-git-commit: 4f00d6b7ad45636618bafe92e643b3e288ec2643
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 0%
@@ -18,20 +19,21 @@ Onze app volgt een MVC-structuur (Model, View, Controller)
 Het model definieert de verschillende kenmerken en slaat de waarden ervan op. De waarden van de verschillende kenmerken die in het model zijn opgeslagen, zijn via de syntaxis toegankelijk via de controller
 
 ```typescript
-this.model.attributeName
+this.getValue('attributeName')
 ```
 
 Voor aanpassing in de app worden alle nieuwe kenmerken toegevoegd onder een kaart in het model.
 Om een nieuw attribuut in het model te plaatsen zullen wij de volgende syntaxis in het controlemechanisme gebruiken:
 
 ```typescript
-this.model.extraProps.set("key", value)
+// If a key is not already in model then it will be added to extraProps
+this.setValue('key', value)
 ```
 
 Om tot een attribuut toegang te hebben dat aan het model wordt toegevoegd zullen wij de volgende syntaxis gebruiken:
 
 ```typescript
-const value = this.model.extraProps.get("key")
+const value = this.getValue("key")
 ```
 
 ## Weergave
@@ -87,13 +89,13 @@ in dit geval `extraProps.buttonLabel` bevat het label van de knop
 
 ```typescript
   controller: {
-    init: function () {
-      this.model.extraProps.set("buttonLabel", "Submit")
+    init: function (context) {
+      context.setValue("buttonLabel", "Submit")
     },
 
     switchButtonLabel(){
-        const buttonLabel = this.model.extraProps.get("buttonLabel") === "Submit"? "Cancel" : "Submit"
-        this.model.extraProps.set("buttonLabel", buttonLabel)
+        const buttonLabel = this.getValue("buttonLabel") === "Submit"? "Cancel" : "Submit"
+        this.setValue("buttonLabel", buttonLabel)
     }
   }
 ```
