@@ -1,9 +1,10 @@
 ---
-title: Op microservice gebaseerde publicaties configureren met OAuth-verificatie voor as a Cloud Service AEM hulplijnen
-description: Leer hoe u op microservice gebaseerde publicaties kunt configureren met OAuth-verificatie voor AEM hulplijnen.
+title: Op microservice gebaseerde publicaties configureren met OAuth-verificatie voor AEM Guides as a Cloud Service
+description: Leer hoe u op microservices gebaseerde publicaties kunt configureren met OAuth-verificatie voor AEM Guides.
 feature: Microservice in AEM Guides
 role: User, Admin
-source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
+exl-id: db0c83c7-1ece-4010-b214-f8d806d26bc9
+source-git-commit: 6d935ce934890066de358c434717efeef2c997cb
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 0%
@@ -12,13 +13,13 @@ ht-degree: 0%
 
 # Op microservice gebaseerde publicaties configureren met OAuth-verificatie
 
-Met de publicatiemicroservice kunt u grote publicatiewerkbelastingen tegelijk uitvoeren op as a Cloud Service Experience Manager-hulplijnen en profiteren van het toonaangevende Adobe I/O Runtime-serverloze platform.
+Met de publicatiemicroservice kunt u grote publicatiewerklasten tegelijkertijd uitvoeren op Experience Manager Guides as a Cloud Service en profiteren van het toonaangevende Adobe I/O Runtime-serverloze platform.
 
-Voor elke publicatieaanvraag voert de as a Cloud Service Experience Manager Guides een aparte container uit die horizontaal wordt geschaald op basis van de wensen van de gebruiker. Dit biedt de mogelijkheid om meerdere publicatieverzoeken uit te voeren en betere prestaties te krijgen dan hun grote On-premise Adobe Experience Manager-servers.
+Voor elke publicatieaanvraag voert Experience Manager Guides as a Cloud Service een aparte container uit die horizontaal wordt geschaald op basis van de gebruikersaanvragen. Dit biedt de mogelijkheid om meerdere publicatieverzoeken uit te voeren en betere prestaties te krijgen dan hun grote On-premise Adobe Experience Manager-servers.
 
 >[!NOTE]
 >
-> Op microservice gebaseerde publicaties in de Hulplijnen van de Experience Manager ondersteunen de typen PDF (zowel Native als DITA-OT gebaseerd), HTML5, JSON en AANGEPASTE uitvoervoorinstellingen.
+> Op microservices gebaseerde publicaties in Experience Manager Guides ondersteunen de typen uitvoervoorinstellingen PDF (zowel op basis van Native als DITA-OT), HTML5, JSON en CUSTOM.
 
 Aangezien de service voor publicatie in de cloud wordt beveiligd door verificatie op basis van OAuth van Adobe IMS, voert u de volgende stappen uit om hun omgevingen te integreren met beveiligde tokengebaseerde verificatieworkflows van de Adobe en de op de cloud gebaseerde schaalbare publicatieoplossing te gaan gebruiken.
 
@@ -33,7 +34,7 @@ Voer de volgende stappen uit om IMS-configuraties te maken in **Adobe Developer 
 >
 >Als u reeds een project OAuth hebt gecreeerd om de op AI-Gebaseerde slimme suggesties voor creatie te vormen, kunt u de volgende stappen overslaan om het project tot stand te brengen.
 
-1. Openen **Ontwerpconsole**: `https://developer.adobe.com/console`.
+1. Openen **Developer Console**: `https://developer.adobe.com/console`.
 
 1. Schakel over naar de **Projecten** van boven.
 
@@ -127,7 +128,7 @@ Als u een publicatiemicroservice voor het eerst wilt gebruiken, werkt u de confi
 >
 > Sla de volgende stappen over als u al op microservice gebaseerde publicaties gebruikt:
 
-Zodra u de configuratie IMS aan het milieu hebt toegevoegd, voer de volgende stappen uit om deze eigenschappen met de Gidsen van de Experience Manager te verbinden gebruikend OSGi:
+Zodra u de configuratie IMS aan het milieu hebt toegevoegd, voer de volgende stappen uit om deze eigenschappen met Experience Manager Guides te verbinden gebruikend OSGi:
 
 1. Voeg de volgende twee bestanden toe aan uw Git-projectcode voor cloudbeheer (voor bestandsinhoud, weergave [Bijlage](#appendix)).
 
