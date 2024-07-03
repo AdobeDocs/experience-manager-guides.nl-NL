@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lees productdocumentatie voor Adobe Experience Manager Guides.
 breadcrumb-title: Documentatie voor AEM Guides
-source-git-commit: bcb61127f5f69ac39860a90eac2e1a56ecd1de31
+source-git-commit: a7f7fdeb66cf39d1b356fdaa0eea92d3bbf3628f
 workflow-type: tm+mt
-source-wordcount: '1815'
+source-wordcount: '1819'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 - [[!DNL AEM Guides] overzicht](overview.md)
 - [Disclaimer](./user-guide/rebranding-disclaimer.md)
 - Gegevens vrijgeven {#release-info}
-   - [Routekaart voor de release van hulplijnen AEM](./release-info/aem-guides-releases-roadmap.md)
+   - [AEM Guides-versie](./release-info/aem-guides-releases-roadmap.md)
    - Opmerkingen bij de release {#release-notes}
       - Cloud Servicen {#cloud-release-notes}
          - [Implementatieinstructies](./release-info/deploy-xml-on-aemaacs.md)
@@ -97,6 +97,7 @@ ht-degree: 2%
          - [Opmerkingen bij de release 4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
          - [Opmerkingen bij de release 3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Handboek {#user-guide}
+
    - Inleiding {#about-aem-guide}
       - [Info [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides] werkings- en sleutelfuncties {#aemg-works-features}
@@ -108,14 +109,18 @@ ht-degree: 2%
       - [Bestanden en mappen beheren](./user-guide/authoring-file-management.md)
       - [Bestanden downloaden](./user-guide/authoring-download-assets.md)
    - Inhoud auteur {#author-content}
+
       - [Overzicht van ontwerpen](./user-guide/authoring-content.md)
       - Onderwerpen maken en voorvertonen {#create-preview-topics}
+
          - [Onderwerpen maken en voorvertonen](./user-guide/create-preview-topics.md)
          - [Onderwerpen maken](./user-guide/web-editor-create-topics.md)
          - [Een voorvertoning van een onderwerp weergeven](./user-guide/web-editor-preview-topics.md)
          - Inhoud auteur {#author-content-aem-guides}
-            - [Wijze waarop inhoud wordt geautoriseerd met AEM hulplijnen](./user-guide/authoring-content-xml-doc.md)
+
+            - [Wijze waarop inhoud wordt geautoriseerd met AEM Guides](./user-guide/authoring-content-xml-doc.md)
             - Webeditor {#work-with-web-editor}
+
                - [Werken met de webeditor](./user-guide/web-editor.md)
                - [De webeditor starten](./user-guide/web-editor-launch-editor.md)
                - [Onderwerpen bewerken in de webeditor](./user-guide/web-editor-edit-topics.md)
@@ -133,12 +138,13 @@ ht-degree: 2%
                - Publicaties op basis van artikelen {#article-based-pub}
                   - [Publiceren op basis van artikelen vanuit de webeditor](./user-guide/web-editor-article-publishing.md)
                   - [Uitvoervoorinstellingen maken vanuit de webeditor](./user-guide/web-editor-article-publishing-presets.md)
-                  - [Uitvoer genereren via het deelvenster Opslagplaats of Kaartweergave](./user-guide/web-editor-article-publishing-output.md)
-                  - [Het deelvenster Snel genereren gebruiken om uitvoer te genereren en weer te geven](./user-guide/web-editor-quick-generate-panel.md)
+                  - [Generate-uitvoer vanuit het deelvenster Opslagplaats of Kaartweergave](./user-guide/web-editor-article-publishing-output.md)
+                  - [Het deelvenster Quick Generate gebruiken voor generate en de uitvoer weergeven](./user-guide/web-editor-quick-generate-panel.md)
                - [Documenten vertalen vanuit de webeditor](./user-guide/translate-documents-web-editor.md)
                - [Basislijnen maken en beheren vanuit de webeditor](./user-guide/web-editor-baseline.md)
                - [Documentstatus](./user-guide/web-editor-document-states.md)
                - [Labels gebruiken](./user-guide/web-editor-use-label.md)
+
             - Kaarteditor {#work-with-map-editor}
                - [Werken met de Kaarteditor](./user-guide/map-editor.md)
                - [Een kaart maken](./user-guide/map-editor-create-map.md)
@@ -148,10 +154,12 @@ ht-degree: 2%
                - [Andere functies in de kaarteditors](./user-guide/map-editor-other-features.md)
             - DITAVAL Editor {#ditaval-editor}
                - [Werken met de DITAVAL-editor](./user-guide/ditaval-editor.md)
+
          - Bureaubladgereedschappen voor het ontwerpen van inhoud {#author-using-desktop-tools}
             - [Inhoud ontwerpen met bureaubladgereedschappen](./user-guide/author-desktop-tools.md)
             - [Werken met FrameMaker](./user-guide/author-desktop-framemaker.md)
             - [Werken met zuurstof](./user-guide/author-desktop-oxygen.md)
+
    - Inhoud controleren {#review-topic-maps}
       - [Onderwerpen of kaarten controleren](./user-guide/review.md)
       - [Een DITA-project maken](./user-guide/authoring-create-dita-project.md)
@@ -162,7 +170,7 @@ ht-degree: 2%
          - [Opmerkingen voor revisie van adres](./user-guide/review-address-review-comments.md)
       - [Revisietaken beheren met het dashboard Revisie](./user-guide/review-manage-tasks-review-dashboard.md)
       - [Een voltooide revisietaak weergeven](./user-guide/review-view-completed-task.md)
-   - Metagegevens in AEM hulplijnen {#manaege-metadata}
+   - Metagegevens in AEM Guides {#manaege-metadata}
       - [Metagegevens beheren](./user-guide/manage-metadata.md)
       - [Werken met metagegevens in AEM](./user-guide/metadata-dita.md)
       - [Slimme tags toepassen](./user-guide/web-editor-smart-tagging.md)
@@ -175,7 +183,7 @@ ht-degree: 2%
    - Uitvoergeneratie {#output-gen}
       - [Grondbeginselen van het genereren van uitvoer](./user-guide/generate-output.md)
       - [Inleiding tot uitvoervoorinstellingen](./user-guide/generate-output-understand-presets.md)
-      - Uitvoervoorinstellingen in AEM hulplijnen {#output-presets-aemg}
+      - Uitvoervoorinstellingen in AEM Guides {#output-presets-aemg}
          - [Site AEM](./user-guide/generate-output-aem-site.md)
          - [PDF](./user-guide/generate-output-pdf.md)
          - [Kennisbank](./user-guide/generate-output-knowledge-base.md)
@@ -189,15 +197,15 @@ ht-degree: 2%
       - [Voorwaardelijke kenmerkprofielen](./user-guide/generate-output-conditional-attribute-profiling.md)
       - [Voorinstellingen voor voorwaarden gebruiken](./user-guide/generate-output-use-condition-presets.md)
       - [Werken met basislijn](./user-guide/generate-output-use-baseline-for-publishing.md)
-      - [Produceer output voor een kaart DITA van de kaartconsole](./user-guide/generate-output-for-a-dita-map.md)
+      - [Generate-uitvoer voor een DITA-kaart vanaf de kaartconsole](./user-guide/generate-output-for-a-dita-map.md)
       - [Kaartverzameling gebruiken voor het genereren van uitvoer](./user-guide/generate-output-use-map-collection-output-generation.md)
       - Native PDF-publicatiefunctie gebruiken {#web-editor}
-         - [PDF-uitvoer publiceren](./web-editor/native-pdf-web-editor.md)
+         - [Publish PDF uitvoer](./web-editor/native-pdf-web-editor.md)
          - [Aanvullende speciale tekens configureren](./web-editor/configure-additional-special-characters.md)
-      - [Publicatietaken beheren met het dashboard Publiceren](./user-guide/generate-output-publish-dashboard.md)
+      - [Publicatietaken beheren met het Publish-dashboard](./user-guide/generate-output-publish-dashboard.md)
       - [Basisprobleemoplossing](./user-guide/generate-output-basic-troubleshooting.md)
-      - [Inhoudsfragmenten publiceren](./user-guide/publish-content-fragment.md)
-      - [Fragmenten voor ervaring publiceren](./user-guide/publish-experience-fragment.md)
+      - [Publish-inhoudsfragmenten](./user-guide/publish-content-fragment.md)
+      - [Publish Experience Fragmenten](./user-guide/publish-experience-fragment.md)
       - Bulkactivering van inhoud {#bulk-activation}
          - [Bulkactivering van gepubliceerde inhoud](./user-guide/conf-bulk-activation.md)
          - [Een verzameling bulkactiveringskaarten maken](./user-guide/conf-bulk-activation-create-map-collection.md)
@@ -205,21 +213,22 @@ ht-degree: 2%
          - [Een bulkactiveringskaartverzameling bewerken](./user-guide/conf-bulk-activation-edit-map-collection.md)
          - [Een verzameling bulkactiveringskaarten verwijderen](./user-guide/conf-bulk-activation-delete-map-collection.md)
    - Uitvoer genereren van FrameMaker documenten {#generate-fm-output}
-      - [Uitvoer van FrameMaker-documenten genereren](./user-guide/fm-output-generatation.md)
+      - [Generate-uitvoer van FrameMaker documenten](./user-guide/fm-output-generatation.md)
       - Ondersteunde voorinstellingen {#fm-docs-generating-presets}
          - [Voorinstellingen voor het genereren van FrameMakers](./user-guide/fm-output-understand-presets.md)
          - [PDF](./user-guide/fm-output-pdf-preset.md)
          - [HTML 5](./user-guide/fm-output-html5-preset.md)
          - [EPUB](./user-guide/fm-output-epub-preset.md)
-      - [Uitvoer van .book- of .fm-bestanden genereren](./user-guide/fm-output-generate.md)
+      - [Generate-uitvoer van .book- of .fm-bestanden](./user-guide/fm-output-generate.md)
       - [De status van de uitvoergeneratietaak weergeven](./user-guide/fm-output-view-status.md)
-   - Rapporten in AEM {#reports-aem-guide}
+   - Rapporten in AEM Guides {#reports-aem-guide}
       - [Inleiding tot rapporten](./user-guide/reports-intro.md)
       - [DITA kaartrapport van de Redacteur van het Web](./user-guide/reports-web-editor.md)
       - [DITA-kaartrapport van het kaartdashboard](./user-guide/reports-ditamap.md)
       - [Rapport voor hergebruik van inhoud](./user-guide/reports-content-reuse.md)
       - [Conversiestatus rapport](./user-guide/reports-convertion-status.md)
       - [Rapport voor versiehistorie van teruggedraaide bestanden](./user-guide/reports-reverted-file-version-history.md)
+
 - Installatie en configuratie {#install-guide}
    - Op locatie {#on-prem-ig}
       - [Basisbegrippen op locatie](./install-guide/introduction.md)
@@ -227,11 +236,11 @@ ht-degree: 2%
          - [Overzicht van downloaden en installatie](./install-guide/download-install.md)
          - [Technische voorschriften](./install-guide/download-install-technical-requirements.md)
          - [Adobe Experience Manager installeren](./install-guide/download-install-aem.md)
-         - [Download en installeer AEM voor het eerst](./install-guide/download-install-aemg-first-time.md)
+         - [Voor het eerst AEM Guides downloaden en installeren](./install-guide/download-install-aemg-first-time.md)
          - [Dispatcher configureren](./install-guide/download-install-configure-dispatcher.md)
-         - [De installatie van AEM hulplijnen controleren](./install-guide/download-install-verify-aemg-installation.md)
-         - [Upgrade uitvoeren AEM hulplijnen](./install-guide/upgrade-xml-documentation.md)
-         - [Verwijderen AEM hulplijnen](./install-guide/download-install-unistall-aemg.md)
+         - [AEM Guides-installatie verifiëren](./install-guide/download-install-verify-aemg-installation.md)
+         - [Upgrade uitvoeren voor AEM Guides](./install-guide/upgrade-xml-documentation.md)
+         - [AEM Guides verwijderen](./install-guide/download-install-unistall-aemg.md)
          - [Recommendations for performance optimization](./install-guide/download-install-recommend-perf-optimiz.md)
       - Werken met gebruikersgroepen en beveiliging {#user-group-sec}
          - [Beheer en beveiliging van gebruikers](./install-guide/user-admin-sec.md)
@@ -267,11 +276,11 @@ ht-degree: 2%
          - [Een aangepast deelvenster configureren in het linkerdeelvenster](./install-guide/configure-custom-panel.md)
          - [Bestanden automatisch opslaan in de webeditor configureren](./install-guide/auto-save-in-editor.md)
          - [Filters configureren voor het dialoogvenster Bladeren](./install-guide/conf-custom-file-filters.md)
-         - [Vraag configureren om bij het sluiten als een nieuwe versie op te slaan](./install-guide/conf-save-as-new-version-close.md)
-         - [Vraag configureren om een bestand bij sluiten in te checken](./install-guide/conf-checkin-file-close.md)
+         - [Prompt configureren om bij het sluiten als een nieuwe versie op te slaan](./install-guide/conf-save-as-new-version-close.md)
+         - [Prompt configureren om een bestand bij het sluiten in te checken](./install-guide/conf-checkin-file-close.md)
          - [Toegestane speciale tekens configureren](./install-guide/conf-special-chars.md)
-         - [Element-id&#39;s automatisch genereren](./install-guide/auto-generate-ids.md)
-         - [Standaardwoordenboek AEM aanpassen](./install-guide/customize-aem-custom-dictionary.md)
+         - [Element-id&#39;s van Auto-generate](./install-guide/auto-generate-ids.md)
+         - [AEM standaardwoordenboek aanpassen](./install-guide/customize-aem-custom-dictionary.md)
          - [Tekstfilters configureren](./install-guide/config-text-filters.md)
          - [Vorm het aantal LimitReads voor een vraag](./install-guide/conf-query-limitreads.md)
          - [Pakketten installeren voor publiceren op basis van artikel](./install-guide/configure-article-based-publishing.md)
@@ -312,12 +321,12 @@ ht-degree: 2%
       - [Bijlage](./install-guide/appendix.md)
    - Cloud Servicen {#cs-ig}
       - [Over deze handleiding](./cs-install-guide/introduction.md)
-      - Implementeer en configureer AEM als Cloud Service {#deploy-conf-aemg-cs}
+      - AEM Guides implementeren en configureren als Cloud Service {#deploy-conf-aemg-cs}
          - [Downloaden en installeren](./cs-install-guide/download-install.md)
-         - [De module AEM hulplijnen gebruiken](./cs-install-guide/download-install-dxml-first-time.md)
+         - [AEM Guides-module implementeren](./cs-install-guide/download-install-dxml-first-time.md)
          - [Dispatcher configureren](./cs-install-guide/download-install-configure-dispatcher.md)
-         - [De installatie van AEM hulplijnen controleren](./cs-install-guide/download-install-verify-dxml-installation.md)
-         - [Upgrade uitvoeren AEM hulplijnen](./cs-install-guide/download-install-upgrade-dxml.md)
+         - [AEM Guides-installatie verifiëren](./cs-install-guide/download-install-verify-dxml-installation.md)
+         - [Upgrade uitvoeren voor AEM Guides](./cs-install-guide/download-install-upgrade-dxml.md)
          - [Configuratieoverschrijvingen](./cs-install-guide/download-install-additional-config-override.md)
          - [Recommendations for performance optimization](./cs-install-guide/download-install-recommend-perf-optimiz.md)
       - Werken met gebruikersgroepen en beveiliging {#user-group-sec-cs}
@@ -349,11 +358,11 @@ ht-degree: 2%
          - [DITA-onderwerp of toewijzingsbestanden openen op hetzelfde tabblad](./cs-install-guide/open-dita-files-same-tab.md)
          - [Een aangepast deelvenster configureren in het linkerdeelvenster](./cs-install-guide/configure-custom-panel.md)
          - [Bestanden automatisch opslaan in de webeditor configureren](./cs-install-guide/auto-save-in-editor.md)
-         - [Vraag configureren om bij het sluiten als een nieuwe versie op te slaan](./cs-install-guide/conf-save-as-new-version-close.md)
-         - [Vraag configureren om een bestand bij sluiten in te checken](./cs-install-guide/conf-checkin-file-close.md)
+         - [Prompt configureren om bij het sluiten als een nieuwe versie op te slaan](./cs-install-guide/conf-save-as-new-version-close.md)
+         - [Prompt configureren om een bestand bij het sluiten in te checken](./cs-install-guide/conf-checkin-file-close.md)
          - [Toegestane speciale tekens configureren](./cs-install-guide/conf-special-chars.md)
-         - [Element-id&#39;s automatisch genereren](./cs-install-guide/auto-generate-ids.md)
-         - [Standaardwoordenboek AEM aanpassen](./cs-install-guide/customize-aem-custom-dictionary.md)
+         - [Element-id&#39;s van Auto-generate](./cs-install-guide/auto-generate-ids.md)
+         - [AEM standaardwoordenboek aanpassen](./cs-install-guide/customize-aem-custom-dictionary.md)
          - [Tekstfilters configureren](./cs-install-guide/config-text-filters.md)
          - [Filters configureren voor het dialoogvenster Bladeren](./cs-install-guide/conf-custom-file-filters.md)
          - [Pakketten installeren voor publiceren op basis van artikel](./cs-install-guide/configure-article-based-publishing.md)
@@ -394,28 +403,31 @@ ht-degree: 2%
    - [API&#39;s die zijn gebaseerd op Java om te werken met basislijnen en labels](./api-reference/create-baseline-label-java.md)
    - [Java-API om te werken met mapprofielen](./api-reference/folder-profile-java.md)
    - [Java-API voor het maken en activeren van pakketten](./api-reference/create-activate-package-java.md)
-   - [Gebeurtenishandler voor nabewerking](./api-reference/post-process-event.md)
+   - [Post-processing gebeurtenishandler](./api-reference/post-process-event.md)
    - [Bulkactivering voltooid, gebeurtenishandler](./api-reference/bulk-activation-complete-event.md)
    - [Omzetproces, gebeurtenishandler](./api-reference/conversion-complete-event.md)
 - Kennisbank {#knowledge-base}
+
    - Expertsessie {#expert-session}
       - [Overzicht van de sessie met experts](./knowledge-base/expert-sessions/expert-session.md)
       - [Inhoud vertalen](./knowledge-base/expert-sessions/translating-content-using-aem-guides-oct22.md)
       - [Inhoud beheren met behulp van basislijnen](./knowledge-base/expert-sessions/baselines-dec22.md)
       - [Webinhoud van auteur](./knowledge-base/expert-sessions/webbased-authoring-jan2023.md)
       - [Native PDF-publicaties](./knowledge-base/expert-sessions/native-pdf-publishing-essentials-feb23.md)
-      - [Rapporten in AEM](./knowledge-base/expert-sessions/basic-reports-mar2023.md)
+      - [Rapporten in AEM Guides](./knowledge-base/expert-sessions/basic-reports-mar2023.md)
       - [Inhoud en Sjabloon instellen](./knowledge-base/expert-sessions/content-and-template-setup-apr2023.md)
       - [Native PDF-publicatie leren, deel 1](./knowledge-base/expert-sessions/native-pdf-publishing-eamples-part1-june2023.md)
       - [Native PDF-publicaties leren - Hands op lab - BYOS](./knowledge-base/expert-sessions/native-pdf-publishing-hands-on-lab-sep2023.md)
-      - [Extensiekader van AEM hulplijnen](./knowledge-base/expert-sessions/guides-extension-framework-nov2023.md)
+      - [Extension Framework of AEM Guides](./knowledge-base/expert-sessions/guides-extension-framework-nov2023.md)
       - [Externe gegevensbronintegratie](./knowledge-base/expert-sessions/external-datasource-integration-dec2023.md)
       - [Inhoud vertalen in hulplijnen - deel 2](./knowledge-base/expert-sessions/translating-content-using-aem-guides-part2-feb2024.md)
       - [Metagegevens definiëren, beheren en gebruiken](./knowledge-base/expert-sessions/metadata-define-manage-utilize-may2024.md)
+      - [Uitvoervariaties van AEM](./knowledge-base/expert-sessions/aem-site-output-variations-27Jun.md)
    - Artikelen {#kb-articles}
+
       - Authoring {#authoring}
          - Webeditor {#webeditor}
-            - [Inhoud opnieuw gebruiken in AEM hulplijnen](./knowledge-base/kb-articles/authoring/webeditor/content-reusability-in-aem-guides.md)
+            - [Opnieuw gebruiken van inhoud in AEM Guides](./knowledge-base/kb-articles/authoring/webeditor/content-reusability-in-aem-guides.md)
             - Aanpassen {#customizing}
                - [Aangepaste knop toevoegen aan werkbalk](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md)
                - [Aangepaste stijlen toevoegen aan de webeditor](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
@@ -451,9 +463,10 @@ ht-degree: 2%
                - [Onderdelen](./guides-ui-extensions/customisations/ReviewApp/components.md)
                - [Aanpassen](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
       - Publiceren {#publishing}
+
          - [AEM Omgeving configureren voor publiceren via native PDF](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
 
-         - [Inhoudsopgave van boekmap genereren in oorspronkelijke PDF-publicatie](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
+         - [Inhoudsopgave van generate-boekmap in oorspronkelijke PDF-publicatie](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
 
          - [FMPS en hulplijnen](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
          - [Microservice architectuur en prestaties](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
@@ -462,11 +475,13 @@ ht-degree: 2%
 
          - [Referentiedocumenten publiceren over AEM cloud](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
          - [Een aangepaste DITA-OT instellen](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
+
       - Workflows {#workflows}
-         - [Workflow na generatie](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
+         - [Post Generation Workflow](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
       - Vertaling {#translation}
          - [Alinea&#39;s uitsluiten van vertaling](./knowledge-base/kb-articles/translation/exclude-paragraphs-from-translation.md)
       - Gevallen gebruiken {#use-cases}
          - [Werken met voorwaardelijke inhoud](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
          - [Werken met toetsen](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
+
    - [Zuurstofaansluiting gebruiken](./oxygen-connector/use-aem-connector.md)
