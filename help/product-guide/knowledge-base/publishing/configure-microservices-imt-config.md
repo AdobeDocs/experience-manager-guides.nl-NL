@@ -2,11 +2,11 @@
 title: Op microservice gebaseerde publicaties configureren met OAuth-verificatie voor AEM Guides as a Cloud Service
 description: Leer hoe u op microservices gebaseerde publicaties kunt configureren met OAuth-verificatie voor AEM Guides.
 feature: Microservice in AEM Guides
-role: User, Admin
+role: Admin
 exl-id: db0c83c7-1ece-4010-b214-f8d806d26bc9
-source-git-commit: 6d935ce934890066de358c434717efeef2c997cb
+source-git-commit: c51a372dc44921a489219f5ac99e3ad180ccc91d
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '827'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ U hebt de OAuth-verificatiedetails geconfigureerd en de JSON-servicedetails gedo
 >
 >Als u reeds een project OAuth voor slimme suggesties hebt gecreeerd, dan kunt u het zelfde project voor microservices opnieuw gebruiken en de volgende stappen overslaan om configuratie IMS aan het milieu toe te voegen.
 
-### Bestaande configuratie bijwerken
+### Bestaande configuratie bijwerken (JWT naar OAuth shift)
 
 Als u al een microservice gebruikt voor publicatie met behulp van JWT (afgekeurd), voert u de volgende stappen uit om de configuraties bij te werken:
 
@@ -114,7 +114,7 @@ Als u een publicatiemicroservice voor het eerst wilt gebruiken, werkt u de confi
 1. Selecteer de naam van het milieu dat u wilt vormen. Ga dan naar de **Omgevingsinformatie** pagina.
 1. Schakel over naar de **Configuratie** tab.
 
-1. Werk het JSON-veld SERVICE_ACCOUNT_DETAILS bij. Zorg ervoor dat u dezelfde naam en configuratie gebruikt als in de volgende schermafbeelding.
+1. Creeer een nieuwe configuratie genoemd als SERVICE_ACCOUNT_DETAILS. Voeg als waarde de inhoud van het OAuth JSON-bestand toe die u hebt gedownload van de ontwikkelaarsconsole.
 
 
 <img src="assets/jws-service-account-config.png" alt="ims-serviceconfiguratie" width="500">
@@ -122,7 +122,7 @@ Als u een publicatiemicroservice voor het eerst wilt gebruiken, werkt u de confi
 *Configureer de omgeving voor het eerst.*
 
 
-### Voor het eerst op microservice gebaseerde publicaties gebruiken
+### De eerste keer codeveranderingen voor op microservice-gebaseerde het publiceren enablement
 
 >[!NOTE]
 >
@@ -130,7 +130,7 @@ Als u een publicatiemicroservice voor het eerst wilt gebruiken, werkt u de confi
 
 Zodra u de configuratie IMS aan het milieu hebt toegevoegd, voer de volgende stappen uit om deze eigenschappen met Experience Manager Guides te verbinden gebruikend OSGi:
 
-1. Voeg de volgende twee bestanden toe aan uw Git-projectcode voor cloudbeheer (voor bestandsinhoud, weergave [Bijlage](#appendix)).
+1. Voeg de volgende twee bestanden toe aan uw Git-projectcode voor cloudbeheer `/apps/fmditaCustom/config` (voor bestandsinhoud, weergave [Bijlage](#appendix)).
 
    * `com.adobe.aem.guides.eventing.ImsConfiguratorService.cfg.json`
    * `com.adobe.fmdita.publishworkflow.PublishWorkflowConfigurationService.xml`
