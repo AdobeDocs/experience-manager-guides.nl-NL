@@ -1,6 +1,6 @@
 ---
 title: Onderwerpen of kaarten controleren
-description: U kunt onderwerpen of kaarten op efficiënte wijze controleren in AEM hulplijnen voor een vloeiende inhoudsevaluatie. De functies voor auteurs en revisoren in AEM hulplijnen kennen.
+description: U kunt onderwerpen of kaarten op efficiënte wijze beoordelen in AEM Guides voor een vloeiende inhoudsevaluatie. De functies voor auteurs en revisoren in AEM Guides kennen.
 exl-id: 81ea0b52-52b0-4764-a6d8-a96d5c7693bf
 feature: Reviewing
 role: User
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Bijna alle technische documenten moeten meerdere herzieningsronden doorlopen. In de meeste gevallen omvat een revisiecyclus meer dan één revisor. Het is altijd lastig om opmerkingen van meerdere revisoren te maken en hierop te reageren. In een scenario met meerdere revisoren is het bovendien handig als één revisor de opmerkingen van andere revisoren kan zien.
 
-Enkele belangrijkste functies van AEM hulplijnen voor de *initiators \(of auteurs\)* zijn:
+Enkele belangrijkste eigenschappen die door AEM Guides aan *worden aangeboden initiators \ (of auteurs \)* zijn:
 
 - Maak een DITA-project voor de revisiewerkstroom.
 - Verzend een of meer onderwerpen voor revisie in één revisietaak.
@@ -35,7 +35,7 @@ Enkele belangrijkste functies van AEM hulplijnen voor de *initiators \(of auteur
 - Importeer automatisch \(verwijderde of ingevoegde\) opmerkingen in de versie van het onderwerp dat is gedeeld voor revisie.
 
 
-Functies die beschikbaar zijn voor de *revisoren*:
+Eigenschappen beschikbaar aan de *recensenten*:
 
 - Krijg één samengestelde mening van de onderwerpen die voor overzicht worden gedeeld.
 - Schakel tussen samengestelde weergave en individuele onderwerpweergave.
@@ -51,16 +51,16 @@ Functies die beschikbaar zijn voor de *revisoren*:
 
 >[!NOTE]
 >
-> Zie de *Controleren* in de handleiding met aanbevolen procedures voor het maken van een overzichtstaak.
+> Zie de *sectie van het Overzicht* in de Beste praktijken gids voor beste praktijken rond het creëren van overzichtstaak.
 
-- **[Een DITA-project maken](authoring-create-dita-project.md)**
+- **[creeer een project DITA](authoring-create-dita-project.md)**
 
-- **[Onderwerpen ter controle verzenden](review-send-topics-for-review.md)**
+- **[verzendt onderwerpen voor overzicht](review-send-topics-for-review.md)**
 
-- **[Revisietaak opnieuw toewijzen met behulp van melding](reassign-review-using-notification.md)**
+- **[wijs opnieuw overzichtstaak toe gebruikend bericht](reassign-review-using-notification.md)**
 
-- **[Onderwerpen bekijken](review-topics.md)**
+- **[onderwerpen van het Overzicht](review-topics.md)**
 
-- **[Opmerkingen voor revisie van adres](review-address-review-comments.md)**
+- **[de revisiecommentaren van het Adres](review-address-review-comments.md)**
 
-- **[Revisietaken beheren met het dashboard Revisie](review-manage-tasks-review-dashboard.md)**
+- **[beheer overzichtstaken gebruikend het Dashboard van het Overzicht](review-manage-tasks-review-dashboard.md)**

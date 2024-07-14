@@ -1,6 +1,6 @@
 ---
-title: API-naslaggids voor Adobe Experience Manager-hulplijnen
-description: API-naslaggids voor Adobe Experience Manager-hulplijnen
+title: API-naslaggids voor Adobe Experience Manager Guides
+description: API-naslaggids voor Adobe Experience Manager Guides
 source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
 workflow-type: tm+mt
 source-wordcount: '110'
@@ -9,7 +9,7 @@ ht-degree: 0%
 ---
 
 
-# API-naslaggids voor Adobe Experience Manager-hulplijnen
+# API-naslaggids voor Adobe Experience Manager Guides
 
 - [Disclaimer](rebranding-disclaimer.md)
 - [Inleiding](introduction.md)
@@ -25,6 +25,6 @@ ht-degree: 0%
 - [API&#39;s die zijn gebaseerd op Java om te werken met basislijnen en labels](create-baseline-label-java.md)
 - [Java-API om te werken met mapprofielen](folder-profile-java.md)
 - [Java-API voor het maken en activeren van pakketten](create-activate-package-java.md)
-- [Gebeurtenishandler voor nabewerking](post-process-event.md)
+- [Post-processing gebeurtenishandler](post-process-event.md)
 - [Omzetproces, gebeurtenishandler](conversion-complete-event.md)
 

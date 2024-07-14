@@ -1,5 +1,5 @@
 ---
-title: Extension Framework of AEM Guides - Customize Web-Editor and Review UI
+title: Extension Framework of AEM Guides - Gebruikersinterface voor webeditors en revisies aanpassen
 description: Met het extensieframework Hulplijnen kunt u de gewenste secties van de Ui- of Webeditor-revisie aanpassen door JSON, CSS en JavaScript eenvoudig bij te werken.
 exl-id: 7b2efae3-be8c-4259-babb-f28a6903116a
 feature: Web Editor, Troubleshooting
@@ -11,11 +11,11 @@ ht-degree: 0%
 
 ---
 
-# Extension Framework of AEM Guides: Customize Web-Editor and Review UI
+# Extension Framework of AEM Guides: Web-Editor en revisieinterface aanpassen
 
-Wanneer het werken in een systeem is het vrij algemeen dat de zaken/de gebruikers douaneknopen, acties willen of informatie tonen om aan hun verrichtingen te voldoen en hun productiviteit te verbeteren. Met het Extension Framework kunt u aangepaste pakketten maken boven op AEM hulplijnen om de gebruikersinterface en het gedrag ervan uit te breiden. Deze aangepaste pakketten zijn handig voor ontwikkelaars en consultants om ze uitbreidbaar te maken voor de componenten in de interface van de Editor/Review. Ze kunnen knoppen, dialoogvensters en dropdowns als doel hebben en aangepaste JavaScript toevoegen die eenvoudig kan samenwerken met de gebruikersinterface van AEM hulplijnen.
+Wanneer het werken in een systeem is het vrij algemeen dat de zaken/de gebruikers douaneknopen, acties willen of informatie tonen om aan hun verrichtingen te voldoen en hun productiviteit te verbeteren. Met Extension Framework kunt u aangepaste pakketten maken boven op AEM Guides om de gebruikersinterface en het gedrag ervan uit te breiden. Deze aangepaste pakketten zijn handig voor ontwikkelaars en consultants om ze uitbreidbaar te maken voor de componenten in de interface van de Editor/Review. Ze kunnen knoppen, dialoogvensters en dropdowns als doel hebben en aangepaste JavaScript toevoegen die eenvoudig kan samenwerken met de gebruikersinterface van AEM Guides.
 
-In deze zitting, met hulp van praktische scenario&#39;s zult u leren om Overzicht en Web-editor UI van AEM Gidsen aan te passen of uit te breiden.
+In deze zitting, met hulp van praktische scenario&#39;s zult u leren om Overzicht en Web-editor UI van AEM Guides aan te passen of uit te breiden.
 
 ## Sessieopname
 
@@ -23,10 +23,10 @@ In deze zitting, met hulp van praktische scenario&#39;s zult u leren om Overzich
 
 ## Hooglichten
 
-- **Datum** - 2 november 2023
-- **Aantal deelnemers** - 119
+- **Datum** - 2 November, 2023
+- **Aantal aanwezigen** - 119
 - **Duur** - 60 minuten
-- **Publiek** - Klanten, partners en Adoben
+- **Publiek** - Klanten, partners, en de werknemers van de Adobe
 
 ## Toetsen
 
@@ -45,18 +45,18 @@ In deze sessie hebt u kennis genomen van het volgende:
 
 ## Gerelateerde bronnen
 
-- **Basis gegevensopslagsysteem van Extension Framework** - [GIT](https://github.com/adobe/guides-extension/tree/main)
+- **de basisbewaarplaats van het Kader van de Uitbreiding** - [ GIT ](https://github.com/adobe/guides-extension/tree/main)
 
-- **Documentatie** - [over Experience League](../../guides-ui-extensions/aem_guides_framework/basic-customisation.md)
+- **Documentatie** - [ op Experience League ](../../guides-ui-extensions/aem_guides_framework/basic-customisation.md)
 
-- **Gedocumenteerde gevallen van veelvuldig gebruik** - [over Experience League](../../guides-ui-extensions/aem_guides_framework/jui-framework.md)
+- **Gedocumenteerde gemeenschappelijke gebruiksgevallen** - [ op Experience League ](../../guides-ui-extensions/aem_guides_framework/jui-framework.md)
 
-- **Openbare opslagplaats met voorbeelden** - [op GIT](https://github.com/adobe/guides-extension/tree/sc-expert-session). Verwijs tak sc-deskundige-zitting
+- **Openbare bewaarplaats met steekproeven** - [ op GIT ](https://github.com/adobe/guides-extension/tree/sc-expert-session). Verwijs tak sc-deskundige-zitting
 
 
 >[!NOTE]
 >
-> De functies die in deze sessie worden weergegeven, zijn beschikbaar in de volgende versies van AEM hulplijnen:
+> De functies die in deze sessie worden getoond, zijn beschikbaar in de volgende versies van AEM Guides:
 > - Oktober 2023 (voor wolken)
 > - 4.3.x (voor niet-cloud)
 
@@ -64,4 +64,4 @@ In deze sessie hebt u kennis genomen van het volgende:
 
 ## Contact opnemen
 
-Stuur ons voor alle vragen een e-mail op <techcomm@adobe.com>
+Stuur ons een e-mail op <techcomm@adobe.com> voor alle vragen

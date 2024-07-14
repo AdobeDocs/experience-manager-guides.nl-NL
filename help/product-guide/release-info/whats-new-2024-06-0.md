@@ -1,7 +1,8 @@
 ---
-title: Opmerkingen bij de release | Nieuwe functies in de Adobe Experience Manager-hulplijnen, release 2024.06.0
+title: Opmerkingen bij de release | Nieuwe functies in de Adobe Experience Manager Guides, release 2024.06.0
 description: Leer de nieuwe en verbeterde functies in de 2024.06.0 release van Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: cf60d11f483fdd663bd5decccb63f8ed7d6fff51
+exl-id: c885b8ba-5230-4d51-8f38-311b3a33fe0a
+source-git-commit: d525775afeeb89754762ff514126b1c3a3307b3f
 workflow-type: tm+mt
 source-wordcount: '653'
 ht-degree: 0%
@@ -12,65 +13,65 @@ ht-degree: 0%
 
 Dit artikel behandelt de nieuwe en verbeterde functies van de release 2024.06.0 van Adobe Experience Manager Guides.
 
-Voor de lijst met problemen die in deze release zijn opgelost, raadpleegt u [Opgeloste problemen in de release 2024.06.0](fixed-issues-2024-06-0.md).
+Voor de lijst van kwesties die in deze versie worden bevestigd, mening [ Vaste kwesties in de 2024.06.0 versie ](fixed-issues-2024-06-0.md).
 
-Meer informatie over [instructies voor de upgrade van 2024.06.0](upgrade-instructions-2024-06-0.md).
+Leer over [ verbeteringsinstructies voor de versie 2024.06.0 ](upgrade-instructions-2024-06-0.md).
 
 
-## Een onderwerp of zijn elementen naar een fragment van de Ervaring publiceren
+## Een onderwerp of zijn elementen aan een Fragment van de Ervaring Publish
 
 Een ervaringsfragment is een modulaire inhoudseenheid in Adobe Experience Manager waarin inhoud en lay-out worden geïntegreerd. De Fragmenten van de ervaring zijn essentieel voor het creëren van verenigbare en het engageren ervaringen, die verder over veelvoudige kanalen kunnen worden opnieuw gebruikt.
 
 
-Met de hulplijnen voor Experience Managers kunt u nu een onderwerp of de bijbehorende elementen publiceren naar een ervaringsfragment. U kunt een op JSON-Gebaseerde afbeelding tussen een onderwerp en zijn elementen in een Fragment van de Ervaring tot stand brengen. U kunt bijvoorbeeld ervaringsfragmenten maken voor kop- of voetteksten met brandingelementen, promotionele banners, getuigenissen van klanten en gebeurtenispromoties.
+Met Experience Manager Guides kunt u nu een onderwerp of de bijbehorende elementen publiceren naar een ervaringsfragment. U kunt een op JSON-Gebaseerde afbeelding tussen een onderwerp en zijn elementen in een Fragment van de Ervaring tot stand brengen. U kunt bijvoorbeeld ervaringsfragmenten maken voor kop- of voetteksten met brandingelementen, promotionele banners, getuigenissen van klanten en gebeurtenispromoties.
 
 
 
 
-Voor meer informatie, bekijkt u [Fragmenten voor ervaring publiceren](../user-guide/publish-experience-fragment.md).
+Voor meer details, mening [ de Fragmenten van de Ervaring van Publish ](../user-guide/publish-experience-fragment.md).
 
 
 ## Verbeteringen in het publiceren van inhoudsfragmenten
 
-Experience Manager-hulplijnen bieden ook enkele handige verbeteringen in inhoudsfragmenten:
+Experience Manager Guides biedt ook enkele nuttige verbeteringen in Content Fragments:
 
 - U kunt inhoud met voorwaarden eenvoudig filteren wanneer u publiceert naar een inhoudsfragment, met behulp van een DITAVAL-bestand of voorwaardelijke kenmerken.
 
-- U kunt ook de Inhoudsfragmenten van een onderwerp publiceren en weergeven vanuit het dialoogvenster **Uitvoer** in de **Bestandseigenschappen**.
+- U kunt de Fragmenten van de Inhoud van een onderwerp van de **sectie van Output** in de **Eigenschappen van het Dossier** ook publiceren en bekijken.
 
-![opties op het tabblad Bestandseigenschappen](./assets/file-properties-outputs-tab.png){width="300" align="left"}
+![ dossier eigenschappen opties tabel ](./assets/file-properties-outputs-tab.png){width="300" align="left"}
 
-Voor meer informatie, bekijkt u [Inhoudsfragmenten publiceren](../user-guide/publish-content-fragment.md).
+Voor meer details, mening [ de Fragmenten van de Inhoud van Publish ](../user-guide/publish-content-fragment.md).
 
 
 ## Mogelijkheid om metagegevens van de eigenschappen van het onderwerpbestand door te geven aan de uitvoer van native PDF
 
-Nu, staat de Gidsen van de Experience Manager u toe om de meta-gegevens van het dossiereigenschappen van een onderwerp aan de paginalay-outs toe te voegen terwijl het produceren van de Eigen output van de PDF. Gebruik deze functie om metagegevens voor specifieke onderwerpen, zoals de titel, tags en beschrijving, toe te voegen aan de paginalay-outs. U kunt uw gepubliceerde PDF ook aanpassen die op de meta-gegevens van het onderwerp wordt gebaseerd, zoals het toevoegen van een watermerk aan de achtergrond van het onderwerp die op de het documentstaat van het onderwerp wordt gebaseerd.
+Nu, staat Experience Manager Guides u toe om de meta-gegevens van het dossiereigenschappen van een onderwerp aan de paginalay-outs toe te voegen terwijl het produceren van de Inheemse output van de PDF. Gebruik deze functie om metagegevens voor specifieke onderwerpen, zoals de titel, tags en beschrijving, toe te voegen aan de paginalay-outs. U kunt uw gepubliceerde PDF ook aanpassen die op de meta-gegevens van het onderwerp wordt gebaseerd, zoals het toevoegen van een watermerk aan de achtergrond van het onderwerp die op de het documentstaat van het onderwerp wordt gebaseerd.
 
-![metagegevens toevoegen, eigen pdf](./assets/add-metadata-native-pdf.png) {width="300" align="left"}
+![ voeg meta-gegevens inheemse pdf ](./assets/add-metadata-native-pdf.png) toe {width="300" align="left"}
 
-*Voeg metagegevens toe aan de velden in uw paginalay-outs.*
+*voeg meta-gegevens aan de gebieden in uw paginalay-outs toe.*
 
-Leer hoe u [velden en metagegevens toevoegen](../native-pdf/design-page-layout.md#add-fields-metadata) in een pagina-indeling.
+Leer hoe te [ gebieden en meta-gegevens ](../native-pdf/design-page-layout.md#add-fields-metadata) in een paginalay-out toevoegen.
 
 ## Gedeeltelijke inhoud selecteren voor elementen voor bewerkingen
 
-De Gidsen van de Experience Manager verbetert uw ervaring om de inhoud over de elementen in de Redacteur van het Web te selecteren. U kunt eenvoudig inhoud selecteren in verschillende elementen en bewerkingen uitvoeren, zoals vet, cursief en onderstreept maken. Met deze functie kunt u de opmaak van gedeeltelijk geselecteerde inhoud naadloos toepassen of verwijderen. U kunt ook snel de inhoud verwijderen die u hebt geselecteerd in de verschillende elementen. Als de inhoud eenmaal is verwijderd, wordt de resterende inhoud indien nodig automatisch samengevoegd met één geldig element.
+Experience Manager Guides verbetert het selecteren van de inhoud in de verschillende elementen van de webeditor. U kunt eenvoudig inhoud selecteren in verschillende elementen en bewerkingen uitvoeren, zoals vet, cursief en onderstreept maken. Met deze functie kunt u de opmaak van gedeeltelijk geselecteerde inhoud naadloos toepassen of verwijderen. U kunt ook snel de inhoud verwijderen die u hebt geselecteerd in de verschillende elementen. Als de inhoud eenmaal is verwijderd, wordt de resterende inhoud indien nodig automatisch samengevoegd met één geldig element.
 
 U kunt ook gedeeltelijke inhoud selecteren over elementen en de inhoud omringen onder een geldig element DITA.
-![dialoogvenster element surround](./assets/surround-element.png) {width="300" align="left"}
+![ surround elementendialoogdoos ](./assets/surround-element.png) {width="300" align="left"}
 
-*Omring de geselecteerde inhoud met een geldig element.*
+*omring de geselecteerde inhoud met een geldig element.*
 
 Over het algemeen bieden deze verbeteringen een betere ervaring en helpen u uw efficiëntie te verbeteren tijdens het bewerken van uw documenten.
 
-Voor meer informatie, bekijkt u [Gedeeltelijke selectie van inhoud in element](../user-guide/web-editor-edit-topics.md#partial-selection-of-content-across-elements).
+Voor meer details, mening [ Gedeeltelijke selectie van inhoud over element ](../user-guide/web-editor-edit-topics.md#partial-selection-of-content-across-elements).
 
 ## Ondersteuning voor opmaakdocumenten in publicaties met eigen PDF
 
-De Gidsen van de Experience Manager steunt ook de Documenten van de Prijsverhoging in het Inheemse publiceren van PDF. Deze functie is handig en helpt u PDF te genereren voor de Markeringen in uw DITA-kaart. Met de ondersteuning voor markeringen in publicaties met eigen PDF kunt u eenvoudig documenten maken, beheren en delen.
+Experience Manager Guides ondersteunt ook Markdown-documenten in Native PDF-publicaties. Deze functie is handig en helpt u PDF te genereren voor de Markeringen in uw DITA-kaart. Met de ondersteuning voor markeringen in publicaties met eigen PDF kunt u eenvoudig documenten maken, beheren en delen.
 
-Voor meer informatie, bekijkt u [ondersteuning voor Markeringen](../web-editor/native-pdf-web-editor.md#support-for-markdown-documents).
+Voor meer details, mening [ steun voor de documenten van de Prijsverhoging ](../web-editor/native-pdf-web-editor.md#support-for-markdown-documents).
 
 
 ## Verbeterde prestaties en schaalbaarheid voor grote vertaalprojecten
@@ -79,4 +80,4 @@ De vertaalfunctie is sneller en schaalbaarder dan ooit. Het wordt geleverd met e
 
 Deze verbetering is zeer voordelig, aangezien zij de productiviteit en de algemene ervaring verbetert.
 
-Meer informatie over hoe [documenten vertalen vanuit de webeditor](../user-guide/translate-documents-web-editor.md).
+Leer meer over hoe te [ documenten van de Redacteur van het Web ](../user-guide/translate-documents-web-editor.md) vertalen.

@@ -11,30 +11,30 @@ ht-degree: 0%
 
 ---
 
-# Nieuwe functies in de release van Adobe Experience Manager Guides in februari 2023 as a Cloud Service
+# Nieuwe functies in februari 2023 release van Adobe Experience Manager Guides as a Cloud Service
 
-Dit artikel behandelt de nieuwe en verbeterde functies in versie februari 2023 van Adobe Experience Manager-hulplijnen (later aangeduid als *Hulplijnen AEM as a Cloud Service*).
+Dit artikel behandelt de nieuwe en verbeterde eigenschappen in versie Februari 2023 van Adobe Experience Manager Guides (later genoemd als *as a Cloud Service van AEM Guides*).
 
-Voor meer informatie over de upgrade-instructies, compatibiliteitsmatrix en de problemen die in deze release zijn opgelost, raadpleegt u de [Opmerkingen bij de release](release-notes-2023-2-0.md) artikel.
+Voor meer details op de verbeteringsinstructies, verenigbaarheidsmatrijs, en de kwesties die in deze versie worden bevestigd, zie het [ de nota&#39;s van de Versie ](release-notes-2023-2-0.md) artikel.
 
 
 ## Rapporten genereren vanuit de webeditor
 
-AEM de Gidsen komen met een eigenschap in de Redacteur van het Web die u toelaat om de algemene volledigheid van uw technische documenten te controleren en rapporten voor hen te produceren.
+AEM Guides wordt geleverd met een functie in de webeditor waarmee u de algehele volledigheid van uw technische documenten kunt controleren en rapporten voor deze documenten kunt genereren.
 U kunt de onderwerpenlijst bekijken, de meta-gegevens beheren en multimedia zien die in alle verwijzingen voor de huidige kaart van wordt gebruikt
-**Rapporten** in de webeditor.
+**Rapporten** lusje in de Redacteur van het Web.
 
-**De weergave Lijst met onderwerpen genereren**
+**produceer de mening van de Lijst van het Onderwerp**
 
 U kunt de Lijst van het Onderwerp produceren die gedetailleerde informatie over uw onderwerpen, zoals het verwijzingstype, documentstaat, en auteur verstrekt. U kunt CSV ook produceren om de huidige momentopname van de onderwerpen in de kaart te downloaden DITA.
 
-**Metagegevens beheren en documentstatus wijzigen**
+**beheert meta-gegevens en verandert documentstaat**
 
 U kunt markeringen op een individueel onderwerp toepassen of de bulketiketterende eigenschap gebruiken om veelvoudige markeringen op veelvoudige onderwerpen, een kaart DITA, of een sub-kaart toe te passen. U kunt de documentstatus van alle geselecteerde onderwerpen ook wijzigen in de volgende mogelijke algemene documentstatus.
 
 <img src="assets/web-editor-metadata-panel.png" alt="metagegevens beheren" width="600">
 
-**Het multimediapport genereren**
+**produceer het Multimedia rapport**
 
 U kunt het multimediapport genereren dat gedetailleerde informatie bevat over de multimedia die wordt gebruikt in uw verwijzingen in de huidige kaart. U hebt de flexibiliteit om de dossiers van verschillende media te filtreren en te sorteren die in het rapport worden vermeld.
 U kunt CSV ook produceren om de huidige momentopname van multimedia te downloaden die in de kaart DITA wordt gebruikt.
@@ -54,7 +54,8 @@ AEM gidsen verstrekt nu een betere UX die u helpt de onderwerpen herzien die voo
 * Contextuele werkbalk waarmee u tekst snel kunt markeren of doorhalen
 * Menu Opties voor het bewerken of verwijderen van uw eigen opmerkingen
 * Voor verouderde commentaren, hebt u toegang tot zij-aan-zij mening die u helpt de vorige versie van het onderwerp met huidige overzichtsversie vergelijken.
-* Wanneer u de filters gebruikt, worden de opmerkingen in het rechtervenster gefilterd op basis van de selectie en wordt het aantal opmerkingen in het linkervenster dienovereenkomstig bijgewerkt.
+* Wanneer u de filters gebruikt, worden de opmerkingen in het rechtervenster gefilterd op basis van de selectie en de
+Het aantal opmerkingen in het linkervenster wordt dienovereenkomstig bijgewerkt.
 
 
   <img alt="controletaak" src="assets/comment-pop-up-panel.png" width="600">
@@ -65,48 +66,50 @@ AEM gidsen verstrekt nu een betere UX die u helpt de onderwerpen herzien die voo
 
 Nu hebt u gebruikersvriendelijkere verhogingen in het Dashboard van de Vertaling die u helpen uw documenten van de Redacteur van het Web gemakkelijk vertalen.
 
-**Geef het versielabel door aan de doelversie**
+**ga het versielabel tot de doelversie** over
 
-Met AEM hulplijnen kunt u het label van het bronbestand aan het doelbestand doorgeven. Zo kunt u gemakkelijk de bronversie van het vertaalde bestand identificeren.
+Met AEM Guides kunt u het label van het bronbestand aan het doelbestand doorgeven. Zo kunt u gemakkelijk de bronversie van het vertaalde bestand identificeren.
 
 <img alt="vertaallabels" src="assets/translation-pass-source-label.png" width="600">
 
 Als er bijvoorbeeld bronbestanden zijn waarop het versielabel Release 1.0 is toegepast, kunt u ook het bronlabel (Release 1.0) aan het vertaalde bestand doorgeven.
 
-**Synchronisatie forceren voor niet-synchrone elementen**
+**de synchronisatie van de Dwingskracht voor uit synchrone activa**
 
-Als u wijzigingen aanbrengt in sommige elementen, worden deze door AEM hulplijnen als Uit-synchroon gemarkeerd. U kunt de gewijzigde elementen opnieuw vertalen of de status Niet-gesynchroniseerd negeren. Als u bijvoorbeeld enkele kleine wijzigingen hebt aangebracht waarvoor geen vertaling nodig is, kunt u de status van de wijzigingen markeren als Bij synchroniseren.
+Als u wijzigingen aanbrengt in sommige elementen, markeert AEM Guides deze als Uit-synchroon. U kunt de gewijzigde elementen opnieuw vertalen of de status Niet-gesynchroniseerd negeren. Als u bijvoorbeeld enkele kleine wijzigingen hebt aangebracht waarvoor geen vertaling nodig is, kunt u de status van de wijzigingen markeren als Bij synchroniseren.
 
 <img src="assets/translation-version-diff.png" alt="vertaalbord" width="600">
 
-**Vertaalprojecten in uitvoering voor een onderwerp of kaart weergeven**
+**Mening Bezig vertaalprojecten voor een onderwerp of kaart**
 
-Sommige verwijzingen op het vertaaldashboard zijn mogelijk in uitvoering. Nu AEM Gidsen verstrekt een eigenschap om u te helpen de lijst van alle Lopende vertaalprojecten (samen met de doeltaal) bekijken die de geselecteerde verwijzing bevatten.
+Sommige verwijzingen op het vertaaldashboard zijn mogelijk in uitvoering. AEM Guides beschikt nu over een functie waarmee u de lijst kunt weergeven met alle vertaalprojecten in uitvoering (samen met de doeltaal) die de geselecteerde verwijzing bevatten.
 
 
 ## Produceer output in diverse formaten van de Redacteur van het Web
 
-Nu kunt u de output voor uw onderwerpen of kaart DITA van de Redacteur van het Web gemakkelijk produceren. U kunt verschillende uitvoervoorinstellingen configureren, zoals AEM Site, PDF, HTML5, JSON (een indeling voor uitvoer zonder kop) en aangepaste uitvoer. U kunt deze vervolgens gebruiken om de respectievelijke uitvoerbestanden te genereren.
+Nu kunt u de output voor uw onderwerpen of kaart DITA van de Redacteur van het Web gemakkelijk produceren. U kunt verschillende uitvoervoorinstellingen configureren, zoals AEM Site, PDF, HTML5,
+JSON (een uitvoerindeling zonder kop) en aangepaste uitvoer. U kunt deze vervolgens gebruiken om de respectievelijke uitvoerbestanden te genereren.
 
 U kunt attributen in uw onderwerpen bepalen DITA en dan de voorwaarde gebruiken vooraf ingesteld om een voorwaarde toe te passen terwijl het publiceren van de output. U kunt de het publiceren eigenschap van de Basislijn ook gebruiken om een specifieke versie van uw kaart DITA of onderwerp selectief te publiceren.
 
 
 ## Tekst zoeken en vervangen op kaartniveau
 
-Met AEM hulplijnen kunt u zoeken naar bestanden in een kaart die specifieke tekst bevatten. De gezochte tekst wordt benadrukt in de dossiers. Nu kunt u ook het gezochte woord of de gezochte uitdrukking door een ander woord of een uitdrukking binnen alle dossiers vervangen. U kunt **Alles vervangen** aan de rechterkant boven aan de lijst om alle instanties van de gezochte term in alle bestanden te vervangen.
+Met AEM Guides kunt u zoeken naar bestanden op een kaart die specifieke tekst bevatten. De gezochte tekst wordt benadrukt in de dossiers. Nu kunt u ook het gezochte woord of de gezochte uitdrukking door een ander woord of een uitdrukking binnen alle dossiers vervangen. U kunt **selecteren vervangt Al** pictogram op het recht bij de bovenkant van de lijst om alle voorkomen van de gezochte termijn in alle dossiers te vervangen.
 
 <img src="assets/map-find-replace.png" alt="map zoeken vervangen" width="600">
 
 ## Bestanden verwijderen en dupliceren uit het deelvenster Verplaats
 
-U kunt nu gemakkelijk een duplicaat of een kopie van een bestand maken op basis van de **Opties** menu van het geselecteerde bestand in het paneel van de gegevensopslagruimte. Standaard wordt het bestand gemaakt met een achtervoegsel (zoals `filename_1.extension`).
+Nu kunt u een duplicaat of een exemplaar van een dossier van het **menu van Opties** van het geselecteerde dossier in het bewaarplaatspaneel gemakkelijk tot stand brengen. Standaard wordt het bestand gemaakt met
+een achtervoegsel (zoals `filename_1.extension` ).
 
 <img src="assets/options-menu-repo-view-file-level.png" alt="menu met bestandsopties " width="500">
 
 
 ## Andere verbeteringen in de webeditor
 
-* In AEM hulplijnen kunt u bepaalde veelvoorkomende bewerkingen voor afbeeldingen en mediabestanden uitvoeren met behulp van het contextmenu. Nu kunt u ook de geselecteerde afbeelding of media vinden in de opslagplaats of de voorvertoning van het bestand bekijken in de interface Middelen.
+* In AEM Guides kunt u via het contextmenu enkele veelvoorkomende bewerkingen voor afbeeldingen en mediabestanden uitvoeren. Nu kunt u ook de geselecteerde afbeelding of media vinden in de opslagplaats of de voorvertoning van het bestand bekijken in de gebruikersinterface van Assets.
 
 * De naam van het huidige mapprofiel wordt weergegeven als een label voor het pictogram Gebruikersvoorkeuren op de hoofdwerkbalk. Zo kunt u het mapprofiel identificeren waaraan u werkt.
 
@@ -115,15 +118,15 @@ U kunt nu gemakkelijk een duplicaat of een kopie van een bestand maken op basis 
 
 ## Titel weergeven in plaats van UUID in de Zuurstofbewerker
 
-Met AEM hulplijnen kunt u nu kiezen **Titel gebruiken in Editor en kaartbeheer** in Instellingen. Als u deze optie selecteert, wordt de titel van het bestand weergegeven op het tabblad van het bestand wanneer het wordt geopend in de Editor of DITA Maps Manager. Als u deze optie niet selecteert, wordt de UUID van het bestand weergegeven op het tabblad van het bestand.
+Nu staat AEM Guides u toe om **Titel van het Gebruik in Redacteur en de optie van de Manager van Kaarten** in Montages te kiezen. Als u deze optie selecteert, wordt de titel van het bestand weergegeven op het tabblad van het bestand wanneer het wordt geopend in de Editor of DITA Maps Manager. Als u deze optie niet selecteert, wordt de UUID van het bestand weergegeven op het tabblad van het bestand.
 
-## Op microservices gebaseerde publicaties voor AEM hulplijnen as a Cloud Service
+## Op microservices gebaseerde publicaties voor AEM Guides as a Cloud Service
 
-Met de nieuwe publicatiemicroservice kunt u grote publicatiewerkbelastingen tegelijk uitvoeren op AEM as a Cloud Service hulplijnen en het toonaangevende Adobe I/O Runtime-serverplatform benutten.
+Met de nieuwe publicatiemicroservice kunt u grote publicatiewerklasten tegelijkertijd uitvoeren op AEM Guides as a Cloud Service en het toonaangevende Adobe I/O Runtime-serverloze platform benutten.
 
-Voor elke publicatieaanvraag AEM as a Cloud Service hulplijnen wordt een aparte container uitgevoerd die horizontaal wordt geschaald volgens de wensen van de gebruiker. Hierdoor kunt u meerdere publicatieverzoeken uitvoeren en de prestaties verbeteren.
+Voor elke publicatieaanvraag voert AEM Guides as a Cloud Service een aparte container uit die horizontaal wordt geschaald volgens de gebruikersaanvragen. Hierdoor kunt u meerdere publicatieverzoeken uitvoeren en de prestaties verbeteren.
 
-Zie voor meer informatie [Nieuwe op microservice gebaseerde publicatie configureren voor as a Cloud Service AEM hulplijnen](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/publishing/configure-microservices.md).
+Voor meer details, zie [ nieuwe op microservice-gebaseerde het publiceren voor AEM Guides as a Cloud Service ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/publishing/configure-microservices.md) vormen.
 
 ## Native PDF | Een aangepaste bladwijzer toevoegen in PDF-uitvoer
 
@@ -131,7 +134,7 @@ Nu kunt u voor eenvoudige navigatie een aangepaste bladwijzer toevoegen aan een 
 
 ## Native PDF | Aangepaste stijl toepassen op inhoudsopgave-items en onderwerpinhoud
 
-AEM de Gidsen verstrekt de eigenschap om douanemateriaal op de ingangen van TOC of een bepaald onderwerp in de output van PDF toe te passen. U kunt bijvoorbeeld de kleur wijzigen van de tekst in de inhoudsopgave en de titel van het onderwerp. U kunt stijlen ook toepassen op de volledige inhoud binnen het onderwerp.
+AEM Guides biedt de functie om aangepaste opmaak toe te passen op de inhoudsopgave-items of een bepaald onderwerp in de PDF-uitvoer. U kunt bijvoorbeeld de kleur wijzigen van de tekst in de inhoudsopgave en de titel van het onderwerp. U kunt stijlen ook toepassen op de volledige inhoud binnen het onderwerp.
 
 
 ## Native PDF | De paginamarkering in de voetnootcomponent opmaken
@@ -140,6 +143,6 @@ Nu kunt u de paginamarkering opmaken in de voetnoten. U kunt bijvoorbeeld vierka
 
 ## Native PDF | De bar van de verandering om op veranderde onderwerpen in Inhoudsopgave te wijzen
 
-Met AEM hulplijnen kunt u nu snel de gewijzigde onderwerpen in de inhoudsopgave van de PDF-uitvoer identificeren.  Het toont een veranderingsbar op de linkerzijde van de veranderde onderwerpen in TOC. U kunt op het onderwerp in TOC klikken en de gedetailleerde veranderingen bekijken.
+AEM Guides staat u nu toe om de veranderde onderwerpen in TOC van de output van PDF snel te identificeren.  Het toont een veranderingsbar op de linkerzijde van de veranderde onderwerpen in TOC. U kunt op het onderwerp in TOC klikken en de gedetailleerde veranderingen bekijken.
 
 <img src="assets/change-marker-toc.png" alt="Markeerteken in inhoudsopgave wijzigen " width="500">

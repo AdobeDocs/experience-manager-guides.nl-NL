@@ -1,6 +1,6 @@
 ---
-title: Nieuwe op microservice gebaseerde publicatie configureren voor as a Cloud Service AEM hulplijnen
-description: Leer hoe u nieuwe op microservice gebaseerde publicaties voor AEM hulplijnen kunt configureren.
+title: Nieuwe op microservices gebaseerde publicaties voor AEM Guides as a Cloud Service configureren
+description: Leer hoe u nieuwe op microservices gebaseerde publicaties voor AEM Guides kunt configureren.
 exl-id: 92e3091d-6337-4dc6-9609-12b1503684cd
 feature: Microservice in AEM Guides
 role: User, Admin
@@ -13,38 +13,38 @@ ht-degree: 0%
 
 # Op microservice gebaseerde publicaties configureren met JWT-verificatie
 
-[!BADGE Cloud Service]{type=Informative}
+[!BADGE  Cloud Service ]{type=Informative}
 
 >[!NOTE]
 >
-> De geloofsbrieven van de Rekening van de Dienst (JWT) zijn afgekeurd ten gunste van de geloofsbrieven van de Server-aan-Server OAuth. Uw toepassingen die gebruikmaken van de JWT-referenties (Service Account) werken niet meer na 1 januari 2025. U moet vóór 1 januari 2025 naar de nieuwe referentie migreren om ervoor te zorgen dat uw toepassing blijft werken. Meer informatie over [migreren van de credentie van de Rekening van de Dienst (JWT) aan OAuth server-aan-Server referentie](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/).
+> De geloofsbrieven van de Rekening van de Dienst (JWT) zijn afgekeurd ten gunste van de geloofsbrieven van de Server-aan-Server OAuth. Uw toepassingen die gebruikmaken van de JWT-referenties (Service Account) werken niet meer na 1 januari 2025. U moet vóór 1 januari 2025 naar de nieuwe referentie migreren om ervoor te zorgen dat uw toepassing blijft werken. Leer meer over [ migrerend van de Rekening van de Dienst (JWT) credential aan OAuth Server-aan-Server credential ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/).
 
 
 
-Op microservice gebaseerde publicaties in Adobe Experience Manager Guides as a Cloud Service ondersteunen de typen PDF (zowel op basis van Native als van DITA-OT), HTML5, JSON en CUSTOM van voorinstellingen voor uitvoer.
+Op microservice gebaseerde publicatie in voor Adobe Experience Manager Guides as a Cloud Service biedt ondersteuning voor PDF (zowel op basis van Native als DITA-OT), HTML5, JSON en CUSTOM-typen van uitvoervoorinstellingen.
 
-Aangezien de JWT-gegevens (Service Account) zijn afgekeurd, wordt het aanbevolen om op Adobe IMS gebaseerde verificatie te gebruiken. Leer hoe u [op microservice gebaseerde publicaties configureren met OAuth-verificatie](configure-microservices-imt-config.md).
+Aangezien de JWT-gegevens (Service Account) zijn afgekeurd, wordt het aanbevolen om op Adobe IMS gebaseerde verificatie te gebruiken. Leer hoe te [ op microservice-gebaseerde het publiceren met authentificatie OAuth ](configure-microservices-imt-config.md) vormen.
 
 Voor de service voor publicatie in de cloud die wordt beveiligd door verificatie op basis van Adobe IMS JWT, moeten klanten onderstaande stappen volgen om hun omgevingen te integreren met beveiligde tokengebaseerde verificatieworkflows van de Adobe en de nieuwe, op de cloud gebaseerde schaalbare publicatieoplossing te gaan gebruiken.
 
 
 ## IMS-configuraties maken in Adobe Developer Console
 
-**Rol vereist om de conflicten tot stand te brengen**: Systeembeheerder
+**Rol die wordt vereist om de configuraties** tot stand te brengen: De Beheerder van het systeem
 
 Voer de volgende stappen uit om IMS-configuraties te maken in Adobe Developer Console:
 
-1. Ontwikkelaarsconsole openen: `https://developer.adobe.com/console`.
+1. Open Developer Console: `https://developer.adobe.com/console`.
 
-1. Overschakelen op **Projecten** van boven.
+1. Schakelaar aan **Projecten** tabel van bovenkant.
 
    <img src="assets/projects-tab.png" alt="tabblad Projecten" width="500">
 
-1. Als u een nieuw, leeg project wilt maken, selecteert u **Leeg project** van de **Nieuw project maken** vervolgkeuzelijst.
+1. Om een nieuw leeg project tot stand te brengen, selecteer **Leeg project** van **creeer nieuwe project** dropdown.
 
    <img src="assets/create-new-project.png" alt="nieuw project maken" width="500">
 
-1. Selecteren **API** van de **Toevoegen aan project** vervolgkeuzelijst om IO Management API aan uw project toe te voegen.
+1. Selecteer **API** van **toevoegen aan project** dropdown om IO Beheer API aan uw project toe te voegen.
 
    <img src="assets/add-project.png" alt="project toevoegen" width="300">
 
@@ -58,11 +58,11 @@ Voer de volgende stappen uit om IMS-configuraties te maken in Adobe Developer Co
 
    <img src="assets/save-api.png" alt="api opslaan" width="600">
 
-1. Ga terug naar **Projecten** en klik op **Overzicht van project** links.
+1. Ga terug naar **Projecten** tabel en klik **Overzicht van het Project** op de linkerzijde.
 
    <img src="assets/project-overview.png" alt="projectoverzicht" width="500">
 
-1. Klikken **Downloaden** bovenaan om de service JSON te downloaden.
+1. Klik **Download** knoop op de bovenkant om de dienst JSON te downloaden.
 
    <img src="assets/download-json.png" alt="download json" width="500">
 
@@ -73,9 +73,9 @@ U hebt nu de JWT-verificatiegegevens geconfigureerd en ook de persoonlijke sleut
 Voer de volgende stappen uit om configuratie IMS aan het milieu toe te voegen:
 
 1. Open Experience Manager en selecteer vervolgens uw programma met de omgeving die u wilt configureren.
-1. Overschakelen op **Omgevingen** tab.
+1. Schakelaar aan **Milieu&#39;s** tabel.
 1. Klik op de naam van de omgeving die u wilt configureren. Hiermee navigeert u naar de pagina Informatie over omgeving.
-1. Overschakelen op **Configuratie** tab.
+1. Schakelaar aan **Configuratie** tabel.
 1. Upload de persoonlijke sleutel en het project JSON zoals hieronder in het schermafbeelding wordt getoond. Zorg ervoor u de zelfde namen en configuratie gebruikt zoals hieronder benadrukt.
 
    <img src="assets/ims-config-environment.png" alt="ims-configuraties" width="500">
@@ -84,13 +84,13 @@ Voer de volgende stappen uit om configuratie IMS aan het milieu toe te voegen:
 >
 > U moet de inhoud van het JSON-bestand met persoonlijke sleutel en servicedetails openen, kopiëren en in de waardekolom van het deelvenster Configuratie plakken, zoals in de bovenstaande schermafbeelding wordt getoond.
 
-Zodra u de configuratie IMS aan het milieu hebt toegevoegd, voer de volgende stappen uit om deze eigenschappen met de Gidsen van de Experience Manager te verbinden gebruikend OSGi:
+Zodra u de configuratie IMS aan het milieu hebt toegevoegd, voer de volgende stappen uit om deze eigenschappen met Experience Manager Guides te verbinden gebruikend OSGi:
 
-1. Voeg de onderstaande twee bestanden toe in uw Git-projectcode voor cloudbeheer (zie voor de bestandsinhoud) [Bijlage](#appendix)).
+1. In u het projectcode van de Git van de wolkenmanager, voeg hieronder twee dossiers toe (voor dossierinhoud, zie [ Bijlage ](#appendix)).
 
    * `com.adobe.aem.guides.eventing.ImsConfiguratorService.cfg.json`
    * `com.adobe.fmdita.publishworkflow.PublishWorkflowConfigurationService.xml`
-1. Zorg ervoor dat de toegevoegde bestanden worden gedekt door uw `filter.xml`.
+1. Controleer of de toegevoegde bestanden worden gedekt door de `filter.xml` .
 1. Leg de Git-wijzigingen vast en duw erop.
 1. Voer de pijpleiding in om de veranderingen op het milieu toe te passen.
 
@@ -101,14 +101,14 @@ Zodra dit wordt gedaan, zou u de nieuwe op microservice-gebaseerde wolkenpublica
 1. Kan één sleutel worden gebruikt op veelvoudige wolkenmilieu&#39;s?
    * Ja, u kunt één privé sleutel produceren en het voor alle milieu&#39;s gebruiken, maar u moet milieuvariabelen voor alle milieu&#39;s vormen en de zelfde sleutel gebruiken.
 1. Als de configuraties OSGi om microservice te gebruiken worden toegelaten, zal het het publiceren proces op lokale AEM server met de zelfde codebase werken?
-   * Neen, indien de markering `dxml.use.publish.microservice` is ingesteld op `true` dan zoekt het altijd microservice configuraties. Set `dxml.use.publish.microservice` tot `false` zodat de uitgever op uw lokale computer kan werken.
+   * Nee, als de markering `dxml.use.publish.microservice` is ingesteld op `true` , zoekt deze altijd naar microserviceconfiguraties. Stel `dxml.use.publish.microservice` in op `false` zodat het publiceren werkt op uw lokale computer.
 1. Hoeveel geheugen wordt toegewezen aan het proces DITA wanneer het gebruiken van op microservice-gebaseerde het publiceren? Wordt dit aangestuurd via parameters van het DITA-profiel?
    * Bij publicatie op basis van microservices wordt geheugentoewijzing niet aangestuurd door parameters van het type DITA-profiel. Het totale beschikbare geheugen op de de dienstcontainer is 8 GB, waarvan 6 GB aan het DITA-OT proces wordt toegewezen.
 
 
 ## Bijlage {#appendix}
 
-**Bestand**:
+**Dossier**:
 `com.adobe.aem.guides.eventing.ImsConfiguratorService.cfg.json`
 
 **Inhoud**:
@@ -120,11 +120,11 @@ Zodra dit wordt gedaan, zou u de nieuwe op microservice-gebaseerde wolkenpublica
 }
 ```
 
-**Bestand**: `com.adobe.fmdita.publishworkflow.PublishWorkflowConfigurationService.xml`
+**Dossier**: `com.adobe.fmdita.publishworkflow.PublishWorkflowConfigurationService.xml`
 
 **Inhoud**:
-* `dxml.use.publish.microservice`: Schakel over om op microservice gebaseerde publicatie met DITA-OT in te schakelen
-* `dxml.use.publish.microservice.native.pdf`: Schakel over om op microservice gebaseerde Native PDF-publicatie in te schakelen
+* `dxml.use.publish.microservice`: schakel over naar het inschakelen van op microservice gebaseerde publicaties met DITA-OT
+* `dxml.use.publish.microservice.native.pdf`: schakel over naar het inschakelen van op microservice gebaseerde Native PDF-publicaties
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>

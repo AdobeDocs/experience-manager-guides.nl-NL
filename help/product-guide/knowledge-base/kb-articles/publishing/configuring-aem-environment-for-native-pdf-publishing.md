@@ -13,11 +13,11 @@ ht-degree: 1%
 
 # AEM omgeving configureren voor publicatie op eigen PDF
 
-AEM Hulplijnen bevatten een native PDF-publicatieprogramma waarmee gebruikers de inhoud kunnen ontwerpen, ontwikkelen en publiceren in de PDF-indeling.
+AEM Guides beschikt over een native PDF-publicatieprogramma waarmee gebruikers de inhoud kunnen ontwerpen, ontwikkelen en publiceren in PDF-indeling.
 
 Het biedt de mogelijkheid om verschillende paginalay-outs, CSS-sjablonen te maken en de PDF-sjablonen samen met de paginalay-outs en CSS te ontwerpen.
 
-De stappen voor het configureren van deze native PDF in AEM hulplijnen verschillen afhankelijk van het besturingssysteem. Gebruik de onderstaande configuratiestappen op basis van het besturingssysteem waarop AEM is geïnstalleerd.
+De stappen voor het configureren van deze native PDF in AEM Guides verschillen afhankelijk van het besturingssysteem. Gebruik de onderstaande configuratiestappen op basis van het besturingssysteem waarop AEM is geïnstalleerd.
 
 ## Vereisten
 
@@ -39,7 +39,7 @@ De inheemse PDF het publiceren motor heeft Oracle JDK nodig om de knoopmodules i
 2. Klik in de taakbalk van Windows met de rechtermuisknop op het Windows-pictogram en selecteer Systeem.
 3. Klik onder Verwante instellingen in het venster Instellingen op Geavanceerde systeeminstellingen.
 4. Klik op het tabblad Geavanceerd op Omgevingsvariabelen.
-5. Klik in het gedeelte Systeemvariabelen op &quot;_Nieuw_&quot; om een nieuwe omgevingsvariabele te maken.
+5. In de sectie van systeemvariabelen, klik &quot;_Nieuw_&quot;om een nieuwe omgevingsvariabele tot stand te brengen.
 6. Voer een variabelenaam in als JAVA_HOME.
 7. Geef in het waardeveld het installatiepad voor Java op en klik op OK.
 
@@ -93,7 +93,7 @@ De inheemse PDF het publiceren motor heeft Oracle JDK nodig om de knoopmodules i
    2. PATH=$PATH exporteren: $JAVA\_HOME/bin
 
 5. Start AEM Server opnieuw en ga naar Stap 12 als u Hulplijnen versie 4.2 en hoger gebruikt.
-6. Kopieer de &quot;_node_modules.zip_&quot; onder aan dit artikel toegevoegd aan de directory crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166/.
+6. Kopieer &quot;_node_modules.zip_&quot;in bijlage in de bodem van dit artikel aan crx-quickstart/profiles/nodejs-b1aad0a7-9079-e56c-1ed8-6fcababe8166/ folder.
 7. Open terminal in crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166/ locatie.
 8. Knooppunt_modules-map verwijderen met onderstaande opdracht
 
@@ -105,13 +105,13 @@ De inheemse PDF het publiceren motor heeft Oracle JDK nodig om de knoopmodules i
 
 10. Als de opdracht unzip niet is geïnstalleerd/herkend, kan deze worden geïnstalleerd met de volgende opdracht
 
-   **yum install unzip**
+   **yum installeert unzip**
 
 11. Installeer het fontconfig-pakket.
 Opdracht: u installeert fontconfig
 12. Genereer native PDF op basis van voorinstellingen in de webeditor.
 
-**OPMERKING** : het pakket node_modules.zip kan worden gedownload [hier](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:295d8f03-41e1-429b-8465-2761ce3c2fb3).
+**NOTA** : node_modules.zip pakket kan [ hier ](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:295d8f03-41e1-429b-8465-2761ce3c2fb3) worden gedownload.
 
 Het handmatig importeren van de gedownloade knoopmodules voor het Linux-besturingssysteem is een oplossing voor gebruikers die op hulplijnen 4.1 of eerdere versies staan (stap 6-12)
 
@@ -142,13 +142,15 @@ Het handmatig importeren van de gedownloade knoopmodules voor het Linux-besturin
 
    C:/{aem-installation-folder}/crx-quickstart/profiles/nodejs-b1aad0a7-9079-e56c-1ed8-6fcababe8166
 
-   i) zoeken. -type d -exec chmod 0755 {} \; ii) zoeken. -type f -exec chmod 0755 {} \; iii) ./node-darwin/bin/node node-darwin/lib/node_modules/npm/bin/npm-cli.js —prefix. install —unsafe-perm —scripts-prepend-node-path
+   i) zoeken. -type d -exec chmod 0755 {} \;
+ii) vondst. -type f -exec chmod 0755 {} \;
+iii) ./node-darwin/bin/node node-darwin/lib/node_modules/npm/bin/npm-cli.js —prefix. install —unsafe-perm —scripts-prepend-node-path
 
 8. Controleren of Java is geïnstalleerd met de onderstaande opdracht
 
-   i) Uitvoeren **./node-darwin/bin/node** bevel van /crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166 folder
+   i) Voer **uit./node-darwin/bin/node** opdracht van /crx-quickstart/profiles/nodejs-b1aad0a7-9079-e56c-1ed8-6fcababe8166 folder
 
-   ![mac](../assets/publishing/mac.png)
+   ![ mac ](../assets/publishing/mac.png)
 
    ii) a = require(&#39;java&#39;)
 
@@ -163,7 +165,7 @@ Hieronder ziet u de algemene fouten die kunnen optreden tijdens het genereren va
 
 ### Null pointer Exception in Windows/Mac OS
 
-![null pointer uitzondering](../assets/publishing/null-pointer-exception.png)
+![ ongeldige wijzeruitzondering ](../assets/publishing/null-pointer-exception.png)
 
 Als het probleem zich blijft voordoen zelfs nadat de Java-omgeving is gecorrigeerd, moet u het volgende opnieuw valideren:
 
@@ -173,14 +175,14 @@ Als het probleem zich blijft voordoen zelfs nadat de Java-omgeving is gecorrigee
 
 ### Ontbrekende bibliotheken in RHEL 7 Linux OS
 
-![ontbrekende bibliotheken](../assets/publishing/missing-libraries.png)
+![ ontbrekende bibliotheken ](../assets/publishing/missing-libraries.png)
 
-### Time-out publicatieproces. Het proces is in de gegeven tijd niet voltooid
+### Time-out Publish-proces. Het proces is in de gegeven tijd niet voltooid
 
-![time-out van publicatieproces](../assets/publishing/publish-process-timeout.png)
+![ publiceer procesonderbreking ](../assets/publishing/publish-process-timeout.png)
 
-Valideer de time-outeigenschapswaarde voor het knooppunt nodejs in /var/dxml/profiles/b1aad0a7-9079-e56c-1ed8-6fcababe8166/nodejs in de CRX-opslagplaats. De standaardwaarde is 300.
+Valideer de time-outeigenschapswaarde voor het knooppunt nodejs in /var/dxml/profiles/b1aad0a7-9079-e56c-1ed8-6fcababe8166/nodejs in de gegevensopslagplaats van CRX. De standaardwaarde is 300.
 
 
 
-Als u problemen ondervindt tijdens het uitvoeren van een van de bovenstaande stappen, plaatst u uw vraag op de Community voor AEM [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) voor hulp.
+Als u om het even welke kwesties ontmoet terwijl het uitvoeren van om het even welke bovengenoemde stappen, post uw vraag op het communautair van AEM Guides [ forum ](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) voor hulp.

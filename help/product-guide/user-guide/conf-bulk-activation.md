@@ -17,13 +17,14 @@ In een echt scenario, zouden uw auteurs toegang op de auteursinstantie van AEM h
 
 >[!NOTE]
 >
-> Ga voor meer informatie over het instellen van de auteur en het publiceren van een exemplaar in AEM naar [Overzicht van auteur- en publicatiearchitectuur](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#prerequisites).
+> Voor meer details over hoe te om de auteur te plaatsen en instantie in AEM te publiceren, zie [ Author en het Architecturale Overzicht van Publish ](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#prerequisites).
 
-Met de functie AEM bulkactivering van hulplijnen kunt u uw inhoud snel en eenvoudig activeren, van ontwerpen tot het publiceren van een exemplaar. Met de functie voor bulkactivering kunt u:
+Met de functie AEM Guides Bulk Activation kunt u uw inhoud snel en eenvoudig activeren, van ontwerpen tot het publiceren van een exemplaar. Met de functie voor bulkactivering kunt u:
 
 - Voeg een of meerdere toewijzingen \(aan een kaartverzameling\) toe aan één activeringstaak
 
-- Selecteer een of meerdere uitvoervoorinstellingen die u wilt publiceren. U kunt AEM voorinstellingen voor Site, PDF, Native PDF, HTML5, Aangepast en JSON-uitvoer toevoegen.
+- Selecteer een of meerdere uitvoervoorinstellingen die u wilt publiceren. U kunt AEM Site, PDF, Native PDF, HTML5, Aangepast en
+JSON-uitvoervoorinstellingen.
 
 
 - Landinstellingen definiëren waarin de uitvoer moet worden geactiveerd
@@ -31,13 +32,13 @@ Met de functie AEM bulkactivering van hulplijnen kunt u uw inhoud snel en eenvou
 - Open de auditlogboeken om te controleren of uw activeringstaak met succes is voltooid of om een aantal problemen te verhelpen
 
 
-- **[Een verzameling bulkactiveringskaarten maken](conf-bulk-activation-create-map-collection.md)**
+- **[creeer een bulkactivering kaartinzameling](conf-bulk-activation-create-map-collection.md)**
 
-- **[Uitvoer activeren](conf-bulk-activation-publish-map-collection.md)**
+- **[activeer output](conf-bulk-activation-publish-map-collection.md)**
 
-- **[Een bulkactiveringskaartverzameling bewerken](conf-bulk-activation-edit-map-collection.md)**
+- **[geef een bulkactiemap inzameling](conf-bulk-activation-edit-map-collection.md)** uit
 
-- **[Een verzameling bulkactiveringskaarten verwijderen](conf-bulk-activation-delete-map-collection.md)**
+- **[Schrap een bulkactivering kaartinzameling](conf-bulk-activation-delete-map-collection.md)**
 
 
-**Bovenliggend onderwerp:**[ Uitvoergeneratie](generate-output.md)
+**Bovenliggend onderwerp:**[ Productie van de Output ](generate-output.md)

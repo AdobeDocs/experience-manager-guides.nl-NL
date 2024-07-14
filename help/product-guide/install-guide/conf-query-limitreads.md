@@ -24,13 +24,13 @@ Voer de volgende stappen uit om het aantal knooppunten dat een query tegelijkert
    http://<server name>:<port>/system/console/jmx
    ```
 
-1. Zoeken naar en klikken op **QueryEngineSettings**.
+1. Onderzoek naar en klik op **QueryEngineSettings**.
 
-1. Kenmerkwaarde wijzigen voor de **LimietLezen** kenmerk.
+1. De attributenwaarde van de verandering voor het **LimitReads** attribuut.
 
-1. Klikken **Opslaan**.
+1. Klik **sparen**.
 
 
 Wanneer u deze kenmerkwaarde verhoogt, helpt het u het rapport voor grotere kaarten te produceren DITA.
 
-**Bovenliggend onderwerp:**[ Webeditor aanpassen](conf-web-editor.md)
+**Bovenliggend onderwerp:**[ pas de Redacteur van het Web ](conf-web-editor.md) aan

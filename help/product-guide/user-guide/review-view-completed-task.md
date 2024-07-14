@@ -1,6 +1,6 @@
 ---
 title: Een voltooide revisietaak weergeven
-description: Zorg dat u weet hoe u een voltooide revisietaak in AEM hulplijnen als een revisor of auteur kunt weergeven.
+description: Weet hoe u een voltooide revisietaak kunt weergeven als een revisor of auteur in AEM Guides.
 exl-id: 7c468a1c-046c-4b40-9f0b-1a67e6cf65fe
 feature: Reviewing
 role: User

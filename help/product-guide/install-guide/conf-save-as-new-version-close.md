@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Vraag configureren om bij het sluiten als een nieuwe versie op te slaan {#id222HBI00XXA}
 
-Wanneer de gebruiker een dossier probeert te sluiten dat in de Redacteur van het Web gebruikend **Sluiten** op het tabblad van het bestand of op de knop **Sluiten** in het menu Opties wordt een dialoogvenster weergegeven als het bestand niet-opgeslagen gegevens of een niet-opgeslagen versie heeft. De gebruiker wordt gevraagd het bestand op te slaan als een nieuwe versie als de versie niet is opgeslagen.
+Wanneer de gebruiker probeert om een dossier te sluiten dat in de Redacteur van het Web gebruikend **dicht** knoop op het lusje van het dossier of **dicht** optie in het menu van Opties wordt geopend, verschijnt een dialoog als het dossier unsaved gegevens of een niet bewaarde versie heeft. De gebruiker wordt gevraagd het bestand op te slaan als een nieuwe versie als de versie niet is opgeslagen.
 
-De **Opslaan als nieuwe versie** checkbox wordt niet toegelaten door gebrek en u moet dit van configMgr toelaten. Voer de volgende stappen uit om de optie door gebrek in de Redacteur van het Web toe te laten:
+**sparen als Nieuwe 1} checkbox van de Versie {wordt niet toegelaten door gebrek en u moet dit van configMgr toelaten.** Voer de volgende stappen uit om de optie door gebrek in de Redacteur van het Web toe te laten:
 
 1. Open de Adobe Experience Manager Web Console Configuration-pagina.
 
@@ -26,15 +26,15 @@ De **Opslaan als nieuwe versie** checkbox wordt niet toegelaten door gebrek en u
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Zoeken naar en klikken op de knop **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** bundel.
+1. Onderzoek naar en klik op **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** bundel.
 
-1. Selecteer de **Nieuwe versie aanvragen bij sluiten** -optie.
+1. Selecteer **vragen om nieuwe versie op dichte** optie.
 
-1. Klikken **Opslaan**.
+1. Klik **sparen**.
 
 
-Als deze optie is geselecteerd, wordt **Opslaan als nieuwe versie** Selectievakje is standaard geselecteerd in het dialoogvenster.
+Wanneer deze optie wordt geselecteerd, **sparen als Nieuwe 1} checkbox van de Versie wordt geselecteerd door gebrek in de dialoogdoos.**
 
-Zie voor meer informatie *Bestanden sluiten en scenario&#39;s opslaan* in de as a Cloud Service handleiding Adobe Experience Manager-hulplijnen gebruiken.
+Voor meer details, zie *Dossier sluiten en sparen scenario&#39;s* sectie in de Gebruikende as a Cloud Service gids van Adobe Experience Manager Guides.
 
-**Bovenliggend onderwerp:**[ Webeditor aanpassen](conf-web-editor.md)
+**Bovenliggend onderwerp:**[ pas de Redacteur van het Web ](conf-web-editor.md) aan

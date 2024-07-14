@@ -1,6 +1,6 @@
 ---
 title: Basisprobleemoplossing
-description: Los problemen op met het basisoplossen van problemen in AEM hulplijnen. Leer om, het logboekdossier in een tekstredacteur te bekijken te kopiëren en te controleren en JSP compilatiefouten op te lossen.
+description: Los problemen op met basisoplossingen in AEM Guides. Leer om, het logboekdossier in een tekstredacteur te bekijken te kopiëren en te controleren en JSP compilatiefouten op te lossen.
 exl-id: 57b88291-b5a3-4931-b3ed-f2b2ce7a463c
 feature: Publishing, Troubleshooting
 role: User
@@ -13,21 +13,21 @@ ht-degree: 0%
 
 # Basisprobleemoplossing {#id1821I0Y0G0A}
 
-Wanneer u werkt met AEM hulplijnen, kunnen er fouten optreden wanneer u het document publiceert of opent. Dergelijke fouten zouden in de kaart DITA, onderwerp, of in AEM proces van Gidsen zelf kunnen zijn. Deze sectie verstrekt informatie over hoe te om tot informatie in het dossier van het het logboekdossier van de outputgeneratie toegang te hebben en te ontleden. Ook, als uw onderwerp DITA te groot is, dan zou u de JSP compilatiefout kunnen zien. Deze sectie verstrekt ook informatie over hoe te om de JSP compilatiefout op te lossen.
+Wanneer u met AEM Guides werkt, kunnen er fouten optreden tijdens het publiceren of openen van uw document. Dergelijke fouten zouden in de kaart DITA, onderwerp, of in het proces van AEM Guides zelf kunnen zijn. Deze sectie verstrekt informatie over hoe te om tot informatie in het dossier van het het logboekdossier van de outputgeneratie toegang te hebben en te ontleden. Ook, als uw onderwerp DITA te groot is, dan zou u de JSP compilatiefout kunnen zien. Deze sectie verstrekt ook informatie over hoe te om de JSP compilatiefout op te lossen.
 
 ## Logbestand weergeven en controleren {#id1822G0P0CHS}
 
 Voer de volgende stappen uit om het logboekbestand van de outputgeneratie te bekijken en te controleren:
 
-1. Als u het productieproces voor de uitvoer hebt gestart, klikt u op **Uitvoer** in de DITA kaartconsole.
+1. Zodra u het proces van de outputgeneratie hebt in werking gesteld, klik **Output** in de DITA kaartconsole.
 
-   De **Algemeen** kolom van de **Gegenereerde uitvoer** toont de pictogrammen om visuele aanwijzing over het succes of het mislukken van de outputproductie te geven.
+   De **Algemene** kolom van de **Gegenereerde Output** toont de pictogrammen om een visuele richtsnoer over het succes of de mislukking van de outputgeneratie te geven.
 
    ![](images/output-general-settings.png){width="300" align="left"}
 
    In de bovenstaande schermafbeelding geven het eerste en derde pictogram een mislukte uitvoergeneratie aan. Het tweede pictogram toont een succesvolle outputgeneratie maar met berichten. De laatste is een geslaagde outputgeneratie zonder enig bericht.
 
-1. Klik op de koppeling in het dialoogvenster **Gegenereerd op** kolom nadat de taak is voltooid.
+1. Klik op de verbinding in **Gegenereerd bij** kolom nadat de baan volledig is.
 
    Het logbestand wordt op een nieuw tabblad geopend.
 
@@ -48,35 +48,35 @@ Voer de volgende stappen uit om het logboekbestand van de outputgeneratie te bek
 
 Voer de volgende stappen uit om het logboekdossier van de outputgeneratie in een tekstredacteur te kopiëren en te controleren:
 
-1. Als u het productieproces voor de uitvoer hebt gestart, klikt u op **Uitvoer** in de DITA kaartconsole.
+1. Zodra u het proces van de outputgeneratie hebt in werking gesteld, klik **Output** in de DITA kaartconsole.
 
-1. Klik op de koppeling in het dialoogvenster **Gegenereerd op** kolom nadat de taak is voltooid.
+1. Klik op de verbinding in **Gegenereerd bij** kolom nadat de baan volledig is.
 
    Het logbestand wordt op een nieuw tabblad geopend.
 
-1. Klikken **Logboek kopiëren** knop. Het logbestand wordt naar het klembord gekopieerd.
+1. Klik **knoop van het Logboek van het Exemplaar**. Het logbestand wordt naar het klembord gekopieerd.
 1. Open een teksteditor en plak het logbestand in de editor.
 
 1. Blader door het logbestand en controleer op berichten.
 
-   Aan de hand van de volgende informatie kunt u bepalen of er een fout optreedt in het DITA-bestand of in het proces AEM hulplijnen:
+   Aan de hand van de volgende informatie kunt u bepalen of het DITA-bestand of het AEM Guides-proces een fout bevat:
 
-   - *Aan het DITA-kaartbestand gerelateerde fout*: Als er een fout wordt gevonden in het DITA-kaartbestand of een ander bestand in de DITA-kaart, bevat het logbestand de tekenreeks BUILD FAILED. U kunt de informatie in het logbestand controleren om het onjuiste bestand te zoeken en het probleem op te lossen.
+   - *DITA kaartdossier verwante fout*: Voor het geval dat er een fout in het DITA kaartdossier of een ander dossier in de kaart DITA wordt gevonden, zal het logboekdossier een koord, &quot;BUILD FAILED&quot;bevatten. U kunt de informatie in het logbestand controleren om het onjuiste bestand te zoeken en het probleem op te lossen.
 
-   In het volgende voorbeeldfragment van het logboekdossier, kunt u zien `BUILD FAILED` samen met de reden voor de fout.
+   In het volgende voorbeeldfragment van het logboekbestand ziet u het `BUILD FAILED` -bericht samen met de reden voor de fout.
 
    ![](images/dita-error-in-log-file.png){width="650" align="left"}
 
-   - *Aan hulplijnen gerelateerde fout AEM*: Het andere type fout dat u in het logbestand kunt identificeren, is gerelateerd aan AEM proces Hulplijnen zelf. In dit geval wordt het DITA-toewijzingsbestand geparseerd, maar mislukt het genereren van de uitvoer door een interne fout in AEM hulplijnen. Voor dergelijke fouten moet u hulp vragen bij het team voor technische ondersteuning.
+   - *op AEM Guides betrekking hebbende fout*: Het andere type van fout dat u in het logboekdossier kunt identificeren is verwant met het proces van AEM Guides zelf. In dit geval wordt het DITA-toewijzingsbestand geparseerd, maar mislukt het genereren van de uitvoer door een interne fout in AEM Guides. Voor dergelijke fouten moet u hulp vragen bij het team voor technische ondersteuning.
 
-   In het volgende voorbeeldfragment van het logboekdossier, kunt u zien `BUILD SUCCESSFUL` bericht, gevolgd door een andere technische fout.
+   In het volgende voorbeeldfragment van het logboekbestand ziet u het `BUILD SUCCESSFUL` -bericht, gevolgd door een andere technische fout.
 
    ![](images/process-error-in-log-file.png){width="650" align="left"}
 
 
 ## JSP-compilatiefout oplossen
 
-Als uw onderwerp DITA te groot is, dan zou u de JSP compilatiefout \ ( kunnen zien`org.apache.sling.api.request.TooManyCallsException`\) in uw browser. Deze fout kan optreden wanneer u een onderwerp opent voor bewerken, reviseren of publiceren.
+Als uw onderwerp DITA te groot is, dan zou u de JSP compilatiefout \ (`org.apache.sling.api.request.TooManyCallsException` kunnen zien \) in uw browser. Deze fout kan optreden wanneer u een onderwerp opent voor bewerken, reviseren of publiceren.
 
 Voer de volgende stappen uit om dit probleem op te lossen:
 
@@ -84,11 +84,11 @@ Voer de volgende stappen uit om dit probleem op te lossen:
 
    De Adobe Experience Manager Web Console Configuration-pagina wordt weergegeven.
 
-1. Zoeken naar en klikken op de knop *Apache Sling Main Servlet* component.
+1. Onderzoek naar en klik op de *Apache Sling HoofdServlet* component.
 
    De configureerbare opties voor de Apache Sling Main Servlet worden weergegeven.
 
-1. Verhoog de waarde voor de *Aantal Vraag per Verzoek* op basis van uw vereisten.
+1. Verhoog de waarde voor het *Aantal Vraag per de parameter van het Verzoek* zoals per uw vereisten.
 
 
-**Bovenliggend onderwerp:**[ Uitvoergeneratie](generate-output.md)
+**Bovenliggend onderwerp:**[ Productie van de Output ](generate-output.md)

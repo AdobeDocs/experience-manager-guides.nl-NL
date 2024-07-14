@@ -24,18 +24,18 @@ In sommige werkschema&#39;s, wanneer u op een verbinding van een onderwerp of ee
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Zoeken naar en klikken op de knop **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** bundel.
+1. Onderzoek naar en klik op **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** bundel.
 
-1. Selecteer de **Open DITA Onderwerp/Kaart op Zelfde Lusje** -optie.
+1. Selecteer de **Open Onderwerp DITA/Kaart op Zelfde Lusje** optie.
 
-1. Klikken **Opslaan**.
+1. Klik **sparen**.
 
 
 Deze instelling is van invloed op de volgende plaatsen waar u toegang kunt krijgen tot het onderwerp- of kaartbestand:
 
-- Maak DITA-onderwerp \(aan het einde van de workflow, wanneer u op de knop **Onderwerp openen** knop\)
+- Creeer Onderwerp DITA \(aan het eind van het werkschema, wanneer u **Open Onderwerp** knoop \ klikt)
 
-- DITA-kaart maken \(aan het einde van de workflow, wanneer u op de knop **Kaart openen** knop\)
+- Creeer Kaart DITA \ (aan het eind van het werkschema, wanneer u de **Open Kaart** knoop \ klikt)
 
 - Het lusje van onderwerpen in de DITA kaartconsole
 
@@ -44,4 +44,4 @@ Deze instelling is van invloed op de volgende plaatsen waar u toegang kunt krijg
 - Het lusje van rapporten in de DITA kaartconsole
 
 
-**Bovenliggend onderwerp:**[ Webeditor aanpassen](conf-web-editor.md)
+**Bovenliggend onderwerp:**[ pas de Redacteur van het Web ](conf-web-editor.md) aan

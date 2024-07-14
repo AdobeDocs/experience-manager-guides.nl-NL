@@ -1,6 +1,6 @@
 ---
-title: Inhoud van auteur schrijven met AEM hulplijnen
-description: Inhoud op efficiënte wijze ontwerpen met behulp van AEM hulplijnen. Leer hoe u documenten maakt, bewerkt en publiceert in AEM hulplijnen.
+title: Inhoud autoriseren met AEM Guides
+description: Creëer inhoud efficiënt met AEM Guides. Leer hoe u documenten maakt, bewerkt en publiceert in AEM Guides.
 exl-id: 9e29dde4-a9de-41e0-86c8-ca949bd3669c
 feature: Authoring
 role: User
@@ -11,19 +11,19 @@ ht-degree: 0%
 
 ---
 
-# Inhoud van auteur schrijven met AEM hulplijnen {#id221EB0P0E20}
+# Inhoud autoriseren met AEM Guides {#id221EB0P0E20}
 
-AEM Hulplijnen worden geleverd met de drie redacteuren die niet in de verpakking staan. U kunt deze gebruiken om documenten te maken, te bewerken en te publiceren.
+AEM Guides wordt geleverd met de drie editors uit de doos. U kunt deze gebruiken om documenten te maken, te bewerken en te publiceren.
 
-1. **Webeditor**: Gebruik deze optie om gestructureerde documenten te maken en te bewerken.
-1. **Kaarteditor**: Gebruik deze optie om DITA-kaart en bladwijzerbestanden te maken en te bewerken.
-1. **Ditaval Editor**: Gebruik deze optie om voorwaardelijke uitvoer te genereren.
+1. **Redacteur van het Web**: Gebruik het om gestructureerde documenten tot stand te brengen en uit te geven.
+1. **Redacteur van de Kaart**: Gebruik het om kaart DITA en bookmap dossiers tot stand te brengen en uit te geven.
+1. **Ditaval Redacteur**: Gebruik het om voorwaardelijke output te produceren.
 
-- **[Werken met de webeditor](web-editor.md)**
+- **[Werk met de Redacteur van het Web](web-editor.md)**
 
-- **[Werken met de Kaarteditor](map-editor.md)**
+- **[Werk met de Redacteur van de Kaart](map-editor.md)**
 
-- **[DITAVAL-editor](ditaval-editor.md)**
+- **[DITAVAL redacteur](ditaval-editor.md)**
 
 
-**Bovenliggend onderwerp:**[ Inhoud auteur](authoring-content.md)
+**Bovenliggend onderwerp:**[ Inhoud van de Auteur ](authoring-content.md)

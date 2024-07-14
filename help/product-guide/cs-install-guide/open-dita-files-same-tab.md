@@ -16,7 +16,7 @@ ht-degree: 0%
 
 In sommige werkschema&#39;s, wanneer u op een verbinding van een onderwerp of een kaartdossier klikt, opent het in een nieuw lusje. Dit kan tot vele lusjes leiden die in uw browser worden geopend, die uw productiviteit kunnen beïnvloeden. U kunt dit gedrag wijzigen door een onderwerp- of kaartbestand op een nieuw tabblad te openen en dit op het huidige tabblad zelf te forceren.
 
-Gebruik de instructies die worden gegeven in [Configuratieoverschrijvingen](download-install-additional-config-override.md#) om het configuratiebestand te maken. In het configuratiedossier, verstrek de volgende \(bezit \) details om een onderwerp of kaartdossier in een nieuw lusje te openen:
+Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](download-install-additional-config-override.md#) om het configuratiedossier tot stand te brengen. In het configuratiedossier, verstrek de volgende \(bezit \) details om een onderwerp of kaartdossier in een nieuw lusje te openen:
 
 | PID | Eigenschappensleutel | Waarde van eigenschap |
 |---|------------|--------------|
@@ -24,9 +24,9 @@ Gebruik de instructies die worden gegeven in [Configuratieoverschrijvingen](down
 
 Deze instelling is van invloed op de volgende plaatsen waar u toegang kunt krijgen tot het onderwerp- of kaartbestand:
 
-- Maak DITA-onderwerp \(aan het einde van de workflow, wanneer u op de knop **Onderwerp openen** knop\)
+- Creeer Onderwerp DITA \(aan het eind van het werkschema, wanneer u **Open Onderwerp** knoop \ klikt)
 
-- DITA-kaart maken \(aan het einde van de workflow, wanneer u op de knop **Kaart openen** knop\)
+- Creeer Kaart DITA \ (aan het eind van het werkschema, wanneer u de **Open Kaart** knoop \ klikt)
 
 - Het lusje van onderwerpen in de DITA kaartconsole
 
@@ -35,4 +35,4 @@ Deze instelling is van invloed op de volgende plaatsen waar u toegang kunt krijg
 - Het lusje van rapporten in de DITA kaartconsole
 
 
-**Bovenliggend onderwerp:**[ Webeditor aanpassen](conf-web-editor.md)
+**Bovenliggend onderwerp:**[ pas de Redacteur van het Web ](conf-web-editor.md) aan

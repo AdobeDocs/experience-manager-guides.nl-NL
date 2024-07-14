@@ -14,19 +14,19 @@ ht-degree: 0%
 
 # Aangepaste DITA-toewijzingssjabloon configureren {#id1774F04F05Z}
 
-AEM hulplijnen worden geleverd met twee &#39;out-of-the-box&#39;-kaartsjablonen: DITA-kaart en -bladmap. U kunt kaarten tot stand brengen die op deze malplaatjes worden gebaseerd; of, kunt u uw eigen kaartmalplaatjes bepalen die dan kunnen worden gebruikt om nieuwe kaarten tot stand te brengen.
+AEM Guides wordt geleverd met twee out-of-the-box kaartsjablonen — DITA-kaart en Bookmap. U kunt kaarten tot stand brengen die op deze malplaatjes worden gebaseerd; of, kunt u uw eigen kaartmalplaatjes bepalen die dan kunnen worden gebruikt om nieuwe kaarten tot stand te brengen.
 
 Voer de volgende stappen uit om uw malplaatjes van de douanekaart toe te voegen:
 
 1. Meld u als beheerder aan bij Adobe Experience Manager.
 
-1. Navigeer in de interface Middelen naar de map die is geconfigureerd voor het opslaan van de sjabloonbestanden voor de kaart. Door gebrek, worden alle kaartmalplaatjes opgeslagen in /content/dam/dita-templates/maps omslag.
+1. In Assets UI, navigeer aan de omslag die wordt gevormd om de dossiers van het kaartmalplaatje op te slaan. Door gebrek, worden alle kaartmalplaatjes opgeslagen in /content/dam/dita-templates/maps omslag.
 
    >[!NOTE]
    >
-   > Om een douaneplaats te vormen om onderwerp of kaartmalplaatjes op te slaan, zie [Aangepast pad voor DITA-sjabloonmap configureren](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z)
+   > Om een douaneplaats te vormen om onderwerp op te slaan of malplaatjes in kaart te brengen, zie [ de weg van de malplaatjeomslag van douane DITA ](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z) vormen
 
-1. Klikken **Maken** \> **DITA-sjabloon**.
+1. Klik **creëren** \> **Sjabloon DITA**.
 
 1. Selecteer op de pagina Vervagen het type kaartsjabloon dat u wilt maken.
 
@@ -36,23 +36,23 @@ Voer de volgende stappen uit om uw malplaatjes van de douanekaart toe te voegen:
 
 1. Klik op **Next**.
 
-1. Voer op de nieuwe pagina Sjablooneigenschappen een **Titel** en **Naam** voor de sjabloon.
+1. Voor de nieuwe pagina van de Eigenschappen van het malplaatje, ga a **Titel** en **Naam** voor het malplaatje in.
 
    >[!NOTE]
    >
    > De naam wordt automatisch voorgesteld gebaseerd op de Titel van uw malplaatje. Als u de naam handmatig wilt opgeven, moet u ervoor zorgen dat de naam geen spaties, apostrof of accolades en einden met .ditamap bevat.
 
-1. Klikken **Maken**.
+1. Klik **creëren**.
 
    Het bericht Kaart gemaakt wordt weergegeven.
 
    U kunt de sjabloon openen om te bewerken in de Kaarteditor of het sjabloonbestand opslaan op de opslaglocatie van de sjabloon. Zodra het malplaatje wordt gecreeerd, kunt u de Redacteur van de Kaart gebruiken om het malplaatje aan uw auteursbehoeften aan te passen. Als een sjabloon eenmaal is ingesteld, moet u deze koppelen aan een algemeen profiel of aan een mapprofiel.
 
 
-De volgende keer dat u een nieuwe kaart maakt, wordt de sjabloon weergegeven op de pagina Vervagen. Voor meer informatie over het creëren van een kaart DITA, zie *Adobe Experience Manager-hulplijnen gebruiken*.
+De volgende keer dat u een nieuwe kaart maakt, wordt de sjabloon weergegeven op de pagina Vervagen. Voor meer informatie over het creëren van een kaart DITA, zie *Gebruikend Adobe Experience Manager Guides*.
 
 >[!TIP]
 >
-> Zie de *Aangepaste sjablonen* in de gids met aanbevolen werkwijzen voor tips en trucs voor het gebruik van aangepaste kaartsjablonen.
+> Zie de *sectie van de Malplaatjes van de Douane* in de Beste praktijken gids voor beste praktijken rond het gebruiken van de malplaatjes van de douanekaart.
 
-**Bovenliggend onderwerp:** [Onderwerp- en kaartsjablonen configureren](conf-template-tags.md)
+**Bovenliggend onderwerp:** [ vorm onderwerp en kaartmalplaatjes ](conf-template-tags.md)

@@ -14,14 +14,14 @@ ht-degree: 0%
 
 # Een koppeling maken tussen een onderwerp en een inhoudsfragment
 
-AEM Gidsen verstrekt de eigenschap om een op JSON-Gebaseerde afbeelding tussen een onderwerp en een model van het inhoudsfragment tot stand te brengen. U kunt deze toewijzing gebruiken om inhoud die in sommige of alle elementen binnen een onderwerp aanwezig is, naar een inhoudsfragment te publiceren.
+AEM Guides biedt de functie voor het maken van een JSON-toewijzing tussen een onderwerp en een inhoudsfragmentmodel. U kunt deze toewijzing gebruiken om inhoud die in sommige of alle elementen binnen een onderwerp aanwezig is, naar een inhoudsfragment te publiceren.
 
-1. Als u het dialoogvenster *contentFragmentMapping.json*, meldt u zich aan bij Adobe Experience Manager als beheerder.
-1. Selecteer de Adobe Experience Manager-koppeling bovenaan en kies **Gereedschappen**.
-1. Selecteer Hulplijnen in de lijst met gereedschappen en selecteer de optie **Mapprofielen**.
-1. Selecteer de **Globaal profiel** tegel.
-1. Selecteer de **XML Editor-configuratie** en selecteert u de **Bewerken** bovenaan.
-1. Selecteer de **Downloaden** pictogram om het *contentFragmentMapping.json*  op uw lokale systeem. Vervolgens kunt u wijzigingen in het bestand aanbrengen en het bestand vervolgens uploaden.
+1. Om *contentFragmentMapping.json* te downloaden, login in Adobe Experience Manager als beheerder.
+1. Selecteer de verbinding van Adobe Experience Manager bij de bovenkant en kies **Hulpmiddelen**.
+1. Selecteer Gidsen van de lijst van hulpmiddelen en selecteer de **Profielen van de Omslag**.
+1. Selecteer de **Globale tegel van het Profiel**.
+1. Selecteer het **lusje van de Configuratie van de Redacteur van XML** en selecteer **uitgeven** pictogram op de bovenkant.
+1. Selecteer het **pictogram van de Download** om het {*dossier 2} contentFragmentMapping.json op uw lokaal systeem te downloaden.* Vervolgens kunt u wijzigingen in het bestand aanbrengen en het bestand vervolgens uploaden.
 
 1. U moet de volgende validaties uitvoeren:
 
@@ -94,4 +94,4 @@ Voorbeeldbestand:
 ]
 ```
 
-U kunt het gehele onderwerp met de standaardafbeelding publiceren. Selecteer de `Full Topic` van de vervolgkeuzelijst in het dialoogvenster **Publiceren als inhoudsfragment** en heeft het veld topicData in het fragmentmodel van de inhoud.
+U kunt het gehele onderwerp met de standaardafbeelding publiceren. Selecteer de `Full Topic` afbeelding van dropdown in **Publish als de dialoogdoos van het Fragment van de Inhoud** en hebben &quot;topicData&quot;gebied in het model van het inhoudsfragment.

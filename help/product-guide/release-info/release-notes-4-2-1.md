@@ -1,6 +1,6 @@
 ---
-title: Opmerkingen bij de release | Upgradeinstructies en opgeloste problemen in Adobe Experience Manager Guides 4.2.1 release
-description: Meer informatie over de opgeloste problemen en hoe u een upgrade kunt uitvoeren naar 4.2.1-versies van Adobe Experience Manager-hulplijnen
+title: Opmerkingen bij de release | Upgradeinstructies en opgeloste problemen in Adobe Experience Manager Guides 4.2.1-versie
+description: Meer informatie over de opgeloste problemen en hoe u een upgrade uitvoert naar 4.2.1-releases van Adobe Experience Manager Guides
 exl-id: a75ec83f-564b-4243-b5c5-341049521adb
 feature: Release Notes
 role: Leader
@@ -11,40 +11,41 @@ ht-degree: 0%
 
 ---
 
-# 4.2.1 Release van Adobe Experience Manager Guides (mei 2023)
+# 4.2.1 release van Adobe Experience Manager Guides (mei 2023)
 
-In deze releasenotitie worden de instructies voor de upgrade, de compatibiliteitsmatrix en de problemen behandeld die zijn opgelost in versie 4.2.1 van de Adobe Experience Manager-hulplijnen (later genoemd als *Hulplijnen AEM*).
+Deze versienota behandelt de verbeteringsinstructies, verenigbaarheidsmatrijs, en kwesties die in versie 4.2.1 van Adobe Experience Manager Guides (later als *worden bedoeld AEM Guides*) worden bevestigd.
 
-Zie voor meer informatie over de nieuwe functies en verbeteringen [Nieuwe functies in 4.2.1-release van Adobe Experience Manager-hulplijnen](whats-new-4-2-1-release.md).
+Voor meer informatie over de nieuwe eigenschappen en de verhogingen, zie [ wat in versie 4.2.1 van Adobe Experience Manager Guides ](whats-new-4-2-1-release.md) nieuw is.
 
-## Upgrade naar versie 4.2.1 van AEM hulplijnen
+## Upgrade naar versie 4.2.1 van AEM Guides
 
 
-U kunt eenvoudig uw huidige versie van AEM hulplijnen upgraden naar versie 4.2.1 Voordat u verdergaat met de upgrade naar versie 4.2.1 van AEM hulplijnen, moet u rekening houden met de volgende punten: U kunt uw huidige versie van AEM hulplijnen upgraden naar versie 4.2.1
+U kunt uw huidige versie van AEM Guides eenvoudig upgraden naar versie 4.2.1 Voordat u verdergaat met de upgrade naar versie 4.2.1 van AEM Guides, moet u rekening houden met de volgende punten:
+U kunt uw huidige versie van AEM Guides upgraden naar versie 4.2.1
 * Als u versie 4.1, 4.1.x of 4.2 gebruikt, kunt u rechtstreeks upgraden naar versie 4.2.1.
 * Als u versie 4.0 gebruikt, moet u een upgrade naar versie 4.2 uitvoeren voordat u een upgrade naar versie 4.2.1 uitvoert.
 * Als u versie 3.8.5 gebruikt, moet u een upgrade naar versie 4.0 uitvoeren voordat u een upgrade naar versie 4.2 uitvoert.
-* Als u een versie hebt die ouder is dan 3.8.5, raadpleegt u de sectie Upgrade AEM hulplijnen in de productspecifieke installatiehandleiding.
+* Raadpleeg de sectie Upgrade AEM Guides in de productspecifieke installatiehandleiding als u werkt met een versie die ouder is dan 3.8.5.
 
 >[!NOTE]
 >
->U moet AEM de dienstpak installeren alvorens AEM versie van Gidsen te bevorderen.
+>U moet AEM servicepack installeren voordat u de AEM Guides-versie kunt upgraden.
 
-Zie voor meer informatie [Upgradeinstructies](../install-guide/upgrade-xml-documentation.md).
+Voor details, zie [ instructies van de Verbetering ](../install-guide/upgrade-xml-documentation.md).
 
 ## Compatibiliteitsmatrix
 
-Deze sectie bevat een overzicht van de compatibiliteitsmatrix voor de softwaretoepassingen die worden ondersteund door AEM hulplijnen 4.2. 1 release.
+Deze sectie bevat een overzicht van de compatibiliteitsmatrix voor de softwaretoepassingen die worden ondersteund door AEM Guides 4.2. 1 release.
 
 ### Adobe Experience Manager
 
-**Niet-UUID**
+**niet-UUID**
 Versie 6.5 Service Pack 15, 14, 13 of 12
 
 **UUID**
 Versie 6.5 Service Pack 15, 14, 13 of 12
 
-Zie voor meer informatie de *Technische voorschriften* in de handleiding Adobe Experience Manager-hulplijnen installeren en configureren.
+Voor meer details, zie de *Technische vereisten* sectie in installeer en vorm de gids van Adobe Experience Manager Guides.
 
 ### FrameMaker en FrameMaker Publishing Server
 
@@ -82,7 +83,7 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 * Browser (de Redacteur van het Web) bevriest bij het laden van inhoud met douaneschema. (1121)
 * Native PDF | Bij het maken van een uitvoervoorinstelling met de optie Toevoegen aan mapprofiel mislukt het genereren van de PDF met een Null-aanwijzer. 10950
 * Native PDF | Met de tag Afbeelding wordt het kenmerk display-inline toegevoegd aan alle afbeeldingen. 10653
-* Het invoegen van audio- en video-multimediabestanden mislukt in de YouTube-indeling onder de **Multimedia invoegen** pictogram. 11320
+* De toevoeging voor audio en videodossiers van verschillende media ontbreekt in het formaat van YouTube onder het **Multimedia van het Tussenvoegsel** pictogram. 11320
 * Validatiefout treedt op wanneer een kaart wordt gemaakt met behulp van de sjabloon met een speciaal titelelement. 11212
 * Webeditor | De vaste ruimte wordt toegevoegd in de Redacteur van XML terwijl het uitgeven van een onderwerp. (11786)
 
@@ -90,20 +91,20 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 
 * Het lusje van rapporten in de Redacteur UI van het Web toont niet de onderwerpenlijst van oude kaarten DITA die vóór 4.2 verbetering worden gecreeerd. (11708)
 
-* De functionaliteit van de knop Bestanden uploaden in het interface-einde voor middelen in versie 4.2. (11633)
+* De functionaliteit van de knop Bestanden uploaden in het gebruikersinterface-einde van Assets in versie 4.2. (11633)
 
 
 ### Publiceren
 
 * Native PDF | Het publiceren van inhoud die een outputklasse met steunen () heeft leidt tot een het publiceren bevriezing. (1936)
-* JSON-uitvoer | Metagegevens met hyperlinks die eigenschapswaarde hebben als `"value in spaces and double quotes"` leidt tot een publicatiefout. (1933)
+* JSON-uitvoer | Metagegevens met een eigenschap toewijzen die de waarde `"value in spaces and double quotes"` heeft, leiden tot een publicatiefout. (1933)
 * Het probleem doet zich voor in AEM zoekopdracht op de site (werkt niet meer dan 2-3 knooppunten op het niveau). 11352
 * Webeditor | Uitvoerpad en sjabloon kunnen niet worden geselecteerd in de AEM Voorinstelling. (11530)
 * Bij een upgrade van 4.1.x naar 4.2 werkt de Native PDF-engine niet en wordt zelfs voor het ondersteunde besturingssysteem NullPointerException gegenereerd.11526
 * Het proces van de PDF van de download werkt niet geschikt in de Redacteur van het Web. 11496
 * Native PDF | Conceptopmerkingen worden standaard verborgen in de gegenereerde uitvoer. 10560
 * Native PDF | navtitle wordt niet geëerd voor topichead . 10509
-* Native PDF | Toevoegen `xref` naar een afbeelding wordt de afbeelding niet op de gegenereerde PDF weergegeven. 11346
+* Native PDF | Als u `xref` toevoegt aan een afbeelding, wordt de afbeelding op de gegenereerde PDF niet weergegeven. 11346
 * Native PDF | voetnoot in de tabelkoptekst leidt tot vette en gecentreerde tekst in de bijbehorende voettekst op de pagina in de PDF-uitvoer. 10610
 
 ### Vertaling

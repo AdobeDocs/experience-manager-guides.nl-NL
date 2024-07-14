@@ -28,9 +28,9 @@ Voer de volgende stappen uit om uw aangepaste filteropties voor bestanden toe te
 
    `/apps/fmdita/xmleditor/ui_config.json`
 
-1. Navigeer naar de `ui_config.json` in het `apps` knooppunt voor bewerken.
+1. Navigeer naar het `ui_config.json` -bestand in het knooppunt `apps` en open het voor bewerking.
 
-1. In de `ui_config.json` voegt u de definitie toe van de filters die u wilt toevoegen.
+1. Voeg in het `ui_config.json` -bestand de definitie toe van de filters die u wilt toevoegen.
 
    In het volgende codefragment ziet u hoe u twee filteropties kunt toevoegen: DITA-bestanden en afbeeldingsbestanden.
 
@@ -57,13 +57,13 @@ Voer de volgende stappen uit om uw aangepaste filteropties voor bestanden toe te
 
    - **titel:**   De weergavenaam van het filter. Deze titel wordt weergegeven als filteroptie in het bladerdialoogvenster van het bestand.
 
-   - **eigenschap:**   De eigenschap die moet overeenkomen met de metagegevens van het bestand. Als u bijvoorbeeld alleen de bestanden wilt toestaan die de `dita_class` metagegevens in de eigenschap, neemt het eigenschapfilter &quot;`jcr:content/metadata/dita_class`&quot; als waarde.
+   - **bezit:**   De eigenschap die moet overeenkomen met de metagegevens van het bestand. Bijvoorbeeld, om slechts die dossiers toe te staan die `dita_class` meta-gegevens in hun bezit hebben, neemt de bezitsfilter &quot; `jcr:content/metadata/dita_class`&quot;als zijn waarde.
 
-   - **bewerking:**   Opgeven &quot;`exists`&quot; om overeen te komen met het bestaan van de waarde die is opgegeven in de parameter property.
+   - **verrichting:**   Specificeer &quot;`exists`&quot;om voor bestaan van de waarde aan te passen die in de bezitsparameter wordt gespecificeerd.
 
-   Het tweede filter is voor de Dossiers van het Beeld. De parameters zijn vergelijkbaar met het eerste filter, behalve `value` parameter. De `value` parameter neemt een array van afbeeldingstypen als waarde. Alle bestandstypen die in de parameter value zijn opgegeven, worden doorzocht en weergegeven in het bladerdialoogvenster. Alle andere bestandstypen worden genegeerd.
+   Het tweede filter is voor de Dossiers van het Beeld. De parameters zijn vergelijkbaar met het eerste filter, behalve de parameter `value` . De parameter `value` neemt een array van afbeeldingstypen als waarde. Alle bestandstypen die in de parameter value zijn opgegeven, worden doorzocht en weergegeven in het bladerdialoogvenster. Alle andere bestandstypen worden genegeerd.
 
-1. Sla de *ui\_config.json* bestand en laad de webeditor opnieuw.
+1. Sparen het {*dossier 0} ui\_config.json en laad de Redacteur van het Web opnieuw.*
 
    Wanneer u het bladerdialoogvenster start, worden de filteropties weergegeven die in het bestand ui\_config.json zijn geconfigureerd.
 

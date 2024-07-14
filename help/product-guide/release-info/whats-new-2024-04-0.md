@@ -1,7 +1,8 @@
 ---
-title: Opmerkingen bij de release | Nieuwe functies in de Adobe Experience Manager-hulplijnen, release 2024.4.0
-description: Leer de nieuwe en verbeterde functies in de 2024.4.0-release van Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
+title: Opmerkingen bij de release | Nieuwe functies in de Adobe Experience Manager Guides, release 2024.4.0
+description: Leer de nieuwe en verbeterde functies in de 2024.4.0 release van Adobe Experience Manager Guides as a Cloud Service.
+exl-id: e9db535a-5ad5-4ff0-94af-b4425594316a
+source-git-commit: 5d99274da8fdacbd255d426fa4913b5773ca45f8
 workflow-type: tm+mt
 source-wordcount: '1806'
 ht-degree: 0%
@@ -12,21 +13,21 @@ ht-degree: 0%
 
 Dit artikel behandelt de nieuwe en verbeterde functies van de release 2024.4.0 van Adobe Experience Manager Guides.
 
-Voor de lijst met problemen die in deze release zijn opgelost, raadpleegt u [Opgeloste problemen in de release 2024.4.0](fixed-issues-2024-04-0.md).
+Voor de lijst van kwesties die in deze versie worden bevestigd, mening [ Vaste kwesties in de versie 2024.4.0 ](fixed-issues-2024-04-0.md).
 
-Meer informatie over [instructies voor de upgrade van 2024.4.0](upgrade-instructions-2024-04-0.md).
+Leer over [ verbeteringsinstructies voor de versie 2024.4.0 ](upgrade-instructions-2024-04-0.md).
 
 ## Mogelijkheid om inhoud in meerdere talen te vertalen met behulp van vooraf geconfigureerde taalgroepen
 
-Met de hulplijnen voor Experience Managers kunt u nu taalgroepen maken en uw inhoud eenvoudig in meerdere talen vertalen. Met deze functie kunt u vertalingen volgens de behoeften van uw organisatie ordenen en beheren.
+Met Experience Manager Guides kunt u nu taalgroepen maken en uw inhoud eenvoudig in meerdere talen vertalen. Met deze functie kunt u vertalingen volgens de behoeften van uw organisatie ordenen en beheren.
 
 Als u bijvoorbeeld uw inhoud voor bepaalde landen in Europa wilt vertalen, kunt u een taalgroep voor Europese talen maken, zoals Engels (EN), Frans (FR), Duits (DE), Spaans (ES) en Italiaans (IT).
 
 
 
-![vertaaldeelvenster](assets/translation-languages-2404.png){width="300" align="left"}
+![ vertaalpaneel ](assets/translation-languages-2404.png){width="300" align="left"}
 
-*Selecteer de taalgroepen of talen die u uw documenten wilt vertalen.*
+*selecteer de taalgroepen of de talen u uw documenten wilt vertalen.*
 
 >[!NOTE]
 >
@@ -38,7 +39,7 @@ Als beheerder kunt u taalgroepen maken en deze configureren naar meerdere mappro
 Het maken van taalgroepen verbetert over het algemeen de efficiëntie en productiviteit van vertaalprojecten en verbetert uiteindelijk het lokalisatieproces in meerdere talen.
 
 
-Leer hoe u [documenten vertalen vanuit de webeditor](../user-guide/translate-documents-web-editor.md).
+Leer hoe te [ documenten van de Redacteur van het Web ](../user-guide/translate-documents-web-editor.md) vertalen.
 
 
 
@@ -53,26 +54,26 @@ U kunt de vertaalprojecten onbruikbaar maken als u hen later wilt gebruiken.
 ![](assets/editor-setting-translation.png){width="550" align="left"}
 
 
-*Vorm taalgroepen en de schoonmaakmontages voor vertaalprojecten.*
+*vormt taalgroepen en de schoonmaakmontages voor vertaalprojecten.*
 
 
-Meer informatie over hoe [het vertaalproject automatisch verwijderen of uitschakelen](../user-guide/translate-documents-web-editor.md#automatically-delete-or-disable-a-completed-translation-project).
+Leer meer over hoe te [ automatisch schrappen of het vertaalproject ](../user-guide/translate-documents-web-editor.md#automatically-delete-or-disable-a-completed-translation-project) onbruikbaar maken.
 
 
 ## De uitvoer voor uw kaarten in bulkactiveringsverzameling activeren op Voorvertoning-instantie
 
-Nu, naast het activeren van de output voor uw bulkactiveringsinzameling op het publicatiegeval, verstrekt de Gidsen van de Experience Manager als Cloud Servicen de eigenschap om het op te activeren **Voorvertoning** -instantie.
+Nu, naast het activeren van de output voor uw bulkactiveringsinzameling op publiceer instantie, verstrekt de Gidsen van de Experience Manager als Cloud Servicen de eigenschap om het op de **1} instantie van de Voorproef te activeren.**
 
 
-Met deze functie kunt u de inhoud activeren naar een voorvertoningsinstantie, zodat u kunt controleren hoe de inhoud eruitziet en werkt voordat u de inhoud activeert naar de **Publiceren** -instantie.
+Deze eigenschap helpt u uw inhoud aan een voorproefinstantie activeren, toestaand u om te controleren hoe het kijkt en werkt alvorens het aan de **Publish** instantie te activeren.
 
 
-![ gemaakt tabblad Geschiedenis van collectie voor bulkactivering](assets/bulk-collection-audit-history.png){width="800" align="left"}
+![ gecreeerde bulkactivering inzamelingsgeschiedenis tabel ](assets/bulk-collection-audit-history.png){width="800" align="left"}
 
-*Bekijk de informatie over de geactiveerde kaartuitvoer in het dialoogvenster **Controlegeschiedenis**tab.*
+*Mening de informatie over de geactiveerde kaartoutput in de **Geschiedenis van de Controle**tabel.*
 
 
-Meer informatie over  [bulkactivering](../user-guide/conf-bulk-activation-publish-map-collection.md).
+Leer meer over [ bulkactivering ](../user-guide/conf-bulk-activation-publish-map-collection.md).
 
 ## Verbeteringen in de gegevensbronconnectors
 
@@ -80,15 +81,15 @@ De volgende verbeteringen zijn aangebracht in de gegevensbronconnectors voor de 
 
 ### Verbind met Salsify, Akeneo, en Microsoft Azure DevOps Boards (ADO) gegevensbronnen
 
-Naast de bestaande out-of-the-box schakelaars, verstrekt de Gidsen van de Experience Manager ook schakelaars voor Salsify, Akeneo, en Microsoft Azure DevOps Boards (ADO) gegevensbronnen. Als beheerder kunt u deze connectors downloaden en installeren. Dan, vorm de geïnstalleerde schakelaars.
+Naast de bestaande out-of-the-box connectors biedt Experience Manager Guides ook connectors voor Salsify-, Akeneo- en Microsoft Azure DevOps Boards (ADO)-gegevensbronnen. Als beheerder kunt u deze connectors downloaden en installeren. Dan, vorm de geïnstalleerde schakelaars.
 
 ### Kopieer en plak de voorbeeldquery om een inhoudsfragment of onderwerp te maken
 
 U kunt een vraag van steekproefgegevens in de generator gemakkelijk kopiëren en kleven om een inhoudsfragment of een onderwerp tot stand te brengen. Met deze eigenschap, moet u niet de syntaxis herinneren of een vraag manueel creëren. In plaats van de vraag manueel te typen, kunt u een steekproefvraag kopiëren en kleven, het uitgeven, en het gebruiken om de gegevens volgens uw vereisten te halen.
 
-![inhoudfragment invoegen, dialoogvenster](assets/insert-content-snippet.png){width="800" align="left"}
+![ neem de dialoogdoos van het inhoudsfragment op ](assets/insert-content-snippet.png){width="800" align="left"}
 
-*Kopieer en bewerk een voorbeeldquery om het inhoudsfragment te maken.*
+*Exemplaar en geef een steekproefvraag uit om het inhoudsfragment tot stand te brengen.*
 
 ### Verbinding maken met JSON-gegevensbestanden via een bestandsconnector
 
@@ -103,38 +104,38 @@ Als beheerder, kunt u veelvoudige middel URLs voor sommige schakelaars zoals de 
 
 Dan, als auteur, verbind met de gegevensbronnen om inhoudsfragmenten of onderwerpen tot stand te brengen gebruikend de generators. Deze functie is handig omdat u geen gegevensbron hoeft te maken voor elke URL. Het helpt u om gegevens van om het even welke middelen voor een bepaalde gegevensbron in één enkel inhoudsfragment of onderwerp snel te halen.
 
-Meer details over de gegevensbronschakelaars en hoe te bekijken [vormt een gegevensbronschakelaar van het gebruikersinterface](../cs-install-guide/conf-data-source-connector-tools.md).
+Bekijk meer details over de gegevensbronschakelaars en hoe te [ een gegevensbronschakelaar van het gebruikersinterface ](../cs-install-guide/conf-data-source-connector-tools.md) vormen.
 
-Leer hoe u [gegevens uit uw gegevensbron gebruiken](../user-guide/web-editor-content-snippet.md).
+Leer hoe te [ gegevens van uw gegevensbron ](../user-guide/web-editor-content-snippet.md) gebruiken.
 
 ## Pas uw ervaring van de Redacteur van het Web met nieuwe UI van gebruikersvoorkeur aan
 
-De **Gebruikersvoorkeuren** bevat nu een nieuw dialoogvenster in de webeditor **Weergave** tab. Dit nieuwe lusje staat u toe om de gemeenschappelijkste blik-en-voelen voorkeur in de interface van de Redacteur van het Web gemakkelijk te vormen.
+Het **de dialoogvakje van de Voorkeur van de Gebruiker** in de Redacteur van het Web omvat nu een nieuwe **Verschijning** tabel. Dit nieuwe lusje staat u toe om de gemeenschappelijkste blik-en-voelen voorkeur in de interface van de Redacteur van het Web gemakkelijk te vormen.
 
 U kunt configureren om de bestanden op titel of bestandsnaam weer te geven en het thema van de toepassing en de bronweergave te wijzigen. Het helpt u ook de montages vormen om van een open dossier in de bewaarplaatmening de plaats te bepalen en de vaste ruimten te behandelen.
 
-![tabblad Weergave van gebruikersvoorkeuren](assets/user_preference_editor_appearance.png){width="550" align="left"}
+![ vormgevingslusje van gebruikersvoorkeur ](assets/user_preference_editor_appearance.png){width="550" align="left"}
 
-*Pas de weergave aan volgens uw voorkeuren.*
+*pas de verschijning volgens uw voorkeur aan.*
 
-Meer informatie over de **Gebruikersvoorkeuren** functiebeschrijving in het dialoogvenster [Linkerdeelvenster](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.
+Leer meer over de **eigenschapbeschrijving van de voorkeur van de Gebruiker** {in de [ Linkerpaneel ](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.
 
 ## Een geopend bestand zoeken in de dataweergave van de webeditor
 
-Selecteer de **Bestanden altijd zoeken in de opslagplaats** in de **Gebruikersvoorkeuren** om snel door het bestand te navigeren en het te zoeken in de weergave in de repository. Je hoeft er niet handmatig naar te zoeken.
+Selecteer **altijd van dossiers in de bewaarplaats** optie in de **Voorkeur van de Gebruiker** de plaats bepalen om van uw dossier in de bewaarplaats snel te navigeren en de plaats te bepalen. Je hoeft er niet handmatig naar te zoeken.
 
 Met deze functie kunt u tijdens het bewerken de locatie van het bestand gemakkelijk weergeven in de hiërarchie van opslagruimten.
 
-Voor meer informatie, bekijkt u [een geopend bestand zoeken in de dataweergave](../user-guide/web-editor-edit-topics.md#locate-an-open-file-in-the-repository-view).
+Voor meer details, bepaal de plaats van mening [ van een open dossier in de bewaarnemermening ](../user-guide/web-editor-edit-topics.md#locate-an-open-file-in-the-repository-view).
 
 
 ## Verbeterde verwerking van vaste spaties in de webeditor
 
-Met de hulplijnen voor Experience Managers kunt u een vaste-spatie-indicator weergeven terwijl u documenten bewerkt in de webeditor. Het verbetert ook de behandeling van vaste ruimten.
+Met Experience Manager Guides kunt u een vaste-spatie-indicator weergeven tijdens het bewerken van documenten in de webeditor. Het verbetert ook de behandeling van vaste ruimten.
 Het zet veelvoudige opeenvolgende witte ruimten in één enkele ruimte om om de mening WYSIWYG van het document in de Redacteur van het Web te bewaren. Deze functie draagt ook bij tot een betere algemene vormgeving en professionaliteit van het document.
 
 
-Voor meer informatie bekijkt u de [andere functies van de webeditor](../user-guide/web-editor-other-features.md).
+Voor meer details, bekijk de [ andere eigenschappen van de Redacteur van het Web ](../user-guide/web-editor-other-features.md).
 
 
 
@@ -144,83 +145,82 @@ Voor meer informatie bekijkt u de [andere functies van de webeditor](../user-gui
 
 Als beheerder kunt u de nabewerking en het genereren van UUID&#39;s voor selectieve mappen op Experience Manager Assets nu uitschakelen. Deze configuratie kan handig zijn, vooral wanneer u werkt met veel elementen of complexe mapstructuren. Bovendien kunnen meerdere gebruikers de elementen snel tegelijk uploaden zonder elkaar te storen.  
 
-Als naverwerking voor een map wordt uitgeschakeld, heeft dit ook invloed op alle onderliggende mappen. Met de hulplijnen voor Experience Managers kunt u nu echter selectief naverwerken inschakelen voor afzonderlijke onderliggende mappen in de genegeerde map.
+Als naverwerking voor een map wordt uitgeschakeld, heeft dit ook invloed op alle onderliggende mappen. Experience Manager Guides biedt nu echter de mogelijkheid om nabewerking selectief in te schakelen voor afzonderlijke onderliggende mappen in de genegeerde map.
 
-Leer hoe u [naverwerking voor een map uitschakelen](../cs-install-guide/conf-folder-post-processing.md).
+Leer hoe te [ postprocessing voor een omslag ](../cs-install-guide/conf-folder-post-processing.md) onbruikbaar maken.
 
 ## Nieuwe ervaring voor het zoeken en filteren van bestanden in de dataweergave
 
 Nu hebt u een verbeterde ervaring bij het filteren van bestanden. De vernieuwde functionaliteit voor het filteren van bestanden biedt een verbeterde manier om bestanden moeiteloos te doorzoeken en door te bladeren.
 
 
-![zoekbestanden in de dataweergave](assets/repository-filter-search-2404.png){width="300" align="left"}
+![ onderzoeksdossiers in bewaarplaatmening ](assets/repository-filter-search-2404.png){width="300" align="left"}
 
-*Zoeken naar de bestanden met de tekst`general purpose.`*
+*Onderzoek naar de dossiers die de tekst bevatten`general purpose.`*
 
 Geniet van voordelen zoals snellere toegang tot relevante bestanden en een intuïtievere gebruikersinterface, waardoor uw zoekervaring vloeiender en efficiënter wordt.
 
-![snelzoekfilter ](assets/repository-filter-search-quick.png) {width="300" align="left"}
+![ snel zoekfilter ](assets/repository-filter-search-quick.png) {width="300" align="left"}
 
-*Gebruik de snelle filters om naar DITA en niet-DITA dossiers te zoeken.*
+*gebruik de snelle filters om naar DITA en niet-DITA dossiers te zoeken.*
 
-Meer informatie over de **Filter Zoeken** in de [Linkerdeelvenster](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.
+Leer meer over de **eigenschap van het Onderzoek van de Filter** in de [ Linkerpaneel ](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.
 
 ## Gesegregeerde lijst om geldige elementen weer te geven en in te voegen volgens hun positie
 
 Terwijl het uitgeven van een document in de Redacteur van het Web, kunt u een gescheiden lijst van elementen nu bekijken die bij de huidige plaats en buiten de huidige plaats geldig zijn. Op basis van uw vereisten kiest u een element uit de volgende opties:
 
-* **Geldige elementen op de huidige locatie** die u kunt invoegen op de huidige cursorlocatie zelf.
-* **Geldige elementen buiten de huidige locatie** die u na om het even welke ouders voor het huidige element binnen de elementenhiërarchie kunt opnemen.
+* **Geldige elementen bij de huidige plaats** die u bij de huidige cursorplaats zelf kunt opnemen.
+* **Geldige elementen buiten de huidige plaats** die u na om het even welke ouders voor het huidige element binnen de elementenhiërarchie kunt opnemen.
 
-![Dialoogvenster Element invoegen](assets/insert-element-dialog.png){width="300" align="left"}
+![ het elementendialoog van het Tussenvoegsel ](assets/insert-element-dialog.png){width="300" align="left"}
 
-*Bekijk de gescheiden lijsten met geldige elementen om een element in te voegen op de huidige locatie.*
+*Mening de gescheiden lijsten van geldige elementen om een element bij de huidige plaats op te nemen.*
 
 
 Deze gesplitste lijst met geldige elementen helpt u de inhoudsstructuur te behouden en de DITA-standaarden te volgen.
 
-Meer informatie over de **Element invoegen** in de [Secundaire werkbalk](../user-guide/web-editor-features.md#2051ea0j0y4) sectie.
+Leer meer over de **eigenschap van het Element van het Tussenvoegsel** in de [ Secundaire toolbar ](../user-guide/web-editor-features.md#2051ea0j0y4) sectie.
 
 
 ## Inhoudseigenschappen Type wordt weergegeven als een vervolgkeuzemenu
 
-De eigenschappen van de inhoud **Type** wordt weergegeven als een vervolgkeuzemenu. In het vervolgkeuzemenu kunt u de tags van de volledige hiërarchie voor de huidige tag weergeven en selecteren.
+Nu, verschijnt het Type van Eigenschappen van de Inhoud **** als dropdown menu. In het vervolgkeuzemenu kunt u de tags van de volledige hiërarchie voor de huidige tag weergeven en selecteren.
 
 Met dit vervolgkeuzemenu hebt u snel toegang tot de relevante tags binnen de hiërarchische structuur.
 
 
-![vervolgkeuzemenu tekst in eigenschappen van inhoud](assets/content-properties-type.png){width="300" align="left"}
+![ type dropdown menu in inhoudseigenschappen ](assets/content-properties-type.png){width="300" align="left"}
 
-*Selecteer een tag in de hiërarchie voor de huidige tag.*
+*selecteer een markering van de hiërarchie voor de huidige markering.*
 
-Meer informatie over de **Eigenschappen van inhoud** in de [Rechterdeelvenster](../user-guide/web-editor-features.md#id2051eb003yk) sectie.
+Leer meer over de **eigenschap van de Eigenschappen van de Inhoud** in de [ Juiste 3} sectie van het Comité.](../user-guide/web-editor-features.md#id2051eb003yk)
 
 
 
 ## Verbeterde prestaties tijdens het bulksgewijs controleren van bestanden in de Kaarteditor
 
-De Gidsen van de Experience Manager verbetert de prestaties en de ervaring van de bulkdossiers controlefunctie van de Redacteur van de Kaart. Deze verbetering helpt u de dossiers in bulk sneller controleren.
-U kunt ook de voortgang van het inchecken van de bestanden bekijken via de **Opslaan als nieuwe versie en ontgrendelen** in. Tot slot verschijnt het succesbericht nadat de bewerking is voltooid en zijn alle geselecteerde uitgecheckte bestanden ingecheckt.
+Experience Manager Guides verbetert de prestaties en ervaring van de functie Inchecken van grote bestanden in de Kaarteditor. Deze verbetering helpt u de dossiers in bulk sneller controleren.
+U kunt de vooruitgang van de controle-binnen verrichting voor de dossiers van **ook bekijken sparen als Nieuwe Versie en ontgrendelen** dialoogdoos. Tot slot verschijnt het succesbericht nadat de bewerking is voltooid en zijn alle geselecteerde uitgecheckte bestanden ingecheckt.
 
-![Opslaan als nieuwe versie en dialoogvenster Ontgrendelen](./assets/save-version-lock.png){width="300" align="left"}
+![ sparen als nieuwe versie en open dialoogdoos ](./assets/save-version-lock.png){width="300" align="left"}
 
-*De lijst en status weergeven van de bestanden die in grote hoeveelheden zijn gecontroleerd in de Kaarteditor.*
+*Mening de lijst en de status van de dossiers die in bulk van de Redacteur van de Kaart worden gecontroleerd.*
 
-Leer hoe u [werken met de Geavanceerde Kaarteditor](../user-guide/map-editor-advanced-map-editor.md)
+Leer hoe te [ werken met de Geavanceerde Redacteur van de Kaart ](../user-guide/map-editor-advanced-map-editor.md)
 
 ## Download het tijdelijke bestand terwijl u de uitvoer genereert via DITA-OT
 
 U kunt de tijdelijke bestanden ook downloaden die zijn gegenereerd wanneer u de uitvoer van de AEM Site, HTML, Aangepast, JSON of PDF publiceert via DITA-OT. Met deze functie kunt u eventuele problemen analyseren die zich tijdens het genereren van de uitvoer kunnen voordoen en effectief problemen oplossen.  
 U kunt het bestand metadata.xml ook downloaden als u eigenschappen van metagegevens hebt geselecteerd die zijn doorgegeven aan de uitvoer die is gegenereerd met DITA-OT. 
 
-Voor meer informatie over de voorinstellingen raadpleegt u [Uitvoervoorinstellingen](../user-guide/generate-output-understand-presets.md).
+Voor meer details over vooraf instelt, mening [ Begrijpend de output stelt ](../user-guide/generate-output-understand-presets.md) vooraf in.
 
 
 ## IMS JWT-referenties vervangen door IMS OAuth-referenties voor op microservice gebaseerde publicaties
 
 
-De JWT-gegevens (Service Account) zijn vervangen door de **OAuth Server-to-Server** referenties. Uw toepassingen die gebruikmaken van de JWT-referenties (Service Account) werken niet meer na 1 januari 2025. U moet vóór 1 januari 2025 naar de nieuwe referentie migreren om ervoor te zorgen dat uw toepassing blijft werken.
+De geloofsbrieven van de Rekening van de Dienst (JWT) zijn afgekeurd ten gunste van de **Server-aan-Server** geloofsbrieven. Uw toepassingen die gebruikmaken van de JWT-referenties (Service Account) werken niet meer na 1 januari 2025. U moet vóór 1 januari 2025 naar de nieuwe referentie migreren om ervoor te zorgen dat uw toepassing blijft werken.
 
 
-De service voor het publiceren van wolken voor hulplijnen voor Experience Managers wordt nu beveiligd door verificatie op basis van een handleiding van Adobe IMS. Leer hoe u [op microservice gebaseerde publicaties configureren met OAuth-verificatie](../knowledge-base/publishing/configure-microservices-imt-config.md).
-
+De service voor publicatie in de cloud voor Experience Manager Guides wordt nu beveiligd door verificatie op basis van Adobe IMS OAuth. Leer hoe te [ op microservice-gebaseerde het publiceren met authentificatie OAuth ](../knowledge-base/publishing/configure-microservices-imt-config.md) vormen.

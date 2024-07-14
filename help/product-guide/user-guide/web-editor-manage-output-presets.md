@@ -1,6 +1,6 @@
 ---
 title: Uitvoervoorinstellingen voor Algemeen en Mapprofiel beheren
-description: Leer hoe u voorinstellingen voor algemene profielen en mapprofielen als gebruikers met beheerdersrechten maakt, bewerkt, hernoemt, dupliceert en verwijdert in AEM hulplijnen.
+description: Leer hoe u voorinstellingen voor algemene profielen en mapprofielen als gebruikers met beheerdersrechten in AEM Guides maakt, bewerkt, hernoemt, dupliceert en verwijdert.
 exl-id: 549c9fe2-77f8-423c-8b3e-b43e56055732
 feature: Authoring, Features of Web Editor, Publishing
 role: User
@@ -15,42 +15,42 @@ ht-degree: 0%
 
 De voorinstellingen voor Algemeen en Mapprofiel zijn alleen beschikbaar voor gebruikers met beheerdersrechten op mapniveau.
 
-Als beheerder kunt u met AEM hulplijnen uitvoervoorinstellingen voor de algemene profielen en de mapprofielen maken en beheren. Vervolgens kunt u deze uitvoervoorinstellingen eenvoudig gebruiken om uitvoer te genereren voor alle mappen die betrekking hebben op dat algemene profiel of mapprofiel.
+Als beheerder kunt u met AEM Guides uitvoervoorinstellingen voor de algemene profielen en de mapprofielen maken en beheren. Vervolgens kunt u deze uitvoervoorinstellingen eenvoudig gebruiken om uitvoer te genereren voor alle mappen die betrekking hebben op dat algemene profiel of mapprofiel.
 
 Voer de volgende stappen uit om een uitvoervoorinstelling voor de algemene profielen en mapprofielen te maken:
 
 1. Selecteer de DITA-kaart waarvoor u een uitvoervoorinstelling wilt maken.
-1. Selecteer de **Onderwerpen bewerken** van de **Opties** menu van het kaartbestand. Het kaartdossier wordt geopend voor het uitgeven in de Redacteur van het Web.
-1. In de **Uitvoer** selecteert u het plus-pictogram (+) om een uitvoervoorinstelling voor uw DITA-kaart te maken.
+1. Selecteer **uitgeven Onderwerpen** optie van **Opties** menu van het kaartdossier. Het kaartdossier wordt geopend voor het uitgeven in de Redacteur van het Web.
+1. In het **lusje van de Output**, selecteer + pictogram om tot een output vooraf ingesteld voor uw kaart te leiden DITA.
 
    ![](images/add-global-output-preset.png){width="350" align="left"}
 
-1. Voer de volgende gegevens in het dialoogvenster **Voorinstelling toevoegen** dialoogvenster:
+1. Ga de volgende details in **in vooraf ingestelde** dialoog toevoegen:
    - Type
    - Naam
    - Doel \(voor voorinstelling voor kennisdatabase\)
-1. Selecteer de **Toevoegen aan mapprofiel** Schakel het selectievakje in om een uitvoervoorinstelling voor het gerelateerde mapprofiel te maken en klik vervolgens op **Toevoegen**. De voorinstelling wordt gemaakt en wordt weergegeven onder de **Uitvoer** tabblad van alle gerelateerde kaarten. \( ![](images/global-preset-icon.svg)\) geeft een voorinstelling voor een mapprofielniveau aan.
-1. Voer de configuratiedetails in. Voor meer informatie over uitvoervoorinstellingen raadpleegt u [Uitvoervoorinstellingen](./generate-output-understand-presets.md).
+1. Selecteer **toevoegen aan omslagprofiel** controledoos om een output tot stand te brengen die voor het verwante omslagprofiel vooraf wordt ingesteld en dan **klikken voegt** toe. Vooraf ingesteld wordt gecreeerd, en het verschijnt onder het **lusje van de Output** van alle verwante kaarten. \( ![](images/global-preset-icon.svg)\)-pictogram geeft een voorinstelling voor het mapprofielniveau aan.
+1. Voer de configuratiedetails in. Voor meer details op output stelt vooraf in, mening [ Begrijpend de output vooraf in ](./generate-output-understand-presets.md).
 
    >[!NOTE]
    >
    > Deze voorinstellingen die aan het mappenprofiel worden toegevoegd, zijn onafhankelijk van de kaarten. De mapspecifieke configuraties zijn dus niet aanwezig voor deze voorinstellingen.
 
-1. U kunt de **Voorinstelling genereren** bovenaan om de uitvoer te genereren voor de toewijzingen die betrekking hebben op de gemaakte uitvoervoorinstelling. De status van het productieproces van de uitvoer wordt weergegeven. Als u de uitvoer wilt weergeven, plaatst u de muisaanwijzer boven het onderwerp en klikt u op **Uitvoer weergeven**.
+1. U kunt **selecteren produceert vooraf ingesteld** pictogram bij de bovenkant om de output voor de kaarten met betrekking tot de gecreeerde vooraf ingestelde output te produceren. De status van het productieproces van de uitvoer wordt weergegeven. Om de output te bekijken, houd de muiswijzer over het onderwerp en klik **Uitvoer van de Mening**.
 
 >[!NOTE]
 >
-> AEM de Gidsen verstrekt ook een uit-van-doos PDF vooraf ingestelde output om de output voor uw kaarten te produceren DITA.
+> AEM Guides beschikt ook over een voorinstelling voor PDF-uitvoer buiten de doos om de uitvoer voor uw DITA-kaarten te genereren.
 
-**Overige bewerkingen in het menu Opties**
+**Andere verrichtingen van het menu van Opties**
 
 U kunt ook de volgende bewerkingen uitvoeren op de voorinstelling via het menu Opties:
 
-- Selecteer de voorinstelling als standaard-PDF-voorinstelling. Vervolgens wordt de geselecteerde voorinstelling gebruikt als de standaardvoorinstelling om de PDF-uitvoer te genereren met de opdracht **Downloaden als PDF** voor een kaart.
-- **Bewerken**, **Naam wijzigen**, **Dupliceren**, of **Verwijderen** een bestaande uitvoervoorinstelling van de **Opties** -menu.
+- Selecteer de voorinstelling als standaard-PDF-voorinstelling. Dan zou geselecteerde vooraf ingesteld als gebrek worden gebruikt vooraf ingesteld om de output van de PDF te produceren gebruikend de **Download als PDF** optie voor een kaart.
+- **geeft** uit, **anders noemt**, **dupliceert**, of **schrapt** een bestaande output vooraf ingesteld van het **menu van Opties**.
 
 >[!NOTE]
 >
-> Wanneer een uitvoervoorinstelling in algemene profielen en mapprofielen wordt verwijderd, wordt deze weergegeven in alle verwante mappen en wordt de voorinstelling niet weergegeven onder de **Uitvoer** tab.
+> Wanneer een output vooraf ingesteld in Globale en Profielen van de Omslag wordt geschrapt, zal het in alle verwante kaarten weerspiegelen en zal niet onder de **Output** tabel verschijnen.
 
-**Bovenliggend onderwerp:**[ Werken met de webeditor](web-editor.md)
+**Bovenliggend onderwerp:**[ Werk met de Redacteur van het Web ](web-editor.md)

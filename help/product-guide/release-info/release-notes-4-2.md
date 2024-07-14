@@ -1,6 +1,6 @@
 ---
-title: Opmerkingen bij de release | Adobe Experience Manager Guides 4.2 release
-description: Meer informatie over de opgeloste problemen en hoe u een upgrade uitvoert naar 4.2-versies van Adobe Experience Manager-hulplijnen
+title: Opmerkingen bij de release | Adobe Experience Manager Guides 4.2-release
+description: Meer informatie over de opgeloste problemen en hoe u een upgrade uitvoert naar 4.2-releases van Adobe Experience Manager Guides
 exl-id: 8a7fef77-63af-462f-89c5-054ab31e079b
 feature: Release Notes
 role: Leader
@@ -11,38 +11,38 @@ ht-degree: 0%
 
 ---
 
-# 4.2 Vrijgave van Adobe Experience Manager-hulplijnen (februari 2023)
+# 4.2. Release van Adobe Experience Manager Guides (februari 2023)
 
-In deze releasenotitie worden de instructies voor de upgrade, de compatibiliteitsmatrix en de problemen behandeld die zijn opgelost in versie 4.2 van de Adobe Experience Manager-hulplijnen (later *Hulplijnen AEM*).
+Deze versienota behandelt de verbeteringsinstructies, verenigbaarheidsmatrijs, en kwesties die in versie 4.2 van Adobe Experience Manager Guides (later als *worden bedoeld AEM Guides*) worden bevestigd.
 
-Zie voor meer informatie over de nieuwe functies en verbeteringen [Nieuwe functies in 4.2-release van Adobe Experience Manager-hulplijnen](whats-new-4-2-release.md).
+Voor meer informatie over de nieuwe eigenschappen en de verhogingen, zie [ wat in versie 4.2 van Adobe Experience Manager Guides ](whats-new-4-2-release.md) nieuw is.
 
-## Upgrade naar versie 4.2 van AEM hulplijnen
+## Upgrade naar versie 4.2 van AEM Guides
 
-U kunt eenvoudig uw huidige versie van AEM hulplijnen upgraden naar versie 4.2. Voordat u verdergaat met de upgrade naar versie 4.2 van AEM hulplijnen, moet u rekening houden met de volgende punten:
+U kunt uw huidige versie van AEM Guides eenvoudig upgraden naar versie 4.2. Voordat u verdergaat met de upgrade naar versie 4.2 van AEM Guides, moet u rekening houden met de volgende punten:
 * Als u versie 4.0, 4.1 of 4.1.x gebruikt, kunt u rechtstreeks upgraden naar versie 4.2.
 * Als u versie 3.8.5 gebruikt, moet u een upgrade naar versie 4.0 uitvoeren voordat u een upgrade naar versie 4.2 uitvoert.
-* Als u een versie gebruikt die ouder is dan 3.8.5, raadpleegt u de *Upgrade uitvoeren AEM hulplijnen* in de productspecifieke installatiehandleiding.
+* Als u op een versie voorafgaand aan 3.8.5 bent, verwijs naar de *sectie van de Verbetering AEM Guides* in de product-specifieke installatiegids.
 
 >[!NOTE]
 >
->U moet AEM de dienstpak installeren alvorens AEM versie van Gidsen te bevorderen.
+>U moet AEM servicepack installeren voordat u de AEM Guides-versie kunt upgraden.
 
-Zie voor meer informatie [Upgradeinstructies](assets/Adobe-Experience-Manager-Guides-Upgrade-Instructions-EN.pdf).
+Voor details, zie [ instructies van de Verbetering ](assets/Adobe-Experience-Manager-Guides-Upgrade-Instructions-EN.pdf).
 
 ## Compatibiliteitsmatrix
 
-In deze sectie wordt een overzicht gegeven van de compatibiliteitsmatrix voor de softwaretoepassingen die worden ondersteund door AEM Guide 4.2.
+In deze sectie wordt een overzicht gegeven van de compatibiliteitsmatrix voor de softwaretoepassingen die worden ondersteund door de AEM Guides 4.2-release.
 
 ### Adobe Experience Manager
 
-**Niet-UUID**
+**niet-UUID**
 Versie 6.5 Service Pack 15, 14, 13 of 12
 
 **UUID**
 Versie 6.5 Service Pack 15, 14, 13 of 12
 
-Zie voor meer informatie de *Technische voorschriften* in de handleiding Adobe Experience Manager-hulplijnen installeren en configureren.
+Voor meer details, zie de *Technische vereisten* sectie in installeer en vorm de gids van Adobe Experience Manager Guides.
 
 ### FrameMaker en FrameMaker Publishing Server
 
@@ -69,20 +69,20 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 ### Authoring
 
 * Het linkerpaneel breekt bij het toevoegen van een lusje. (1126)
-* Wijzigingen in de webeditor veroorzaken problemen met `<dl>` en `<dlentry>`. (1024)
+* Wijzigingen in de HTML van de webeditor veroorzaken problemen met `<dl>` en `<dlentry>` . (1024)
 * Sommige kenmerken worden niet behandeld als voorwaardelijk en veroorzaken problemen. 10895
-* Drie niveaus of meer genest `<indexterm>` niet genest zijn in native PDF-export. (10799)
-* De inhoud verdwijnt in de hoofdtekst van een taak bij het schakelen van Auteur naar Bronweergave. 10735
+* Drie niveaus of meer geneste `<indexterm>` zijn niet genest in native PDF-export. (10799)
+* De inhoud verdwijnt in de hoofdtekst van een taak bij het schakelen van de weergave Auteur naar de weergave Source. 10735
 * Opmerkingen voor revisies worden verkeerd geplaatst in een revisietaak. 10625
-* `<conref>` Opmerking in een para-tag wordt niet weergegeven in de voorvertoningsmodus. (10559)
+* `<conref>` -notitie in een para-tag wordt niet weergegeven in de voorvertoningsmodus. (10559)
 * Als u de backspace aan het einde van een lijstitem aanpast, wordt de hele lijst verwijderd. 10540
-* Het scherm wordt als leeg weergegeven in Chrome v106 bij het slepen en neerzetten op een element uit de gebruikersinterface (bijvoorbeeld vanuit het deelvenster Voorwaarden). 10524
-* De knop Automatisch inspringen ontbreekt op de werkbalk van het dialoogvenster **Bron** weergeven. (10448)
+* Het scherm wordt als leeg weergegeven in Chrome v106 bij het slepen en neerzetten van een element vanuit de gebruikersinterface (bijvoorbeeld vanuit het deelvenster Voorwaarden). 10524
+* De auto knoop van de Inspringing mist van de toolbar in de **** mening van Source. (10448)
 * Het eerste teken van een lijstitem gaat soms verloren wanneer de lijst in de editor wordt geschreven.(10447)
-* **Ongedaan maken** of **Opnieuw** werkt niet correct bij sommige bestanden. 10373
+* **ongedaan maken** of **opnieuw** werkt niet correct aan sommige dossiers. 10373
 * Aangepaste metagegevens blijven niet behouden bij kopiëren en plakken. 10367
 * Er treedt een fout op bij het kopiëren (ctrl+c) en plakken (ctrl+v) van inhoud. 10304
-* In het deelvenster Omtrek wordt geen inhoud weergegeven wanneer van de modus Auteur naar bron wordt geschakeld. 10296
+* In het deelvenster Omtrek wordt geen inhoud weergegeven wanneer van de modus Auteur naar de modus Source wordt geschakeld. 10296
 * Submap wordt niet gecreeerd wanneer het naar een hoofdkaart in Malplaatjes DITA verwijst. 10231
 * De kwesties van de navigatie komen in de Redacteur van het Web na 4.0 verbetering voor. 10159
 * Met de optie Ongedaan maken in de XML-editor komt de gebruiker boven aan de pagina. 10091
@@ -95,10 +95,10 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 * Geen optie om een nieuw malplaatje op subfolders van onderwerpen of kaarten te creëren. (9888)
 * De redacteur van XML werkt niet de beelden op onderwerpen bij. 9500
 * mimeType is hardcoded voor DITA activa verwezenlijking en update. 8979
-* Bij het selecteren van Vast afbreekstreepje in het dialoogvenster wordt een normaal afbreekstreepje ingevoegd **Speciaal teken invoegen** in. 8919
-* De naam van de maker van de versie in Versiehistorie is &quot;fmdita-servicegebruiker&quot; voor de bestanden die via de interface Elementen zijn geüpload. 8910
-* De optie Bewerken werkt niet voor afbeeldingen wanneer u werkt in de interface Kolomweergave van elementen. 8758
-* DITA-onderwerp wordt niet automatisch bijgewerkt met wijzigingen die zijn aangebracht op **Eigenschappen** pagina. 8745
+* Een normaal afbreekstreepje wordt opgenomen bij het selecteren van Vast afbreekstreepje in het **Speciale Teken van het Tussenvoegsel** dialoog. 8919
+* De naam van de maker van de versie in Versiehistorie is &quot;fmdita-servicegebruiker&quot; voor de bestanden die zijn geüpload via de gebruikersinterface van Assets. 8910
+* De optie Bewerken werkt niet voor afbeeldingen wanneer u werkt in de kolomweergave van de gebruikersinterface van Assets. 8758
+* Het onderwerp DITA wordt niet auto bijgewerkt met veranderingen die op **worden gedaan Eigenschappen** pagina. 8745
 * Terwijl het bewegen van elementen binnen het onderwerp in de Redacteur van het Web, toegewezen IDs op elementen wordt overschreven door auto-toegewezen IDs. 7895
 
 ### Beheer
@@ -108,7 +108,7 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 * Web Editor-basislijn | Het gedrag van de Meest recente kolom is verschillend in het nieuwe basislijndashboard binnen de Redacteur van het Web. 10808
 * Vertaling | De vertaaltaak wordt niet gestart vanwege ongeldige /libs/fmdita/i18n/ja.json. 10543
 * Vertaling | Er is een fout opgetreden in een bereikvertaalproject dat is gemaakt op het vertaaldashboard (Menselijke vertaling). 10526
-* Vertaling | Nabewerking wordt geblokkeerd voor de gehele taalmap waarvan de middelen aanwezig zijn in een actief vertaalproject. (1032)
+* Vertaling | Post-verwerking wordt geblokkeerd voor de gehele taalmap waarvan de middelen aanwezig zijn in een actief vertaalproject. (1032)
 * Vertaling| Metagegevens en tags worden niet doorgegeven aan de vertaalde kopieën. 4696
 * Er worden meerdere pop-ups weergegeven voor elk element als de versie wordt gewijzigd en opgeslagen in de basislijneditor. 10399
 * De lekkage van de zitting komt bij com.day.cq.search.impl.builder.QueryBuilderImpl.createResourceResolver (QueryBuilderImpl.java:210) voor. 10279
@@ -126,7 +126,7 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 * Native PDF | Er treden problemen op bij het roteren van de tabelkop. (10555)
 * Native PDF | De kwesties komen bij het verwijderen van onderwerpen voor die verwerkingsrol=&#39;middel-slechts&#39; hebben. (10554)
 * Native PDF | Lege toetsaanslagen worden weergegeven in PDF-uitvoer. (10553)
-* Native PDF | Genest `<indexterm>` niet genest zijn in native PDF-export. 10521
+* Native PDF | Geneste `<indexterm>` zijn niet genest bij native PDF-export. 10521
 * Native PDF | Native PDF gebruikt inline stijl in plaats van klassenaam voor de gegenereerde tags. 10498
 * Native PDF | Geneste topicref in aanhangsels wordt allen omgezet aan h1 in tijdelijke HTML.(10454)
 * Native PDF | Kan de onderwerpen frontMatrix niet verbergen in de inhoudsopgave. 10355
@@ -144,6 +144,6 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 
 ## Bekend probleem
 
-Adobe heeft het volgende bekende probleem voor AEM versie van Hulplijnen 4.2 geïdentificeerd:
+Adobe heeft het volgende bekende probleem voor AEM Guides 4.2-release geïdentificeerd:
 
 * Gebruikers kunnen revisiebewerkingen zelfs uitvoeren nadat de revisietaak is voltooid.

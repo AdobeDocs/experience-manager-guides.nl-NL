@@ -5,8 +5,8 @@ source-wordcount: '15'
 ht-degree: 0%
 
 ---
-# Zuurstofinsteekmodule voor Adobe Experience Manager-hulplijnen
+# Zuurstofinsteekmodule voor Adobe Experience Manager Guides
 
 - [Disclaimer](rebranding-disclaimer.md)
-- [Zuurstofinsteekmodule voor Adobe Experience Manager-hulplijnen](use-aem-connector.md)
+- [Zuurstofinsteekmodule voor Adobe Experience Manager Guides](use-aem-connector.md)
 

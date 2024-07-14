@@ -21,7 +21,7 @@ controllers:
    - Deelvenster Favorieten: `collection_tree_controller`
    - Referentiekoppelingen voor bestandseigenschappen: `file_references_links_controller`
    - Zoekdeelvenster voor opslagplaats: `repository_search_controller`
-   - Deelvenster Onderwerp: `subject_scheme_tree_controller`
+   - Deelvenster Onderwerpschema: `subject_scheme_tree_controller`
 
 - `folder_options`
 controllers:
@@ -46,7 +46,7 @@ controllers:
 
 U kunt ook uw eigen contextmenu maken door een nieuwe unieke id te definiëren.
 
-Nu heeft elk contextmenu een `controller id` ermee geassocieerd. Deze controller handelt de `on-event` functionaliteit voor de verschillende contextmenuopties
+Aan elk contextmenu is nu een `controller id` gekoppeld. Deze controller handelt de functionaliteit `on-event` voor de verschillende opties in contextmenu&#39;s af
 
 Laten we een voorbeeld nemen om te begrijpen
 
@@ -119,6 +119,6 @@ const fileOptions = {
 Laten we nu begrijpen wat deze code doet.
 
 1. `id` wordt gebruikt om het contextmenu te identificeren dat wij willen aanpassen.
-2. `contextMenuWidget` wordt gebruikt om de `widget id` of de `component` dat het contextmenu aanroept en het `events`.
+2. `contextMenuWidget` wordt gebruikt om de `widget id` of `component` te definiëren die het contextmenu aanroept en de `events` afhandelt.
 
-De rest blijft hetzelfde, waarbij `view` wordt gebruikt om de items te definiëren; `target` geeft aan waar de optie moet worden vervangen, waaraan de optie moet worden toegevoegd of waaraan de optie moet worden toegevoegd, en `contextMenuWidget` bedieningspaneel handelt de `on-click` gebeurtenissen.
+De rest blijft hetzelfde, waarbij `view` wordt gebruikt om de items te definiëren, `target` aangeeft waar de optie moet worden vervangen, toegevoegd of toegevoegd en de `contextMenuWidget` -controller de `on-click` -gebeurtenissen afhandelt.

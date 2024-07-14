@@ -1,6 +1,6 @@
 ---
-title: Verwijderen AEM hulplijnen
-description: Leer hoe u AEM hulplijnen kunt verwijderen
+title: AEM Guides verwijderen
+description: Leer hoe u AEM Guides kunt verwijderen
 exl-id: 6c6b9692-cdec-426f-bc3b-f09d0091da39
 feature: Installation
 role: Admin
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 ---
 
-# Verwijderen AEM hulplijnen {#id21BHG0C0SXA}
+# AEM Guides verwijderen {#id21BHG0C0SXA}
 
-U kunt AEM hulplijnen verwijderen met behulp van CRX Package Manager. Tijdens het verwijderen wordt de inhoud van de opslagplaats teruggezet naar de momentopname die vlak voor de installatie van het pakket is gemaakt.
+U kunt AEM Guides verwijderen met CRX Package Manager. Tijdens het verwijderen wordt de inhoud van de opslagplaats teruggezet naar de momentopname die vlak voor de installatie van het pakket is gemaakt.
 
-Voer de volgende stappen uit om AEM hulplijnen te verwijderen:
+Voer de volgende stappen uit om AEM Guides te verwijderen:
 
-1. Meld u aan bij de AEM en navigeer naar de CRX Package Manager. De standaard-URL voor toegang tot pakketbeheer is:
+1. Meld u aan bij uw AEM en navigeer naar CRX Package Manager. De standaard-URL voor toegang tot pakketbeheer is:
 
    ```http
    http://<server name>:<port>/crx/packmgr/index.jsp
@@ -26,9 +26,9 @@ Voer de volgende stappen uit om AEM hulplijnen te verwijderen:
 
 1. Zoek naar het pakket com.adobe.fmdita.
 1. Klik op het pakket om het uit te vouwen.
-1. Klikken **Meer** om de vervolgkeuzelijst te openen.
-1. Klikken **Verwijderen** en wacht tot het verwijderen is voltooid.
-1. Als u dit pakket niet meer nodig hebt, klikt u op **Verwijderen** na het verwijderen van het pakket.
+1. Klik **Meer** om dropdown te openen.
+1. Klik **desinstalleer** en wacht op uninstall om te voltooien.
+1. Als u dit pakket niet meer nodig hebt, klik **Schrapping** na het verwijderen van het pakket.
 
 ## Na verwijderen
 
@@ -46,7 +46,7 @@ Voer de volgende stappen uit om de resterende bestanden op te schonen nadat u de
    http://<host>:<port>/libs/granite/ui/content/dumplibs.rebuild.html?back=true
    ```
 
-1. Klikken **Cache ongeldig maken**.
+1. Klik **ongeldig het Geheime voorgeheugen**.
 1. Maak de cache van de browser leeg.
 
-**Bovenliggend onderwerp:**[ Downloaden en installeren](download-install.md)
+**Bovenliggend onderwerp:**[ Download en installeer ](download-install.md)

@@ -1,38 +1,38 @@
 ---
-title: Opmerkingen bij de release | Upgradeinstructies voor de release van Adobe Experience Manager Guides 4.3.1.5
-description: Leer hoe u een upgrade uitvoert naar versie 4.3.1.5 van de Adobe Experience Manager-hulplijnen
+title: Opmerkingen bij de release | Upgradeinstructies voor Adobe Experience Manager Guides 4.3.1.5-versie
+description: Leer hoe u een upgrade uitvoert naar versie 4.3.1.5 van Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 296bbea301df8828c00436db2b3c8b46dd235e64
+exl-id: 856970ef-9f50-4452-b589-ba1f5ee73322
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 0%
 
 ---
 
-
 # Upgrade-instructies voor de 4.3.1.5-release
 
-In dit artikel worden de upgrade-instructies en de compatibiliteitsmatrix voor de release van Adobe Experience Manager-hulplijnen in versie 4.3.1.5 besproken.
+Dit artikel behandelt de upgrade-instructies en de compatibiliteitsmatrix voor de release van Adobe Experience Manager Guides 4.3.1.5.
 
 
-Voor de lijst met problemen die in deze release zijn opgelost, raadpleegt u [4.3.1.5. Opgeloste problemen](../release-info/fixed-issues-4-3-1-5.md).
+Voor de lijst van kwesties die in deze versie zijn bevestigd, mening [ Vaste kwesties in de 4.3.1.5 versie ](../release-info/fixed-issues-4-3-1-5.md).
 
 
 
 
 ## Compatibiliteitsmatrix
 
-In deze sectie wordt een overzicht gegeven van de compatibiliteitsmatrix voor de softwaretoepassingen die worden ondersteund door de release van Experience Manager Guides 4.3.1.5.
+In deze sectie wordt een overzicht gegeven van de compatibiliteitsmatrix voor de softwaretoepassingen die worden ondersteund door de Experience Manager Guides 4.3.1.5-release.
 
 ### Adobe Experience Manager
 
-**4.3.1.5 Niet-UUID**
+**4.3.1.5 niet-UUID**
 Versie 6.5 Service Pack 18, 17, 16, 15, 14
 
 **4.3.1.5 UUID**
 Versie 6.5 Service Pack 18, 17, 16, 15, 14
 
-Voor meer informatie bekijkt u de *Technische voorschriften* in de installatie- en configuratiehandleiding op locatie.
+Voor meer details, bekijk de *Technische vereisten* sectie in de Gids van de Installatie en van de Configuratie op locatie.
 
 ### FrameMaker en FrameMaker Publishing Server
 
@@ -58,14 +58,14 @@ Voor meer informatie bekijkt u de *Technische voorschriften* in de installatie- 
 
 | Naam van componentenpakket | Versie van componenten | Sjabloonversie |
 |---|---|---|
-| Experience Manager Guides Components Content Package for Cloud Service | dxml-components.all-1.2.2 | aem-site-template-dxml.all-1.0.15 |
+| Experience Manager Guides Components Content Package voor Cloud Service | dxml-components.all-1.2.2 | aem-site-template-dxml.all-1.0.15 |
 
 
 
-## Upgrade naar 4.3.1.5 release van Experience Manager Guides
+## Upgrade naar versie 4.3.1.5 van Experience Manager Guides
 
 
-U kunt uw huidige versie van Hulplijnen eenvoudig upgraden naar versie 4.3.1.5. Voordat u verdergaat met het upgraden naar versie 4.3.1.5 van de Hulplijnen voor Experience Managers, moet u rekening houden met de volgende punten:
+U kunt uw huidige versie van Hulplijnen eenvoudig upgraden naar versie 4.3.1.5. Voordat u verdergaat met de upgrade naar versie 4.3.1.5 van Experience Manager Guides, moet u rekening houden met de volgende punten:
 
 
 - Als u versie 4.3.1 of 4.3.1.x gebruikt, kunt u rechtstreeks upgraden naar versie 4.3.1.5.
@@ -76,13 +76,12 @@ U kunt uw huidige versie van Hulplijnen eenvoudig upgraden naar versie 4.3.1.5. 
 
 - Als u versie 4.0 gebruikt, moet u een upgrade naar versie 4.2 uitvoeren voordat u een upgrade naar versie 4.3.x uitvoert.
 - Als u versie 3.8.5 gebruikt, moet u een upgrade naar versie 4.0 uitvoeren voordat u een upgrade naar versie 4.2 uitvoert.
-- Als u een versie gebruikt die ouder is dan 3.8.5, raadpleegt u de sectie met instructies voor upgrades van Experience Manager in de productspecifieke installatiegids die beschikbaar is op [Adobe Experience Manager Guides Help PDF archief](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
+- Als u op een versie voorafgaand aan 3.8.5 bent, verwijs naar de sectie van Experience Manager Guides van de Verbetering in de product-specifieke installatiegids beschikbaar op [ Adobe Experience Manager Guides help PDF archive ](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 
 
 >[!NOTE]
 >
->U moet AEM de dienstpak installeren alvorens de versie van de Gidsen van de Experience Manager te bevorderen.
+>U moet AEM servicepack installeren voordat u de Experience Manager Guides-versie kunt upgraden.
 
-Zie voor meer informatie [Upgradeinstructies voor de On-premise releases](../install-guide/upgrade-xml-documentation.md) van Experience Manager Guides.
-
+Voor details, mening [ de instructies van de Verbetering voor de On-premise versies ](../install-guide/upgrade-xml-documentation.md) van Experience Manager Guides.

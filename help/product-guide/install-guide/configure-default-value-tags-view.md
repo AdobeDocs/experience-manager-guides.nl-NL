@@ -14,15 +14,15 @@ ht-degree: 0%
 
 # Standaardwaarde voor de weergave Codes configureren {#id223GN0M0NDC}
 
-AEM de Gidsen staat u toe om de standaardstaat voor de Mening van Markeringen in de Redacteur van het Web te vormen, die u helpt om de Mening van Markeringen voor de zitting van een nieuwe gebruiker te houden of weg door gebrek. Voer de volgende stappen uit om de standaardwaarde voor de Mening van Markeringen te vormen:
+AEM Guides staat u toe om de standaardstaat voor de Mening van Markeringen in de Redacteur van het Web te vormen, die u helpt om de Mening van Markeringen voor de zitting van een nieuwe gebruiker te houden of weg door gebrek. Voer de volgende stappen uit om de standaardwaarde voor de Mening van Markeringen te vormen:
 
 1. Download het UI-configuratiebestand door u als beheerder aan te melden bij Adobe Experience Manager.
-1. Klik op de Adobe Experience Manager-koppeling bovenaan en kies **Gereedschappen**.
-1. Selecteren **Hulplijnen** in de lijst met gereedschappen en klik op de knop **Mapprofielen**.
-1. Klik op de knop **Globaal profiel** tegel.
-1. Selecteer de **XML Editor-configuratie** en klik op de knop **Bewerken** bovenaan.
-1. In de **UI-configuratie XML-editor** klikt u op de **Downloaden** pictogram om het `ui_config.json` op uw lokale systeem.
-1. In de `ui_config.json` bestand, wijzigt u de weergavestatus van de standaardlabels door de sectie defaultValues als volgt te wijzigen:
+1. Klik op de verbinding van Adobe Experience Manager bij de bovenkant en kies **Hulpmiddelen**.
+1. Selecteer **Gidsen** van de lijst van hulpmiddelen en klik de **Profielen van de Omslag**.
+1. Klik op de **Globale tegel van het Profiel**.
+1. Selecteer het **lusje van de Configuratie van de Redacteur van XML** en klik **uitgeven** pictogram op de bovenkant.
+1. In de **UI van de Redacteur van XML configuratie** sectie, klik het **3} pictogram van de Download {om het `ui_config.json` dossier op uw lokaal systeem te downloaden.**
+1. Wijzig in het bestand `ui_config.json` de weergavestatus van de standaardlabels door de sectie defaultValues (zie hieronder) te wijzigen:
 
    ```json
    "defaultValues":
@@ -37,4 +37,4 @@ AEM de Gidsen staat u toe om de standaardstaat voor de Mening van Markeringen in
 >
 > De voorkeur van de gebruiker in de Redacteur van het Web om de Mening van Markeringen toe te laten/onbruikbaar te maken heeft belangrijkheid over deze standaardwaarde. Zo, als een gebruiker de Mening van Markeringen van de Redacteur van het Web toelaat, blijft het toegelaten zelfs over de zittingen.
 
-**Bovenliggend onderwerp:**[ Webeditor aanpassen](conf-web-editor.md)
+**Bovenliggend onderwerp:**[ pas de Redacteur van het Web ](conf-web-editor.md) aan

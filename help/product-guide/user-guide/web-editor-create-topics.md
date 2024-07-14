@@ -1,6 +1,6 @@
 ---
 title: Onderwerpen maken
-description: Leer om types van onderwerpen te creëren DITA gebruikend douanesjablonen in de Webredacteur van AEM Gidsen.
+description: Leer om types van onderwerpen te creëren DITA gebruikend douanesjablonen in de Webredacteur van AEM Guides.
 exl-id: 84e9cfdf-e188-487f-9181-68708029c101
 feature: Authoring
 role: User
@@ -13,43 +13,43 @@ ht-degree: 0%
 
 # Onderwerpen maken {#id2056AL00O5Z}
 
-AEM de Gidsen staat u toe om DITA onderwerpen van type - onderwerp, taak, concept, verwijzing, verklarende woordenlijst, DITAVAL, en meer tot stand te brengen. Naast het creëren van onderwerpen die op de uit-van-de-doos malplaatjes worden gebaseerd, kunt u uw douanesjablonen ook bepalen. Deze sjablonen moeten aan het mapprofiel worden toegevoegd om weer te geven in de sjabloonselectie, de blauwdruk en de webeditor.
+AEM Guides staat u toe om DITA onderwerpen van type - onderwerp, taak, concept, verwijzing, verklarende woordenlijst, DITAVAL, en meer te creëren. Naast het creëren van onderwerpen die op de uit-van-de-doos malplaatjes worden gebaseerd, kunt u uw douanesjablonen ook bepalen. Deze sjablonen moeten aan het mapprofiel worden toegevoegd om weer te geven in de sjabloonselectie, de blauwdruk en de webeditor.
 
-De configuratie van het algemene profiel en het mapprofiel is alleen beschikbaar voor gebruikers met beheerdersrechten op mapniveau. Voor meer informatie over het instellen van algemene profielen en mapprofielen raadpleegt u *Ontwerpsjablonen configureren* in Adobe Experience Manager-hulplijnen installeren en configureren voor uw installatie.
+De configuratie van het algemene profiel en het mapprofiel is alleen beschikbaar voor gebruikers met beheerdersrechten op mapniveau. Voor de details bij vestiging globale en omslag-vlakke profielen, zie *creatieve malplaatjes* in installeren en vormen Adobe Experience Manager Guides voor uw opstelling configureren.
 
 Voer de volgende stappen uit om een onderwerp tot stand te brengen:
 
-1. In Elementen UI, navigeer aan de plaats waar u het onderwerp wilt tot stand brengen.
+1. In Assets UI, navigeer aan de plaats waar u het onderwerp wilt tot stand brengen.
 
-1. Als u een nieuw onderwerp wilt maken, klikt u **Maken** \> **DITA-onderwerp**.
+1. Om een nieuw onderwerp tot stand te brengen, creeer **** \> **Onderwerp DITA**.
 
-1. Selecteer op de pagina Vervagen het type DITA-document dat u wilt maken en klik op **Volgende**.
+1. Voor de pagina van de Vervaging, selecteer het type van document DITA u **daarna** tot stand brengen en wilt klikken.
 
    ![](images/create_dita_topic.png){width="800" align="left"}
 
-   Door gebrek, verstrekt AEM Gidsen de het meest algemeen gebruikte DITA onderwerpmalplaatjes. U kunt meer onderwerpmalplaatjes volgens uw organisatorische vereisten vormen, zie *Ontwerpsjablonen configureren* in Adobe Experience Manager-hulplijnen installeren en configureren voor uw installatie.
+   Door gebrek, verstrekt AEM Guides de meest algemeen gebruikte DITA onderwerpmalplaatjes. U kunt meer onderwerpmalplaatjes zoals per uw organisatorische vereisten vormen, zie *creatieve malplaatjes* in installeren en Adobe Experience Manager Guides voor uw opstelling vormen.
 
    >[!NOTE]
    >
-   > In de lijstmening van Activa UI, wordt het DITA onderwerptype getoond in de kolom van het Type als Onderwerp, Taak, Concept, Verwijzing, Verklarende vermelding, of DITAVAL. De kaart DITA wordt getoond als Kaart.
+   > In de lijstmening van Assets UI, wordt het DITA onderwerptype getoond in de kolom van het Type als Onderwerp, Taak, Concept, Verwijzing, Verklarende vermelding, of DITAVAL. De kaart DITA wordt getoond als Kaart.
 
-1. Geef op de pagina Eigenschappen het document op **Titel**.
+1. Voor de pagina van Eigenschappen, specificeer het document **Titel**.
 
-1. \(Optioneel\) Geef het bestand op **Naam**.
+1. \ (Facultatief \) specificeer het dossier **Naam**.
 
    Als uw beheerder automatische bestandsnaam heeft geconfigureerd op basis van de UUID-instelling, ziet u geen optie om de bestandsnaam op te geven. Er wordt automatisch een op UUID gebaseerde bestandsnaam toegewezen aan het bestand.
 
-   Als de optie voor het benoemen van bestanden beschikbaar is, wordt ook de naam automatisch voorgesteld op basis van de optie **Titel** van uw document. Als u de documentnaam handmatig wilt opgeven, moet u ervoor zorgen dat de **Naam** bevat geen spaties, apostrof of accolades en eindigt met .xml of .dita. Standaard vervangt AEM hulplijnen alle speciale tekens door koppeltekens. Raadpleeg de sectie Bestandsnamen in de handleiding met aanbevolen procedures voor tips en trucs voor het benoemen van DITA-bestanden.
+   Als het dossier het noemen optie beschikbaar is, dan ook wordt de naam automatisch voorgesteld gebaseerd op de **Titel** van uw document. Als u de documentnaam wilt manueel specificeren, dan ervoor zorgen dat de **Naam** geen ruimten, apostrof, of steunen en beëindigt met .xml of.dita bevat. Standaard vervangt AEM Guides alle speciale tekens door afbreekstreepjes. Raadpleeg de sectie Bestandsnamen in de handleiding met aanbevolen procedures voor tips en trucs voor het benoemen van DITA-bestanden.
 
-1. Klikken **Maken**. Het bericht Gemaakt onderwerp wordt weergegeven.
+1. Klik **creëren**. Het bericht Gemaakt onderwerp wordt weergegeven.
 
    U kunt verkiezen om het onderwerp voor het uitgeven in de Redacteur van het Web, of sparen het onderwerpdossier in de AEM bewaarplaats te openen.
 
-   Elk nieuw onderwerp dat u van Elementen UI creeert **Maken** \> **DITA-onderwerp** of de Redacteur van het Web wordt toegewezen een unieke onderwerpidentiteitskaart De waarde van deze id is de bestandsnaam zelf. Bovendien wordt een nieuw document opgeslagen als de meest recente werkkopie van het onderwerp in DAM. Totdat u een revisie van een pas gecreeerd onderwerp opslaat, zult u geen versieaantal in de Geschiedenis van de Versie zien. Als u het onderwerp voor het uitgeven opent, wordt de versieinformatie getoond in de juiste hoogste hoek van het onderwerpdossier tabel:
+   Elk nieuw onderwerp dat u van Assets UI **creeert** \> **Onderwerp DITA** of de Redacteur van het Web wordt toegewezen een unieke onderwerpidentiteitskaart De waarde van deze id is de bestandsnaam zelf. Bovendien wordt een nieuw document opgeslagen als de meest recente werkkopie van het onderwerp in DAM. Totdat u een revisie van een pas gecreeerd onderwerp opslaat, zult u geen versieaantal in de Geschiedenis van de Versie zien. Als u het onderwerp voor het uitgeven opent, wordt de versieinformatie getoond in de juiste hoogste hoek van het onderwerpdossier tabel:
 
    ![](images/topic-version-none_cs.png){width="550" align="left"}
 
-   De versieinformatie voor een nieuw gecreeerd onderwerp wordt getoond zoals *none*. Wanneer u een nieuwe versie opslaat, krijgt deze een versienummer toegewezen als 1.0. Voor meer informatie over het opslaan van een nieuwe versie raadpleegt u [Opslaan als nieuwe versie](web-editor-features.md#save-as-new-version-id209ME400GXA).
+   De versieinformatie voor een pas gecreeerd onderwerp wordt getoond als *niets*. Wanneer u een nieuwe versie opslaat, krijgt deze een versienummer toegewezen als 1.0. Voor meer informatie over het bewaren van een nieuwe versie, zie [ sparen als Nieuwe Versie ](web-editor-features.md#save-as-new-version-id209ME400GXA).
 
 
 >[!NOTE]
@@ -60,4 +60,4 @@ Voer de volgende stappen uit om een onderwerp tot stand te brengen:
 >
 > Zodra u uw onderwerp DITA hebt gecreeerd, houd sparen de veranderingen in uw het werk exemplaar en creeer een nieuwe versie zodra u de updates aan uw onderwerp hebt voltooid.
 
-**Bovenliggend onderwerp:**[ Onderwerpen maken en voorvertonen](create-preview-topics.md)
+**Bovenliggend onderwerp:**[ creeer en voorproef onderwerpen ](create-preview-topics.md)

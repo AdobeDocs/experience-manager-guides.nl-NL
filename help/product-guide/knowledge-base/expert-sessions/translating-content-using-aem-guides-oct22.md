@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Inhoud vertalen
 
-AEM hulplijnen bieden de ultieme oplossing voor het maken van meertalige content met robuuste vertaalmogelijkheden.
+AEM Guides biedt de ultieme oplossing voor het maken van meertalige content met robuuste vertaalmogelijkheden.
 
 ## Overzicht van sessie
 
@@ -25,10 +25,10 @@ In deze sessie leert u meer over het vertaalproces, het integratiemechanisme en 
 
 ## Hooglichten
 
-- **Datum** - 27 oktober 2022
-- **Aantal deelnemers** - 94
+- **Datum** - 27 oktober, 2022
+- **Aantal aanwezigen** - 94
 - **Duur** - 60 minuten
-- **Publiek** - Klanten, partners en Adoben
+- **Publiek** - Klanten, partners, en de werknemers van de Adobe
 
 ## Toetsen
 
@@ -40,18 +40,18 @@ In deze sessie leert u over het volgende:
 
 ## Gerelateerde bronnen
 
-- **Functievideo&#39;s** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
+- {de video&#39;s van de Eigenschap 0} **- [ Experience League ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)**
 
-- **Handboek** - [Inhoud vertalen](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Ftranslation.html)
+- **Gids van de Gebruiker** - [ vertaal inhoud ](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Ftranslation.html)
 
-- **Forum van de Gemeenschap** - Voor sessiespecifieke community-interacties over Experience League gaat u naar [Forum met AEM hulplijnen](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)
+- **Communautair Forum** - voor zitting-specifieke communautaire interactie over Experience League, bezoek [ het Forum van AEM Guides ](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)
 
 >[!NOTE]
 >
-> De functies die in deze sessie worden weergegeven, zijn beschikbaar in de volgende versies van AEM hulplijnen:
+> De functies die in deze sessie worden getoond, zijn beschikbaar in de volgende versies van AEM Guides:
 > - On-prem 4.1 of hoger
 > - Cloud Servicen 2207 of hoger
 
 ## Contact opnemen
 
-Stuur ons voor alle vragen een e-mail op <techcomm@adobe.com>
+Stuur ons een e-mail op <techcomm@adobe.com> voor alle vragen

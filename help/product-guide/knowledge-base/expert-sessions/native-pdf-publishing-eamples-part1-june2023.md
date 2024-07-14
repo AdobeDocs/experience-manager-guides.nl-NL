@@ -1,6 +1,6 @@
 ---
 title: Native PDF publiceren - Leren met voorbeelden (deel 1)
-description: Met de Native PDF-publiceerengine kunt u de inhoudslay-out van het document bepalen en de gewenste secties naar wens manipuleren met behulp van eenvoudig bij te werken CSS, HTML en JavaScript.
+description: Met de Native PDF-publiceerengine kunt u de inhoudslay-out van het document bepalen en zo nodig de gewenste secties manipuleren met behulp van CSS, HTML en JavaScript die u eenvoudig kunt bijwerken.
 exl-id: ddaf4e83-9958-42c5-b172-4c9f8e923910
 feature: Native PDF Output
 role: User, Admin
@@ -25,10 +25,10 @@ In deze sessie leert u met behulp van enkele voorbeelden hoe u functies van Nati
 
 ## Hooglichten
 
-- **Datum** - 1 juni 2023
-- **Aantal deelnemers** - 82
+- **Datum** - 1 Juni, 2023
+- **Aantal aanwezigen** - 82
 - **Duur** - 60 minuten
-- **Publiek** - Klanten, partners en Adoben
+- **Publiek** - Klanten, partners, en de werknemers van de Adobe
 
 ## Toetsen
 
@@ -42,25 +42,25 @@ In deze sessie hebt u het volgende geleerd voor het publiceren van Native PDF:
 
 ## Gerelateerde bronnen
 
-- **Instellingstappen van native PDF** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.html?lang=en)
+- **Inheemse de opstellingsstappen van PDF** - [ Experience League ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.html?lang=en)
 
-- **Functioneel overzicht van publicaties van Native PDF** - [over Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23.html?lang=en)
+- **Functioneel overzicht van het Native PDF publiceren** - [ op Experience League ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23.html?lang=en)
 
-- **Gedocumenteerde gevallen van veelvuldig gebruik** - [over Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/content-styles/stylesheet.html?lang=en)
+- **Gedocumenteerde gemeenschappelijke gebruiksgevallen** - [ op Experience League ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/content-styles/stylesheet.html?lang=en)
 
-- **Forum van de Gemeenschap** - Voor sessiespecifieke community-interacties over Experience League gaat u naar  [Forum met AEM hulplijnen](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Communautair Forum** - voor zitting-specifieke communautaire interactie over Experience League, bezoek [ het Forum van AEM Guides ](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
-> De functies die in deze sessie worden weergegeven, zijn beschikbaar in de volgende versies van AEM hulplijnen:
+> De functies die in deze sessie worden getoond, zijn beschikbaar in de volgende versies van AEM Guides:
 > - On-prem 4.2 of hoger
 > - Cloud Servicen 2303 en hoger
 
 ## Volgende sessie met experts
 
-- **Onderwerp** - Native PDF publishing &quot;Hands on lab - BYOS&quot; - Interactief leren
-- **Gepland op** - 7 september 2023
+- **Onderwerp** - de inheemse PDF die &quot;Handen op laboratorium - BYOS publiceren&quot; - Interactief leren
+- **Gepland op** - September 07, 2023
 
 ## Contact opnemen
 
-Stuur ons voor alle vragen een e-mail op <techcomm@adobe.com>
+Stuur ons een e-mail op <techcomm@adobe.com> voor alle vragen

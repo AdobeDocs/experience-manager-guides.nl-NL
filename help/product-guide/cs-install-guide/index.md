@@ -5,14 +5,14 @@ source-wordcount: '227'
 ht-degree: 0%
 
 ---
-# As a Cloud Service Adobe Experience Manager-hulplijnen installeren en configureren
+# Adobe Experience Manager Guides as a Cloud Service installeren en configureren
 
 - [Disclaimer](rebranding-disclaimer.md)
 - [Over deze handleiding](introduction.md)
 - [Downloaden en installeren](download-install.md)
-   - [De module AEM hulplijnen gebruiken](download-install-dxml-first-time.md)
+   - [AEM Guides-module implementeren](download-install-dxml-first-time.md)
    - [Dispatcher configureren](download-install-configure-dispatcher.md)
-   - [De installatie van AEM hulplijnen controleren](download-install-verify-dxml-installation.md)
+   - [AEM Guides-installatie verifiëren](download-install-verify-dxml-installation.md)
    - [Configuratieoverschrijvingen](download-install-additional-config-override.md)
    - [Recommendations for performance optimization](download-install-recommend-perf-optimiz.md)
 - [Beheer en beveiliging van gebruikers](user-admin-sec.md)
@@ -39,7 +39,7 @@ ht-degree: 0%
    - [Vraag configureren om een bestand bij sluiten in te checken](conf-checkin-file-close.md)
    - [Toegestane speciale tekens configureren](conf-special-chars.md)
    - [Element-id&#39;s automatisch genereren](auto-generate-ids.md)
-   - [Standaardwoordenboek AEM aanpassen](customize-aem-custom-dictionary.md)
+   - [AEM standaardwoordenboek aanpassen](customize-aem-custom-dictionary.md)
    - [Tekstfilters configureren](config-text-filters.md)
    - [Filters configureren voor het dialoogvenster Bladeren](conf-custom-file-filters.md)
    - [Pakketten installeren voor publiceren op basis van artikel](configure-article-based-publishing.md)

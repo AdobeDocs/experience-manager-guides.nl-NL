@@ -16,8 +16,8 @@ ht-degree: 0%
 
 Voer de volgende stappen uit om een aangepast paneel binnen het linkerpaneel van de Redacteur van het Web toe te voegen:
 
-1. Een *clientlib* en voeg uw JavaScript- en CSS-bestand toe aan deze map.
-1. Werk het categoriebezit van bij *clientlib* door deze toe te wijzen aan de waarde van *apps.fmdita.xml\_editor.page\_overrides*.
+1. Creeer a *clientlib* omslag en voeg uw JavaScript en CSS dossier in deze omslag toe.
+1. Werk het categoriereigenschap van de *clientlib* omslag bij door het de waarde van *apps.fmdita.xml \_editor.page\_overrides* toe te wijzen.
 
 Voorbeeldcode voor het configureren van een aangepast deelvenster:
 
@@ -58,4 +58,4 @@ tcx.ready(function () { //Ready will call the callback after editor code is set 
 });
 ```
 
-**Bovenliggend onderwerp:**[ Webeditor aanpassen](conf-web-editor.md)
+**Bovenliggend onderwerp:**[ pas de Redacteur van het Web ](conf-web-editor.md) aan

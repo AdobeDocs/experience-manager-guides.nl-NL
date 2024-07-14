@@ -18,11 +18,11 @@ Met de volgende Java-API kunt u CRX-pakketten maken en activeren. Deze API is be
 
 Details bundel:
 
-- Groep-id: **com.adobe.fmdita**
+- Identiteitskaart van de groep: **com.adobe.fmdita**
 
-- Artefact-id: **api**
+- Artefactidentiteitskaart: **api**
 
-- Versie: **3,3**
+- Versie: **3.3**
 
 - Pakket: **com.adobe.fmdita.api.crxactivate**
 
@@ -32,15 +32,15 @@ Details bundel:
   public class CRXActivator
   ```
 
-  De **`CRXActivator`** klasse bevat een methode voor het maken van CRX-pakketten en het repliceren ervan in de publicatieinstantie.
+  De **`CRXActivator`** -klasse bevat een methode voor het maken van CRX-pakketten en het repliceren ervan op de publicatie-instantie.
 
 
 ## Pakketten maken en activeren
 
-De `activate` wordt een CRX-pakket gemaakt voor de instantie van de auteur en wordt zo nodig in de instantie publish gerepliceerd. Men veronderstelt dat de AEM replicatieparameters reeds opstelling op de auteursinstantie zijn geweest. Met deze methode wordt het CRX-pakket gemaakt op basis van een lijst met regels die als invoerparameters in een JSON-tekenreeks worden opgegeven.
+De methode `activate` maakt een CRX-pakket op de instantie van de auteur en repliceert dit, indien nodig, op de instantie publish. Men veronderstelt dat de AEM replicatieparameters reeds opstelling op de auteursinstantie zijn geweest. Met deze methode wordt het CRX-pakket gemaakt op basis van een lijst met regels die als invoerparameters in een JSON-tekenreeks worden opgegeven.
 >[!NOTE]
 >
-> Fouten die tijdens het maken of activeren zijn aangetroffen, worden naar het `outputstream`.
+> Fouten tijdens het maken of activeren worden naar de `outputstream` geschreven.
 
 ### Voorbeeld met twee parameters
 
@@ -70,17 +70,24 @@ public static void activate
 throws GuidesApiException
 ```
 
-**Parameters**: |Naam|Type|Omschrijving| |—|—|—| |`json`|String|JSON-tekenreeks die het te bouwen CRX-pakket bepaalt. Gebruik de volgende indeling om de JSON-tekenreeks te maken: <br>- `activate`: Is van het type Boolean \(`true`/`false`\). Bepaalt of het CRX-pakket dat in de auteurinstantie is gemaakt, wordt gerepliceerd naar de publicatie-instantie. <br> - `rules`: is van het type JSON Array. Een array met JSON-regels, die opeenvolgend worden verwerkt om het CRX-pakket samen te stellen. <br> - `rootPath`: Is van het type String. Het basispad waarop de query&#39;s voor het knooppunt/de eigenschap worden uitgevoerd. Als er geen knooppunten/eigenschapquery&#39;s aanwezig zijn, worden het hoofdpad en alle knooppunten die zich onder het hoofdpad bevinden opgenomen in het CRX-pakket. <br> - `nodeQueries`: is van het type Regex Array. Een array van reguliere expressies die wordt gebruikt om specifieke bestanden op te nemen onder het hoofdpad. <br> - `propertyQueries`: is van het type JSON Array. Een array van JSON-objecten met elk JSON-object dat bestaat uit een XPath-query die moet worden uitgevoerd op het hoofdpad en de naam van een eigenschap die aanwezig is in elk JCR-knooppunt nadat de query is uitgevoerd. De waarde van de eigenschap in elk JCR-knooppunt moet een pad of een array van paden zijn. De paden in deze eigenschap worden toegevoegd aan het CRX-pakket.| |`outputstream`|java.io.OutputStream|This is used to write the result of various stage, such as query implementation, file inclusion, CRX package creation, or activation. Alle fouten die tijdens het maken of activeren zijn aangetroffen, worden naar de `outputstream`. Dit is handig voor foutopsporing.| |`session`|String|Een geldige JCR-sessie met activeringsmachtigingen.| |`activationTarget`|String|(*Optioneel*) `preview` of `publish` voor Cloud Service en `publish` voor on-premise software <br> - Voor Cloud Service geldt dat als de parameter een ongeldige waarde bevat, de pakketactivering mislukt. <br> - Voor Software op locatie, als de parameter een ongeldige waarde bevat, wordt de fout geregistreerd en wordt het publiceren gedaan gebruikend de standaardwaarde, `publish`. |
+**Parameters**:
+|Naam|Type|Omschrijving|
+|—|—|—|
+|`json`|String|JSON-tekenreeks die het CRX-pakket bepaalt dat moet worden samengesteld. Gebruik de volgende indeling om de JSON-tekenreeks te maken: <br> - `activate` : is van het type Boolean \(`true`/`false`\). Hiermee wordt bepaald of het CRX-pakket dat in de auteurinstantie is gemaakt, wordt gerepliceerd naar de publicatie-instantie. <br> - `rules`: is van het type JSON Array. Een array met JSON-regels, die opeenvolgend worden verwerkt om het CRX-pakket samen te stellen. <br> - `rootPath`: is van het type String. Het basispad waarop de query&#39;s voor het knooppunt/de eigenschap worden uitgevoerd. Als er geen knooppunten/eigenschapquery&#39;s aanwezig zijn, worden het hoofdpad en alle knooppunten die zich onder het hoofdpad bevinden opgenomen in het CRX-pakket. <br> - `nodeQueries` : is van het type Regex Array. Een array van reguliere expressies die wordt gebruikt om specifieke bestanden op te nemen onder het hoofdpad. <br> - `propertyQueries`: is van het type JSON Array. Een array van JSON-objecten met elk JSON-object dat bestaat uit een XPath-query die moet worden uitgevoerd op het hoofdpad en de naam van een eigenschap die aanwezig is in elk JCR-knooppunt nadat de query is uitgevoerd. De waarde van de eigenschap in elk JCR-knooppunt moet een pad of een array van paden zijn. De paden in deze eigenschap worden toegevoegd aan het CRX-pakket.|
+|`outputstream`|java.io.OutputStream|This is used to write the result of various stage, such as query implementation, file inclusion, CRX package creation, or activation. Eventuele fouten die tijdens het maken of activeren worden aangetroffen, worden naar de `outputstream` geschreven. Dit is handig voor foutopsporing.|
+|`session`|String|Een geldige JCR-sessie met activeringsmachtigingen.|
+|`activationTarget`|Koord| (*Facultatief*) `preview` of `publish` voor Cloud Service en `publish` voor Software op locatie <br> - voor Cloud Service, als de parameter een ongeldige waarde bevat, dan ontbreekt de pakketactivering. <br> - Voor software op locatie geldt dat als de parameter een ongeldige waarde bevat, de fout wordt geregistreerd en het publiceren wordt uitgevoerd met de standaardwaarde `publish` . |
 
 **Uitzondering**:
 
-Pijlen `java.io.IOException` en `java.io.IllegalArgumentException`
+Throws `java.io.IOException` en `java.io.IllegalArgumentException`
 
 
-Als u de optionele parameter niet definieert, `activationTarget`, activeert het het gebruiken van de standaard publicatieagent voor zowel Cloud Service als Software op-gebouw.
+Als u de optionele parameter `activationTarget` niet definieert, wordt de standaard publicatieagent gebruikt voor zowel Cloud Service- als On-premise software.
 
 
-**Voorbeeld**: In het volgende voorbeeld wordt getoond hoe u een JSON-query bouwt:
+**Voorbeeld**:
+In het volgende voorbeeld ziet u hoe u een JSON-query bouwt:
 
 ```JSON
 {
@@ -114,4 +121,4 @@ De voorbeeld-JSON-query bestaat uit de volgende regels:
 
 - Alleen de .png-, .jpg- en .gif-afbeeldingen onder /content/dam/nested pad worden in het pakket opgenomen.
 - Alle knooppunten onder /content/output/sites/shiërarchie\_ditamap worden opgenomen in het pakket.
-- De paden in het dialoogvenster `fileReference` eigenschap van knooppunten onder /content/output/sites/shiërarchie\_ditamap wordt opgenomen in het pakket.
+- De paden in de eigenschap `fileReference` van knooppunten onder /content/output/sites/shiërarchie\_ditamap worden opgenomen in het pakket.

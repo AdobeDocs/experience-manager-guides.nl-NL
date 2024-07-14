@@ -20,11 +20,15 @@ Met de volgende REST API kunt u voorwaardelijke kenmerken toevoegen aan een mapp
 
 Een methode van de POST die voorwaardelijke attributen aan een bepaald omslag-vlakke profiel toevoegt.
 
-**Aanvraag-URL**:\
-http://*&lt;aem-guides-server>*: *&lt;port-number>*/bin/fmdita/folderprofiles
+**Verzoek URL**:\
+http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/fmdita/folderProfile
 
 **Parameters**:\
-|Naam|Type|Vereist|Beschrijving| |—|—|—|—| |`:operation`|String|Ja|Naam van de bewerking die wordt aangeroepen. De waarde van deze parameter is ``ADDATTRIBUTEPROFILES``. <br> **Opmerking:** De waarde is niet hoofdlettergevoelig.| |`profilename`|Tekenreeks|Ja|Naam weergeven van het profiel op mapniveau waarin de voorwaardelijke kenmerken moeten worden toegevoegd.| |`conditionalprofiles`|JSON-array|Yes|A JSON-array bestaande uit de voorwaardelijke kenmerknaam en -waarden. Het volgende codefragment van het voorbeeld toont de serie JSON met twee attributen - `platform` en `product` waarbij er meerdere waarden aan zijn toegewezen.|
+|Naam|Type|Vereist|Beschrijving|
+|—|—|—|—|
+|`:operation`|String|Yes|Name of the operation being called. De waarde van deze parameter is ``ADDATTRIBUTEPROFILES`` . <br> **Nota:** de waarde is case-insensitive.|
+|`profilename`|String|Yes|Display name of the folder-level profile in which the conditional attributes to be added.|
+|`conditionalprofiles`|JSON-array|Yes|A JSON-array bestaande uit de voorwaardelijke kenmerknaam en -waarden. Het volgende codefragment uit het voorbeeld toont de JSON-array met twee kenmerken - `platform` en `product` waarbij meerdere waarden aan deze kenmerken zijn toegewezen.|
 
 ```JSON
 [  {    name: "platform",    
@@ -41,5 +45,5 @@ http://*&lt;aem-guides-server>*: *&lt;port-number>*/bin/fmdita/folderprofiles
                 }]
 ```
 
-**Responswaarden**:\
+**waarden van de Reactie**:\
 Retourneert een HTTP 200 \(Successful\) reactie.

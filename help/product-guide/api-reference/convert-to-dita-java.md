@@ -16,13 +16,13 @@ ht-degree: 0%
 
 Met de volgende op Java gebaseerde API&#39;s kunt u HTML- en Word-documenten converteren naar DITA-indeling. Deze API&#39;s zijn beschikbaar in de vorm van een bundel. U moet deze bundel in uw code omvatten om deze APIs te gebruiken.
 
-**Bundgegevens**:
+**de details van de Bundel**:
 
-- Groep-id: **com.adobe.fmdita**
+- Identiteitskaart van de groep: **com.adobe.fmdita**
 
-- Artefact-id: **api**
+- Artefactidentiteitskaart: **api**
 
-- Versie: **3,2**
+- Versie: **3.2**
 
 - Pakket: **com.adobe.fmdita.api.conversion**
 
@@ -32,12 +32,12 @@ Met de volgende op Java gebaseerde API&#39;s kunt u HTML- en Word-documenten con
   public class ConversionUtils extends Object
   ```
 
-  De **ConversionUtils** -klasse bevat methoden voor het converteren van HTML- en Word-documenten naar DITA-indeling.
+  De **klasse ConversionUtils** bevat methodes om HTML en documenten van Word in formaat om te zetten DITA.
 
 
 ## HTML-documenten converteren
 
-De `convertHtmlToDita` methode converteert HTML-documenten naar DITA-indeling.
+Met de methode `convertHtmlToDita` worden HTML-documenten omgezet in DITA-indeling.
 
 **Syntaxis**:
 
@@ -49,13 +49,20 @@ public static void convertHtmlToDita(Session session,
                   throws RepositoryException, WorkflowException
 ```
 
-**Parameters**: |Naam|Type|Omschrijving| |—|—|—| |`session`|javax.jcr.Session|Een geldige JCR-sessie.| |`inputFile`|Tekenreeks|Absoluut pad van de HTML-bronbestanden in AEM opslagplaats.| |`destPath`|String|Absoluut pad van de doellocatie waar de geconverteerde DITA-bestanden worden opgeslagen.| |`createRev`|Boolean|Opgeven of een revisie van de bestanden wordt gemaakt \( `true`\) op het opgegeven doel of niet \( `false`\). Dit wordt alleen overwogen wanneer de doellocatie een bestaande versie van de omgezette bestanden bevat.|
+**Parameters**:
+|Naam|Type|Omschrijving|
+|—|—|—|
+|`session`|javax.jcr.Session|Een geldige JCR-sessie.|
+|`inputFile`|String|Absoluut pad van de bronbestanden van de HTML in AEM opslagplaats.|
+|`destPath`|String|Absoluut pad van de doellocatie waar de geconverteerde DITA-bestanden worden opgeslagen.|
+|`createRev`|Boolean|Opgeven of een revisie van de bestanden \( `true`\) wordt gemaakt op het opgegeven doel of niet \( `false`\). Dit wordt alleen overwogen wanneer de doellocatie een bestaande versie van de omgezette bestanden bevat.|
 
-**Uitzondering**: Throws `RepositoryException`.
+**Uitzondering**:
+Throws `RepositoryException` .
 
 ## Word-documenten converteren
 
-De ``convertWordToDita`` Hiermee converteert u Word-documenten naar DITA-indeling.
+De methode ``convertWordToDita`` zet Word-documenten om in DITA-indeling.
 
 **Syntaxis**:
 
@@ -68,6 +75,14 @@ public static void convertWordToDita(Session session,
                   throws RepositoryException, WorkflowException
 ```
 
-**Parameters**: |Naam|Type|Omschrijving| |—|—|—| |`session`|javax.jcr.Session|Een geldige JCR-sessie.| |`inputFile`|Tekenreeks|Absoluut pad van de Word-bronbestanden in AEM opslagplaats.| |`destPath`|String|Absoluut pad van de doellocatie waar de geconverteerde DITA-bestanden worden opgeslagen.| |`style2tagMap`|String|Absoluut pad van het stijltoewijzingsbestand dat wordt gebruikt voor conversie.| |`createRev`|Boolean|Opgeven of een revisie van de bestanden wordt gemaakt \( `true`\) op het opgegeven doel of niet \( `false`\). Dit wordt alleen overwogen wanneer de doellocatie een bestaande versie van de omgezette bestanden bevat.|
+**Parameters**:
+|Naam|Type|Omschrijving|
+|—|—|—|
+|`session`|javax.jcr.Session|Een geldige JCR-sessie.|
+|`inputFile`|String|Absoluut pad van de Word-bronbestanden in AEM opslagplaats.|
+|`destPath`|String|Absoluut pad van de doellocatie waar de geconverteerde DITA-bestanden worden opgeslagen.|
+|`style2tagMap`|String|Absoluut pad van het stijltoewijzingsbestand dat wordt gebruikt voor conversie.|
+|`createRev`|Boolean|Opgeven of een revisie van de bestanden \( `true`\) wordt gemaakt op het opgegeven doel of niet \( `false`\). Dit wordt alleen overwogen wanneer de doellocatie een bestaande versie van de omgezette bestanden bevat.|
 
-**Uitzondering**: Throws `RepositoryException`.
+**Uitzondering**:
+Throws `RepositoryException` .

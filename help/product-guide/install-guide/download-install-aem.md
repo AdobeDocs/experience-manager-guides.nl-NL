@@ -14,27 +14,27 @@ ht-degree: 0%
 
 # Adobe Experience Manager installeren {#id213BCI020E8}
 
-AEM hulplijnen is een insteekmodule die boven op Adobe Experience Manager wordt geïnstalleerd. De installatie AEM vereist inzicht in sommige basis AEM concepten en geadviseerde plaatsingsscenario&#39;s. De volgende koppelingen helpen u aan de slag te gaan met AEM installatie:
+AEM Guides is een plug-in die boven op Adobe Experience Manager wordt geïnstalleerd. De installatie AEM vereist inzicht in sommige basis AEM concepten en geadviseerde plaatsingsscenario&#39;s. De volgende koppelingen helpen u aan de slag te gaan met AEM installatie:
 
-- [Basisbegrippen AEM](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/deploy.html#BasicConcepts)
+- [ Basis AEM Concepten ](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/deploy.html#BasicConcepts)
 
-- [Aanbevolen AEM implementaties](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/recommended-deploys.html)
+- [ geadviseerde AEM Inzettingsaties ](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/recommended-deploys.html)
 
 
 >[!IMPORTANT]
 >
-> Als u Java 11 met AEM 6.5.x gebruikt, kunt u een probleem onder ogen zien - *JDK 11-oorzaken`NoClassDefFoundError`*. Vernieuwen [JDK 11 veroorzaakt NoClassDefFoundError \| AEM 6,5](https://helpx.adobe.com/experience-manager/kb/jdk-11-causes-noclassdeffounderror---aem-6-5.html) artikel om dit probleem op te lossen.
+> Als u Java 11 met AEM 6.5.x gebruikt, zou u een kwestie kunnen onder ogen zien - *JDK 11 oorzaken`NoClassDefFoundError`*. Verwijs [ JDK 11 oorzaken NoClassDefFoundError \| AEM artikel 6.5 ](https://helpx.adobe.com/experience-manager/kb/jdk-11-causes-noclassdeffounderror---aem-6-5.html) om dit probleem op te lossen.
 
-Zodra u de plaatsingsstrategie hebt geïdentificeerd die het beste voor uw organisatie werkt, voer het installatieproces uit zoals die in *[Aan de slag](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/deploy.html#GettingStarted)* in AEM documentatie.
+Zodra u de plaatsingsstrategie hebt geïdentificeerd die het best voor uw organisatie werkt, voer het installatieproces zoals die in *[wordt beschreven Begonnen ](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/deploy.html#GettingStarted)* sectie in AEM documentatie uit.
 
 Als u van plan bent om uw AEM instantie te bevorderen, dan moet u de bepaalde opeenvolging volgen:
 
-1. Verwijder AEM hulplijnen.
+1. Verwijder AEM Guides.
 1. Voer een upgrade uit op uw AEM.
-1. Installeer AEM hulplijnen.
+1. AEM Guides installeren.
 
 >[!IMPORTANT]
 >
-> Er zijn een aantal aanbevelingen voor het optimaliseren van de prestaties die u kunt overwegen om de systeemprestaties te verbeteren. Zie [Recommendations for performance optimization](download-install-recommend-perf-optimiz.md#) voor meer informatie.
+> Er zijn een aantal aanbevelingen voor het optimaliseren van de prestaties die u kunt overwegen om de systeemprestaties te verbeteren. Zie [ Recommendations voor prestatiesoptimalisering ](download-install-recommend-perf-optimiz.md#) voor details.
 
-**Bovenliggend onderwerp:**[ Downloaden en installeren](download-install.md)
+**Bovenliggend onderwerp:**[ Download en installeer ](download-install.md)

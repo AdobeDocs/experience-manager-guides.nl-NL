@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Bestaande DITA-inhoud uploaden {#id176FF000JUI}
 
-U hebt waarschijnlijk een opslagplaats voor bestaande DITA-inhoud die u wilt gebruiken met AEM hulplijnen. Voor dergelijke bestaande inhoud kunt u de volgende methoden gebruiken om uw inhoud in bulk te uploaden naar de AEM opslagplaats.
+U hebt waarschijnlijk een opslagplaats voor bestaande DITA-inhoud die u met AEM Guides wilt gebruiken. Voor dergelijke bestaande inhoud kunt u de volgende methoden gebruiken om uw inhoud in bulk te uploaden naar de AEM opslagplaats.
 
 ## Een WebDAV-hulpprogramma gebruiken
 
@@ -28,7 +28,7 @@ Voer de volgende stappen uit om WinSCP te gebruiken om dossiers te uploaden:
 
    Het dialoogvenster Aanmelden wordt weergegeven.
 
-1. Geef in het dialoogvenster Aanmelden een instelling voor Nieuwe site op door WebDAV te kiezen als de **File Protocol** en andere verbindingsdetails verstrekken zoals:
+1. Voor de Login dialoog, specificeer een Nieuwe Plaats die door WebDAV als **Protocol van het Dossier** te kiezen en andere verbindingsdetails zoals te verstrekken:
 
    - de URL waar uw AEM server wordt gehost,
 
@@ -36,7 +36,7 @@ Voer de volgende stappen uit om WinSCP te gebruiken om dossiers te uploaden:
 
    - de gebruikersnaam en het wachtwoord om toegang te krijgen tot uw AEM.
 
-1. Klikken **Aanmelden**.
+1. Klik **Login**.
 
    Bij een geslaagde verbinding wordt de inhoud van AEM Assets weergegeven in de WinSCP-gebruikersinterface. U kunt gemakkelijk doorbladeren, tot stand brengen, bijwerken, of schrapping inhoud gebruikend WinSCP dossierontdekkingsreiziger.
 
@@ -49,20 +49,20 @@ Voer de volgende stappen uit om de Verbinding van de FrameMaker AEM te gebruiken
 
 1. Start de FrameMaker.
 
-1. Open de **Verbindingsbeheer** in.
+1. Open de **dialoog van de Manager van de Verbinding**.
 
    ![](assets/fm-aem-connector.png){width="550" align="left"}
 
 1. Voer de volgende gegevens in om verbinding te maken met de AEM opslagplaats:
 
-   - **Naam**: Voer een beschrijvende naam in om de verbinding met uw AEM server te identificeren.
-   - **Server**: Voer de URL en het poortnummer van de AEM in.
+   - **Naam**: Ga een beschrijvende naam in om de verbinding aan uw AEM server te identificeren.
+   - **Server**: Ga URL en havenaantal van uw AEM server in.
 
-   - **Gebruikersnaam**/**Wachtwoord**: Voer de gebruikersnaam en het wachtwoord in om toegang te krijgen tot de AEM server.
+   - **Naam van de Gebruiker**/ **Wachtwoord**: Ga de gebruikersnaam en het wachtwoord in om tot de AEM server toegang te hebben.
 
-1. Klikken **Verbinden**.
+1. Klik **verbinden**.
 
-   Zodra de verbinding tot stand is gebracht, worden de middelen van de AEM opslagplaats weergegeven in het venster Repository Manager.
+   Zodra de verbinding tot stand is gebracht, wordt Assets van de AEM weergegeven in het venster Repository Manager.
 
    ![](assets/fm-repo-manager.png){width="550" align="left"}
 
@@ -83,13 +83,13 @@ Voer de volgende stappen uit om bestandsnamen te controleren op basis van een UU
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Zoeken naar en klikken op de knop *com.adobe.fmdita.config.ConfigManager* bundel.
+1. Onderzoek naar en klik op *com.adobe.fmdita.config.ConfigManager* bundel.
 
-1. In de **UID-bestandsnaampatronen** eigenschap, geeft u een patroon op om de namen van het geïmporteerde bestand te controleren.
+1. In het **bezit van de Patronen van Filename 0} UUID {, specificeer een patroon om de namen van het ingevoerde dossier te controleren.**
 
    Als een bestand het opgegeven patroon niet volgt, wordt een UUID toegevoegd aan de eigenschap van het bestand en worden alle verwijzingen naar het bestand bijgewerkt met de UUID die aan het bestand is toegewezen.
 
-1. Klikken **Opslaan**.
+1. Klik **sparen**.
 
 
 ## Inhoud uploaden met UUID met een WebDav-gereedschap {#id201MI0I04Y4}
@@ -97,14 +97,14 @@ Voer de volgende stappen uit om bestandsnamen te controleren op basis van een UU
 U kunt de volgende methoden gebruiken om uw inhoud te uploaden met UUID:
 
 - Sleep inhoud van uw lokale systeem.
-- Gebruik de **Maken** \> **Bestanden** workflow van AEM middeleninterface.
+- Gebruik **creeer** \> **3} werkschema van Dossiers van AEM Assets UI van.**
 - Gebruik een gereedschap zoals WinSCP.
 
-Als u een hulpmiddel zoals WinSCP gebruikt, kunt u de actie bepalen om op een dubbel dossier uit te voeren door te plaatsen **Oude bestand met dezelfde UUID naar nieuwe map verplaatsen** in configMgr. Met deze optie wordt gedefinieerd welke actie wordt uitgevoerd op een bestand dat op een andere locatie in de AEM opslagplaats beschikbaar is. Deze instelling is beschikbaar in het dialoogvenster *com.adobe.fmdita.config.ConfigManager* bundel in configMgr.
+In het geval dat u een hulpmiddel zoals WinSCP gebruikt, kunt u de actie bepalen om op een dubbel dossier uit te voeren door het **oude dossier van de Beweging met Zelfde UUID aan Nieuwe Omslag** optie in configMgr te plaatsen. Met deze optie wordt gedefinieerd welke actie wordt uitgevoerd op een bestand dat op een andere locatie in de AEM opslagplaats beschikbaar is. Dit het plaatsen is beschikbaar in *com.adobe.fmdita.config.ConfigManager* bundel in configMgr.
 
-Standaard worden de **Oude bestand met dezelfde UUID naar nieuwe map verplaatsen** is ingeschakeld. Dit houdt in dat wanneer het bestand dat wordt geüpload aanwezig is in een andere map in de opslagplaats, het bestaande bestand wordt verplaatst naar de huidige locatie en wordt overschreven door het bestand dat wordt geüpload. Als u deze optie niet selecteert, wordt het bestand op de bestaande locatie overschreven.
+Door gebrek wordt het **oude dossier van de Beweging met Zelfde UUID aan Nieuwe Omslag** optie aangezet. Dit houdt in dat wanneer het bestand dat wordt geüpload aanwezig is in een andere map in de opslagplaats, het bestaande bestand wordt verplaatst naar de huidige locatie en wordt overschreven door het bestand dat wordt geüpload. Als u deze optie niet selecteert, wordt het bestand op de bestaande locatie overschreven.
 
-**Aanvullende opmerkingen over het werken met UUID-bestanden**:
+**extra nota&#39;s bij het werken met op UUID-Gebaseerde dossiers**:
 
 De volgende punten moeten in overweging worden genomen bij het verplaatsen of kopiëren van inhoud binnen de AEM opslagplaats:
 
@@ -126,7 +126,7 @@ De volgende punten moeten in overweging worden genomen bij het verplaatsen of ko
 
 U kunt ook curl-opdrachten gebruiken om een map in DAM te maken, bestanden te uploaden en metagegevens toe te voegen aan de geüploade inhoud.
 
-**Een map maken**
+**creeer een omslag**
 
 Voer de volgende opdracht uit om een map in AEM opslagplaats te maken:
 
@@ -138,12 +138,12 @@ Geef de volgende parameters op om een map te maken:
 
 - `<username>:<passowrd>`: Geef de gebruikersnaam en het wachtwoord op voor toegang tot de AEM. Deze gebruiker moet over de rechten voor het maken van mappen beschikken.
 
-- `jcr:primaryType=sling:Folder`: Geef deze parameter op *ongewijzigd* om een bron van het omslagtype te creëren.
+- `jcr:primaryType=sling:Folder`: Specificeer deze parameter *zoals* is om een middel van het omslagtype tot stand te brengen.
 
-- `<server folder path>`: Volledig mappad inclusief de naam van de nieuwe map die u wilt maken in de AEM. Als u bijvoorbeeld het pad opgeeft als `http://192.168.1.1:4502/content/dam/projects/AEM-Guides`en vervolgens de map `AEM-Guides` wordt gemaakt in het dialoogvenster `projects` map in DAM.
+- `<server folder path>`: Volledig mappad inclusief de naam van de nieuwe map die u wilt maken in de AEM. Als u bijvoorbeeld het pad opgeeft als `http://192.168.1.1:4502/content/dam/projects/AEM-Guides` , wordt de map `AEM-Guides` gemaakt in de map `projects` in DAM.
 
 
-**Een bestand uploaden**
+**upload een dossier**
 
 Voer de volgende opdracht uit om een bestand te uploaden in de AEM opslagplaats:
 
@@ -153,14 +153,14 @@ curl --user <username>:<password> -T "<local file path>" "<server folder path>"
 
 Geef de volgende parameters op om een bestand te uploaden:
 
-- `<username>:<passowrd>`: Geef de gebruikersnaam en het wachtwoord op voor toegang tot de AEM. Deze gebruiker moet schrijfrechten hebben op de `server folder path`.
+- `<username>:<passowrd>`: Geef de gebruikersnaam en het wachtwoord op voor toegang tot de AEM. Deze gebruiker moet schrijfrechten hebben op de `server folder path` .
 
-- ``local file path``: Voltooi het bestandspad op uw lokale systeem dat u wilt uploaden.
+- ``local file path``: volledig bestandspad op uw lokale systeem dat u wilt uploaden.
 
-- `<server folder path>`: Volledig mappad op de AEM server waar u het bestand wilt uploaden.
+- `<server folder path>`: Voltooi het mappad op de AEM server waar u het bestand wilt uploaden.
 
 
-**Metagegevens toevoegen**
+**voeg meta-gegevens** toe
 
 Voer de volgende opdracht uit om metagegevens toe te voegen aan een bestand:
 
@@ -170,11 +170,11 @@ curl --user <username>:<password> -F<attribute name>=<value> <metadata node path
 
 Geef de volgende parameters op om metagegevensinformatie toe te voegen:
 
-- `<username>:<passowrd>`: Geef de gebruikersnaam en het wachtwoord op voor toegang tot de AEM. Deze gebruiker moet schrijfrechten hebben op de ``metadata node path``.
+- `<username>:<passowrd>`: Geef de gebruikersnaam en het wachtwoord op voor toegang tot de AEM. Deze gebruiker moet schrijfrechten hebben op de ``metadata node path`` .
 
-- ``-F<attribute name>=<value>``: De `<attribute name>` is de naam van het metagegevenskenmerk, zoals `audience` en de `<value>` kan `internal`. U kunt meerdere naam-waardeparen voor kenmerken opgeven, gescheiden door spatie.
+- ``-F<attribute name>=<value>``: `<attribute name>` is de naam van het metagegevenskenmerk, zoals `audience` en `<value>` zou kunnen zijn `internal` . U kunt meerdere naam-waardeparen voor kenmerken opgeven, gescheiden door spatie.
 
-- `<metadata node path>`: Volledig mappad inclusief bestandsnaam en het bijbehorende metagegevensknooppunt. Als u bijvoorbeeld het pad opgeeft als `http://192.168.1.1:4502/content/dam/projects/AEM-Guides/intro.xml/jcr:content/metadata`, wordt de opgegeven metagegevens ingesteld op `intro.xml` bestand.
+- `<metadata node path>`: volledig mappad, inclusief bestandsnaam en het bijbehorende metagegevensknooppunt. Als u bijvoorbeeld het pad opgeeft als `http://192.168.1.1:4502/content/dam/projects/AEM-Guides/intro.xml/jcr:content/metadata` , wordt de opgegeven metagegevens ingesteld in het `intro.xml` -bestand.
 
 
-**Bovenliggend onderwerp:**[ Bestaande inhoud migreren](migrate-content.md)
+**Bovenliggend onderwerp:**[ Migreer bestaande inhoud ](migrate-content.md)

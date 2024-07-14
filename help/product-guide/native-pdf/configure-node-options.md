@@ -16,8 +16,8 @@ ht-degree: 0%
 
 Native PDF-publicatie start een afzonderlijk NodeJs-proces om de bestanden die in het publicatieproces worden gegenereerd, om te zetten in een definitieve PDF. U zou de configuraties van dit proces van Node kunnen moeten aanpassen die het Native publiceren van PDF in werking stellen om verschillende scenario&#39;s te steunen. Als u bijvoorbeeld grotere werklasten wilt uitvoeren, vergroot u de maximale heapgrootte die beschikbaar is voor het paaide NodeJs-proces.
 
-Gebruik de instructies die worden gegeven in [Configuratieoverschrijvingen](../cs-install-guide/download-install-additional-config-override.md) om het configuratiedossier.In het configuratiedossier tot stand te brengen, verstrek de volgende (bezit) details:
+Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](../cs-install-guide/download-install-additional-config-override.md) om het configuratiedossier.In het configuratiedossier tot stand te brengen, verstrek de volgende (bezit) details:
 
 | PID | Eigenschappensleutel | Waarde van eigenschap |
 |---|---|---|
-| `com.adobe.fmdita.config.ConfigManager` | `native.pdf.node.opts` | Tekenreekswaarde voor het instellen van een willekeurige standaard `NODE_OPTIONS`.<BR> Standaardwaarde: &quot;&quot; |
+| `com.adobe.fmdita.config.ConfigManager` | `native.pdf.node.opts` | Tekenreekswaarde om een willekeurige standaard in te stellen `NODE_OPTIONS` .<BR> Standaardwaarde: &quot;&quot; |

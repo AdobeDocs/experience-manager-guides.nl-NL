@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Voor het maken van om het even welke configuratieupdates, zou de volgende generische benadering moeten worden gebruikt:
 
-1. Open de Git-opslagplaats van uw Cloud Manager.
+1. Open de Cloud Manager Git-opslagplaats.
 
 1. Maak een nieuw JSON-bestand op de volgende locatie:
 
@@ -41,4 +41,4 @@ Voor het maken van om het even welke configuratieupdates, zou de volgende generi
 1. Leg de wijzigingen vast en voer de Cloud Manager-pijplijn uit om de bijgewerkte configuratie te implementeren.
 
 
-**Bovenliggend onderwerp:**[ Downloaden en installeren](download-install.md)
+**Bovenliggend onderwerp:**[ Download en installeer ](download-install.md)

@@ -1,5 +1,5 @@
 ---
-title: Standaardwoordenboek AEM aanpassen
+title: AEM standaardwoordenboek aanpassen
 description: Leer hoe u AEM standaardwoordenboek kunt aanpassen
 exl-id: ecffcd14-6728-4938-a209-5c4b12af6fbb
 feature: Web Editor Configuration
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# Standaardwoordenboek AEM aanpassen {#id209SD8000WU}
+# AEM standaardwoordenboek aanpassen {#id209SD8000WU}
 
-De Redacteur van het Web kan worden gevormd om AEM spellingcontrole of browser spellingcontrole te gebruiken. Als u ervoor kiest om met AEM spellingcontrole te werken, dan krijgt u de flexibiliteit om uw lijst van douanewoorden te bepalen. Deze aangepaste woorden worden vervolgens toegevoegd aan het AEM-woordenboek en deze woorden worden niet gemarkeerd als \(incorrect\) in de webeditor.
+De Redacteur van het Web kan worden gevormd om AEM spellingcontrole of browser spellingcontrole te gebruiken. Als u ervoor kiest om te werken met AEM spellingcontrole, hebt u de flexibiliteit om uw lijst met aangepaste woorden te definiëren. Deze aangepaste woorden worden vervolgens toegevoegd aan het AEM en deze woorden worden niet gemarkeerd als onjuist in de webeditor.
 
 Voer de volgende stappen uit om uw lijst van douanewoorden tot stand te brengen, die in AEM woordenboek wordt toegevoegd:
 
@@ -24,7 +24,7 @@ Voer de volgende stappen uit om uw lijst van douanewoorden tot stand te brengen,
    >
    > Elk aangepast woord moet op een nieuwe regel worden gedefinieerd.
 
-1. Sla het bestand op de volgende locatie op in de Git-opslagplaats van uw Cloud Manager:
+1. Sla het bestand op de volgende locatie op in uw Cloud Manager Git-opslagplaats:
 
    /apps/fmdita/config
 
@@ -35,4 +35,4 @@ Voer de volgende stappen uit om uw lijst van douanewoorden tot stand te brengen,
 
 Auteurs moeten hun Web Editor-sessie opnieuw starten om de lijst met aangepaste woorden in AEM woordenboek bij te werken.
 
-**Bovenliggend onderwerp:**[ Webeditor aanpassen](conf-web-editor.md)
+**Bovenliggend onderwerp:**[ pas de Redacteur van het Web ](conf-web-editor.md) aan

@@ -1,6 +1,6 @@
 ---
 title: Een bulkactiveringskaartverzameling bewerken
-description: Het bulkpublicatiedashboard van het gebruik in AEMGidsen. Leer een bulkactiveringskaartverzameling bewerken door kaartbestanden toe te voegen of te verwijderen.
+description: Het bulkpublicatiedashboard van het gebruik in AEM Guides. Leer een bulkactiveringskaartverzameling bewerken door kaartbestanden toe te voegen of te verwijderen.
 exl-id: 5f897c52-5d6e-4614-a14f-1806e085c21c
 feature: Publishing, Bulk Activation
 role: User
@@ -15,37 +15,38 @@ ht-degree: 0%
 
 U kunt een verzameling activeringskaarten bulksgewijs bewerken door een kaartbestand of voorinstellingen uit een verzameling toe te voegen of te verwijderen. Voer de volgende stappen uit om een bulkactiveringskaartverzameling te bewerken:
 
-1. Selecteren **Hulplijnen** in de lijst met gereedschappen.
+1. Selecteer **Gidsen** van de lijst van hulpmiddelen.
 
-1. Klik op de Adobe Experience Manager-koppeling bovenaan en kies **Gereedschappen**.
+1. Klik op de verbinding van Adobe Experience Manager bij de bovenkant en kies **Hulpmiddelen**.
 
-1. Klik op de knop **Bulk publicatiedashboard** tegel.
+1. Klik op het **Bulk Publish Dashboard** tegel.
 
    Er wordt een lijst met bulkactiveringskaartverzamelingen weergegeven.
 
-1. Selecteer de verzameling die u wilt bewerken en klik op **Openen**.
+1. Selecteer de inzameling die u wilt uitgeven en **Open** klikken.
 
-1. Klikken **Bewerken**.
+1. Klik **uitgeven**.
 
    De verzamelpagina voor de verzameling van bulkactiveringskaarten wordt weergegeven als u de kaarten samen met de vooraf geconfigureerde voorinstellingen voor elke beschikbare landinstelling weergeeft.
-U kunt de verschillende typen uitvoervoorinstellingen samen met hun pictogrammen weergeven, zoals AEM Site, PDF, Native PDF, HTML5, Aangepast en JSON-uitvoer.
+U kunt de verschillende typen uitvoervoorinstellingen samen met hun pictogrammen weergeven, zoals AEM Site, PDF, Native PDF, HTML5, Aangepast en JSON-uitvoer
+.
 
    >[!NOTE]
    >
-   > De kleine ![](images/global-preset-icon.svg) geeft een voorinstelling voor het mapprofielniveau aan.
+   > Het kleine pictogram ![](images/global-preset-icon.svg) geeft een voorinstelling voor het mapprofielniveau aan.
 
 
 1. Gebruik de schuifregelaar om de gewenste uitvoervoorinstelling in of uit te schakelen die u wilt activeren of deactiveren.
 
-1. Als u een kaart uit de inzameling wilt verwijderen, dan breid de kaart uit en kies **Selecteren voor verwijderen** -optie.
+1. Als u een kaart uit de inzameling wilt verwijderen, breid dan de kaart uit en kies **Uitgezocht voor de optie van de Verwijdering**.
 
-1. Klikken **Verwijderen**.
+1. Klik **Schrapping**.
 
    ![](images/bulk-activation-delete-map.png){width="600" align="left"}
 
    De geselecteerde kaart wordt verwijderd uit de bulkactiveringskaartverzameling.
 
-1. Klikken **Gereed**.
+1. Klik **Gedaan**.
 
 
-**Bovenliggend onderwerp:**[ Bulkactivering van gepubliceerde inhoud](conf-bulk-activation.md)
+**Bovenliggend onderwerp:**[ Bulk Activering van gepubliceerde inhoud ](conf-bulk-activation.md)

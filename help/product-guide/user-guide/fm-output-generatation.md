@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Uitvoer van FrameMaker-documenten genereren {#id1645H8040HD}
 
-Vanaf AEM hulplijnen 1.1 kunt u ook FrameMaker documenten \() publiceren`.book` en `.fm`\) beschikbaar in uw AEM opslagplaats. Als een boekbestand een combinatie van DITA- en FrameMaker-documenten bevat, kunt u AEM hulplijnen gebruiken om dergelijke documenten ook te publiceren. Documenten voor FrameMakers kunnen in de volgende indelingen worden gepubliceerd:
+Vanaf AEM Guides 1.1 kunt u ook FrameMaker documenten \(`.book` en `.fm`\) publiceren die beschikbaar zijn in uw AEM opslagplaats. Als een boekbestand een combinatie van DITA- en FrameMaker-documenten bevat, kunt u in AEM Guides dergelijke documenten ook publiceren. Documenten voor FrameMakers kunnen in de volgende indelingen worden gepubliceerd:
 
 - PDF
 
@@ -22,7 +22,7 @@ Vanaf AEM hulplijnen 1.1 kunt u ook FrameMaker documenten \() publiceren`.book` 
 - EPUB
 
 
-Als auteur klikt u gewoon op een paar koppelingen en wordt de uitvoer gegenereerd. U kunt uitvoer voor een volledig boekbestand genereren of afzonderlijke bestanden voor FrameMakers selectief publiceren. Voordat u de uitvoer genereert, kunt u ook wijzigingen aanbrengen in de FrameMaker. Wanneer u een .fm- of een .book-bestand selecteert in AEM opslagplaats, krijgt u de **Openen in FrameMaker** op de werkbalk. Als u op deze knop klikt, wordt het geselecteerde bestand in de FrameMaker geopend.
+Als auteur klikt u gewoon op een paar koppelingen en wordt de uitvoer gegenereerd. U kunt uitvoer voor een volledig boekbestand genereren of afzonderlijke bestanden voor FrameMakers selectief publiceren. Voordat u de uitvoer genereert, kunt u ook wijzigingen aanbrengen in de FrameMaker. Wanneer u .fm of een .book dossier in AEM bewaarplaats selecteert, krijgt u **Open in FrameMaker** knoop op de toolbar. Als u op deze knop klikt, wordt het geselecteerde bestand in de FrameMaker geopend.
 
 De informatie in de volgende secties is voor uitgevers die de werkschema&#39;s van de outputgeneratie zullen gebruiken om de documenten van de FrameMaker te publiceren:
 

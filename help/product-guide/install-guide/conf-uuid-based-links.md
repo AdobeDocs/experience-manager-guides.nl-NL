@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Weergave van op UUID gebaseerde koppelingen configureren {#id2035G20M0QN}
 
-Wanneer u een koppeling maakt met de optie Referentie invoegen of Inhoud hergebruiken invoegen in de webeditor, wordt de koppeling standaard gemaakt met de UUID van de inhoud waarnaar wordt verwezen. De **Koppeling** eigenschap \(in deelvenster Eigenschappen\) van de inhoud waarnaar wordt verwezen, kan worden geconfigureerd om het relatieve bestandspad van de inhoud waarnaar wordt verwezen of de UUID weer te geven. Dit scherm wordt bestuurd door de **UUID&#39;s inschakelen** in configMgr. De optie is standaard ingeschakeld, wat betekent dat de UUID van de inhoud waarnaar wordt verwezen, wordt weergegeven in het deelvenster Eigenschappen.
+Wanneer u een koppeling maakt met de optie Referentie invoegen of Inhoud hergebruiken invoegen in de webeditor, wordt de koppeling standaard gemaakt met de UUID van de inhoud waarnaar wordt verwezen. Het **bezit van de Verbinding** \ (in het paneel van Eigenschappen \) van de referenced inhoud kan worden gevormd om de relatieve dossierweg van de referenced inhoud of UUID te tonen. Deze vertoning wordt gecontroleerd door **laat optie UUIDs** in configMgr toe. De optie is standaard ingeschakeld, wat betekent dat de UUID van de inhoud waarnaar wordt verwezen, wordt weergegeven in het deelvenster Eigenschappen.
 
 Voer de volgende stappen uit om de relatieve weg of UUID van de referenced inhoud in de Redacteur van het Web te tonen:
 
@@ -26,13 +26,13 @@ Voer de volgende stappen uit om de relatieve weg of UUID van de referenced inhou
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Zoeken naar en klikken op de knop **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** bundel.
+1. Onderzoek naar en klik op **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** bundel.
 
-1. In de *XmlEditorConfig* instellingen, de **UUID&#39;s inschakelen** is standaard ingeschakeld. Dit betekent dat UUID van de inhoud waarnaar wordt verwezen wordt weergegeven in het dialoogvenster **Koppeling** in het deelvenster Eigenschappen.
+1. In de *montages 0} XmlEditorConfig,**laat**optie UUIDs toe wordt toegelaten door gebrek.* Dit impliceert dat UUID van de referenced inhoud in het **bezit van de Verbinding** in het paneel van Eigenschappen wordt getoond.
 
-   Als u het relatieve pad van de gekoppelde inhoud wilt weergeven, schakelt u de optie **UUID&#39;s inschakelen** -optie.
+   Als u de relatieve weg van de verbonden inhoud wilt tonen, dan schrap **toelaten UIDs** optie.
 
-1. Klikken **Opslaan**.
+1. Klik **sparen**.
 
 
-**Bovenliggend onderwerp:**[ Webeditor aanpassen](conf-web-editor.md)
+**Bovenliggend onderwerp:**[ pas de Redacteur van het Web ](conf-web-editor.md) aan

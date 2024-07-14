@@ -1,6 +1,6 @@
 ---
-title: Opmerkingen bij de release | Upgradeinstructies en opgeloste problemen in Adobe Experience Manager Guides 4.3.0 release
-description: Meer informatie over de opgeloste problemen en hoe u een upgrade uitvoert naar 4.3.0-versies van Adobe Experience Manager-hulplijnen
+title: Opmerkingen bij de release | Upgradeinstructies en opgeloste problemen in Adobe Experience Manager Guides 4.3.0-versie
+description: Meer informatie over de opgeloste problemen en over het upgraden naar 4.3.0-releases van Adobe Experience Manager Guides
 exl-id: 7fb568a0-0b88-4ea0-9b79-2625336348ff
 feature: Release Notes
 role: Leader
@@ -11,44 +11,45 @@ ht-degree: 0%
 
 ---
 
-# 4.3.0 Release van Adobe Experience Manager Guides (juli 2023)
+# 4.3.0 release van Adobe Experience Manager Guides (juli 2023)
 
-In deze releasenotitie worden de instructies voor de upgrade, de compatibiliteitsmatrix en de problemen behandeld die zijn opgelost in versie 4.3.0 van de Adobe Experience Manager-hulplijnen (later genoemd als *Hulplijnen AEM*).
+Deze versienota behandelt de verbeteringsinstructies, verenigbaarheidsmatrijs, en kwesties die in versie 4.3.0 van Adobe Experience Manager Guides (later als *worden bedoeld AEM Guides*) worden bevestigd.
 
-Zie voor meer informatie over de nieuwe functies en verbeteringen [Nieuwe functies in de 4.3.0-release van Adobe Experience Manager-hulplijnen](./whats-new-4-3-release.md).
+Voor meer informatie over de nieuwe eigenschappen en de verhogingen, zie [ wat in versie 4.3.0 van Adobe Experience Manager Guides ](./whats-new-4-3-release.md) nieuw is.
 
-## Upgrade naar versie 4.3.0 van AEM hulplijnen
+## Upgrade naar versie 4.3.0 van AEM Guides
 
 
-U kunt eenvoudig uw huidige versie van AEM hulplijnen upgraden naar versie 4.3.0. Voordat u verdergaat met de upgrade naar versie 4.3.0 van AEM hulplijnen, moet u rekening houden met de volgende punten: u kunt de huidige versie van AEM hulplijnen upgraden naar versie 4.3.0
+U kunt uw huidige versie van AEM Guides eenvoudig upgraden naar versie 4.3.0. Voordat u verdergaat met de upgrade naar versie 4.3.0 van AEM Guides, moet u rekening houden met de volgende punten:
+U kunt uw huidige versie van AEM Guides upgraden naar versie 4.3.0
 
 - Als u versie 4.2 of 4.2.x gebruikt, kunt u rechtstreeks upgraden naar versie 4.3.0.
 - Als u versie 4.1 of 4.1.x gebruikt, moet u een upgrade naar versie 4.2 of 4.2.x uitvoeren voordat u een upgrade naar versie 4.3.0 uitvoert.
 - Als u versie 4.0 gebruikt, moet u een upgrade naar versie 4.2 uitvoeren voordat u een upgrade naar versie 4.3.0 uitvoert.
 - Als u versie 3.8.5 gebruikt, moet u een upgrade naar versie 4.0 uitvoeren voordat u een upgrade naar versie 4.2 uitvoert.
-- Als u een versie hebt die ouder is dan 3.8.5, raadpleegt u de sectie Upgrade AEM hulplijnen in de productspecifieke installatiehandleiding.
+- Raadpleeg de sectie Upgrade AEM Guides in de productspecifieke installatiehandleiding als u werkt met een versie die ouder is dan 3.8.5.
 
 
 
 >[!NOTE]
 >
->U moet AEM de dienstpak installeren alvorens AEM versie van Gidsen te bevorderen.
+>U moet AEM servicepack installeren voordat u de AEM Guides-versie kunt upgraden.
 
-Zie voor meer informatie [Upgradeinstructies](../install-guide/upgrade-xml-documentation.md).
+Voor details, zie [ instructies van de Verbetering ](../install-guide/upgrade-xml-documentation.md).
 
 ## Compatibiliteitsmatrix
 
-In deze sectie wordt een overzicht gegeven van de compatibiliteitsmatrix voor de softwaretoepassingen die worden ondersteund door AEM Guide 4.3.0.
+In deze sectie wordt een overzicht gegeven van de compatibiliteitsmatrix voor de softwaretoepassingen die worden ondersteund door de release van AEM Guides 4.3.0.
 
 ### Adobe Experience Manager
 
-**4.3.0 Niet-UUID**
+**4.3.0 niet-UUID**
 Versie 6.5 Service Pack 18, 17, 16, 15 of 14
 
 **4.3.0 UUID**
 Versie 6.5 Service Pack 18, 17, 16, 15 of 14
 
-Zie voor meer informatie de *Technische voorschriften* in de handleiding Adobe Experience Manager-hulplijnen installeren en configureren.
+Voor meer details, zie de *Technische vereisten* sectie in installeer en vorm de gids van Adobe Experience Manager Guides.
 
 ### FrameMaker en FrameMaker Publishing Server
 
@@ -79,14 +80,14 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 - De knopinfo voor de pictogrammen voor vergrendelen en ontgrendelen van bestanden op de hoofdwerkbalk in de webeditor is niet consistent met de pictogrammen die worden weergegeven in de weergave Opslagplaats.(12555)
 - De optie Uitchecken annuleren en Ontgrendelen wordt weergegeven voor een bestand in de webeditor dat nog niet is uitgecheckt in de Kaartweergave. (12556)
 - Kan de PDF-elementen niet selecteren in de bestaande &quot;topicref&quot;-koppelingen. (12477).
-- Bij het samenvoegen en splitsen in de tabellen genereert AEM hulplijnen 4.2 extra tabelcellen. (11793)
+- Bij het samenvoegen en splitsen in de tabellen genereert AEM Guides 4.2 extra tabelcellen. (11793)
 - In de weergave Opslagplaats kunnen de onderwerpen of afbeeldingen na gebruik van de functie Zoeken/Filteren niet meer worden gesleept. 12396
 - De zoekresultaten worden uitgeschakeld in het deelvenster Zoeken en vervangen nadat een doorzocht bestand is geopend. 12142
-- De cijfertoets &#39;8&#39; op het zijtoetsenbord werkt niet in de AEM-editor voor hulplijnen. 12106
+- De cijfertoets &quot;8&quot; op het zijtoetsenbord werkt niet in de AEM Guides-editor. 12106
 - De inline-/weergavekenmerken worden niet weergegeven in de layoutweergave van de webeditor. 12498
 - De configuratie van de globale profiel-UI komt niet overeen met het mapprofiel. (1970)
 - Inhoudsverwijzingen worden verbroken wanneer DITA-bestanden worden gekopieerd en geplakt. (1959)
-- Kan inhoudsfragment niet bewerken in de kolomweergave met AEM hulplijnen geïnstalleerd. 7342
+- Kan inhoudsfragment niet bewerken in de kolomweergave als AEM Guides is geïnstalleerd. 7342
 - Inhoud gaat verloren wanneer een onverpakt xref zich onder subelementtags bevindt. 12532
 - De goedkeuringswerkstroom werkt niet wanneer de documentstatus wordt gewijzigd in &quot;eindstatus&quot; in de bestandseigenschappen van het rechterdeelvenster. (1026)
 - Elementinterface | In de lijstweergave kunnen de overschreven beschikbare kolommen niet worden samengevoegd. 11528
@@ -100,7 +101,7 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 
 ### Beheer
 
-- Het veld &quot;title&quot; in de metagegevenseigenschappen van de DITA-kaart wordt overschreven door `<title>` -element voor de kaart. 10702
+- Het veld &quot;title&quot; in de metagegevenseigenschappen van de DITA-kaart wordt overschreven door het element `<title>` voor de kaart. 10702
 - Wanneer u probeert de versie van onderwerpen in de basislijn te openen of bij te werken, wordt de lader &quot;Fetching information from the server&quot; voor onbepaalde tijd uitgevoerd.12478
 
 
@@ -115,21 +116,22 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 - Native PDF | De taalmeta-gegevens kunnen niet in geproduceerde PDF worden geplaatst om aan WCAG 2.0 te voldoen. 12407
 - Publiceren naar AEM site mislukt bij het lezen van tijdelijke bestanden uit pod die mogelijk zijn vernieuwd of opnieuw zijn gestart. (1213)
 - Native PDF | Aangepaste kenmerken worden niet doorgegeven aan de HTML- of PDF-engine. (DXML-12005)
-- Native PDF | Java OutOfMemoryError treedt op bij het publiceren van grote inhoud. (11789)
+- Native PDF |  Java OutOfMemoryError treedt op bij het publiceren van grote inhoud. (11789)
 - Native PDF | Xref drukt de inhoud van href onderwerptitel in plaats van het etiket Xref. (11322)
 - Native PDF | Kan de sjablooninstellingen voor PDF niet opslaan. 10751
 - Native PDF | De tekst breidt zich voorbij de kolombreedte uit bij het opnemen van meerdere Xrefs. 10876
-- Native PDF | `<note>``</note>` element genereert geen extra bereiktitel van het type. 10549
-- JSON-uitvoer | De `fmUuid` eigenschap op het JCr:content-knooppunt van JSON verschilt van de &quot;id&quot; in de JSON. 11564
+- Native PDF | `<note>``</note>` -element genereert geen extra bereiktitel van het type. 10549
+- JSON-uitvoer | De eigenschap `fmUuid` op het knooppunt jcr:content van JSON verschilt van de eigenschap &quot;id&quot; in de JSON. 11564
 - JSON-uitvoer | Als de kaart en het onderwerp met zelfde filename aanwezig zijn, wordt JSON voor de kaart verwijderd. 11524
 
 ## Bekend probleem
 
-Adobe heeft het volgende bekende probleem voor AEM versie 4.3.0 van de gidsen geïdentificeerd:
+Adobe heeft het volgende bekende probleem voor AEM Guides 4.3.0-release geïdentificeerd:
 
 - De algemene pagina-indeling die in de sjabloon Standaard is gedefinieerd, wordt niet als standaardsjabloon toegepast.
 
-  Oplossing: voeg de algemene paginalay-out toe als voorblad en achteromslag en dan begint deze voor elke pagina te komen.
+  Oplossing:
+Voeg de algemene paginalay-out toe als vooromslag en achteromslag dan begint het voor elke pagina te komen.
 - Het probleem doet zich voor in Sitezoekopdrachten terwijl u op de pagina AEM site-uitvoer op AEM Service Pack 16 of 17 zoekt.
 
   Oplossing:

@@ -25,10 +25,10 @@ In deze sessie krijgt u waardevolle inzichten in het publiceren van Native PDF, 
 
 ## Hooglichten
 
-- **Datum** - 7 september 2023
-- **Aantal deelnemers** - 65
+- **Datum** - 7 September, 2023
+- **Aantal aanwezigen** - 65
 - **Duur** - 75 minuten
-- **Publiek** - Klanten, partners en Adoben
+- **Publiek** - Klanten, partners, en de werknemers van de Adobe
 
 ## Toetsen
 
@@ -48,25 +48,25 @@ In deze sessie hebt u het volgende geleerd voor het publiceren van Native PDF:
 
 ## Gerelateerde bronnen
 
-- **Instellingstappen van native PDF** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.html?lang=en)
+- **Inheemse de opstellingsstappen van PDF** - [ Experience League ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.html?lang=en)
 
-- **Functioneel overzicht van publicaties van Native PDF** - [over Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23.html?lang=en)
+- **Functioneel overzicht van het Native PDF publiceren** - [ op Experience League ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23.html?lang=en)
 
-- **Gedocumenteerde gevallen van veelvuldig gebruik** - [over Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/content-styles/stylesheet.html?lang=en)
+- **Gedocumenteerde gemeenschappelijke gebruiksgevallen** - [ op Experience League ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/content-styles/stylesheet.html?lang=en)
 
-- **Forum van de Gemeenschap** - Voor sessiespecifieke community-interacties over Experience League gaat u naar  [Forum met AEM hulplijnen](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Communautair Forum** - voor zitting-specifieke communautaire interactie over Experience League, bezoek [ het Forum van AEM Guides ](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
-> De functies die in deze sessie worden weergegeven, zijn beschikbaar in de volgende versies van AEM hulplijnen:
+> De functies die in deze sessie worden getoond, zijn beschikbaar in de volgende versies van AEM Guides:
 > - On-prem 4.2 of hoger
 > - Cloud Servicen 2309 en hoger
 
 ## Volgende sessie met experts
 
-- **Onderwerp** - Guides Extension Framework
-- **Gepland op** - 2 nov. 2023
+- **Onderwerp** - het Kader van de Uitbreiding van gidsen
+- **Gepland op** - 2 Nov 2023
 
 ## Contact opnemen
 
-Stuur ons voor alle vragen een e-mail op <techcomm@adobe.com>
+Stuur ons een e-mail op <techcomm@adobe.com> voor alle vragen

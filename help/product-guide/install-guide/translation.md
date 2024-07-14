@@ -1,5 +1,5 @@
 ---
-title: Inhoud vertalen in AEM hulplijnen
+title: Inhoud vertalen in AEM Guides
 description: Leer hoe u inhoud kunt vertalen
 exl-id: 0d3a909c-3499-4ef4-b033-02e412dae959
 feature: Translation
@@ -23,24 +23,24 @@ Automatiseer de vertaling van pagina-inhoud, elementen en door de gebruiker gege
 
 Voor het vertalen van inhoud worden de volgende stappen uitgevoerd:
 
-1. AEM verbinden met uw [vertaalserviceprovider](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider) en maken [configuraties van het framework voor vertaalintegratie](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration).
+1. Verbind AEM met uw [ leverancier van de vertaaldienst ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider) en creeer [ configuraties van het kader van de vertaalintegratie ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration).
 
-1. Koppel de pagina&#39;s van uw taalstramien aan de [vertaalservice en frameworkconfiguraties](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation).
+1. Koppel de pagina&#39;s van uw taalmeester met de [ vertaaldienst en kaderconfiguraties ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation).
 
-1. Het type van [te vertalen inhoud](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-rules.html).
+1. Identificeer het type van [ te vertalen inhoud ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-rules.html).
 
-1. [De inhoud voorbereiden voor vertaling](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-prep.html) door het taalstramien te ontwerpen en de basispagina&#39;s van taalkopieën te maken.
+1. [ bereidt de inhoud voor vertaling ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-prep.html) voor door de taalmeester te ontwerpen en de wortelpagina&#39;s van taalexemplaren te creëren.
 
-1. Maken [vertaalprojecten](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html) de te vertalen inhoud te verzamelen en het vertaalproces voor te bereiden.
+1. Creeer [ vertaalprojecten ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html) om de inhoud te verzamelen om te vertalen en het vertaalproces voor te bereiden.
 
-1. Gebruik de vertaalprojecten om [de vertaling van de inhoud beheren](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html) proces.
+1. Gebruik de vertaalprojecten om [ het proces van de inhoudsomzetting ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html) te beheren.
 
 
 Wanneer uw vertaalservicebureau geen aansluiting voor integratie met AEM biedt, ondersteunt AEM het handmatig exporteren en importeren van vertaalde inhoud in XML-indeling.
 
 >[!TIP]
 >
-> Zie de *Vertaling* Zie het gedeelte in de handleiding met aanbevolen procedures voor tips en trucs voor het vertalen van inhoud.
+> Zie de *sectie van de Vertaling* in de Beste praktijken gids voor beste praktijken rond het vertalen van inhoud.
 
 ## Het tabblad Vertaling op het dashboard voor de DITA-kaart configureren
 
@@ -54,15 +54,15 @@ De optie van het Lusje van de Vertaling van de Huid wordt niet toegelaten door g
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Zoeken naar en klikken op de knop **com.adobe.fmdita.config.ConfigManager** bundel.
+1. Onderzoek naar en klik op **com.adobe.fmdita.config.ConfigManager** bundel.
 
-1. Selecteer de **Tabblad Vertaling verbergen** om het tabblad Vertalen op het kaartdashboard te verbergen.
+1. Selecteer de **optie van het Lusje van de Vertaling van de Huid**, om het vertaallusje op het kaartdashboard te verbergen.
 
    >[!NOTE]
    >
    > Deze eigenschap is standaard uitgeschakeld en het tabblad Vertalen is beschikbaar op het kaartdashboard.
 
-1. Klikken **Opslaan**.
+1. Klik **sparen**.
 
 ## Op componenten gebaseerde vertaalworkflow configureren
 
@@ -78,19 +78,19 @@ Op basis van de vertaalworkflow die in uw installatie wordt gebruikt, moet de op
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Zoeken naar en klikken op de knop **com.adobe.fmdita.config.ConfigManager** bundel.
+1. Onderzoek naar en klik op **com.adobe.fmdita.config.ConfigManager** bundel.
 
-1. Vorm **Op componenten gebaseerde DITA-omzettingsworkflow** -optie volgens uw instellingen:
+1. Vorm de **Component-Gebaseerde optie van het Werkschema van de Vertaling DITA** zoals per uw opstelling:
 
-   - Als u menselijke vertaling gebruikt, dan *Uitschakelen* de **Workflow voor op componenten gebaseerde omzetting** -optie.
+   - Als u menselijke vertaling gebruikt, dan *maak* **op component-Gebaseerde optie van het Vertaalwerkschema** onbruikbaar.
 
-   - Als u automatische vertaling gebruikt, dan *Inschakelen* de **Workflow voor op componenten gebaseerde omzetting** -optie.
+   - Als u machinevertaling gebruikt, dan *laat* toe de **op component-Gebaseerde optie van het Vertaalwerkschema**.
 
    >[!NOTE]
    >
-   > Als u vertaalschakelaar gebruikt, dan zorg ervoor dat u de schakelaar hebt gevormd zoals die in wordt beschreven *[Het Kader voor de Integratie van de Vertaling vormen](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html)* onderwerp in AEM documentatie.
+   > Als u vertaalschakelaar gebruikt, dan zorg ervoor dat u de schakelaar zoals die in *[wordt beschreven vormend het Kader van de Integratie van de Vertaling ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html)* onderwerp in AEM documentatie hebt gevormd.
 
-1. Klikken **Opslaan**.
+1. Klik **sparen**.
 
 <!---
 
@@ -143,12 +143,12 @@ De optie voor naverwerken van tijdelijke bestanden is standaard uitgeschakeld. U
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Zoeken naar en klikken op de knop **com.adobe.fmdita.config.ConfigManager** bundel.
+1. Onderzoek naar en klik op **com.adobe.fmdita.config.ConfigManager** bundel.
 
-1. Vorm **Na het proces gemaakte taalkopieën** -optie volgens uw instellingen:
+1. Vorm de **Post-proces taalexemplaren** optie zoals per uw opstelling:
 
-   - \(*Standaard*\) Als u de nabewerking niet wilt uitvoeren op de tijdelijke bestanden, dan *Uitschakelen* de **Na het proces gemaakte taalkopieën** -optie.
+   - \ (*Gebrek* \) als u niet de post-verwerkingsverrichting op de tijdelijke dossiers wilt in werking stellen, dan *maak* de **Post-procestaalexemplaren** optie onbruikbaar.
 
-   - Als u de naverwerkingsbewerking wilt uitvoeren op de tijdelijke bestanden, *Inschakelen* de **Na het proces gemaakte taalkopieën** -optie.
+   - Als u de post-verwerkingsverrichting op de tijdelijke dossiers wilt in werking stellen, dan *laat* de **Post-procestaalexemplaren** optie toe.
 
-1. Klikken **Opslaan**.
+1. Klik **sparen**.

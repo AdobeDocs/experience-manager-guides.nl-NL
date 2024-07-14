@@ -1,6 +1,6 @@
 ---
-title: Hoe AEM hulplijnen werken
-description: Leer hoe AEM gidsen met AEM en andere redacteurs DITA werken om inhoudsbeheer, hergebruik, vertaling, en overzicht in een ondernemingsscenario te machtigen.
+title: Hoe AEM Guides werkt
+description: Leer hoe AEM Guides met AEM en andere DITA-editors werkt om contentbeheer, hergebruik, vertaling en revisie in een bedrijfsscenario in te schakelen.
 exl-id: 7c76fa01-63dc-4017-af15-c1e62b1849d1
 feature: Introduction
 role: User
@@ -11,11 +11,11 @@ ht-degree: 0%
 
 ---
 
-# Hoe AEM hulplijnen werken {#id167G9A00DO4}
+# Hoe AEM Guides werkt {#id167G9A00DO4}
 
-Het volgende diagram illustreert hoe AEM Gidsen met AEM en om het even welke redacteur DITA werken om inhoudsbeheer, hergebruik, vertaling, en overzicht in een ondernemingsscenario toe te laten.
+In het volgende diagram ziet u hoe AEM Guides met AEM en een DITA-editor werkt om contentbeheer, hergebruik, vertaling en revisie in een ondernemingsscenario mogelijk te maken.
 
 ![](images/xml-add-on-how-it-works.png){width="800" align="center"}
 
 
-**Bovenliggend onderwerp:**[ Informatie over as a Cloud Service Adobe Experience Manager-hulplijnen](intro.md)
+**Bovenliggend onderwerp:**[ Ongeveer as a Cloud Service Adobe Experience Manager Guides ](intro.md)

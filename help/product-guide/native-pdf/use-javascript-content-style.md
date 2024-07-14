@@ -1,5 +1,5 @@
 ---
-title: Native PDF-publicatiefunctie | JavaScript gebruiken om met inhoud of stijl te werken
+title: Native PDF Publish-functie | JavaScript gebruiken om te werken met inhoud of stijl
 description: Leer hoe u gebruiksstijlen maakt en stijlen voor uw inhoud maakt.
 exl-id: 2f301f6a-0d1c-4194-84c2-0fddaef8d3ec
 feature: Output Generation
@@ -12,14 +12,14 @@ ht-degree: 0%
 
 ---
 
-# JavaScript gebruiken om met inhoud of stijl te werken
+# JavaScript gebruiken om te werken met inhoud of stijl
 
-Met de functie Native PDF Publishing kunt u JavaScript uitvoeren om de inhoud of stijl die op de inhoud is toegepast, te bewerken voordat de uiteindelijke PDF wordt gegenereerd. Met deze functie hebt u volledige controle over de manier waarop de uiteindelijke uitvoer wordt gegenereerd. U kunt bijvoorbeeld informatie over juridische kennisgevingen toevoegen aan de uitvoer van de PDF, die zich in een andere PDF bevindt. Met JavaScript kunt u de informatie over de juridische kennisgeving toevoegen zodra de PDF voor de basisinhoud is gemaakt, maar voordat de laatste PDF wordt gegenereerd.\
-De functie Native PDF Publishing biedt u de volgende callback-functies om JavaScript-uitvoering te ondersteunen:
+Met de functie Native PDF Publishing kunt u JavaScript uitvoeren om de inhoud of stijl die op de inhoud is toegepast, te bewerken voordat de definitieve PDF wordt gegenereerd. Met deze functie hebt u volledige controle over de manier waarop de uiteindelijke uitvoer wordt gegenereerd. U kunt bijvoorbeeld informatie over juridische kennisgevingen toevoegen aan de uitvoer van de PDF, die zich in een andere PDF bevindt. Met JavaScript kunt u de informatie over de juridische kennisgeving toevoegen zodra de PDF is gemaakt voor de basisinhoud, maar voordat de laatste PDF wordt gegenereerd.\
+Ter ondersteuning van JavaScript-uitvoering biedt de functie Native PDF publiceren u de volgende callback-functies:
 
-* `window.pdfLayout.onBeforeCreateTOC(callback)`: Deze callback-functie wordt uitgevoerd voordat de inhoudsopgave wordt gegenereerd.
-* `window.pdfLayout.onBeforePagination(callback)`: Deze callback-functie wordt uitgevoerd nadat de inhoudsopgave is gegenereerd, maar voordat pagina-einden in de PDF worden toegevoegd.
-* `window.pdfLayout.onAfterPagination(callback)`: Deze callback-functie wordt uitgevoerd na de inhoudsopgave en de pagina-einden worden toegevoegd aan de PDF.
+* `window.pdfLayout.onBeforeCreateTOC(callback)`: deze callback functie wordt uitgevoerd voordat de inhoudsopgave wordt gegenereerd.
+* `window.pdfLayout.onBeforePagination(callback)`: deze callback functie wordt uitgevoerd nadat de inhoudsopgave is gegenereerd, maar voordat pagina-einden in de PDF worden toegevoegd.
+* `window.pdfLayout.onAfterPagination(callback)`: deze callback functie wordt uitgevoerd na de inhoudsopgave en de pagina-einden worden toegevoegd aan de PDF.
 
 >[!NOTE]
 >
@@ -27,11 +27,11 @@ De functie Native PDF Publishing biedt u de volgende callback-functies om JavaSc
 
 Op basis van het type inhoud of stijlwijziging dat u wilt uitvoeren, kunt u kiezen welke callback-functie u wilt gebruiken. Als u bijvoorbeeld inhoud wilt toevoegen, is het raadzaam dit te doen voordat de inhoudsopgave wordt gegenereerd. En als u bepaalde stijleffouten wilt maken, kunt u die voor of na de paginering uitvoeren.
 
-In het volgende voorbeeld wordt de positie van de figuurtitels gewijzigd van boven naar onder de afbeeldingen naar onder de afbeeldingen. Hiervoor moet u de optie JavaScript-uitvoering inschakelen in de voorinstelling. Voer hiertoe de volgende stappen uit:
+In het volgende voorbeeld wordt de positie van de figuurtitels gewijzigd van boven naar onder de afbeeldingen naar onder de afbeeldingen. Hiervoor moet u de JavaScript-uitvoeringsoptie inschakelen in de voorinstelling. Voer hiertoe de volgende stappen uit:
 
 1. Open de voorinstelling voor bewerken.
-1. Ga naar de **Geavanceerd** tab.
-1. Selecteer de **JavaScript inschakelen** -optie.
+1. Ga naar **Geavanceerd** tabel.
+1. Selecteer **toelaten JavaScript** optie.
 1. Sla de voorinstelling op en sluit deze.
 
 Maak vervolgens een JavaScript-bestand met de volgende code en sla dit op in de map Resources van de sjabloon:
@@ -63,9 +63,9 @@ window.addEventListener('DOMContentLoaded', function () {
 
 >[!NOTE]
 >
->De `window.addEventListener('DOMContentLoaded', function ()` Deze functie moet worden aangeroepen voordat de callback-functies worden gebruikt.
+>De functie `window.addEventListener('DOMContentLoaded', function ()` moet worden aangeroepen voordat de callback-functies worden gebruikt.
 
-Vervolgens moet dit script worden aangeroepen vanuit een sjabloonbestand dat wordt gebruikt om de PDF-uitvoer te genereren. Voor ons voorbeeld, zullen wij het in het malplaatje van TOC toevoegen. Zorg ervoor dat de `<script>` -tag wordt toegevoegd binnen een vooraf gedefinieerde `<div>` tag in de `<body>` -tag. Als u deze in het dialoogvenster `<head>` of buiten de `<body>` -tag, wordt het script niet uitgevoerd.
+Vervolgens moet dit script worden aangeroepen vanuit een sjabloonbestand dat wordt gebruikt om de PDF-uitvoer te genereren. Voor ons voorbeeld, zullen wij het in het malplaatje van TOC toevoegen. Zorg ervoor dat de tag `<script>` wordt toegevoegd binnen een vooraf gedefinieerde tag `<div>` binnen de tag `<body>` . Als u het script toevoegt in de tag `<head>` of buiten de tag `<body>` , wordt het script niet uitgevoerd.
 
 <img src="./assets/js-added-resources-template.png" width="500">
 
@@ -101,6 +101,6 @@ window.addEventListener('DOMContentLoaded', function () {
 ...
 ```
 
-De uitvoer van de PDF die met deze code wordt gegenereerd, geeft een watermerk weer *Concept* op de voorpagina van uw document:
+De PDF output die gebruikend deze code wordt geproduceerd toont een watermerk *Concept* op de omslagpagina van uw document:
 
 <img src="./assets/draft-watermark.png" width="500">

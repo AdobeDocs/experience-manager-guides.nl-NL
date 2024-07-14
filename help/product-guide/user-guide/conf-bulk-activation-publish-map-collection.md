@@ -1,6 +1,6 @@
 ---
 title: Uitvoer activeren
-description: De uitvoer van DITA-kaarten in AEM hulplijnen activeren. Leer hoe u uw inhoud activeert op het publicatieexemplaar.
+description: De uitvoer van DITA-kaarten activeren in AEM Guides. Leer hoe u uw inhoud activeert op het publicatieexemplaar.
 exl-id: 4da644b9-8c5f-4976-a212-960085b693b8
 feature: Publishing, Bulk Activation
 role: User
@@ -15,19 +15,19 @@ ht-degree: 0%
 
 Nadat u een kaartverzameling hebt gemaakt voor bulkactivering, bestaat de volgende stap uit het activeren van uw inhoud op de publicatieinstantie. Voer de volgende stappen uit om uw inhoud te activeren:
 
-1. Selecteren **Hulplijnen** in de lijst met gereedschappen.
+1. Selecteer **Gidsen** van de lijst van hulpmiddelen.
 
-1. Klik op de Adobe Experience Manager-koppeling bovenaan en kies **Gereedschappen**.
+1. Klik op de verbinding van Adobe Experience Manager bij de bovenkant en kies **Hulpmiddelen**.
 
-1. Klik op de knop **Bulk publicatiedashboard** tegel.
+1. Klik op het **Bulk Publish Dashboard** tegel.
 
    Er wordt een lijst met bulkactiveringskaartverzamelingen weergegeven.
 
-1. Selecteer de verzameling die u wilt publiceren en klik op **Openen**.
+1. Selecteer de inzameling die u wilt publiceren en **Open** klikken.
 
    ![](images/bulk-activation-collection-open.png){width="800" align="left"}
 
-1. \(*Optioneel*\) Pas de vereiste filters van de linkerspoorstaaf toe om filterkaart op basis van hun gewijzigde \ (status \), output vooraf ingesteld, of taal te filtreren.
+1. \ (*Facultatief* \) past de vereiste filters van de linkerspoorstaaf op filterkaart op basis van hun gewijzigde \ (status \), output vooraf ingesteld, of taal toe.
 
    >[!NOTE]
    >
@@ -39,21 +39,21 @@ Bekijk de verschillende manieren om uw inzameling te activeren die op uw opstell
 <details>
 <summary> Cloud Servicen </summary>
 
-![bulksgewijs publiceren op cloudservice](images/bulk-activation-collection-quick-publish-CS.png){width="650" align="left"}
+![ bulksgewijs-inzameling-publiceert op de wolkendienst ](images/bulk-activation-collection-quick-publish-CS.png){width="650" align="left"}
 
-U kunt de uitvoer activeren naar de **Voorvertoning** of **Publiceren** instanties.
+U kunt de output aan de **Voorproef** of **Publish** instanties activeren.
 
-**Voorvertoning**
+**Voorproef**
 
-* Als u de uitvoer van geselecteerde kaarten wilt activeren, selecteert u de vooraf gegenereerde kaartuitvoer en selecteert u **Publiceren naar** > **Voorvertoning**.
-* Als u de uitvoer van alle DITA-kaarten met de geconfigureerde voorinstellingen wilt activeren, schakelt u het selectievakje naast de optie **Kaart** kolom, en selecteer dan **Publiceren naar** > **Publiceren**.
+* Om de output van geselecteerde kaarten te activeren, selecteer de vooraf geproduceerde kaartoutput en selecteer **Publish aan** > **Voorproef**.
+* Om de output van alle kaarten DITA met hun gevormde voorinstellingen te activeren, selecteer checkbox naast de **Kaart** kolom, en selecteer dan **Publish aan** > **Publish**.
 
 
-**Publiceren**
+**Publish**
 
-* Als u de uitvoer van geselecteerde kaarten wilt activeren, selecteert u de vooraf gegenereerde kaartuitvoer en selecteert u **Publiceren naar** > **Publiceren**.
+* Om de output van geselecteerde kaarten te activeren, selecteer de vooraf geproduceerde kaartoutput en selecteer **Publish aan** > **Publish**.
 
-* Om de output van alle kaarten DITA met hun gevormde voorinstellingen te activeren, checkbox naast de Kaart (kolom), en dan te selecteren **Publiceren naar** > **Publiceren**.
+* Om de output van alle kaarten DITA met hun gevormde voorinstellingen te activeren, selecteer checkbox naast de Kaart (kolom), en selecteer dan **Publish aan** > **Publish**.
 
 
 >[!NOTE]
@@ -62,7 +62,7 @@ U kunt de uitvoer activeren naar de **Voorvertoning** of **Publiceren** instanti
 
 Er wordt een succesbericht weergegeven wanneer de kaartuitvoer in een wachtrij wordt geplaatst voor publicatie.
 
-Nadat de uitvoer voor de geselecteerde kaartbestanden is geactiveerd, wordt het tabblad voor de auditgeschiedenis bijgewerkt en wordt de meest recente geactiveerde uitvoer bovenaan weergegeven. De **Gepubliceerd** wordt bijgewerkt met de publicatiedatum en -tijd.
+Nadat de uitvoer voor de geselecteerde kaartbestanden is geactiveerd, wordt het tabblad voor de auditgeschiedenis bijgewerkt en wordt de meest recente geactiveerde uitvoer bovenaan weergegeven. De **Gepubliceerde** kolom wordt bijgewerkt met de het publiceren datum en tijd.
 
 </details>
 
@@ -72,9 +72,9 @@ Nadat de uitvoer voor de geselecteerde kaartbestanden is geactiveerd, wordt het 
 
 Voer een van de volgende handelingen uit:
 
-* Als u de uitvoer van geselecteerde kaarten wilt activeren, selecteert u de vooraf gegenereerde kaartuitvoer en selecteert u **Snel publiceren**.
-* Om de output van alle kaarten DITA met hun gevormde voorinstellingen te activeren, checkbox naast de Kaart (kolom), en dan te selecteren **Snel publiceren.**
-  ![bulkcollectie-publish](images/bulk-activation-collection-quick-publish.png){width="650" align="left"}
+* Om de output van geselecteerde kaarten te activeren, selecteer de vooraf geproduceerde kaartoutput en selecteer **Snelle Publish**.
+* Om de output van alle kaarten DITA met hun gevormde voorinstellingen te activeren, selecteer checkbox naast de Kaart (kolom), en selecteer dan **Snelle Publish.**
+  ![ bulk-inzameling-publiceer ](images/bulk-activation-collection-quick-publish.png){width="650" align="left"}
 
   >[!NOTE]
   > 
@@ -83,6 +83,6 @@ Voer een van de volgende handelingen uit:
 
 Er wordt een succesbericht weergegeven wanneer de kaartuitvoer in een wachtrij wordt geplaatst voor publicatie.
 
-Nadat de uitvoer voor de geselecteerde kaartbestanden is geactiveerd, wordt het tabblad voor de auditgeschiedenis bijgewerkt en wordt de meest recente geactiveerde uitvoer bovenaan weergegeven. De **Gepubliceerd** wordt bijgewerkt met de publicatiedatum en -tijd.
+Nadat de uitvoer voor de geselecteerde kaartbestanden is geactiveerd, wordt het tabblad voor de auditgeschiedenis bijgewerkt en wordt de meest recente geactiveerde uitvoer bovenaan weergegeven. De **Gepubliceerde** kolom wordt bijgewerkt met de het publiceren datum en tijd.
 
-**Bovenliggend onderwerp: **[Bulkactivering van gepubliceerde inhoud](conf-bulk-activation.md)
+**Bovenliggend onderwerp: **[ Bulk Activering van gepubliceerde inhoud ](conf-bulk-activation.md)

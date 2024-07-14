@@ -26,15 +26,15 @@ Voer de volgende stappen uit om automatisch de op UUID gebaseerde bestandsnaam t
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Zoeken naar en klikken op de knop *com.adobe.fmdita.xmleditor.config.XmlEditorConfig* bundel.
+1. Onderzoek naar en klik op *com.adobe.fmdita.xmleditor.config.XmlEditorConfig* bundel.
 
-1. Selecteer de **Systeembestandsnamen op basis van UUID gebruiken** -optie.
+1. Selecteer de **optie van de Bestandsnamen van het Systeem UUID Gebaseerde van het Gebruik**.
 
-1. Klikken **Opslaan**.
+1. Klik **sparen**.
 
 
 >[!NOTE]
 >
-> Deze optie is standaard uitgeschakeld. Als deze optie is ingeschakeld, zien auteurs niet de optie om de bestandsnaam op te geven tijdens het maken van een nieuw onderwerp- of kaartbestand. Een nieuw onderwerp of kaartdossier kan van de Activa UI en de Redacteur van het Web worden gecreeerd.
+> Deze optie is standaard uitgeschakeld. Als deze optie is ingeschakeld, zien auteurs niet de optie om de bestandsnaam op te geven tijdens het maken van een nieuw onderwerp- of kaartbestand. Een nieuw onderwerp of kaartdossier kan van Assets UI en de Redacteur van het Web worden gecreeerd.
 
-**Bovenliggend onderwerp:**[ Bestandsnamen configureren](conf-file-names.md)
+**Bovenliggend onderwerp:**[ vorm filenames ](conf-file-names.md)

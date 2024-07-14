@@ -11,23 +11,23 @@ ht-degree: 4%
 
 ---
 
-# AEM Publishing Benchmarks op AEMaaCS
+# AEM Guides Publishing Benchmarks op AEMaaCS
 
-AEM de cloud-service Hulplijnen kent momenteel een aantal beperkingen voor het publiceren van kaartgrootten die het team van hulplijnen actief moet oplossen.
+De AEM Guides-cloudservice kent momenteel enkele limieten voor het publiceren van kaartgrootten die het team van hulplijnen actief probeert op te lossen.
 
-Het team van gidsen heeft een scalable het publiceren microservice geïntroduceerd om grote kaarten en veelvoudige gezamenlijke het publiceren te steunen. Meer informatie over de nieuwe publiceer microservice vindt u in [publicatie microservicearchitectuur](publish-microservice-architecture-and-performance.md)
+Het team van gidsen heeft een scalable het publiceren microservice geïntroduceerd om grote kaarten en veelvoudige gezamenlijke het publiceren te steunen. Meer over nieuw leren publiceert microservice verwijs [ het publiceren microservice architectuur ](publish-microservice-architecture-and-performance.md)
 
-Zie voor het configureren van de nieuwe publicatieservice voor elke AEM cloudomgeving [configureren van nieuwe op microservice gebaseerde publicaties](configure-microservices.md)
+Om de nieuwe het publiceren dienst voor om het even welk AEM wolkenmilieu te vormen verwijs [ nieuwe op microservice-gebaseerde het publiceren ](configure-microservices.md) vormen
 
 
 ## Uitvoeromgeving
 
-    AEM: 2023.5.1983.20230511T173830Z
-    Handleiding bij loslaten: 2023.6.0
-    Sjabloon site AEM: AEM OOTB-sjabloon voor hulplijnen
-    DITA-OT-versie: 3.5.4
-    Type publicatieworkflow: Gesplitste publicatieworkflow
-    Uitvoer ondersteund door microservice: Native PDF, PDF (Dita-OT)
+     AEM Versie: 2023.5.11983.20230511T173830Z 
+     Gids voegt op Versie toe: 2023.6.0 
+     AEM het Malplaatje van de Plaats: AEM Guides OTB malplaatje 
+     DITA-OT versie: 3.5.5 4 
+     het Type van Werkschema van Publish: Splitste Publish Werkschema 
+     Output die door microservice wordt gesteund: Inheemse PDF, PDF (Dita-OT) 
 
 ## Productienummers uitvoer
 

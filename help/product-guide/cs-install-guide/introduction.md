@@ -14,13 +14,13 @@ ht-degree: 2%
 
 # Over deze handleiding {#id175MC0P0S5Z}
 
-Adobe Experience Manager-hulplijnen \(later doorverwezen naar *Hulplijnen AEM*\) is een krachtige, cloudgebaseerde oplossing voor contentbeheer voor onderdelen op bedrijfsniveau \(CCMS\). Het maakt native DITA-ondersteuning in Adobe Experience Manager mogelijk en biedt AEM de mogelijkheid om op DITA gebaseerde inhoud te maken en te leveren. Het machtigt auteurs om inhoud tot stand te brengen gebruikend makkelijk te gebruiken ingebouwde Redacteur van het Web en het te publiceren in diverse outputformaten.
+Adobe Experience Manager Guides \ (later die als *wordt bedoeld AEM Guides* \) is een krachtige, op wolk-gebaseerde oplossing van het de componentenbeheer van ondernemingsniveau \ (CCMS \). Het maakt native DITA-ondersteuning in Adobe Experience Manager mogelijk en biedt AEM de mogelijkheid om op DITA gebaseerde inhoud te maken en te leveren. Het machtigt auteurs om inhoud tot stand te brengen gebruikend makkelijk te gebruiken ingebouwde Redacteur van het Web en het te publiceren in diverse outputformaten.
 
-Deze handleiding bevat de instructies voor het downloaden, installeren en configureren van AEM hulplijnen. In deze handleiding vindt u gedetailleerde instructies voor het instellen AEM hulplijnen op basis van de vereisten voor het ontwerpen en publiceren van uw organisatie.
+Deze handleiding bevat de instructies voor het downloaden, installeren en configureren van AEM Guides. In deze handleiding vindt u gedetailleerde instructies voor het instellen van AEM Guides op basis van uw behoeften op het gebied van ontwerpen en publiceren voor organisaties.
 
 Deze handleiding is bedoeld voor het volgende type publiek:
 
-- Beheerders, die AEM hulplijnen zouden installeren en beheren.
+- Beheerders, die AEM Guides zouden installeren en beheren.
 
 - Uitgevers, die de publicatietaak zouden uitvoeren om uitvoer in verschillende indelingen te genereren.
 
@@ -29,53 +29,53 @@ Deze handleiding is bedoeld voor het volgende type publiek:
 
 De informatie in deze handleiding is als volgt geordend:
 
-- [Over deze handleiding](#id175MC0P0S5Z): Dit onderwerp biedt een inleiding tot deze handleiding, het beoogde publiek en de manier waarop de informatie in deze handleiding is georganiseerd.
+- [ Ongeveer deze gids ](#id175MC0P0S5Z): Dit onderwerp verstrekt een inleiding aan deze gids, voorgenomen publiek, en hoe de informatie in deze gids wordt georganiseerd.
 
-- [Downloaden en installeren](download-install.md#): In dit onderwerp wordt beschreven hoe u AEM hulplijnen kunt downloaden, installeren of upgraden.
+- [ Download en installeer ](download-install.md#): Dit onderwerp beschrijft om, AEM Guides te downloaden te installeren of te bevorderen.
 
-- [Beheer en beveiliging van gebruikers](user-admin-sec.md#): Dit onderwerp beschrijft het kernconcept gebruikers en authentificatie in AEM en de standaardgebruikersgroepen die door AEM Gidsen worden gecreeerd.
+- [ beleid van de Gebruiker en veiligheid ](user-admin-sec.md#): Dit onderwerp beschrijft het kernconcept gebruikers en authentificatie in AEM en de standaardgebruikersgroepen die door AEM Guides worden gecreeerd.
 
-- [Aangepaste DITA-OT en DITA-specialisatie gebruiken](dita-ot-specialization.md#): Dit onderwerp verklaart hoe te om douaneDITA-OT stop-ins te vormen en specialisatie te gebruiken DITA.
+- [ specialisatie DITA-OT van het Gebruik en DITA ](dita-ot-specialization.md#): Dit onderwerp verklaart hoe te om douaneDITA-OT stop-ins te vormen en specialisatie te gebruiken DITA.
 
-- [Documentstatussen configureren](customize-doc-state.md#): Dit onderwerp verklaart hoe te om douanestatus voor uw documenten te vormen DITA.
+- [ vorm documentstaten ](customize-doc-state.md#): Dit onderwerp verklaart hoe te om douanestatus voor uw documenten te vormen DITA.
 
-- [Bestaande inhoud migreren](migrate-content.md#): In dit onderwerp wordt beschreven hoe u uw bestaande inhoud in AEM opslagplaats aan boord kunt nemen.
+- [ migreer bestaande inhoud ](migrate-content.md#): Dit onderwerp beschrijft hoe te aan boord uw bestaande inhoud op AEM bewaarplaats.
 
-- [Bestandsnamen configureren](conf-file-names.md#): In dit onderwerp wordt uitgelegd hoe u instellingen configureert om automatisch bestandsnamen toe te wijzen en een regex voor geldige bestandsnaamtekens te definiëren.
+- [ vorm filenames ](conf-file-names.md#): Dit onderwerp verklaart hoe te om het plaatsen te vormen om dossiernamen automatisch toe te wijzen en een regex voor geldige dossier te bepalen - noem karakters.
 
-- [Onderwerp- en kaartsjablonen configureren](conf-template-tags.md#): Dit onderwerp beschrijft hoe te om onderwerp en kaartmalplaatjes te vormen om aan uw auteursbehoeften te voldoen. Leer over het etiketteren van systeem in AEM en hoe te om markeringen te vormen om met AEM Gidsen te werken.
+- [ vorm onderwerp en kaartmalplaatjes ](conf-template-tags.md#): Dit onderwerp beschrijft hoe te om onderwerp en kaartmalplaatjes te vormen om aan uw auteursbehoeften te voldoen. Leer hoe u het systeem in AEM kunt labelen en hoe u tags kunt configureren voor gebruik met AEM Guides.
 
-- [Webeditor aanpassen](conf-web-editor.md#): Dit onderwerp verklaart de diverse aanpassingen die u in de Redacteur van het Web kunt maken om zijn functionaliteit te verbeteren.
+- [ pas de Redacteur van het Web ](conf-web-editor.md#) aan: Dit onderwerp verklaart de diverse aanpassingen die u in de Redacteur van het Web kunt maken om zijn functionaliteit te verbeteren.
 
-- [@navtitle-kenmerk standaard opnemen](auto-add-navtitle.md#): In dit onderwerp wordt uitgelegd hoe u het dialoogvenster `@navtitle` standaard verwijzen naar een referentiebestand in een kaart.
+- [ omvat @navtitle attributen door gebrek ](auto-add-navtitle.md#): Dit onderwerp verklaart hoe te om het `@navtitle` attribuut aan een verwijzingsdossier in een kaart toe te voegen door gebrek.
 
-- [Profielen op algemeen niveau of mapniveau configureren](conf-folder-level.md#): In dit onderwerp wordt uitgelegd hoe u mapprofielen maakt en machtigingen geeft aan specifieke gebruikers.
+- [ vorm globale of omslag-vlakke profielen ](conf-folder-level.md#): Dit onderwerp verklaart het proces om omslagprofielen tot stand te brengen en toestemmingen te geven aan specifieke gebruikers.
 
-- [Versiebeheer](version-management.md#): Dit onderwerp beschrijft hoe te om automatische dossiercontrole voor dossiers te vormen die voor het uitgeven in de Redacteur van het Web worden geopend.
+- [ het beheer van de Versie ](version-management.md#): Dit onderwerp beschrijft hoe te om automatische dossiercontrole voor dossiers te vormen die voor het uitgeven in de Redacteur van het Web worden geopend.
 
-- [Instellingen voor uitvoergeneratie configureren](conf-output-generation.md#): Dit onderwerp beschrijft de diverse configuraties die u kunt maken om het standaardproces van de outputgeneratie aan te passen.
+- [ vormt de montages van de outputgeneratie ](conf-output-generation.md#): Dit onderwerp beschrijft de diverse configuraties die u kunt maken om het proces van de standaardoutputgeneratie aan te passen.
 
-- [Workflows configureren en aanpassen](customize-workflows.md#): Dit onderwerp beschrijft diverse configuraties om de standaardwerkschema&#39;s aan te passen die in de Gidsen van de AEM worden verscheept.
+- [ vorm en pas werkschema&#39;s ](customize-workflows.md#) aan: Dit onderwerp beschrijft diverse configuraties om de standaardwerkschema&#39;s aan te passen die in AEM Guides worden verscheept.
 
-- [Inhoud vertalen](translation.md#): In dit onderwerp vindt u koppelingen naar de desbetreffende Help-artikelen in AEM documentatie, zodat u het vertaalframework kunt begrijpen en configureren. Leer ook hoe u op componenten gebaseerde vertaalworkflows kunt inschakelen.
+- [ vertaal inhoud ](translation.md#): Dit onderwerp verstrekt verbindingen aan de relevante artikelen van de Hulp in AEM documentatie om u te helpen het vertaalkader begrijpen en vormen. Leer ook hoe u op componenten gebaseerde vertaalworkflows kunt inschakelen.
 
-- [Zoeken naar gebruikersinterface van AEM Assets configureren](conf-dita-search.md#): Dit onderwerp beschrijft hoe te om DITA inhoudsonderzoek in Activa UI te vormen en uw douanekenmerken in onderzoek toe te voegen.
+- [ vorm onderzoek naar AEM Assets UI ](conf-dita-search.md#): Dit onderwerp beschrijft hoe te om DITA inhoudsonderzoek in Assets UI te vormen en uw douanekenmerken in onderzoek toe te voegen.
 
 
 ## Overzicht van Adobe Experience Manager \(AEM\)
 
-[Adobe Experience Manager \(AEM\)](https://business.adobe.com/products/experience-manager/adobe-experience-manager.html) is een uitgebreide oplossing voor inhoudsbeheer voor het bouwen van websites, mobiele apps en formulieren. AEM helpt u uw marketinginhoud en -middelen te beheren. AEM is as a Cloud Service beschikbaar. AEM as a Cloud Service helpt u uw klanten van gepersonaliseerde, inhoud-geleide ervaringen te voorzien door de macht van het systeem van het Beheer van de AEM met AEM Digitaal Middelenbeheer te combineren.Enkele belangrijkste middelen die u kunnen helpen om aan AEM as a Cloud Service worden begonnen en worden opgesteld zijn als volgt:
+[ Adobe Experience Manager \ (AEM \) ](https://business.adobe.com/products/experience-manager/adobe-experience-manager.html) is een uitvoerige oplossing van het inhoudsbeheer voor de bouw van websites, mobiele apps, en vormen. AEM helpt u uw marketinginhoud en -middelen te beheren. AEM is as a Cloud Service beschikbaar. Met AEM as a Cloud Service kunt u uw klanten voorzien van persoonlijke, contentgestuurde ervaringen door de kracht van het AEM Content Management System te combineren met AEM Digital Asset Management. Enkele belangrijke bronnen die u kunnen helpen om op AEM as a Cloud Service te starten en te implementeren zijn:
 
-- [as a Cloud Service overzicht Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html?lang=en)
-- [Aan de slag met de migratiereis om as a Cloud Service te AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/migration-journey/getting-started.html?lang=en)
-- [Aan boord gaan starten naar as a Cloud Service Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/home.html?lang=enhttps://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/home.html?lang=en)
+- [ as a Cloud Service Overzicht van de Experience Manager ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html?lang=en)
+- [ Begonnen het worden met de Weg van de Migratie aan AEM as a Cloud Service ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/migration-journey/getting-started.html?lang=en)
+- [ Begin op instapniveau aan Experience Manager as a Cloud Service ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/home.html?lang=enhttps://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/home.html?lang=en)
 - [Applicaties voor AEM as a Cloud Service implementeren](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/home.html?lang=en)
 - [Implementeren naar AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/overview.html?lang=en)
-- [As a Cloud Service hulplijn voor middelen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/home.html?lang=en)
+- [ as a Cloud Service Gids van Assets ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/home.html?lang=en)
 
 ## Aanvullende bronnen
 
-Hier volgt een lijst met andere nuttige bronnen van AEM hulplijnen, die beschikbaar zijn op de [Meer informatie en ondersteuning](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html) pagina:
+Na is een lijst van andere nuttige middelen van AEM Guides, die op [ ](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html) pagina Leren &amp; van de Steun beschikbaar zijn:
 
 - Handboek
 - API-naslaggids

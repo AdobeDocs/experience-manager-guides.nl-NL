@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # Bestaande DITA-inhoud uploaden {#id176FF000JUI}
 
-U hebt waarschijnlijk een opslagplaats voor bestaande DITA-inhoud die u wilt gebruiken met de AEM. Voor dergelijke bestaande inhoud kunt u de ondersteunde methoden gebruiken die worden beschreven in [Digitale middelen toevoegen aan Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html).
+U hebt waarschijnlijk een opslagplaats voor bestaande DITA-inhoud die u met de AEM Guides wilt gebruiken. Voor dergelijke bestaande inhoud, kunt u om het even welke gesteunde methodes gebruiken die in [ worden verklaard digitale activa aan Adobe Experience Manager as a Cloud Service Assets ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html) toevoegen.
 
 ## Patroon UUID-bestandsnaam configureren
 
 Wanneer u inhoud importeert, is het niet nodig dat de bestandsnamen worden gebaseerd op de UUID. In een systeem dat op UUID-Gebaseerde dossiernamen gebruikt, is het verplicht dat alle dossiers worden bedoeld gebruikend hun UUIDs eerder dan hun originele dossiernamen. Als een geïmporteerd bestand geen op UUID gebaseerde bestandsnamen heeft, kunt u het systeem zo configureren dat een UUID wordt toegevoegd aan de eigenschap file. Deze UUID wordt vervolgens gebruikt om te verwijzen naar bestanden waarin UUID niet wordt gebruikt voor het benoemen van de bestanden.
 
-Gebruik de instructies die worden gegeven in [Configuratieoverschrijvingen](download-install-additional-config-override.md#) om het configuratiebestand te maken. Geef in het configuratiebestand de volgende \(eigenschap\) gegevens op om het patroon van de UUID-bestandsnaam te configureren:
+Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](download-install-additional-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende \(eigenschap\) gegevens op om het patroon van de UUID-bestandsnaam te configureren:
 
 | PID | Eigenschappensleutel | Waarde van eigenschap |
 |---|------------|--------------|
@@ -30,7 +30,7 @@ Gebruik de instructies die worden gegeven in [Configuratieoverschrijvingen](down
 
 U kunt ook curl-opdrachten gebruiken om een map in DAM te maken, bestanden te uploaden en metagegevens toe te voegen aan de geüploade inhoud.
 
-**Een map maken**
+**creeer een omslag**
 
 Voer de volgende opdracht uit om een map in AEM opslagplaats te maken:
 
@@ -42,12 +42,12 @@ Geef de volgende parameters op om een map te maken:
 
 - `<username>:<passowrd>`: Geef de gebruikersnaam en het wachtwoord op voor toegang tot de AEM. Deze gebruiker moet over de rechten voor het maken van mappen beschikken.
 
-- `jcr:primaryType=sling:Folder`: Geef deze parameter op *ongewijzigd* om een bron van het omslagtype te creëren.
+- `jcr:primaryType=sling:Folder`: Specificeer deze parameter *zoals* is om een middel van het omslagtype tot stand te brengen.
 
-- `<server folder path>`: Volledig mappad inclusief de naam van de nieuwe map die u wilt maken in de AEM. Als u bijvoorbeeld het pad opgeeft als `http://192.168.1.1:4502/content/dam/projects/AEM-Guides`en vervolgens de map `AEM-Guides` wordt gemaakt in het dialoogvenster `projects` map in DAM.
+- `<server folder path>`: Volledig mappad inclusief de naam van de nieuwe map die u wilt maken in de AEM. Als u bijvoorbeeld het pad opgeeft als `http://192.168.1.1:4502/content/dam/projects/AEM-Guides` , wordt de map `AEM-Guides` gemaakt in de map `projects` in DAM.
 
 
-**Een bestand uploaden**
+**upload een dossier**
 
 Voer de volgende opdracht uit om een bestand te uploaden in de AEM opslagplaats:
 
@@ -57,14 +57,14 @@ curl --user <username>:<password> -T "<local file path>" "<server folder path>"
 
 Geef de volgende parameters op om een bestand te uploaden:
 
-- `<username>:<passowrd>`: Geef de gebruikersnaam en het wachtwoord op voor toegang tot de AEM. Deze gebruiker moet schrijfrechten hebben op de `server folder path`.
+- `<username>:<passowrd>`: Geef de gebruikersnaam en het wachtwoord op voor toegang tot de AEM. Deze gebruiker moet schrijfrechten hebben op de `server folder path` .
 
-- ``local file path``: Voltooi het bestandspad op uw lokale systeem dat u wilt uploaden.
+- ``local file path``: volledig bestandspad op uw lokale systeem dat u wilt uploaden.
 
-- `<server folder path>`: Volledig mappad op de AEM server waar u het bestand wilt uploaden.
+- `<server folder path>`: Voltooi het mappad op de AEM server waar u het bestand wilt uploaden.
 
 
-**Metagegevens toevoegen**
+**voeg meta-gegevens** toe
 
 Voer de volgende opdracht uit om metagegevens toe te voegen aan een bestand:
 
@@ -74,11 +74,11 @@ curl --user <username>:<password> -F<attribute name>=<value> <metadata node path
 
 Geef de volgende parameters op om metagegevensinformatie toe te voegen:
 
-- `<username>:<passowrd>`: Geef de gebruikersnaam en het wachtwoord op voor toegang tot de AEM. Deze gebruiker moet schrijfrechten hebben op de ``metadata node path``.
+- `<username>:<passowrd>`: Geef de gebruikersnaam en het wachtwoord op voor toegang tot de AEM. Deze gebruiker moet schrijfrechten hebben op de ``metadata node path`` .
 
-- ``-F<attribute name>=<value>``: De `<attribute name>` is de naam van het metagegevenskenmerk, zoals `audience` en de `<value>` kan `internal`. U kunt meerdere naam-waardeparen voor kenmerken opgeven, gescheiden door spatie.
+- ``-F<attribute name>=<value>``: `<attribute name>` is de naam van het metagegevenskenmerk, zoals `audience` en `<value>` zou kunnen zijn `internal` . U kunt meerdere naam-waardeparen voor kenmerken opgeven, gescheiden door spatie.
 
-- `<metadata node path>`: Volledig mappad inclusief bestandsnaam en het bijbehorende metagegevensknooppunt. Als u bijvoorbeeld het pad opgeeft als `http://192.168.1.1:4502/content/dam/projects/AEM-Guides/intro.xml/jcr:content/metadata`, wordt de opgegeven metagegevens ingesteld op `intro.xml` bestand.
+- `<metadata node path>`: volledig mappad, inclusief bestandsnaam en het bijbehorende metagegevensknooppunt. Als u bijvoorbeeld het pad opgeeft als `http://192.168.1.1:4502/content/dam/projects/AEM-Guides/intro.xml/jcr:content/metadata` , wordt de opgegeven metagegevens ingesteld in het `intro.xml` -bestand.
 
 
-**Bovenliggend onderwerp:**[ Bestaande inhoud migreren](migrate-content.md)
+**Bovenliggend onderwerp:**[ Migreer bestaande inhoud ](migrate-content.md)

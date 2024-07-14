@@ -1,6 +1,6 @@
 ---
 title: Leer hoe u inhoud kunt vertalen
-description: Vertaal uw inhoud in meerdere talen in AEM hulplijnen. Leer meer over de workflows voor het vertalen van mensen en machines.
+description: Vertaal uw inhoud naar meerdere talen in AEM Guides. Leer meer over de workflows voor het vertalen van mensen en machines.
 exl-id: 88df750c-fb26-47f1-a884-b9e2f96b96ea
 feature: Translation
 role: User
@@ -13,19 +13,19 @@ ht-degree: 0%
 
 # Inhoud vertalen {#id1645H700L67}
 
-AEM Hulplijnen worden geleverd met krachtige functies waarmee u uw inhoud in meerdere talen kunt vertalen. Workflows voor het vertalen van mensen en computers worden ondersteund door AEM hulplijnen.
+AEM Guides wordt geleverd met krachtige functies waarmee u uw inhoud in meerdere talen kunt vertalen. Workflows voor het vertalen van mensen en machines worden ondersteund door AEM Guides.
 
-- **Menselijke vertaling** - Elementen worden naar uw vertaalbureau verzonden en door professionele vertalers vertaald. Na voltooiing worden de vertaalde elementen geretourneerd en vervolgens weer in AEM geïmporteerd.
+- **de Omzetting van de Mensen** - Assets wordt verzonden naar uw vertaalleverancier en door professionele vertalers vertaald. Na voltooiing worden de vertaalde elementen geretourneerd en vervolgens weer in AEM geïmporteerd.
 
-- **Machinevertaling** - Dit is de standaardservice in AEM waarin de inhoud direct wordt vertaald met de automatische vertaling in real-time. AEM biedt de mogelijkheid verbinding te maken met Microsoft Translator.
+- **vertaling van de Machine** - dit is de standaarddienst in AEM waar de inhoud onmiddellijk gebruikend de machinevertaling in echt - tijd wordt vertaald. AEM biedt de mogelijkheid verbinding te maken met Microsoft Translator.
 
   >[!NOTE]
   >
   > Microsoft Translator is alleen beschikbaar als proefversie.
 
 
-- **[Aanbevolen procedures voor het vertalen van inhoud](translation-first-time.md)**
+- **[Beste praktijken voor inhoudsomzetting](translation-first-time.md)**
 
-- **[Vertaalstatus weergeven](translation-view-trans-state-6234.md)**
+- **[de vertaalstatus van de Mening](translation-view-trans-state-6234.md)**
 
-- **[Gewijzigde onderwerpen vertalen](translation-modified-topics-6234.md)**
+- **[vertaal gewijzigde onderwerpen](translation-modified-topics-6234.md)**

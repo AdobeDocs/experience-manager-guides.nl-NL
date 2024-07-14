@@ -2,19 +2,19 @@
 title: Onderbalk en werkbalk
 description: De bovenste balk en werkbalk aanpassen
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 7065c9b8-67ac-4f6d-8124-daa547f2dc3b
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 0%
 
 ---
 
-
 # De bovenste balk en werkbalk aanpassen
 
-Als u het dialoogvenster `topbar` en `toolbar`, gebruiken we de id&#39;s: `topbar` of `toolbar`en volgt dezelfde weergave, de controlestructuur.
+Als u `topbar` en `toolbar` wilt aanpassen, gebruiken we de id&#39;s: `topbar` of `toolbar` en volgen we dezelfde weergave, controlestructuur.
 
-Hieronder ziet u een triviaal voorbeeld van het aanpassen van de werkbalk. Hier hebben we de `Insert Numbered List` en vervangt de `Insert Paragraph` knoop met onze eigen component die een aangepaste on-click manager gebruiken.
+Hieronder ziet u een triviaal voorbeeld van het aanpassen van de werkbalk. Hier hebben we de knop `Insert Numbered List` verwijderd en de knop `Insert Paragraph` vervangen door onze eigen component met behulp van een aangepaste on-click handler.
 
 ```js title = toolbar_customisation.js
 const toolbarExtend = {

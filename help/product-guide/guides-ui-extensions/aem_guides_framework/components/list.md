@@ -2,7 +2,8 @@
 title: Lijst
 description: Lijst
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 333b5e24-efba-4a51-8f68-83b5d1d7daec
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '59'
 ht-degree: 0%
@@ -34,8 +35,8 @@ const listJSON =  {
 },
 ```
 
-ItemConfig is gewoonlijk een `widget`. Ga voor meer informatie over widgets naar [Widgets](../Widgets/basic-widget.md)
+ItemConfig is gewoonlijk een `widget` . Meer over widgets leren ga naar [ Widgets ](../Widgets/basic-widget.md)
 
 De gerenderde lijst ziet er als volgt uit:
 
-![list](./imgs/list.png "Lijst")
+![ lijst ](./imgs/list.png " Lijst ")

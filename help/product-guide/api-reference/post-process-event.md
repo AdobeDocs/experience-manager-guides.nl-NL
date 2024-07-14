@@ -1,6 +1,6 @@
 ---
-title: Gebeurtenishandler voor nabewerking
-description: Meer informatie over de gebeurtenishandler Nabewerking
+title: Post-processing gebeurtenishandler
+description: Meer informatie over gebeurtenishandler voor Post-verwerking
 exl-id: 3b105ff5-02d4-40e3-a713-206a7fcf18b2
 feature: Post-Processing Event Handler
 role: Developer
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# Gebeurtenishandler voor nabewerking {#id175UB30E05Z}
+# Post-processing gebeurtenishandler {#id175UB30E05Z}
 
-AEM Hulplijnen maken de gebeurtenis com/adobe/fmdita/postprocess/complete beschikbaar die wordt gebruikt om naverwerkingen uit te voeren. Deze gebeurtenis wordt geactiveerd wanneer een bewerking op een DITA-bestand wordt uitgevoerd. De volgende bewerkingen op een DITA-bestand activeren deze gebeurtenis:
+AEM Guides stelt de gebeurtenis com/adobe/fmdita/postprocess/complete beschikbaar die wordt gebruikt om naverwerkingen uit te voeren. Deze gebeurtenis wordt geactiveerd wanneer een bewerking op een DITA-bestand wordt uitgevoerd. De volgende bewerkingen op een DITA-bestand activeren deze gebeurtenis:
 
 >[!NOTE]
 >
@@ -29,10 +29,16 @@ U moet een AEM gebeurtenishandler maken om de eigenschappen te lezen die beschik
 
 De gebeurtenisdetails worden hieronder uitgelegd:
 
-**Gebeurtenisnaam**:
+**naam van de Gebeurtenis**:
 
 ```
 com/adobe/fmdita/postprocess/complete 
 ```
 
-**Parameters**: |Naam|Type|Omschrijving| |—|—|—| |`path`|String|Het pad van het bestand dat deze gebeurtenis heeft geactiveerd. Dit is doorgaans het bestand waarop een bewerking is uitgevoerd.| |`status`|String|De geretourneerde status van de uitgevoerde bewerking. De mogelijke opties zijn: - <br>- SUCCESS: de nabewerking is voltooid. <br>- VOLTOOID MET FOUTEN: de naverwerkingshandeling is voltooid, maar met enkele fouten. <br>- MISLUKT: De nabewerking is mislukt als gevolg van een fatale fout.| |`message`|String|Als de status IS VOLTOOID MET FOUTEN of MISLUKT, bevat deze parameter de details over de fout of de reden van de fout.| |`operation`|String|De naverwerkingstransactie die op het bestand is uitgevoerd. De mogelijke opties zijn:<br>- Toevoeging <br>- Bijwerken <br>- Verwijderen|
+**Parameters**:
+|Naam|Type|Omschrijving|
+|—|—|—|
+|`path`|String|Het pad van het bestand dat deze gebeurtenis heeft geactiveerd. Dit is doorgaans het bestand waarop een bewerking is uitgevoerd.|
+|`status`|String|De geretourneerde status voor de uitgevoerde bewerking. De mogelijke opties zijn: - <br> - SUCCESS: de naverwerkingbewerking is voltooid. <br> - IS VOLTOOID MET FOUTEN: de naverwerkingsbewerking is voltooid, maar met enkele fouten. <br> - MISLUKT: de naverwerkingshandeling is mislukt als gevolg van een fatale fout.|
+|`message`|String|Als de status MET FOUTEN WORDT VOLTOOID of MISLUKT, bevat deze parameter de details over de fout of de reden van mislukking.|
+|`operation`|String|De naverwerkingshandeling die op het bestand is uitgevoerd. De mogelijke opties zijn:<br> - Toevoeging <br> - Bijwerken <br> - Verwijderen|

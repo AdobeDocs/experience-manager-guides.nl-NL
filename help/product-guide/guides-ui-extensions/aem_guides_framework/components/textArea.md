@@ -2,7 +2,8 @@
 title: Tekstgebied
 description: Tekstgebied
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 4c576acc-fa6a-4c41-9b92-443ba51dc8ee
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 0%
@@ -12,7 +13,7 @@ ht-degree: 0%
 # Tekstveld en tekstgebied
 
 Om tekst als input te nemen, gebruiken wij de componenten, het tekstgebied en het tekstgebied.
-De component van het tekstgebied in JUI vertegenwoordigt een HTML `<textarea/>`.
+De component van het tekstgebied in JUI vertegenwoordigt HTML `<textarea/>`.
 
 ```js title="textArea.js"
 const textAreaJSON =  {
@@ -30,9 +31,9 @@ const textAreaJSON =  {
 },
 ```
 
-Hier, `on-keyup` is de syntaxis voor het aanroepen van de opdrachten in de controllers.
-Dit zal een textArea veroorzaken waar het drukken ENTER de gebeurtenis zal roepen `submitName`
+Hier, `on-keyup` is de syntaxis voor het aanhalen van de bevelen in de controlemechanismen.
+Hierdoor wordt een textArea gemaakt waarin de gebeurtenis wordt aangeroepen wanneer op ENTER wordt gedrukt `submitName`
 
 Het gerenderde tekstgebied ziet er als volgt uit:
 
-![tekstgebied](./imgs/text_area.png "Tekstgebied")
+![ tekst-gebied ](./imgs/text_area.png " Gebied van de Tekst ")

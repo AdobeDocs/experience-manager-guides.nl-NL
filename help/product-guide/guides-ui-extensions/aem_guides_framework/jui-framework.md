@@ -2,7 +2,8 @@
 title: Jui Framework
 description: Werken met Jui Framework
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: c193cf90-5916-4d8c-88f1-be5014beca1c
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 0%
@@ -19,13 +20,13 @@ Dus dat we het effectief kunnen uitbreiden.
 JUI is een kader MVC bovenop React en de componenten van het Spectrum van de Reactie van de Adobe. JUI is JSON-gebruikersinterface. Het bestaat uit meerdere it-repositories.
 
 JUI-Core is de kernbibliotheek met alle logica om JSON config in werkende reactiecomponenten om te zetten en het met een relevante controlemechanismeklasseninstantie te verbinden.
-De bibliotheek JUI-React-Spectrum heeft omslag widgets van de Adobe React de componenten van het Spectrum
+JUI-React-Spectrum  bibliotheek bevat omvattende widgets voor Adobe React Spectrum-componenten
 
 ## JUI Core-ontwerp
 
 ### MVC UI-ontwerp
 
-![JUI MVC-stroom](./imgs/jui-mvc-flow.png)
+![ JUI MVC stroom ](./imgs/jui-mvc-flow.png)
 
 ### Widget
 
@@ -37,7 +38,7 @@ De bibliotheek JUI-React-Spectrum heeft omslag widgets van de Adobe React de com
 - Kan andere widgets hebben
 - App is een widget
 
-![JUI-widget](./imgs/jui-widget.png)
+![ JUI Widget ](./imgs/jui-widget.png)
 
 ### Element
 
@@ -78,4 +79,4 @@ De bibliotheek JUI-React-Spectrum heeft omslag widgets van de Adobe React de com
 
 ### Voorbeeld van toepassingsontwerp
 
-![Voorbeeldtoepassing](./imgs/jui-sample-app.png)
+![ Steekproef App ](./imgs/jui-sample-app.png)

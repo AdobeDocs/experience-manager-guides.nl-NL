@@ -20,10 +20,13 @@ Met de volgende REST API kunt u een gegevensbronaansluiting registreren.
 
 Een methode van GET die een gegevensbronschakelaar registreert.
 
-**Aanvraag-URL**:
+**Verzoek URL**:
 `http://server:port/bin/guides/v1/konnect/config/register?path=<uploaded file path>`
 
-**Parameter**: |Naam|Type|Vereist|Beschrijving| |—|—|—|—| |`path`|String|Yes|A string which points to a path in the AEM repository. Het kan een pad zijn in de `/content/dam or /var/dxml`.|
+**Parameter**:
+|Naam|Type|Vereist|Beschrijving|
+|—|—|—|—|
+|`path`|String|Yes|A string which points to a path in the AEM repository. Het kan een pad zijn in de `/content/dam or /var/dxml` .|
 
 **Voorbeeld**:\
 `http://host:4502/bin/guides/v1/konnect/config/register?path=/var/dxml/konnect/jira.json`

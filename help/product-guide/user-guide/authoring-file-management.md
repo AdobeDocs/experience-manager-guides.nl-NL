@@ -1,6 +1,6 @@
 ---
 title: Bestanden en mappen beheren
-description: Leer hoe u bestanden en mappen in AEM hulplijnen kunt beheren. Kopieer en plak, sleep en zet bestanden en mappen in bulk en zoek naar DITA-inhoud.
+description: Leer hoe u bestanden en mappen in AEM Guides beheert. Kopieer en plak, sleep en zet bestanden en mappen in bulk en zoek naar DITA-inhoud.
 exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
@@ -13,97 +13,97 @@ ht-degree: 0%
 
 # Bestanden en mappen beheren {#id2116G0L08XA}
 
-In deze sectie wordt uitgelegd hoe AEM hulplijnen de basisbestandsbewerkingen, zoals kopiëren, plakken, slepen en neerzetten en bestanden verwijderen, afhandelen. De volgende scenario&#39;s zijn mogelijk:
+In deze sectie wordt uitgelegd hoe AEM Guides de basisbestandsbewerkingen, zoals kopiëren, plakken, slepen en neerzetten en bestanden verwijderen, uitvoert. De volgende scenario&#39;s zijn mogelijk:
 
 ## Bestanden kopiëren en plakken
 
-**Als het bestand een leesbare bestandsnaam heeft**
+**als het dossier menselijke leesbare filename** heeft
 
-- *Als het bestand met dezelfde naam niet bestaat in de doelmap*: Er wordt een nieuwe kopie van het bestand gemaakt en er wordt ook een UUID aan toegewezen. Hier is de bestandsnaam gelijk aan de oorspronkelijke bestandsnaam.
-- *Als het bestand met dezelfde naam al bestaat in de doelmap*: Er wordt een nieuwe kopie van het bestand gemaakt met het achtervoegsel \(zoals filename0.extension\). Een UID wordt ook toegewezen aan het nieuwe bestand.
+- *als het dossier met de zelfde naam niet in de bestemmingsomslag* bestaat: Een nieuw exemplaar van het dossier wordt gecreeerd en UUID wordt ook toegewezen aan het. Hier is de bestandsnaam gelijk aan de oorspronkelijke bestandsnaam.
+- *als het dossier met de zelfde naam reeds in de bestemmingsomslag* bestaat: Een nieuw exemplaar van het dossier wordt gecreeerd met een achtervoegsel \ (als filename0.extension\). Een UID wordt ook toegewezen aan het nieuwe bestand.
 
 
-**Als de bestandsnaam is gebaseerd op een UUID-patroon**
+**als filename op een patroon UUID** gebaseerd is
 
-- *Als het bestand met dezelfde naam niet bestaat in de doelmap*: Er wordt een nieuwe kopie van het bestand gemaakt en er wordt ook een nieuwe UUID aan toegewezen op de nieuwe locatie. Hier is de bestandsnaam gelijk aan de UUID.
-- *Als het bestand met dezelfde naam al bestaat in de doelmap*: Er wordt een nieuwe kopie van het bestand gemaakt en er wordt ook een nieuwe UUID aan toegewezen. De bestandsnaam is gelijk aan de UUID.
+- *als het dossier met de zelfde naam niet in de bestemmingsomslag* bestaat: Een nieuw exemplaar van het dossier wordt gecreeerd en een nieuwe UUID wordt ook toegewezen aan het bij de nieuwe plaats. Hier is de bestandsnaam gelijk aan de UUID.
+- *als het dossier met de zelfde naam reeds in de bestemmingsomslag* bestaat: Een nieuw exemplaar van het dossier wordt gecreeerd en een nieuwe UUID wordt ook toegewezen aan het. De bestandsnaam is gelijk aan de UUID.
 
 
 ## Mappen kopiëren en plakken
 
-**Map kopiëren en plakken op dezelfde locatie**
+**Exemplaar en deeg omslag bij de zelfde plaats**
 
-- *De map bevat bestanden met leesbare bestandsnamen*: Er wordt een nieuwe kopie van de map gemaakt met het achtervoegsel \(zoals mapnaam0\). Er wordt ook een nieuwe UUID toegewezen aan de bestanden in de map. De bestandsnamen blijven echter ongewijzigd.
+- *de omslag heeft dossiers met menselijke leesbare filenames*: Een nieuw exemplaar van de omslag wordt gecreeerd met een achtervoegsel \ (als folder0 \). Er wordt ook een nieuwe UUID toegewezen aan de bestanden in de map. De bestandsnamen blijven echter ongewijzigd.
 
-- *De map bevat bestanden met bestandsnamen die zijn gebaseerd op een UUID-patroon*: Er wordt een nieuwe kopie van de map gemaakt met het achtervoegsel \(zoals mapnaam0\). Er wordt ook een nieuwe UUID toegewezen aan alle bestanden in de nieuwe map. De bestandsnamen worden ook gewijzigd. De bestandsnamen zijn gelijk aan de nieuwe UUID.
+- *de omslag heeft dossiers met filenames die op een patroon UUID* worden gebaseerd: Een nieuw exemplaar van de omslag wordt gecreeerd met achtervoegsel \ (als folder0 \). Er wordt ook een nieuwe UUID toegewezen aan alle bestanden in de nieuwe map. De bestandsnamen worden ook gewijzigd. De bestandsnamen zijn gelijk aan de nieuwe UUID.
 
 
-**Map kopiëren en plakken op een andere locatie**
+**Exemplaar en deeg omslag bij verschillende plaats**
 
-- *De map bevat bestanden met leesbare bestandsnamen*: Er wordt een nieuwe kopie van de map gemaakt en er wordt ook een nieuwe UUID toegewezen aan alle bestanden in de map op de nieuwe locatie. Hier ziet u geen wijziging in de map- of bestandsnamen.
+- *de omslag heeft dossiers met menselijke leesbare filenames*: Een nieuw exemplaar van de omslag wordt gecreeerd en een nieuwe UUID wordt ook toegewezen aan alle dossiers binnen de omslag bij de nieuwe plaats. Hier ziet u geen wijziging in de map- of bestandsnamen.
 
-- *De map bevat bestanden met bestandsnamen die zijn gebaseerd op een UUID-patroon*: Er wordt een nieuwe kopie van de map gemaakt met dezelfde naam als de oorspronkelijke map. Er wordt ook een nieuwe UUID toegewezen aan alle bestanden in de nieuwe map. De bestandsnamen worden ook gewijzigd. De bestandsnamen zijn gelijk aan de nieuwe UUID.
+- *de omslag heeft dossiers met filenames die op een patroon UUID* worden gebaseerd: Een nieuw exemplaar van de omslag wordt gecreeerd met de zelfde naam zoals de originele omslag. Er wordt ook een nieuwe UUID toegewezen aan alle bestanden in de nieuwe map. De bestandsnamen worden ook gewijzigd. De bestandsnamen zijn gelijk aan de nieuwe UUID.
 
 
 ## Bestanden slepen en neerzetten
 
-**Slepen en neerzetten met leesbare bestandsnamen**
+**belemmering-en-daling met menselijke leesbare filenames**
 
-- *Slepen en neerzetten op dezelfde locatie*: U kunt de volgende opties kiezen: **Bestaand bestand overschrijven\(s\)**, **Behoud beide bestanden** en een optie om een versie van de bestaande werkkopie te maken.
+- *belemmering-en-daling bij de zelfde plaats*: U wordt gegeven de opties om **Bestaande Dossier \(s \) te beschrijven**, **Behoud zowel Dossier \ (s \)**, en een optie om een versie van het bestaande werkende exemplaar tot stand te brengen.
 
   ![](images/uuid-human-readable-drag-drop-same-location.PNG){width="650" align="center"}
 
-  Als u **Bestaand bestand overschrijven\(s\)** en vervangt het bestand dat wordt geüpload de huidige werkversie van het bestaande bestand op de oorspronkelijke locatie. De UUID wordt niet gemaakt of gewijzigd.
+  Als u **het Bestaande Dossier \ (\ s \)** kiest, dan vervangt het dossier dat wordt geupload de huidige werkende versie van het bestaande dossier bij de originele plaats. De UUID wordt niet gemaakt of gewijzigd.
 
-  Als u **Behoud beide bestanden** wordt een nieuwe kopie van het bestand gemaakt met het achtervoegsel \(zoals filename0.extension\). Er wordt ook een nieuwe UUID toegewezen aan het zojuist gekopieerde bestand.
+  Als u **kiest houd zowel Dossier \ (s \)** optie, wordt een nieuw exemplaar van het dossier gecreeerd met een achtervoegsel \ (als filename0.extension \). Er wordt ook een nieuwe UUID toegewezen aan het zojuist gekopieerde bestand.
 
   Als u met de optie Bestaande bestanden overschrijven een versie wilt maken van de bestaande werkkopie, wordt ook een nieuwe versie van de werkkopie van het document gemaakt.
 
   >[!NOTE]
   >
-  > **Nieuwe versie maken voor geüpload bestand** moet worden ingeschakeld door uw beheerder. Als deze functie is ingeschakeld, wordt een nieuwe versie voor het geüploade bestand gemaakt. Als deze optie is uitgeschakeld, wordt er geen versie van het geüploade bestand gemaakt. Zie voor meer informatie *Nieuwe versie maken voor geüpload bestand* in de sectie Adobe Experience Manager-hulplijnen installeren en configureren as a Cloud Service.
+  > **creeer nieuwe Versie voor Geüploade eigenschap van het Dossier** moet door uw beheerder worden toegelaten. Als deze functie is ingeschakeld, wordt een nieuwe versie voor het geüploade bestand gemaakt. Als deze optie is uitgeschakeld, wordt er geen versie van het geüploade bestand gemaakt. Voor meer details, zie *Nieuwe Versie voor Geüploade Dossier* sectie in installeren en vormen as a Cloud Service Adobe Experience Manager Guides.
 
   Als een bestand al is uitgecheckt voor bewerkingen door een andere gebruiker en u probeert het bestaande bestand te uploaden en te overschrijven, mislukt het en wordt een fout weergegeven.
 
   >[!NOTE]
   >
-  >De **Uitgecheckt bestand tijdens uploaden overschrijven** moet door de beheerder worden uitgeschakeld. Als deze functie is ingeschakeld, kunt u uitgecheckte bestanden overschrijven. Als de functie niet is ingeschakeld, kan een uitgecheckt bestand niet worden overschreven. Zie voor meer informatie *Uitgecheckt bestand tijdens uploaden overschrijven* in de sectie Adobe Experience Manager-hulplijnen installeren en configureren as a Cloud Service.
+  >Het **overschrijven Uitgecheckte Dossier op uploadt** eigenschap moet door uw beheerder worden onbruikbaar gemaakt. Als deze functie is ingeschakeld, kunt u uitgecheckte bestanden overschrijven. Als de functie niet is ingeschakeld, kan een uitgecheckt bestand niet worden overschreven. Voor meer details, zie *Uitgecheckt Dossier op Upload* sectie in installeer en vorm as a Cloud Service Adobe Experience Manager Guides.
 
 
-- *Bestanden slepen en neerzetten op verschillende locaties*: Er wordt een nieuwe kopie van het bestand gemaakt en er wordt ook een nieuwe UUID aan toegewezen op de nieuwe locatie. Hier is de bestandsnaam gelijk aan de oorspronkelijke bestandsnaam.
+- *belemmering-en-dalingsdossiers op verschillende plaats*: Een nieuw exemplaar van het dossier wordt gecreeerd en een nieuwe UUID wordt ook toegewezen aan het bij de nieuwe plaats. Hier is de bestandsnaam gelijk aan de oorspronkelijke bestandsnaam.
 
 
-**Slepen en neerzetten met bestandsnamen op basis van een UUID-patroon**
+**belemmering-en-daling met filenames die op een patroon UID** worden gebaseerd
 
-*Bestand naar dezelfde locatie slepen en neerzetten*: U kunt de volgende opties kiezen: **Bestaand bestand overschrijven\(s\)** samen met de optie om een versie van de bestaande werkkopie te maken.
+*belemmering-en-dalingsdossier bij de zelfde plaats*: U wordt gegeven de opties aan **Bestaande Dossier \(s \)** samen met de optie om een versie van het bestaande werkende exemplaar tot stand te brengen.
 
 ![](images/uuid-drag-drop-same-location.PNG){width="650" align="center"}
 
 Als het bestand wordt overschreven, is er geen wijziging in de bestandsnaam of de bijbehorende UUID.
 
-Als u **Versie maken voor de bestaande werkkopie** wordt een nieuwe versie van de werkkopie van het document gemaakt. Het nieuwe bestand wordt geüpload, er wordt ook een nieuwe versie van het bestand gemaakt en het wordt gemaakt als de werkkopie van het document.
+Als u **selecteert creeer Versie voor de Bestaande het Werken optie van het Exemplaar**, dan wordt een nieuwe versie van het werkende exemplaar van het document gecreeerd; het nieuwe dossier wordt geupload, wordt een nieuwe versie van het dossier ook gecreeerd, en het wordt gemaakt als het werkende exemplaar van het document.
 
-**Nieuwe versie maken voor geüpload bestand** moet worden ingeschakeld door uw beheerder. Als deze functie is ingeschakeld, wordt een nieuwe versie voor het geüploade bestand gemaakt. Als deze optie is uitgeschakeld, wordt er geen versie van het geüploade bestand gemaakt. Zie voor meer informatie *Nieuwe versie maken voor geüpload bestand* in de sectie Adobe Experience Manager-hulplijnen installeren en configureren as a Cloud Service.
+**creeer nieuwe Versie voor Geüploade eigenschap van het Dossier** moet door uw beheerder worden toegelaten. Als deze functie is ingeschakeld, wordt een nieuwe versie voor het geüploade bestand gemaakt. Als deze optie is uitgeschakeld, wordt er geen versie van het geüploade bestand gemaakt. Voor meer details, zie *Nieuwe Versie voor Geüploade dossier* sectie tot stand brengen in installeer en vorm as a Cloud Service Adobe Experience Manager Guides.
 
 
-*Bestanden slepen en neerzetten op een andere locatie*: U kunt de volgende opties kiezen: **Bestaand bestand overschrijven\(s\)**, **Bestand(en) verplaatsen naar nieuwe locatie** en een optie om een versie van de bestaande werkkopie te maken.
+*belemmering-en-dalingsdossier bij verschillende plaats*: U wordt gegeven de opties **Bestaande Dossier \ (s \)**, **Beweging \(s \) aan Nieuwe Plaats**, en een optie om een versie van het bestaande werkende exemplaar tot stand te brengen.
 
 ![](images/uuid-drag-drop-different-location.PNG){width="650" align="center"}
 
-Als u **Bestaand bestand overschrijven\(s\)** en vervangt het bestand dat wordt geüpload het bestaande bestand op de oorspronkelijke locatie. De UUID wordt niet gemaakt of gewijzigd.
+Als u **het Bestaande Dossier \ (\ s \)** kiest, dan vervangt het dossier dat wordt geupload het bestaande dossier bij de originele plaats. De UUID wordt niet gemaakt of gewijzigd.
 
-Als u **Bestand(en) verplaatsen naar nieuwe locatie** wordt het bestaande bestand naar de huidige locatie verplaatst en wordt vervolgens overschreven met het bestand dat wordt geüpload. Als u een bestand naar de nieuwe locatie verplaatst, worden bestaande verwijzingen van of naar het bestand niet verbroken.
+Als u het **Dossier \ (s \) van de Beweging aan Nieuwe Plaats** optie kiest, dan wordt het bestaande dossier verplaatst naar de huidige plaats en dan wordt het beschreven met het dossier dat wordt geupload. Als u een bestand naar de nieuwe locatie verplaatst, worden bestaande verwijzingen van of naar het bestand niet verbroken.
 
 Als u bij het vervangen of verplaatsen van de bestanden de optie kiest om een versie te maken van de bestaande kopie, wordt een nieuwe versie gemaakt van de werkkopie van het document. Het nieuwe bestand wordt vervangen op de bestaande locatie of verplaatst naar de nieuwe locatie.
 
 
 ## Bestanden bulksgewijs verplaatsen {#move-files-bulk}
 
-AEM hulplijnen worden geleverd met het gereedschap Bulk verplaatsen, waarmee een beheerder een map met een groot aantal bestanden kan verplaatsen van de ene naar de andere locatie. Met dit gereedschap kunt u bestanden in een of meer mappen gemakkelijk naar een andere map in uw AEM opslagplaats verplaatsen. Een van de belangrijkste functies van dit gereedschap is dat het niet alleen een groot aantal bestanden verplaatst, maar ook de verwijzingen naar en van de bestanden die worden verplaatst, behoudt. U kunt het aantal bestanden dat u in batches kunt verplaatsen, bijstellen zonder de ontwerp- en publicatietaken te hinderen.
+AEM Guides wordt geleverd met het gereedschap Bulk verplaatsen, waarmee een beheerder een map met een groot aantal bestanden van de ene locatie naar de andere kan verplaatsen. Met dit gereedschap kunt u bestanden in een of meer mappen gemakkelijk naar een andere map in uw AEM opslagplaats verplaatsen. Een van de belangrijkste functies van dit gereedschap is dat het niet alleen een groot aantal bestanden verplaatst, maar ook de verwijzingen naar en van de bestanden die worden verplaatst, behoudt. U kunt het aantal bestanden dat u in batches kunt verplaatsen, bijstellen zonder de ontwerp- en publicatietaken te hinderen.
 
 >[!NOTE]
 >
-> Het gereedschap Bulk verplaatsen werkt alleen op mapniveau. Als u individuele onderwerp of kaartdossiers wilt bewegen, dan gebruik het regelmatige verplaatsingshulpmiddel van AEM Activa UI.
+> Het gereedschap Bulk verplaatsen werkt alleen op mapniveau. Als u individuele onderwerp of kaartdossiers wilt bewegen, dan gebruik het regelmatige verplaatsingshulpmiddel van AEM UI van Assets.
 
 Hieronder vindt u een aantal functies van het gereedschap Bulk verplaatsen:
 
@@ -124,10 +124,10 @@ U moet rekening houden met de volgende punten voordat u het batchproces uitvoert
 
 Voer de volgende stappen uit om bestanden in bulk te verplaatsen:
 
-1. Klik op de Adobe Experience Manager-koppeling bovenaan en kies **Gereedschappen**.
-1. Selecteren **Hulplijnen** in de lijst met gereedschappen.
-1. Klik op de knop **Bulk verplaatsen** tegel.
-1. De pagina Bulk verplaatsen wordt weergegeven op basis van uw instellingen. Geef de volgende gegevens op in de **Bulk verplaatsen** pagina:
+1. Klik op de verbinding van Adobe Experience Manager bij de bovenkant en kies **Hulpmiddelen**.
+1. Selecteer **Gidsen** van de lijst van hulpmiddelen.
+1. Klik op de **tegel van het Hulpmiddel van de Beweging van het Bulk** {.
+1. De pagina Bulk verplaatsen wordt weergegeven op basis van uw instellingen. Verstrek de volgende details op de **pagina van het Hulpmiddel van de Beweging van het Bulk**:
 
    <details>
 
@@ -140,29 +140,29 @@ Voer de volgende stappen uit om bestanden in bulk te verplaatsen:
    > Selecteren <img src="images/info-icon.svg" width="25">   in de buurt van een veld voor meer informatie.
 
 
-   - **Achtervoegsel toevoegen aan dubbele mappen**: Als u mappen met dezelfde naam verplaatst, moet u deze optie selecteren. In de vorige schermafbeelding bevat de opdracht **Bronpad** bevat de naam van de mappen die u wilt verplaatsen. De omslag genoemd onderwerp bestaat bij twee verschillende plaatsen — test-A en test-B. Wanneer u deze optie selecteert, worden de mappen verplaatst. De eerste verplaatste omslag zal onderwerp worden genoemd terwijl de tweede omslag topic0 zal worden genoemd. Met de verplaatsingsbewerking voegt u een achtervoegsel in de opeenvolgende reeks \(0, 1, 2, enzovoort\) toe aan de mappen met dezelfde naam.
+   - **voeg achtervoegsel aan dubbele omslagen** toe: Voor het geval u omslagen beweegt die de zelfde naam hebben, dan moet u deze optie selecteren. Bijvoorbeeld, in het vorige schermschot, bevat de **weg van Source** de naam van omslagen om zich te bewegen. De omslag genoemd onderwerp bestaat bij twee verschillende plaatsen — test-A en test-B. Wanneer u deze optie selecteert, worden de mappen verplaatst. De eerste verplaatste omslag zal onderwerp worden genoemd terwijl de tweede omslag topic0 zal worden genoemd. Met de verplaatsingsbewerking voegt u een achtervoegsel in de opeenvolgende reeks \(0, 1, 2, enzovoort\) toe aan de mappen met dezelfde naam.
 
      Als u mappen met dezelfde naam verplaatst zonder deze optie te selecteren, wordt de bewerking afgebroken met een bericht.
 
-   - **Bronpad\(s\)**: Geef de locatie op van de mappen die u wilt verplaatsen.
+   - **de weg \ van Source \(s \)**: Specificeer de plaats van omslagen die u wilt bewegen.
 
-      - Selecteren  **Map doorbladeren**  <img src="images/browse-folder-icon.svg" width="25">    het dialoogvenster Bladeren openen. Selecteer de mappen die u wilt verplaatsen en klik op **Selecteren** om het proces te voltooien.
+      - Selecteer **doorbladert Omslag**  <img src="images/browse-folder-icon.svg" width="25">    het dialoogvenster Bladeren openen. Selecteer de omslagen u zich wilt bewegen en **Uitgezocht** klikken om het proces te voltooien.
 
       - U kunt ook de bronlocatie typen of kopiëren en plakken. Druk op Enter om de map aan de lijst toe te voegen.
 
         De geselecteerde mappen worden samen met hun pad weergegeven. Houd de muisaanwijzer boven de tag folder om het volledige pad weer te geven.
-      - U kunt ook elke gewenste map verwijderen door op **Verwijderen** <img src="images/remove-folder.svg" width="25"> bij de map.
+      - U kunt om het even welke omslag ook verwijderen door **te klikken verwijdert** <img src="images/remove-folder.svg" width="25"> bij de map.
 
 
-   - **Doelpad**: Geef de locatie op waar u de bronmappen wilt verplaatsen.
+   - **weg van de Bestemming**: Specificeer de plaats waar u de bronomslagen wilt bewegen.
 
-      - Selecteren  **Map doorbladeren** <img src="images/browse-folder-icon.svg" width="25"> het dialoogvenster Bladeren openen. Selecteer de locatie waar u de bronmappen wilt verplaatsen. en klik op Selecteren om het proces te voltooien.
+      - Selecteer **doorbladert Omslag** <img src="images/browse-folder-icon.svg" width="25"> om het dialoogvenster Bladeren te openen. Selecteer de locatie waar u de bronmappen wilt verplaatsen. en klik op Selecteren om het proces te voltooien.
       - U kunt ook het doelpad typen of kopiëren en plakken.
 
      De geselecteerde map wordt samen met het bijbehorende pad weergegeven in het tekstvak.
 
 
-   - Klikken **Bulk verplaatsen**.
+   - Klik **Bulk beweging**.
 
      Het systeem begint dossiers van de bron aan bestemmingsplaats te bewegen. Zodra het proces is voltooid, wordt rechts van de pagina een overzicht van het verplaatsingsproces weergegeven.
 
@@ -180,37 +180,37 @@ Voer de volgende stappen uit om bestanden in bulk te verplaatsen:
    >
    > Selecteren <img src="images/info-icon.svg" width="25">   in de buurt van een veld voor meer informatie.
 
-   - **Batchgrootte**: Geef het aantal bestanden op dat u wilt verplaatsen in één batch. De standaardwaarden bij 50 bestanden.
-   - **Slaapinterval (seconden)**: Geef de tijd op in seconden die het proces moet wachten voordat de volgende batch wordt gestart. Tijdens dit slaaptijdinterval corrigeert het systeem de verwijzingen naar en van de verplaatste bestanden. Het standaardslaapinterval is 60 seconden.
+   - **Grootte van de Partij**: Specificeer het aantal dossiers in één enkele partij te bewegen. De standaardwaarden bij 50 bestanden.
+   - **Slaapinterval (seconden)**: Specificeer de tijd in seconden dat het proces alvorens de volgende partij zal beginnen zal wachten. Tijdens dit slaaptijdinterval corrigeert het systeem de verwijzingen naar en van de verplaatste bestanden. Het standaardslaapinterval is 60 seconden.
 
 
-   - **Achtervoegsel toevoegen aan dubbele mappen**: Als u mappen met dezelfde naam verplaatst, moet u deze optie selecteren. In de vorige schermafbeelding bevat de opdracht **Bronpad** bevat de naam van de mappen die u wilt verplaatsen. De omslag genoemd onderwerp bestaat bij twee verschillende plaatsen — test-A en test-B. Wanneer u deze optie selecteert, worden de mappen verplaatst. De eerste verplaatste omslag zal onderwerp worden genoemd terwijl de tweede omslag topic0 zal worden genoemd. Met de verplaatsingsbewerking voegt u een achtervoegsel in de opeenvolgende reeks \(0, 1, 2, enzovoort\) toe aan de mappen met dezelfde naam.
+   - **voeg achtervoegsel aan dubbele omslagen** toe: Voor het geval u omslagen beweegt die de zelfde naam hebben, dan moet u deze optie selecteren. Bijvoorbeeld, in het vorige schermafbeelding, bevat het **Weg van Source** de naam van te bewegen omslagen. De omslag genoemd onderwerp bestaat bij twee verschillende plaatsen — test-A en test-B. Wanneer u deze optie selecteert, worden de mappen verplaatst. De eerste verplaatste omslag zal onderwerp worden genoemd terwijl de tweede omslag topic0 zal worden genoemd. Met de verplaatsingsbewerking voegt u een achtervoegsel in de opeenvolgende reeks \(0, 1, 2, enzovoort\) toe aan de mappen met dezelfde naam.
 
      Als u mappen met dezelfde naam verplaatst zonder deze optie te selecteren, wordt de bewerking afgebroken met een bericht.
 
-   - **Referenties van uitgecheckte bestanden bijwerken**: Als u mappen met uitgecheckte bestanden verplaatst, is het raadzaam deze optie te selecteren. Als u deze optie selecteert, worden alle uitgecheckte bestanden opgeslagen en ingecheckt met een nieuwe revisie. Deze nieuwe revisie wordt dan verplaatst naar de bestemmingsplaats.
+   - **verwijzingen van de Update van gecontroleerde dossiers**: Als u omslagen beweegt die uitgecheckte dossiers bevatten, dan wordt het geadviseerd om deze optie te selecteren. Als u deze optie selecteert, worden alle uitgecheckte bestanden opgeslagen en ingecheckt met een nieuwe revisie. Deze nieuwe revisie wordt dan verplaatst naar de bestemmingsplaats.
 
      Als u deze optie niet selecteert, worden de uitgecheckte bestanden naar de doelmap met dezelfde uitcheckstatus verplaatst. Dit bewegingsproces kan echter leiden tot een verlies aan gegevens.
 
 
-   - **Bronpad\(s\)**: Geef de locatie op van de mappen die u wilt verplaatsen.
+   - **de weg \ van Source \(s \)**: Specificeer de plaats van omslagen die u wilt bewegen.
 
-      - Selecteren  **Map doorbladeren**  <img src="images/browse-folder-icon.svg" width="25">    het dialoogvenster Bladeren openen. Selecteer de mappen die u wilt verplaatsen en klik op **Selecteren** om het proces te voltooien.
+      - Selecteer **doorbladert Omslag**  <img src="images/browse-folder-icon.svg" width="25">    het dialoogvenster Bladeren openen. Selecteer de omslagen u zich wilt bewegen en **Uitgezocht** klikken om het proces te voltooien.
 
       - U kunt ook de bronlocatie typen of kopiëren en plakken. Druk op Enter om de map aan de lijst toe te voegen.
 
         De geselecteerde mappen worden samen met hun pad weergegeven. Houd de muisaanwijzer boven de tag folder om het volledige pad weer te geven.
-      - U kunt ook elke gewenste map verwijderen door op **Verwijderen** <img src="images/remove-folder.svg" width="25"> bij de map.
+      - U kunt om het even welke omslag ook verwijderen door **te klikken verwijdert** <img src="images/remove-folder.svg" width="25"> bij de map.
 
 
-   - **Doelpad**: Geef de locatie op waar u de bronmappen wilt verplaatsen.
+   - **weg van de Bestemming**: Specificeer de plaats waar u de bronomslagen wilt bewegen.
 
-      - Selecteren  **Map doorbladeren** <img src="images/browse-folder-icon.svg" width="25"> het dialoogvenster Bladeren openen. Selecteer de locatie waar u de bronmappen wilt verplaatsen. en klik op Selecteren om het proces te voltooien.
+      - Selecteer **doorbladert Omslag** <img src="images/browse-folder-icon.svg" width="25"> om het dialoogvenster Bladeren te openen. Selecteer de locatie waar u de bronmappen wilt verplaatsen. en klik op Selecteren om het proces te voltooien.
       - U kunt ook het doelpad typen of kopiëren en plakken.
 
         De geselecteerde map wordt samen met het bijbehorende pad weergegeven in het tekstvak.
 
-   - Klikken **Bulk verplaatsen**.
+   - Klik **Bulk beweging**.
 
      Het systeem begint dossiers van de bron aan bestemmingsplaats te bewegen. Zodra het proces is voltooid, wordt rechts van de pagina een overzicht van het verplaatsingsproces weergegeven.
      ![](images/bulk-move-summary-non-uuid.png){width="650" align="center"}
@@ -218,23 +218,23 @@ Voer de volgende stappen uit om bestanden in bulk te verplaatsen:
 
 ## DITA-inhoud zoeken
 
-AEM herkent standaard geen DITA-inhoud, waardoor het geen mechanisme biedt om DITA-inhoud in de opslagplaats te doorzoeken. AEM Gidsen voegt een laag bovenop AEM toe, die AEM toelaat om inhoud te begrijpen en te verwerken DITA. Met de functie DITA-inhoud zoeken in AEM hulplijnen kunt u zoeken naar DITA-inhoud in AEM opslagplaats.
+AEM herkent standaard geen DITA-inhoud, waardoor het geen mechanisme biedt om DITA-inhoud in de opslagplaats te doorzoeken. AEM Guides voegt een laag boven op AEM toe, zodat AEM DITA-inhoud kan begrijpen en verwerken. Met de zoekfunctie voor DITA-inhoud in AEM Guides kunt u zoeken naar DITA-inhoud in AEM opslagplaats.
 
 >[!NOTE]
 >
->Uw systeembeheerder kan **DITA-element** en vervolgens kunt u de functie gebruiken vanuit de gebruikersinterface van AEM Assets. Zie voor meer informatie *DITA Element-zoekcomponent toevoegen aan interface Middelen* in de sectie Adobe Experience Manager-hulplijnen installeren en configureren as a Cloud Service.
+>Uw systeembeheerder kan de **onderzoekscomponent vormen van het Element 0} DITA {en dan kunt u de eigenschap van AEM Assets gebruiken UI.** Voor meer details zie, *toevoegen de onderzoekscomponent van het Element DITA in Assets UI* sectie in installeer en vorm Adobe Experience Manager Guides as a Cloud Service.
 
 Met de zoekfunctie kunt u:
 
 - Zoeken naar DITA-inhoud op basis van een elementwaarde, bijvoorbeeld `author`= xml
-- Zoeken naar DITA-inhoud op basis van een kenmerkwaarde, bijvoorbeeld `@platform`= vensters
-- Gebruik een combinatie van DITA-element en kenmerkwaarde, bijvoorbeeld `author`= xml `AND` `@platform`= vensters
+- Zoeken naar DITA-inhoud op basis van een kenmerkwaarde, bijvoorbeeld `@platform`= windows
+- Gebruik een combinatie van DITA-element en kenmerkwaarde, bijvoorbeeld `author`= xml `AND` `@platform`= windows
 
 Voer de volgende stappen uit om te zoeken naar DITA-inhoud in AEM opslagplaats:
 
-1. Open de interface Elementen.
+1. Open de gebruikersinterface van Assets.
 
-1. Selecteer in het linkerspoor de optie **Filters**.
+1. In het linkerspoor, uitgezochte **Filters**.
 
    ![](images/left-rail-filter.png){width="450" align="center"}
 
@@ -242,34 +242,34 @@ Voer de volgende stappen uit om te zoeken naar DITA-inhoud in AEM opslagplaats:
 
    ![](images/dita-element-search.png){width="450" align="center"}
 
-1. *\(Optioneel\)* In de **Zoekdirectory selecteren** , bladert u naar de locatie waarin u wilt zoeken.
+1. *\ (Facultatief \)* in het **Uitgezochte gebied van de Folder van het Onderzoek**, doorblader naar de plaats die u binnen wilt zoeken.
 
-1. In de **DITA-element** filter, levert u de **Elementnaam**, **Kenmerk** en een waarde waarnaar u wilt zoeken. Bijvoorbeeld om naar documenten te zoeken die `author` element waarvan `@type` creator u moet de informatie verstrekken zoals aangetoond in het volgende screenshot:
+1. In het **element DITA** filter, verstrek de **Naam van het Element**, **Attribuut**, en een waarde die u naar wilt zoeken. Als u bijvoorbeeld wilt zoeken naar documenten met een `author` -element dat van `@type` creator is, moet u de informatie opgeven zoals wordt weergegeven in de volgende schermafbeelding:
 
    ![](images/search-params.png){width="650" align="center"}
 
-   De zoekcriteria die zijn ingevoerd in het **DITA-element** wordt boven aan de zoekbalk weergegeven. De bestanden die voldoen aan de zoekcriteria worden weergegeven in het dialoogvenster **Zoekresultaten** gebied.
+   De onderzoekscriteria ingegaan in het **element DITA** filter wordt getoond bij de bovenkant van de onderzoeksbar. De dossiers die de onderzoekscriteria aanpassen worden getoond in het **gebied van de Resultaten van het Onderzoek**.
 
    Houd rekening met de volgende punten bij het opgeven van de zoekcriteria:
 
-   - Als u naar een exacte woordgroep wilt zoeken, voert u de woordgroep in het veld Waarde tussen aanhalingstekens in `"`woordzoekopdracht`"`.
+   - Om naar een nauwkeurige uitdrukking te zoeken, ga de uitdrukking op het gebied van de Waarde binnen citaten `"` uitdrukkingsonderzoek `"` in.
    - U kunt maximaal drie zoekcriteria voor DITA-elementen toevoegen.
    - Als u veelvoudige onderzoekscriteria specificeert, dan zullen alle hen worden gecombineerd gebruikend de logica AND.
    - U kunt geen jokerteken gebruiken in uw zoekcriteria. Als u bijvoorbeeld wilt zoeken naar platform \(kenmerk\) met de waarde Windows, kunt u geen \*formulier of Windo?s opgeven.
 
-**Het statusfilter voor uitchecken in de zoekactie**
+**de statusfilter van de Controle in onderzoek**
 
-Naast het filter DITA-element kunt u met AEM hulplijnen ook naar inhoud zoeken op basis van hun uitcheckstatus. Dit is handig wanneer u snel bestanden wilt uitfilteren die momenteel door u zijn uitgecheckt en u deze weer wilt inchecken.
+Naast het filter DITA-element kunt u met AEM Guides ook naar inhoud zoeken op basis van de status van de uitchecking. Dit is handig wanneer u snel bestanden wilt uitfilteren die momenteel door u zijn uitgecheckt en u deze weer wilt inchecken.
 
 Voer de volgende stappen uit om naar bestanden te zoeken op basis van hun uitcheckstatus:
 
-1. Open de interface Elementen.
+1. Open de gebruikersinterface van Assets.
 
-1. Klikken **Filter** in het linkerspoor.
+1. Klik **Filter** in het linkerspoor.
 1. Voer het trefwoord in de zoekbalk in.
 1. Pas de vereiste filters toe vanaf de linkerspoorstaaf.
 
-   U kunt bijvoorbeeld **Afhandelingsstatus** filter om de uitgecheckte of ingecheckte onderwerpen te tonen. U kunt deze lijst verder verfijnen door de gebruiker of de groep te kiezen in de lijst Uitgecheckt door.
+   Bijvoorbeeld, kunt u **filter van de Status van de Controle** toepassen om de uitgecheckte of ingecheckte onderwerpen te tonen. U kunt deze lijst verder verfijnen door de gebruiker of de groep te kiezen in de lijst Uitgecheckt door.
 
    Uw zoekresultaat wordt weergegeven.
 
@@ -285,7 +285,7 @@ U kunt bestanden alleen verwijderen als u tot een specifieke gebruikersgroep beh
 
 >[!NOTE]
 >
-> Voor meer informatie over de configuraties in bestandsbeheer raadpleegt u *Verwijderen van uitgecheckte bestanden voorkomen* en *Verwijderen van bestanden waarnaar wordt verwezen voorkomen* in de sectie Adobe Experience Manager-hulplijnen installeren en configureren as a Cloud Service.
+> Voor meer details op de configuraties op dossierbeheer, zie *schrapping van gecontroleerde dossiers* verhinderen en *schrapping van referenced dossiers* secties in installeren en vormen as a Cloud Service van Adobe Experience Manager Guides verhinderen.
 
 Als uw beheerder alle gebruiker toestemming heeft gegeven om het bestand te verwijderen, wordt het volgende bericht weergegeven wanneer u bestanden met verwijzingen verwijdert:
 
@@ -303,18 +303,18 @@ In dit scenario, zullen de gebruikers niet worden toegestaan om dossiers te schr
 
 Mediabestanden zoals afbeeldingen en video&#39;s maken integraal deel uit van uw inhoud. Tijdens het uploaden en beheren van uw inhoud, werkt u mogelijk ook met mediabestanden.
 
-Als het mediabestand wijzigingen heeft ondergaan, kunt u de bestanden zoeken en voorvertonen in het dialoogvenster **Versiehistorie**.U kunt als volgt wijzigingen in de verschillende versies van een mediabestand achterhalen:
+Als uw media dossier om het even welke veranderingen heeft ondergaan, kunt u de dossiers in de **Geschiedenis van de Versie** vinden en voorproef.Om veranderingen in de verschillende versies van een media dossier te weten te komen:
 
-1. Open het bestand in **UI Middelen**.
+1. Heb toegang tot het dossier in **Assets UI**.
 1. Selecteer het bestand waarvan u de versiegeschiedenis wilt weergeven.
-1. Klik in het linkerspoor op **Versiehistorie** en selecteer een versie.
+1. In het linkerspoor, klik **Geschiedenis van de Versie** en selecteer een versie.
 1. U kunt ook de miniaturen van de verschillende versies onder Versiegeschiedenis zien.
 
    ![](images/media-version-history-icon.png){width="800" align="center"}
 
-1. Selecteer in de weergegeven versies de versie die u als basisversie wilt gebruiken en klik op **Voorvertoning versie**. De voorvertoning van de geselecteerde versie wordt weergegeven in het venster Versievoorvertoning.
+1. Van de vermelde versies, selecteer die u als basisversie wilt gebruiken en **Versie van de Voorproef** klikken. De voorvertoning van de geselecteerde versie wordt weergegeven in het venster Versievoorvertoning.
 
    ![](images/media-version-preview.png){width="650" align="center"}
 
 
-**Bovenliggend onderwerp:**[ Inhoud beheren](authoring.md)
+**Bovenliggend onderwerp:**[ beheert inhoud ](authoring.md)

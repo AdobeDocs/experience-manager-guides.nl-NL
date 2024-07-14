@@ -1,6 +1,6 @@
 ---
 title: Sneltoetsen in de webeditor
-description: Ontdek tijdbesparende sneltoetsen in de webeditor van AEM hulplijnen.
+description: Ontdek tijdbesparende sneltoetsen in de webeditor van AEM Guides.
 exl-id: d843c5a9-04f8-44f2-9bf5-60cb4ed7fa38
 feature: Authoring, Features of Web Editor
 role: User
@@ -23,32 +23,32 @@ Er zijn vele verrichtingen in de Redacteur van het Web die u het gebruiken van d
 
 | Bewerking in webeditor | Windows | macOS |
 |-----------------------|-----------------|-----------------|
-| Vette opmaak toepassen op geselecteerde tekst | ***Ctrl***+***B*** | ***Opdracht***+***B*** |
-| Cursieve opmaak toepassen op geselecteerde tekst | ***Ctrl***+***I*** | ***Opdracht***+***I*** |
-| Onderstrepingsopmaak toepassen op geselecteerde tekst | ***Ctrl***+***U*** | ***Opdracht***+***U*** |
-| Focus op het linkerdeelvenster | **Ctrl***+**Shift**+***1*** | ***Opdracht***+**Shift**+***1*** |
-| Focus op het rechterdeelvenster | **Ctrl***+**Shift**+***2*** | ***Opdracht***+**Shift**+***2*** |
-| Focus op de huidige editor | **Ctrl***+**Shift**+***0*** | ***Opdracht***+**Shift**+***0*** |
-| Document opslaan in auteur- of bronweergave | ***Ctrl***+**Shift**+***S*** | ***Opdracht***+**Shift**+***S*** |
-| Alle geopende documenten opslaan in de auteur- of bronweergave | ***Ctrl***+***S*** | ***Opdracht***+***S*** |
-| Dialoogvenster Invoegelement tonen | ***Alt***+***Enter*** | ***Optie***+***Enter*** |
-| Dialoogvenster Element invoegen weergeven om het element in te voegen vóór het geselecteerde element | ***Alt***+***Shift***+***Enter*** | ***Optie***+***Shift***+***Enter*** |
-| De cursor één woord naar links verplaatsen. | ***Ctrl***+***Pijl-links*** | ***Optie***+***Pijl-links*** |
-| De cursor één woord naar rechts verplaatsen. | ***Ctrl***+***Pijl-rechts*** | ***Optie***+***Pijl-rechts*** |
-| De cursor naar het begin van de huidige regel verplaatsen. | ***Home*** | ***Opdracht***+***Pijl-links*** |
-| De cursor naar het einde van de huidige regel verplaatsen. | **Einde** | ***Opdracht***+***Pijl-rechts*** |
-| De cursor naar het begin van het volgende element verplaatsen. | ***Tab*** | ***Tab*** |
-| Plaats het lijstitem op het volgende niveau. | ***Tab*** | ***Tab*** |
-| De cursor naar het einde van het vorige element verplaatsen. | ***Shift***+***Tab*** | ***Shift***+***Tab*** |
-| Het lijstitem uitspringen naar het vorige niveau. | ***Shift***+***Tab*** | ***Shift***+***Tab*** |
-| XML automatisch laten inspringen in bronweergave | ***Ctrl***+***Alt***+***L*** | ***Opdracht***+***Optie***+***L*** |
-| Het huidige element splitsen | ***Enter*** | ***Retourneren*** |
-| Geselecteerde tekst kopiëren | ***Ctrl***+**C** | ***Opdracht***+**C** |
-| Plakken | ***Ctrl***+**V** | ***Opdracht***+**V** |
-| Opmaak plakken en aanpassen | ***Ctrl***+***Shift***+**V** | ***Opdracht***+***Shift***+**V** |
-| Dialoogvenster Afdrukken openen | ***Ctrl***+**P** | ***Opdracht***+**P** |
-| Laatste handeling ongedaan maken | ***Ctrl***+**Z** | ***Opdracht***+**Z** |
-| Laatste handeling opnieuw | ***Ctrl***+**Y** | ***Opdracht***+**Y** |
-| Vaste spatie invoegen `(&nbsp;)` | ***Alt***+**Spatie** | ***Optie***+**Spatie** |
+| Vette opmaak toepassen op geselecteerde tekst | ***CTRL*** + ***B*** | ***Bevel*** + ***B*** |
+| Cursieve opmaak toepassen op geselecteerde tekst | ***CTRL*** + ***I*** | ***Bevel*** + ***I*** |
+| Onderstrepingsopmaak toepassen op geselecteerde tekst | ***CTRL*** + ***U*** | ***Bevel*** + ***U*** |
+| Focus op het linkerdeelvenster | **CTRL** *+ **Verschuiving** + ***1*** | ***Bevel*** + **Verschuiving**+ ***1*** |
+| Focus op het rechterdeelvenster | **CTRL** *+ **Verschuiving** + ***2*** | ***Bevel*** + **Verschuiving**+ ***2*** |
+| Focus op de huidige editor | **CTRL** *+ **Verschuiving** + ***0*** | ***Bevel*** + **Verschuiving** + ***0*** |
+| Document opslaan in de weergave Auteur of Source | ***CTRL*** + **Verschuiving** + ***S*** | ***Bevel*** + **Verschuiving**+ ***S*** |
+| Alle geopende documenten opslaan in de weergave Auteur of Source | ***CTRL*** + ***S*** | ***Bevel*** + ***S*** |
+| Dialoogvenster Invoegelement tonen | ***Alt*** + ***gaat*** binnen | ***Optie*** + ***gaat*** binnen |
+| Dialoogvenster Element invoegen weergeven om het element in te voegen vóór het geselecteerde element | ***Alt*** + ***Verschuiving*** + ***gaat*** binnen | ***Optie*** + ***Verschuiving*** + ***gaat*** binnen |
+| De cursor één woord naar links verplaatsen. | ***CTRL*** + ***Linkerpijl*** | ***Optie*** + ***Linkerpijl*** |
+| De cursor één woord naar rechts verplaatsen. | ***CTRL*** + ***Juiste Pijl*** | ***Optie*** + ***Juiste Pijl*** |
+| De cursor naar het begin van de huidige regel verplaatsen. | ***Huis*** | ***Bevel*** + ***Linkerpijl*** |
+| De cursor naar het einde van de huidige regel verplaatsen. | **Eind** | ***Bevel*** + ***Juiste Pijl*** |
+| De cursor naar het begin van het volgende element verplaatsen. | ***Lusje*** | ***Lusje*** |
+| Plaats het lijstitem op het volgende niveau. | ***Lusje*** | ***Lusje*** |
+| De cursor naar het einde van het vorige element verplaatsen. | ***Verschuiving*** + ***Lusje*** | ***Verschuiving*** + ***Lusje*** |
+| Het lijstitem uitspringen naar het vorige niveau. | ***Verschuiving*** + ***Lusje*** | ***Verschuiving*** + ***Lusje*** |
+| XML automatisch laten inspringen in Source-weergave | ***CTRL*** + ***Alt*** + ***L*** | ***Bevel*** + ***Optie*** + ***L*** |
+| Het huidige element splitsen | ***ga*** binnen | ***Terugkeer*** |
+| Geselecteerde tekst kopiëren | ***CTRL*** + **C** | ***Bevel*** + **C** |
+| Plakken | ***CTRL*** + **V** | ***Bevel*** + **V** |
+| Opmaak plakken en aanpassen | ***CTRL*** + ***Verschuiving*** + **V** | ***Bevel*** + ***Verschuiving*** + **V** |
+| Dialoogvenster Afdrukken openen | ***CTRL*** + **P** | ***Bevel*** + **P** |
+| Laatste handeling ongedaan maken | ***CTRL*** + **Z** | ***Bevel*** + **Z** |
+| Laatste handeling opnieuw | ***CTRL*** + **Y** | ***Bevel*** + **Y** |
+| Vaste spatie invoegen `(&nbsp;)` | ***Alt*** + **Ruimte** | ***Optie*** + **Ruimte** |
 
-**Bovenliggend onderwerp:** [Werken met de webeditor](web-editor.md)
+**Bovenliggend onderwerp:** [ Werk met de Redacteur van het Web ](web-editor.md)

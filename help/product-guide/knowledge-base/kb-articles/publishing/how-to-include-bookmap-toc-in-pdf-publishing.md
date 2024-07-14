@@ -16,7 +16,8 @@ ht-degree: 0%
 
 ## Uw boekmap instellen
 
-Inclusief de `<toc>`  element: binnen de boekmap `<frontmatter>`-element, de locatie van het `<booklists>` element.  Nest a `<toc>` element binnen `<booklists>` als volgt:
+Neem het element `<toc>` op:
+Zoek binnen het `<frontmatter>` -element van uw boekmap het `<booklists>` -element.  Een `<toc>` -element op deze manier nesten in `<booklists>` :
 
 ```
 <frontmatter>
@@ -27,7 +28,7 @@ Inclusief de `<toc>`  element: binnen de boekmap `<frontmatter>`-element, de loc
 </frontmatter>
 ```
 
-De specificatie DITA staat het plaatsen van TOC en bookliklisten binnen toe `<backmatter>` ook deel uit te maken.
+Met de DITA-specificatie kunnen de inhoudsopgave en de opnamelijsten ook in de sectie `<backmatter>` worden geplaatst.
 
 
 ```
@@ -77,7 +78,7 @@ U kunt het ontwerp beheren door de paginalay-out voor de inhoudsopgave en de sti
 
 Inhoudsopgave en andere volgorde voor opnamelijsten in PDF zijn alleen gebaseerd op de structuur van de boekmap.
 
-![toc](../assets/publishing/toc.png)
+![ toc ](../assets/publishing/toc.png)
 
 
 ## Veelgestelde vragen
@@ -88,17 +89,17 @@ Ditamaps hebben zelf niet direct een inhoudsopgave (TOC) zoals een boekenkaart. 
 
 Als u Ditamap publiceert, geeft Native PDF automatisch functionaliteit om inhoudsopgave en bladlist te genereren, kunt u genereren van inhoudsopgave bij ditamap inschakelen/uitschakelen vanuit native PDF-instellingen.
 
-![Inhoudsopgave uitschakelen inschakelen](../assets/publishing/pageorder.png)
+![ laat onbruikbaar maken TOC ](../assets/publishing/pageorder.png) toe
 
 ## Aanvullende bronnen:
 
-- [Native PDF-ontwerppaginaopmaakdocumentatie](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/design-page-layout)
-- [Eigen essentiële PDF-items, vooraf opgenomen sessie met experts](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23)
+- [ de inheemse documentatie van de het ontwerppagina van de PDF pagina ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/design-page-layout)
+- [ Eigen de essentiële PDF eerste zitting van de pre-geregistreerde Deskundige zitting ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23)
 
 <br>
 <br>
 
-Plaatsen in de Gemeenschap AEM gidsen [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) voor eventuele query&#39;s.
+Post op het communautair van AEM Guides [ forum ](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) voor om het even welke vragen.
 
 
 

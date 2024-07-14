@@ -1,5 +1,5 @@
 ---
-title: Native PDF-publicatiefunctie | Aangepaste stijl toepassen op inhoudsopgave-items en onderwerpinhoud
+title: Native PDF Publish-functie | Aangepaste stijl toepassen op inhoudsopgave-items en onderwerpinhoud
 description: Leer hoe u gebruiksstijlen maakt en stijlen voor uw inhoud maakt.
 exl-id: f65c9683-a1fc-432a-854b-83e8f39d7dae
 feature: Output Generation
@@ -14,20 +14,20 @@ ht-degree: 0%
 
 # Aangepaste stijl toepassen op inhoudsopgave-items en onderwerpinhoud
 
-Mogelijk wilt u soms aangepaste opmaak toepassen op de inhoudsopgave-items of een bepaald onderwerp. Dit kan worden bereikt door een `outputclass` kenmerk met de `<topicref>` -element in uw DITA-kaart. Ook, voor het geval u een douaneformaat op een volledig onderwerp wilt toepassen, dan kan dat ook worden bereikt door de de stijldefinitie van de attributen in CSS uit te breiden.
+Mogelijk wilt u soms aangepaste opmaak toepassen op de inhoudsopgave-items of een bepaald onderwerp. Dit kan worden bereikt door een `outputclass` -kenmerk te koppelen aan het `<topicref>` -element in uw DITA-kaart. Ook, voor het geval u een douaneformaat op een volledig onderwerp wilt toepassen, dan kan dat ook worden bereikt door de de stijldefinitie van de attributen in CSS uit te breiden.
 
-Neem een voorbeeld van een nieuw onderwerp dat u voor overzicht wilt verzenden. Voor gemakkelijke identificatie van het bijgewerkte onderwerp, moet u toevoegen `outputclass` aan de `<topicref>` in uw DITA-kaart en definieert vervolgens een aangepaste opmaak voor dezelfde opmaak in de CSS.
+Neem een voorbeeld van een nieuw onderwerp dat u voor overzicht wilt verzenden. Voor een eenvoudige identificatie van het bijgewerkte onderwerp moet u een `outputclass` -kenmerk toevoegen aan het `<topicref>` -element in uw DITA-kaart en vervolgens een aangepaste opmaak voor dit kenmerk definiëren in de CSS.
 
-In het volgende voorbeeld wordt *Geschiedenis van vluchten* onderwerp is toegewezen en `outputclass` kenmerk met de waarde van `new-topic`.
+In het volgende voorbeeld, is de *Geschiedenis van vluchten* onderwerp toegewezen een `outputclass` attribuut met de waarde van `new-topic`.
 
 <img src="./assets/new-topic-attribute-in-map.png" width="500">
 
-De klassedefinitie van de klasse `new-topic` in een CSS kunt u de stijl definiëren voor de volgende items:
+Met de klassedefinitie van `new-topic` in een CSS kunt u de stijl definiëren voor de volgende items:
 * De belangrijkste vermelding in de inhoudsopgave of de miniinhoudsopgave
 * De titel van het onderwerp in de hoofdinhoud
 * De volledige inhoud van het onderwerp, inclusief de titel
 
-Zie hoe elk van deze scenario&#39;s in CSS kan worden bepaald. In de volgende CSS-definitie van de `new-topic` is de tekstkleur gewijzigd.
+Zie hoe elk van deze scenario&#39;s in CSS kan worden bepaald. In de volgende CSS-definitie van de `new-topic` -klasse is de tekstkleur gewijzigd.
 
 ```css
 …
@@ -61,7 +61,7 @@ Als u de ingang van TOC en de titel van het onderwerp verschillende stijlen wilt
 ...
 ```
 
-Tot slot kunt u stijlen op de volledige inhoud binnen het onderwerp ook toepassen. Hiervoor moet u een achtervoegsel toevoegen &quot;`-content`&quot; aan de klassenaam. In het volgende voorbeeld, is een veranderingsbar toegevoegd op de volledige inhoud van het onderwerp:
+Tot slot kunt u stijlen op de volledige inhoud binnen het onderwerp ook toepassen. Voor dit, moet u een achtervoegsel &quot;`-content`&quot;aan de klassennaam toevoegen. In het volgende voorbeeld, is een veranderingsbar toegevoegd op de volledige inhoud van het onderwerp:
 
 ```css
 ...
@@ -72,6 +72,6 @@ Tot slot kunt u stijlen op de volledige inhoud binnen het onderwerp ook toepasse
 ...
 ```
 
-Met de bovenstaande opmaakkenmerken wordt links van het dialoogvenster een wijzigingsbalk toegevoegd *Voorgeschiedenis van de vlucht* onderwerp, zoals hieronder getoond:
+Gebruikend de bovengenoemde het stileren attributen, wordt een veranderingsbar toegevoegd links van de *Geschiedenis van vlucht* onderwerp, zoals hieronder getoond:
 
 <img src="./assets/pdf-output-topic-content.jpg" width="500">

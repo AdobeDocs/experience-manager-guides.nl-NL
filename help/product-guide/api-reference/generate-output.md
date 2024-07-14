@@ -18,11 +18,11 @@ Met de volgende op Java gebaseerde API kunt u uitvoer genereren voor een DITA-ka
 
 Details bundel:
 
-- Groep-id: **com.adobe.fmdita**
+- Identiteitskaart van de groep: **com.adobe.fmdita**
 
-- Artefact-id: **api**
+- Artefactidentiteitskaart: **api**
 
-- Versie: **3,4**
+- Versie: **3.4**
 
 - Pakket: ****com.adobe.fmdita.api.maps****
 
@@ -32,12 +32,12 @@ Details bundel:
   public class **PublishUtils** extends Object
   ```
 
-  De **`PublishUtils`** klasse bevat een methode voor het genereren van uitvoer voor een of meer uitvoervoorinstellingen.
+  De klasse **`PublishUtils`** bevat een methode voor het genereren van uitvoer voor een of meer uitvoervoorinstellingen.
 
 
 ## Uitvoer genereren
 
-De ``generateOutput`` Deze methode genereert uitvoer voor een DITA-toewijzingsbestand met de opgegeven uitvoervoorinstellingen.
+De methode ``generateOutput`` genereert uitvoer voor een DITA-toewijzingsbestand met de opgegeven uitvoervoorinstellingen.
 
 **Syntaxis**:
 
@@ -48,6 +48,12 @@ String outputName)
 throws GuidesApiException
 ```
 
-**Parameters**: |Naam|Type|Omschrijving| |—|—|—| |`session`|javax.jcr.Session|Een geldige JCR-sessie.| |``sourcePath``|Tekenreeks|Pad \(in de AEM opslagplaats\) van het DITA-kaartbestand waarvoor de uitvoer moet worden gegenereerd.| |``outputName``|Tekenreeks|Naam van de uitvoervoorinstelling\(s\) die moet worden gebruikt om uitvoer te genereren. U kunt meerdere uitvoervoorinstellingen opgeven met behulp van het scheidingsteken \(&quot;\|&quot;\) van de pipe, bijvoorbeeld `aemsite\|pdfoutput`.|
+**Parameters**:
+|Naam|Type|Omschrijving|
+|—|—|—|
+|`session`|javax.jcr.Session|Een geldige JCR-sessie.|
+|``sourcePath``|String|Path \(in de AEM repository\) van het DITA-kaartbestand waarvoor de uitvoer moet worden gegenereerd.|
+|``outputName``|String|Naam van de uitvoervoorinstelling\(s\) die moet worden gebruikt om uitvoer te genereren. U kunt meerdere uitvoervoorinstellingen opgeven met een scheidingsteken voor de pipe \(&quot;\|&quot;\), bijvoorbeeld `aemsite\|pdfoutput`|.
 
-**Uitzondering**: Throws ``javax.jcr.RepositoryException``, `java.io.IOException`, en `java.lang.Exception`.
+**Uitzondering**:
+Genereert ``javax.jcr.RepositoryException`` , `java.io.IOException` en `java.lang.Exception` .

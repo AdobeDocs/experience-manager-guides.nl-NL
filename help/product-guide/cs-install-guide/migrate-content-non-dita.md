@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Niet-DITA-inhoud migreren {#id181AH0R02HT}
 
-Deze sectie begeleidt u door het migratieproces om niet-DITA documenten in formaat te migreren DITA. AEM de Gidsen verstrekt migratie uit de volgende bronnen:
+Deze sectie begeleidt u door het migratieproces om niet-DITA documenten in formaat te migreren DITA. AEM Guides biedt migratie uit de volgende bronnen:
 
 - [Microsoft Word](#id1949B040Z5Z)
 
@@ -29,11 +29,11 @@ Deze sectie begeleidt u door het migratieproces om niet-DITA documenten in forma
 
 ## Microsoft Word-documenten migreren {#id1949B040Z5Z}
 
-Met AEM hulplijnen kunt u bestaande Word-documenten migreren \(`.docx`\) in DITA onderwerptypedocumenten. U moet de locatie van de invoer- en uitvoermap en andere parameters opgeven en het document wordt geconverteerd naar DITA-document. Afhankelijk van de inhoud, zou u een.dita dossier en een.ditamap- dossier kunnen hebben.
+AEM Guides staat u toe om uw bestaande documenten van Word \ (`.docx` \) in DITA onderwerptypedocumenten te migreren. U moet de locatie van de invoer- en uitvoermap en andere parameters opgeven en het document wordt geconverteerd naar DITA-document. Afhankelijk van de inhoud, zou u een.dita dossier en een.ditamap- dossier kunnen hebben.
 
 Als u een Word-document wilt converteren, moet het document een goede structuur hebben. Uw document moet bijvoorbeeld een titel hebben, gevolgd door Kop 1, Kop 2 enzovoort. Elk van de rubrieken zou wat inhoud in het moeten hebben. Als uw document niet goed gestructureerd is, werkt het proces mogelijk niet naar behoren.
 
-AEM hulplijnen gebruiken standaard de [Transformatieframework Word-naar-DITA \(Word2DITA\)](http://www.dita4publishers.org/docs/repo/org.dita4publishers.word2dita/word2dita/word2dita-intro.html). Deze transformatie is afhankelijk van de [stijl-aan-markering, afbeelding](http://www.dita4publishers.org/docs/repo/org.dita4publishers.word2dita/word2dita/style-to-tag-map-overview.html) configuratiebestand. Als u de Word2DITA-transformatie met succes wilt kunnen gebruiken, moet u de volgende richtlijnen in overweging nemen voor het voorbereiden van uw Word-document voor conversie:
+Door gebrek, gebruikt AEM Guides [ Word-aan-DITA \ (Word2DITA \) transformatiekader ](http://www.dita4publishers.org/docs/repo/org.dita4publishers.word2dita/word2dita/word2dita-intro.html). Deze transformatie hangt van het [ stijl-aan-markering van afbeelding ](http://www.dita4publishers.org/docs/repo/org.dita4publishers.word2dita/word2dita/style-to-tag-map-overview.html) configuratiedossier af. Als u de Word2DITA-transformatie met succes wilt kunnen gebruiken, moet u de volgende richtlijnen in overweging nemen voor het voorbereiden van uw Word-document voor conversie:
 
 >[!NOTE]
 >
@@ -49,11 +49,11 @@ AEM hulplijnen gebruiken standaard de [Transformatieframework Word-naar-DITA \(W
 
 - Alle kop- en voetteksten verwijderen.
 
-- Inline stijlen zoals vet, cursief en onderstrepen worden omgezet in `b`, `i`, en `u` elementen.
+- Inline stijlen zoals vet, cursief en onderstrepen worden omgezet in `b` -, `i` - en `u` -elementen.
 
-- Alle geordende en ongeordende lijsten worden omgezet in `ol` en `ul` elementen. Dit geldt ook voor geneste lijsten, lijsten binnen tabellen, notities of voetnoten.
+- Alle geordende en ongeordende lijsten worden geconverteerd naar `ol` - en `ul` -elementen. Dit geldt ook voor geneste lijsten, lijsten binnen tabellen, notities of voetnoten.
 
-- Alle hyperlinks worden geconverteerd naar `xref`.
+- Alle hyperlinks worden geconverteerd naar `xref` .
 
 - De bestandsnaam van de omgezette bestanden is gebaseerd op de koptekst gevolgd door een bestandsnummer. Het bestandsnummer is een opeenvolgend nummer op basis van de positie van de koptekst in het document. Als een koptekst bijvoorbeeld &#39;Voorbeeldkop&#39; is en de tekst een tiende kop in het document heeft, is de resulterende bestandsnaam voor dit onderwerp vergelijkbaar met Sample\_Heading\_10.dita.
 
@@ -64,19 +64,19 @@ Voer de volgende stappen uit om uw bestaande documenten van Word in DITA onderwe
 
 1. Pas het gedownloade bestand w2d\_io.xml aan.
 
-1. Voeg het bestand toe op de volgende locatie in de Git-opslagplaats van uw Cloud Manager:
+1. Voeg het bestand toe op de volgende locatie in de Cloud Manager Git-opslagplaats:
 
    /apps/fmdita/config/w2d\_io.xml
 
-   De `w2d_io.xml` bestand bevat de volgende configureerbare parameters:
+   Het bestand `w2d_io.xml` bevat de volgende configureerbare parameters:
 
-   - In de `inputDir` -element, geeft u de locatie op van de invoermap waarin uw Word-brondocumenten beschikbaar zijn. Als uw Word-documenten bijvoorbeeld zijn opgeslagen in een map met de naam `wordtodita` in `projects` en geef vervolgens de locatie op als: `/content/dam/projects/wordtodita/`
+   - Geef in het element `inputDir` de locatie op van de invoermap waarin uw Word-brondocumenten beschikbaar zijn. Als uw Word-documenten bijvoorbeeld zijn opgeslagen in een map met de naam `wordtodita` in de map `projects` , geeft u de locatie op als: `/content/dam/projects/wordtodita/`
 
-   - In de`outputDir` -element, geeft u de locatie van de uitvoermap op of behoudt u de standaarduitvoerlocatie om het omgezette DITA-document op te slaan. Als de opgegeven uitvoermap niet bestaat op DAM, maakt de conversieworkflow de uitvoermap.
+   - In het `outputDir` element, specificeer de plaats van de outputomslag of houd de standaardoutputplaats om het omgezette DITA- document te bewaren. Als de opgegeven uitvoermap niet bestaat op DAM, maakt de conversieworkflow de uitvoermap.
 
-   - Voor de `createRev` element, specificeer of een nieuwe versie van het omgezette onderwerp DITA \ (`true`of niet \(`false`\).
+   - Voor het `createRev` element, specificeer of een nieuwe versie van het omgezette onderwerp DITA \ (`true` \) of niet \ (`false` \) moet worden gecreeerd.
 
-   - In de `s2tMap` -element, geeft u de locatie op van het kaartbestand dat toewijzingen voor Word-documentstijlen aan DITA-elementen bevat. De standaardtoewijzing wordt opgeslagen in het bestand dat zich bevindt op:
+   - Geef in het element `s2tMap` de locatie op van het kaartbestand dat toewijzingen voor Word-documentstijlen aan DITA-elementen bevat. De standaardtoewijzing wordt opgeslagen in het bestand dat zich bevindt op:
 
      ```
      /libs/fmdita/word2dita/word-builtin-styles-style2tagmap.xml
@@ -84,42 +84,42 @@ Voer de volgende stappen uit om uw bestaande documenten van Word in DITA onderwe
 
      >[!NOTE]
      >
-     > Voor meer informatie over de structuur van `word-builtin-styles-style2tagmap.xml` en hoe u het kunt aanpassen, zie [Toewijzing stijl aan label](http://www.dita4publishers.org/docs/repo/org.dita4publishers.word2dita/word2dita/style-to-tag-map-overview.html) in *DITA voor gebruikershandleiding voor uitgevers*.
+     > Voor meer informatie over de structuur van `word-builtin-styles-style2tagmap.xml` dossier en hoe u het kunt aanpassen, zie [ Stijl aan Tagtoewijzing ](http://www.dita4publishers.org/docs/repo/org.dita4publishers.word2dita/word2dita/style-to-tag-map-overview.html) in *DITA voor de Gids van de Gebruiker van Uitgevers*.
 
    - In het element props2Propagate, specificeer de eigenschappen die tot de kaart moeten worden overgegaan DITA. Deze eigenschap is vereist voor het doorgeven van de standaardmetagegevens, zoals dc:title,dc:subject,dam:trefwoorden,dam:categorie van documentmetagegevens naar geconverteerde DITA-elementen.
 
-1. Stel de pijpleiding van de Manager van de Wolk in werking om de bijgewerkte configuratie op te stellen.
+1. Stel de pijpleiding van Cloud Manager in werking om de bijgewerkte configuratie op te stellen.
 
-1. Na het vormen van de vereiste parameters in `w2d_io.xml` bestand, meldt u zich aan bij AEM en opent u de interface Middelen.
+1. Nadat u de vereiste parameters in het `w2d_io.xml` -bestand hebt geconfigureerd, meldt u zich aan AEM en opent u de interface van Assets.
 
-1. Ga naar de locatie van de invoermap \()`wordtodita`\).
+1. Navigeer naar de locatie van de invoermap \(`wordtodita`\).
 
-1. Upload de Word-brondocumenten naar deze map. Voor informatie over het uploaden van inhoud naar DAM raadpleegt u [Bestaande DITA-inhoud uploaden](migrate-content-upload-existing-dita-content.md#).
+1. Upload de Word-brondocumenten naar deze map. Voor informatie bij het uploaden van inhoud op DAM, zie [ Bestaande inhoud uploaden DITA ](migrate-content-upload-existing-dita-content.md#).
 
 
-Met de `config` `/config` , kunt u een of meerdere configuraties definiëren voor conversie. De omzettingswerkstroom wordt uitgevoerd en de definitieve output in de vorm van een onderwerp DITA wordt bewaard in de plaats die in wordt gespecificeerd `outputDir` element.
+Met behulp van het blok `config` `/config` kunt u een of meer configuraties definiëren voor conversie. De omzettingswerkstroom wordt uitgevoerd en de definitieve output in de vorm van een onderwerp DITA wordt bewaard in de plaats die in het `outputDir` element wordt gespecificeerd.
 
-**Aanpassingsupdates voor bestaande gebruikers**
+**updates van de Aanpassing voor bestaande gebruikers**
 
-Als u een bestaande gebruiker bent voor AEM hulplijnen die zijn as a Cloud Service en bijgewerkt van de release van augustus 2021 tot de versies januari 2022 of hoger, werkt u de opgegeven eigenschappen bij als er maar weinig bestanden zijn verplaatst.
+Als u een bestaande gebruiker bent voor AEM Guides as a Cloud Service en een upgrade uitvoert van de release van augustus 2021 naar de versies januari 2022 of hoger, werkt u de gegeven eigenschappen bij als er maar weinig bestanden zijn verplaatst.
 
 >[!NOTE]
 >
 > Deze update is alleen van toepassing als u de conversieworkflow Microsoft Word naar DITA al gebruikt.
 
 - Bestandspad: /apps/fmdita/config/w2d\_io.xml
-- De waarde wijzigen voor `<s2tMap>` van /apps/dxml/word2dita/word-builtin-styles-style2tagmap.xml naar /libs/fmdita/word2dita/word-builtin-styles-style2tagmap.xml
-- Breng de noodzakelijke wijzigingen aan in de Git-opslagruimte van Cloud Manager, net als voor cloudservice, worden alle bestanden in /apps overschreven via Cloud Manager Git.
+- Wijzig de waarde voor `<s2tMap>` in /libs/fmdita/word2dita/word-builtin-styles-style2tagmap.xml
+- Breng de noodzakelijke wijzigingen aan in uw Cloud Manager Git-opslagplaats, net zoals voor cloudservice, worden alle bestanden in /apps overschreven via Cloud Manager Git.
 
 ## Adobe InDesign-documenten migreren {#id195AD0B0K5Z}
 
-Met AEM hulplijnen kunt u documenten van InDesigns converteren. Net als FrameMaker kunt u met InDesign ook ongestructureerde en gestructureerde documenten maken. De ongestructureerde documenten gebruiken de alinea- en tekenstijlen om inhoud op te maken. In het gestructureerde document worden elementen en de bijbehorende kenmerken gebruikt.
+Met AEM Guides kunt u documenten met InDesigns converteren. Net als FrameMaker kunt u met InDesign ook ongestructureerde en gestructureerde documenten maken. De ongestructureerde documenten gebruiken de alinea- en tekenstijlen om inhoud op te maken. In het gestructureerde document worden elementen en de bijbehorende kenmerken gebruikt.
 
 Voor het conversieproces moeten de opmaak van de alinea- en tekenstijl worden toegewezen aan relevante DITA-elementen. Op dezelfde manier zal in het geval van gestructureerde documenten het toewijzingsdossier één-aan-één afbeelding van de elementen en de attributen van het InDesign met elementen DITA en attributen bevatten.
 
 Het conversieproces omvat de volgende acties op de achtergrond:
 
-- De *Taal voor opmaakcodes voor InDesigns* Het bestand \(IDML\) wordt uitgepakt in een werkmap.
+- Het *dossier van de Taal van de Prijsverhoging van het InDesign* \ (IDML \) is uitgepakt aan een werkende folder.
 - Het bestand designmap.xml wordt gelezen om de afzonderlijke artikelen van het InDesign te zoeken.
 - Alle artikelen worden samengevoegd tot één XML-instantie, &#39;lege&#39; artikelen worden genegeerd.
 - Alle ingesloten afbeeldingen worden geëxporteerd.
@@ -128,7 +128,7 @@ Het conversieproces omvat de volgende acties op de achtergrond:
 - Creatie en bevestiging van individuele onderwerpen DITA en DITA kaartdossiers.
 - Verwijderen van tijdelijke bestanden.
 
-In grote lijnen is het voor het conversieproces nodig [Bestanden van InDesigns voorbereiden voor conversie](appendix.md#id195DBF0045Z)[appendix.md\#id195DBF0045Z](appendix.md#id195DBF0045Z) en [Het toewijzingsbestand voorbereiden voor InDesign naar DITA-migratie](appendix.md#id194AF0003HT)[appendix.md\#id194AF0003HT](appendix.md#id194AF0003HT)dan moet u de opgegeven procedure volgen voor het uitvoeren van het conversieproces.
+Breedweg, vereist het omzettingsproces u [ InDesign dossiers voor omzetting ](appendix.md#id195DBF0045Z)[ appendix.md \#id195DBF0045Z ](appendix.md#id195DBF0045Z) en [ voorbereidt het kaartdossier voor InDesign aan migratie DITA ](appendix.md#id194AF0003HT)[ appendix.md \ #id194AF003HT ](appendix.md#id194AF0003HT), u moet de bepaalde procedure volgen om het omzettingsproces te leiden.
 
 Voer de volgende stappen uit om uw bestaande documenten van het InDesign in DITA onderwerptype document om te zetten:
 
@@ -138,19 +138,19 @@ Voer de volgende stappen uit om uw bestaande documenten van het InDesign in DITA
 
    `/libs/fmdita/config/idml2dita_io.xml`
 
-1. Maak een overlayknooppunt van het dialoogvenster `config` in de `apps` knooppunt.
+1. Maak een overlayknooppunt van de map `config` in het knooppunt `apps` .
 
-1. Navigeer naar het configuratiebestand dat beschikbaar is in het dialoogvenster `apps` knooppunt:
+1. Navigeer naar het configuratiebestand dat beschikbaar is in het knooppunt `apps` :
 
    `/apps/fmdita/config/idml2dita_io.xml`
 
-   Vorm de volgende parameters in `idml2dita_io.xml` bestand:
+   Configureer de volgende parameters in het `idml2dita_io.xml` -bestand:
 
-   - In de `inputDir` -element, geeft u de locatie op van de invoermap waarin de brondocumenten van het InDesign beschikbaar zijn. Als uw documenten van het InDesign bijvoorbeeld zijn opgeslagen in een map met de naam `indesigntodita` in `projects` en geef vervolgens de locatie op als: `/content/dam/idmlfiles/indesigntodita/`
+   - Geef in het element `inputDir` de locatie op van de invoermap waarin de brondocumenten van het InDesign beschikbaar zijn. Als uw documenten met InDesigns bijvoorbeeld zijn opgeslagen in een map met de naam `indesigntodita` in de map `projects` , geeft u de locatie op als: `/content/dam/idmlfiles/indesigntodita/`
 
-   - In de`outputDir` -element, geeft u de locatie van de uitvoermap op of behoudt u de standaarduitvoerlocatie om het omgezette DITA-document op te slaan. Als de opgegeven uitvoermap niet bestaat op DAM, maakt de conversieworkflow de uitvoermap.
+   - In het `outputDir` element, specificeer de plaats van de outputomslag of houd de standaardoutputplaats om het omgezette DITA- document te bewaren. Als de opgegeven uitvoermap niet bestaat op DAM, maakt de conversieworkflow de uitvoermap.
 
-   - In de `mapStyle` -element, geeft u de locatie op van het kaartbestand dat toewijzingen bevat voor documentstijlen van InDesigns naar DITA-elementen. De standaardtoewijzing wordt opgeslagen in het bestand dat zich bevindt op:
+   - Geef in het `mapStyle` -element de locatie op van het toewijzingsbestand dat toewijzingen bevat voor documentstijlen van InDesigns naar DITA-elementen. De standaardtoewijzing wordt opgeslagen in het bestand dat zich bevindt op:
 
      ```
      /stmap.adobeidml.xml
@@ -158,20 +158,20 @@ Voer de volgende stappen uit om uw bestaande documenten van het InDesign in DITA
 
      >[!NOTE]
      >
-     > Voor meer informatie over de structuur van `stmap.adobeidml.xml` en hoe u het kunt aanpassen, raadpleegt u de sectie [appendix.md\#id194AF0003HT](appendix.md#id194AF0003HT) in het aanhangsel.
+     > Voor meer informatie over de structuur van `stmap.adobeidml.xml` dossier en hoe u het kunt aanpassen, zie de sectie [ appendix.md \#id194AF003HT ](appendix.md#id194AF0003HT) in Bijlage.
 
-1. Sla de `idml2dita_io.xml` bestand.
+1. Sla het `idml2dita_io.xml` -bestand op.
 
-1. Na het vormen van de vereiste parameters in `idml2dita_io.xml` bestand, meldt u zich aan bij AEM en opent u de interface Middelen.
+1. Nadat u de vereiste parameters in het `idml2dita_io.xml` -bestand hebt geconfigureerd, meldt u zich aan AEM en opent u de interface van Assets.
 
-1. Ga naar de locatie van de invoermap \()`indesigntodita`\).
+1. Navigeer naar de locatie van de invoermap \(`indesigntodita`\).
 
-1. Upload de documenten van het bronInDesign in deze omslag. Voor informatie over het uploaden van inhoud naar DAM raadpleegt u [Bestaande DITA-inhoud uploaden](migrate-content-upload-existing-dita-content.md#).
+1. Upload de documenten van het bronInDesign in deze omslag. Voor informatie bij het uploaden van inhoud op DAM, zie [ Bestaande inhoud uploaden DITA ](migrate-content-upload-existing-dita-content.md#).
 
 
 ## XHTML-documenten migreren {#id1949B04L0Y4}
 
-Met AEM hulplijnen kunt u uw bestaande XHTML-documenten converteren naar DITA-onderwerpdocumenten. U moet de locatie van de invoer- en uitvoermap en andere parameters opgeven en de documenten worden geconverteerd naar DITA-indeling. Er zijn twee methoden waarmee u gestructureerde HTML-documenten kunt omzetten:
+Met AEM Guides kunt u uw bestaande XHTML-documenten converteren naar DITA-onderwerpdocumenten. U moet de locatie van de invoer- en uitvoermap en andere parameters opgeven en de documenten worden geconverteerd naar DITA-indeling. Er zijn twee methoden waarmee u gestructureerde HTML-documenten kunt omzetten:
 
 - Alle documenten uploaden naar de invoermap, of
 - Maak een ZIP van alle documenten samen met de mediabestanden en upload deze naar de invoermap. Deze aanpak wordt over het algemeen gebruikt voor een set HTML-bestanden die aan elkaar zijn gekoppeld en er is een inhoudsopgave \(index.html\). Het bestand index.html bevat koppelingen naar alle HTML-bestanden in de set.
@@ -217,14 +217,14 @@ Voor het uploaden van uw documenten in een ZIP-bestand moet u rekening houden me
   </html>
   ```
 
-  Let erop dat elke `ul` -tag moet de `class` kenmerk ingesteld op `book`. Op dezelfde manier elke `li` tag `class` moet worden ingesteld op `topicref`.
+  Voor elke `ul` -tag moet het `class` -kenmerk zijn ingesteld op `book` . Op dezelfde manier moet elke `li` tag `class` worden ingesteld op `topicref` .
 
-- Als u inline stijlen gebruikt, zet u de inline stijlen om in op CSS gebaseerde stijlklassen in uw XHTML-bestand. Vervolgens gebruikt u stijlkenmerktoewijzing om deze op klassen gebaseerde stijlen te converteren naar DITA `outputclass` in het geconverteerde DITA-bestand.
+- Als u inline stijlen gebruikt, zet u de inline stijlen om in op CSS gebaseerde stijlklassen in uw XHTML-bestand. Gebruik vervolgens stijlkenmerktoewijzing om deze op klassen gebaseerde stijlen te converteren naar het attribuut DITA `outputclass` in het geconverteerde DITA-bestand.
 
-  Tijdens het genereren van de HTML- of AEM Site-uitvoer uit deze DITA-bestanden `outputclass` U kunt stijlklassen toepassen op gegenereerde HTML of AEM Site, zodat deze overeenkomen met de HTML-inhoud van uw bron.
+  Tijdens het genereren van HTML- of AEM Site-uitvoer uit deze DITA-bestanden, kunnen de `outputclass` -kenmerken worden gebruikt om stijlklasse toe te passen op gegenereerde HTML of AEM Site, zodat deze overeenkomt met de HTML-inhoud van uw bron.
 
 
-Naast de overwegingen voor het maken van het ZIP-bestand moet uw XHTML-document ook goed gestructureerd zijn. Uw document moet bijvoorbeeld een *Titel*, gevolgd door *Kop 1*, *Kop 2*, enzovoort. Elk van de rubrieken zou wat inhoud in het moeten hebben. Als uw document niet goed gestructureerd is, werkt het migratieproces mogelijk niet naar behoren.
+Naast de overwegingen voor het maken van het ZIP-bestand moet uw XHTML-document ook goed gestructureerd zijn. Bijvoorbeeld, zou uw document a *Titel* moeten hebben, die door *Kop 1* wordt gevolgd, *Kop 2*, etc. Elk van de rubrieken zou wat inhoud in het moeten hebben. Als uw document niet goed gestructureerd is, werkt het migratieproces mogelijk niet naar behoren.
 
 Voer de volgende stappen uit om uw bestaande XHTML-document om te zetten in DITA-onderwerp:
 
@@ -232,23 +232,23 @@ Voer de volgende stappen uit om uw bestaande XHTML-document om te zetten in DITA
 
 1. Pas het gedownloade bestand h2d\_io.xml aan.
 
-1. Voeg het bestand toe op de volgende locatie in de Git-opslagplaats van uw Cloud Manager:
+1. Voeg het bestand toe op de volgende locatie in de Cloud Manager Git-opslagplaats:
 
    /apps/fmdita/config/h2d\_io.xml
 
-   De `h2d_io.xml` bestand bevat de volgende configureerbare parameters:
+   Het bestand `h2d_io.xml` bevat de volgende configureerbare parameters:
 
-   - In de `inputDir` -element, geeft u de locatie op van de invoermap waarin uw XHTML-brondocumenten beschikbaar zijn. Als uw XHTML-documenten bijvoorbeeld zijn opgeslagen in een map met de naam `xhtmltodita` in `projects` en geef vervolgens de locatie op als: `/content/dam/projects/xhtmltodita/`
+   - Geef in het element `inputDir` de locatie op van de invoermap waarin uw bron-XHTML-documenten beschikbaar zijn. Als uw XHTML-documenten bijvoorbeeld zijn opgeslagen in een map met de naam `xhtmltodita` in de `projects` -map, geeft u de locatie op als: `/content/dam/projects/xhtmltodita/`
 
-   - In de`outputDir` -element, geeft u de locatie van de uitvoermap op of behoudt u de standaarduitvoerlocatie. Als de opgegeven uitvoermap niet bestaat op DAM, maakt de conversieworkflow de uitvoermap.
+   - In het `outputDir` element, specificeer de plaats van uw outputomslag of houd de standaardoutputplaats. Als de opgegeven uitvoermap niet bestaat op DAM, maakt de conversieworkflow de uitvoermap.
 
-   - Voor de `createRev` element, specificeer of een nieuwe versie van het omgezette onderwerp DITA \ (`true`of niet \(`false`\).
+   - Voor het `createRev` element, specificeer of een nieuwe versie van het omgezette onderwerp DITA \ (`true` \) of niet \ (`false` \) moet worden gecreeerd.
 
-1. Stel de pijpleiding van de Manager van de Wolk in werking om de bijgewerkte configuratie op te stellen.
+1. Stel de pijpleiding van Cloud Manager in werking om de bijgewerkte configuratie op te stellen.
 
-1. Na het vormen van de vereiste parameters in `w2d_io.xml` bestand, meldt u zich aan bij AEM en opent u de interface Middelen.
+1. Nadat u de vereiste parameters in het `w2d_io.xml` -bestand hebt geconfigureerd, meldt u zich aan AEM en opent u de interface van Assets.
 
-1. *\(Optioneel\)* U kunt ook de verwante sectie Koppelingen toevoegen aan de omgezette documenten. Voer de volgende stappen uit om deze functie in te schakelen:
+1. *\(Optioneel\)* U kunt de verwante sectie van verbindingen aan de omgezette documenten ook toevoegen. Voer de volgende stappen uit om deze functie in te schakelen:
 
    >[!NOTE]
    >
@@ -260,26 +260,26 @@ Voer de volgende stappen uit om uw bestaande XHTML-document om te zetten in DITA
 
       `<xsl:param name="generate-related-links" select="false()"/>`
 
-   3. Stel de waarde van de bovenstaande parameter in op `true()`.
+   3. Stel de waarde van de bovenstaande parameter in op `true()` .
 
-   4. Leg het bijgewerkte bestand vast op de volgende locatie in de Git-opslagplaats van uw Cloud Manager:
+   4. Leg het bijgewerkte bestand vast op de volgende locatie in de Cloud Manager Git-opslagplaats:
 
       /libs/fmdita/html2dita/
 
-   5. Stel de pijpleiding van de Manager van de Wolk in werking om de bijgewerkte configuratie op te stellen.
+   5. Stel de pijpleiding van Cloud Manager in werking om de bijgewerkte configuratie op te stellen.
 
-1. Ga naar de locatie van de invoermap \()`xhtmltodita`\).
+1. Navigeer naar de locatie van de invoermap \(`xhtmltodita`\).
 
-1. Upload de bron-XHTML-documenten naar deze map. Voor informatie over het uploaden van inhoud naar DAM raadpleegt u [Bestaande DITA-inhoud uploaden](migrate-content-upload-existing-dita-content.md#).
+1. Upload de bron-XHTML-documenten naar deze map. Voor informatie bij het uploaden van inhoud op DAM, zie [ Bestaande inhoud uploaden DITA ](migrate-content-upload-existing-dita-content.md#).
 
 
-Met de `<config> </config>` , kunt u een of meerdere configuraties definiëren voor conversie. De omzettingswerkstroom wordt uitgevoerd en de definitieve output in de vorm van een onderwerp DITA wordt bewaard in de plaats die in wordt gespecificeerd `outputDir` element.
+Met behulp van het blok `<config> </config>` kunt u een of meer configuraties definiëren voor conversie. De omzettingswerkstroom wordt uitgevoerd en de definitieve output in de vorm van een onderwerp DITA wordt bewaard in de plaats die in het `outputDir` element wordt gespecificeerd.
 
 ## Niet-gestructureerde FrameMakers migreren {#id1949B050VUI}
 
-Met AEM hulplijnen kunt u uw bestaande ongestructureerde FrameMaker \() omzetten`.fm` en `.book`\) documenten in DITA-documenten. De eerste stap bestaat uit het maken van stijltoewijzingen met behulp van FrameMaker en het opslaan van deze instellingen in een .sts-bestand. Als u vervolgens aangepaste DITA gebruikt, kunt u uw aangepaste elementen toewijzen aan de indelingen voor de FrameMaker van de bron in het dialoogvenster `ditaElems.xml` bestand. Als u bijvoorbeeld een aangepast element hebt gemaakt met de naam `impnote` als u alle belangrijke notities wilt verwerken, kunt u dit aangepaste element definiëren in het dialoogvenster `ditaElems.xml` bestand. Wanneer dit aangepaste element is gedefinieerd, wordt AEM hulplijnen geen fout weergegeven bij het omzetten van een FrameMaker met `impnote` element.
+Met AEM Guides kunt u uw bestaande ongestructureerde FrameMaker \(`.fm` en `.book`\)-documenten converteren naar DITA-documenten. De eerste stap bestaat uit het maken van stijltoewijzingen met behulp van FrameMaker en het opslaan van deze instellingen in een .sts-bestand. Als u vervolgens aangepaste DITA gebruikt, kunt u uw aangepaste elementen toewijzen aan de indeling van de bronFrameMaker in het `ditaElems.xml` -bestand. Als u bijvoorbeeld een aangepast element met de naam `impnote` hebt gemaakt voor de verwerking van alle belangrijke notities, kunt u dit aangepaste element definiëren in het `ditaElems.xml` -bestand. Zodra dit aangepaste element is gedefinieerd, genereert AEM Guides geen fout tijdens het converteren van een FrameMaker-document dat `impnote` -element bevat.
 
-Ook, als u sommige extra attributen met uw douane of geldig element wilt specificeren DITA, kunt u die in het style2attrMap.xml- dossier bepalen. U kunt bijvoorbeeld de opdracht `type` kenmerk met de waarde van `important` die samen met de `impnote` element. Deze aanvullende informatie kan worden opgegeven in het bestand style2attrMap.xml.
+Ook, als u sommige extra attributen met uw douane of geldig element wilt specificeren DITA, kunt u die in het style2attrMap.xml- dossier bepalen. U kunt bijvoorbeeld het kenmerk `type` opgeven met de waarde `important` die met het element `impnote` moet worden doorgegeven. Deze aanvullende informatie kan worden opgegeven in het bestand style2attrMap.xml.
 
 Naast het specificeren van
 
@@ -289,43 +289,43 @@ Ga als volgt te werk om uw bestaande ongestructureerde documenten van de FrameMa
 
 1. Gebruik Package Manager om het bestand /libs/fmdita/config/ditaElems.xml te downloaden.
 
-1. Als u aangepaste DITA-elementen hebt, definieert u deze in het dialoogvenster `ditaElems.xml` bestand beschikbaar op de volgende locatie:
+1. Als u aangepaste DITA-elementen hebt, definieert u de elementen in het `ditaElems.xml` -bestand dat beschikbaar is op de volgende locatie:
 
    `/libs/fmdita/config/ditaElems.xml`
 
-1. Maak een kopie van het bestand ditaElems.xml op de volgende locatie in de Git-opslagplaats van uw Cloud Manager:
+1. Maak een kopie van het bestand ditaElems.xml op de volgende locatie in de Cloud Manager Git-opslagplaats:
 
    `/apps/fmdita/config/ditaElems.xml`
 
-1. Navigeer naar het configuratiebestand dat beschikbaar is in het dialoogvenster `apps` knooppunt:
+1. Navigeer naar het configuratiebestand dat beschikbaar is in het knooppunt `apps` :
 
    `/apps/fmdita/config/ditaElems.xml`
 
-   De `ditaElems.xml` bestand bevat één configureerbare parameter:
+   Het bestand `ditaElems.xml` bevat één configureerbare parameter:
 
-   - In de `elem` , geeft u de naam op van het aangepaste element dat u wilt gebruiken in uw omgezette DITA-documenten. Dit element wordt doorgegeven, net als in de gegenereerde DITA-documenten.
+   - Geef in de parameter `elem` de naam op van het aangepaste element dat u wilt gebruiken in uw omgezette DITA-documenten. Dit element wordt doorgegeven, net als in de gegenereerde DITA-documenten.
 
-1. Als u aanvullende kenmerken wilt opgeven, definieert u deze in het dialoogvenster `style2attrMap.xml` bestand beschikbaar op de volgende locatie:
+1. Als u aanvullende kenmerken wilt opgeven, definieert u de kenmerken in het `style2attrMap.xml` -bestand dat beschikbaar is op de volgende locatie:
 
    `/libs/fmdita/config/style2attrMap.xml`
 
-1. Maak een overlayknooppunt van het dialoogvenster `config` in de `apps` knooppunt.
+1. Maak een overlayknooppunt van de map `config` in het knooppunt `apps` .
 
-1. Navigeer naar het configuratiebestand dat beschikbaar is in het dialoogvenster `apps` knooppunt:
+1. Navigeer naar het configuratiebestand dat beschikbaar is in het knooppunt `apps` :
 
    `/apps/fmdita/config/style2attrMap.xml`
 
-   De `style2attrMap.xml` bestand bevat de volgende configureerbare parameters:
+   Het bestand `style2attrMap.xml` bevat de volgende configureerbare parameters:
 
-   - In de `fmStyle` geeft u de bronindeling op die wordt gebruikt in het FrameMaker-document dat u wilt toewijzen.
+   - Geef in de parameter `fmStyle` de bronindeling op die wordt gebruikt in het FrameMaker-document dat u wilt toewijzen.
 
-   - In de`ditaAttr` -element, geeft u het DITA-kenmerk op dat u wilt toewijzen met de bronindeling.
+   - In het `ditaAttr` element, specificeer de attributen DITA die u met het bronformaat wilt in kaart brengen.
 
-   - In de `ditaVal` -element, geeft u de waarde voor het toegewezen kenmerk op. Als u geen waarde hebt, kunt u dit item leeg laten.
+   - Geef in het element `ditaVal` de waarde voor het toegewezen kenmerk op. Als u geen waarde hebt, kunt u dit item leeg laten.
 
-1. Sla de `style2attrMap.xml` bestand.
+1. Sla het `style2attrMap.xml` -bestand op.
 
-1. Na het vormen van de vereiste parameters in `style2attrMap.xml` bestand, meldt u zich aan bij AEM en opent u de interface Middelen.
+1. Nadat u de vereiste parameters in het `style2attrMap.xml` -bestand hebt geconfigureerd, meldt u zich aan AEM en opent u de interface van Assets.
 
 1. Navigeer naar en klik op het document van de FrameMaker dat u wilt omzetten.
 
@@ -337,46 +337,46 @@ Ga als volgt te werk om uw bestaande ongestructureerde documenten van de FrameMa
    >
    > U moet het instellingenbestand \(.sts\) gebruiken dat u in de FrameMaker hebt gemaakt. Geef ook de naam van de instellingen en het bestemmingspad op.
 
-1. Klik op de knop **Genereren** om het productieproces voor de uitvoer te starten.
+1. Klik **produceren** pictogram om het proces van de outputgeneratie te beginnen.
 
 
-Met de `<attrMap> </attrMap>` , kunt u een of meerdere configuraties definiëren voor conversie. Afhankelijk van de inhoud, zou u een.dita- dossier en een.ditamap- dossier als omgezette dossiers kunnen hebben.
+Met behulp van het blok `<attrMap> </attrMap>` kunt u een of meer configuraties definiëren voor conversie. Afhankelijk van de inhoud, zou u een.dita- dossier en een.ditamap- dossier als omgezette dossiers kunnen hebben.
 
 ## Andere gestructureerde documenten migreren {#id1949B0590YK}
 
-Met AEM hulplijnen kunt u uw bestaande gestructureerde documenten converteren naar geldige DITA-documenten. U moet de locatie van de invoer- en uitvoermap, de locatie van het transformatiebestand, de extensie opgeven waarmee de uiteindelijke uitvoer wordt opgeslagen en of een nieuwe versie van het document is vereist of niet.
+Met AEM Guides kunt u uw bestaande gestructureerde documenten converteren naar geldige DITA-documenten. U moet de locatie van de invoer- en uitvoermap, de locatie van het transformatiebestand, de extensie opgeven waarmee de uiteindelijke uitvoer wordt opgeslagen en of een nieuwe versie van het document is vereist of niet.
 
 Voer de volgende stappen uit om uw bestaande gestructureerde documenten om te zetten in DITA-indeling:
 
 1. Gebruik Package Manager om het bestand /libs/fmdita/config/XSLConfig.xml te downloaden.
 
-1. Maak een kopie van het bestand XSLConfig.xml op de volgende locatie in de Git-opslagplaats van uw Cloud Manager:
+1. Maak een kopie van het bestand XSLConfig.xml op de volgende locatie in de Cloud Manager Git-opslagplaats:
 
    `/apps/fmdita/config/XSLConfig.xml`
 
-   De `XSLConfig.xml` bestand bevat de volgende configureerbare parameters:
+   Het bestand `XSLConfig.xml` bevat de volgende configureerbare parameters:
 
-   - In de `inputDir` -element, geeft u de locatie op van de invoermap waarin de gestructureerde brondocumenten beschikbaar zijn. Als uw gestructureerde documenten bijvoorbeeld zijn opgeslagen in een map met de naam `xsltodita` in `projects` en geef vervolgens de locatie op als: `/content/dam/projects/xsltodita/`
+   - Geef in het element `inputDir` de locatie op van de invoermap waarin de gestructureerde brondocumenten beschikbaar zijn. Als uw gestructureerde documenten bijvoorbeeld zijn opgeslagen in een map met de naam `xsltodita` in de map `projects` , geeft u de locatie op als: `/content/dam/projects/xsltodita/`
 
-   - In de`outputDir` -element, geeft u de locatie van de uitvoermap op of behoudt u de standaarduitvoerlocatie. Als de opgegeven uitvoermap niet bestaat op DAM, maakt de conversieworkflow de uitvoermap.
+   - In het `outputDir` element, specificeer de plaats van uw outputomslag of houd de standaardoutputplaats. Als de opgegeven uitvoermap niet bestaat op DAM, maakt de conversieworkflow de uitvoermap.
 
-   - In de `xslFolder` -element, geeft u de locatie op van de map waarin de XSL-transformatiebestanden zijn opgeslagen.
+   - Geef in het element `xslFolder` de locatie op van de map waarin de XSL-transformatiebestanden zijn opgeslagen.
 
-   - In de ``xslPath`` -element, geeft u de locatie op van het primaire XSL-bestand waarmee het conversieproces wordt gestart.
+   - Geef in het element ``xslPath`` de locatie op van het primaire XSL-bestand waarmee het conversieproces wordt gestart.
 
-   - In de ``outputExt`` -element, geeft u de bestandsextensies op van het uiteindelijke uitvoerbestand dat met de transformatiestream is gemaakt.
+   - Geef in het element ``outputExt`` de bestandsextensies op van het uiteindelijke uitvoerbestand dat met de transformatiestream is gemaakt.
 
-   - Voor de `createRev` element, specificeer of een nieuwe versie van het omgezette onderwerp DITA \ (`true`of niet \(`false`\).
+   - Voor het `createRev` element, specificeer of een nieuwe versie van het omgezette onderwerp DITA \ (`true` \) of niet \ (`false` \) moet worden gecreeerd.
 
-1. Sla de `XSLConfig.xml` bestand.
+1. Sla het `XSLConfig.xml` -bestand op.
 
-1. Na het vormen van de vereiste parameters in `XSLConfig.xml` bestand, meldt u zich aan bij AEM en opent u de interface Middelen.
+1. Nadat u de vereiste parameters in het `XSLConfig.xml` -bestand hebt geconfigureerd, meldt u zich aan AEM en opent u de interface van Assets.
 
-1. Ga naar de locatie van de invoermap \()`xsltodita`\).
+1. Navigeer naar de locatie van de invoermap \(`xsltodita`\).
 
-1. Upload de gestructureerde brondocumenten naar deze map. Voor informatie over het uploaden van inhoud naar DAM raadpleegt u [Bestaande DITA-inhoud uploaden](migrate-content-upload-existing-dita-content.md#).
+1. Upload de gestructureerde brondocumenten naar deze map. Voor informatie bij het uploaden van inhoud op DAM, zie [ Bestaande inhoud uploaden DITA ](migrate-content-upload-existing-dita-content.md#).
 
 
-Met de `<config> </config>` , kunt u een of meerdere configuraties definiëren voor conversie. De omzettingswerkstroom wordt uitgevoerd en de definitieve output in de vorm van een onderwerp DITA wordt bewaard in de plaats die in wordt gespecificeerd `outputDir` element.
+Met behulp van het blok `<config> </config>` kunt u een of meer configuraties definiëren voor conversie. De omzettingswerkstroom wordt uitgevoerd en de definitieve output in de vorm van een onderwerp DITA wordt bewaard in de plaats die in het `outputDir` element wordt gespecificeerd.
 
-**Bovenliggend onderwerp:**[ Bestaande inhoud migreren](migrate-content.md)
+**Bovenliggend onderwerp:**[ Migreer bestaande inhoud ](migrate-content.md)

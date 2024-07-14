@@ -1,6 +1,6 @@
 ---
 title: Werken met zuurstof
-description: Meer informatie over de ondersteuning van de Oxygen XML Editor voor het ontwerpen en publiceren van inhoud in AEM hulplijnen.
+description: Meer informatie over de ondersteuning van de Oxygen XML Editor voor het ontwerpen en publiceren van inhoud in AEM Guides.
 exl-id: 7c1a610c-e203-4298-9b29-457aef5e8c94
 feature: Authoring, Desktop Tools
 role: User
@@ -17,6 +17,6 @@ De auteur van XML van zuurstof komt met gebruikersvriendelijke auteurseigenschap
 
 U kunt uitvoerbestanden in PDF, ePub, HTML en vele andere indelingen maken met dezelfde bron.
 
-*Neem contact op met het team voor succes van uw klant om deze functie in de omgeving in te schakelen. Deze optie is niet ingeschakeld als onderdeel van de out-of-the-box ondersteuning.*
+*contacteer uw team van het klantensucces om deze eigenschap te krijgen die in het milieu wordt toegelaten. Dit wordt niet toegelaten als deel van uit-van-de-doos steun.*
 
-**Bovenliggend onderwerp:**[ Inhoud ontwerpen met bureaubladgereedschappen](author-desktop-tools.md)
+**Bovenliggend onderwerp:**[ Inhoud van de Auteur gebruikend Desktophulpmiddelen ](author-desktop-tools.md)

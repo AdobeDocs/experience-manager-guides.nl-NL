@@ -1,5 +1,5 @@
 ---
-title: Workflow na generatie
+title: Post Generation Workflow
 description: Een overzicht van de workflow na de generatie met een voorbeeld
 exl-id: e19fdc0b-0ec6-46ce-81ed-e9490d12c029
 feature: Workflow Configuration
@@ -11,36 +11,36 @@ ht-degree: 0%
 
 ---
 
-# Publiceren van hulplijnen AEM - workflow na generatie
+# AEM Guides-publicaties - Post Generation Workflow
 
-Met AEM hulplijnen kunt u een workflow voor het genereren van producten na de uitvoer opgeven. U kunt sommige naverwerkingstaken op de output uitvoeren die gebruikend AEM Gidsen wordt geproduceerd.
+AEM Guides biedt u de flexibiliteit om een workflow voor het genereren van producten na de uitvoer op te geven. U kunt sommige naverwerkingstaken uitvoeren op de uitvoer die met AEM Guides wordt gegenereerd.
 U kunt bijvoorbeeld bepaalde eigenschappen instellen voor de uitvoer van de PDF, of u wilt een e-mailbericht verzenden naar een set gebruikers wanneer de uitvoer eenmaal is gegenereerd.
 
 
-## Wat zijn de stappen om werkstromen na de generatie te gebruiken
+## Wat zijn de stappen om workflows voor Post-generatie te gebruiken?
 
 ### Een workflowproces maken
 
 Maak een op Java of ECMA gebaseerd workflowproces dat de bewerking uitvoert op de gegenereerde uitvoer. Bijvoorbeeld, kopieert het kopiëren van sommige meta-gegevens van bron aan de geproduceerde inhoud of het manipuleren van meta-gegevens van de geproduceerde output.
 - We nemen bijvoorbeeld een voorbeeld van het maken van een dergelijk proces met behulp van ECMA-script (u kunt het bijgevoegde pakket raadplegen)
-- Raadpleeg de sectie &quot;*Workflow voor het genereren na uitvoer aanpassen*&quot; van [Installatie- en configuratiehandleiding](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_Installation-Configuration-Guide_EN.pdf#page=119)
+- Voor Java gebaseerd werkschemaproces, verwijs sectie &quot;*het werkschema van de post-outputgeneratie*&quot;van [ de gids van de Installatie en van de configuratie ](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_Installation-Configuration-Guide_EN.pdf#page=119) aanpassen
 
 
 ### Een workflowmodel maken
 
 Met het proces van het douanewerkschema dat u in vorige stap creeerde, creeer een werkschemamodel en voeg die processtap aan het toe.
-- U moet ook een verplichte processtap toevoegen &quot;*Post Generation voltooien*&quot; als de laatste stap van de workflow.
+- U moet een verplichte processtap ook toevoegen &quot;*voltooit de Generatie van Post*&quot;als laatste stap van het werkschema.
 
 Verwijs hieronder getoonde model van het steekproefwerkschema:
 
-![Workflowmodel na generatie](../assets/workflows/pgwf-workflow-model.png)
+![ het model van het de generatiewerkschema van Post ](../assets/workflows/pgwf-workflow-model.png)
 
 
 ### Deze workflow na het genereren gebruiken op een kaart
 
-De workflow na het genereren is een eigenschap die kan worden geconfigureerd voor elke uitvoervoorinstelling in AEM publicatiemechanisme voor hulplijnen. Voorbeeld:
+De Post-workflow voor genereren is een eigenschap die kan worden geconfigureerd voor elke uitvoervoorinstelling in het publicatiemechanisme van AEM Guides. Voorbeeld:
 
-![Workflow na het genereren op uitvoervoorinstelling](../assets/workflows/pgwf-preset-settings.png)
+![ het generatiewerkschema van Post op Vooraf ingestelde Output ](../assets/workflows/pgwf-preset-settings.png)
 
 
 Ervan uitgaande dat het geselecteerde model al is gemaakt.
@@ -53,6 +53,6 @@ Nu kunt u de publicatie uitvoeren met deze voorinstelling en de uitvoer van de p
 
 ## Monster
 
-Ter referentie kunt u het onderstaande pakket gebruiken en installeren via pakketbeheer om de workflow na de generatie te testen (*zoals vermeld in bovenstaande screenshots*)
+Voor uw verwijzing, kunt u onder pakket gebruiken en het installeren via pakketmanager om het werkschema van de steekproefpost generatie (*zoals die in screenshots hierboven* wordt bedoeld) te testen
 
 [Een voorbeeldworkflowmodel op basis van ECMA na de generatie](../assets/workflows/sample-pgwf-ecma-test-wfmetadata.zip)

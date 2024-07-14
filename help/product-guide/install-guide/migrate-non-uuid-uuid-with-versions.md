@@ -4,7 +4,8 @@ description: Leer hoe u niet-UUID-inhoud met versies naar UUID-inhoud migreert.
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+exl-id: 8f3a89fc-7d18-453d-909d-6dff5e275cab
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 0%
@@ -17,11 +18,11 @@ Voer de volgende stappen uit om uw inhoud zonder UUID-versie te migreren naar UU
 
 >[!NOTE]
 >
->Volg de [upgradeinstructies](./upgrade-xml-documentation.md) specifiek voor de versie van uw product met licentie.
+>Volg de [ verbeteringsinstructies ](./upgrade-xml-documentation.md) specifiek voor de vergunning gegeven versie van uw product.
 
 ## Compatibiliteitsmatrix
 
-| Huidige versie van hulplijnen voor Experience Managers (niet-UUID) | Vereiste versie voor migratie naar UUID | Ondersteund upgradepad |
+| Huidige Experience Manager Guides-versie (niet-UUID) | Vereiste versie voor migratie naar UUID | Ondersteund upgradepad |
 |---|---|---|
 | 3.8.5, 4.0.x of 4.1.x | 4.1 niet-UUID | 4.1 (UUID) installeren en de migratie uitvoeren |
 | 4.2, 4.2.x of 4.3 | 4.3.0 niet-UUID | 4.3.1 (UUID) installeren en de migratie uitvoeren |
@@ -33,16 +34,16 @@ Download de vereiste pakketten van het Portaal van de Distributie van de Softwar
 <details>
 <summary>  Pakketten voor het upgradepad van versie 4.1</summary>
 
-1. **Pre-migratie**: [com.adobe.guides.pre-uuid-migration-1.0.9.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F1-0%2Fcom.adobe.guides.pre-uuid-migration-1.0.9.zip)
-1. **Migratie**: [com.adobe.guides.uuid-upgrade-1.0.19.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F1-0%2Fcom.adobe.guides.uuid-upgrade-1.0.19.zip)
+1. **pre-migratie**: [ com.adobe.guides.pre-uuid-migratie-1.0.9.zip ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F1-0%2Fcom.adobe.guides.pre-uuid-migration-1.0.9.zip)
+1. **Migratie**: [ com.adobe.guides.uuid-verbetering-1.0.19.zip ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F1-0%2Fcom.adobe.guides.uuid-upgrade-1.0.19.zip)
 </details>
 
 
 <details>
 <summary> Pakketten voor het upgradepad van versie 4.3.1</summary>
 
-1. **Pre-migratie**: [com.adobe.guides.pre-uuid-migration-1.1.3.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2Fcom.adobe.guides.pre-uuid-migration-1.1.3.zip)
-1. **Migratie**: [com.adobe.guides.uuid-upgrade-1.1.15.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2Fcom.adobe.guides.uuid-upgrade-1.1.15.zip)
+1. **pre-migratie**: [ com.adobe.guides.pre-uuid-migratie-1.1.3.zip ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2Fcom.adobe.guides.pre-uuid-migration-1.1.3.zip)
+1. **Migratie**: [ com.adobe.guides.uuid-verbetering-1.1.15.zip ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2Fcom.adobe.guides.uuid-upgrade-1.1.15.zip)
 
 </details>
 
@@ -57,25 +58,25 @@ Voer de volgende controles uit op de niet-UUID-versie (4.1 niet-UUID of 4.3.0 ni
    >* U hebt beheerdersmachtigingen nodig om de migratie uit te voeren.
    >* Het wordt aanbevolen de bestanden met fouten te corrigeren voordat u verdergaat met de migratie.
 
-1. (Optioneel) Voer versiebeheer uit op de inhoud om overbodige versies te verwijderen en het migratieproces te versnellen. Selecteer de optie als u versiereiniging wilt uitvoeren **Versie wissen** vanuit het migratiescherm en ga naar de gebruikersinterface met de URL `http://<server- name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
+1. (Optioneel) Voer versiebeheer uit op de inhoud om overbodige versies te verwijderen en het migratieproces te versnellen. Om versie het zuiveren uit te voeren, selecteer de optie **Woorden van de Versie** van het migratiescherm en ga naar het gebruikersinterface gebruikend URL `http://<server- name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
    >[!NOTE]
    >
    >Dit hulpprogramma verwijdert geen versies die in basislijnen of revisies worden gebruikt of heeft labels.
 
-1. Starten `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
-1. Selecteren **Compatibiliteitsbeoordeling**  in het linkerdeelvenster en bladert u door een mappad.
+1. Start `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html` .
+1. Selecteer **Beoordeling van de Verenigbaarheid** van het linkerpaneel en doorblader een omslagweg.
 1. Controleer de compatibiliteit om de volgende informatie weer te geven:
    * Totaal aantal bestanden
    * Totaal aantal versies
    * Geschatte tijd voor migratie
    * Aantal bestanden met fouten
 
-   ![compatibiliteitsbeoordelingstabblad in migratie](assets/migration-compatibility-assessment.png){width="800" align="left"}
+   ![ lusje van de verenigbaarheidsbeoordeling in migratie ](assets/migration-compatibility-assessment.png){width="800" align="left"}
 
 
-1. Selecteren **Validaties configureren** in het linkerdeelvenster. Dan, **Kaart selecteren** en **Voorinstelling selecteren** van de kaart om hen te vormen. De huidige lijst van de outputbevestiging toont de outputdossiers aanwezig vóór migratie en kan tegen de outputdossiers worden bevestigd die na migratie later worden geproduceerd.
+1. Selecteer **vormen Bevestigingen** van het linkerpaneel. Dan, **Uitgezochte kaart** en **Uitgezochte vooraf ingesteld** van de kaart om hen te vormen. De huidige lijst van de outputbevestiging toont de outputdossiers aanwezig vóór migratie en kan tegen de outputdossiers worden bevestigd die na migratie later worden geproduceerd.
 
-   ![Tabblad Validaties configureren in migratie](assets/migration-configure-validation.png){width="800" align="left"}
+   ![ vormt het lusje van Bevestigingen in migratie ](assets/migration-configure-validation.png){width="800" align="left"}
 
 
 
@@ -84,50 +85,50 @@ Voer de volgende controles uit op de niet-UUID-versie (4.1 niet-UUID of 4.3.0 ni
 
 ### Stap 1: Configuratie bijwerken
 
-1. Zorg ervoor dat de beschikbare vrije ruimte ten minste tien keer zo groot is als AEM (crx-quickstart-map) tijdens de migratie. Wanneer u de migratie hebt voltooid, kunt u het grootste deel van de schijfruimte vrijmaken door een compactie uit te voeren (raadpleeg [Revisie opschonen](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en)).
+1. Zorg ervoor dat de beschikbare vrije ruimte ten minste tien keer zo groot is als AEM (crx-quickstart-map) tijdens de migratie. Zodra u de migratie voltooit, kunt u het grootste deel van de schijfruimte terugwinnen door compilatie in werking te stellen (verwijs naar [ Opruiming van de Revisie ](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en)).
 
-1. Inschakelen *Launchers voor naverwerking inschakelen* in `com.adobe.fmdita.config.ConfigManager` en *Version Postprocessing inschakelen* in `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation.`
+1. Laat *toe de Lancers van het Werkschema van de Verwerking van Post* in `com.adobe.fmdita.config.ConfigManager` toe en *laat Versie post-processing* in `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation.` toe
 
 1. Installeer de UUID-versie van de ondersteunde versie op de niet-UUID-versie. Als u bijvoorbeeld 4.1 niet-UUID-build gebruikt, moet u UUID-versie 4.1 installeren en de migratie uitvoeren.
 
 1. Installeer het nieuwe pakket voor uuid-migratie.
 
-1. De volgende workflows uitschakelen en eventuele andere workflows uitschakelen die worden uitgevoerd `/content/dam` draagraketten gebruiken in `http://<server-name>/libs/cq/workflow/content/console.html`.
+1. Schakel de volgende workflows en een andere workflow uit die op `/content/dam` wordt uitgevoerd met behulp van draagraketten in `http://<server-name>/libs/cq/workflow/content/console.html` .
 
    * Workflow voor DAM-update-middelen
    * DAM-workflow Metagegevens terugschrijven
 
-1. Uitschakelen *Launchers voor naverwerking inschakelen* in `com.adobe.fmdita.config.ConfigManager` en uitschakelen *Version Postprocessing inschakelen* in `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation`.
+1. Schakel *toe laat de Lancers van het Werkschema van de Verwerking van Post* in `com.adobe.fmdita.config.ConfigManager` toe en maak *toe laat Versie post-processing* in `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation`.
 
-1. De eigenschap Validatie inschakelen uitschakelen (`validation.enabled`) in Day CQ Tagging Service.
+1. Schakel de eigenschap Validatie inschakelen (`validation.enabled`) in CQ-tagservice op dag uit.
 
-1. Zorg ervoor dat `uuid.regex` eigenschapmap is ingesteld in `com.adobe.fmdita.config.ConfigManager`. Als deze leeg is, stelt u de standaardwaarde in - `^GUID-(?<id>.*)`.
-1. Een afzonderlijk logger toevoegen voor `com.adobe.fmdita.uuid` De browserreactie is ook beschikbaar op `/content/uuid-upgrade/logs`.
+1. Controleer of de eigenschapmap `uuid.regex` juist is ingesteld in `com.adobe.fmdita.config.ConfigManager` . Als de waarde leeg is, stelt u deze in op de standaardwaarde - `^GUID-(?<id>.*)` .
+1. Voeg een apart logger toe voor `com.adobe.fmdita.uuid` De browserreactie is ook beschikbaar via `/content/uuid-upgrade/logs` .
 
 ### Stap 2: De migratie uitvoeren en valideren
 
 #### Het migratiepakket installeren
 
-1. Starten `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
+1. Start `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html` .
 
-   ![Tabblad Systeemupgrade voor migratie](assets/migration-system-upgrade.png){width="800" align="left"}
+   ![ de verbeteringslusje van het Systeem in migratie ](assets/migration-system-upgrade.png){width="800" align="left"}
 
-1. Selecteren **Systeemupgrade** vanuit het linkerdeelvenster om de migratie uit te voeren. Begin op een omslag met kleinere gegevens alvorens het te lopen `/content/dam`.
+1. Selecteer **verbetering van het Systeem** van het linkerpaneel om de migratie in werking te stellen. Start op een map met kleinere gegevens voordat u deze uitvoert op `/content/dam` .
 
-1. Selecteren **Rapport downloaden** tijdens het uitvoeren van de migratie om te controleren of alle bestanden in de map correct zijn bijgewerkt en of alle functies alleen voor die map werken.
+1. Selecteer **Rapport van de Download** terwijl de migratie loopt om te controleren of alle dossiers in de omslag correct worden bevorderd en of alle eigenschappen slechts voor die omslag werken.
 
 
 >[!NOTE]
 >
-> De migratie van de inhoud kan op een omslagniveau, volledig worden in werking gesteld `/content/dam`of dezelfde map (opnieuw uitvoeren).
+> De migratie van de inhoud kan op een omslagniveau, volledige `/content/dam`, of de zelfde omslag (herun migratie) worden in werking gesteld.
 
 Het is ook belangrijk om ervoor te zorgen dat de migratie van inhoud wordt uitgevoerd voor alle media-elementen, zoals afbeeldingen en afbeeldingen die u hebt gebruikt in de DITA-inhoud.
 
 #### Migratie van basislijn en revisie
 
-Selecteren **Upgrade basislijn/revisie** in het linkerdeelvenster om de basislijnen te migreren en deze op mapniveau te bekijken.
+Selecteer **Verbetering van de Basislijn/van het Overzicht** van het linkerpaneel om de basislijnen en overzicht op het omslagniveau te migreren.
 
-![Baseline- en revisietabblad in migratie](assets/migration-baseline-review-upgrade.png){width="800" align="left"}
+![ Basislijn en overzicht lusje in migratie ](assets/migration-baseline-review-upgrade.png){width="800" align="left"}
 
 
 ### Stap 3: Herstel de configuratie
@@ -143,10 +144,9 @@ Nadat de server is gemigreerd, kunt u naverwerking, codering en de volgende work
 
 ## Migratievalidatie
 
-1. Als de migratie is voltooid, selecteert u **Systeemupgrade valideren** in het linkerdeelvenster en valideer de uitvoerbestanden voor en na de migratie om ervoor te zorgen dat de migratie is gelukt.
+1. Zodra de migratie wordt voltooid, bevestigt de uitgezochte **systeemverbetering** van het linkerpaneel en bevestigt de outputdossiers vóór en na de migratie om ervoor te zorgen dat de migratie succesvol is.
 
-   ![Tabblad Systeemupgrade bij migratie valideren](assets/migration-validate-system-upgrade.png){width="800" align="left"}
+   ![ bevestigt systeemverbeteringslusje in migratie ](assets/migration-validate-system-upgrade.png){width="800" align="left"}
 
 
 1. Nadat de validatie is uitgevoerd, kan het grootste deel van de schijfruimte worden vrijgemaakt door compactie uit te voeren (zie `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`).
-

@@ -1,6 +1,6 @@
 ---
-title: Upgrade uitvoeren AEM hulplijnen
-description: Leer hoe u AEM hulplijnen kunt bijwerken
+title: Upgrade uitvoeren voor AEM Guides
+description: Meer informatie over het upgraden van AEM Guides
 exl-id: 57ae906f-69e3-4319-89f6-0fa9ddb7a3ff
 feature: Installation
 role: Admin
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# Upgrade uitvoeren AEM hulplijnen {#id213BD050YPH}
+# Upgrade uitvoeren voor AEM Guides {#id213BD050YPH}
 
-1. Open de Git-opslagplaats van uw Cloud Manager.
+1. Open de Cloud Manager Git-opslagplaats.
 
 1. Werk het bestand dox/dox.installer/pom.xml bij.
 
@@ -25,10 +25,10 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> Voor meer details over het gebruiken van pijpleiding CI/CD, zie [De CI/CD-pijpleiding gebruiken in Adobe Cloud Manager](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/cloud-manager/use-the-cicd-pipeline-in-cloud-manager-for-aem.html).
+> Voor meer details over het gebruiken van CI/CD pijpleiding, zie [ Gebruik CI/CD Pijpleiding in Adobe Cloud Manager ](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/cloud-manager/use-the-cicd-pipeline-in-cloud-manager-for-aem.html).
 
 ## Browser-cache wissen
 
-Na het verbeteringsproces, moeten alle gebruikers het browser geheime voorgeheugen ontruimen alvorens de promotieversie van AEMGidsen te gebruiken.
+Na het upgradeproces moeten alle gebruikers het cachegeheugen van de browser wissen voordat ze de geüpgrade versie van AEM Guides gebruiken.
 
-**Bovenliggend onderwerp:**[ Downloaden en installeren](download-install.md)
+**Bovenliggend onderwerp:**[ Download en installeer ](download-install.md)

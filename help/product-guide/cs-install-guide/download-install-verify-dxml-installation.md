@@ -1,6 +1,6 @@
 ---
-title: De installatie van AEM hulplijnen controleren
-description: Leer hoe u de installatie van AEM hulplijnen kunt controleren
+title: AEM Guides-installatie verifiëren
+description: Meer informatie over het verifiëren van AEM Guides-installatie
 exl-id: 4e566c57-a522-4605-bc70-47155f20b429
 feature: Installation
 role: Admin
@@ -12,21 +12,21 @@ ht-degree: 0%
 
 ---
 
-# De installatie van AEM hulplijnen controleren {#id213BD030FBE}
+# AEM Guides-installatie verifiëren {#id213BD030FBE}
 
-Nadat u AEM hulplijnen hebt geïnstalleerd, moet u controleren of de installatie is gelukt of niet. Voer de volgende stappen uit om de installatie te verifiëren:
+Nadat u AEM Guides hebt geïnstalleerd, moet u controleren of de installatie is gelukt of niet. Voer de volgende stappen uit om de installatie te verifiëren:
 
-1. Open de Developer Console van uw Cloud Service.
+1. Open de Developer Console van je Cloud Service.
 
-   Ga voor meer informatie over toegang tot de Developer Console naar [Toegang tot ontwikkelconsole](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html) in AEM documentatie.
+   Voor details om tot Developer Console toegang te hebben, zie {de toegang van 0} Developer Console ](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html) in AEM documentatie.[
 
 1. Open de lijst met OSGi-bundels in AEM.
 
-   Voor meer informatie over het openen van bundels raadpleegt u [Bundels](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=en#bundles) in AEM documentatie.
+   Voor details om tot Bundels toegang te hebben, zie [ Bundels ](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=en#bundles) in AEM documentatie.
 
 1. Zoek naar fmdita in de lijst van bundels en controleer zijn status.
 
-   De status moet *Actief* voor correct geïmplementeerde bundels. Als om het even welke bundel geen Actieve status heeft, dan controleer de AEM logboeken om de installatiekwestie problemen op te lossen.
+   De status zou *Actief* voor met succes opgestelde bundels moeten tonen. Als om het even welke bundel geen Actieve status heeft, dan controleer de AEM logboeken om de installatiekwestie problemen op te lossen.
 
 
-**Bovenliggend onderwerp:**[ Downloaden en installeren](download-install.md)
+**Bovenliggend onderwerp:**[ Download en installeer ](download-install.md)

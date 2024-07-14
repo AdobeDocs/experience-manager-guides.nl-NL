@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Element-id&#39;s automatisch genereren {#id20CIL40016I}
 
-AEM hulplijnen genereren een document-id voor elk nieuw document dat u maakt. Wanneer u bijvoorbeeld een DITA-kaart maakt, een id zoals `map.ditamap_random_digits` wordt toegewezen aan de kaart-id. U kunt ook elementen definiëren waarop automatisch een id wordt gegenereerd en toegewezen.
+AEM Guides genereert een document-id voor elk nieuw document dat u maakt. Wanneer u bijvoorbeeld een DITA-kaart maakt, wordt een id als `map.ditamap_random_digits` toegewezen aan de id van de kaart. U kunt ook elementen definiëren waarop automatisch een id wordt gegenereerd en toegewezen.
 
-AEM de Gidsen verstrekt gemakkelijke configuratiemontages waar u de elementen moet bepalen waarop een identiteitskaart auto-geproduceerd en een patroon voor identiteitskaart is. Bepaalde elementen, zoals `section`, `table`, `ul`, `ol`, worden geconfigureerd voor automatische generatie van id. U kunt andere elementen aan deze lijst toevoegen zodat wanneer deze elementen in een document worden opgenomen, AEM de Gidsen produceert en een identiteitskaart toewijst die op het bepaalde patroon wordt gebaseerd
+AEM Guides biedt eenvoudige configuratie-instellingen waarbij u de elementen moet definiëren waarop een id automatisch wordt gegenereerd en een patroon voor de id. Standaard zijn bepaalde elementen, zoals `section` , `table` , `ul` en `ol` , geconfigureerd voor het automatisch genereren van een id. U kunt andere elementen aan deze lijst toevoegen zodat wanneer deze elementen in een document worden opgenomen, AEM Guides een id genereert en toewijst op basis van het opgegeven patroon
 
 Voer de volgende stappen uit om elementen te configureren voor automatisch gegenereerde id:
 
@@ -28,21 +28,21 @@ Voer de volgende stappen uit om elementen te configureren voor automatisch gegen
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Zoeken naar en klikken op de knop **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** bundel.
+1. Onderzoek naar en klik op **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** bundel.
 
-1. In de *XmlEditorConfig* instellingen, geeft u een of meer elementen op in de **Automatisch id&#39;s genereren voor elementlabels** veld.
+1. In de *montages 0} XmlEditorConfig, specificeer één of meerdere elementen in **Auto produceert IDs voor het gebied van de Markeringen van het Element**.*
 
    >[!NOTE]
    >
-   > Elementlabels zijn DITA-elementnamen zoals `body`, `title`, `codeblock`, enzovoort. Als u meerdere elementen wilt opgeven, scheidt u de elementnamen met een komma.
+   > Elementlabels zijn de namen van DITA-elementen, zoals `body` , `title` , `codeblock` , enzovoort. Als u meerdere elementen wilt opgeven, scheidt u de elementnamen met een komma.
 
-1. In de **Patroon voor genereren van id&#39;s** een patroon opgeven om een id te genereren.
+1. Op het **Patroon voor het Genereren van identiteitskaarts** gebied, specificeer een patroon om een identiteitskaart te produceren.
 
-   De standaardwaarde voor dit veld is ingesteld op `${elementName}_${id}`. De `${elementName}` wordt vervangen door de naam van het element. De `${id}` de variabele produceert opeenvolgend aantal voor het element. Als u bijvoorbeeld het alinea-element toewijst voor automatisch gegenereerde id&#39;s, krijgt de eerste alinea van het onderwerp of document een id zoals p\_1, de volgende alinea krijgt p\_2 enzovoort. In een ander document wordt het genereren van de id echter opnieuw gestart. Dit betekent dat id&#39;s zoals p\_1 en p\_2 in een ander document kunnen worden toegewezen aan alinea-elementen.
+   De standaardwaarde voor dit veld is ingesteld op `${elementName}_${id}` . De waarde `${elementName}` wordt vervangen door de naam van het element. De variabele `${id}` genereert een volgnummer voor het element. Als u bijvoorbeeld het alinea-element toewijst voor automatisch gegenereerde id&#39;s, krijgt de eerste alinea van het onderwerp of document een id zoals p\_1, de volgende alinea krijgt p\_2 enzovoort. In een ander document wordt het genereren van de id echter opnieuw gestart. Dit betekent dat id&#39;s zoals p\_1 en p\_2 in een ander document kunnen worden toegewezen aan alinea-elementen.
 
    Als uw document al id&#39;s bevat in het opgegeven patroon, worden deze id&#39;s door het proces voor automatisch genereren niet aan nieuwe elementen toegewezen.
 
-1. Klikken **Opslaan**.
+1. Klik **sparen**.
 
 
-**Bovenliggend onderwerp:**[ Webeditor aanpassen](conf-web-editor.md)
+**Bovenliggend onderwerp:**[ pas de Redacteur van het Web ](conf-web-editor.md) aan

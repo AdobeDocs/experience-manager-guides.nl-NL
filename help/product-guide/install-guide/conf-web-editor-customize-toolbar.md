@@ -25,9 +25,9 @@ Er zijn twee manieren om de toolbar van de Redacteur van het Web aan te passen:
 
 ## Een functie toevoegen aan de werkbalk
 
-Het toevoegen van een functionaliteit aan de Redacteur van het Web impliceert twee primaire taken - toevoegend een pictogram voor de eigenschap in *ui\_config.json* en de achtergrondfunctionaliteit in JavaScript toevoegen.
+Het toevoegen van een functionaliteit aan de Redacteur van het Web impliceert twee primaire taken - toevoegend een pictogram voor de eigenschap in het {*dossier 0} ui\_config.json en toevoegend de achtergrondfunctionaliteit in JavaScript.*
 
-**Een pictogram toevoegen op de werkbalk**
+**voeg een pictogram in de toolbar** toe
 
 Voer de volgende stappen uit om een eigenschap aan de toolbar van de Redacteur van het Web toe te voegen:
 
@@ -41,15 +41,15 @@ Voer de volgende stappen uit om een eigenschap aan de toolbar van de Redacteur v
 
    `/apps/fmdita/xmleditor/ui_config.json`
 
-1. Navigeer naar de `ui_config.json` in het `apps` knooppunt voor bewerken.
+1. Navigeer naar het `ui_config.json` -bestand in het knooppunt `apps` en open het voor bewerking.
 
-1. In de `ui_config.json` , voegt u de definitie van de nieuwe functie toe in de sectie Werkbalken. Doorgaans kunt u een nieuwe werkbalkknoopgroep maken en er een of meer werkbalkknoppen aan toevoegen. U kunt ook een nieuwe werkbalkknop toevoegen binnen een bestaande werkbalkgroep. U moet de volgende gegevens opgeven om een nieuwe werkbalkgroep te maken:
+1. Voeg in het bestand `ui_config.json` de definitie van de nieuwe functie toe in de sectie Werkbalken. Doorgaans kunt u een nieuwe werkbalkknoopgroep maken en er een of meer werkbalkknoppen aan toevoegen. U kunt ook een nieuwe werkbalkknop toevoegen binnen een bestaande werkbalkgroep. U moet de volgende gegevens opgeven om een nieuwe werkbalkgroep te maken:
 
-   - **type:**Specify `blockGroup` als de `type` waarde. Deze waarde geeft aan dat u een blokgroep maakt die een of meer werkbalkgroepen zou bevatten.
+   - **type:**Specify `blockGroup` als `type` waarde. Deze waarde geeft aan dat u een blokgroep maakt die een of meer werkbalkgroepen zou bevatten.
 
-   - **extractiemas:** Naam van de klasse of klassen, gescheiden door spatie.
+   - **extraclass:** Naam van de klasse of de klassen die met ruimte worden gescheiden.
 
-   - **objecten:** Geef de definitie van alle groepen op de werkbalk op. Elke groep kan een of meerdere werkbalkpictogrammen bevatten. Als u pictogrammen in een werkbalkgroep wilt definiëren, moet u opnieuw de `type` attribuut binnen `items`en stel de waarde in op `buttonGroup`. Geef een of meer klassenamen op in het dialoogvenster `extraclass` eigenschap. Geef de functienaam op in het dialoogvenster `label` eigenschap. Het volgende fragment uit het `ui_config.json` het bestand bevat de definitie van het hoofdwerkbalkblok, gevolgd door `buttonGroup` definitie:
+   - **punten:** specificeer de definitie van alle groepen in de toolbar. Elke groep kan een of meerdere werkbalkpictogrammen bevatten. Als u pictogrammen in een werkbalkgroep wilt definiëren, moet u het kenmerk `type` opnieuw definiëren in de `items` -sectie en de waarde ervan instellen op `buttonGroup` . Geef een of meer klassenamen op in de eigenschap `extraclass` . Geef de functienaam op in de eigenschap `label` . In het volgende fragment uit het bestand `ui_config.json` wordt de definitie van het hoofdwerkbalkblok weergegeven, gevolgd door de definitie `buttonGroup` :
 
      ```json
      "toolbar": {    
@@ -64,37 +64,37 @@ Voer de volgende stappen uit om een eigenschap aan de toolbar van de Redacteur v
              "items": [
      ```
 
-     Binnen de `items` verzameling, moet u de definitie voor een of meer werkbalkpictogrammen opgeven.
+     In de `items` -verzameling moet u de definitie voor een of meer werkbalkpictogrammen opgeven.
 U moet de volgende eigenschappen definiëren om een werkbalkpictogram toe te voegen:
 
-   - **type:** Opgeven `button` als de `type` waarde. Deze waarde geeft aan dat u een werkbalkknop toevoegt.
+   - **type:** specificeer `button` als `type` waarde. Deze waarde geeft aan dat u een werkbalkknop toevoegt.
 
-   - **pictogram:** Geef de naam op van het koraalpictogram dat u wilt gebruiken op de werkbalk.
+   - **pictogram:** specificeer de naam van het pictogram van het Koraal dat u in de toolbar wilt gebruiken.
 
-   - **variant:** Opgeven `quiet` als de `variant` waarde.
+   - **variant:** specificeer `quiet` als `variant` waarde.
 
-   - **titel:** Geef de knopinfo voor het pictogram op.
+   - **titel:** specificeer tooltip voor het pictogram.
 
-   - **klikken:** Geef de opdrachtnaam op die voor de functie in het JavaScript-bestand is gedefinieerd. Als voor uw opdracht invoerparameters zijn vereist, geeft u de opdrachtnaam op als:
+   - **on-click:** specificeer de bevelnaam die voor de eigenschap in het dossier van JavaScript wordt bepaald. Als voor uw opdracht invoerparameters zijn vereist, geeft u de opdrachtnaam op als:
 
      ```JavaScript
      "on-click": {"name": "AUTHOR_INSERT_ELEMENT", "args": "simpletable"}
      ```
 
-   - **tonen of verbergen:** Als u de `show` en geeft u vervolgens de modi op waarin het pictogram wordt weergegeven. Mogelijke waarden zijn: `@isAuthorMode`, `@isSourceMode`, `@isPreviewMode`, `true` \(weergeven in alle modi\), of `false` \(in alle modi verbergen\).
+   - **tonen of verbergen:** als u het `show` bezit bepaalt, dan specificeer de wijzen waarin het pictogram wordt getoond. Mogelijke waarden zijn - `@isAuthorMode`, `@isSourceMode`, `@isPreviewMode`, `true` \(weergeven in alle modi\) of `false` \(verbergen in alle modi\).
 
-   In plaats van `show`kunt u ook de `hide` eigenschap. De mogelijke waarden zijn gelijk aan die in `show` eigenschap met het enige verschil dat het pictogram niet wordt weergegeven voor de opgegeven modus.
+   In plaats van `show` kunt u ook de eigenschap `hide` definiëren. De mogelijke waarden zijn gelijk aan die in de eigenschap `show` , met het enige verschil dat het pictogram niet wordt weergegeven voor de opgegeven modus.
 
-1. Een *clientlib* en voeg uw JavaScript toe aan deze map.
+1. Creeer a *clientlib* omslag en voeg uw JavaScript in deze omslag toe.
 
-1. Werk het categoriebezit van bij *clientlib* door deze toe te wijzen aan de waarde van *apps.fmdita.xml\_editor.page\_overrides*.
+1. Werk het categoriereigenschap van de *clientlib* omslag bij door het de waarde van *apps.fmdita.xml \_editor.page\_overrides* toe te wijzen.
 
-1. Sla de *ui\_config.json* bestand en laad de webeditor opnieuw.
+1. Sparen het {*dossier 0} ui\_config.json en laad de Redacteur van het Web opnieuw.*
 
 
-**JavaScript-codevoorbeelden**
+**de codesteekproeven van JavaScript**
 
-Deze sectie bevat twee voorbeelden van JavaScript-code die u helpen om aangepaste functionaliteit toe te voegen. In het volgende voorbeeld ziet u AEM het versienummer van hulplijnen wanneer een gebruiker op het pictogram Versie tonen op de werkbalk klikt.
+Deze sectie bevat twee voorbeelden van JavaScript-code die u helpen om aangepaste functionaliteit toe te voegen. In het volgende voorbeeld ziet u het AEM Guides-versienummer wanneer een gebruiker op het pictogram Versie tonen op de werkbalk klikt.
 
 Voeg de volgende code toe aan een JavaScript-bestand:
 
@@ -218,14 +218,14 @@ Voer de volgende stappen uit om ongewenste functies van de werkbalk te verwijder
 
    `/apps/fmdita/xmleditor/ui_config.json`
 
-1. Navigeer naar de `ui_config.json` in het `apps` knooppunt voor bewerken.
-De `ui_config.json` bestand heeft drie secties:
+1. Navigeer naar het `ui_config.json` -bestand in het knooppunt `apps` en open het voor bewerking.
+Het bestand `ui_config.json` heeft drie secties:
 
-- **werkbalken:**   Deze sectie bevat de definitie van alle functies die beschikbaar zijn op de werkbalk van de editor, zoals Genummerde lijst invoegen/verwijderen, \(bestand\) Sluiten, Opslaan, Opmerkingen en meer.
+- **toolbars:**   Deze sectie bevat de definitie van alle functies die beschikbaar zijn op de werkbalk van de editor, zoals Genummerde lijst invoegen/verwijderen, \(bestand\) Sluiten, Opslaan, Opmerkingen en meer.
 
-- **sneltoetsen:**   Deze sectie bevat de definitie van toetsenbordkortere weg die aan een bepaalde eigenschap in de redacteur wordt toegewezen.
+- **kortere weg:**   Deze sectie bevat de definitie van toetsenbordkortere weg die aan een bepaalde eigenschap in de redacteur wordt toegewezen.
 
-- **sjablonen:**   Deze sectie bevat de vooraf gedefinieerde structuur van DITA-elementen die u in uw document kunt gebruiken. Standaard bevat de sjabloonsectie sjabloondefinities voor een alinea, eenvoudige tabel, tabel en tekstelementen. U kunt een sjabloondefinitie maken voor elk element door een geldige XML-structuur toe te voegen voor het gewenste element. Als u bijvoorbeeld een `p` element met elke nieuwe `li` in een lijst kunt u de volgende code toevoegen aan het einde van de sjabloonsectie om dit te bereiken:
+- **malplaatjes:**   Deze sectie bevat de vooraf gedefinieerde structuur van DITA-elementen die u in uw document kunt gebruiken. Standaard bevat de sjabloonsectie sjabloondefinities voor een alinea, eenvoudige tabel, tabel en tekstelementen. U kunt een sjabloondefinitie maken voor elk element door een geldige XML-structuur toe te voegen voor het gewenste element. Als u bijvoorbeeld een `p` -element wilt toevoegen met elk nieuw `li` -element in een lijst, kunt u de volgende code toevoegen aan het einde van de sjabloonsectie om dit te bereiken:
 
 ```HTML
 "li": "<li><p></p></li>"
@@ -233,7 +233,7 @@ De `ui_config.json` bestand heeft drie secties:
 
 1. Verwijder in de sectie Werkbalken het item van de functie die u niet aan uw gebruikers wilt tonen.
 
-1. Sla de *ui\_config.json* bestand en laad de webeditor opnieuw.
+1. Sparen het {*dossier 0} ui\_config.json en laad de Redacteur van het Web opnieuw.*
 
 
-**Bovenliggend onderwerp:**[ Webeditor aanpassen](conf-web-editor.md)
+**Bovenliggend onderwerp:**[ pas de Redacteur van het Web ](conf-web-editor.md) aan

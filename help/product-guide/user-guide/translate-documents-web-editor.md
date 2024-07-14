@@ -1,6 +1,6 @@
 ---
 title: Documenten vertalen vanuit de webeditor
-description: Vertaal uw inhoud vanuit de webeditor naar meerdere talen. Leer hoe u een vertaalproject maakt, regels toevoegt, versies weergeeft en bestanden die niet gesynchroniseerd zijn, in AEM hulplijnen sluit.
+description: Vertaal uw inhoud vanuit de webeditor naar meerdere talen. Leer hoe u een vertaalproject maakt, regels toevoegt, versies weergeeft en bestanden die niet gesynchroniseerd zijn in AEM Guides kunt negeren.
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
@@ -15,13 +15,13 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> Het wordt geadviseerd om deze eigenschap van de Vertaling van de Redacteur van het Web te gebruiken als u aan AEMGidsen as a Cloud Service versie van februari 2022 of later hebt bevorderd.
+> U wordt aangeraden deze vertaalfunctie uit de webeditor te gebruiken als u een upgrade hebt uitgevoerd naar de AEM Guides-versie van as a Cloud Service februari 2022 of hoger.
 
-AEM Gidsen komt met een krachtige eigenschap in de Redacteur van het Web die u toelaat om uw inhoud in veelvoudige talen te vertalen. U kunt een nieuw vertaalproject creëren en later de vertaalbanen toevoegen aan het bestaande vertaalproject. U kunt ook een meertalig vertaalproject maken dat vertaaltaken voor alle geselecteerde talen omvat.
+AEM Guides wordt geleverd met een krachtige functie in de webeditor waarmee u uw inhoud in meerdere talen kunt vertalen. U kunt een nieuw vertaalproject creëren en later de vertaalbanen toevoegen aan het bestaande vertaalproject. U kunt ook een meertalig vertaalproject maken dat vertaaltaken voor alle geselecteerde talen omvat.
 
 >[!NOTE]
 >
-> Uw beheerder kan het tabblad Beheren \(gebruikt voor vertaling\) in de webeditor configureren. Zie voor meer informatie *Vorm de vertaaleigenschap in de Redacteur van het Web* in de sectie Adobe Experience Manager-hulplijnen installeren en configureren as a Cloud Service.
+> Uw beheerder kan het tabblad Beheren \(gebruikt voor vertaling\) in de webeditor configureren. Voor meer details, zie *de vertaaleigenschap in de sectie van de Redacteur van het Web* in installeer en vorm as a Cloud Service Adobe Experience Manager Guides.
 
 ## Voordat u begint
 
@@ -36,14 +36,14 @@ Voordat u de stappen in deze procedure uitvoert, moet u controleren of u de vere
 
 ## Een vertaalproject maken
 
-1. In de **Bewaarplaats** opent u het DITA-kaartbestand in de kaartweergave.
-1. Klik op de knop **Beheren** tab. De **Het deelvenster Vertaling** geeft de beschikbare taalgroepen weer.
+1. In het **paneel van de Bewaarplaats**, open het DITA kaartdossier in kaartmening.
+1. Klik **leiden** tabel. Het **deelvenster Vertaling** toont de beschikbare taalgroepen.
 
 1. Als gebruiker, kunt u de taalgroepen bekijken die aan uw omslagprofiel worden gevormd. De taalgroepen geven de taalmappen en hun taalcodes weer. De taalgroep met de naam G1 bevat bijvoorbeeld de volgende mappen: Italiaans \(it\), Duits \(de\), Frans \(fr\) en Engels \(en\).
 
-   ![vertaaldeelvenster](images/translation-languages.png){width="300" align="left"}
+   ![ vertaalpaneel ](images/translation-languages.png){width="300" align="left"}
 
-   *Selecteer de taalgroepen of talen waarin u uw documenten wilt vertalen.*
+   *selecteer de taalgroepen of de talen waarin u uw documenten wilt vertalen.*
 
 
    >[!IMPORTANT]
@@ -52,7 +52,7 @@ Voordat u de stappen in deze procedure uitvoert, moet u controleren of u de vere
 
 
 
-1. U kunt elke taalgroep selecteren als doel voor de vertaling. Als u **Alles selecteren**, worden de geselecteerde bestanden vertaald in alle beschikbare talen binnen de bestaande taalgroepen.
+1. U kunt elke taalgroep selecteren als doel voor de vertaling. Als u **allen** selecteert, worden de geselecteerde dossiers vertaald in alle beschikbare talen binnen de bestaande taalgroepen.
 
    De taalmapoptie verschijnt grijs uit en toont een waarschuwingsteken:
 
@@ -66,75 +66,76 @@ Voordat u de stappen in deze procedure uitvoert, moet u controleren of u de vere
 
 1. Als u een bepaalde taal kiest, wordt deze weergegeven als geselecteerd onder alle taalgroepen die u hebt geselecteerd. Als je naar een taal vertaalt, is het in één keer vertaald voor alle taalgroepen. Bijvoorbeeld, als het Duits in zowel G1 als G2 taalgroepen aanwezig is, is het geselecteerd voor beide.
 
-1. Van de **Overige talen**, kunt u elke taal kiezen waarvoor u de doelmap hebt gemaakt, maar die geen deel uitmaakt van een taalgroep.
+1. Van de **Andere talen**, kunt u om het even welke taal kiezen waarvoor u de doelomslag hebt gecreeerd maar geen deel van om het even welke taalgroepen is.
 
 1. U kunt ook een van de volgende opties selecteren om uw project te vertalen:
 
-   **Geen** Selecteer deze optie om de standaardversies van de bestanden te vertalen. Deze optie is standaard ingeschakeld.
+   **niets** selecteer deze optie om de standaardversies van de dossiers te vertalen. Deze optie is standaard ingeschakeld.
 
-   **Basislijn gebruiken:** U kunt een basislijn selecteren om uw project te vertalen. Klik op Basislijn gebruiken en kies een basislijn die op de kaart is gemaakt. Alle bestanden die deel uitmaken van de geselecteerde basislijn, worden weergegeven op de pagina Vertalen. Nadat de inhoud is vertaald, kunt u de vertaalde basislijn exporteren. Voor meer informatie over het exporteren van de vertaalde basislijn raadpleegt u [Vertaalde basislijn exporteren](generate-output-use-baseline-for-publishing.md#id196SE600GHS).
+   **Basislijn van het Gebruik:** u kunt een basislijn selecteren om uw project te vertalen. Klik op Basislijn gebruiken en kies een basislijn die op de kaart is gemaakt. Alle bestanden die deel uitmaken van de geselecteerde basislijn, worden weergegeven op de pagina Vertalen. Nadat de inhoud is vertaald, kunt u de vertaalde basislijn exporteren. Voor meer details over het uitvoeren van de vertaalde Basislijn, zie [ Uitvoer vertaalde Basislijn ](generate-output-use-baseline-for-publishing.md#id196SE600GHS).
 
-   **Laatste versie gebruiken als ingeschakeld**: Kies of u de versie van de onderwerpen wilt filteren op basis van de aanmaakdatum en -tijd. Wanneer u een datum en tijd selecteert, wordt alleen de meest recente versie van de bestanden weergegeven die op of voor de geselecteerde datum en tijd zijn gemaakt.
+   **de Laatste Versie van het Gebruik zoals op**: verkies om de versie van onderwerpen te filtreren die op hun creatieve datum en tijd worden gebaseerd. Wanneer u een datum en tijd selecteert, wordt alleen de meest recente versie van de bestanden weergegeven die op of voor de geselecteerde datum en tijd zijn gemaakt.
 
-1. Klikken **Toepassen**. Een lijst met details van onderwerpen en bijbehorende activa wordt getoond.
+1. Klik **toepassen**. Een lijst met details van onderwerpen en bijbehorende activa wordt getoond.
 1. Selecteer de onderwerpen die u voor vertaling wilt verzenden. U kunt de onderwerp het filtreren opties voor de volgende kolommen ook gebruiken:
 
-   - **Titel**: Titel van het bronbestand.  Houd de cursor boven de titel van het bronbestand om de titel van het doelbestand of het vertaalde bestand weer te geven.
-   - **Bestandsnaam**: Naam van het bronbestand
-   - **Bestandstype**: Type bronbestand. De beschikbare opties zijn Kaart, Onderwerp, en Beeld.
-   - **Referentietype**: directe of indirecte verwijzingen
-   - **Versie**: Versienummer van het bronbestand
-   - **Versielabel**: Label voor de geselecteerde versie van het bronbestand
-   - **Doelversie**: Versienummer van het doelbestand
-   - **Documentstatus**: Status van het bronbestand. De beschikbare opties zijn Concept, In-Review en Reviewed.
-   - **Doeltaal**: De taal waarnaar u het bronbestand wilt vertalen
-   - **Vertaalstatus**: De beschikbare opties zijn: Niet gesynchroniseerd, Kopie ontbreekt, Bezig en Gesynchroniseerd.
-   - **Doellabel**: Label voor de geselecteerde versie van het doelbestand
-1. Klikken **Verzenden voor vertaling** in de rechterbovenhoek.
+   - **Titel**: Titel van het brondossier.  Houd de cursor boven de titel van het bronbestand om de titel van het doelbestand of het vertaalde bestand weer te geven.
+   - **Naam van het Dossier**: Naam van het brondossier
+   - **Type van Dossier**: Type van het brondossier. De beschikbare opties zijn Kaart, Onderwerp, en Beeld.
+   - **Type van Verwijzing**: Directe of Indirecte verwijzingen
+   - **Versie**: Het aantal van de versie van het brondossier
+   - **Etiket van de Versie**: Etiket voor de geselecteerde versie van het brondossier
+   - **Versie van het Doel**: Het aantal van de versie van het doeldossier
+   - **de Staat van het Document**: Staat van het brondossier. De beschikbare opties zijn Concept, In-Review en Reviewed.
+   - **Taal van het Doel**: De taal waaraan u het brondossier wilt vertalen
+   - **de Status van de Vertaling**: De beschikbare opties zijn: Uit Synchronisatie, Ontbrekend Exemplaar, Bezig, en in synchronisatie.
+   - **Etiket van het Doel**: Etiket voor de geselecteerde versie van het doeldossier
+1. Klik **verzenden voor Vertaling** op de hoogste juiste hoek.
 
    ![](images/translation-send.png){width="800" align="left"}
 
-1. Selecteer in het vervolgkeuzemenu de optie **Nieuw vertaalproject maken**.
+1. Van dropdown, leidt de uitgezochte **tot een Nieuw Project van de Vertaling**.
 
    ![](images/translation-project-types.png){width="350" align="left"}
 
    Naast een nieuw vertaalproject kunt u ook uit de volgende opties kiezen:
 
-   - U kunt ervoor kiezen **Een structuur maken** alleen voor het vertaalproject.
-   - U kunt ervoor kiezen **Nieuw XLIFF-vertaalproject maken** om de XML-inhoud om te zetten in de XLIFF (XML Localization Interchange File Format). XLIFF is een open op XML-gebaseerde indeling die wordt gebruikt om de gegevensoverdracht tussen verschillende gereedschappen die in het vertaalproces van de inhoud worden gebruikt, te standaardiseren. AEM Hulplijnen ondersteunen XLIFF versie 1.2. In een XLIFF-project wordt de inhoud geëxporteerd naar de industriestandaard XLIFF-indeling, die aan vertalers kan worden geleverd. Met de XLIFF-indeling kunt u segmenten die u al tijdens de vertaalfase hebt vertaald, opnieuw gebruiken.\
-     Nadat de inhoud XLIFF wordt vertaald, kan het in AEMGidsen worden ingevoerd die tot een vertaalde versie van het originele DITA- project leiden.
+   - U kunt verkiezen om **een structuur** slechts voor het vertaalproject tot stand te brengen.
+   - U kunt verkiezen om **een nieuw XLIFF vertaalproject** tot stand te brengen om de inhoud van XML in het Formaat van het Dossier van de Uitwisseling van de Localisatie van XML om te zetten (XLIFF). XLIFF is een open op XML-gebaseerde indeling die wordt gebruikt om de gegevensoverdracht tussen verschillende gereedschappen die in het vertaalproces van de inhoud worden gebruikt, te standaardiseren. AEM Guides ondersteunt XLIFF versie 1.2.
+In een XLIFF-project wordt de inhoud geëxporteerd naar de industriestandaard XLIFF-indeling, die aan vertalers kan worden geleverd. Met de XLIFF-indeling kunt u segmenten die u al tijdens de vertaalfase hebt vertaald, opnieuw gebruiken.\
+     Nadat de XLIFF-inhoud is vertaald, kan deze worden geïmporteerd in AEM Guides, waardoor een vertaalde versie van het oorspronkelijke DITA-project wordt gemaakt.
 
      >[!NOTE]
      >
      > XLIFF-export werkt alleen met de configuratie voor menselijke vertaling.
 
-   - U kunt **Een nieuw meertalig vertaalproject maken** Dit omvat vertaaltaken voor alle talen die u hebt geselecteerd voor vertaling. Als u bijvoorbeeld Frans, Duits en Spaans hebt geselecteerd, wordt er een project met vertaalbanen voor alle drie de talen gemaakt.
-   - Als u reeds een vertaalproject hebt, kunt u onderwerpen aan dat project toevoegen. Selecteer Toevoegen aan **Bestaand vertaalproject** in de projectlijst en kies een project in de lijst Bestaand vertaalproject. U kunt deze projecten op meest recente, stijgende, of dalende orde sorteren.
+   - U kunt **selecteren creeert een nieuw meertalig vertaalproject** dat vertaalbanen voor alle talen zal omvatten die u voor vertaling hebt geselecteerd. Als u bijvoorbeeld Frans, Duits en Spaans hebt geselecteerd, wordt er een project met vertaalbanen voor alle drie de talen gemaakt.
+   - Als u reeds een vertaalproject hebt, kunt u onderwerpen aan dat project toevoegen. Selecteer toevoegen aan **Bestaande optie van het Project van de Vertaling** van de lijst van het Project en kies een project van de Bestaande lijst van het Project van de Vertaling. U kunt deze projecten op meest recente, stijgende, of dalende orde sorteren.
 
      >[!NOTE]
      >
      > Als uw bestaande project een bereikproject is, wordt de naam &#39;\(Scoping\)&#39; toegevoegd.
 
-   - Als u het werkingsgebied voor een te vertalen project moet creëren, kunt u selecteren **Een nieuw vertaal-project met bereik maken**. Hierdoor worden de kopieën niet voor vertaling verzonden en blijft de oorspronkelijke vertaalstatus van de bestanden behouden. Er is geen effect op het exemplaar van de bestemmingstaal van de genoemde onderwerpen die voor scoping worden verzonden.
-1. In de **Projecttitel** voert u een titel in voor het project.
-1. Klikken **Maken** om een nieuw vertaalproject op te zetten.
+   - Als u het werkingsgebied voor een te vertalen project moet tot stand brengen, kunt u **selecteren creeert een nieuw scoping vertaalproject**. Hierdoor worden de kopieën niet voor vertaling verzonden en blijft de oorspronkelijke vertaalstatus van de bestanden behouden. Er is geen effect op het exemplaar van de bestemmingstaal van de genoemde onderwerpen die voor scoping worden verzonden.
+1. Op het **gebied van de Titel van het 0} Project, ga een titel voor het project in.**
+1. Klik **creëren** om een nieuw vertaalproject tot stand te brengen.
 
-   Een nieuw vertaalproject wordt gecreeerd met de geselecteerde versie van de onderwerpen. Op dit moment wordt een pop-upbericht weergegeven met de bevestiging dat het vertaalproject is gemaakt. Zodra alle exemplaren van de doeltaal in het vertaalproject beschikbaar zijn, krijgt u een bericht in Inbox. Zodra de doeltaalkopieën beschikbaar zijn in het vertaalproject, kunt u de vertaaltaak starten. Zie voor meer informatie [De vertaaltaak starten](translation-first-time.md#id225IK030OE8).
+   Een nieuw vertaalproject wordt gecreeerd met de geselecteerde versie van de onderwerpen. Op dit moment wordt een pop-upbericht weergegeven met de bevestiging dat het vertaalproject is gemaakt. Zodra alle exemplaren van de doeltaal in het vertaalproject beschikbaar zijn, krijgt u een bericht in Inbox. Zodra de doeltaalkopieën beschikbaar zijn in het vertaalproject, kunt u de vertaaltaak starten. Voor details zie, [ Begin de vertaalbaan ](translation-first-time.md#id225IK030OE8).
 
    >[!NOTE]
    >
-   > Als u de vertaling voor een of meer onderwerpen in een vertaaltaak afwijst, kunt u **In uitvoering** de vertaalstatus van alle afgewezen onderwerpen wordt weer hersteld . De status van de bedoelde onderwerpen wordt gecontroleerd en teruggezet volgens de meest recente vertaalstatus. Ook, worden de vertaaldossiers die in het bestemmingsproject worden gecreeerd niet geschrapt zelfs als de vertaling voor hen wordt verworpen.
+   > Als u de vertaling voor één of meerdere onderwerpen in een vertaalbaan verwerpt, keert de **Bezig** vertaalstatus van alle verworpen onderwerpen terug naar hun originele status. De status van de bedoelde onderwerpen wordt gecontroleerd en teruggezet volgens de meest recente vertaalstatus. Ook, worden de vertaaldossiers die in het bestemmingsproject worden gecreeerd niet geschrapt zelfs als de vertaling voor hen wordt verworpen.
 
 ## De vertaalregels toevoegen
 
-Met AEM hulplijnen kunnen uw beheerders de vertaalregels configureren. De indeling SRX (Segmentation Rules eXchange) is een standaard voor het uitwisselen van segmentatieregels tussen verschillende gebruikers en verschillende vertaalomgevingen. U kunt een map maken en uw aangepaste SRX-bestanden eraan toevoegen.
+Met AEM Guides kunnen uw beheerders de vertaalregels configureren. De indeling SRX (Segmentation Rules eXchange) is een standaard voor het uitwisselen van segmentatieregels tussen verschillende gebruikers en verschillende vertaalomgevingen. U kunt een map maken en uw aangepaste SRX-bestanden eraan toevoegen.
 
-SRX-bestanden moeten een naam hebben `<language-code>.srx`. Bijvoorbeeld, en-US, of ar-AE.
+SRX-bestanden moeten de naam `<language-code>.srx` hebben. Bijvoorbeeld, en-US, of ar-AE.
 
 >[!NOTE]
 >De titel is niet hoofdlettergevoelig, dus je kunt &#39;en-US&#39;, &#39;en-us&#39; of &#39;EN-us&#39; hebben. Bovendien kunnen AEM hulplijnen &#39;-&#39; (afbreekstreepje) of &#39;_&#39; (onderstrepingsteken) oplossen. Dus je kunt &#39;en-US&#39; of &#39;en_US&#39; hebben.
 
-U kunt deze bestanden ook in elke map plaatsen die zich in de hoofdmap met AEM elementen bevindt. `./content/dam`.
+U kunt deze bestanden ook in elke map plaatsen die zich in de hoofdmap met AEM elementen bevindt, namelijk `./content/dam` .
 
 
 
@@ -143,18 +144,18 @@ Zodra u de omslag hebt gecreeerd die de SRX dossiers bevat, kunt u de omslagweg 
 Het wordt aanbevolen dat u voor betere prestaties alleen SRX-bestanden in de map bewaart die in het mapprofiel is geconfigureerd.
 
 
-AEM de Gidsen kiezen de regels SRX volgens de brontaal van het vertaalproject. Het zoekt een douaneSRX dossier voor een taal, en als u geen douaneSRX dossier bepaalt, dan plukt het de regels zoals per uit de doos vertaalregels.
+AEM Guides kiest de SRX-regels volgens de brontaal van het vertaalproject. Het zoekt een douaneSRX dossier voor een taal, en als u geen douaneSRX dossier bepaalt, dan plukt het de regels zoals per uit de doos vertaalregels.
 
 
-Voor meer informatie over het instellen van algemene profielen en mapprofielen raadpleegt u *Ontwerpsjablonen configureren* in de sectie Adobe Experience Manager-hulplijnen installeren en configureren as a Cloud Service.
+Voor details bij vestiging globale en omslag-vlakke profielen, zie *creatieve malplaatjes* sectie vormen in installeer en vorm Adobe Experience Manager Guides as a Cloud Service.
 
 ## Geef het versielabel door aan de doelversie
 
-Met AEM hulplijnen kunt u het label van het bronbestand aan het doelbestand doorgeven. Zo kunt u gemakkelijk de bronversie van het vertaalde bestand identificeren.
+Met AEM Guides kunt u het label van het bronbestand aan het doelbestand doorgeven. Zo kunt u gemakkelijk de bronversie van het vertaalde bestand identificeren.
 
-Als u het label van de bronversie wilt toevoegen aan de doelkopie, moet uw systeembeheerder de optie selecteren **Bronversielabels doorgeven aan de doelversie** onder de **Vertaling** tab in **Editor-instellingen**.
+Om het bronversielabel in het doelexemplaar toe te voegen, moet uw systeembeheerder de optie **selecteren doorgeeft bronversielabels aan de doelversie** onder het **Vertaling** lusje in **Montages van de Redacteur**.
 
-Als u bijvoorbeeld bronbestanden met het versielabel hebt `Release 1.0` vervolgens kunt u het bronlabel \(`Release 1.0`\) naar het vertaalde bestand.
+Als er bijvoorbeeld bronbestanden zijn waarop het versielabel `Release 1.0` is toegepast, kunt u ook het bronlabel \(`Release 1.0`\) aan het vertaalde bestand doorgeven.
 
 ![](images/translation-pass-source-label.png){width="650" align="left"}
 
@@ -164,17 +165,17 @@ Als u bijvoorbeeld bronbestanden met het versielabel hebt `Release 1.0` vervolge
 
 ## Versieverschil weergeven voor bestanden die niet zijn gesynchroniseerd 
 
-AEM Gidsen verstrekt de eigenschap om de verschillen tussen de geselecteerde versie en de laatste vertaalde bronversie van de onderwerpen te controleren. U kunt ervoor kiezen om de **Niet gesynchroniseerd** op basis van de aangebrachte wijzigingen.
+AEM Guides biedt de functie om de verschillen tussen de geselecteerde versie en de laatste vertaalde bronversie van de onderwerpen te controleren. U kunt verkiezen om **uit synchronisatie** dossiers te vertalen die op de aangebrachte veranderingen worden gebaseerd.
 
 ![](images/translation-version-diff.png){width="650" align="left"}
 
-Selecteer de **Verschil tonen** pictogram \(![](images/show-difference-icon.svg)\) voor een onderwerp om de verschillen tussen de laatste vertaalde versie en de huidige versie van het geselecteerde dossier te zien.
+Selecteer het **verschil** pictogram \ van de Tonen (![](images/show-difference-icon.svg) \) voor een onderwerp om de verschillen tussen de laatste vertaalde versie en de huidige versie van het geselecteerde dossier te zien.
 
 >[!NOTE]
 >
-> **Verschil tonen** pictogram \(![](images/show-difference-icon.svg)\) wordt alleen weergegeven voor DITA-bestanden met de vertaalstatus **Niet gesynchroniseerd**.
+> **toon verschil** pictogram \ (![](images/show-difference-icon.svg) \) verschijnt slechts voor DITA- dossiers die de vertaalstatus als **uit Synchronisatie** hebben.
 
-De **Verschil in versie** wordt weergegeven. Het toont de **Laatst vertaalde versie** en de **Geselecteerde versie** nummer links. Het voorproefvenster toont de verschillen tussen de laatste vertaalde versie en de geselecteerde versie van het onderwerp.
+Het **dialoog van het Verschil van de Versie 0} {verschijnt.** Het toont de **Laatste vertaalde versie** en het **Geselecteerde versie** aantal op de linkerzijde. Het voorproefvenster toont de verschillen tussen de laatste vertaalde versie en de geselecteerde versie van het onderwerp.
 
 ![](images/version-diff.png){width="650" align="left"}
 
@@ -185,23 +186,23 @@ Als u wijzigingen aanbrengt in sommige elementen, zijn deze elementen niet meer 
 Voer de volgende stappen uit om de status Buiten-synchroniseren te negeren:
 
 1. Selecteer de elementen waarvan u de status wilt wijzigen die niet meer gesynchroniseerd zijn.
-1. Selecteer de **Sync markeren** knop \(![](images/translation-mark-in-sync-icon.svg)\) bovenaan. De **Sync markeren** wordt weergegeven.
+1. Selecteer het **Teken in Synchronisatie** knoop \ (![](images/translation-mark-in-sync-icon.svg) \) bovenop. Het **Teken in Synchronisatie** dialoog verschijnt.
 
    ![](images/translation-mark-in-sync.png){width="550" align="left"}
 
-1. Klikken **Synchronisatie forceren**. De status wordt gesynchroniseerd ingesteld voor de geselecteerde elementen die niet gesynchroniseerd zijn.
+1. Klik **de Synchronisatie van de Kracht**. De status wordt gesynchroniseerd ingesteld voor de geselecteerde elementen die niet gesynchroniseerd zijn.
 
 >[!NOTE]
 >
-> **Sync markeren** knop \(![](images/translation-mark-in-sync-icon.svg)\) wordt alleen weergegeven voor elementen met de status Niet gesynchroniseerd.
+> **Teken in Synchronisatie** knoop \ (![](images/translation-mark-in-sync-icon.svg) \) verschijnt slechts voor activa die de vertaalstatus als uit Synchronisatie hebben.
 
 ## In uitvoering zijnde vertaalprojecten voor een kaart of een onderwerp weergeven
 
-Sommige verwijzingen op het vertaaldashboard zijn mogelijk in uitvoering. Deze verwijzingen hebben een **In uitvoering** link onder **Vertaalstatus** kolom. Wanneer u op de koppeling klikt, wordt **Lopende projecten** wordt geopend. In het dialoogvenster ziet u de lijst met alle lopende vertaalprojecten \(samen met de doeltaal\) die de geselecteerde verwijzing bevatten.
+Sommige verwijzingen op het vertaaldashboard zijn mogelijk in uitvoering. Deze verwijzingen hebben a **Bezig** verbinding onder **de kolom van de Status van de Vertaling**. Wanneer u de verbinding klikt, opent de **lopende dialoog van Projecten**. In het dialoogvenster ziet u de lijst met alle lopende vertaalprojecten \(samen met de doeltaal\) die de geselecteerde verwijzing bevatten.
 
 >[!NOTE]
 >
-> U kunt de link In uitvoering zien voor de vertaalde projecten die zijn gemaakt in AEM release van februari 2023 of later met hulplijnen.
+> U kunt de koppeling In uitvoering zien voor de vertaalde projecten die in AEM Guides as a Cloud Service februari 2023 zijn gemaakt of later.
 
 Klik op de naam van de verwijzing in het dialoogvenster om deze te openen in de voorvertoningsmodus. U kunt ook op het vertaalproject klikken om de vertaling te starten.
 
@@ -212,13 +213,13 @@ Klik op de naam van de verwijzing in het dialoogvenster om deze te openen in de 
 
 >[!NOTE]
 > 
->Deze functie is beschikbaar voor de nieuwe vertaalprojecten die u maakt met de release 2404 of hoger van de hulplijnen voor Experience Managers.  Dit heeft geen gevolgen voor bestaande projecten.
+>Deze functie is beschikbaar voor de nieuwe vertaalprojecten die u maakt met Experience Manager Guides 2404 of hoger.  Dit heeft geen gevolgen voor bestaande projecten.
 
-Uw beheerder kan de **Overdrachtsproject opschonen na voltooiing** optie onder de **Vertaling** tab in **Editor-instellingen** om de vertaalprojecten automatisch uit te schakelen of te schrappen.
+Uw beheerder kan de **Opschoning van het Vertaalproject na voltooiing** optie onder het **Vertaling** lusje in **Montages van de Redacteur** vormen om de vertaalprojecten automatisch onbruikbaar te maken of te schrappen.
 
-Voor het uitvoeren van documentbeheer, verstrekt de Gidsen van de Experience Manager de capaciteit om de vertaalprojecten te schrappen nadat u de vertaling hebt voltooid.
+Voor het uitvoeren van documentbeheer biedt Experience Manager Guides de mogelijkheid om de vertaalprojecten te verwijderen nadat u de vertaling hebt voltooid.
 
 U kunt de vertaalprojecten ook onbruikbaar maken als u hen later wilt gebruiken. Als u een project verwijdert, worden alle bestanden en mappen in het project verwijderd. Als u een project uitschakelt, wordt het niet verwijderd, maar wordt het bijgehouden in de opslagplaats. U kunt een uitgeschakeld project echter niet bijwerken of bewerken.  Het verwijderen of uitschakelen van een project heeft geen invloed op de vertaalstatus van verwijzingen.
 
 
-**Bovenliggend onderwerp:**[ Werken met de webeditor](web-editor.md)
+**Bovenliggend onderwerp:**[ Werk met de Redacteur van het Web ](web-editor.md)

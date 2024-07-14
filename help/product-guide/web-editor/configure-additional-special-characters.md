@@ -1,6 +1,6 @@
 ---
 title: Aanvullende speciale tekens op de werkbalk van de webeditor configureren
-description: Leer hoe u extra speciale tekens configureert in de webeditor van AEM hulplijnen.
+description: Leer hoe u extra speciale tekens configureert in de webeditor van AEM Guides.
 feature: Web Editor
 role: User
 exl-id: 0fbc05a5-a6b0-4f6b-bbc4-8fca03581d90
@@ -16,7 +16,7 @@ ht-degree: 0%
 De werkbalk van de webeditor bevat een optie voor sneltoetsen waarmee de auteur de speciale tekens al kan invoegen.
 Hetzelfde geldt voor onderstaande screenshot:
 
-![Speciale tekens](assets/special-chars.png)
+![ Speciale Karakters ](assets/special-chars.png)
 
 
 Deze lijst met tekens kan hier worden geconfigureerd. Voer de volgende stappen uit als u hier meer tekens aan wilt toevoegen:
@@ -55,10 +55,10 @@ U kunt meerdere definities definiëren voor speciale tekens in een categorie.
 
 Hiermee wordt een andere categorie toegevoegd in het dialoogvenster Speciale tekens:
 
-![Speciale symboolcategorie](assets/special-char-category.png)
+![ Speciale Categorie van het Symbool ](assets/special-char-category.png)
 
-![Speciaal teken invoegen](assets/insert-special-char.png)
+![ Tussenvoegsel Speciaal Karakter ](assets/insert-special-char.png)
 
 >[!MORELIKETHIS]
 >
->+ [Installatie- en configuratiehandleiding](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/3-6/XML-Documentation-for-Adobe-Experience-Manager_Installation-Configuration-Guide_EN.pdf)
+>+ [ Gids van de Installatie en van de Configuratie ](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/3-6/XML-Documentation-for-Adobe-Experience-Manager_Installation-Configuration-Guide_EN.pdf)

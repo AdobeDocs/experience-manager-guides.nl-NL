@@ -14,17 +14,17 @@ ht-degree: 8%
 
 # Downloaden en installeren {#id1645E0O04MK}
 
-Vanaf versie 2024.2.0, zijn de Gidsen van de Experience Manager slechts beschikbaar als geautomatiseerde toe:voegen-op voor as a Cloud Service Experience Manager.
+Vanaf release 2024.2.0 is Experience Manager Guides alleen beschikbaar als een geautomatiseerde invoegtoepassing voor Experience Manager as a Cloud Service.
 
-Als u de versies van december 2023 of vroeger gebruikt, kunt u de Gidsen van Adobe Experience Manager van de bewaarplaats downloaden GitHub en het installeren.
+Als u de versies van december 2023 of vroeger gebruikt, kunt u Adobe Experience Manager Guides van de bewaarplaats downloaden GitHub en het installeren.
 
 
-- **[De module AEM hulplijnen gebruiken](download-install-dxml-first-time.md)**
+- **[stelt de module van AEM Guides](download-install-dxml-first-time.md)** op
 
-- **[Dispatcher configureren](download-install-configure-dispatcher.md)**
+- **[vorm Dispatcher](download-install-configure-dispatcher.md)**
 
-- **[De installatie van AEM hulplijnen controleren](download-install-verify-dxml-installation.md)**
+- **[verifieer de installatie van AEM Guides](download-install-verify-dxml-installation.md)**
 
-- **[Configuratieoverschrijvingen](download-install-additional-config-override.md)**
+- **[de met voeten treedt van de Configuratie](download-install-additional-config-override.md)**
 
-- **[Recommendations for performance optimization](download-install-recommend-perf-optimiz.md)**
+- **[Recommendations voor prestatiesoptimalisering](download-install-recommend-perf-optimiz.md)**

@@ -1,6 +1,6 @@
 ---
 title: Gewijzigde onderwerpen vertalen
-description: Leer hoe u een gewijzigd onderwerp opnieuw vertaalt in AEM hulplijnen.
+description: Leer hoe u een gewijzigd onderwerp opnieuw vertaalt in AEM Guides.
 exl-id: b3228ea9-24a8-44aa-8ba4-e8f44754ffe4
 feature: Translation
 role: User
@@ -19,11 +19,11 @@ Voer de volgende stappen uit om een gewijzigd onderwerp voor re-vertaling te ver
 
 1. Klik het DITA kaartdossier van de brontaalexemplaaromslag.
 
-1. Klik op de knop **Vertaling** tab.
+1. Klik de **Vertaling** tabel.
 
-1. In de **Filter** links, selecteert u de **Talen vertalen** waarop u de status wilt controleren en klikken **Gereed**.
+1. In het **paneel van de Filter** op de linkerzijde, selecteer **Vertaal Talen** dat u de status wilt controleren en **Gedaane** klikken.
 
-   U kunt de vertaalstatus voor elk onderwerp zien. De onderwerpen die een andere revisie van onderwerp beschikbaar hebben dan wat voor vertaling werd verzonden, tonen en **Verouderd** status.
+   U kunt de vertaalstatus voor elk onderwerp zien. De onderwerpen die een andere revisie van onderwerp beschikbaar hebben dan wat voor vertaling werd verzonden, tonen een **Verouderd van Datum** status.
 
    >[!NOTE]
    >
@@ -35,19 +35,19 @@ Voer de volgende stappen uit om een gewijzigd onderwerp voor re-vertaling te ver
 
 1. Klik het controlevakje om de onderwerpen te selecteren die u voor re-vertaling wilt verzenden.
 
-   Wanneer u een datum selecteert die niet meer gesynchroniseerd is, worden de **Taalkopieën maken/bijwerken** verschijnt in het venster Verwijzingen en in het dialoogvenster **Synchronisatiestatus Buiten-de sluiten** knop boven de knop **Filter** pictogram.
+   Wanneer u een uit synchronisatiedatum selecteert, **creeert/de optie van de Taal van de Update** verschijnt in het paneel van Verwijzingen en de **Ontkenning uit de knoop van de Status van de Synchronisatie** boven het **pictogram van de Filter**.
 
-   U kunt de **Synchronisatie negeren** knoop om de Verouderd status voor de onderwerpen in de kaart met voeten te treden DITA. Bijvoorbeeld, als u sommige veranderingen in de Engelse versie van het onderwerp aanbracht die geen vertaling vereist, kunt u deze knoop gebruiken en de status van Verouderd voor het geselecteerde onderwerp veranderen.
+   U kunt de **Ontkenning uit Synchronisatie** knoop gebruiken om de Verouderde status voor de onderwerpen in de kaart met DITA met voeten te treden. Bijvoorbeeld, als u sommige veranderingen in de Engelse versie van het onderwerp aanbracht die geen vertaling vereist, kunt u deze knoop gebruiken en de status van Verouderd voor het geselecteerde onderwerp veranderen.
 
    >[!NOTE]
    >
-   > Als u op de knop **Synchronisatiestatus Buiten-de sluiten** knoop, plaatst het de onderwerpstatus aan Up voor de geselecteerde onderwerpen van Verouderd.
+   > Als u de **Ontkenning uit de knoop van de Status van de Synchronisatie** klikt, plaatst het de onderwerpstatus aan Up aan Datum voor de geselecteerde Onderwerpen van Verouderd.
 
-1. Klikken **Taalkopieën bijwerken** en configureert u de vertaaltaak.
+1. Klik {de Kopieën van de Taal van 0} Update **en vorm de vertaalbaan.**
 
 1. U kunt verkiezen om een nieuw vertaalproject tot stand te brengen of onderwerpen aan een bestaand vertaalproject toe te voegen. Verstrek de vereiste details om het vertaalproject te vormen.
 
-1. Klikken **Start**.
+1. Klik **Begin**.
 
    Er wordt een bevestigingsbericht weergegeven waarin wordt aangegeven dat het onderwerp voor vertaling is verzonden.
 
@@ -55,7 +55,7 @@ Voer de volgende stappen uit om een gewijzigd onderwerp voor re-vertaling te ver
 
    ![](images/incremental-job.PNG){width="300" align="left"}
 
-1. Als u de vertaling wilt starten, klikt u op de pijl op de vertaalwerkkaart en selecteert u **Start** in de lijst. Een bericht geeft aan dat de taak is gestart.
+1. Om de vertaling te beginnen, klik de pijl op de kaart van de vertaalbaan en selecteer **Begin** van de lijst. Een bericht geeft aan dat de taak is gestart.
 
    U kunt de status van het onderwerp dat wordt vertaald ook bekijken wanneer u de ellips bij de bodem van de kaart van de vertaalbaan klikt.
 
@@ -63,19 +63,19 @@ Voer de volgende stappen uit om een gewijzigd onderwerp voor re-vertaling te ver
    >
    > Als u de vertaalservice Human gebruikt, moet u de inhoud exporteren voor vertaling. Zodra u de vertaalde inhoud hebt, dan moet u het terug in het vertaalproject invoeren.
 
-1. Nadat de vertaling is voltooid, verandert de status in **Klaar voor revisie**. Klik op de ellips om de onderwerpdetails weer te geven en voer een van de volgende handelingen uit op de werkbalk:
+1. Nadat de vertaling voltooit, de statusveranderingen in **Klaar aan Overzicht**. Klik op de ellips om de onderwerpdetails weer te geven en voer een van de volgende handelingen uit op de werkbalk:
 
-   - Klikken **Tonen in elementen** de vertaling te bekijken en te verifiëren.
+   - Klik **onthullen in Assets** om de vertaling te zien en te verifiëren.
 
-   - Klikken **Vertaling accepteren** als u van mening bent dat de veranderingen correct zijn vertaald. Er wordt een bevestigingsbericht weergegeven.
+   - Klik **goedkeuren Vertaling** als u denkt dat de veranderingen correct zijn vertaald. Er wordt een bevestigingsbericht weergegeven.
 
-   - Klikken **Vertaling negeren** als u van mening bent dat het werk opnieuw moet worden gedaan. Er wordt een afwijzingsbericht weergegeven.
+   - Klik **Vertaling van de Weigering** als u denkt dat de baan opnieuw moet worden gedaan. Er wordt een afwijzingsbericht weergegeven.
 
    >[!NOTE]
    >
    > Het is belangrijk het vertaalde element te accepteren of af te wijzen, anders blijft het bestand op de tijdelijke locatie en wordt het niet naar DAM gekopieerd.
 
-1. Navigeer terug naar het DITA kaartdossier in de brontaalomslag in Activa UI. De opnieuw vertaalde onderwerpen zijn nu synchroon.
+1. Navigeer terug naar het DITA-kaartbestand in de brontaalmap in de gebruikersinterface van Assets. De opnieuw vertaalde onderwerpen zijn nu synchroon.
 
 
-**Bovenliggend onderwerp:**[ Inhoud vertalen](translation.md)
+**Bovenliggend onderwerp:**[ vertaal inhoud ](translation.md)

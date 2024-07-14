@@ -1,6 +1,6 @@
 ---
 title: Een verzameling bulkactiveringskaarten verwijderen
-description: Leer hoe u de bulkactiveringskaartverzameling in AEM hulplijnen kunt verwijderen.
+description: Leer hoe u de bulkactiveringskaartverzameling in AEM Guides verwijdert.
 exl-id: 8e1f30e4-4b83-4282-97c9-7e6960c6ec19
 feature: Publishing, Bulk Activation
 role: User
@@ -15,21 +15,21 @@ ht-degree: 0%
 
 U kunt een verzameling bulkactiveringskaarten verwijderen als deze niet meer nodig is. Voer de volgende stappen uit om een bulkactiveringskaartverzameling te verwijderen:
 
-1. Selecteren **Hulplijnen** in de lijst met gereedschappen.
+1. Selecteer **Gidsen** van de lijst van hulpmiddelen.
 
-1. Klik op de Adobe Experience Manager-koppeling bovenaan en kies **Gereedschappen**.
+1. Klik op de verbinding van Adobe Experience Manager bij de bovenkant en kies **Hulpmiddelen**.
 
-1. Klik op de knop **Bulk publicatiedashboard** tegel.
+1. Klik op het **Bulk Publish Dashboard** tegel.
 
    Er wordt een lijst met bulkactiveringskaartverzamelingen weergegeven.
 
-1. Selecteer de verzameling die u wilt bewerken en klik op **Verwijderen**.
+1. Selecteer de inzameling die u wilt uitgeven en **Schrapping** klikken.
 
    Er verschijnt een bevestigingsbericht voor verwijderen.
 
-1. Klikken **Ja**.
+1. Klik **ja**.
 
    De verzameling van de bulkactiveringskaart wordt uit het systeem verwijderd.
 
 
-**Bovenliggend onderwerp:**[ Bulkactivering van gepubliceerde inhoud](conf-bulk-activation.md)
+**Bovenliggend onderwerp:**[ Bulk Activering van gepubliceerde inhoud ](conf-bulk-activation.md)

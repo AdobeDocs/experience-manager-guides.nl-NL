@@ -1,6 +1,6 @@
 ---
-title: Opmerkingen bij de release | Adobe Experience Manager Guides 4.1 release
-description: Laatste release van Adobe Experience Manager-hulplijnen
+title: Opmerkingen bij de release | Adobe Experience Manager Guides 4.1-release
+description: Laatste release van Adobe Experience Manager Guides
 exl-id: c70b3bbc-3332-4626-bc30-641034f8fd06
 feature: Release Notes
 role: Leader
@@ -11,35 +11,35 @@ ht-degree: 0%
 
 ---
 
-# 4.1.x-release van Adobe Experience Manager-hulplijnen
+# 4.1.x-release van Adobe Experience Manager Guides
 
-In deze releaseopmerkingen worden de instructies voor het bijwerken, de nieuwe functies en de verbeteringen in versie 4.1.x van Adobe Experience Manager-hulplijnen besproken (later ook wel *Hulplijnen AEM*).
+Deze versienota&#39;s behandelt de verbeteringsinstructies, de nieuwe eigenschappen, en de verhogingen in versie 4.1.x van Adobe Experience Manager Guides (later die als *wordt bedoeld AEM Guides*).
 
 ## Upgrade naar de nieuwste versie
 
-U kunt eenvoudig uw huidige versie van AEM hulplijnen upgraden naar versie 4.1.3. Voordat u verdergaat met de upgrade naar versie 4.1.3 van AEM hulplijnen, moet u rekening houden met de volgende punten:
+U kunt uw huidige versie van AEM Guides eenvoudig upgraden naar versie 4.1.3. Voordat u verdergaat met de upgrade naar versie 4.1.3 van AEM Guides, moet u rekening houden met de volgende punten:
 * Als u versie 4.1 of 4.1.x gebruikt, kunt u rechtstreeks upgraden naar versie 4.1.3.
 * Als u versie 4.0.x gebruikt, moet u een upgrade naar versie 4.1 of 4.1.x uitvoeren voordat u een upgrade naar versie 4.1.3 uitvoert.
 * Als u versie 3.8.5 gebruikt, moet u een upgrade naar versie 4.0.x uitvoeren voordat u een upgrade naar versie 4.1 uitvoert.
 * Als u een versie hebt die ouder is dan 3.8.5, raadpleegt u de upgradesectie in de productspecifieke installatiegids.
 
-Zie voor meer informatie [Upgradeinstructies](assets/Adobe-Experience-Manager-Guides-Upgrade-Instructions-EN.pdf).
+Voor details, zie [ instructies van de Verbetering ](assets/Adobe-Experience-Manager-Guides-Upgrade-Instructions-EN.pdf).
 
 ## 4.1.3. | Opmerkingen bij de release
 
 ## Compatibiliteitsmatrix
 
-In deze sectie wordt een overzicht gegeven van de compatibiliteitsmatrix voor de softwaretoepassingen die worden ondersteund door AEM Guide 4.1.3.
+In deze sectie wordt een overzicht gegeven van de compatibiliteitsmatrix voor de softwaretoepassingen die worden ondersteund door de AEM Guides 4.1.3-release.
 
 ### ADOBE EXPERIENCE MANAGER
 
-**Niet-UUID**
+**niet-UUID**
 Versie 6.5 Service Pack 13, 12, 11 of 10
 
 **UUID**
 Versie 6.5 Service Pack 13, 12, 11 of 10
 
-Zie de sectie Technische vereisten in de handleiding voor het installeren en configureren van Adobe Experience Manager-hulplijnen voor meer informatie.
+Raadpleeg de sectie Technische vereisten in de handleiding voor het installeren en configureren van Adobe Experience Manager Guides voor meer informatie.
 
 
 ### FrameMaker en FrameMaker Publishing Server
@@ -72,17 +72,17 @@ De gecorrigeerde bug wordt hieronder weergegeven:
 
 ## Compatibiliteitsmatrix
 
-In deze sectie wordt een overzicht gegeven van de compatibiliteitsmatrix voor de softwaretoepassingen die worden ondersteund door AEM Guide 4.1.2.
+In deze sectie wordt een overzicht gegeven van de compatibiliteitsmatrix voor de softwaretoepassingen die worden ondersteund door de AEM Guides 4.1.2-release.
 
 ### ADOBE EXPERIENCE MANAGER
 
-**Niet-UUID**
+**niet-UUID**
 Versie 6.5 Service Pack 13, 12, 11 of 10
 
 **UUID**
 Versie 6.5 Service Pack 13, 12, 11 of 10
 
-Zie de sectie Technische vereisten in de handleiding voor het installeren en configureren van Adobe Experience Manager-hulplijnen voor meer informatie.
+Raadpleeg de sectie Technische vereisten in de handleiding voor het installeren en configureren van Adobe Experience Manager Guides voor meer informatie.
 
 
 ### FrameMaker en FrameMaker Publishing Server
@@ -110,7 +110,7 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 
 * Bij het selecteren van alle mapprofielen wordt een onzichtbaar mapprofiel (dat onjuist is) weergegeven. 10393
 * Bij het maken van de basislijn wordt niet de nieuwste versie gekozen, wanneer de tijdzone van de gebruiker afwijkt van de tijdzone van de server. (10336)
-* Met de sneltoets Ctrl+F wordt de zoekmodus van de browser in de middelenconsole niet geopend nadat AEM hulplijnen 4.1 zijn geïnstalleerd. (10339)
+* Met de sneltoets Control+F wordt de zoekmodus van de browser in de Assets-console niet geopend na de installatie van AEM Guides 4.1. (10339)
 * Fout bij maken basislijn voor onderwerp met verwijzing naar een map. 10383
 * Op het tabblad Uitvoervoorinstellingen wordt periodiek een leeg scherm weergegeven en in sommige gevallen worden niet-bewerkbare voorinstellingen weergegeven. 10390
 * Keyspace-beheer leidt tot uitzonderingen en fouten. (10449)
@@ -119,25 +119,25 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 
 * Basislijn die tijdens het omzetten is geëxporteerd, wordt niet geladen op het tabblad basislijn van de editor.
 
-  **Workaround**: Gebruik het basislijntabblad van het DITA-kaartdashboard.
+  **Oplossing**: Gebruik het basislijnlusje van DITA kaartdashboard.
 
 ## 4,1 | Opmerkingen bij de release
 
-In deze releaseopmerkingen worden de instructies voor het bijwerken, de nieuwe functies en de verbeteringen in versie 4.1.x van Adobe Experience Manager-hulplijnen besproken (later ook wel *Hulplijnen AEM*).
+Deze versienota&#39;s behandelt de verbeteringsinstructies, de nieuwe eigenschappen, en de verhogingen in versie 4.1.x van Adobe Experience Manager Guides (later die als *wordt bedoeld AEM Guides*).
 
 ## Compatibiliteitsmatrix
 
-In deze sectie wordt een overzicht gegeven van de compatibiliteitsmatrix voor de softwaretoepassingen die worden ondersteund door AEM Guide 4.1.
+In deze sectie wordt een overzicht gegeven van de compatibiliteitsmatrix voor de softwaretoepassingen die worden ondersteund door de AEM Guides 4.1-release.
 
 ### ADOBE EXPERIENCE MANAGER
 
-**Niet-UUID**
+**niet-UUID**
 Versie 6.5 Service Pack 13, 12, 10 of 11
 
 **UUID**
 Versie 6.5 Service Pack 13, 12, 10 of 11
 
-Zie de sectie Technische vereisten in de handleiding voor het installeren en configureren van Adobe Experience Manager-hulplijnen voor meer informatie.
+Raadpleeg de sectie Technische vereisten in de handleiding voor het installeren en configureren van Adobe Experience Manager Guides voor meer informatie.
 
 
 
@@ -163,27 +163,27 @@ Zie de sectie Technische vereisten in de handleiding voor het installeren en con
 
 ## Nieuwe en verbeterde functies
 
-AEM de Gidsen verstrekt vele verhogingen en nieuwe eigenschappen in versie 4.1:
+AEM Guides biedt veel verbeteringen en nieuwe functies in de 4.1-release:
 
 ### Native PDF-publicatie
 
-Ondersteuning voor het maken van een native PDF is ook toegevoegd aan de 4.1-versie van AEM hulplijnen. Er is een nieuwe uitgeverij-engine geïntroduceerd met de volgende functies:
+Ondersteuning voor het maken van een native PDF is ook toegevoegd aan de 4.1-release van AEM Guides. Er is een nieuwe uitgeverij-engine geïntroduceerd met de volgende functies:
 * Een CSS-sjabloon maken
 * Andere paginasjablonen maken
 * PDF-sjablonen ontwerpen die CSS en paginasjablonen bevatten
-* Kaart en onderwerpinhoud publiceren in PDF-indeling
+* Publish-kaart en onderwerpinhoud in de PDF-indeling
 
 ### Ondersteuning voor het pad van de kennisbasissite in op artikelen gebaseerde publicaties
 
-AEM de Gidsen verstrekt de op artikel-gebaseerde het publiceren eigenschap om een output van één of meerdere onderwerpen stapsgewijs te produceren of uw inhoud aan een platform van de kennisbank te publiceren. Met versie 4.1, hebt u een extra optie om de de plaatsweg te kiezen van de Kennisbank waaraan het onderwerp/de kaart moet worden gepubliceerd. Nadat u het pad hebt geselecteerd, wordt de uitvoer gegenereerd op het opgegeven pad.
+AEM Guides biedt de op artikelen gebaseerde publicatiefunctie om incrementeel een uitvoer van een of meer onderwerpen te genereren of uw inhoud te publiceren naar een Knowledgebase-platform. Met versie 4.1, hebt u een extra optie om de de plaatsweg te kiezen van de Kennisbank waaraan het onderwerp/de kaart moet worden gepubliceerd. Nadat u het pad hebt geselecteerd, wordt de uitvoer gegenereerd op het opgegeven pad.
 
 ### Verbeterde webeditor
 
-* **Verbeterde hoofdresolutie**
+* **Verbeterde zeer belangrijke resolutie**
 
 Een DITA inhoudsbelangrijkste verwijzing neemt een deel van inhoud van één onderwerp in een andere op. Er wordt een toets gebruikt om de inhoud te zoeken. De belangrijkste verwijzingen verbonden aan een onderwerp DITA moeten worden opgelost. De geselecteerde hoofdmap heeft de hoogste prioriteit om toetsverwijzingen op te lossen.
 
-![dialoogvenster Gebruikersvoorkeuren](assets/user-preferences.png)
+![ dialoog van gebruikersvoorkeur ](assets/user-preferences.png)
 
 Nu worden de belangrijkste verwijzingen opgelost op basis van de wortelkaart die in de volgende orde van prioriteit wordt geplaatst:
 
@@ -191,91 +191,93 @@ Nu worden de belangrijkste verwijzingen opgelost op basis van de wortelkaart die
 1. Deelvenster Kaartweergave
 1. Mapprofiel
 
-Zie voor meer informatie *Belangrijke verwijzingen oplossen* in de handleiding Adobe Experience Manager-hulplijnen gebruiken.
+Voor meer details, zie *zeer belangrijke verwijzingen* sectie oplossen in de Gebruikende gids van Adobe Experience Manager Guides.
 
-* **Een aangepast deelvenster toevoegen in het linkerdeelvenster**
+* **voeg een douanepaneel in het linkerpaneel toe**
 
-Nu kunt u een aangepast deelvenster toevoegen in het linkerdeelvenster van de webeditor. U kunt een aangepast deelvenster gebruiken voor verschillende doeleinden, zoals het bieden van hulp of het testen voor een project. Als er een aangepast deelvenster is geconfigureerd, wordt dit ook weergegeven in de lijst met deelvensters in het dialoogvenster **Editor-instellingen**. U kunt schakelen tussen het weergeven of verbergen van het aangepaste deelvenster.
+Nu kunt u een aangepast deelvenster toevoegen in het linkerdeelvenster van de webeditor. U kunt een aangepast deelvenster gebruiken voor verschillende doeleinden, zoals het bieden van hulp of het testen voor een project. Als een douanepaneel is gevormd, dan verschijnt het ook in de lijst van panelen binnen de **Montages van de Redacteur**. U kunt schakelen tussen het weergeven of verbergen van het aangepaste deelvenster.
 
-* **Mogelijkheid om de documentstatus van onderwerpen in een DITA-kaart te wijzigen**
+* **Mogelijkheid om de documentstaat van onderwerpen in een kaart te veranderen DITA**
 
-Nu kunt u de documentstaat van geselecteerde onderwerpen binnen een kaart gemakkelijk veranderen DITA. U kunt de eigenschappen van geselecteerde onderwerpen in een kaart ook openen en uitgeven DITA van het **Meer opties** onder aan het deelvenster Kaartweergave.
+Nu kunt u de documentstaat van geselecteerde onderwerpen binnen een kaart gemakkelijk veranderen DITA. U kunt de eigenschappen van geselecteerde onderwerpen in een kaart DITA van het **Meer menu van Opties** bij de bodem van het paneel van de Mening van de Kaart ook openen en uitgeven.
 
-![geselecteerde onderwerpeigenschappen](assets/map-view-properties.png)
+![ geselecteerde onderwerpeigenschappen ](assets/map-view-properties.png)
 
-* **Versiegegevens die worden weergegeven in de modus Voorbeeld**
+* **informatie van de Versie die op de wijze van de Voorproef wordt getoond**
 
 De Redacteur van het Web helpt u in het beheren van uw versies. Nu kunt u de versie van het actieve onderwerp of kaart DITA in de hoogste juiste hoek van het het dossierlusje van het onderwerp op de wijze van de Voorproef van een onderwerp ook zien.
 
-![voorvertoningsversie](assets/preview-version.png)
+![ voorproefversie ](assets/preview-version.png)
 
 
-* **Verbeterd gedrag voor vernieuwen van webeditor**
+* **Verbeterde Redacteur van het Web verfrist gedrag**
 
 De volgende verbeteringen zijn nu beschikbaar met browser verfrist verrichting in de Redacteur van het Web:
 
-* Nu krijgt u de steun om browser te verfrissen terwijl u uw inhoud in de Redacteur van het Web bewerkt. Als u op het pictogram Vernieuwen klikt terwijl een of meer bestanden met niet-opgeslagen wijzigingen worden geopend voor bewerking, wordt u gevraagd uw bestanden op te slaan of de actie Vernieuwen te annuleren.
+* Nu krijgt u de ondersteuning om de browser te vernieuwen terwijl u uw
+inhoud in de webeditor. Als u op het pictogram Vernieuwen van de browser klikt terwijl een of meer bestanden met
+niet-opgeslagen wijzigingen worden geopend voor bewerking. U wordt gevraagd uw bestanden op te slaan of de vernieuwingsactie te annuleren.
 
 * Zelfs bij het vernieuwen van de browser blijven de weergaven van het linkerdeelvenster en het rechterdeelvenster behouden.
 
 * Het actieve onderwerp of de kaart DITA wordt opnieuw geopend in het inhoudsuitgevende gebied.
 
-* **Kaarten maken op basis van aangepaste sjablonen**
+* **creeer kaarten die op aangepaste malplaatjes** worden gebaseerd
 
 Nu krijgt u de krachtige eigenschap om aangepaste kaartmalplaatjes tot stand te brengen. U kunt hen gebruiken om kaarten DITA samen met de onderwerpmalplaatjes en kaartmalplaatjes tot stand te brengen die in het kaartmalplaatje van verwijzingen worden voorzien.
 
-![dita-sjablonen](assets/dita-templates.png)
+![ dita malplaatjes ](assets/dita-templates.png)
 
 U kunt naar andere kaartmalplaatjes en onderwerpmalplaatjes van het aangepaste kaartmalplaatje ook verwijzen. De genoemde kaartmalplaatjes kunnen naar diverse kaartmalplaatjes, onderwerpmalplaatjes, onderwerpen, kaarten, beelden, video&#39;s, en andere activa verwijzen.
 
-![bewerkingssjablonen maken](assets/create-dita-template.png)
+![ creeer bewerkingsmalplaatjes ](assets/create-dita-template.png)
 
 Het aangepaste kaartsjabloon kan u zeer gemakkelijk helpen de kaartsjablonen en de volledige doorverwezen omslagstructuur te herhalen. Deze aangepaste sjablonen zijn vooral handig voor het maken en opnieuw maken van meerdere kaarten met recursieve structuren en verwijzingen.
 
-* **Schematron-ondersteuning**
+* **de steun van Schematron**
 &quot;Schematron&quot; verwijst naar een op regels gebaseerde validatietaal die wordt gebruikt om tests voor een XML-bestand te definiëren. Met behulp van een Schematron-bestand kunt u bepaalde regels definiëren en deze vervolgens valideren voor een DITA-onderwerp of een kaart. De redacteur van het Web steunt dossiers Schematron. U kunt de Schematron dossiers invoeren en hen ook uitgeven in de Redacteur van het Web. De steun van het Schematron in de Redacteur van het Web helpt u in het bevestigen van de dossiers tegen een reeks regels en het handhaven van consistentie en correctheid over de onderwerpen.
 
-![validate schematron](assets/schematron-validate.png)
+![ bevestigt schema ](assets/schematron-validate.png)
 
-* **Verbeterd dialoogvenster bij het sluiten van bestanden**
+* **Verbeterde dialoog op dossierdichte**
 
-AEM hulplijnen vraagt u om uw wijzigingen op te slaan en vergrendelde bestanden te ontgrendelen wanneer u een bestand probeert te sluiten dat is geopend in de webeditor. De vragen worden weergegeven op basis van de **Inchecken bij sluiten aanvragen** en **Nieuwe versie aanvragen bij sluiten** de instellingen die door de beheerder zijn geconfigureerd.
+AEM Guides vraagt u om uw wijzigingen op te slaan en vergrendelde bestanden te ontgrendelen wanneer u een bestand probeert te sluiten dat is geopend in de webeditor. De herinneringen worden getoond gebaseerd op **vraagt om controle-binnen op dicht** en **vraagt om nieuwe versie op dichte** montages die door uw beheerder worden gevormd.
 
 Op basis van de configuratie kunt u de wijzigingen opslaan en een nieuwe versie van het document maken. U kunt ook het bestand inchecken en de wijzigingen in de huidige versie opslaan.
 
-![Bestand sluiten](assets/file-close-save-changes-unlock.png)
+![ Dossier dicht ](assets/file-close-save-changes-unlock.png)
 
-Zie voor meer informatie *Bestanden sluiten en scenario&#39;s opslaan* in de handleiding Adobe Experience Manager-hulplijnen gebruiken.* De **Trefwoord invoegen** deze functie is verbeterd. U kunt nu gemakkelijker een trefwoord vinden dat moet worden ingevoegd omdat de trefwoorden in alfabetische volgorde worden weergegeven. U kunt ook naar trefwoorden zoeken door een zoektekenreeks in het vak Zoeken te typen.
+Voor meer details, zie *Dossier sluiten en sparen scenario&#39;s* sectie in de Gebruikende gids van Adobe Experience Manager Guides.* De **eigenschap van het Trefwoord van het Tussenvoegsel** is verbeterd. U kunt nu gemakkelijker een trefwoord vinden dat moet worden ingevoegd omdat de trefwoorden in alfabetische volgorde worden weergegeven. U kunt ook naar trefwoorden zoeken door een zoektekenreeks in het vak Zoeken te typen.
 
-![trefwoord invoegen](assets/insert-keyword.png)
+![ neem sleutelwoord ](assets/insert-keyword.png) op
 
-* **Ondersteuning voor opmaakdocumenten**
-Markering is een eenvoudige opmaaktaal waarmee u opmaakelementen kunt toevoegen aan gewone tekstdocumenten. De Redacteur van het Web staat u toe om de documenten van de Prijsverhoging (.md) samen met uw documenten te gebruiken DITA. U kunt een document van de Prijsverhoging in de Redacteur van het Web gemakkelijk ontwerpen en voorproef en het ook toevoegen in uw kaartdossier door DITA kaartredacteur.  Zie voor meer informatie *De documenten van de Prijsverhoging van de auteur van het Web* in de handleiding Adobe Experience Manager-hulplijnen gebruiken.
+* **Steun voor de documenten van de Prijsverhoging**
+Markering is een eenvoudige opmaaktaal waarmee u opmaakelementen kunt toevoegen aan gewone tekstdocumenten. De Redacteur van het Web staat u toe om de documenten van de Prijsverhoging (.md) samen met uw documenten te gebruiken DITA. U kunt een document van de Prijsverhoging in de Redacteur van het Web gemakkelijk ontwerpen en voorproef en het ook toevoegen in uw kaartdossier door DITA kaartredacteur.  Voor meer details, zie *documenten van de Prijsverlaging van de Auteur van het Web* sectie in het Gebruiken van de gids van Adobe Experience Manager Guides.
 
-![supportmarkering](assets/create-markdown-dita-topic.png)
+![ steun prijsdown ](assets/create-markdown-dita-topic.png)
 
-* **Mogelijkheid om een standaardweergave voor tags te configureren**
+* **Mogelijkheid om een standaardmarkeringsmening te vormen**
 Als een gebruiker de Mening van Markeringen van de Redacteur van het Web toelaat, blijft het toegelaten zelfs over de zittingen.  Dit betekent dat u de mening van Markeringen niet moet toelaten om tot het later toegang te hebben. Uw beheerder kan de standaardstaat voor de Mening van Markeringen in de Redacteur van het Web vormen. De standaardwaarde voor de Mening van Markeringen voor de zitting van een nieuwe gebruiker wordt bepaald door het bezit tagsView in het ui_config.json- dossier.
 
 * In de weergavebestanden voor opslagplaatsen worden nu batches geladen. Alle bestanden in de hoofdmap of `/content/dam folder` worden weergegeven. Maar vanaf het volgende niveau of de secundaire map worden 75 bestanden tegelijk geladen. Het laden van deze batch is efficiënt en u hebt sneller toegang tot de bestanden dan tot het laden van alle bestanden in een map.
 
-![meer bestanden laden](assets/load-more-files.png)
+![ lading meer dossiers ](assets/load-more-files.png)
 
 ### Nieuw basislijndashboard
 
-AEM de versie van Gidsen 4.1 verstrekt de eigenschap van de Basislijn die binnen de Redacteur van het Web wordt geïntegreerd. U kunt basislijnen van de Redacteur van het Web nu tot stand brengen en hen gebruiken om onderwerpen van verschillende versies te publiceren of te vertalen.
+AEM Guides 4.1 release biedt de functie Basislijn die in de webeditor is geïntegreerd. U kunt basislijnen van de Redacteur van het Web nu tot stand brengen en hen gebruiken om onderwerpen van verschillende versies te publiceren of te vertalen.
 
-**Opmerking**: Voor een geüpgraded systeem dient u de nieuwste **ui_config.json** voor Mapprofiel.
+**Nota**: Voor promotiesysteem, te werk gelieve recentste **ui_config.json** voor het Profiel van de Omslag bij.
 
 Gebruik deze functie om een basislijn met een specifieke versie van de onderwerpen tot stand te brengen beschikbaar op een specifieke datum en een tijd. Bovendien kunt u met de API-ondersteuning een basislijn maken of bijwerken met een label dat is gedefinieerd voor een versie van onderwerpen.
 
-![tabblad voor basislijnbeheer](assets/baseline-manage.png)
+![ basislijn beheert lusje ](assets/baseline-manage.png)
 
 U kunt de bestanden doorzoeken op bestandsnamen of op de bestandslocatie. U kunt ook de onderwerpen filteren die in het basislijnbewerkingsvenster moeten worden weergegeven en ze sorteren op basis van specifieke kolommen.
 
-![tabblad voor basislijnbeheer](assets/baseline-filter.png)
+![ basislijn beheert lusje ](assets/baseline-filter.png)
 
-De prestaties voor het basisproces voor het maken zijn verder verbeterd. Het proces om basislijnen tot stand te brengen is asynchroon, zodat kunt u andere dossiers in de Redacteur van het Web blijven uitgeven terwijl de basislijn wordt gecreeerd. Zie voor meer informatie *Basislijnen maken en beheren vanuit de webeditor* in de handleiding Adobe Experience Manager-hulplijnen gebruiken.
+De prestaties voor het basisproces voor het maken zijn verder verbeterd. Het proces om basislijnen tot stand te brengen is asynchroon, zodat kunt u andere dossiers in de Redacteur van het Web blijven uitgeven terwijl de basislijn wordt gecreeerd. Voor meer details, zie *basislijnen van de Redacteur van het Web* tot stand brengen en beheren in de Gebruikende gids van Adobe Experience Manager Guides.
 
 Opmerking: het tabblad Basislijn op het kaartdashboard is standaard verborgen. Uw beheerder kan het lusje van de Basislijn op het kaartdashboard toelaten.
 
@@ -283,44 +285,44 @@ Opmerking: het tabblad Basislijn op het kaartdashboard is standaard verborgen. U
 
 ### Verbeterd vertaalproces
 
-* **De capaciteit om een scoping vertaalproject te creëren**
-Als u slechts het werkingsgebied voor een te vertalen project moet creëren, kunt u selecteren **Een nieuw vertaal-project met bereik maken**. Hierdoor worden de kopieën niet voor vertaling verzonden en blijft de oorspronkelijke vertaalstatus van de bestanden behouden.
+* **Mogelijkheid om een scoping vertaalproject** tot stand te brengen
+Als u slechts het werkingsgebied voor een te vertalen project moet tot stand brengen, kunt u **selecteren creeert een nieuw scoping vertaalproject**. Hierdoor worden de kopieën niet voor vertaling verzonden en blijft de oorspronkelijke vertaalstatus van de bestanden behouden.
 
-![vertaal project](assets/scoping-translation-project.png)
+![ scoping vertaalproject ](assets/scoping-translation-project.png)
 
-* De **Talen** de taalomslagen samen met hun taalcodes toont. Bijvoorbeeld Frans (fr) en Duits (de).
+* De **Talen** lijst toont de taalomslagen samen met hun taalcodes. Bijvoorbeeld Frans (fr) en Duits (de).
 
-![vertaaltaal](assets/translation-languages.png)
+![ taal vertaalde vertaling ](assets/translation-languages.png)
 
-Voor meer informatie over vertaling raadpleegt u *Documenten vertalen vanuit de webeditor* in de handleiding Adobe Experience Manager-hulplijnen gebruiken.
+Voor meer details op vertaling, zie *documenten van de sectie van de Redacteur van het Web* in het Gebruiken van de gids van Adobe Experience Manager Guides vertalen.
 
 
 ### Verbeterde publicatie
 
-* U hebt ook toegang tot de **Dashboard publiceren** van het lusje van Output terwijl u output van het kaartdashboard produceert. Een lijst met alle actieve publicatietaken is beschikbaar op het dashboard Publiceren.
+* U kunt tot het **dashboard van Publish** van het lusje van Output ook toegang hebben terwijl u output van het kaartdashboard produceert. In het Publish-dashboard vindt u een lijst met alle actieve publicatietaken.
 
-![uitgangen in een wachtrij](assets/queued-output.png)
+![ een rij gevormde output ](assets/queued-output.png)
 
 * Via het kaartdashboard kunt u meerdere DITAVAL-bestanden selecteren om geconditioneerde inhoud te genereren. U kunt de bestandsvolgorde behouden door bestanden toe te voegen of te verwijderen. U kunt de muisaanwijzer ook boven de bestandsnaam plaatsen om het pad te zien in de AEM opslagplaats waar het bestand is opgeslagen.
 
 * De basislijnen zijn gerespecteerd voor de metagegevens van AEM site-uitvoer. U kunt de eigenschappen van een basislijnversie ook als metagegevens verwerken. Als geen basislijn wordt bepaald, dan worden de eigenschappen van de recentste versie verwerkt als meta-gegevens.
 
-* De **Bestandsnaam** en **Argumenten DITA-OT-opdrachtregel** Er zijn opties toegevoegd voor HTML5-, EPUB- en aangepaste uitvoervoorinstellingen. U kunt nu de bestandsnaam opgeven waarmee u de uitvoer wilt opslaan. U kunt ook de aanvullende argumenten opgeven die u met DITA-OT wilt verwerken tijdens het genereren van uitvoer.
+* De **Naam van het Dossier** en **DITA-OT de Argumenten van de Lijn van het Bevel** opties zijn toegevoegd voor HTML5, EPUB, en de output van de Douane vooraf instelt. U kunt nu de bestandsnaam opgeven waarmee u de uitvoer wilt opslaan. U kunt ook de aanvullende argumenten opgeven die u met DITA-OT wilt verwerken tijdens het genereren van uitvoer.
 
 ### Kaartdashboard
 
 Wanneer u selecteert om de kaart te downloaden DITA, wordt het verzoek een rij gevormd, en u ontvangt een bericht zodra de kaart klaar is om te downloaden. U kunt ervoor kiezen het kaartbestand direct te downloaden of later te downloaden via de koppeling in het AEM-meldingsvak.
 
-![Kaartdownload](assets/download-map-prompt.png)
+![ download van de Kaart ](assets/download-map-prompt.png)
 
 ### Andere functies
 
-* AEM Hulplijnen ondersteunen nu Oxygen XML Author versie 24.1.
+* AEM Guides ondersteunt nu Oxygen XML Author versie 24.1.
 * De basislijnparameter in de API&#39;s die u wilt downloaden, gebruikt nu de titel van de basislijn om de versie van de inhoud op te halen.
 
 ### Verouderde functie
 
-AEM hulplijnen ondersteunen het genereren van de DITA-uitvoerindeling voor FrameMaker documenten niet meer. Deze optie DITA is ook verwijderd uit de uitvoervoorinstellingen van het kaartdashboard.
+AEM Guides biedt geen ondersteuning meer voor het genereren van de DITA-uitvoerindeling voor FrameMaker-documenten. Deze optie DITA is ook verwijderd uit de uitvoervoorinstellingen van het kaartdashboard.
 
 ## Opgeloste problemen
 
@@ -335,7 +337,7 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 * Webverificatie werkt niet in oxygen. 9296
 * Herladen mislukt in zuurstof wanneer het bestand of de bestanden al in AEM op dezelfde locatie aanwezig zijn. 9328
 * Optie is niet beschikbaar als u inhoud tussen AEM en het lokale systeem wilt synchroniseren. 9439
-* Id wordt niet automatisch gegenereerd voor element dat is toegevoegd met **Herbruikbare inhoud invoegen** dialoogvenster van secundaire werkbalk. 5826
+* Identiteitskaart wordt niet automatisch geproduceerd voor element dat gebruikend **wordt toegevoegd herbruikbare inhoud** dialoog van secundaire hulpmiddelbar Tussenvoegsel. 5826
 * Er wordt geen bevestigingsvenster weergegeven wanneer u via de editor een afbeelding met dezelfde naam als een bestaand bestand uploadt. (6011)
 * Een vaste spatie die niet beschikbaar is in het tekenpalet. 7523
 * De elementenlijst (Alt+Enter) wordt grijs weergegeven in het thema Donkerder/Donkerst. 7913
@@ -348,17 +350,17 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 * Taalcode wordt niet weergegeven met de taal in het deelvenster Vertaling. (9108)
 * De tabbladen Vertaling en Basislijn zijn enige tijd zichtbaar op het dashboard van Kaart. (9146)
 * Wanneer de vertaling is voltooid, wordt een extra versie gemaakt voor het vertaalde element. 9310
-* De goedgekeurde vertaling integreert niet aan de doeltaal wanneer de doeltaalcode vijf karakters zoals bevat `fr_ca`. 9357
-* Vertaalde inhoud wordt verbroken wanneer de gemaakte doeltaalcode wordt vermeld als `fr-fr, `, `en-us`. 9527
+* Goedgekeurde vertaling kan niet worden geïntegreerd in de doeltaal wanneer de doeltaalcode vijf tekens bevat, zoals `fr_ca` . 9357
+* Vertaalde inhoud wordt verbroken wanneer de gemaakte doeltaalcode wordt aangeduid als `fr-fr, `, `en-us` . 9527
 * Bij het laden van een kaart DITA die buiten de taalomslag is, wordt een uitzondering geregistreerd bij het achtereind.9543
 * Kan geen DITA-bestand maken met de aangepaste DITA-sjabloon uit de editor. 7262
 * De DITA-kaart gaat verloren bij het publiceren van een UUID DITA-kaart via FMPS. 7278
-* AEM hulplijnen kopiëren de niet-unieke eigenschappen van een element niet wanneer een element wordt gekopieerd en geplakt. 8241
+* AEM Guides kopieert de niet-unieke eigenschappen van een element niet wanneer een element wordt gekopieerd en geplakt. 8241
 * De bestandsnaam van de DITA-kaart wordt bij het maken niet omgezet in kleine letters. 8383
 * De beschrijving van de controletaak wordt niet weergegeven in het e-mailbericht dat wordt verzonden wanneer een nieuwe controletaak wordt toegewezen. 8507
 * Map-API downloaden | Tijdelijke mappen die niet worden opgeschoond in geval van fouten in het downloadproces. 8523
 * `columnpreview.jsp` is afhankelijk van SP.  8543
-* Uitvoertaken met de status &quot;Wachten&quot; of &quot;Uitvoeren&quot; worden niet opgeschoond in het publicatiedashboard.  8569
+* Uitvoertaken met de status &quot;Wachten&quot; of &quot;Uitvoeren&quot; worden niet opgeschoond in het Publish-dashboard.  8569
 * Standaardpictogram gekozen bij het produceren van een rapport gebruikend de Generate knoop, zelfs wanneer het pictogrambezit wordt bepaald. 8573
 * Problemen treden op tijdens het revisieproces tijdens het upgraden van 3.8.X naar 4.0. (8788)
 * Als een gebruikersnaam lang is in het deelvenster Revisie van de webeditor, worden de pictogrammen die u wilt accepteren/afwijzen niet duidelijk weergegeven. 8793
@@ -373,25 +375,25 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 * Onjuiste UUID-referenties toegewezen bij het uploaden van meerdere bestanden van de FrameMaker/Zuurstofconnector. 8269
 * E-mailmelding wordt niet verzonden wanneer een revisietaak opnieuw wordt toegewezen in het Postvak IN. 8376
 * De tweede beheerdergebruiker kan niet als eerste beheerdergebruiker aan een omslag worden toegevoegd. 8430
-* **Labels toepassen** op het tabblad Basislijn worden geen labels weergegeven in een vervolgkeuzelijst. 8455
+* **pas de dialoog van Etiketten** op het lusje van de Basislijn toe toont geen etiketten in dropdown. 8455
 * Bij het gebruiken van basislijnpubliceren met beeld als conref in het onderwerp, wordt het beeld niet gepubliceerd in de output. 8564
 * De functie Uitvoer leegmaken mislukt als er een groot aantal knooppunten in de uitvoergeschiedenis aanwezig zijn. 8568
 * In het deelvenster Versiehistorie wordt in de huidige sectie een onjuiste tijdstempel weergegeven en deze wordt door informatie gewijzigd. 8765
 * Basislijn niet bijgewerkt op basis van het gedefinieerde label. 8799
-* Er treedt een fout op wanneer bestanden waarvan de bovenliggende map speciale tekens in de bestandsnaam bevat, worden geopend in Zuurstof (met de opdracht **Bewerken in zuurstof** ). 8918
+* De fout komt voor wanneer de dossiers de waarvan ouderomslag speciale karakters in filename heeft, in Zuurstof (gebruikend **uitgeeft in Zuurstof** knoop) worden geopend. 8918
 * Uploaden van bestanden van Oxygen naar AEM mislukt. (9157)
 * Kaart downloaden met basislijn werkt niet als de inhoud naar een andere map wordt verplaatst. (9331)
 * Zuurstof controleert een onjuiste versie van een onderwerp nadat een versie in AEM terugkeert. (9411)
 * Als u in het deelvenster Opslagplaats zoekt en in het dialoogvenster Bladeren op onderwerp bladert, wordt het scherm geblokkeerd wanneer de inhoud groot is. 9432
-* Als de instelling **Nieuwe versie maken voor geüpload bestand** is, wordt een nieuwe versie gecreeerd bij het terugkeren en het bewaren op om het even welk bevroren knoop. 9473
-* Onjuiste tijdstempelverschillen worden weergegeven in de interface Middelen bij het terugkeren van een bestandsversie. 9480
+* Als het plaatsen **Nieuwe Versie voor Geüploade Dossier** creeert is, wordt een nieuwe versie gecreeerd bij het terugkeren en het bewaren op om het even welke bevroren knoop. 9473
+* Onjuiste tijdstempelverschillen worden weergegeven in de gebruikersinterface van Assets bij het terugkeren van een bestandsversie. 9480
 * Bestanden worden automatisch uitgecheckt wanneer u terugkeert naar een willekeurige versie. 9482
 * Het vergrendelingspictogram wordt weergegeven in de dataweergave, zelfs als het bestand is ingecheckt in de editor.  5756
 * Onbekwaam om voorgrond, achterstandselementen in een boekenkaart toe te voegen gebruikend de mening van de Auteur van de Redacteur van het Web. 7652
-* De voorvertoningsmodus wordt niet ondersteund `deliveryTarget` voorwaardelijk verwerkingskenmerk in DITA. 7685
+* De modus Voorbeeld ondersteunt het kenmerk voor voorwaardelijke verwerking van `deliveryTarget` niet in DITA. 7685
 * Wanneer u een woordenlijst opent in de XML-editor, AEM u een bestand op om het op te slaan, zelfs als het niet is gewijzigd. 8105
 * Het dialoogvenster Referenties invoegen wordt geopend wanneer u subjectref aan een kaart toevoegt met behulp van de gebruikersinterface. 8212
-* Deelvenster Inhoud opnieuw gebruiken crasht bij het zoeken naar speciale tekens `[` of `*` .8279
+* Het deelvenster Inhoud opnieuw gebruiken crasht bij het zoeken naar speciale tekens `[` of `*` .8279
 * Bij het ontwerpen van Glossentry, toont de Redacteur van het Web de inhoud als Nota. 8384
 * De Redacteur van XML verwijdert nieuwe lijn in codeblock. 8522
 * Het schakelen tussen bron en auteurswijze merkt het onderwerp als vuil en vereist dat de inhoud opnieuw wordt bewaard.8524

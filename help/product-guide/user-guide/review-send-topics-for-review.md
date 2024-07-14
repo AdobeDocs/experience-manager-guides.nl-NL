@@ -1,6 +1,6 @@
 ---
 title: Onderwerpen ter controle verzenden
-description: Leer hoe u een revisietaak maakt en onderwerpen ter controle verzendt in AEM hulplijnen. Verzend één of meerdere onderwerpen in een kaart DITA voor overzicht.
+description: Leer hoe u een overzichtstaak maakt en onderwerpen ter controle verzendt in AEM Guides. Verzend één of meerdere onderwerpen in een kaart DITA voor overzicht.
 exl-id: c486eb6a-7e1f-4faa-973d-b47252d3e7c5
 feature: Reviewing
 role: User
@@ -13,18 +13,18 @@ ht-degree: 0%
 
 # Onderwerpen ter controle verzenden {#id199RD0S035Z}
 
-De revisiewerkstroom maakt een omgeving met meerdere revisoren waarin de aanvrager een lijst met onderwerpen opgeeft voor revisie, meerdere revisoren toevoegt en een tijdlijn toewijst aan de revisietaak. Met AEM hulplijnen kunnen gebruikers die behoren tot de groepen Auteurs en Uitgevers een revisie starten.
+De revisiewerkstroom maakt een omgeving met meerdere revisoren waarin de aanvrager een lijst met onderwerpen opgeeft voor revisie, meerdere revisoren toevoegt en een tijdlijn toewijst aan de revisietaak. Met AEM Guides kunnen gebruikers die tot de groepen Auteurs en Publishers behoren, een revisie starten.
 
-Aangezien het revisiewerkschema project-specifiek is, moet de initiatiefnemer van overzicht een deel van het projectteam zijn of rechten hebben om een project tot stand te brengen. Op het tijdstip van het creëren van een project, bepaalt u de teamleden voor het project en wijst hen diverse rollen of groepen toe. Voor meer informatie over projecten, zie [Een DITA-project maken](authoring-create-dita-project.md#).
+Aangezien het revisiewerkschema project-specifiek is, moet de initiatiefnemer van overzicht een deel van het projectteam zijn of rechten hebben om een project tot stand te brengen. Op het tijdstip van het creëren van een project, bepaalt u de teamleden voor het project en wijst hen diverse rollen of groepen toe. Voor meer informatie over projecten, zie [ tot een project DITA ](authoring-create-dita-project.md#) leiden.
 
 U kunt een revisietaak maken op basis van:
 
-- **Webeditor**: Staat u toe om een individueel onderwerp of kaart DITA voor overzicht te verzenden. Merk op dat het werkschema voor het creëren van een overzichtstaak over de Redacteur van het Web en Activa UI gemeenschappelijk is. Alleen de methode voor het starten van de revisiewerkstroom verschilt. Voor informatie over het lanceren van het overzichtswerkschema van de Redacteur van het Web, zie [Revisietaak maken](web-editor-features.md#id215OCJ00JXA) in de Redacteur van het Web.
+- **Redacteur van het Web**: Staat u toe om een individueel onderwerp of kaart DITA voor overzicht te verzenden. Merk op dat het werkschema voor het creëren van een overzichtstaak over de Redacteur van het Web en UI van Assets gemeenschappelijk is. Alleen de methode voor het starten van de revisiewerkstroom verschilt. Voor informatie over het lanceren van het overzichtswerkschema van de Redacteur van het Web, zie [ de Taak van het Overzicht ](web-editor-features.md#id215OCJ00JXA) eigenschap in de Redacteur van het Web creëren.
 
-- **UI Middelen**: Staat u toe om één of veelvoudige onderwerpen en kaart DITA voor overzicht te verzenden. Het delen van documenten voor overzicht van de werkstroom van Activa UI wordt behandeld onder dit onderwerp.
+- **Assets UI**: Staat u toe om één of veelvoudige onderwerpen en kaart DITA voor overzicht te verzenden. Het delen van documenten voor overzicht van de gebruikersinterface van Assets wordt behandeld onder dit onderwerp.
 
 
-Via de interface Middelen kunt u op twee manieren een revisietaak maken:
+In de gebruikersinterface van Assets kunt u op twee manieren een revisietaak maken:
 
 - Een of meer onderwerpen ter controle verzenden
 - Meerdere onderwerpen vanuit een DITA-kaart verzenden voor revisie
@@ -41,13 +41,13 @@ Voer de volgende stappen uit om een overzichtstaak te maken en onderwerpen ter c
 >
 > U kunt een overzichtstaak slechts tot stand brengen als u een auteur of uitgever in een DITA- project bent.
 
-1. Navigeer naar de vereiste map in de interface Middelen.
+1. Navigeer naar de vereiste map in de gebruikersinterface van Assets.
 
 1. Klik op het pictogram Selecteren in de snelle actie en selecteer de onderwerpen die u wilt verzenden voor revisie.
 
    ![](images/select-asset-62.png){width="300" align="left"}
 
-1. Klik op de werkbalk op **Revisietaak maken**. De pagina voor het maken van revisietaken wordt weergegeven.
+1. In de toolbar, klik **creëren de Taak van het Overzicht**. De pagina voor het maken van revisietaken wordt weergegeven.
 
    >[!NOTE]
    >
@@ -55,39 +55,39 @@ Voer de volgende stappen uit om een overzichtstaak te maken en onderwerpen ter c
 
    ![](images/create-review-task-023.png){width="650" align="left"}
 
-1. Voer een **Titel** voor de taak en selecteer een DITA **Project** in de vervolgkeuzelijst.
+1. Ga a **Titel** voor de taak in en selecteer een DITA **Project** van de drop-down lijst.
 
-1. In de **Toewijzen aan** vervolgkeuzelijst, selecteert u de controleurs naar wie u de onderwerpen ter controle wilt verzenden.
+1. Op **wijs** drop-down gebied toe, selecteer de recensenten aan wie u de onderwerpen voor overzicht wilt verzenden.
 
    U kunt een overzichtstaak aan individuele gebruikers van het project of aan gebruikersgroepen toewijzen. Merk op dat u een overzichtstaak aan individuele gebruikers kunt toewijzen slechts wanneer u een deel van de de beheerdergroep van het project bent, anders zult u slechts de gebruikersgroepen in Toewijzen aan gebied zien.
 
    >[!NOTE]
    >
-   > De revisiewerkstroom is projectspecifiek. Wanneer u projecten creeert, voegt u de teamleden aan het project toe en wijst hen aan groepen toe. Dus als je het project hier selecteert, kies je de leden die deel uitmaken van dat project. Voor meer informatie over projecten, zie [Een DITA-project maken](authoring-create-dita-project.md#).
+   > De revisiewerkstroom is projectspecifiek. Wanneer u projecten creeert, voegt u de teamleden aan het project toe en wijst hen aan groepen toe. Dus als je het project hier selecteert, kies je de leden die deel uitmaken van dat project. Voor meer informatie over projecten, zie [ tot een project DITA ](authoring-create-dita-project.md#) leiden.
 
-1. Voer een **Beschrijving** voor de taak.
+1. Ga a **Beschrijving** voor de taak in.
 
    Deze beschrijving wordt gebruikt als de hoofdtekst van de e-mailmelding die aan de controleurs wordt verzonden.
 
-1. Selecteer de **Vervaldatum** en tijd om de termijn voor de herziening te markeren.
+1. Selecteer de **Verschuldigde Datum** en de tijd om de deadline voor de overzicht te merken.
 
    >[!NOTE]
    >
-   > Na het bereiken van de deadline wordt een e-mail verzonden naar de aanvrager met de kennisgeving dat de revisietaak is voltooid. De aanvrager kan de deadline van de revisietaak verlengen vanaf de [Revisiedashboard](review-manage-tasks-review-dashboard.md#).
+   > Na het bereiken van de deadline wordt een e-mail verzonden naar de aanvrager met de kennisgeving dat de revisietaak is voltooid. De initiatiefnemer kan de deadline van de overzichtstaak van het [ Dashboard van het Overzicht ](review-manage-tasks-review-dashboard.md#) uitbreiden.
 
-1. Selecteer de hoofdmap in het menu **Pad naar bitmap**. Deze routekaart wordt gebruikt om alle belangrijkste verwijzingen en verklarende woordenlijsttermijnen op te lossen die in de overzichtsinhoud worden gebruikt. Als u niet rootmap selecteert dan worden de belangrijkste verwijzingen of verklarende woordenlijsttermijnen verbonden aan het onderwerp DITA, niet opgelost alvorens het onderwerp voor overzicht te verzenden.
+1. Selecteer de wortelkaart van de **weg Rootmap**. Deze routekaart wordt gebruikt om alle belangrijkste verwijzingen en verklarende woordenlijsttermijnen op te lossen die in de overzichtsinhoud worden gebruikt. Als u niet rootmap selecteert dan worden de belangrijkste verwijzingen of verklarende woordenlijsttermijnen verbonden aan het onderwerp DITA, niet opgelost alvorens het onderwerp voor overzicht te verzenden.
 
-   Als u de revisie voor een kaart DITA creeert, dan door gebrek **Pad naar bitmap** is ingesteld op het pad van die kaart. Als u de revisie voor een of meerdere onderwerpen maakt, wordt standaard de opdracht **Pad naar bitmap** wordt ingesteld op de kaart die is gedefinieerd in de gebruikersvoorkeuren.
+   Als u de overzicht voor een kaart DITA creeert, dan door gebrek **weg Rootmap** wordt geplaatst aan de weg van die kaart. Als u de overzicht voor één of veelvoudige onderwerpen creeert, dan door gebrek wordt de **weg Rootmap** geplaatst aan de kaart die in de Voorkeur van de Gebruiker wordt bepaald.
 
    >[!NOTE]
    >
-   > De geselecteerde hoofdmap heeft de hoogste prioriteit om toetsverwijzingen op te lossen. Zie voor meer informatie [Belangrijke verwijzingen oplossen](map-editor-other-features.md#id176GD01H05Z).
+   > De geselecteerde hoofdmap heeft de hoogste prioriteit om toetsverwijzingen op te lossen. Voor meer details, zie [ zeer belangrijke verwijzingen ](map-editor-other-features.md#id176GD01H05Z) oplossen.
 
-1. Aangezien u verschillende revisoren kunt toewijzen aan verschillende onderwerpen, **Toestaan dat toewijzen onderwerpen controleren** Met deze optie bepaalt u of revisoren alle onderwerpen in een controletaak kunnen reviseren of alleen de onderwerpen die aan de revisie zijn toegewezen.
+1. Aangezien u verschillende recensenten aan verschillende onderwerpen kunt toewijzen, **Toestaan Assignees om het even welk Onderwerp** optiecontroles te herzien of de recensenten alle onderwerpen in een overzichtstaak of slechts die onderwerpen kunnen herzien die zij aan overzicht worden toegewezen.
 
-   Als u wilt dat alle revisoren een onderwerp in de overzichtstaak kunnen bekijken, selecteert u **Toestaan dat toewijzen onderwerpen controleren**.
+   Als u alle recensenten wilt toestaan om het even welk onderwerp in de overzichtstaak te herzien, selecteer **Toestaan Toewijzingen om het even welk Onderwerp** te herzien.
 
-   Als u deze optie niet selecteert, worden revisoren toegevoegd aan het dialoogvenster **Toewijzen aan** het gebied zal toegang hebben om slechts die onderwerpen te herzien die aan hen worden toegewezen.
+   Als u deze optie niet selecteert dan zullen de recensenten die op **worden toegevoegd toewijzen aan** gebied toegang hebben om slechts die onderwerpen te herzien die aan hen worden toegewezen.
 
 1. Klik op **Next**.
 
@@ -99,16 +99,16 @@ Voer de volgende stappen uit om een overzichtstaak te maken en onderwerpen ter c
 
    U kunt een van de volgende methoden gebruiken om een versie te selecteren:
 
-   - *\(Standaard\)* Kies de optie **De nieuwste versie** om de laatst opgeslagen revisie van de onderwerpen te selecteren.
-   - Kies de optie **Versie ingeschakeld** en geeft u de datum en tijd op waarop u een versie wilt selecteren op de opgegeven datum en tijd. Als er geen versie van onderwerp beschikbaar op de gespecificeerde datum is, dan een versie beschikbaar onmiddellijk na de gespecificeerde datum en de tijd wordt geselecteerd.
-   - Kies de optie **Een label selecteren** en selecteert u een label in de vervolgkeuzelijst.
-1. Nadat u de gewenste versie hebt geselecteerd, klikt u op **Toepassen**.
+   - *\ (Gebrek \)* verkies de optie **Hun Laatste Versie** om de laatste bewaarde revisie van de onderwerpen te selecteren.
+   - Kies de **Versie op** optie en specificeer de datum en de tijd om een versie zoals op de gespecificeerde datum en de tijd te selecteren. Als er geen versie van onderwerp beschikbaar op de gespecificeerde datum is, dan een versie beschikbaar onmiddellijk na de gespecificeerde datum en de tijd wordt geselecteerd.
+   - Kies **Uitgezocht een optie van het Etiket** en selecteer een etiket van de drop-down lijst.
+1. Na het maken van uw selectie voor het kiezen van een versie, klik **toepassen**.
 
    De versie die op de geselecteerde optie wordt gebaseerd wordt gekozen voor de onderwerpen.
 
    >[!NOTE]
    >
-   > U kunt ook handmatig de gewenste versie selecteren in het menu **Versie** vervolgkeuzelijst van elk onderwerp.
+   > U kunt de gewenste versie van de **drop-down lijst van de Versie** van elk onderwerp ook manueel selecteren.
 
 1. Klik op **Next**.
 
@@ -118,26 +118,26 @@ Voer de volgende stappen uit om een overzichtstaak te maken en onderwerpen ter c
 
 1. Op de pagina Revisors kunt u revisoren toevoegen of verwijderen. De volgende bewerkingen zijn beschikbaar op de pagina Revisors:
 
-   - **Alles selecteren**: Hiermee selecteert u alle onderwerpen in de onderwerpenlijst. U kunt een partijverrichting gemakkelijk uitvoeren na het selecteren van alle onderwerpen.
-   - **Selectie wissen**: Hiermee wordt de selectie van de geselecteerde onderwerpen in de lijst met onderwerpen opgeheven.
+   - **Uitgezocht allen**: Selecteert alle onderwerpen in de onderwerpenlijst. U kunt een partijverrichting gemakkelijk uitvoeren na het selecteren van alle onderwerpen.
+   - **Duidelijke Selectie**: Deselecteert de onderwerpen die in de onderwerpenlijst worden geselecteerd.
 
      >[!NOTE]
      >
      > U kunt een onderwerp ook individueel selecteren of schrappen door op checkbox naast het onderwerp te klikken.
 
-   - **Toevoegen**: Hiermee geeft u het dialoogvenster Revisoren toevoegen weer. U kunt de naam typen van een revisor of gebruikersrol \(of groep\) die u als controleur wilt toevoegen aan de geselecteerde onderwerpen.
-   - **Verwijderen**: Hiermee geeft u het dialoogvenster Revisoren verwijderen weer. U kunt de naam typen van een revisor of gebruikersrol \(of groep\) die u als controleur wilt verwijderen uit de geselecteerde onderwerpen.
+   - **voeg toe**: Toont de Add dialoog van Recensenten. U kunt de naam typen van een revisor of gebruikersrol \(of groep\) die u als controleur wilt toevoegen aan de geselecteerde onderwerpen.
+   - **verwijder**: Toont de Remove dialoog van Recensenten. U kunt de naam typen van een revisor of gebruikersrol \(of groep\) die u als controleur wilt verwijderen uit de geselecteerde onderwerpen.
 
      >[!NOTE]
      >
      > U kunt een revisie ook verwijderen uit een onderwerp door op het kruisje te klikken in het vak van de revisor.
 
-   - **Opnieuw toewijzen**: Hiermee geeft u het dialoogvenster Revisoren opnieuw toewijzen weer. U kunt de naam typen van een revisor of gebruikersrol \(of groep\) waaraan u de revisietaak wilt toewijzen. Hiermee verwijdert u alle bestaande revisoren uit de geselecteerde onderwerpen en wijst u de nieuw geselecteerde revisoren toe aan deze onderwerpen.
-   - **Exporteren**: Hiermee kunt u de gegevens van de revisietaak exporteren in een CSV-bestand. Het bestand bevat details zoals het pad en de titel van het onderwerp, de naam van de controleur en de versie van de onderwerpen die ter controle zijn verzonden.
-   - **Revisoren bewerken**: Klik op de knop ![](images/edit_pencil_icon.svg)in de onderwerpenlijst wordt het dialoogvenster Revisoren bewerken weergegeven. U kunt revisoren voor het geselecteerde onderwerp toevoegen aan of verwijderen uit dit dialoogvenster.
-1. Klikken **Maken** om de revisietaak te maken.
+   - **opnieuw toewijzen**: Toont het Opnieuw toewijzen van de dialoog van Revisoren. U kunt de naam typen van een revisor of gebruikersrol \(of groep\) waaraan u de revisietaak wilt toewijzen. Hiermee verwijdert u alle bestaande revisoren uit de geselecteerde onderwerpen en wijst u de nieuw geselecteerde revisoren toe aan deze onderwerpen.
+   - **Uitvoer**: Staat u toe om de details van de overzichtstaak in een Csv- dossier uit te voeren. Het bestand bevat details zoals het pad en de titel van het onderwerp, de naam van de controleur en de versie van de onderwerpen die ter controle zijn verzonden.
+   - **geeft Recensenten** uit: Het klikken van het ![](images/edit_pencil_icon.svg) pictogram in de onderwerpenlijst toont de Edit dialoog van Reviewers. U kunt revisoren voor het geselecteerde onderwerp toevoegen aan of verwijderen uit dit dialoogvenster.
+1. Klik **creëren** om de overzichtstaak tot stand te brengen.
 
-   Er wordt een bevestigingsbericht weergegeven wanneer de revisietaak met succes is gemaakt. De [Documentstatus](web-editor-document-states.md#) voor de onderwerpen die ter controle worden verzonden, wordt ingesteld op In-Review.
+   Er wordt een bevestigingsbericht weergegeven wanneer de revisietaak met succes is gemaakt. De [ staat van het Document ](web-editor-document-states.md#) voor de onderwerpen die voor overzicht worden verzonden wordt geplaatst aan In-Overzicht.
 
    >[!NOTE]
    >
@@ -152,7 +152,7 @@ Als er meerdere onderwerpen zijn toegewezen, kunnen de revisoren deze weergeven 
 
 Een kaart DITA is een logische organisatie van onderwerpen binnen een boek. Wanneer u een individueel onderwerp voor overzicht verzendt, krijgt de recensent geen informatie over de plaats van dat onderwerp in het boek. Als een controleur informatie over de nauwkeurige plaats van het onderwerp heeft dat wordt herzien, krijgt de recensent een betere context van het onderwerp dat wordt herzien.
 
-AEM de Gidsen staat u toe om één of meerdere onderwerpen in een kaart DITA voor overzicht tezelfdertijd te verzenden. De controleur krijgt om het volledige kaartdossier samen met onderwerpen te zien die voor overzicht zijn gedeeld. Dit maakt het voor de recensent gemakkelijker om een context van het onderwerp in het kaart of boekdossier te krijgen.
+AEM Guides staat u toe om één of meerdere onderwerpen in een kaart DITA voor overzicht tezelfdertijd te verzenden. De controleur krijgt om het volledige kaartdossier samen met onderwerpen te zien die voor overzicht zijn gedeeld. Dit maakt het voor de recensent gemakkelijker om een context van het onderwerp in het kaart of boekdossier te krijgen.
 
 U kunt dezelfde DITA-kaart delen voor revisie in meerdere revisietaken. Bijvoorbeeld, als in een kaart DITA onderwerp A, B, C, D en E zijn. In één overzichtstaak kunt u A, B, en C voor overzicht en in een andere overzichtstaak delen u onderwerpen C, D en E voor overzicht verzenden. Het revisieproces staat voor het delen van het zelfde onderwerp en kaartdossier in veelvoudige overzichtstaken toe. Voor het gemeenschappelijke onderwerp in veelvoudige overzichtstaken, beschrijven de commentaren die in één overzichtstaak worden gegeven of voegen met de commentaren in de andere overzichtstaken niet samen.
 
@@ -166,7 +166,7 @@ Als u een of meerdere onderwerpen samen met het kaartbestand ter controle wilt v
 >
 > Zodra u een overzicht door een kaartdossier in werking stelt, moet u niet de structuur van het kaartdossier veranderen door nieuwe onderwerpen toe te voegen of bestaande onderwerpen te verwijderen.
 
-1. Navigeer naar de vereiste map in de interface Middelen.
+1. Navigeer naar de vereiste map in de gebruikersinterface van Assets.
 
    >[!NOTE]
    >
@@ -174,37 +174,37 @@ Als u een of meerdere onderwerpen samen met het kaartbestand ter controle wilt v
 
 1. Selecteer de kaart van waar u de onderwerpen voor overzicht wilt verzenden.
 
-1. Klik op de werkbalk op **Revisietaak maken**. De pagina voor het maken van revisietaken wordt weergegeven.
+1. In de toolbar, klik **creëren de Taak van het Overzicht**. De pagina voor het maken van revisietaken wordt weergegeven.
 
-1. Voer een **Titel** voor de taak en selecteer een DITA **Project** in de vervolgkeuzelijst.
+1. Ga a **Titel** voor de taak in en selecteer een DITA **Project** van de drop-down lijst.
 
    >[!NOTE]
    >
    > U kunt een overzichtstaak voor slechts die onderwerpen tot stand brengen die een revisie hebben. Als uw kaart onderwerpen bevat die geen revisie hebben, dan wordt u getoond een herinnering met een lijst van dergelijke dossiers. Bestanden zonder revisie worden uitgesloten van de revisietaak.
 
-1. In de **Toewijzen aan** vervolgkeuzelijst, selecteert u de controleurs naar wie u de onderwerpen ter controle wilt verzenden.
+1. Op **wijs** drop-down gebied toe, selecteer de recensenten aan wie u de onderwerpen voor overzicht wilt verzenden.
 
    U kunt een overzichtstaak aan individuele gebruikers van het project of aan gebruikersgroepen toewijzen. Merk op dat u een overzichtstaak aan individuele gebruikers kunt toewijzen slechts wanneer u een deel van de de beheerdergroep van het project bent, anders zult u slechts de gebruikersgroepen in Toewijzen aan gebied zien.
 
    >[!NOTE]
    >
-   > De revisiewerkstroom is projectspecifiek. Wanneer u projecten creeert, voegt u de teamleden aan het project toe en wijst hen aan groepen toe. Dus als je het project hier selecteert, kies je de leden die deel uitmaken van dat project. Voor meer informatie over projecten, zie [Een DITA-project maken](authoring-create-dita-project.md#).
+   > De revisiewerkstroom is projectspecifiek. Wanneer u projecten creeert, voegt u de teamleden aan het project toe en wijst hen aan groepen toe. Dus als je het project hier selecteert, kies je de leden die deel uitmaken van dat project. Voor meer informatie over projecten, zie [ tot een project DITA ](authoring-create-dita-project.md#) leiden.
 
-1. Voer een **Beschrijving** voor de taak.
+1. Ga a **Beschrijving** voor de taak in.
 
    Deze beschrijving wordt gebruikt als de hoofdtekst van de e-mailmelding die aan de controleurs wordt verzonden.
 
-1. Selecteer de **Vervaldatum** en tijd om de termijn voor de herziening te markeren.
+1. Selecteer de **Verschuldigde Datum** en de tijd om de deadline voor de overzicht te merken.
 
    >[!NOTE]
    >
-   > Na het bereiken van de deadline wordt een e-mail verzonden naar de aanvrager met de kennisgeving dat de revisietaak is voltooid. De aanvrager kan de deadline van de revisietaak verlengen vanaf de [Revisiedashboard](review-manage-tasks-review-dashboard.md#).
+   > Na het bereiken van de deadline wordt een e-mail verzonden naar de aanvrager met de kennisgeving dat de revisietaak is voltooid. De initiatiefnemer kan de deadline van de overzichtstaak van het [ Dashboard van het Overzicht ](review-manage-tasks-review-dashboard.md#) uitbreiden.
 
-1. Aangezien u verschillende revisoren kunt toewijzen aan verschillende onderwerpen, **Toestaan dat toewijzen onderwerpen controleren** Met deze optie bepaalt u of revisoren alle onderwerpen in een controletaak kunnen reviseren of alleen de onderwerpen die aan de revisie zijn toegewezen.
+1. Aangezien u verschillende recensenten aan verschillende onderwerpen kunt toewijzen, **Toestaan Assignees om het even welk Onderwerp** optiecontroles te herzien of de recensenten alle onderwerpen in een overzichtstaak of slechts die onderwerpen kunnen herzien die zij aan overzicht worden toegewezen.
 
-   Als u wilt dat alle revisoren een onderwerp in de overzichtstaak kunnen bekijken, selecteert u **Toestaan dat toewijzen onderwerpen controleren**.
+   Als u alle recensenten wilt toestaan om het even welk onderwerp in de overzichtstaak te herzien, selecteer **Toestaan Toewijzingen om het even welk Onderwerp** te herzien.
 
-   Als u deze optie niet selecteert, worden revisoren toegevoegd aan het dialoogvenster **Toewijzen aan** het gebied zal toegang hebben om slechts die onderwerpen te herzien die aan hen worden toegewezen.
+   Als u deze optie niet selecteert dan zullen de recensenten die op **worden toegevoegd toewijzen aan** gebied toegang hebben om slechts die onderwerpen te herzien die aan hen worden toegewezen.
 
 1. Klik op **Next**.
 
@@ -216,17 +216,17 @@ Als u een of meerdere onderwerpen samen met het kaartbestand ter controle wilt v
 
    U kunt een van de volgende methoden gebruiken om een versie te selecteren:
 
-   - *\(Standaard\)* Kies de optie **De nieuwste versie** om de laatst opgeslagen revisie van de onderwerpen te selecteren.
-   - Kies de optie **Versie ingeschakeld** en geeft u de datum en tijd op waarop u een versie wilt selecteren op basis van de datum en tijd. Als er geen versie van onderwerp beschikbaar op de gespecificeerde datum is, dan een versie beschikbaar onmiddellijk na de gespecificeerde datum en de tijd wordt geselecteerd.
-   - Kies de optie **Een label selecteren** en selecteert u een label in de vervolgkeuzelijst. Alle onderwerpen met het geselecteerde label worden geselecteerd in het dialoogvenster **Versie** vervolgkeuzelijst.
-   - Kies de optie **Een basislijn selecteren** en selecteert u een basislijn in de vervolgkeuzelijst. Alle onderwerpversies die een deel van de geselecteerde basislijn zijn worden geselecteerd in **Versie** vervolgkeuzelijst.
-1. Nadat u de gewenste versie hebt geselecteerd, klikt u op **Toepassen**.
+   - *\ (Gebrek \)* verkies de optie **Hun Laatste Versie** om de laatste bewaarde revisie van de onderwerpen te selecteren.
+   - Kies de **Versie op** optie en specificeer de datum en de tijd om een versie zoals per de datum en de tijd te selecteren. Als er geen versie van onderwerp beschikbaar op de gespecificeerde datum is, dan een versie beschikbaar onmiddellijk na de gespecificeerde datum en de tijd wordt geselecteerd.
+   - Kies **Uitgezocht een optie van het Etiket** en selecteer een etiket van de drop-down lijst. Alle onderwerpen die het geselecteerde etiket bevatten worden geselecteerd in de **drop-down lijst van de Versie**.
+   - Kies **Uitgezocht een optie van de Basislijn** en selecteer een basislijn van de drop-down lijst. Alle onderwerpversies die een deel van de geselecteerde basislijn zijn worden geselecteerd in de **drop-down lijst van de Versie**.
+1. Na het maken van uw selectie voor het kiezen van een versie, klik **toepassen**.
 
    De versie die op de geselecteerde optie wordt gebaseerd wordt gekozen voor de onderwerpen.
 
    >[!NOTE]
    >
-   > U kunt ook handmatig de gewenste versie selecteren in het menu **Versie** vervolgkeuzelijst van elk onderwerp.
+   > U kunt de gewenste versie van de **drop-down lijst van de Versie** van elk onderwerp ook manueel selecteren.
 
 1. Klik op **Next**.
 
@@ -234,25 +234,25 @@ Als u een of meerdere onderwerpen samen met het kaartbestand ter controle wilt v
 
 1. Op de pagina Revisors kunt u revisoren toevoegen of verwijderen. De volgende bewerkingen zijn beschikbaar op de pagina Revisors:
 
-   - **Alles selecteren**: Hiermee selecteert u alle onderwerpen in de onderwerpenlijst. U kunt een partijverrichting gemakkelijk uitvoeren na het selecteren van alle onderwerpen.
-   - **Selectie wissen**: Hiermee wordt de selectie van de geselecteerde onderwerpen in de lijst met onderwerpen opgeheven.
+   - **Uitgezocht allen**: Selecteert alle onderwerpen in de onderwerpenlijst. U kunt een partijverrichting gemakkelijk uitvoeren na het selecteren van alle onderwerpen.
+   - **Duidelijke Selectie**: Deselecteert de onderwerpen die in de onderwerpenlijst worden geselecteerd.
 
      >[!NOTE]
      >
      > U kunt een onderwerp ook individueel selecteren of schrappen door op checkbox naast het onderwerp te klikken.
 
-   - **Toevoegen**: Hiermee geeft u het dialoogvenster Revisoren toevoegen weer. U kunt de naam typen van een revisor of gebruikersrol \(of groep\) die u als controleur wilt toevoegen aan de geselecteerde onderwerpen.
-   - **Verwijderen**: Hiermee geeft u het dialoogvenster Revisoren verwijderen weer. U kunt de naam typen van een revisor of gebruikersrol \(of groep\) die u als controleur wilt verwijderen uit de geselecteerde onderwerpen.
-   - **Opnieuw toewijzen**: Hiermee geeft u het dialoogvenster Revisoren opnieuw toewijzen weer. U kunt de naam typen van een revisor of gebruikersrol \(of groep\) waaraan u de revisietaak wilt toewijzen. Hiermee verwijdert u alle bestaande revisoren uit de geselecteerde onderwerpen en wijst u de nieuw geselecteerde revisoren toe aan deze onderwerpen.
-   - **Exporteren**: Hiermee kunt u de gegevens van de revisietaak exporteren in een CSV-bestand. Het bestand bevat details zoals het pad en de titel van het onderwerp, de naam van de controleur en de versie van de onderwerpen die ter controle zijn verzonden.
-   - **Revisoren bewerken**: Klik op de knop ![](images/edit_pencil_icon.svg)in de onderwerpenlijst wordt het dialoogvenster Revisoren bewerken weergegeven. U kunt revisoren voor het geselecteerde onderwerp toevoegen aan of verwijderen uit dit dialoogvenster.
+   - **voeg toe**: Toont de Add dialoog van Recensenten. U kunt de naam typen van een revisor of gebruikersrol \(of groep\) die u als controleur wilt toevoegen aan de geselecteerde onderwerpen.
+   - **verwijder**: Toont de Remove dialoog van Recensenten. U kunt de naam typen van een revisor of gebruikersrol \(of groep\) die u als controleur wilt verwijderen uit de geselecteerde onderwerpen.
+   - **opnieuw toewijzen**: Toont het Opnieuw toewijzen van de dialoog van Revisoren. U kunt de naam typen van een revisor of gebruikersrol \(of groep\) waaraan u de revisietaak wilt toewijzen. Hiermee verwijdert u alle bestaande revisoren uit de geselecteerde onderwerpen en wijst u de nieuw geselecteerde revisoren toe aan deze onderwerpen.
+   - **Uitvoer**: Staat u toe om de details van de overzichtstaak in een Csv- dossier uit te voeren. Het bestand bevat details zoals het pad en de titel van het onderwerp, de naam van de controleur en de versie van de onderwerpen die ter controle zijn verzonden.
+   - **geeft Recensenten** uit: Het klikken van het ![](images/edit_pencil_icon.svg) pictogram in de onderwerpenlijst toont de Edit dialoog van Reviewers. U kunt revisoren voor het geselecteerde onderwerp toevoegen aan of verwijderen uit dit dialoogvenster.
    >[!IMPORTANT]
    >
    > U moet ten minste één controleur toewijzen om de revisietaak te maken.
 
-1. Klikken **Maken** om de revisietaak te maken.
+1. Klik **creëren** om de overzichtstaak tot stand te brengen.
 
-   Er wordt een bevestigingsbericht weergegeven wanneer de revisietaak met succes is gemaakt. De [Documentstatus](web-editor-document-states.md#) voor de onderwerpen die ter controle worden verzonden, wordt ingesteld op In-Review.
+   Er wordt een bevestigingsbericht weergegeven wanneer de revisietaak met succes is gemaakt. De [ staat van het Document ](web-editor-document-states.md#) voor de onderwerpen die voor overzicht worden verzonden wordt geplaatst aan In-Overzicht.
 
    >[!NOTE]
    >
@@ -265,4 +265,4 @@ Als u een of meerdere onderwerpen samen met het kaartbestand ter controle wilt v
 
 Er wordt een e-mail verzonden naar alle revisoren, met de kennisgeving dat aan hen onderwerpen zijn toegewezen voor revisie. Het e-mailbericht bevat een directe koppeling waarop de gebruikers kunnen klikken en het onderwerp kunnen openen in een browservenster. De onderwerpen samen met de kaart DITA worden geopend op de overzichtswijze.
 
-**Bovenliggend onderwerp:**[ Onderwerpen of kaarten controleren](review.md)
+**Bovenliggend onderwerp:**[ onderwerpen of kaarten van het Overzicht ](review.md)

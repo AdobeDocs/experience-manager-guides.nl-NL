@@ -39,13 +39,13 @@ const value = this.getValue("key")
 ## Weergave
 
 De weergave definieert de gebruikersinterface van de app. We gebruiken JSON-bestanden om de weergave van onze bestanden te definiëren. Hier, bepalen wij de componenten, css (zoals die in de winningsklasse van componenten wordt gegeven) en geven de waarden terug die in het model worden opgeslagen.
-In onze app wordt elke weergave gedefinieerd met behulp van een JSON. Naar de JSON&#39;s wordt verwezen met behulp van hun unieke id&#39;s, die een `id`.
+In onze app wordt elke weergave gedefinieerd met behulp van een JSON. Naar de JSON&#39;s wordt verwezen met behulp van hun unieke id&#39;s, ook wel een `id` genoemd.
 
 ## Controller
 
 De controller wordt gebruikt om gebeurtenissen af te handelen en de gegevens te verwerken. Het controlemechanisme wordt gebruikt om gegevens van de server te halen en te verzenden, is het de interface tussen wat op UI wordt getoond en op het achtereind wordt opgeslagen.
 
-- Als u waarden wilt instellen bij initialisatie, gebruiken we de `init` functie.
+- Voor het instellen van waarden bij initialisatie gebruikt u de functie `init` .
 - Om een methode toe te voegen het controlemechanisme gebruiken wij de volgende syntaxis:
 
 ```typescript
@@ -54,7 +54,7 @@ methodName: function(args){
 }
 ```
 
-De `methodName` hier fungeert als `key` verwijzen naar de methode in de JSON-weergave of in andere functies
+`methodName` hier fungeert als de `key` om te verwijzen naar de methode in de JSON-weergave (weergave) of in andere functies
 
 - Om een methode in het controlemechanisme te roepen gebruiken wij de syntaxis
 
@@ -69,7 +69,7 @@ Wij zullen een knoop toevoegen die zijn etiketwaarde op een klik schakelt
 
 ### Voorbeeld weergeven
 
-Hieronder wordt de JSON gedefinieerd voor een knop met een dynamische tekst die in het model is opgeslagen onder de variabelenaam. `buttonLabel`.
+Hieronder wordt de JSON gedefinieerd voor een knop met een dynamische tekst die in het model is opgeslagen onder de variabelenaam `buttonLabel` .
 In dit voorbeeld wordt het label gewijzigd wanneer u op de knop klikt.
 
 ```JSON
@@ -83,7 +83,7 @@ In dit voorbeeld wordt het label gewijzigd wanneer u op de knop klikt.
 
 ### Modelvoorbeeld
 
-in dit geval `extraProps.buttonLabel` bevat het label van de knop
+in dit geval bevat `extraProps.buttonLabel` het label van de knop
 
 ### Voorbeeld van controller
 
@@ -101,4 +101,4 @@ in dit geval `extraProps.buttonLabel` bevat het label van de knop
 ```
 
 Onder GIF ziet u de bovenstaande code in actie
-![basic_customization](imgs/basic_customisation.gif "Knop Basisaanpassing")
+![ basic_customization ](imgs/basic_customisation.gif " Basisaanpassingsknoop ")

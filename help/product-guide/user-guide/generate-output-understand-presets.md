@@ -1,6 +1,6 @@
 ---
 title: Uitvoervoorinstellingen
-description: Begrijp de outputvoorinstellingen in AEM Gidsen. Maak uitvoervoorinstellingen in de webeditor en het kaartdashboard voor AEM site-, PDF-, HTML,5-, EPUB-, aangepaste en JSON-indelingen.
+description: Begrijp de uitvoervoorinstellingen in AEM Guides. Maak uitvoervoorinstellingen in de webeditor en het kaartdashboard voor AEM site-, PDF-, HTML,5-, EPUB-, aangepaste en JSON-indelingen.
 exl-id: 8eaf0765-8b66-47d6-9c40-888495baa711
 feature: Publishing
 role: User
@@ -13,31 +13,31 @@ ht-degree: 0%
 
 # Uitvoervoorinstellingen {#understanding_output_settings}
 
-AEM hulplijnen ondersteunen het maken van uitvoer in de populairste indelingen, zoals AEM Site, PDF, Knowledge Base, HTML5, EPUB, JSON en aangepaste uitvoer via DITA-OT, Native PDF en FMPS. Met deze uitvoerindelingen kunt u verschillende uitvoervoorinstellingen configureren. Een uitvoervoorinstelling vertegenwoordigt een aangepaste uitvoerindeling waarin u de inhoud wilt publiceren.
+AEM Guides ondersteunt het maken van uitvoer in de populairste indelingen, zoals AEM Site, PDF, Kennisbank, HTML5, EPUB, JSON en aangepaste uitvoer via DITA-OT, Native PDF en FMPS. Met deze uitvoerindelingen kunt u verschillende uitvoervoorinstellingen configureren. Een uitvoervoorinstelling vertegenwoordigt een aangepaste uitvoerindeling waarin u de inhoud wilt publiceren.
 
 In de volgende secties worden de opties beschreven die beschikbaar zijn voor de ondersteunde uitvoerindelingen.
 
 U kunt op twee manieren voorinstellingen maken:
 
-- **Van de Redacteur van het Web**: U kunt AEM voorinstelling voor Site, PDF, Kennisbank, HTML5, Aangepast en JSON-uitvoer maken en de respectievelijke uitvoer genereren.
-- **Van het kaartdashboard**: U kunt AEM voorinstelling voor Site, PDF, HTML,5, EPUB en aangepaste uitvoer maken en de respectievelijke uitvoer genereren.
+- **van de Redacteur van het Web**: U kunt AEM Plaats, PDF, Kennisbank, HTML5, Douane, en JSON- output tot stand brengen vooraf ingesteld en de respectieve output produceren.
+- **van het kaartdashboard**: U kunt AEM Plaats, PDF, HTML,5, EPUB, en vooraf ingestelde douaneoutput tot stand brengen en de respectieve output produceren.
 
 In de volgende secties worden de opties beschreven die beschikbaar zijn voor de ondersteunde uitvoerindelingen.
 
-- **[Site AEM](generate-output-aem-site.md)**
+- **[AEM Plaats](generate-output-aem-site.md)**
 
 - **[PDF](generate-output-pdf.md)**
 
 - **[Kennisbank](generate-output-knowledge-base.md)**
 
-- **[HTML 5](generate-output-html5.md)**
+- **[HTML5](generate-output-html5.md)**
 
-- **[EPUB](generate-output-epub.md)**
+- **[EPUBS](generate-output-epub.md)**
 
-- **[Aangepast](generate-output-custom.md)**
+- **[Douane](generate-output-custom.md)**
 
 - **[JSON](generate-output-json.md)**
 
-Als beheerder, staat de Gidsen van de Experience Manager u toe om outputvoorinstellingen voor de Globale en Profielen van de Omslag tot stand te brengen en te beheren. Voor meer informatie, bekijkt u [Uitvoervoorinstellingen voor Algemeen en Mapprofiel beheren](./web-editor-manage-output-presets.md).
+Als beheerder kunt u met Experience Manager Guides uitvoervoorinstellingen voor de algemene profielen en de mapprofielen maken en beheren. Voor meer details, bekijkt [ de Globale en output van het Profiel van de Omslag vooraf instelt ](./web-editor-manage-output-presets.md).
 
-**Bovenliggend onderwerp:**[ Uitvoergeneratie](generate-output.md)
+**Bovenliggend onderwerp:**[ Productie van de Output ](generate-output.md)

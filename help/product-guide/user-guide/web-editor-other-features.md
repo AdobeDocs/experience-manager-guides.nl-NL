@@ -1,6 +1,6 @@
 ---
 title: Andere functies in de webeditor
-description: Andere functies van de webeditor in AEM hulplijnen bekijken. Leer hoe u deze functies kunt gebruiken voor verbeterde authoring in AEM hulplijnen.
+description: Andere functies van de webeditor in AEM Guides verkennen. Leer hoe u deze functies kunt gebruiken voor verbeterd ontwerpen in AEM Guides.
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
@@ -15,23 +15,23 @@ ht-degree: 0%
 
 Er zijn sommige andere nuttige eigenschappen in de Redacteur van het Web die u kunt gebruiken van:
 
-**Contextmenufuncties op het tabblad van een bestand**
+**het menufuncties van de context op het lusje van een dossier**
 
 Wanneer u een dossier in de Redacteur van het Web opent, kunt u diverse acties van het contextmenu uitvoeren. U ziet mogelijk verschillende opties, afhankelijk van het feit of u een mediabestand, één DITA-bestand of meerdere bestanden opent.
 
-**Mediabestand**
+**dossier van Media**
 
 De volgende functies vindt u in het contextmenu van het tabblad van een geopend mediabestand:
 
 ![](images/media-file-context-menu.png){width="300" align="left"}
 
-**Enkel DITA-bestand**
+**Enig DITA- dossier**
 
 De volgende functies vindt u in het contextmenu van het tabblad van een geopend bestand:
 
 :   ![](images/single-file-context-menu.png){width="300" align="left"}
 
-**Meerdere bestanden**
+**Veelvoudige dossiers**
 
 Wanneer u meerdere bestanden hebt geopend, vindt u meer opties in het contextmenu:
 
@@ -39,71 +39,71 @@ Wanneer u meerdere bestanden hebt geopend, vindt u meer opties in het contextmen
 
 De verschillende opties in het contextmenu worden hieronder uitgelegd:
 
-***Opslaan***: U kunt uit de volgende opties kiezen:
+***sparen***: U kunt van de volgende opties kiezen:
 
-- **Opslaan**: Als u een bestand wilt opslaan zonder een nieuwe versie te maken, selecteert u **Opslaan**. Wanneer u een nieuw onderwerp creeert, wordt een versie-minder werkend exemplaar van het onderwerp gecreeerd in DAM. Wanneer u uw document opslaat, wordt de werkkopie van uw document bijgewerkt in DAM. Het doen van eenvoudig sparen op deze versie leidt niet tot een nieuwe versie van een onderwerp. Als uw onderwerp onder overzicht is, geeft het bewaren van een onderwerp uw recensenten geen toegang tot uw veranderde onderwerpinhoud.
+- **sparen**: Om een dossier te bewaren zonder een nieuwe versie te creëren, uitgezocht **sparen**. Wanneer u een nieuw onderwerp creeert, wordt een versie-minder werkend exemplaar van het onderwerp gecreeerd in DAM. Wanneer u uw document opslaat, wordt de werkkopie van uw document bijgewerkt in DAM. Het doen van eenvoudig sparen op deze versie leidt niet tot een nieuwe versie van een onderwerp. Als uw onderwerp onder overzicht is, geeft het bewaren van een onderwerp uw recensenten geen toegang tot uw veranderde onderwerpinhoud.
 
-- **Alles opslaan**: Als er meerdere documenten zijn geopend in de webeditor, krijgt u ook een optie om **Alles opslaan** geopende documenten.
-
-
-***Opslaan als nieuwe versie***
-
-Selecteer **Opslaan als nieuwe versie**. Voor meer informatie over **Opslaan** en **Opslaan als nieuwe versie**, zie [De functies van de webeditor kennen](web-editor-features.md#).
-
-***Kopiëren***: U kunt uit de volgende opties kiezen:
-
-- **UUID kopiëren**: Als u de UUID van het actieve bestand naar het klembord wilt kopiëren, selecteert u **UUID kopiëren**.
-- **Pad kopiëren**: Als u het volledige pad van het actieve bestand naar het klembord wilt kopiëren, selecteert u **\> Pad kopiëren**.
+- **sparen allen**: Als er veelvoudige documenten zijn die in de Redacteur van het Web worden geopend, dan krijgt u ook een optie om **Alle** geopende documenten te bewaren.
 
 
-***Zoeken in***: U kunt uit de volgende opties kiezen:
+***sparen als Nieuwe Versie***
 
-- **Kaart**: Als u een grote DITA-kaart hebt geopend en u de exacte locatie van een bestand op de kaart wilt zoeken, selecteert u **Zoeken in \> Kaart**. Wanneer u de optie Zoeken op kaart selecteert, wordt het bestand \(vanwaar de optie wordt aangeroepen\) in de kaarthiërarchie geplaatst en gemarkeerd. Om deze eigenschap te kunnen gebruiken, moet u het kaartdossier in de Redacteur van het Web openen. Als de Kaartweergave verborgen is, wordt bij het aanroepen van deze functie de Kaartweergave weergegeven en wordt het bestand gemarkeerd in de kaarthiërarchie.
+Om een nieuwe versie van het dossier tot stand te brengen, uitgezocht **sparen als Nieuwe Versie**. Voor meer details over **sparen** en **sparen als Nieuwe Versie**, zie [ de eigenschappen van de Redacteur van het Web ](web-editor-features.md#) kennen.
 
-- **Bewaarplaats**: Vergelijkbaar met Zoeken op kaart, de optie **Zoeken in \> Repository** geeft de locatie van het bestand in de opslagplaats \(of DAM\) weer. De Weergave opslagplaats wordt geopend en het geselecteerde bestand wordt gemarkeerd in de opslagplaats. Als het bestand zich in een map bevindt, wordt die map uitgevouwen om de locatie van het geselecteerde bestand in de opslagplaats weer te geven.
+***Exemplaar***: U kunt van de volgende opties kiezen:
 
-
-***Toevoegen aan***: U kunt uit de volgende opties kiezen:
-
-- **Favorieten**: Als u het geselecteerde bestand aan de favoriete verzameling wilt toevoegen, selecteert u **Toevoegen aan Favorieten \>**. Zie voor meer informatie de **Favorieten** functiebeschrijving in het dialoogvenster [Linkerdeelvenster](web-editor-features.md#id2051EA0M0HS) sectie.
+- **UUID van het Exemplaar**: Om UUID van het momenteel actieve dossier aan het Klembord te kopiëren, uitgezochte **Exemplaar \> het Exemplaar UUID**.
+- **Weg van het Exemplaar**: Om de volledige weg van het momenteel actieve dossier aan het Klembord te kopiëren, uitgezochte **Exemplaar \> Weg van het Exemplaar**.
 
 
+***plaats binnen***: U kunt van de volgende opties kiezen:
 
-- **Herbruikbare inhoud**: Als u het geselecteerde bestand naar de lijst met herbruikbare inhoud wilt kopiëren, selecteert u **Toevoegen aan \> Herbruikbare inhoud**. Zie voor meer informatie de **Herbruikbare inhoud** functiebeschrijving in het dialoogvenster [Linkerdeelvenster](web-editor-features.md#id2051EA0M0HS) sectie.
+- **Kaart**: Als u een grote kaart DITA hebt geopend en de nauwkeurige plaats van een dossier in de kaart wilt vinden, dan **plaats in \> Kaart**. Wanneer u de optie Zoeken op kaart selecteert, wordt het bestand \(vanwaar de optie wordt aangeroepen\) in de kaarthiërarchie geplaatst en gemarkeerd. Om deze eigenschap te kunnen gebruiken, moet u het kaartdossier in de Redacteur van het Web openen. Als de Kaartweergave verborgen is, wordt bij het aanroepen van deze functie de Kaartweergave weergegeven en wordt het bestand gemarkeerd in de kaarthiërarchie.
+
+- **Bewaarplaats**: Gelijkaardig aan plaats in Kaart, **plaats in \> Bewaarplaats** toont de plaats van het dossier in de bewaarplaats \ (of DAM \). De Weergave opslagplaats wordt geopend en het geselecteerde bestand wordt gemarkeerd in de opslagplaats. Als het bestand zich in een map bevindt, wordt die map uitgevouwen om de locatie van het geselecteerde bestand in de opslagplaats weer te geven.
+
+
+***voeg aan*** toe: U kunt van de volgende opties kiezen:
+
+- **Favorieten**: Om het geselecteerde dossier aan favoriete inzameling toe te voegen, selecteer **toevoegen aan \> Favorieten**. Voor meer details, zie de **** eigenschapbeschrijving van Favorieten in de [ Linkerpaneel ](web-editor-features.md#id2051EA0M0HS) sectie.
+
+
+
+- **Herbruikbare Inhoud**: Om het geselecteerde dossier aan de herbruikbare inhoudslijst te kopiëren, uitgezocht **voeg aan \> Herbruikbare Inhoud** toe. Voor meer details, zie de **Herbruikbare de eigenschapbeschrijving van Inhoud** in de [ Linkerpaneel ](web-editor-features.md#id2051EA0M0HS) sectie.
 
 
 
 
 ***Eigenschappen***
 
-Als u de pagina met AEM eigenschappen van het geselecteerde bestand wilt weergeven, selecteert u **Eigenschappen**.
+Om de AEM eigenschappen pagina van het geselecteerde dossier te zien, uitgezochte **Eigenschappen**.
 
-***Splitsen***: U kunt uit de volgende opties kiezen:
+***Gesplitst***: U kunt van de volgende opties kiezen:
 
-**Up, Down, Left of Right**
+**Omhoog, Omlaag, Linker, of Juist**
 
-Door gebrek, staat de Redacteur van het Web u toe om één onderwerp tegelijkertijd te bekijken. Er kunnen zich gevallen voordoen waarin u twee of meer onderwerpen tegelijk wilt bekijken. Door het scherm van de editor te splitsen, kunt u meerdere onderwerpen tegelijk bekijken. Bijvoorbeeld, als u twee onderwerpen hebt - A en B geopend in de redacteur. Klikken met rechtermuisknop op onderwerp B en kiezen **\> Omhoog splitsen** verdeelt het editorvenster in twee delen. Onderwerp B wordt getoond in de hogere helft en Onderwerp A wordt getoond in de bodemhelft. U kunt het scherm ook horizontaal splitsen door **Splitsen \> Links** of **Splitsen \> Rechts**. De volgende schermafbeelding van de webeditor toont onderwerpen die horizontaal en verticaal zijn gesplitst. In elke splitsing kunt u een andere weergave gebruiken. In de volgende schermafbeelding bevindt scherm 1 zich bijvoorbeeld in de modus Bronweergave, heeft scherm 2 twee documenten geopend in de modus Auteur en is scherm 3 in de modus Voorvertoning. U kunt uw documenten van het ene scherm naar het andere verplaatsen door de bestandtab te slepen en neer te zetten op het scherm waar u deze wilt plaatsen. U kunt de tabvolgorde van bestanden ook wijzigen door ze naar wens te slepen en te verplaatsen.
+Door gebrek, staat de Redacteur van het Web u toe om één onderwerp tegelijkertijd te bekijken. Er kunnen zich gevallen voordoen waarin u twee of meer onderwerpen tegelijk wilt bekijken. Door het scherm van de editor te splitsen, kunt u meerdere onderwerpen tegelijk bekijken. Bijvoorbeeld, als u twee onderwerpen hebt - A en B geopend in de redacteur. Het met de rechtermuisknop klikken op onderwerp B en het kiezen van **Splitst \> omhoog** verdeelt het redacteursvenster in twee delen. Onderwerp B wordt getoond in de hogere helft en Onderwerp A wordt getoond in de bodemhelft. Op dezelfde manier kunt u het scherm ook horizontaal verdelen door **Splitsen \> Linkerzijde** of **Splitsen \> Juist** te selecteren. De volgende schermafbeelding van de webeditor toont onderwerpen die horizontaal en verticaal zijn gesplitst. In elke splitsing kunt u een andere weergave gebruiken. In de volgende schermafbeelding is scherm 1 bijvoorbeeld in de Source-weergavemodus, is scherm 2 geopend in de modus Auteur en is scherm 3 in de modus Voorvertoning. U kunt uw documenten van het ene scherm naar het andere verplaatsen door de bestandtab te slepen en neer te zetten op het scherm waar u deze wilt plaatsen. U kunt de tabvolgorde van bestanden ook wijzigen door ze naar wens te slepen en te verplaatsen.
 
 ![](images/split-editor.png){width="800" align="left"}
 
-***Snel genereren***
+***Snel produceren***
 
-Genereer de uitvoer voor het geselecteerde bestand. Uitvoer kan alleen worden gegenereerd voor bestanden die deel uitmaken van een uitvoervoorinstelling. Zie voor meer informatie [Publiceren op basis van artikelen vanuit de webeditor](web-editor-article-publishing.md#id218CK0U019I).
+Genereer de uitvoer voor het geselecteerde bestand. Uitvoer kan alleen worden gegenereerd voor bestanden die deel uitmaken van een uitvoervoorinstelling. Voor meer details, zie [ Op artikel-gebaseerde het publiceren van de Redacteur van het Web ](web-editor-article-publishing.md#id218CK0U019I).
 
-***Sluiten***: U kunt uit de volgende opties kiezen:
+***dicht***: U kunt van de volgende opties kiezen:
 
-**Sluiten**, **Overige sluiten**, of **Alles sluiten**
+**dicht**, **sluit anderen**, of **sluit allen**
 
-Als u het bestand wilt sluiten waarvan u het contextmenu hebt aangeroepen, selecteert u **Sluiten \> Sluiten**. Gebruiken **\> Overige sluiten** om alle andere geopende bestanden te sluiten, behalve het momenteel actieve bestand. Als u alle geopende bestanden wilt sluiten, selecteert u de **\> Alles sluiten** in het contextmenu of u kunt er ook voor kiezen om de webeditor te sluiten. Als er niet-opgeslagen bestanden in uw sessie staan, wordt u gevraagd deze bestanden op te slaan.
+Als u het dossier wilt sluiten waarvan u het contextmenu aanhaalde, dan selecteren **dicht \> dicht**. Het gebruik **sluit \> sluit anderen** om al ander geopend dossier behalve het momenteel actieve dossier te sluiten. Om alle open dossiers te sluiten, selecteer de **Dichte \> sluit Al** optie van het contextmenu of u kunt ook verkiezen om de Redacteur van het Web te sluiten. Als er niet-opgeslagen bestanden in uw sessie staan, wordt u gevraagd deze bestanden op te slaan.
 
-**Bestanden sluiten en scenario&#39;s opslaan**
+**Dossier sluit en sparen scenario&#39;s**
 
-Wanneer u een bestand probeert te sluiten dat in de webeditor is geopend, gebruikt u de opdracht **Sluiten** op het tabblad van het bestand of op de knop **Sluiten** in het menu Opties, vraagt AEM hulplijnen u om uw bewerkingen op te slaan en een vergrendeld bestand te ontgrendelen.
+Wanneer u probeert om een dossier te sluiten dat in de Redacteur van het Web gebruikend **dicht** knoop op het lusje van het dossier of **dicht** optie in het menu van Opties wordt geopend, zet AEM Guides u ertoe aan om uw uitgeeft te bewaren en een gesloten dossier te ontgrendelen.
 
 De herinneringen zijn gebaseerd op de volgende configuraties die door uw beheerder worden geselecteerd:
 
-- **Inchecken bij sluiten aanvragen:** U kunt het bestand \(dat u hebt uitgecheckt\) inchecken wanneer u de editor sluit.
-- **Nieuwe versie aanvragen bij sluiten**: U kunt het bestand \(dat u hebt bewerkt\) als een nieuwe versie opslaan wanneer u de editor sluit.
+- **vraag voor controle op dichte:** u wordt gegeven de optie om het dossier \ te controleren \ (die u uitgecheckt \) wanneer u de redacteur sluit.
+- **Vraag om nieuwe versie op dichte**: U krijgt de optie om het dossier \ (die u uitgeeft \) als nieuwe versie op te slaan wanneer u de redacteur sluit.
 
 Uw ervaring met het opslaan van bestanden is afhankelijk van de volgende drie scenario&#39;s, waar u zich bevindt:
 
@@ -113,13 +113,13 @@ Uw ervaring met het opslaan van bestanden is afhankelijk van de volgende drie sc
 
 Afhankelijk van of het bestand vergrendeld/ontgrendeld is en of de opgeslagen of niet-opgeslagen wijzigingen zijn, ziet u mogelijk de volgende opties:
 
-- **Ontgrendelen en sluiten**: De vergrendeling van het bestand wordt ongedaan gemaakt en het bestand wordt gesloten.
+- **Ontgrendelen en Sluiten**: Het slot op het dossier wordt vrijgegeven, en het dossier wordt gesloten.
 
   ![](images/file-close-unlock-file.png){width="400" align="left"}
 
-- **Opslaan als nieuwe versie**: Hiermee slaat u de wijzigingen op die u in de inhoud hebt aangebracht en maakt u een nieuwe versie van het bestand. U kunt ook labels en opmerkingen toevoegen voor de zojuist opgeslagen versie. Voor meer informatie over het opslaan van een nieuwe versie raadpleegt u [Opslaan als nieuwe versie](web-editor-features.md#save-as-new-version-id209ME400GXA).
+- **sparen als Nieuwe Versie**: Dit zal de veranderingen bewaren u in uw inhoud hebt aangebracht en tot een nieuwe versie van uw dossier leiden. U kunt ook labels en opmerkingen toevoegen voor de zojuist opgeslagen versie. Voor meer informatie over het bewaren van een nieuwe versie, zie [ sparen als Nieuwe Versie ](web-editor-features.md#save-as-new-version-id209ME400GXA).
 
-- **Het bestand ontgrendelen**: Als u een bestand ontgrendelt, wordt de vergrendeling van het bestand opgeheven en worden de wijzigingen opgeslagen in de huidige versie van het bestand.
+- **ontgrendel het Dossier**: Als u verkiest om een dossier te ontgrendelen, zal het de slot op uw dossier vrijgeven en de veranderingen worden bewaard in de huidige versie van het dossier.
 
   >[!NOTE]
   >
@@ -129,15 +129,15 @@ Afhankelijk van of het bestand vergrendeld/ontgrendeld is en of de opgeslagen of
 
   ![](images/file-close-save-changes-unlock.png){width="400" align="left"}
 
-**Visuele aanwijzingen voor verbroken verwijzingen**
+**Visuele aanwijzingen voor gebroken verwijzingen**
 
 - Als uw onderwerp gebroken verwijzingen of inhoudsverwijzingen bevat, worden zij getoond in rode teksten.
 
-**Slim kopiëren en plakken**
+**Slimme exemplaar-deeg**
 
 - U kunt plakinhoud binnen en over onderwerpen gemakkelijk kopiëren. De bronelementstructuur wordt op de bestemming gehandhaafd. Als de gekopieerde inhoud inhoudsverwijzingen bevat, worden zelfs deze gekopieerd.
 
-**Laatst gebladerde locatie onthouden**
+**Herinner me laatste doorbladerde plaats**
 
 - In de webeditor wordt een dialoogvenster met slimme browsers weergegeven. De editor onthoudt de laatst gebruikte locatie terwijl een verwijzing of inhoud wordt ingevoegd. De eerste keer dat u het bladerdialoogvenster van het bestand ophaalt, gaat u naar de locatie waar het huidige document is opgeslagen. Dit doet u via Referentie invoegen of Inhoud hergebruiken invoegen. Als u in dezelfde sessie een andere referentie probeert in te voegen, navigeert het dialoogvenster automatisch naar de locatie vanwaar u de laatste referentie hebt ingevoegd.
 
@@ -145,48 +145,48 @@ Afhankelijk van of het bestand vergrendeld/ontgrendeld is en of de opgeslagen of
 >
 > In het geval van een afbeeldings-, audio- of videobestand bladert het dialoogvenster naar de standaardlocatie van het bestand en niet naar de laatst gebruikte locatie.
 
-**Ondersteuning voor op artikelen gebaseerde publicaties**
+**Steun voor op artikel-gebaseerde het publiceren**
 
-- Van de Redacteur van het Web, kunt u de output voor één of meerdere onderwerpen, of de volledige kaart produceren DITA. U moet outputvoorinstellingen voor uw kaart creëren DITA en dan kunt u de output voor één of meerdere onderwerpen gemakkelijk produceren. Als u een paar onderwerpen in uw kaart hebt bijgewerkt, kunt u de output slechts voor die onderwerpen van de Redacteur van het Web ook produceren. Zie voor meer informatie [Publiceren op basis van artikelen vanuit de webeditor](web-editor-article-publishing.md#id218CK0U019I).
+- Van de Redacteur van het Web, kunt u de output voor één of meerdere onderwerpen, of de volledige kaart produceren DITA. U moet outputvoorinstellingen voor uw kaart creëren DITA en dan kunt u de output voor één of meerdere onderwerpen gemakkelijk produceren. Als u een paar onderwerpen in uw kaart hebt bijgewerkt, kunt u de output slechts voor die onderwerpen van de Redacteur van het Web ook produceren. Voor meer details, zie [ Op artikel-gebaseerde het publiceren van de Redacteur van het Web ](web-editor-article-publishing.md#id218CK0U019I).
 
-**Ondersteuning voor opmaakdocumenten**
+**Steun voor de documenten van de Prijsverhoging**
 
-- In de webeditor kunt u Markeringen gebruiken voor documenten \(.md\) en voor uw DITA-documenten. U kunt een document van de Prijsverhoging in de Redacteur van het Web gemakkelijk ontwerpen en voorproef en het ook toevoegen in uw kaartdossier door DITA kaartredacteur. Zie voor meer informatie [De documenten van de Prijsverhoging van de auteur van het Web](web-editor-markdown-topic.md#).
+- In de webeditor kunt u Markeringen gebruiken voor documenten \(.md\) en voor uw DITA-documenten. U kunt een document van de Prijsverhoging in de Redacteur van het Web gemakkelijk ontwerpen en voorproef en het ook toevoegen in uw kaartdossier door DITA kaartredacteur. Voor meer details, zie [ documenten van de Prijsverlaging van de Auteur van het Web ](web-editor-markdown-topic.md#).
 
 **Steun voor DITA verklarende woordenlijstterm onderwerp**
 
-- De Redacteur van het Web steunt verklarende woordenlijst DITA die u door kunt opnemen toevoegen `term` of `abbreviated-form` elementen.
+- De webeditor ondersteunt verklarende woordenlijsten van DITA die u kunt invoegen door `term` - of `abbreviated-form` -elementen toe te voegen.
 
-**MathML-vergelijkingen invoegen**
+**vergelijkingen van het Tussenvoegsel MathML**
 
-- De Gidsen van de Experience Manager geeft u een uit-van-de-doossteun voor het opnemen van vergelijkingen MathML door integratie met [MathType Web](https://docs.wiris.com/en/mathtype/mathtype_web/intro) toepassing. Als u een MathML-vergelijking wilt invoegen, selecteert u de **Element invoegen** pictogram en type mathml. Wanneer u een mathml-element in de lijst selecteert, wordt **MathML invoegen** wordt weergegeven:
+- Experience Manager Guides geeft u een uit-van-de-doos steun voor het opnemen van vergelijkingen MathML door integratie met ](https://docs.wiris.com/en/mathtype/mathtype_web/intro) toepassing van het Web 0} MathType. [ Om een vergelijking MathML op te nemen, selecteer het **pictogram van het Element van het Tussenvoegsel** en type mathml. Wanneer u mathml element van de lijst selecteert, wordt de **dialoog van het Tussenvoegsel MathML** getoond:
 
-![wiskundige vergelijking invoegen in mathml-editor](images/insert-mathml-equation.png){width="550" align="left"}
+![ neem mathml vergelijking in mathml redacteur op ](images/insert-mathml-equation.png){width="550" align="left"}
 
-Gebruikend de MathML vergelijkingshulpmiddelen, creeer uw vergelijking en klik **Invoegen** om het aan uw document toe te voegen. De vergelijking wordt ingevoegd met lichtgrijze achtergrond, zoals hieronder wordt getoond:
+Gebruikend de MathML vergelijkingshulpmiddelen, creeer uw vergelijking en klik **Tussenvoegsel** om het aan uw document toe te voegen. De vergelijking wordt ingevoegd met lichtgrijze achtergrond, zoals hieronder wordt getoond:
 
-![monster mathml vergelijking](images/sample-mathml-equation.PNG){width="400" align="left"}
+![ steekproef mathml vergelijking ](images/sample-mathml-equation.PNG){width="400" align="left"}
 
-U kunt op elk gewenst moment een vergelijking bijwerken door met de rechtermuisknop op een bestaande vergelijking te klikken en **MathML bewerken** in het contextmenu.
+Op elk ogenblik kunt u een vergelijking bijwerken door op een bestaande vergelijking met de rechtermuisknop te klikken en **te selecteren geeft MathML** van het contextmenu uit.
 
-- **Validatie van vergelijkingen in de redacteur MathML**
+- **Bevestiging van vergelijkingen in de redacteur MathML**
 
-  De Gidsen van de Experience Manager bevestigt vergelijkingen MathML wanneer u sparen een onderwerp dat hen bevat.
-Wanneer u een vergelijking gebruikend de redacteur MathML opneemt, benadrukt de Gidsen van de Experience Manager de vergelijking in rood als er om het even welke syntaxiskwesties zijn. U kunt dit corrigeren voordat u het invoegt. Als u geen wijzigingen aanbrengt, maar selecteert u **Invoegen** wordt een waarschuwing weergegeven.
+  Experience Manager Guides valideert MathML vergelijkingen wanneer u sparen een onderwerp dat hen bevat.
+Wanneer u een vergelijking gebruikend de redacteur MathML opneemt, benadrukt Experience Manager Guides de vergelijking in rood als er om het even welke syntaxiskwesties zijn. U kunt dit corrigeren voordat u het invoegt. Als u geen veranderingen aanbrengt maar **uitgezocht Tussenvoegsel** selecteert, toont het een waarschuwing.
 
-  ![wiskundige vergelijking valideren](images/validate-mathml-equation.png){width="400" align="left"}
+  ![ bevestigt mathml vergelijking ](images/validate-mathml-equation.png){width="400" align="left"}
 
   Als u de vergelijking MathML opneemt die een syntaxisfout bevat, komt een bevestigingsfout voor wanneer u probeert om het onderwerp op te slaan.
 
 
-**Voetnoten invoegen**
+**neem voetnoten** op
 
-- Voetnoot in uw inhoud invoegen met de opdracht `fn` element. In de ontwerpmodus wordt de voetnootwaarde inline weergegeven met de inhoud. Wanneer u echter van de modus Voorvertoning overschakelt of uw document publiceert, wordt de voetnoot aan het einde van het onderwerp weergegeven.
+- Voeg voetnoot in uw inhoud in met behulp van het element `fn` . In de ontwerpmodus wordt de voetnootwaarde inline weergegeven met de inhoud. Wanneer u echter van de modus Voorvertoning overschakelt of uw document publiceert, wordt de voetnoot aan het einde van het onderwerp weergegeven.
 
 
-**Een element hernoemen of vervangen**
+**noem of vervang een element** anders
 
-- De redacteur van het Web toont de broodkruimel van het element bij de bovenkant van het onderwerp. Als u een element wilt omwisselen of vervangen door een ander element, kunt u dit doen via het contextmenu van de broodkruimel. U kunt bijvoorbeeld wisselen `p` element met `note` of een ander geldig element in de context.
+- De redacteur van het Web toont de broodkruimel van het element bij de bovenkant van het onderwerp. Als u een element wilt omwisselen of vervangen door een ander element, kunt u dit doen via het contextmenu van de broodkruimel. U kunt `p` -element bijvoorbeeld omwisselen met `note` of een ander geldig element in de context.
 
 ![](images/rename-element.png){width="400" align="left"}
 
@@ -202,44 +202,44 @@ Naast het contextmenu van de broodkruimel, kan het anders noemen de dialoog van 
 
 
 
-**Een element laten omlopen**
+**verpakt een element**
 
-- Door een element te laten omlopen, kunt u een elementtag toevoegen aan de geselecteerde tekst. U kunt de tekst naar elk onderliggend element laten lopen volgens de DITA-standaarden. Als u bijvoorbeeld tekst onder een `note` -element, kunt u de tekst naar een `p` element.
+- Door een element te laten omlopen, kunt u een elementtag toevoegen aan de geselecteerde tekst. U kunt de tekst naar elk onderliggend element laten lopen volgens de DITA-standaarden. Als u bijvoorbeeld tekst onder een `note` -element hebt, kunt u de tekst laten omlopen in een `p` -element.
 
-  De **Onderloopelement** Deze optie is beschikbaar in het contextmenu van de breadcrumb van het onderwerp. Als u een element wilt laten omlopen, klikt u met de rechtermuisknop op het element en opent u het contextmenu. Selecteer het element in het menu **Onderloopelement** in. De tekst wordt weergegeven in het nieuwe element.
+  De **optie van het Element van de Omslag** is beschikbaar in het contextmenu van de broodkruimel van het onderwerp. Als u een element wilt laten omlopen, klikt u met de rechtermuisknop op het element en opent u het contextmenu. Selecteer het element van de **dialoog van het Element van de Omslag**. De tekst wordt weergegeven in het nieuwe element.
 
-  U kunt ook de tekst of het element in de inhoud selecteren en vervolgens de **Onderloopelement**  in het contextmenu.
+  U kunt de tekst of het element in de inhoud ook selecteren en dan de **optie van het Element van de Omslag** van het contextmenu selecteren.
 
-**Een element opheffen**
+**Unwrap een element**
 
-- Als u een element loskoppelt, kunt u de elementtag verwijderen uit de geselecteerde tekst en deze samenvoegen met het bovenliggende element. Als u bijvoorbeeld een `p` element binnen een `note` -element, kunt u de omloop van het `p` -element om de tekst direct in het `note` element. De **Element opheffen** Deze optie is beschikbaar in het contextmenu van de breadcrumb van het onderwerp. Als u een element wilt opheffen, klikt u met de rechtermuisknop op het element om het contextmenu te openen en selecteert u vervolgens **Element opheffen** om het element te verwijderen en de tekst van het element met zijn ouderelement samen te voegen.
+- Als u een element loskoppelt, kunt u de elementtag verwijderen uit de geselecteerde tekst en deze samenvoegen met het bovenliggende element. Als u bijvoorbeeld een element `p` in een element `note` hebt, kunt u het element `p` opheffen om de tekst direct in het element `note` samen te voegen. De **optie van het Element van de Omslag** is beschikbaar in het contextmenu van de broodkruimel van het onderwerp. Om een element, met de rechtermuisknop aan te sluiten klik op het element om het contextmenu te openen, dan selecteer definitief **Element van de Terugloop** om het element te verwijderen en de tekst van het element met zijn ouderelement samen te voegen.
 
-**Witruimte-verwerking voor DITA-elementen**
+**Witruimte behandeling voor elementen DITA**
 
-- In XML omvatten witruimten spaties, tabs, regeleinden en lege regels. Met de hulplijnen voor Experience Managers worden meerdere witruimten die hiermee samenhangen, in één spatie omgezet. Dit helpt u de mening WYSIWYG van de Redacteur van het Web bewaren.
+- In XML omvatten witruimten spaties, tabs, regeleinden en lege regels. Experience Manager Guides converteert meerdere overeenkomende witruimten naar één spatie. Dit helpt u de mening WYSIWYG van de Redacteur van het Web bewaren.
 
   >[!NOTE]
   >
-  >In sommige elementen waar witruimten moeten worden behouden volgens de DITA-regels, blijven de verschillende witruimten die daaruit voortvloeien behouden. Bijvoorbeeld: `<pre>` en `<codeblock>` elementen.
+  >In sommige elementen waar witruimten moeten worden behouden volgens de DITA-regels, blijven de verschillende witruimten die daaruit voortvloeien behouden. Bijvoorbeeld `<pre>` en `<codeblock>` -elementen.
 
 
-**Regeleinden en inspringing behouden**
+**het Behouden van lijnonderbrekingen en inkeping**
 
-- DITA-elementen die regeleinde en spaties bevatten, worden ondersteund en gerenderd volgens hun definitie in de modus Auteur, Bron of Voorvertoning en ook in de uiteindelijke gepubliceerde uitvoer. In de volgende schermafbeelding wordt de inhoud in het dialoogvenster `msgblock` element waarin de regeleinden en spaties \(inspringing\) zijn behouden:
+- DITA-elementen die regeleinde en spaties bevatten, worden ondersteund en weergegeven volgens hun definitie in de modus Auteur, Source of Voorvertoning en ook in de uiteindelijke gepubliceerde uitvoer. In de volgende schermafbeelding ziet u de inhoud binnen het element `msgblock` waarin de regeleinden en spaties \(inspringing\) zijn behouden:
 
 ![](images/new-line-support_cs.png){width="500" align="left"}
 
 
 
-**Afhandeling van vaste spaties in de webeditor**
+**Behandelend vaste ruimten in de Redacteur van het Web**
 
-- U kunt vaste spaties in uw document invoegen met behulp van de **Speciale tekens invoegen**  ![pictogram Speciale tekens invoegen](images/insert-special-chars-icon.svg) of de **Alt** + **Spatie** sneltoetsen.  Deze vaste spaties verschijnen als indicator terwijl u een onderwerp in de Redacteur van het Web uitgeeft. U kunt de weergave van de vaste spaties uitschakelen met de opdracht **Vaste-spatie-indicator weergeven in de modus Schrijver** van de **Weergave** tabblad van het **Gebruikersvoorkeuren** ![Pictogram Voorkeuren gebruiker](images/user_preference_editor_icon.svg)..
+- U kunt vaste ruimten in uw document opnemen gebruikend het **Speciale Karakters van het Tussenvoegsel** ![ het pictogram van het tussenvoegsel speciale karakters ](images/insert-special-chars-icon.svg) of **Alt** + **de kortere wegsleutels van de Ruimte**.  Deze vaste spaties verschijnen als indicator terwijl u een onderwerp in de Redacteur van het Web uitgeeft. U kunt de vertoning van de vaste ruimten met **tonen niet-breekbaar ruimteindicator op de auteurswijze** optie van de **Verschijning** tabel van de **voorkeur van de Gebruiker** ![ pictogram van de voorkeur van de Gebruiker ](images/user_preference_editor_icon.svg).
 
-- Als u inhoud met een vaste spatie uit externe bronnen kopieert en plakt in het dialoogvenster **Auteur** wordt de vaste spatie omgezet in een spatie.
-Als u echter inhoud kopieert en plakt met een vaste spatie uit de **Auteur** het blijft behouden .
+- Als u inhoud met een vaste ruimte van om het even welke externe bronnen in de **auteur** mening kopieert en kleeft, wordt de vaste ruimte omgezet in een ruimte.
+Nochtans, als u inhoud met een vaste ruimte van de **auteur** mening kopieert en kleeft, wordt het bewaard.
 
 
-**Element-id automatisch genereren**
+**auto-produceerde elementidentiteitskaart**
 
 - U kunt automatisch IDs voor de elementen in uw DITA onderwerp produceren. Deze IDs is uniek binnen een onderwerp DITA. Als u bijvoorbeeld id&#39;s voor een alinea-element genereert, zijn de id&#39;s p\_1, p2, p\_3 enzovoort. U kunt meerdere elementen selecteren en id&#39;s genereren voor elk geselecteerd element.
 
@@ -247,9 +247,9 @@ Ga als volgt te werk om automatisch een id voor een of meerdere elementen te gen
 
 1. Open het onderwerp in de redacteur van het Web.
 1. Selecteer de inhoud waarop u id&#39;s wilt toewijzen.
-1. Klik met de rechtermuisknop en selecteer **Genereer id&#39;s vanuit het contextmenu.**
+1. Klik met de rechtermuisknop en selecteer **Generate IDs van het contextmenu.**
 
-   U kunt ook met de rechtermuisknop in de broodkruimel klikken en **Id&#39;s genereren**.
+   Alternatief kunt u in breadcrumb met de rechtermuisknop klikken en **selecteren produceert IDs**.
 
 
-**Bovenliggend onderwerp:**[ Werken met de webeditor](web-editor.md)
+**Bovenliggend onderwerp:**[ Werk met de Redacteur van het Web ](web-editor.md)

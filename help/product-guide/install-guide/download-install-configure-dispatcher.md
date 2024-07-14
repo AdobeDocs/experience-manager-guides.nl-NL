@@ -1,6 +1,6 @@
 ---
 title: Dispatcher configureren
-description: Leer hoe u Dispatcher configureert
+description: Leer hoe u Dispatcher kunt configureren
 exl-id: 525de1c3-5a79-4d65-89b4-ca05ae660c2c
 feature: Installation
 role: Admin
@@ -14,15 +14,15 @@ ht-degree: 3%
 
 # Dispatcher configureren {#id213BCM0M05U}
 
-Als u een Dispatcher op AEM instantie Auteur samen met AEM Gidsen wilt gebruiken, dan moet u de volgende extra configuraties uitvoeren om de opstelling te voltooien:
+Als u van plan bent om een Dispatcher op AEM instantie van de Auteur samen met AEM Guides te gebruiken, dan moet u de volgende extra configuraties uitvoeren om opstelling te voltooien:
 
 >[!NOTE]
 >
-> Dispatcher is de Adobe Experience Manager-tool voor cache- en taakverdelingsbewerkingen. Voor meer informatie over het gebruik van Dispatcher raadpleegt u [Overzicht van verzending](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html?lang=en).
+> Dispatcher is de Adobe Experience Manager-tool voor cache- en taakverdelingsbewerkingen. Voor meer details over het gebruiken van Dispatcher, zie [ Overzicht van Dispatcher ](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html?lang=en).
 
 ## EnableEncodedSlashes in URLs inschakelen
 
-URL&#39;s met gecodeerde schuine strepen zijn standaard niet ingeschakeld in AEM installatie van de verzender, maar als u werkt in AEM hulplijnen, moet u deze optie inschakelen. Hiervoor moet u de parameter AllowEncodedSlashes instellen op Aan in Apache-configuratie, zoals in het volgende fragment wordt getoond:
+URL&#39;s met gecodeerde schuine strepen zijn standaard niet ingeschakeld in AEM dispatcherinstellingen, maar als u in AEM Guides werkt, moet u deze optie inschakelen. Hiervoor moet u de parameter AllowEncodedSlashes instellen op Aan in Apache-configuratie, zoals in het volgende fragment wordt getoond:
 
 ```XML
 <VirtualHost *:80>
@@ -41,7 +41,7 @@ URL&#39;s met gecodeerde schuine strepen zijn standaard niet ingeschakeld in AEM
 
 ## Het bestand mime.types configureren voor DITA
 
-Wanneer u een Dispatcher met AEM hulplijnen gebruikt, moet u ervoor zorgen dat de DITA-kaart en onderwerpbestanden worden gerenderd als HTML zodat auteurs de inhoud kunnen bekijken zoals ze \(in plaats van onbewerkte tekstindeling\) verwachten.
+Wanneer u een Dispatcher met AEM Guides gebruikt, moet u ervoor zorgen dat de DITA-kaart en onderwerpbestanden worden gerenderd als HTML zodat auteurs de inhoud kunnen bekijken zoals ze \(in plaats van onbewerkte tekstindeling\) verwachten.
 
 Voer de volgende stappen uit om het bestand mime.types bij te werken:
 
@@ -60,13 +60,13 @@ Voer de volgende stappen uit om het bestand mime.types bij te werken:
 1. Sla het bestand op en sluit het.
 
 
-Deze configuratieupdate zorgt ervoor dat de kaart DITA en onderwerpdossiers die door de Verzender worden teruggegeven als HTML in Elementen UI worden getoond.
+Deze configuratieupdate zorgt ervoor dat de kaart DITA en onderwerpdossiers die door Dispatcher worden teruggegeven als HTML in Assets UI worden getoond.
 
 ## Aanvraag-URL voor gebruikersvoorkeuren toestaan
 
-Als u een Dispatcher met AEM hulplijnen gebruikt en uw instantie Auteur een verzender vooraan heeft, brengt u de volgende twee wijzigingen aan:
+Als u een Dispatcher met AEM Guides gebruikt en uw instantie Auteur een verzender op de voorgrond heeft, brengt u de volgende twee wijzigingen aan:
 
-- Whitelist de POST verzoek URL. Een voorbeeld &quot; `/filters`De regel wordt hieronder gegeven - voeg deze regel aan het configuratiedossier van de verzender toe:
+- Whitelist de POST verzoek URL. Hieronder ziet u een voorbeeldregel &quot; `/filters`&quot; - Deze regel toevoegen aan het configuratiebestand van de verzender:
 
 ```json
 /xxxx {/type "allow" /method "POST" /url "/home/users/*/preferences"}
@@ -81,4 +81,4 @@ Als u een Dispatcher met AEM hulplijnen gebruikt en uw instantie Auteur een verz
                 }
 ```
 
-**Bovenliggend onderwerp:**[ Downloaden en installeren](download-install.md)
+**Bovenliggend onderwerp:**[ Download en installeer ](download-install.md)

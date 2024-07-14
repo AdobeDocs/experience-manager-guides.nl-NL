@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # Vorm een gegevensbronschakelaar van het gebruikersinterface
 
-De Gidsen van de Experience Manager komt met **Gegevensbronnen** hulpmiddel dat u helpt uit-van-de-doosschakelaars voor gegevensbronnen vormen. U kunt opstelling JIRA, SQL (MySQL, PostgreSQL, de Server van Microsoft SQL, SQLite, MariaDB, H2DB), de schakelaars van de Cliënt van de Handel van Adobe, Elasticsearch, en Algemene REST.
+Experience Manager Guides komt met het **hulpmiddel van Gegevensbronnen** dat u helpt uit-van-de-doosschakelaars voor gegevensbronnen vormen. U kunt opstelling JIRA, SQL (MySQL, PostgreSQL, de Server van Microsoft SQL, SQLite, MariaDB, H2DB), de schakelaars van de Cliënt van de Handel van Adobe, Elasticsearch, en Algemene REST.
 
 
-Naast deze out-of-the-box schakelaars, verstrekt de Gidsen van de Experience Manager de schakelaars voor Salsify, Akeneo, en Microsoft Azure DevOps Boards (ADO) gegevensbronnen. U kunt deze opensource-connectors downloaden en installeren via de [Maven Central-opslagplaats](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides). De gebruikers kunnen deze schakelaars dan vormen.
-Leer hoe u [een opensource-connector installeren](#install-open-source-connector).
+Naast deze kant-en-klare connectors biedt Experience Manager Guides de connectors voor Salsify-, Akeneo- en Microsoft Azure DevOps Boards (ADO)-gegevensbronnen. U kunt deze open-bronschakelaars van de [ Gemaakt Centrale bewaarplaats downloaden en installeren ](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides). De gebruikers kunnen deze schakelaars dan vormen.
+Leer hoe te [ een open-bronschakelaar ](#install-open-source-connector) installeren.
 
 
 
@@ -26,16 +26,16 @@ U kunt ook verbinding maken met JSON-gegevensbestanden via een bestandsconnector
 
 Voer de volgende stappen uit om een connector te configureren:
 
-1. Selecteer de **Adobe Experience Manager** en kies Gereedschappen.
-1. Selecteren **Hulplijnen** in de lijst met gereedschappen.
-1. Selecteer de **Gegevensbronnen** tegel. De **Gegevensbronnen** wordt weergegeven. U kunt de verbonden gegevensbronnen weergeven.
+1. Selecteer de **verbinding van Adobe Experience Manager** bij de bovenkant en kies Hulpmiddelen.
+1. Selecteer **Gidsen** van de lijst van hulpmiddelen.
+1. Selecteer de **Bronnen van Gegevens** tegel. De **pagina van Gegevensbronnen** wordt getoond. U kunt de verbonden gegevensbronnen weergeven.
 
-   U kunt schakelen tussen de **Lijstweergave** of **Tegelweergave** om de verschillende verbonden gegevensbronnen als een lijst of als tegels te bekijken.
+   U kunt tussen de **Mening van de Lijst van een knevel voorzien** of **Blokmening** om de diverse verbonden gegevensbronnen als lijst of als tegels te bekijken.
 
    <img src="./assets/data-sources-create-window.png" alt= "gegevensbronnen vermeld op de pagina met gegevensbronnen" width="800">
 
-   *Een gegevensbronaansluiting weergeven of maken.*
-1. Klikken **Maken**.
+   *Mening of creeer een gegevensbronschakelaar.*
+1. Klik **creëren**.
 1. Selecteer het gegevensbestand waarvoor u de schakelaar wilt tot stand brengen. Bijvoorbeeld, de schakelaar van de Elasticsearch.
    >[!NOTE]
    >
@@ -49,35 +49,35 @@ Voer de volgende stappen uit om een connector te configureren:
    >* Overslaan <img src="./assets/info-details.svg" alt= "info icon" width="25"> in de buurt van het veld voor meer informatie.
    > * Velden met * zijn verplicht. U kunt bijvoorbeeld de volgende gegevens invoeren voor de aansluiting van de Elasticsearch.
 
-   * **Naam**: Voer de naam van de gegevensbron in.
-   * **Type verificatie**: Selecteer het type verificatie in de keuzelijst. Voorbeeld: Basic username-password authentication
-   * **Gebruikersnaam**: Voer uw gebruikersnaam in.
-   * **Wachtwoord**: Voer uw gebruikersnaam en wachtwoord in.
-   * **URL**: Voeg de API-URL toe.
+   * **Naam**: Ga de naam van de gegevensbron in.
+   * **Type van Authentificatie**: Selecteer het type van authentificatie van drop-down. Voorbeeld: Basic username-password authentication
+   * **Gebruikersnaam**: Ga uw gebruikersbenaming in.
+   * **Wachtwoord**: Ga uw gebruikersbenaming en wachtwoord in.
+   * **URL**: Voeg API URL toe.
 
 
-1. Selecteer de **Fabriekssjablonen uitsluiten** optie om de fabrieksmalplaatjes van voor onderwerp en fragmentgeneratie uit te sluiten worden gebruikt. Zij worden niet onder de **Gegevenstoewijzingssjabloon** vervolgkeuzelijst  **Generator voor inhoudsfragmenten toevoegen** of de **Onderwerpgenerator toevoegen** in.
+1. Selecteer de **Uitgesloten fabrieksmalplaatjes** optie om de fabrieksmalplaatjes van voor onderwerp en fragmentgeneratie uit te sluiten worden gebruikt. Zij zullen niet onder het **de kaartmalplaatje van Gegevens** dropdown in **verschijnen toevoegen inhoudsfragmentgenerator** of **toevoegen onderwerpgenerator** dialoogdoos.
 
 
-1. Selecteren **Verbinding testen**. U kunt de **Verbinding testen** Deze knop is alleen ingeschakeld nadat u de vereiste details hebt toegevoegd. Een succesbericht weergeven als de verbindingsgegevens juist zijn. Anders wordt mogelijk een foutbericht weergegeven.
+1. Selecteer **verbinding van de Test**. U kunt de **toegelaten knoop van de Verbinding van de Test** bekijken slechts nadat u de vereiste details toevoegt. Een succesbericht weergeven als de verbindingsgegevens juist zijn. Anders wordt mogelijk een foutbericht weergegeven.
 
 
 
-1. Selecteren **Opslaan** op de bovenkant om de schakelaar te bewaren.     De weergave **Opslaan** ingeschakeld nadat u alle details hebt ingevuld en de verbinding tot stand is gebracht.
+1. Selecteer **sparen** op de bovenkant om de schakelaar te bewaren.     Bekijk **sparen** toegelaten knoop nadat u alle details vult en de verbinding succesvol is.
 
 
    Als de connector is opgeslagen, kunt u de verbonden gegevensbron op de pagina weergeven.
 
-**Verbinding maken met meerdere bronnen**
+**verbind met veelvoudige middelen**
 
 U kunt veelvoudige middelen toevoegen of gebruiken die op verschillende URLs voor sommige schakelaars zoals Generische Cliënt van de REST, Salsify, Akeneo, en Microsoft Azure DevOps Boards (ADO) worden gebaseerd. Dan, verbind met hen om inhoudsfragmenten of onderwerpen tot stand te brengen gebruikend de generators voor hen.
 
 Voer de volgende stappen uit om een bron te maken:
 
-1. Selecteren ![pictogram toevoegen](assets/Add_icon.svg) in de **Sectie URL-bron** om een bron voor elke URL toe te voegen.
-1. Configureer alle details in het dialoogvenster **Bron toevoegen** in.
-1. Klikken **Toevoegen**.
-1. U kunt ![bewerkingspictogram](assets/edit_pencil_icon.svg) of verwijderen ![delete](assets/Delete_icon.svg) de bron in de URL-bronlijst.
+1. Selecteer ![ pictogram ](assets/Add_icon.svg) in de **het middelsectie van URL** toevoegen om een middel voor elke URL toe te voegen.
+1. Vorm alle details in **voeg middel** dialoogdoos toe.
+1. Klik **toevoegen**.
+1. U kunt ![ uitgeven pictogram ](assets/edit_pencil_icon.svg) of schrapt ![ ](assets/Delete_icon.svg) het middel van de URL middellijst.
 
 1. U kunt ook de standaardbronnen gebruiken die beschikbaar zijn voor gegevensbronnen zoals Salsify, Akeneo en Microsoft ADO. Schakel de opties UIT voor de bron die u niet wilt configureren voor een gegevensbron.
 
@@ -87,9 +87,9 @@ Dit helpt u om gegevens van om het even welke middelen voor een bepaalde gegeven
 
 ## Een opensource-connector installeren{#install-open-source-connector}
 
-Een afhankelijkheid publiceren die aanwezig is op de knop [Maven Central-opslagplaats](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides) aan de Cloud Servicen, moet u het gebiedsdeel voor een open-bronschakelaar omvatten en inbedden.
+Om een gebiedsdeel te publiceren dat op de [ Gemaakt Centrale bewaarplaats ](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides) aan de Cloud Servicen aanwezig is, moet u het gebiedsdeel voor een open-bronschakelaar omvatten en inbedden.
 
-1. Afhankelijkheid toevoegen in `all/pom.xml`  in uw Git-projectcode voor cloudbeheer. U kunt bijvoorbeeld de volgende afhankelijkheid toevoegen voor de gegevensbronaansluiting van Microsoft Azure DevOps Boards.
+1. Voeg de afhankelijkheid in `all/pom.xml` toe in de projectcode van Git voor cloudbeheer. U kunt bijvoorbeeld de volgende afhankelijkheid toevoegen voor de gegevensbronaansluiting van Microsoft Azure DevOps Boards.
 
 
    ```
@@ -104,9 +104,9 @@ Een afhankelijkheid publiceren die aanwezig is op de knop [Maven Central-opslagp
 1. Sluit de toegevoegde afhankelijkheid in.
 
        &quot;
-       &lt;embedded>
-       &lt;groupid>com.adobe.aem.addon.guides&lt;/groupid>
-       &lt;artifactid>konnect-azure devops&lt;/artifactid>
+        &lt;embedded>
+       &lt;groupId>com.adobe.name.addon.guides&lt;/groupId>
+       &lt;artifactId>konnect-azure-devops&lt;/artifactId> 
        &lt;type>jar&lt;/type>
        &lt;target>/apps/aemdoxonaemcsstageprogram-vendor-packages/content/install&lt;/target>
        &lt;/embedded>
@@ -118,23 +118,23 @@ De connector wordt in uw omgeving geïnstalleerd.
 
 ## Beschikbare functies voor een aansluiting
 
-* Schakelen tussen de **Lijstweergave** of **Tegelweergave**  om de verschillende verbonden gegevensbronnen als een lijst of als tegels te bekijken.
-* Schakel het selectievakje voor één aansluiting in. Klikken **Alles selecteren** om alle schakelaars te selecteren. U kunt op **Alle selecties opheffen** wanneer alle schakelaars worden geselecteerd.
+* Wisselen tussen de **Mening van de Lijst** of **Blokmening** om de diverse verbonden gegevensbronnen als lijst of als tegels te bekijken.
+* Schakel het selectievakje voor één aansluiting in. Klik **Uitgezocht allen** om alle schakelaars te selecteren. U kunt **klikken schrap allen** wanneer alle schakelaars worden geselecteerd.
 
 <img src="./assets/data-sources-features.png" alt= "kenmerken van de gegevensbronnen op de pagina met gegevensbronnen" width="800">
 
-*Een gegevensbronaansluiting bewerken, opnieuw verbinden, dupliceren of verwijderen.*
+*geef, maak opnieuw aan, dupliceerde, of schrap een gegevensbronschakelaar.*
 
-U kunt de volgende functies gebruiken voor de aansluiting op de **Gegevensbronnen** pagina:
+U kunt de volgende eigenschappen voor de schakelaar op de **Bronnen van Gegevens** pagina gebruiken:
 
-* **Bewerken**: Bewerk de configuratiedetails voor de geselecteerde connector.
+* **geeft** uit: geef de configuratiedetails voor de geselecteerde schakelaar uit.
 
-* **Opnieuw verbinden**: Opnieuw verbinden met een losgekoppelde connector.
+* **opnieuw verbinden**: Verbind opnieuw met een losgemaakte schakelaar.
 
-* **Dupliceren**: Maak een nieuwe dubbele connector met de huidige connector als basis. De dubbele schakelaar wordt gecreeerd met een achtervoegsel (als connectorname_1) door gebrek. Bijvoorbeeld: sample-elastic-search_1.
+* **Dupliceer**: Creeer een nieuwe dubbele schakelaar gebruikend de huidige schakelaar als basis. De dubbele schakelaar wordt gecreeerd met een achtervoegsel (als connectorname_1) door gebrek. Bijvoorbeeld: sample-elastic-search_1.
 U bekijkt een fout als de schakelaar met de zelfde naam bestaat.
 
-* **Verwijderen**: Verwijder de geselecteerde connector.
+* **Schrapping**: Schrap de geselecteerde schakelaar.
 
 
-Zodra u de gegevensbron hebt gevormd, is de schakelaar vermeld onder **Deelvenster Gegevensbronnen** in de webeditor. U kunt dan met de gegevensbron verbinden en een inhoudsfragment opnemen in uw onderwerpen. Voor meer informatie, bekijkt u [Een inhoudsfragment uit uw gegevensbron invoegen](../user-guide/web-editor-content-snippet.md).
+Zodra u de gegevensbron hebt gevormd, is de schakelaar vermeld onder het **paneel van Gegevensbronnen** in de Redacteur van het Web. U kunt dan met de gegevensbron verbinden en een inhoudsfragment opnemen in uw onderwerpen. Voor meer details, neemt de mening [ een inhoudsfragment van uw gegevensbron ](../user-guide/web-editor-content-snippet.md) op.

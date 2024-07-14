@@ -12,16 +12,16 @@ ht-degree: 0%
 ---
 
 
-# Nieuwe functies in de release van Adobe Experience Manager Guides in maart 2023 as a Cloud Service
+# Nieuwe functies in maart 2023 van Adobe Experience Manager Guides as a Cloud Service
 
-Dit artikel behandelt de nieuwe en verbeterde functies in versie maart 2023 van Adobe Experience Manager-hulplijnen (later aangeduid als *Hulplijnen AEM as a Cloud Service*).
+Dit artikel behandelt de nieuwe en verbeterde eigenschappen in versie Maart 2023 van Adobe Experience Manager Guides (later genoemd als *as a Cloud Service van AEM Guides*).
 
-Voor meer informatie over de upgrade-instructies, compatibiliteitsmatrix en de problemen die in deze release zijn opgelost, raadpleegt u de [Opmerkingen bij de release](release-notes-2023-3-0.md) artikel.
+Voor meer details op de verbeteringsinstructies, verenigbaarheidsmatrijs, en de kwesties die in deze versie worden bevestigd, zie het [ de nota&#39;s van de Versie ](release-notes-2023-3-0.md) artikel.
 
 
 ## Video- of audiobestanden openen en afspelen in de webeditor
 
-AEM Hulplijnen bieden nu de functie om de audio- of videobestanden te openen en af te spelen in de webeditor. U kunt het volume of de weergave van de video wijzigen. In het snelmenu kunt u ook de volgende opties instellen: **Downloaden**, wijzigen **Afspeelsnelheid**, of weergave **Foto in beeld**.
+AEM Guides beschikt nu over de functie om de audio- of videobestanden te openen en af te spelen in de webeditor. U kunt het volume of de weergave van de video wijzigen. In het kortere wegmenu, hebt u ook de opties om **Download**, verandering **Terugspeelsnelheid**, of mening **Beeld in Beeld** te downloaden.
 
 <img src="assets/video-web-editor.png" alt="video afspelen" width="600">
 

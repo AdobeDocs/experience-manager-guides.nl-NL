@@ -1,6 +1,6 @@
 ---
 title: Conversiestatus rapport
-description: Documenten met verschillende indelingen converteren naar DITA in AEM hulplijnen. Leer hoe u filters toevoegt en een statusrapport voor conversie weergeeft.
+description: Documenten met verschillende indelingen converteren naar DITA in AEM Guides. Leer hoe u filters toevoegt en een statusrapport voor conversie weergeeft.
 exl-id: 0a4699e5-865f-40e1-a17f-5e1a248ea955
 feature: Report Generation
 role: User
@@ -13,15 +13,15 @@ ht-degree: 0%
 
 # Conversiestatus rapport {#id205BBA00WZZ}
 
-AEM de Gidsen verstrekt een robuuste omzettingseigenschap om documenten van diverse formaten in DITA om te zetten. Het rapport Conversiestatus bevat een geconsolideerde weergave van alle conversietaken die door AEM hulplijnen worden uitgevoerd.
+AEM Guides biedt een robuuste conversiefunctie voor het converteren van documenten met verschillende indelingen naar DITA. Het rapport Conversiestatus bevat een geconsolideerde weergave van alle conversietaken die door AEM Guides worden uitgevoerd.
 
 Voer de volgende stappen uit om het rapport Conversiestatus weer te geven:
 
-1. Klik op de Adobe Experience Manager-koppeling bovenaan en kies **Gereedschappen**.
+1. Klik op de verbinding van Adobe Experience Manager bij de bovenkant en kies **Hulpmiddelen**.
 
-1. Selecteren **Hulplijnen** in de lijst met gereedschappen.
+1. Selecteer **Gidsen** van de lijst van hulpmiddelen.
 
-1. Klik op de knop **Conversiestatus rapport** tegel.
+1. Klik op de **tegel van het Rapport van de Status van de Omzetting 0} {.**
 
    Het rapport Conversiestatus wordt weergegeven voor alle conversietaken die op het systeem worden uitgevoerd.
 
@@ -37,23 +37,23 @@ Voer de volgende stappen uit om het rapport Conversiestatus weer te geven:
 
      ![](images/conversion-report-failed-active-queued.png){width="800" align="left"}
 
-   - **Rapportgegevens:**
+   - **gegevens van het Rapport:**
 
      De rapportgegevens bevatten de volgende kolommen:
 
-      - **Bestandsnaam**: Naam van het bronbestand waarop het conversieproces is uitgevoerd. Als u op de koppeling Bestandsnaam klikt, gaat u naar de locatie van het brondocument.
+      - **Naam van het Dossier**: Naam van het brondossier waarop het omzettingsproces werd uitgevoerd. Als u op de koppeling Bestandsnaam klikt, gaat u naar de locatie van het brondocument.
 
-      - **Bestandstype**: Type van het brondocument, dat Word, gestructureerde HTML, XML, en DocBook zou kunnen zijn.
+      - **Type van Dossier**: Type van het brondocument, dat Word, gestructureerde HTML, XML, en DocBook zou kunnen zijn.
 
-      - **Toegevoegd door**: Naam van de gebruiker die de conversietaak heeft uitgevoerd.
+      - **die door** wordt toegevoegd: Naam van de gebruiker die de omzettingstaak uitvoerde.
 
-      - **Datum van toevoeging**: Datum waarop de taak is uitgevoerd. Als u op de koppeling Datum toegevoegd klikt, wordt het logbestand gedownload.
+      - **Datum Toegevoegde**: Datum waarop de taak werd uitgevoerd. Als u op de koppeling Datum toegevoegd klikt, wordt het logbestand gedownload.
 
-      - **Pad**: Volledig pad van het brondocument.
+      - **Weg**: Volledige weg van het brondocument.
 
-      - **Status**: Status van de conversietaken - Voltooid, Mislukt, Actief of In de wachtrij.
+      - **Status**: Status van de omzettingstaken - Geslaagd Succes, Actief, of In een rij opgenomen.
 
-      - **Uitvoer**: Het pad van het geconverteerde document. Als u op de koppeling Uitvoer klikt, gaat u naar de locatie waar de uitvoer is opgeslagen.
+      - **Output**: Weg van het met succes omgezette document. Als u op de koppeling Uitvoer klikt, gaat u naar de locatie waar de uitvoer is opgeslagen.
 
 
-**Bovenliggend onderwerp:**[ Rapporten](reports-intro.md)
+**Bovenliggend onderwerp:**[ Rapporten ](reports-intro.md)

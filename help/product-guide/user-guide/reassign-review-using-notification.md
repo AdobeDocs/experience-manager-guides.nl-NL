@@ -1,6 +1,6 @@
 ---
 title: Revisietaak opnieuw toewijzen met behulp van melding
-description: Wijs een overzichtstaak opnieuw toe met behulp van meldingen in AEM hulplijnen. Zorg dat u weet hoe u een revisortaak opnieuw kunt toewijzen vanuit het inbox-bericht.
+description: Wijs een overzichtstaak opnieuw toe met behulp van berichten in AEM Guides. Zorg dat u weet hoe u een revisortaak opnieuw kunt toewijzen vanuit het inbox-bericht.
 exl-id: 6cd01564-aa26-4773-9c95-9dc519706f27
 feature: Reviewing
 role: User
@@ -17,13 +17,13 @@ U kunt een overzichtstaak opnieuw toewijzen die aan u is toegewezen, aan een and
 
 Hertoewijzen kan alleen worden uitgevoerd voor revisietaken en niet voor eigenaarstaken.
 
-1. **Revisortaak**: Elke taak die aan een controleur wordt toegewezen voor een revisie.
-1. **Eigenaarstaken**: Een taak die alleen voor de eigenaar wordt gemaakt. Wanneer u een revisietaak maakt en toewijst aan een revisor, ontvangt de eigenaar ook een eigenaartaak met de naam Sluiten &lt; taaknaam revisie\> \(bijvoorbeeld taak voor dichte revisie1\), maar deze eigenaarstaak kan aan niemand opnieuw worden toegewezen.
+1. **de taak van de Recensent**: Om het even welke taak die aan een recensent voor een overzicht wordt toegewezen.
+1. **taak van de Eigenaar**: Een taak die slechts voor de eigenaar wordt gecreeerd. Wanneer u een revisietaak maakt en toewijst aan een revisor, ontvangt de eigenaar ook een eigenaartaak met de naam Sluiten &lt; taaknaam revisie\> \(bijvoorbeeld taak voor dichte revisie1\), maar deze eigenaarstaak kan aan niemand opnieuw worden toegewezen.
 
 Voer de volgende stappen uit om een overzichtstaak vanuit het Inbox-bericht opnieuw toe te wijzen:
 
 1. Selecteer het bericht voor de controletaak in het Postvak IN.
-1. Selecteren **Opnieuw toewijzen** bovenaan.
+1. Selecteer **opnieuw toewijzen** pictogram op de bovenkant.
 1. Selecteer de gebruikersnaam aan wie u de taak opnieuw wilt toewijzen.
 
    >[!IMPORTANT]
@@ -32,10 +32,10 @@ Voer de volgende stappen uit om een overzichtstaak vanuit het Inbox-bericht opni
 
    ![](images/reassign-user-inbox.png){width="800" align="left"}
 
-1. Selecteren **Opnieuw toewijzen**.
+1. Selecteer **opnieuw toewijzen**.
 
 Zodra de overzichtstaak wordt opnieuw toegewezen, toont de kolom van de Toewijzing de naam van de recensent aan wie de taak is opnieuw toegewezen.
 
 De toegewezen controleur ontvangt een bericht in Inbox voor de opnieuw toegewezen overzichtstaak.
 
-**Bovenliggend onderwerp:**[ Onderwerpen of kaarten controleren](review.md)
+**Bovenliggend onderwerp:**[ onderwerpen of kaarten van het Overzicht ](review.md)

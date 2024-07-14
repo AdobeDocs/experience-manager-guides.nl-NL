@@ -1,6 +1,6 @@
 ---
 title: Overzicht
-description: Overzicht van Experience Manager AEM hulplijnen.
+description: Overzicht van Experience Manager AEM Guides.
 source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
 workflow-type: tm+mt
 source-wordcount: '37'
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Overzicht {#overview}
 
-Een overzicht van de 1-2 zin van het product waarop deze gebruikershandleiding is gecentreerd. Deze gebruikershandleiding bevat video&#39;s en zelfstudies over de vele functies en mogelijkheden van *xyz*.
+Een overzicht van de 1-2 zin van het product waarop deze gebruikershandleiding is gecentreerd. Deze gebruikersgids bevat video&#39;s en leerprogramma&#39;s op de vele eigenschappen en de mogelijkheden van *xyz*.
 
 <!--
 

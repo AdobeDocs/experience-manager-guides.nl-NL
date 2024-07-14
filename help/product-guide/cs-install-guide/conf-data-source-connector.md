@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Een gegevensbronaansluiting configureren
 
-AEM de Gidsen verstrekt uit-van-de-doos schakelaars voor de gegevensbestanden van JIRA, SQL (MySQL, PostgreSQL, SQL van Microsoft SQL, SQLite, MariaDB, H2DB), van de Handel van Adobe, en van de Elasticsearch. U kunt andere schakelaars ook toevoegen door de standaardinterfaces uit te breiden. De volgende configuratie helpt u om de diverse gegevensbronnen gemakkelijk toe te voegen. Zodra toegevoegd, kunt u de gegevensbronnen in de Redacteur van het Web bekijken.
+AEM Guides biedt kant-en-klare connectors voor JIRA-, SQL- (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce- en Elasticsearch-databases. U kunt andere schakelaars ook toevoegen door de standaardinterfaces uit te breiden. De volgende configuratie helpt u om de diverse gegevensbronnen gemakkelijk toe te voegen. Zodra toegevoegd, kunt u de gegevensbronnen in de Redacteur van het Web bekijken.
 
 Voer de volgende stappen uit om een gegevensbronschakelaar te vormen en dan het van de Redacteur van het Web te gebruiken:
 
@@ -40,7 +40,7 @@ Een voorbeeldinstellingenbestand voor de basisverificatie van Jira met gebruiker
 }
 ```
 
-Bijvoorbeeld, sparen als `jira.json`.
+Sla het bestand bijvoorbeeld op als `jira.json` .
 
 Een voorbeeldinstellingenbestand voor de basisverificatie van Jira met token:
 
@@ -59,7 +59,7 @@ Een voorbeeldinstellingenbestand voor de basisverificatie van Jira met token:
 }
 ```
 
-Bijvoorbeeld, sparen als `jira.json`.
+Sla het bestand bijvoorbeeld op als `jira.json` .
 
 Een voorbeeldinstellingenbestand voor de basisverificatie van Jira met het token dat het trefwoord &quot;Basic&quot; bevat:
 
@@ -78,7 +78,7 @@ Een voorbeeldinstellingenbestand voor de basisverificatie van Jira met het token
 }
 ```
 
-Bijvoorbeeld, sparen als `jira.json`.
+Sla het bestand bijvoorbeeld op als `jira.json` .
 
 Een voorbeeldinstellingenbestand voor de basisverificatie van MySql:
 
@@ -99,7 +99,7 @@ Een voorbeeldinstellingenbestand voor de basisverificatie van MySql:
 }
 ```
 
-Bijvoorbeeld, sparen als `mysql.json`.
+Sla het bestand bijvoorbeeld op als `mysql.json` .
 
 Een voorbeeldinstellingenbestand voor de basisverificatie van PostgreSQL:
 
@@ -120,7 +120,7 @@ Een voorbeeldinstellingenbestand voor de basisverificatie van PostgreSQL:
 }
 ```
 
-Bijvoorbeeld, sparen als `postgres.json`.
+Sla het bestand bijvoorbeeld op als `postgres.json` .
 
 Een voorbeeld van een installatiebestand voor de basisverificatie van Microsoft SQL Server:
 
@@ -141,7 +141,7 @@ Een voorbeeld van een installatiebestand voor de basisverificatie van Microsoft 
 }
 ```
 
-Bijvoorbeeld, sparen als `mssqlserver.json`.
+Sla het bestand bijvoorbeeld op als `mssqlserver.json` .
 
 Een voorbeeldinstellingenbestand voor de basisverificatie van SQLite:
 
@@ -162,7 +162,7 @@ Een voorbeeldinstellingenbestand voor de basisverificatie van SQLite:
 }
 ```
 
-Bijvoorbeeld, sparen als `sqqlite.json`.
+Sla het bestand bijvoorbeeld op als `sqqlite.json` .
 
 
 
@@ -185,7 +185,7 @@ Een voorbeeldinstellingsbestand voor H2DB:
 }
 ```
 
-Bijvoorbeeld, sparen als `sqqlite.json`.
+Sla het bestand bijvoorbeeld op als `sqqlite.json` .
 
 
 
@@ -208,7 +208,7 @@ Een voorbeeldinstellingsbestand voor de basisverificatie van MariaDb:
 }
 ```
 
-Bijvoorbeeld, sparen als `mariadb.json`.
+Sla het bestand bijvoorbeeld op als `mariadb.json` .
 
 
 Een voorbeeld van een instellingenbestand voor de basisverificatie van de Elasticsearch:
@@ -228,7 +228,7 @@ Een voorbeeld van een instellingenbestand voor de basisverificatie van de Elasti
 }
 ```
 
-Bijvoorbeeld, sparen als `ES.json`.
+Sla het bestand bijvoorbeeld op als `ES.json` .
 
 De vraag voor Elastic Onderzoek zou de index en de vraag moeten omvatten:
 
@@ -260,11 +260,11 @@ Een voorbeeldinstellingenbestand voor AdobeCommerce NoAuth:
 }
 ```
 
-Bijvoorbeeld, sparen als `commerce.json`.
+Sla het bestand bijvoorbeeld op als `commerce.json` .
 
 ### Een verbindingsconfiguratie aanpassen
 
-Met AEM hulplijnen kunt u bepaalde waarden in het configuratiebestand aanpassen aan de behoeften van de gebruiker.
+Met AEM Guides kunt u bepaalde waarden in het configuratiebestand aanpassen aan de behoeften van de gebruiker.
 
 | Eigenschapnaam | Beschrijving |
 |---|---|
@@ -277,10 +277,10 @@ Andere gebieden worden aangepast gebaseerd op de config klasse die wordt geselec
 
 Upload het bestand naar een locatie in AEM Assets.
 
-Bijvoorbeeld:  `/content/dam/jira.json`
+Bijvoorbeeld: `/content/dam/jira.json`
 
 ## Configuratie maken met REST API
 
-U kunt de configuratie registreren met REST API. Voor meer informatie bekijkt u de *REST API om een gegevensbronschakelaar te registreren* in de API-naslag voor Adobe Experience Manager-hulplijnen.
+U kunt de configuratie registreren met REST API. Voor meer details, bekijk *REST API om een sectie van de gegevensbronschakelaar* in de API Verwijzing voor Adobe Experience Manager Guides te registreren.
 
-Zodra u de gegevensbron hebt gevormd, is de schakelaar vermeld onder het paneel van Gegevensbronnen in de Redacteur van het Web. U kunt dan met de gegevensbron verbinden en een inhoudsfragment opnemen in uw onderwerpen. Voor meer informatie, bekijkt u [Een inhoudsfragment uit uw gegevensbron invoegen](../user-guide/web-editor-content-snippet.md).
+Zodra u de gegevensbron hebt gevormd, is de schakelaar vermeld onder het paneel van Gegevensbronnen in de Redacteur van het Web. U kunt dan met de gegevensbron verbinden en een inhoudsfragment opnemen in uw onderwerpen. Voor meer details, neemt de mening [ een inhoudsfragment van uw gegevensbron ](../user-guide/web-editor-content-snippet.md) op.

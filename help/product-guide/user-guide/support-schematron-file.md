@@ -1,6 +1,6 @@
 ---
 title: Ondersteuning voor Schematron-bestanden
-description: Leer hoe te om een DITA- onderwerp in te voeren en te bevestigen, de verklaringen van het gebruiksRapporten om regels te controleren, regex uitdrukkingen te gebruiken, en abstracte patronen in de dossiers van Schematron van AEM Gidsen te bepalen.
+description: Leer hoe te om een DITA- onderwerp in te voeren en te bevestigen, de verklaringen van het gebruiksrapport gebruiken om regels te controleren, regex uitdrukkingen te gebruiken, en abstracte patronen in de dossiers van Schematron van AEM Guides te bepalen.
 exl-id: ed07a5ec-6adc-43a3-8f03-248b8c963e9a
 feature: Authoring, Features of Web Editor
 role: User
@@ -26,10 +26,10 @@ Voer de volgende stappen uit om de Schematron-bestanden te importeren:
 
 ![](images/scematron-panel-add.png){width="300" align="left"}
 
-1. Navigeer naar de vereiste map (waar u de bestanden wilt uploaden) in *Weergave opslagplaats*.
-1. Klik op de knop **Opties** pictogram om het contextmenu te openen en **Elementen uploaden**.
-1. In de **Elementen uploaden** kunt u de doelmap in het dialoogvenster **Map voor middelen selecteren** veld.
-1. Klikken **Bestanden kiezen** en bladert u naar de gewenste Schematron-bestanden. U kunt een of meer Schematron-bestanden selecteren en vervolgens op **Uploaden**.
+1. Navigeer aan de vereiste omslag (waar u de dossiers) in *Mening van de Bewaarplaats wilt uploaden*.
+1. Klik het **pictogram van Opties** om het contextmenu te openen en **te kiezen uploadt Assets**.
+1. In **uploadt Assets** dialoog, kunt u de bestemmingsomslag in het **Uitgezochte gebied van de Omslag van Activa** veranderen.
+1. Klik **kiezen Dossiers** en doorblader om de dossiers van het Schema te selecteren. U kunt één of meerdere dossiers selecteren Schematron en dan **klikken uploadt**.
 
 ## Een DITA-onderwerp of -kaart valideren met Schematron
 
@@ -59,7 +59,7 @@ De steun van het Schematron in de Redacteur van het Web helpt u in het bevestige
 
 ## Instructies voor bevestigen en rapporteren gebruiken om op regels te controleren{#schematron-assert-report}
 
-AEM Hulplijnen ondersteunen ook de verklaringen van Schematron en rapporteren deze. Deze verklaringen helpen u uw onderwerpen DITA bevestigen.
+AEM Guides steunt ook de verklaringen van Schematron. Deze verklaringen helpen u uw onderwerpen DITA bevestigen.
 
 ### Instructie Assert
 
@@ -107,7 +107,7 @@ No one word titles.
 
 ## abstracte patronen definiëren{#schematron-abstract-patterns}
 
-AEM Hulplijnen ondersteunen ook abstracte patronen in Schematron. U kunt generische abstracte patronen bepalen hergebruik deze abstracte patronen.  U kunt plaatsaanduidingsparameters maken die het werkelijke patroon opgeven.
+AEM Guides ondersteunt ook abstracte patronen in Schematron. U kunt generische abstracte patronen bepalen hergebruik deze abstracte patronen.  U kunt plaatsaanduidingsparameters maken die het werkelijke patroon opgeven.
 
 
 Het gebruiken van abstracte patronen kan uw schema van het Schema vereenvoudigen door de duplicatie van regels te verminderen en het gemakkelijker te maken om uw bevestigingslogica te beheren en bij te werken. Het kan uw schema gemakkelijker maken te begrijpen, aangezien u complexe bevestigingslogica in één enkel abstract patroon kunt bepalen dat door het schema opnieuw kan worden gebruikt.

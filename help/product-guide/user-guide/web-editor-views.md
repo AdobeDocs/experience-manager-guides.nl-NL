@@ -1,6 +1,6 @@
 ---
 title: Weergaven van de webeditor
-description: Documenten weergeven in auteur-, bron- en voorvertoningsmodus. Leer hoe te om inhoud te bekijken die op voorwaardelijke filters wordt gebaseerd, de spoorveranderingen markeringen bekijken, en een onderwerp uitvoeren als PDF in AEM Gidsen.
+description: Documenten weergeven in auteur-, bron- en voorvertoningsmodus. Leer hoe te om inhoud te bekijken die op voorwaardelijke filters wordt gebaseerd, de spoorveranderingen markeringen bekijken, en een onderwerp als PDF uitvoeren in AEM Guides.
 exl-id: 74db2902-4507-4904-85d8-6b52e4af4c55
 feature: Authoring, Features of Web Editor
 role: User
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Weergaven van de webeditor {#id204GK0D0V5Z}
 
-AEM de Redacteur van het Web van Hulplijnen steunt het bekijken van documenten in drie verschillende wijzen of meningen:
+De Web Editor van AEM Guides ondersteunt het weergeven van documenten in drie verschillende modi of weergaven:
 
 ## Auteur
 
@@ -23,65 +23,65 @@ Dit is een typisch wat u ziet is wat u \ (WYSISYG \) mening van de Redacteur van
 >
 > Wanneer u de inhoudsverwijzing gebruikt, wordt de bedoelde inhoud ook in blauwe kleur weergegeven in de weergave Auteur. De betreffende inhoud kan niet worden bewerkt.
 
-## Bron
+## Source
 
-De Bronmening toont onderliggende XML die omhoog het onderwerp maakt. Als u het prettig bent om rechtstreeks met XML te werken, dan zou u de Bronmening moeten gebruiken. U kunt in deze weergave niet alleen gewone tekstbewerkingen uitvoeren, maar u kunt ook elementen en kenmerken toevoegen met de slimme catalogus, of tekst, elementen of kenmerken zoeken en vervangen.
+De mening van Source toont onderliggende XML die omhoog het onderwerp maakt. Als u het prettig bent om rechtstreeks met XML te werken, moet u de Source-weergave gebruiken. U kunt in deze weergave niet alleen gewone tekstbewerkingen uitvoeren, maar u kunt ook elementen en kenmerken toevoegen met de slimme catalogus, of tekst, elementen of kenmerken zoeken en vervangen.
 
 - Als u de slimme catalogus wilt aanroepen, plaatst u de cursor aan het einde van een elementtag op de plaats waar u het nieuwe element wilt invoegen en typt u &quot;&lt;&quot;. De redacteur toont een lijst van alle geldige elementen van XML die u bij die plaats kunt opnemen. Gebruik de pijltoetsen om het element te selecteren dat u wilt invoegen en druk op Enter. Wanneer u het afsluitende haakje &quot;\> invoert, wordt de afsluitende tag voor het element automatisch toegevoegd.
 
   ![](images/smart-catalog-elements.png){width="400" align="left"}
 
-- U kunt een element ook gemakkelijk van de Bronmening veranderen. Als u bijvoorbeeld de openingstag van een `p` element naar `note`en vervolgens het sluiten `p` -tag wordt automatisch gewijzigd in `/note`. Als u een element vervangt door een onjuist element, wordt onmiddellijk de validatiefout weergegeven.
+- U kunt een element ook gemakkelijk wijzigen vanuit de Source-weergave. Als u bijvoorbeeld de openingstag van een `p` -element wijzigt in `note` , wordt de afsluitende `p` -tag automatisch gewijzigd in `/note` . Als u een element vervangt door een onjuist element, wordt onmiddellijk de validatiefout weergegeven.
 
 - Als u een kenmerk aan een element wilt toevoegen, plaatst u de cursor in de elementtag en drukt u op de spatiebalk. In de slimme catalogus wordt een lijst met geldige kenmerken voor dat element weergegeven. Selecteer het gewenste element met de pijltoetsen en druk op Enter om het element in te voegen. Als u een waarde voor het kenmerk wilt opgeven, voert u het gelijkteken \(=\) in en voert de editor automatisch de aanhalingstekens openen en sluiten &quot;&quot; in, waarin u de waarde van het kenmerk kunt opgeven.
 
   ![](images/smart-catalog-attribute.png){width="350" align="left"}
 
-- In de Bronweergave is er een optie voor automatisch inspringen die de XML-code opnieuw indeelt in een indeling die presenteerbaar en gemakkelijk leesbaar is. Als u tekst selecteert en van Auteur naar bron of van bron naar Auteur overschakelt, wordt de geselecteerde tekst ook gemarkeerd in de andere weergave.
-- Een andere krachtige eigenschap in de Bronmening is de bevestiging van XML in uw document. Als u een document opent dat ongeldige XML bevat, wordt het geopend in de Bronmening met de informatie over ongeldige XML. In de volgende schermafbeelding wordt bijvoorbeeld de exacte informatie over de onjuiste XML gegeven in het pop-upvenster Parseerfout.
+- In de Source-weergave is er een optie voor automatisch inspringen waarmee de XML-code opnieuw wordt gerangschikt in een indeling die presenteerbaar en gemakkelijk leesbaar is. Als u tekst selecteert en van Auteur naar Source of van Source naar Auteur overschakelt, wordt de geselecteerde tekst ook gemarkeerd in de andere weergave.
+- Een andere krachtige functie in de weergave Source is de XML-validatie in uw document. Als u een document opent dat ongeldige XML bevat, wordt het geopend in de mening van Source met de informatie over ongeldige XML. In de volgende schermafbeelding wordt bijvoorbeeld de exacte informatie over de onjuiste XML gegeven in het pop-upvenster Parseerfout.
 
   ![](images/invalid-topic-xml.png){width="650" align="left"}
 
   In de bovenstaande schermafbeelding wordt een kruismarkering gebruikt om de regel met onjuiste XML te laten aanwijzen.
 
-- Met de functie Zoeken en vervangen kunt u zoeken naar tekst, elementen of kenmerken in de bronweergave.
-Zie voor meer informatie de **Zoeken en vervangen** functiebeschrijving in het dialoogvenster [Hoofdwerkbalk](web-editor-features.md#id#id2051EA0G05Z) sectie.
+- Met de functie Zoeken en vervangen kunt u zoeken naar tekst, elementen of kenmerken in de weergave Source.
+Voor meer details, zie **Vondst en vervang** eigenschapbeschrijving in de [ Belangrijkste toolbar ](web-editor-features.md#id#id2051EA0G05Z) sectie.
 
-- De Bronweergave bevat een groot aantal sneltoetsen waarmee u snel door een document kunt navigeren en aan een document kunt werken. In de volgende tabel worden de ondersteunde acties en de bijbehorende sneltoetsen weergegeven:
+- De Source-weergave bevat veel sneltoetsen waarmee u snel door een document kunt navigeren en aan een document kunt werken. In de volgende tabel worden de ondersteunde acties en de bijbehorende sneltoetsen weergegeven:
 
   | Dit doen | Deze sneltoets gebruiken |
   |----------|-----------------|
-  | Meerdere cursors toevoegen | **Ctrl**+Linker klikken |
-  | Meerdere niet-opeenvolgende tekstselecties | **Ctrl**+Klik links om tekst te slepen en te selecteren |
-  | Tekst tussen regels selecteren | **Alt**+Klik links om tekst te slepen en te selecteren |
+  | Meerdere cursors toevoegen | **CTRL**+Linkerklik |
+  | Meerdere niet-opeenvolgende tekstselecties | **CTRL** + linkerklik om tekst te slepen en te selecteren |
+  | Tekst tussen regels selecteren | **Alt** + linkerklik om tekst te slepen en te selecteren |
   | Meerdere selecties ongedaan maken of de modus Volledig scherm afsluiten | **Esc** |
-  | Automatisch aanvullen tonen | **Ctrl**+**Spatie** |
-  | Naar de openings- of afsluitende tag van de huidige tag gaan | **Ctrl**+**J** |
-  | De huidige tag en de inhoud ervan uitvouwen of samenvouwen | **Ctrl**+**Q** |
-  | Selecteer het huidige element en de inhoud ervan | **Ctrl**+**L** |
-  | Het huidige element uitspringen | **Shift**+**Tab** |
-  | Huidig element en inhoud verwijderen | **Shift**+**Ctrl**+**K** |
-  | Cursor één woord naar links verplaatsen | **Alt**+**Pijl-links** |
-  | Cursor één woord naar rechts verplaatsen | **Alt**+**Pijl-rechts** |
-  | Eén regel omhoog schuiven zonder de cursorlocatie te wijzigen | **Ctrl**+**Pijl-omhoog** |
-  | Eén regel omlaag schuiven zonder de cursorlocatie te wijzigen | **Ctrl**+**Pijl-omlaag** |
+  | Automatisch aanvullen tonen | **CTRL** + **Ruimte** |
+  | Naar de openings- of afsluitende tag van de huidige tag gaan | **CTRL** + **J** |
+  | De huidige tag en de inhoud ervan uitvouwen of samenvouwen | **CTRL** + **Q** |
+  | Selecteer het huidige element en de inhoud ervan | **CTRL** + **L** |
+  | Het huidige element uitspringen | **Verschuiving** + **Lusje** |
+  | Huidig element en inhoud verwijderen | **Verschuiving** + **CTRL** + **K** |
+  | Cursor één woord naar links verplaatsen | **Alt** + **Linkerpijl** |
+  | Cursor één woord naar rechts verplaatsen | **Alt** + **Juiste Pijl** |
+  | Eén regel omhoog schuiven zonder de cursorlocatie te wijzigen | **CTRL** + **Omhoog Pijl** |
+  | Eén regel omlaag schuiven zonder de cursorlocatie te wijzigen | **CTRL** + **Omlaag Pijl** |
   | Volledig scherm in-/uitschakelen | **F11** |
-  | Nieuwe regel invoegen na het huidige element | **Ctrl**+**Enter** |
-  | Nieuwe regel invoegen voor het huidige element | **Shift**+**Ctrl**+**Enter** |
-  | De volgende instantie van het huidige woord zoeken en selecteren | **Ctrl**+**D** |
-  | Het huidige element en de inhoud ervan één element omhoog verplaatsen | **Shift**+**Ctrl**+**Pijl-omhoog** |
-  | Het huidige element en de inhoud ervan één element omlaag verplaatsen | **Shift**+**Ctrl**+**Pijl-omlaag** |
-  | Het huidige element laten teruglopen in de commentaartag | **Ctrl**+**/** |
-  | Huidig element en inhoud dupliceren | **Shift**+**Ctrl**+**D** |
-  | Tekst na de cursor verwijderen. Als de cursor zich vóór een openingselement bevindt, wordt het gehele element verwijderd. | **Ctrl**+**K**+**K** |
-  | Tekst links van de cursor op de huidige regel verwijderen. Als de cursor zich na de afsluitende tag van een element bevindt, wordt het hele element verwijderd. | **Ctrl**+**K**+**Backspace** |
-  | Huidige tekst omzetten in hoofdletters | **Ctrl**+**K**+**U** |
-  | Zet de huidige tekst om in kleine letters | **Ctrl**+**K**+**L** |
-  | Het huidige element naar het midden van de editor schuiven | **Ctrl**+**K**+**C** |
-  | Een cursor boven de huidige positie toevoegen | **Ctrl**+**Alt**+**Pijl-omhoog** |
-  | Een cursor onder de huidige positie toevoegen | **Ctrl**+**Alt**+**Pijl-omlaag** |
-  | Het huidige woord \(in voorwaartse richting\) recursief zoeken | **Ctrl**+**F3** |
-  | Het huidige woord \(in achterwaartse richting\) recursief zoeken | **Shift**+**Ctrl**+**F3** |
+  | Nieuwe regel invoegen na het huidige element | **CTRL** + **gaat** binnen |
+  | Nieuwe regel invoegen voor het huidige element | **Verschuiving** + **CTRL** + **gaat** binnen |
+  | De volgende instantie van het huidige woord zoeken en selecteren | **CTRL** + **D** |
+  | Het huidige element en de inhoud ervan één element omhoog verplaatsen | **Verschuiving** + **CTRL** + **omhoog Pijl** |
+  | Het huidige element en de inhoud ervan één element omlaag verplaatsen | **Verschuiving** + **CTRL** + **onderaan Pijl** |
+  | Het huidige element laten teruglopen in de commentaartag | **CTRL** + **/** |
+  | Huidig element en inhoud dupliceren | **Verschuiving** + **CTRL** + **D** |
+  | Tekst na de cursor verwijderen. Als de cursor zich vóór een openingselement bevindt, wordt het gehele element verwijderd. | **CTRL** + **K** + **K** |
+  | Tekst links van de cursor op de huidige regel verwijderen. Als de cursor zich na de afsluitende tag van een element bevindt, wordt het hele element verwijderd. | **CTRL** + **K** + **Backspace** |
+  | Huidige tekst omzetten in hoofdletters | **CTRL** + **K** + **U** |
+  | Zet de huidige tekst om in kleine letters | **CTRL** + **K** + **L** |
+  | Het huidige element naar het midden van de editor schuiven | **CTRL** + **K** + **C** |
+  | Een cursor boven de huidige positie toevoegen | **CTRL** + **Alt** + **omhoog Pijl** |
+  | Een cursor onder de huidige positie toevoegen | **CTRL** + **Alt** + **onderaan Pijl** |
+  | Het huidige woord \(in voorwaartse richting\) recursief zoeken | **CTRL** + **F3** |
+  | Het huidige woord \(in achterwaartse richting\) recursief zoeken | **Verschuiving** + **CTRL** + **F3** |
 
 
 ## Voorvertoning
@@ -98,7 +98,7 @@ In de modus Voorbeeld hebt u de volgende functies:
 
 Als u voorwaarden in uw onderwerp of kaart hebt gebruikt, worden die voorwaarden getoond in het paneel van Filters. Standaard zijn alle voorwaarden geselecteerd en wordt de volledige inhoud weergegeven. Als u een voorwaarde deselecteert, wordt de inhoud met die voorwaarde verwijderd uit de weergave. U kunt ook geconditionaliseerde inhoud markeren.
 
-De volgende afbeelding toont een onderwerp dat twee voorwaarden gebruikt — `Audience` en `Product`. De geconditionaliseerde inhoud wordt gemarkeerd met een gele achtergrond.
+In de volgende afbeelding ziet u een onderwerp dat gebruikmaakt van twee voorwaarden: `Audience` en `Product` . De geconditionaliseerde inhoud wordt gemarkeerd met een gele achtergrond.
 
 ![](images/preview-filters.png){width="800" align="left"}
 
@@ -108,11 +108,11 @@ Als een document markeringen \(of visuele aanwijzingen\) voor wijzigingen in de 
 
 ![](images/preview-tracking_cs.png){width="400" align="left"}
 
-Er zijn drie **Tekstspatiëring** opties waaruit u kunt kiezen:
+Er zijn drie **het Volgen** opties die u van kunt kiezen:
 
-- **Geen opmaak**: In deze weergave worden alle invoegingen en verwijderingen geaccepteerd en wordt een eenvoudige weergave van het document weergegeven. In deze weergave ziet u geen markeringen voor wijzigingen in de track.
-- **Origineel**: In deze weergave worden alle invoegingen afgewezen en worden alle verwijderingen hersteld. Daarna wordt een voorbeeld weergegeven. Eenvoudig, krijgt u de originele vorm van het document alvorens u de wijze van spoorveranderingen toeliet.
-- **Markering tonen**: In deze weergave worden alle markeringen voor ingevoegde en verwijderde inhoud weergegeven.
+- **Geen Prijsverhoging**: In deze mening, worden alle toevoegingen en schrappingen goedgekeurd, en een eenvoudige mening van het document wordt voorgesteld. In deze weergave ziet u geen markeringen voor wijzigingen in de track.
+- **Origineel**: In deze mening, worden alle tussenvoegsels verworpen en alle schrappingen worden hersteld terug, en dan wordt een voorproef getoond. Eenvoudig, krijgt u de originele vorm van het document alvorens u de wijze van spoorveranderingen toeliet.
+- **toon Markup**: In deze mening, krijgt u alle markeringen voor opgenomen en geschrapte inhoud.
 
   In de volgende afbeelding ziet u een voorvertoning van een kaartbestand met markeringen:
 
@@ -121,7 +121,7 @@ Er zijn drie **Tekstspatiëring** opties waaruit u kunt kiezen:
 
 ### Een onderwerp exporteren als PDF {#id2114BL00B5U}
 
-PDF is een van de meest gebruikte uitvoerindelingen die in elke mogelijke fase van de ontwikkelingscyclus van het document wordt gebruikt. AEM de Gidsen verstrekt u de flexibiliteit om de PDF van een individueel onderwerp of een volledig kaartdossier te produceren. De uitvoer als eigenschap van PDF staat de Auteur, de Uitgever, of een Beheerder toe om de output van de PDF voor een individueel onderwerp gemakkelijk te produceren. De DITA-OT-configuraties die zijn opgeslagen in het profiel op mapniveau worden gebruikt om de PDF te genereren.
+PDF is een van de meest gebruikte uitvoerindelingen die in elke mogelijke fase van de ontwikkelingscyclus van het document wordt gebruikt. AEM Guides biedt u de flexibiliteit om de PDF van een individueel onderwerp of een volledig kaartdossier te produceren. De uitvoer als eigenschap van PDF staat de Auteur, de Uitgever, of een Beheerder toe om de output van de PDF voor een individueel onderwerp gemakkelijk te produceren. De DITA-OT-configuraties die zijn opgeslagen in het profiel op mapniveau worden gebruikt om de PDF te genereren.
 
 Deze functie ondersteunt de volgende functies:
 
@@ -134,15 +134,15 @@ Voer de volgende stappen uit om een onderwerp als PDF te exporteren:
 
 1. Open het onderwerp in de modus Voorbeeld.
 
-1. Klik op de knop **Exporteren als PDF** \(![](images/export-as-pdf-icon.svg)\).
+1. Klik de **Uitvoer als PDF** \ (![](images/export-as-pdf-icon.svg) \) pictogram.
 
    Het dialoogvenster Exporteren als PDF wordt weergegeven.
 
    ![](images/export-as-pdf-dialog.png){width="350" align="left"}
 
-1. *\(Optioneel\)* Geef de naam van de DITA-OT-transformatie en eventuele opdrachtregelargumenten op die u wilt gebruiken.
+1. *\ (Facultatief \)* specificeer de transformatienaam DITA-OT en om het even welke bevel-lijn argumenten die u wilt gebruiken.
 
-1. Klikken **Downloaden**.
+1. Klik **Download**.
 
    >[!NOTE]
    >
@@ -151,4 +151,4 @@ Voer de volgende stappen uit om een onderwerp als PDF te exporteren:
    De PDF wordt gegenereerd en geopend op een nieuw tabblad of er wordt een dialoogvenster weergegeven waarin u de PDF op uw lokale systeem kunt opslaan.
 
 
-**Bovenliggend onderwerp:**[ Werken met de webeditor](web-editor.md)
+**Bovenliggend onderwerp:**[ Werk met de Redacteur van het Web ](web-editor.md)

@@ -14,12 +14,12 @@ ht-degree: 0%
 
 # Bestaande inhoud migreren {#id181AGB000Y4}
 
-Met AEM hulplijnen kunt u diverse gestructureerde en ongestructureerde documenten omzetten in DITA-indeling. Dit onderwerp behandelt de informatie over het uploaden van uw inhoud DITA in de AEM bewaarplaats en het omzetten van niet-DITA inhoud in formaat DITA.
+Met AEM Guides kunt u diverse gestructureerde en ongestructureerde documenten omzetten in DITA-indeling. Dit onderwerp behandelt de informatie over het uploaden van uw inhoud DITA in de AEM bewaarplaats en het omzetten van niet-DITA inhoud in formaat DITA.
 
 >[!TIP]
 >
-> Zie de *Migratie en uploaden van inhoud* sectie [Bijlage.md](appendix.md) in de handleiding met aanbevolen procedures voor aanbevolen procedures voor het gebruik van migrerende en geüploade bestaande inhoud.
+> Zie de *migratie van de Inhoud en upload* sectie [ Appendix.md ](appendix.md) in de Beste praktijken gids voor beste praktijken rond het gebruiken van het migreren en het uploaden van bestaande inhoud.
 
-- **[Bestaande DITA-inhoud uploaden](migrate-content-upload-existing-dita-content.md)**
+- **[upload bestaande inhoud DITA](migrate-content-upload-existing-dita-content.md)**
 
-- **[Niet-DITA-inhoud migreren](migrate-content-non-dita.md)**
+- **[Migreer niet-DITA inhoud](migrate-content-non-dita.md)**

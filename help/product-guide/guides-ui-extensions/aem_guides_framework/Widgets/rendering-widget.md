@@ -2,7 +2,8 @@
 title: Widgets renderen
 description: Hoe rendering werkt in JUI-widgets
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 381cc7b9-c957-40be-9db4-8347eefe2fa7
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 0%
@@ -11,9 +12,9 @@ ht-degree: 0%
 
 # Widgets renderen
 
-We kunnen een widget renderen door ernaar te verwijzen met behulp van zijn `id`
+We kunnen een widget renderen door ernaar te verwijzen met behulp van de `id`
 
-De widget renderen `widget_languages` overal in de app kunnen we de eenvoudige syntaxis gebruiken:
+Om de widget `widget_languages` overal in de app te renderen, kunnen we de eenvoudige syntaxis gebruiken:
 
 ```json
 {
@@ -67,7 +68,7 @@ const listJSON = {
 }
 ```
 
-hier `@files` is een lijst met bestandsobjecten die velden bevatten
+Hier `@files` is een lijst met bestandsobjecten die velden bevatten
 
 ```typescript
 - fileName: string

@@ -15,17 +15,17 @@ ht-degree: 0%
 
 De eenvoudigste manier is om het kenmerk translatie=no te gebruiken.
 
-+ Auteurs kunnen het aanvullende kenmerk invoegen als **translatie=no** in de alinea&#39;s die zij niet willen vertalen. De vertaalleverancier moet worden geïnformeerd en zij kunnen configuratie aan hun eind doen om de tekst met dit attribuut te negeren.
++ De auteurs kunnen de extra attributen als **vertaling=no** op de paragrafen opnemen die zij niet willen vertalen. De vertaalleverancier moet worden geïnformeerd en zij kunnen configuratie aan hun eind doen om de tekst met dit attribuut te negeren.
 + De machinevertaling OOTB (met de proefschakelaar van Microsoft Translation) vertoont hetzelfde gedrag.
-+ Testen met Microsoft Translation: als u definieert **translate=no** wordt de volledige alinea niet vertaald. Dit kenmerk kan op elk element worden gedefinieerd en de inhoud binnen dat element wordt niet vertaald.
++ Testen met de Vertaling van Microsoft: als u **translate=no** attributen op paragraafniveau bepaalt dan vertaalt het niet de volledige paragraaf. Dit kenmerk kan op elk element worden gedefinieerd en de inhoud binnen dat element wordt niet vertaald.
 
 
 Hier volgen enkele schermafbeeldingen die dit nader verklaren:
 
-**Broninhoud**
+**Inhoud Source**
 
-![Broninhoud](assets/source-content.jpg)
+![ Inhoud Source ](assets/source-content.jpg)
 
-**Vertaalde inhoud in het Spaans**
+**Vertaalde Inhoud in Spaans**
 
-![Vertaalde inhoud in het Spaans](assets/trans-content.jpg)
+![ Vertaalde Inhoud in Spaans ](assets/trans-content.jpg)

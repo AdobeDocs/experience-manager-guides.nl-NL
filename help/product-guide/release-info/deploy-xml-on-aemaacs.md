@@ -1,6 +1,6 @@
 ---
-title: Toevoegen [!DNL Experience Manager Guides] aan uw [!DNL Experience Manager as a Cloud Service] milieu
-description: Meer informatie over toevoegen [!DNL AEM Guides] aan uw [!DNL AEM as a Cloud Service] milieu
+title: Hoe te  [!DNL Experience Manager Guides]  aan uw  [!DNL Experience Manager as a Cloud Service]  milieu toevoegen
+description: Leer hoe te  [!DNL AEM Guides]  aan uw  [!DNL AEM as a Cloud Service]  milieu toevoegen
 exl-id: a1e020c2-360c-4d71-b5fd-8179d9ceacda
 feature: Installation
 role: Leader
@@ -13,27 +13,27 @@ ht-degree: 0%
 
 # [!DNL Adobe Experience Manager Guides] as a Cloud Service implementatie
 
-Meer informatie over toevoegen [!DNL Experience Manager Guides] aan uw [!DNL Experience Manager as a Cloud Service] milieu.
+Leer hoe u [!DNL Experience Manager Guides] toevoegt aan uw [!DNL Experience Manager as a Cloud Service] -omgeving.
 
 
 >[!NOTE]
 >
-> Vanaf versie 2024.2.0, zijn de Gidsen van de Experience Manager slechts beschikbaar als geautomatiseerde toe:voegen-op voor as a Cloud Service Experience Manager. Als u handmatige implementaties voor hulplijnen voor Experience Managers gebruikt, verwijdert u de regel `<module>dox.installer</module> from file dox/pom.xml` in uw cloud manage it codebase voordat u Experience Manager Guides inschakelt voor uw programma.
+> Vanaf release 2024.2.0 is Experience Manager Guides alleen beschikbaar als een geautomatiseerde invoegtoepassing voor Experience Manager as a Cloud Service. Als u handmatige implementaties voor Experience Manager Guides gebruikt, verwijdert u eerst de regel `<module>dox.installer</module> from file dox/pom.xml` in uw codebase voor kleurbeheer in de cloud voordat u Experience Manager Guides voor uw programma inschakelt.
 
-1. Aanmelden bij [!UICONTROL Cloud Manager].
+1. Meld u aan bij [!UICONTROL Cloud Manager] .
 
-1. Bewerk het programma waarvoor u wilt configureren [!DNL Experience Manager Guides].
+1. Bewerk het programma waarvoor u [!DNL Experience Manager Guides] wilt configureren.
 
-1. Overschakelen op **[!UICONTROL Solutions and Add-ons]** tab.
+1. Ga naar **[!UICONTROL Solutions and Add-ons]** tab.
 
-1. In de **[!UICONTROL Solutions and Add-ons]** tabel, klik op **[!UICONTROL Assets]**.
+1. Klik in de tabel **[!UICONTROL Solutions and Add-ons]** op **[!UICONTROL Assets]** .
 
-1. Selecteren **[!UICONTROL Guides]** en selecteert u **[!UICONTROL Save]**.
+1. Selecteer **[!UICONTROL Guides]** en selecteer **[!UICONTROL Save]** .
 
-U hebt met succes uw programma voor automatische levering van de oplossing van de Gidsen van de Experience Manager gevormd.
+U hebt met succes uw programma voor automatische levering van de oplossing van Experience Manager Guides gevormd.
 
-![Oplossing voor het configureren van hulplijnen voor Experience Managers](assets/addon-configuration.png)
+![ Vormend de oplossing van Experience Manager Guides ](assets/addon-configuration.png)
 
 >[!NOTE]
 >
->Om te installeren [!DNL Experience Manager Guides] op elk milieu in het kader van het geïntegreerde programma moet u de pijpleiding voor het milieu in werking stellen . Er is geen aanvullende configuratie vereist in uw CM-it-codebase voor installatie [!DNL Experience Manager Guides].
+>Als u [!DNL Experience Manager Guides] wilt installeren op een willekeurige omgeving in het kader van het geïntegreerde programma, moet u de pijplijn uitvoeren die is gekoppeld aan de omgeving. Voor de installatie van [!DNL Experience Manager Guides] is geen aanvullende configuratie vereist in uw CM-git-codebase.

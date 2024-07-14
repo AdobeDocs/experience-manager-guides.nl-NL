@@ -13,43 +13,44 @@ ht-degree: 0%
 
 # De kwaliteit van inhoud beheren in de webeditor
 
-In dit artikel vindt u een overzicht van de validatiemogelijkheden in AEM webeditor voor hulplijnen.
+In dit artikel wordt een overzicht gegeven van de validatiemogelijkheden in de AEM Guides-webeditor.
 Door ontwerp Web-redacteur hefboomwerkingen het DITA schema opstelling in het systeem om gebruikers af te dwingen om DITA volgzame inhoud tot stand te brengen. Met dit, is al inhoud die in het systeem wordt opgeslagen gestructureerd, herbruikbaar en geldige inhoud DITA.
 
-Naast ondersteuning voor DITA-regels ondersteunt de webeditor ook validatie van inhoud die is gebaseerd op &quot;*Schematron*&quot;regels.
+Voorbij steun voor regels DITA, Web-redacteur steunt ook bevestiging van inhoud die op &quot;*Schematron*&quot;regels wordt gebaseerd.
 
-&quot;*Schematron*&quot; verwijst naar een op regels gebaseerde validatietaal die wordt gebruikt om tests voor een XML-bestand te definiëren. U kunt de Schematron dossiers invoeren en hen ook uitgeven in de Redacteur van het Web. Gebruikend een &quot;Schematron&quot;dossier kunt u bepaalde regels bepalen en dan hen voor een DITA onderwerp of een kaart bevestigen. Regels voor schema kunnen de consistentie van de XML-structuur waarborgen door beperkingen op te leggen die als regels worden gedefinieerd. Deze beperkingen zijn ingegeven door KMO&#39;s die de kwaliteit en consistentie van de inhoud bezitten.
+&quot;*Schematron*&quot;verwijst naar een op regel-gebaseerde bevestigingstaal die wordt gebruikt om tests voor een dossier van XML te bepalen. U kunt de Schematron dossiers invoeren en hen ook uitgeven in de Redacteur van het Web. Gebruikend een &quot;Schematron&quot;dossier kunt u bepaalde regels bepalen en dan hen voor een DITA onderwerp of een kaart bevestigen. Regels voor schema kunnen de consistentie van de XML-structuur waarborgen door beperkingen op te leggen die als regels worden gedefinieerd. Deze beperkingen zijn ingegeven door KMO&#39;s die de kwaliteit en consistentie van de inhoud bezitten.
 
-    NOTA: De redacteur van het Web steunt het Schematron van ISO.
+     NOTA: De redacteur van het Web steunt het Schematron van ISO.
 
 
 ## Kennis van hoe &quot;Schematron&quot; werkt in de webeditor
 
 ### Schematron-regels configureren
 
-Zie de sectie &quot;Ondersteuning voor Schematron-bestanden&quot; in het dialoogvenster [Handboek](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_User-Guide_EN.pdf#page=148)
+Verwijs sectie &quot;Steun voor de dossiers van Schematron&quot;in de [ Gids van de Gebruiker ](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_User-Guide_EN.pdf#page=148)
 
 
 ### Validatieregels toepassen bij het opslaan van bestanden
 
-Met de instellingen van Webeditor kunnen de stroomgebruikers Schematron-regels/bestanden instellen die worden uitgevoerd telkens wanneer een gebruiker de inhoud bijwerkt. Zie de sectie Validatie in voor meer informatie [Handboek](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_User-Guide_EN.pdf#page=58)
+Met de instellingen van Webeditor kunnen de stroomgebruikers Schematron-regels/bestanden instellen die worden uitgevoerd telkens wanneer een gebruiker de inhoud bijwerkt. Voor meer details verwijs sectie &quot;Bevestiging&quot;in [ Gids van de Gebruiker ](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_User-Guide_EN.pdf#page=58)
 
-![Regels instellen op basis van instellingen voor webeditors](../../../assets/authoring/schematron-editorsettings-validation-tab.png)
+![ vastgestelde regels van Web-editor montages ](../../../assets/authoring/schematron-editorsettings-validation-tab.png)
 
 
 ### Kan validatie handmatig worden uitgevoerd?
 
 Ja, als auteur/gebruiker tijdens het maken van inhoud kunt u het deelvenster Schema in de webbrowser gebruiken om een schemabestand te uploaden en validaties uit te voeren voor het bestand dat is geopend in de editor.
 
-    Dit werkt alleen als beheerders van mapprofielen alle gebruikers de mogelijkheid bieden om schemabestanden toe te voegen in het deelvenster Validatie. Zie editorinstellingen (bovenstaande screenshot)
+     voor dit om te werken, moet de beheerder van het omslagprofiel alle gebruikers toestaan om de dossiers van het Schema in het paneel van de Bevestiging toe te voegen. Zie redacteursmontages (hierboven gegeven screenshot) 
 
-![Schematron-bestand kiezen](../../../assets/authoring/schematron-rightpanel-validation-addsch.png)
-![Validatie uitvoeren](../../../assets/authoring/schematron-rightpanel-validation-runsch.png)
+![ kies het dossier van het Schema ](../../../assets/authoring/schematron-rightpanel-validation-addsch.png)
+![ bevestiging van de Looppas ](../../../assets/authoring/schematron-rightpanel-validation-runsch.png)
 
 
 ### Ondersteunde regels
 
-De huidige versie van AEM hulplijnen ondersteunt alleen validatie met alleen op bevestiging gebaseerde regels. (zie [activa/rapport](https://schematron.com/document/205.html)) Regels die zijn gebaseerd op &#39;Rapporten&#39; worden nog niet ondersteund.
+De huidige versie van AEM Guides biedt alleen ondersteuning voor validatie met behulp van &#39;Assertion&#39;-regels. (zie [ activa vs rapport ](https://schematron.com/document/205.html))
+Regels die zijn gebaseerd op &#39;Rapporten&#39; worden nog niet ondersteund.
 
 
 ### Monsters en meer hulp bij de schoolregels
@@ -100,6 +101,6 @@ De huidige versie van AEM hulplijnen ondersteunt alleen validatie met alleen op 
 
 #### Bronnen
 
-- Begrijpen  [Basisbegrippen van Schematron](https://da2022.xatapult.com/#what-is-schematron)
-- Meer informatie [Bevestigingsregels in Schematron](https://www.xml.com/pub/a/2003/11/12/schematron.html#Assertions)
+- Het begrip [ Basisprincipes van Schematron ](https://da2022.xatapult.com/#what-is-schematron)
+- Meer over [ de regels van de Bevestiging in Schematron ](https://www.xml.com/pub/a/2003/11/12/schematron.html#Assertions)
 - [Voorbeeld van schemabestand](../../../assets/authoring/sample_schematron.sch)

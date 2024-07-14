@@ -1,6 +1,6 @@
 ---
 title: Uitvoervariaties voor AEM Sites
-description: Leer hoe u verschillende AEM Sites-uitvoervariaties van AEM Guides kunt generate gebruiken
+description: Leer hoe u verschillende variaties kunt genereren voor AEM Sites-uitvoer vanuit AEM Guides
 source-git-commit: e4873d61fce4a44cf77fadb2b1a4425252c71af8
 workflow-type: tm+mt
 source-wordcount: '196'
@@ -11,9 +11,11 @@ ht-degree: 0%
 
 # Overzicht van sessie
 
-Een duidelijk gedefinieerde lay-out van een webervaring resulteert in consistente branding en ontwerp van toepassingen en in uniformiteit en samenhang in de gehele digitale ervaring/pagina&#39;s van het platform.
+Een duidelijk gedefinieerde indeling van een webervaring leidt tot consistente branding van toepassingen
+en ontwerpen, samen met uniformiteit en coherentie in de gehele digitale
+ervaring/pagina&#39;s van het platform.
 Dit kan allemaal worden bereikt door verschillende variaties van AEM siteuitvoer die worden aangeboden door hulplijnen van de manager van de Adobe Experience.
-In deze sessie leert u hoe u verschillende uitvoervariaties van AEM sites kunt generate leren.
+In deze sessie leert u hoe u verschillende variaties van de uitvoer van AEM sites kunt genereren.
 
 ## Sessieopname
 
@@ -30,21 +32,21 @@ In deze sessie leert u over het volgende:
 
 ## Hooglichten
 
-- **Datum** - 27 juni 2024
-- **Aantal deelnemers** - 120
+- **Datum** - 27 juni, 2024
+- **Aantal aanwezigen** - 120
 - **Duur** - 60 minuten
-- **Publiek** - Klanten, partners en Adoben
+- **Publiek** - Klanten, partners, en de werknemers van de Adobe
 
 ## Gerelateerde bronnen
 
 
-- [Uitvoer AEM publiceren](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/output-presets-aemg/generate-output-aem-site#:~:text=To%20open%20output%20presets%20for,configurations%2C%20and%20then%20click%20Save.)
+- [ AEM Uitvoer van de Plaats het Publiceren ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/output-presets-aemg/generate-output-aem-site#:~:text=To%20open%20output%20presets%20for,configurations%2C%20and%20then%20click%20Save.)
 
-- [KB-uitvoerpublicatie](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/output-presets-aemg/generate-output-knowledge-base)
+- [ KB Uitvoer het publiceren ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/output-presets-aemg/generate-output-knowledge-base)
 
-- [AEM sjablonen](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/templates/templates)
+- [ AEM Malplaatjes ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/templates/templates)
 
-- **Forum van de Gemeenschap** - Voor sessiespecifieke community-interacties over Experience League gaat u naar [AEM Guides Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Communautair Forum** - voor zitting-specifieke communautaire interactie over Experience League, bezoek [ het Forum van AEM Guides ](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
@@ -52,4 +54,4 @@ In deze sessie leert u over het volgende:
 
 ## Contact opnemen
 
-Stuur ons voor alle vragen een e-mail op <techcomm@adobe.com>
+Stuur ons een e-mail op <techcomm@adobe.com> voor alle vragen

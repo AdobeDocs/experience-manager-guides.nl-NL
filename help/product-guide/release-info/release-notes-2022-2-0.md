@@ -1,6 +1,6 @@
 ---
-title: Opmerkingen bij de release [!DNL AEM Guides], release februari 2022
-description: Release van februari [!DNL Adobe Experience Manager Guides] as a Cloud Service
+title: Release-aantekeningen voor  [!DNL AEM Guides], release van februari 2022
+description: De versie van februari van  [!DNL Adobe Experience Manager Guides]  as a Cloud Service
 exl-id: eb7ff475-bb5b-4d32-b291-024147fbfed1
 feature: Release Notes
 role: Leader
@@ -11,18 +11,18 @@ ht-degree: 0%
 
 ---
 
-# Release van februari [!DNL Adobe Experience Manager Guides] as a Cloud Service
+# Release van februari van [!DNL Adobe Experience Manager Guides] as a Cloud Service
 
 ## Upgrade naar de release van februari
 
-Upgrade uw huidige [!DNL Adobe Experience Manager Guides] as a Cloud Service (later [!DNL AEM Guides] as a Cloud Service) opstelling door de volgende stappen uit te voeren:
+Voer de volgende stappen uit om de huidige [!DNL Adobe Experience Manager Guides] as a Cloud Service instelling (later [!DNL AEM Guides] as a Cloud Service genoemd) bij te werken:
 1. Controle uit de code van Git van Cloud Servicen en schakelaar aan de tak die in de pijpleiding van Cloud Servicen wordt gevormd die aan het milieu beantwoordt u wilt bevorderen.
-1. Bijwerken `<dox.version>` eigenschap in `/dox/dox.installer/pom.xml` bestand van uw Cloud Servicen: ga naar 2022.2.114.
-1. Leg de wijzigingen vast en voer de pijplijn met Cloud Servicen uit om naar de release van februari van [!DNL AEM Guides] as a Cloud Service.
+1. Werk de eigenschap `<dox.version>` in het `/dox/dox.installer/pom.xml` -bestand van de Git-code van de Cloud Service bij naar 202.2.114.
+1. Leg de wijzigingen vast en voer de pijplijn met Cloud Servicen uit om naar de release van februari van [!DNL AEM Guides] as a Cloud Service te upgraden.
 
 ## Compatibiliteitsmatrix
 
-In deze sectie wordt de compatibiliteitsmatrix weergegeven voor de softwaretoepassingen die worden ondersteund door [!DNL AEM Guides] as a Cloud Service release februari 2022.
+Deze sectie bevat een overzicht van de compatibiliteitsmatrix voor de softwaretoepassingen die worden ondersteund door de release van [!DNL AEM Guides] as a Cloud Service februari 2022.
 
 ### FrameMaker en FrameMaker Publishing Server
 
@@ -44,31 +44,31 @@ In deze sectie wordt de compatibiliteitsmatrix weergegeven voor de softwaretoepa
 
 ### Native PDF-publicatie
 
-Ondersteuning voor het maken van een native PDF is ook toegevoegd in de release van februari van [!DNL AEM Guides] as a Cloud Service. Er is een nieuwe uitgeverij-engine geïntroduceerd met de volgende functies:
+Ondersteuning voor het maken van een native PDF is ook toegevoegd in de release van [!DNL AEM Guides] as a Cloud Service in februari. Er is een nieuwe uitgeverij-engine geïntroduceerd met de volgende functies:
 * Een CSS-sjabloon maken
 * Andere paginasjablonen maken
 * PDF-sjablonen ontwerpen die CSS en paginasjablonen bevatten
-* Kaart en onderwerpinhoud publiceren in PDF-indeling
+* Publish-kaart en onderwerpinhoud in de PDF-indeling
 
 ### Ondersteuning voor het pad van de kennisbasissite in op artikelen gebaseerde publicaties
 
-[!DNL AEM Guides] as a Cloud Service verstrekt de op artikel-gebaseerde het publiceren eigenschap om een output van één of meerdere onderwerpen stapsgewijs te produceren of uw inhoud aan een kennisgebaseplatform te publiceren. Met de versie van februari, hebt u een extra optie om de de plaatsweg te kiezen van de Kennisbank waaraan het onderwerp/de kaart moet worden gepubliceerd. Nadat u het pad hebt geselecteerd, wordt de uitvoer gegenereerd op het opgegeven pad.
+[!DNL AEM Guides] as a Cloud Service biedt de op artikelen gebaseerde publicatiefunctie om incrementeel een uitvoer van een of meer onderwerpen te genereren of uw inhoud te publiceren naar een kennisgebaseplatform. Met de versie van februari, hebt u een extra optie om de de plaatsweg te kiezen van de Kennisbank waaraan het onderwerp/de kaart moet worden gepubliceerd. Nadat u het pad hebt geselecteerd, wordt de uitvoer gegenereerd op het opgegeven pad.
 
 ### Verbeteringen in de webeditor
 
 Er zijn veel verbeteringen en nieuwe functies toegevoegd aan de webeditor:
 
-* **Verbeterd dialoogvenster bij het sluiten van bestanden**
+* **Verbeterde dialoog op dossierdichte**
 
-[!DNL AEM Guides] as a Cloud Service herinneringen u om uw veranderingen te bewaren en uw gesloten dossiers te ontgrendelen wanneer u probeert om een dossier te sluiten dat in de Redacteur van het Web wordt geopend. De vragen worden weergegeven op basis van de **Inchecken bij sluiten aanvragen** en **Nieuwe versie aanvragen bij sluiten** de instellingen die door de beheerder zijn geconfigureerd.
+[!DNL AEM Guides] as a Cloud Service vraagt u om uw wijzigingen op te slaan en vergrendelde bestanden te ontgrendelen wanneer u een bestand probeert te sluiten dat is geopend in de webeditor. De herinneringen worden getoond gebaseerd op **vraagt om controle-binnen op dicht** en **vraagt om nieuwe versie op dichte** montages die door uw beheerder worden gevormd.
 
 Op basis van de configuratie kunt u de wijzigingen opslaan en een nieuwe versie van het document maken. U kunt ook het bestand inchecken en de wijzigingen in de huidige versie opslaan.
 
-![Bestand sluiten](assets/file-close-save-changes-unlock.png)
+![ Dossier dicht ](assets/file-close-save-changes-unlock.png)
 
-Zie voor meer informatie *Bestanden sluiten en scenario&#39;s opslaan* in de gebruikershandleiding.
+Voor meer details, zie *Dossier sluiten en scenario&#39;s* in de Gids van de Gebruiker opslaan.
 
-* Er is een vaste spatie toegevoegd aan het tekenpalet.  A **onbreekbaar** Hiermee voorkomt u dat een regel automatisch wordt afgebroken op een bepaald punt in een HTML-document. De Redacteur van het Web steunt een vaste ruimte voor zowel AEM Plaats als HTML5 output.
+* Er is een vaste spatie toegevoegd aan het tekenpalet.  A **het niet breken** ruimte verhindert een automatische lijnonderbreking op een bepaald punt in een document van HTML. De Redacteur van het Web steunt een vaste ruimte voor zowel AEM Plaats als HTML5 output.
 
 * Wanneer u een afbeelding uploadt vanuit de webeditor, wordt een bevestigingsvenster weergegeven als er al een afbeelding met dezelfde naam bestaat. U kunt beide bestanden behouden (bestaande en nieuwe bestanden) of het bestaande bestand overschrijven en alleen het nieuwe bestand opslaan.
 
@@ -78,7 +78,7 @@ Zie voor meer informatie *Bestanden sluiten en scenario&#39;s opslaan* in de geb
 
 Wanneer u selecteert om de kaart te downloaden DITA, wordt het verzoek een rij gevormd, en u ontvangt een bericht zodra de kaart klaar is om te downloaden. U kunt ervoor kiezen het kaartbestand direct te downloaden of later te downloaden via de koppeling in het AEM-meldingsvak.
 
-![Kaartdownload](assets/download-map-prompt.png)
+![ download van de Kaart ](assets/download-map-prompt.png)
 
 ### Controleren
 
@@ -105,10 +105,10 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 * Glossusage wordt getoond als Nota wanneer een ingang van de Verklarende woordenlijst wordt geschreven. 8384
 * xref kan zelfs op geldige locaties niet worden ingevoegd. 8354
 * De elementenlijst (Alt+Enter) wordt grijs weergegeven in het thema Donkerder/Donkerst. 7913
-* De lijst met kaartsjablonen in **Maken** option() in het deelvenster Opslagplaats is niet ingesteld op de **Mapprofiel** in Gebruikersvoorkeuren. 5918
+* De lijst van kaartmalplaatjes in **creeert** optie ( ellipsis menu) van het paneel van de Bewaarplaats is niet zoals per het **Profiel van de Omslag** in de Voorkeur van de Gebruiker. 5918
 * Element-id&#39;s worden niet automatisch gegenereerd voor elementen die worden toegevoegd met de functie Inhoud hergebruiken van de hoofdwerkbalk. 5826
 
-### UI Middelen
+### ASSETS UI
 
 * Beeldbewerking werkt niet zoals verwacht op de cloudserver. 8768
 * In het deelvenster Versiehistorie wordt in de huidige sectie een onjuiste tijdstempel weergegeven en deze wordt door informatie gewijzigd. 8765
@@ -119,5 +119,5 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 ### Bruikbaarheid
 
 * Als een gebruikersnaam lang is in het deelvenster Revisie van de webeditor, worden de pictogrammen die u wilt accepteren/afwijzen niet duidelijk weergegeven. 8793
-* In de **Zoeken en vervangen** verschijnt er een ongewenst pictogram op de muisaanwijzer in de resultatensectie. (8775)
+* In het **Vondst en vervangt** paneel, verschijnt een ongewenst pictogram op de muiswijzer in de resultaatsectie. (8775)
 * Het pictogram Aangepast wordt niet gekozen uit de eigenschap en in plaats daarvan wordt het standaardpictogram weergegeven voor de rapporten die worden gegenereerd met de knop Rapport genereren. 8573

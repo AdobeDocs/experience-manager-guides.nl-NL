@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Bestanden automatisch opslaan in de webeditor configureren {#id199CC0J0M5Z}
 
-Een van de meest gebruikte functies in de op een browser gebaseerde editor is de mogelijkheid om gegevens na een bepaalde tijdsperiode op te slaan. De redacteur van het Web van de Gidsen van de AEM steunt ook auto-sparen van onderwerp en kaartdossiers bij het gespecificeerde tijdinterval. Wanneer deze eigenschap wordt teweeggebracht, wordt het werkende exemplaar van het onderwerp of de kaart bewaard. Er wordt geen nieuwe versie van het onderwerp of de kaart gemaakt. Als u een nieuwe versie wilt maken, klikt u op het pictogram Revisie opslaan op de werkbalk van de webeditor.
+Een van de meest gebruikte functies in de op een browser gebaseerde editor is de mogelijkheid om gegevens na een bepaalde tijdsperiode op te slaan. De Redacteur van het Web van AEM Guides steunt ook auto-sparen van onderwerp en kaartdossiers bij het gespecificeerde tijdinterval. Wanneer deze eigenschap wordt teweeggebracht, wordt het werkende exemplaar van het onderwerp of de kaart bewaard. Er wordt geen nieuwe versie van het onderwerp of de kaart gemaakt. Als u een nieuwe versie wilt maken, klikt u op het pictogram Revisie opslaan op de werkbalk van de webeditor.
 
 De auto-sparen eigenschap wordt niet toegelaten door gebrek en u moet dit van configMgr toelaten. Voer de volgende stappen uit om de auto-sparen eigenschap in de Redacteur van het Web toe te laten:
 
@@ -26,13 +26,13 @@ De auto-sparen eigenschap wordt niet toegelaten door gebrek en u moet dit van co
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Zoeken naar en klikken op de knop **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** bundel.
+1. Onderzoek naar en klik op **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** bundel.
 
-1. In de *XmlEditorConfig* instellingen, selecteert u de **Automatisch opslaan** -optie.
+1. In de *montages 0} XmlEditorConfig, selecteer **Auto sparen**optie.*
 
-1. In de **Interval automatisch opslaan** geeft u het tijdsinterval in seconden op om de functie voor automatisch opslaan te activeren.
+1. Op het **Auto sparen het gebied van het Interval**, specificeer het tijdinterval in seconden om de auto-sparen eigenschap teweeg te brengen.
 
-1. Klikken **Opslaan**.
+1. Klik **sparen**.
 
 
-**Bovenliggend onderwerp:**[ Webeditor aanpassen](conf-web-editor.md)
+**Bovenliggend onderwerp:**[ pas de Redacteur van het Web ](conf-web-editor.md) aan

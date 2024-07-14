@@ -1,6 +1,6 @@
 ---
 title: De webeditor starten
-description: Leer hoe u de webeditor start via de navigatiepagina AEM AEM Assets, UI en DITA-kaartconsole in AEM hulplijnen.
+description: Leer hoe u de webeditor start via de AEM Navigatiepagina, de gebruikersinterface van AEM Assets en de DITA-kaartconsole in AEM Guides.
 exl-id: cdde7c29-ee49-4e17-902e-1e2bd6f32e8a
 feature: Authoring, Web Editor
 role: User
@@ -27,15 +27,15 @@ Wanneer u zich aanmeldt bij AEM, wordt de navigatiepagina weergegeven:
 
 ![](images/web-editor-from-navigation-page.png){width="800" align="left"}
 
-Klik op de knop **Hulplijnen** de verbinding neemt u rechtstreeks aan de Redacteur van het Web.
+Het klikken van de **verbinding van Gidsen** neemt u rechtstreeks aan de Redacteur van het Web.
 
 ![](images/web-editor-launch-page.png){width="800" align="left"}
 
 Aangezien u de Redacteur van het Web zonder om het even welk dossier hebt gelanceerd, wordt een leeg scherm van de Redacteur van het Web getoond. U kunt een bestand openen om te bewerken vanuit AEM opslagplaats of de verzameling Favorieten.
 
-- Klik op de knop **Hulplijnen** icon (![](images/aem-guides-icon.png) ), om terug te gaan naar de AEM navigatiepagina.
+- Klik het **pictogram van Gidsen** (![](images/aem-guides-icon.png)), om terug naar de pagina van de Navigatie van de AEM te gaan.
 
-- De **Sluiten** de knoop neemt u aan een bestemming die op uw opstelling wordt gebaseerd:
+- De **dichte** knoop neemt u aan een bestemming die op uw opstelling wordt gebaseerd:
 
 
 
@@ -43,14 +43,14 @@ Aangezien u de Redacteur van het Web zonder om het even welk dossier hebt gelanc
 
   <summary> Cloud Servicen </summary>
 
-  Als u Cloud Servicen gebruikt, klikt u op de knop **Sluiten** om terug te gaan naar de AEM navigatiepagina.
+  Als u Cloud Servicen gebruikt, klik de **Dichte** knoop om terug naar de pagina van de Navigatie van de AEM te gaan.
   </details>
 
   <details>
 
   <summary> Software op locatie</summary>
 
-  Als u AEM de Software van de Gidsen op-gebouw (4.2.1 en later) gebruikt, klik **Sluiten** aan de rechterkant om terug te gaan naar het huidige bestandspad in de interface Middelen.
+  Als u de Software van AEM Guides On-premise (4.2.1 en later) gebruikt, klik de **Dichte** knoop op het recht terug naar uw huidige dossierweg in Assets UI.
 
   </details>
 
@@ -58,7 +58,7 @@ Aangezien u de Redacteur van het Web zonder om het even welk dossier hebt gelanc
 
 Een andere locatie waar u de webeditor kunt starten, is de gebruikersinterface van AEM Assets. U kunt één of meerdere onderwerpen selecteren en hen direct in de Redacteur van het Web openen. Om een onderwerp in de Redacteur van het Web te openen, volg deze stappen:
 
-1. In Elementen UI, navigeer aan het onderwerp dat u wilt uitgeven.
+1. In Assets UI, navigeer aan het onderwerp dat u wilt uitgeven.
 
    >[!NOTE]
    >
@@ -72,11 +72,11 @@ Een andere locatie waar u de webeditor kunt starten, is de gebruikersinterface v
    >
    > Zorg ervoor dat u de lees- en schrijfmachtigingen hebt voor de map die het onderwerp bevat dat u wilt bewerken.
 
-1. Om een exclusieve slot op het onderwerp te krijgen, selecteer het onderwerp en klik **Uitchecken**.
+1. Om een exclusief slot op het onderwerp te krijgen, selecteer het onderwerp en klik **Controle uit**.
 
    >[!IMPORTANT]
    >
-   > Als uw beheerder het **Bewerken uitschakelen zonder afhandeling** selecteert, moet u het bestand uitchecken voordat u het kunt bewerken. Als u het bestand niet uitcheckt, kunt u de bewerkingsoptie niet zien.
+   > Als uw beheerder **uitgeeft onbruikbaar maakt zonder Controle** optie heeft gevormd, dan moet u het dossier controleren alvorens uit te geven. Als u het bestand niet uitcheckt, kunt u de bewerkingsoptie niet zien.
 
 1. Sluit de wijze van de activaselectie en klik het onderwerp dat u wilt uitgeven.
 
@@ -94,7 +94,7 @@ Een andere locatie waar u de webeditor kunt starten, is de gebruikersinterface v
 
    ![](images/edit-topic-from-quick-action_cs.png){width="800" align="left"}
 
-1. Klikken **Bewerken** om het onderwerp in de Redacteur van het Web te openen.
+1. Klik **uitgeven** om het onderwerp in de Redacteur van het Web te openen.
 
    ![](images/edit-mode.png){width="800" align="left"}
 
@@ -103,17 +103,17 @@ Een andere locatie waar u de webeditor kunt starten, is de gebruikersinterface v
 
 Om de Redacteur van het Web van DITA kaartconsole te openen, volg deze stappen:
 
-1. In Elementen UI, navigeer aan en klik het DITA kaartdossier dat het onderwerp bevat u wilt uitgeven.
+1. In Assets UI, navigeer aan en klik het DITA kaartdossier dat het onderwerp bevat u wilt uitgeven.
 
    De DITA kaartconsole wordt getoond.
 
-1. Klikken **Onderwerpen**.
+1. Klik **Onderwerpen**.
 
    Er wordt een lijst met onderwerpen in het kaartbestand weergegeven. De UUID van onderwerpen wordt getoond onder de onderwerptitel.
 
 1. Selecteer het onderwerpbestand dat u wilt bewerken.
 
-1. Klikken **Onderwerp bewerken**.
+1. Klik **uitgeven Onderwerp**.
 
    ![](images/edit-topics-map-console_cs.png){width="800" align="left"}
 
@@ -121,7 +121,7 @@ Om de Redacteur van het Web van DITA kaartconsole te openen, volg deze stappen:
 
    >[!IMPORTANT]
    >
-   > Als uw beheerder het **Bewerken uitschakelen zonder afhandeling** selecteert, moet u het bestand uitchecken voordat u het kunt bewerken. Als u het bestand niet uitcheckt, wordt het document in de editor geopend in de modus Alleen-lezen.
+   > Als uw beheerder **uitgeeft onbruikbaar maakt zonder Controle** optie heeft gevormd, dan moet u het dossier controleren alvorens uit te geven. Als u het bestand niet uitcheckt, wordt het document in de editor geopend in de modus Alleen-lezen.
 
 
-**Bovenliggend onderwerp:**[ Werken met de webeditor](web-editor.md)
+**Bovenliggend onderwerp:**[ Werk met de Redacteur van het Web ](web-editor.md)

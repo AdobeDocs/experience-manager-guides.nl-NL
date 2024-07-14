@@ -1,6 +1,6 @@
 ---
-title: De module AEM hulplijnen gebruiken
-description: Leer hoe u de module AEM hulplijnen kunt gebruiken
+title: AEM Guides-module implementeren
+description: Leer hoe u de AEM Guides-module kunt implementeren
 exl-id: 3bb28304-d8e2-45eb-8297-546eed428b8c
 feature: Installation
 role: Admin
@@ -12,10 +12,10 @@ ht-degree: 0%
 
 ---
 
-# Adobe Experience Manager-hulplijnen gebruiken, module {#id213BCL00KEV}
+# Adobe Experience Manager Guides-module implementeren {#id213BCL00KEV}
 
-U kunt beginnen met het implementeren van hulplijnen voor Experience Managers via Cloud Manager. Om de module op te stellen kunt u de instructies volgen die in [as a Cloud Service implementatie van hulplijnen AEM](../release-info/deploy-xml-on-aemaacs.md)
+U kunt beginnen met het implementeren van Experience Manager Guides via de Cloud Manager. Om de module op te stellen kunt u de instructies volgen die in [ as a Cloud Service plaatsing van AEM Guides ](../release-info/deploy-xml-on-aemaacs.md) worden vermeld
 
 
 
-**Bovenliggend onderwerp:**[ Downloaden en installeren](download-install.md)
+**Bovenliggend onderwerp:**[ Download en installeer ](download-install.md)

@@ -5,18 +5,18 @@ source-wordcount: '240'
 ht-degree: 0%
 
 ---
-# Adobe Experience Manager-hulplijnen 4.2 installeren en configureren
+# Adobe Experience Manager Guides 4.2 installeren en configureren
 
 - [Disclaimer](rebranding-disclaimer.md)
 - [Over deze handleiding](introduction.md)
 - [Downloaden en installeren](download-install.md)
    - [Technische voorschriften](download-install-technical-requirements.md)
    - [Adobe Experience Manager installeren](download-install-AEM.md)
-   - [Download en installeer AEM voor het eerst](download-install-aemg-first-time.md)
+   - [Voor het eerst AEM Guides downloaden en installeren](download-install-aemg-first-time.md)
    - [Dispatcher configureren](download-install-configure-dispatcher.md)
-   - [De installatie van AEM hulplijnen controleren](download-install-verify-aemg-installation.md)
-   - [Adobe Experience Manager-hulplijnen upgraden](upgrade-xml-documentation.md)
-   - [Verwijderen AEM hulplijnen](download-install-unistall-aemg.md)
+   - [AEM Guides-installatie verifiëren](download-install-verify-aemg-installation.md)
+   - [Upgrade uitvoeren voor Adobe Experience Manager Guides](upgrade-xml-documentation.md)
+   - [AEM Guides verwijderen](download-install-unistall-aemg.md)
    - [Recommendations for performance optimization](download-install-recommend-perf-optimiz.md)
 - [Migratie van niet-UUID naar UUID-inhoud](migrate-uuid-non-uuid.md)
 - [Beheer en beveiliging van gebruikers](user-admin-sec.md)
@@ -43,7 +43,7 @@ ht-degree: 0%
    - [Vraag configureren om een bestand bij sluiten in te checken](conf-checkin-file-close.md)
    - [Toegestane speciale tekens configureren](conf-special-chars.md)
    - [Element-id&#39;s automatisch genereren](auto-generate-ids.md)
-   - [Standaardwoordenboek AEM aanpassen](customize-aem-custom-dictionary.md)
+   - [AEM standaardwoordenboek aanpassen](customize-aem-custom-dictionary.md)
    - [Tekstfilters configureren](config-text-filters.md)
    - [Vorm het aantal LimitReads voor een vraag](conf-query-limitreads.md)
    - [Pakketten installeren voor publiceren op basis van artikel](configure-article-based-publishing.md)

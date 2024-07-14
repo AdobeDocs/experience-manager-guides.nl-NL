@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Tekstfilters configureren {#id21BPD0FK0XA}
 
-Met AEM hulplijnen kunt u zoeken naar tekst in de bestanden die zich op het geselecteerde pad van de AEM bevinden. Met filterzoekopdrachten kunt u bestanden zoeken in het paneel van de gegevensopslagruimte of door bestanden bladeren. Wanneer u werkt in de webeditor, moet u het bladerdialoogvenster voor bestanden gebruiken om elementen in te voegen, zoals een afbeelding, verwijzing of een toetsverwijzing.
+AEM Guides biedt de functie om te zoeken naar tekst in de bestanden die zich op het geselecteerde pad van de AEM opslagplaats bevinden. Met filterzoekopdrachten kunt u bestanden zoeken in het paneel van de gegevensopslagruimte of door bestanden bladeren. Wanneer u werkt in de webeditor, moet u het bladerdialoogvenster voor bestanden gebruiken om elementen in te voegen, zoals een afbeelding, verwijzing of een toetsverwijzing.
 
 Standaard kunt u bepaalde verbeterde filters gebruiken om de bestanden in de AEM te doorzoeken. U kunt alle DITA-bestanden of niet-DITA-bestanden op het geselecteerde pad filteren. U kunt ook zoeken naar specifieke waarden in de kenmerken van DITA-elementen. U kunt ook zoeken naar bestanden die door de opgegeven gebruiker zijn uitgecheckt.
 
@@ -25,11 +25,11 @@ Standaard kunt u bepaalde verbeterde filters gebruiken om de bestanden in de AEM
 Voer de volgende stappen uit om de tekstfilters te configureren:
 
 1. Meld u als beheerder aan bij Adobe Experience Manager.
-1. Klik op de knop **Adobe Experience Manager** koppeling bovenaan en kies **Gereedschappen**.
-1. Selecteren **Hulplijnen** in de lijst met gereedschappen en klik op de knop **Mapprofielen**.
-1. Klik op de knop **Globaal profiel** tegel.
-1. Klikken op **XML Editor-configuratie**.
-1. Klikken op **Bewerken** bovenaan.
+1. Klik op de **verbinding van Adobe Experience Manager** bij de bovenkant en kies **Hulpmiddelen**.
+1. Selecteer **Gidsen** van de lijst van hulpmiddelen en klik de **Profielen van de Omslag**.
+1. Klik op de **Globale tegel van het Profiel**.
+1. Klik op **de Configuratie van de Redacteur van XML**.
+1. Klik op **uitgeven** pictogram op de bovenkant.
 1. Download het bestand ui\_config.json.
 1. Configureer de filters in het bestand. U kunt ook aangepaste filters toevoegen, zoals in het onderstaande voorbeeld wordt getoond:
 
@@ -92,14 +92,14 @@ Voer de volgende stappen uit om de tekstfilters te configureren:
 
    In het bovenstaande codefragment is het eerste filter voor DITA-bestanden. De filterdefinitie heeft de volgende parameters:
 
-   - **Titel:** De weergavenaam van het filter. Deze titel wordt weergegeven als filteroptie in het bladerdialoogvenster van het bestand.
+   - **Titel:** de vertoningsnaam van de filter. Deze titel wordt weergegeven als filteroptie in het bladerdialoogvenster van het bestand.
 
-   - **Eigenschap:** De eigenschap die moet overeenkomen met de metagegevens van het bestand. Als u bijvoorbeeld alleen bestanden wilt toestaan die de metagegevens van de klasse dita\_in hun eigenschap hebben, neemt het eigenschapsfilter &quot;jcr:content/metadata/dita\_class&quot; als waarde.
+   - **Bezit:** het bezit in de meta-gegevens van het dossier aan te passen. Als u bijvoorbeeld alleen bestanden wilt toestaan die de metagegevens van de klasse dita\_in hun eigenschap hebben, neemt het eigenschapsfilter &quot;jcr:content/metadata/dita\_class&quot; als waarde.
 
-   - **Bewerking** &quot;exists&quot; opgeven die overeenkomt met het bestaan van de waarde die in de parameter property is opgegeven
+   - **Verrichting** specificeer &quot;bestaat&quot;om voor bestaan van de waarde aan te passen die in de bezitsparameter wordt gespecificeerd
 
 1. Upload het bijgewerkte bestand ui\_config.json dat de toegevoegde filters bevat.
 
 De geconfigureerde filters zijn beschikbaar in het deelvenster Filters.
 
-**Bovenliggend onderwerp:**[ Webeditor aanpassen](conf-web-editor.md)
+**Bovenliggend onderwerp:**[ pas de Redacteur van het Web ](conf-web-editor.md) aan

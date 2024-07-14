@@ -14,20 +14,20 @@ ht-degree: 0%
 
 # Vorm een gegevensbronschakelaar van het gebruikersinterface
 
-De Gidsen van de Experience Manager komt met **Gegevensbronnen** hulpmiddel dat u helpt uit-van-de-doosschakelaars voor gegevensbronnen vormen. U kunt opstellingsschakelaars voor JIRA, SQL (MySQL, PostgreSQL, de Server van Microsoft SQL, SQLite, MariaDB, H2DB), de gegevensbestanden van de Handel van Adobe, en van de Elasticsearch.
+Experience Manager Guides komt met het **hulpmiddel van Gegevensbronnen** dat u helpt uit-van-de-doosschakelaars voor gegevensbronnen vormen. U kunt opstellingsschakelaars voor JIRA, SQL (MySQL, PostgreSQL, de Server van Microsoft SQL, SQLite, MariaDB, H2DB), de gegevensbestanden van de Handel van Adobe, en van de Elasticsearch.
 
 Voer de volgende stappen uit om een connector te configureren:
 
-1. Selecteer de **Adobe Experience Manager** en kies Gereedschappen.
-1. Selecteren **Hulplijnen** in de lijst met gereedschappen.
-1. Selecteer de **Gegevensbronnen** tegel. De **Gegevensbronnen** wordt weergegeven. U kunt de verbonden gegevensbronnen weergeven.
+1. Selecteer de **verbinding van Adobe Experience Manager** bij de bovenkant en kies Hulpmiddelen.
+1. Selecteer **Gidsen** van de lijst van hulpmiddelen.
+1. Selecteer de **Bronnen van Gegevens** tegel. De **pagina van Gegevensbronnen** wordt getoond. U kunt de verbonden gegevensbronnen weergeven.
 
-   U kunt schakelen tussen de **Lijstweergave** of **Tegelweergave** om de verschillende verbonden gegevensbronnen als een lijst of als tegels te bekijken.
+   U kunt tussen de **Mening van de Lijst van een knevel voorzien** of **Blokmening** om de diverse verbonden gegevensbronnen als lijst of als tegels te bekijken.
 
    <img src="./assets/data-sources-create-window.png" alt= "gegevensbronnen vermeld op de pagina met gegevensbronnen" width="800">
 
-   *Een gegevensbronaansluiting weergeven of maken.*
-1. Klikken **Maken**.
+   *Mening of creeer een gegevensbronschakelaar.*
+1. Klik **creëren**.
 1. Selecteer het gegevensbestand waarvoor u de schakelaar wilt tot stand brengen. Bijvoorbeeld, de schakelaar van de Elasticsearch.
    >[!NOTE]
    >
@@ -40,40 +40,40 @@ Voer de volgende stappen uit om een connector te configureren:
    >* Overslaan <img src="./assets/info-details.svg" alt= "info icon" width="25"> in de buurt van het veld voor meer informatie.
    > * Velden met * zijn verplicht. U kunt bijvoorbeeld de volgende gegevens invoeren voor de aansluiting van de Elasticsearch.
 
-   * **Naam**: Voer de naam van de gegevensbron in.
+   * **Naam**: Ga de naam van de gegevensbron in.
    * Verificatietype: selecteer het type verificatie in het keuzemenu. Voorbeeld: Basic username-password authentication
-   * **Gebruikersnaam**: Voer uw gebruikersnaam in.
-   * **Wachtwoord**: Voer uw gebruikersnaam en wachtwoord in.
-   * **URL**: Voeg de API-URL toe.
+   * **Gebruikersnaam**: Ga uw gebruikersbenaming in.
+   * **Wachtwoord**: Ga uw gebruikersbenaming en wachtwoord in.
+   * **URL**: Voeg API URL toe.
 
-1. Selecteren **Verbinding testen**. U kunt de **Verbinding testen** Deze knop is alleen ingeschakeld nadat u de vereiste details hebt toegevoegd. Een succesbericht weergeven als de verbindingsgegevens juist zijn. Anders wordt mogelijk een foutbericht weergegeven.
+1. Selecteer **verbinding van de Test**. U kunt de **toegelaten knoop van de Verbinding van de Test** bekijken slechts nadat u de vereiste details toevoegt. Een succesbericht weergeven als de verbindingsgegevens juist zijn. Anders wordt mogelijk een foutbericht weergegeven.
 
 
 
-1. Selecteren **Opslaan** op de bovenkant om de schakelaar te bewaren.     De weergave **Opslaan** ingeschakeld nadat u alle details hebt ingevuld en de verbinding tot stand is gebracht.
+1. Selecteer **sparen** op de bovenkant om de schakelaar te bewaren.     Bekijk **sparen** toegelaten knoop nadat u alle details vult en de verbinding succesvol is.
 
 
    Als de connector is opgeslagen, kunt u de verbonden gegevensbron op de pagina weergeven.
 
 ## Beschikbare functies voor een aansluiting
 
-* Schakelen tussen de **Lijstweergave** of **Tegelweergave**  om de verschillende verbonden gegevensbronnen als een lijst of als tegels te bekijken.
-* Schakel het selectievakje voor één aansluiting in. Klikken **Alles selecteren** om alle schakelaars te selecteren. U kunt op **Alle selecties opheffen** wanneer alle schakelaars worden geselecteerd.
+* Wisselen tussen de **Mening van de Lijst** of **Blokmening** om de diverse verbonden gegevensbronnen als lijst of als tegels te bekijken.
+* Schakel het selectievakje voor één aansluiting in. Klik **Uitgezocht allen** om alle schakelaars te selecteren. U kunt **klikken schrap allen** wanneer alle schakelaars worden geselecteerd.
 
 <img src="./assets/data-sources-features.png" alt= "kenmerken van de gegevensbronnen op de pagina met gegevensbronnen" width="800">
 
-*Een gegevensbronaansluiting bewerken, opnieuw verbinden, dupliceren of verwijderen.*
+*geef, maak opnieuw aan, dupliceerde, of schrap een gegevensbronschakelaar.*
 
-U kunt de volgende functies gebruiken voor de aansluiting op de **Gegevensbronnen** pagina:
+U kunt de volgende eigenschappen voor de schakelaar op de **Bronnen van Gegevens** pagina gebruiken:
 
-* **Bewerken**: Bewerk de configuratiedetails voor de geselecteerde connector.
+* **geeft** uit: geef de configuratiedetails voor de geselecteerde schakelaar uit.
 
-* **Opnieuw verbinden**: Opnieuw verbinden met een losgekoppelde connector.
+* **opnieuw verbinden**: Verbind opnieuw met een losgemaakte schakelaar.
 
-* **Dupliceren**: Maak een nieuwe dubbele connector met de huidige connector als basis. De dubbele schakelaar wordt gecreeerd met een achtervoegsel (als connectorname_1) door gebrek. Bijvoorbeeld: sample-elastic-search_1.
+* **Dupliceer**: Creeer een nieuwe dubbele schakelaar gebruikend de huidige schakelaar als basis. De dubbele schakelaar wordt gecreeerd met een achtervoegsel (als connectorname_1) door gebrek. Bijvoorbeeld: sample-elastic-search_1.
 U bekijkt een fout als de schakelaar met de zelfde naam bestaat.
 
-* **Verwijderen**: Verwijder de geselecteerde connector.
+* **Schrapping**: Schrap de geselecteerde schakelaar.
 
 
-Zodra u de gegevensbron hebt gevormd, is de schakelaar vermeld onder **Deelvenster Gegevensbronnen** in de webeditor. U kunt dan met de gegevensbron verbinden en een inhoudsfragment opnemen in uw onderwerpen. Voor meer informatie, bekijkt u [Een inhoudsfragment uit uw gegevensbron invoegen](../user-guide/web-editor-content-snippet.md).
+Zodra u de gegevensbron hebt gevormd, is de schakelaar vermeld onder het **paneel van Gegevensbronnen** in de Redacteur van het Web. U kunt dan met de gegevensbron verbinden en een inhoudsfragment opnemen in uw onderwerpen. Voor meer details, neemt de mening [ een inhoudsfragment van uw gegevensbron ](../user-guide/web-editor-content-snippet.md) op.

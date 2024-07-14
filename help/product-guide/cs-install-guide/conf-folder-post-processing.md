@@ -4,31 +4,31 @@ description: Leer hoe u naverwerking voor een naar Adobe Experience Manager Asse
 feature: Filename Configuration
 role: Admin
 level: Experienced
-source-git-commit: fedd04f4a261ec199f86cb38ecd57e76b9393ae5
+exl-id: 42722c6f-1b1c-4a7e-89ef-a373623eb774
+source-git-commit: 5d99274da8fdacbd255d426fa4913b5773ca45f8
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 0%
 
 ---
 
-
 # Nabewerking voor een map uitschakelen
 
-Standaard worden alle geüploade elementen verwerkt met behulp van de DAM Update Asset-workflow. De Gidsen van de Experience Manager stelt een extra verwerking in werking, genoemd postprocessing, als deel van deze werkschema. Dit helpt ook bij het genereren van de UUID&#39;s
+Standaard worden alle geüploade elementen verwerkt met behulp van de DAM Update Asset-workflow. Experience Manager Guides voert als onderdeel van deze workflow een extra verwerking uit, ook wel postprocessing genoemd. Dit helpt ook bij het genereren van de UUID&#39;s
 
-Tijdens het uploaden van uw bestanden en mappen naar de *Adobe Experience Manager Assets* kunt u ook de naverwerking en het genereren van UUID&#39;s uitschakelen.
+Terwijl het uploaden van uw dossiers en omslagen aan de *Adobe Experience Manager Assets* server, kunt u postprocessing en de generatie van UUIDs ook onbruikbaar maken.
 
 
-Gebruik de instructies in [Configuratieoverschrijvingen](download-install-additional-config-override.md#) om het configuratiebestand te maken. In het configuratiedossier, verstrek de volgende (bezit) details om postprocessing op een bepaalde weg onbruikbaar te maken of de naverwerking voor een omslag te negeren:
-
-| PID | Eigenschappensleutel | Waarde van eigenschap |
-|---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `ignored.post.processing.paths` | Tekenreekswaarde voor het instellen van een standaard NODE_OPTIONS (multivaluated-eigenschap, tekenreeksen met weggelaten pad) `/` aan het einde) <br> **Standaardwaarde**: `/content/dam/projects/translation_output` |
-
+Gebruik de instructies in [ met voeten treedt van de Configuratie ](download-install-additional-config-override.md#) om het configuratiedossier tot stand te brengen. In het configuratiedossier, verstrek de volgende (bezit) details om postprocessing op een bepaalde weg onbruikbaar te maken of de naverwerking voor een omslag te negeren:
 
 | PID | Eigenschappensleutel | Waarde van eigenschap |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `enabled.post.processing.paths` | Tekenreekswaarde voor het instellen van een standaard NODE_OPTIONS (multivaluated-eigenschap, tekenreeksen met weggelaten pad) `/` aan het einde) <br> **Standaardwaarde**: `/content/dam` |
+| `com.adobe.fmdita.config.ConfigManager` | `ignored.post.processing.paths` | Tekenreekswaarde voor het instellen van een standaard NODE_OPTIONS (eigenschap met multiwaarde, tekenreeksen met pad dat `/` aan het einde weglaat) <br> **Standaardwaarde**: `/content/dam/projects/translation_output` |
+
+
+| PID | Eigenschappensleutel | Waarde van eigenschap |
+|---|------------|--------------|
+| `com.adobe.fmdita.config.ConfigManager` | `enabled.post.processing.paths` | Tekenreekswaarde voor het instellen van een standaard NODE_OPTIONS (eigenschap met multiwaarde, tekenreeksen met pad dat `/` aan het einde weglaat) <br> **Standaardwaarde**: `/content/dam` |
 
 
 ## Regels om nabewerking in of uit te schakelen

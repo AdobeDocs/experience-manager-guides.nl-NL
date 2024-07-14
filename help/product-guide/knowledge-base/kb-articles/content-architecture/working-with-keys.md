@@ -17,7 +17,7 @@ Organisaties dienen toetsen te gebruiken in gevallen waarin ze herbruikbare en g
 
 ## Stap 1: Maak een algemene kaart voor het opslaan van uw sleutels
 
-Een kaart maken en de [!UICONTROL keyref] -element.
+Maak een kaart en voeg het element [!UICONTROL keyref] eraan toe.
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -37,7 +37,7 @@ Een kaart maken en de [!UICONTROL keyref] -element.
 </map>
 ```
 
-Hier hebt u twee definities gedefinieerd, zoals hierboven is weergegeven, op basis van een [!UICONTROL keyref] als _AEM_ voor de _Adobe Experience Manager_ tekst.
+Hier hebt u twee definities, zoals hierboven getoond, a [!UICONTROL keyref] als _AEM_ voor de _Adobe Experience Manager_ tekst bepaald.
 
 ## Stap 2: Deze kaart toevoegen aan uw publicatieoverzicht
 
@@ -55,10 +55,10 @@ Hier hebt u twee definities gedefinieerd, zoals hierboven is weergegeven, op bas
 
 ## Stap 3: Gebruik de sleutels om naar de variabelen te verwijzen die in de globale belangrijkste kaart worden bepaald
 
-+ Bewerk het onderwerp en voeg de hoofdwaarde toe met de opdracht [!UICONTROL keyref].
++ Bewerk het onderwerp en voeg de sleutelwaarde toe gebruikend [!UICONTROL keyref].
 + Zoals getoond in het schermafbeelding, zal een klein venster verschijnen van waar de sleutelwoorden kunnen worden gekozen. Dit wordt weergegeven wanneer u het element &quot;trefwoord&quot; toevoegt.
-  ![Element invoegen](assets/insert_element.png)
-  ![Sleutelverwijzing](assets/key_ref.png)
+  ![ het Element van het Tussenvoegsel ](assets/insert_element.png)
+  ![ Zeer belangrijke Verwijzing ](assets/key_ref.png)
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>

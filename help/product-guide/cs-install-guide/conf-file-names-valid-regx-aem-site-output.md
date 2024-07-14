@@ -14,12 +14,12 @@ ht-degree: 0%
 
 # Geldige bestandsnamen voor AEM Site-uitvoer configureren {#id214GK0X0KXA}
 
-Net als de lijst met geldige bestandsnaamtekens die zijn toegestaan voor DITA-onderwerpen, kunt u ook een lijst met geldige bestandsnaamtekens configureren voor AEM Site-uitvoer. Enkele bekende tekens die niet in een URL zijn toegestaan, zijn: ``'<>`@$``. Deze tekens zijn zo geconfigureerd dat ze automatisch worden omgezet in een onderstrepingsteken &quot;`_`&quot; wanneer deze worden gevonden tijdens het genereren van AEM namen voor uitvoerbestanden van de site.
+Net als de lijst met geldige bestandsnaamtekens die zijn toegestaan voor DITA-onderwerpen, kunt u ook een lijst met geldige bestandsnaamtekens configureren voor AEM Site-uitvoer. Enkele bekende tekens die niet in een URL zijn toegestaan, zijn: ``'<>`@$`` . Deze karakters worden gevormd om automatisch in een onderstrepingsteken &quot;`_`&quot;om te zetten wanneer zij terwijl het produceren van AEM de namen van het de outputdossier van de Plaats worden gevonden.
 
-Gebruik de instructies die worden gegeven in [Configuratieoverschrijvingen](download-install-additional-config-override.md#) om het configuratiebestand te maken. Geef in het configuratiebestand de volgende \(eigenschap\)-details op om geldige tekens in te stellen in AEM Site-uitvoer:
+Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](download-install-additional-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende \(eigenschap\)-details op om geldige tekens in te stellen in AEM Site-uitvoer:
 
 | PID | Eigenschappensleutel | Waarde van eigenschap |
 |---|------------|--------------|
 | `com.adobe.fmdita.common.SanitizeNodeNameImpl` | `aemsite.DisallowedFileNameChars` | Voeg tekens toe die u wilt vervangen door een onderstrepingsteken in de namen van de uitvoerbestanden van de AEM. <br> **Standaardwaarde**: ``'<\>\`@$`` |
 
-**Bovenliggend onderwerp:**[ Bestandsnamen configureren](conf-file-names.md)
+**Bovenliggend onderwerp:**[ vorm filenames ](conf-file-names.md)

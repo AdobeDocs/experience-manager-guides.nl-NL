@@ -1,6 +1,6 @@
 ---
 title: Werken met de basiskaarteditor
-description: Leer hoe u met de BasisKaarteditor in AEM Hulplijnen werkt. Ken de eigenschappen van de basiskaartredacteur op kaartniveau en onderwerpniveau. Creeer en geef relatietabellen in een kaart DITA uit.
+description: Leer hoe u met de Basic Map Editor in AEM Guides werkt. Ken de eigenschappen van de basiskaartredacteur op kaartniveau en onderwerpniveau. Creeer en geef relatietabellen in een kaart DITA uit.
 exl-id: 13da729d-e8f7-46ae-873a-1bfc32da974f
 feature: Authoring, Map Editor
 role: User
@@ -27,21 +27,21 @@ Zodra een kaartdossier wordt gecreeerd, moet u onderwerpen aan het kaartdossier 
 
 Voer de volgende stappen uit om uw kaartbestand te maken:
 
-1. Navigeer in de interface Elementen naar het kaartbestand dat u wilt bewerken.
+1. Navigeer in de gebruikersinterface van Assets naar het kaartbestand dat u wilt bewerken.
 
-1. Als u het kaartbestand exclusief wilt vergrendelen, selecteert u het kaartbestand en klikt u op **Uitchecken**.
+1. Om een exclusief slot op het kaartdossier te krijgen, selecteer het kaartdossier en klik **Controle uit**.
 
    >[!NOTE]
    >
    > Als u eenmaal een exclusief kaartbestand hebt vergrendeld, kunnen andere gebruikers de kaart niet meer bewerken. Ze kunnen echter wel aan de onderwerpen in het kaartbestand werken.
 
-1. Selecteer het kaartbestand en klik op **Bewerken**.
+1. Met het geselecteerde kaartdossier, geeft de klik **** uit.
 
    Het kaartbestand wordt geopend voor bewerking in de Kaarteditor. Gebruikend de Redacteur van de Kaart, bouwt u een kaart door de momenteel beschikbare onderwerpen te gebruiken die in de spoorstaaf van Verwijzingen worden getoond.
 
    ![](images/dita-map-01.png){width="800" align="left"}
 
-1. Met de **Verwijzingen** per spoor, navigeer naar de map die de onderwerpen of submaps bevat die u wilt toevoegen.
+1. Gebruikend het **spoor van Verwijzingen**, navigeer aan de omslag die de onderwerpen of sub-maps bevat die u wilt toevoegen.
 
    >[!NOTE]
    >
@@ -61,7 +61,7 @@ Voer de volgende stappen uit om uw kaartbestand te maken:
    >
    > Als u een nieuw onderwerp op een bestaand onderwerp in de kaart laat vallen, krijgt u een bericht over het vervangen van het onderwerp. Klik ja als u het onderwerp wilt vervangen, Nr klikken als u niet het onderwerp wilt vervangen. Met CTRL+Z en CTRL+Y kunt u elke wijziging in de kaart ongedaan maken of opnieuw uitvoeren.
 
-1. Klikken **Opslaan**.
+1. Klik **sparen**.
 
 
 ## Functies beschikbaar op de werkbalk van de Basic Map Editor
@@ -70,7 +70,7 @@ Met de hoofdwerkbalk in de Basic Map Editor kunt u de volgende taken uitvoeren:
 
 ![](images/ditamap-toolbar-actions.png){width="800" align="left"}
 
-**A: Zoeken**
+**A: Onderzoek**
 
 U kunt naar de vereiste onderwerpen van DAM zoeken en omvatten. Wanneer u op dit pictogram klikt, wordt het dialoogvenster Zoeken weergegeven:
 
@@ -80,13 +80,13 @@ Voer de trefwoorden in waarnaar u wilt zoeken. Deze trefwoorden komen overeen me
 
 **B: Groep**
 
-Klik checkbox links van de onderwerpen en klik Groep in de toolbar om de geselecteerde onderwerpen te groeperen. Voor meer informatie over het groeperen van onderwerpen, zie [onderwerpgroep](https://docs.oasis-open.org/dita/v1.0/langspec/topicgroup.html) documentatie in OASIS DITA Language Specification.
+Klik checkbox links van de onderwerpen en klik Groep in de toolbar om de geselecteerde onderwerpen te groeperen. Voor meer informatie over het groeperen van onderwerpen, zie de ](https://docs.oasis-open.org/dita/v1.0/langspec/topicgroup.html) documentatie 0} topicgroup {in de Specificatie van de Taal van OASIS DITA.[
 
-**C: Verwijderen**
+**C: Schrapping**
 
 Klik checkbox links van een onderwerp en klik Schrapping in de toolbar om de geselecteerde onderwerpen van de kaart te verwijderen.
 
-**D: Getallen tonen/Getallen verbergen**
+**D: Toon Aantallen/verberg Aantallen**
 
 Nummering \(of verbergen\) weergeven voor de onderwerpen in de kaart.
 
@@ -94,19 +94,19 @@ Nummering \(of verbergen\) weergeven voor de onderwerpen in de kaart.
 
 Controleer of de kaart geldig is of fouten bevat.
 
-**F: Standaardmodus/XML-modus**
+**F: De Wijze van Standaard/XML**
 
-In de **Standaardmodus** Als u op een onderwerpkoppeling klikt, wordt de voorvertoning van het onderwerp op een nieuw tabblad weergegeven. Klik op de knop **Standaardmodus** pictogram wijzigt modus in **XML-modus**. In **XML-modus**, toont het klikken overal in een onderwerpregel onderliggende XML van onderwerpverwijzingen binnen het onderwerp. In de XML-bronweergave is er een **Automatisch inspringen** Hiermee kunt u de XML-code opnieuw ordenen in een vorm die presenteerbaar en gemakkelijk leesbaar is. Als u een kaart handmatig bewerkt, voert de bronweergave ook validatiecontroles uit. Als uw XML fouten bevat, wordt hetzelfde gemarkeerd in het dialoogvenster **XML-modus** en u mag het DITA-kaartbestand niet opslaan. Als u XML voor de volledige kaart wilt bekijken, klik overal buiten de onderwerpgrens.
+In de **StandaardWijze**, toont het klikken van een onderwerpverbinding de voorproef van het onderwerp in een nieuw lusje. Het klikken op het **Standaardpictogram van de Wijze** verandert zijn wijze in **Wijze van XML**. In **Wijze van XML**, toont het klikken overal in een onderwerpregel onderliggende XML van onderwerpverwijzingen binnen het onderwerp. In de bronmening van XML, is er een **AutoInspringing** optie die de code van XML in presenteerbare en gemakkelijk leesbare formaat reorganiseert. Als u een kaart handmatig bewerkt, voert de bronweergave ook validatiecontroles uit. In het geval dat uw XML fouten bevat, wordt het zelfde benadrukt in de **Wijze van XML** en u wordt niet toegestaan om het DITA kaartdossier te bewaren. Als u XML voor de volledige kaart wilt bekijken, klik overal buiten de onderwerpgrens.
 
 
-**Opmerking:** In de standaardmodus kunt u de sneltoetsen gebruiken om \(`Ctrl+z`\) of opnieuw uitvoeren \(`Ctrl+y`\) de laatste handeling.
+**Nota:** op de StandaardWijze kunt u de toetsenbordkortere weg gebruiken om \ (`Ctrl+z` \) ongedaan te maken of \ (`Ctrl+y` \) opnieuw te doen de laatste actie.
 
 
 ![](images/dita-map-invalid-source.png){width="650" align="left"}
 
-**G: eigenschappen van toewijzing**
+**G: De Eigenschappen van de kaart**
 
-Geef het dialoogvenster Eigenschappen kaart weer waarin u de kenmerken en metagegevens voor de kaart kunt instellen. Als u een kenmerk wilt toevoegen, klikt u op de knop **Toevoegen** in de linkerbenedenhoek van het dialoogvenster om het dialoogvenster **Kenmerk** vervolgkeuzelijst. Selecteer in de lijst het kenmerk dat u wilt toevoegen. Als voor het geselecteerde kenmerk vooraf gedefinieerde waarden zijn opgegeven in het DTD-bestand, worden deze waarden weergegeven in een nieuwe vervolgkeuzelijst. U kunt de gewenste waarde selecteren in de vervolgkeuzelijst. Als er geen vooraf gedefinieerde waarde is, wordt een tekstvak weergegeven waarin u een waarde voor het geselecteerde kenmerk kunt invoeren.
+Geef het dialoogvenster Eigenschappen kaart weer waarin u de kenmerken en metagegevens voor de kaart kunt instellen. Om een attribuut toe te voegen, klik **voeg** knoop bij de bodem-linkerhoek van de dialoog toe om de **3} drop-down lijst van Attributen {te krijgen.** Selecteer in de lijst het kenmerk dat u wilt toevoegen. Als voor het geselecteerde kenmerk vooraf gedefinieerde waarden zijn opgegeven in het DTD-bestand, worden deze waarden weergegeven in een nieuwe vervolgkeuzelijst. U kunt de gewenste waarde selecteren in de vervolgkeuzelijst. Als er geen vooraf gedefinieerde waarde is, wordt een tekstvak weergegeven waarin u een waarde voor het geselecteerde kenmerk kunt invoeren.
 
 ![](images/map-properties.png){width="300" align="left"}
 
@@ -116,46 +116,46 @@ Wanneer u de muiswijzer over een onderwerp of een sub-kaartdossier in de Basis R
 
 ![](images/ditamap-actions.png){width="650" align="left"}
 
-**A: Naar links verplaatsen of naar rechts verplaatsen**
+**A: Beweging Linksom of Beweging Juist**
 
 Klik op de pictogrammen voor pijl-links of pijl-rechts om het onderwerp naar links of rechts te verplaatsen. Als u een onderwerp op een dergelijke manier verplaatst, wordt dit een onderliggend onderwerp \(nesten\) of wordt \(nesten verwijderen\) verwijderd ten opzichte van het onderwerp erboven.
 
 **B: Eigenschappen**
 
-Klik op het pictogram Eigenschappen om het dialoogvenster Eigenschappen van Topicref te openen. In dit dialoogvenster kunt u de onderwerpkenmerken en metagegevens instellen. Voor meer informatie over de standaardonderwerpattributen en meta-gegevens, zie [topicref](https://docs.oasis-open.org/dita/v1.2/os/spec/langref/topicref.html) documentatie in OASIS DITA Language Specification.
+Klik op het pictogram Eigenschappen om het dialoogvenster Eigenschappen van Topicref te openen. In dit dialoogvenster kunt u de onderwerpkenmerken en metagegevens instellen. Voor meer informatie over de standaardonderwerpattributen en meta-gegevens, zie de [ topicref ](https://docs.oasis-open.org/dita/v1.2/os/spec/langref/topicref.html) documentatie in de Specificatie van de Taal OASIS DITA.
 
 
 ![](images/map-properties-metadata.png){width="350" align="left"}
 
-**C: Nieuwe verwijzing toevoegen**
+**C: Voeg Nieuwe Verwijzing** toe
 
 Klik op het pictogram Nieuwe verwijzing toevoegen om een nieuwe verwijzing op hetzelfde niveau als het huidige onderwerp toe te voegen.
 
-**D: Nieuwe sleuteldefinitie toevoegen**
+**D: Voeg Nieuwe Zeer belangrijke Definitie toe**
 
 Klik op het pictogram Key om een nieuwe sleuteldefinitie toe te voegen. Overschreven toetsen of toetsen die al in de kaart zijn gedefinieerd, worden rood weergegeven. Als u op het pictogram Eigenschappen op een sleuteldefinitie klikt, wordt het dialoogvenster Eigenschappen van keydef weergegeven.
 
 ## Werken met relatietabellen in de Basic Map Editor {#id1944B0I0COB}
 
-AEM de kaartredacteurs van Gidsen komen met een krachtige eigenschap die u toestaat om relatietabellen in uw kaart te creëren en uit te geven DITA.
+De kaartredacteurs van AEM Guides komen met een krachtige eigenschap die u toestaat om relatietabellen in uw kaart te creëren en uit te geven DITA.
 
 Voer de volgende stappen uit om met relatietabellen in de BasisRedacteur van de Kaart te werken:
 
-1. In Elementen UI, navigeer aan de kaart DITA waarin u de relatietabel wilt tot stand brengen.
+1. In Assets UI, navigeer aan de kaart DITA waarin u de relatietabel wilt tot stand brengen.
 
 1. Klik op de kaart DITA om het in DITA kaartconsole te openen.
 
-1. Selecteer de **Onderwerpen** om een lijst van onderwerpen te zien beschikbaar in de kaart DITA.
+1. Selecteer het **lusje van Onderwerpen** om een lijst van onderwerpen beschikbaar in de kaart te zien DITA.
 
    >[!TIP]
    >
-   > Het lusje van Onderwerpen geeft u een optie om het kaartdossier met zijn gebiedsdelen te downloaden. Zie voor meer informatie [Een DITA-toewijzingsbestand exporteren](authoring-download-assets.md#id218UBA00IXA).
+   > Het lusje van Onderwerpen geeft u een optie om het kaartdossier met zijn gebiedsdelen te downloaden. Voor meer details, zie [ Exporteer een DITA kaartdossier ](authoring-download-assets.md#id218UBA00IXA).
 
-1. Klik in de hoofdwerkbalk op **Bewerken**.
+1. In de belangrijkste toolbar, geeft de klik **** uit.
 
    Het kaartbestand wordt geopend in de Basic Map Editor.
 
-1. Selecteren **Releerbaar** op de werkbalk.
+1. Selecteer **Reltable** van de toolbar.
 
    ![](images/reltable.png){width="650" align="left"}
 
@@ -167,27 +167,27 @@ Voer de volgende stappen uit om met relatietabellen in de BasisRedacteur van de 
 
    ![](images/create-reltable.png){width="550" align="left"}
 
-1. Om een kopbal aan uw relatietabel toe te voegen, klik **Relheader toevoegen**.
+1. Om een kopbal aan uw relatietabel toe te voegen, klik **voeg Relheader** toe.
 
-1. Als u een kolom wilt toevoegen aan uw relatietabel, klikt u op **Een kolom toevoegen**.
+1. Om een kolom aan uw relatielijst toe te voegen, klik **voeg een Kolom** toe.
 
    ![](images/complete-reltable.png){width="550" align="left"}
 
-1. Klikken **Opslaan**.
+1. Klik **sparen**.
 
 
 U kunt de volgende acties van de redacteur van de relatietabel ook uitvoeren:
 
-**Rijen of kolommen verwijderen**
+**Schrap rijen of kolommen**
 
 Als u een kolom uit uw lijst wilt schrappen, selecteer checkbox in de kolomkopbal en klik Schrapping. Als u een rij uit lijst wilt verwijderen, checkbox in de eerste kolom van de respectieve rij en klik Schrapping.
 
-**Een onderwerp verwijderen**
+**Schrap een onderwerp**
 
 Als u een onderwerp van uw lijst wilt schrappen, klik het dwarspictogram naast het onderwerp.
 
-**De relatietabel verwijderen**
+**Schrap de relatielijst**
 
 Als u de relatietabel wilt verwijderen, klikt u ergens buiten de relatietabel en klikt u op Verwijderen.
 
-**Bovenliggend onderwerp:**[ Werken met de Kaarteditor](map-editor.md)
+**Bovenliggend onderwerp:**[ Werk met de Redacteur van de Kaart ](map-editor.md)

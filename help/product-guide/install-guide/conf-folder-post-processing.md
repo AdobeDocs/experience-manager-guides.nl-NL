@@ -4,19 +4,19 @@ description: Leer hoe u naverwerking voor een naar Adobe Experience Manager Asse
 feature: Filename Configuration
 role: Admin
 level: Experienced
-source-git-commit: 532e7c562a233619a8c4b7cbdbaef44bc73eb4b2
+exl-id: ff6e1322-9655-42aa-b353-199c70c9de49
+source-git-commit: d525775afeeb89754762ff514126b1c3a3307b3f
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 0%
 
 ---
 
-
 # Nabewerking voor een map uitschakelen
 
-Standaard worden alle geüploade elementen verwerkt met behulp van de DAM Update Asset-workflow. De Gidsen van de Experience Manager stelt een extra verwerking in werking, genoemd postprocessing, als deel van deze werkschema. Dit helpt ook bij het genereren van de UUID&#39;s
+Standaard worden alle geüploade elementen verwerkt met behulp van de DAM Update Asset-workflow. Experience Manager Guides voert als onderdeel van deze workflow een extra verwerking uit, ook wel postprocessing genoemd. Dit helpt ook bij het genereren van de UUID&#39;s
 
-Tijdens het uploaden van uw bestanden en mappen naar de *Adobe Experience Manager Assets* kunt u ook de naverwerking en het genereren van UUID&#39;s uitschakelen.
+Terwijl het uploaden van uw dossiers en omslagen aan de *Adobe Experience Manager Assets* server, kunt u postprocessing en de generatie van UUIDs ook onbruikbaar maken.
 
 
 Voer de volgende stappen uit om de naverwerking op een bepaald pad uit te schakelen of de naverwerking voor een map te negeren:
@@ -30,11 +30,11 @@ Voer de volgende stappen uit om de naverwerking op een bepaald pad uit te schake
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Zoeken naar en klikken op de knop **com.adobe.fmdita.config.ConfigManager** bundel.
+1. Onderzoek naar en klik op **com.adobe.fmdita.config.ConfigManager** bundel.
 
-1. Selecteer de **Genegeerde paden voor nabewerking** als u een map voor nabewerking wilt negeren.
+1. Selecteer de **Genegeerde Wegen voor de Verwerking van Post** optie, om een omslag voor postverwerking te negeren.
 
-   Tekenreekswaarde voor het instellen van een standaard NODE_OPTIONS (multivaluated-eigenschap, tekenreeksen met weggelaten pad) `/` aan het einde)
+   Tekenreekswaarde voor het instellen van een standaard NODE_OPTIONS (multigetaxeerde eigenschap, tekenreeksen met een pad dat `/` aan het einde weglaat)
 
    **Standaardwaarde**: `/content/dam/projects/translation_output`
 
@@ -42,9 +42,9 @@ Voer de volgende stappen uit om de naverwerking op een bepaald pad uit te schake
    >
    > Deze eigenschap is standaard uitgeschakeld en het tabblad Vertalen is beschikbaar op het kaartdashboard.
 
-1. Selecteer de **Ingeschakelde paden voor nabewerking** om een pad voor nabewerking in te schakelen.
+1. Selecteer de **Toegelaten Wegen voor de Verwerking van Post** optie, om een weg voor postverwerking toe te laten.
 
-   Tekenreekswaarde voor het instellen van een standaard NODE_OPTIONS (multivaluated-eigenschap, tekenreeksen met weggelaten pad) `/` aan het einde)
+   Tekenreekswaarde voor het instellen van een standaard NODE_OPTIONS (multigetaxeerde eigenschap, tekenreeksen met een pad dat `/` aan het einde weglaat)
 
    **Standaardwaarde**: `/content/dam/`
 
@@ -53,7 +53,7 @@ Voer de volgende stappen uit om de naverwerking op een bepaald pad uit te schake
    > Deze eigenschap is standaard uitgeschakeld en het tabblad Vertalen is beschikbaar op het kaartdashboard.
 
 
-1. Klikken **Opslaan**.
+1. Klik **sparen**.
 
 
 

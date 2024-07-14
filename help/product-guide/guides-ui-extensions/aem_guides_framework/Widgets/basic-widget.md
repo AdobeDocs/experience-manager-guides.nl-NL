@@ -2,13 +2,13 @@
 title: Widgets
 description: Widgets begrijpen
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 96e960df-d595-4d58-8ad4-27057f857bac
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '87'
 ht-degree: 0%
 
 ---
-
 
 # Widgets
 
@@ -45,8 +45,8 @@ const widgetJSON =  {
 },
 ```
 
-Hier, `@languages` is een array gedefinieerd in het model van `widget_languages` als: [&quot;English&quot;, &quot;French&quot;, &quot;Hindi&quot;, &quot;Spanish&quot;, &quot;Urdu&quot;]
+Hier, is `@languages` een serie die in het model van `widget_languages` wordt bepaald als: [ &quot;Engels&quot;, &quot;Frans&quot;, &quot;Hindi&quot;, &quot;Spaans&quot;, &quot;Urdu&quot;]
 
 De gerenderde basiswidget ziet er als volgt uit:
 
-![basic_widget](imgs/basic_widget.png "Standaardwidget")
+![ basic_widget ](imgs/basic_widget.png " Basis widget ")

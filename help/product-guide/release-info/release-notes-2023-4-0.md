@@ -1,6 +1,6 @@
 ---
 title: Opmerkingen bij de release | Adobe Experience Manager Guides as a Cloud Service, release april 2023
-description: Release van Adobe Experience Manager Guides, april 2023 as a Cloud Service
+description: Release van Adobe Experience Manager Guides as a Cloud Service in april 2023
 exl-id: fa339eab-d3d0-4763-adbf-6411e39aa213
 feature: Release Notes
 role: Leader
@@ -11,39 +11,39 @@ ht-degree: 0%
 
 ---
 
-# Release van Adobe Experience Manager Guides, april 2023 as a Cloud Service
+# Release van Adobe Experience Manager Guides as a Cloud Service in april 2023
 
-In deze releaseopmerking worden de instructies voor het bijwerken, de compatibiliteitsmatrix en de problemen behandeld die zijn opgelost in versie april 2023 van de Adobe Experience Manager-hulplijnen (later aangeduid als *Hulplijnen AEM as a Cloud Service*).
+Deze versienota behandelt de verbeteringsinstructies, verenigbaarheidsmatrijs, en kwesties die in versie April 2023 van Adobe Experience Manager Guides worden bevestigd (later die als *worden bedoeld AEM Guides as a Cloud Service*).
 
-Zie voor meer informatie over de nieuwe functies en verbeteringen [Nieuwe functies in april 2023: AEM hulplijnen as a Cloud Service](whats-new-2023-4-0.md).
+Voor meer informatie over de nieuwe eigenschappen en de verhogingen, zie [ wat in April 2023 versie van AEM Guides as a Cloud Service ](whats-new-2023-4-0.md) nieuw is.
 
 ## Upgrade naar de release van april 2023
 
-Voer de volgende stappen uit om de huidige installatie van de AEM hulplijnen te upgraden:
+Voer de volgende stappen uit om uw huidige AEM Guides as a Cloud Service-installatie bij te werken:
 
 1. Controle uit de code van Git van Cloud Servicen en schakelaar aan de tak die in de pijpleiding van Cloud Servicen wordt gevormd die aan het milieu beantwoordt dat u wilt bevorderen.
-2. Bijwerken `<dox.version>` eigenschap in `/dox/dox.installer/pom.xml` bestand van uw Cloud Servicen: ga naar 2023.4.249.
-3. Leg de wijzigingen vast en voer de pijplijn met Cloud Servicen uit om naar de release van april 2023 van AEM as a Cloud Service hulplijnen te upgraden.
+2. Werk de eigenschap `<dox.version>` in het `/dox/dox.installer/pom.xml` -bestand van de Git-code van de Cloud Service bij naar 2023.4.249.
+3. Leg de wijzigingen vast en voer de pijplijn met Cloud Servicen uit om de release van AEM Guides as a Cloud Service in april 2023 te voltooien.
 
-## Stappen om de bestaande inhoud te indexeren (Alleen als u een versie hebt die ouder is dan de release van AEM hulplijnen in september as a Cloud Service)
+## Stappen om de bestaande inhoud te indexeren (Alleen als u een versie hebt die ouder is dan de release van AEM Guides as a Cloud Service in september)
 
 Voer de volgende stappen uit om de bestaande inhoud te indexeren en de nieuwe tekst zoeken en vervangen op kaartniveau te gebruiken:
 
 * Voer een verzoek van de POST op de server uit (met correcte authentificatie) - `http://<server:port>/bin/guides/map-find/indexing`.
 (Optioneel) U kunt specifieke paden van de kaarten doorgeven om deze te indexeren. Standaard worden alle kaarten geïndexeerd || Voorbeeld: `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
-* De API retourneert een jobId. Als u de status van de taak wilt controleren, kunt u een aanvraag van een GET met taak-id naar hetzelfde eindpunt verzenden - `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
-(Bijvoorbeeld: http://&lt;_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)
+* De API retourneert een jobId. Als u de status van de taak wilt controleren, kunt u een aanvraag voor een GET met taak-id naar hetzelfde eindpunt verzenden - `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
+(Bijvoorbeeld: http://&lt;_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c183 79f11c42_678)
 
 * Als de taak is voltooid, reageert het bovenstaande verzoek van de GET met succes en vermeldt u of kaarten zijn mislukt. De met succes geïndexeerde kaarten kunnen van de serverlogboeken worden bevestigd.
 
 ## Compatibiliteitsmatrix
 
-In deze sectie wordt een overzicht gegeven van de compatibiliteitsmatrix voor de softwaretoepassingen die worden ondersteund door AEM in de release van april 2023 van hulplijnen.
+Deze sectie bevat een overzicht van de compatibiliteitsmatrix voor de softwaretoepassingen die worden ondersteund door de AEM Guides as a Cloud Service april 2023-release.
 
 ### FrameMaker en FrameMaker Publishing Server
 
-| Hulplijnen AEM als Cloud Release | FMPS | FrameMaker |
+| AEM Guides als Cloud Release | FMPS | FrameMaker |
 | --- | --- | --- |
 | 2023,04,0 | Niet compatibel | 2022 of hoger |
 | | | |
@@ -51,7 +51,7 @@ In deze sectie wordt een overzicht gegeven van de compatibiliteitsmatrix voor de
 
 ### Zuurstofaansluiting
 
-| Hulplijnen AEM als Cloud Release | Oxygeenaansluiting, Windows | Oxygeenconnector Mac | Bewerken in Oxygen Windows | Bewerken in Oxygen Mac |
+| AEM Guides als Cloud Release | Oxygeenaansluiting, Windows | Oxygeenconnector Mac | Bewerken in Oxygen Windows | Bewerken in Oxygen Mac |
 | --- | --- | --- | --- | --- |
 | 2023,04,0 | 2.9-uuid-2 | 2.9-uuid-2 | 2,3 | 2,3 |
 |  |  |  |  |
@@ -74,6 +74,6 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 
 ### Bekend probleem met tijdelijke oplossing
 
-Adobe heeft het volgende bekende probleem voor AEM Guides as a Cloud Service april 2023 geïdentificeerd.
+Adobe heeft het volgende bekende probleem voor de release van AEM Guides as a Cloud Service april 2023 geïdentificeerd.
 
 * Native PDF | De oude metagegevens worden pas gevuld wanneer de uitvoervoorinstelling expliciet wordt geopend.

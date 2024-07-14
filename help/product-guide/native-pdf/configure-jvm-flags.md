@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Native PDF-publicaties starten een apart JVM-proces om een PDF te genereren. Mogelijk moet u de configuraties van deze JVM aanpassen om verschillende scenario&#39;s te ondersteunen. Als u bijvoorbeeld grotere werklasten wilt uitvoeren, moet u de maximale heapgrootte verhogen die beschikbaar is voor het gepaaide JVM-proces.
 
-Voer de volgende stappen uit om AEM Gidsen het Eigen PDF het Publiceren JVM vlaggen uit te voeren:
+Voer de volgende stappen uit om JVM-vlaggen voor AEM Guides Native PDF publiceren te configureren:
 
 1. Open de Adobe Experience Manager Web Console Configuration-pagina.
 
@@ -26,10 +26,10 @@ Voer de volgende stappen uit om AEM Gidsen het Eigen PDF het Publiceren JVM vlag
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Zoeken naar en selecteren de *com.adobe.fmdita.config.ConfigManager* bundel.
+1. Onderzoek naar en selecteer *com.adobe.fmdita.config.ConfigManager* bundel.
 
-1. De eigenschap bijwerken **Opties voor Java-opdrachtregel voor native PDF** (*native.pdf.java.opts*) om standaard JVM-vlaggen door te geven.
+1. Werk het bezit **de lijnopties van het Bevel van Java voor inheemse pdf** (*native.pdf.java.opts*) bij om het even welke standaardvlaggen over te gaan JVM.
 
 
 
-1. Klikken **Opslaan**.
+1. Klik **sparen**.

@@ -5,12 +5,12 @@ source-wordcount: '409'
 ht-degree: 0%
 
 ---
-# Adobe Experience Manager-hulplijnen as a Cloud Service gebruiken
+# Adobe Experience Manager Guides as a Cloud Service gebruiken
 
 - [Disclaimer](rebranding-disclaimer.md)
-- [Informatie over as a Cloud Service Adobe Experience Manager-hulplijnen](intro.md)
-   - [Hoe AEM hulplijnen werken](intro-how-dxml-works.md)
-   - [Belangrijke functies AEM hulplijnen](intro-dxml-features.md)
+- [Informatie over Adobe Experience Manager Guides as a Cloud Service](intro.md)
+   - [Hoe AEM Guides werkt](intro-how-dxml-works.md)
+   - [Belangrijke AEM Guides-functies](intro-dxml-features.md)
 - [Inhoud beheren](authoring.md)
    - [Bestanden uploaden](authoring-upload-existing-files.md)
    - [Bestanden en mappen beheren](authoring-file-management.md)
@@ -19,7 +19,7 @@ ht-degree: 0%
    - [Onderwerpen maken en voorvertonen](create-preview-topics.md)
       - [Onderwerpen maken](web-editor-create-topics.md)
       - [Een voorvertoning van een onderwerp weergeven](web-editor-preview-topics.md)
-   - [Inhoud van auteur schrijven met AEM hulplijnen](authoring-content-xml-doc.md)
+   - [Inhoud autoriseren met AEM Guides](authoring-content-xml-doc.md)
       - [Werken met de webeditor](web-editor.md)
          - [De webeditor starten](web-editor-launch-editor.md)
          - [Onderwerpen bewerken in de webeditor](web-editor-edit-topics.md)
@@ -78,7 +78,7 @@ ht-degree: 0%
    - [Werken met basislijn](generate-output-use-baseline-for-publishing.md)
    - [Produceer output voor een kaart DITA van de kaartconsole](generate-output-for-a-dita-map.md)
    - [Kaartverzameling gebruiken voor het genereren van uitvoer](generate-output-use-map-collection-output-generation.md)
-   - [Publicatietaken beheren met het dashboard Publiceren](generate-output-publish-dashboard.md)
+   - [Publicatietaken beheren met het Publish-dashboard](generate-output-publish-dashboard.md)
    - [Basisprobleemoplossing](generate-output-basic-troubleshooting.md)
    - [Bulkactivering van gepubliceerde inhoud](conf-bulk-activation.md)
       - [Een verzameling bulkactiveringskaarten maken](conf-bulk-activation-create-map-collection.md)

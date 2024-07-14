@@ -1,5 +1,5 @@
 ---
-title: Native PDF-publicatiefunctie | Aangepaste stijlen gebruiken in voetnoten
+title: Native PDF Publish-functie | Aangepaste stijlen gebruiken in voetnoten
 description: Leer hoe u stijl toepast op de getallen in voetnoten.
 exl-id: f1068f2f-2ace-4bdb-b5a4-46b03d4e43d6
 feature: Output Generation
@@ -31,8 +31,8 @@ U kunt de stijlen van de voetnootaanroepen en -markeringen wijzigen en de weerga
 
 Gebruik het volgende voorbeeld om een haakje vóór en na de voetnootaanroep en markering toe te voegen:
 
-* Voeg het voorvoegsel &quot;(&quot; en het achtervoegsel &quot;)&quot; toe met het inhoudskenmerk in het dialoogvenster `footnote-call` stijl, die de steunen rond het voetnootaantal in de onderwerpinhoud zal toevoegen.
-* Voeg het voorvoegsel &quot;(&quot; en het achtervoegsel &quot;)&quot; toe met het inhoudskenmerk in het dialoogvenster `footnote-marker` stijl, waarmee de haakjes rond het voetnootnummer onder aan de pagina worden toegevoegd.
+* Voeg het voorvoegsel &quot;(&quot; en het achtervoegsel &quot;)&quot; toe met het inhoudskenmerk in de `footnote-call` -stijl, waarmee de haakjes rond het voetnootnummer in de onderwerpinhoud worden toegevoegd.
+* Voeg het voorvoegsel &quot;(&quot; en het achtervoegsel &quot;)&quot; toe met het inhoudskenmerk in de `footnote-marker` -stijl, waarmee de haakjes rond het voetnootnummer onder aan de pagina worden toegevoegd.
 
 ```css
 ...
@@ -51,7 +51,7 @@ content: "(" counter(footnote, decimal) ")";
 
 <img src="./assets/pdf-output-footer-numbers.png" alt="Voettekst in PDF-uitvoer" width="500" border="2px">
 
-*Voeg haakjes toe rond de voetnootaanroep en de voetnootmarkering.*
+*voeg steunen rond de voetnootvraag en de voetnootteller toe.*
 
 **Voorbeeld 2**:
 
@@ -71,11 +71,12 @@ In de uitvoer kunt u iets weergeven als:
 
 <img src="./assets/footnote-number-2.png" alt="Voettekst in PDF-uitvoer" width="500" border="2px">
 
-*Voeg een sterretje toe aan een voetnootaanroep en -markering.*
+*voeg asterisk aan een voetnootvraag en teller toe.*
 
 ## Een voetnootaanroep verbergen
 
-U kunt ook een stijl toepassen op voetnootaanroepen met specifieke kenmerken. Gebruik bijvoorbeeld de volgende stijl om een voetnoot met de id&#39;s te verbergen: De aanroep van de voetnoot is verborgen in de hoofdinhoud, maar de voetnootmarkering wordt onder aan de pagina weergegeven.
+U kunt ook een stijl toepassen op voetnootaanroepen met specifieke kenmerken. Gebruik bijvoorbeeld de volgende stijl om een voetnoot met de id&#39;s te verbergen:
+De voetnootaanroep is verborgen in de hoofdinhoud, maar de voetnootmarkering wordt onder aan de pagina weergegeven.
 
 ```css
 .fn[id]::footnote-call {
@@ -92,7 +93,7 @@ In het voetnootgedeelte worden alle voetnoten geplaatst, meestal onder aan een p
 
 U kunt de pagina-eigenschappen voor paginalay-outs gebruiken om het voetnootgedeelte in de verschillende secties in een PDF-document op te maken. U kunt bijvoorbeeld de eigenschappen voor marges en opvulling van het voetnootgedeelte in een hoofdstuk opgeven. U kunt ook de rand, stijl, kleur, breedte en straal wijzigen.
 
-Meer informatie over [werken met de pagina-eigenschappen van een pagina-indeling](./design-page-layout.md#page-props-page-layout).
+Leer over hoe te [ met de paginaeigenschappen van een paginalay-out ](./design-page-layout.md#page-props-page-layout) werken.
 
 ### CSS-stijlen
 
@@ -115,7 +116,7 @@ Standaard worden de voetnoten doorlopend genummerd in een document. U kunt echte
 
 ### Paginalay-outs
 
-U kunt een nummer in de paginalay-outs opgeven om de voetnootnummering in de verschillende secties van een PDF-document opnieuw te starten. Selecteer bijvoorbeeld een getal in het menu **Nummering opnieuw beginnen vanaf** in het deelvenster Pagina-eigenschappen om de voetnootnummering voor elk hoofdstuk opnieuw te starten.
+U kunt een nummer in de paginalay-outs opgeven om de voetnootnummering in de verschillende secties van een PDF-document opnieuw te starten. Bijvoorbeeld, selecteer een aantal van **nummering van** opnieuw beginnen van het gebied in het paneel van de Eigenschappen van de Pagina om de voetnootnummering voor elk hoofdstuk opnieuw te beginnen.
 
 ### CSS-stijlen
 
@@ -147,7 +148,7 @@ U kunt ook meerdere keren naar een voetnoot verwijzen en in de PDF-uitvoer naar 
 In de volgende schermafbeelding ziet u bijvoorbeeld hoe met dezelfde voetnoot wordt verwezen naar alle steden in de PDF-uitvoer.
 <img width="550" alt="voetnootverwijzingen in een pdf" src="./assets/link-footnotes.png" border="2px">
 
-*De kruisverwijzing invoegen in een voetnoot.*
+*Tussenvoegsel de verwijzing naar een voetnoot.*
 
 
 

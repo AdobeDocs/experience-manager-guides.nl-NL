@@ -4,7 +4,8 @@ description: Meer informatie over de volledige gebeurtenishandler voor bulkactiv
 feature: Bulk Activation Event Handler
 role: Developer
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+exl-id: 08b153d7-3d13-4804-9e3e-38790dbea1f3
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 0%
@@ -13,22 +14,31 @@ ht-degree: 0%
 
 # Bulkactivering voltooid, gebeurtenishandler
 
-Hulplijnen voor Experience Manager worden getoond `com/adobe/fmdita/replication/complete` gebeurtenis die wordt gebruikt om bewerkingen uit te voeren na voltooiing van een bulkactiveringsproces. Deze gebeurtenis wordt geactiveerd wanneer een bulkactiveringsproces wordt voltooid. Als u bijvoorbeeld de bulkactivering van een AEM sitevoorinstelling van een kaart uitvoert, wordt deze gebeurtenis aangeroepen nadat het activeringsproces is beëindigd.
+Experience Manager Guides maakt de gebeurtenis `com/adobe/fmdita/replication/complete` beschikbaar die wordt gebruikt om bewerkingen uit te voeren nadat een bulkactiveringsproces is voltooid. Deze gebeurtenis wordt geactiveerd wanneer een bulkactiveringsproces wordt voltooid. Als u bijvoorbeeld de bulkactivering van een AEM sitevoorinstelling van een kaart uitvoert, wordt deze gebeurtenis aangeroepen nadat het activeringsproces is beëindigd.
 
 U moet een AEM gebeurtenishandler maken om de eigenschappen te lezen die beschikbaar zijn in deze gebeurtenis en verdere verwerking uit te voeren.
 
 De gebeurtenisdetails worden hieronder uitgelegd:
 
-**Gebeurtenisnaam**:
+**naam van de Gebeurtenis**:
 
 ```
 com/adobe/fmdita/replication/complete 
 ```
 
-**Parameters**: |Naam|Type|Omschrijving| |—|—|—| |`path`|String|Het pad van het bestand dat deze gebeurtenis heeft geactiveerd. <br> Bijvoorbeeld: `/content/output/sites/ditamap1-ditamap`. <br> Dit is een lijst met paden die als een JSON-array met serienummering zijn gecodeerd.| |`messageType`|String|Het type van een bericht. <br>Mogelijke optie: `REPLICATION`| |`action`|String|Dit is de uitgevoerde actie. <br>Mogelijke optie: `BulkReplicate`| |`user`|String|De gebruiker die de bewerking heeft gestart.| |`result`|String|Het resultaat van de activering van het opsommingsteken. Het is een geserialiseerd JSON-object: <br>`{"success":boolean,"code":integer,"message":"" }`| |`agentId`|String|The agentId used in the replication. Bijvoorbeeld: `"publish"`.| |`importMode`|Tekenreeks|Importmodus gebruikt in activering. De mogelijke opties zijn: <br>`REPLACE, MERGE, UPDATE`.|
+**Parameters**:
+|Naam|Type|Omschrijving|
+|—|—|—|
+|`path`|String|Het pad van het bestand dat deze gebeurtenis heeft geactiveerd. <br> Bijvoorbeeld `/content/output/sites/ditamap1-ditamap` . <br> Het is een lijst met paden die als een JSON-array zijn geserialiseerd.|
+|`messageType`|String|Het type van een bericht. <br> Mogelijke optie: `REPLICATION`|
+|`action`|String|Dit is de uitgevoerde actie. <br> Mogelijke optie: `BulkReplicate`|
+|`user`|String|De gebruiker die de bewerking heeft gestart.|
+|`result`|String|Het resultaat van de activering van de optie Bulk. Het is een JSON-object met serienummering: <br>`{"success":boolean,"code":integer,"message":"" }`|
+|`agentId`|String|The agentId used in the replication. Bijvoorbeeld `"publish"` .|
+|`importMode`|Tekenreeks|Importmodus gebruikt in activering. De mogelijke opties zijn: <br>`REPLACE, MERGE, UPDATE`|
 
 
-**Voorbeeld van gebeurtenislistener**:
+**de Listener van de Gebeurtenis van de Steekproef**:
 
 ```XML
 @Component(service = EventHandler.class,

@@ -1,16 +1,17 @@
 ---
 title: Inhoud vertalen in hulplijnen - Deel 2
 description: Leer hoe u uw inhoud in meerdere talen vertaalt.
-source-git-commit: 87fe100d312fafbfd5b336f7c5ca618bc20cdebb
+exl-id: b61d4432-62bf-4fb5-8264-ac50dc93215b
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 0%
 
 ---
 
-# Inhoud vertalen met behulp van AEM hulplijnen - Deel 2
+# Inhoud vertalen met AEM Guides - Deel 2
 
-AEM Hulplijnen worden geleverd met krachtige functies waarmee u uw inhoud in meerdere talen kunt vertalen. Workflows voor het vertalen van mensen en computers worden ondersteund door AEM hulplijnen. In deze zitting zullen wij de recentste ontwikkelingen binnen de Vertaling van Gidsen onderzoeken en de beschikbare kadermechanismen en het vertaalproces begrijpen met een levende demonstratie.
+AEM Guides wordt geleverd met krachtige functies waarmee u uw inhoud in meerdere talen kunt vertalen. Workflows voor het vertalen van mensen en machines worden ondersteund door AEM Guides. In deze zitting zullen wij de recentste ontwikkelingen binnen de Vertaling van Gidsen onderzoeken en de beschikbare kadermechanismen en het vertaalproces begrijpen met een levende demonstratie.
 
 
 ## Sessieopname
@@ -19,10 +20,10 @@ AEM Hulplijnen worden geleverd met krachtige functies waarmee u uw inhoud in mee
 
 ## Hooglichten
 
-- **Datum** - 29 februari 2024
-- **Aantal deelnemers** - 57
+- **Datum** - 29 februari, 2024
+- **Aantal aanwezigen** - 57
 - **Duur** - 60 minuten
-- **Publiek** - Klanten, partners en Adoben
+- **Publiek** - Klanten, partners, en de werknemers van de Adobe
 
 ## Toetsen
 
@@ -36,14 +37,14 @@ In deze sessie hebt u kennis genomen van het volgende:
 
 ## Gerelateerde bronnen
 
-- **Documentatie** - [over Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/user-guide/translate-content/translation.html?lang=en)
+- **Documentatie** - [ op Experience League ](https://experienceleague.adobe.com/docs/experience-manager-guides/using/user-guide/translate-content/translation.html?lang=en)
 
-- **Forum van de Gemeenschap** - Voor sessiespecifieke community-interacties over Experience League gaat u naar  [Forum met AEM hulplijnen](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Communautair Forum** - voor zitting-specifieke communautaire interactie over Experience League, bezoek [ het Forum van AEM Guides ](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 
 >[!NOTE]
 >
-> De functies die in deze sessie worden weergegeven, zijn beschikbaar in de volgende versies van AEM hulplijnen:
+> De functies die in deze sessie worden getoond, zijn beschikbaar in de volgende versies van AEM Guides:
 > - december 2024 (voor cloud)
 > - 4.4 (voor niet-cloud)
 
@@ -51,4 +52,4 @@ In deze sessie hebt u kennis genomen van het volgende:
 
 ## Contact opnemen
 
-Stuur ons voor alle vragen een e-mail op <techcomm@adobe.com>
+Stuur ons een e-mail op <techcomm@adobe.com> voor alle vragen

@@ -1,6 +1,6 @@
 ---
-title: DITA-inhoud opnieuw gebruiken in AEM hulplijnen
-description: In dit korte artikel wordt uitgelegd hoe AEM hulplijnen en DITA u tijd en moeite besparen wanneer u inhoud hergebruikt
+title: DITA-inhoud opnieuw gebruiken in AEM Guides
+description: In dit korte artikel wordt uitgelegd hoe u met AEM Guides en DITA tijd en moeite bespaart wanneer u inhoud hergebruikt
 role: User, Admin
 exl-id: 1522ebf5-2aea-4d8f-ade7-367227b31dd9
 source-git-commit: 4160c990bafe41611714ef66ee361aba0ef47c0a
@@ -10,15 +10,15 @@ ht-degree: 0%
 
 ---
 
-# Herbruikbaarheid van inhoud in AEM hulplijnen
+# Opnieuw gebruiken van inhoud in AEM Guides
 
-Adobe AEM hulplijnen maken gebruik van de sterke punten van DITA om een gebruikersvriendelijke interface voor hergebruik van inhoud te bieden.
+Adobe AEM Guides maakt gebruik van de sterke punten van DITA om een gebruikersvriendelijke interface voor hergebruik van inhoud te bieden.
 
 In dit artikel zouden we het hebben over:
 
 1. [Herbruikbaarheid met onderwerpverwijzing (](#reusability-using-topic-referencestopicref)
 2. [Herbruikbaarheid met inhoudsverwijzing (](#reusability-using-content-reference-conref--conkeyref)
-3. [Knopinfo voor hergebruik van inhoud met slepen en neerzetten in AEM hulplijnen](#reuse-content-with-a-single-click-in-aem-guides)
+3. [Knopinfo voor hergebruik van inhoud met slepen en neerzetten in AEM Guides](#reuse-content-with-a-single-click-in-aem-guides)
 
 ## Herbruikbaarheid met onderwerpverwijzingen (topicref)
 
@@ -77,19 +77,19 @@ U wilt elk afzonderlijk KYC-fragment opnieuw gebruiken voor de onderwerpen &quot
 </section>
 ```
 
-hier `conref=kyc_procedures.dita#indvidual_kyc` kyc_procedures.dita is de bestandsidentificatie en #individual_kyc is de fragment-id.
+Hier is `conref=kyc_procedures.dita#indvidual_kyc` kyc_procedures.dita de bestandsidentificatie en #individual_kyc de fragmentidentificatie.
 
 Kyc_procedure.dita blijft de enige informatiebron. Als er om het even welke veranderingen in het KYC proces zoals vereist door verordeningen zijn, moet u eenvoudig één onderwerp bijwerken, en die veranderingen worden automatisch weerspiegeld in alle onderwerpen die naar het verwijzen.
 
-Met AEM hulplijnen klikt u twee keer op het gereedschap
+AEM Guides gebruiken, twee klikken
 
 Stap 1: klik op Herbruikbare inhoud invoegen
-![werkbalk](../../assets/publishing/content-reusability_image1.png)
+![ toolbar ](../../assets/publishing/content-reusability_image1.png)
 
 <br>
 
 Stap 2: Selecteer het bestand en het fragment dat u opnieuw wilt gebruiken.
-![conref](../../assets/publishing/content-reusability_image2.png)
+![ conref ](../../assets/publishing/content-reusability_image2.png)
 
 Net als bij &quot;conref&quot; kunt u ook &quot;conkeyref&quot; gebruiken waar u inhoud via toetsen kunt verwijzen in plaats van een inhoudspad te geven.
 
@@ -125,28 +125,28 @@ Sleutel - &quot;Kyc_procedure&quot; zal de enige bron van informatie blijven. Al
 
 Hier wordt het onderwerppad gewijzigd van &quot;kyc_procedure_2020.dita&quot; in &quot;kyc_procedure_2024.dita&quot; vanwege recente wijzigingen in de regelgeving.
 
-Met AEM hulplijnen klikt u twee keer op het gereedschap
+AEM Guides gebruiken, twee klikken
 
 Stap 1: klik op Herbruikbare inhoud invoegen
-![werkbalk](../../assets/publishing/content-reusability_image1.png)
+![ toolbar ](../../assets/publishing/content-reusability_image1.png)
 
 Stap 2: Selecteer (facultatief) uw wortelkaart, sleutel, en fragment dat opnieuw moet worden gebruikt.
-![conkeyref](../../assets/publishing/content-reusability_image3.png)
+![ conkeyref ](../../assets/publishing/content-reusability_image3.png)
 
 Hier is de hoofdmap automatisch geselecteerd omdat deze al was geopend in de kaartweergave
 
 
-## Inhoud opnieuw gebruiken met één klik in AEM hulplijnen
+## Inhoud opnieuw gebruiken met één klik in AEM Guides
 
-AEM Hulplijnen bieden de mogelijkheid om inhoud met één muisklik opnieuw te gebruiken om verwijzingen naar inhoud toe te voegen.
+AEM Guides biedt de mogelijkheid om inhoud met één muisklik opnieuw te gebruiken.
 
 Stap 1: Voeg een generisch onderwerp aan Herbruikbare inhoud toe
 
-![Herbruikbare inhoud toevoegen](../../assets/publishing/content-reusability_image4.png)
+![ voeg Herbruikbare inhoud ](../../assets/publishing/content-reusability_image4.png) toe
 
 Stap 2: Zodra toegevoegd, belemmering, en laat vallen het fragment dat u in om het even welk van uw bestemmingsonderwerpen wilt opnieuw gebruiken.
 
-![Opnieuw te gebruiken inhoud gif toevoegen](../../assets/publishing/content-reusability_image5.gif)
+![ voeg Herbruikbare inhoud GIF ](../../assets/publishing/content-reusability_image5.gif) toe
 
 
 
@@ -164,4 +164,4 @@ Zorg ervoor dat u de hoofdmap/bovenliggende map hebt geopend in de kaartweergave
 <br>
 
 
-Plaatsen in de Gemeenschap AEM gidsen [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) voor eventuele query&#39;s.
+Post op het communautair van AEM Guides [ forum ](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) voor om het even welke vragen.

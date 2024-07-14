@@ -1,13 +1,13 @@
 ---
-title: Native PDF-publicatiefunctie | Streepjescode toevoegen
+title: Native PDF Publish-functie | Streepjescode toevoegen
 description: Leer hoe u streepjescodes kunt toevoegen.
-source-git-commit: a766353908829ab433173f8fd003ecad0c9d1bf1
+exl-id: 206bdcf9-2bcd-4bf1-815a-c97cdf0dc415
+source-git-commit: d525775afeeb89754762ff514126b1c3a3307b3f
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 0%
 
 ---
-
 
 # Een streepjescode toevoegen aan de PDF-uitvoer
 
@@ -24,7 +24,7 @@ Voer de volgende stappen uit om een streepjescode te genereren:
 
 ### De CSS van de sjabloon bijwerken om een streepjescodewaarde te renderen
 
-Wijzig de `layout.css` bestand om een streepjescode te renderen tijdens het genereren van de PDF. Verschillende typen streepjescodes, zoals &#39;qrcode&#39; en &#39;pdf417&#39;, worden ondersteund.  Voor meer informatie, bekijkt u [Typen streepjescodes](#barcode-types).
+Wijzig het bestand `layout.css` om een streepjescode te renderen tijdens het genereren van de PDF. Verschillende typen streepjescodes, zoals &#39;qrcode&#39; en &#39;pdf417&#39;, worden ondersteund.  Voor meer details, mening [ de types van Streepjescode ](#barcode-types).
 
 
 
@@ -50,7 +50,7 @@ U kunt de streepjescode op verschillende manieren genereren. Enkele voorbeelden 
 
 Voeg een tijdelijke aanduiding voor streepjescodes toe aan de sjabloonkoptekst en pas de stijl toe:
 
-1. Bewerken **Sjablonen** > **Pagina-indelingen**
+1. Bewerk **Malplaatjes** > **Lay-outs van de Pagina**
 1. Selecteer een pagina-indeling. U kunt bijvoorbeeld de pagina-indeling BackCover selecteren, die de kop- of voettekst bevat.
 1. Voeg het volgende bereik toe aan de locatie waar u de streepjescode wilt invoegen.
 
@@ -58,9 +58,9 @@ Voeg een tijdelijke aanduiding voor streepjescodes toe aan de sjabloonkoptekst e
 
    >[!NOTE]
    >
-   > Gebruik dezelfde klassenaam die u in het dialoogvenster `layout.css`.
+   > Gebruik dezelfde klassenaam die u in de `layout.css` hebt gedefinieerd.
 
-1. Vervangen `<Sample barcode>` met de waarde die de streepjescodescanner moet lezen.
+1. Vervang `<Sample barcode>` door de waarde die u wilt dat de streepjescodescanner wordt gelezen.
 
 U kunt de streepjescode bij het genereren van de uitvoer-PDF weergeven met behulp van de sjabloon, die de paginalay-out bevat. Nadat u de vorige stappen hebt uitgevoerd, kunt u de PDF-uitvoer genereren met een streepjescode.
 
@@ -70,7 +70,7 @@ In de volgende schermafbeelding wordt een voorbeeldstreepjescode weergegeven in 
 
 **Voorbeeld 2**
 
-Wijzig de `Common.plt` in het **Basis** sjabloon om een streepjescode toe te voegen na de projecttitel.
+Wijzig het `Common.plt` dossier in het **Basis** malplaatje om een streepjescode na de projecttitel toe te voegen.
 
 Als u een streepjescode voor een ISBN-nummer wilt maken, voegt u een ISBN-nummer toe. Gebruik vervolgens het ISBN-nummer om de streepjescode te genereren.
 
@@ -89,7 +89,7 @@ Als u een streepjescode voor een ISBN-nummer wilt maken, voegt u een ISBN-nummer
 
 Een streepjescode maken met de metagegevens van de kaart:
 
-Alle metagegevens in het dialoogvenster `<topicmeta>` -element van een DITA-kaart die als streepjescode moet worden weergegeven. Zorg ervoor dat u het juiste XPath gebruikt. U kunt bijvoorbeeld een `<resourceid>` in de `<topicmeta>` van een DITA-kaart.
+Gebruik metagegevens die zich in het element `<topicmeta>` van een DITA-kaart bevinden, om weer te geven als streepjescode. Zorg ervoor dat u het juiste XPath gebruikt. U kunt bijvoorbeeld een `<resourceid>` toevoegen in de `<topicmeta>` van een DITA-kaart.
 
 In het volgende voorbeeld dient de bron-id als de belangrijkste invoer voor het genereren van de streepjescode.
 
@@ -156,6 +156,3 @@ Enkele veelgebruikte streepjescodes zijn als volgt:
 | Aztec-code | aztec code | Codebalkcode van de Aztec volgens ISO/IEC 2478:2008. |                            |
 | DataMatrix | data-matrix | Gegevensmatrix ECC 200 bar code symbolbology Conform ISO/IEC 16022:2006. |
 | Code One | code-on |                            |
-
-
-

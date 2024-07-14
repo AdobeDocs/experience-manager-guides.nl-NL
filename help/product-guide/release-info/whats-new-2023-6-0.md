@@ -1,6 +1,6 @@
 ---
-title: Opmerkingen bij de release | Nieuwe functies in Adobe Experience Manager-hulplijnen, release juni 2023
-description: Leer de nieuwe en verbeterde functies van de as a Cloud Service Adobe Experience Manager-hulplijnen in juni 2023
+title: Opmerkingen bij de release | Nieuwe functies in Adobe Experience Manager Guides, release juni 2023
+description: Leer de nieuwe en verbeterde functies in de release van Adobe Experience Manager Guides as a Cloud Service van juni 2023
 exl-id: 625f9702-2b91-4622-9fec-282f47f1d7a6
 feature: What's New
 role: Leader
@@ -11,28 +11,28 @@ ht-degree: 0%
 
 ---
 
-# Nieuwe functies in juni 2023 as a Cloud Service Adobe Experience Manager-hulplijnen
+# Nieuwe functies in juni 2023 in Adobe Experience Manager Guides as a Cloud Service
 
-Dit artikel heeft betrekking op de nieuwe en verbeterde functies in versie juni 2023 van Adobe Experience Manager-hulplijnen (later aangeduid als *Hulplijnen AEM as a Cloud Service*).
+Dit artikel behandelt de nieuwe en verbeterde eigenschappen in versie Juni 2023 van Adobe Experience Manager Guides (later genoemd als *as a Cloud Service van AEM Guides*).
 
-Voor meer informatie over de upgrade-instructies, compatibiliteitsmatrix en de problemen die in deze release zijn opgelost, raadpleegt u [Opmerkingen bij de release](release-notes-2023-6-0.md).
+Voor meer details op de verbeteringsinstructies, verenigbaarheidsmatrijs, en de kwesties die in deze versie worden bevestigd, zie [ de nota&#39;s van de Versie ](release-notes-2023-6-0.md).
 
 ## Verbroken rapport van Verbindingen in de Redacteur van het Web
 
-AEM Gidsen staat u toe om de algemene volledigheid van uw technische documenten te controleren en rapporten van de Redacteur van het Web te produceren. In juni 2023 biedt de release AEM hulplijnen u nu de functie om verbroken koppelingen weer te geven en te herstellen. Dit is een handig rapport waarmee u verbroken koppelingen kunt beheren. U kunt de verbroken verbindingen gemakkelijk bekijken aanwezig in uw kaart DITA en hen ook bevestigen.
+AEM Guides staat u toe om de algemene volledigheid van uw technische documenten te controleren en rapporten van de Redacteur van het Web te produceren. Nu biedt AEM Guides in juni 2023 de functie om verbroken koppelingen weer te geven en te herstellen. Dit is een handig rapport waarmee u verbroken koppelingen kunt beheren. U kunt de verbroken verbindingen gemakkelijk bekijken aanwezig in uw kaart DITA en hen ook bevestigen.
 ![](assets/broken-link-report.png){width="800" align="left"}
 
 Als u een koppeling hebt hersteld, wordt deze niet weergegeven onder de lijst met verbroken koppelingen.
 
-Zie voor meer informatie [verbroken koppelingen weergeven en corrigeren](../user-guide/reports-web-editor.md#report-broken-links).
+Voor meer details, zie [ Mening en moeilijke situatie gebroken verbindingen ](../user-guide/reports-web-editor.md#report-broken-links).
 
 ## Bestanden hernoemen en verplaatsen in de weergave Opslagplaats
 
-U kunt nu ook de naam van een bestand wijzigen of een bestand uit het deelvenster Opslagruimte verplaatsen. Deze functie is handig en helpt uw bestanden eenvoudig te beheren vanuit het deelvenster Opslag. U kunt een bestand selecteren en de naam ervan wijzigen of de naam ervan wijzigen met de **Opties** voor het geselecteerde bestand. AEM hulplijnen geven een bericht van slagen weer wanneer u een bestand verplaatst of de naam ervan wijzigt.
+U kunt nu ook de naam van een bestand wijzigen of een bestand uit het deelvenster Opslagruimte verplaatsen. Deze functie is handig en helpt uw bestanden eenvoudig te beheren vanuit het deelvenster Opslag. U kunt een dossier selecteren en het anders noemen of bewegen gebruikend het **menu van Opties** voor het geselecteerde dossier. AEM Guides geeft een succesbericht weer wanneer u een bestand verplaatst of hernoemt.
 
 ![](assets/rename-move-assets.png){width="650" align="left"}
 
-Zie voor meer informatie over het menu Opties van een bestand de knop **Weergave opslagplaats** functiebeschrijving in het dialoogvenster [Linkerdeelvenster](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.
+Voor meer details op het menu van Opties van een dossier, zie de **eigenschapbeschrijving van de mening van de Bewaarplaats** in de [ Linkerpaneel ](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.
 
 ## Native PDF-verbeteringen
 
@@ -40,11 +40,11 @@ Zie voor meer informatie over het menu Opties van een bestand de knop **Weergave
 
 Nu kunt u een watermerk toevoegen aan de PDF-uitvoer van het document dat nog niet is goedgekeurd. Dit watermerk wordt niet weergegeven als u de PDF voor het document genereert in de documentstatus &#39;Goedgekeurd&#39;. U kunt bijvoorbeeld een watermerk Concept toevoegen voor uw PDF-uitvoer.
 
-Zie voor meer informatie [Een watermerk toevoegen aan de PDF-uitvoer voor conceptdocumenten](../native-pdf/use-javascript-content-style.md#watermark-draft-document).
+Voor meer details, zie [ een watermerk aan de output van de PDF voor ontwerpdocumenten ](../native-pdf/use-javascript-content-style.md#watermark-draft-document) toevoegen.
 
 ### Ondersteuning voor taalvariabelen
 
-AEM hulplijnen bieden ondersteuning voor taalvariabelen. U kunt taalvariabelen gebruiken om een gelokaliseerde versie van de uit-van-de-doos etiketten zoals Nota, Voorzichtigheid, en Waarschuwing of statische tekst in de output van PDF te bepalen.
+AEM Guides ondersteunt taalvariabelen. U kunt taalvariabelen gebruiken om een gelokaliseerde versie van de uit-van-de-doos etiketten zoals Nota, Voorzichtigheid, en Waarschuwing of statische tekst in de output van PDF te bepalen.
 U kunt de taalvariabelen of de gelokaliseerde versie van de etiketten aan de aangewezen secties in uw output van PDF en in de outputmalplaatjes toevoegen.
 
 #### Taalvariabelen in de PDF-uitvoer
@@ -61,22 +61,22 @@ U kunt bijvoorbeeld het label Notitie op de volgende manieren in uw PDF-uitvoer 
 Als u de PDF-uitvoer in verschillende talen wilt maken, moet u verschillende PDF-sjablonen maken die gelokaliseerde tekst voor elke taal bevatten. Nu met de eigenschap van taalvariabelen, moet u het malplaatje slechts eenmaal tot stand brengen. Vervolgens kunt u voor elke statische tekst die u wilt lokaliseren, overeenkomstige taalvariabelen maken en deze gebruiken in uw sjabloon.
 U kunt taalvariabelen maken voor langere tekst, zoals een hele zin of zelfs een alinea. U kunt ook stijlen toepassen en markeringen voor HTML gebruiken om deze taalvariabelen op te maken.
 
-Voor meer informatie, bekijkt u [Ondersteuning voor taalvariabelen](../native-pdf/native-pdf-language-variables.md).
+Voor meer details, mening [ Steun voor taalvariabelen ](../native-pdf/native-pdf-language-variables.md).
 
 ### Mogelijkheid om AEM metagegevens te gebruiken in PDF-lay-outs
 
 Metagegevens zijn de beschrijving of definitie van de inhoud. Deze metagegevens worden opgeslagen in de DITA-bronkaartinhoud.
 
-In AEM hulplijnen kunt u ook de eigenschappen van de metagegevens van uw elementen selecteren en deze aan de pagina-indeling toevoegen. Vervolgens worden deze metagegevenseigenschappen van uw elementen door AEM hulplijnen geselecteerd en in de PDF-uitvoer gepubliceerd.
+Nu kunt u in AEM Guides ook de eigenschappen van metagegevens van uw elementen selecteren en deze toevoegen aan de pagina-indeling. Vervolgens kiest AEM Guides deze metagegevenseigenschappen van uw elementen en publiceert het deze in uw PDF-uitvoer.
 
 
 ![](assets/native-pdf-metadata-asset.png){width="550" align="left"}
 
 >[!NOTE]
 >
-> AEM de Gidsen steunen ook de meta-gegevenseigenschappen voor uw kaarten DITA.
+> AEM Guides ondersteunt ook de eigenschappen van metagegevens voor uw DITA-kaarten.
 
-Zie voor meer informatie [Velden en metagegevens toevoegen](../native-pdf/design-page-layout.md#add-fields-metadata).
+Voor meer details, zie [ gebieden en meta-gegevens ](../native-pdf/design-page-layout.md#add-fields-metadata) toevoegen.
 
 
 ## Verbeteringen aan schema
@@ -85,21 +85,21 @@ Zie voor meer informatie [Velden en metagegevens toevoegen](../native-pdf/design
 
 AEM Guides steunt nu ook de verklaringen in het verslag met de Schematron. Een rapportverklaring produceert een bericht wanneer een testverklaring aan waar evalueert. Als u bijvoorbeeld wilt dat de korte beschrijving uit maximaal 150 tekens bestaat, kunt u een rapportinstructie definiëren om de onderwerpen te controleren waarvoor de korte beschrijving uit meer dan 150 tekens bestaat.
 
-Zie voor meer informatie [Instructies voor bevestigen en rapporteren gebruiken om op regels te controleren](../user-guide/support-schematron-file.md#schematron-assert-report).
+Voor meer details, zie [ Gebruik bevestiging en rapportverklaringen om regels ](../user-guide/support-schematron-file.md#schematron-assert-report) te controleren.
 
 ### Regex-expressies gebruiken
 
 U kunt Regex-expressies ook gebruiken om een regel met de functie match() te definiëren en vervolgens validatie uit te voeren met het Schematron-bestand.
 
-Zie voor meer informatie [Regex-expressies gebruiken](../user-guide/support-schematron-file.md#schematron-assert-report).
+Voor meer details, zie [ uitdrukkingen Regex van het Gebruik ](../user-guide/support-schematron-file.md#schematron-assert-report).
 
 
 ### abstracte patronen definiëren
 
-AEM Hulplijnen ondersteunen ook abstracte patronen in Schematron. U kunt generische abstracte patronen definiëren en deze abstracte patronen opnieuw gebruiken. Abstracte patronen kunnen uw Schematron-schema vereenvoudigen en u helpen uw validatielogica te beheren en bij te werken.
+AEM Guides ondersteunt ook abstracte patronen in Schematron. U kunt generische abstracte patronen definiëren en deze abstracte patronen opnieuw gebruiken. Abstracte patronen kunnen uw Schematron-schema vereenvoudigen en u helpen uw validatielogica te beheren en bij te werken.
 
 
-Zie voor meer informatie [abstracte patronen definiëren](../user-guide/support-schematron-file.md#schematron-abstract-patterns).
+Voor meer details, zie [ abstracte patronen ](../user-guide/support-schematron-file.md#schematron-abstract-patterns) bepalen.
 
 ## Navigeer van de Redacteur van het Web aan de AEM homepage
 
@@ -107,22 +107,22 @@ Nu kunt u gemakkelijk van de Redacteur van het Web aan de AEM Homepage navigeren
 
 ![](assets/web-editor-launch-page.png){width="800" align="left"}
 
-* Klik op de knop **Hulplijnen** icon (![](assets/aem-guides-icon.png) ), om terug te gaan naar de AEM navigatiepagina.
+* Klik het **pictogram van Gidsen** (![](assets/aem-guides-icon.png)), om terug naar de pagina van de Navigatie van de AEM te gaan.
 
 
-Zie voor meer informatie [Navigatiepagina AEM](../user-guide/web-editor-launch-editor.md#id2056BG00RZJ).
+Voor meer details, zie [ AEM de pagina van de Navigatie ](../user-guide/web-editor-launch-editor.md#id2056BG00RZJ).
 
 ## De hiërarchische definities van onderwerpdefinities en opsommingen verwerken
 
-AEM Hulplijnen beschikken over de krachtige functie om onderwerpschemakaarten te maken. Dit zijn gespecialiseerde DITA-kaarten die worden gebruikt om taxonomische onderwerpen en gecontroleerde waarden te definiëren. AEM Hulplijnen kunt u nu ook de onderwerpdefinitie definiëren in een kaart en de opsommingsdefinities in een andere kaart. Vervolgens kunt u de kaartverwijzing toevoegen en het onderwerpschema gebruiken.
+AEM Guides beschikt over de krachtige functie om onderwerpschemakaarten te maken die een gespecialiseerde vorm van DITA-kaarten zijn die worden gebruikt om taxonomische onderwerpen en gecontroleerde waarden te definiëren. Nu kunt u met AEM Guides ook de onderwerpdefinitie definiëren in een kaart en de opsommingsdefinities in een andere kaart. Vervolgens kunt u de kaartverwijzing toevoegen en het onderwerpschema gebruiken.
 De verwijzingen naar onderwerpopsommingen worden opgelost in dezelfde kaart of in de kaart waarnaar wordt verwezen.
 
-Zie voor meer informatie over de verwerking van hiërarchische definities van onderwerpdefinities en opsommingen de **Onderwerpregeling** functiebeschrijving in het dialoogvenster [Linkerdeelvenster](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.
+Voor meer details over de behandeling van hiërarchische definities van onderwerpdefinities en opsommingen, zie de **beschrijving van de onderwerpregeling** eigenschapbeschrijving in de [ Linkerpaneel ](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.
 
 ## Ondersteuning voor XLIFF-indeling in vertaling
 
-AEM Hulplijnen bieden ook ondersteuning voor de XLIFF-indeling (XML Localization Interchange File Format) bij het vertalen. U kunt nu ook kiezen voor **Nieuw XLIFF-vertaalproject maken** om de XML-inhoud om te zetten in de XLIFF-indeling.
-Met deze indeling kunt u de inhoud exporteren naar de industriestandaard XLIFF-indeling en deze indeling vervolgens aan de vertaalbureaus aanbieden. Zie voor meer informatie [Een vertaalproject maken](../user-guide/translate-documents-web-editor.md#create-translation-project).
+AEM Guides biedt ook ondersteuning voor de XLIFF-indeling (XML Localization Interchange File Format) bij het vertalen. Nu kunt u ook verkiezen om **een nieuw XLIFF vertaalproject** tot stand te brengen om de inhoud van XML in het formaat om te zetten XLIFF.
+Met deze indeling kunt u de inhoud exporteren naar de industriestandaard XLIFF-indeling en deze indeling vervolgens aan de vertaalbureaus aanbieden. Voor meer details, zie [ een vertaalproject ](../user-guide/translate-documents-web-editor.md#create-translation-project) creëren.
 
 ![](assets/translation-project-types.png){width="350" align="left"}
 
@@ -130,20 +130,20 @@ Met deze indeling kunt u de inhoud exporteren naar de industriestandaard XLIFF-i
 
 ## Verbeterd deelvenster Favorieten
 
-Met AEM hulplijnen kunt u een verzameling of favoriete lijst met bestanden en mappen maken en deze gemakkelijk gebruiken. Nu **Opties** is ook beschikbaar in het dialoogvenster **Favorieten** deelvenster. U kunt de naam van de geselecteerde verzameling wijzigen of deze verwijderen uit het dialoogvenster **Opties** -menu. U kunt de **Vernieuwen** om een nieuwe lijst met bestanden of mappen op te halen uit de opslagplaats. U kunt de inhoud van de map ook weergeven in de interface Middelen.
+Met AEM Guides kunt u een verzameling of favoriete lijst met bestanden en mappen maken en deze gemakkelijk gebruiken. Nu **het menu van Opties** is ook beschikbaar in het **Favorieten** paneel. U kunt de geselecteerde inzameling anders noemen of het van het **menu van Opties** schrappen. U kunt **selecteren verfrist** optie om een nieuwe lijst van dossiers of omslagen van de bewaarplaats te krijgen. U kunt de inhoud van de map ook weergeven in de gebruikersinterface van Assets.
 
 ![](assets/favorites-options.png){width="650" align="left"}
 
 >[!NOTE]
 >
-> U kunt de lijst ook vernieuwen met de opdracht **Vernieuwen** bovenaan.
+> U kunt de lijst ook verfrissen gebruikend **verfrissen** pictogram op de bovenkant.
 
-Voor meer informatie over de **Opties** menu van een inzameling van Favorieten, zie **Favorieten** functiebeschrijving in het dialoogvenster [Linkerdeelvenster](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.
+Voor meer details op het **menu van Opties** van een inzameling van Favorieten, zie de **Favorieten** eigenschapbeschrijving in de [ Linkerpaneel ](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.
 
 ## Overschakelen naar het systeemthema
 
-U kunt nu ook het apparaatthema gebruiken. Met de **Gebruikersvoorkeuren** kunt u AEM hulplijnen configureren om automatisch te schakelen tussen lichte en donkere thema&#39;s op basis van het thema van uw apparaat.
+U kunt nu ook het apparaatthema gebruiken. Gebruikend de **Voorkeur van de Gebruiker**, kunt u AEM Guides vormen om tussen lichte en donkere thema&#39;s automatisch te schakelen die op het thema van uw apparaat worden gebaseerd.
 
 ![](assets/device-theme-user-preferences.png){width="550" align="left"}
 
-Zie voor meer informatie de **Gebruikersvoorkeuren** functiebeschrijving in het dialoogvenster [Hoofdwerkbalk](../user-guide/web-editor-features.md#id2051EA0G05Z) sectie.
+Voor meer details, zie de **eigenschapbeschrijving van de Voorkeur van de Gebruiker 1} in de [ Belangrijkste toolbar ](../user-guide/web-editor-features.md#id2051EA0G05Z) sectie.**

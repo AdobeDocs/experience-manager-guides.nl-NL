@@ -1,6 +1,6 @@
 ---
 title: Inhoud en Sjabloon instellen
-description: Leer hoe u alles in het werk moet stellen om inhoud en sjablonen in AEM hulplijnen in te stellen.
+description: Leer hoe u alles in het werk moet stellen om inhoud en sjablonen in AEM Guides in te stellen.
 exl-id: f125bad9-33a2-4de5-b43f-d6368d61879b
 feature: Template Configuration
 role: User, Admin
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 ---
 
-# Inhoud en sjablooninstellingen in AEM hulplijnen
+# Inhoud en Sjabloon instellen in AEM Guides
 
 De hoeveelheid inhoud die u binnen een systeem beheert, ter ondersteuning van verschillende typen documenten die aan eindgebruikers worden geleverd, vereist dat auteurs de inhoud niet alleen categoriseren om de inhoud gemakkelijk te kunnen bijhouden en wijzigen wanneer dat nodig is, maar dat auteurs ook in staat moeten worden gesteld nieuwe/soortgelijke documenten te maken zonder deze helemaal zelf te hoeven schrijven.
 
@@ -31,10 +31,10 @@ In deze vergadering hebben we in grote lijnen het volgende besproken:
 
 ## Hooglichten
 
-- **Datum** - 27 april 2023
-- **Aantal deelnemers** - 70
+- **Datum** - 27 april, 2023
+- **Aantal aanwezigen** - 70
 - **Duur** - 60 minuten
-- **Publiek** - Klanten, partners en Adoben
+- **Publiek** - Klanten, partners, en de werknemers van de Adobe
 
 
 ## Toetsen
@@ -51,25 +51,25 @@ In deze sessie hebt u kennis genomen van het volgende:
 
 ## Gerelateerde bronnen
 
-- **Functievideo&#39;s** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/folder-profiles.html)
+- {de video&#39;s van de Eigenschap 0} **- [ Experience League ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/folder-profiles.html)**
 
-- **Handboek** - [Inhoud auteur](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
+- **Gids van de Gebruiker** - [ inhoud van de Auteur ](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
 
-- **Forum van de Gemeenschap** - Voor sessiespecifieke community-interacties over Experience League gaat u naar  [Forum met AEM hulplijnen](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Communautair Forum** - voor zitting-specifieke communautaire interactie over Experience League, bezoek [ het Forum van AEM Guides ](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
-> De functies die in deze sessie worden weergegeven, zijn beschikbaar in de volgende versies van AEM hulplijnen:
+> De functies die in deze sessie worden getoond, zijn beschikbaar in de volgende versies van AEM Guides:
 > - On-prem: 4.2 of hoger
 > - Cloud Servicen: 2303 of hoger
 
 
 ## Volgende sessie met experts
 
-- **Onderwerp** - Native PDF Publishing - Leren op voorbeeld (deel 1)
-- **Gepland op** - 1 juni 2023
+- **Onderwerp** - het Inheemse Publiceren van PDF - het Leren door voorbeeld (deel 1)
+- **Gepland op** - Juni 1, 2023
 
 
 ## Contact opnemen
 
-Stuur ons voor alle vragen een e-mail op <techcomm@adobe.com>
+Stuur ons een e-mail op <techcomm@adobe.com> voor alle vragen

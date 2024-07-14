@@ -1,7 +1,8 @@
 ---
 title: Pictogram configureren voor aangepaste bewerkingstypen
 description: Leer hoe u het pictogram voor aangepaste gegevenstypen definieert, zodat het pictogram op een andere gebruikersinterface wordt weergegeven in AEM
-source-git-commit: de281989de21d8bf4ba771670d7cb871a089b1e1
+exl-id: 5a259ea0-3b5f-4c6e-b488-1586767aa991
+source-git-commit: 7355f48ba8ad0ac15c54be183d9aa91bb88724e8
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 0%
@@ -13,9 +14,9 @@ ht-degree: 0%
 
 ## Probleemverklaring
 
-Met douaneschema in AEMGidsen wordt gebruikt, kunt u douaneonderwerp of kaarttypes tot stand brengen en waarmee u de types van douaneonderwerp/kaart kunt opmerken tonen geen pictogram in Web-redacteur of Activa UI die. Zie onderstaande schermafbeelding ter referentie
+Met douaneschema in AEM Guides wordt gebruikt, kunt u douaneonderwerp of kaarttypes tot stand brengen en waarmee u de types van douaneonderwerp/kaart kunt opmerken tonen geen pictogram in de Web-redacteur of UI van Assets. Zie onderstaande schermafbeelding ter referentie
 
-![screenshot ter referentie](../assets/authoring/custom-ditatype-icon-notshown.png)
+![ schermafbeelding voor verwijzing ](../assets/authoring/custom-ditatype-icon-notshown.png)
 
 
 Zo om een pictogram aan de types van douaneonderwerp/kaart toe te wijzen, moet u het volgende doen:
@@ -23,19 +24,19 @@ Zo om een pictogram aan de types van douaneonderwerp/kaart toe te wijzen, moet u
 - Stijlen schrijven om het gewenste pictogram voor het aangepaste type toe te voegen
 
 
-We kunnen de bovenstaande stappen implementeren om het pictogram weer te geven in de webeditor (de weergave in de repository) en in de interface Middelen. Hieronder staan de stappen voor beide
+We kunnen de bovenstaande stappen implementeren om het pictogram weer te geven in de webeditor (de weergave in de repository) en in de gebruikersinterface van Assets. Hieronder staan de stappen voor beide
 
 
 ## Pictogram weergeven voor aangepast onderwerp/aangepaste kaart in webeditorweergave
 
-_Stap 1:_ Bepaal het ditatype voor het aangepaste dita topic/ap
+_Stap 1:_ bepaalt het ditatype voor het onderwerp/de ap van douane dita
 - Open de dataweergave in de webeditor > open ontwikkelingsconsole in de browser
 - De pictogramruimte naast het vermelde onderwerp/de lijst Inspect
 - Controleer de klasse die aan het douaneonderwerp wordt toegewezen
-- Zie de onderstaande schermafbeelding voor meer informatie ![Zie de schermafbeelding](../assets/authoring/custom-ditatype-icon-knowditatype.png)
+- Zie hieronder het schermafbeelding voor meer details ![ het schermafbeelding ](../assets/authoring/custom-ditatype-icon-knowditatype.png) zien
 - Deze klasse wordt gebruikt om pictogrammen toe te wijzen en css voor dit te schrijven
 
-_Stap 2:_ CSS maken en pictogram toewijzen aan dit gegevenstype
+_Stap 2:_ creeer css en wijs pictogram aan dit ditatype toe
 - Maak een clientbibliotheek onder /apps en laat u een cq:ClientLibraryFolder onder het gewenste pad maken
    - er categorieën &quot;apps.fmdita.xml_editor.page&quot; aan toevoegen
 - Maak een map &quot;assets&quot; onder deze map en voeg alle pictogrammen toe die u voor aangepaste gegevenstypen wilt gebruiken
@@ -57,18 +58,18 @@ _Stap 2:_ CSS maken en pictogram toewijzen aan dit gegevenstype
 - deze wijzigingen opslaan/implementeren
 
 Zie onder de schermafbeelding voor meer informatie.
-![Screenshot vernieuwen](../assets/authoring/custom-ditatype-icon-define-webeditor-styles.png)
+![ verwijs screenshot ](../assets/authoring/custom-ditatype-icon-define-webeditor-styles.png)
 
 En de uiteindelijke uitvoer wordt weergegeven onder de schermafbeelding
-![weergegeven in schermafbeelding](../assets/authoring/custom-ditatype-icon-webeditor-showstyles.png)
+![ getoond in het schermschot ](../assets/authoring/custom-ditatype-icon-webeditor-showstyles.png)
 
 
-## Pictogram weergeven voor aangepast onderwerp/kaart in interface Middelen
+## Pictogram weergeven voor aangepast onderwerp/kaart in gebruikersinterface van Assets
 
-_Stap 1:_ het bepalen van het ditatype van het aangepaste dita onderwerp/de kaart
+_Stap 1:_ bepalend het ditatype van het onderwerp/de kaart van douane dita
 - dit wordt uitgelegd in stap 1 van de voorgaande methoden
 
-_Stap 2:_ Creeer JavaScript om te bepalen welke pictogrammen voor het douanetype dita voor de types van douaneonderwerp/kaart te laden
+_Stap 2:_ creeer Javacscript om te bepalen welke pictogrammen voor het type van douanedita voor de types van douaneonderwerp/kaart te laden
 - Maak een clientbibliotheek onder /apps en laat u een cq:ClientLibraryFolder onder het gewenste pad maken
    - Voeg de volgende eigenschappen toe:
       - &quot;Categorieën&quot; (multivalue string) als &quot;dam.gui.admin.coral&quot;
@@ -77,7 +78,8 @@ _Stap 2:_ Creeer JavaScript om te bepalen welke pictogrammen voor het douanetype
    - bewerk het gekopieerde &quot;topic_type.js&quot;en verander/voeg customtopictype onder veranderlijke &quot;typeImageNameMap&quot; toe
    - U kunt het pad van de afbeeldingenmap ook wijzigen door de waarde van de variabele &quot;parentImagePath&quot; te wijzigen in de locatie waar aangepaste pictogrammen worden opgeslagen
 - Creeer een dossier genoemd js.txt onder de omslag van de cliëntbibliotheek en voeg verwijzing naar &quot;topic_type.js toe
-- Sla deze wijzigingen op/implementeer deze onder de schermafbeelding voor meer informatie.
-  ![Screenshot vernieuwen](../assets/authoring/custom-ditatype-icon-define-assetsui-styles.png)
+- deze wijzigingen opslaan/implementeren
+Zie onder de schermafbeelding voor meer informatie.
+  ![ verwijs screenshot ](../assets/authoring/custom-ditatype-icon-define-assetsui-styles.png)
 
-En de definitieve output zal verschijnen zoals aangetoond in het schermschot ![weergegeven in schermafbeelding](../assets/authoring/custom-ditatype-icon-assetsui-showstyles.png)
+En de definitieve output zal verschijnen zoals aangetoond in screenshot ![ getoond in screenshot ](../assets/authoring/custom-ditatype-icon-assetsui-showstyles.png)
