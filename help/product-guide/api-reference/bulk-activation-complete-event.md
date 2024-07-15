@@ -27,8 +27,9 @@ com/adobe/fmdita/replication/complete
 ```
 
 **Parameters**:
+
 |Naam|Type|Omschrijving|
-|—|—|—|
+|---|---|---|
 |`path`|String|Het pad van het bestand dat deze gebeurtenis heeft geactiveerd. <br> Bijvoorbeeld `/content/output/sites/ditamap1-ditamap` . <br> Het is een lijst met paden die als een JSON-array zijn geserialiseerd.|
 |`messageType`|String|Het type van een bericht. <br> Mogelijke optie: `REPLICATION`|
 |`action`|String|Dit is de uitgevoerde actie. <br> Mogelijke optie: `BulkReplicate`|
