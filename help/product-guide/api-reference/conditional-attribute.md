@@ -5,7 +5,7 @@ exl-id: 1f0e023a-422c-47b9-917f-b0d80090471c
 feature: Rest API Conditional Attributes
 role: Developer
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 6184bb98c9897e980a6fba2f97476570228188af
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 0%
@@ -23,12 +23,13 @@ Een methode van de POST die voorwaardelijke attributen aan een bepaald omslag-vl
 **Verzoek URL**:\
 http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/fmdita/folderProfile
 
-**Parameters**:\
-|Naam|Type|Vereist|Beschrijving|
-|—|—|—|—|
-|`:operation`|String|Yes|Name of the operation being called. De waarde van deze parameter is ``ADDATTRIBUTEPROFILES`` . <br> **Nota:** de waarde is case-insensitive.|
-|`profilename`|String|Yes|Display name of the folder-level profile in which the conditional attributes to be added.|
-|`conditionalprofiles`|JSON-array|Yes|A JSON-array bestaande uit de voorwaardelijke kenmerknaam en -waarden. Het volgende codefragment uit het voorbeeld toont de JSON-array met twee kenmerken - `platform` en `product` waarbij meerdere waarden aan deze kenmerken zijn toegewezen.|
+**Parameters**:
+
+| Naam | Type | Vereist | Beschrijving |
+|----|----|--------|-----------|
+| `:operation` | String | Ja | Naam van de bewerking die wordt aangeroepen. De waarde van deze parameter is ``ADDATTRIBUTEPROFILES`` . <br> **Nota:** de waarde is case-insensitive. |
+| `profilename` | String | Ja | De naam van de vertoning van het omslag-vlakke profiel waarin de voorwaardelijke attributen moeten worden toegevoegd. |
+| `conditionalprofiles` | JSON-array | Ja | Een JSON-array die bestaat uit de voorwaardelijke kenmerknaam en -waarden. Het volgende codefragment uit het voorbeeld toont de JSON-array met twee kenmerken - `platform` en `product` waarbij meerdere waarden aan deze kenmerken zijn toegewezen. |
 
 ```JSON
 [  {    name: "platform",    

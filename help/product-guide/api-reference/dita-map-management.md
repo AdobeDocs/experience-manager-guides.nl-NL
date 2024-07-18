@@ -5,7 +5,7 @@ exl-id: 6277e52d-1b05-4dd7-8d2b-4b94f329e2d7
 feature: Rest API DITA Map
 role: Developer
 level: Experienced
-source-git-commit: 7c529e98334999cf2b5e9ee18a27278d24318437
+source-git-commit: d0196ffbe5a779445d627871c2940f7eea40f1ce
 workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 0%
@@ -24,10 +24,11 @@ Een methode van GET die een kaart DITA met al zijn gebiedsdelen zoals referenced
 http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/fmdita/exportditamap
 
 **Parameters**:
-|Naam|Type|Vereist|Beschrijving|
-|—|—|—|—|
-|`ditamap`|String|Ja|Absoluut pad van het DITA-toewijzingsbestand in AEM opslagplaats.|
-|`baseline`|String|No|The title of the baseline that is used to retrieve the versioned content. <br> **Nota:** de waarde is case-sensitive. |
+
+| Naam | Type | Vereist | Beschrijving |
+|----|----|--------|-----------|
+| `ditamap` | String | Ja | Absoluut pad van het DITA-kaartbestand in AEM opslagplaats. |
+| `baseline` | String | Nee | De titel van de basislijn die wordt gebruikt om de versie van de inhoud op te halen. <br> **Nota:** de waarde is case-sensitive. |
 
 **waarden van de Reactie**:
 Een ZIP-bestand waarvan de inhoud naar de uitvoerstream van de reactie wordt geschreven.

@@ -5,7 +5,7 @@ feature: Bulk Activation Event Handler
 role: Developer
 level: Experienced
 exl-id: 08b153d7-3d13-4804-9e3e-38790dbea1f3
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+source-git-commit: 9b8971bf7065a94a2e42669094249c822c555718
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 0%
@@ -28,15 +28,15 @@ com/adobe/fmdita/replication/complete
 
 **Parameters**:
 
-|Naam|Type|Omschrijving|
-|---|---|---|
-|`path`|String|Het pad van het bestand dat deze gebeurtenis heeft geactiveerd. <br> Bijvoorbeeld `/content/output/sites/ditamap1-ditamap` . <br> Het is een lijst met paden die als een JSON-array zijn geserialiseerd.|
-|`messageType`|String|Het type van een bericht. <br> Mogelijke optie: `REPLICATION`|
-|`action`|String|Dit is de uitgevoerde actie. <br> Mogelijke optie: `BulkReplicate`|
-|`user`|String|De gebruiker die de bewerking heeft gestart.|
-|`result`|String|Het resultaat van de activering van de optie Bulk. Het is een JSON-object met serienummering: <br>`{"success":boolean,"code":integer,"message":"" }`|
-|`agentId`|String|The agentId used in the replication. Bijvoorbeeld `"publish"` .|
-|`importMode`|Tekenreeks|Importmodus gebruikt in activering. De mogelijke opties zijn: <br>`REPLACE, MERGE, UPDATE`|
+| Naam | Type | Beschrijving |
+|----|----|-----------|
+| `path` | String | Het pad van het bestand dat deze gebeurtenis heeft geactiveerd. <br> Bijvoorbeeld `/content/output/sites/ditamap1-ditamap` . <br> Het is een lijst met paden die als een JSON-array zijn geserialiseerd. |
+| `messageType` | String | Het type van een bericht. <br> Mogelijke optie: `REPLICATION` |
+| `action` | String | Dit is de uitgevoerde actie. <br> Mogelijke optie: `BulkReplicate` |
+| `user` | String | De gebruiker die de bewerking heeft gestart. |
+| `result` | String | Het resultaat van de activering van het selectievakje Bulk. Het is een JSON-object met serienummering: <br>`{"success":boolean,"code":integer,"message":"" }` |
+| `agentId` | String | AgentId die in de replicatie wordt gebruikt. Bijvoorbeeld `"publish"` . |
+| `importMode` | String | Importmodus die wordt gebruikt bij activering. De mogelijke opties zijn: <br>`REPLACE, MERGE, UPDATE`. |
 
 
 **de Listener van de Gebeurtenis van de Steekproef**:

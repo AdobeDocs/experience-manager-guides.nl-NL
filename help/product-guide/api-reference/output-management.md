@@ -5,7 +5,7 @@ exl-id: dab654f5-555d-4a89-bc94-55b1e938f255
 feature: Rest API Output Management
 role: Developer
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 3279640b32041cafe262457c62b8bd34e55f9ccf
 workflow-type: tm+mt
 source-wordcount: '1175'
 ht-degree: 0%
@@ -23,11 +23,12 @@ Een methode van de POST die alle die outputvoorinstellingen terugwint voor een k
 **Verzoek URL**:
 http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/publishlistener
 
-**Parameters**:\
-|Naam|Type|Vereist|Beschrijving|
-|—|—|—|—|
-|`:operation`|String|Yes|Name of the operation being called. De waarde van deze parameter is `getalloutputs`.<br> **Nota:** de waarde is case-insensitive.|
-|`sourcePath`|String|Ja|Absoluut pad van het DITA-kaartbestand.|
+**Parameters**:
+
+| Naam | Type | Vereist | Beschrijving |
+|----|----|--------|-----------|
+| `:operation` | String | Ja | Naam van de bewerking die wordt aangeroepen. De waarde van deze parameter is `getalloutputs`.<br> **Nota:** de waarde is case-insensitive. |
+| `sourcePath` | String | Ja | Absoluut pad van het DITA-kaartbestand. |
 
 **waarden van de Reactie**:
 Retourneert een array van objecten met JSON Output Preset, elk object dat de volgende elementen bevat:
@@ -59,17 +60,19 @@ Een methode van de POST die tot een nieuwe output vooraf instelt voor een kaart 
 http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/publishlistener
 
 **Parameters**:
-|Naam|Type|Vereist|Beschrijving|
-|—|—|—|—|
-|`:operation`|String|Yes|Name of the operation being called. De waarde van deze parameter is ``createoutput``.<br> **Nota:** de waarde is case-insensitive.|
-|`sourcePath`|String|Ja|Absoluut pad van het DITA-toewijzingsbestand.|
-|`outputTitle`|String|Ja|Een beschrijvende naam voor de instellingen van de uitvoervoorinstelling. Dit wordt gebruikt om de waarde voor het Plaatsende bezit van de Naam voor de output vooraf ingesteld te bepalen.<br> **Nota:** wanneer een nieuwe output vooraf ingesteld wordt gecreeerd, drijft het achterste deelsysteem een unieke naam voor de output vooraf ingesteld van de bepaalde titel.|
-|`outputType`|String|Ja|Type uitvoer dat is gegenereerd met behulp van deze voorinstelling, bijvoorbeeld AEM Site, PDF, EPUB of andere. De beschikbare opties zijn:<br>-   AEMSITE <br>-   PDF <br>-   HTML5 <br>-   EPUB <br>-   AANGEPAST|
+
+| Naam | Type | Vereist | Beschrijving |
+|----|----|--------|-----------|
+| `:operation` | String | Ja | Naam van de bewerking die wordt aangeroepen. De waarde van deze parameter is ``createoutput``.<br> **Nota:** de waarde is case-insensitive. |
+| `sourcePath` | String | Ja | Absoluut pad van het DITA-kaartbestand. |
+| `outputTitle` | String | Ja | Een beschrijvende naam voor de instellingen van de uitvoervoorinstelling. Dit wordt gebruikt om de waarde voor het Plaatsende bezit van de Naam voor de output vooraf ingesteld te bepalen.<br> **Nota:** wanneer een nieuwe output vooraf ingesteld wordt gecreeerd, drijft het achterste deelsysteem een unieke naam voor de output vooraf ingesteld van de bepaalde titel. |
+| `outputType` | String | Ja | Type uitvoer dat is gegenereerd met deze voorinstelling, bijvoorbeeld AEM Site, PDF, EPUB of andere. De beschikbare opties zijn:<br>-   AEMSITE <br>-   PDF <br>-   HTML5 <br>-   EPUB <br>-   AANGEPAST |
 
 **waarden van de Reactie**:
-|Element|Beschrijving|
-|—|—|
-|`outputName`|Een unieke naam voor de nieuwe uitvoervoorinstelling. Deze naam wordt afgeleid van de waarde van de parameter `outputTitle` .|
+
+| Element | Beschrijving |
+|-------|-----------|
+| `outputName` | Een unieke naam voor de nieuwe uitvoervoorinstelling. Deze naam wordt afgeleid van de waarde van de parameter `outputTitle` . |
 
 ## Uitvoervoorinstelling opslaan
 
@@ -79,11 +82,12 @@ Een methode van de POST die veranderingen bewaart die in een outputvooraf ingest
 http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/publishlistener
 
 **Parameters**:
-|Naam|Type|Vereist|Beschrijving|
-|—|—|—|—|
-|`:operation`|String|Yes|Name of the operation being called. De waarde van deze parameter is ``saveoutput``.<br> **Nota:** de waarde is case-insensitive.|
-|`sourcePath`|String|Ja|Absoluut pad van het DITA-toewijzingsbestand.|
-|`outputObj`|String|Yes|A JSON-object dat eigenschappen bevat van de uitvoervoorinstelling die wordt bijgewerkt. De eigenschap `outputObj.outputName` bevat de naam van de uitvoervoorinstelling die moet worden bijgewerkt. Voor het formaat van het voorwerp JSON, zie de **waarden van de Reactie** lijst in [ krijgt alle outputvoorinstellingen voor een kaart DITA ](#get-output-presets-dita-map).|
+
+| Naam | Type | Vereist | Beschrijving |
+|----|----|--------|-----------|
+| `:operation` | String | Ja | Naam van de bewerking die wordt aangeroepen. De waarde van deze parameter is ``saveoutput``.<br> **Nota:** de waarde is case-insensitive. |
+| `sourcePath` | String | Ja | Absoluut pad van het DITA-kaartbestand. |
+| `outputObj` | String | Ja | Een JSON-object dat eigenschappen bevat van de uitvoervoorinstelling die wordt bijgewerkt. De eigenschap `outputObj.outputName` bevat de naam van de uitvoervoorinstelling die moet worden bijgewerkt. Voor het formaat van het voorwerp JSON, zie de **waarden van de Reactie** lijst in [ krijgt alle outputvoorinstellingen voor een kaart DITA ](#get-output-presets-dita-map). |
 
 **waarden van de Reactie**:
 Retourneert een HTTP 200 \(Successful\) reactie.
@@ -96,28 +100,30 @@ Een POST-methode waarmee een bestaande uitvoervoorinstelling wordt opgehaald.
 http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/publishlistener
 
 **Parameters**:
-|Naam|Type|Vereist|Beschrijving|
-|—|—|—|—|
-|`:operation`|String|Yes|Name of the operation being called. De waarde van deze parameter is `getoutput` . <br>**Nota:** de waarde is case-insensitive.|
-|`sourcePath`|String|Ja|Absoluut pad van het DITA-toewijzingsbestand.|
-|`outputName`|String|Ja|Naam van de uitvoervoorinstelling waarvoor de details moeten worden opgehaald.|
+
+| Naam | Type | Vereist | Beschrijving |
+|----|----|--------|-----------|
+| `:operation` | String | Ja | Naam van de bewerking die wordt aangeroepen. De waarde van deze parameter is `getoutput` . <br>**Nota:** de waarde is case-insensitive. |
+| `sourcePath` | String | Ja | Absoluut pad van het DITA-kaartbestand. |
+| `outputName` | String | Ja | Naam van de uitvoervoorinstelling waarvoor de details moeten worden opgehaald. |
 
 **waarden van de Reactie**:
-|Element|Beschrijving|
-|—|—|
-|`outputName`|Naam van de uitvoervoorinstelling. Uitvoernamen zijn uniek in het bereik van de DITA-kaart waarin ze zijn gedefinieerd.|
-|`outputType`|Type uitvoer dat met deze voorinstelling is gegenereerd, bijvoorbeeld AEM Site, PDF, EPUB of andere. De beschikbare opties zijn:<br>-   AEMSITE <br>-   PDF <br>-   HTML5 <br>-   EPUB <br>-   AANGEPAST <br>|
-|`outputTitle`|Een beschrijvende naam voor de instellingen van de uitvoervoorinstelling. Hiermee definieert u de waarde voor de eigenschap Naam instellen voor de uitvoervoorinstelling.|
-|`ditaValPathList`|Array van DITAVAL-bestandspaden die moeten worden gebruikt om de gewenste uitvoer te genereren.|
-|`targetPath`|Pad waarin de uitvoer wordt gepubliceerd of opgeslagen.|
-|`siteName`|\(Voor AEM Site-uitvoer\) Naam van de AEM Site.|
-|`siteTitle`|\(Voor AEM Site-uitvoer\) Titel van de AEM Site.|
-|`templatePath`|\(Voor AEM uitvoer van de Plaats \) Weg van de malplaatjeknoop die moet worden gebruikt om de gewenste output te produceren.|
-|`searchScope`|Geef het bereik voor de zoekbewerking op. De waarde voor deze parameter moet worden ingesteld op `local` .|
-|`generateTOC`|\(Voor AEM Site-uitvoer\) Geef op of een inhoudsopgave moet worden gegenereerd \(true\) of niet \(false\).|
-|`generateBreadcrumbs`|\(Voor AEM Site-uitvoer\) Geef op of de broodkruimels \(true\) worden gegenereerd of niet \(false\).|
-|`overwriteFiles`|\(Voor AEM Site-uitvoer\) Geef op of bestanden op de bestemming \(true\) worden overschreven of niet \(false\).|
-|`pdfGenerator`|Geef de PDF-genereringsengine op die u wilt gebruiken. De mogelijke waarden zijn:<br> -   DITAOT <br>-   FMPS|
+
+| Element | Beschrijving |
+|-------|-----------|
+| `outputName` | Naam van de uitvoervoorinstelling. Uitvoernamen zijn uniek in het bereik van de DITA-kaart waarin ze zijn gedefinieerd. |
+| `outputType` | Type uitvoer dat is gegenereerd met deze voorinstelling, bijvoorbeeld AEM Site, PDF, EPUB of andere. De beschikbare opties zijn:<br>-   AEMSITE <br>-   PDF <br>-   HTML5 <br>-   EPUB <br>-   AANGEPAST <br> |
+| `outputTitle` | Een beschrijvende naam voor de instellingen van de uitvoervoorinstelling. Hiermee definieert u de waarde voor de eigenschap Naam instellen voor de uitvoervoorinstelling. |
+| `ditaValPathList` | Array met DITAVAL-bestandspaden die moet worden gebruikt om de gewenste uitvoer te genereren. |
+| `targetPath` | Pad waar de uitvoer wordt gepubliceerd of opgeslagen. |
+| `siteName` | \(Voor AEM Site-uitvoer\) Naam van de AEM Site. |
+| `siteTitle` | \(Voor AEM Site-uitvoer\) Titel van de AEM Site. |
+| `templatePath` | \(Voor AEM Site-uitvoer\) pad van het sjabloonknooppunt dat moet worden gebruikt om de gewenste uitvoer te genereren. |
+| `searchScope` | Geef het bereik voor de zoekopdracht op. De waarde voor deze parameter moet worden ingesteld op `local` . |
+| `generateTOC` | \(Voor AEM Site-uitvoer\) Geef op of een inhoudsopgave moet worden gegenereerd \(true\) of niet \(false\). |
+| `generateBreadcrumbs` | \(Voor AEM Site-uitvoer\) Geef op of de broodkruimels \(true\) worden gegenereerd of niet \(false\). |
+| `overwriteFiles` | \(Voor AEM Site-uitvoer\) Geef op of bestanden op de bestemming \(true\) worden overschreven of niet \(false\). |
+| `pdfGenerator` | Geef de PDF-genereringsengine op die u wilt gebruiken. De mogelijke waarden zijn:<br> -   DITAOT <br>-   FMPS |
 
 >[!NOTE]
 >
@@ -131,11 +137,12 @@ Een methode van de GET die output gebruikend één of meerdere output vooraf ins
 http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/publishlistener
 
 **Parameters**:
-|Naam|Type|Vereist|Beschrijving|
-|—|—|—|—|
-|`operation`|String|Yes|Name of the operation being called. De waarde van deze parameter is `GENERATEOUTPUT`.<br> **Nota:** de waarde is case-sensitive.|
-|`source`|String|Ja|Absoluut pad van het DITA-toewijzingsbestand.|
-|`outputName`|String|Yes|Name of the output preset\(s\) to be used to generate output. U kunt meerdere uitvoervoorinstellingen opgeven met een scheidingsteken voor de pipe \(&quot;\|&quot;\), bijvoorbeeld `aemsite|pdfoutput`|.
+
+| Naam | Type | Vereist | Beschrijving |
+|----|----|--------|-----------|
+| `operation` | String | Ja | Naam van de bewerking die wordt aangeroepen. De waarde van deze parameter is `GENERATEOUTPUT`.<br> **Nota:** de waarde is case-sensitive. |
+| `source` | String | Ja | Absoluut pad van het DITA-kaartbestand. |
+| `outputName` | String | Ja | Naam van de uitvoervoorinstelling\(en\) die moet worden gebruikt om uitvoer te genereren. U kunt meerdere uitvoervoorinstellingen opgeven met een scheidingsteken voor de pipe \(&quot;\|&quot;\), bijvoorbeeld `aemsite|pdfoutput` . |
 
 **waarden van de Reactie**:
 Retourneert een HTTP 200 \(Successful\) reactie.
@@ -148,10 +155,11 @@ Een methode van GET die stijgende output voor een AEMPlaats gebruikend één of 
 http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/publishlistener
 
 **Parameters**:
-|Naam|Type|Vereist|Beschrijving|
-|—|—|—|—|
-|`operation`|String|Yes|Name of the operation being called. De waarde van deze parameter is `INCREMENTALPUBLISH` . <br>**Nota:** de waarde is case-sensitive.|
-|`contentPath`|JSON|Ja|Absoluut pad van het DITA-toewijzingsbestand en onderwerpbestanden samen met de naam van uitvoervoorinstellingen. Gebruik het volgende voorbeeld als bouwsteen:|
+
+| Naam | Type | Vereist | Beschrijving |
+|----|----|--------|-----------|
+| `operation` | String | Ja | Naam van de bewerking die wordt aangeroepen. De waarde van deze parameter is `INCREMENTALPUBLISH` . <br>**Nota:** de waarde is case-sensitive. |
+| `contentPath` | JSON | Ja | Absoluut pad van het DITA-toewijzingsbestand en onderwerpbestanden samen met de naam van uitvoervoorinstellingen. Gebruik het volgende voorbeeld als bouwsteen: |
 
 ```XML
 {
@@ -192,11 +200,12 @@ Een POST-methode waarmee een uitvoervoorinstelling wordt verwijderd.
 http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/publishlistener
 
 **Parameters**:
-|Naam|Type|Vereist|Beschrijving|
-|—|—|—|—|
-|`:operation`|String|Yes|Name of the operation being called. De waarde van deze parameter is `deleteoutput`.<br> **Nota:** de waarde is case-insensitive.|
-|`sourcePath`|String|Ja|Absoluut pad van het DITA-toewijzingsbestand.|
-|`outputName`|String|Yes|Name of the output preset to delete.||
+
+| Naam | Type | Vereist | Beschrijving |
+|----|----|--------|-----------|
+| `:operation` | String | Ja | Naam van de bewerking die wordt aangeroepen. De waarde van deze parameter is `deleteoutput`.<br> **Nota:** de waarde is case-insensitive. |
+| `sourcePath` | String | Ja | Absoluut pad van het DITA-kaartbestand. |
+| `outputName` | String | Ja | Naam van de uitvoervoorinstelling die moet worden verwijderd. |
 
 **waarden van de Reactie**:
 Retourneert een HTTP 200 \(Successful\) reactie.
