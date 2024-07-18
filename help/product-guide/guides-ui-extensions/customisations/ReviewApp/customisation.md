@@ -3,7 +3,7 @@ title: Aanpassen
 description: De revisie-app aanpassen
 role: User, Admin
 exl-id: 9f6a4e9f-fc13-40b5-a30f-151c94faff81
-source-git-commit: 4f00d6b7ad45636618bafe92e643b3e288ec2643
+source-git-commit: 492f72768e0de74a91eb7acc9db8264e21bfc810
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 0%
@@ -17,7 +17,7 @@ Om de aanpassing van de revisie-app te vereenvoudigen, hebben we enkele haken we
 ## Reviseren-opmerking
 
 - id: `review_comment`
-- haak: `this.updateExtraProps`:
+- haak: `this.next('updateExtraProps')`:
 
 Zoals hier besproken [ ](../../aem_guides_framework/basic-customisation.md), gaat om het even welk nieuw attribuut dat tijdens aanpassing wordt toegevoegd onder `this.model.extraProps`. Met de methode `updateExtraProps` kunt u kenmerken toevoegen aan een revisieopmerking en kunt u de update en opslag van het toegevoegde kenmerk ook op de server uitvoeren.
 
@@ -80,8 +80,20 @@ Stel dat we een extraProp, `userInfo` , willen verzenden telkens wanneer een nie
 In het bovenstaande codefragment controleren we of de verzonden gebeurtenis een nieuwe opmerking of een nieuw antwoord is. In het geval van een nieuwe opmerking of reactie roepen we de methode aan `setUserInfo`
 
 ```typescript
+    const getUserInfo = (userId) => {
+      return $.ajax({
+        url: '/bin/dxml/xmleditor/userinfo',
+        data: {
+          username: userId,
+        },
+        success: (data) => {
+          return data
+        }
+      })
+    }
+
     setUserInfo(event) {
-      this.loader?.getUserInfo(event.user).subscribe(userData => {
+      getUserInfo(event.user).done(userData => {
         const extraProps = {
           "userFirstName": userData?.givenName || '',
           "userLastName": userData?.familyName || '',

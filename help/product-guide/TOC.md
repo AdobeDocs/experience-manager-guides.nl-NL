@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lees productdocumentatie voor Adobe Experience Manager Guides.
 breadcrumb-title: Documentatie voor AEM Guides
-source-git-commit: 05a21c8b18d5eb79447423d48e1d65b4d6b44242
+source-git-commit: d16d9915b826a754f834ad82f413e860c2da12d2
 workflow-type: tm+mt
-source-wordcount: '1819'
+source-wordcount: '1824'
 ht-degree: 2%
 
 ---
@@ -403,7 +403,7 @@ ht-degree: 2%
    - [API&#39;s die zijn gebaseerd op Java om te werken met basislijnen en labels](./api-reference/create-baseline-label-java.md)
    - [Java-API om te werken met mapprofielen](./api-reference/folder-profile-java.md)
    - [Java-API voor het maken en activeren van pakketten](./api-reference/create-activate-package-java.md)
-   - [Post-processing gebeurtenishandler](./api-reference/post-process-event.md)
+   - [Gebeurtenishandler voor nabewerking](./api-reference/post-process-event.md)
    - [Bulkactivering voltooid, gebeurtenishandler](./api-reference/bulk-activation-complete-event.md)
    - [Omzetproces, gebeurtenishandler](./api-reference/conversion-complete-event.md)
 - Kennisbank {#knowledge-base}
@@ -459,9 +459,12 @@ ht-degree: 2%
             - [Eenvoudige aanpassing](./guides-ui-extensions/customisations/add-button.md)
             - [Contextmenu&#39;s aanpassen](./guides-ui-extensions/customisations/context-menus.md)
             - [Werkbalk en werkbalk aanpassen](./guides-ui-extensions/customisations/toolbar-topbar.md)
+            - [Voorbeelden](./guides-ui-extensions/examples.md)
+            - [Aanpasbare zonen](./guides-ui-extensions/JSONs.md)
             - Revisie {#review-app-customisations}
                - [Onderdelen](./guides-ui-extensions/customisations/ReviewApp/components.md)
                - [Aanpassen](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
+               - [Aangepast dialoogvenster](./guides-ui-extensions/customisations/ReviewApp/custom-dialog.md)
       - Publiceren {#publishing}
 
          - [AEM Omgeving configureren voor publiceren via native PDF](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
@@ -477,7 +480,7 @@ ht-degree: 2%
          - [Een aangepaste DITA-OT instellen](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
 
       - Workflows {#workflows}
-         - [Post Generation Workflow](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
+         - [Workflow na generatie](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
       - Vertaling {#translation}
          - [Alinea&#39;s uitsluiten van vertaling](./knowledge-base/kb-articles/translation/exclude-paragraphs-from-translation.md)
       - Gevallen gebruiken {#use-cases}
