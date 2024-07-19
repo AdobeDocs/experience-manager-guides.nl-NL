@@ -1,9 +1,9 @@
 ---
 title: Voorbeelden
 description: Lijst met aanpassingsvoorbeelden
-source-git-commit: 7770bc791ae87748cfe191cfaff3f929f77b4533
+source-git-commit: fc0b19ac44ca9cbc1e9c5cf046f9a0a24f2a1794
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -53,6 +53,9 @@ In dit bestand berekenen en toewijzen we de unieke opmerking-id die in de voorbe
 
 6. [ Accepteer met de Dialoog van de Wijziging ](./examples/review_app_examples/accept_with_modification_dialog.ts)
 Dit is een voorbeeld van het toevoegen van nieuwe widgets aan app. Hier hebben we een nieuw dialoogvenster gemaakt met twee invoertekstvelden: `Revised Text` en `Adjudicator Comment Rationale`
+
+7. [ sparen Herziening ](./examples/save_revision.ts)
+Dit is een voorbeeld van hoe u een bestaand dialoogvenster kunt bijwerken. Hier voegen we een knop voor publicatie toe. Wij staan toe dat de inhoud van de dialoog wordt gewijzigd. Zie hier de json: [`save_revision`](./jsons/dialogs/save_revision.json)
 
 ![ keurt met de dialoog van de Wijziging goed ](./imgs/accept_with_modification_dialogue.png)
 
