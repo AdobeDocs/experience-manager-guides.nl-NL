@@ -2,7 +2,7 @@
 title: Opmerkingen bij de release | Nieuwe functies in de Adobe Experience Manager Guides, release 2024.06.0
 description: Leer de nieuwe en verbeterde functies in de 2024.06.0 release van Adobe Experience Manager Guides as a Cloud Service.
 exl-id: c885b8ba-5230-4d51-8f38-311b3a33fe0a
-source-git-commit: d525775afeeb89754762ff514126b1c3a3307b3f
+source-git-commit: 2455307ef747b2f2574666ee773d931b302f58ca
 workflow-type: tm+mt
 source-wordcount: '653'
 ht-degree: 0%
@@ -36,7 +36,6 @@ Voor meer details, mening [ de Fragmenten van de Ervaring van Publish ](../user-
 Experience Manager Guides biedt ook enkele nuttige verbeteringen in Content Fragments:
 
 - U kunt inhoud met voorwaarden eenvoudig filteren wanneer u publiceert naar een inhoudsfragment, met behulp van een DITAVAL-bestand of voorwaardelijke kenmerken.
-
 - U kunt de Fragmenten van de Inhoud van een onderwerp van de **sectie van Output** in de **Eigenschappen van het Dossier** ook publiceren en bekijken.
 
 ![ dossier eigenschappen opties tabel ](./assets/file-properties-outputs-tab.png){width="300" align="left"}

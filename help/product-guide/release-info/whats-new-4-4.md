@@ -3,9 +3,9 @@ title: Opmerkingen bij de release | Nieuwe functies in Adobe Experience Manager 
 description: Meer informatie over de nieuwe en verbeterde functies in de 4.4.0-release van Adobe Experience Manager Guides
 role: Leader
 exl-id: 63a2e93b-b4cf-4423-88e4-b01c6a52a532
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
 workflow-type: tm+mt
-source-wordcount: '2307'
+source-wordcount: '2308'
 ht-degree: 0%
 
 ---
@@ -27,8 +27,7 @@ Experience Manager Guides beschikt nu over een verbeterde functie voor versiehis
 ![ de geschiedenisdialoogdoos van de Versie ](assets/version-history-dialog-web-editor.png){width="800" align="left"}
 *Voorproef de veranderingen in de verschillende versies van een onderwerp.*
 
-
-Leer meer over de **eigenschapbeschrijving van de Geschiedenis van de Versie 0} {in de [ Linkerpaneel ](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.**
+Leer meer over de **eigenschapbeschrijving van de Geschiedenis van de Versie 0} {in het [ Linkerpaneel (erfenis) ](/help/legacy-product-guide/user-guide/web-editor-features.md#id2051EA0M0HS) sectie.**
 
 ## Voorinstellingen voor voorwaarden beheren
 
@@ -89,7 +88,7 @@ Leer meer over hoe te om [ basislijnen van de Redacteur van het Web ](../user-gu
 
 ## Verbeterd dashboard voor kaartverzameling
 
-Experience Manager Guides biedt een uitgebreid dashboard voor kaartverzamelingen. In een kaartinzameling, kunt u de meta-gegevenseigenschappen voor de kaarten snel vormen DITA. Deze functie is handig omdat u de eigenschappen van metagegevens voor elke DITA-kaart niet afzonderlijk hoeft bij te werken.
+Experience Manager Guides biedt een uitgebreid dashboard voor kaartverzamelingen. In een kaartinzameling, kunt u de meta-gegevenseigenschappen voor de kaarten snel vormen DITA. Deze eigenschap is handig aangezien u niet de meta-gegevenseigenschappen voor elke kaart moet bijwerken DITA individueel.
 
 U kunt nu de bestandsnaam van de DITA-kaart bekijken. U kunt ook de basislijnen weergeven. Zo kunt u snel de basislijn vinden die voor een voorinstelling wordt gebruikt.
 
@@ -116,7 +115,7 @@ Leer meer over hoe te [ inhoud ](../user-guide/translation.md) vertalen.
 U kunt de elementen nu gemakkelijk vinden in het dialoogvenster Element invoegen.  U kunt een tekenreeks typen in het zoekvak en een lijst ophalen met alle geldige elementen die beginnen met de ingevoerde tekenreeks.
 
 Als u bijvoorbeeld een alinea bewerkt en een element wilt invoegen, kunt u een teken &#39;t&#39; zoeken om het element op te halen
-alle geldige elementen die met &quot;t&quot; beginnen.
+alle geldige elementen die met &#39;t&#39; beginnen.
 
 
 ![ de dialoogdoos van het Tussenvoegsel ](assets/insert-element.png){width="300" align="left"}
@@ -177,12 +176,12 @@ Gekoppelde koppelingen (XREF met peer bereik) die worden gerenderd in de AEM Sit
 
 ## De URL van de AEM Site-uitvoer configureren om de documenttitel te gebruiken
 
-Met Experience Manager Guides kunt u als beheerder de URL van de AEM Site-uitvoer configureren. Als de bestandsnaam niet bestaat of niet alle speciale tekens bevat, kunt u deze vervangen door een scheidingsteken in de URL van de AEM Site-uitvoer. U kunt hen met de naam van het eerste kindonderwerp ook vervangen. Leer hoe te [ vorm URL van de output van de Plaats van de AEM om de documenttitel ](../cs-install-guide/conf-output-generation.md#configure-the-url-of-the-aem-site-output-to-use-the-document-title) te gebruiken.
+Met Experience Manager Guides kunt u als beheerder de URL van de AEM Site-uitvoer configureren. Als de bestandsnaam niet bestaat of alle speciale tekens bevat, kunt u deze vervangen door een scheidingsteken in de URL van de AEM Site-uitvoer. U kunt hen met de naam van het eerste kindonderwerp ook vervangen. Leer hoe te [ vorm URL van de output van de Plaats van de AEM om de documenttitel ](../cs-install-guide/conf-output-generation.md#configure-the-url-of-the-aem-site-output-to-use-the-document-title) te gebruiken.
 
 
 ## Meerdere uitvoervoorinstellingen parallel Publish
 
-Experience Manager biedt de functie om basislijnen te maken door de onderwerpen automatisch te kiezen op basis van het label dat op hen is toegepast. Nu kunt u ook naadloos meerdere uitvoervoorinstellingen publiceren met automatische basislijnen van dezelfde DITA-kaart. U hoeft niet slechts één voorinstelling tegelijk te publiceren, maar u kunt gemakkelijk meerdere uitvoervoorinstellingen tegelijk publiceren.
+Experience Manager biedt de functie om basislijnen te maken door de onderwerpen automatisch te kiezen op basis van het label dat op hen is toegepast. Nu kunt u ook naadloos meerdere uitvoervoorinstellingen publiceren met automatische basislijnen van dezelfde DITA-kaart. U hoeft niet slechts één voorinstelling tegelijk te publiceren, maar u kunt gemakkelijk meerdere uitvoervoorinstellingen parallel publiceren.
 
 Leer meer over hoe te om [ basislijnen van de Redacteur van het Web ](../user-guide/web-editor-baseline.md) tot stand te brengen en te beheren.
 

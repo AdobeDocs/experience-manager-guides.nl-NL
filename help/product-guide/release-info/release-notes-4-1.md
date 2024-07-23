@@ -4,7 +4,7 @@ description: Laatste release van Adobe Experience Manager Guides
 exl-id: c70b3bbc-3332-4626-bc30-641034f8fd06
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
 workflow-type: tm+mt
 source-wordcount: '3644'
 ht-degree: 0%
@@ -18,6 +18,7 @@ Deze versienota&#39;s behandelt de verbeteringsinstructies, de nieuwe eigenschap
 ## Upgrade naar de nieuwste versie
 
 U kunt uw huidige versie van AEM Guides eenvoudig upgraden naar versie 4.1.3. Voordat u verdergaat met de upgrade naar versie 4.1.3 van AEM Guides, moet u rekening houden met de volgende punten:
+
 * Als u versie 4.1 of 4.1.x gebruikt, kunt u rechtstreeks upgraden naar versie 4.1.3.
 * Als u versie 4.0.x gebruikt, moet u een upgrade naar versie 4.1 of 4.1.x uitvoeren voordat u een upgrade naar versie 4.1.3 uitvoert.
 * Als u versie 3.8.5 gebruikt, moet u een upgrade naar versie 4.0.x uitvoeren voordat u een upgrade naar versie 4.1 uitvoert.
@@ -343,7 +344,7 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 * De elementenlijst (Alt+Enter) wordt grijs weergegeven in het thema Donkerder/Donkerst. 7913
 * Versie wordt niet bijgewerkt bij het opslaan van de revisie van een onderwerp op de werkbalk van het kaartvenster. (8228)
 * xref kan zelfs op geldige locaties niet worden ingevoegd. 8354
-* De bewerking &#39;getversionlabels&#39; heeft beperkingen en levert geen verwachte prestaties. 8513
+* De bewerking &#39;getversionlabels&#39; heeft beperkingen en geeft geen verwachte prestaties. 8513
 * Problemen treden op met het bevestigingsvenster wanneer een vergrendeld of bewerkt bestand wordt gesloten dat momenteel niet in de editor is geopend. 8692
 * Er treedt een fout op bij het toevoegen van een gebruiker als beheerder in het mappenprofiel als de gebruiker-id numeriek is. 8908
 * Het deelvenster Vertaling is zelfs zichtbaar bij het openen van de DITA-kaart in de Kaarteditor. 9053
@@ -360,7 +361,7 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 * De beschrijving van de controletaak wordt niet weergegeven in het e-mailbericht dat wordt verzonden wanneer een nieuwe controletaak wordt toegewezen. 8507
 * Map-API downloaden | Tijdelijke mappen die niet worden opgeschoond in geval van fouten in het downloadproces. 8523
 * `columnpreview.jsp` is afhankelijk van SP.  8543
-* Uitvoertaken met de status &quot;Wachten&quot; of &quot;Uitvoeren&quot; worden niet opgeschoond in het Publish-dashboard.  8569
+* Uitvoertaken met de status &#39;Wachten&#39; of &#39;Uitvoeren&#39; worden niet opgeschoond in het Publish-dashboard.  8569
 * Standaardpictogram gekozen bij het produceren van een rapport gebruikend de Generate knoop, zelfs wanneer het pictogrambezit wordt bepaald. 8573
 * Problemen treden op tijdens het revisieproces tijdens het upgraden van 3.8.X naar 4.0. (8788)
 * Als een gebruikersnaam lang is in het deelvenster Revisie van de webeditor, worden de pictogrammen die u wilt accepteren/afwijzen niet duidelijk weergegeven. 8793
@@ -391,7 +392,7 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 * Het vergrendelingspictogram wordt weergegeven in de dataweergave, zelfs als het bestand is ingecheckt in de editor.  5756
 * Onbekwaam om voorgrond, achterstandselementen in een boekenkaart toe te voegen gebruikend de mening van de Auteur van de Redacteur van het Web. 7652
 * De modus Voorbeeld ondersteunt het kenmerk voor voorwaardelijke verwerking van `deliveryTarget` niet in DITA. 7685
-* Wanneer u een woordenlijst opent in de XML-editor, AEM u een bestand op om het op te slaan, zelfs als het niet is gewijzigd. 8105
+* Bij het openen van een verklarende woordenlijstonderwerp in de redacteur van XML, AEM krachten om het te bewaren zelfs als het niet is gewijzigd. 8105
 * Het dialoogvenster Referenties invoegen wordt geopend wanneer u subjectref aan een kaart toevoegt met behulp van de gebruikersinterface. 8212
 * Het deelvenster Inhoud opnieuw gebruiken crasht bij het zoeken naar speciale tekens `[` of `*` .8279
 * Bij het ontwerpen van Glossentry, toont de Redacteur van het Web de inhoud als Nota. 8384
