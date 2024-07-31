@@ -4,7 +4,7 @@ description: Leer hoe u een Knowledge Base-voorinstelling maakt in de webeditor 
 feature: Publishing
 role: User
 exl-id: 31fdfd96-377c-406b-96ed-59a80bf6e03e
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+source-git-commit: 83966cc9187b13dd3b5956821e0aa038b41db28e
 workflow-type: tm+mt
 source-wordcount: '1158'
 ht-degree: 0%
@@ -32,7 +32,7 @@ In de redacteur van het Web, zijn de volgende configuraties georganiseerd onder 
 | --- | --- |
 | Voorwaarden toepassen met | Selecteer één van de volgende opties:<br><br>* **toegepaste niets**: Selecteer deze optie als u geen voorwaarde op de gepubliceerde output wilt toepassen.<br>* **DITAVAL dossier**: Selecteer DITAVAL dossier(s) om gepersonaliseerde inhoud te produceren. U kunt meerdere DITAVAL-bestanden selecteren via het dialoogvenster Bladeren of door het bestandspad te typen. Gebruik het kruispictogram bij de bestandsnaam om het te verwijderen. DITAVAL-bestanden worden in de opgegeven volgorde geëvalueerd, zodat de voorwaarden die in het eerste bestand zijn opgegeven voorrang hebben op de voorwaarden die in latere bestanden worden vermeld. U kunt de bestandsvolgorde behouden door bestanden toe te voegen of te verwijderen. Als het DITAVAL-bestand naar een andere locatie wordt verplaatst of wordt verwijderd, wordt het niet automatisch uit de voorinstelling verwijderd. U moet de locatie bijwerken als bestanden worden verplaatst of verwijderd. U kunt de muisaanwijzer boven de bestandsnaam plaatsen om het pad weer te geven in de Adobe Experience Manager-opslagplaats waar het bestand is opgeslagen. U kunt alleen DITAVAL-bestanden selecteren en er wordt een fout weergegeven als u een ander bestandstype selecteert.<br>* **Vooraf ingestelde Voorwaarde**: Selecteer een voorwaarde vooraf ingesteld van dropdown om een voorwaarde toe te passen terwijl het publiceren van de output. De optie is zichtbaar als u een voorwaarde hebt toegevoegd op het tabblad Voorinstellingen voorwaarde van de DITA-kaartconsole. Meer over voorwaarde vooraf instelt, mening [ vooraf instelt van het Gebruik ](generate-output-use-condition-presets.md#id1825FL004PN) vooraf in. |
 | Basislijn gebruiken | Als u een basislijn voor de geselecteerde kaart hebt gecreeerd DITA, selecteer deze optie om de versie te specificeren die u wilt publiceren.<br><br> het Werk van de Mening [ met Basislijn ](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) voor meer details. |
-| Post Generation Workflow | Als u deze optie kiest, wordt een nieuwe vervolgkeuzelijst voor de Post Generation Workflow weergegeven met alle workflows die in Adobe Experience Manager zijn geconfigureerd. U moet een werkstroom selecteren die u wilt uitvoeren nadat de uitvoergeneratie is voltooid.<br><br>**Nota**: Leer meer over hoe te [ het werkschema van de post-outputgeneratie ](../cs-install-guide/customize-workflows.md#id17A6GI004Y4) sectie in de Gids van de Installatie en van de Configuratie voor Cloud Servicen aanpassen. |
+| Workflow na generatie | Als u deze optie kiest, wordt een nieuwe vervolgkeuzelijst Workflow na generatie weergegeven met alle workflows die in Adobe Experience Manager zijn geconfigureerd. U moet een werkstroom selecteren die u wilt uitvoeren nadat de uitvoergeneratie is voltooid.<br><br>**Nota**: Leer meer over hoe te [ het werkschema van de post-outputgeneratie ](../cs-install-guide/customize-workflows.md#id17A6GI004Y4) sectie in de Gids van de Installatie en van de Configuratie voor Cloud Servicen aanpassen. |
 
 ### ServiceNow
 
@@ -52,12 +52,13 @@ In de redacteur van het Web, zijn de volgende configuraties georganiseerd onder 
 | Categorieën | Selecteer een categorie in het vervolgkeuzemenu om de onderwerpen van de inhoudsopgave in die categorie te publiceren op de Salesforce-site. |
 
 U kunt de volgende opties in Salesforce en ServiceNow ook bekijken vooraf instelt:
+
 | Opties | Beschrijving |
-| — | — |
-|Verwijder de koptekst van het onderwerp uit de tekst van het artikel.|Selecteer deze optie om de onderwerpkop uit het artikel in de gepubliceerde uitvoer te verwijderen. |
-|Uploaden als concept | Selecteer deze optie om het onderwerp te uploaden om het als ontwerp te delen alvorens het ter beschikking te stellen van de gebruikers.|
-|Afbeeldingen uploaden| Selecteer deze optie als u afbeeldingen in onderwerpen wilt opnemen in de gepubliceerde uitvoer.|
-|Gekoppelde documenten uploaden| Selecteer deze optie om de documenten verbonden in onderwerpen in de gepubliceerde output op te nemen.|
+| --- | --- |
+| Verwijder de onderwerpkop uit de artikelhoofdtekst. | Selecteer deze optie om de onderwerpkop uit het artikel in de gepubliceerde uitvoer te verwijderen. |
+| Uploaden als concept | Selecteer deze optie om het onderwerp te uploaden om het als ontwerp te delen alvorens het ter beschikking te stellen van de gebruikers. |
+| Afbeeldingen uploaden | Selecteer deze optie als u afbeeldingen in onderwerpen wilt opnemen in de gepubliceerde uitvoer. |
+| Gekoppelde documenten uploaden | Selecteer deze optie om de documenten verbonden in onderwerpen in de gepubliceerde output op te nemen. |
 
 
 ### Adobe Experience Manager
@@ -73,7 +74,8 @@ U kunt de volgende opties in Salesforce en ServiceNow ook bekijken vooraf instel
 | Site | Gebruik dit veld om de vereiste Adobe Experience Manager Knowledge Base te selecteren. U kunt kennisbanken op de Adobe Experience Manager-site configureren om de inhoud op te slaan op basis van de machtigingen. De artikelen van deze DITA-kaart kunnen op deze kennisbanken worden gepubliceerd. |
 | Categorie | Selecteer een categorie in het vervolgkeuzemenu om de onderwerpen van de inhoudsopgave in die categorie te publiceren op de site van de Adobe Experebeheer. |
 | Sectiesjabloon en artikelsjabloon | Dit zijn de structurele componenten die worden gebruikt om de inhoud van uw output te organiseren. Deze zijn vooraf gedefinieerd in de Adobe Experience Manager-sitesjabloon. |
-| Post Generation Workflow | Als u deze optie kiest, wordt een nieuwe vervolgkeuzelijst voor Post Generation Workflow weergegeven met alle workflows die in Adobe Experience Manager zijn geconfigureerd. U moet een werkstroom selecteren die u wilt uitvoeren nadat de werkstroom van de outputgeneratie is voltooid.<br> Leer meer over hoe te [ het werkschema van de post-outputgeneratie ](../install-guide/customize-workflows.md#id17A6GI004Y4) sectie in de Gids van de Installatie en van de Configuratie aanpassen. |
+| Workflow na generatie | Als u deze optie kiest, wordt een nieuwe vervolgkeuzelijst voor workflow na generatie weergegeven met alle workflows die in Adobe Experience Manager zijn geconfigureerd. U moet een werkstroom selecteren die u wilt uitvoeren nadat de werkstroom van de outputgeneratie is voltooid.<br> Leer meer over hoe te [ het werkschema van de post-outputgeneratie ](../install-guide/customize-workflows.md#id17A6GI004Y4) sectie in de Gids van de Installatie en van de Configuratie aanpassen. |
+
 >[!TIP]
 > 
 >Selecteer **verfrissen zich** ![ pictogram ](images/navtitle-refresh-icon.svg) verfrist om de respectieve malplaatjes op de gebieden volgens het malplaatje van de Kennisbank te bevolken dat u hebt geselecteerd.

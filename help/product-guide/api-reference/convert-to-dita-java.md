@@ -5,7 +5,7 @@ exl-id: 807d9ffa-23e3-476c-992d-c1f495233892
 feature: Java-Based API Conversion Workflow
 role: Developer
 level: Experienced
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 83966cc9187b13dd3b5956821e0aa038b41db28e
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 0%
@@ -50,12 +50,13 @@ public static void convertHtmlToDita(Session session,
 ```
 
 **Parameters**:
-|Naam|Type|Omschrijving|
-|—|—|—|
-|`session`|javax.jcr.Session|Een geldige JCR-sessie.|
-|`inputFile`|String|Absoluut pad van de bronbestanden van de HTML in AEM opslagplaats.|
-|`destPath`|String|Absoluut pad van de doellocatie waar de geconverteerde DITA-bestanden worden opgeslagen.|
-|`createRev`|Boolean|Opgeven of een revisie van de bestanden \( `true`\) wordt gemaakt op het opgegeven doel of niet \( `false`\). Dit wordt alleen overwogen wanneer de doellocatie een bestaande versie van de omgezette bestanden bevat.|
+
+| Naam | Type | Beschrijving |
+|----|----|-----------|
+| `session` | javax.jcr.Session | Een geldige JCR-sessie. |
+| `inputFile` | String | Absoluut pad van de HTML-bronbestanden in AEM opslagplaats. |
+| `destPath` | String | Absoluut pad van de doellocatie waar de geconverteerde DITA-bestanden worden opgeslagen. |
+| `createRev` | Boolean | Geef op of er een revisie van de bestanden \( `true`\) op het opgegeven doel wordt gemaakt of niet \( `false`\). Dit wordt alleen overwogen wanneer de doellocatie een bestaande versie van de omgezette bestanden bevat. |
 
 **Uitzondering**:
 Throws `RepositoryException` .
@@ -76,13 +77,14 @@ public static void convertWordToDita(Session session,
 ```
 
 **Parameters**:
-|Naam|Type|Omschrijving|
-|—|—|—|
-|`session`|javax.jcr.Session|Een geldige JCR-sessie.|
-|`inputFile`|String|Absoluut pad van de Word-bronbestanden in AEM opslagplaats.|
-|`destPath`|String|Absoluut pad van de doellocatie waar de geconverteerde DITA-bestanden worden opgeslagen.|
-|`style2tagMap`|String|Absoluut pad van het stijltoewijzingsbestand dat wordt gebruikt voor conversie.|
-|`createRev`|Boolean|Opgeven of een revisie van de bestanden \( `true`\) wordt gemaakt op het opgegeven doel of niet \( `false`\). Dit wordt alleen overwogen wanneer de doellocatie een bestaande versie van de omgezette bestanden bevat.|
+
+| Naam | Type | Beschrijving |
+|----|----|-----------|
+| `session` | javax.jcr.Session | Een geldige JCR-sessie. |
+| `inputFile` | String | Absoluut pad van de Word-bronbestanden in AEM opslagplaats. |
+| `destPath` | String | Absoluut pad van de doellocatie waar de geconverteerde DITA-bestanden worden opgeslagen. |
+| `style2tagMap` | String | Absoluut pad van het stijltoewijzingsbestand dat wordt gebruikt voor conversie. |
+| `createRev` | Boolean | Geef op of er een revisie van de bestanden \( `true`\) op het opgegeven doel wordt gemaakt of niet \( `false`\). Dit wordt alleen overwogen wanneer de doellocatie een bestaande versie van de omgezette bestanden bevat. |
 
 **Uitzondering**:
 Throws `RepositoryException` .

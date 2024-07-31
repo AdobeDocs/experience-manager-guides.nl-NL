@@ -5,7 +5,7 @@ exl-id: 8033935d-2113-4e39-ab74-b7431b89f948
 feature: Conversion Process Event Handler
 role: Developer
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 83966cc9187b13dd3b5956821e0aa038b41db28e
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 0%
@@ -26,10 +26,11 @@ De gebeurtenisdetails worden hieronder uitgelegd:
 com/adobe/fmdita/conversion/complete 
 ```
 
-**Parameters**:\
-|Naam|Type|Omschrijving|
-|—|—|—|
-|`status`|String|De geretourneerde status voor de uitgevoerde bewerking. De mogelijke opties zijn: -   SUCCESS: het conversieproces is voltooid. <br> -   VOLTOOID MET FOUTEN: het conversieproces is voltooid, maar met enkele fouten. <br>-   MISLUKT: het conversieproces is mislukt door een fatale fout.|
-|`filePath`|String|Absoluut pad van het bronbestand \(om te converteren\) in AEM opslagplaats.|
-|`outputPath`|String|Absoluut pad van de doellocatie waar de geconverteerde DITA-bestanden worden opgeslagen.|
-|`logPath`|String|Absoluut pad van het knooppunt waar het conversielogbestand wordt opgeslagen.|
+**Parameters**:
+
+| Naam | Type | Beschrijving |
+|----|----|-----------|
+| `status` | String | De geretourneerde status voor de uitgevoerde bewerking. De mogelijke opties zijn: -   SUCCESS: het conversieproces is voltooid. <br> -   VOLTOOID MET FOUTEN: het conversieproces is voltooid, maar met enkele fouten. <br>-   MISLUKT: het conversieproces is mislukt door een fatale fout. |
+| `filePath` | String | Absoluut pad van het bronbestand \(om te converteren\) in AEM opslagplaats. |
+| `outputPath` | String | Absoluut pad van de doellocatie waar de geconverteerde DITA-bestanden worden opgeslagen. |
+| `logPath` | String | Absoluut pad van het knooppunt waar het conversielogboek wordt opgeslagen. |

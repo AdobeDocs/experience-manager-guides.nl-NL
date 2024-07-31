@@ -3,7 +3,8 @@ title: Kennisbank
 description: Leer hoe u een Knowledge Base-voorinstelling maakt in de webeditor en het kaartdashboard. Configureer de Knowledge Base-uitvoervoorinstelling in AEM Guides.
 feature: Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+exl-id: 5fc81de9-9ae0-4cd4-a7ef-b52eed2479f7
+source-git-commit: 83966cc9187b13dd3b5956821e0aa038b41db28e
 workflow-type: tm+mt
 source-wordcount: '1158'
 ht-degree: 0%
@@ -51,12 +52,13 @@ In de redacteur van het Web, zijn de volgende configuraties georganiseerd onder 
 | Categorieën | Selecteer een categorie in het vervolgkeuzemenu om de onderwerpen van de inhoudsopgave in die categorie te publiceren op de Salesforce-site. |
 
 U kunt de volgende opties in Salesforce en ServiceNow ook bekijken vooraf instelt:
+
 | Opties | Beschrijving |
-| — | — |
-|Verwijder de koptekst van het onderwerp uit de tekst van het artikel.|Selecteer deze optie om de onderwerpkop uit het artikel in de gepubliceerde uitvoer te verwijderen. |
-|Uploaden als concept | Selecteer deze optie om het onderwerp te uploaden om het als ontwerp te delen alvorens het ter beschikking te stellen van de gebruikers.|
-|Afbeeldingen uploaden| Selecteer deze optie als u afbeeldingen in onderwerpen wilt opnemen in de gepubliceerde uitvoer.|
-|Gekoppelde documenten uploaden| Selecteer deze optie om de documenten verbonden in onderwerpen in de gepubliceerde output op te nemen.|
+| --- | --- |
+| Verwijder de onderwerpkop uit de artikelhoofdtekst. | Selecteer deze optie om de onderwerpkop uit het artikel in de gepubliceerde uitvoer te verwijderen. |
+| Uploaden als concept | Selecteer deze optie om het onderwerp te uploaden om het als ontwerp te delen alvorens het ter beschikking te stellen van de gebruikers. |
+| Afbeeldingen uploaden | Selecteer deze optie als u afbeeldingen in onderwerpen wilt opnemen in de gepubliceerde uitvoer. |
+| Gekoppelde documenten uploaden | Selecteer deze optie om de documenten verbonden in onderwerpen in de gepubliceerde output op te nemen. |
 
 
 ### Adobe Experience Manager
@@ -73,6 +75,7 @@ U kunt de volgende opties in Salesforce en ServiceNow ook bekijken vooraf instel
 | Categorie | Selecteer een categorie in het vervolgkeuzemenu om de onderwerpen van de inhoudsopgave in die categorie te publiceren op de site van de Adobe Experebeheer. |
 | Sectiesjabloon en artikelsjabloon | Dit zijn de structurele componenten die worden gebruikt om de inhoud van uw output te organiseren. Deze zijn vooraf gedefinieerd in de Adobe Experience Manager-sitesjabloon. |
 | Workflow na generatie | Als u deze optie kiest, wordt een nieuwe vervolgkeuzelijst voor workflow na generatie weergegeven met alle workflows die in Adobe Experience Manager zijn geconfigureerd. U moet een werkstroom selecteren die u wilt uitvoeren nadat de werkstroom van de outputgeneratie is voltooid.<br> Leer meer over hoe te [ het werkschema van de post-outputgeneratie ](/help/product-guide/install-guide/customize-workflows.md#id17A6GI004Y4) sectie in de Gids van de Installatie en van de Configuratie aanpassen. |
+
 >[!TIP]
 > 
 >Selecteer **verfrissen zich** ![ pictogram ](images/navtitle-refresh-icon.svg) verfrist om de respectieve malplaatjes op de gebieden volgens het malplaatje van de Kennisbank te bevolken dat u hebt geselecteerd.

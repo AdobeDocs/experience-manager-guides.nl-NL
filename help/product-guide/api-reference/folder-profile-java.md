@@ -5,7 +5,7 @@ exl-id: 388ae654-c4f9-4bb7-ba98-370b8919e3a6
 feature: Java-Based API Folder Profiles
 role: Developer
 level: Experienced
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 83966cc9187b13dd3b5956821e0aa038b41db28e
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 0%
@@ -54,13 +54,14 @@ Session session) throws GuidesApiException
 ```
 
 **Parameters**:
-|Naam|Type|Omschrijving|
-|—|—|—|
-|``attributeNames``|String|Een lijst met kenmerknamen.|
-|``values``|String|Een lijst met waarden voor de opgegeven kenmerken.|
-|`labels`|String|Een lijst met labels voor de `attribute` - `value` paren. [ 1 ](#fntarg_1)|
-|`profileName`|String|De naam van het profiel op mapniveau waarop deze kenmerken, waarden en labels moeten worden toegepast. **Belangrijk:** Alle bestaande attributen-waarden-etiketten die in het profiel worden bepaald worden beschreven.|
-|`session`|javax.jcr.Session|Een geldige JCR-sessie.|
+
+| Naam | Type | Beschrijving |
+|----|----|-----------|
+| ``attributeNames`` | String | Een lijst met kenmerknamen. |
+| ``values`` | String | Een lijst met waarden voor de opgegeven kenmerken. |
+| `labels` | String | Een lijst met labels voor de `attribute` - `value` -paren. [ 1 ](#fntarg_1) |
+| `profileName` | String | De naam van het profiel op mapniveau waarop deze kenmerken, waarden en labels moeten worden toegepast. **Belangrijk:** Alle bestaande attributen-waarden-etiketten die in het profiel worden bepaald worden beschreven. |
+| `session` | javax.jcr.Session | Een geldige JCR-sessie. |
 
 **Keert** terug:
 `true` voor succes. In het geval van een mislukking, veroorzaakt het een uitzondering.
