@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lees productdocumentatie voor Adobe Experience Manager Guides.
 breadcrumb-title: Documentatie voor AEM Guides
-source-git-commit: d16d9915b826a754f834ad82f413e860c2da12d2
+source-git-commit: 2b63b1d1c71e60c06c1d2c01b40b085dc7f4a6b0
 workflow-type: tm+mt
-source-wordcount: '1824'
+source-wordcount: '1829'
 ht-degree: 2%
 
 ---
@@ -428,6 +428,7 @@ ht-degree: 2%
       - Authoring {#authoring}
          - Webeditor {#webeditor}
             - [Opnieuw gebruiken van inhoud in AEM Guides](./knowledge-base/kb-articles/authoring/webeditor/content-reusability-in-aem-guides.md)
+            - [Markering gebruiken in AEM Guides](./knowledge-base/kb-articles/authoring/webeditor/mardown-in-DITA-and-AEM-Guides.md)
             - {#customizing} aanpassen
                - [Aangepaste knop toevoegen aan werkbalk](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md)
                - [Aangepaste stijlen toevoegen aan de webeditor](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
