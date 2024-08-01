@@ -5,7 +5,7 @@ exl-id: b801c2b3-445f-4aa7-a4f2-029563d7cb3a
 feature: Java-Based API Packages
 role: Developer
 level: Experienced
-source-git-commit: 4ce78061ddb193d3c16241ff32fa87060c9c7bd6
+source-git-commit: 1bb422427822e7f369e0c1be7de6b12ec012075e
 workflow-type: tm+mt
 source-wordcount: '550'
 ht-degree: 0%
@@ -71,12 +71,13 @@ throws GuidesApiException
 ```
 
 **Parameters**:
-|Naam|Type|Omschrijving|
-|—|—|—|
-|`json`|String|JSON-tekenreeks die het CRX-pakket bepaalt dat moet worden samengesteld. Gebruik de volgende indeling om de JSON-tekenreeks te maken: <br> - `activate` : is van het type Boolean \(`true`/`false`\). Hiermee wordt bepaald of het CRX-pakket dat in de auteurinstantie is gemaakt, wordt gerepliceerd naar de publicatie-instantie. <br> - `rules`: is van het type JSON Array. Een array met JSON-regels, die opeenvolgend worden verwerkt om het CRX-pakket samen te stellen. <br> - `rootPath`: is van het type String. Het basispad waarop de query&#39;s voor het knooppunt/de eigenschap worden uitgevoerd. Als er geen knooppunten/eigenschapquery&#39;s aanwezig zijn, worden het hoofdpad en alle knooppunten die zich onder het hoofdpad bevinden opgenomen in het CRX-pakket. <br> - `nodeQueries` : is van het type Regex Array. Een array van reguliere expressies die wordt gebruikt om specifieke bestanden op te nemen onder het hoofdpad. <br> - `propertyQueries`: is van het type JSON Array. Een array van JSON-objecten met elk JSON-object dat bestaat uit een XPath-query die moet worden uitgevoerd op het hoofdpad en de naam van een eigenschap die aanwezig is in elk JCR-knooppunt nadat de query is uitgevoerd. De waarde van de eigenschap in elk JCR-knooppunt moet een pad of een array van paden zijn. De paden in deze eigenschap worden toegevoegd aan het CRX-pakket.|
-|`outputstream`|java.io.OutputStream|This is used to write the result of various stage, such as query implementation, file inclusion, CRX package creation, or activation. Eventuele fouten die tijdens het maken of activeren worden aangetroffen, worden naar de `outputstream` geschreven. Dit is handig voor foutopsporing.|
-|`session`|String|Een geldige JCR-sessie met activeringsmachtigingen.|
-|`activationTarget`|Koord| (*Facultatief*) `preview` of `publish` voor Cloud Service en `publish` voor Software op locatie <br> - voor Cloud Service, als de parameter een ongeldige waarde bevat, dan ontbreekt de pakketactivering. <br> - Voor software op locatie geldt dat als de parameter een ongeldige waarde bevat, de fout wordt geregistreerd en het publiceren wordt uitgevoerd met de standaardwaarde `publish` . |
+
+| Naam | Type | Beschrijving |
+|----|----|-----------|
+| `json` | String | JSON-tekenreeks die het CRX-pakket bepaalt dat moet worden gemaakt. Gebruik de volgende indeling om de JSON-tekenreeks te maken: <br> - `activate` : is van het type Boolean \(`true`/`false`\). Hiermee wordt bepaald of het CRX-pakket dat in de auteurinstantie is gemaakt, wordt gerepliceerd naar de publicatie-instantie. <br> - `rules`: is van het type JSON Array. Een array met JSON-regels, die opeenvolgend worden verwerkt om het CRX-pakket samen te stellen. <br> - `rootPath`: is van het type String. Het basispad waarop de query&#39;s voor het knooppunt/de eigenschap worden uitgevoerd. Als er geen knooppunten/eigenschapquery&#39;s aanwezig zijn, worden het hoofdpad en alle knooppunten die zich onder het hoofdpad bevinden opgenomen in het CRX-pakket. <br> - `nodeQueries` : is van het type Regex Array. Een array van reguliere expressies die wordt gebruikt om specifieke bestanden op te nemen onder het hoofdpad. <br> - `propertyQueries`: is van het type JSON Array. Een array van JSON-objecten met elk JSON-object dat bestaat uit een XPath-query die moet worden uitgevoerd op het hoofdpad en de naam van een eigenschap die aanwezig is in elk JCR-knooppunt nadat de query is uitgevoerd. De waarde van de eigenschap in elk JCR-knooppunt moet een pad of een array van paden zijn. De paden in deze eigenschap worden toegevoegd aan het CRX-pakket. |
+| `outputstream` | java.io.OutputStream | Dit wordt gebruikt om het resultaat van diverse stadia te schrijven, zoals vraaguitvoering, dossieropneming, het pakketverwezenlijking van CRX, of activering. Eventuele fouten die tijdens het maken of activeren worden aangetroffen, worden naar de `outputstream` geschreven. Dit is handig voor foutopsporing. |
+| `session` | String | Een geldige JCR-sessie met activeringsmachtigingen. |
+| `activationTarget` | String | (*Facultatief*) `preview` of `publish` voor Cloud Service en `publish` voor Software Op-premise <br> - voor Cloud Service, als de parameter een ongeldige waarde bevat, dan ontbreekt de pakketactivering. <br> - Voor software op locatie geldt dat als de parameter een ongeldige waarde bevat, de fout wordt geregistreerd en het publiceren wordt uitgevoerd met de standaardwaarde `publish` . |
 
 **Uitzondering**:
 
