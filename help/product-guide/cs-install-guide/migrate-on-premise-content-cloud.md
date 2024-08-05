@@ -4,7 +4,7 @@ description: Leer hoe u de inhoud van On-premise software naar Cloud Servicen ku
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 0c29d3cffa9f9a741ba5f7bd6150d234fbe8341e
+source-git-commit: af7b3595c10793a8faf72310083547f90b6568f0
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 0%
@@ -74,8 +74,7 @@ Voer de volgende stappen uit om uw Experience Manager Guides-inhoud te migreren 
 1. Na de verwezenlijking, selecteer de drie punten en selecteer **de extractiesleutel van het Exemplaar**.
 
 
-1. Klik **Exemplaar aan klembord**.
-Maak uw eerste project.
+1. Klik **Exemplaar aan klembord**. Maak uw eerste project.
    ![ extractiesleutel ](./assets/migration-copy-to-clipboard.png)
 
 1. Selecteer **Adobe Experience Manager** op de bovenkant en selecteer dan de **3} tegel van de Distributie van de Software {.**
@@ -125,17 +124,14 @@ of
 1. Selecteer de **geplaatste migratie** en selecteer dan **Extraheren** op de bovenkant.
    ![ extractie van migratieset ](./assets/migration-extract.png)
 
-1. Verifieer details in de **Vastgestelde Extractie van de Migratie** pop - omhoog voor de wegen en de configuraties u selecteerde en **klikt Extraheren**.
-De extractie neemt enkele minuten in beslag en u ziet de bijgewerkte status.
+1. Verifieer details in de **Vastgestelde Extractie van de Migratie** pop - omhoog voor de wegen en de configuraties u selecteerde en **klikt Extraheren**. De extractie neemt enkele minuten in beslag en u ziet de bijgewerkte status.
    ![ migratie plaatste extractie ](./assets/migration-set-extraction.png)
 
 1. Wanneer de extractie is voltooid en wordt aangegeven door de status `finished` , gaat u naar Cloud Acceleration Manager en selecteert u het project dat u in stap 18 hebt gemaakt.
 Voor meer informatie selecteer de drie punten, en selecteer dan **details van de Mening**.
 
 
-1. Controleer in het pop-upvenster Gegevens migratieset de configuratie van de migratieset en sluit het pop-upvenster.
-
-   U kunt de paden en andere instellingen weergeven zoals in de volgende schermafbeelding wordt getoond:
+1. Controleer in het pop-upvenster Gegevens migratieset de configuratie van de migratieset en sluit het pop-upvenster. U kunt de paden en andere instellingen weergeven zoals in de volgende schermafbeelding wordt getoond:
    ![ migratie-details ](./assets/migration-details.png)
 
 
@@ -146,8 +142,6 @@ Voor meer informatie selecteer de drie punten, en selecteer dan **details van de
 1. Kies de migratiereeks, selecteer de vereiste server van uw milieu, en klik dan **Samenvatting**.
 
    ![ nieuwe opname ](./assets/migration-new-ingestion.png)
-
-
 
 ## Content Transfer Tool uitvoeren op een Publish-instantie
 
