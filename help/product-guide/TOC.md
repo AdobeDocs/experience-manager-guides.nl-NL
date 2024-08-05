@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lees productdocumentatie voor Adobe Experience Manager Guides.
 breadcrumb-title: Documentatie voor AEM Guides
-source-git-commit: 44875f9fb0935abd0ee58bf933bb0eedb50c0616
+source-git-commit: f2c99e59e7352279135169796221faba74fe45c7
 workflow-type: tm+mt
-source-wordcount: '1829'
+source-wordcount: '1836'
 ht-degree: 2%
 
 ---
@@ -335,6 +335,7 @@ ht-degree: 2%
          - [Bestaande inhoud migreren](./cs-install-guide/migrate-content.md)
          - [Bestaande DITA-inhoud uploaden](./cs-install-guide/migrate-content-upload-existing-dita-content.md)
          - [Niet-DITA-inhoud migreren](./cs-install-guide/migrate-content-non-dita.md)
+         - [Inhoud migreren van Op locatie naar Cloud Service](./cs-install-guide/migrate-on-premise-content-cloud.md)
       - Werken met aangepaste DITA-OT en specialisatie {#custom-dita-ot-spec-cs}
          - [Aangepaste DITA-OT en DITA-specialisatie gebruiken](./cs-install-guide/dita-ot-specialization.md)
       - Op UUID en niet-UUID gebaseerde bestandsnamen configureren {#conf-non-uuid-filename-cs}
