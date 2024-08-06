@@ -4,18 +4,29 @@ description: Leer hoe u de inhoud van On-premise software naar Cloud Servicen ku
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: af7b3595c10793a8faf72310083547f90b6568f0
+source-git-commit: f1c21c6a2683c99d2fcf91b6e5bd4626b3de653b
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '1000'
 ht-degree: 0%
 
 ---
 
 # Inhoud migreren van Op locatie naar Cloud Service
 
-Experience Manager as a Cloud Service verstrekt een scalable, veilige, en agile technologiestichting voor Experience Manager Assets, Forms, en Screens. Hierdoor kunnen marketeers en IT-professionals zich richten op het leveren van effectieve ervaringen op grote schaal.
+Experience Manager as a Cloud Service verstrekt een scalable, veilige, en agile technologiestichting voor Experience Manager Guides, Assets, Forms, en Screens. Hierdoor kunnen marketeers en IT-professionals zich richten op het leveren van effectieve ervaringen op grote schaal.
 Met Experience Manager as a Cloud Service, kunnen uw teams zich op het vernieuwen in plaats van planning voor productverbeteringen concentreren. Nieuwe productfuncties worden grondig getest en zonder onderbreking aan uw teams geleverd zodat zij altijd tot de recentste versie van Adobe Experience Manager kunnen toegang hebben.
+
 Dit artikel biedt een gedetailleerd, stapsgewijs proces voor het migreren van uw On-premise of Managed Services Experience Manager Guides-inhoud naar Cloud Servicen, zodat u een soepele overgang naar het cloudplatform kunt maken.
+
+## Voorwaarden
+
+* Adobe Experience Manager 6.4 of hoger
+* Experience Manager Guides moet de UUID-versie hebben. Als u een niet-UUID versie van Adobe Experience Manager Guides gebruikt, migreer eerst aan UUID gebruikend de stappen in [ Migreer niet-DITA inhoud ](./migrate-content-non-dita.md).
+* Toegang tot **Cloud Acceleration Manager** voor de wolkeninstantie waar u wenst om de inhoud te migreren
+* Maximaal 20 TB opslagruimte wordt ondersteund
+* Totale Lucene Index-grootte van 25 GB
+* De lengte van een knooppuntnaam moet minder dan 150 bytes zijn
+
 
 ## Migratieproces
 
@@ -36,15 +47,11 @@ Voor meer details op de recentste versie, mening [ de Nota&#39;s van de Versie ]
 > 
 > Alleen versie 2.0.0 en hoger wordt ondersteund en u wordt aangeraden de nieuwste versie te gebruiken.
 
-### Voorwaarden
-
-* Adobe Experience Manager 6.4 of hoger
-* Maximaal 20 TB opslagruimte wordt ondersteund
-* Totale Lucene Index-grootte van 25 GB
-* De lengte van een knooppuntnaam moet minder dan 150 bytes zijn
 
 
-Voer de volgende stappen uit om uw Experience Manager Guides-inhoud te migreren naar Experience Manager als cloudservice.
+
+
+Voer de volgende stappen uit om Experience Manager Guides-inhoud te migreren naar Experience Manager als cloudservice.
 
 1. Login aan [ experience.adobe.com ](https://experience.adobe.com/) en selecteert **Experience Manager**.
 
@@ -100,9 +107,9 @@ Voer de volgende stappen uit om uw Experience Manager Guides-inhoud te migreren 
    ![](./assets/migration-create-migration-set.png)
 
 1. Verstrek de weg u wilt migreren en **klikken sparen**.
-Bijvoorbeeld: `/content/we-retail`
+Bijvoorbeeld: `/content/sites`
 of
-   `/content/dam/wknd-events`
+   `/content/dam/tech-docs`
    ![ inbegrepen wegen ](./assets/migration-included-paths.png)
 
 
@@ -118,7 +125,7 @@ of
    * `/apps`
    * `/libs`
    * `/home`
-   * `/etc` U mag enkele `/etc` -paden in CTT selecteren.
+   * `/etc` U kunt enkele `/etc` -paden selecteren in CTT.
 
 1. Klik **sparen**
 1. Selecteer de **geplaatste migratie** en selecteer dan **Extraheren** op de bovenkant.
