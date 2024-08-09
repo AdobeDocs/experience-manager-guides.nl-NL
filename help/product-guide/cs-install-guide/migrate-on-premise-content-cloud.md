@@ -4,7 +4,7 @@ description: Leer hoe u de inhoud van On-premise software naar Cloud Servicen ku
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: f1c21c6a2683c99d2fcf91b6e5bd4626b3de653b
+source-git-commit: 645d9983b66c740444f24e2283806b5ec4a4ee79
 workflow-type: tm+mt
 source-wordcount: '1000'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Dit artikel biedt een gedetailleerd, stapsgewijs proces voor het migreren van uw
 ## Voorwaarden
 
 * Adobe Experience Manager 6.4 of hoger
-* Experience Manager Guides moet de UUID-versie hebben. Als u een niet-UUID versie van Adobe Experience Manager Guides gebruikt, migreer eerst aan UUID gebruikend de stappen in [ Migreer niet-DITA inhoud ](./migrate-content-non-dita.md).
+* Experience Manager Guides moet de UUID-versie hebben. Als u een niet-UUID versie van Adobe Experience Manager Guides gebruikt, migreer eerst aan UUID gebruikend de stappen in [ Migreer niet-DITA inhoud ](../install-guide/migrate-uuid-non-uuid.md).
 * Toegang tot **Cloud Acceleration Manager** voor de wolkeninstantie waar u wenst om de inhoud te migreren
 * Maximaal 20 TB opslagruimte wordt ondersteund
 * Totale Lucene Index-grootte van 25 GB
