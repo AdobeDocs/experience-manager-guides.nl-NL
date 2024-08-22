@@ -1,7 +1,7 @@
 ---
 title: AEM Assets-metagegevens doorgeven aan door DITA-OT-plug-in gegenereerde uitvoer
 description: DITA-OT-plug-in en inhoud in AEM configureren om metagegevens naar gegenereerde uitvoer te verzenden
-source-git-commit: 5a427e14f13ba6e7344f48a9edb3f153a4958ba2
+source-git-commit: d1694535e27b0b605111f71f1f11c47ddb30536e
 workflow-type: tm+mt
 source-wordcount: '906'
 ht-degree: 0%
@@ -21,8 +21,8 @@ Hieronder vindt u een overzicht van de stappen die u in dit artikel zult leren:
 
 ## Achtergrond
 
-Met AEM Guides kunt u DITA-OT-plug-ins gebruiken om naar de gewenste uitvoerindelingen te publiceren met de geconfigureerde plug-ins, en
-u kunt meta-gegevens van de activa ook overgaan die in AEM DAM aan het DITA-OT proces worden beheerd om het in de geproduceerde output te gebruiken - zie de documentatie op [ hoe te opstelling ditamap/onderwerpen om meta-gegevens door outputvoorinstellingen over te gaan ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/pass-metadata-dita-ot)
+Met AEM Guides kunt u DITA-OT-plug-ins gebruiken om naar de gewenste uitvoerindelingen te publiceren met behulp van de geconfigureerde plug-ins, en
+u kunt meta-gegevens van de activa ook overgaan die in AEM DAM aan het DITA-OT proces worden beheerd om het in de geproduceerde output te gebruiken - zie de documentatie op [ hoe te opstelling ditamap/onderwerpen om meta-gegevens door output vooraf ingesteld ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/pass-metadata-dita-ot) over te gaan
 
 
 ## Veronderstellingen
@@ -59,7 +59,7 @@ Raadpleeg de onderstaande screenshot voor meer informatie over de bovenstaande s
 
 #### De map metadata.xml openen in de tijdelijke map
 
-In het gedownloade pakket met tijdelijke bestanden wordt een bestand metadata.xml weergegeven waarin de structuur van de eigenschappen en waarden wordt weergegeven (zie onderstaande schermafbeelding)
+In het gedownloade tijdelijke bestandspakket zult u een metadata.xml-bestand zien waarin de structuur van de eigenschappen en waarden wordt weergegeven (zie onderstaande schermafbeelding)
 ![ metadata.xml structuur en bouwt ](../../assets/publishing/publish-tempfiles-metadata-structure.png)
 
 ##### Metagegevens begrijpen.xml
