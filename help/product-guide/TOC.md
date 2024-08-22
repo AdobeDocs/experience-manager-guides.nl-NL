@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lees productdocumentatie voor Adobe Experience Manager Guides.
 breadcrumb-title: Documentatie voor AEM Guides
-source-git-commit: 3c861e42bb01255f19cb2c901a3bca94d7949b76
+source-git-commit: 135f78ae723f3d77a3e7448f5af79b2261b89b1e
 workflow-type: tm+mt
-source-wordcount: '1842'
+source-wordcount: '1848'
 ht-degree: 2%
 
 ---
@@ -469,16 +469,14 @@ ht-degree: 2%
                - [Aanpassen](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
                - [Aangepast dialoogvenster](./guides-ui-extensions/customisations/ReviewApp/custom-dialog.md)
       - Publiceren {#publishing}
-
+         - DITA-OT {#dita-ot}
+            - [Metagegevens AEM gebruiken in plug-in](./knowledge-base/kb-articles/publishing/dita-ot/dita-ot-pass-and-use-aem-metadata-in-dita-ot.md)
          - [AEM Omgeving configureren voor publiceren via native PDF](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
-
          - [Inhoudsopgave van boekmap genereren in oorspronkelijke PDF-publicatie](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
-
          - [FMPS en hulplijnen](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
          - [Microservice architectuur en prestaties](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
          - [Op microservice gebaseerde publicaties configureren met JWT-verificatie](./knowledge-base/publishing/configure-microservices.md)
          - [Op microservice gebaseerde publicaties configureren met OAuth-verificatie](./knowledge-base/publishing/configure-microservices-imt-config.md)
-
          - [Referentiedocumenten publiceren over AEM cloud](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
          - [Een aangepaste DITA-OT instellen](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
 
