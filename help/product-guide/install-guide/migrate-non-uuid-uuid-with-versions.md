@@ -5,14 +5,19 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: 8f3a89fc-7d18-453d-909d-6dff5e275cab
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+source-git-commit: b0c7b944b66c4a4167beece4f827f3d5789531b5
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '788'
 ht-degree: 0%
 
 ---
 
 # Inhoud met versiebeheer migreren
+
+>[!NOTE]
+>
+> U kunt niet-UUID-inhoud migreren naar UUID-inhoud in Experience Manager Guides. Dit artikel wordt in november 2024 gearchiveerd.
+>De mening [**niet-UUID aan de inhoudsmigratie van UUID**](./migrate-non-uuid-uuid-new.md) voor de recentste en gedetailleerde documentatie.
 
 Voer de volgende stappen uit om uw inhoud zonder UUID-versie te migreren naar UUID-inhoud.
 
@@ -87,7 +92,7 @@ Voer de volgende controles uit op de niet-UUID-versie (4.1 niet-UUID of 4.3.0 ni
 
 1. Zorg ervoor dat de beschikbare vrije ruimte ten minste tien keer zo groot is als AEM (crx-quickstart-map) tijdens de migratie. Zodra u de migratie voltooit, kunt u het grootste deel van de schijfruimte terugwinnen door compilatie in werking te stellen (verwijs naar [ Opruiming van de Revisie ](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en)).
 
-1. Laat *toe de Lancers van het Werkschema van de Verwerking van Post* in `com.adobe.fmdita.config.ConfigManager` toe en *laat Versie post-processing* in `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation.` toe
+1. Laat *toe de Lancers van het Werkschema van de PostProcessing* in `com.adobe.fmdita.config.ConfigManager` toe en *laat Versie post-processing* in `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation.` toe
 
 1. Installeer de UUID-versie van de ondersteunde versie op de niet-UUID-versie. Als u bijvoorbeeld 4.1 niet-UUID-build gebruikt, moet u UUID-versie 4.1 installeren en de migratie uitvoeren.
 
@@ -98,7 +103,7 @@ Voer de volgende controles uit op de niet-UUID-versie (4.1 niet-UUID of 4.3.0 ni
    * Workflow voor DAM-update-middelen
    * DAM-workflow Metagegevens terugschrijven
 
-1. Schakel *toe laat de Lancers van het Werkschema van de Verwerking van Post* in `com.adobe.fmdita.config.ConfigManager` toe en maak *toe laat Versie post-processing* in `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation`.
+1. Schakel *toe laat de Lanceerders van het Werkschema van de Post- Verwerking* in `com.adobe.fmdita.config.ConfigManager` en maak *toe laat Versie post-processing* in `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation`.
 
 1. Schakel de eigenschap Validatie inschakelen (`validation.enabled`) in CQ-tagservice op dag uit.
 
