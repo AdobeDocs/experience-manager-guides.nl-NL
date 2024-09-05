@@ -3,9 +3,9 @@ title: DITA-inhoud opnieuw gebruiken in AEM Guides
 description: In dit korte artikel wordt uitgelegd hoe u met AEM Guides en DITA tijd en moeite bespaart wanneer u inhoud hergebruikt
 role: User, Admin
 exl-id: 1522ebf5-2aea-4d8f-ade7-367227b31dd9
-source-git-commit: 4160c990bafe41611714ef66ee361aba0ef47c0a
+source-git-commit: 12d7f9c3479d2fa8e8f0adad7cb89993cd17dec0
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Adobe AEM Guides maakt gebruik van de sterke punten van DITA om een gebruikersvriendelijke interface voor hergebruik van inhoud te bieden.
 
-In dit artikel zouden we het hebben over:
+In dit artikel wordt gesproken over:
 
 1. [Herbruikbaarheid met onderwerpverwijzing (](#reusability-using-topic-referencestopicref)
 2. [Herbruikbaarheid met inhoudsverwijzing (](#reusability-using-content-reference-conref--conkeyref)
@@ -79,7 +79,7 @@ U wilt elk afzonderlijk KYC-fragment opnieuw gebruiken voor de onderwerpen &quot
 
 Hier is `conref=kyc_procedures.dita#indvidual_kyc` kyc_procedures.dita de bestandsidentificatie en #individual_kyc de fragmentidentificatie.
 
-Kyc_procedure.dita blijft de enige informatiebron. Als er om het even welke veranderingen in het KYC proces zoals vereist door verordeningen zijn, moet u eenvoudig één onderwerp bijwerken, en die veranderingen worden automatisch weerspiegeld in alle onderwerpen die naar het verwijzen.
+Kyc_procedure.dita blijft de enige informatiebron. Als de regelgevende veranderingen updates aan het KYC proces vereisen, werk de onderwerpweg met nieuwe bij. De wijzigingen worden automatisch doorgevoerd in alle onderwerpen die ernaar verwijzen.
 
 AEM Guides gebruiken, twee klikken
 
@@ -91,7 +91,7 @@ Stap 1: klik op Herbruikbare inhoud invoegen
 Stap 2: Selecteer het bestand en het fragment dat u opnieuw wilt gebruiken.
 ![ conref ](../../assets/publishing/content-reusability_image2.png)
 
-Net als bij &quot;conref&quot; kunt u ook &quot;conkeyref&quot; gebruiken waar u inhoud via toetsen kunt verwijzen in plaats van een inhoudspad te geven.
+Net als bij &#39;conref&#39; kunt u &#39;conkeyref&#39; ook gebruiken waar u in plaats van een inhoudspad naar inhoud verwijst via key
 
 Voorbeeld van code:
 
@@ -111,7 +111,7 @@ De sleuteldefinitie ziet er als volgt uit:
 </map>
 ```
 
-Sleutel - &quot;Kyc_procedure&quot; zal de enige bron van informatie blijven. Als er om het even welke veranderingen in het proces KYC zoals vereist door verordeningen zijn, moet u eenvoudig één onderwerpweg met een nieuw onderwerpweg bijwerken, en die veranderingen zullen automatisch weerspiegeld worden in alle onderwerpen die naar het verwijzen.
+Sleutel - &#39;Kyc_procedure&#39; blijft de enige informatiebron. Als er om het even welke veranderingen in het proces KYC zoals vereist door verordeningen zijn, moet u eenvoudig één onderwerpweg met een nieuw onderwerpweg bijwerken, en die veranderingen worden automatisch weerspiegeld in alle onderwerpen die naar het verwijzen.
 
 ```
 <map id="ABC_manual">
@@ -133,7 +133,7 @@ Stap 1: klik op Herbruikbare inhoud invoegen
 Stap 2: Selecteer (facultatief) uw wortelkaart, sleutel, en fragment dat opnieuw moet worden gebruikt.
 ![ conkeyref ](../../assets/publishing/content-reusability_image3.png)
 
-Hier is de hoofdmap automatisch geselecteerd omdat deze al was geopend in de kaartweergave
+Hier is de hoofdmap automatisch geselecteerd omdat deze al was geopend in de kaartweergave.
 
 
 ## Inhoud opnieuw gebruiken met één klik in AEM Guides
@@ -154,14 +154,16 @@ Stap 2: Zodra toegevoegd, belemmering, en laat vallen het fragment dat u in om h
 
 - ### Alle inhoud wordt niet weergegeven nadat u een bestand/sleutel hebt geselecteerd in het dialoogvenster Inhoud opnieuw gebruiken
 
-U moet id&#39;s toewijzen aan fragmenten (Dita-elementen) die u opnieuw wilt gebruiken in andere onderwerpen
+Id&#39;s toewijzen aan fragmenten (Dita-elementen) die u opnieuw wilt gebruiken in andere onderwerpen
 
 - ## Toetsen worden niet weergegeven in het dialoogvenster Inhoud opnieuw gebruiken
 
-Zorg ervoor dat u de hoofdmap/bovenliggende map hebt geopend in de kaartweergave die een sleuteldefinitie heeft of voeg het pad van de hoofdmap handmatig toe in hetzelfde dialoogvenster.
+  Zorg ervoor dat u de hoofdmap/bovenliggende kaart hebt geopend in de kaartweergave, die een sleuteldefinitie heeft of voeg het pad van de hoofdmap handmatig toe in hetzelfde dialoogvenster.
 
 
 <br>
+<br>
+<br>
 
 
-Post op het communautair van AEM Guides [ forum ](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) voor om het even welke vragen.
+Plaats op het communautair van AEM Guides [ forum ](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) voor om het even welke vragen.
