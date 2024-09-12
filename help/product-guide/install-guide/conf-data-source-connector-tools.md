@@ -5,9 +5,9 @@ exl-id: 2a0ac0a0-b2a9-453e-851b-fb04c8903526
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 1eb4fcb33d6f905df3f543232e7040d1da42560b
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '539'
 ht-degree: 0%
 
 ---
@@ -76,4 +76,8 @@ U bekijkt een fout als de schakelaar met de zelfde naam bestaat.
 * **Schrapping**: Schrap de geselecteerde schakelaar.
 
 
-Zodra u de gegevensbron hebt gevormd, is de schakelaar vermeld onder het **paneel van Gegevensbronnen** in de Redacteur van het Web. U kunt dan met de gegevensbron verbinden en een inhoudsfragment opnemen in uw onderwerpen. Voor meer details, neemt de mening [ een inhoudsfragment van uw gegevensbron ](../user-guide/web-editor-content-snippet.md) op.
+Zodra u de gegevensbron hebt gevormd, is de schakelaar vermeld onder het **paneel van Gegevensbronnen** in de Redacteur van het Web. U kunt dan met de gegevensbron verbinden en een inhoudsfragment opnemen in uw onderwerpen. Voor meer details, mening [ Gegevens van het Gebruik van uw gegevensbron ](../user-guide/web-editor-content-snippet.md).
+
+>[!NOTE]
+>
+>U kunt ook aangepaste connectors maken en deze gebruiken met de verschillende gegevensbronnen. Leer hoe te om [ douaneschakelaars ](../knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md) te vormen.

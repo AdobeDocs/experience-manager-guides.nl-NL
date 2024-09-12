@@ -5,14 +5,22 @@ exl-id: 388ae654-c4f9-4bb7-ba98-370b8919e3a6
 feature: Java-Based API Folder Profiles
 role: Developer
 level: Experienced
-source-git-commit: 83966cc9187b13dd3b5956821e0aa038b41db28e
+source-git-commit: 8c80a4da8e61909aab0f2db81ef97149774b36c4
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
 
 # Java-API om te werken met mapprofielen {#id175UB30E05Z}
+
+>[!NOTE]
+>
+> U kunt op Java gebaseerde API&#39;s die beschikbaar zijn in Experience Manager Guides gebruiken om aangepaste plug-ins te maken en workflows uit te breiden. Dit artikel wordt in november 2024 gearchiveerd.
+> De mening [![ javadoc ](https://javadoc.io/badge2/com.adobe.aem/aem-guides-sdk-api/javadoc.svg) ](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api) voor de recentste en gedetailleerde documentatie bij het gebruiken van op Java-Gebaseerde API.
+
+
+
 
 Met de volgende op Java gebaseerde API kunt u voorwaardelijke kenmerken toevoegen aan een profiel op mapniveau. Deze API is beschikbaar in de vorm van een bundel. U moet deze bundel in uw code omvatten om deze APIs te gebruiken.
 

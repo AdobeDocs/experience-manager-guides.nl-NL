@@ -5,9 +5,9 @@ exl-id: ddc1393b-b269-40e5-9627-96dad82b42e9
 feature: DITA-OT Configuration
 role: Admin
 level: Experienced
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: b04f20af6e1f85746e13dad464513bf60b039378
 workflow-type: tm+mt
-source-wordcount: '2093'
+source-wordcount: '2122'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Er zijn twee manieren om aangepaste insteekmodule DITA-OT te gebruiken voor publ
 
 AEM Guides wordt standaard geleverd met een vooraf geconfigureerd profiel dat de configuraties bevat voor de standaardsjablonen die moeten worden gebruikt voor het bewerken en publiceren van inhoud. U kunt aangepaste profielen maken met aangepaste sjablonen die u kunt gebruiken tijdens het bewerken van documenten en aangepaste DITA-OT-plug-ins voor het publiceren van inhoud.
 
-Het standaard DITA-OT-pakket dat beschikbaar is bij AEM Guides wordt geleverd met Apache FOP XSL-FO-processor, die geen ondersteuning biedt voor het renderen van MathML-vergelijkingen. Als u MathML vergelijkingen in uw inhoud gebruikt, dan zorg ervoor dat u een MathML het teruggeven motorstop - binnen voor Apache FOP of gebruik een verschillende bewerker XSL-FO hebt geïntegreerd.
+Het standaard DITA-OT-pakket dat beschikbaar is bij AEM Guides wordt geleverd met Apache FOP XSL-FO-processor, die geen ondersteuning biedt voor rendering van MathML-vergelijkingen. Als u MathML-vergelijkingen in uw inhoud gebruikt, moet u ervoor zorgen dat u een insteekmodule voor Apache FOP voor MathML-rendering-engine hebt geïntegreerd of een andere XSL-FO-processor hebt gebruikt.
 
 >[!IMPORTANT]
 >
@@ -171,6 +171,8 @@ Voer de volgende stappen uit om een nieuw profiel te creëren en het te vormen o
    >
    > De standaardprofielgegevens worden weergegeven op de pagina Profielen. Als u AEM Guides van versie 2.2 tot 2.5.1 of 2.6 hebt bevorderd, dan worden alle veranderingen die door configuratiemanager worden aangebracht automatisch gekozen en in het Standaardprofiel opgeslagen.
 
+
+
 1. U kunt het standaardprofiel bewerken, een nieuw profiel maken of instellingen in het standaardprofiel dupliceren om een nieuw profiel te maken.
 
    >[!NOTE]
@@ -178,6 +180,12 @@ Voer de volgende stappen uit om een nieuw profiel te creëren en het te vormen o
    > U kunt het standaardprofiel niet verwijderen. Alle nieuwe profielen die u maakt, kunnen echter worden bewerkt en verwijderd.
 
 1. In het **Schema** \> **Catalogus** montages, specificeer de weg van de douaneDTD en XSD `catalog.xml` dossiers in uw AEM bewaarplaats.
+
+   >[!NOTE]
+   >
+   > Als u het douaneschema gebruikt, moet u de weg van de dossiers van douane DTD en XSD catalog.xml in de AEM bewaarplaats in **bepalen integreer Catalogi** optie.
+
+
 
 1. Selecteer **toevoegen de Catalogus van identiteitskaart van het Systeem** optie.
 

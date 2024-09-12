@@ -4,9 +4,9 @@ description: Ontdek de functies van de webeditor in AEM Guides. Zorg dat u de in
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 1b338bb702267640bc3f5b5de4b00051979b562f
+source-git-commit: 2e474dec4f55ccf54a415b1969f7e7f79c4d0226
 workflow-type: tm+mt
-source-wordcount: '18678'
+source-wordcount: '18802'
 ht-degree: 0%
 
 ---
@@ -169,10 +169,10 @@ In het volgende schermafbeelding worden slechts 3 van de 4 geconfigureerde eleme
 
   Zodra app wordt gevormd, verstrekt Salesforce a **Consumentensleutel** en **Geheime consument**.
 
-  U kunt deze gebruiken om het Salesforce Publish Profile (Salesforce-profiel) te maken.
+  Hiermee kunt u het Salesforce Publish-profiel maken.
 
 
-   - Om een Profiel van Publish van Salesforce tot stand te brengen, selecteer de **Salesforce** Kennisbank van het **Type van Server** dropdown. Voer een profielnaam in. In de **Plaats URL**, ga de consumentenplaats in u zou gebruiken om de output te publiceren en dan de **Consumentensleutel** toe te voegen en **Geheime consument** die door de de consumentenplaats van Salesforce wordt verstrekt. Dan, **bevestigt** en **sparen** het pas gecreëerde profiel.
+   - Om een Profiel van Salesforce Publish tot stand te brengen, selecteer de **Salesforce** Kennisbank van het **Type van Server** dropdown. Voer een profielnaam in. In de **Plaats URL**, ga de consumentenplaats in u zou gebruiken om de output te publiceren en dan de **Consumentensleutel** toe te voegen en **Geheime consument** die door de de consumentenplaats van Salesforce wordt verstrekt. Dan, **bevestigt** en **sparen** het pas gecreëerde profiel.
      ![ salesforce publiceert profiel in redacteursmontages ](./images/salesforce-publish-profile.png){width="550" align="left"}
 
      >[!NOTE]
@@ -198,7 +198,7 @@ In het volgende schermafbeelding worden slechts 3 van de 4 geconfigureerde eleme
 
      ![ ServiceNow publiceert profiel ](./images/service-now-publish-profile.png){width="550" align="left"}
 
-  Nadat u bevestigt, kunt u het Profiel van Publish in de outputvoorinstellingen van een Kaart selecteren DITA en het gebruiken om de output aan **Salesforce** of **te produceren ServiceNow** server die u hebt gekozen.
+  Nadat u bevestigt, kunt u het Profiel van Publish in de outputvoorinstellingen van een Kaart selecteren DITA en het gebruiken om de output aan de **Salesforce** of **server te produceren ServiceNow** die u hebt gekozen.
 
   Leer meer over de [ vooraf ingestelde output van de Kennisbank ](../user-guide/generate-output-knowledge-base.md).
 
@@ -1508,7 +1508,22 @@ Als u een voorwaarde wilt toevoegen of definiëren, klikt u op het pictogram + n
 
 ![](images/conditional-panel-create-cond.png){width="400" align="left"}
 
-Selecteer in de lijst Kenmerk het voorwaardelijke kenmerk dat u wilt definiëren, voer een waarde voor de voorwaarde in en geef vervolgens het label op dat in het deelvenster Voorwaarden wordt weergegeven. U kunt ook een kleur voor de voorwaarde definiëren. Deze kleur wordt ingesteld als de achtergrondkleur van de inhoud waarop de voorwaarde wordt toegepast
+Selecteer in de lijst Kenmerk het voorwaardelijke kenmerk dat u wilt definiëren, voer een waarde voor de voorwaarde in en geef vervolgens het label op dat in het deelvenster Voorwaarden wordt weergegeven. Definieer een groep voor de voorwaarde. U kunt meerdere voorwaarden toevoegen aan een groep. U kunt ook een kleur voor de voorwaarde definiëren. Deze kleur wordt ingesteld als de achtergrondkleur van de inhoud waarop de voorwaarde wordt toegepast.
+
+U kunt de voorwaarden groeperen en ze in geneste mappen structureren. Met groepen kunt u voorwaarden op meerdere niveaus maken en deze beter ordenen voor gebruik in de inhoud.
+
+Bijvoorbeeld, kunt u voorwaardengroepen van producten zoals *Acrobat* en *AEM Guides* tot stand brengen. U kunt de voorwaardelijke kenmerken voor beide groepen selecteren. Onder elke groep, kunt u specifieke waarden zoals *Gebruiker* hebben, *Admin*, *Recensent*, en *Auteur*.
+
+>[!NOTE]
+>
+> Typ in om een nieuwe groep te maken of selecteer een bestaande groep voor een bepaald kenmerk.
+
+U kunt `/` gebruiken en subgroepen definiëren als `AEM Guides/Cloud Service` .
+
+
+
+![ voorwaarden die in een genestelde hiërarchie ](images/conditions-nested-hierarchy.png){width="300" align="left"} worden georganiseerd
+
 
 Om een voorwaarde uit te geven, verkies **uitgeven** van het menu van Opties. Het dialoogvenster Voorwaarde bewerken wordt geopend:
 
@@ -1806,7 +1821,7 @@ Voer de volgende stappen uit om de revisieopmerkingen weer te geven in de actiev
    - Selecteer ![](images/filter-search-icon.svg) om de **dialoog van de Filter** te openen. U kunt alle of alleen specifieke projecten selecteren. De geselecteerde projecten zijn vermeld in het **paneel van de Overzicht**.
      ![](images/active-review-select-project.png){width="300" align="left"}
 
-     De **Taken die door me** worden in werking gesteld optie wordt toegelaten door gebrek. Het staat u toe om slechts de taken te bekijken die u hebt in werking gesteld.
+     De **Taken die door me** worden in werking gesteld optie wordt toegelaten door gebrek. Het staat u toe om slechts de taken te bekijken die u hebt in werking gesteld. De schakelstatus van deze optie blijft behouden, zelfs nadat de pagina is vernieuwd.
 
 1. Door gebrek, in uw overzichtsproject zult u een vlakke lijst van onderwerpen bekijken die commentaren verbonden aan hen hebben. Pas de vereiste filters van de linkerspoorstaaf toe om de onderwerpen te filtreren die op de overzichtscommentaren worden gebaseerd in hen:
 

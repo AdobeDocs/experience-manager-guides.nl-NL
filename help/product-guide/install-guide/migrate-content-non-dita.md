@@ -5,9 +5,9 @@ exl-id: 4597d1be-5426-4eba-8490-e42d0e565427
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 1644bfba3332b0f023aa8d70aefd2680d4220d8a
 workflow-type: tm+mt
-source-wordcount: '2761'
+source-wordcount: '2802'
 ht-degree: 0%
 
 ---
@@ -130,27 +130,42 @@ Voer de volgende stappen uit om uw bestaande documenten van het InDesign in DITA
 
    `/libs/fmdita/config/idml2dita_io.xml`
 
-1. Maak een overlayknooppunt van de map `config` in het knooppunt `apps` .
+1. Als u een aangepaste configuratie wilt maken die voldoet aan uw vereisten, maakt u een overlayknooppunt van de map `config` in het knooppunt `apps` .
+
+1. Kopieer de volgende bestanden of mappen vanuit de map `libs` naar de map Apps:
+
+   - `/fmdita/config/idml2dita_io.xml`
+   - `/fmdita/idml2dita/config`
+   - `/fmdita/idml2dita/xsl`
 
 1. Navigeer naar het configuratiebestand dat beschikbaar is in het knooppunt `apps` :
 
    `/apps/fmdita/config/idml2dita_io.xml`
 
-   Configureer de volgende parameters in het `idml2dita_io.xml` -bestand:
+1. Voeg de toewijzing van de configuraties toe die aanwezig zijn in de map `idml12dita` in het `idml2dita_io.xml` -bestand.
+1. Voeg de volgende eigenschappen toe aan het bestand `idml2dita_io.xml` :
 
-   - Geef in het element `inputDir` de locatie op van de invoermap waarin de brondocumenten van het InDesign beschikbaar zijn. Als uw documenten met InDesigns bijvoorbeeld zijn opgeslagen in een map met de naam `indesigntodita` in de map `projects` , geeft u de locatie op als: `/content/dam/idmlfiles/indesigntodita/`
+   ```
+   <entry key="idml2DitaConfig">/apps/fmdita/idml2dita/config</entry>
+   
+   <entry key="idml2DitaXsl">/apps/fmdita/idml2dita/xsl</entry>
+   ```
 
-   - In het `outputDir` element, specificeer de plaats van de outputomslag of houd de standaardoutputplaats om het omgezette DITA- document te bewaren. Als de opgegeven uitvoermap niet bestaat op DAM, maakt de conversieworkflow de uitvoermap.
+Configureer de volgende parameters in het `idml2dita_io.xml` -bestand:
 
-   - Geef in het `mapStyle` -element de locatie op van het toewijzingsbestand dat toewijzingen bevat voor documentstijlen van InDesigns naar DITA-elementen. De standaardtoewijzing wordt opgeslagen in het bestand dat zich bevindt op:
+- Geef in het element `inputDir` de locatie op van de invoermap waarin de brondocumenten van het InDesign beschikbaar zijn. Als uw documenten met InDesigns bijvoorbeeld zijn opgeslagen in een map met de naam `indesigntodita` in de map `projects` , geeft u de locatie op als: `/content/dam/idmlfiles/indesigntodita/`
 
-     ```XML
-     /stmap.adobeidml.xml
-     ```
+- In het `outputDir` element, specificeer de plaats van de outputomslag of houd de standaardoutputplaats om het omgezette DITA- document te bewaren. Als de opgegeven uitvoermap niet bestaat op DAM, maakt de conversieworkflow de uitvoermap.
 
-     >[!NOTE]
-     >
-     > Voor meer informatie over de structuur van `stmap.adobeidml.xml` dossier en hoe u het kunt aanpassen, zie [ het kaartdossier voor InDesign aan migratie DITA ](appendix.md#id194AF0003HT) sectie in *Bijlage* voorbereiden.
+- Geef in het `mapStyle` -element de locatie op van het toewijzingsbestand dat toewijzingen bevat voor documentstijlen van InDesigns naar DITA-elementen. De standaardtoewijzing wordt opgeslagen in het bestand dat zich bevindt op:
+
+```XML
+    /stmap.adobeidml.xml
+```
+
+>[!NOTE]
+>
+> Voor meer informatie over de structuur van `stmap.adobeidml.xml` dossier en hoe u het kunt aanpassen, zie [ het kaartdossier voor InDesign aan migratie DITA ](appendix.md#id194AF0003HT) sectie in *Bijlage* voorbereiden.
 
 1. Sla het `idml2dita_io.xml` -bestand op.
 

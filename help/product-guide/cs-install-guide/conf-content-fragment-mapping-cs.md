@@ -5,16 +5,24 @@ exl-id: 438e2964-b9c7-462a-a68c-8031bd97911c
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: f8c71e18f5e2e5dbc5a2abdbb92c72fdad3bb233
+source-git-commit: 97d7776c81e7776d0248d6711ae5d05c46c44239
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '271'
 ht-degree: 0%
 
 ---
 
 # Een koppeling maken tussen een onderwerp en een inhoudsfragment
 
-AEM Guides biedt de functie voor het maken van een JSON-toewijzing tussen een onderwerp en een inhoudsfragmentmodel. U kunt deze toewijzing gebruiken om inhoud die in sommige of alle elementen binnen een onderwerp aanwezig is, naar een inhoudsfragment te publiceren.
+
+
+Met Adobe Experience Manager Guides kunt u een JSON-toewijzing maken tussen een onderwerp en een inhoudsfragmentmodel. U kunt op JSON-Gebaseerde afbeelding gebruiken om inhoud die in sommige of alle elementen binnen een onderwerp aanwezig is, naar een inhoudsfragment te publiceren.
+
+>[!NOTE]
+> 
+> Als u versie 4.6 of hoger gebruikt, hoeft u deze toewijzing niet te maken, kunt u de onderwerpelementen naar de velden in het fragmentmodel van de inhoud slepen.
+> Leer meer over hoe te om [ inhoudsfragmenten ](../user-guide/publish-content-fragment.md) te publiceren.
+
 
 1. Om *contentFragmentMapping.json* te downloaden, login in Adobe Experience Manager als beheerder.
 1. Selecteer de verbinding van Adobe Experience Manager bij de bovenkant en kies **Hulpmiddelen**.

@@ -5,9 +5,9 @@ exl-id: f65c9683-a1fc-432a-854b-83e8f39d7dae
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: db4c823e592e249e1d828a7071fc0848a5e68c0f
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '399'
 ht-degree: 0%
 
 ---
@@ -75,3 +75,17 @@ Tot slot kunt u stijlen op de volledige inhoud binnen het onderwerp ook toepasse
 Gebruikend de bovengenoemde het stileren attributen, wordt een veranderingsbar toegevoegd links van de *Geschiedenis van vlucht* onderwerp, zoals hieronder getoond:
 
 <img src="./assets/pdf-output-topic-content.jpg" width="500">
+
+## Lege rijen uit de inhoudsopgave verwijderen
+
+Als u de titel voor geen onderwerpen hebt bepaald, verschijnen de lege rijen in TOC voor dergelijke onderwerpen.
+
+Als u de lege rijen uit de inhoudsopgave en de miniinhoudsopgave wilt verwijderen, voegt u de volgende stijl toe in de `layout.css` :
+
+```css
+.toc-body a:empty,
+.chaptoc-body a:empty {
+    display: none;
+} 
+```
+

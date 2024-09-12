@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lees productdocumentatie voor Adobe Experience Manager Guides.
 breadcrumb-title: Documentatie voor AEM Guides
-source-git-commit: ff34f8b21d3e930ed332a360e90040a14b219f75
+source-git-commit: 3540c27fcfb856a0ee6b669c3d7a573331324817
 workflow-type: tm+mt
-source-wordcount: '1855'
+source-wordcount: '1879'
 ht-degree: 2%
 
 ---
@@ -72,6 +72,11 @@ ht-degree: 2%
             - [Release-aantekeningen januari](./release-info/release-notes-2022-1-0.md)
       - On-prem/Managed Services {#on-prem-release-notes}
          - [[!DNL AEM Guides] releases](./release-info/latest-release-info.md)
+         - 4.6.0 Release {#460-release}
+            - [Nieuwe functies](./release-info/whats-new-4-6.md)
+            - [ Vaste kwesties ](./release-info/fixed-issues-4-6-0.md)
+            - [Upgradeinstructies](./release-info/upgrade-instructions-4-6-0.md)
+
          - 4.4.0 Release {#440-release}
             - [Nieuwe functies](./release-info/whats-new-4-4.md)
             - [Opgeloste problemen](./release-info/fixed-issues-4-4.md)
@@ -206,6 +211,7 @@ ht-degree: 2%
       - [Basisprobleemoplossing](./user-guide/generate-output-basic-troubleshooting.md)
       - [Publish-inhoudsfragmenten](./user-guide/publish-content-fragment.md)
       - [Publish Experience Fragmenten](./user-guide/publish-experience-fragment.md)
+      - [Publish AEM Sites-pagina&#39;s](./user-guide/publish-aem-sites.md)
       - Bulkactivering van inhoud {#bulk-activation}
          - [Bulkactivering van gepubliceerde inhoud](./user-guide/conf-bulk-activation.md)
          - [Een verzameling bulkactiveringskaarten maken](./user-guide/conf-bulk-activation-create-map-collection.md)
@@ -247,8 +253,8 @@ ht-degree: 2%
       - Inhoud migreren {#content-migration}
          - [Migratie van niet-UUID naar UUID-inhoud](./install-guide/migrate-uuid-non-uuid.md)
          - Migratieproces {#migration-process}
-            - [Niet-UUID-inhoud migreren met versies](./install-guide/migrate-non-uuid-uuid-new.md)
-            - [ Migreer niet-UUID inhoud met versies (erfenis) ](./install-guide/migrate-non-uuid-uuid-with-versions.md)
+            - [Niet-UUID-inhoud migreren met versies](./install-guide/migrate-non-uuid-uuid.md)
+            - [ Migreer niet-UUID inhoud met versies (erfenis) ](./install-guide/migrate-non-uuid-uuid-with-versions-legacy.md)
          - [Bestaande inhoud migreren](./install-guide/migrate-content.md)
          - [Bestaande DITA-inhoud uploaden](./install-guide/migrate-content-upload-existing-dita-content.md)
          - [Niet-DITA-inhoud migreren](./install-guide/migrate-content-non-dita.md)
@@ -284,7 +290,6 @@ ht-degree: 2%
          - [Tekstfilters configureren](./install-guide/config-text-filters.md)
          - [Vorm het aantal LimitReads voor een vraag](./install-guide/conf-query-limitreads.md)
          - [Pakketten installeren voor publiceren op basis van artikel](./install-guide/configure-article-based-publishing.md)
-         - [Een gegevensbronaansluiting configureren](./install-guide/conf-data-source-connector.md)
          - [Vorm een gegevensbronschakelaar van het gebruikersinterface](./install-guide/conf-data-source-connector-tools.md)
          - [De Geavanceerde Kaarteditor instellen als standaard](./install-guide/conf-map-editor.md)
          - [@navtitle-kenmerk standaard opnemen](./install-guide/auto-add-navtitle.md)
@@ -377,7 +382,8 @@ ht-degree: 2%
          - [Profielen op algemeen niveau of mapniveau configureren](./cs-install-guide/conf-folder-level.md)
       - Versies configureren {#version-mgt-cs}
          - [Versiebeheer](./cs-install-guide/version-management.md)
-      - Werken met instellingen voor het genereren van uitvoer {#output-gen-config-cs}
+      - Werken met XML-editors op bureaublad {#desktop-xml-editor}
+         - Werken met instellingen voor het genereren van uitvoer {#output-gen-config-cs}
          - [Instellingen voor uitvoergeneratie configureren](./cs-install-guide/conf-output-generation.md)
          - [Systeemeigen PDF-publicatie](./cs-install-guide/native-pdf-publishing.md)
          - [Knooppuntproces configureren voor publiceren in eigen PDF](./native-pdf/configure-node-options.md)
@@ -468,6 +474,10 @@ ht-degree: 2%
                - [Onderdelen](./guides-ui-extensions/customisations/ReviewApp/components.md)
                - [Aanpassen](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
                - [Aangepast dialoogvenster](./guides-ui-extensions/customisations/ReviewApp/custom-dialog.md)
+      - Externe gegevensbron {#external-data-source}
+         - [Gegevensbronnen integreren](../product-guide/knowledge-base/kb-articles/data-source/integrate-data-sources.md)
+         - [Een gegevensbronaansluiting configureren](../product-guide/knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md)
+
       - Publiceren {#publishing}
          - DITA-OT {#dita-ot}
             - [Metagegevens AEM gebruiken in plug-in](./knowledge-base/kb-articles/publishing/dita-ot/dita-ot-pass-and-use-aem-metadata-in-dita-ot.md)

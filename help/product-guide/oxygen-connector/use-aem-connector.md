@@ -6,9 +6,9 @@ hidefromtoc: true
 exl-id: 9a140564-27eb-404e-93a5-f5c81364e7f7
 feature: Oxygen Plugin, Authoring, Web Editor
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 6c89275df6bdcd031c45956aeb06b6c3e5753208
 workflow-type: tm+mt
-source-wordcount: '6294'
+source-wordcount: '6293'
 ht-degree: 0%
 
 ---
@@ -29,13 +29,13 @@ Wanneer u het installatieprogramma hebt, installeert u het op de lokale computer
 
 ### Technische voorschriften
 
-- Oxygen XML Author versie 25.1
+- Oxygen XML Author versie 26.1
 
-- Adobe Experience Manager Guides versie 4.3 of hoger
+- Adobe Experience Manager Guides versie 4.6 of hoger
 
-- Adobe Experience Manager versie 6.5 met Service Pack 14, 15, 16 en 17
+- Adobe Experience Manager versie 6.5 met Service Pack 21, 20 en 19
 
-- Besturingssysteem ondersteund door Oxygen XML Author versie 25.1
+- Besturingssysteem ondersteund door Oxygen XML Author versie 26.1
 
 - Java Development Kit
    - Oracle SE 8 JRE 1.8
@@ -159,7 +159,7 @@ Werk de opgegeven bestanden bij om de instellingen voor webverificatie te config
 >
 >Maak een back-up van het bestand voordat u het bijwerkt.
 
-**voor Mac en Zuurstof 25.1**
+**voor Mac en Zuurstof 26.1**
 
 Voeg de volgende regels toe in env.sh
 
@@ -185,7 +185,7 @@ Voeg de volgende regels toe aan de functie oxydator.sh
 -Djdk.module.illegalAccess=permit\-Djava.ipc.external=true\
 ```
 
-**voor Vensters en Zuurstof 25.1**
+**voor Vensters en Zuurstof 26.1**
 
 De volgende regels toevoegen in env.bat
 
@@ -746,7 +746,7 @@ Oplossing: voer de volgende stappen uit om registreerapparaten voor Sygen en JxB
    </configuration>   
    ```
 
-1. Sla het bestand op in de map `Oxygen Author 25` . (Het pad zou bijvoorbeeld: `C:\Program Files\Oxygen XML Author 25\logback.xml` zijn)
+1. Sla het bestand op in de map `Oxygen Author 26` . (Het pad zou bijvoorbeeld: `C:\Program Files\Oxygen XML Author 26\logback.xml` zijn)
 
 1. Sluit het bestand. Hiermee worden Xygen-logbestanden ingeschakeld, die beschikbaar zijn op het pad: `${user.home}/Desktop/oxygenLog/oxygen.log`
 1. Open het `oxygenAuthor.bat` -bestand in een teksteditor.

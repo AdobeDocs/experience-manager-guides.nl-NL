@@ -5,14 +5,19 @@ exl-id: e19439df-39ec-47fd-9da5-24f51750a7e5
 feature: Java-Based API Publishing
 role: Developer
 level: Experienced
-source-git-commit: a255007fc9fe169f926e356ec9d2a8f5a2fdbe29
+source-git-commit: ee4eb829ebe215315b05cd1f376e934c02a73b1e
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
 
 # Op Java gebaseerde API om met uitvoergeneratie te werken {#id175UB30E05Z}
+
+>[!NOTE]
+>
+> U kunt op Java gebaseerde API&#39;s die beschikbaar zijn in Experience Manager Guides gebruiken om aangepaste plug-ins te maken en workflows uit te breiden. Dit artikel wordt in november 2024 gearchiveerd.
+> De mening [![ javadoc ](https://javadoc.io/badge2/com.adobe.aem/aem-guides-sdk-api/javadoc.svg) ](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api) voor de recentste en gedetailleerde documentatie bij het gebruiken van op Java-Gebaseerde API.
 
 Met de volgende op Java gebaseerde API kunt u uitvoer genereren voor een DITA-kaart. Deze API is beschikbaar in de vorm van een bundel. U moet deze bundel in uw code omvatten om deze APIs te gebruiken.
 

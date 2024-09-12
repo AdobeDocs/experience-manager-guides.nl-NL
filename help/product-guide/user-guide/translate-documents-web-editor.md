@@ -4,9 +4,9 @@ description: Vertaal uw inhoud vanuit de webeditor naar meerdere talen. Leer hoe
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: ce7619538b229625277a552071bed8800e67f677
+source-git-commit: 8b031dde7a91e47937395286dbc20300b76835d3
 workflow-type: tm+mt
-source-wordcount: '2246'
+source-wordcount: '2343'
 ht-degree: 0%
 
 ---
@@ -112,11 +112,15 @@ In een XLIFF-project wordt de inhoud geëxporteerd naar de industriestandaard XL
    - U kunt **selecteren creeert een nieuw meertalig vertaalproject** dat vertaalbanen voor alle talen zal omvatten die u voor vertaling hebt geselecteerd. Als u bijvoorbeeld Frans, Duits en Spaans hebt geselecteerd, wordt er een project met vertaalbanen voor alle drie de talen gemaakt.
    - Als u reeds een vertaalproject hebt, kunt u onderwerpen aan dat project toevoegen. Selecteer toevoegen aan **Bestaande optie van het Project van de Vertaling** van de lijst van het Project en kies een project van de Bestaande lijst van het Project van de Vertaling. U kunt deze projecten op meest recente, stijgende, of dalende orde sorteren.
 
-     >[!NOTE]
-     >
-     > Als uw bestaande project een bereikproject is, wordt de naam &#39;\(Scoping\)&#39; toegevoegd.
+- Als u **Bestaand Project van de Vertaling** selecteert, werkt deze verrichting de bestaande activaingang in het project bij als de activa reeds wordt toegevoegd en de verwante staat van de vertaalbaan in de *3} staat van het Ontwerp {is.*
+   - Als de bestemmingstaal niet aanwezig in het project is, wordt een nieuw project gecreeerd voor het enig-taalvertaalproject, en een nieuwe baan wordt gecreeerd voor meertalig vertaalproject.
+   - Als de baan reeds voor de bestemmingstaal aanwezig is en de baanstatus niet in de *staat van het Ontwerp* is, wordt een nieuwe baan gecreeerd binnen het zelfde project om de activa voor vertaling toe te voegen.
 
-   - Als u het werkingsgebied voor een te vertalen project moet tot stand brengen, kunt u **selecteren creeert een nieuw scoping vertaalproject**. Hierdoor worden de kopieën niet voor vertaling verzonden en blijft de oorspronkelijke vertaalstatus van de bestanden behouden. Er is geen effect op het exemplaar van de bestemmingstaal van de genoemde onderwerpen die voor scoping worden verzonden.
+  >[!NOTE]
+  >
+  > Als uw bestaande project een bereikproject is, wordt de naam &#39;\(Scoping\)&#39; toegevoegd.
+
+- Als u het werkingsgebied voor een te vertalen project moet tot stand brengen, kunt u **selecteren creeert een nieuw scoping vertaalproject**. Hierdoor worden de kopieën niet voor vertaling verzonden en blijft de oorspronkelijke vertaalstatus van de bestanden behouden. Er is geen effect op het exemplaar van de bestemmingstaal van de genoemde onderwerpen die voor scoping worden verzonden.
 1. Op het **gebied van de Titel van het 0} Project, ga een titel voor het project in.**
 1. Klik **creëren** om een nieuw vertaalproject tot stand te brengen.
 

@@ -5,14 +5,20 @@ exl-id: 0e2ba1bb-f5bf-44da-848a-a55385460c83
 feature: Java-Based API Baseline
 role: Developer
 level: Experienced
-source-git-commit: 1860525120edc4df33b898841b9073311d3031c5
+source-git-commit: 8c80a4da8e61909aab0f2db81ef97149774b36c4
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '931'
 ht-degree: 0%
 
 ---
 
 # API&#39;s die zijn gebaseerd op Java om te werken met basislijnen en labels {#id175UB30E05Z}
+
+>[!NOTE]
+>
+> U kunt op Java gebaseerde API&#39;s die beschikbaar zijn in Experience Manager Guides gebruiken om aangepaste plug-ins te maken en workflows uit te breiden. Dit artikel wordt in november 2024 gearchiveerd.
+> De mening [![ javadoc ](https://javadoc.io/badge2/com.adobe.aem/aem-guides-sdk-api/javadoc.svg) ](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api) voor de recentste en gedetailleerde documentatie bij het gebruiken van op Java-Gebaseerde API.
+
 
 Met de volgende op Java gebaseerde API&#39;s kunt u basislijnen maken en labels toevoegen aan bestanden in een basislijn. Deze API&#39;s zijn beschikbaar in de vorm van een bundel. U moet deze bundel in uw code omvatten om deze APIs te gebruiken.
 
