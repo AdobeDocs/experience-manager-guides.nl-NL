@@ -5,7 +5,7 @@ exl-id: 830a4381-303c-419c-b87f-9563352a7eeb
 feature: Introduction, Installation
 role: Admin
 level: Experienced
-source-git-commit: 8e43e76e22d1d8b7251c73f813e2e56f65633a5f
+source-git-commit: dbcc625220c9ad1fa60942b2f43c38d3d6778541
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 0%
@@ -21,9 +21,11 @@ Voer de volgende stappen uit om AEM Guides voor het eerst op een computer te dow
 > Als u Livefyre samen met AEM Guides wilt gebruiken, moet u de Livefyre-versies vóór 3.0 installeren voordat u AEM Guides installeert. Als u Livefyre versie 3.0 of hoger gebruikt, is er geen dergelijke beperking.
 
 1. Download AEM Guides van [ het Portaal van de Distributie van de Software van de Adobe ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+
    >[!NOTE]
    >
    >Alvorens Experience Manager Guides te installeren, zorg ervoor uw systeem aan de [ technische vereisten ](../install-guide/download-install-technical-requirements.md) voldoet.
+
 1. Meld u aan bij uw AEM en navigeer naar CRX Package Manager. De standaard-URL voor toegang tot pakketbeheer is:
 
    ```http
