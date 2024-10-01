@@ -2,9 +2,9 @@
 title: Opmerkingen bij de release | Opgeloste problemen in Adobe Experience Manager Guides 4.6.0-release
 description: Meer informatie over de opgeloste problemen in de 4.6.0-release van Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 5a30d427fa579e37a18b0fca65dea96dc486c594
+source-git-commit: 17c3d945cb2a2faab1e361385a95e1de5a790a96
 workflow-type: tm+mt
-source-wordcount: '1946'
+source-wordcount: '1970'
 ht-degree: 0%
 
 ---
@@ -161,6 +161,8 @@ Adobe heeft de volgende bekende problemen voor de release van 4.6.0 vastgesteld:
 - De verwijzing van het onderwerp lijkt gebroken in het gebruikersinterface wanneer opgenomen van de hoogste toolbar van de kaart DITA.
 - Native PDF genereren mislukt voor een DITA-kaart als er ontbrekende verwijzingen zijn.
 - Zodra de het documentstaat van een onderwerp wordt bijgewerkt aan **Gedaan**, het **Begin een Nieuw pictogram van de Versie** is slechts beschikbaar op de **Voorproef** wijze van het onderwerp.
+- Wanneer het selecteren van een DITA- dossier in Activa UI, verschijnt de optie **Open in FrameMaker**, alhoewel het in de configuratiemontages wordt onbruikbaar gemaakt.
+
 
 
 
