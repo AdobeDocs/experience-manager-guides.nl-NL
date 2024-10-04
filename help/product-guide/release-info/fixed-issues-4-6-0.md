@@ -2,9 +2,9 @@
 title: Opmerkingen bij de release | Opgeloste problemen in Adobe Experience Manager Guides 4.6.0-release
 description: Meer informatie over de opgeloste problemen in de 4.6.0-release van Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 17c3d945cb2a2faab1e361385a95e1de5a790a96
+source-git-commit: 6bff0a9c8770418c4486b65feb1c11792b893ca8
 workflow-type: tm+mt
-source-wordcount: '1970'
+source-wordcount: '1985'
 ht-degree: 0%
 
 ---
@@ -75,8 +75,7 @@ Leer over [ verbeteringsinstructies voor de versie 4.6.0 ](../release-info/upgra
 - Het gedrag van de knop Sluiten is inconsistent wanneer u de functie Automatisch opslaan gebruikt. (10996)
 - Validatieproblemen treden op in MathML-elementen wanneer een nieuw element wordt ingevoegd of vergelijkingen worden gewijzigd. 10624
 - De functie Wijzigingen bijhouden werkt niet met tekst die begint met Koreaanse tekens. 14538
-
-
+- Gekoppelde afbeeldingen van de onderwerpen worden niet weergegeven in de basislijn na het maken van de versie. 16931
 
 ## Publiceren
 
