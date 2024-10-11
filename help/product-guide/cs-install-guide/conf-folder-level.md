@@ -5,9 +5,9 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: 3bdc3c6370bbad67f9c31f538a49bee105fec0f9
+source-git-commit: c94eb03af60ef9df60f77c21bfce1c45708df2f8
 workflow-type: tm+mt
-source-wordcount: '4285'
+source-wordcount: '4521'
 ht-degree: 0%
 
 ---
@@ -407,11 +407,11 @@ Als u een bestaande uitvoervoorinstelling hebt bijgewerkt of als u een nieuwe ui
 
 
 
-## Slimme suggesties op basis van AI configureren in de webeditor {#conf-ai-smart-suggestions}
+## Intelligente suggesties voor AI configureren in de webeditor {#conf-ai-smart-suggestions}
 
 Voor ![AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service.
 
-U kunt de op AI-Gebaseerde Slimme Suggesties vormen en de auteurs helpen de bestaande inhoud hergebruiken en gemakkelijk correcte en verenigbare inhoudsverwijzingen creëren. Het **AI lusje van de Configuratie** staat u toe om de montages van het Slimme paneel van Suggesties in de Redacteur van het Web te controleren.
+U kunt de door AI aangedreven slimme suggesties configureren en de auteurs helpen de bestaande inhoud opnieuw te gebruiken en eenvoudig correcte en consistente inhoudsverwijzingen maken. Het **AI lusje van de Configuratie** staat u toe om de montages van **te controleren stelt opnieuw bruikbare inhoud** van het AI Hulppaneel in de Redacteur van het Web voor.
 
 Voer de volgende stappen uit om standaardAI configuratie op het globale of omslag-vlakke profiel te vormen:
 1. Meld u aan bij Adobe Experience Manager als beheerder of gebruiker met beheerdersrechten voor een profiel op mapniveau.
@@ -421,7 +421,7 @@ Voer de volgende stappen uit om standaardAI configuratie op het globale of omsla
 
    >[!NOTE]
    >
-   >U kunt op AI gebaseerde slimme suggesties aan het globale of een omslag-niveau profiel vormen.
+   >U kunt op AI gebaseerde slimme suggesties aan het globale of een omslag-vlakke profiel vormen.
 
 1. Voor de profielpagina, selecteer de **AI Configuratie** tabel.
    ![ AI configuratielusje in globaal profiel ](assets/global-profile-AI-configuration-cs.png) {width="800" align="left"}
@@ -441,57 +441,57 @@ Voer de volgende stappen uit om standaardAI configuratie op het globale of omsla
    >
    > De laatste geïndexeerde statusdetails worden bovenaan weergegeven nadat u het bestand hebt opgeslagen.
 
-Leer meer over om [ op AI-Gebaseerde Slimme Suggesties ](../user-guide/authoring-ai-based-smart-suggestions.md) te bekijken en toe te voegen om inhoudsverwijzingen toe te voegen terwijl het ontwerpen in de Redacteur van het Web.
+Leer meer over om [ op AI-Gebaseerde slimme suggesties ](../user-guide/authoring-ai-based-smart-suggestions.md) te bekijken en toe te voegen om inhoudsverwijzingen toe te voegen terwijl het ontwerpen in de Redacteur van het Web.
 
 
 
 
-<!--## Configure AI-powered Guides Assistant in the Web Editor {#conf-ai-guides-assistant}
+## Slimme Help voor AI configureren in de webeditor {#conf-ai-guides-assistant}
 
-For ![AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service.
+Voor ![AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service.
 
-You can configure the AI-powered **Guides Assistant** to help the authors ask questions and easily find the required content from the [ Experience Manager Guides Documentation](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
+U kunt AI-aangedreven **Slimme Hulp** vormen om de auteurs te helpen vragen stellen en gemakkelijk de vereiste inhoud van de [ Documentatie van Experience Manager Guides ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview) vinden.
 
-The **XML Editor Configuration** tab allows you to configure the default questions of the **Guides Assistant panel** in the Web Editor.
+Het **lusje van de Configuratie van de Redacteur van XML** staat u toe om de standaardvragen van het **Slimme paneel van de Hulp** in de Redacteur van het Web te vormen.
 
 >[!NOTE]
 >
->You can configure up to 10 default questions. 
+>U kunt maximaal 10 standaardvragen configureren.
 
-Perform the following steps to configure the default questions:
+Voer de volgende stappen uit om de standaardvragen te vormen:
 
-1. Log into Adobe Experience Manager as an administrator or user with administrative rights on a folder-level profile.
-1. Select the **Adobe Experience Manager** link at the top and choose **Tools**.
-1. Select **Guides** from the list of tools and select the **Folder Profiles** tile.
-1. Select the profile tile that you want to configure.
+1. Meld u aan bij Adobe Experience Manager als beheerder of gebruiker met beheerdersrechten voor een profiel op mapniveau.
+1. Selecteer de **verbinding van Adobe Experience Manager** bij de bovenkant en kies **Hulpmiddelen**.
+1. Selecteer **Gidsen** van de lijst van hulpmiddelen en selecteer de **Profiles van de Omslag** tegel.
+1. Selecteer de profieltegel die u wilt vormen.
 
-    >[!NOTE]
-    >
-    >You can configure default questions for the **Guides assistant panel** to the global or a folder-level profile.
+   >[!NOTE]
+   >
+   >U kunt standaardvragen voor het **Slimme paneel van de Hulp** aan het globale of een omslag-niveau profiel vormen.
 
-1.  Select the **XML Editor Configuration** tab. 
+1. Selecteer het **lusje van de Configuratie van de Redacteur van 0} XML.**
 
-1. Click the **Edit** icon on the top.
-1.  In the **XML Editor UI configuration** section, select the **Download** icon to download the `ui_config.json` file on your local system.
-1.  In the `ui_config.json` file, add the sample questions.
+1. Klik **uitgeven** pictogram op de bovenkant.
+1. In de **UI van de Redacteur van XML configuratie** sectie, selecteer het **pictogram van de Download** om het `ui_config.json` dossier op uw lokaal systeem te downloaden.
+1. Voeg de voorbeeldvragen toe in het bestand `ui_config.json` .
 
-    **Example of sample questions**:
+   **Voorbeeld van steekproefvragen**:
 
-    ```json
-    "assistantSampleQuestions": [
-    "How to create a new topic",
-    "How to create a new map",
-    "What is a baseline" ]
-    ```
+   ```json
+   "assistantSampleQuestions": [
+   "How to create a new topic",
+   "How to create a new map",
+   "What is a baseline" ]
+   ```
 
-1. Save the file and upload it.
+1. Sla het bestand op en upload het.
 
-    >[!NOTE]
-    >
-    > The default questions appear in the **Guides assistant** panel after you save the file. 
+   >[!NOTE]
+   >
+   > De standaardvragen verschijnen in het **Slimme paneel van de Hulp** nadat u het dossier opslaat.
 
 
-Learn more about using the [AI-powered Guides assistant](../user-guide/ai-based-guides-assistant.md) to find the required content from the Experience Manager Guides documentation. -->
+Leer meer over het gebruiken van de [ AI-Aangedreven Slimme Hulp ](../user-guide/ai-based-smart-help.md) om de vereiste inhoud van de documentatie van Experience Manager Guides te vinden.
 
 
 ## De XML-webeditor configureren en aanpassen {#id2065G300O5Z}

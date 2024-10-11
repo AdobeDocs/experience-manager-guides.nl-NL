@@ -6,9 +6,9 @@ hidefromtoc: true
 exl-id: 9a140564-27eb-404e-93a5-f5c81364e7f7
 feature: Oxygen Plugin, Authoring, Web Editor
 role: User, Admin
-source-git-commit: 6c89275df6bdcd031c45956aeb06b6c3e5753208
+source-git-commit: b2b26a85236245f989866ab8ee801a930ed8a8c4
 workflow-type: tm+mt
-source-wordcount: '6293'
+source-wordcount: '6347'
 ht-degree: 0%
 
 ---
@@ -346,7 +346,7 @@ Nadat u verbinding hebt gemaakt met de AEM opslagplaats, kunt u bestanden openen
 
 1. Klik met de rechtermuisknop op een bestand in het AEM Guides-deelvenster dat u wilt openen voor bewerken.
 
-1. Selecteer **Open** van het contextmenu.
+1. Selecteer **Open** van het contextmenu. U kunt ook dubbelklikken op het bestand om het te openen.
 
    Het bestand wordt geopend in de Editor van de Oxygen XML-auteur.
 
@@ -354,12 +354,14 @@ Nadat u verbinding hebt gemaakt met de AEM opslagplaats, kunt u bestanden openen
 
    Wanneer u de muisaanwijzer boven het tabblad van een bestand plaatst, wordt het serverpad en de bijbehorende UUID weergegeven. In de bovenstaande schermafbeelding wordt de UUID van het document gemarkeerd.
 
+>[!NOTE]
+>
+>Als u de muis boven de afbeeldingen of video&#39;s in een onderwerp in de Editor van de Oxygen XML-auteur houdt, wordt alleen de UUID van het geselecteerde item weergegeven. Om van het in de bewaarplaats de plaats te bepalen, klik op het getoonde beeld of de objecten markering (slechts in het geval van video&#39;s, audio, en andere media dossiers) met de rechtermuisknop aan en selecteer **Tonen in Bewaarplaats**.
+
+
 
 Als u het **auto-Checkout Dossier wanneer geopend** optie \ (in de dialoog van de Voorkeur \) hebt geselecteerd, dan bij het openen van een dossier, wordt het dossier automatisch gecontroleerd en is beschikbaar voor het uitgeven. Om een dossier te openen, kunt u of op een dossier tweemaal klikken - noem of met de rechtermuisknop aanklikken op het dossier - noem en **Open** van het contextmenu kiezen. Als deze optie niet is geselecteerd, wordt het bestand geopend in de modus Alleen-lezen.
 
->[!NOTE]
->
->U kunt ook dubbelklikken op een bestand om het te openen.
 
 ### Bestand openen in AEM Guides-editor {#id195GH0V30KX}
 

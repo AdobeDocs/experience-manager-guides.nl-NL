@@ -5,9 +5,9 @@ exl-id: a0eeb43c-06e4-4922-a005-704e8929063f
 feature: Template Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 83971ee35a19cf0146ddd034b1ae7a345f587663
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
@@ -55,4 +55,20 @@ De volgende keer dat u een nieuwe kaart maakt, wordt de sjabloon weergegeven op 
 >
 > Zie *de de malplaatjes van de Douane* sectie in de Beste praktijken gids voor beste praktijken rond het gebruiken van de malplaatjes van de douanekaart.
 
-**Bovenliggend onderwerp:**[ vorm onderwerp en kaartmalplaatjes ](conf-template-tags.md)
+
+## Het aantal verwijzingen in een DITA-kaart aanpassen
+
+U kunt de drempel voor asynchrone verwerking vormen die op het aantal verwijzingen in de kaart DITA wordt gebaseerd. Standaard worden kaarten met meer dan 5 verwijzingen gemaakt via asynchrone bewerkingen, terwijl kaarten met minder verwijzingen synchrone bewerkingen blijven gebruiken.
+
+
+Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](download-install-additional-config-override.md#) om het configuratiedossier tot stand te brengen. In het configuratiedossier, verstrek de volgende (bezit) details om aantal verwijzingen in het DITA kaartmalplaatje te specificeren om het proces synchroon te houden:
+
+| PID | Eigenschappensleutel | Waarde van eigenschap |
+|---|------------|--------------|
+| com.adobe.fmdita.xmleditor.config.XmlEditorConfig | xmleditor.asyncmapcreation | > 0 <br> **Standaardwaarde**: 5 |
+
+Wanneer het creëren van een kaart DITA met grote onderwerpverwijzingen gebruikend een douanemalplaatje, zou de kaartverwezenlijking op de wolkenserver ontbreken als de totale verwerkingstijd 60 seconden overschrijdt.
+
+Om dit te verhinderen, vorm **asynchrone dita kaartverwezenlijking** in XmlEditorConfig die taken om parallel toestaat te lopen en verwerkingstijden voor grotere kaarten te verminderen DITA.
+
+**Bovenliggend onderwerp:** [ vorm onderwerp en kaartmalplaatjes ](conf-template-tags.md)

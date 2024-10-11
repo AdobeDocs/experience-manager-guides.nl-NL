@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lees de productdocumentatie voor Adobe Experience Manager Guides.
 breadcrumb-title: Documentatie voor AEM Guides
-source-git-commit: 23470fdb176fa487139f8a8822be7f95dd205a3e
+source-git-commit: f6e34c0bc57603b4251abd4859b43c95042e8819
 workflow-type: tm+mt
-source-wordcount: '1896'
+source-wordcount: '1964'
 ht-degree: 2%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 2%
       - Cloud Servicen {#cloud-release-notes}
          - [Implementatieinstructies](./release-info/deploy-xml-on-aemaacs.md)
          - Versies van 2024 {#2024-releases}
+            - Release 2024.10.0 {#2406-release}
+               - [Nieuwe functies](./release-info/whats-new-2024-10-0.md)
+               - [Opgeloste problemen](./release-info/fixed-issues-2024-10-0.md)
+               - [Upgradeinstructies](./release-info/upgrade-instructions-2024-10-0.md)
             - Release 2024.6.0 {#2406-release}
                - [Nieuwe functies](./release-info/whats-new-2024-06-0.md)
                - [Opgeloste problemen](./release-info/fixed-issues-2024-06-0.md)
@@ -135,7 +139,8 @@ ht-degree: 2%
                - [Weergaven van de webeditor](./user-guide/web-editor-views.md)
                - [Ondersteuning voor Schematron-bestanden](./user-guide/support-schematron-file.md)
                - [Slimme suggesties voor AI-toepassingen om inhoud te ontwerpen](./user-guide/authoring-ai-based-smart-suggestions.md)
-
+               - [Slimme Help van AI om inhoud te zoeken](./user-guide/ai-based-smart-help.md)
+               - [AI Assistant voor het schrijven van documenten met slimme efficiëntie](./user-guide/AI-assistant-right-panel.md)
                - [De documenten van de Prijsverhoging van de auteur van het Web](./user-guide/web-editor-markdown-topic.md)
                - [citaten toevoegen aan uw inhoud](./user-guide/web-editor-apply-citations.md)
                - [Gegevens uit uw gegevensbronnen gebruiken](./user-guide/web-editor-content-snippet.md)
@@ -189,7 +194,10 @@ ht-degree: 2%
       - [Grondbeginselen van het genereren van uitvoer](./user-guide/generate-output.md)
       - [Inleiding tot uitvoervoorinstellingen](./user-guide/generate-output-understand-presets.md)
       - Voorinstellingen uitvoer in AEM Guides {#output-presets-aemg}
-         - [Site AEM](./user-guide/generate-output-aem-site.md)
+
+         - [AEM Sites](./user-guide/generate-output-aem-site.md)
+         - [AEM Sites-voorinstellingen op het kaartdashboard](./user-guide/generate-output-aem-site-map-dashboard.md)
+         - [AEM Sites-voorinstellingen in de webeditor](./user-guide/generate-output-aem-site-web-editor.md)
          - [PDF](./user-guide/generate-output-pdf.md)
          - [Kennisbank](./user-guide/generate-output-knowledge-base.md)
          - [HTML 5](./user-guide/generate-output-html5.md)
@@ -302,6 +310,8 @@ ht-degree: 2%
          - [XML-editors die zijn gebaseerd op een desktopcomputer integreren](./install-guide/integrate-desktop-editors.md)
       - Werken met instellingen voor het genereren van uitvoer {#output-gen-config}
          - [Instellingen voor uitvoergeneratie configureren](./install-guide/conf-output-generation.md)
+         - [Enkele sitesjablonen downloaden en installeren](./install-guide/download-install-aem-sites-templates.md)
+         - [HTML-tags bedekken in AEM Sites-uitvoer](./install-guide/overlay-html-tags-aem-sites.md)
          - Native PDF publiceren {#config-native-pdf-publish}
             - [PDF-sjabloon](./native-pdf/pdf-template.md)
             - [Componenten van een PDF-sjabloon](./native-pdf/components-pdf-template.md)
@@ -359,6 +369,8 @@ ht-degree: 2%
          - [Webeditor aanpassen](./cs-install-guide/conf-web-editor.md)
          - [Werkbalk Aanpassen](./cs-install-guide/conf-web-editor-customize-toolbar.md)
          - [De door AI aangedreven slimme suggesties voor het ontwerpen configureren](./cs-install-guide/conf-smart-suggestions.md)
+
+         - [De door AI aangedreven Smart Help configureren om inhoud te zoeken](./cs-install-guide/conf-smart-help.md)
          - [Standaardwaarde voor de weergave Codes configureren](./cs-install-guide/configure-default-value-tags-view.md)
          - [Weergave van op UUID gebaseerde koppelingen configureren](./cs-install-guide/conf-uuid-based-links.md)
          - [DITA-onderwerp of toewijzingsbestanden openen op hetzelfde tabblad](./cs-install-guide/open-dita-files-same-tab.md)
@@ -383,8 +395,10 @@ ht-degree: 2%
       - Versies configureren {#version-mgt-cs}
          - [Versiebeheer](./cs-install-guide/version-management.md)
       - Werken met XML-editors op bureaublad {#desktop-xml-editor}
-         - Werken met instellingen voor het genereren van uitvoer {#output-gen-config-cs}
+         - [XML-editors die zijn gebaseerd op een desktopcomputer integreren](./cs-install-guide/integrate-desktop-editors-cs.md)
+      - Werken met instellingen voor het genereren van uitvoer {#output-gen-config-cs}
          - [Instellingen voor uitvoergeneratie configureren](./cs-install-guide/conf-output-generation.md)
+         - [Enkele sitesjablonen downloaden en installeren](./cs-install-guide/download-install-aem-sites-templates-cs.md)
          - [Systeemeigen PDF-publicatie](./cs-install-guide/native-pdf-publishing.md)
          - [Knooppuntproces configureren voor publiceren in eigen PDF](./native-pdf/configure-node-options.md)
          - [Een koppeling maken tussen een onderwerp en een inhoudsfragment](./cs-install-guide/conf-content-fragment-mapping-cs.md)

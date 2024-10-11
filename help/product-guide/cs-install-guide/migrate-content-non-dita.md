@@ -5,9 +5,9 @@ exl-id: cf437fb8-ed33-47af-aa7e-ffd8acd232da
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: cddbd7a19d4dfaa3f6549ed1bd511eeeb02acbb2
 workflow-type: tm+mt
-source-wordcount: '2889'
+source-wordcount: '2940'
 ht-degree: 0%
 
 ---
@@ -137,12 +137,29 @@ Voer de volgende stappen uit om uw bestaande documenten van het InDesign in DITA
 1. Navigeer naar het standaardconfiguratiebestand dat beschikbaar is op de volgende locatie:
 
    `/libs/fmdita/config/idml2dita_io.xml`
+1. Als u een aangepaste configuratie wilt maken die voldoet aan uw vereisten, maakt u een overlayknooppunt van de map `config` in het knooppunt `apps` .
 
-1. Maak een overlayknooppunt van de map `config` in het knooppunt `apps` .
+1. Kopieer de volgende bestanden of mappen vanuit de map `libs` naar de map Apps:
+
+   - `/fmdita/config/idml2dita_io.xml`
+   - `/fmdita/idml2dita/config`
+   - `/fmdita/idml2dita/xsl`
 
 1. Navigeer naar het configuratiebestand dat beschikbaar is in het knooppunt `apps` :
 
    `/apps/fmdita/config/idml2dita_io.xml`
+
+1. Voeg de toewijzing van de configuraties toe die aanwezig zijn in de map `idml12dita` in het `idml2dita_io.xml` -bestand.
+1. Voeg de volgende eigenschappen toe aan het bestand `idml2dita_io.xml` :
+
+   ```
+   <entry          key="idml2DitaConfig">/apps/fmdita/idml2dita/config</entry>
+   
+   <entry key="idml2DitaXsl">/apps/fmdita/idml2dita/xsl</entry>
+   ```
+
+1. Maak een overlayknooppunt van de map `config` in het knooppunt `apps` .
+
 
    Configureer de volgende parameters in het `idml2dita_io.xml` -bestand:
 
