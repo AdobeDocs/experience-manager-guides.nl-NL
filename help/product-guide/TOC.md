@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lees de productdocumentatie voor Adobe Experience Manager Guides.
 breadcrumb-title: Documentatie voor AEM Guides
-source-git-commit: fb586c7e857db5c4aa68645cb1be2a48fdbe165c
+source-git-commit: 9db546b3a9e0ece66024e1c06c6cec52b786ff76
 workflow-type: tm+mt
-source-wordcount: '1972'
+source-wordcount: '1974'
 ht-degree: 2%
 
 ---
@@ -494,18 +494,22 @@ ht-degree: 2%
          - [Een gegevensbronaansluiting configureren](../product-guide/knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md)
 
       - Publiceren {#publishing}
+
+         - Oorspronkelijke PDF {#native-pdf}
+            - [Aangepaste lettertypen toevoegen aan uw eigen PDF van DITA](./knowledge-base/kb-articles/publishing/add-custom-font-native-pdf.md)
+            - [AEM Omgeving configureren voor publiceren via native PDF](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
+            - [Enterprise-branding toevoegen aan de eerste pagina van een PDF](./knowledge-base/kb-articles/publishing/add-branding-to-bookmap-content-header.md)
+            - [Inhoudsopgave van boekmap genereren in oorspronkelijke PDF-publicatie](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
          - DITA-OT {#dita-ot}
             - [Metagegevens AEM gebruiken in plug-in](./knowledge-base/kb-articles/publishing/dita-ot/dita-ot-pass-and-use-aem-metadata-in-dita-ot.md)
-         - [Aangepaste lettertypen toevoegen aan uw eigen PDF van DITA](./knowledge-base/kb-articles/publishing/add-custom-font-native-pdf.md)
-         - [AEM Omgeving configureren voor publiceren via native PDF](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
-         - [Enterprise-branding toevoegen aan de eerste pagina van een PDF](./knowledge-base/kb-articles/publishing/add-branding-to-bookmap-content-header.md)
-         - [Inhoudsopgave van boekmap genereren in oorspronkelijke PDF-publicatie](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
+            - [Een aangepaste DITA-OT instellen](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
          - [FMPS en hulplijnen](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
+
          - [Microservice architectuur en prestaties](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
          - [Op microservice gebaseerde publicaties configureren met JWT-verificatie](./knowledge-base/publishing/configure-microservices.md)
          - [Op microservice gebaseerde publicaties configureren met OAuth-verificatie](./knowledge-base/publishing/configure-microservices-imt-config.md)
          - [Referentiedocumenten publiceren over AEM cloud](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
-         - [Een aangepaste DITA-OT instellen](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
+
 
       - Workflows {#workflows}
          - [Workflow na generatie](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
