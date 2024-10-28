@@ -2,9 +2,9 @@
 title: Opmerkingen bij de release | Opgeloste problemen in Adobe Experience Manager Guides 4.6.0-release
 description: Meer informatie over de opgeloste problemen in de 4.6.0-release van Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 6bff0a9c8770418c4486b65feb1c11792b893ca8
+source-git-commit: 9ffe068bbcdc0fe32e3dbf56a48171d241825e5a
 workflow-type: tm+mt
-source-wordcount: '1985'
+source-wordcount: '1996'
 ht-degree: 0%
 
 ---
@@ -107,6 +107,7 @@ Leer over [ verbeteringsinstructies voor de versie 4.6.0 ](../release-info/upgra
 - De regeneratie van onderwerpen mislukt als gevolg van de fout in de OOTB-API voor regenereren van onderwerp of incrementele publicatie. 18452
 - Met de voorinstelling voor voorwaarden worden bijgewerkte kenmerken niet opgehaald nadat u de upgrade voor Experience Manager Guides hebt uitgevoerd. 18174
 - Inhoudsverwijzingen worden niet correct omgezet voor uitvoer van native PDF als het bestand met sleuteldefinities zich niet in dezelfde map bevindt als de DITA-kaart. 15062
+- Bulkactivering van gepubliceerde inhoud werkt niet voor gelokaliseerde kaarten. 17638
 
 
 ## Beheer
