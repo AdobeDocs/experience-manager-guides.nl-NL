@@ -2,9 +2,9 @@
 title: Opmerkingen bij de release | Opgeloste problemen in Adobe Experience Manager Guides 4.6.0-release
 description: Meer informatie over de opgeloste problemen in de 4.6.0-release van Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 9ffe068bbcdc0fe32e3dbf56a48171d241825e5a
+source-git-commit: d51cc5ed621d5f533815c677e23bd4c1f4a52de3
 workflow-type: tm+mt
-source-wordcount: '1996'
+source-wordcount: '2011'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Leer over [ verbeteringsinstructies voor de versie 4.6.0 ](../release-info/upgra
 - **Speciale karakters** die met vluchtkarakters worden geschreven worden verwijderd uit het onderwerp na het worden geupload aan Experience Manager Guides. 16495
 - Vimeo-video&#39;s bieden geen ondersteuning voor schermvullende functies in Experience Manager Guides. (15996)
 - Als u lange vooraf opgemaakte tekstreeksen in `<pre>` - of `<codeblock>` -elementen plakt, wordt de tekst afgebroken. 15859
-- De schrapping van de inhoud komt toe te schrijven aan dubbele GUIDs wanneer de malplaatjes via code worden geïnstalleerd maar onverwerkt blijven. 15858
+- De schrapping van de inhoud komt toe wegens dubbele GUIDs wanneer de malplaatjes via code worden geïnstalleerd maar onverwerkt blijven. 15858
 - Experience Manager Guides slaagt er niet in om aan het **attribuut van de Rol van de 0} Verwerking {in** 3} wijze van de Voorproef te houden. **** 15787
 - De Editor verwijdert periodiek extra tekst buiten het geselecteerde gebied. 15708
 - Kan grote tabellen niet kopiëren en plakken vanuit Word-documenten of HTML naar de webeditor. (15369)
@@ -72,8 +72,8 @@ Leer over [ verbeteringsinstructies voor de versie 4.6.0 ](../release-info/upgra
 - Problemen treden op wanneer een groot aantal bestanden met dichte gegevenssets naar Experience Manager Guides worden geüpload.17008
 - De Redacteur van het Web geeft niet het correcte sleutelwoord door gebrek, vooral als het sleutelwoord verschillend in kindkaarten wordt bepaald. (14748)
 - De **Staat van het Document** wordt niet getoond wanneer het uitgeven van de eigenschappen van meer dan 50 dossiers in bulk van de mening van de Kaart van de Redacteur van het Web. 14574
-- Het gedrag van de knop Sluiten is inconsistent wanneer u de functie Automatisch opslaan gebruikt. (10996)
-- Validatieproblemen treden op in MathML-elementen wanneer een nieuw element wordt ingevoegd of vergelijkingen worden gewijzigd. 10624
+- Het gedrag van de knop Sluiten is inconsistent wanneer u de functie Automatisch opslaan gebruikt. (1096)
+- Er treden validatieproblemen op in MathML-elementen wanneer u een nieuw element invoegt of vergelijkingen wijzigt. 10624
 - De functie Wijzigingen bijhouden werkt niet met tekst die begint met Koreaanse tekens. 14538
 - Gekoppelde afbeeldingen van de onderwerpen worden niet weergegeven in de basislijn na het maken van de versie. 16931
 
@@ -85,7 +85,7 @@ Leer over [ verbeteringsinstructies voor de versie 4.6.0 ](../release-info/upgra
 - Wanneer het selecteren van de **meta-gegevens van het Gebruik die in de topicmeta** optie worden toegevoegd, worden de meta-gegevenseigenschappen niet verspreid in de documenteigenschappen van de inheemse output van PDF.17283
 - Het filtreren van de voorwaarde in de inheemse output van PDF werkt niet zoals verwacht in vergelijking met DITA-OT. (17095)
 - Inhoudsopgave houdt geen rekening met de tags `<sub>` of `<sup>` in de uitvoer van de native PDF. 17028)
-- Gekruist koppelen mislukt om alle bovenliggende maps weer te geven in de context-instellingen voor publicatie voor een koppeling met de `scope="peer"` . (16700)
+- Gekruist koppelen kan niet alle bovenliggende toewijzingen weergeven in de contextinstellingen voor publicatie voor een koppeling met de `scope="peer"` . (16700)
 - AEM genereren van sites en incrementele publicatie-API werkt niet zoals verwacht. (16666)
 - AEM de productie van de output van de Plaats ontbreekt wanneer de **Schrapping Orphan optie van de Plaats** wordt toegelaten. 15896
 - De oude attributen worden behouden in de **Vooraf ingestelde Voorwaarde** wanneer het toevoegen van of het verwijderen van om het even welke nieuwe of bestaande attributen. 15890
@@ -107,7 +107,9 @@ Leer over [ verbeteringsinstructies voor de versie 4.6.0 ](../release-info/upgra
 - De regeneratie van onderwerpen mislukt als gevolg van de fout in de OOTB-API voor regenereren van onderwerp of incrementele publicatie. 18452
 - Met de voorinstelling voor voorwaarden worden bijgewerkte kenmerken niet opgehaald nadat u de upgrade voor Experience Manager Guides hebt uitgevoerd. 18174
 - Inhoudsverwijzingen worden niet correct omgezet voor uitvoer van native PDF als het bestand met sleuteldefinities zich niet in dezelfde map bevindt als de DITA-kaart. 15062
+- Het bulkdashboard van Publish toont leeg voor kaarten die nog in het vertaalproces zijn. (19352)
 - Bulkactivering van gepubliceerde inhoud werkt niet voor gelokaliseerde kaarten. 17638
+
 
 
 ## Beheer
@@ -119,9 +121,9 @@ Leer over [ verbeteringsinstructies voor de versie 4.6.0 ](../release-info/upgra
 - Het maken van een basislijn met de Java API werkt niet met Experience Manager Guides. 14787
 - De API van `/bin/fmdita/import` blijft permanent vastzitten in een aanvraag die in behandeling is wanneer de uploadmiddelen meer dan 500 MB bedragen. 14743
 - Als u een bestaande basislijn bewerkt en een specifieke versie selecteert, treden toepassingsfouten op. (14451)
-- De uitvoering van postprocess manuscript ontbreekt toe te schrijven aan **FileNotFoundException** uitzondering. 16517
-- Dynamische titels met `<conkeyref>` worden niet weergegeven in de onderwerpenlijst van het Rapport. (16967)
-- De onnauwkeurige **tellingen van de Lijst van het Onderwerp** {komen in de Rapporten UI van Experience Manager Guides toe te schrijven aan de niet gestaafde eigenschappen wanneer het kopiëren van activa DITA. (15529)
+- Uitvoering van postverwerkingsmanuscript ontbreekt toe te schrijven aan **FileNotFoundException** uitzondering. 16517
+- Dynamische titels met `<conkeyref>` worden niet weergegeven in de onderwerpenlijst van het rapport. (16967)
+- De onnauwkeurige **tellingen van de Lijst van het Onderwerp** komen in de Rapporten UI van de Gidsen van de Manager van de Ervaring voor toe te schrijven aan de unpatched eigenschappen wanneer het kopiëren van activa DITA. (15529)
 - Onderwerpen met externe verwijzingen met %20 in de URL geven verbroken bestandsverwijzingen weer. 15347
 - De eigenschappen fmditaMaprefs en fmditakeydefrefs tonen relatieve wegen, ondanks het plaatsen van absolute wegen voor de kaart DITA en onderwerpen. 18353
 - Het pad voor de overlay-functionaliteit is hard-gecodeerd voor het Koreaanse taalbestand en is niet correct geselecteerd. (17089)
