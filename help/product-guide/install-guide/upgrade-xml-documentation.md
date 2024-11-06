@@ -1,13 +1,13 @@
 ---
-title: Handleidingen voor Adobe Experience Manager upgraden
+title: Upgrade uitvoeren voor Adobe Experience Manager Guides
 description: Meer informatie over het upgraden van Adobe Experience Manager Guides
 exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: f74362c78532ddd7721faf66789281a8c0704194
+source-git-commit: 2362870e0e3e6c08df03e8c547bb77de7faa0a02
 workflow-type: tm+mt
-source-wordcount: '6995'
+source-wordcount: '7008'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 0%
 >
 > Volg de upgrade-instructies voor de versie met licentie van uw product.
 
-U kunt uw huidige versie van Experience Manager Guides upgraden naar versie 4.6.1:
+U kunt uw huidige versie van Experience Manager Guides upgraden naar versie 4.6.0 Service Pack 1:
 
 
-- Als u versie 4.6.0 gebruikt, kunt u rechtstreeks upgraden naar versie 4.6.1.
-- Als u versie 4.4, 4.3.1 of 4.3.0 gebruikt, moet u een upgrade naar versie 4.6.0 uitvoeren voordat u een upgrade naar versie 4.6.1 uitvoert.
+- Als u versie 4.6.0 gebruikt, dan kunt u aan 4.6.0 Service Pack 1 direct bevorderen.
+- Als u versie 4.4, 4.3.1, of 4.3.0 gebruikt, dan moet u aan versie 4.6.0 bevorderen alvorens aan 4.6.0 Service Pack 1 te bevorderen.
 - Als u versie 4.2, 4.2.1 (Hotfix 4.2.1.3), 4.1 of 4.1.x gebruikt, moet u een upgrade naar versie 4.4 uitvoeren voordat u een upgrade naar versie 4.6.0 uitvoert.
 - Als u versie 4.0 gebruikt, moet u een upgrade naar versie 4.2 uitvoeren voordat u een upgrade naar versie 4.3.x uitvoert.
 - Als u versie 3.8.5 gebruikt, moet u een upgrade naar versie 4.0 uitvoeren voordat u een upgrade naar versie 4.2 uitvoert.
@@ -41,7 +41,7 @@ Raadpleeg de volgende procedures voor meer informatie:
 - [Upgrade naar versie 4.3.0](#upgrade-version-4-3)
 - [Upgrade naar versie 4.3.1](#upgrade-version-4-3-1)
 - [Upgrade naar versie 4.3.1.5](#upgrade-version-4-3-1-5)
-- [Upgrade uitvoeren naar versie 4.4.0](#upgrade-version-4-4-0)
+- [Upgrade naar versie 4.4.0](#upgrade-version-4-4-0)
 - [Upgrade naar versie 4.6.0](#upgrade-version-4-6-0)
 
 
@@ -58,18 +58,18 @@ Voordat u het proces uitvoert, moet u bepaalde taken uitvoeren. De volgende subs
 
 >[!NOTE]
 >
-> Dit upgradeproces is alleen van toepassing vanaf versie 3.8.5 tot en met versie 4.0. Raadpleeg de sectie Upgrade Experience Manager-handleidingen in de *productspecifieke installatiehandleidingen die beschikbaar zijn via [de Help-bestanden bij het archiveren](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) van Adobe Experience Manager-gidsen om het proces bij te voeren van versie 3.4 of hoger naar 3.8.5.*
+> Dit upgradeproces is alleen van toepassing van versie 3.8.5 tot versie 4.0. Voor het proces om van versie 3.4 of hoger aan 3.8.5 te bevorderen, verwijs naar de *sectie van de Verbetering Experience Manager Guides* in de product-specifieke installatiegids beschikbaar op [ het archief van de hulp PDF van Adobe Experience Manager Guides ](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 
 
-****Voorwaarden****
+****Eerste vereisten****
 
-Voordat u het upgradeproces van de Experience Manager-gidsen start, moet u ervoor zorgen dat u het volgende hebt:
+Voordat u het Experience Manager Guides-upgradeproces start, moet u controleren of:
 
 1. De revisieopmerkingen zijn geïmporteerd in onderwerpen die zijn geopend voor revisie.
 1. Alle actieve revisies zijn gesloten.
-1. Alle vertaaltaken zijn gesloten.
-1. Verwijder alle hotfixes voor Experience Manager-hulplijnen die boven op de vorige versie van Experience Manager-hulplijnen zijn geïnstalleerd (hoofdversie of patchrelease).
+1. Alle vertaaltaken zijn afgesloten.
+1. Verwijder alle Experience Manager Guides-hotfixes die boven op de vorige versie \(Belangrijke versie of patchrelease\) van Experience Manager Guides zijn geïnstalleerd.
 
 **alvorens u versie 4.0** installeert
 
@@ -99,11 +99,11 @@ Dit API wordt ontworpen om de systeemgegevens zoals die in de **Verwijzing van d
 | Eindpunt | /bin/dxml/upgrade/3xto4x |
 | --- | --- |
 | Type aanvraag | **POST** Dit manuscript is een verzoek van de POST vandaar zou via agenten zoals Postman moeten worden uitgevoerd. |
-| Verwachte reactie | - Als de migratie is gelukt, kunt u versie 4.0 van de XML-documentatie installeren.<br>- Als er fouten optreden, herstelt u de laatste controlepunt en deelt u de foutlogbestanden samen met de API-uitvoer met uw Customer Success-team. |
+| Verwachte reactie | -   Zodra de migratie succesvol is, kunt u XML Documentation oplossing versie 4.0 installeren.<br> -   Als er fouten zijn, herstel aan het laatste controlepunt en deel de foutenlogboeken samen met API output met uw team van de klantensucces. |
 
-**Migratietoewijzing**: de bovenstaande API migreert alle gegevens onder de bronlocatie naar de doellocatie.
+**Toewijzing van de Migratie**: Bovenstaande API migreert alle gegevens onder de bronplaats aan de doelplaats.
 
-| Bron | Doel |
+| Source | Doel |
 |------|------|
 | /content/fmdita | /var/dxml |
 | /content/dxml | /var/dxml |
@@ -202,7 +202,7 @@ Nadat u Experience Manager Guides hebt geïnstalleerd, kunt u de verschillende c
 
    **lusje van het Proces**
 
-   - Selecteer **aanvrager** van DXML-postproces in de **vervolgkeuzelijst met processen**
+   - Selecteer **DXML de Initiator van het Proces van het Post** van het **Proces** drop down
 
    - Selecteer **de Geavanceerde Behandeling van 0}**
 
@@ -242,15 +242,15 @@ Nadat u Experience Manager Guides hebt geïnstalleerd, kunt u de verschillende c
    - Alle clientlibcategorieën die worden gebruikt van het product, dienen te worden gecontroleerd op wijzigingen. Overschreven configuraties \(voorbeelden verderop\) moeten worden vergeleken met de nieuwste configuraties om de nieuwste functies te krijgen:
    - elementmapping.xml
    - ui\_config.json\(kan zijn ingesteld in mapprofielen\)
-   - Gewijzigd `com.adobe.fmdita.config.ConfigManager`
-   - Controleer of een van de aangepaste code oude paden gebruikten \(zoals vermeld in de [sectie Migratietoewijzing](#id2244LE040XA) \) - moet worden bijgewerkt naar de nieuwe paden, zodat de aanpassingen ook naar behoren werken.
-1. Lees over om het even welke nieuwe configuraties die in de huidige versie \ (controle [ worden gebracht de Nota&#39;s van de Versie ](../release-info/release-notes-4-3.md) \) en zien of wordt om het even welke functionaliteit beïnvloed dan passende actie voeren. Een voorbeeld hiervan kan zijn om &quot;Verbeterde bestands- en versieverwerking&quot; te gebruiken die is geïntroduceerd in versie 4.0, waarvoor u een configuratie moet inschakelen.
+   - modified `com.adobe.fmdita.config.ConfigManager`
+   - Controle als om het even welke douanecode om het even welke oude wegen \ (zoals vermeld in de [ Afbeelding van de Migratie ](#id2244LE040XA) sectie \) gebruikte - zou aan de nieuwe wegen moeten worden bijgewerkt zodat de aanpassingen ook zoals verwacht werken.
+1. Lees over om het even welke nieuwe configuraties die in de huidige versie \ (controle [ worden gebracht de Nota&#39;s van de Versie ](../release-info/release-notes-4-3.md) \) en zie of wordt om het even welke functionaliteit beïnvloed dan aangewezen actie. Een voorbeeld hiervan is &quot;Verbeterde bestands- en versieverwerking&quot; die is geïntroduceerd in versie 4.0, waarvoor u een configuratie moet inschakelen.
 
 ## Stappen om de bestaande inhoud te indexeren voor het gebruik van de nieuwe zoek- en vervangactie:
 
-Voer de volgende stappen uit voor het indexeren van de bestaande inhoud en gebruik de nieuwe zoek- en vervangingstekst op kaartniveau:
+Voer de volgende stappen uit om de bestaande inhoud te indexeren en de nieuwe tekst zoeken en vervangen op kaartniveau te gebruiken:
 
-- Voer een verzoek van een POST uit op de server \(met correcte verificatie\) - `http://<server:port\>/bin/guides/map-find/indexing` . \(Optioneel: u kunt specifieke paden van de kaarten doorgeven om deze te indexeren. Standaard worden alle kaarten geïndexeerd \|\| Bijvoorbeeld: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`\)
+- Voer een POST-aanvraag uit op de server \(met correcte verificatie\) - `http://<server:port\>/bin/guides/map-find/indexing` . \(Optioneel: u kunt specifieke paden van de kaarten doorgeven om deze te indexeren. Standaard worden alle kaarten geïndexeerd \|\| Bijvoorbeeld: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`\)
 
 - De API retourneert een jobId. Als u de status van de taak wilt controleren, kunt u een aanvraag van een GET met taak-id naar hetzelfde eindpunt verzenden -
 
@@ -336,7 +336,7 @@ Voordat u het Experience Manager Guides 4.2.1-upgradeproces start, moet u contro
 
    Het bovenstaande bericht geeft aan dat alle installatiestappen zijn voltooid.
 
-   Als u een van de volgende FOUT-voorvoegsels aantreft, kunt u dit rapporteren aan uw Customer Success-team:
+   Als u om het even welke volgende prefix van de FOUT ontmoet, rapporteer hen aan uw team van het klantensucces:
 
    - Fout tijdens een setupscript voor implementatie na plaatsing
    - Uitzondering tijdens het exporteren van de MAP voor vertaling
@@ -404,11 +404,11 @@ Nadat u Experience Manager Guides hebt geïnstalleerd, kunt u de verschillende c
    ```
 
 1. Selecteer **DAM het werkschema van Activa van de Update**.
-1. Klik op **geef** uit.
-1. Als de **component van de Initiator van het Proces van 0} DXML aanwezig is, zorg ervoor dat de aanpassingen worden gesynchroniseerd.**
-1. Als de **component van de Initiator van het Proces van 0} DXML van het Post afwezig is, voer de volgende stappen uit om het op te nemen:**
+1. Klik op **uitgeven**.
+1. Als de **component van de Initiator van het Proces van 0} DXML {aanwezig is, zorg ervoor dat de aanpassingen worden gesynchroniseerd.**
+1. Als de **component van de Initiator van het Proces van 0} DXML {ontbreekt, voer de volgende stappen uit om het op te nemen:**
 
-1. Klik **component van het Tussenvoegsel** \ (Verantwoordelijk voor de Gidsen van de Manager naverwerking als definitieve stap in het proces \).
+1. Klik **component van het Tussenvoegsel** \ (Verantwoordelijk voor Experience Manager Guides post-verwerking als definitieve stap in het proces \).
 1. Vorm de **stap van het Proces** met hieronder details:
 
    **Gemeenschappelijke lusje**
@@ -468,11 +468,11 @@ Nadat u Experience Manager Guides hebt geïnstalleerd, kunt u de verschillende c
 Voer de volgende stappen uit om de bestaande inhoud te indexeren en de nieuwe tekst zoeken en vervangen op kaartniveau te gebruiken:
 
 - Controleer of de indexering van `damAssetLucene` is voltooid. Het kan een paar uur duren, afhankelijk van de hoeveelheid gegevens die aanwezig is op de server. U kunt bevestigen dat het opnieuw indexeren is voltooid door te controleren of het veld voor opnieuw indexeren in
-  `http://<server:port>/oak:index/damAssetLucene` .  Als u aanpassingen hebt toegevoegd in `damAssetLucene` , moet u deze mogelijk opnieuw toepassen.
+  `http://<server:port>/oak:index/damAssetLucene`.  Als u aanpassingen hebt toegevoegd in `damAssetLucene` , moet u deze mogelijk opnieuw toepassen.
 
-- Voer een verzoek van een POST uit op de server \(met correcte verificatie\) - `http://<server:port\>/bin/guides/map-find/indexing` . (Optioneel: u kunt specifieke paden van de kaarten doorgeven om deze te indexeren. Standaard worden alle kaarten geïndexeerd \|\| Bijvoorbeeld: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+- Voer een POST-aanvraag uit op de server \(met correcte verificatie\) - `http://<server:port\>/bin/guides/map-find/indexing` . (Optioneel: u kunt specifieke paden van de kaarten doorgeven om deze te indexeren. Standaard worden alle kaarten geïndexeerd \|\| Bijvoorbeeld : `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
-- U kunt ook een hoofdmap doorgeven om de DITA-kaarten van een specifieke map (en de bijbehorende submappen) te indexeren. Bijvoorbeeld: `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test` . Als zowel de parameter paths als de parameter root worden doorgegeven, wordt alleen de parameter paths gebruikt.
+- U kunt ook een hoofdmap doorgeven om de DITA-kaarten van een specifieke map (en de bijbehorende submappen) te indexeren. Bijvoorbeeld `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test` . Wanneer zowel de parameter paths als de hoofdparameter worden doorgegeven, wordt alleen de parameter paths gebruikt.
 
 - De API retourneert een jobId. Als u de status van de taak wilt controleren, kunt u een aanvraag van een GET met taak-id naar hetzelfde eindpunt verzenden - `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(bijvoorbeeld: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
 
@@ -482,7 +482,7 @@ Voer de volgende stappen uit om de bestaande inhoud te indexeren en de nieuwe te
 
 ## Upgrade naar versie 4.3.0 {#upgrade-version-4-3}
 
-Een upgrade naar versie 4.3.0 is afhankelijk van de huidige versie van Experience Manager Guides. Als u versie 4.2 of 4.2.x gebruikt, kunt u rechtstreeks upgraden naar versie 4.3.0.
+De upgrade naar versie 4.3.0 is afhankelijk van de huidige versie van Experience Manager Guides. Als u versie 4.2 of 4.2.x gebruikt, kunt u rechtstreeks upgraden naar versie 4.3.0.
 
 >[!NOTE]
 >
@@ -514,7 +514,7 @@ Nadat u Experience Manager Guides hebt geïnstalleerd, kunt u de verschillende c
 
 Voer de volgende stappen uit voor de naverwerking van de bestaande inhoud en het gebruik van het nieuwe verbroken koppelingsrapport:
 
-1. (Optioneel) Als er meer dan 100.000 dita-bestanden in het systeem aanwezig zijn, moet u de `queryLimitReads` under `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` bijwerken naar een hogere waarde (een waarde die groter is dan het aantal aanwezige elementen, bijvoorbeeld 200.000) en deze vervolgens opnieuw distribueren.
+1. (Optioneel) Als het systeem meer dan 100.000 dita-bestanden bevat, werkt u `queryLimitReads` under `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` bij tot een hogere waarde (een waarde die groter is dan het aantal aanwezige elementen, bijvoorbeeld 200.000) en herstelt u deze vervolgens.
 
    | PID | Eigenschappensleutel | Waarde van eigenschap |
    |---|---|---|
@@ -548,9 +548,9 @@ De upgrade naar versie 4.3.1 is afhankelijk van de huidige versie van Experience
 
 ****Eerste vereisten****
 
-Voordat u het upgrade-proces van Experience Manager Guides 4.3.1 start, moet u ervoor zorgen dat:
+Voordat u het Experience Manager Guides 4.3.1-upgradeproces start, moet u controleren of:
 
-1. Upgrade uitgevoerd naar versie 4.3.0, 4.2 of 4.2.1 van de Experience Manager-hulplijnen en voltooide de respectieve installatiestappen.
+1. Geüpgraded naar Experience Manager Guides versie 4.3.0, 4.2 of 4.2.1 en hun respectieve installatiestappen voltooid.
 1. (Optioneel) Alle vertaaltaken zijn afgesloten.
 1. Veranderde het logboekniveau in **INFO** voor `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` klasse en voeg deze logboeken in een nieuw logboekdossier toe, bijvoorbeeld, `logs/translation_upgrade.log`.
 
@@ -558,8 +558,8 @@ Voordat u het upgrade-proces van Experience Manager Guides 4.3.1 start, moet u e
 ## Versie 4.3.1 installeren
 
 1. Download 4.3.1 versiepakket van [ het Portaal van de Distributie van de Software van de Adobe ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
-1. Installeer het pakket versie 4.3.1.
-1. U kunt ervoor kiezen om de trigger te HIT om de vertaalkaart-upgradetaak te starten. Voor details, zie [ trekker van manuscript via een Servlet ](#enable-trigger-serverlet-4-3-1) toelaten.
+1. Installeer versie 4.3.1.
+1. U kunt ervoor kiezen om de trigger te HIT om de upgradetaak voor de vertaalkaart te starten. Voor details, zie [ trekker van manuscript via een Servlet ](#enable-trigger-serverlet-4-3-1) toelaten.
 
 
 1. Nadat u de pakketinstallatie hebt voltooid, wacht u op het volgende bericht in de logbestanden:
@@ -573,7 +573,7 @@ Voordat u het upgrade-proces van Experience Manager Guides 4.3.1 start, moet u e
    - Fout tijdens een setupscript voor implementatie na plaatsing
    - Uitzondering tijdens het exporteren van de MAP voor vertaling
    - Kan vertaalkaart van v1 naar v2 voor eigenschap niet importeren
-1. Upgrade Oxygen connector plugin vrijgegeven met versie 4.2 \(indien nodig\).
+1. Upgrade de insteekmodule Zuurstofaansluiting die wordt vrijgegeven met versie 4.2 \(indien nodig\).
 1. Wis de browsercache nadat u het pakket hebt geïnstalleerd.
 1. U kunt de aanpassingen blijven bijwerken zoals in de volgende sectie wordt beschreven.
 
@@ -632,11 +632,11 @@ Nadat u Experience Manager Guides hebt geïnstalleerd, kunt u de verschillende c
    ```
 
 1. Selecteer **DAM het werkschema van Activa van de Update**.
-1. Klik op **geef** uit.
-1. Als de **component van de Initiator van het Proces van 0} DXML aanwezig is, zorg ervoor dat de aanpassingen worden gesynchroniseerd.**
-1. Als de **component van de Initiator van het Proces van 0} DXML van het Post afwezig is, voer de volgende stappen uit om het op te nemen:**
+1. Klik op **uitgeven**.
+1. Als de **component van de Initiator van het Proces van 0} DXML {aanwezig is, zorg ervoor dat de aanpassingen worden gesynchroniseerd.**
+1. Als de **component van de Initiator van het Proces van 0} DXML {ontbreekt, voer de volgende stappen uit om het op te nemen:**
 
-1. Klik **component van het Tussenvoegsel** \ (Verantwoordelijk voor de Gidsen van de Manager naverwerking als definitieve stap in het proces \).
+1. Klik **component van het Tussenvoegsel** \ (Verantwoordelijk voor Experience Manager Guides post-verwerking als definitieve stap in het proces \).
 1. Vorm de **stap van het Proces** met hieronder details:
 
    **Gemeenschappelijke lusje**
@@ -659,15 +659,15 @@ Nadat u Experience Manager Guides hebt geïnstalleerd, kunt u de verschillende c
    >
    > Vernieuw en controleer of de aangepaste wijzigingen en de naverwerkingsstap van Experience Manager Guides aanwezig zijn in het uiteindelijke workflowmodel.
 
-1. Zodra de **dam-updateassetworkflow** is gevalideerd, controleert u de corresponderende configuraties voor launchers. Ga hiervoor naar de AEM Workflow-interface en open launchers.
+1. Zodra **DAM het werkschema van de Activa van de Update** wordt bevestigd, controleer overeenkomstige lanceringsconfiguraties. Ga hiertoe naar AEM Workflowinterface en open draagraketten.
 
    ```http
    http://localhost:4502/libs/cq/workflow/content/console.html
    ```
 
-   Zoek naar en breng wijzigingen aan \(indien nodig\) in de volgende twee launchers \(die actief moeten zijn\) die overeenkomen met **de workflow** voor DAM-updatemiddelen:
+   Vind en breng veranderingen \ (indien nodig \) in de volgende twee lanceerinrichtingen \ (die actief zouden moeten zijn \) die aan **DAM het werkschema van de Activa van de Update** beantwoorden:
 
-1. Launcher voor &quot;*Node created*&quot; for **DAM Update Asset workflow**- for condition `"jcr:content/jcr:mimeType!=video"`, moet de &#39;Globbing&#39; waarde zijn:
+1. Lanceerprogramma voor &quot;*Gemaakt Knoop*&quot;voor **DAM het werkschema van de Activa van de Update** - voor voorwaarde `"jcr:content/jcr:mimeType!=video"`, zou de &quot;het Globaliseren&quot;waarde moeten zijn:
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
@@ -696,16 +696,16 @@ Nadat u Experience Manager Guides hebt geïnstalleerd, kunt u de verschillende c
 >
 > U hoeft deze stappen niet uit te voeren als u een upgrade uitvoert van 4.3.0 of 4.2.1.
 
-Voer de volgende stappen uit voor het indexeren van de bestaande inhoud en gebruik de nieuwe zoek- en vervangingstekst op kaartniveau:
+Voer de volgende stappen uit om de bestaande inhoud te indexeren en de nieuwe tekst zoeken en vervangen op kaartniveau te gebruiken:
 
 
-- Voer een verzoek van een POST uit op de server \(met correcte verificatie\) - `http://<server:port\>/bin/guides/map-find/indexing` . (Optioneel: u kunt specifieke paden van de kaarten doorgeven om deze te indexeren. Standaard worden alle kaarten geïndexeerd \|\| Bijvoorbeeld: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+- Voer een POST-aanvraag uit op de server \(met correcte verificatie\) - `http://<server:port\>/bin/guides/map-find/indexing` . (Optioneel: u kunt specifieke paden van de kaarten doorgeven om deze te indexeren. Standaard worden alle kaarten geïndexeerd \|\| Bijvoorbeeld : `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 
-- De API retourneert een jobId. Om de status van de taak te controleren, kunt u een aanvraag voor een GET met taak-id naar hetzelfde eindpunt verzenden: `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(bijvoorbeeld: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
+- De API retourneert een jobId. Als u de status van de taak wilt controleren, kunt u een aanvraag van een GET met taak-id naar hetzelfde eindpunt verzenden - `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(bijvoorbeeld: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
 
 
-- Zodra de taak is voltooid, reageert het bovenstaande verzoek om GET met succes en wordt vermeld of kaarten niet zijn ingevuld. De met succes geïndexeerde kaarten kunnen van de serverlogboeken worden bevestigd.
+- Als de taak is voltooid, reageert het bovenstaande verzoek van de GET met succes en vermeldt u of kaarten zijn mislukt. De met succes geïndexeerde kaarten kunnen van de serverlogboeken worden bevestigd.
 
 ## Stappen om de bestaande inhoud te posten om het verbroken koppelingsrapport te gebruiken
 
@@ -713,9 +713,9 @@ Voer de volgende stappen uit voor het indexeren van de bestaande inhoud en gebru
 >
 > U hoeft deze stappen niet uit te voeren als u een upgrade uitvoert van 4.3.0
 
-Voer de volgende stappen uit om de bestaande inhoud te verwerken en het nieuwe verbroken koppelingsrapport te gebruiken:
+Voer de volgende stappen uit voor de naverwerking van de bestaande inhoud en het gebruik van het nieuwe verbroken koppelingsrapport:
 
-1. (Optioneel) Als er meer dan 100.000 dita-bestanden in het systeem aanwezig zijn, moet u de `queryLimitReads` under `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` bijwerken naar een hogere waarde (een waarde die groter is dan het aantal aanwezige elementen, bijvoorbeeld 200.000) en deze vervolgens opnieuw distribueren.
+1. (Optioneel) Als het systeem meer dan 100.000 dita-bestanden bevat, werkt u `queryLimitReads` under `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` bij tot een hogere waarde (een waarde die groter is dan het aantal aanwezige elementen, bijvoorbeeld 200.000) en herstelt u deze vervolgens.
 
    | PID | Eigenschappensleutel | Waarde van eigenschap |
    |---|---|---|
@@ -732,14 +732,14 @@ Voer de volgende stappen uit om de bestaande inhoud te verwerken en het nieuwe v
    |---|---|
    | Type aanvraag | **GET** |
    | Param | jobId: geef de taak-id door die is ontvangen van de vorige postaanvraag. |
-   | Verwachte reactie | - Zodra de taak is voltooid, reageert het verzoek van de GET met succes. <br> - Als er fouten zijn, deelt u de foutlogboeken samen met de API-uitvoer met het succesteam van de klant.  <br> Voorbeeld-URL: `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
+   | Verwachte reactie | - Zodra de taak is voltooid, reageert de GET-aanvraag met succes. <br> - Als er fouten zijn, deelt u de foutlogboeken samen met de API-uitvoer met het succesteam van de klant.  <br> Voorbeeld-URL: `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
 
 
 1. Terugkeren naar de standaardwaarde of vorige bestaande waarde van `queryLimitReads` als u deze hebt gewijzigd in stap 1.
 
 
 
-## Upgrade uitvoeren naar versie 4.3.1.5 {#upgrade-version-4-3-1-5}
+## Upgrade naar versie 4.3.1.5 {#upgrade-version-4-3-1-5}
 
 De upgrade naar versie 4.3.1.5 is afhankelijk van de huidige versie van Experience Manager Guides. Als u versie 4.3.1 gebruikt, kunt u rechtstreeks upgraden naar versie 4.3.1.5.
 
@@ -751,7 +751,7 @@ De upgrade naar versie 4.3.1.5 is afhankelijk van de huidige versie van Experien
 1. Installeer versie 4.3.1.5.
 
 1. Wacht tot het installatieproces is voltooid.
-1. Ga door met het upgraden van de aanpassingen zoals in de volgende sectie wordt beschreven.
+1. U kunt de aanpassingen blijven bijwerken zoals in de volgende sectie wordt beschreven.
 
 
 ## Nadat u versie 4.3.1.5 hebt geïnstalleerd
@@ -763,10 +763,10 @@ De upgrade naar versie 4.3.1.5 is afhankelijk van de huidige versie van Experien
 > 1. Ga naar `<server>:<port>/system/console/bundles` .
 > 1. Zoeken naar org.apache.velocity.
 > 1. Verwijder de gezochte bundel.
-> 1. Installeer de vereiste velocity-bundel.
+> 1. Installeer de vereiste snelheidsbundel.
 
 
-1. Nadat de upgrade is voltooid, zorgt u ervoor dat alle aanpassingen/bedekkingen worden gevalideerd en bijgewerkt om overeen te komen met de nieuwe toepassingscode. Hieronder volgen enkele voorbeelden:
+1. Nadat de upgrade is voltooid, zorgt u ervoor dat alle aanpassingen/overlays worden gevalideerd en bijgewerkt zodat ze overeenkomen met de nieuwe toepassingscode. Hieronder volgen enkele voorbeelden:
    - Componenten die worden overschreven door `/libs/fmdita` of ` /libs` , moeten met de nieuwe productcode worden vergeleken en updates moeten worden uitgevoerd in overlaybestanden onder `/apps` .
    - Alle clientlibcategorieën die worden gebruikt van het product, dienen te worden gecontroleerd op wijzigingen. Overschreven configuraties \(voorbeelden verderop\) moeten worden vergeleken met de nieuwste configuraties om de nieuwste functies te krijgen:
    - `elementmapping.xml`
@@ -781,11 +781,11 @@ De upgrade naar versie 4.3.1.5 is afhankelijk van de huidige versie van Experien
 
 ## Upgrade naar versie 4.4.0 {#upgrade-version-4-4-0}
 
-De upgrade naar versie 4.4.0 is afhankelijk van de huidige versie van Experience Manager Guides. Als u versie 4.3.1, 4.3.0, 4.2 of 4.2.1 (Hotfix 4.2.1.3) gebruikt, kunt u rechtstreeks een upgrade uitvoeren naar versie 4.4.0
+De upgrade naar versie 4.4.0 is afhankelijk van de huidige versie van Experience Manager Guides. Als u versie 4.3.1, 4.3.0, 4.2 of 4.2.1 (Hotfix 4.2.1.3) gebruikt, kunt u rechtstreeks upgraden naar versie 4.4.0
 
 >[!NOTE]
 >
->De nabewerking en indexering kunnen een paar uur duren. We raden u aan om het upgradeproces te starten tijdens de uren buiten de drukste periode.
+>De nabewerking en indexering kunnen een paar uur duren. Wij adviseren u om het verbeteringsproces tijdens de off-piek uren te beginnen.
 
 ****Eerste vereisten****
 
@@ -799,7 +799,7 @@ Voordat u het Experience Manager Guides 4.4.0-upgradeproces start, moet u contro
 ## Versie 4.4.0 installeren
 
 1. Download 4.4.0 versiepakket van [ het Portaal van de Distributie van de Software van de Adobe ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
-1. Installeer het pakket versie 4.4.0.
+1. Installeer versie 4.4.0.
 1. U kunt ervoor kiezen om de trigger te HIT om de upgradetaak voor de vertaalkaart te starten. Voor details, zie [ trekker van manuscript via een Servlet ](#enable-trigger-serverlet-4-4-0) toelaten.
 
 1. Nadat u de pakketinstallatie hebt voltooid, wacht u op het volgende bericht in de logbestanden:
@@ -808,7 +808,7 @@ Voordat u het Experience Manager Guides 4.4.0-upgradeproces start, moet u contro
 
    Het bovenstaande bericht geeft aan dat alle installatiestappen zijn voltooid.
 
-   Als u een van de volgende FOUTvoorvoegsels tegenkomt, rapporteert u deze aan uw klantensuccesteam:
+   Als u om het even welke volgende prefix van de FOUT ontmoet, rapporteer hen aan uw team van het klantensucces:
 
    - Fout tijdens een setupscript voor implementatie na plaatsing
    - Uitzondering tijdens het exporteren van de MAP voor vertaling
@@ -877,7 +877,7 @@ Nadat u Experience Manager Guides hebt geïnstalleerd, kunt u de verschillende c
    ```
 
    - &#39;excludeList&#39; moet `"event-user-data:changedByWorkflowProcess"` hebben.
-   - Lanceerprogramma voor &quot;*Gewijzigde Knoop*&quot;voor **DAM het werkschema van de Activa van de Update -** voor voorwaarde &quot;`jcr:content/jcr:mimeType!=video`&quot;, zou de &quot;Globling&quot;waarde moeten zijn:
+   - Lanceerinrichting voor &quot;*Gewijzigde Knoop*&quot;voor **DAM het werkschema van de Activa van de Update -** voor voorwaarde &quot;`jcr:content/jcr:mimeType!=video`&quot;, zou de &quot;het Globaliseren&quot;waarde moeten zijn:
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
@@ -886,8 +886,8 @@ Nadat u Experience Manager Guides hebt geïnstalleerd, kunt u de verschillende c
    - `excludeList` moet `"event-user-data:changedByWorkflowProcess"` hebben.
 
 1. Nadat de upgrade is voltooid, zorgt u ervoor dat alle aanpassingen/overlays worden gevalideerd en bijgewerkt zodat ze overeenkomen met de nieuwe toepassingscode. Hieronder volgen enkele voorbeelden:
-   - Alle componenten die zijn overlayed van/libs/fmditaor/libsshoushouor kunnen worden vergeleken met de nieuwe productcode en updates moeten worden uitgevoerd in overlayed bestanden onder/apps.
-   - Alle clientlib-categorieën die van het product worden gebruikt, moeten worden gecontroleerd op wijzigingen. Eventuele overschreven configuraties \(hieronder voorbeelden\) moeten worden vergeleken met de nieuwste om de nieuwste functies te kunnen gebruiken:
+   - Alle componenten die worden overschreven door/libs/fmditor/libsc, moeten worden vergeleken met de nieuwe productcode en updates moeten worden uitgevoerd in overlay bestanden onder/apps.
+   - Alle clientlibcategorieën die worden gebruikt van het product, dienen te worden gecontroleerd op wijzigingen. Overschreven configuraties \(voorbeelden verderop\) moeten worden vergeleken met de nieuwste configuraties om de nieuwste functies te krijgen:
    - elementmapping.xml
    - ui\_config.json\(kan zijn ingesteld in mapprofielen\)
    - modified `com.adobe.fmdita.config.ConfigManager`
@@ -900,9 +900,9 @@ Nadat u Experience Manager Guides hebt geïnstalleerd, kunt u de verschillende c
 >
 > U hoeft deze stappen niet uit te voeren als u een upgrade uitvoert van 4.3.0 of 4.3.1.
 
-Voer de volgende stappen uit voor het indexeren van de bestaande inhoud en gebruik de nieuwe zoek- en vervangingstekst op kaartniveau:
+Voer de volgende stappen uit om de bestaande inhoud te indexeren en de nieuwe tekst zoeken en vervangen op kaartniveau te gebruiken:
 
-- Voer een POST-aanvraag uit op de server \(met correcte verificatie\) - `http://<server:port\>/bin/guides/map-find/indexing` . (Optioneel: u kunt specifieke paden van de kaarten doorgeven om deze te indexeren. Standaard worden alle kaarten geïndexeerd \|\| Bijvoorbeeld: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+- Voer een POST-aanvraag uit op de server \(met correcte verificatie\) - `http://<server:port\>/bin/guides/map-find/indexing` . (Optioneel: u kunt specifieke paden van de kaarten doorgeven om deze te indexeren. Standaard worden alle kaarten geïndexeerd \|\| Bijvoorbeeld : `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 - De API retourneert een jobId. Als u de status van de taak wilt controleren, kunt u een aanvraag van een GET met taak-id naar hetzelfde eindpunt verzenden - `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(bijvoorbeeld: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
 
@@ -914,9 +914,9 @@ Voer de volgende stappen uit voor het indexeren van de bestaande inhoud en gebru
 >
 > U hoeft deze stappen niet uit te voeren als u een upgrade uitvoert van 4.3.0 of 4.3.1.
 
-Voer de volgende stappen uit om de bestaande inhoud te verwerken en het nieuwe verbroken koppelingsrapport te gebruiken:
+Voer de volgende stappen uit voor de naverwerking van de bestaande inhoud en het gebruik van het nieuwe verbroken koppelingsrapport:
 
-1. (Optioneel) Als er meer dan 100.000 dita-bestanden in het systeem aanwezig zijn, moet u de `queryLimitReads` under `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` bijwerken naar een hogere waarde (een waarde die groter is dan het aantal aanwezige elementen, bijvoorbeeld 200.000) en deze vervolgens opnieuw distribueren.
+1. (Optioneel) Als het systeem meer dan 100.000 dita-bestanden bevat, werkt u `queryLimitReads` under `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` bij tot een hogere waarde (een waarde die groter is dan het aantal aanwezige elementen, bijvoorbeeld 200.000) en herstelt u deze vervolgens.
 
    | PID | Eigenschappensleutel | Waarde van eigenschap |
    |---|---|---|
@@ -975,7 +975,7 @@ Zoek `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript Completed
 
 Experience Manager Guides heeft de module van de a [**douane die herschrijver**](../cs-install-guide/conf-output-generation.md#custom-rewriter) voor de behandeling van de verbindingen in het geval van dwars-kaarten (verbindingen tussen de onderwerpen van twee verschillende kaarten) worden geproduceerd.
 
-Als u nog een aangepaste schrijfbewerking voor tekenreeksen in uw codebase hebt, gebruikt u een `'order'` -waarde groter dan 50, omdat Experience Manager Guides anders `'order'` 50 gebruikt.  U hebt een waarde >50 nodig om dit te overschrijven. Zie Output Herwriting Pipelines](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html) voor meer informatie[.
+Als u nog een aangepaste schrijfbewerking voor tekenreeksen in uw codebase hebt, gebruikt u een `'order'` -waarde groter dan 50, omdat Experience Manager Guides anders `'order'` 50 gebruikt.  Als u dit wilt overschrijven, hebt u een waarde > 50 nodig. Voor meer details, mening [ Output die pijplijnen herschrijft ](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
 
 Aangezien de waarde van `'order'` tijdens deze upgrade is gewijzigd van 1000 in 50, moet u eventueel de bestaande aangepaste rewriter samenvoegen met `'fmdita-rewriter'` .
 
@@ -987,13 +987,13 @@ Aangezien de waarde van `'order'` tijdens deze upgrade is gewijzigd van 1000 in 
 
 >[!TIP]
 >
-> U wordt aangeraden Hotfix 4.6.1 vóór versie 4.6.0 te installeren. Het upgradeproces voor de 4.6.1-release volgt dezelfde stappen als de 4.6.0-release.
+> Het wordt aanbevolen om 4.6.0 Service Pack 1 bovenop versie 4.6.0 te installeren. Het verbeteringsproces voor de versie 4.6.0 Service Pack 1 volgt de zelfde stappen zoals de versie 4.6.0.
 
-De upgrade naar versie 4.6.0 is afhankelijk van de huidige versie van Experience Manager Guides. Als u versie 4.4.0, 4.3.1, 4.3.0, 4.2 of 4.2.1 (Hotfix 4.2.1.3) gebruikt, kunt u rechtstreeks een upgrade uitvoeren naar versie 4.6.0.
+De upgrade naar versie 4.6.0 is afhankelijk van de huidige versie van Experience Manager Guides. Als u versie 4.4.0, 4.3.1, 4.3.0, 4.2 of 4.2.1 (Hotfix 4.2.1.3) gebruikt, kunt u rechtstreeks upgraden naar versie 4.6.0.
 
 >[!NOTE]
 >
-> De nabewerking en indexering kunnen enkele uren in beslag nemen. We raden u aan om het upgradeproces te starten tijdens de uren buiten de drukste periode.
+> De nabewerking en indexering kunnen een paar uur duren. Wij adviseren u om het verbeteringsproces tijdens de off-piek uren te beginnen.
 
 ****Eerste vereisten****
 
@@ -1007,8 +1007,8 @@ Voordat u het Experience Manager Guides 4.6.0-upgradeproces start, moet u contro
 ## Versie 4.6.0 installeren
 
 1. Download 4.6.0 versiepakket van [ het Portaal van de Distributie van de Software van de Adobe ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
-1. Installeer het pakket versie 4.6.0.
-1. U kunt ervoor kiezen om de trigger te HIT om de vertaalkaart-upgradetaak te starten. Voor details, zie [ trekker van manuscript via een Servlet ](#enable-trigger-serverlet-4-6-0) toelaten.
+1. Installeer versie 4.6.0.
+1. U kunt ervoor kiezen om de trigger te HIT om de upgradetaak voor de vertaalkaart te starten. Voor details, zie [ trekker van manuscript via een Servlet ](#enable-trigger-serverlet-4-6-0) toelaten.
 
 1. Nadat u de pakketinstallatie hebt voltooid, wacht u op het volgende bericht in de logbestanden:
 
@@ -1016,12 +1016,12 @@ Voordat u het Experience Manager Guides 4.6.0-upgradeproces start, moet u contro
 
    Het bovenstaande bericht geeft aan dat alle installatiestappen zijn voltooid.
 
-   Als u een van de volgende FOUTvoorvoegsels tegenkomt, rapporteert u deze aan uw klantensuccesteam:
+   Als u om het even welke volgende prefix van de FOUT ontmoet, rapporteer hen aan uw team van het klantensucces:
 
-   - Fout tijdens het instelscript na implementatie
-   - Uitzondering tijdens het exporteren van de vertaalkaart
-   - Kan vertaalkaart van v1 naar v2 niet exporteren voor eigenschap
-1. Upgrade de plug-in Oxygen-connector uit met versie 4.6.0 \(indien nodig\).
+   - Fout tijdens een setupscript voor implementatie na plaatsing
+   - Uitzondering tijdens het exporteren van de MAP voor vertaling
+   - Kan vertaalkaart van v1 naar v2 voor eigenschap niet importeren
+1. Upgrade de insteekmodule Zuurstofaansluiting die wordt vrijgegeven met versie 4.6.0 \(indien nodig\).
 1. Wis de browsercache nadat u het pakket hebt geïnstalleerd.
 
 ## Nadat u versie 4.6.0 hebt geïnstalleerd
@@ -1040,8 +1040,8 @@ Nadat u Experience Manager Guides hebt geïnstalleerd, kunt u de verschillende c
    http://localhost:4502/libs/cq/workflow/admin/console/content/models.html 
    ```
 
-1. Selecteer **DAM Update Asset workflow**.
-1. Klik op **Bewerken**.
+1. Selecteer **DAM het werkschema van Activa van de Update**.
+1. Klik op **uitgeven**.
 1. Als de **component van de Initiator van het Proces van 0} DXML {aanwezig is, zorg ervoor dat de aanpassingen worden gesynchroniseerd.**
 1. Als de **component van de Initiator van het Proces van 0} DXML {ontbreekt, voer de volgende stappen uit om het op te nemen:**
 
@@ -1098,13 +1098,13 @@ Nadat u Experience Manager Guides hebt geïnstalleerd, kunt u de verschillende c
    - ui\_config.json\(kan zijn ingesteld in mapprofielen\)
    - modified `com.adobe.fmdita.config.ConfigManager`
 
-1. Als u aanpassingen hebt toegevoegd in damAssetLucene, moet u deze mogelijk opnieuw toepassen. Nadat u deze wijzigingen hebt aangebracht, stelt u de reindex in op True. Hierdoor worden alle bestaande knooppunten opnieuw gecompileerd met de aanpassingen. Nadat de rendex-markering is voltooid, wordt deze weer op false ingesteld. Dit kan een paar uur duren, afhankelijk van het aantal elementen in het systeem.
+1. Als u aanpassingen hebt toegevoegd in damAssetLucene, kan het nodig zijn deze opnieuw toe te passen. Nadat u deze wijzigingen hebt aangebracht, stelt u de index in op true. Hierdoor worden alle bestaande knooppunten opnieuw gecompileerd met de aanpassingen. Nadat de rendex-markering is voltooid, wordt deze weer op false ingesteld. Dit kan een paar uur duren, afhankelijk van het aantal elementen in het systeem.
 
 ## Stappen om de Experience Manager Guides-indexen opnieuw te indexeren
 
 1. Open `crx/de` en navigeer naar het indexpad: `/oak:index/guidesAssetProperties`
 2. Plaats het herindexbezit als `true` (`false` door gebrek) en klik **sparen allen**.
-3. Zodra de index is voltooid, wordt de eigenschap van de index opnieuw ingesteld op `false` en wordt het aantal opnieuw indexen verhoogd met 1.
+3. Zodra de redex volledig is, wordt de redex-eigenschap opnieuw ingesteld op `false` en wordt de redex-telling met 1 verhoogd.
 
    >[!NOTE]
    >
@@ -1121,7 +1121,7 @@ Voer de volgende stappen uit om de bestaande inhoud te indexeren:
 
 - De API retourneert een jobId. Als u de status van de taak wilt controleren, kunt u een aanvraag van een GET met taak-id naar hetzelfde eindpunt verzenden - `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(bijvoorbeeld: ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
-- Zodra de taak is voltooid, reageert het bovenstaande verzoek om GET met succes en wordt vermeld of kaarten niet zijn ingevuld. De met succes geïndexeerde kaarten kunnen van de serverlogboeken worden bevestigd.
+- Als de taak is voltooid, reageert het bovenstaande verzoek van de GET met succes en vermeldt u of kaarten zijn mislukt. De met succes geïndexeerde kaarten kunnen van de serverlogboeken worden bevestigd.
 
 
 >[!NOTE]

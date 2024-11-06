@@ -5,9 +5,9 @@ exl-id: 0d3a909c-3499-4ef4-b033-02e412dae959
 feature: Translation
 role: Admin
 level: Experienced
-source-git-commit: bc2348ae3342addf9ab05a3e3898fa485dba9bcf
+source-git-commit: f7ce1dc72edfcec939e5bd25bbf82c2e3907a326
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '836'
 ht-degree: 0%
 
 ---
@@ -92,6 +92,40 @@ Op basis van de vertaalworkflow die in uw installatie wordt gebruikt, moet de op
 
 1. Klik **sparen**.
 
+>[!IMPORTANT]
+>
+> Nadat u de vertaalconfiguraties hebt ingesteld, dient u de juiste Cloud Configuration in te stellen voor de taalmappen.
+
+## De workflow voor veroudering configureren
+
+>[!IMPORTANT]
+> 
+> U wordt aangeraden de nieuwste workflow voor vertaling te gebruiken, die betere prestaties biedt. Als er echter aanpassingen zijn ingeschakeld in uw huidige vertaalproces, kunt u overwegen de verouderde vertaalworkflow te gebruiken.
+
+Standaard is de optie voor de verouderde vertaalworkflow uitgeschakeld. U kunt deze optie configureren door de volgende stappen uit te voeren:
+
+1. Open de Adobe Experience Manager Web Console Configuration-pagina.
+
+   De standaard-URL voor toegang tot de configuratiepagina is:
+
+   ```http
+   http://<server name>:<port>/system/console/configMgr
+   ```
+
+1. Onderzoek naar en klik op **com.adobe.fmdita.config.ConfigManager** bundel.
+
+1. Configureer de workflowoptie voor veroudering van verouderde vertalingen volgens uw instellingen:
+
+   - (*Gebrek*) als u het recentste vertaalwerkschema wilt gebruiken, dan maak de **optie van het de vertaalwerkschema van de Looppas erfenis** onbruikbaar.
+   - Als u het erfenisvertaalwerkschema wilt gebruiken, dan laat de **optie van het de erfenisvertaalwerkschema van de Looppas** toe.
+
+1. Klik **sparen**.
+
+
+
+
+
+
 <!---
 
 This was added for 2406 CS IG
@@ -125,9 +159,7 @@ Based on the translation workflow used in your setup, provide the following (pro
 
 
 --->
->[!IMPORTANT]
->
-> Nadat u de vertaalconfiguraties hebt ingesteld, dient u de juiste Cloud Configuration in te stellen voor de taalmappen.
+
 
 ## Nabewerking van tijdelijke taalkopieën configureren
 
@@ -145,10 +177,10 @@ De optie voor naverwerken van tijdelijke bestanden is standaard uitgeschakeld. U
 
 1. Onderzoek naar en klik op **com.adobe.fmdita.config.ConfigManager** bundel.
 
-1. Vorm de **Post-proces taalexemplaren** optie zoals per uw opstelling:
+1. Vorm de **post-procestaal taalexemplaren** optie zoals per uw opstelling:
 
-   - \ (*Gebrek* \) als u niet de post-verwerkingsverrichting op de tijdelijke dossiers wilt in werking stellen, dan *maak* de **Post-procestaalexemplaren** optie onbruikbaar.
+   - \ (*Gebrek* \) als u niet de post-verwerkingsverrichting op de tijdelijke dossiers wilt in werking stellen, dan ** onbruikbaar maken **na-procestaalexemplaren** optie.
 
-   - Als u de post-verwerkingsverrichting op de tijdelijke dossiers wilt in werking stellen, dan *laat* de **Post-procestaalexemplaren** optie toe.
+   - Als u de post-verwerkingsverrichting op de tijdelijke dossiers wilt in werking stellen, dan *laat* de **na-procestaalexemplaren** optie toe.
 
 1. Klik **sparen**.

@@ -4,9 +4,9 @@ description: Nieuwste releases van AEM Guides en vereiste AEM-versies
 exl-id: 780697a9-bdc6-40c2-b258-64639fe30f88
 feature: Release Notes
 role: Leader
-source-git-commit: 75902fc7a489dda4a6c3d71901dc64eeaf5068fd
+source-git-commit: 2362870e0e3e6c08df03e8c547bb77de7faa0a02
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '816'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ AEM Guides-pakketten zijn beschikbaar in twee varianten: UUID-builds en niet-UUI
 
 ## UUID en niet-UUID builds
 
-De belangrijkste verschillen tussen de UUID- en niet-UUID-builds zijn:
+De belangrijkste verschillen tussen de UUID- en niet-UUID-builds zijn als volgt:
 
 |  | Niet-UUID-build | UUID-build |
 |---|---|---|
@@ -37,12 +37,12 @@ De belangrijkste verschillen tussen de UUID- en niet-UUID-builds zijn:
 ### Kiezen tussen de twee builds
 
 * Als u een nieuwe klant bent, raden wij u aan UUID-build te gebruiken.
-* Als u een bestaande klant bent, kunt u ervoor kiezen om naar UUID-build over te gaan, aangezien de migratie van niet-UUID naar UUID-build nu mogelijk is. Voor meer details, zie *niet-UUID aan UUID inhoudsmigratie* sectie in **installeer en vorm de Gidsen van de Manager van de Ervaring van Adobe.**
+* Als u een bestaande klant bent, kunt u ervoor kiezen om naar UUID-build over te gaan, aangezien de migratie van niet-UUID naar UUID-build nu mogelijk is. Voor meer details, zie *niet-UUID aan UUID inhoudsmigratie* sectie in **installeren en vormen Adobe Experience Manager Guides.**
 
 >[!NOTE]
 >
->* Klanten moeten bij de eerste installatie tussen de UUID- en de niet-UUID-modus beslissen (als u hulp nodig hebt, moet u contact opnemen met Customer Success Manager om u te helpen bij het nemen van de beslissing op basis van uw gebruik).
->* Wanneer u een upgrade uitvoert van een versie van AEM-hulplijnen naar een nieuwere versie, moeten klanten ervoor zorgen dat ze dezelfde modus (UUID/niet-UUID) kiezen om overeen te komen met hun bestaande modus. Een niet-UUID-build moet niet rechtstreeks worden geüpgraded naar een UUID-build. Voor de overgang van niet-UUID-build naar UUID-build is een migratie van inhoud nodig.
+>* Klanten moeten bij de eerste installatie tussen de UUID- en de niet-UUID-modus beslissen (als u hulp nodig hebt, moet u contact opnemen met Customer Success Manager om u te helpen bij het nemen van de beslissing op basis van uw gebruikersaccount).
+>* Wanneer klanten een upgrade uitvoeren van de ene versie van AEM Guides naar een nieuwere versie, moeten ze dezelfde modus (UUID/niet-UUID) kiezen om aan de bestaande modus te voldoen. Een niet-UUID-build moet niet rechtstreeks worden geüpgraded naar een UUID-build. Voor de overgang van niet-UUID-build naar UUID-build is een migratie van inhoud nodig.
 
 **Bevorderend bouwt**
 
@@ -56,19 +56,19 @@ Neem contact op met de succesmanager van uw klant om het upgradepad te valideren
 
 >[!NOTE]
 >
->Ga naar uw Customer Success Manager voor toegang tot [!DNL AEM Guides] -builds voor AEM als cloudservice.
+>Ga naar Customer Success Manager voor toegang tot [!DNL AEM Guides] builds voor AEM as a Cloud Service.
 
-De volgende lijst bevat de nieuwste [!DNL AEM Guides] pakketten die beschikbaar zijn voor installatie op AMS of On-Prem, het downloaden van koppelingen naar pakketten en andere nuttige informatie. Het wordt aanbevolen alleen de nieuwste build van [!DNL AEM Guides] te gebruiken. Als u om een of andere reden toegang nodig hebt tot oudere builds, kunt u contact opnemen met de Customer Success Manager van uw account.
+De volgende lijst bevat de meest recente [!DNL AEM Guides] -pakketten die beschikbaar zijn voor installatie op AMS of On-Prem, downloadkoppelingen van pakketten en andere nuttige informatie. Het wordt aanbevolen alleen de nieuwste build van [!DNL AEM Guides] te gebruiken. Als u om wat voor reden dan ook toegang nodig hebt tot oudere builds, kunt u verbinding maken met Customer Success Manager van uw account.
 
 
 
 >[!NOTE]
 >
->Alvorens de Gidsen van de Manager van de Ervaring te installeren, zorg uw systeem aan de [ technische vereisten ](../install-guide/download-install-technical-requirements.md) voldoet.
+>Alvorens Experience Manager Guides te installeren, zorg ervoor uw systeem aan de [ technische vereisten ](../install-guide/download-install-technical-requirements.md) voldoet.
 
-| [!DNL AEM Guides] Release | Release-opmerkingen | Downloadkoppelingen samenstellen |
+| [!DNL AEM Guides] Release | Release-opmerkingen | Downloadkoppelingen maken |
 |---|---|---|
-| **AEM Gidsen 4.6.0** | [ 4.6.1 de Instructies van de Verbetering ](upgrade-instructions-4-6-1.md)<br><br>[ 4.6.0 de instructies van de Verbetering ](./upgrade-instructions-4-6-0.md)<br><br>[ 4.6.0 nieuwe Wit ](./whats-new-4-6.md)<br><br> [ 4.6.0 Opgeloste kwesties ](./fixed-issues-4-6-0.md) | **niet-UUID AEM 6.5** <br> [ 4.6.1 ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2F4-6-1%2Fcom.adobe.fmdita-6.5-hotfix-4.6.0.1.10.zip) <br> [ 4.6.0 ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2F4-6%2Fcom.adobe.fmdita-6.5-4.6.0.164.zip) <br> **UUID AEM 6.5** <br> [ 4.6.1 ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2F4-6-1%2Fcom.adobe.fmdita.uuid-6.5-hotfix-4.6.0.1.10.zip) <br> [ 4.6.0 ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2F4-6%2Fcom.adobe.fmdita-6.5-uuid-4.6.0.164.zip) |
+| **AEM Guides 4.6.0** | [ 4.6.0 Service Pack 1 de Instructies van de Verbetering ](upgrade-instructions-4-6-0-sp1.md)<br><br>[ 4.6.0 de instructies van de Verbetering ](./upgrade-instructions-4-6-0.md)<br><br>[ 4.6.0 nieuwe Wit ](./whats-new-4-6.md)<br><br> [ 4.6.0 Vaste kwesties ](./fixed-issues-4-6-0.md) | **niet-UUID AEM 6.5** <br> [ 4.6.0 Service Pack 1 ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2F4-6-1%2Fcom.adobe.fmdita-6.5-hotfix-4.6.0.1.10.zip) <br> [ 4.6.0 ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2F4-6%2Fcom.adobe.fmdita-6.5-4.6.0.164.zip) <br> **UUID AEM 6.5** <br> [ 4.6.0 Service Pack 1 ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2F4-6-1%2Fcom.adobe.fmdita.uuid-6.5-hotfix-4.6.0.1.10.zip) <br> [ 4.6.0 ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2F4-6%2Fcom.adobe.fmdita-6.5-uuid-4.6.0.164.zip) |
 | **AEM Guides 4.4.0** | [ 4.4.0 de instructies van de Verbetering ](./upgrade-instructions-4-4.md)<br><br>[ 4.4.0 nieuwe Wit ](./whats-new-4-4.md)<br><br> [ 4.4.0 Vaste kwesties ](./fixed-issues-4-4.md) | **niet-UUID AEM 6.5** <br> [ 4.4.0 ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2F4-4%2Fcom.adobe.fmdita-6.5-4.4.0.40.zip) <br> **UUID AEM 6.5** <br>[ 4.4.0 ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2F4-4%2Fcom.adobe.fmdita-6.5-uuid-4.4.0.40.zip) |
 | **AEM Guides 4.3.0** | [ 4.3.1.5 de instructies van de Verbetering ](./upgrade-instructions-4-3-1-5.md)<br><br> [ 4.3.1 de Nota&#39;s van de Versie ](./release-notes-4-3-1.md)<br><br>[ 4.3.0 de Nota&#39;s van de Versie ](./release-notes-4-3.md) | **niet-UUID AEM 6.5** <br>[ 4.3.1.5 ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2F4-3-1-5%2Fcom.adobe.fmdita-6.5-hotfix-4.3.1.5.1.zip) <br> [ 4.3.1 ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2F4-3-1%2Fcom.adobe.fmdita-6.5-4.3.1.390.zip) <br> [ 4.3.0 ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2F4-3%2Fcom.adobe.fmdita-6.5-4.3.0.347.zip) <br> **UUID AEM 6.5** <br>[ 4.3.1.5 ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2F4-3-1-5%2Fcom.adobe.fmdita.uuid-6.5-hotfix-4.3.1.5.1.zip) <br> [ 4.3.1 ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2F4-3-1%2Fcom.adobe.fmdita-6.5-uuid-4.3.1.390.zip) <br>[ 4.3.0 ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2F4-3%2Fcom.adobe.fmdita-6.5-uuid-4.3.0.347.zip) |
 | **AEM Guides 4.2** | [ 4.2.1 de Nota&#39;s van de Versie ](release-notes-4-2-1.md)<br> <br> [ 4.2 de Nota&#39;s van de Versie ](./release-notes-4-2.md) | **niet-UUID**: <br> **AEM 6.5** <br>[ 4.2.1 ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2F4-2-1%2F4-2-1-non-uuid%2Fcom.adobe.fmdita-6.5-4.2.1.270.zip) <br>[ 4.2 ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2F4-2%2F4-2-non-uuid%2Fcom.adobe.fmdita-6.5-4.2.229.zip) <br><br> **UUID** <br>**AEM 6.5** <br>[ 4.2.1 ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2F4-2-1%2F4-2-1-uuid%2Fcom.adobe.fmdita-6.5-uuid-4.2.1.270.zip) <br>[ 4.2 ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2F4-2%2F4-2-uuid%2Fcom.adobe.fmdita-6.5-uuid-4.2.229.zip) <br> |
