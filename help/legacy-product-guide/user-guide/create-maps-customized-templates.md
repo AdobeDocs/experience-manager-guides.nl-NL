@@ -1,9 +1,10 @@
 ---
 title: Kaarten maken op basis van aangepaste sjablonen
 description: Leer een aangepaste sjabloon te maken, deze te gebruiken om nieuwe kaartbestanden te maken en de gedefinieerde titel door te geven aan een DITA-kaart in AEM Guides.
+exl-id: 9cb0035f-bf81-4ab5-a575-53851bbff494
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
 source-wordcount: '1103'
 ht-degree: 0%
@@ -93,18 +94,17 @@ Het bericht voor het maken van de kaartsjabloon wordt weergegeven. U kunt de sja
 Uw beheerder kan ook een map maken en deze zo configureren dat deze de map is waarin u de sjablonen kunt maken en opslaan.
 
 Gebaseerd op uw opstelling leert hoe te om de weg van de malplaatjeomslag van douaneDITA te vormen:
+<details>
+    <summary> Cloud Servicen </summary>
 
-+++ Cloud Servicen
+Leer hoe te om [ de weg van de malplaatjemap van douaneDITA ](../install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) in de Gids van de Installatie en van de Configuratie van Cloud Servicen te vormen.
+</details>
 
-Leer hoe te om [ de weg van de malplaatjemap van douaneDITA ](/help/product-guide/install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z){target="_blank"} in de Gids van de Installatie en van de Configuratie van Cloud Servicen te vormen.
+<details>
+    <summary> Software op locatie</summary>
 
-+++
-
-+++ Software op locatie
-
-Leer hoe te om [ de weg van de malplaatjeomslag van douaneDITA ](/help/product-guide/cs-install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) in de Gids van de Installatie en van de Configuratie op locatie te vormen.
-
-+++
+Leer hoe te om [ de weg van de malplaatjeomslag van douaneDITA ](../cs-install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) in de Gids van de Installatie en van de Configuratie op locatie te vormen.
+</details>
 
 ## De titel doorgeven die is gedefinieerd in de sjablonen
 

@@ -1,11 +1,12 @@
 ---
 title: Onderwerpen bewerken in de webeditor
 description: Leer onderwerpen te bewerken in de webeditor. U kent verschillende bewerkingsfuncties om uw onderwerpbestanden in AEM Guides te wijzigen.
+exl-id: 8da37a81-e8c3-434f-b3f4-4723d87c2ade
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '1055'
 ht-degree: 0%
 
 ---
@@ -38,11 +39,13 @@ De Redacteur van het Web komt met een waaier van het uitgeven eigenschappen die 
 ## Gedeeltelijke selectie van inhoud tussen elementen
 
 Met Experience Manager Guides kunt u ook inhoud selecteren voor verschillende elementen. Nadat u de inhoud hebt geselecteerd, kunt u de volgende bewerkingen uitvoeren:
+
 - Opmaak en verwijderen: de geselecteerde inhoud vet maken, cursief maken, onderstrepen of zelfs verwijderen. De inhoud van de geldige open labels wordt vervolgens samengevoegd en weergegeven onder één element. U kunt bijvoorbeeld de inhoud in een alinea selecteren en de selectie uitbreiden naar een andere alinea. Als u de geselecteerde inhoud vervolgens vet maakt, wordt alle vette inhoud van de geopende labels samengevoegd en weergegeven onder één alinea-element.
 
 Als u de geselecteerde inhoud verwijdert, wordt de resterende inhoud na het verwijderen in de geopende tags samengevoegd.
 
 - Omring de inhoud met een geldig element: voer de volgende stappen uit om de inhoud te laten omlopen met een geldig element:
+
    - Selecteer de inhoud in een element.
    - Selecteer ![ voeg ](images/Add_icon.svg) pictogram van de secundaire toolbar op de bovenkant toe om **Surround met de dialoogdoos van het Element** te bekijken. In het dialoogvenster worden de geldige elementen voor de geselecteerde inhoud weergegeven.
      >[!NOTE]
@@ -73,7 +76,27 @@ AEM Guides geeft ook aan of de laatst opgeslagen \(werkende\) kopie van het best
 ![ de updateindicator van de Versie ](images/version-update-indicator.png){width="550" align="left"}
 
 
+## Vergrendelde bestanden openen in de modus Auteur en Source
 
+Wanneer een DITA- of Markdown-bestand is vergrendeld of uitgecheckt door een andere gebruiker, is het niet mogelijk de inhoud te bewerken of te wijzigen. Nochtans, kunt u het dossier in een read-only formaat in zowel de **Auteur** als **Source** wijzen, naast de **** wijze van de Voorproef nog bekijken.
+
+Op de read-only wijze, hebt u de capaciteit om de inhoud, de markeringen, en de attributen binnen de **Auteur** of **Source** wijzen te bekijken. U kunt ook de bestandseigenschappen wijzigen.
+
+Op de werkbalk worden de volgende pictogrammen weergegeven voor alleen-lezen toegang:
+
+- Tagweergave in-/uitschakelen
+- Versiehistorie
+- Versielabel
+
+Experience Manager Guides toont ook a **Gelezen slechts toegangs** indicator dichtbij het versieaantal.
+
+![ mening read slechts dossier op auteurswijze ](images/locked-file-editor.png)
+
+U kunt tot de **mening van de Lay-out** voor read-only kaarten toegang hebben DITA. In deze weergave ziet u de DITA-kaart en de bijbehorende eigenschappen, maar voorkomt u bewerkingen.
+
+>[!NOTE]
+>
+> Uw omslag-niveau administratieve gebruikers moeten *ui_config.json* bijwerken zodat u tot de read-only dossiers in de Auteur, Source, en wijzen van de Lay-out kunt harmonieus toegang hebben.
 
 ## Een geopend bestand zoeken in de Weergave opslagplaats
 

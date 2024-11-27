@@ -1,11 +1,12 @@
 ---
 title: HTML5 gebruiken
 description: Leer hoe u een HTML5-voorinstelling maakt via het dashboard voor de webeditor en de kaart. HTML5-uitvoervoorinstelling configureren in AEM Guides.
+exl-id: b54bf3a0-7a13-41a0-ae72-cdf2caf8d974
 feature: Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
-source-wordcount: '1187'
+source-wordcount: '1226'
 ht-degree: 0%
 
 ---
@@ -40,7 +41,7 @@ Het **Algemene** lusje bevat de volgende configuraties:
 Het tabblad Geavanceerd bevat de volgende configuraties:
 
 - Transformatienaam
-- Tijdelijke bestanden downloaden
+- Tijdelijke bestanden behouden
 - Bestandseigenschappen
 
 Voor details, verwijs naar [ HTML5 configuratie ](#id231KJA00REJ).
@@ -64,7 +65,8 @@ De volgende opties zijn beschikbaar voor de uitvoer van HTML5:
 | Bestandsnaam | Geef de bestandsnaam op waarmee u de HTML5-uitvoer wilt opslaan.<br><br>**Nota**:Als u geen dossier verstrekt - noem, dan wordt de titel van de kaart DITA gebruikt om de definitieve naam van het HTML5 outputdossier te produceren. Als de kaart geen titel heeft, dan wordt de het dossiernaam van de kaart DITA gebruikt aan naam de definitieve HTML5 output. De bestandsnaam wordt ontsmet volgens de regels die in het systeem zijn geconfigureerd voor het verwerken van elk ongeldig teken. |
 | Workflow na generatie uitvoeren | Wanneer u deze optie kiest, wordt een nieuwe vervolgkeuzelijst Werkstroom na generatie weergegeven met alle werkstromen die in AEM zijn geconfigureerd. U moet een werkstroom selecteren die u wilt uitvoeren nadat de werkstroom van de outputgeneratie is voltooid.<br><br>**Nota**:Voor meer informatie over het creëren van een werkschema van de douanepost-output generatie, zie _werkschema van de post-outputgeneratie aanpassen_ in installeer en vorm Adobe Experience Manager Guides as a Cloud Service. |
 | Doelpad | Het pad in uw AEM opslagplaats waar de HTML5-uitvoer wordt opgeslagen. |
-| Tijdelijke bestanden downloaden | Selecteer deze optie om de tijdelijke bestanden te downloaden die door DITA-OT worden gegenereerd. De plaats waar DITA-OT tijdelijke dossiers opslaat kan in het logboek van de outputgeneratie worden gevonden. Als er fouten optreden bij het genereren van uitvoer via DITA-OT, selecteert u deze optie om de tijdelijke bestanden te behouden. U kunt die dossiers dan gebruiken om de fouten van de outputgeneratie problemen op te lossen.<br> <br> Na het produceren van de output, selecteer het **tijdelijke dossiers van de Download** ![ pictogram van de download tijdelijke dossiers ](images/download-temp-files-icon.png) om de omslag te downloaden van het PIT die de tijdelijke dossiers bevat. <br><br> **Nota**: Als u sommige dossiereigenschappen selecteert en dan de tijdelijke dossiers downloadt, krijgt u ook het {*dossier 2} metadata.xml in de omslag van het PIT.* |
+| Tijdelijke bestanden behouden | Selecteer deze optie om de tijdelijke bestanden te behouden die door DITA-OT worden gegenereerd. Als er fouten optreden bij het genereren van uitvoer via DITA-OT, selecteert u deze optie om de tijdelijke bestanden te behouden. U kunt die dossiers dan gebruiken om de fouten van de outputgeneratie problemen op te lossen.<br> <br> Na het produceren van de output, selecteer het **tijdelijke dossiers van de Download** ![ pictogram van de download tijdelijke dossiers ](images/download-temp-files-icon.png) om de omslag te downloaden van het PIT die de tijdelijke dossiers bevat. <br><br> **Nota**: Als de dossiereigenschappen tijdens generatie worden toegevoegd, omvatten de output tijdelijke dossiers ook a *metadata.xml* dossier die die eigenschappen bevatten. |
+| Bestandshiërarchie afvlakken | Selecteer de optie om de HTML5-uitvoer te genereren in een platte maphiërarchie. De volledige inhoud wordt gepubliceerd in de indeling HTML5-uitvoer in een platte bestandshiërarchie en wordt in één map opgeslagen. <br> Als u deze optie uitschakelt, wordt de uitvoer gegenereerd in een geneste maphiërarchie en wordt de volledige mapstructuur gerepliceerd. |
 | Basislijn gebruiken | Als u een basislijn voor de geselecteerde kaart hebt gecreeerd DITA, selecteer deze optie om de versie te specificeren die u wilt publiceren.<br><br> zie [ Werk met Basislijn ](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) voor meer detail. |
 | Bestandseigenschappen | Selecteer de eigenschappen die u als metagegevens wilt verwerken. Deze eigenschappen worden ingesteld op de pagina Eigenschappen van de DITA-kaart of het bladwijzerbestand. De eigenschappen u van de dropdown lijst selecteert verschijnen onder het **gebied van de Eigenschappen van het Dossier 0} {.** Selecteer het kruispictogram naast de eigenschap om deze te verwijderen. <br><br>**Nota**: U kunt de meta-gegevens tot de output ook overgaan gebruikend DITA-OT het publiceren. Voor meer details zie, [ pas op de meta-gegevens aan de output over gebruikend DITA-OT ](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
 

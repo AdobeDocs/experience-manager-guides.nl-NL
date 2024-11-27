@@ -1,9 +1,10 @@
 ---
 title: Citaten in uw inhoud toevoegen en beheren
 description: Voeg citaten toe en beheer citations in AEM Guides. Leer hoe u inhoud met citaten toepast, importeert, filtert, zoekt, wijzigt, aanhalingsstijl, bewerkt, voorvertoning, invoegt, verwijdert en genereert.
+exl-id: 685d747d-e017-4350-a6bf-822fd55c76e8
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
 source-wordcount: '1887'
 ht-degree: 0%
@@ -48,12 +49,12 @@ Het **paneel van Bevragingen** opent.
 
    >[!NOTE]
    >
-   >U kunt ISBN of DOI of identiteitskaart ook toevoegen PubMed. AEM Guides vult de andere velden automatisch in.
+   >U kunt ook de ISBN, DOI of PubMed-id toevoegen. AEM Guides vult de andere velden automatisch in.
 
    | Boek | Website | Dagboek |
    | --- | ---|---|
    | **Source** <br> van drop-down, selecteer de bron van de citatie als Boek. | **Source**<br> van drop-down, selecteer de bron van de citatie als Website. | **Source** <br> van drop-down, selecteer de bron van de citatie als Dagboek. |
-   | **Onderzoek door** <br> Uitgezocht **ISBN** of **DOI** van drop-down aan onderzoek naar digitale identiteitskaart verbonden aan de citatie.  <br> DOI: digitale object-id <br> ISBN: unieke numerieke boek-id | **Onderzoek door** <br> Uitgezocht **DOI** van drop-down aan onderzoek naar digitale identiteitskaart verbonden aan de citatie. | **Onderzoek door** <br> Uitgezocht **DOI** of identiteitskaart PubMed van drop-down aan onderzoek naar digitale identiteitskaart verbonden aan de citatie. <br>  <br> |
+   | **Onderzoek door** <br> Uitgezochte **ISBN** of **DOI** van drop-down aan onderzoek naar digitale identiteitskaart verbonden aan de citatie.  <br> DOI: Digital Object Identifier <br> ISBN: unieke numerieke boek-id | **Onderzoek door** <br> Uitgezocht **DOI** van drop-down aan onderzoek naar digitale identiteitskaart verbonden aan de citatie. | **Onderzoek door** <br> Uitgezocht **DOI** of identiteitskaart PubMed van drop-down aan onderzoek naar digitale identiteitskaart verbonden aan de citatie. <br>  <br> |
    | **Auteur** <br> voegt de eerste en familienaam van de auteur van de citatie toe. Selecteer ![](images/Add_icon.svg) om meer namen toe te voegen. | **Auteur** <br> voegt de eerste en familienaam van de auteur van de citatie toe. Selecteer ![](images/Add_icon.svg) om meer namen toe te voegen. | **Auteur** <br> voegt de eerste en familienaam van de auteur van de citatie toe. Selecteer ![](images/Add_icon.svg) om meer namen toe te voegen. |
    | **Titel** <br> voegt de titel van het boek toe. | **Titel** <br> voegt de titel van de Web-pagina toe. | **Titel** <br> voegt de titel van het artikel toe. |
    | **Redacteur** <br> voegt de redacteur van het boek toe. | **de Naam van de Website** <br> voegt de naam van de website toe. | **Titel van het Dagboek** <br> voegt de titel van het werk toe waarin het artikel wordt gevonden. |
@@ -257,10 +258,10 @@ Nadat u citaten in het onderwerp hebt ingevoegd, kunt u inhoud met citaten publi
 
 In de uitvoer Native PDF worden de citaten weergegeven binnen de inhoud waarin u ze hebt ingevoegd. U kunt ook een bibliografiepagina maken. Wanneer u op een aanhalingsteken klikt, wordt u omgeleid naar de bibliografiepagina.
 
-Creeer de paginalay-out van de a **Bevelen** in de malplaatjes van de PDF, en neem het in uw document op. Alle citaten die in het boek worden gebruikt worden vermeld op één pagina die in de output van PDF verschijnt. Meer leren over het creëren van een paginalay-out, mening [ creeer een paginalay-out ](/help/product-guide/native-pdf/components-pdf-template.md#create-page-layout).
+Creeer de paginalay-out van de a **Bevelen** in de malplaatjes van de PDF, en neem het in uw document op. Alle citaten die in het boek worden gebruikt worden vermeld op één pagina die in de output van PDF verschijnt. Meer leren over het creëren van een paginalay-out, mening [ creeer een paginalay-out ](../native-pdf/components-pdf-template.md#create-page-layout).
 
 
-Om de mening en het gevoel van de citaatpagina te veranderen, past de mening [ PDF malplaatjes ](/help/product-guide/native-pdf/pdf-template.md) aan.
+Om de mening en het gevoel van de citaatpagina te veranderen, past de mening [ PDF malplaatjes ](../native-pdf/pdf-template.md) aan.
 
 
 
@@ -272,4 +273,4 @@ Pas het formatteren op de citatie toe wanneer toegevoegd aan het onderwerp.
 
 1. Zoek in het deelvenster Zoeken naar `<cite>` .
 
-Om meer over stijlen te leren, mening [ Werk met de gemeenschappelijke inhoudsstijlen ](/help/product-guide/native-pdf/stylesheet.md).
+Om meer over stijlen te leren, mening [ Werk met de gemeenschappelijke inhoudsstijlen ](../native-pdf/stylesheet.md).

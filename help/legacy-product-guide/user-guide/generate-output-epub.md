@@ -1,9 +1,10 @@
 ---
 title: Voorinstelling ePub
 description: Leer hoe u een voorinstelling voor EPUB maakt via het kaartdashboard. EPub-uitvoervoorinstelling configureren in AEM Guides.
+exl-id: b6fb5483-064e-4552-84c7-b6723b79d8c5
 feature: Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 0%

@@ -1,9 +1,10 @@
 ---
 title: Publiceren op basis van artikelen vanuit de webeditor
 description: Leer hoe u een of meer artikelen publiceert vanuit de webeditor. Produceer output voor één of meerdere onderwerpen in een kaart DITA in AEM Guides.
+exl-id: d89ce69d-8d4c-4265-bfca-60763f561afd
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 0%

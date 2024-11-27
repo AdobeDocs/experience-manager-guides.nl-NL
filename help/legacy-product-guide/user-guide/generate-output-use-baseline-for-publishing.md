@@ -1,9 +1,10 @@
 ---
 title: Werken met basislijn
 description: Weet het gebruik van Baselines in AEM Guides. Leer hoe u vertaalde basislijnen maakt, weergeeft, bewerkt, dupliceert, verwijdert, toevoegt en exporteert.
+exl-id: 0554947f-3038-4fd2-8a62-ac0d4b858e94
 feature: Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
 source-wordcount: '1960'
 ht-degree: 0%

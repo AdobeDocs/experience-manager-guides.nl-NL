@@ -1,9 +1,10 @@
 ---
 title: Uitvoer activeren
 description: De uitvoer van DITA-kaarten activeren in AEM Guides. Leer hoe u uw inhoud activeert op het publicatieexemplaar.
+exl-id: 4da644b9-8c5f-4976-a212-960085b693b8
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 0%

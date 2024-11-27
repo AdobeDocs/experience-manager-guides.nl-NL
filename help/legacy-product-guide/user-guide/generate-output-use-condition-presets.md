@@ -1,9 +1,10 @@
 ---
 title: Voorinstellingen voor voorwaarden gebruiken
 description: Zorg dat u weet hoe voorinstellingen voor voorwaarden in AEM Guides worden gebruikt. Leer voorinstellingen voor voorwaarden in AEM maken, bewerken, kopiëren en verwijderen.
+exl-id: f6865a34-abdd-4d23-b903-0211bebd13b7
 feature: Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
 source-wordcount: '1210'
 ht-degree: 0%
@@ -71,7 +72,7 @@ Voer een van de volgende handelingen uit:
    >
    > U geeft een waarschuwing weer als u een andere voorinstelling selecteert of de voorinstelling sluit zonder deze op te slaan.
 
-Zodra u een voorwaarde vooraf ingesteld creeert, verschijnt het onder de **Vooraf ingestelde Voorwaarde** dropdown van de Output vooraf instelt. Leer meer over hoe te [ de output van de PDF van Publish ](/help/product-guide/web-editor/native-pdf-web-editor.md).
+Zodra u een voorwaarde vooraf ingesteld creeert, verschijnt het onder de **Vooraf ingestelde Voorwaarde** dropdown van de Output vooraf instelt. Leer meer over hoe te [ de output van de PDF van Publish ](../web-editor/native-pdf-web-editor.md).
 
 ### De naam van een voorinstelling voor een voorwaarde wijzigen
 

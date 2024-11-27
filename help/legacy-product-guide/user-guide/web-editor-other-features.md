@@ -1,9 +1,10 @@
 ---
 title: Andere functies in de webeditor
 description: Andere functies van de webeditor in AEM Guides verkennen. Leer hoe u deze functies kunt gebruiken voor verbeterd ontwerpen in AEM Guides.
+exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
 source-wordcount: '2532'
 ht-degree: 0%
@@ -156,26 +157,26 @@ Afhankelijk van of het bestand vergrendeld/ontgrendeld is en of de opgeslagen of
 
 - De webeditor ondersteunt verklarende woordenlijsten van DITA die u kunt invoegen door `term` - of `abbreviated-form` -elementen toe te voegen.
 
-**vergelijkingen van het Tussenvoegsel MathML**
+**de vergelijkingen van MathML van het Tussenvoegsel**
 
-- Experience Manager Guides geeft u een uit-van-de-doos steun voor het opnemen van vergelijkingen MathML door integratie met ](https://docs.wiris.com/en/mathtype/mathtype_web/intro) toepassing van het Web 0} MathType. [ Om een vergelijking MathML op te nemen, selecteer het **pictogram van het Element van het Tussenvoegsel** en type mathml. Wanneer u mathml element van de lijst selecteert, wordt de **dialoog van het Tussenvoegsel MathML** getoond:
+- Experience Manager Guides geeft u een out-of-the-box steun voor het opnemen van de vergelijkingen van MathML door integratie met ](https://docs.wiris.com/en/mathtype/mathtype_web/intro) toepassing van het Web MathType [. Om een vergelijking van MathML op te nemen, selecteer het **pictogram van het Element van het Tussenvoegsel** en type mathml. Wanneer u mathml element van de lijst selecteert, wordt de **dialoog van MathML van het Tussenvoegsel** getoond:
 
 ![ neem mathml vergelijking in mathml redacteur op ](images/insert-mathml-equation.png){width="550" align="left"}
 
-Gebruikend de MathML vergelijkingshulpmiddelen, creeer uw vergelijking en klik **Tussenvoegsel** om het aan uw document toe te voegen. De vergelijking wordt ingevoegd met lichtgrijze achtergrond, zoals hieronder wordt getoond:
+Gebruikend de de vergelijkingshulpmiddelen van MathML, creeer uw vergelijking en klik **Tussenvoegsel** om het aan uw document toe te voegen. De vergelijking wordt ingevoegd met lichtgrijze achtergrond, zoals hieronder wordt getoond:
 
 ![ steekproef mathml vergelijking ](images/sample-mathml-equation.PNG){width="400" align="left"}
 
 Op elk ogenblik kunt u een vergelijking bijwerken door op een bestaande vergelijking met de rechtermuisknop te klikken en **te selecteren geeft MathML** van het contextmenu uit.
 
-- **Bevestiging van vergelijkingen in de redacteur MathML**
+- **Bevestiging van vergelijkingen in de redacteur van MathML**
 
-  Experience Manager Guides valideert MathML vergelijkingen wanneer u sparen een onderwerp dat hen bevat.
-Wanneer u een vergelijking gebruikend de redacteur MathML opneemt, benadrukt Experience Manager Guides de vergelijking in rood als er om het even welke syntaxiskwesties zijn. U kunt dit corrigeren voordat u het invoegt. Als u geen veranderingen aanbrengt maar **uitgezocht Tussenvoegsel** selecteert, toont het een waarschuwing.
+  Experience Manager Guides valideert MathML-vergelijkingen wanneer u een onderwerp opslaat dat ze bevat.
+Als u een vergelijking invoegt met de MathML-editor, wordt de vergelijking rood gemarkeerd als er syntaxisproblemen zijn. U kunt dit corrigeren voordat u het invoegt. Als u geen veranderingen aanbrengt maar **uitgezocht Tussenvoegsel** selecteert, toont het een waarschuwing.
 
   ![ bevestigt mathml vergelijking ](images/validate-mathml-equation.png){width="400" align="left"}
 
-  Als u de vergelijking MathML opneemt die een syntaxisfout bevat, komt een bevestigingsfout voor wanneer u probeert om het onderwerp op te slaan.
+  Als u de vergelijking van MathML opneemt die een syntaxisfout bevat, komt een bevestigingsfout voor wanneer u probeert om het onderwerp op te slaan.
 
 
 **neem voetnoten** op
@@ -215,7 +216,7 @@ Naast het contextmenu van de broodkruimel, kan het anders noemen de dialoog van 
 
 **Witruimte behandeling voor elementen DITA**
 
-- In XML omvatten witruimten spaties, tabs, regeleinden en lege regels. Experience Manager Guides converteert meerdere overeenkomende witruimten naar één spatie. Dit helpt u de mening WYSIWYG van de Redacteur van het Web bewaren.
+- In XML omvatten witruimten spaties, tabs, regeleinden en lege regels. Experience Manager Guides converteert meerdere overeenkomende witruimten naar één spatie. Zo kunt u de WYSIWYG-weergave van de webeditor behouden.
 
   >[!NOTE]
   >

@@ -1,9 +1,10 @@
 ---
 title: Aanbevolen procedures voor het vertalen van inhoud
 description: Weet de beste werkwijzen voor het vertalen van inhoud in AEM Guides. Leer hoe u de vertaalservice configureert, een nieuw vertaalproject maakt en de vertaaltaak start.
+exl-id: f2a4df86-bba7-434c-b7f9-3587b8a4f9bc
 feature: Translation
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
 source-wordcount: '1295'
 ht-degree: 0%

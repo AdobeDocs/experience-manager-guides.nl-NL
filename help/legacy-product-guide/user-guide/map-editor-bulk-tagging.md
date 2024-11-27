@@ -1,9 +1,10 @@
 ---
 title: Labels in bulk voor DITA-inhoud
 description: Gebruik bulksgewijs labelen van inhoud in AEM Guides om de ontdekkingsmogelijkheden voor DITA-inhoud te verbeteren. Leer hoe u bulkcodes op één of meerdere onderwerpen toepast, verwijdert, weergeeft of verbergt.
+exl-id: 4c6639a3-333b-44ad-9aec-735a327c3320
 feature: Metadata Management
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%

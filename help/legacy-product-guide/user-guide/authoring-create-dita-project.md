@@ -1,9 +1,10 @@
 ---
 title: Een DITA-project maken
 description: Maak een DITA-project met een sjabloon in AEM Guides. Leer hoe u een DITA-project kunt gebruiken om de revisies te starten.
+exl-id: 0cd83fe3-1764-4f04-ae11-0b71b6ac576c
 feature: Reviewing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%

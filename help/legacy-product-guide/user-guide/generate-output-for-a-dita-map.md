@@ -1,9 +1,10 @@
 ---
 title: Produceer output voor een kaart DITA van de kaartconsole
 description: Produceer output voor een kaart DITA van de kaartconsole in AEM Guides. Zorg voor meer informatie over het genereren van uitvoer en hoe u de status kunt bekijken, een uitvoertaak kunt annuleren en verwijderen.
+exl-id: d6cbd44c-e74c-4192-bcc4-fb7752c59508
 feature: Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
 source-wordcount: '1418'
 ht-degree: 0%

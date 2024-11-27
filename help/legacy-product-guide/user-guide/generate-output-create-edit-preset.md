@@ -1,9 +1,10 @@
 ---
 title: Een uitvoervoorinstelling maken, bewerken, dupliceren of verwijderen
 description: Leer hoe u een aangepaste uitvoervoorinstelling in AEM Guides maakt, bewerkt, dupliceert en verwijdert.
+exl-id: 0522a49d-4dce-4456-bfdc-7ff9261ae04c
 feature: Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 0%

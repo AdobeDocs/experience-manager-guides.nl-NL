@@ -3,7 +3,8 @@ title: Een onderwerp naar een ervaringsfragment Publish
 description: Publish een onderwerp of de elementen binnen een onderwerp aan een Fragment van de Ervaring in AEM Guides.  Leer hoe te om de Fragments van de Ervaring voor een onderwerp te bekijken en hen opnieuw te publiceren.
 feature: Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+exl-id: 4cdce8c2-2ccf-4bf1-8b92-4dfeb10de186
+source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 0%
@@ -60,7 +61,7 @@ Bijvoorbeeld:
 
 
 
-     Uw beheerder kan de afbeeldingen in het {*dossier toevoegen 0} experienceFragmentMapping.json.*  Leer meer over hoe te om [ een afbeelding tussen een onderwerp en een Fragment van de Ervaring ](/help/product-guide/cs-install-guide/conf-experience-fragment-mapping-cs.md) in de Gids van de Installatie en van de Configuratie tot stand te brengen.
+     Uw beheerder kan de afbeeldingen in het {*dossier toevoegen 0} experienceFragmentMapping.json.*  Leer meer over hoe te om [ een afbeelding tussen een onderwerp en een Fragment van de Ervaring ](../cs-install-guide/conf-experience-fragment-mapping-cs.md) in de Gids van de Installatie en van de Configuratie tot stand te brengen.
 
    * U kunt ook verschillende voorwaarden selecteren om de inhoud te publiceren.  Selecteer een van de volgende opties:
 
