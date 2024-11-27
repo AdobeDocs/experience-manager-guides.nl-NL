@@ -3,8 +3,7 @@ title: Site AEM
 description: Maak en configureer AEM sites die vooraf in AEM Guides zijn ingesteld via het kaartdashboard. Gebruik AEM sites die ondersteuning bieden voor het genereren van op artikelen gebaseerde uitvoer, het publiceren van gekoppelde onderwerpen, conref en het zoeken naar een tekenreeks binnen de inhoud.
 feature: Publishing
 role: User
-exl-id: 641c98ca-b815-4176-abf5-a12c31ff4496
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '2404'
 ht-degree: 0%

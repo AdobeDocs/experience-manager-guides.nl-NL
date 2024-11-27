@@ -1,10 +1,9 @@
 ---
 title: Inleiding tot de uitvoervoorinstellingen
 description: Publish FrameMaker documents in AEM Guides. Leer hoe u uitvoer voor FrameMaker documenten kunt genereren in de indelingen PDF, HTML5 en EPUB.
-exl-id: fa682007-68d6-415b-b9c2-acd5d9fc1aae
 feature: Publishing FrameMaker Documents
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 0%

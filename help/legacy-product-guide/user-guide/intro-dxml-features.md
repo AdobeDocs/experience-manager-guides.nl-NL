@@ -1,10 +1,9 @@
 ---
 title: Belangrijke AEM Guides-functies
 description: Ontdek de belangrijkste functies in AEM Guides, DITA-authoring, contentbeheer, webgebaseerde revisie, vertaling, lokalisatie, meerkanaals publiceren en integratie van FrameMaker.
-exl-id: 978d7027-08da-40f7-ae9e-bb4d559a84dc
 feature: Introduction
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '938'
 ht-degree: 0%

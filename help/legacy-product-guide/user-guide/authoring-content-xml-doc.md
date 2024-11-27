@@ -1,10 +1,9 @@
 ---
 title: Inhoud autoriseren met AEM Guides
 description: Creëer inhoud efficiënt met AEM Guides. Leer hoe u documenten maakt, bewerkt en publiceert in AEM Guides.
-exl-id: 9e29dde4-a9de-41e0-86c8-ca949bd3669c
 feature: Authoring
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 0%

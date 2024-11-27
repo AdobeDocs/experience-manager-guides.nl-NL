@@ -1,10 +1,9 @@
 ---
 title: Bestanden uploaden
 description: Leer hoe u uw bestanden uploadt naar de AEM opslagplaats en fouten verwerkt. De middelen van de console van kennis gebruikersinterface, AEM Desktop app, activa bulkingestor, en gebruiken FrameMaker voor bulkupload.
-exl-id: b5430242-1122-43df-a0b2-275b1dea33f2
 feature: Content Management
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 0%

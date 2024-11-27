@@ -1,10 +1,9 @@
 ---
 title: Documenten vertalen vanuit de webeditor
 description: Vertaal uw inhoud vanuit de webeditor naar meerdere talen. Leer hoe u een vertaalproject maakt, regels toevoegt, versies weergeeft en bestanden die niet gesynchroniseerd zijn in AEM Guides kunt negeren.
-exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '2343'
 ht-degree: 0%
@@ -223,7 +222,7 @@ Uw beheerder kan de **Opschoning van het Vertaalproject na voltooiing** optie on
 
 Voor het uitvoeren van documentbeheer biedt Experience Manager Guides de mogelijkheid om de vertaalprojecten te verwijderen nadat u de vertaling hebt voltooid.
 
-U kunt de vertaalprojecten ook onbruikbaar maken als u hen later wilt gebruiken. Als u een project verwijdert, worden alle bestanden en mappen in het project verwijderd. Als u een project uitschakelt, wordt het niet verwijderd, maar wordt het bijgehouden in de opslagplaats. U kunt een uitgeschakeld project echter niet bijwerken of bewerken.  Het verwijderen of uitschakelen van een project heeft geen invloed op de vertaalstatus van verwijzingen.
+U kunt de vertaalprojecten ook onbruikbaar maken als u hen later wilt gebruiken. Als u een project verwijdert, worden alle bestanden en mappen in het project verwijderd. Als u een project uitschakelt, wordt het niet verwijderd, maar in de opslagplaats bewaard. Maar u kunt een gehandicapt project niet bijwerken of uitgeven.  Het verwijderen of uitschakelen van een project heeft geen invloed op de vertaalstatus van verwijzingen.
 
 
 **Bovenliggend onderwerp:**[ Werk met de Redacteur van het Web ](web-editor.md)

@@ -1,10 +1,9 @@
 ---
 title: Rapport voor versiehistorie van teruggedraaide bestanden
 description: Rapporten over versiehistorie van omgekeerde bestanden weergeven in AEM Guides. Leer hoe u versielogboeken kunt terugkeren vanuit de gebruikersinterface van Assets, de voorvertoning van onderwerpen en de selectie van AEM.
-exl-id: 74bef625-acd6-49a6-b983-881a782f68d6
 feature: Report Generation
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%

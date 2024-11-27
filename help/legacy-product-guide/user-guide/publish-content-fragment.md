@@ -1,10 +1,9 @@
 ---
 title: Een onderwerp naar een inhoudsfragment Publish
 description: Publish een onderwerp of de elementen binnen een onderwerp aan een Fragment van de Inhoud in AEM Guides.  Leer hoe te om de aanwezige Fragments van de Inhoud voor een onderwerp te bekijken en hen opnieuw te publiceren.
-exl-id: b1769e48-d721-4e93-b10f-04b385272be7
 feature: Publishing
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
@@ -53,7 +52,7 @@ Voeg bijvoorbeeld `/conf/we-retail` toe in de cloudconfiguratie. Deze configurat
      > 
      > De voorwaarden worden toegelaten slechts als voorwaardelementen in het onderwerp worden bepaald.
 
-      * **niets**: selecteer deze optie als u geen voorwaarde op de gepubliceerde output wilt toepassen.
+      * **niets**: Selecteer deze optie als u geen voorwaarde op de gepubliceerde output wilt toepassen.
       * **Gebruikend DITAVAL**: Selecteer het DITAVAL dossier om specifieke inhoud in de geproduceerde output te omvatten of uit te sluiten. U kunt het DITAVAL-bestand selecteren in het dialoogvenster Bladeren of door het bestandspad te typen.
       * **Gebruikend attributen**: U kunt voorwaardenattributen in uw onderwerpen bepalen DITA. Selecteer vervolgens het kenmerk condition om de relevante inhoud te publiceren.
 
@@ -86,7 +85,7 @@ De rechterzijde wordt gevuld met de inhoud van het gepubliceerde inhoudsfragment
    *Mening de fragmenten van de Inhoud aanwezig voor een onderwerp en herpubliceer hen.*
 
 
-Nadat u de inhoudsfragmenten hebt gepubliceerd, kunt u deze ook op elke Adobe Experience Manager-site gebruiken.
+Nadat u de inhoudsfragmenten hebt gepubliceerd, kunt u deze ook gebruiken in elke Adobe Experience Manager-site.
 
 
 

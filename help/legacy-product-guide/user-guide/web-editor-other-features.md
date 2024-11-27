@@ -1,10 +1,9 @@
 ---
 title: Andere functies in de webeditor
 description: Andere functies van de webeditor in AEM Guides verkennen. Leer hoe u deze functies kunt gebruiken voor verbeterd ontwerpen in AEM Guides.
-exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '2532'
 ht-degree: 0%

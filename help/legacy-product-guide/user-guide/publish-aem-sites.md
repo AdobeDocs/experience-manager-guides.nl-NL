@@ -3,8 +3,7 @@ title: Een onderwerp naar een AEM Sites-pagina Publish
 description: Publish een onderwerp of de elementen binnen een onderwerp aan een output van Adobe Experience Manager Sites.  Leer hoe u de Experience Manager Sites-pagina voor een onderwerp kunt weergeven en deze opnieuw kunt publiceren.
 feature: Publishing
 role: User
-exl-id: acbc48b7-93a2-41c6-8565-359fbbdd1fb9
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '638'
 ht-degree: 0%
@@ -45,7 +44,7 @@ Voer de volgende stappen uit om een sitepagina te genereren:
    * U kunt ook verschillende voorwaarden selecteren om de inhoud te publiceren.  Selecteer een van de volgende opties:
 
 
-      * **niets**: selecteer deze optie als u geen voorwaarde op de gepubliceerde output wilt toepassen.
+      * **niets**: Selecteer deze optie als u geen voorwaarde op de gepubliceerde output wilt toepassen.
       * **Gebruikend DITAVAL**: Selecteer het DITAVAL dossier om gepersonaliseerde inhoud te produceren. U kunt het DITAVAL-bestand selecteren in het dialoogvenster Bladeren of door het bestandspad te typen.
       * **Gebruikend attributen**: U kunt voorwaardenattributen in uw onderwerpen bepalen DITA. Selecteer vervolgens het kenmerk condition om de relevante inhoud te publiceren.
 

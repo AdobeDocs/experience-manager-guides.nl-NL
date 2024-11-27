@@ -1,8 +1,7 @@
 ---
 title: Slimme suggesties voor AI-toepassingen om inhoud te ontwerpen
 description: Leer hoe u op AI gebaseerde slimme suggesties in de Webeditor kunt weergeven en gebruiken.
-exl-id: 23c5285e-0d4f-484a-a062-fe1ba1608b8d
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '684'
 ht-degree: 0%
@@ -63,4 +62,4 @@ Deze intelligente functie is handig en minimaliseert het handmatig zoeken naar i
 
 >[!NOTE]
 >
->Met slimme suggesties blijven uw gegevens na de huidige sessie behouden. Voor reacties baseren slimme suggesties zich alleen op de index die is gemaakt op de inhoud in uw interne database. Externe AI-gereedschappen worden niet gebruikt, zodat uw gegevens binnen het systeem blijven.
+>Met slimme suggesties blijven uw gegevens na de huidige sessie niet behouden. Voor reacties baseren slimme suggesties zich alleen op de index die is gemaakt op de inhoud in uw interne database. Externe AI-gereedschappen worden niet gebruikt, zodat uw gegevens binnen het systeem blijven.

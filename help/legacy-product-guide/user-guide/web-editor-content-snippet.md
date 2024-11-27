@@ -1,10 +1,9 @@
 ---
 title: Een inhoudsfragment uit uw gegevensbron invoegen
 description: Gebruik gegevens uit uw gegevensbron in AEM Guides. Leer hoe u een inhoudsfragment uit uw gegevensbron invoegt. Creeer een onderwerp gebruikend de onderwerpgenerator.
-exl-id: fbd5eff2-451b-49d6-ba77-6eb271e94349
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '2389'
 ht-degree: 0%
@@ -104,7 +103,7 @@ De out-of-the-box malplaatjes voor de geselecteerde gegevensbron worden getoond 
 
    >[!NOTE]
    >  
-   > Als uw beheerder aangepaste sjablonen heeft geconfigureerd, worden deze sjablonen ook weergegeven in de vervolgkeuzelijst (op basis van de sjabloonpadconfiguraties die de beheerder heeft uitgevoerd).
+   > Als uw beheerder aangepaste malplaatjes heeft gevormd, dan wordt u ook getoond die malplaatjes in de drop-down lijst (die op de configuraties van de malplaatjeweg door uw beheerder wordt gebaseerd).
    >   
    >U kunt ook de gereedschappen Snelheid gebruiken in de sjablonen. Leer meer over hoe te [ de hulpmiddelen van de gebruiksSnelheid ](#use-velocity-tools).
 
@@ -120,8 +119,8 @@ De out-of-the-box malplaatjes voor de geselecteerde gegevensbron worden getoond 
 
    1. In het voorbeeld ziet u hoe de gegevens worden weergegeven wanneer ze in de inhoud worden ingevoegd. In de voorvertoning wordt een klein deel van de gegevens weergegeven in de indeling van de geselecteerde sjabloon.
 Bijvoorbeeld:
-      - Als u de sjabloon voor de sql-tabel hebt geselecteerd, kunt u de SQL-gegevens weergeven in een tabelindeling.
-      - Als u de sjabloon voor jira-geordende lijsten hebt geselecteerd, kunt u een geordende lijst weergeven voor de Jira-problemen.
+      - Als u de sql-lijst malplaatje hebt geselecteerd, kunt u de SQL gegevens in een lijst formaat bekijken.
+      - Als u de jira-geordend-lijstmalplaatje hebt geselecteerd, kunt u een geordende lijst voor de kwesties van Jira bekijken.
 
    1. De bronweergave toont de gegevens in de DITA-bronweergave.
       ![](images/add-content-snippet-generator.png){width="800" align="left"}
@@ -206,7 +205,7 @@ Voer de volgende stappen uit om een onderwerp tot stand te brengen gebruikend de
       >
       > Als uw beheerder aangepaste malplaatjes heeft gevormd, dan wordt u ook getoond die malplaatjes in de drop-down lijst (die op de configuraties van de malplaatjeweg door uw beheerder wordt gebaseerd). U kunt bijvoorbeeld een onderwerpsjabloon maken met een geordende lijst, tabellen, alinea&#39;s of andere DITA-elementen.
 
-   1. Ga de **knoop van de Wortel** in. Dit is de knoop waarbij u tot uw gegevens wilt toegang hebben. De onderwerpgenerator leidt dan tot elk onderwerp op het niveau dat in de wortelknoop wordt bepaald. U kunt bijvoorbeeld &quot;issues&quot; toevoegen als het hoofdknooppunt in Jira. Zo, als een vraag 13 kwesties terugkeert, zult u 13 onderwerpen, één onderwerp voor elke kwestie krijgen.
+   1. Ga de **knoop van de Wortel** in. Dit is de knoop waarbij u tot uw gegevens wilt toegang hebben. De onderwerpgenerator leidt dan tot elk onderwerp op het niveau dat in de wortelknoop wordt bepaald. U kunt bijvoorbeeld &#39;issues&#39; toevoegen als het hoofdknooppunt in Jira. Zo, als een vraag 13 kwesties terugkeert, zult u 13 onderwerpen, één onderwerp voor elke kwestie krijgen.
 
    1. Klik **Vetch** om de gegevens van de gegevensbron te halen en het malplaatje op de gegevens toe te passen die uit de SQL vraag voortvloeien. In de voorvertoning wordt een klein gedeelte weergegeven van de manier waarop het onderwerp wordt weergegeven in de indeling van de geselecteerde sjabloon. U kunt bijvoorbeeld één Jira-uitgave weergeven met alle velden die het resultaat zijn van de query.
    1. Ga de naam van de onderwerpgenerator in.

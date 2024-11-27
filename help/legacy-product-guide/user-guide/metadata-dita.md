@@ -1,10 +1,9 @@
 ---
 title: Werken met metagegevens in AEM
 description: Leer hoe u elementen maakt en metagegevens toevoegt met Adobe Experience Manager Assets. Metagegevens beheren vanuit AEM Guides.
-exl-id: 51e4fcab-7d76-4070-af32-96626e12ef82
 feature: Metadata Management
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 0%

@@ -1,10 +1,9 @@
 ---
 title: De webeditor starten
 description: Leer hoe u de webeditor start via de AEM Navigatiepagina, de gebruikersinterface van AEM Assets en de DITA-kaartconsole in AEM Guides.
-exl-id: cdde7c29-ee49-4e17-902e-1e2bd6f32e8a
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 0%

@@ -1,10 +1,9 @@
 ---
 title: Basislijnen maken en beheren vanuit de webeditor
 description: Basislijnen maken en beheren vanuit de webeditor in AEM Guides. Leer hoe u basislijnen maakt op basis van labels en filters toepast op de basislijnen.
-exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '1699'
 ht-degree: 0%

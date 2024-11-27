@@ -1,10 +1,9 @@
 ---
 title: Ondersteuning voor Schematron-bestanden
 description: Leer hoe te om een DITA- onderwerp in te voeren en te bevestigen, de verklaringen van het gebruiksrapport gebruiken om regels te controleren, regex uitdrukkingen te gebruiken, en abstracte patronen in de dossiers van Schematron van AEM Guides te bepalen.
-exl-id: ed07a5ec-6adc-43a3-8f03-248b8c963e9a
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 0%

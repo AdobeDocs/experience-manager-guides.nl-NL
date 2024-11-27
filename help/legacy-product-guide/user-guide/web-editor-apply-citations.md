@@ -1,10 +1,9 @@
 ---
 title: Citaten in uw inhoud toevoegen en beheren
 description: Voeg citaten toe en beheer citations in AEM Guides. Leer hoe u inhoud met citaten toepast, importeert, filtert, zoekt, wijzigt, aanhalingsstijl, bewerkt, voorvertoning, invoegt, verwijdert en genereert.
-exl-id: 685d747d-e017-4350-a6bf-822fd55c76e8
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '1887'
 ht-degree: 0%

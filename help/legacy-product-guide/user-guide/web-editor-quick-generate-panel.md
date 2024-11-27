@@ -1,10 +1,9 @@
 ---
 title: Deelvenster Snel genereren gebruiken
 description: Gebruik het deelvenster Snel genereren in AEM Guides. Leer hoe u uitvoer kunt genereren en weergeven via het deelvenster Snel genereren.
-exl-id: 5de04980-91d7-4bbc-a4b7-9bfd60ccf3c7
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 0%

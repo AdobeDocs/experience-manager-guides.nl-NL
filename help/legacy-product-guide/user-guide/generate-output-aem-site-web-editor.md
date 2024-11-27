@@ -3,8 +3,7 @@ title: AEM Sites
 description: Creeer en vorm vooraf ingesteld AEM Sites in de Redacteur van het Web en produceer de output van AEM Sites voor kaart DITA, geselecteerde onderwerpen, en verbonden onderwerpen.
 feature: Publishing
 role: User
-exl-id: f3657268-9dee-43af-b643-499dbc3ca948
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '2732'
 ht-degree: 0%
@@ -104,7 +103,7 @@ De **Lijst van het Onderwerp** toont de lijst van onderwerpen aanwezig in het hu
 **Lijst van het Onderwerp** het lusje is aanwezig in de AEM vooraf instelt die niet gebaseerd op erfenisafbeelding worden gecreeerd.
 
 **verwijzingen dwars-kaart**
-Deze lijst bevat onderwerpen met verwijzingen naar andere mappen met `scope =”peer”` . U kunt de publicatiecontext voor een lijst van verwijzingen naar cross-maps met `scope=”peer”` aan onderwerpen specificeren beschikbaar in andere kaarten DITA. Dit tabblad wordt weergegeven als u de Experience Manager Guides-versie (UUID) gebruikt.
+Deze lijst bevat onderwerpen met verwijzingen naar andere mappen met `scope ="peer"` . U kunt de publicatiecontext voor een lijst van verwijzingen naar cross-maps met `scope="peer"` aan onderwerpen specificeren beschikbaar in andere kaarten DITA. Dit tabblad wordt weergegeven als u de Experience Manager Guides-versie (UUID) gebruikt.
 
 
 
@@ -158,7 +157,7 @@ Voer de volgende stappen uit om een AEM Sites-voorinstelling te maken en te conf
    1. Selecteer het volledige pad naar de site:
       1. Selecteer **de weg van de Plaats van het Gebruik** optie.
       1. Selecteer het volledige pad naar de site. Bijvoorbeeld `/content/AEMG-Docs-Site/en/docs/product1` .
-      1. De sjabloon &quot;Onderwerppagina&quot; wordt automatisch ingesteld als `Topic Page` .
+      1. De sjabloon &#39;Onderwerppagina&#39; wordt automatisch ingesteld als `Topic Page` .
 
 
 1. Sla de wijzigingen in de voorinstelling op.
@@ -195,13 +194,13 @@ Als u AEM Sites-voorinstellingen uit de webeditor wilt gebruiken, maakt u een ni
 
 1. Open de **verwijzingen van de Cross-map** tabel.
 
-   U wordt getoond een lijst van onderwerpen en hun verwijzingen. U kunt de het publiceren context voor een lijst van dwars-kaartverwijzingen naar onderwerpen specificeren beschikbaar in andere kaarten DITA met `scope=”peer”`.
+   U wordt getoond een lijst van onderwerpen en hun verwijzingen. U kunt de het publiceren context voor een lijst van dwars-kaartverwijzingen naar onderwerpen specificeren beschikbaar in andere kaarten DITA met `scope="peer"`.
 
    `<xrefs>` moet unieke id&#39;s hebben om het referentiepaneel voor kruisverwijzingen in de webeditor te kunnen gebruiken. Unieke id&#39;s voor `<xrefs>` worden automatisch gegenereerd bij het bewerken/opslaan van de oudere inhoud als de id er niet is.
 
    >[!NOTE]
    >
-   >Het **lusje van de Verwijzingen van de Cross-map** toont onderwerpen die het gebruiken van slechts `scope=”peer”` verbonden zijn. Voor koppelingen met `scope=”local”` hoeft u de publicatiecontext niet op te geven.
+   >Het **lusje van de Verwijzingen van de Cross-map** toont onderwerpen die het gebruiken van slechts `scope="peer"` verbonden zijn. Voor koppelingen met `scope="local"` hoeft u de publicatiecontext niet op te geven.
 
    Voor alle gekoppelde onderwerpen is de laatste uitvoervoorinstelling en de kaart standaard geselecteerd. De publicatiecontext voor alle gekoppelde onderwerpen wordt standaard ingesteld op `<Most recently generated>` mapping.
 

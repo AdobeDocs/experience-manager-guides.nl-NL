@@ -1,10 +1,9 @@
 ---
 title: Een bulkactiveringskaartverzameling bewerken
 description: Het bulkpublicatiedashboard van het gebruik in AEM Guides. Leer een bulkactiveringskaartverzameling bewerken door kaartbestanden toe te voegen of te verwijderen.
-exl-id: 5f897c52-5d6e-4614-a14f-1806e085c21c
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 0%

@@ -3,8 +3,7 @@ title: Een onderwerp naar een ervaringsfragment Publish
 description: Publish een onderwerp of de elementen binnen een onderwerp aan een Fragment van de Ervaring in AEM Guides.  Leer hoe te om de Fragments van de Ervaring voor een onderwerp te bekijken en hen opnieuw te publiceren.
 feature: Publishing
 role: User
-exl-id: 4cdce8c2-2ccf-4bf1-8b92-4dfeb10de186
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 0%
@@ -66,7 +65,7 @@ Bijvoorbeeld:
    * U kunt ook verschillende voorwaarden selecteren om de inhoud te publiceren.  Selecteer een van de volgende opties:
 
 
-      * **niets**: selecteer deze optie als u geen voorwaarde op de gepubliceerde output wilt toepassen.
+      * **niets**: Selecteer deze optie als u geen voorwaarde op de gepubliceerde output wilt toepassen.
       * **Gebruikend DITAVAL**: Selecteer het DITAVAL dossier om gepersonaliseerde inhoud te produceren. U kunt het DITAVAL-bestand selecteren in het dialoogvenster Bladeren of door het bestandspad te typen.
       * **Gebruikend attributen**: U kunt voorwaardenattributen in uw onderwerpen bepalen DITA. Selecteer vervolgens het kenmerk condition om de relevante inhoud te publiceren.
 
@@ -75,7 +74,7 @@ Bijvoorbeeld:
      >De voorwaarden worden toegelaten slechts als voorwaardelementen in het onderwerp worden bepaald.
 
 
-   * Selecteer **overschrijven bestaande inhoud** checkbox als uw Fragment van de Ervaring reeds bestaat en u wenst om het te beschrijven. Experience Manager Guides geeft een fout weer als u het selectievakje niet inschakelt en uw ervaringsfragment al bestaat.
+   * Selecteer **overschrijven bestaande inhoud** checkbox als uw Fragment van de Ervaring reeds bestaat en u wenst om het te beschrijven. Experience Manager Guides geeft een fout weer als u het selectievakje niet inschakelt en uw Experience Fragment al bestaat.
 1. Klik **produceren** om het Fragment van de Ervaring te publiceren.
 1. U kunt de Fragmenten van de Ervaring voor een onderwerp onder de **sectie van Output** in de **Eigenschappen van het Dossier** bekijken. De fragmenten van de Ervaring verschijnen volgens de datum en de tijd van hun publicatie, met als laatste als eerste.
 
@@ -86,7 +85,7 @@ Bijvoorbeeld:
 
 
 
-Nadat u de Experience Fragments hebt gepubliceerd, kunt u deze ook op elke Adobe Experience Manager-site gebruiken.
+Zodra u de Fragments van de Ervaring hebt gepubliceerd, kunt u hen op om het even welke Plaats van Adobe Experience Manager ook gebruiken.
 
 
 ## Menu Opties voor een Ervingsplugment

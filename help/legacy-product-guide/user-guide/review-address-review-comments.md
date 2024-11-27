@@ -1,10 +1,9 @@
 ---
 title: Opmerkingen voor revisie van adres
 description: Leer hoe u revisieopmerkingen als auteur in AEM Guides kunt behandelen. Ontdek hoe een auteur opmerkingen in een document kan bewerken, filteren, accepteren of afwijzen.
-exl-id: 4c969788-f700-4fd6-8afa-8e5b411b59f3
 feature: Reviewing
 role: User
-source-git-commit: 7db3df07fd17eecae1c502554118ca12f95fb5ab
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
