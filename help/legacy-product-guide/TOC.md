@@ -4,9 +4,9 @@ user-guide-description: Lees productdocumentatie voor Adobe Experience Manager G
 breadcrumb-title: Documentatie voor AEM Guides
 hide: true
 badgeAll: label="Verouderde gids - Meer informatie" type="Informative" url="/help/legacy-product-guide/legacy.md" tooltip="Legacy Guide"
-source-git-commit: 62c69ba7765f89b03381a5526e616a9118426fb9
+source-git-commit: 328f74790de401c0595bcc4009110bc36f5104bf
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '543'
 ht-degree: 2%
 
 ---
@@ -107,6 +107,8 @@ ht-degree: 2%
       - [Inleiding tot uitvoervoorinstellingen](./user-guide/generate-output-understand-presets.md)
       - Voorinstellingen uitvoer in AEM Guides {#output-presets-aemg}
          - [Site AEM](./user-guide/generate-output-aem-site.md)
+         - [AEM Sites-voorinstellingen op het kaartdashboard](./user-guide/generate-output-aem-site-map-dashboard.md)
+         - [AEM Sites-voorinstellingen in de webeditor](./user-guide/generate-output-aem-site-web-editor.md)
          - [PDF](./user-guide/generate-output-pdf.md)
          - [Kennisbank](./user-guide/generate-output-knowledge-base.md)
          - [HTML 5](./user-guide/generate-output-html5.md)
