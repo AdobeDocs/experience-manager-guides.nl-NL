@@ -3,7 +3,7 @@ title: AEM Sites
 description: Creeer en vorm vooraf ingesteld AEM Sites in de Redacteur van het Web en produceer de output van AEM Sites voor kaart DITA, geselecteerde onderwerpen, en verbonden onderwerpen.
 feature: Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '2732'
 ht-degree: 0%
@@ -16,9 +16,9 @@ ht-degree: 0%
 U kunt AEM Sites-voorinstellingen maken in de webeditor en deze configureren om de AEM Sites-uitvoer te genereren. De AEM Sites-uitvoer is gebaseerd op de samengestelde componenttoewijzing samen met de `guides-components` , waardoor het maken en beheren van efficiënte inhoud wordt vergemakkelijkt.
 
 Experience Manager Guides biedt vooraf gedefinieerde sjablonen voor het maken van AEM Sites. Deze voorinstellingen zorgen voor consistentie in de indeling en structuur van de inhoud.
-- [ creeer homepages ](../cs-install-guide/download-install-aem-sites-templates-cs.md#create-a-home-page-using-the-template) die op deze vooraf bepaalde malplaatjes worden gebaseerd.
-- U kunt [ onderwerpmalplaatjes ](../cs-install-guide/download-install-aem-sites-templates-cs.md#package-installation) uitgeven en stijlen volgens uw vereisten toepassen.
-- U kunt [ bestaande malplaatjes van AEM Sites ](../cs-install-guide/download-install-aem-sites-templates-cs.md#customize-existing-aem-sites-templates) ook aanpassen.
+- [ creeer homepages ](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md#create-a-home-page-using-the-template) die op deze vooraf bepaalde malplaatjes worden gebaseerd.
+- U kunt [ onderwerpmalplaatjes ](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md#package-installation) uitgeven en stijlen volgens uw vereisten toepassen.
+- U kunt [ bestaande malplaatjes van AEM Sites ](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md#customize-existing-aem-sites-templates) ook aanpassen.
 
 
 
@@ -40,8 +40,8 @@ Voer de volgende stappen uit om de AEM Sites-voorinstellingen te maken van de we
 >[!NOTE]
 >
 >Voordat u de AEM Sites-voorinstellingen voor Experience Manager Guides kunt configureren, moet uw beheerder een AEM Sites-structuur maken met de sjablonen.
-- **Op-gebouwSoftware**: Leer meer over hoe te [ download en installeer de malplaatjes van AEM Sites ](../install-guide/download-install-aem-sites-templates.md) voor Software op-gebouw.
-- **Cloud Service**: Leer meer over hoe te [ download en installeer de malplaatjes van AEM Sites ](../cs-install-guide/download-install-aem-sites-templates-cs.md) voor Cloud Service.
+- **Op-gebouwSoftware**: Leer meer over hoe te [ download en installeer de malplaatjes van AEM Sites ](/help/product-guide/install-guide/download-install-aem-sites-templates.md) voor Software op-gebouw.
+- **Cloud Service**: Leer meer over hoe te [ download en installeer de malplaatjes van AEM Sites ](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md) voor Cloud Service.
 
 
 
@@ -140,7 +140,7 @@ De volgende opties zijn beschikbaar voor de AEM Sites-uitvoer:
 Met Experience Manager Guides kunt u de out of box-sjablonen gebruiken of uw eigen AEM Sites-sjablonen toevoegen.
 
 Voordat u de AEM Sites-voorinstellingen configureert, moet u ervoor zorgen dat u een AEM Sites-structuur maakt met de sjablonen.\
-Voor meer details, mening [ Download en installeer de malplaatjes van AEM Sites ](../install-guide/download-install-aem-sites-templates.md).
+Voor meer details, mening [ Download en installeer de malplaatjes van AEM Sites ](/help/product-guide/install-guide/download-install-aem-sites-templates.md).
 
 
 

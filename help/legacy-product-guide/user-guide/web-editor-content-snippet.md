@@ -3,7 +3,7 @@ title: Een inhoudsfragment uit uw gegevensbron invoegen
 description: Gebruik gegevens uit uw gegevensbron in AEM Guides. Leer hoe u een inhoudsfragment uit uw gegevensbron invoegt. Creeer een onderwerp gebruikend de onderwerpgenerator.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '2389'
 ht-degree: 0%
@@ -26,18 +26,18 @@ Gebaseerd op uw opstelling kan uw beheerder een gegevensbronschakelaar vormen:
 <summary> Cloud Servicen </summary>
 
 
-- Als u de versie van Oktober 2023 of later gebruikt, leer hoe te [ een gegevensbronschakelaar van het gebruikersinterface ](../cs-install-guide/conf-data-source-connector-tools.md) in de Gids van de Installatie en van de Configuratie van Cloud Servicen vormen.
+- Als u de versie van Oktober 2023 of later gebruikt, leer hoe te [ een gegevensbronschakelaar van het gebruikersinterface ](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md) in de Gids van de Installatie en van de Configuratie van Cloud Servicen vormen.
 
-- Als u de versie van juli 2023 of September 2023 gebruikt, leer hoe te [ een gegevensbronschakelaar ](../cs-install-guide/conf-data-source-connector.md) in de Gids van de Installatie en van de Configuratie van Cloud Servicen vormen.
+- Als u de versie van juli 2023 of September 2023 gebruikt, leer hoe te [ een gegevensbronschakelaar ](/help/product-guide/cs-install-guide/conf-data-source-connector.md) in de Gids van de Installatie en van de Configuratie van Cloud Servicen vormen.
 
 </details>
 
 <details>    
 <summary>  Software op locatie </summary>
 
-- Als u de versie 4.3.1 of recenter gebruikt, leer hoe te [ een gegevensbronschakelaar van het gebruikersinterface ](../cs-install-guide/conf-data-source-connector-tools.md) in de Gids van de Installatie en van de Configuratie op locatie vormen.
+- Als u de versie 4.3.1 of recenter gebruikt, leer hoe te [ een gegevensbronschakelaar van het gebruikersinterface ](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md) in de Gids van de Installatie en van de Configuratie op locatie vormen.
 
-- Als u de versie 4.3 gebruikt, leer hoe te [ een gegevensbronschakelaar ](../cs-install-guide/conf-data-source-connector.md) in de Gids van de Installatie op-gebouw en van de Configuratie vormen.
+- Als u de versie 4.3 gebruikt, leer hoe te [ een gegevensbronschakelaar ](/help/product-guide/cs-install-guide/conf-data-source-connector.md) in de Gids van de Installatie op-gebouw en van de Configuratie vormen.
 </details>
 
 

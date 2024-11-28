@@ -1,7 +1,7 @@
 ---
 title: Slimme suggesties voor AI-toepassingen om inhoud te ontwerpen
 description: Leer hoe u op AI gebaseerde slimme suggesties in de Webeditor kunt weergeven en gebruiken.
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '684'
 ht-degree: 0%
@@ -17,7 +17,7 @@ Terwijl u auteursinhoud, **voorstellen herbruikbare inhoud** eigenschap in het A
 Zo kunt u bestaande inhoud uit de opslagplaats van de documentatie hergebruiken en consistente inhoud maken. Bijvoorbeeld, maakt u een document dat informatie over **Adobe Firefly** bevat, met inbegrip van een paragraaf over **Adobe**. In dat geval, kunt u de inhoudsverwijzing van een ander onderwerp, als **Adobe Photoshop** snel bekijken en toevoegen, dat de zelfde paragraaf omvat.
 >[!NOTE]
 >
-> In de [ globale of omslag-vlakke profielen ](../cs-install-guide/conf-folder-level.md#conf-ai-smart-suggestions), moet uw beheerder de dossiers of de omslagen bepalen om voor slimme suggesties te indexeren, het minimumaantal karakters u moet ingaan om de suggesties te bekijken, en het maximumaantal suggesties u in de lijst kunt bekijken.
+> In de [ globale of omslag-vlakke profielen ](/help/product-guide/cs-install-guide/conf-folder-level.md#conf-ai-smart-suggestions), moet uw beheerder de dossiers of de omslagen bepalen om voor slimme suggesties te indexeren, het minimumaantal karakters u moet ingaan om de suggesties te bekijken, en het maximumaantal suggesties u in de lijst kunt bekijken.
 
 Voer de volgende stappen uit om de slimme suggesties te bekijken om aangewezen inhoudsverwijzingen aan uw onderwerp toe te voegen:
 

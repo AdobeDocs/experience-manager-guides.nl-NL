@@ -3,7 +3,7 @@ title: De functies van de webeditor kennen
 description: Ontdek de functies van de webeditor in AEM Guides. Zorg dat u de interface van de webeditor kent, zoals de hoofdwerkbalk, de secundaire werkbalk, het linkerdeelvenster, het bewerkingsgebied van inhoud en het rechterdeelvenster.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '18802'
 ht-degree: 0%
@@ -605,7 +605,7 @@ Als u in de Kaartweergave werkt en de bovenliggende kaart uitvouwt, kunt u met �
 
 De knopinfo voor In- en uitchecken wordt bepaald door de eigenschap title in het `ui_config.json` -bestand.
 
-Voor meer details, vormt de mening [ de titel voor Controle binnen en Controle uit pictogrammen ](../install-guide/conf-checkin-checkout-title.md) in de On-premise Gids van de Installatie en van de configuratie.
+Voor meer details, vormt de mening [ de titel voor Controle binnen en Controle uit pictogrammen ](/help/product-guide/install-guide/conf-checkin-checkout-title.md) in de On-premise Gids van de Installatie en van de configuratie.
 
 
 **de Mening van Markeringen van de knevel** - ![](images/Label_icon.svg)
@@ -1142,7 +1142,7 @@ De verschillende opties in het menu Opties worden hieronder uitgelegd:
 
   >[!NOTE]
   >
-  >Neem contact op met het team voor succes van uw klant om deze functie in de omgeving in te schakelen. Dit wordt niet toegelaten als deel van uit-van-de-doos steun. Voor meer details, bekijk [ de optie vormen om in sectie Oxygen ](../cs-install-guide/conf-edit-in-oxygen.md) in de Gids van de Installatie en van de Configuratie uit te geven.
+  >Neem contact op met het team voor succes van uw klant om deze functie in de omgeving in te schakelen. Dit wordt niet toegelaten als deel van uit-van-de-doos steun. Voor meer details, bekijk [ de optie vormen om in sectie Oxygen ](/help/product-guide/cs-install-guide/conf-edit-in-oxygen.md) in de Gids van de Installatie en van de Configuratie uit te geven.
 
 
 - **Mening in Assets UI**: Gebruik dit om een voorproef van een.dita/.xml- dossier in Assets UI te tonen. In het geval van een .ditamap/.bookmap- dossier, worden alle onderwerpdossiers binnen de kaart getoond in één enkele verenigde pagina-door-pagina mening.

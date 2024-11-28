@@ -1,7 +1,7 @@
 ---
 title: Slimme Help van AI om inhoud te zoeken
 description: Leer hoe u op AI gebaseerde Smart Help kunt weergeven en gebruiken in de webeditor.
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Wanneer u de Redacteur van het Web opent, verschijnt het **Slimme paneel van de 
 
 >[!NOTE]
 >
-> Uw beheerder moet de **Slimme eigenschap van de Hulp** vormen. Voor meer details, bekijk [ de AI-Vervaardigde Slimme Hulp om inhoud ](../cs-install-guide/conf-smart-help.md) sectie in de Gids van de Installatie en van de Configuratie voor Cloud Servicen te zoeken.
+> Uw beheerder moet de **Slimme eigenschap van de Hulp** vormen. Voor meer details, bekijk [ de AI-Vervaardigde Slimme Hulp om inhoud ](/help/product-guide/cs-install-guide/conf-smart-help.md) sectie in de Gids van de Installatie en van de Configuratie voor Cloud Servicen te zoeken.
 
 ![ het Slimme paneel van de Hulp ](images/smart-help-panel.png){width="300" align="left"}
 
@@ -39,7 +39,7 @@ Voer de volgende stappen uit om het gespreksonderzoek te gebruiken om aangewezen
 
    >[!NOTE]
    >
-   > In de [ globale of omslag-vlakke profielen ](../cs-install-guide/conf-folder-level.md#conf-ai-guides-assistant), moet uw beheerder de standaardvragen bepalen die in het paneel verschijnen.
+   > In de [ globale of omslag-vlakke profielen ](/help/product-guide/cs-install-guide/conf-folder-level.md#conf-ai-guides-assistant), moet uw beheerder de standaardvragen bepalen die in het paneel verschijnen.
 
 1. Typ de vraag om de verwante inhoud in de documentatie van Experience Manager Guides te vinden. U kunt de standaardvraag selecteren in het deelvenster of de vraag typen in het tekstvak.
 

@@ -3,7 +3,7 @@ title: Kaarten maken op basis van aangepaste sjablonen
 description: Leer een aangepaste sjabloon te maken, deze te gebruiken om nieuwe kaartbestanden te maken en de gedefinieerde titel door te geven aan een DITA-kaart in AEM Guides.
 feature: Authoring, Map Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '1103'
 ht-degree: 0%
@@ -96,13 +96,13 @@ Gebaseerd op uw opstelling leert hoe te om de weg van de malplaatjeomslag van do
 <details>
     <summary> Cloud Servicen </summary>
 
-Leer hoe te om [ de weg van de malplaatjemap van douaneDITA ](../install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) in de Gids van de Installatie en van de Configuratie van Cloud Servicen te vormen.
+Leer hoe te om [ de weg van de malplaatjemap van douaneDITA ](/help/product-guide/install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) in de Gids van de Installatie en van de Configuratie van Cloud Servicen te vormen.
 </details>
 
 <details>
     <summary> Software op locatie</summary>
 
-Leer hoe te om [ de weg van de malplaatjeomslag van douaneDITA ](../cs-install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) in de Gids van de Installatie en van de Configuratie op locatie te vormen.
+Leer hoe te om [ de weg van de malplaatjeomslag van douaneDITA ](/help/product-guide/cs-install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) in de Gids van de Installatie en van de Configuratie op locatie te vormen.
 </details>
 
 ## De titel doorgeven die is gedefinieerd in de sjablonen

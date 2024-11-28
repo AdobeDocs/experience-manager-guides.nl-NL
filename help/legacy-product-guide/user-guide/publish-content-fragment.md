@@ -3,7 +3,7 @@ title: Een onderwerp naar een inhoudsfragment Publish
 description: Publish een onderwerp of de elementen binnen een onderwerp aan een Fragment van de Inhoud in AEM Guides.  Leer hoe te om de aanwezige Fragments van de Inhoud voor een onderwerp te bekijken en hen opnieuw te publiceren.
 feature: Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
@@ -74,7 +74,7 @@ De rechterzijde wordt gevuld met de inhoud van het gepubliceerde inhoudsfragment
 
      >[!NOTE]
      >
-     > Als u 4.4 of vroegere versies gebruikt, selecteer een afbeelding van drop-down. Het plukt de afbeeldingen van het {*dossier 0} contentFragmentMapping.json.*  Uw beheerder kan de afbeeldingen in het {*dossier toevoegen 0} contentFragmentMapping.json.* Leer meer over hoe te om [ een afbeelding tussen een onderwerp en een Fragment van de Inhoud ](../cs-install-guide/conf-content-fragment-mapping-cs.md) in de Gids van de Installatie en van de Configuratie tot stand te brengen.
+     > Als u 4.4 of vroegere versies gebruikt, selecteer een afbeelding van drop-down. Het plukt de afbeeldingen van het {*dossier 0} contentFragmentMapping.json.*  Uw beheerder kan de afbeeldingen in het {*dossier toevoegen 0} contentFragmentMapping.json.* Leer meer over hoe te om [ een afbeelding tussen een onderwerp en een Fragment van de Inhoud ](/help/product-guide/cs-install-guide/conf-content-fragment-mapping-cs.md) in de Gids van de Installatie en van de Configuratie tot stand te brengen.
 
 1. Klik **produceren** om het Fragment van de Inhoud te publiceren.
 
@@ -110,4 +110,4 @@ U kunt de volgende acties voor een Fragment van de Inhoud van het **menu van Opt
 
 Het nieuwe script voor de migratie van UUID-inhoud is aanzienlijk geoptimaliseerd, waardoor de migratie van inhoud van niet-UUID naar UUID 30 keer sneller verloopt dan het eerdere script. Het omvat functies zoals het hervatten vanaf controleposten, live inzichten, geschatte voltooiingstijd en gedetailleerde rapportage, waardoor een harmonieus migratieproces wordt gewaarborgd. Met name blijven de metagegevens van de elementen tijdens het migratieproces behouden. Het script is getest en geverifieerd op een grote dataset van 3 miljoen activa, die zijn efficiency en betrouwbaarheid voor grootschalige migraties bevestigt.
 
-Leer meer over [ niet-UUID aan de inhoudsmigratie van UUID ](../install-guide/migrate-non-uuid-uuid.md).
+Leer meer over [ niet-UUID aan de inhoudsmigratie van UUID ](/help/product-guide/install-guide/migrate-non-uuid-uuid.md).
