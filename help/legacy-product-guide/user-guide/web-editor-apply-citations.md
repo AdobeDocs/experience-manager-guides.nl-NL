@@ -3,7 +3,7 @@ title: Citaten in uw inhoud toevoegen en beheren
 description: Voeg citaten toe en beheer citations in AEM Guides. Leer hoe u inhoud met citaten toepast, importeert, filtert, zoekt, wijzigt, aanhalingsstijl, bewerkt, voorvertoning, invoegt, verwijdert en genereert.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: f8f1116efbf0c7c26f6ebacf6234dcc2fee636c1
 workflow-type: tm+mt
 source-wordcount: '1887'
 ht-degree: 0%
@@ -257,10 +257,10 @@ Nadat u citaten in het onderwerp hebt ingevoegd, kunt u inhoud met citaten publi
 
 In de uitvoer Native PDF worden de citaten weergegeven binnen de inhoud waarin u ze hebt ingevoegd. U kunt ook een bibliografiepagina maken. Wanneer u op een aanhalingsteken klikt, wordt u omgeleid naar de bibliografiepagina.
 
-Creeer de paginalay-out van de a **Bevelen** in de malplaatjes van de PDF, en neem het in uw document op. Alle citaten die in het boek worden gebruikt worden vermeld op één pagina die in de output van PDF verschijnt. Meer leren over het creëren van een paginalay-out, mening [ creeer een paginalay-out ](../native-pdf/components-pdf-template.md#create-page-layout).
+Creeer de paginalay-out van de a **Bevelen** in de malplaatjes van de PDF, en neem het in uw document op. Alle citaten die in het boek worden gebruikt worden vermeld op één pagina die in de output van PDF verschijnt. Meer leren over het creëren van een paginalay-out, mening [ creeer een paginalay-out ](/help/product-guide/native-pdf/components-pdf-template.md#create-page-layout).
 
 
-Om de mening en het gevoel van de citaatpagina te veranderen, past de mening [ PDF malplaatjes ](../native-pdf/pdf-template.md) aan.
+Om de mening en het gevoel van de citaatpagina te veranderen, past de mening [ PDF malplaatjes ](/help/product-guide/native-pdf/pdf-template.md) aan.
 
 
 
@@ -272,4 +272,4 @@ Pas het formatteren op de citatie toe wanneer toegevoegd aan het onderwerp.
 
 1. Zoek in het deelvenster Zoeken naar `<cite>` .
 
-Om meer over stijlen te leren, mening [ Werk met de gemeenschappelijke inhoudsstijlen ](../native-pdf/stylesheet.md).
+Om meer over stijlen te leren, mening [ Werk met de gemeenschappelijke inhoudsstijlen ](/help/product-guide/native-pdf/stylesheet.md).
