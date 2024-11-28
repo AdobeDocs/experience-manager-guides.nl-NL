@@ -3,7 +3,7 @@ title: Routekaart 2024 uit Adobe Experience Manager Guides-releases
 description: Meer informatie over de live en komende releases van Adobe Experience Manager Guides on-prem en Adobe Experience Manager Guides as a Cloud Service
 role: Admin, Leader, Developer, User
 exl-id: cb6709ce-2732-45d0-adfd-5aeca520240e
-source-git-commit: 703e4b200797c8b346253d15019cadd7c80f16a1
+source-git-commit: d90a3e9711a8866fa775db467176109972373f8d
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 0%
@@ -29,7 +29,7 @@ De releases voor Experience Manager Guides-as a Cloud Service zijn als volgt gep
 | Adobe Experience Manager Guides 2024.6.0 | Automatisch bijwerken | 10-12 juni 2024 | [ hier ](whats-new-2024-06-0.md) | [ hier ](upgrade-instructions-2024-06-0.md) | [ hier ](fixed-issues-2024-06-0.md) | Bijgewerkt |
 | Adobe Experience Manager Guides 2024.10.0 | Automatisch bijwerken | 14 oktober 2024 | [ hier ](whats-new-2024-10-0.md) | [ hier ](upgrade-instructions-2024-10-0.md) | [ hier ](fixed-issues-2024-10-0.md) | Bijgewerkt |
 | Adobe Experience Manager Guides 2024.10.0 | Service Pack 1 | 29 oktober 2024 | - | - | [ hier ](fixed-issues-2024-10-0-sp1.md) | Bijgewerkt |
-| Adobe Experience Manager Guides 2024.12.0 | Automatisch bijwerken | 9 december 2010 - 11 december 2024 |  |  |  | Doel |
+| Adobe Experience Manager Guides 2024.12.0 | Automatisch bijwerken | 13 januari 2025 |  |  |  | Doel |
 | Adobe Experience Manager Guides 2025.02.0 | Automatisch bijwerken | ~ februari 2025 |  |  |  | Doel |
 | Adobe Experience Manager Guides 2025.04.0 | Automatisch bijwerken | ~ april 2025 |  |  |  | Doel |
 
