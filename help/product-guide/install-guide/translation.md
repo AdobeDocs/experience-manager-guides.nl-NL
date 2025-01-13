@@ -5,9 +5,9 @@ exl-id: 0d3a909c-3499-4ef4-b033-02e412dae959
 feature: Translation
 role: Admin
 level: Experienced
-source-git-commit: f7ce1dc72edfcec939e5bd25bbf82c2e3907a326
+source-git-commit: ea3083542e955a56c27cd833600370a7962c6b8d
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '854'
 ht-degree: 0%
 
 ---
@@ -100,7 +100,9 @@ Op basis van de vertaalworkflow die in uw installatie wordt gebruikt, moet de op
 
 >[!IMPORTANT]
 > 
-> U wordt aangeraden de nieuwste workflow voor vertaling te gebruiken, die betere prestaties biedt. Als er echter aanpassingen zijn ingeschakeld in uw huidige vertaalproces, kunt u overwegen de verouderde vertaalworkflow te gebruiken.
+> Het wordt aanbevolen de nieuwste vertaalworkflow, die beschikbaar is in AEM Guides 4.6.0 en hoger, te gebruiken voor betere prestaties. Nochtans, als u om het even welke aanpassing in het vertaalproces hebt toegelaten en het door het nieuwe werkschema wordt beïnvloed, denk na terugkerend aan de erfenisvertaalwerkstroom als oplossing.
+
+
 
 Standaard is de optie voor de verouderde vertaalworkflow uitgeschakeld. U kunt deze optie configureren door de volgende stappen uit te voeren:
 

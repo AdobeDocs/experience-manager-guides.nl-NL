@@ -5,9 +5,9 @@ exl-id: 5af78233-343e-47ba-b60c-b7f4789e2406
 feature: Translation
 role: Admin
 level: Experienced
-source-git-commit: bcb61127f5f69ac39860a90eac2e1a56ecd1de31
+source-git-commit: ea3083542e955a56c27cd833600370a7962c6b8d
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '773'
 ht-degree: 0%
 
 ---
@@ -72,16 +72,17 @@ Op basis van de vertaalworkflow die in uw installatie wordt gebruikt, moet de op
 
 ## De workflow voor veroudering configureren
 
-U wordt aangeraden de nieuwste workflow voor vertaling te gebruiken, die betere prestaties biedt. Als u echter de verouderde vertaalworkflow wilt gebruiken, kunt u deze configureren.
+>[!IMPORTANT]
+>
+> Het wordt aanbevolen de nieuwste vertaalworkflow, die beschikbaar is in AEM Guides 2024.06.0 en hoger, te gebruiken voor betere prestaties. Nochtans, als u om het even welke aanpassing in het vertaalproces hebt toegelaten en het door het nieuwe werkschema wordt beïnvloed, denk na terugkerend aan de erfenisvertaalwerkstroom als oplossing.
 
 Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](download-install-additional-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende gegevens (eigenschap) op om de workflow voor veroudering te configureren:
 
 
-
-
 | PID | Eigenschappensleutel | Waarde van eigenschap |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `translation.workflow.version.legacy` | Van Boole: <br> - als u het recentste vertaalwerkschema gebruikt, dan *maak* \ ( `false` onbruikbaar \) **de oudere vertaalwerkstroom van de Looppas** optie. De meest recente vertaalworkflow is standaard ingeschakeld. <br> -   Als u de erfenisvertaling gebruikt, dan *laat \ ( `true` \)* toe de **optie van het de erfenisvertaalwerkschema van de Looppas**. |
+| `com.adobe.fmdita.config.ConfigManager` | `translation.workflow.version.legacy` | Van Boole: <br> - als u het recentste vertaalwerkschema gebruikt, dan *maak* \ ( `false` onbruikbaar \) **de oudere vertaalwerkstroom van de Looppas** optie.  <br> -   Als u de erfenisvertaling gebruikt, dan *laat \ ( `true` \)* toe de **optie van het de erfenisvertaalwerkschema van de Looppas**. <br> **Standaardwaarde**: vals |
+
 
 
 
@@ -101,5 +102,5 @@ Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configur
 
 | PID | Eigenschappensleutel | Waarde van eigenschap |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | Boolean: <br> -   Als u niet de post-verwerkingsverrichting op de tijdelijke dossiers wilt in werking stellen, dan *maak* \ ( vals \) onbruikbaar de **Post-procestaalexemplaren** optie.<br> -   Als u de post-verwerkingsverrichting op de tijdelijke dossiers wilt in werking stellen, dan *laat* \ ( waar \) toe de **Post-procestaalexemplaren** optie.<br> **Standaardwaarde**: vals |
+| `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | Boolean: <br> -   Als u niet de post-verwerkingsverrichting op de tijdelijke dossiers wilt in werking stellen, dan *maak* \ ( vals \) onbruikbaar de **de taalexemplaren van het na-proces** optie.<br> -   Als u de post-verwerkingsverrichting op de tijdelijke dossiers wilt in werking stellen, dan *laat* \ ( waar \) toe **de taalexemplaren van het na-proces** optie.<br> **Standaardwaarde**: vals |
 
