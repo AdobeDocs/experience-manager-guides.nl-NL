@@ -4,7 +4,7 @@ description: Leer hoe u met de geavanceerde kaarteditor in AEM Guides werkt. Ken
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 6201434d3dd8336bf9fe1bce6368d5dbb9c56162
+source-git-commit: ae49df3912a5a7a3a01e5eaa08fb9f05249da29f
 workflow-type: tm+mt
 source-wordcount: '3788'
 ht-degree: 0%
@@ -55,7 +55,7 @@ Voer de volgende stappen uit om uw kaartdossier te bouwen gebruikend de Geavance
 
    - **B** - \ (*Secundaire toolbar* \) dit is de Secundaire toolbar die u toestaat om met kaartdossiers te werken. Voor meer informatie over de functies beschikbaar door Secundaire toolbar, zie [ Eigenschappen beschikbaar in de Geavanceerde toolbar van de Redacteur van de Kaart ](#id205DEC0005Z).
 
-   - **C** - \ (*de meningen van de Kaart* \): Staat u toe om de Redacteur van de Kaart tussen de Lay-out, de Auteur, Source en de Voorproef te schakelen. De **mening van de Lay-out** staat u toe om de onderwerpen in een kaart te organiseren DITA. Dit geeft de boom of de hiërarchische mening van de kaart. De **mening van de Auteur** staat u toe om de onderwerpen in de Redacteur van de Kaart uit te geven. Dit geeft ook de WYSIWYG mening van het kaartdossier. De **mening van Source** staat u toe om met onderliggende XML van het kaartdossier te werken. De Voorproef geeft u een geconsolideerde mening van al onderwerp en submaps binnen het kaartdossier. De **dichte** verbinding sluit het kaartdossier.
+   - **C** - \ (*de meningen van de Kaart* \): Staat u toe om de Redacteur van de Kaart tussen de Lay-out, de Auteur, Source en de Voorproef te schakelen. De **mening van de Lay-out** staat u toe om de onderwerpen in een kaart te organiseren DITA. Dit geeft de boom of de hiërarchische mening van de kaart. De **mening van de Auteur** staat u toe om de onderwerpen in de Redacteur van de Kaart uit te geven. Dit geeft ook de WYSIWYG-weergave van het kaartbestand. De **mening van Source** staat u toe om met onderliggende XML van het kaartdossier te werken. De Voorproef geeft u een geconsolideerde mening van al onderwerp en submaps binnen het kaartdossier. De **dichte** verbinding sluit het kaartdossier.
 
    - **D** - \ (*Linkerpaneel* \): Verleent toegang tot het linkerpaneel dat u toegang tot Favorieten, Bewaarplaats, Kaart, Overzicht en andere eigenschappen geeft. U kunt de selectie uit- of samenvouwen door te klikken op het pictogram Zijbalk uitvouwen \(![](images/sidebar-expand-icon.svg)\). Voor meer details over de eigenschappen beschikbaar in het linkerpaneel, zie [ Linkerpaneel ](web-editor-features.md#id2051EA0M0HS) in de Redacteur van het Web.
 
@@ -248,7 +248,7 @@ Hiermee geeft u het dialoogvenster Kaarteigenschappen weer waarin u de kenmerken
 
 ## Auteursweergave {#id205DEC0005Z_author_view}
 
-De **mening van de Auteur** staat u toe om uw kaart DITA in de Redacteur van het Web uit te geven. Dit toont de WYSIWYG mening van de Redacteur van de Kaart en sommige pictogrammen die in de mening van de Auteur worden getoond zijn het zelfde als de mening van de Lay-out. Voor meer details, zie [ mening van de Lay-out ](#id205DEC0005Z_layout_view). Bovendien kunt u de volgende pictogrammen zien en de verwante taken uitvoeren van de mening van de Auteur:
+De **mening van de Auteur** staat u toe om uw kaart DITA in de Redacteur van het Web uit te geven. Dit toont de WYSIWYG-weergave van de Kaarteditor en sommige pictogrammen die in de weergave Auteur worden weergegeven, zijn gelijk aan de layoutweergave. Voor meer details, zie [ mening van de Lay-out ](#id205DEC0005Z_layout_view). Bovendien kunt u de volgende pictogrammen zien en de verwante taken uitvoeren van de mening van de Auteur:
 
 **Tussenvoegsel vóór/Tussenvoegsel na** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
@@ -386,4 +386,4 @@ U kunt de voorvertoning van een kaart openen via:
    - Het huidige onderwerp in kaartvoorproef wordt ook benadrukt in de kaartboom.
 
 
-**Bovenliggend onderwerp:**[ Werk met de Redacteur van de Kaart ](map-editor.md)
+**Bovenliggend onderwerp:** [ Werk met de Redacteur van de Kaart ](map-editor.md)

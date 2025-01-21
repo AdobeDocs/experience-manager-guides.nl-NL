@@ -1,7 +1,7 @@
 ---
 title: De AI-assistent gebruiken om documenten slim te maken
 description: Leer hoe u de AI-assistent gebruikt om documenten met slimme efficiëntie te ontwerpen in de webeditor.
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: ae49df3912a5a7a3a01e5eaa08fb9f05249da29f
 workflow-type: tm+mt
 source-wordcount: '1054'
 ht-degree: 0%
@@ -109,12 +109,12 @@ U kunt bijvoorbeeld een overzicht van de systeemvereisten geven en een korte bes
 
 
 1. Selecteer de inhoud.
-1. Selecteer **creeer kortere weg ![ ai tot korte beschrijvingspictogram](./images/ai-create-shortdesc-icon.svg)** om een korte beschrijving voor het huidige onderwerp tot stand te brengen.
+1. Selecteer **creeer kortere weg** ![ wil korte beschrijvingspictogram ](./images/ai-create-shortdesc-icon.svg) creëren om een korte beschrijving voor het huidige onderwerp tot stand te brengen.
 1. Selecteer **Accepteren** om een nieuwe korte beschrijving tot stand te brengen als de korte beschrijving niet reeds aanwezig is. Als er een korte beschrijving bestaat, moet u deze bevestigen voordat u deze vervangt door de nieuwe korte beschrijving.
 
 U kunt ook de volgende handelingen uitvoeren:
-- Selecteer **Regenereer** om een andere korte beschrijving voor uw onderwerp, als de hulpmiddelen van AI te produceren.
 
+- Selecteer **Regenereer** om een andere korte beschrijving voor uw onderwerp, als de hulpmiddelen van AI te produceren.
 - Selecteer **uitbreiden** om **te openen creeer kortere weg** redacteur.
 
 ![ de medewerker van de ai creeert korte beschrijvingsredacteur ](./images/ai-assistant-create-short-desc.png)

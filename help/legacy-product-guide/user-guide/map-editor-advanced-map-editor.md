@@ -3,7 +3,8 @@ title: Werken met de Geavanceerde Kaarteditor
 description: Leer hoe u met de geavanceerde kaarteditor in AEM Guides werkt. Ken de eigenschappen van de geavanceerde Redacteur van de Kaart. Bewerk onderwerpen via een DITA-kaart en gebruik de layoutweergave, de auteurweergave en de voorvertoningsmodus.
 feature: Authoring, Map Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+exl-id: b63d7c0f-9c29-4fb4-b8fe-9790b16f8726
+source-git-commit: ae49df3912a5a7a3a01e5eaa08fb9f05249da29f
 workflow-type: tm+mt
 source-wordcount: '3788'
 ht-degree: 0%
@@ -385,4 +386,4 @@ U kunt de voorvertoning van een kaart openen via:
    - Het huidige onderwerp in kaartvoorproef wordt ook benadrukt in de kaartboom.
 
 
-**Bovenliggend onderwerp:**[ Werk met de Redacteur van de Kaart ](map-editor.md)
+**Bovenliggend onderwerp:** [ Werk met de Redacteur van de Kaart ](map-editor.md)
