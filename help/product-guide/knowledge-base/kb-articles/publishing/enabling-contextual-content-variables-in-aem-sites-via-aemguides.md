@@ -1,16 +1,17 @@
 ---
-title: Contextual Content Variables (CCVAR) inschakelen in AEM Sites via AEM Guides
-description: Werken met Contextual Content Variables (CCVAR) in AEM Sites via AEM Guides
+title: CCVAR (Contextual Content Variables) inschakelen in AEM Sites-pagina's die zijn gegenereerd vanuit AEM Guides
+description: Werken met Contextual Content Variables (CCVAR) in AEM Sites-pagina's die zijn gegenereerd vanuit AEM Guides
 feature: Web Editor
 role: User, Admin
-source-git-commit: cd5b8329153f598365a640f50d2c003af72dac50
+exl-id: f9adbb3f-6c1c-4d6f-b55d-1fb45acca91a
+source-git-commit: 4020534552bdb77545c2a283f2a90adc3aebc729
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '473'
 ht-degree: 1%
 
 ---
 
-# Contextual Content Variables (CCVAR) inschakelen in AEM Sites via AEM Guides
+# CCVAR (Contextual Content Variables) inschakelen in AEM Sites-pagina&#39;s die zijn gegenereerd vanuit AEM Guides
 
 Contextual Content Variables (CCVAR) is een ACS-commons-functie waarmee auteurs dynamische inhoudsvariabelen rechtstreeks in hun geschreven tekst kunnen gebruiken. Terwijl CCVAR algemeen in AEM Sites wordt gebruikt, verklaart dit artikel hoe te om gelijkaardige functionaliteit via pagina&#39;s te bereiken die van inhoud worden geproduceerd die in **wordt geschreven AEM Guides *hoofdzakelijk door sleutelwoorden te gebruiken die in de kaart DITA* worden bepaald.**
 
@@ -20,7 +21,7 @@ Contextual Content Variables (CCVAR) is een ACS-commons-functie waarmee auteurs 
 Met CCVAR kunnen auteurs dynamische variabelen invoegen in hun inhoud, die bij uitvoering worden omgezet op basis van de context. Variabelen zoals `((page_properties.pageTitle))` kunnen bijvoorbeeld dynamisch de paginatitel trekken tijdens het renderen van inhoud.
 
 
-## Hoe te om CCVAR in AEM Sites toe te laten Gegenereerd van AEM Guides?
+## Hoe te om CCVAR in AEM Sites pagina&#39;s toe te laten die van AEM Guides worden geproduceerd?
 
 Als AEM Guides wordt gebruikt als de bron van alle inhoud (inclusief AEM Sites, PDF of HTML5), om CCVAR&#39;s in te schakelen op pagina&#39;s die worden gegenereerd vanuit AEM Guides, moet u trefwoorden gebruiken om de CCVAR-naam te definiëren. Om dit in Gidsen te doen, bepaal **sleutelwoorden** in uw kaart DITA gebruikend `<keydef>` elementen. Deze sleutelwoorden kunnen aan dynamische waarden (of namen CCVAR) beantwoorden, toestaand u om hen in uw onderwerpen van DITA van verwijzingen te voorzien.
 

@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lees de productdocumentatie voor Adobe Experience Manager Guides.
 breadcrumb-title: Documentatie voor AEM Guides
-source-git-commit: 6d0648ddaabffe84c923afe7c531eea902406c1c
+source-git-commit: 4020534552bdb77545c2a283f2a90adc3aebc729
 workflow-type: tm+mt
-source-wordcount: '2011'
+source-wordcount: '2016'
 ht-degree: 2%
 
 ---
@@ -511,5 +511,5 @@ ht-degree: 2%
       - Gevallen gebruiken {#use-cases}
          - [Werken met voorwaardelijke inhoud](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
          - [Werken met toetsen](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
-         - [Contextafhankelijke inhoudsvariabelen in websites inschakelen via hulplijnen](./knowledge-base/kb-articles/publishing/enabling-contextual-content-variables-in-aem-sites-via-aemguides.md)
+         - [CCVAR (Contextual Content Variables) inschakelen in AEM Sites-pagina&#39;s die zijn gegenereerd vanuit AEM Guides](./knowledge-base/kb-articles/publishing/enabling-contextual-content-variables-in-aem-sites-via-aemguides.md)
    - [Zuurstofaansluiting gebruiken](./oxygen-connector/use-aem-connector.md)
