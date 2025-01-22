@@ -5,9 +5,9 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 2362870e0e3e6c08df03e8c547bb77de7faa0a02
+source-git-commit: d63a5983409467bc036d6f17677df51019d1f39c
 workflow-type: tm+mt
-source-wordcount: '7008'
+source-wordcount: '7012'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 0%
 >
 > Volg de upgrade-instructies voor de versie met licentie van uw product.
 
-U kunt uw huidige versie van Experience Manager Guides upgraden naar versie 4.6.0 Service Pack 1:
+U kunt uw huidige versie van Experience Manager Guides upgraden naar versie 4.6.0 Service Pack 3:
 
 
-- Als u versie 4.6.0 gebruikt, dan kunt u aan 4.6.0 Service Pack 1 direct bevorderen.
-- Als u versie 4.4, 4.3.1, of 4.3.0 gebruikt, dan moet u aan versie 4.6.0 bevorderen alvorens aan 4.6.0 Service Pack 1 te bevorderen.
+- Als u versie 4.6.0 of 4.6.0 Service Pack 1 gebruikt, dan kunt u rechtstreeks aan 4.6.0 Service Pack 3 bevorderen.
+- Als u versie 4.4, 4.3.1 of 4.3.0 gebruikt, moet u een upgrade naar versie 4.6.0 uitvoeren.
 - Als u versie 4.2, 4.2.1 (Hotfix 4.2.1.3), 4.1 of 4.1.x gebruikt, moet u een upgrade naar versie 4.4 uitvoeren voordat u een upgrade naar versie 4.6.0 uitvoert.
 - Als u versie 4.0 gebruikt, moet u een upgrade naar versie 4.2 uitvoeren voordat u een upgrade naar versie 4.3.x uitvoert.
 - Als u versie 3.8.5 gebruikt, moet u een upgrade naar versie 4.0 uitvoeren voordat u een upgrade naar versie 4.2 uitvoert.
@@ -987,7 +987,7 @@ Aangezien de waarde van `'order'` tijdens deze upgrade is gewijzigd van 1000 in 
 
 >[!TIP]
 >
-> Het wordt aanbevolen om 4.6.0 Service Pack 1 bovenop versie 4.6.0 te installeren. Het verbeteringsproces voor de versie 4.6.0 Service Pack 1 volgt de zelfde stappen zoals de versie 4.6.0.
+> Het wordt aanbevolen om 4.6.0 Service Pack 3 bovenop versie 4.6.0 of 4.6.0 Service Pack 1 te installeren. Het upgradeproces voor de 4.6.0 Service Pack 3-release volgt dezelfde stappen als de 4.6.0-release.
 
 De upgrade naar versie 4.6.0 is afhankelijk van de huidige versie van Experience Manager Guides. Als u versie 4.4.0, 4.3.1, 4.3.0, 4.2 of 4.2.1 (Hotfix 4.2.1.3) gebruikt, kunt u rechtstreeks upgraden naar versie 4.6.0.
 
