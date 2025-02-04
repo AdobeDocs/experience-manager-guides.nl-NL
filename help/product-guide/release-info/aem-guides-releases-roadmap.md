@@ -3,9 +3,9 @@ title: Routekaart 2024 uit Adobe Experience Manager Guides-releases
 description: Meer informatie over de live en komende releases van Adobe Experience Manager Guides on-prem en Adobe Experience Manager Guides as a Cloud Service
 role: Admin, Leader, Developer, User
 exl-id: cb6709ce-2732-45d0-adfd-5aeca520240e
-source-git-commit: 9183f1c531c5f54b70af0fa7cb908131346390db
+source-git-commit: 0a155c1254477c9b0dcfdc94758d4a006cf45e86
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '347'
 ht-degree: 0%
 
 ---
@@ -22,14 +22,23 @@ ht-degree: 0%
 
 De releases voor Experience Manager Guides-as a Cloud Service zijn als volgt gepland:
 
+### Live releases
+
 | Geen | Gebeurtenis | Schema | Nieuwe functies | Upgradeinstructies | Opgeloste problemen | Status |
 |---|---|---|---|---|---|---|
-| Adobe Experience Manager Guides 2024.2.0 | Automatisch bijwerken | 6 maart 2024 | [ hier ](whats-new-2024-2-0.md) | [ hier ](upgrade-instructions-2024-2-0.md) | [ hier ](fixed-issues-2024-2-0.md) | Bijgewerkt |
-| Adobe Experience Manager Guides 2024.4.0 | Automatisch bijwerken | 26 april 2024 | [ hier ](whats-new-2024-04-0.md) | [ hier ](upgrade-instructions-2024-04-0.md) | [ hier ](fixed-issues-2024-04-0.md) | Bijgewerkt |
-| Adobe Experience Manager Guides 2024.6.0 | Automatisch bijwerken | 10-12 juni 2024 | [ hier ](whats-new-2024-06-0.md) | [ hier ](upgrade-instructions-2024-06-0.md) | [ hier ](fixed-issues-2024-06-0.md) | Bijgewerkt |
-| Adobe Experience Manager Guides 2024.10.0 | Automatisch bijwerken | 14 oktober 2024 | [ hier ](whats-new-2024-10-0.md) | [ hier ](upgrade-instructions-2024-10-0.md) | [ hier ](fixed-issues-2024-10-0.md) | Bijgewerkt |
-| Adobe Experience Manager Guides 2024.10.0 | Service Pack 1 | 29 oktober 2024 | - | - | [ hier ](fixed-issues-2024-10-0-sp1.md) | Bijgewerkt |
 | Adobe Experience Manager Guides 2024.12.0 | Automatisch bijwerken | 13 januari 2025 |  | [ hier ](upgrade-instructions-2024-12-0.md) | [ hier ](fixed-issues-2024-12-0.md) | Bijgewerkt |
+| Adobe Experience Manager Guides 2024.10.0 | Service Pack 1 | 29 oktober 2024 | - | - | [ hier ](fixed-issues-2024-10-0-sp1.md) | Bijgewerkt |
+| Adobe Experience Manager Guides 2024.10.0 | Automatisch bijwerken | 14 oktober 2024 | [ hier ](whats-new-2024-10-0.md) | [ hier ](upgrade-instructions-2024-10-0.md) | [ hier ](fixed-issues-2024-10-0.md) | Bijgewerkt |
+| Adobe Experience Manager Guides 2024.6.0 | Automatisch bijwerken | 10-12 juni 2024 | [ hier ](whats-new-2024-06-0.md) | [ hier ](upgrade-instructions-2024-06-0.md) | [ hier ](fixed-issues-2024-06-0.md) | Bijgewerkt |
+| Adobe Experience Manager Guides 2024.4.0 | Automatisch bijwerken | 26 april 2024 | [ hier ](whats-new-2024-04-0.md) | [ hier ](upgrade-instructions-2024-04-0.md) | [ hier ](fixed-issues-2024-04-0.md) | Bijgewerkt |
+| Adobe Experience Manager Guides 2024.2.0 | Automatisch bijwerken | 6 maart 2024 | [ hier ](whats-new-2024-2-0.md) | [ hier ](upgrade-instructions-2024-2-0.md) | [ hier ](fixed-issues-2024-2-0.md) | Bijgewerkt |
+
+
+### Geplande introducties
+
+
+| Geen | Gebeurtenis | Schema | Nieuwe functies | Upgradeinstructies | Opgeloste problemen | Status |
+|---|---|---|---|---|---|---|
 | Adobe Experience Manager Guides 2025.02.0 | Automatisch bijwerken | ~ februari 2025 |  |  |  | Doel |
 | Adobe Experience Manager Guides 2025.04.0 | Automatisch bijwerken | ~ april 2025 |  |  |  | Doel |
 
@@ -39,11 +48,19 @@ De releases voor Experience Manager Guides-as a Cloud Service zijn als volgt gep
 
 Productupdates voor nieuwe functies, verbeteringen en foutoplossingen voor ondersteunde Adobe Experience Manager Guides on-premise en Managed Services-releaseplanning zijn als volgt:
 
+### Live releases
+
 | Geen | Gebeurtenis | Schema | Nieuwe functies | Upgradeinstructies | Status |
 |---|---|---|---|---|---|
-| Adobe Experience Manager Guides 4.4.0 | Geen | 29 januari 2024 | [ hier ](whats-new-4-4.md) | [ hier ](upgrade-instructions-4-4.md) | Vrijgegeven |
-| Adobe Experience Manager Guides 4.6.0 | Geen | 12 september 2024 | [ hier ](whats-new-4-6.md) | [ hier ](upgrade-instructions-4-6-0.md) | Vrijgegeven |
-| Adobe Experience Manager Guides 4.6.0 | Service Pack 1 | 29 oktober 2024 | - | [ hier ](upgrade-instructions-4-6-0-sp1.md) | Vrijgegeven |
 | Adobe Experience Manager Guides 4.6.0 | Service Pack 3 | 22 januari 2025 | - | [ hier ](upgrade-instructions-4-6-0-sp2.md) | Vrijgegeven |
+| Adobe Experience Manager Guides 4.6.0 | Service Pack 1 | 29 oktober 2024 | - | [ hier ](upgrade-instructions-4-6-0-sp1.md) | Vrijgegeven |
+| Adobe Experience Manager Guides 4.6.0 | Geen | 12 september 2024 | [ hier ](whats-new-4-6.md) | [ hier ](upgrade-instructions-4-6-0.md) | Vrijgegeven |
+| Adobe Experience Manager Guides 4.4.0 | Geen | 29 januari 2024 | [ hier ](whats-new-4-4.md) | [ hier ](upgrade-instructions-4-4.md) | Vrijgegeven |
+
+
+### Geplande introducties
+
+| Geen | Gebeurtenis | Schema | Nieuwe functies | Upgradeinstructies | Status |
+|---|---|---|---|---|---|
 | Adobe Experience Manager Guides 5.0.0 | Geen | ~ februari 2025 |  |  | Doel |
 | Adobe Experience Manager Guides 5.1.0 | Geen | ~ augustus 2025 |  |  | Doel |
