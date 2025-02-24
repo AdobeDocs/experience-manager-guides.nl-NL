@@ -5,9 +5,9 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: c94eb03af60ef9df60f77c21bfce1c45708df2f8
+source-git-commit: e1d6123991ddd8d25f76ee03befeb95f020a9834
 workflow-type: tm+mt
-source-wordcount: '4521'
+source-wordcount: '4755'
 ht-degree: 0%
 
 ---
@@ -58,11 +58,11 @@ Met de tegel Mapprofielen in de instellingen voor hulplijnen kunt u instellingen
 
 - **Vooraf ingestelde Output**: Gelijkaardig aan Malplaatjes, zijn er vijf pre-gevormde outputvoorinstellingen:
 
-   - Site AEM
+   - AEM-site
 
    - PDF
 
-   - HTML 5
+   - HTML5
 
    - EPUB
 
@@ -73,6 +73,8 @@ Met de tegel Mapprofielen in de instellingen voor hulplijnen kunt u instellingen
 - **de Configuraties van de Redacteur van XML**: Gebruik dit lusje om het blik-en-gevoel en diverse eigenschappen van de Redacteur van het Web aan te passen. De volgende configureerbare montages zijn beschikbaar voor de Redacteur van het Web:
 
    - UI-configuratie XML-editor
+   - Pagina-indeling van XML-editor
+   - XML Editor-configuratie
    - CSS-sjabloonlay-out
    - XML-editorfragmenten
    - Versielabels voor XML-inhoud
@@ -106,7 +108,7 @@ Voer de volgende stappen uit om het algemene profiel te configureren:
 
 1. Om **Output te vormen stelt** vooraf in, zie [ output vooraf instelt ](#id18AGD0IH0Y4) vormen.
 
-1. Om de Configuratie van de Redacteur van XML te vormen, zie [ en pas de Redacteur van het Web van XML ](#id2065G300O5Z) aan.
+1. Om de Configuratie van de Redacteur van XML te vormen, zie [ de Redacteur van XML ](#id2065G300O5Z) vormen en aanpassen.
 
 1. Na het maken van alle vereiste updates, sparen en sluit het **Globale Profiel**.
 
@@ -230,11 +232,11 @@ Als u een aangepast kenmerk gebruikt, moet dit een geldig DITA-kenmerk zijn dat 
 
 ## Sjablonen configureren {#id1889D0IL0Y4}
 
-AEM Guides komt met 7 uit-van-de-doos onderwerpmalplaatjes, 2 DITA kaartmalplaatjes, en 3 malplaatjes van PDF. U kunt ervoor kiezen om slechts een paar sjablonen beschikbaar te hebben voor uw auteurs en uitgevers. Als u een douanemalplaatje gebruikt, kan het zelfde worden gevormd en ter beschikking gesteld voor creatie en het publiceren. U gebruikt het **lusje van Malplaatjes** in de configuratie van de Profielen van de Omslag om onderwerp, kaart, of PDF malplaatjes van globale of omslag-vlakke profielen toe te voegen of te verwijderen.
+AEM Guides komt met 7 uit-van-de-doos onderwerpmalplaatjes, 2 DITA kaartmalplaatjes, en 3 malplaatjes van PDF. U kunt ervoor kiezen om slechts een paar sjablonen beschikbaar te hebben voor uw auteurs en uitgevers. Als u een douanemalplaatje gebruikt, kan het zelfde worden gevormd en ter beschikking gesteld voor creatie en het publiceren. U gebruikt het **lusje van Malplaatjes** in de configuratie van de Profielen van de Omslag om onderwerp, kaart, of de malplaatjes van PDF van globale of omslag-vlakke profielen toe te voegen of te verwijderen.
 
 Zelfs alvorens het onderwerp, de kaart, of de malplaatjes van PDF op globaal of omslag-niveau te vormen, kunt u een plaats ook bepalen om uw douanesjablonen op te slaan. Om een douaneplaats te vormen om de malplaatjes op te slaan, zie [ de weg van de malplaatjeomslag van douaneDITA ](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z) vormen.
 
-Voer de volgende stappen uit om het onderwerp, de kaart, of de malplaatjes van de PDF in een omslagprofiel toe te voegen:
+Voer de volgende stappen uit om het onderwerp, de kaart, of de malplaatjes van PDF in een omslagprofiel toe te voegen:
 
 1. Meld u aan bij Adobe Experience Manager als beheerder of als de gebruiker beheerdersrechten heeft voor een profiel op mapniveau.
 
@@ -251,11 +253,11 @@ Voer de volgende stappen uit om het onderwerp, de kaart, of de malplaatjes van d
 1. Voor de profielpagina, klik op de **Malplaatjes** tabel.
 1. Klik **uitgeven**.
 
-   U krijgt de opties om de malplaatjes van het Onderwerp, van de Kaart, en van de PDF toe te voegen door van de standaardplaats te zoeken of te doorbladeren voor het.
+   U krijgt de opties om de malplaatjes van het Onderwerp, van de Kaart, en van PDF toe te voegen door van de standaardplaats te zoeken of te doorbladeren voor het.
 
    >[!NOTE]
    >
-   > Door gebrek, worden alle malplaatjes opgeslagen in /content/dam/dita-templates omslag. De map `dita-templates` bevat `topics` , `maps` en `PDF` submappen waarin het onderwerp, de kaart en de sjablonen PDF worden opgeslagen. U kunt uw aangepaste sjablonen \(.dita, .xml of .ditamapfiles\) toevoegen in de standaardsjabloonmappen. Nadat u de sjabloon in de standaardmap hebt toegevoegd, kunt u deze toevoegen in het algemene profiel of in het mappenprofiel. Voor meer informatie over het creëren van douanesjablonen die de Redacteur van het Web gebruiken, zie [ douane creërend malplaatje ](#id1917D0EG0HJ).
+   > Door gebrek, worden alle malplaatjes opgeslagen in /content/dam/dita-templates omslag. De map `dita-templates` bevat `topics` , `maps` en `PDF` submappen waarin het onderwerp, de kaart en de PDF-sjablonen worden opgeslagen. U kunt uw aangepaste sjablonen \(.dita, .xml of .ditamapfiles\) toevoegen in de standaardsjabloonmappen. Nadat u de sjabloon in de standaardmap hebt toegevoegd, kunt u deze toevoegen in het algemene profiel of in het mappenprofiel. Voor meer informatie over het creëren van douanesjablonen die de Redacteur van het Web gebruiken, zie [ douane creërend malplaatje ](#id1917D0EG0HJ).
 
    ![](assets/search-author-temp.png){width="800" align="left"}
 
@@ -337,7 +339,7 @@ Met AEM Guides kan de beheerder uitvoervoorinstellingen maken met specifieke ins
 
 Nadat de standaarduitvoervoorinstellingen in het systeem zijn gemaakt, worden voor alle DITA-kaarten die daarna worden gemaakt, de standaardvoorinstellingen gebruikt om uitvoer te genereren. Nochtans, zouden alle bestaande kaarten DITA de outputvoorinstellingen blijven gebruiken die vroeger met hen werden gevormd. Als u de nieuwe uitvoervoorinstelling wilt toepassen op alle bestaande DITA-toewijzingen, moet u de workflow voor het toepassen van vooraf ingestelde wijzigingen uitvoeren.
 
-Naast de voorinstellingen die op algemeen of ondernemingsniveau zijn geconfigureerd, heeft een uitgever nog steeds de rechten om meer uitvoervoorinstellingen te maken. Deze voorinstellingen zijn echter gekoppeld aan de DITA-kaart waarvoor ze zijn gemaakt. Voor meer details over het creëren van regelmatige outputvoorinstellingen voor een kaart DITA, zie *creëren, uitgeven, dupliceren, of verwijderen vooraf ingestelde output* in de Gebruikende as a Cloud Service gids van Adobe Experience Manager Guides.
+Naast de voorinstellingen die op algemeen of ondernemingsniveau zijn geconfigureerd, heeft een uitgever nog steeds de rechten om meer uitvoervoorinstellingen te maken. Deze voorinstellingen zijn echter gekoppeld aan de DITA-kaart waarvoor ze zijn gemaakt. Voor meer details over het creëren van regelmatige outputvoorinstellingen voor een kaart DITA, zie *creëren, uitgeven, dupliceren, of verwijderen vooraf ingestelde output* in de Gebruikende gids van Adobe Experience Manager Guides as a Cloud Service.
 
 Voer de volgende stappen uit om algemene of mapspecifieke uitvoervoorinstellingen te configureren:
 
@@ -355,7 +357,7 @@ Voer de volgende stappen uit om algemene of mapspecifieke uitvoervoorinstellinge
 
 1. Op de profielpagina. klik op **de Output stelt** tabel vooraf in.
 
-   Er wordt een lijst weergegeven met uitvoervoorinstellingen die buiten de doos vallen, waaronder Site, PDF, HTML5, EPUB en AANGEPAST.
+   Er wordt een lijst weergegeven met uitvoervoorinstellingen die buiten de doos vallen, waaronder AEM Site, PDF, HTML5, EPUB en CUSTOM.
 
 1. Voer een van de volgende handelingen uit om een uitvoervoorinstelling te maken of te bewerken:
 
@@ -364,7 +366,7 @@ Voer de volgende stappen uit om algemene of mapspecifieke uitvoervoorinstellinge
 
    - Klik **uitgeven** om de geselecteerde vooraf ingestelde configuratie voor het uitgeven te openen.
 
-     Voor informatie over output vooraf ingestelde montages, zie *Begrijpend de output vooraf instelt* in de Gebruikende as a Cloud Service gids van Adobe Experience Manager Guides.
+     Voor informatie over output vooraf ingestelde montages, zie *Begrijpend de output vooraf instelt* in de Gebruikende gids van Adobe Experience Manager Guides as a Cloud Service.
 
 1. Klik **sparen** om de vooraf ingestelde montages te bewaren.
 
@@ -391,7 +393,7 @@ Als u een bestaande uitvoervoorinstelling hebt bijgewerkt of als u een nieuwe ui
 
 1. Op de profielpagina. klik op **de Output stelt** tabel vooraf in.
 
-   Er wordt een lijst weergegeven met uitvoervoorinstellingen die buiten de doos vallen, waaronder Site, PDF, HTML5, EPUB en AANGEPAST.
+   Er wordt een lijst weergegeven met uitvoervoorinstellingen die buiten de doos vallen, waaronder AEM Site, PDF, HTML5, EPUB en CUSTOM.
 
 1. Selecteer de uitvoervoorinstelling die u wilt toepassen op bestaande DITA-maps.
 
@@ -407,9 +409,15 @@ Als u een bestaande uitvoervoorinstelling hebt bijgewerkt of als u een nieuwe ui
 
 
 
-## Intelligente suggesties voor AI configureren in de webeditor {#conf-ai-smart-suggestions}
+## AI-assistent configureren voor slimme hulp en ontwerpen
 
-Voor ![AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service.
+Voor ![ AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service.
+
+De AI Assistant in Adobe Experience Manager Guides is een krachtig, door AI aangedreven hulpmiddel dat is ontworpen om uw inhoud te verbeteren door middel van intelligente authoring en hergebruik van inhoud. Het verenigt twee robuuste eigenschappen AI - **Authoring** en **Hulp** - in de interface van Experience Manager Guides, toelatend u aan auteursdocumenten en toegangsinformatie sneller en efficiënter.
+
+Voor configuratiedetails, de Configuratie van de mening [ AI Medewerker ](./conf-smart-suggestions.md).
+
+**vorm AI-Verpletterde slimme suggesties**
 
 U kunt de door AI aangedreven slimme suggesties configureren en de auteurs helpen de bestaande inhoud opnieuw te gebruiken en eenvoudig correcte en consistente inhoudsverwijzingen maken. Het **AI lusje van de Configuratie** staat u toe om de montages van **te controleren stelt opnieuw bruikbare inhoud** van het AI Hulppaneel in de Redacteur van het Web voor.
 
@@ -424,9 +432,10 @@ Voer de volgende stappen uit om standaardAI configuratie op het globale of omsla
    >U kunt op AI gebaseerde slimme suggesties aan het globale of een omslag-vlakke profiel vormen.
 
 1. Voor de profielpagina, selecteer de **AI Configuratie** tabel.
+
    ![ AI configuratielusje in globaal profiel ](assets/global-profile-AI-configuration-cs.png) {width="800" align="left"}
 
-1. Klik **uitgeven**.
+1. Selecteer **uitgeven**.
 1. Als beheerder kunt u de volgende instellingen configureren:
 
    **Minimale karakters**: Ga het minimumaantal karakters in dat de auteurs binnen moeten typen om de suggesties te krijgen. Als dit getal bijvoorbeeld 7 is, moet de auteur ten minste 7 tekens toevoegen om een slimme suggestie weer te geven.
@@ -443,16 +452,13 @@ Voer de volgende stappen uit om standaardAI configuratie op het globale of omsla
 
 Leer meer over om [ op AI-Gebaseerde slimme suggesties ](../user-guide/authoring-ai-based-smart-suggestions.md) te bekijken en toe te voegen om inhoudsverwijzingen toe te voegen terwijl het ontwerpen in de Redacteur van het Web.
 
+**pas de standaardvragen voor slimme hulp** aan
 
+Voor ![ de wolk van AEM ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service.
 
+U kunt de AI-Verleende slimme **Hulp** vormen om de auteurs te helpen vragen stellen en gemakkelijk de vereiste inhoud van de [ documentatie van Experience Manager Guides ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview) vinden.
 
-## Slimme Help voor AI configureren in de webeditor {#conf-ai-guides-assistant}
-
-Voor ![AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service.
-
-U kunt AI-aangedreven **Slimme Hulp** vormen om de auteurs te helpen vragen stellen en gemakkelijk de vereiste inhoud van de [ Documentatie van Experience Manager Guides ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview) vinden.
-
-Het **lusje van de Configuratie van de Redacteur van XML** staat u toe om de standaardvragen van het **Slimme paneel van de Hulp** in de Redacteur van het Web te vormen.
+Het **lusje van de Configuratie van de Redacteur van XML** staat u toe om de standaardvragen van het **deelvenster van de Hulp** te vormen.
 
 >[!NOTE]
 >
@@ -494,13 +500,27 @@ Voer de volgende stappen uit om de standaardvragen te vormen:
 Leer meer over het gebruiken van de [ AI-Aangedreven Slimme Hulp ](../user-guide/ai-based-smart-help.md) om de vereiste inhoud van de documentatie van Experience Manager Guides te vinden.
 
 
-## De XML-webeditor configureren en aanpassen {#id2065G300O5Z}
+## De XML-editor configureren en aanpassen {#id2065G300O5Z}
 
-Door gebrek, komt de Redacteur van het Web van XML met veel eigenschappen om uw auteurs te helpen DITA documenten tot stand brengen. Als u in een restrictieve omgeving werkt, kunt u kiezen welke functies aan uw auteurs worden blootgesteld. Het lusje van de Configuratie van de Redacteur van XML staat u toe om de eigenschappen gemakkelijk te controleren en ook het blik-en-gevoel van uw Redacteur van het Web te veranderen. Als beheerder, kunt u de volgende componenten van de Redacteur van het Web aanpassen:
+Standaard bevat de XML-editor een heleboel functies waarmee uw auteurs DITA-documenten kunnen maken. Als u in een restrictieve omgeving werkt, kunt u kiezen welke functies aan uw auteurs worden blootgesteld. Met het tabblad Configuratie van de XML-editor kunt u eenvoudig de functies beheren en ook het uiterlijk van de Editor wijzigen. Als beheerder kunt u de volgende componenten van de Editor aanpassen:
 
 **de Configuratie UI van de Redacteur van XML**
 
-Deze instelling bepaalt de werkbalk en de andere gebruikersinterface-elementen van de webeditor. Klik op het pictogram Downloaden om het bestand ui\_config.json op uw lokale systeem te downloaden. Vervolgens kunt u het bestand wijzigen en het bestand uploaden. Afhankelijk van de plaats waar u het bestand uploadt op, algemeen profiel of mapniveau, worden de wijzigingen dienovereenkomstig toegepast. Voor meer details over hoe te om de Redacteur van XML aan te passen gebruikend het ui \_config.json- dossier, zie [ toolbar ](conf-web-editor-customize-toolbar.md#) aanpassen.
+Met deze instelling kunt u JSON-extensies maken die wijzigingen weerspiegelen die in het `ui_config.json` -bestand zijn aangebracht. U kunt deze extensies afzonderlijk uploaden op het niveau van het mapprofiel, zodat u over meer flexibiliteit en aanpassingsmogelijkheden beschikt. Bijvoorbeeld, wanneer u veranderingen in de **Configuratie van de Redacteur van XML** aanbrengt, zoals het bijwerken van een knoop, identificeert het systeem automatisch de verschillen. Door deze veranderingen in de **Configuratie UI van de Redacteur van XML te uploaden** en hen in uitbreidingen om te zetten JSON gebruikend **zet UI Config in JSON** knoop om, produceert het systeem een uitbreiding die de nieuwe functionaliteit opneemt.
+
+Leer meer over **het aanpassen van configuraties JSON en het omzetten van configuraties UI voor de nieuwe Redacteur van AEM Guides**.
+
+**de paginalay-out van de Redacteur van XML**
+
+Deze eigenschap staat u toe om CSS dossiers te uploaden om de nieuwe uitbreidingen te stileren die onder de **worden geupload van de Redacteur UI van XML**. De geüploade CSS wordt consistent toegepast in alle relevante toepassingen en zorgt voor een uniforme en gepolijste weergave voor uw UI-aanpassingen.
+
+**Configuratie van de Redacteur van XML**
+
+Met deze instelling bepaalt u de werkbalk en de andere gebruikersinterface-elementen van de Editor. Selecteer het **pictogram van de Download** om het `ui\_config.json` dossier op uw lokaal systeem te downloaden. Vervolgens kunt u het bestand wijzigen en het bestand uploaden. Afhankelijk van de plaats waar u het bestand uploadt op, algemeen profiel of mapniveau, worden de wijzigingen dienovereenkomstig toegepast. Voor meer details over hoe te om de Redacteur van XML aan te passen gebruikend `ui\_config.json file`, mening [ pas toolbar ](conf-web-editor-customize-toolbar.md#) aan.
+
+>[!NOTE]
+>
+> Voor de release van AEM Guides 2502 en nieuwere versies wordt aangeraden de extensie JSON te gebruiken in plaats van `ui_config.json` voor aanpassing. Voor details, verwijs naar de **sectie van de Configuratie van de Redacteur UI van 0} XML hierboven.**
 
 **CSS de Lay-out van het Malplaatje**
 

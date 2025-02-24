@@ -1,21 +1,21 @@
 ---
-title: Onderwerpen of kaarten controleren
+title: Inleiding tot herziening
 description: U kunt onderwerpen of kaarten op efficiënte wijze beoordelen in AEM Guides voor een vloeiende inhoudsevaluatie. De functies voor auteurs en revisoren in AEM Guides kennen.
 exl-id: 81ea0b52-52b0-4764-a6d8-a96d5c7693bf
 feature: Reviewing
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 38ea2eb35ebd75c1202c86d598ad953db3894d40
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 0%
 
 ---
 
-# Onderwerpen of kaarten controleren {#id1645H6010Q5}
+# Inleiding tot herziening {#id1645H6010Q5}
 
-Bijna alle technische documenten moeten meerdere herzieningsronden doorlopen. In de meeste gevallen omvat een revisiecyclus meer dan één revisor. Het is altijd lastig om opmerkingen van meerdere revisoren te maken en hierop te reageren. In een scenario met meerdere revisoren is het bovendien handig als één revisor de opmerkingen van andere revisoren kan zien.
+Bijna alle technische documenten moeten meerdere herzieningsronden doorlopen. In de meeste gevallen omvat een revisiecyclus meer dan één revisor. Het is altijd lastig om opmerkingen van meerdere revisoren te maken en hierop te reageren. In een scenario met meerdere revisoren is het bovendien handig als één revisor de opmerkingen van andere revisoren kan bekijken.
 
-Enkele belangrijkste eigenschappen die door AEM Guides aan *worden aangeboden initiators \ (of auteurs \)* zijn:
+Enkele belangrijkste eigenschappen die door Adobe Experience Manager Guides aan *worden aangeboden initiators \ (of auteurs \)* zijn:
 
 - Maak een DITA-project voor de revisiewerkstroom.
 - Verzend een of meer onderwerpen voor revisie in één revisietaak.
@@ -30,7 +30,7 @@ Enkele belangrijkste eigenschappen die door AEM Guides aan *worden aangeboden in
 
 - Groep en filtercommentaren die op versie van onderwerp worden gebaseerd.
 
-- Zie zij aan zij verschillen tussen verschillende versies van onderwerpen die voor overzicht worden gedeeld.
+- De verschillen van de mening zij aan zij tussen verschillende versies van onderwerpen die voor overzicht worden gedeeld.
 
 - Importeer automatisch \(verwijderde of ingevoegde\) opmerkingen in de versie van het onderwerp dat is gedeeld voor revisie.
 
@@ -45,13 +45,13 @@ Eigenschappen beschikbaar aan de *recensenten*:
 - In het deelvenster Revisie kunt u opmerkingen toevoegen of reageren op opmerkingen van andere gebruikers.
 - U kent gemakkelijk de versie van het onderwerp dat wordt gecontroleerd.
 - Ontvang een bericht wanneer een taak aan hen voor overzicht wordt toegewezen.
-- Zie verschillen tussen oudere en nieuwere versie van onderwerp die voor overzicht wordt gedeeld.
-- Zie opmerkingen van andere revisoren of reacties op opmerkingen van auteurs in real-time.
+- De verschillen van de mening tussen oudere en nieuwere die versie van onderwerp voor overzicht wordt gedeeld.
+- Opmerkingen van andere revisoren of reacties op opmerkingen van auteurs in real-time weergeven.
 - De commentaren van de toegang die op oudere versie van onderwerp worden gegeven.
 
 >[!NOTE]
 >
-> Zie de *sectie van het Overzicht* in de Beste praktijken gids voor beste praktijken rond het creëren van overzichtstaak.
+> Bekijk de *sectie van het Overzicht* in de Beste praktijken gids voor beste praktijken rond het creëren van overzichtstaak.
 
 - **[creeer een project DITA](authoring-create-dita-project.md)**
 

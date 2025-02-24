@@ -4,24 +4,24 @@ description: Inhoud beheren en uw rollen en machtigingen in AEM Guides identific
 exl-id: 84926dc2-1180-48ef-85d0-50e3478bf26a
 feature: Content Management
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 99e42091490b28b5d5ee73472a7655e3feeafd25
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '736'
 ht-degree: 0%
 
 ---
 
 # Inhoud beheren {#id164JBG0M0T1}
 
-Voordat u begint met het maken van inhoud, moet u bekend zijn met enkele basisbeginselen van contentbeheer in AEM Guides. Begin vervolgens met het maken van verschillende gebruikersgroepen en het ordenen van uw middelen.
+Voordat u begint met het maken van inhoud, moet u bekend zijn met enkele basisbeginselen van contentbeheer in Adobe Experience Manager Guides. Begin vervolgens met het maken van verschillende gebruikersgroepen en het ordenen van uw middelen.
 
 ## Belangrijkste concepten
 
-Enkele belangrijke concepten van inhoudsbeheer in AEM zijn:
+Enkele belangrijke concepten voor inhoudsbeheer in Adobe Experience Manager zijn:
 
 **Beheer van Activa**
 
-AEM Guides gebruikt AEM beheer van digitale elementen \(DAM\) voor het beheer van uw DITA-bestanden. De bestanden die u uploadt of incheckt in de DAM worden opgeslagen als digitale elementen. U kunt uw middelen in AEM Assets beheren en bewerken. Voor meer informatie over activabeheer, zie [ activa ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=en) beheren.
+Experience Manager Guides gebruikt Adobe Experience Manager Digital Asset Management \(DAM\) om uw DITA-bestanden te beheren. De bestanden die u uploadt of incheckt in de DAM worden opgeslagen als digitale elementen. U kunt uw middelen in Adobe Experience Manager Assets beheren en bewerken. Voor meer informatie over activabeheer, mening [ beheert activa ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=en).
 
 **het beheer van de Verbinding**
 
@@ -29,21 +29,21 @@ Verplaats of wijzig de naam van bestanden of wijzig de mapstructuur in de opslag
 
 **het Leiden versies**
 
-AEM Guides biedt versiebeheer voor uw digitale middelen. U kunt deze functionaliteit gemakkelijk van een DITA auteurstoepassing van keus toelaten. Uw schrijvers toestaan de standaardfuncties voor versiebeheer uit te voeren, zoals inchecken en uitchecken.
+Experience Manager Guides biedt versiebeheer voor uw digitale middelen. U kunt deze functionaliteit gemakkelijk van een DITA auteurstoepassing van keus toelaten. Uw schrijvers toestaan de standaardfuncties voor versiebeheer uit te voeren, zoals inchecken en uitchecken.
 
-Voor meer informatie over het creëren van versies of het terugkeren naar een specifieke versie, zie [ Tak, terugkeren, en verdere versioning ](web-editor-preview-topics.md#id193PG0Y051X).
+Voor meer informatie over het creëren van versies of het terugkeren naar een specifieke versie, mening [ Tak, keer terug, en verdere versioning ](web-editor-preview-topics.md#branch-revert-and-subsequent-versioning).
 
 **Inheemse behandeling DITA**
 
-Hoewel AEM Guides de structuur van uw DITA- dossiers handhaaft, laat het ook AEM toe om DITA te behandelen gebruikend elementenafbeelding om de elementen DITA aan AEM componenten toe te wijzen. De native DITA-afhandeling wordt gebruikt in functies zoals onderwerpvoorvertoning, AEM Sites-publicatie en de revisieworkflows.
+Hoewel Experience Manager Guides de structuur van uw DITA-bestanden behoudt, kan Adobe Experience Manager DITA ook op native wijze afhandelen met behulp van elementtoewijzing om de DITA-elementen toe te wijzen aan Adobe Experience Manager-componenten. De native DITA-afhandeling wordt gebruikt in functies zoals onderwerpvoorvertoning, Adobe Experience Manager Sites-publicatie en de revisieworkflows.
 
 ## Uw rol en machtigingen identificeren {#id181TF0K0MHT}
 
-AEM Guides biedt drie groepen buiten de doos. Deze groepen zijn: *Auteurs*, *Recensenten*, en *Uitgevers*. Afhankelijk van de groep waaraan u bent gekoppeld, hebt u machtigingen om specifieke taken uit te voeren, zoals in de onderstaande tabel wordt vermeld. Zo kan het publiceren alleen worden uitgevoerd door een uitgever, maar niet door een auteur of een revisor. Op dezelfde manier kan een auteur een nieuw onderwerp tot stand brengen, en een recensent kan slechts een onderwerp herzien.
+Experience Manager Guides biedt drie groepen buiten de doos. Deze groepen zijn: *Auteurs*, *Recensenten*, en *Uitgevers*. Afhankelijk van de groep waaraan u bent gekoppeld, hebt u machtigingen om specifieke taken uit te voeren, zoals in de onderstaande tabel wordt vermeld. Zo kan het publiceren alleen worden uitgevoerd door een uitgever, maar niet door een auteur of een revisor. Op dezelfde manier kan een auteur een nieuw onderwerp tot stand brengen, en een recensent kan slechts een onderwerp herzien.
 
 >[!TIP]
 >
-> Zie de *sectie van Toestemmingen* in de Beste praktijken gids voor beste praktijken rond het plaatsen van gebruikerstoestemmingen.
+> Bekijk de *sectie van Toestemmingen* in de Beste praktijken gids voor beste praktijken rond het plaatsen van gebruikerstoestemmingen.
 
 De volgende lijst maakt een lijst van diverse taken en de groepen die die taken kunnen uitvoeren:
 
@@ -93,10 +93,10 @@ De volgende lijst maakt een lijst van diverse taken en de groepen die die taken 
 
 **Werk met globale of omslag-vlakke profielen**
 
-In een onderneming, kunnen de verschillende groepen of de producten verschillende auteursmalplaatjes, outputmalplaatjes, voorwaardelijke attributenprofielen \ (of onderwerpregelingen \), en de configuraties van de Redacteur van het Web gebruiken. Als u deze alleen op ondernemingsniveau \(of algemeen\) configureert, kunnen auteurs problemen ondervinden omdat ze sjablonen of profielen zien die voor hen niet relevant zijn.
+In een onderneming, kunnen de verschillende groepen of de producten verschillende auteursmalplaatjes, outputmalplaatjes, voorwaardelijke attributenprofielen \ (of onderwerpregelingen \), en de configuraties van de Redacteur van het Web gebruiken. Als u deze alleen op ondernemingsniveau \(of algemeen\) configureert, kunnen auteurs problemen ondervinden omdat ze sjablonen of profielen bekijken die voor hen niet relevant zijn.
 
-Met AEM Guides kunt u ontwerpsjablonen \(onderwerp of kaart\), uitvoersjablonen, voorwaardelijke kenmerken en webeditorconfiguraties op ondernemingsniveau en op mapniveau configureren. Op deze manier kunt u de configuraties voor verschillende afdelingen of producten in uw onderneming van elkaar scheiden.
+Met Experience Manager Guides kunt u ontwerpsjablonen \(onderwerp of kaart\), uitvoersjablonen, voorwaardelijke kenmerken en webeditorconfiguraties op ondernemingsniveau en op mapniveau configureren. Op deze manier kunt u de configuraties voor verschillende afdelingen of producten in uw onderneming van elkaar scheiden.
 
 Ook, kunt u de omslag-specifieke configuraties aan een afdeling of productbeheerders delegeren om het beleid te decentraliseren.
 
-Voor details bij vestiging globale en omslag-vlakke profielen, zie *globale of omslag-vlakke profielen* vormen in installeer en vorm Adobe Experience Manager Guides as a Cloud Service.
+Voor details bij vestiging globale en omslag-vlakke profielen, mening *vorm globale of omslag-vlakke profielen* in installeer en vorm Adobe Experience Manager Guides as a Cloud Service.

@@ -4,14 +4,19 @@ description: Gebruik het deelvenster Snel genereren in AEM Guides. Leer hoe u ui
 exl-id: 5de04980-91d7-4bbc-a4b7-9bfd60ccf3c7
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: a02a7310f5e332f88827a9d5a05034abec05b43a
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '293'
 ht-degree: 0%
 
 ---
 
 # Het deelvenster Snel genereren gebruiken om uitvoer te genereren en weer te geven {#id22AKE050F5L}
+
+>[!NOTE]
+>
+> Het deelvenster Snel genereren, dat voorheen beschikbaar was in Adobe Experience Manager Guides, is vanaf versie 4.0 en 2502 vervangen. U hebt geen toegang tot het deelvenster Snel genereren om uitvoer te genereren en weer te geven
+
 
 AEM Guides verstrekt a **Snel** paneel dat binnen de Redacteur van het Web wordt geïntegreerd. In dit deelvenster kunt u tegelijkertijd de uitvoer genereren van de uitvoervoorinstellingen die voor een DITA-kaart zijn gemaakt. U kunt de uitvoer genereren voor een of meer voorinstellingen of voor alle voorinstellingen die zijn gemaakt voor een DITA-kaart. U kunt **gebruiken Snel** paneel produceert om de output later te bekijken die voor vooraf instelt wordt geproduceerd.
 

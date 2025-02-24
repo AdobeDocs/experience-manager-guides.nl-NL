@@ -4,9 +4,9 @@ description: Weet hoe u een voltooide revisietaak kunt weergeven als een revisor
 exl-id: 7c468a1c-046c-4b40-9f0b-1a67e6cf65fe
 feature: Reviewing
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 99e42091490b28b5d5ee73472a7655e3feeafd25
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '386'
 ht-degree: 0%
 
 ---
@@ -17,19 +17,23 @@ U kunt controletaken uitvoeren voor de projecten waarvoor u de auteur (of aanvra
 
 ## Als recensent
 
-Als revisor ziet u een indicator in het venster Opmerkingen om aan te geven dat de revisie is beëindigd. De werkbalk Opmerkingen wordt niet weergegeven. U kunt opmerkingen dus niet markeren, doorhalen, invoegen of toevoegen. U kunt een opmerking lezen, maar u kunt geen opmerkingen bewerken of verwijderen. U kunt ook geen reactie toevoegen aan de opmerkingen. U kunt de contextafhankelijke werkbalk niet zien (als u tekst wilt markeren of doorhalen). Het pictogram Verouderde opmerkingen wordt ook niet weergegeven bij een voltooide revisietaak.
+Als revisor kunt u een indicator in het venster Opmerkingen weergeven om aan te geven dat de revisie is beëindigd. De werkbalk Opmerkingen wordt niet weergegeven. U kunt opmerkingen dus niet markeren, doorhalen, invoegen of toevoegen. U kunt een opmerking lezen, maar u kunt geen opmerkingen bewerken of verwijderen. U kunt ook geen reactie toevoegen aan de opmerkingen. U kunt de contextuele werkbalk niet weergeven (als u tekst wilt markeren of doorhalen). Het pictogram Verouderde opmerkingen wordt ook niet weergegeven bij een voltooide revisietaak.
 
 U kunt echter alle opmerkingen doorzoeken of filteren. U kunt er ook voor kiezen om voorwaarden weer te geven of te verbergen en geconditioneerde inhoud dienovereenkomstig weer te geven. U kunt alle bijlagen downloaden, maar u kunt geen bijlagen voor de opmerkingen uploaden of verwijderen.
 
-![](images/complete-task-reviewer.png){width="800" align="left"}
+![](images/complete-task-reviewer-new.png){width="800" align="left"}
 
 
 ## Als auteur
 
-Als auteur kunt u de status als gesloten zien in het deelvenster Revisie. U kunt een opmerking lezen, maar u kunt een opmerking niet accepteren of afwijzen. U kunt opmerkingen niet bewerken of verwijderen. U kunt ook het antwoord voor de opmerking niet toevoegen. Het pictogram Verouderde opmerkingen en het pictogram Opmerkingen importeren in de weergave Auteur worden niet weergegeven in een voltooide revisietaak.
+U kunt de voltooide overzichtstaken in het **paneel van het Overzicht** op een projectniveau van de **Gesloten taken** sectie zoals aangetoond in het screenshot bekijken. U kunt overzichtstaken zoeken of filteren die op Projecten worden gebaseerd. Bijvoorbeeld, kunt u specifieke projecten in het **de dialoogvakje van de Filter** selecteren en hen hebben die in het Actieve overzichtspaneel worden getoond. U kunt de resultaten verder filtreren gebruikend de **Taken die door me** worden in werking gesteld en **tonen slechts actieve taken** opties.
 
-U kunt echter alle opmerkingen doorzoeken of filteren. U kunt alle bijlagen downloaden, maar u kunt geen bijlagen voor de opmerkingen uploaden of verwijderen.
+![](images/review-filters-new.png){width="800" align="left"}
 
-![](images/completed-task-author.png){width="800" align="left"}
+Voor gesloten revisietaken kunt u een opmerking lezen, maar kunt u deze niet accepteren of afwijzen. U kunt opmerkingen niet bewerken of verwijderen. U kunt ook geen antwoord toevoegen voor de opmerking. Het pictogram Verouderde opmerkingen en het pictogram Opmerkingen importeren in weergave Auteur worden niet weergegeven voor een voltooide revisietaak. Het pictogram voor het terugkeren van onderwerpen en het pictogram voor importeren worden uitgeschakeld nadat de revisietaak is voltooid, zoals in de schermafbeelding wordt getoond.
+
+U kunt ook opmerkingen zoeken of filteren die aanwezig zijn in het deelvenster Revisie. U kunt alle bijlagen downloaden, maar u kunt geen bijlagen voor de opmerkingen uploaden of verwijderen.
+
+![](images/completed-task-author-new.png){width="800" align="left"}
 
 Als revisor of auteur kunt u dus de gereviseerde inhoud samen met de opmerkingen weergeven, maar u kunt geen wijzigingen aanbrengen in een voltooide revisietaak.

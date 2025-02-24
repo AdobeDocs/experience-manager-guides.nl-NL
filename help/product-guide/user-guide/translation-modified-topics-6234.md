@@ -4,72 +4,72 @@ description: Leer hoe u een gewijzigd onderwerp opnieuw vertaalt in AEM Guides.
 exl-id: b3228ea9-24a8-44aa-8ba4-e8f44754ffe4
 feature: Translation
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '589'
 ht-degree: 0%
 
 ---
 
 # Gewijzigde onderwerpen vertalen {#id16A5A0B6072}
 
-Als u veranderingen in sommige onderwerpen aanbrengt, dan vereisen die onderwerpen re-vertaling. U kunt spoor van gewijzigde onderwerpen van kaart houden DITA. Klik in de map met de brontaalkopie op het DITA-kaartbestand en klik op het tabblad Vertaling. U kunt het statuut van elk onderwerp zien of het al dan niet hervertaling vereist.
+Als u veranderingen in sommige onderwerpen aanbrengt, dan vereisen die onderwerpen re-vertaling. U kunt spoor van gewijzigde onderwerpen van kaart houden DITA. Selecteer het DITA-kaartbestand in de Kaartconsole in de kopiëren-map van de brontaal en selecteer het tabblad Vertaling. U kunt de status van elk onderwerp bekijken of het al dan niet opnieuw moet worden vertaald.
 
 Voer de volgende stappen uit om een gewijzigd onderwerp voor re-vertaling te verzenden:
 
-1. Klik het DITA kaartdossier van de brontaalexemplaaromslag.
+1. Selecteer het DITA kaartdossier van de omslag van het brontaalexemplaar van de **Console van de Kaart** in de Redacteur.
 
-1. Klik de **Vertaling** tabel.
+1. Selecteer het **Vertaling** lusje.
 
-1. In het **paneel van de Filter** op de linkerzijde, selecteer **Vertaal Talen** dat u de status wilt controleren en **Gedaane** klikken.
+1. In het **Vertaling** paneel op de linkerzijde, selecteer **Beschikbare Talen** die u de status wilt controleren **toepassen**.
 
-   U kunt de vertaalstatus voor elk onderwerp zien. De onderwerpen die een andere revisie van onderwerp beschikbaar hebben dan wat voor vertaling werd verzonden, tonen een **Verouderd van Datum** status.
+   U kunt de vertaalstatus voor elk onderwerp bekijken. De onderwerpen die een andere revisie van onderwerp beschikbaar hebben dan wat voor vertaling werd verzonden, tonen een **uit status van de Synchronisatie**.
 
    >[!NOTE]
    >
    > De vertaalwerkstroom vergelijkt de laatste opgeslagen revisie van het onderwerpdossier in de brontaalomslag met de vertaalde versie.
 
-   Als u op de pijl klikt, ziet u meer details. u kunt de specifieke taalkopie zien die verouderd is.
+   Als u de pijl selecteert om meer details weer te geven, kunt u de specifieke taalkopie bekijken die niet gesynchroniseerd is.
 
-   ![](images/out-of-sync-uuid.png){width="800" align="left"}
+   ![](images/out-of-sync-uuid-new.png){width="800" align="left"}
 
-1. Klik het controlevakje om de onderwerpen te selecteren die u voor re-vertaling wilt verzenden.
+1. Schakel het selectievakje in om de onderwerpen te selecteren die u wilt verzenden voor hervertaling.
 
-   Wanneer u een uit synchronisatiedatum selecteert, **creeert/de optie van de Taal van de Update** verschijnt in het paneel van Verwijzingen en de **Ontkenning uit de knoop van de Status van de Synchronisatie** boven het **pictogram van de Filter**.
+   Wanneer u uit synchronisatieonderwerp selecteert, **Teken in Synchronisatie** knoop verschijnt boven de titelbar.
 
-   U kunt de **Ontkenning uit Synchronisatie** knoop gebruiken om de Verouderde status voor de onderwerpen in de kaart met DITA met voeten te treden. Bijvoorbeeld, als u sommige veranderingen in de Engelse versie van het onderwerp aanbracht die geen vertaling vereist, kunt u deze knoop gebruiken en de status van Verouderd voor het geselecteerde onderwerp veranderen.
+   U kunt het **Teken in Synchronisatie** knoop gebruiken om uit de status van de Synchronisatie voor de onderwerpen in de kaart met DITA met voeten te treden.  Als u bijvoorbeeld enkele kleine wijzigingen hebt aangebracht waarvoor geen vertaling nodig is, kunt u de status van de wijzigingen markeren op Sync.
 
    >[!NOTE]
    >
-   > Als u de **Ontkenning uit de knoop van de Status van de Synchronisatie** klikt, plaatst het de onderwerpstatus aan Up aan Datum voor de geselecteerde Onderwerpen van Verouderd.
+   > Als u het **Teken in Synchronisatie** knoop selecteert, plaatst het de onderwerpstatus aan in Synchronisatie voor geselecteerde uit onderwerpen van de Synchronisatie.
 
-1. Klik {de Kopieën van de Taal van 0} Update **en vorm de vertaalbaan.**
+1. U kunt **selecteren verzendt voor Vertaling knoop**.
 
 1. U kunt verkiezen om een nieuw vertaalproject tot stand te brengen of onderwerpen aan een bestaand vertaalproject toe te voegen. Verstrek de vereiste details om het vertaalproject te vormen.
 
-1. Klik **Begin**.
+1. Selecteer **voorleggen**.
 
    Er wordt een bevestigingsbericht weergegeven waarin wordt aangegeven dat het onderwerp voor vertaling is verzonden.
 
-1. Navigeer aan het vertaalproject in de console van het Project. Er wordt een nieuwe vertaalopdrachtkaart gemaakt in de map. Klik op de ellips om de elementen van de map weer te geven.
+1. Navigeer aan het vertaalproject in de console van het Project. Er wordt een nieuwe vertaalopdrachtkaart gemaakt in de map. Selecteer de ellips om de elementen van de map weer te geven.
 
-   ![](images/incremental-job.PNG){width="300" align="left"}
+   ![](images/incremental-job-new.png){width="300" align="left"}
 
-1. Om de vertaling te beginnen, klik de pijl op de kaart van de vertaalbaan en selecteer **Begin** van de lijst. Een bericht geeft aan dat de taak is gestart.
+1. Om de vertaling te beginnen, selecteer de pijl op de kaart van de vertaalbaan en selecteer **Begin** van de lijst. Een bericht geeft aan dat de taak is gestart.
 
-   U kunt de status van het onderwerp dat wordt vertaald ook bekijken wanneer u de ellips bij de bodem van de kaart van de vertaalbaan klikt.
+   U kunt de status van het onderwerp dat wordt vertaald ook bekijken wanneer u de ellips bij de bodem van de kaart van de vertaalbaan selecteert.
 
    >[!NOTE]
    >
    > Als u de vertaalservice Human gebruikt, moet u de inhoud exporteren voor vertaling. Zodra u de vertaalde inhoud hebt, dan moet u het terug in het vertaalproject invoeren.
 
-1. Nadat de vertaling voltooit, de statusveranderingen in **Klaar aan Overzicht**. Klik op de ellips om de onderwerpdetails weer te geven en voer een van de volgende handelingen uit op de werkbalk:
+1. Nadat de vertaling voltooit, de statusveranderingen in **Klaar aan Overzicht**. Selecteer de ellips om de onderwerpdetails te bekijken en één van het volgende van de toolbar te doen:
 
-   - Klik **onthullen in Assets** om de vertaling te zien en te verifiëren.
+   - Selecteer **onthullen in Assets** om de vertaling te bekijken en te verifiëren.
 
-   - Klik **goedkeuren Vertaling** als u denkt dat de veranderingen correct zijn vertaald. Er wordt een bevestigingsbericht weergegeven.
+   - Selecteer **Vertaling** goedkeuren als u denkt dat de veranderingen correct zijn vertaald. Er wordt een bevestigingsbericht weergegeven.
 
-   - Klik **Vertaling van de Weigering** als u denkt dat de baan opnieuw moet worden gedaan. Er wordt een afwijzingsbericht weergegeven.
+   - Selecteer **Vertaling van de Weigering** als u denkt dat de baan opnieuw moet worden gedaan. Er wordt een afwijzingsbericht weergegeven.
 
    >[!NOTE]
    >
@@ -78,4 +78,4 @@ Voer de volgende stappen uit om een gewijzigd onderwerp voor re-vertaling te ver
 1. Navigeer terug naar het DITA-kaartbestand in de brontaalmap in de gebruikersinterface van Assets. De opnieuw vertaalde onderwerpen zijn nu synchroon.
 
 
-**Bovenliggend onderwerp:**[ vertaal inhoud ](translation.md)
+**Bovenliggend onderwerp:**[ het vertaaloverzicht van de Inhoud ](translation.md)

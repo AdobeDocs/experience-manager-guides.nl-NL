@@ -1,35 +1,29 @@
 ---
-title: Een onderwerp naar een AEM Sites-pagina Publish
-description: Publish een onderwerp of de elementen binnen een onderwerp aan een output van Adobe Experience Manager Sites.  Leer hoe u de Experience Manager Sites-pagina voor een onderwerp kunt weergeven en deze opnieuw kunt publiceren.
+title: Een onderwerp naar een AEM Sites-pagina publiceren
+description: Publiceer een onderwerp of de elementen binnen een onderwerp aan een output van Adobe Experience Manager Sites.  Leer hoe u de Experience Manager Sites-pagina voor een onderwerp kunt weergeven en deze opnieuw kunt publiceren.
 feature: Publishing
 role: User
-source-git-commit: 05c3e5e6f3c6aea4b3e3f3a52af5810307f1f29b
+exl-id: acbc48b7-93a2-41c6-8565-359fbbdd1fb9
+source-git-commit: 144ecbea83b2c649a00c6b88e533327f3ce111f4
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
 
-# Publish Adobe Experience Manager Sites-pagina&#39;s
+# Adobe Experience Manager Sites-pagina&#39;s publiceren
 
 
 Experience Manager Sites-pagina verwijst naar inhoud die op de Adobe Experience Manager-website is gepubliceerd. Met Experience Manager Guides kunt u een zelfstandig onderwerp naar een sitepagina publiceren.
 
 Met deze functie kunt u een onderwerp en de bijbehorende elementen publiceren zonder een DITA-kaart en de uitvoervoorinstellingen te maken. U kunt het onderwerp gemakkelijk bijwerken, de pagina van Plaatsen opnieuw publiceren, en het hergebruiken over verschillende Web-pagina&#39;s. Met deze functie kunt u eenvoudig zelfstandige artikelen of marketinginhoud publiceren.
 
-
-
-
-
 Voer de volgende stappen uit om een sitepagina te genereren:
 
 
-
-
-1. Selecteer **Nieuwe Output** ![ nieuw outputpictogram ](./images/Add_icon.svg) van de **Output** sectie in de **Eigenschappen van het Dossier** van een onderwerp.
+1. Open het onderwerp in de Redacteur en selecteer de Eigenschappen van het Dossier van het juiste paneel.
+1. Selecteer **pictogram van de 0} Nieuwe output ![ nieuw outputpictogram ](./images/Add_icon.svg) van de** Uitvoer **sectie.**
 1. Selecteer **de pagina van Plaatsen**.
-
-
 1. In **produceer de pagina van Plaatsen** dialoogdoos, vul de volgende details in:
    ![ voeg de weg en malplaatjedetails in Generate de pagina van Plaatsen ](images/aem-sites-page-generate.png){width="500" align="left"} toe
 
@@ -54,15 +48,12 @@ Voer de volgende stappen uit om een sitepagina te genereren:
 
 
 
-1. Klik **produceren** om de pagina van Plaatsen te publiceren.
+1. Selecteer **produceren** om de pagina van Plaatsen te publiceren.
 1. U kunt de pagina van Plaatsen voor een onderwerp onder de **sectie van Output** in de **Eigenschappen van het Dossier** bekijken. De sitepagina&#39;s worden weergegeven op basis van de datum en het tijdstip van publicatie, met als laatste de eerste pagina.
 
-   ![ Mening de pagina van Plaatsen voor een onderwerp ](images/aem-sites-outputs.png) {width=300 align=&quot;links&quot;}
+   ![ Mening de pagina van Plaatsen voor een onderwerp ](images/aem-sites-output-new.png) {width=300 align=&quot;links&quot;}
 
    *Mening de pagina van Plaatsen aanwezig voor een onderwerp en publiceer hen opnieuw.*
-
-
-
 
 Nadat u de sitepagina hebt gepubliceerd, kunt u deze ook op elke Adobe Experience Manager-site gebruiken.
 

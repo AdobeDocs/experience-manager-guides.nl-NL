@@ -4,9 +4,9 @@ description: Gebruik gegevens uit uw gegevensbron in AEM Guides. Leer hoe u een 
 exl-id: fbd5eff2-451b-49d6-ba77-6eb271e94349
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 2e5bf87b65cca6b522fcb97db1f40f98f020927a
+source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
 workflow-type: tm+mt
-source-wordcount: '2389'
+source-wordcount: '2386'
 ht-degree: 0%
 
 ---
@@ -19,17 +19,17 @@ U kunt ook verbinding maken met JSON-gegevensbestanden via een bestandsconnector
 
 ## Deelvenster Gegevensbronnen
 
-Selecteer **Gegevensbronnen** ![ gegevensbron ](images/data-source-icon.svg) in het linkerpaneel om de verbonden gegevensbronnen te bekijken. Het paneel van Gegevensbronnen opent en toont alle verbonden gegevensbronnen.
+Selecteer **Gegevensbronnen** ![ gegevensbron ](images/data-sources-new-icon.svg) in het linkerpaneel om de verbonden gegevensbronnen te bekijken. Het paneel van Gegevensbronnen opent en toont alle verbonden gegevensbronnen.
 
 Gebaseerd op uw opstelling kan uw beheerder een gegevensbronschakelaar vormen:
 
 <details>
-<summary> Cloud Servicen </summary>
+<summary> Cloud Services </summary>
 
 
-- Als u de versie van Oktober 2023 of later gebruikt, leer hoe te [ een gegevensbronschakelaar van het gebruikersinterface ](../cs-install-guide/conf-data-source-connector-tools.md) in de Gids van de Installatie en van de Configuratie van Cloud Servicen vormen.
+- Als u de versie van Oktober 2023 of recenter gebruikt, leer hoe te [ een gegevensbronschakelaar van het gebruikersinterface ](../cs-install-guide/conf-data-source-connector-tools.md) in de Gids van de Installatie en van de Configuratie van de Diensten van de Wolk vormen.
 
-- Als u de versie van juli 2023 of September 2023 gebruikt, leer hoe te [ een gegevensbronschakelaar ](../cs-install-guide/conf-data-source-connector.md) in de Gids van de Installatie en van de Configuratie van Cloud Servicen vormen.
+- Als u de versie van juli 2023 of September 2023 gebruikt, leer hoe te [ een gegevensbronschakelaar ](../cs-install-guide/conf-data-source-connector.md) in de Gids van de Installatie en van de Configuratie van de Diensten van de Wolk vormen.
 
 </details>
 
@@ -44,22 +44,22 @@ Gebaseerd op uw opstelling kan uw beheerder een gegevensbronschakelaar vormen:
 
 >[!NOTE]
 >
-> U zult de gegevensbronnen zien waarvoor uw beheerder de schakelaar heeft gevormd.
+> U zult de gegevensbronnen bekijken waarvoor uw beheerder de schakelaar heeft gevormd.
 
 
-## Lijstweergave of Tegelweergave tonen
+## Lijstweergave of tegelweergave tonen
 
-U kunt schakelen tussen de Lijstweergave of de Tegelweergave om de verschillende gegevensbronnen weer te geven in de vorm van een lijst of als tegels.
+U kunt schakelen tussen de lijstweergave of de tegelweergave om de verschillende gegevensbronnen weer te geven in de vorm van een lijst of als tegels.
 
 Selecteer een gegevensbron om de generators van het inhoudsfragment en de onderwerpgenerators te bekijken beschikbaar voor de geselecteerde gegevensbron.
 
-### Lijstweergave ![](images/data-sources-list-view-icon.svg)
+### Lijstweergave
 
 ![](images/data-sources-list-view.png){width="300" align="left"}
 
 *Lijst van verbonden gegevensbronnen.*
 
-### Tegelweergave   ![](images/data-sources-tile-view-icon.svg)
+### Tegelweergave
 
 ![](images/data-sources-tile-view.png){width="300" align="left"}
 
@@ -70,14 +70,13 @@ U kunt de gegevens van gegevensbronnen op twee manieren gebruiken:
 - Een onderwerp maken
 
 
-
 ## Een inhoudsfragment uit uw gegevensbron invoegen
 
-AEM Guides biedt de functie om verbinding te maken met uw gegevensbron. U kunt uw gegevens ophalen, het opnemen in uw onderwerpen, en het uitgeven. U kunt een inhoudsfragment gemakkelijk tot stand brengen gebruikend de inhoudsfragmentgenerator en het binnen uw onderwerpen opnieuw gebruiken.
+Adobe Experience Manager Guides biedt de functie om verbinding te maken met uw gegevensbron. U kunt uw gegevens ophalen, het opnemen in uw onderwerpen, en het uitgeven. U kunt een inhoudsfragment gemakkelijk tot stand brengen gebruikend de inhoudsfragmentgenerator en het binnen uw onderwerpen opnieuw gebruiken.
 
 Voer de volgende stappen uit om een inhoudsfragment tot stand te brengen gebruikend de generator van het inhoudsfragment en neem het in uw onderwerp op:
 
-1. Selecteer **Gegevensbronnen** ![](images/data-source-icon.svg)   in het linkerpaneel om de verbonden gegevensbronnen te bekijken.
+1. Selecteer **Gegevensbronnen** ![](images/data-sources-new-icon.svg) in het linkerpaneel om de verbonden gegevensbronnen te bekijken.
 
 1. Selecteer een gegevensbron om de inhoudsfragmentgenerators te bekijken beschikbaar voor de geselecteerde gegevensbron.
 
@@ -87,11 +86,13 @@ Voer de volgende stappen uit om een inhoudsfragment tot stand te brengen gebruik
 
 1. Selecteer **toevoegen** om een nieuwe generator van het inhoudsfragment toe te voegen. Het **voegt de generator van het inhoudsfragment** paneel opent.
 
+   ![](images/add-content-snippet-generator-empty-screen.png){width="500" align="left"}
+
 1. Ga de vraag in het **tekstvakje van de vraag van 0} Gegevens in.**  Selecteer **de steekproefvraag van het Exemplaar** om een gegevensvraag snel te kopiëren. In plaats van manueel het creëren van de vraag, kunt u de steekproefvraag in het **vakje van de de vraagtekst van Gegevens** kopiëren en kleven. Dan, geef eenvoudig de vraag volgens uw gegevensvereisten uit.
 
    >[!NOTE]
    >
-   >Experience Manager verstrekt verschillende steekproefvragen voor alle middelen in de diverse gegevensbronnen. Deze kaart aan de gegevensbron waarvan u de gegevens haalt.
+   > Experience Manager verstrekt verschillende steekproefvragen voor alle middelen in de diverse gegevensbronnen. Deze kaart aan de gegevensbron waarvan u de gegevens haalt.
 
 1. Als u een bestandsconnector gebruikt, kunt u het JSON-bestand vanaf uw computer uploaden of door een JSON-bestand bladeren vanuit Adobe Experience Manager-middelen.
 
@@ -114,7 +115,7 @@ De out-of-the-box malplaatjes voor de geselecteerde gegevensbron worden getoond 
    >
    > Uw beheerder kan standaardmiddelen vormen of middelen voor veelvoudige URLs toevoegen terwijl het vormen van de gegevensbronschakelaars.
 
-1. Klik **Vetch** om de gegevens van de gegevensbron te halen en het malplaatje op de gegevens toe te passen die uit de SQL vraag voortvloeien.
+1. Selecteer **Vetch** om de gegevens van de gegevensbron te halen en het malplaatje op de gegevens toe te passen die uit de SQL vraag voortvloeien.
 
 1. U kunt de gegevens weergeven in de voorvertoning of in de DITA-bronweergave.
 
@@ -124,10 +125,11 @@ Bijvoorbeeld:
       - Als u de sjabloon voor jira-geordende lijsten hebt geselecteerd, kunt u een geordende lijst weergeven voor de Jira-problemen.
 
    1. De bronweergave toont de gegevens in de DITA-bronweergave.
-      ![](images/add-content-snippet-generator.png){width="800" align="left"}
+
+      ![](images/add-content-snippet-generator-preview.png){width="500" align="left"}
       *voeg een inhoudsfragmentgenerator toe. Bekijk de gegevens op bron of voorproefwijze.*
 
-1. Om de resultaten van de vraag te bewaren, ga de naam van de generator in en klik dan **VOEG** toe.   Er wordt een nieuwe inhoudsfragmentgenerator toegevoegd aan de lijst.
+1. Om de resultaten van de vraag te bewaren, ga de naam van de generator in en selecteer dan **** toevoegen.   Er wordt een nieuwe inhoudsfragmentgenerator toegevoegd aan de lijst.
 
    >[!NOTE]
    >
@@ -138,7 +140,7 @@ Bijvoorbeeld:
 Klik met de rechtermuisknop op een inhoudsfragmentgenerator om de opties te openen. Met de opties kunt u de volgende bewerkingen uitvoeren:
 
 - **Voorproef**: Gebruik deze optie om een ruit te openen en een kleine fractie van te bekijken hoe het gegeven in de output wordt getoond.
-- **Tussenvoegsel**: Gebruik deze optie om het geselecteerde inhoudsfragment in het onderwerp op te nemen dat voor het uitgeven in de Redacteur van het Web wordt geopend. Aangezien het gegeven als fragment wordt opgenomen, kunt u de gegevens binnen uw onderwerp in de Redacteur van het Web ook uitgeven.
+- **Tussenvoegsel**: Gebruik deze optie om het geselecteerde inhoudsfragment in het onderwerp op te nemen dat voor het uitgeven in de Redacteur wordt geopend. Aangezien het gegeven als fragment wordt opgenomen, kunt u de gegevens binnen uw onderwerp in de Redacteur ook uitgeven.
 
   >[!NOTE]
   > 
@@ -148,11 +150,11 @@ Klik met de rechtermuisknop op een inhoudsfragmentgenerator om de opties te open
 - **Schrapping**: Gebruik deze optie om de geselecteerde generator van het inhoudsfragment te schrappen.
 - **Dupliceer**: Gebruik deze optie om een duplicaat of een exemplaar van de geselecteerde generator van het inhoudsfragment tot stand te brengen. Het duplicaat wordt standaard gemaakt met een achtervoegsel (zoals generator_1).
 
-### Een queryfragment invoegen
+### Query-gegevens invoegen
 
-U kunt het **Fragment van de Vraag van het Tussenvoegsel** ![](images/data-source-icon.svg) ook gebruiken   van de belangrijkste toolbar om het gegevensfragment in de onderwerpen op te nemen.  U kunt een generator van dropdown selecteren, uw vraag uitgeven, of het malplaatje veranderen en de gegevens in uw onderwerp opnemen.
+U kunt de **gegevens van de Vraag** ![](images/data-sources-new-icon.svg) van de toolbar ook gebruiken om het gegevensfragment in de onderwerpen op te nemen.  U kunt een generator van dropdown selecteren, uw vraag uitgeven, of het malplaatje veranderen en de gegevens in uw onderwerp opnemen.
 
-![](images/insert-content-snippet.png){width="800" align="left"}
+![](images/add-content-snippet-generator.png){width="800" align="left"}
 
 *geef uit en neem een gegevensfragment op.*
 
@@ -184,7 +186,7 @@ Voer de volgende stappen uit om een onderwerp tot stand te brengen gebruikend de
 
    **de Configuratie van de Ophalen**
 
-   ![](images/topic-generator-fetch-configuration.png){width="300" align="left"}
+   ![](images/fetch-configuration.png){width="300" align="left"}
 
    *voeg de Vraag van Gegevens, het kaartmalplaatje van Gegevens, en de details van de wortelknoop voor de onderwerpgenerator toe en geef het een unieke naam in het paneel van de Configuratie van de Ophalen.*
 
@@ -208,7 +210,7 @@ Voer de volgende stappen uit om een onderwerp tot stand te brengen gebruikend de
 
    1. Ga de **knoop van de Wortel** in. Dit is de knoop waarbij u tot uw gegevens wilt toegang hebben. De onderwerpgenerator leidt dan tot elk onderwerp op het niveau dat in de wortelknoop wordt bepaald. U kunt bijvoorbeeld &quot;issues&quot; toevoegen als het hoofdknooppunt in Jira. Zo, als een vraag 13 kwesties terugkeert, zult u 13 onderwerpen, één onderwerp voor elke kwestie krijgen.
 
-   1. Klik **Vetch** om de gegevens van de gegevensbron te halen en het malplaatje op de gegevens toe te passen die uit de SQL vraag voortvloeien. In de voorvertoning wordt een klein gedeelte weergegeven van de manier waarop het onderwerp wordt weergegeven in de indeling van de geselecteerde sjabloon. U kunt bijvoorbeeld één Jira-uitgave weergeven met alle velden die het resultaat zijn van de query.
+   1. Selecteer **Vetch** om de gegevens van de gegevensbron te halen en het malplaatje op de gegevens toe te passen die uit de SQL vraag voortvloeien. In de voorvertoning wordt een klein gedeelte weergegeven van de manier waarop het onderwerp wordt weergegeven in de indeling van de geselecteerde sjabloon. U kunt bijvoorbeeld één Jira-uitgave weergeven met alle velden die het resultaat zijn van de query.
    1. Ga de naam van de onderwerpgenerator in.
 
       >[!NOTE]
@@ -240,13 +242,13 @@ Voer de volgende stappen uit om een onderwerp tot stand te brengen gebruikend de
 
    *voeg de meta-gegevenseigenschappen in het paneel van Meta-gegevens toe om tot de onderwerpen over te gaan.*
 
-1. Ga de naam van de generator in en klik **sparen** om de vraagresultaten te bewaren. Een nieuwe onderwerpgenerator wordt toegevoegd aan de lijst.
+1. Ga de naam van de generator in en selecteer **sparen** om de vraagresultaten te bewaren. Een nieuwe onderwerpgenerator wordt toegevoegd aan de lijst.
 
-1. Klik **sparen en produceer** om de onderwerpgenerator te bewaren en nieuwe onderwerpen van de onderwerpgenerator te produceren.
+1. Selecteer **sparen en produceer** om de onderwerpgenerator te bewaren en nieuwe onderwerpen van de onderwerpgenerator te produceren.
 
 
 
-   ![](images/edit-topic-generator.png){width="650" align="left"}
+   ![](images/add-topic-generator.png){width="800" align="left"}
 
    *produceer nieuwe onderwerpen van een bestaande onderwerpgenerator.*
 
@@ -280,10 +282,10 @@ Klik op een onderwerpgenerator met de rechtermuisknop aan om de **Opties** te op
 
 ## De hulpmiddelen van de Snelheid van het gebruik in de gegevensbronmalplaatjes {#use-velocity-tools}
 
-Experience Manager sjablonen ondersteunen ook de snelheidsgereedschappen (versie 2.0). Met deze gereedschappen kunt u verschillende functies toepassen op de gegevens die u ophaalt van de gegevensbronnen. Leer meer over het gebruik van de [ hulpmiddelen van de Snelheid ](https://velocity.apache.org/tools/2.0/generic.html) en de functies die u kunt toepassen.
+Experience Manager-sjablonen ondersteunen ook de snelheidsgereedschappen (versie 2.0). Met deze gereedschappen kunt u verschillende functies toepassen op de gegevens die u ophaalt van de gegevensbronnen. Leer meer over het gebruik van de [ hulpmiddelen van de Snelheid ](https://velocity.apache.org/tools/2.0/generic.html) en de functies die u kunt toepassen.
 
 Voer de volgende stappen uit om een hulpmiddel van de Snelheid in een malplaatje te gebruiken:
-1. Bewerk een snelheidssjabloon in de webeditor.
+1. Bewerk een snelheidssjabloon in de Editor.
 1. Voeg een gereedschap en de functie ervan toe in de `<tool.function>` -indeling. Bijvoorbeeld:
    - Gebruik `$mathTool.random` om een willekeurig getal te genereren met het gereedschap Wiskunde.
    - Gebruik `$mathTool.add(num1, num2)` om de som getallen te genereren met het gereedschap Wiskunde.

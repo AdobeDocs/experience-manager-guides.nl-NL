@@ -1,13 +1,13 @@
 ---
-title: Native PDF Publish-functie | Componenten van een PDF-sjabloon
-description: Leer de diverse componenten van een malplaatje van de PDF en hoe te om hen aan te passen en te vormen.
+title: Systeemeigen PDF-publicatiefunctie | Componenten van een PDF-sjabloon
+description: Leer de verschillende componenten van een PDF-sjabloon en hoe u deze kunt aanpassen en configureren.
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 47a6819654877e9a4e3e542fa6e5e360b3f3938f
 workflow-type: tm+mt
-source-wordcount: '4975'
+source-wordcount: '4716'
 ht-degree: 0%
 
 ---
@@ -19,8 +19,8 @@ Een PDF-sjabloon heeft vier componenten: Pagina-indelingen, Stijlbladen, Bronnen
 
 ## Paginalay-outs maken en aanpassen {#create-customize-page-layout}
 
-Met de instellingen in de component Pagina-indelingen kunt u de structuur van een pagina ontwerpen door de koptekst, voettekst en het inhoudsgebied op een pagina te definiëren. Met behulp van de WYSIWYG-paginaopmaakeditor kunt u een paginalay-out maken voor verschillende secties in een PDF, zoals de voorpagina&#39;s en achteromslag, het hoofdstuk, de Tabel van
-Inhoud (TOC), index, lege pagina, Voorste basispagina&#39;s, Achtergrond basispagina&#39;s, Lijst met figuren (LOF), Lijst met tabellen (LOT), verklarende woordenlijst of maak een indeling voor een aangepaste pagina. In de het malplaatjemontages van de PDF, kunt u een paginalay-out met verschillende secties binnen een PDF toewijzen, die dan worden gebruikt om de output van de PDF te produceren.
+Met de instellingen in de component Pagina-indelingen kunt u de structuur van een pagina ontwerpen door de koptekst, voettekst en het inhoudsgebied op een pagina te definiëren. Met de WYSIWYG-paginaopmaakeditor kunt u een paginalay-out maken voor verschillende secties in een PDF, zoals de voorpagina&#39;s en achteromslag, het hoofdstuk, de tabel
+Inhoud (TOC), index, lege pagina, Voorste basispagina&#39;s, Achtergrond basispagina&#39;s, Lijst met figuren (LOF), Lijst met tabellen (LOT), verklarende woordenlijst of maak een indeling voor een aangepaste pagina. In de PDF-sjablooninstellingen kunt u een pagina-indeling met verschillende secties binnen een PDF toewijzen. Deze secties worden vervolgens gebruikt om de PDF-uitvoer te genereren.
 
 ### Een nieuwe pagina-indeling maken {#create-page-layout}
 
@@ -85,16 +85,15 @@ Onder Pagina-indelingen wordt een kopie van de geselecteerde pagina-indeling gem
 
    Voor meer informatie bij het bepalen van individuele lay-outelementen zoals kopbal, footer, paginanummer, titel, en meer, zie [ Ontwerp een paginalay-out ](design-page-layout.md).
 
-## Stylesheets gebruiken om PDF aan te passen {#stylesheet-customization}
+## Stijlbladen gebruiken om PDF aan te passen {#stylesheet-customization}
 
-Met de instellingen in de component Stylesheets kunt u de paginalay-outcomponenten en DITA-inhoud opmaken met de WYSIWYG-editor of rechtstreeks met het CSS-bestand werken. U kunt uw eigen stijlen maken of de standaardstijleigenschappen aanpassen. De redacteur WYSIWYG geeft u de toegang tot de meeste eigenschappen die u uw paginalay-out of inhoud DITA zou moeten opmaken. Voor geavanceerde aanpassingen kunt u rechtstreeks in de Source-weergave werken.
+Met de instellingen in de component Stylesheets kunt u de onderdelen voor de paginalay-out en de DITA-inhoud opmaken met de WYSIWYG-editor of rechtstreeks met het CSS-bestand werken. U kunt uw eigen stijlen maken of de standaardstijleigenschappen aanpassen. De redacteur van WYSIWYG geeft u de toegang tot de meeste eigenschappen die u uw paginalay-out of inhoud DITA zou moeten opmaken. Voor geavanceerde aanpassingen kunt u rechtstreeks in de Source-weergave werken.
 
 ### Een nieuw stijlblad maken {#create-stylesheet}
 
 Terwijl CSS-bestanden worden geleverd voor inhoud en lay-out, kunt u een nieuwe stijlpagina maken om meerdere aanpassingen toe te passen op een specifiek stijltype dat vervolgens kan worden toegepast op een doelcomponent. Standaard worden CSS-voorbeeldbestanden gebundeld in het product. Deze CSS-bestanden zijn bedoeld om u te helpen bij het ordenen van uw opmaakgegevens over inhoud en lay-outs. U kunt deze stijlen samenvoegen in één CSS-bestand of in meerdere bestanden.
 
 Wanneer u een nieuwe pagina-indeling maakt, wordt het bestand `layout.css` standaard opgenomen in de nieuwe pagina-indeling. Als u wilt dat de paginalay-out stijlen uit een ander CSS-bestand bevat, kunt u het gewenste CSS-bestand gewoon slepen en neerzetten in het inhoudsbewerkingsgebied van de nieuwe paginalay-out. Als u wilt controleren of het CSS-bestand is ingesloten in de pagina-indeling, schakelt u over naar de Source-weergave en vindt u een koppeling naar het CSS-bestand in het element `<head>` .
-
 
 Voer de volgende stappen uit om een stijlpagina te maken:
 1. In het **paneel van Malplaatjes**, doe één van het volgende:
@@ -196,8 +195,12 @@ Het geselecteerde bestand wordt geïmporteerd en vermeld in de map Bronnen.
 
 ## Geavanceerde PDF-instellingen {#advanced-pdf-settings}
 
-Met de sectie Instellingen kunt u de geavanceerde instellingen voor de gegenereerde pagina-indeling configureren, PDF of even pagina starten, kruisverwijzingen opmaken en drukkermarkeringen inschakelen in de uiteindelijke PDF die wordt gegenereerd
+Met de sectie Instellingen kunt u de geavanceerde instellingen configureren voor de PDF-paginalay-out, PDF starten vanaf een oneven of even pagina, indelingen voor de kruisverwijzingen en drukkermarkeringen inschakelen in de uiteindelijke PDF die wordt gegenereerd
 het gebruiken van het malplaatje.
+
+>
+>
+> Beginnend met Experience Manager Guides 5.0/2025.02.0 versie, is de **sectie van de Druk** in de Geavanceerde montages van PDF verplaatst naar het **vooraf instelt van de Output** paneel. Om de montages van de Druk te vormen, publiceer de mening [ output van PDF ](../web-editor/native-pdf-web-editor.md#print).
 
 Om te vormen, klik **Montages** in het **paneel van Malplaatjes** om de volgende opties te bekijken:
 
@@ -211,20 +214,20 @@ Stel de basisconfiguratie-instellingen in voor het starten van een hoofdstuk van
 
 * **Structuur van TOC**: Staat u toe om de hiërarchie van de Inhoudsopgave aan te passen. Hiervoor worden de volgende aanvullende instellingen gebruikt:
 
-   * **Koppen van het Gebruik tot Niveau**: Het staat u toe om het aantal kopniveaus aan te passen die in de TOC structuur van uw PDF moeten worden getoond.
+   * **Koppen van het Gebruik tot Niveau**: Het staat u toe om het aantal kopniveaus aan te passen die in de structuur van TOC van uw PDF moeten worden getoond.
    * **toon geen paginanummer voor het eerste niveau in TOC**: Selecteer deze optie om de overeenkomstige paginaaantallen voor alle hoofdstukken te verbergen die genestelde of kindonderwerpen bevatten. Bekijk het volgende voorbeeld waarin een uitvoer wordt gemaakt zonder deze optie te selecteren.
 
   <img src="assets/page-number-in-toc.png" alt="Elementen uploaden" width="250">
 
-  In het bovenstaande voorbeeld zijn Geavanceerde instellingen voor PDF, Bijlage en Juridisch het eerste niveau van onderwerpkoppen of hoofdstuktitels. Aan al deze koppen wordt een paginanummer toegewezen.
+  In het bovenstaande voorbeeld zijn Geavanceerde PDF-instellingen, Bijlage en Juridische informatie de onderwerpkoppen of hoofdstuktitels op het eerste niveau. Aan al deze koppen wordt een paginanummer toegewezen.
 
   Nu, als u deze optie selecteert en de output produceert, dan zult u volgende TOC krijgen:
 
   <img src="assets/page-number-missing-in-toc.png" alt="Elementen uploaden" width="250">
 
-  Hier kunt u opmerken dat het eerste hoofdstuk Geavanceerde PDF-instellingen geen paginanummer krijgt, aangezien het geneste of onderliggende onderwerpen heeft. Terwijl een paginanummer indien toegewezen aan Bijlage en Juridisch omdat zij standalone onderwerpen zonder enig kindonderwerp zijn.
+  Hier kunt u zien dat het eerste hoofdstuk Geavanceerde PDF-instellingen geen paginanummer krijgt, omdat het geneste of onderliggende onderwerpen bevat. Terwijl een paginanummer indien toegewezen aan Bijlage en Juridisch omdat zij standalone onderwerpen zonder enig kindonderwerp zijn.
 
-* **toon geen hoofdstukaantal in TOC**: Selecteer deze optie om de hoofdstuknamen zonder de hoofdstukaantallen in TOC te tonen.   Standaard worden de hoofdstuknummers weergegeven in de inhoudsopgave van de uitvoer van de PDF.
+* **toon geen hoofdstukaantal in TOC**: Selecteer deze optie om de hoofdstuknamen zonder de hoofdstukaantallen in TOC te tonen.   Standaard worden de hoofdstuknummers weergegeven in de inhoudsopgave van uw PDF-uitvoer.
 * **formaat van de Leider**: Gebruik drop-down om Gestippelde, Ononderbroken, of de lijnen van de Leider van de Ruimte te selecteren om rubriekniveaus met zijn overeenkomstige paginanummers te verbinden.
 Voor het toepassen van de structuur van TOC en het stileren van rubriekniveaus, zie [ hoofdstukTOC ](design-page-layout.md#add-chapter-toc) toevoegen.
 
@@ -235,7 +238,7 @@ Voor het toepassen van de structuur van TOC en het stileren van rubriekniveaus, 
 * **markering van de lijstvoortzetting van het Gebruik**: Selecteer deze optie om tellers voor lange lijsten te bepalen die zich over veelvoudige pagina&#39;s verspreiden.
 U kunt de tekst definiëren die voor en na het einde moet worden weergegeven. Bijvoorbeeld, breken een lijst op pagina 5, en u bepaalt `<Continued on page %page-num%>` voor **Tekst vóór Break**.  Onder aan pagina 5 wordt &quot;Vervolg op pagina 6&quot; weergegeven.
 
-  Taalvariabelen gebruiken om de tekst voor en na het einde van de vervolgmarkering te definiëren. Afhankelijk van de gekozen taal wordt de gelokaliseerde waarde automatisch gekozen in de uitvoer van de PDF. U kunt `Continued on page %page-num%` bijvoorbeeld publiceren als tekst in het Engels en `Fortsetzung auf Seite %page-num%` in het Duits.
+  Taalvariabelen gebruiken om de tekst voor en na het einde van de vervolgmarkering te definiëren. Afhankelijk van uw gekozen taal wordt de gelokaliseerde waarde automatisch gekozen in de PDF-uitvoer. U kunt `Continued on page %page-num%` bijvoorbeeld publiceren als tekst in het Engels en `Fortsetzung auf Seite %page-num%` in het Duits.
 
   Overslaan <img src="./assets/info-details.svg" alt= "info icon" width="25"> in de buurt van de optie voor meer informatie over de optie.
 * **de verklarende woordenlijsttermijnen van de Verbinding aan de verklarende woordenlijstpagina**: Selecteer deze optie om de verklarende woordenlijsttermijnen als hyperlinks in de inhoud te tonen en hen te verbinden met de termijnen op de verklarende woordenlijstpagina. Hierdoor kunnen lezers snel de definitie bekijken van een term die is gedefinieerd in de woordenlijst.
@@ -244,7 +247,7 @@ U kunt de tekst definiëren die voor en na het einde moet worden weergegeven. Bi
    * Laat **Verklarende woordenlijst** in het **lusje van de Orde van de Lay-out van de Pagina** voor een kaart DITA toe.
    * Voeg de Verklarende woordenlijst in de Achterpagina&#39;s van de Matter voor een kaart van het Boek toe.
 
-  Als u de pagina Woordenlijst niet inschakelt, worden de termen in de woordenlijst in de inhoud niet geconverteerd naar hyperlinks in de uitvoer van de PDF.
+  Als u de pagina Woordenlijst niet inschakelt, worden de termen in de woordenlijst in de inhoud niet geconverteerd naar hyperlinks in de PDF-uitvoer.
   <!--For more information on using table continuation markers, see Use table continuation markers.-->
 
 ### Pagina-indelingen {#page-layouts}
@@ -272,11 +275,11 @@ De volgende instellingen zijn beschikbaar in de sectie Pagina-indeling:
 
 * **Verklarende woordenlijst**: Als u een de paginalay-out van de Verklarende woordenlijst hebt, dan kaart het aan de optie van de Verklarende woordenlijst.
 
-  De termen in de woordenlijst van de uitvoer van de PDF worden altijd in alfabetische volgorde gesorteerd.
+  De termen in de woordenlijst van de PDF-uitvoer worden altijd in alfabetische volgorde gesorteerd.
 
-  U kunt ook de tag `sort-as` toevoegen om een sorteersleutel voor de termen in de woordenlijst te definiëren. Experience Manager Guides gebruikt vervolgens de sorteersleutel om de termen in de woordenlijst te sorteren in plaats van de termen in de woordenlijst. Als u de sorteersleutel niet hebt gedefinieerd, worden de termen in de woordenlijst gebruikt om te sorteren. U kunt bijvoorbeeld de tag `sort-as` toevoegen aan de `glossterm` en de waarde ervan instellen op `A` voor de term &quot;USB&quot; (bijvoorbeeld `<glossterm>USB<sort-as>A</sort-as></glossterm>` ). Op dezelfde manier kunt u ook de tag `sort-as` toevoegen en de waarde ervan instellen op `B` voor de term &#39;Pendagina&#39;. Wanneer u deze verklarende woordenlijsttermijnen sorteert, verschijnt de soortsleutel `A` voor de verklarende woordenlijsttermijn &quot;USB&quot;vóór de soortsleutel `B` voor de verklarende woordenlijsttermijn &quot;de Aandrijving van de Pen&quot;. In de uitvoer van de PDF komt &#39;USB&#39; dus voor &#39;Pen Drive&#39; op de woordenlijstpagina.
+  U kunt ook de tag `sort-as` toevoegen om een sorteersleutel voor de termen in de woordenlijst te definiëren. Experience Manager Guides gebruikt vervolgens de sorteersleutel om de termen in de woordenlijst te sorteren in plaats van de termen in de woordenlijst. Als u de sorteersleutel niet hebt gedefinieerd, worden de termen in de woordenlijst gebruikt om te sorteren. U kunt bijvoorbeeld de tag `sort-as` toevoegen aan de `glossterm` en de waarde ervan instellen op `A` voor de term &quot;USB&quot; (bijvoorbeeld `<glossterm>USB<sort-as>A</sort-as></glossterm>` ). Op dezelfde manier kunt u ook de tag `sort-as` toevoegen en de waarde ervan instellen op `B` voor de term &#39;Pendagina&#39;. Wanneer u deze verklarende woordenlijsttermijnen sorteert, verschijnt de soortsleutel `A` voor de verklarende woordenlijsttermijn &quot;USB&quot;vóór de soortsleutel `B` voor de verklarende woordenlijsttermijn &quot;de Aandrijving van de Pen&quot;. In de PDF-uitvoer komt &#39;USB&#39; voor &#39;Pen Drive&#39; op de woordenlijstpagina.
 
-  Met behulp van de opmaakmodellen kunt u verschillende woordenboekelementen opmaken in de PDF-uitvoer. Gebruik de verklarende woordenlijststijlen `.glo-header`, `.glo-footer`, `.glo-body`, `.glo-title`, `.glo-unit`, `.glo-link` en `.glo-term` om de stijlen voor de elementen van de verklarende woordenlijst aan te passen.
+  Met de opmaakmodellen kunt u verschillende woordenlijstelementen opmaken in de PDF-uitvoer. Gebruik de verklarende woordenlijststijlen `.glo-header`, `.glo-footer`, `.glo-body`, `.glo-title`, `.glo-unit`, `.glo-link` en `.glo-term` om de stijlen voor de elementen van de verklarende woordenlijst aan te passen.
 
   Leer meer over het gebruiken van de stijlredacteur aan [ werk met de gemeenschappelijke inhoudsstijlen ](stylesheet.md).
 
@@ -296,7 +299,7 @@ Voor meer informatie over paginalay-outs, zie [ Ontwerp een paginalay-out ](desi
 
 ### Volgorde pagina-indeling {#page-order}
 
-U kunt de volgende secties in uw PDF tonen of verbergen en ook de orde schikken waarin zij in uw definitieve output van de PDF zouden moeten verschijnen:
+U kunt de volgende secties in uw PDF tonen of verbergen en ook de volgorde schikken waarin ze in de uiteindelijke PDF-uitvoer moeten worden weergegeven:
 
 
 
@@ -310,9 +313,9 @@ U kunt de volgende secties in uw PDF tonen of verbergen en ook de orde schikken 
 
   <img src="assets/page-order-advance-settings.png" alt="Paginalay-outvolgorde" width="550">
 
-  Als u geen bepaalde sectie in de uitvoer van PDF wilt tonen, kunt u dat verbergen door de schakeloptie uit te schakelen.
+  Als u geen bepaalde sectie wilt tonen in de PDF-uitvoer, kunt u die verbergen door de schakeloptie uit te schakelen.
 
-  U kunt ook de volgorde definiëren waarin deze verschillende secties in uw PDF worden gegenereerd. Als u de standaardvolgorde van deze secties wilt wijzigen, selecteert u de stippelbalken om de secties naar de gewenste locatie te slepen.
+  U kunt ook de volgorde definiëren waarin deze verschillende secties worden gegenereerd in uw PDF. Als u de standaardvolgorde van deze secties wilt wijzigen, selecteert u de stippelbalken om de secties naar de gewenste locatie te slepen.
 
   >[!NOTE]
   >
@@ -324,7 +327,7 @@ U kunt de volgende secties in uw PDF tonen of verbergen en ook de orde schikken 
 
 **pagina&#39;s van de Fusie**
 
-Standaard beginnen alle secties op een nieuwe pagina. Selecteer de **Vorige Pagina** of **Volgende Pagina** optie van **Fusie met** dropdown om een sectie met een vorige of volgende pagina samen te voegen. Hierdoor wordt de sectie gepubliceerd in overeenstemming met de geselecteerde pagina in de uitvoer van de PDF. Hierdoor is er geen pagina-einde tussen.
+Standaard beginnen alle secties op een nieuwe pagina. Selecteer de **Vorige Pagina** of **Volgende Pagina** optie van **Fusie met** dropdown om een sectie met een vorige of volgende pagina samen te voegen. Hiermee wordt de sectie gepubliceerd in overeenstemming met de geselecteerde pagina in de PDF-uitvoer. Hierdoor is er geen pagina-einde tussen.
 
 >[!NOTE]
 >
@@ -358,7 +361,7 @@ U kunt ook de volgende handelingen uitvoeren:
 
 * U kunt ook meerdere keren een aangepaste indeling toevoegen en bestellen. Hierdoor kunt u de statische inhoud op de juiste wijze publiceren.
 
-  U kunt bijvoorbeeld een aangepaste indeling gebruiken om meerdere keren een statische waarschuwing te publiceren in de uitvoer van PDF.
+  U kunt bijvoorbeeld een aangepaste indeling gebruiken om een statische waarschuwing meerdere keren te publiceren in de PDF-uitvoer.
 
 
 
@@ -389,7 +392,7 @@ Selecteer een paginavolgorde die de volgorde bepaalt van de pagina&#39;s in uw P
    * &quot;X&quot; — Alle pagina&#39;s van het document. Hetzelfde resultaat als &quot;1..-1&quot;.
 
 U kunt bijvoorbeeld een aangepaste volgorde geven zoals &quot;2,3,5*2,7.10,-1,-2.
-De gegeven paginaorde resulteert in een PDF die de volgende paginaaantallen van het originele document heeft, veronderstellend dat het 25 pagina&#39;s totaal heeft: 2, 3, 5, 5,7, 8, 9, 10, 25, 24.
+De gegeven paginavolgorde leidt ertoe dat een PDF de volgende paginanummers heeft van het oorspronkelijke document, ervan uitgaande dat het 25 pagina&#39;s in totaal heeft: 2, 3, 5, 5,7, 8, 9, 10, 25, 24.
 
 #### Meer dan één pagina per vel configureren
 
@@ -397,37 +400,13 @@ Kies deze optie als u meerdere pagina&#39;s op één vel papier wilt publiceren.
 
 Definieer de grootte van het doelblad en de afdrukstand waarin u het blad wilt publiceren. U kunt ook de marge- en opvullingseigenschappen van het blad opgeven.
 
-
-
-
-### Afdrukken
-
-Configureer de afdrukproductie-instellingen om drukkermarkeringen toe te wijzen, selecteer kleurmodellen en geef eigenschappen op voor het afdrukken van de PDF-uitvoer.
-
-* **de Tekens van de Printer**: Wanneer u een document voor drukproductie voorbereidt, worden de drukkermarkeringen toegevoegd aan de paginagrenzen om in juiste groepering, het in orde maken, en kleurenselectie tijdens druk bij te staan. Door een drukkermarkering te selecteren, wordt de paginagrens uitgebreid om de markering aan te passen, die tijdens het afdrukken wordt bijgesneden. U kunt de volgende drukkermarkeringen weergeven in de PDF-uitvoer:
-   * **de Tekens van de Versiering**: Selecteer de optie om een teken bij elke hoek van het versieringsgebied te plaatsen om erop te wijzen waar het document na druk moet worden bijgesneden.
-   * **Aflooptekens**: Selecteer om een markering bij elke hoek van het afloopvak te plaatsen om op het bijsnijdgebied voor de uitgebreide afbeelding te wijzen.
-   * **de Tekens van de Registratie**: Uitgezocht om een teken buiten het gewassengebied voor het richten van de verschillende scheidingen in een kleurendocument te plaatsen.
-   * **de Bars van de Kleur**: Uitgezocht om een strook kleuren buiten het trimgebied toe te voegen om kleurenconsistentie te handhaven en inktdichtheid aan te passen wanneer het drukken.
-
-  De vastgestelde afmetingen voor de geselecteerde drukkermarkeringen gebruiken de **Breedte van de Lijn**, **Kleur van de Lijn**, en **Bleed de Breedte van de Doos** opties.
-
-* **Grootte van de Doos van Media**: Dit is de algemene paginagrootte met inbegrip van het uitgebreide gebied bezet door drukkermarkeringen. Gebruik de vervolgkeuzelijst om het paginaformaat te selecteren voor de PDF-uitvoer of om uw eigen aangepaste grootte te maken.
-
-* **Ruimte van de Kleur**: U wordt gegeven een optie om van RGB of CMYK kleurenruimten te kiezen om uw document van de PDF te drukken. Kies RGB om de gegenereerde PDF digitaal en CMYK weer te geven voor fysiek afdrukken. Kleuren die in het document zijn gedefinieerd, worden omgezet in de gekozen kleurruimte.
-  >[!NOTE]
-  >
-  >Een ICC-kleurprofiel is vereist voor het maken van PDF/A-kleuren als u CMYK-kleurruimte gebruikt.
-
-  <!--For more information on applying these print settings, see *Printing preferences*.-->
-
 ### Kruisverwijzingen {#cross-references}
 
-Gebruik het **lusje van de Verwijzing** om te bepalen hoe de verwijzingen worden gepubliceerd de PDF. U kunt de kruisverwijzingen opmaken voor onderwerptitel, tabellen, figuren en meer.
+Gebruik het **lusje van de Verwijzing** om te bepalen hoe de verwijzingen PDF worden gepubliceerd. U kunt de kruisverwijzingen opmaken voor onderwerptitel, tabellen, figuren en meer.
 
 >[!NOTE]
 >
-> Als u de koppelingstekst hebt gedefinieerd terwijl u de kruisverwijzing invoegt, heeft deze voorrang op de opmaak voor kruisverwijzingen die is gedefinieerd in de sjabloon Native PDF.
+> Als u de koppelingstekst hebt gedefinieerd terwijl u de kruisverwijzing invoegt, heeft deze voorrang op de opmaak voor kruisverwijzingen die is gedefinieerd in de Native PDF-sjabloon.
 
 U kunt ook variabelen gebruiken om een kruisverwijzing te definiëren.  Wanneer u een variabele gebruikt, wordt de waarde ervan gekozen uit de eigenschappen. U kunt een kruisverwijzing definiëren met behulp van één variabele of een combinatie van variabelen. U kunt ook een combinatie van een tekenreeks en een variabele gebruiken.
 
@@ -463,13 +442,13 @@ Als u het tekstveld leeg laat en u de koppelingstekst niet hebt gedefinieerd ter
 
 De prioriteitsvolgorde voor kruisverwijzingen is:
 * Tekst koppelen die is toegevoegd aan de kruisverwijzingen
-* Opmaak voor kruisverwijzingen gedefinieerd in de sjabloon Native PDF
+* Opmaak voor kruisverwijzingen gedefinieerd in de Native PDF-sjabloon
 * Standaardindeling voor kruisverwijzing
 
 
 #### Taalvariabelen in kruisverwijzingen
 
-U kunt ook taalvariabelen gebruiken om gelokaliseerde kruisverwijzingen te definiëren. Afhankelijk van de gekozen taal wordt de gelokaliseerde waarde automatisch gekozen in de uitvoer van de PDF.
+U kunt ook taalvariabelen gebruiken om gelokaliseerde kruisverwijzingen te definiëren. Afhankelijk van uw gekozen taal wordt de gelokaliseerde waarde automatisch gekozen in de PDF-uitvoer.
 
 U kunt bijvoorbeeld een taalvariabele &quot;reference-label&quot; toevoegen en de waarden in het Engels en het Duits definiëren.
 

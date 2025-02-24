@@ -5,9 +5,9 @@ exl-id: 9a52ba17-68c0-4552-aae6-e89bc5d3ac6f
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: ede91932959b952a47c890269695a69a2edab523
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '228'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ AEM Guides wordt geleverd met een krachtige webeditor waarmee uw auteurs DITA-do
 
 - [Werkbalk Aanpassen](conf-web-editor-customize-toolbar.md#)
 - [Bestanden automatisch opslaan in de webeditor configureren](auto-save-in-editor.md#)
-- [AEM standaardwoordenboek aanpassen](customize-aem-custom-dictionary.md#)
+- [Standaard AEM-woordenboek aanpassen](customize-aem-custom-dictionary.md#)
 - [Element-id&#39;s automatisch genereren](auto-generate-ids.md#)
 - [Toegestane speciale tekens configureren](conf-special-chars.md#)
 - [Filters configureren voor het dialoogvenster Bladeren](conf-custom-file-filters.md#)
@@ -29,6 +29,8 @@ AEM Guides wordt geleverd met een krachtige webeditor waarmee uw auteurs DITA-do
 - **[vorm standaardwaarde voor de Mening van Markeringen](configure-default-value-tags-view.md)**
 
 - **[vorm vertoning van op UUID-Gebaseerde verbindingen](conf-uuid-based-links.md)**
+
+- **[vorm vertoning van geplakte lijsten](conf-pasted-tables.md)**
 
 - **[Open DITA- onderwerp of kaartdossiers in zelfde lusje](open-dita-files-same-tab.md)**
 
@@ -52,10 +54,12 @@ AEM Guides wordt geleverd met een krachtige webeditor waarmee uw auteurs DITA-do
 
 - **[installeer pakketten voor op artikel-gebaseerde het publiceren](configure-article-based-publishing.md)**
 
-- **[vorm enige onderwerpgeneratie PDF](conf-pdf-generation-dita-ot.md)**
+- **[vorm enige onderwerpPDF generatie](conf-pdf-generation-dita-ot.md)**
 
 - **[vormt de eigenschap van de Vertaling in de Redacteur van het Web](conf-translation-web-editor.md)**
 
 - **[plaats de Geavanceerde Redacteur van de Kaart als gebrek](conf-map-editor.md)**
 
 - **[omvat @navtitle attributen door gebrek](auto-add-navtitle.md)**
+
+

@@ -4,9 +4,9 @@ description: Leer hoe u slimme tags kunt toevoegen in AEM Guides. Gebruik het ge
 exl-id: 7fb4b881-0898-44eb-a0e8-85cb99d9593b
 feature: Metadata Management
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 9898f98d897da4da9ca76a89efd262239606ac2e
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 >
 > De functie voor slimme tags is niet beschikbaar in het vak en vereist een aangepaste implementatie waarvoor u de systeembeheerder moet raadplegen.
 
-AEM Guides wordt geleverd met de functie om slimme tags toe te voegen. Met het gereedschap XML-trefwoord extraheren kunt u slimme tags extraheren. Dit hulpmiddel gebruikt kunstmatige intelligentie om de inhoud te begrijpen en relevante sleutelwoorden te verstrekken. U kunt slimme tags gebruiken om de optimalisatie van uw zoekmachine te verbeteren \(SEO\) en om de gebruikers te helpen uw gerelateerde inhoud te zoeken.
+Adobe Experience Manager Guides wordt geleverd met de functie om slimme tags toe te voegen. Met het gereedschap XML-trefwoord extraheren kunt u slimme tags extraheren. Dit hulpmiddel gebruikt kunstmatige intelligentie om de inhoud te begrijpen en relevante sleutelwoorden te verstrekken. U kunt slimme tags gebruiken om de optimalisatie van uw zoekmachine te verbeteren \(SEO\) en om de gebruikers te helpen uw gerelateerde inhoud te zoeken.
 
 Voer de volgende stappen uit om slimme tags te maken:
 
@@ -27,7 +27,7 @@ Voer de volgende stappen uit om slimme tags te maken:
 
    ![](images/smart-tag-reprocess-asset.png){width="300" align="left"}
 
-1. Selecteer de optie Post-proces uitvoeren. Er wordt een bericht weergegeven bij de geslaagde start van het gereedschap.
+1. Selecteer de optie Nabewerking uitvoeren. Er wordt een bericht weergegeven bij de geslaagde start van het gereedschap.
 1. De labels worden automatisch geëxtraheerd en kunnen worden weergegeven op de pagina Eigenschappen van het geselecteerde onderwerp.
 
    ![](images/properties-smart-tags.png){width="800" align="left"}

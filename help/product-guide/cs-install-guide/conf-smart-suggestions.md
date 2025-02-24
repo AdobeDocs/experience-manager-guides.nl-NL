@@ -1,17 +1,26 @@
 ---
-title: De slimme suggesties voor het ontwerpen configureren
-description: Leer hoe u de slimme suggesties voor het ontwerpen configureert
+title: AI-assistent configureren voor slimme hulp en ontwerpen
+description: Leer hoe u de AI Assistant configureert in Experience Manager Guides
 exl-id: a595ca1f-0123-40d3-a79c-a066bc6517b4
-source-git-commit: d3e0c475ebd50a2664ea45c293d34b3a10772633
+source-git-commit: 6856b9b31ee5d1111ee1c53836dfa8138780a283
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '880'
 ht-degree: 0%
 
 ---
 
-# De door AI aangedreven slimme suggesties voor het ontwerpen configureren
+# De AI-assistent configureren
 
-Als beheerder, kunt u de Slimme eigenschap van Suggesties voor de auteurs vormen. De service voor slimme suggesties wordt beveiligd door verificatie op basis van auteigenschappen van Adobe IMS. Integreer uw omgeving met beveiligde tokengebaseerde verificatieworkflows van de Adobe en gebruik de nieuwe functie voor slimme suggesties. De volgende configuratiehulp u om het **AI configuratie** lusje aan omslagprofiel toe te voegen. Zodra toegevoegd, kunt u de slimme suggesties eigenschap in de Redacteur van het Web gebruiken.
+Als beheerder kunt u de functie AI Assistant in Experience Manager Guides configureren. AI Assistant wordt beveiligd door verificatie op basis van auteigenschappen van Adobe IMS. Integreer uw omgeving met veilige, op token gebaseerde verificatieworkflows in Adobe en gebruik de functie AI Assistant. De volgende configuratiehulp u om het **AI configuratie** lusje aan omslagprofiel toe te voegen. Als u een AI-assistent hebt toegevoegd, kunt u de functie AI Assistant in Experience Manager Guides gebruiken.
+
+Voer de volgende stappen uit om AI Assistant te configureren:
+
+1. [ creeer configuratie IMS in Adobe Developer Console ](#create-ims-configurations-in-adobe-developer-console).
+2. [IMS-configuraties aan de omgeving toevoegen](#add-ims-configuration-to-the-environment)
+3. [AI-markering in de omgeving inschakelen](#enable-ai-flag-in-the-environment)
+4. [Wijzigingen toepassen op de omgeving](#apply-changes-to-the-environment)
+5. [AI-assistent inschakelen in mapprofiel](#enable-ai-assistant-in-folder-profile)
+6. [Slimme suggesties configureren in mapprofiel](./conf-folder-level.md#configure-ai-assistant-for-smart-help-and-authoring)
 
 ## IMS-configuraties maken in Adobe Developer Console
 
@@ -27,7 +36,7 @@ Voer de volgende stappen uit om IMS-configuraties te maken in Adobe Developer Co
    ![ Snelle beginverbindingen ](assets/conf-ss-quick-start.png) {width="550" align="left"}
    *creeer een nieuw project.*
 
-1. Selecteer **API** van het **scherm van Projecten** toevoegen.  **voeg API** scherm toe verschijnt. Dit scherm toont alle beschikbare APIs, Gebeurtenissen, en de diensten voor de producten en de technologieën van de Adobe waarmee u toepassingen kunt ontwikkelen.
+1. Selecteer **API** van het **scherm van Projecten** toevoegen.  **voeg API** scherm toe verschijnt. Dit scherm toont alle beschikbare APIs, Gebeurtenissen, en de diensten voor de producten en de technologieën van Adobe waarmee u toepassingen kunt ontwikkelen.
 
 1. Selecteer **I/O Beheer API** om het aan uw project toe te voegen.
    ![ IO Beheer API ](assets/confi-ss-io-management.png)
@@ -53,7 +62,7 @@ Voer de volgende stappen uit om IMS-configuraties te maken in Adobe Developer Co
 
    *krijgen begonnen op het nieuwe project.*
 
-1. Klik de **knoop van de Download** op de bovenkant om de dienst JSON te downloaden.
+1. Selecteer de **knoop van de Download** op de bovenkant om de dienst JSON te downloaden.
 
    <img src="assets/download-json.png" alt="download json" width="500">
 
@@ -61,36 +70,53 @@ Voer de volgende stappen uit om IMS-configuraties te maken in Adobe Developer Co
 
 U hebt de OAuth-verificatiedetails geconfigureerd en de JSON-servicedetails gedownload. Houd dit bestand bij de hand zoals in de volgende sectie wordt vereist.
 
-### IMS-configuratie toevoegen aan de omgeving
+## IMS-configuratie toevoegen aan de omgeving
 
 Voer de volgende stappen uit om configuratie IMS aan het milieu toe te voegen:
 
-1. Open Experience Manager en selecteer dan uw programma dat het milieu bevat u wilt vormen.
+1. Open Experience Manager en selecteer vervolgens het programma dat de omgeving bevat die u wilt configureren.
 1. Schakelaar aan de **Milieu&#39;s** tabel.
 1. Selecteer de omgevingsnaam die u wilt configureren. Dit zou u aan de **pagina van de Informatie van het Milieu** moeten navigeren.
 1. Schakelaar aan de **Configuratie** tabel.
 1. Werk het JSON-veld SERVICE_ACCOUNT_DETAILS bij. Zorg ervoor dat u dezelfde naam en configuratie gebruikt als in de volgende schermafbeelding.
 
-![ de configuratie van de de dienstrekening van ims ](assets/ims-service-account-config.png){width="800" align="left"}
+   ![ de configuratie van de de dienstrekening van ims ](assets/ims-service-account-config.png){width="800" align="left"}
 
+## AI-markering in de omgeving inschakelen
 
-*voeg de details van de omgevingsconfiguratie toe.*
+Als u de functie AI Assistant wilt inschakelen in de gebruikersinterface van Experience Manager Guides, voegt u de markering `ENABLES_GUIDES_AI` toe in de omgeving.
 
+Zorg ervoor dat u de zelfde naam en configuratie zoals die in het volgende het schermschot wordt gegeven gebruikt.
 
+![](assets/conf-folder-ai-assistant-enable.png){width="800" align="left"}
 
+Het plaatsen van de vlag aan **waar** laat de functionaliteit toe, terwijl het plaatsen van het aan **vals** maakt het onbruikbaar.
 
-Zodra u de configuratie IMS aan het milieu hebt toegevoegd, voer de volgende stappen uit om deze eigenschappen met AEM Guides te verbinden gebruikend OSGi:
+## Wijzigingen toepassen op de omgeving
 
-1. In u het projectcode van de Git van de wolkenmanager, voeg hieronder twee dossiers (voor dossierinhoud, mening [ Bijlage ](#appendix) toe).
+Nadat u de IMS-configuratie hebt toegevoegd en de AI Assistant-markering hebt ingeschakeld in de omgeving, voert u de volgende stappen uit om deze eigenschappen te koppelen aan AEM Guides met behulp van OSGi:
+
+1. In uw het projectcode van de Git van de wolkenmanager, voeg hieronder twee dossiers (voor dossierinhoud, mening [ Bijlage ](#appendix) toe).
 
    * `com.adobe.aem.guides.eventing.ImsConfiguratorService.cfg.json`
-   * `com.adobe.fmdita.smartsuggest.service.SmartSuggestConfigurationConsumer.cfg.json`
+   * `com.adobe.guides.ai.config.service.AiConfigImpl.cfg.json`
 1. Controleer of de toegevoegde bestanden worden gedekt door de `filter.xml` .
 1. Leg de Git-wijzigingen vast en duw erop.
 1. Voer de pijpleiding in om de veranderingen op het milieu toe te passen.
 
-Zodra dit wordt gedaan, zou u de slimme eigenschap van suggesties moeten kunnen gebruiken.
+## AI-assistent inschakelen in mapprofiel
 
+Nadat de configuratiewijzigingen zijn toegepast, schakelt u de functie AI Assistant in voor het gewenste mapprofiel.
+
+Voor meer details, bekijk [ ken de eigenschappen van de Redacteur ](../user-guide/web-editor-features.md).
+
+![](assets/conf-folder-ai-assistant-enable-settings.png){width="300" align="left"}
+
+## Slimme suggesties configureren in mapprofiel
+
+Nadat u de AI Assistant-functie hebt ingeschakeld, configureert u de functie Slimme suggesties in Mapprofiel.
+
+Voor details, verwijs naar [ Vorm Slimme Suggesties in het Profiel van de Omslag ](./conf-folder-level.md#configure-ai-assistant-for-smart-help-and-authoring).
 
 
 ## Bijlage {#appendix}
@@ -106,28 +132,29 @@ Zodra dit wordt gedaan, zou u de slimme eigenschap van suggesties moeten kunnen 
 }
 ```
 
-**Dossier**: `com.adobe.fmdita.smartsuggest.service.SmartSuggestConfigurationConsumer.cfg.json`
+**Dossier**: `com.adobe.guides.ai.config.service.AiConfigImpl.cfg.json`
 
 **Inhoud**:
 
 ```
 {
-  "smart.suggestion.flag":true,
   "conref.inline.threshold":0.6,
   "conref.block.threshold":0.7,
+  "related.link.threshold":0.5,
   "emerald.url":"https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1",
-  "instance.type":"prod"
+  "instance.type":"prod",
+  "chat.url":"https://aem-guides-ai.adobe.io"
 }
 ```
 
-## Configuratiegegevens van slimme suggesties
+## AI Assistant-configuratiedetails
 
 | Sleutel | Beschrijving | Toegestane waarden | Standaardwaarde |
 |---|---|---|---|
-| smart.suggestion.flag | Bepaalt of slimme suggesties zijn ingeschakeld | true/false | false |
 | conref.inline.threshold | Drempel die de precisie/het terugroepen controleert van suggesties die voor de markering worden gehaald die de gebruiker momenteel typt. | Een waarde tussen -1,0 en 1,0. | 0,6 |
 | conref.block.threshold | Drempel die de precisie/terugroeping van suggesties controleert die voor markeringen over het volledige dossier worden gehaald. | Een waarde tussen -1,0 en 1,0. | 0,7 |
-| emerald.url | Eindpunt voor de Emerald-vectordatabase | [ https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1](https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1) | [ https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1](https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1) |
-| instance.type | Type AEM instantie. Zorg ervoor dit voor elke AEM instantie uniek is dat de slimme suggesties worden gevormd. Een gebruiksgeval zou zijn om de eigenschap op het milieu van het stadium met &quot;instance.type&quot; = &quot;stadium&quot;te testen terwijl tezelfdertijd de eigenschap ook op &quot;prod&quot;wordt gevormd. | Elke unieke sleutel die de omgeving identificeert. Slechts *alpha numerieke* waarden worden toegestaan. &quot;dev&quot;/&quot;stage&quot;/&quot;prod&quot;/&quot;test1&quot;/&quot;stage2&quot; | &quot;prod&quot; |
+| emerald.url | Eindpunt voor de Smart Suggestievectordatabase | [ https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1](https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1) | [ https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1](https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1) |
+| chat.url | Eindpunt voor de AI-hulpdienst | [ https://aem-guides-ai.adobe.io](https://aem-guides-ai.adobe.io) | [ https://aem-guides-ai.adobe.io](https://aem-guides-ai.adobe.io) |
+| instance.type | Type van de AEM-instantie. Zorg ervoor dat dit uniek is voor elke AEM-instantie waarop de slimme suggesties zijn geconfigureerd. Een gebruiksgeval zou zijn om de eigenschap op het milieu van het stadium met &quot;instance.type&quot; = &quot;stadium&quot;te testen terwijl tezelfdertijd de eigenschap ook op &quot;prod&quot;wordt gevormd. | Elke unieke sleutel die de omgeving identificeert. Slechts *alpha numerieke* waarden worden toegestaan. &quot;dev&quot;/&quot;stage&quot;/&quot;prod&quot;/&quot;test1&quot;/&quot;stage2&quot; | &quot;prod&quot; |
 
-Zodra u hebt gevormd, wordt het slimme suggesties pictogram getoond in het juiste paneel van de Redacteur van het Web. U kunt de lijst met slimme suggesties weergeven wanneer u uw onderwerpen bewerkt. Voor meer details, mening [ op AI gebaseerde slimme suggesties voor authoring ](../user-guide/authoring-ai-based-smart-suggestions.md) sectie in de Gids van de Gebruiker van de Experience Manager.
+Als u de configuratie hebt voltooid, wordt het AI Assistant-pictogram weergegeven op de startpagina en in de Editor van de Experience Manager Guides. Voor meer details, mening [ AI Hulp ](../user-guide/ai-assistant.md) sectie in de Gids van de Gebruiker van Experience Manager.

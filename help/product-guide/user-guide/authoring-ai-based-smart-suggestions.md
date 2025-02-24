@@ -2,16 +2,16 @@
 title: Slimme suggesties voor AI-toepassingen om inhoud te ontwerpen
 description: Leer hoe u op AI gebaseerde slimme suggesties in de Webeditor kunt weergeven en gebruiken.
 exl-id: 23c5285e-0d4f-484a-a062-fe1ba1608b8d
-source-git-commit: 6cf65f70252e133cf8977ce925f0a103dc79c0ec
+source-git-commit: dd6fae108ddca23d36615fe38d176723bc4cfe86
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '687'
 ht-degree: 0%
 
 ---
 
 # Intelligente suggesties voor het schrijven van inhoud door AI
 
-Experience Manager Guides biedt de slimme suggesties die u helpen consistente en nauwkeurige inhoud te maken.
+Adobe Experience Manager Guides biedt de slimme suggesties die u helpen consistente en nauwkeurige inhoud te maken.
 
 Terwijl u auteursinhoud, **voorstellen herbruikbare inhoud** eigenschap in het AI Hulphulpmiddel kan zoeken gebruikend AI en de bestaande inhoud tonen die semantisch aan uw inhoud gelijkaardig is. Vervolgens kunt u de beste overeenkomende inhoud kiezen die u als referentie in het huidige onderwerp wilt opnemen.
 
@@ -24,7 +24,7 @@ Voer de volgende stappen uit om de slimme suggesties te bekijken om aangewezen i
 
 
 1. Selecteer de inhoud in het onderwerp om de verwante suggesties te bekijken. Zorg ervoor dat de tekenlengte van de inhoud groter is dan de tekenlengte die de beheerder in het mappenprofiel heeft ingesteld om de inhoudsuggesties weer te geven.
-1. Van het AI Medewerkingspaneel, uitgezochte **stelt opnieuw te gebruiken inhoud** voor ![ probeert herbruikbare inhoudspictogram ](./images/ai-suggest-reusable-content-icon.svg).
+1. Van het **Authoring paneel** in AI Medewerker, uitgezochte **Voorstellen herbruikbare inhoud** ![ ai voorstelt herbruikbaar inhoudspictogram ](./images/ai-suggest-reusable-content-icon.svg).
 
 1. Selecteer een tag om de ontwerpsuggesties voor de huidige tag weer te geven.  De suggesties om inhoudsverwijzingen uit de geïndexeerde bestanden weer te geven en toe te voegen, worden weergegeven op basis van de inhoud van de huidige tag. U kunt ook meerdere tags selecteren.
 
@@ -38,7 +38,7 @@ Voer de volgende stappen uit om de slimme suggesties te bekijken om aangewezen i
    > U kunt alleen de suggesties voor de huidige viewport weergeven (de inhoud is zichtbaar op het scherm). Om suggesties voor een andere inhoud in het document te bekijken, scrol omhoog of omlaag om het in viewport te tonen, en dan te selecteren **stel opnieuw te gebruiken inhoud** voor ![ ai het herbruikbare inhoudspictogram ](./images/ai-suggest-reusable-content-icon.svg) voor.
 
 
-1. U kunt de slimme suggesties weergeven in het deelvenster met suggesties.  Experience Manager Guides biedt suggesties voor inhoud die in een context lijkt of dezelfde betekenis heeft. Bijvoorbeeld, kunt u naar het onderwerp zoeken dat het nauwkeurige versieaantal, zoals &quot;versie 2023.03.12&quot;bevat. U kunt ook zoeken naar &quot;Adobe is hoofdkwartier in San Jose, Californië,&quot;en gelijkaardige inhoud vinden zoals &quot;San Jose heeft de kwartalen van vele softwarebedrijven zoals Adobe.&quot;
+1. U kunt de slimme suggesties weergeven in het deelvenster met suggesties.  Experience Manager Guides biedt suggesties voor inhoud die in een context lijkt of dezelfde betekenis heeft. Bijvoorbeeld, kunt u naar het onderwerp zoeken dat het nauwkeurige versieaantal, zoals &quot;versie 2023.03.12&quot;bevat. U kunt ook zoeken naar &quot;Adobe is hoofdkwartier in San Jose, Californië&quot; en vergelijkbare inhoud vinden zoals &quot;San Jose heeft de kwartalen van veel softwarebedrijven zoals Adobe.&quot;
 1. Selecteer **![ Informatie van de Inhoud 1} ](images/smart-suggestions-content-info-icon.svg) de Informatie van de Inhoud {om de details te bekijken.**
 
    ![ het informatiepaneel van de Inhoud ](images/smart-suggestions-content-information.png){width="300" align="left"}
@@ -55,7 +55,7 @@ Voer de volgende stappen uit om de slimme suggesties te bekijken om aangewezen i
 
    *voorproef de vergelijking tussen de huidige inhoud en de voorgestelde inhoud.*
 
-1. Klik **Accepteren** om de voorgestelde inhoudsverwijzing in de **Voorstellen herbruikbare inhoud** voorproef toe te voegen.
+1. Selecteer **Accepteren** om de voorgestelde inhoudsverwijzing in de **Voorstellen herbruikbare inhoud** voorproef toe te voegen.
 1. U kunt **ook selecteren keurt** goed of **verwerpt** in het suggesties paneel voor de aangewezen aanbevelingen.
 
 

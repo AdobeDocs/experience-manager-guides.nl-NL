@@ -1,13 +1,13 @@
 ---
-title: Native PDF Publish-functie | Een pagina-indeling ontwerpen
-description: Leer hoe u uw paginalay-out kunt ontwerpen om informatie in verschillende gedeelten van uw PDF-uitvoer weer te geven.
+title: Systeemeigen PDF-publicatiefunctie | Een pagina-indeling ontwerpen
+description: Leer hoe u uw paginalay-out ontwerpt om informatie in verschillende gedeelten van uw PDF-uitvoer weer te geven.
 exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: aad652509c54b516fca49b7ca28d7dd5547f9a1b
+source-git-commit: e8aecbdca448c321ac36804255416a4fb2561f79
 workflow-type: tm+mt
-source-wordcount: '4972'
+source-wordcount: '5017'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 0%
 
 # Een pagina-indeling ontwerpen {#design-page-layout}
 
-Bij het maken van een PDF-document hebt u verschillende secties voor het weergeven van verschillende soorten informatie. Een PDF-document begint bijvoorbeeld op een voor- of omslagpagina, waarop het logo, de boektitel of de versiegegevens van uw bedrijf staan. Dan zouden er hoofdstukken, aanhangsels, of verklarende woordenlijstpagina&#39;s zijn. Elke sectie in een PDF-document ziet er anders uit en dat wordt bereikt door het maken en aanpassen van de paginalay-out.
+Bij het maken van een PDF-document hebt u verschillende secties voor het weergeven van verschillende soorten informatie. Een PDF-document begint bijvoorbeeld op een voor- of omslagpagina en bevat het logo, de titel van het boek of de versiegegevens van uw bedrijf. Dan zouden er hoofdstukken, aanhangsels, of verklarende woordenlijstpagina&#39;s zijn. Elke sectie in een PDF-document ziet er anders uit en dat wordt bereikt door het maken en aanpassen van de paginalay-out.
 
-Wanneer u de pagina-indeling ontwerpt, kunt u de verschillende elementen definiëren die samen een pagina vormen. U kunt bijvoorbeeld het paginaformaat, de marges, de kop- en voettekst, de afdrukstand en andere paginaspecificaties op een pagina definiëren. De inheemse PDF het Publiceren eigenschap staat u toe om uw pagina volgens de [ normen van de Media van de Pagina ](https://www.w3.org/TR/css-page-3/) te ontwerpen. De meeste instellingen die onder de normen voor gepagineerde media vallen, kunnen eenvoudig worden aangepast met de gebruikersinterface van de functie Native PDF Publishing. Voor sommige andere opmaak op geavanceerd niveau kunt u de Source-weergave gebruiken om uw eigen CSS-code te schrijven.
+Wanneer u de pagina-indeling ontwerpt, kunt u de verschillende elementen definiëren die samen een pagina vormen. U kunt bijvoorbeeld het paginaformaat, de marges, de kop- en voettekst, de afdrukstand en andere paginaspecificaties op een pagina definiëren. De inheemse het Publiceren van PDF eigenschap staat u toe om uw pagina volgens de [ normen van de Media van de Pagina ](https://www.w3.org/TR/css-page-3/) te ontwerpen. De meeste instellingen die onder de normen voor gepagineerde media vallen, kunnen eenvoudig worden aangepast met de gebruikersinterface van de functie Native PDF Publishing. Voor sommige andere opmaak op geavanceerd niveau kunt u de Source-weergave gebruiken om uw eigen CSS-code te schrijven.
 
-Nadat u de paginalay-outs hebt ontworpen, moet u deze lay-outs koppelen aan de desbetreffende secties in de instellingen voor Pagina-indeling PDF. Zie [ creeer en pas paginalay-outs ](components-pdf-template.md#create-customize-page-layout) sectie voor details op om een paginalay-out voor aanpassing tot stand te brengen en te openen.
+Nadat u de paginalay-outs hebt ontworpen, moet u deze lay-outs koppelen aan de desbetreffende secties in de instellingen voor paginalayout van PDF. Zie [ creeer en pas paginalay-outs ](components-pdf-template.md#create-customize-page-layout) sectie voor details op om een paginalay-out voor aanpassing tot stand te brengen en te openen.
 
 ## Typen paginalay-outs {#types-of-page-layout}
 
@@ -40,7 +40,7 @@ De montages van de Lay-outs van de Pagina onder de **Malplaatje>sectie van Monta
 
 ### De eerste, rechter of linkerpaginalay-outvarianten maken {#page-layout-variants}
 
-De verschillende paginalay-outs in uw PDF sjabloon kunnen verder worden aangepast door verschillende lay-outvarianten voor de eerste, rechter of linkerpagina te hebben. U kunt deze pagina&#39;s anders ontwerpen met de ontwerper van de paginalay-out.
+De verschillende paginalay-outs in uw PDF-sjabloon kunnen verder worden aangepast door verschillende lay-outvarianten voor de eerste, rechter of linkerpagina te hebben. U kunt deze pagina&#39;s anders ontwerpen met de ontwerper van de paginalay-out.
 
 >[!NOTE]
 >
@@ -78,7 +78,7 @@ In het volgende voorbeeld wordt het maken van varianten van een paginalay-out do
 
    >[!NOTE]
    >
-   >Voor geavanceerde configuratie kunt u de Source-weergave gebruiken en uw aangepaste HTML en CSS-code toevoegen.
+   >Voor geavanceerde configuratie kunt u de Source-weergave gebruiken en uw aangepaste HTML- en CSS-code toevoegen.
 
 1. De muis beweegt over de **lay-out van het Hoofdstuk**, en klikt **Opties** om het contextmenu te tonen.
 
@@ -88,7 +88,7 @@ De geselecteerde paginalay-out wordt gecreeerd gebruikend een exemplaar van de l
 
 ## Werken met de pagina-eigenschappen van een pagina-indeling {#page-props-page-layout}
 
-Bij het ontwerpen van een pagina-indeling is het van essentieel belang dat u controle hebt over verschillende pagina-eigenschappen. Met de functie Native PDF publiceren worden alle pagina-eigenschappen onder het deelvenster Pagina-eigenschappen ingekapseld. In het deelvenster Pagina-eigenschappen hebt u toegang tot verschillende eigenschappen onder de volgende secties:
+Bij het ontwerpen van een pagina-indeling is het van essentieel belang dat u controle hebt over verschillende pagina-eigenschappen. Met de functie Native PDF Publishing worden alle belangrijke pagina-eigenschappen ingekapseld in het deelvenster Pagina-eigenschappen. In het deelvenster Pagina-eigenschappen hebt u toegang tot verschillende eigenschappen onder de volgende secties:
 
 >[!NOTE]
 >
@@ -100,7 +100,7 @@ Bij het ontwerpen van een pagina-indeling is het van essentieel belang dat u con
 
 * **de Rotatie van de Mening**: Specificeer de kant of de richting waarin de originele hoogste kant na omwenteling wordt vertegenwoordigd. U kunt kiezen uit 90 graden rechtsom, 90 graden linksom of 180 graden linksom. Dit is zeer nuttig in een situatie waarin u een combinatie van de lay-outs Staand en Liggend in uw output wilt gebruiken. U kunt bijvoorbeeld Staand gebruiken als de algemene pagina-indeling en u kunt een liggende pagina-indeling instellen voor het weergeven van brede tabellen. In dat geval kunt u instellen dat de tabelinhoud 90 graden rechtsom wordt weergegeven. Op die manier wordt de pagina liggend georiënteerd en wordt de inhoud 90 graden gedraaid om de continuïteit in de weergave te behouden. We zullen later in dit gedeelte zien hoe dit wordt bereikt als voorbeeld.
 
-* **de Nummering van de Pagina**:De paginanummering, door gebrek, is ononderbroken in een PDF. Een PDF van 100 pagina&#39;s kan bijvoorbeeld een doorlopend paginanummer van 1 tot en met 100 bevatten. U kunt de nummering ook opnieuw starten vanaf een bepaald nummer in alle verschillende secties of vanaf het eerste exemplaar van een sectie.
+* **de Nummering van de Pagina**:De paginanummering, door gebrek, is ononderbroken in PDF. Een PDF van 100 pagina&#39;s kan bijvoorbeeld een doorlopend paginanummer hebben van 1 tot 100 pagina&#39;s. U kunt de nummering ook opnieuw starten vanaf een bepaald nummer in alle verschillende secties of vanaf het eerste exemplaar van een sectie.
    * **begin van** opnieuw: Specificeer het paginanummer van waar de nummering voor deze paginalay-out zal beginnen. U kunt bijvoorbeeld voor elk hoofdstuk het paginanummer instellen om opnieuw te beginnen. In dat geval, moet u het nieuwe begin van bezit aan 1 op de Eerste variant van de paginalay-out van de lay-out van de hoofdstukpagina plaatsen. De paginanummering gaat standaard verder vanaf de vorige pagina.
 
    * **is slechts op het eerste voorkomen** van toepassing: U kunt ook van een specifiek aantal slechts voor het eerste voorkomen van een sectie beginnen. U kunt bijvoorbeeld alleen het eerste hoofdstuk starten vanuit 1 en de paginanummers voor andere hoofdstukken voortzetten.
@@ -220,7 +220,7 @@ In de uiteindelijke PDF wordt de tabelinhoud liggend weergegeven, zoals in het b
 
 ### Een achtergrondafbeelding toevoegen {#add-bg-image}
 
-Gebaseerd op uw vereisten, zou u een achtergrondbeeld kunnen willen toevoegen dat op elke eerste pagina van de output van het Hoofdstuk (PDF) verschijnt. Met de eigenschappen Achtergrond onder Pagina-eigenschappen kunt u eenvoudig een achtergrondafbeelding toevoegen. U kunt ervoor kiezen deze afbeelding over een pagina te repliceren en de afbeelding op een willekeurige positie boven, onder of in het midden van de pagina te plaatsen.
+Op basis van uw vereisten kunt u een achtergrondafbeelding toevoegen die op elke eerste pagina van een PDF-uitvoer (Chapter) wordt weergegeven. Met de eigenschappen Achtergrond onder Pagina-eigenschappen kunt u eenvoudig een achtergrondafbeelding toevoegen. U kunt ervoor kiezen deze afbeelding over een pagina te repliceren en de afbeelding op een willekeurige positie boven, onder of in het midden van de pagina te plaatsen.
 
 Als u bijvoorbeeld een achtergrondafbeelding wilt invoegen in het middelste gedeelte van het inhoudsgebied, voert u de volgende stappen uit:
 
@@ -285,7 +285,7 @@ Standaard zijn de kop- en voettekstmarges ingesteld op 1 inch. U kunt deze stand
 
 1. Als u de voettekstgrootte wilt wijzigen, voert u de gewenste waarde in het veld Ondermarge in.
 
-U kunt de kop- en voettekst zo ontwerpen dat deze meerdere regels bevatten. Hiervoor voegt u een \&lt;p\>-tag toe met behulp van de HTML Elements invoegen (<img src="./assets/insert-html-element-2.svg" width="25"> ) in het kop- of voettekstgebied.
+U kunt de kop- en voettekst zo ontwerpen dat deze meerdere regels bevatten. Hiervoor voegt u een \&lt;p\>-tag toe met behulp van de Insert HTML Elements (<img src="./assets/insert-html-element-2.svg" width="25"> ) in het kop- of voettekstgebied.
 
 | _Hoek van de Ontwikkelaar_: <img src="./assets/developer-corner-icon.svg" width="25"> |
 |---|
@@ -366,16 +366,17 @@ Er zijn de volgende categorieën voor gebieden die u in uw paginalay-out kunt op
 Elk van deze veldcategorieën bevat verschillende variaties waarin de veldinformatie kan worden ingevoegd. Een datumveld kan bijvoorbeeld verschillende variaties hebben, zoals `YYYY-MM-DD` , `MM/DD/YY` , `MM/DD/YYYY` enzovoort. Op dezelfde manier kan het Aantal van de Pagina variaties in de vorm van roman, decimaal, of zelfs landspecifiek formaat zoals _Arabisch_ hebben, _Devanagari_, _Hebreeuws_, en meer.
 
 
-Naast de vooraf gedefinieerde velden kunt u ook metagegevens toevoegen als variabelen of velden in de paginalay-out. Deze meta-gegevens wordt opgeslagen in uw bronDITA **inhoud van de Kaart**, of het kan van de DITA **eigenschappen van het het dossierdossier van de Kaart** of de **het dossiereigenschappen van het Onderwerp** en gemakkelijk worden opgenomen in uw paginalay-out.
+Naast de vooraf gedefinieerde velden kunt u ook metagegevens toevoegen als variabelen of velden in de paginalay-out. Deze meta-gegevens kunnen in uw bronDITA **inhoud van de Kaart**, **inhoud van het Onderwerp** worden opgeslagen, of kunnen van de DITA **het dossiereigenschappen van de Kaart**, **eigenschappen van het Dossier van het Onderwerp** worden genomen.
 
 U kunt de metagegevens selecteren uit de volgende opties:
 
 * **de inhoud van de Kaart** omvat de meta-gegevens die u in het `<topicmeta>` element van de kaart DITA hebt bepaald.
 * **het dossiereigenschappen van de Kaart** omvat de meta-gegevens, die u van de **pagina van Eigenschappen** van een kaart kunt toegang hebben DITA.
+* **inhoud van het Onderwerp** omvat meta-gegevens die in het `<prolog>` element van een onderwerp DITA, zoals auteursrecht, auteur, en andere details worden bepaald. Als u afzonderlijke `<prolog>` -elementen wilt ophalen, kunt u eenvoudige XPath-expressies gebruiken (bijvoorbeeld //auteur voor de auteursnaam). Voor kenmerkmetagegevens neemt u het `@` -symbool op in het XPath (bijvoorbeeld //critdates/revision/@modified for the modified date).
 * **het dossiereigenschappen van het Onderwerp** omvat de meta-gegevens, die u van de **eigenschappen** pagina van een Onderwerp kunt toegang hebben.
 
 
-U kunt meta-gegevens van **het dossiereigenschappen van de Kaart** en **het dossiereigenschappen van het Onderwerp** in één enkel document combineren. U kunt bijvoorbeeld een PDF publiceren met de kaarthoofdtitel op de voorpagina en de titel van het onderwerp in de koptekst van andere pagina&#39;s. Om dit te doen, kunt u de meta-gegevens van de kaarttitel van de **het dossiereigenschappen van de Kaart** aan de omslag paginalay-out toevoegen. Dan, voeg de meta-gegevens van de onderwerptitel van de **het dossiereigenschappen van het Onderwerp** aan de kopbal op de de paginalay-out van de hoofdstukken en van Onderwerpen toe.
+U kunt meta-gegevens van **het dossiereigenschappen van de Kaart** en **het dossiereigenschappen van het Onderwerp** in één enkel document combineren. U kunt bijvoorbeeld een PDF publiceren met de titel van de kaart op de omslagpagina en de titel van het onderwerp in de koptekst van andere pagina&#39;s. Om dit te doen, kunt u de meta-gegevens van de kaarttitel van de **het dossiereigenschappen van de Kaart** aan de omslag paginalay-out toevoegen. Dan, voeg de meta-gegevens van de onderwerptitel van de **het dossiereigenschappen van het Onderwerp** aan de kopbal op de de paginalay-out van de hoofdstukken en van Onderwerpen toe.
 
 Als één onderwerp op een pagina beëindigt terwijl andere op de zelfde pagina begint, worden de meta-gegevens van het eerste onderwerp gekozen. U kunt ook aangepaste eigenschappen toevoegen en deze vervolgens als velden in de paginalay-out invoegen.
 
@@ -401,7 +402,7 @@ In het volgende voorbeeld worden een paginanummer en een hoofdstuktitel ingevoeg
 
    U kunt ook in het voettekstgebied klikken.
 
-1. Tussenvoegsel een paragraafelement door de **Elementen van de HTML van het Tussenvoegsel** te klikken (<img src="./assets/insert-html-element-2.svg" width="25"> ) en selecteert u Alinea in de lijst met elementen.
+1. Tussenvoegsel een paragraafelement door **de Elementen van HTML van het Tussenvoegsel** te klikken (<img src="./assets/insert-html-element-2.svg" width="25"> ) en selecteert u Alinea in de lijst met elementen.
 
 1. Klik het **pictogram van de Gebieden van het Tussenvoegsel** (![](./assets/insert-fields-icon.svg)).
 
@@ -507,7 +508,7 @@ In het volgende voorbeeld wordt een hoofdstuk-TOC ingevoegd in de indeling van d
 
    >[!NOTE]
    >
-   >De definitieve gepubliceerde PDF zal slechts de ingangen tonen TOC die op de inhoud in uw hoofdstukken worden gebaseerd. Als u geen niveau 5 rubrieken in een hoofdstuk hebt, zal het niet in de definitieve output worden getoond.
+   >In de uiteindelijke gepubliceerde PDF worden alleen de inhoudsopgave-items weergegeven op basis van de inhoud in uw hoofdstukken. Als u geen niveau 5 rubrieken in een hoofdstuk hebt, zal het niet in de definitieve output worden getoond.
 
 De blik en het gevoel van standaardTOC kunnen worden aangepast gebruikend de stijlbladen. De stijl die begint met `chaptoc-level-#` (zoals `chaptoc-level-1` , `chaptoc-level-2` , enzovoort) wordt gebruikt om de stijlen voor de inhoudsopgave van het hoofdstuk aan te passen. <!--For more details on the stylesheet elements used in the TOC and how to customize them, see _Customize default chapter TOC_-->
 
@@ -517,7 +518,7 @@ De blik en het gevoel van standaardTOC kunnen worden aangepast gebruikend de sti
 
 ### Werken met paginalay-out met meerdere kolommen {#multi-column-layout}
 
-Paginalay-outs met meerdere kolommen worden veel gebruikt voor het publiceren van tijdschriften of indexen in een boek. Met de functie Eigen PDF publiceren kunt u uw document eenvoudig in meerdere kolommen splitsen. Met verschillende paginalay-outs kunt u ervoor kiezen om alleen een specifieke sectie in meerdere kolommen te verdelen en de andere secties in één (of normale) kolomlay-out te laten.
+Paginalay-outs met meerdere kolommen worden veel gebruikt voor het publiceren van tijdschriften of indexen in een boek. Met de functie Native PDF Publishing kunt u uw document eenvoudig in meerdere kolommen splitsen. Met verschillende paginalay-outs kunt u ervoor kiezen om alleen een specifieke sectie in meerdere kolommen te verdelen en de andere secties in één (of normale) kolomlay-out te laten.
 
 Voer de volgende stappen uit om een paginalay-out met meerdere kolommen te maken:
 

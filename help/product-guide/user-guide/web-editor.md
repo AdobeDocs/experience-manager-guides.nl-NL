@@ -1,49 +1,37 @@
 ---
-title: Werken met de webeditor
-description: Gestructureerde documenten maken en bewerken met de webeditor. Leer hoe u met de webeditor kunt werken volgens de DITA-standaarden in AEM Guides.
+title: Inleiding tot de Editor
+description: Gestructureerde documenten maken en bewerken met de editor. Leer hoe u met de editor kunt werken volgens de DITA-standaarden in Adobe Experience Manager Guides.
 exl-id: 285d3ad3-fb4e-4cdd-ab83-493ffce891d6
 feature: Authoring, Web Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 67d6b6f59e5d8c37389a181949ce4527760576e2
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---
 
-# Werken met de webeditor {#id181OD0QE05Z}
+# Inleiding tot de Editor {#id181OD0QE05Z}
 
-AEM Guides wordt geleverd met een gebruiksvriendelijke webeditor voor het maken en bewerken van gestructureerde documenten. De redacteur verbergt alle ingewikkeldheid van de structuur DITA van de schrijver. De redacteur verstrekt een lijst van elementen DITA die een gebruiker gewoonlijk binnen een document zou moeten werken.
+Experience Manager Guides wordt geleverd met een gebruiksvriendelijke Editor voor het maken en bewerken van gestructureerde documenten. De redacteur verbergt alle ingewikkeldheid van de structuur DITA van de schrijver. De redacteur verstrekt een lijst van elementen DITA die een gebruiker gewoonlijk binnen een document zou moeten werken.
 
-Ook, is de Redacteur van het Web DITA-bewust en het steunt DITA 1.3, 1.2 normen, lichtgewicht DITA, en ook gespecialiseerde DITA. Dit betekent dat u elementen niet kunt plaatsen op locaties die niet in overeenstemming zijn met de DITA-standaarden. De Redacteur van het Web staat u ook toe om met het meest algemeen gebruikte blok en in-line elementen te werken.
+Ook, is de Redacteur DITA-bewust en het steunt normen DITA 1.3, 1.2, lichtgewicht DITA, en ook gespecialiseerde DITA. Dit betekent dat u elementen niet kunt plaatsen op locaties die niet in overeenstemming zijn met de DITA-standaarden. Met de Editor kunt u ook werken met de meest gebruikte blok- en inline-elementen.
 
-- **[Lancering de Redacteur van het Web](web-editor-launch-editor.md)**
+- **[Lancering de Redacteur](web-editor-launch-editor.md)**
 
-- **[geef onderwerpen in de Redacteur van het Web](web-editor-edit-topics.md)** uit
+- **[creeer en voorproef onderwerpen](create-preview-topics.md)**
 
-- **[ken de eigenschappen van de Redacteur van het Web](web-editor-features.md)**
+- **[ken de eigenschappen van de Redacteur](web-editor-features.md)**
 
-- **[kortere weg van het Toetsenbord in de Redacteur van het Web](web-editor-keyboard-shortcuts.md)**
+- **[Extra eigenschappen in de Redacteur](web-editor-other-features.md)**
 
-- **[Andere eigenschappen in de Redacteur van het Web](web-editor-other-features.md)**
+- **[de meningen van de Redacteur](web-editor-views.md)**
 
-- **[de meningen van de Redacteur van het Web](web-editor-views.md)**
-
-- **[de documenten van de Prijsverhoging van de Auteur van het Web van de Redacteur](web-editor-markdown-topic.md)**
-
-- **[beheer Globale en de outputpresets van het Profiel van de Omslag](web-editor-manage-output-presets.md)**
-
-- **[Op artikel-gebaseerde het publiceren van de Redacteur van het Web](web-editor-article-publishing.md)**
-
-- **[Snel van het Gebruik produceert paneel om output](web-editor-quick-generate-panel.md)** te produceren en te bekijken
-
-- **[vertaalde documenten van de Redacteur van het Web](translate-documents-web-editor.md)**
-
-- **[creeer en beheer basislijnen van de Redacteur van het Web](web-editor-baseline.md)**
+- **[de documenten van de Markering van de Auteur van de Redacteur](web-editor-markdown-topic.md)**
 
 - **[de staat van het Document](web-editor-document-states.md)**
 
 - **[de etiketten van het Gebruik](web-editor-use-label.md)**
 
 
-**Bovenliggend onderwerp:**[ Inhoud van de Auteur gebruikend AEM Guides ](authoring-content-xml-doc.md)
+**Bovenliggend onderwerp:**[ Inhoud van de Auteur gebruikend Experience Manager Guides ](authoring-content-xml-doc.md)

@@ -4,77 +4,33 @@ description: Leer hoe u een aangepaste uitvoervoorinstelling in AEM Guides maakt
 exl-id: 0522a49d-4dce-4456-bfdc-7ff9261ae04c
 feature: Publishing
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: e6c14a478d8119c11b8541898c3314688e7fa51b
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '131'
 ht-degree: 0%
 
 ---
 
-# Een uitvoervoorinstelling maken, bewerken, dupliceren of verwijderen {#id205BEH0K09Z}
+# Een uitvoervoorinstelling bewerken, dupliceren of verwijderen {#id205BEH0K09Z}
 
-## Een aangepaste uitvoervoorinstelling maken
+U kunt uitvoervoorinstellingen beheren via de kaartconsole en het kaartdashboard. Op beide manieren kunt u opties instellen voor het bewerken, dupliceren en verwijderen van een uitvoervoorinstelling, zoals geïllustreerd in de volgende sectie.
 
-Voer de volgende stappen uit om een aangepaste uitvoervoorinstelling te maken:
+## Kaartconsole gebruiken
 
-1. In Assets UI, navigeer aan en klik op om het even welke kaart DITA om de DITA kaartconsole te openen.
+U kunt de geselecteerde uitvoervoorinstelling bewerken door de vereiste velden rechtstreeks te wijzigen in de vereiste voorinstellingen.
 
-1. Zorg ervoor dat het tabblad Voorinstellingen uitvoer is geselecteerd. Klik op Maken op de werkbalk.
-
-   Er wordt een leeg formulier met een voorinstelling voor uitvoer weergegeven.
-
-1. Voer de vereiste gegevens in voor het type voorinstelling dat u wilt maken.
-
-1. Klik op Gereed om de voorinstellingen op te slaan.
+Bovendien, kunt u een output dupliceren of schrappen vooraf ingesteld gebruikend het **Opties** dropdown menu zoals hieronder getoond.
 
 
-## Een uitvoervoorinstelling bewerken
-
-Voer de volgende stappen uit om een bestaande uitvoervoorinstelling te bewerken:
-
-1. In Assets UI, navigeer aan en klik op om het even welke kaart DITA om de DITA kaartconsole te openen.
-
-1. Zorg ervoor dat het tabblad Voorinstellingen uitvoer is geselecteerd.
-
-1. Klik op de uitvoervoorinstelling die u wilt bewerken. Klik op Bewerken op de werkbalk.
-
-   Er wordt een bewerkbaar formulier met uitvoervoorinstellingen weergegeven met waarden van de geselecteerde uitvoervoorinstelling.
-
-1. Wijzig de vereiste details.
-
-1. Klik op Gereed om de bewerkte voorinstellingen op te slaan.
+![](images/delete-preset-map-console.png){width="800" align="left"}
 
 
-## Een uitvoervoorinstelling dupliceren
+## Het dashboard Kaart gebruiken
 
-Voer de volgende stappen uit om een bestaande uitvoervoorinstelling te dupliceren:
+U kunt een uitvoervoorinstelling bewerken, dupliceren en verwijderen met behulp van het kaartdashboard door het vereiste tabblad in de bovenste balk te selecteren, zoals hieronder wordt weergegeven.
 
-1. In Assets UI, navigeer aan en klik op om het even welke kaart DITA om de DITA kaartconsole te openen.
+![](images/create-new-preset-map-dashboard-new.png){width="800" align="left"}
 
-1. Zorg ervoor dat het tabblad Voorinstellingen uitvoer is geselecteerd.
-
-1. Klik op de uitvoervoorinstelling die u wilt dupliceren. Klik op Dupliceren op de werkbalk.
-
-   Er wordt een bewerkbaar formulier met uitvoervoorinstellingen weergegeven met waarden van de geselecteerde uitvoervoorinstelling.
-
-1. Wijzig de vereiste details.
-
-1. Klik op Gereed om de voorinstellingen op te slaan.
-
-
-## Een uitvoervoorinstelling verwijderen
-
-Voer de volgende stappen uit om een bestaande uitvoervoorinstelling te verwijderen:
-
-1. In Assets UI, navigeer aan en klik op om het even welke kaart DITA om de DITA kaartconsole te openen.
-
-1. Selecteer de uitvoervoorinstelling die u wilt verwijderen.
-
-1. Klik op Voorinstelling verwijderen.
-
-1. Klik op Verwijderen bij de bevestigingsvraag.
-
-   De voorinstelling wordt verwijderd uit de lijst Voorinstellingen uitvoer.
 
 
 **Bovenliggend onderwerp:**[ Productie van de Output ](generate-output.md)

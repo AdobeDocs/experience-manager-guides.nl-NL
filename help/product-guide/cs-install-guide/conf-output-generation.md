@@ -5,9 +5,9 @@ exl-id: b5cf4f6c-dc56-428e-a514-6c9f879ac03d
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: a2e52572edf0915c1701a384d396a32de2429f53
 workflow-type: tm+mt
-source-wordcount: '5470'
+source-wordcount: '5620'
 ht-degree: 0%
 
 ---
@@ -31,9 +31,9 @@ Voer de volgende stappen uit om het tabblad Basislijn op het dashboard voor de D
 >
 > Deze configuratie is standaard ingeschakeld en het tabblad Basislijn is niet beschikbaar op het kaartdashboard.
 
-## Overvloeien publiceren binnen een bestaande AEM site configureren {#id1691I0V0MGR}
+## Overvloeien publiceren configureren binnen een bestaande AEM-site {#id1691I0V0MGR}
 
-Als u een AEM site hebt die DITA-inhoud bevat, kunt u de AEM Site-uitvoer zo configureren dat DITA-inhoud wordt gepubliceerd naar een vooraf gedefinieerde locatie binnen uw site. In de volgende schermafbeelding van een AEM sitepagina is het knooppunt `ditacontent` bijvoorbeeld gereserveerd voor het opslaan van DITA-inhoud:
+Als u een AEM-site hebt die DITA-inhoud bevat, kunt u uw AEM-site-uitvoer zo configureren dat DITA-inhoud wordt gepubliceerd naar een vooraf gedefinieerde locatie op uw site. In de volgende schermafbeelding van een AEM Site-pagina is het knooppunt `ditacontent` bijvoorbeeld gereserveerd voor het opslaan van DITA-inhoud:
 
 ![](assets/publish-in-aem-site.png)
 
@@ -64,34 +64,34 @@ Voer de volgende stappen uit om de sjablooneigenschappen van uw bestaande site t
 
 De volgende keer dat u DITA-inhoud publiceert met behulp van de sjabloonconfiguraties van uw site, wordt de inhoud gepubliceerd in de knooppunten die zijn opgegeven in de eigenschappen `topicContentNode` en `topicHeadNode` .
 
-## Uitvoer van AEM site aanpassen {#id166TG0B30WR}
+## Uitvoer van AEM-site aanpassen {#id166TG0B30WR}
 
 De AEM Guides ondersteunt het maken van uitvoerbestanden in de volgende indelingen:
 
-- Site AEM
+- AEM-site
 - PDF
-- HTML 5
+- HTML5
 - EPUB
 - Aangepaste uitvoer via DITA-OT
 
-Voor de AEM Site-uitvoer kunt u verschillende ontwerpsjablonen met verschillende uitvoertaken toewijzen. Deze ontwerpsjablonen kunnen de DITA-inhoud in verschillende lay-outs renderen. U kunt bijvoorbeeld verschillende ontwerpsjablonen opgeven voor een intern en extern publiek.
+Voor de uitvoer van de AEM-site kunt u verschillende ontwerpsjablonen met verschillende uitvoertaken toewijzen. Deze ontwerpsjablonen kunnen de DITA-inhoud in verschillende lay-outs renderen. U kunt bijvoorbeeld verschillende ontwerpsjablonen opgeven voor een intern en extern publiek.
 
 U kunt ook aangepaste DITA Open Toolkit \(DITA-OT\)-plug-ins gebruiken met de AEM Guides. U kunt deze aangepaste DITA-OT-plug-ins uploaden om PDF-uitvoer op een specifieke manier te genereren.
 
 >[!TIP]
 >
-> Zie *AEM het publiceren van de Plaats* sectie in de Beste praktijken gids voor beste praktijken rond het creëren van AEM output van de Plaats.
+> Zie de *het publiceren van de Plaats van AEM* sectie in de Beste praktijken gids voor beste praktijken rond het creëren van de output van de Plaats van AEM.
 
 
 ### Ontwerpsjabloon aanpassen voor het genereren van uitvoer {#customize_xml-add-on}
 
-De AEM Guides gebruikt een set vooraf gedefinieerde ontwerpsjablonen om AEM Site-uitvoer te genereren. U kunt de AEM Guides-ontwerpsjablonen aanpassen om de uitvoer te genereren die in overeenstemming is met uw bedrijfsbranding. Een ontwerpsjabloon is een verzameling van verschillende stijlen \(CSS\), scripts \(zowel server- als client-side\), bronnen \(afbeeldingen, logo&#39;s en andere elementen\) en JCR-knooppunten die al deze bronnen aan elkaar koppelen. Een ontwerpsjabloon kan zo eenvoudig zijn als één serverscript met slechts een paar JCR-knooppunten of een complexe combinatie van stijlen, bronnen en JCR-knooppunten. De malplaatjes van het ontwerp worden gebruikt door het publiceren van AEM Guides subsysteem terwijl het produceren van AEM output van de Plaats en zij controleren de structuur, de blik en het gevoel van de geproduceerde output.
+De AEM Guides gebruikt een set vooraf gedefinieerde ontwerpsjablonen om AEM Site-uitvoer te genereren. U kunt de AEM Guides-ontwerpsjablonen aanpassen om de uitvoer te genereren die in overeenstemming is met uw bedrijfsbranding. Een ontwerpsjabloon is een verzameling van verschillende stijlen \(CSS\), scripts \(zowel server- als client-side\), bronnen \(afbeeldingen, logo&#39;s en andere elementen\) en JCR-knooppunten die al deze bronnen aan elkaar koppelen. Een ontwerpsjabloon kan zo eenvoudig zijn als één serverscript met slechts een paar JCR-knooppunten of een complexe combinatie van stijlen, bronnen en JCR-knooppunten. De malplaatjes van het ontwerp worden gebruikt door het publiceren subsysteem van AEM Guides terwijl het produceren van de output van de Plaats van AEM en zij controleren de structuur, de blik en het gevoel van de geproduceerde output.
 
 Er is geen beperking ten aanzien van waar de middelen van het ontwerpmalplaatje op de server zouden moeten worden gevestigd, maar zij zijn gewoonlijk logisch georganiseerd volgens hun functie. In de standaardsjabloon worden bijvoorbeeld alle JavaScript- en CSS-bestanden opgeslagen in de map `/etc/designs/fmdita/clientlibs/siteoutput/default` . Waar deze bestanden zich bevinden, worden ze aan elkaar gekoppeld door een verzameling JCR-knooppunten. Samen vormen deze JCR-knooppunten en de bestanden de hele ontwerpsjabloon.
 
 Het standaardontwerpmalplaatje dat met AEM Guides wordt verscheept staat u toe om het landen, het onderwerp, en de componenten van de onderzoekspagina aan te passen. U kunt een kopie maken van het standaardontwerp en de bijbehorende verwijzingssjablonen en verschillende componenten opgeven om de gewenste uitvoer te genereren.
 
-Voer de volgende stappen uit om uw eigen ontwerpmalplaatje te specificeren voor AEM de outputproductie van de Plaats te gebruiken:
+Voer de volgende stappen uit om uw eigen ontwerpsjabloon op te geven die moet worden gebruikt voor het genereren van AEM Site-uitvoer:
 
 1. Gebruik de Manager van het Pakket om het standaardontwerpmalplaatje van de volgende plaats te downloaden:
 
@@ -117,7 +117,7 @@ Voer de volgende stappen uit om uw eigen ontwerpmalplaatje te specificeren voor 
    | `basePathProp` | De eigenschapnaam voor het opslaan van het pad van de hoofdmap van de gepubliceerde site. |
    | `indexPathProp` | De eigenschapsnaam voor het opslaan van het pad van de bestemmings-/indexpagina van de gepubliceerde site. |
    | `pdfPathProp` | De bezitsnaam voor het opslaan van de weg van onderwerpPDF, als de generatie van onderwerpPDF wordt toegelaten. |
-   | `pdfTypeProp` | De bezitsnaam voor het opslaan van het type van de generatie van PDF. Momenteel bevat deze eigenschap altijd &quot;Onderwerp&quot;. |
+   | `pdfTypeProp` | De eigenschapsnaam voor het opslaan van het type van de PDF-generatie. Momenteel bevat deze eigenschap altijd &quot;Onderwerp&quot;. |
    | `searchPathProp` | De eigenschapsnaam voor het opslaan van het pad van de zoekpagina als de sjabloon een zoekpagina bevat. |
    | `siteTitleProp` | De eigenschapsnaam voor het opslaan van de titel van de site die wordt gepubliceerd. Deze titel is meestal dezelfde als de titel van de kaart die wordt gepubliceerd. |
    | `sourcePathProp` | De bezitsnaam voor het opslaan van de weg van het bronDITA onderwerp voor de huidige pagina. |
@@ -126,27 +126,27 @@ Voer de volgende stappen uit om uw eigen ontwerpmalplaatje te specificeren voor 
 
 >[!NOTE]
 >
-> Nadat u een aangepaste ontwerpsjabloonnode hebt gemaakt, moet u de optie Ontwerpen in de voorinstellingen voor AEM site-uitvoer bijwerken om de aangepaste ontwerpsjabloonnode te kunnen gebruiken.
+> Nadat u een aangepaste ontwerpsjabloonnode hebt gemaakt, moet u de optie Ontwerpen in de uitvoervoorinstellingen van de AEM-site bijwerken om het aangepaste ontwerpsjabloonknooppunt te kunnen gebruiken.
 
 Voor meer informatie, zie [ Creërend uw eerste website van Adobe Experience Manager ](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=en) en [ de Grondbeginselen ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=en) van het ontwikkelen van uw eigen website op AEM.
 
-### Documenttitel gebruiken om AEM site-uitvoer te genereren
+### Documenttitel gebruiken om uitvoer van AEM-sites te genereren
 
-Bij het genereren van AEM site-uitvoer speelt de manier waarop URL&#39;s worden gegenereerd een belangrijke rol bij de ontdekkbaarheid van uw inhoud. Als u op UUID gebaseerde bestandsnamen gebruikt, is het genereren van URL&#39;s op basis van UUID van uw bestanden niet zoekvriendelijk. Als Beheerder of Uitgever, hebt u de controle over hoe u URLs voor uw uitvoer van de Plaats van de AEM wilt produceren. AEM Guides biedt u een configuratie waarmee u URL&#39;s van AEM Site-uitvoer kunt genereren met de bestandstitel in plaats van de op UUID gebaseerde bestandsnamen. Voor op UUID gebaseerde bestandssystemen is deze optie standaard ingeschakeld. Dit betekende dat wanneer u AEM Site-uitvoer voor op UUID gebaseerde bestandssystemen genereert, de bestandstitels worden gebruikt om de URL&#39;s te genereren en niet de UUID&#39;s van de bestanden.
+Bij het genereren van de uitvoer van de AEM-site speelt de manier waarop URL&#39;s worden gegenereerd een belangrijke rol bij de detecteerbaarheid van uw inhoud. Als u op UUID gebaseerde bestandsnamen gebruikt, is het genereren van URL&#39;s op basis van UUID van uw bestanden niet zoekvriendelijk. Als Beheerder of Uitgever, hebt u de controle over hoe u URLs voor uw uitvoer van de Plaats van AEM wilt produceren. AEM Guides biedt u een configuratie waarmee u URL&#39;s van AEM Site-uitvoer kunt genereren met de bestandstitel in plaats van de op UUID gebaseerde bestandsnamen. Voor op UUID gebaseerde bestandssystemen is deze optie standaard ingeschakeld. Dit impliceerde dat wanneer u de output van de Plaats van AEM voor op UUID-Gebaseerde dossiersystemen produceert, de titels van het dossier worden gebruikt om URLs en niet UUIDs van de dossiers te produceren.
 
 >[!NOTE]
 >
-> U kunt regels verder configureren om alleen een set tekens toe te staan in de URL&#39;s van een AEM Site-uitvoer. Voor meer details, zie [ filename ontsmettingsregels voor het creëren van onderwerpen en het publiceren AEM de output van de Plaats ](#id2164D0KD0XA) vormen.
+> U kunt regels verder configureren om alleen een set tekens toe te staan in de URL&#39;s van een AEM-site-uitvoer. Voor meer details, zie [ filename ontsmettingsregels voor het creëren van onderwerpen en het publiceren van de output van de Plaats van AEM ](#id2164D0KD0XA) vormen.
 
-Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](download-install-additional-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende \(eigenschap\)-details op om het genereren van URL&#39;s in AEM Site-uitvoer te configureren:
+Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](download-install-additional-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende \(eigenschap\)-details op om de URL&#39;s te configureren die worden gegenereerd in AEM Site-uitvoer:
 
 | PID | Eigenschappensleutel | Waarde van eigenschap |
 |---|------------|--------------|
 | `com.adobe.fmdita.config.ConfigManager` | `aemsite.pagetitle` | Boolean \(true/false\). Als u uitvoer wilt genereren met de paginatitel, stelt u deze eigenschap in op true. Standaard, wordt het geplaatst om het dossier te gebruiken - noem.<br> **Standaardwaarde**: vals |
 
-### De URL van de AEM Site-uitvoer configureren om de documenttitel te gebruiken
+### De URL van de AEM-site-uitvoer configureren om de documenttitel te gebruiken
 
-U kunt de documenttitels in URL van de output van de Plaats van de AEM gebruiken. Als de bestandsnaam niet bestaat of niet alle speciale tekens bevat, kunt u het systeem zo configureren dat de speciale tekens worden vervangen door een scheidingsteken in de URL van de AEM Site-uitvoer. U kunt het ook vormen om hen met de naam van het eerste kindonderwerp te vervangen.
+U kunt de documenttitels in URL van de output van de Plaats van AEM gebruiken. Als de bestandsnaam niet bestaat of niet alle speciale tekens bevat, kunt u het systeem zo configureren dat de speciale tekens worden vervangen door een scheidingsteken in de URL van de AEM-site-uitvoer. U kunt het ook vormen om hen met de naam van het eerste kindonderwerp te vervangen.
 
 
 Voer de volgende stappen uit om de paginanamen te configureren:
@@ -161,9 +161,9 @@ Voer de volgende stappen uit om de paginanamen te configureren:
 Als de eigenschap *@navtitle* in `<topichead>` bijvoorbeeld alle speciale tekens bevat en u de eigenschap `aemsite.pagetitle` instelt op true, wordt standaard een scheidingsteken gebruikt. Als u de eigenschap `nodename.systemDefinedPageName` instelt op true, wordt de naam van het eerste onderliggende onderwerp weergegeven.
 
 
-### Vorm filename het ontsmetten regels voor het creëren van onderwerpen en het publiceren AEM de output van de Plaats {#id2164D0KD0XA}
+### Configureer de regels voor bestandsontsmetting voor het maken van onderwerpen en het publiceren van uitvoer in AEM Sites en andere indelingen {#id2164D0KD0XA}
 
-Als beheerder kunt u een lijst definiëren met geldige speciale tekens die zijn toegestaan in bestandsnamen. Deze tekens vormen uiteindelijk de URL van een AEM Site-uitvoer. In eerdere versies mochten gebruikers bestandsnamen definiëren die speciale tekens bevatten, zoals `@` , `$` , `>` en meer. Deze speciale tekens resulteerden in gecodeerde URL bij het genereren van AEM sitepagina&#39;s.
+Als beheerder kunt u een lijst definiëren met geldige speciale tekens die zijn toegestaan in bestandsnamen. Deze tekens vormen uiteindelijk de URL van een AEM Site-uitvoer. In eerdere versies mochten gebruikers bestandsnamen definiëren die speciale tekens bevatten, zoals `@` , `$` , `>` en meer. Deze speciale tekens resulteerden in gecodeerde URL bij het genereren van AEM Site-pagina&#39;s.
 
 Vanaf de release 3.8 zijn configuraties toegevoegd om een lijst met speciale tekens te definiëren die zijn toegestaan in de bestandsnamen. Door gebrek, bevat de geldige filename configuratie &quot;`a-z A-Z 0-9 - _`&quot;. Dit houdt in dat u tijdens het maken van een bestand elk speciaal teken in de bestandstitel kunt hebben, maar dat het intern wordt vervangen door een afbreekstreepje \(`-`\) in de bestandsnaam. U kunt bijvoorbeeld de bestandstitel Introduction 1 of Introduction@1 hebben. De overeenkomstige bestandsnaam die voor beide gevallen wordt gegenereerd, is Introduction-1.
 
@@ -173,11 +173,15 @@ Wanneer u een lijst van geldige karakters bepaalt, herinner dat deze karakters &
 >
 > Als u de geldige lijst met speciale tekens niet configureert, kan het maken van bestanden onverwachte resultaten opleveren.
 
-Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](download-install-additional-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende \(eigenschap\)-details op om de geldige speciale tekens in bestandsnamen en AEM Site-uitvoer te configureren:
+Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](download-install-additional-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende \(eigenschap\) gegevens op om de geldige speciale tekens in bestandsnamen en uitvoer van AEM-site te configureren:
 
 | PID | Eigenschappensleutel | Waarde van eigenschap |
 |---|------------|--------------|
 | `com.adobe.fmdita.common.SanitizeNodeNameImpl` | `aemsite.DisallowedFileNameChars` | Controleer of de eigenschap is ingesteld op ``'<>`@$`` . U kunt meer speciale tekens aan deze lijst toevoegen. |
+
+>[!NOTE]
+> 
+> De bovenstaande configuratie geldt voor alle uitvoerindelingen. Dit betekent dat bij het genereren van een PDF-, HTML- of aangepaste uitvoer de uiteindelijke uitvoer de geconfigureerde regels voor bestandsontsmetting volgt.
 
 U kunt ook andere eigenschappen configureren, zoals kleine letters gebruiken in bestandsnamen, scheidingstekens voor het verwerken van ongeldige tekens en het maximum aantal tekens dat is toegestaan in de bestandsnamen. Om deze eigenschappen te vormen, voeg de volgende zeer belangrijke waardeparen in het configuratiedossier toe:
 
@@ -187,19 +191,19 @@ U kunt ook andere eigenschappen configureren, zoals kleine letters gebruiken in 
 | `nodename.separator` | Elk teken. <br> **Standaardwaarde**: \_ *\ (onderstrepingsteken \)* |
 | `nodename.maxlength` | Waarde van gehele getallen.<br> **Standaardwaarde**: 50 |
 
-### Samenvoegen van AEM siteknooppuntstructuur configureren
+### Samenvoegen van de structuur van AEM-siteknooppunten configureren
 
-Wanneer u AEM output van de Plaats produceert, wordt een knoop voor elk element in de onderwerpen intern gecreeerd. Voor een kaart DITA met duizenden onderwerpen, kan deze knoopstructuur te diep worden. Dit type van diep genestelde knoopstructuur kan prestatieskwesties voor grotere plaatsen hebben. De volgende momentopname toont diep genestelde knoopstructuur voor een output van de Plaats van de AEM:
+Wanneer u de output van de Plaats van AEM produceert, wordt een knoop voor elk element in de onderwerpen intern gecreeerd. Voor een kaart DITA met duizenden onderwerpen, kan deze knoopstructuur te diep worden. Dit type van diep genestelde knoopstructuur kan prestatieskwesties voor grotere plaatsen hebben. De volgende momentopname toont diep genestelde knoopstructuur voor een output van de Plaats van AEM:
 
 ![](assets/deep-nested-aem-site-node-structure.png)
 
 In de bovenstaande momentopname, merk op dat er een knoop voor elk `p` element en zijn verdere sub-elementen is gecreeerd en een gelijkaardige structuur wordt gecreeerd voor elk ander element dat in het onderwerp wordt gebruikt.
 
-AEM Guides staat u toe om te vormen hoe de de knoopstructuur van de output van de Plaats intern wordt gecreeerd. U kunt de nodestructuur bij gespecificeerde elementen afvlakken, zo betekent het dat u een element kunt bepalen dat als belangrijkste element zal worden beschouwd en alle sub-elementen binnen het zullen met het belangrijkste element worden samengevoegd. Als u bijvoorbeeld besluit het element `p` af te vlakken, worden alle elementen die in het element `p` worden weergegeven, samengevoegd met het element main `p` . Er wordt geen aparte notitie gemaakt voor een subelement binnen het element `p` . In de volgende momentopname wordt de nodestructuur afgevlakt op het element `p` weergegeven:
+Met AEM Guides kunt u configureren hoe de knooppuntstructuur van de AEM Site-uitvoer intern wordt gemaakt. U kunt de nodestructuur bij gespecificeerde elementen afvlakken, zo betekent het dat u een element kunt bepalen dat als belangrijkste element zal worden beschouwd en alle sub-elementen binnen het zullen met het belangrijkste element worden samengevoegd. Als u bijvoorbeeld besluit het element `p` af te vlakken, worden alle elementen die in het element `p` worden weergegeven, samengevoegd met het element main `p` . Er wordt geen aparte notitie gemaakt voor een subelement binnen het element `p` . In de volgende momentopname wordt de nodestructuur afgevlakt op het element `p` weergegeven:
 
 ![](assets/flattened-aem-site-node-structure.png)
 
-Voer de volgende stappen uit om de structuur van AEM siteknooppunt af te vlakken:
+Voer de volgende stappen uit om de nodestructuur van de AEM-site af te vlakken:
 
 1. Identificeer het element\(en\) waarop u de nodestructuur wilt afvlakken:
 
@@ -231,13 +235,13 @@ Voer de volgende stappen uit om de structuur van AEM siteknooppunt af te vlakken
    | `com.adobe.dxml.flattening.FlatteningConfigurationService` | `flattening.enabled` | Boolean \(true/false\).<br> **Standaardwaarde**: `false` |
 
 
-Wanneer u nu de AEM Site-uitvoer genereert, worden de knooppunten in het element `p` samengevoegd en opgeslagen in het element `p` zelf. U kunt de nieuwe afvlakkingseigenschappen voor het element `p` vinden in CRXDE.
+Wanneer u nu de AEM Site-uitvoer genereert, worden de knooppunten in het `p` -element samengevoegd en opgeslagen in het `p` -element zelf. U kunt de nieuwe afvlakkingseigenschappen voor het element `p` vinden in CRXDE.
 
 ![](assets/flatten-aem-site-note-props-crxde.png)
 
-**Onderzoek een koord binnen de inhoud in AEM output van de Plaats**
+**Onderzoek een koord binnen de inhoud in de output van de Plaats van AEM**
 
-Standaard kunt u alleen in de AEM Site-uitvoer naar een tekenreeks in de titels zoeken. U kunt het systeem configureren om te zoeken naar een tekenreeks in zowel de titels als de inhoud of de hoofdtekst van de AEM Site-uitvoer.
+Standaard kunt u alleen in de AEM Site-uitvoer naar een tekenreeks in de titels zoeken. U kunt het systeem zodanig configureren dat wordt gezocht naar een tekenreeks in zowel de titels als de inhoud of de hoofdtekst van de AEM Site-uitvoer.
 
 >[!NOTE]
 >
@@ -245,7 +249,7 @@ Standaard kunt u alleen in de AEM Site-uitvoer naar een tekenreeks in de titels 
 
 ![](assets/flatten-aem-site-note-props-crxde-search.png)
 
-Om het onderzoek toe te laten, zou u de afvlakking van AEM de knoopstructuur van de Plaats moeten vormen.
+Om het onderzoek toe te laten, zou u de afvlakking van de de knoopstructuur van de Plaats van AEM moeten vormen.
 
 VOORZIENING:
 
@@ -255,9 +259,9 @@ U kunt zoeken naar maximaal 1 MB samengevoegde inhoud. In de vorige schermafbeel
 >
 > Het onderzoek werkt op de elementen slechts als het `<flatten>` attribuut aan waar wordt geplaatst. Standaard is in AEM Guides het kenmerk `<flatten>` ingesteld op true voor veelgebruikte tekstelementen, zoals &lt;p\> &lt;ul\> &lt;lI\>. Als u echter enkele aangepaste elementen hebt gemaakt, moet u het kenmerk `<flatten>` instellen op true in het bestand elementmapping.xml.
 
-**verhindert afvlakking van de structuur van de AEM van de Plaats**
+**verhinderen afvlakking van de de knoopstructuur van de Plaats van AEM**
 
-Net als wanneer u het knooppunt opgeeft dat moet worden samengevoegd in AEM Site-uitvoer, kunt u ook een element opgeven dat u wilt uitsluiten van deze configuratie. Als u bijvoorbeeld knooppunten wilt afvlakken op het element `body` , maar geen `table` element `body` wilt afvlakken, kunt u de eigenschap exclude toevoegen binnen de definitie van het element `table` .
+Net als het opgeven van het knooppunt dat moet worden samengevoegd in de uitvoer van de AEM-site, kunt u ook een element opgeven dat u wilt uitsluiten van deze configuratie. Als u bijvoorbeeld knooppunten wilt afvlakken op het element `body` , maar geen `table` element `body` wilt afvlakken, kunt u de eigenschap exclude toevoegen binnen de definitie van het element `table` .
 
 Als u het element `table` wilt uitsluiten van afvlakking, voegt u de volgende eigenschap toe aan de definitie van het element `table` :
 
@@ -265,7 +269,7 @@ Als u het element `table` wilt uitsluiten van afvlakking, voegt u de volgende ei
 
 ### De versie voor verwijderde pagina&#39;s configureren in AEM Site-uitvoer
 
-Wanneer u AEM output van de Plaats met **schrapping produceert en** creeert ****optie die voor het Bestaande plaatsen van de Pagina&#39;s van de Output wordt geselecteerd, wordt een versie gecreeerd voor pagina \(s \) die worden geschrapt. U kunt het systeem vormen om de verwezenlijking van een versie vóór schrapping tegen te houden.
+Wanneer u de output van de Plaats van AEM met **schrapping en** creeert ****optie die voor het Bestaande plaatsen van de Pagina&#39;s van de Output wordt geselecteerd, wordt een versie gecreeerd voor pagina \(s \) die worden geschrapt. U kunt het systeem vormen om de verwezenlijking van een versie vóór schrapping tegen te houden.
 
 Voer de volgende stappen uit om te stoppen met het maken van een versie voor de pagina\(s\) die wordt verwijderd:
 
@@ -386,7 +390,7 @@ Voor het valideren van de metagegevenswaarden die aan de DITA-OT worden doorgege
 
   Toegang krijgen tot metadata.xml:
 
-   - Meld u aan bij de serverlocatie waar AEM instantie wordt uitgevoerd.
+   - Meld u aan bij de serverlocatie waar de AEM-instantie wordt uitgevoerd.
    - Migreren naar crx-quickstart/profiles/ditamaps/&lt;recent-created-directory-name\>/metadata.xml.
 - Voorbeeld van bestandsindeling:
 
@@ -420,15 +424,31 @@ Voor het valideren van de metagegevenswaarden die aan de DITA-OT worden doorgege
 >
 > Als het bestand geen specifieke metagegevens bevat, wordt &lt;meta\>-tag met de sleutel niet weergegeven als eigenschap voor dat bestand in het bestand metadata.xml.
 
-## DITA-elementtoewijzing aanpassen met AEM componenten {#id1679J600HEL}
+## Vorm het DITA-OT gebied van de bevellijn argument om wortelkaartmeta-gegevens goed te keuren
 
-DITA-elementen in de AEM Guides worden toegewezen aan de bijbehorende AEM. AEM Guides gebruikt deze toewijzing in workflows, zoals publiceren en reviseren, om DITA-elementen om te zetten in een overeenkomende AEM. De toewijzing wordt gedefinieerd in het `elementmapping.xml` -bestand, dat kan worden geopend met pakketbeheer.
+Voer de volgende stappen uit om het argumentveld voor de opdrachtregel DITA-OT te gebruiken om metagegevens voor hoofdmapmappen door te geven:
+
+1. Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](download-install-additional-config-override.md#) om het configuratiedossier tot stand te brengen.
+1. In het configuratiedossier, verstrek de volgende \(bezit \) details om het DITA-OT gebied van het bevellijn argument in Vooraf ingesteld te vormen:
+
+| PID | Eigenschappensleutel | Waarde van eigenschap |
+|---|------------|--------------|
+| `com.adobe.fmdita.config.ConfigManager` | `pass.metadata.args.cmd.line` | Boolean\(`true/false`\).**Standaardwaarde**: `true` |
+
+- Het plaatsen van de bezitswaarde aan **waar** laat de DITA-OT functionaliteit van de bevellijn toe, toestaand u om de meta-gegevens door DITA-OT bevellijn over te gaan.
+- Het plaatsen van de bezitswaarde aan **vals** maakt de DITA-OT functionaliteit van de bevellijn onbruikbaar. Vervolgens kunt u het veld Eigenschappen in de voorinstelling gebruiken om de metagegevens door te geven.
+
+
+
+## DITA-elementtoewijzing aanpassen met AEM-componenten {#id1679J600HEL}
+
+DITA-elementen in de AEM Guides worden toegewezen aan hun overeenkomstige AEM-componenten. AEM Guides gebruikt deze toewijzing in workflows, zoals publiceren en reviseren, om DITA-elementen om te zetten in een corresponderende AEM-component. De toewijzing wordt gedefinieerd in het `elementmapping.xml` -bestand, dat kan worden geopend met pakketbeheer.
 
 >[!NOTE]
 >
 > Breng geen aanpassingen aan in de standaardconfiguratiebestanden in het knooppunt ``libs`` . U moet een overlay van het knooppunt ``libs`` in het knooppunt ``apps`` maken en de vereiste bestanden alleen in het knooppunt ``apps`` bijwerken.
 
-U kunt de vooraf bepaalde elementen gebruiken DITA, of u kunt elementen DITA aan uw douane AEM componenten in kaart brengen. Als u uw aangepaste AEM wilt gebruiken, moet u de structuur van het `elementmapping.xml` -bestand begrijpen.
+U kunt de vooraf gedefinieerde DITA-elementtoewijzingen gebruiken of u kunt DITA-elementen toewijzen aan uw aangepaste AEM-componenten. Als u uw aangepaste AEM-componenten wilt gebruiken, moet u de structuur van het `elementmapping.xml` -bestand begrijpen.
 
 ### elementmapping.xml-structuur
 
@@ -573,9 +593,9 @@ De volgende lijst beschrijft de elementen in het DITA elementenschema:
 |-------|-----------|
 | `<ditaelement>` | The top-level node for each mapping element. |
 | `<class>` | Het klassenkenmerk van het doel-DITA-element waarvoor u de component schrijft.<br> Het klassenkenmerk voor het DITA-onderwerp is bijvoorbeeld: <br> `- topic/topic` |
-| `<componentpath>` | Het CRXDE-pad van de toegewezen AEM. |
+| `<componentpath>` | Het CRXDE-pad van de toegewezen AEM-component. |
 | `<type>` | Mogelijke waarden:<br> -   **COMPOSITE**: Proces de kindelementen eveneens <br> -   **STANDALONE**: Overslaat verwerking van kindelementen |
-| `<attributeprop>` | Gebruikt voor afbeelding in series vervaardigde attributen DITA en waarden aan AEM knopen als bezit. Als u bijvoorbeeld `<note type="Caution">` -element hebt en de component die voor dit element is toegewezen, `<attributeprop>attr_t</ attributeprop>` heeft, worden het kenmerk en de waarde van het knooppunt geserialiseerd naar de eigenschap `attr_t` van het corresponderende AEM knooppunt \( `attr_t->type="caution"`\). |
+| `<attributeprop>` | Wordt gebruikt voor het toewijzen van geserialiseerde DITA-kenmerken en -waarden aan AEM-knooppunten als eigenschap. Als u bijvoorbeeld `<note type="Caution">` -element hebt en de component die voor dit element is toegewezen, `<attributeprop>attr_t</ attributeprop>` heeft, worden het kenmerk en de waarde van het knooppunt geserialiseerd naar de eigenschap `attr_t` van het corresponderende AEM-knooppunt \( `attr_t->type="caution"`\). |
 | `<textprop>propname_t</textprop>` | De uitvoer van `getTextContent()` opslaan naar de eigenschap die wordt gedefinieerd door `propname_t.` <br> **Nota:** dit is een geoptimaliseerd bezit. |
 | `<xmlprop>propname_x </xmlprop>` | Sparen geserialiseerde XML van deze knoop aan bezit dat door `propname_x.<br> `**wordt bepaald Nota:** Dit is een geoptimaliseerd bezit. |
 | `<xpath>` | Als het element van XPath in de elementenafbeelding wordt verstrekt, dan samen met elementnaam en klasse zou de voorwaarde van XPath ook voor de componentenafbeelding moeten worden voldaan om te worden gebruikt. |
@@ -583,13 +603,13 @@ De volgende lijst beschrijft de elementen in het DITA elementenschema:
 | `<wrapelement>` | Het HTML-element waarin de inhoud moet worden verpakt. |
 | `<wrapclass>` | De elementwaarde voor de eigenschap `wrapclass.` |
 | `<attributemap>` | Containerknooppunt met een of meer `<attribute>` knooppunten. |
-| `<attribute from="attrname" to="propname" ispath="true|false" rel="source|target" />` | Wijst de DITA-kenmerken toe aan AEM eigenschappen: <br> -   **`from`**: DITA-kenmerknaam <br> -   **`to`**: naam AEM componenteigenschap <br> -   **`ispath`**: Als het attribuut een wegwaarde \ is (bijvoorbeeld: *beeld* \) <br> -   **`rel`**: als het pad de bron of het doel is <br> **Nota:** als `attrname` met `%` begint, dan kaart `attrname minus '%'` aan steun &#39; `propname`&#39;. |
+| `<attribute from="attrname" to="propname" ispath="true|false" rel="source|target" />` | Wijst de DITA-kenmerken toe aan AEM-eigenschappen: <br> -   **`from`**: DITA-kenmerknaam <br> -   **`to`**: AEM-componenteigenschap name <br> -   **`ispath`**: Als het attribuut een wegwaarde \ is (bijvoorbeeld: *beeld* \) <br> -   **`rel`**: als het pad de bron of het doel is <br> **Nota:** als `attrname` met `%` begint, dan kaart `attrname minus '%'` aan steun &#39; `propname`&#39;. |
 
 **Extra nota&#39;s**
 
 - Als u de standaardelement-toewijzing wilt overschrijven, wordt u aangeraden de wijzigingen in het standaard `elementmapping.xml` -bestand niet aan te brengen. Maak een nieuw XML-toewijzingsbestand en plaats het bestand op een andere locatie, bij voorkeur in de aangepaste map voor apps die u maakt.
 
-- In het `elementmapping.xml` -bestand zijn er veel toewijzingsitems die verwijzen naar de component fmdita/components/dita/wrapper. Wrapper is een generische component die relatief eenvoudige constructies DITA gebruikend eigenschappen op hun plaatsknoop teruggeeft om relevante HTML te produceren. De eigenschap `wrapelement` wordt gebruikt om omsluitende tags te genereren en de onderliggende rendering wordt gedelegeerd aan de corresponderende componenten. Dit is handig wanneer u alleen een containercomponent wilt. In plaats van een nieuwe component te maken die een specifieke containertag zoals `div` of `p` rendert, kunt u de component Wrapper met de eigenschappen `wrapelement` en `wrapclass` gebruiken om hetzelfde effect te bereiken.
+- In het `elementmapping.xml` -bestand zijn er veel toewijzingsitems die verwijzen naar de component fmdita/components/dita/wrapper. Wrapper is een generische component die relatief eenvoudige concepten DITA gebruikend eigenschappen op hun plaatsknoop teruggeeft om relevante HTML te produceren. De eigenschap `wrapelement` wordt gebruikt om omsluitende tags te genereren en de onderliggende rendering wordt gedelegeerd aan de corresponderende componenten. Dit is handig wanneer u alleen een containercomponent wilt. In plaats van een nieuwe component te maken die een specifieke containertag zoals `div` of `p` rendert, kunt u de component Wrapper met de eigenschappen `wrapelement` en `wrapclass` gebruiken om hetzelfde effect te bereiken.
 
 - Het wordt niet aanbevolen grote hoeveelheden tekst op te slaan in JCR-eigenschappen van String. De geoptimaliseerde berekening van het eigenschapstype bij het genereren van de uitvoer zorgt ervoor dat grote tekstinhoud niet wordt opgeslagen als tekenreekstype. In plaats daarvan, wanneer de inhoud groter dan een bepaalde drempel moet worden bewaard, wordt het type van het bezit veranderd in binair. Door gebrek, wordt deze drempel gevormd aan 512 bytes, maar kan in de Manager van de Configuratie \ (*worden veranderd com.adobe.fmdita.config.ConfigManager* \) door **te veranderen sparen als Binaire Drempel** het plaatsen.
 
@@ -610,11 +630,11 @@ AEM Guides biedt de categorie `apps.fmdita.dashboard-extn` voor het aanpassen va
 
 >[!NOTE]
 >
-> Voor meer informatie over het creëren van AEM Bibliotheek van de Cliënt, zie [ Gebruikend cliënt-Kant Bibliotheken ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=en).
+> Voor meer informatie over het creëren van de Bibliotheek van de Cliënt van AEM, zie [ Gebruikend cliënt-Kant Bibliotheken ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=en).
 
 ## Afbeeldingsuitvoering afhandelen tijdens het genereren van de uitvoer {#id177BF0G0VY4}
 
-AEM wordt geleverd met een set standaardworkflows en mediapandgrepen om elementen te verwerken. In AEM zijn er vooraf gedefinieerde workflows voor het verwerken van elementen voor de meest gangbare MIME-typen. Doorgaans worden voor elke afbeelding die u uploadt, AEM meerdere uitvoeringen van hetzelfde resultaat gemaakt in binaire indeling. Deze vertoningen kunnen van verschillende grootte, met een verschillende resolutie, met een toegevoegd watermerk, of één of andere andere veranderde eigenschap zijn. Voor meer informatie over hoe AEM activa behandelt, zie [ Assets die de Handlers en de Werkschema&#39;s van Media van de Verwerking gebruikt ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=en) in AEM documentatie.
+AEM wordt geleverd met een set standaardworkflows en mediapandgrepen voor het verwerken van middelen. In AEM zijn er vooraf gedefinieerde workflows voor het verwerken van elementen voor de meest gangbare MIME-typen. Doorgaans maakt AEM voor elke afbeelding die u uploadt, meerdere uitvoeringen van dezelfde indeling in binaire indeling. Deze vertoningen kunnen van verschillende grootte, met een verschillende resolutie, met een toegevoegd watermerk, of één of andere andere veranderde eigenschap zijn. Voor meer informatie over hoe AEM activa behandelt, zie [ Assets die de Handlers en de Werkschema&#39;s van Media van de Verwerking gebruikt ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=en) in de documentatie van AEM.
 
 Met AEM Guides kunt u configureren welke afbeeldingsuitvoering moet worden gebruikt wanneer uitvoer voor uw documenten wordt gegenereerd. U kunt bijvoorbeeld kiezen uit een van de standaardafbeeldingsuitvoeringen of een uitvoering maken en hetzelfde gebruiken om uw documenten te publiceren. Toewijzing van afbeeldingsuitvoering voor het publiceren van uw documenten wordt opgeslagen in het `/libs/fmdita/config/ **renditionmap.xml**` -bestand. Een fragment van het bestand `renditionmap.xml` ziet er als volgt uit:
 
@@ -682,3 +702,4 @@ Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configur
 >[!TIP]
 >
 > Zie de *de geschiedenissectie van de Output* in de gids van Beste praktijken voor beste praktijken rond het werken met outputgeschiedenis.
+

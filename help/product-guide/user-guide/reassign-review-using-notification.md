@@ -4,9 +4,9 @@ description: Wijs een overzichtstaak opnieuw toe met behulp van berichten in AEM
 exl-id: 6cd01564-aa26-4773-9c95-9dc519706f27
 feature: Reviewing
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
@@ -38,4 +38,4 @@ Zodra de overzichtstaak wordt opnieuw toegewezen, toont de kolom van de Toewijzi
 
 De toegewezen controleur ontvangt een bericht in Inbox voor de opnieuw toegewezen overzichtstaak.
 
-**Bovenliggend onderwerp:**[ onderwerpen of kaarten van het Overzicht ](review.md)
+**Bovenliggend onderwerp:**[ Inleiding aan overzicht ](review.md)

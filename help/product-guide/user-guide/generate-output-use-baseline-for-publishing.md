@@ -4,67 +4,56 @@ description: Weet het gebruik van Baselines in AEM Guides. Leer hoe u vertaalde 
 exl-id: 0554947f-3038-4fd2-8a62-ac0d4b858e94
 feature: Publishing
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
 workflow-type: tm+mt
-source-wordcount: '1960'
+source-wordcount: '1790'
 ht-degree: 0%
 
 ---
 
-# Werken met basislijn {#id1825FI0J0PF}
+# Werken met basislijn vanaf het dashboard Kaart {#id1825FI0J0PF}
 
-Met de functie Basislijn kunt u een versie van uw onderwerpen en elementen maken die u vervolgens kunt gebruiken voor publiceren of omzetten. Als uw DITA-kaart bijvoorbeeld `topicA` en `imageA` heeft, kunt u een basislijn maken voor de derde versie van `topicA` , maar de vierde versie van `ImageA` . Als u eenmaal een basislijn hebt ingesteld, kunt u met één klik onderwerpen van verschillende versies publiceren of vertalen.
-
-Het selecteren van een Basislijn is facultatief voor output vooraf instelt en een kaart DITA kan meer dan één Basislijn hebben. Elke uitvoervoorinstelling in een DITA-kaart kan echter maar aan één basislijn worden gekoppeld. Als er geen basislijn is opgegeven op het moment van publicatie, wordt de uitvoer gepubliceerd met de meest recente versie van de inhoud.
-
-Op dezelfde manier is het optioneel om een basislijn te selecteren voor het vertalen van inhoud. Als u inhoud echter wilt vertalen met een basislijn, wordt de inhoud van de basislijn samen met de vertaalde kopieën opgeslagen. Vervolgens kunt u de vertaalde basislijn gebruiken om verdere bewerkingen uit te voeren, zoals deze delen met externe uitgevers of archiveren. Voor meer informatie over het uitvoeren van een vertaalde Basislijn, zie [ Vertaalde Basislijn van de Uitvoer ](#id196SE600GHS).
+Experience Manager Guides biedt de functie Basislijn waarmee gebruikers basislijnen kunnen maken en met deze functies onderwerpen van verschillende versies kunnen publiceren of vertalen. Ze kunnen ook meerdere uitvoervoorinstellingen van dezelfde DITA-kaart tegelijk publiceren.
 
 >[!TIP]
 >
-> Zie de *sectie van de Basislijn* in de Beste praktijken gids voor beste praktijken rond het werken met Basislijnen.
+> Bekijk de *sectie van de Basislijn* in de Beste praktijken gids voor beste praktijken rond het werken met Basislijnen.
 
-Uw beheerder kan het lusje van de Basislijn op het kaartdashboard vormen. Voor meer details, zie *Basislijnlusje op het dashboard van de kaart DITA* sectie in de Gids van de Installatie en van de Configuratie vormen.
+Uw beheerder kan het lusje van de Basislijn op het kaartdashboard vormen. Voor meer details, vormt de mening *Basislijnlusje op het dashboard van de kaart DITA* sectie in de Gids van de Installatie en van de Configuratie.
 
-U kunt de functie Basislijn openen door de volgende stappen uit te voeren:
+In het **lusje van Basislijnen**, kunt u de volgende acties uitvoeren:
 
-1. Navigeer in de gebruikersinterface van Assets naar het DITA-kaartbestand en klik erop.
-1. Ga naar **Basislijnen** tabel.
+- [Een basislijn maken](#create-a-baseline)
+- [Inhoud van een basislijn weergeven](#view-contents-of-a-baseline)
+- [Basislijnen bewerken, dupliceren of verwijderen](#edit-duplicate-or-remove-baselines)
+- [Labels toevoegen aan een basislijn](#add-labels-to-a-baseline)
 
-Op het tabblad Basislijnen kunt u de volgende handelingen uitvoeren:
-
-- [Een basislijn maken](#id195FI0I0MUQ)
-- [Inhoud van een basislijn weergeven](#id195FI0I0TLN)
-- [Basislijnen bewerken, dupliceren of verwijderen](#id195FI0I0YJL)
-- [Labels toevoegen aan een basislijn](#id184KD0T305Z)
-
-## Een basislijn maken {#id195FI0I0MUQ}
+## Een basislijn maken
 
 U kunt een Basislijn met een specifieke versie van de onderwerpen en van verwijzingen voorzien inhoud tot stand brengen beschikbaar op een specifieke datum en een tijd, of met een etiket dat voor een versie van onderwerpen wordt bepaald. U kunt de versies van geselecteerde onderwerpen individueel specificeren in een Basislijn zodat elke keer u de Basislijn in publiceert of vertaalwerkschema toepast, de geselecteerde onderwerpen en hun overeenkomstige versies inbegrepen voor outputgeneratie of vertaling zijn.
 
 Voer de volgende stappen uit om een basislijn te maken:
 
-1. Voor de pagina van Basislijnen, leidt de klik **** tot.
-1. Ga een naam voor de Basislijn in **Naam van de Basislijn** in.
-   ![ creeer een basislijn ](images/create-baseline.png){width="800" align="left"}
-1. In **plaats de Versie die op** wordt gebaseerd, selecteer één van de volgende opties:
+1. Open een DITA kaartdossier in Assets UI en navigeer aan de **Basislijnen** pagina.
+2. Selecteer **creeer** op top-left.
+3. Op de pagina van de Basislijn, ga een naam voor de Basislijn op het **gebied van de Naam van de 1} Basislijn 0} in.**
+
+   ![](images/create-baseline-assets-ui.png){width="300" align="left"}
+
+4. In **plaats de versie die op** wordt gebaseerd, selecteer één van de volgende opties:
 
    - **Etiket**: Selecteer deze optie om de onderwerpen volgens het etiket te kiezen dat op hen wordt toegepast. Voer een label in om de lijst te filteren op basis van de ingevoerde tekenreeks. In de uitgefilterde lijst kunt u een label kiezen om onderwerpen en andere elementen met het opgegeven label te selecteren.
 
-   Wanneer u **Etiket** selecteert, wordt u ook een extra optie gegeven om de recentste versie van onderwerpen te gebruiken die niet het gespecificeerde etiket hebben dat op hen wordt toegepast. Als u deze optie niet selecteert en er een onderwerp- of mediabestand is dat niet het opgegeven label heeft, mislukt het proces voor het maken van de basislijn. Voor meer informatie over het toevoegen van etiketten, zie {de etiketten van het 0} Gebruik ](web-editor-use-label.md#).[
+     Wanneer u Label selecteert, krijgt u ook een extra optie om de nieuwste versie van onderwerpen te gebruiken waarop het opgegeven label niet is toegepast. Als u deze optie niet selecteert en er een onderwerp- of mediabestand is dat niet het opgegeven label heeft, mislukt het proces voor het maken van de basislijn. Voor meer informatie over het toevoegen van etiketten, bekijk de etiketten van het Gebruik.
 
-   - **Versie op** &lt; *tijdstempel* \>: Past de versie van onderwerpen zoals op de gespecificeerde datum en de tijd. De tijd die u hier opgeeft, komt overeen met de tijdzone van uw AEM server. Als uw server bij een verschillende timezone is, dan zullen de onderwerpen volgens timezone van uw server en niet uw lokale timezone worden opgepikt.
+   - **Versie op**: Kies de versie van de onderwerpen zoals op de gespecificeerde datum en de tijd. De tijd die u hier opgeeft, komt overeen met de tijdzone van uw Adobe Experience Manager-server. Als uw server bij een verschillende timezone is, dan zullen de onderwerpen volgens timezone van uw server en niet uw lokale timezone worden opgepikt.
 
-   Nadat u een label of versie hebt geselecteerd als op datum, worden alle onderwerpen waarnaar wordt verwezen en mediabestanden in de kaart dienovereenkomstig geselecteerd. Deze selectie van onderwerpen wordt niet getoond op het gebruikersinterface, maar het wordt bewaard in het achterste eind.
+     Nadat u een label of versie hebt geselecteerd als op datum, worden alle onderwerpen waarnaar wordt verwezen en mediabestanden in de kaart dienovereenkomstig geselecteerd. Deze selectie van onderwerpen wordt niet getoond op het gebruikersinterface, maar het wordt bewaard in het achterste eind.
+5. Selecteer **sparen**.
 
-   >[!NOTE]
-   >
-   >Het wordt geadviseerd niet **te gebruiken doorbladert Alle Onderwerpen** verbinding wanneer het creëren van een basislijn.
+## Inhoud van een basislijn weergeven
 
-1. Klik **sparen**.
-
-## Inhoud van een basislijn weergeven {#id195FI0I0TLN}
-
-U kunt de inhoud van een bestaande basislijn bekijken door op het tabblad Basislijnen te klikken en de gewenste basislijnversie in de lijst te selecteren. De basislijnpagina is verdeeld in drie delen - DITA kaartdossier, de inhoud van de kaart of onderwerpen, en de referenced inhoud. Als uw kaart submaps bevat, dan worden de onderwerpen van sub-kaart van verwijzingen voorzien ook getoond in de sectie van de Inhoud. De verschillende kolommen op de basislijnpagina worden hieronder beschreven:
+U kunt de inhoud van een bestaande basislijn bekijken door het lusje van de Basislijn te selecteren en de gewenste versie van de Basislijn van de lijst te selecteren. De basislijnpagina is verdeeld in drie delen - DITA kaartdossier, de inhoud van de kaart of onderwerpen, en de referenced inhoud. Als uw kaart submaps bevat, dan worden de onderwerpen van sub-kaart van verwijzingen voorzien ook getoond in de sectie van de Inhoud. De verschillende kolommen op de basislijnpagina worden hieronder beschreven:
 
 - **Naam**: Maakt een lijst van de kaart DITA of de titel van het onderwerp of de naam van de activa, zoals het dossier - naam van een beeld.
 
@@ -82,25 +71,25 @@ U kunt de inhoud van een bestaande basislijn bekijken door op het tabblad Basisl
 
 - **Verwezen door**: Deze kolom is beschikbaar voor de referenced slechts inhoud. Het wijst op het ouderonderwerp van de referenced activa. Als een activa door veelvoudige onderwerpen wordt bedoeld, dan worden de onderwerpen gescheiden door koma&#39;s.
 
-## Basislijnen bewerken, dupliceren of verwijderen {#id195FI0I0YJL}
+## Basislijnen bewerken, dupliceren of verwijderen
 
 **geef Basislijnen** uit
 
 Voer de volgende stappen uit om een bestaande basislijn te bewerken:
 
-1. Selecteer de Basislijn en klik **uitgeven**.
+1. Selecteer de Basislijn en selecteer **uitgeven**.
 1. Breng de vereiste wijzigingen aan in de basislijn. U kunt de naam en versie van het onderwerp of inhoud waarnaar wordt verwezen, wijzigen.
-1. Als u een verschillende versie voor één of meerdere onderwerpen wilt gebruiken, dan kunt u dit doen door die onderwerpen manueel te selecteren. Klik **doorbladeren Onderwerp**, selecteer het onderwerp waarvoor u een verschillende versie wilt gebruiken. Van Uitgezocht een drop-down lijst van de Versie voor het geselecteerde onderwerp, selecteer een versie van het onderwerp dat u in de basislijn wilt gebruiken en **O.K.** klikken.
+1. Als u een verschillende versie voor één of meerdere onderwerpen wilt gebruiken, dan kunt u dit doen door die onderwerpen manueel te selecteren. Selecteer **doorbladert Onderwerp**, selecteer het onderwerp waarvoor u een verschillende versie wilt gebruiken. Van Uitgezocht een drop-down lijst van de Versie voor het geselecteerde onderwerp, selecteer een versie van het onderwerp dat u in de basislijn wilt gebruiken en **O.K.** selecteren.
 
    ![](images/baseline-select-version-drop-down.png){width="800" align="left"}
 
    De informatie over het onderwerp en het is geselecteerde versie wordt opgeslagen in het achterste deel. U kunt deze stap herhalen om de geselecteerde versie voor veelvoudige onderwerpen te veranderen.
 
-1. Om alle onderwerpen en media dossiers te laden die van de kaart worden doorverwezen DITA, klik **doorbladert Alle Onderwerpen** verbinding. De UUID van onderwerpen en mediabestanden wordt ook weergegeven onder de titel van het onderwerp of de bestandsnaam \(media\).
+1. Om alle onderwerpen en media dossiers te laden die van de kaart worden doorverwezen DITA, selecteer **doorbladeren Alle Onderwerpen** verbinding. De UUID van onderwerpen en mediabestanden wordt ook weergegeven onder de titel van het onderwerp of de bestandsnaam \(media\).
 
    >[!NOTE]
    >
-   > Als u een zeer grote reeks dossiers in uw kaart DITA, met genestelde kaarten en onderwerpen hebt, dan zou het klikken doorbladeren Alle Onderwerpen wat tijd kunnen vergen om alle dossiers te laden.
+   > Als u een zeer grote reeks dossiers in uw kaart DITA, met genestelde kaarten en onderwerpen hebt, dan het selecteren doorbladert Alle Onderwerpen kon wat tijd vergen om alle dossiers te laden.
 
    De inhoud van de kaart wordt in de drie secties weergegeven: het kaartbestand, de inhoud \(onderwerpverwijzingen\) en de Verwezen inhoud \(geneste onderwerpen, kaarten en andere elementen\). Zodra u alle referenced inhoud beschikbaar hebt, kunt u de versie van het onderwerp individueel selecteren die u in uw basislijn wilt gebruiken.
 
@@ -115,19 +104,19 @@ Voer de volgende stappen uit om een bestaande basislijn te bewerken:
    >[!NOTE]
    >
    > Als u een verschillende versie voor om het even welk bepaald middel wilt specificeren, kunt u dit doen door de gewenste versie van de **drop-down lijst van de Versie** te kiezen.
-1. Klik **sparen**.
+1. Selecteer **sparen**.
 
 **Dupliceer Baselines**
 
-Selecteer de Basislijn en klik **Dupliceer** om een exemplaar van een bestaande Basislijn tot stand te brengen. Specificeer een verschillende naam voor de basislijn en kies het versieaantal voor de onderwerpen en van verwijzingen voorzien inhoud en klik **sparen**.
+Selecteer de Basislijn en selecteer **Dupliceer** om een exemplaar van een bestaande Basislijn tot stand te brengen. Specificeer een verschillende naam voor de basislijn en kies het versieaantal voor de onderwerpen en referenced inhoud en selecteer **sparen**.
 
 **verwijdert Baselines**
 
-Selecteer de versie van Basislijnen en klik **verwijderen** om een Basislijn te verwijderen.
+Selecteer de versie van Basislijnen en selecteer **verwijderen** om een Basislijn te verwijderen.
 
-## Labels toevoegen aan een basislijn {#id184KD0T305Z}
+## Labels toevoegen aan een basislijn
 
-Het toevoegen van labels aan elk onderwerp kan tijdrovend zijn. AEM Guides verstrekt een enig-klikmechanisme om etiketten aan veelvoudige onderwerpen en van verwijzingen voorzien inhoud in een kaart toe te voegen DITA.
+Het toevoegen van labels aan elk onderwerp kan tijdrovend zijn. Experience Manager Guides verstrekt een enig-klikmechanisme om etiketten aan veelvoudige onderwerpen en van verwijzingen voorzien inhoud in een kaart toe te voegen DITA.
 
 Voer de volgende stappen uit om een etiket aan veelvoudige onderwerpen en referenced inhoud in een kaart toe te voegen DITA:
 
@@ -137,7 +126,7 @@ Voer de volgende stappen uit om een etiket aan veelvoudige onderwerpen en refere
    >
    > Zorg ervoor dat uw basislijn niet de recentste versie van om het even welk onderwerp of activa heeft. Een label kan alleen worden toegevoegd aan een onderwerp of element met versiebeheer.
 
-1. Klik **toevoegen Etiketten**.
+1. Selecteer **toevoegen Etiketten**.
 
    ![](images/add-label-baseline-uuid.png){width="800" align="left"}
 
@@ -145,15 +134,15 @@ Voer de volgende stappen uit om een etiket aan veelvoudige onderwerpen en refere
 
    Als uw beheerder vooraf bepaalde etiketten heeft gevormd, dan wordt u getoond die etiketten in een drop-down lijst. U moet een label in de lijst kiezen.
 
-1. Als u het etiket op onderwerpen wilt toepassen die van sub-maps van verwijzingen worden voorzien, dan uitgezocht **Nieuw Etiket op Knipkaarten en Afhankelijke** optie.
+1. Als u het etiket op onderwerpen wilt toepassen die van sub-maps van verwijzingen worden voorzien, dan uitgezocht **is etiket op kindkaarten en hun afstammelingen** optie van toepassing.
 
-   - Klik **toevoegen**.
+   - Selecteer **toevoegen**.
 Het gespecificeerde etiket wordt toegevoegd aan de kaart DITA en de referenced onderwerpen en inhoud.
 
      ![](images/label-added-baseline-uuid.png){width="650" align="left"}
 
 
-## Vertaalde basislijn exporteren {#id196SE600GHS}
+## Vertaalde basislijn exporteren
 
 U kunt Basislijn gebruiken voor het vertalen van inhoud. U kunt bijvoorbeeld een basislijn voor versie 1.1 maken die klaar is voor vertaling in het Frans. Op het tabblad Vertaling moet u de basislijn gebruiken om uw inhoud te filteren en vervolgens de basislijn voor versie 1.1 van uw inhoud selecteren. Door basislijn te gebruiken voor het vertalen van inhoud, kunt u de inhoud eenvoudiger beheren.
 
@@ -169,17 +158,17 @@ Voer de volgende stappen uit om een vertaalde basislijn te exporteren:
 
 1. In het **Vertaal** lusje, breid de **optie van de Basislijn** beschikbaar in het linkerspoor uit.
 
-   ![](images/export-baseline.png){width="800" align="left"}
+   ![](images/export-baseline-new.png){width="800" align="left"}
 
 1. Selecteer de **optie van de Basislijn van het Gebruik** en kies de Basislijn die u wilt uitvoeren.
 
-1. Klik **de Basislijn van de Uitvoer**.
+1. Selecteer **Basislijn van de Uitvoer**.
 
    De exportstatus wordt weergegeven. Als het proces succesvol is, dan wordt u getoond een bericht die de taal noemen waarvoor de Basislijn wordt uitgevoerd. In het geval van een fout, wordt de oorzaak van mislukking getoond.
 
    Als u de basislijn probeert te exporteren die al is geëxporteerd, wordt ook het foutbericht voor het maken van de basislijn weergegeven.
 
-1. \ (Facultatief \) om een Basislijn uit te voeren die reeds wordt uitgevoerd, uitgezocht **Overschrijf Bestaande Basislijn** en klik dan **de Basislijn van de Uitvoer**.
+1. \ (Facultatief \) om een Basislijn uit te voeren die reeds wordt uitgevoerd, uitgezocht **Overschrijf Bestaande Basislijn** en selecteer dan **Basislijn van de Uitvoer**.
 
 
 **Bovenliggend onderwerp:**[ Productie van de Output ](generate-output.md)

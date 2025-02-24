@@ -1,19 +1,19 @@
 ---
-title: Sneltoetsen in de webeditor
+title: Sneltoetsen in de Editor
 description: Ontdek tijdbesparende sneltoetsen in de webeditor van AEM Guides.
 exl-id: d843c5a9-04f8-44f2-9bf5-60cb4ed7fa38
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 33da473cfa8c654a5413f9d8cbe9c43acaf65766
+source-git-commit: e5f4dc964a31d3bc23db166ee391e5e3550d8cbc
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
 
-# Sneltoetsen in de webeditor {#id2056B0A0WHT}
+# Sneltoetsen in de Editor {#id2056B0A0WHT}
 
-Er zijn vele verrichtingen in de Redacteur van het Web die u het gebruiken van de toetsenbordkortere weg kunt uitvoeren. In de volgende tabel worden deze sneltoetsen weergegeven:
+In de Editor kunt u veel bewerkingen uitvoeren met behulp van sneltoetsen. In de volgende tabel worden deze sneltoetsen weergegeven:
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ Er zijn vele verrichtingen in de Redacteur van het Web die u het gebruiken van d
 | Focus op de huidige editor | **CTRL** *+ **Verschuiving** + ***0*** | ***Bevel*** + **Verschuiving** + ***0*** |
 | Document opslaan in de weergave Auteur of Source | ***CTRL*** + **Verschuiving** + ***S*** | ***Bevel*** + **Verschuiving**+ ***S*** |
 | Alle geopende documenten opslaan in de weergave Auteur of Source | ***CTRL*** + ***S*** | ***Bevel*** + ***S*** |
-| Dialoogvenster Invoegelement tonen | ***Alt*** + ***gaat*** binnen | ***Optie*** + ***gaat*** binnen |
+| Dialoogvenster Invoegelement tonen | ***Alt*** + ***1*** | ***Optie*** + ***gaat*** binnen |
 | Dialoogvenster Element invoegen weergeven om het element in te voegen vóór het geselecteerde element | ***Alt*** + ***Verschuiving*** + ***gaat*** binnen | ***Optie*** + ***Verschuiving*** + ***gaat*** binnen |
 | De cursor één woord naar links verplaatsen. | ***CTRL*** + ***Linkerpijl*** | ***Optie*** + ***Linkerpijl*** |
 | De cursor één woord naar rechts verplaatsen. | ***CTRL*** + ***Juiste Pijl*** | ***Optie*** + ***Juiste Pijl*** |

@@ -4,9 +4,9 @@ description: Leer hoe u voorwaardelijke kenmerken maakt in AEM Guides. Gebruik v
 exl-id: 5ec7666e-df6b-4b0d-b6c2-cdc395fcccc5
 feature: Publishing
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Op bedrijfsniveau is het uiterst belangrijk om ervoor te zorgen dat u een standaardcoderingssysteem hebt. Tags of voorwaardelijke kenmerken kunnen worden gekoppeld aan digitale elementen in de opslagplaats, wat helpt bij het publiceren van de uitvoer op basis van de gekozen voorwaarden. U kunt bijvoorbeeld een voorwaardelijk kenmerk maken voor Windows- en Mac-inhoud. Dan, voegt u deze attributen aan de relevante inhoud in uw onderwerpen toe. Op het moment van het publiceren van inhoud kunt u kiezen of u alleen Windows- of Mac-inhoud wilt publiceren.
 
-Met AEM Guides kunt u eenvoudig voorwaardelijke kenmerken maken en koppelen met behulp van de relevante DITA-kenmerken. U kunt voorwaardelijke kenmerken definiëren op algemeen niveau of mapniveau. De globaal gedefinieerde voorwaarden zijn zichtbaar in alle projecten en mapspecifieke voorwaarden zijn alleen zichtbaar in projecten die in de opgegeven map zijn gemaakt. Inhoudsauteurs kunnen deze voorwaardelijke kenmerken gebruiken om de inhoud in hun DITA-onderwerpen of -kaarten te conditionaliseren die ze maken of gebruiken. Deze voorwaarden kunnen vervolgens door de uitgever worden gebruikt om voorwaardelijke voorinstellingen te maken. Met behulp van de voorwaardelijke voorinstellingen kan de uitgever bepalen welke voorwaarde moet worden opgenomen in en uitgesloten van de gepubliceerde uitvoer.
+Met Adobe Experience Manager Guides kunt u eenvoudig voorwaardelijke kenmerken maken en koppelen met behulp van de relevante DITA-kenmerken. U kunt voorwaardelijke kenmerken definiëren op algemeen niveau of mapniveau. De globaal gedefinieerde voorwaarden zijn zichtbaar in alle projecten en mapspecifieke voorwaarden zijn alleen zichtbaar in projecten die in de opgegeven map zijn gemaakt. Inhoudsauteurs kunnen deze voorwaardelijke kenmerken gebruiken om de inhoud in hun DITA-onderwerpen of -kaarten te conditionaliseren die ze maken of gebruiken. Deze voorwaarden kunnen vervolgens door de uitgever worden gebruikt om voorwaardelijke voorinstellingen te maken. Met behulp van de voorwaardelijke voorinstellingen kan de uitgever bepalen welke voorwaarde moet worden opgenomen in en uitgesloten van de gepubliceerde uitvoer.
 
 >[!NOTE]
 >
@@ -23,21 +23,21 @@ Met AEM Guides kunt u eenvoudig voorwaardelijke kenmerken maken en koppelen met 
 
 Voer de volgende stappen uit om voorwaardelijke kenmerken te definiëren:
 
-1. Klik op de verbinding van Adobe Experience Manager bij de bovenkant en kies **Hulpmiddelen**.
+1. Selecteer het embleem van Adobe Experience Manager bij de bovenkant en kies **Hulpmiddelen**.
 
-1. Selecteer **Gidsen** van de lijst van hulpmiddelen.
+1. In het paneel van Hulpmiddelen, uitgezochte **Gidsen**.
 
-1. Klik op de **tegel van Profielen van de Omslag** en selecteer een Profiel van de Omslag.
+1. Selecteer de **tegel van Profielen van de Omslag** en selecteer een Profiel van de Omslag.
 
    >[!NOTE]
    >
    > U kunt het algemene profiel niet bewerken.
 
-1. Klik op het **Voorwaardelijke lusje van Attributen** en klik **uitgeven**.
+1. Selecteer het **Voorwaardelijke lusje van Attributen** en selecteer dan **uitgeven**.
 
    De tabel Voorwaardelijke kenmerken wordt weergegeven.
 
-1. Klik **toevoegen**.
+1. Selecteer **toevoegen**.
 
 1. Ga de **Naam**, **Waarde**, en a **Etiket** voor de attributen in.
 
@@ -45,16 +45,16 @@ Voer de volgende stappen uit om voorwaardelijke kenmerken te definiëren:
 
    In de volgende schermafbeelding ziet u de definitie voor het kenmerk `platform` met de waarde `unix` en het label `Red Hat Linux` .
 
-   ![](images/add-profile.png){width="800" align="left"}
+   ![](images/add-profile-new.png){width="800" align="left"}
 
-1. Als u meer waarden voor hetzelfde kenmerk wilt toevoegen, klikt u op het pictogram **+** en voert u een extra waarde en label in.
+1. Als u meer waarden voor hetzelfde kenmerk wilt toevoegen, selecteert u het pictogram **+** en voert u een extra waarde en label in.
 
-1. Als u meer attributen wilt toevoegen, klik **toevoegen**.
+1. Als u meer attributen wilt toevoegen, uitgezocht **voeg** toe.
 
-1. Klik **sparen** om de veranderingen te bewaren.
+1. Selecteer **sparen** om de veranderingen te bewaren.
 
 
-Het kenmerk `platform` wordt opgeslagen in het systeem. Wanneer een auteur besluit om het `platform` attribuut in een onderwerp DITA in een omslag te gebruiken, zullen zij de waarden op het lusje van Eigenschappen in de Redacteur van het Web zien.
+Het kenmerk `platform` wordt opgeslagen in het systeem. Wanneer een auteur besluit om het kenmerk `platform` in een DITA-onderwerp in een map te gebruiken, kunnen de waarden worden weergegeven op het tabblad Eigenschappen in de Editor.
 
 ![](images/properties-tab.png){width="350" align="left"}
 

@@ -4,14 +4,18 @@ description: Produceer output van het bewaarplaatspaneel of het paneel van de Me
 exl-id: f7a4be54-9c51-44e6-96bb-f25e3a6155da
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: a02a7310f5e332f88827a9d5a05034abec05b43a
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
 
 # Uitvoer genereren via het deelvenster Opslagplaats of Kaartweergave {#id218CL6010AE}
+
+>[!NOTE]
+>
+> Het deelvenster Snel genereren, dat voorheen beschikbaar was in Adobe Experience Manager Guides, is vanaf versie 4.0 en 2502 vervangen. U hebt geen toegang tot het deelvenster Snel genereren om uitvoer te genereren via het deelvenster Opslagplaats of Kaart.
 
 U kunt de uitvoervoorinstellingen die voor uw DITA-kaart zijn gemaakt, ook gebruiken om uitvoer te genereren vanuit het deelvenster Opslagplaats of Kaartweergave.
 
@@ -23,7 +27,7 @@ U kunt de uitvoervoorinstellingen die voor uw DITA-kaart zijn gemaakt, ook gebru
 
 - Gebruik **produceer de eigenschap van de Output** binnen het paneel van de Mening van de Kaart om de output voor de geselecteerde veelvoudige onderwerpen te produceren.
 
-## Publish een onderwerp dat over één of meerdere kaarten DITA wordt gebruikt
+## Publiceer een onderwerp dat over één of meerdere kaarten DITA wordt gebruikt
 
 Voer de volgende stappen uit om output voor één of meerdere onderwerpen in uw kaart te produceren DITA:
 

@@ -4,16 +4,16 @@ description: Leer hoe u bestanden en mappen in AEM Guides beheert. Kopieer en pl
 exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
-source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
+source-git-commit: 99e42091490b28b5d5ee73472a7655e3feeafd25
 workflow-type: tm+mt
-source-wordcount: '3109'
+source-wordcount: '3131'
 ht-degree: 0%
 
 ---
 
 # Bestanden en mappen beheren {#id2116G0L08XA}
 
-In deze sectie wordt uitgelegd hoe AEM Guides de basisbestandsbewerkingen, zoals kopiëren, plakken, slepen en neerzetten en bestanden verwijderen, uitvoert. De volgende scenario&#39;s zijn mogelijk:
+In deze sectie wordt uitgelegd hoe Adobe Experience Manager Guides de basisbestandsbewerkingen, zoals kopiëren, plakken, slepen en neerzetten en bestanden verwijderen, uitvoert. De volgende scenario&#39;s zijn mogelijk:
 
 ## Bestanden kopiëren en plakken
 
@@ -61,13 +61,13 @@ In deze sectie wordt uitgelegd hoe AEM Guides de basisbestandsbewerkingen, zoals
 
   >[!NOTE]
   >
-  > **creeer nieuwe Versie voor Geüploade eigenschap van het Dossier** moet door uw beheerder worden toegelaten. Als deze functie is ingeschakeld, wordt een nieuwe versie voor het geüploade bestand gemaakt. Als deze optie is uitgeschakeld, wordt er geen versie van het geüploade bestand gemaakt. Voor meer details, zie *Nieuwe Versie voor Geüploade Dossier* sectie in installeren en vormen as a Cloud Service Adobe Experience Manager Guides.
+  > **creeer nieuwe Versie voor Geüploade eigenschap van het Dossier** moet door uw beheerder worden toegelaten. Als deze functie is ingeschakeld, wordt een nieuwe versie voor het geüploade bestand gemaakt. Als deze optie is uitgeschakeld, wordt er geen versie van het geüploade bestand gemaakt. Voor meer details, creeer de mening *Nieuwe Versie voor Geüploade sectie van het Dossier* in installeert en vormt Adobe Experience Manager Guides as a Cloud Service.
 
   Als een bestand al is uitgecheckt voor bewerkingen door een andere gebruiker en u probeert het bestaande bestand te uploaden en te overschrijven, mislukt het en wordt een fout weergegeven.
 
   >[!NOTE]
   >
-  >Het **overschrijven Uitgecheckte Dossier op uploadt** eigenschap moet door uw beheerder worden onbruikbaar gemaakt. Als deze functie is ingeschakeld, kunt u uitgecheckte bestanden overschrijven. Als de functie niet is ingeschakeld, kan een uitgecheckt bestand niet worden overschreven. Voor meer details, zie *Uitgecheckt Dossier op Upload* sectie in installeer en vorm as a Cloud Service Adobe Experience Manager Guides.
+  >Het **overschrijven Uitgecheckte Dossier op uploadt** eigenschap moet door uw beheerder worden onbruikbaar gemaakt. Als deze functie is ingeschakeld, kunt u uitgecheckte bestanden overschrijven. Als de functie niet is ingeschakeld, kan een uitgecheckt bestand niet worden overschreven. Voor meer details, zie *het Uitgecheckte Dossier op Upload* sectie in installeer en vorm Adobe Experience Manager Guides as a Cloud Service.
 
 
 - *belemmering-en-dalingsdossiers op verschillende plaats*: Een nieuw exemplaar van het dossier wordt gecreeerd en een nieuwe UUID wordt ook toegewezen aan het bij de nieuwe plaats. Hier is de bestandsnaam gelijk aan de oorspronkelijke bestandsnaam.
@@ -83,7 +83,7 @@ Als het bestand wordt overschreven, is er geen wijziging in de bestandsnaam of d
 
 Als u **selecteert creeer Versie voor de Bestaande het Werken optie van het Exemplaar**, dan wordt een nieuwe versie van het werkende exemplaar van het document gecreeerd; het nieuwe dossier wordt geupload, wordt een nieuwe versie van het dossier ook gecreeerd, en het wordt gemaakt als het werkende exemplaar van het document.
 
-**creeer nieuwe Versie voor Geüploade eigenschap van het Dossier** moet door uw beheerder worden toegelaten. Als deze functie is ingeschakeld, wordt een nieuwe versie voor het geüploade bestand gemaakt. Als deze optie is uitgeschakeld, wordt er geen versie van het geüploade bestand gemaakt. Voor meer details, zie *Nieuwe Versie voor Geüploade dossier* sectie tot stand brengen in installeer en vorm as a Cloud Service Adobe Experience Manager Guides.
+**creeer nieuwe Versie voor Geüploade eigenschap van het Dossier** moet door uw beheerder worden toegelaten. Als deze functie is ingeschakeld, wordt een nieuwe versie voor het geüploade bestand gemaakt. Als deze optie is uitgeschakeld, wordt er geen versie van het geüploade bestand gemaakt. Voor meer details, de mening *leidt tot Nieuwe Versie voor Geüploade dossier* sectie in installeert en vormt Adobe Experience Manager Guides as a Cloud Service.
 
 
 *belemmering-en-dalingsdossier bij verschillende plaats*: U wordt gegeven de opties **Bestaande Dossier \ (s \)**, **Beweging \(s \) aan Nieuwe Plaats**, en een optie om een versie van het bestaande werkende exemplaar tot stand te brengen.
@@ -99,11 +99,11 @@ Als u bij het vervangen of verplaatsen van de bestanden de optie kiest om een ve
 
 ## Bestanden bulksgewijs verplaatsen {#move-files-bulk}
 
-AEM Guides wordt geleverd met het gereedschap Bulk verplaatsen, waarmee een beheerder een map met een groot aantal bestanden van de ene locatie naar de andere kan verplaatsen. Met dit gereedschap kunt u bestanden in een of meer mappen gemakkelijk naar een andere map in uw AEM opslagplaats verplaatsen. Een van de belangrijkste functies van dit gereedschap is dat het niet alleen een groot aantal bestanden verplaatst, maar ook de verwijzingen naar en van de bestanden die worden verplaatst, behoudt. U kunt het aantal bestanden dat u in batches kunt verplaatsen, bijstellen zonder de ontwerp- en publicatietaken te hinderen.
+Experience Manager Guides wordt geleverd met het gereedschap Bulk verplaatsen, waarmee een beheerder een map met een groot aantal bestanden van de ene locatie naar de andere kan verplaatsen. Met dit programma kunt u bestanden in een of meer mappen gemakkelijk naar een andere map in uw Adobe Experience Manager-opslagplaats verplaatsen. Een van de belangrijkste functies van dit gereedschap is dat het niet alleen een groot aantal bestanden verplaatst, maar ook de verwijzingen naar en van de bestanden die worden verplaatst, behoudt. U kunt het aantal bestanden dat u in batches kunt verplaatsen, bijstellen zonder de ontwerp- en publicatietaken te hinderen.
 
 >[!NOTE]
 >
-> Het gereedschap Bulk verplaatsen werkt alleen op mapniveau. Als u individuele onderwerp of kaartdossiers wilt bewegen, dan gebruik het regelmatige verplaatsingshulpmiddel van AEM UI van Assets.
+> Het gereedschap Bulk verplaatsen werkt alleen op mapniveau. Als u individuele onderwerp of kaartdossiers wilt bewegen, dan gebruik het regelmatige verplaatsingshulpmiddel van Adobe Experience Manager Assets UI.
 
 Hieronder vindt u een aantal functies van het gereedschap Bulk verplaatsen:
 
@@ -124,14 +124,14 @@ U moet rekening houden met de volgende punten voordat u het batchproces uitvoert
 
 Voer de volgende stappen uit om bestanden in bulk te verplaatsen:
 
-1. Klik op de verbinding van Adobe Experience Manager bij de bovenkant en kies **Hulpmiddelen**.
+1. Selecteer het embleem van Adobe Experience Manager bij de bovenkant en kies **Hulpmiddelen**.
 1. Selecteer **Gidsen** van de lijst van hulpmiddelen.
-1. Klik op de **tegel van het Hulpmiddel van de Beweging van het Bulk** {.
+1. Selecteer de **tegel van het Hulpmiddel van de Verplaatsing 0} Bulk.**
 1. De pagina Bulk verplaatsen wordt weergegeven op basis van uw instellingen. Verstrek de volgende details op de **pagina van het Hulpmiddel van de Beweging van het Bulk**:
 
    <details>
 
-   <summary> Cloud Servicen en op locatie gebaseerd UUID-bestandssysteem </summary>
+   <summary> Cloud Services en op locatie gebaseerd UUID-bestandssysteem </summary>
 
    ![](images/bulk-move-tool-uuid.png){width="650" align="center"}
 
@@ -146,23 +146,23 @@ Voer de volgende stappen uit om bestanden in bulk te verplaatsen:
 
    - **de weg \ van Source \(s \)**: Specificeer de plaats van omslagen die u wilt bewegen.
 
-      - Selecteer **doorbladert Omslag**  <img src="images/browse-folder-icon.svg" width="25">    het dialoogvenster Bladeren openen. Selecteer de omslagen u zich wilt bewegen en **Uitgezocht** klikken om het proces te voltooien.
+      - Selecteer **doorbladert Omslag**  <img src="images/browse-folder-icon.svg" width="25">    het dialoogvenster Bladeren openen. Selecteer de omslagen u zich wilt bewegen en **Uitgezocht** kiezen om het proces te voltooien.
 
       - U kunt ook de bronlocatie typen of kopiëren en plakken. Druk op Enter om de map aan de lijst toe te voegen.
 
         De geselecteerde mappen worden samen met hun pad weergegeven. Houd de muisaanwijzer boven de tag folder om het volledige pad weer te geven.
-      - U kunt om het even welke omslag ook verwijderen door **te klikken verwijdert** <img src="images/remove-folder.svg" width="25"> bij de map.
+      - U kunt om het even welke omslag ook verwijderen door **te selecteren verwijdert** <img src="images/remove-folder.svg" width="25"> bij de map.
 
 
    - **weg van de Bestemming**: Specificeer de plaats waar u de bronomslagen wilt bewegen.
 
-      - Selecteer **doorbladert Omslag** <img src="images/browse-folder-icon.svg" width="25"> om het dialoogvenster Bladeren te openen. Selecteer de locatie waar u de bronmappen wilt verplaatsen. en klik op Selecteren om het proces te voltooien.
+      - Selecteer **doorbladert Omslag** <img src="images/browse-folder-icon.svg" width="25"> om het dialoogvenster Bladeren te openen. Selecteer de locatie waar u de bronmappen wilt verplaatsen. en kiest u Selecteren om het proces te voltooien.
       - U kunt ook het doelpad typen of kopiëren en plakken.
 
      De geselecteerde map wordt samen met het bijbehorende pad weergegeven in het tekstvak.
 
 
-   - Klik **Bulk beweging**.
+   - Selecteer **Bulk beweging**.
 
      Het systeem begint dossiers van de bron aan bestemmingsplaats te bewegen. Zodra het proces is voltooid, wordt rechts van de pagina een overzicht van het verplaatsingsproces weergegeven.
 
@@ -195,22 +195,22 @@ Voer de volgende stappen uit om bestanden in bulk te verplaatsen:
 
    - **de weg \ van Source \(s \)**: Specificeer de plaats van omslagen die u wilt bewegen.
 
-      - Selecteer **doorbladert Omslag**  <img src="images/browse-folder-icon.svg" width="25">    het dialoogvenster Bladeren openen. Selecteer de omslagen u zich wilt bewegen en **Uitgezocht** klikken om het proces te voltooien.
+      - Selecteer **doorbladert Omslag**  <img src="images/browse-folder-icon.svg" width="25">    het dialoogvenster Bladeren openen. Selecteer de omslagen u zich wilt bewegen en **Uitgezocht** kiezen om het proces te voltooien.
 
       - U kunt ook de bronlocatie typen of kopiëren en plakken. Druk op Enter om de map aan de lijst toe te voegen.
 
         De geselecteerde mappen worden samen met hun pad weergegeven. Houd de muisaanwijzer boven de tag folder om het volledige pad weer te geven.
-      - U kunt om het even welke omslag ook verwijderen door **te klikken verwijdert** <img src="images/remove-folder.svg" width="25"> bij de map.
+      - U kunt om het even welke omslag ook verwijderen door **te selecteren verwijdert** <img src="images/remove-folder.svg" width="25"> bij de map.
 
 
    - **weg van de Bestemming**: Specificeer de plaats waar u de bronomslagen wilt bewegen.
 
-      - Selecteer **doorbladert Omslag** <img src="images/browse-folder-icon.svg" width="25"> om het dialoogvenster Bladeren te openen. Selecteer de locatie waar u de bronmappen wilt verplaatsen. en klik op Selecteren om het proces te voltooien.
+      - Selecteer **doorbladert Omslag** <img src="images/browse-folder-icon.svg" width="25"> om het dialoogvenster Bladeren te openen. Selecteer de locatie waar u de bronmappen wilt verplaatsen. en kiest u Selecteren om het proces te voltooien.
       - U kunt ook het doelpad typen of kopiëren en plakken.
 
         De geselecteerde map wordt samen met het bijbehorende pad weergegeven in het tekstvak.
 
-   - Klik **Bulk beweging**.
+   - Selecteer **Bulk beweging**.
 
      Het systeem begint dossiers van de bron aan bestemmingsplaats te bewegen. Zodra het proces is voltooid, wordt rechts van de pagina een overzicht van het verplaatsingsproces weergegeven.
      ![](images/bulk-move-summary-non-uuid.png){width="650" align="center"}
@@ -218,11 +218,11 @@ Voer de volgende stappen uit om bestanden in bulk te verplaatsen:
 
 ## DITA-inhoud zoeken
 
-AEM herkent standaard geen DITA-inhoud, waardoor het geen mechanisme biedt om DITA-inhoud in de opslagplaats te doorzoeken. AEM Guides voegt een laag boven op AEM toe, zodat AEM DITA-inhoud kan begrijpen en verwerken. Met de zoekfunctie voor DITA-inhoud in AEM Guides kunt u zoeken naar DITA-inhoud in AEM opslagplaats.
+Adobe Experience Manager herkent standaard geen DITA-inhoud en biedt dus geen mechanisme om DITA-inhoud in de opslagplaats te doorzoeken. Experience Manager Guides voegt een laag toe boven op Adobe Experience Manager, waarmee Adobe Experience Manager DITA-inhoud kan begrijpen en verwerken. Met de zoekfunctie voor DITA-inhoud in Experience Manager Guides kunt u zoeken naar DITA-inhoud in de Adobe Experience Manager-opslagruimte.
 
 >[!NOTE]
 >
->Uw systeembeheerder kan de **onderzoekscomponent vormen van het Element 0} DITA {en dan kunt u de eigenschap van AEM Assets gebruiken UI.** Voor meer details zie, *toevoegen de onderzoekscomponent van het Element DITA in Assets UI* sectie in installeer en vorm Adobe Experience Manager Guides as a Cloud Service.
+>Uw systeembeheerder kan de **onderzoekscomponent vormen van het Element 0} DITA {en dan kunt u de eigenschap van Adobe Experience Manager Assets gebruiken UI.** Voor meer detailmening, *voeg de onderzoekscomponent van het Element DITA in Assets UI* sectie in toe installeer en vorm Adobe Experience Manager Guides as a Cloud Service.
 
 Met de zoekfunctie kunt u:
 
@@ -230,7 +230,7 @@ Met de zoekfunctie kunt u:
 - Zoeken naar DITA-inhoud op basis van een kenmerkwaarde, bijvoorbeeld `@platform`= windows
 - Gebruik een combinatie van DITA-element en kenmerkwaarde, bijvoorbeeld `author`= xml `AND` `@platform`= windows
 
-Voer de volgende stappen uit om te zoeken naar DITA-inhoud in AEM opslagplaats:
+Voer de volgende stappen uit om te zoeken naar DITA-inhoud in de Adobe Experience Manager-opslagplaats:
 
 1. Open de gebruikersinterface van Assets.
 
@@ -259,13 +259,13 @@ Voer de volgende stappen uit om te zoeken naar DITA-inhoud in AEM opslagplaats:
 
 **de statusfilter van de Controle in onderzoek**
 
-Naast het filter DITA-element kunt u met AEM Guides ook naar inhoud zoeken op basis van de status van de uitchecking. Dit is handig wanneer u snel bestanden wilt uitfilteren die momenteel door u zijn uitgecheckt en u deze weer wilt inchecken.
+Naast het filter DITA-element kunt u met Experience Manager Guides ook naar inhoud zoeken op basis van de status van de uitchecking. Dit is handig wanneer u snel bestanden wilt uitfilteren die momenteel door u zijn uitgecheckt en u deze weer wilt inchecken.
 
 Voer de volgende stappen uit om naar bestanden te zoeken op basis van hun uitcheckstatus:
 
 1. Open de gebruikersinterface van Assets.
 
-1. Klik **Filter** in het linkerspoor.
+1. Selecteer **Filter** in het linkerspoor.
 1. Voer het trefwoord in de zoekbalk in.
 1. Pas de vereiste filters toe vanaf de linkerspoorstaaf.
 
@@ -276,7 +276,7 @@ Voer de volgende stappen uit om naar bestanden te zoeken op basis van hun uitche
 
 ## Bestanden verwijderen
 
-Het verwijderen van bestanden uit AEM opslagplaats is een beperkte functie die wordt beheerd door uw systeembeheerder. Op basis van de configuraties kan het verwijderen van bestanden worden beperkt als ze:
+Het verwijderen van bestanden uit de Adobe Experience Manager-opslagplaats is een beperkte functie die wordt beheerd door uw systeembeheerder. Op basis van de configuraties kan het verwijderen van bestanden worden beperkt als ze:
 
 - Uitgecheckt
 - Inkomende of uitgaande referenties hebben
@@ -285,7 +285,7 @@ U kunt bestanden alleen verwijderen als u tot een specifieke gebruikersgroep beh
 
 >[!NOTE]
 >
-> Voor meer details op de configuraties op dossierbeheer, zie *schrapping van gecontroleerde dossiers* verhinderen en *schrapping van referenced dossiers* secties in installeren en vormen as a Cloud Service van Adobe Experience Manager Guides verhinderen.
+> Voor meer details op de configuraties op dossierbeheer, verhinderen de mening *schrapping van gecontroleerde dossiers* en *verhinderen schrapping van referenced dossiers* secties in Install en vormen Adobe Experience Manager Guides as a Cloud Service.
 
 Als uw beheerder alle gebruiker toestemming heeft gegeven om het bestand te verwijderen, wordt het volgende bericht weergegeven wanneer u bestanden met verwijzingen verwijdert:
 
@@ -307,12 +307,12 @@ Als uw media dossier om het even welke veranderingen heeft ondergaan, kunt u de 
 
 1. Heb toegang tot het dossier in **Assets UI**.
 1. Selecteer het bestand waarvan u de versiegeschiedenis wilt weergeven.
-1. In het linkerspoor, klik **Geschiedenis van de Versie** en selecteer een versie.
-1. U kunt ook de miniaturen van de verschillende versies onder Versiegeschiedenis zien.
+1. In het linkerspoor, selecteer **Geschiedenis van de Versie** en selecteer een versie.
+1. U kunt de miniaturen van de verschillende versies ook weergeven onder Versiegeschiedenis.
 
    ![](images/media-version-history-icon.png){width="800" align="center"}
 
-1. Van de vermelde versies, selecteer die u als basisversie wilt gebruiken en **Versie van de Voorproef** klikken. De voorvertoning van de geselecteerde versie wordt weergegeven in het venster Versievoorvertoning.
+1. Van de vermelde versies, selecteer die u als basisversie wilt gebruiken en **Versie van de Voorproef** selecteren. De voorvertoning van de geselecteerde versie wordt weergegeven in het venster Versievoorvertoning.
 
    ![](images/media-version-preview.png){width="650" align="center"}
 

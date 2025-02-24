@@ -1,70 +1,61 @@
 ---
-title: De webeditor starten
-description: Leer hoe u de webeditor start via de AEM Navigatiepagina, de gebruikersinterface van AEM Assets en de DITA-kaartconsole in AEM Guides.
+title: De Editor starten
+description: Leer hoe u de Editor start via de AEM Navigation Page, de gebruikersinterface van AEM Assets en de kaartconsole in Adobe Experience Manager Guides.
 exl-id: cdde7c29-ee49-4e17-902e-1e2bd6f32e8a
 feature: Authoring, Web Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
 
-# De webeditor starten {#id2056B0140HS}
+# De Editor starten {#id2056B0140HS}
 
-U kunt de Web Editor starten op de volgende locaties:
+U kunt de Editor starten op de volgende locaties:
 
-- [Navigatiepagina AEM](#id2056BG00RZJ)
-- [AEM ASSETS UI](#id2056BG0307U)
-- [DITA-kaartconsole](#id2056BG090BF)
+- [Adobe Experience Manager Navigation-pagina](#adobe-experience-manager-navigation-page)
+- [ADOBE EXPERIENCE MANAGER ASSETS UI](#adobe-experience-manager-assets-ui)
+- [Kaartconsole](#map-console)
 
-De volgende secties behandelen de details van hoe u tot de Redacteur van het Web van diverse plaatsen toegang hebt en kunt lanceren.
+In de volgende secties vindt u informatie over de manier waarop u vanuit verschillende locaties toegang kunt krijgen tot de Editor en deze kunt starten.
 
-## Navigatiepagina AEM {#id2056BG00RZJ}
+## Adobe Experience Manager Navigation-pagina
 
-Wanneer u zich aanmeldt bij AEM, wordt de navigatiepagina weergegeven:
+Wanneer u zich aanmeldt bij Experience Manager, wordt de navigatiepagina weergegeven:
 
 ![](images/web-editor-from-navigation-page.png){width="800" align="left"}
 
-Het klikken van de **verbinding van Gidsen** neemt u rechtstreeks aan de Redacteur van het Web.
+Het selecteren van de **verbinding van Gidsen** neemt u aan de [ homepage van Adobe Experience Manager Guides ](./intro-home-page.md).
+
+![](images/aem-home-page.png){width="800" align="left"}
+
+Om de Redacteur te lanceren, ga naar de navigatiebar, en selecteer dan **Redacteur** van dropdown. De startpagina is standaard geselecteerd.
+
+![](images/editor-home-page-dropdown.png){width="350" align="left"}
+
+Terwijl u de Editor hebt gestart zonder een bestand te selecteren, wordt een leeg Editor-scherm weergegeven. U kunt een dossier voor het uitgeven van Experience Manager **Bewaarplaats** of uw **Inzamelingen** openen.
 
 ![](images/web-editor-launch-page.png){width="800" align="left"}
 
-Aangezien u de Redacteur van het Web zonder om het even welk dossier hebt gelanceerd, wordt een leeg scherm van de Redacteur van het Web getoond. U kunt een bestand openen om te bewerken vanuit AEM opslagplaats of de verzameling Favorieten.
-
-- Klik het **pictogram van Gidsen** (![](images/aem-guides-icon.png)), om terug naar de pagina van de Navigatie van de AEM te gaan.
-
-- De **dichte** knoop neemt u aan een bestemming die op uw opstelling wordt gebaseerd:
+Alternatief, kunt u de Redacteur ook lanceren door de bestaande dossiers te openen huidig in de **Recente dossiers** widget en **Inzamelingen** widget van [ de ervaring van de Homepage van Adobe Experience Manager Guides ](./intro-home-page.md).
 
 
+Als u terug wilt gaan naar de Experience Manager Navigation-pagina, selecteert u het Adobe Experience Manager-logo in de linkerbovenhoek van de bovenste koptekst.
 
-  <details>
 
-  <summary> Cloud Servicen </summary>
+## ADOBE EXPERIENCE MANAGER ASSETS UI
 
-  Als u Cloud Servicen gebruikt, klik de **Dichte** knoop om terug naar de pagina van de Navigatie van de AEM te gaan.
-  </details>
+Een andere locatie waar u de Editor kunt starten, is de gebruikersinterface van Experience Manager Assets. U kunt een of meer onderwerpen selecteren en deze rechtstreeks openen in de Editor.
 
-  <details>
-
-  <summary> Software op locatie</summary>
-
-  Als u de Software van AEM Guides On-premise (4.2.1 en later) gebruikt, klik de **Dichte** knoop op het recht terug naar uw huidige dossierweg in Assets UI.
-
-  </details>
-
-## AEM ASSETS UI {#id2056BG0307U}
-
-Een andere locatie waar u de webeditor kunt starten, is de gebruikersinterface van AEM Assets. U kunt één of meerdere onderwerpen selecteren en hen direct in de Redacteur van het Web openen. Om een onderwerp in de Redacteur van het Web te openen, volg deze stappen:
+Voer de volgende stappen uit om een onderwerp te openen in de Editor:
 
 1. In Assets UI, navigeer aan het onderwerp dat u wilt uitgeven.
 
    >[!NOTE]
    >
-   > U kunt UUID van het onderwerp ook zien.
-
-   .
+   > U kunt UUID van het onderwerp ook bekijken.
 
    ![](images/assets_ui_with_uuid_cs.png){width="800" align="left"}
 
@@ -72,56 +63,74 @@ Een andere locatie waar u de webeditor kunt starten, is de gebruikersinterface v
    >
    > Zorg ervoor dat u de lees- en schrijfmachtigingen hebt voor de map die het onderwerp bevat dat u wilt bewerken.
 
-1. Om een exclusief slot op het onderwerp te krijgen, selecteer het onderwerp en klik **Controle uit**.
+1. Om een exclusief slot op het onderwerp te krijgen, selecteer het onderwerp en selecteer **Controle**.
 
    >[!IMPORTANT]
    >
-   > Als uw beheerder **uitgeeft onbruikbaar maakt zonder Controle** optie heeft gevormd, dan moet u het dossier controleren alvorens uit te geven. Als u het bestand niet uitcheckt, kunt u de bewerkingsoptie niet zien.
+   > Als uw beheerder **uitgeeft heeft gevormd onbruikbaar maken zonder de dossier** optie te sluiten, dan moet u het dossier controleren alvorens uit te geven. Als u het bestand niet uitcheckt, kunt u de bewerkingsoptie niet weergeven.
 
-1. Sluit de wijze van de activaselectie en klik het onderwerp dat u wilt uitgeven.
+1. Sluit de wijze van de activaselectie en selecteer het onderwerp dat u wilt uitgeven.
 
    De voorvertoning van het onderwerp wordt weergegeven.
 
-   U kunt de Redacteur van het Web van de mening van de Lijst, de mening van de Kaart, en de wijze van de Voorproef openen.
+   U kunt de Editor openen vanuit de lijstweergave, de kaartweergave en de voorvertoningsmodus.
 
    >[!IMPORTANT]
    >
-   > Als u veelvoudige onderwerpen voor het uitgeven wilt openen, selecteer de gewenste onderwerpen van Middelen UI en de klik geeft uit. Zorg ervoor dat pop-upblokkering niet is ingeschakeld in uw browser. Anders wordt alleen het eerste onderwerp in de geselecteerde lijst geopend voor bewerking.
+   > Als u veelvoudige onderwerpen voor het uitgeven wilt openen, selecteer de gewenste onderwerpen van Activa UI en selecteer **uitgeven**. Zorg ervoor dat er geen pop-upblokkering is ingeschakeld in uw browser. Anders wordt alleen het eerste onderwerp in de geselecteerde lijst geopend voor bewerking.
 
    ![](images/edit-from-preview_cs.png){width="800" align="left"}
 
-   Als u geen voorproef een onderwerp wilt en het in de Redacteur van het Web direct openen, dan klik het Edit pictogram in het snelle actiemenu van de kaartmening:
+   Als u geen voorproef een onderwerp wilt en het in de Redacteur direct willen openen, dan uitgezocht **geef** pictogram in het snelle actiemenu van de kaartmening uit:
 
    ![](images/edit-topic-from-quick-action_cs.png){width="800" align="left"}
 
-1. Klik **uitgeven** om het onderwerp in de Redacteur van het Web te openen.
+   Het onderwerp wordt geopend in de Editor.
 
    ![](images/edit-mode.png){width="800" align="left"}
 
+U kunt ook een kaartbestand openen in de gebruikersinterface van Assets en de Editor starten om de onderwerpen in het kaartbestand te bewerken.
 
-## DITA-kaartconsole {#id2056BG090BF}
+Voer de volgende stappen uit om een kaart te openen in de Editor:
 
-Om de Redacteur van het Web van DITA kaartconsole te openen, volg deze stappen:
-
-1. In Assets UI, navigeer aan en klik het DITA kaartdossier dat het onderwerp bevat u wilt uitgeven.
-
-   De DITA kaartconsole wordt getoond.
-
-1. Klik **Onderwerpen**.
-
-   Er wordt een lijst met onderwerpen in het kaartbestand weergegeven. De UUID van onderwerpen wordt getoond onder de onderwerptitel.
-
+1. In Assets UI, navigeer aan en selecteer het kaartdossier dat het onderwerp bevat u wilt uitgeven.
+1. In de DITA kaartconsole, navigeer aan de **Onderwerpen** tabel. Er wordt een lijst met onderwerpen in het kaartbestand weergegeven.
 1. Selecteer het onderwerpbestand dat u wilt bewerken.
-
-1. Klik **uitgeven Onderwerp**.
+1. Selecteer **uitgeven Onderwerp**.
 
    ![](images/edit-topics-map-console_cs.png){width="800" align="left"}
 
-1. Het onderwerp wordt geopend in de Redacteur van het Web.
+1. Het onderwerp wordt geopend in de Editor.
 
    >[!IMPORTANT]
    >
-   > Als uw beheerder **uitgeeft onbruikbaar maakt zonder Controle** optie heeft gevormd, dan moet u het dossier controleren alvorens uit te geven. Als u het bestand niet uitcheckt, wordt het document in de editor geopend in de modus Alleen-lezen.
+   > Als uw beheerder **uitgeeft heeft gevormd onbruikbaar maken zonder de dossier** optie te sluiten, dan moet u het dossier controleren alvorens uit te geven. Als u het bestand niet uitcheckt, wordt het document in de editor geopend in de modus Alleen-lezen.
+
+## Kaartconsole
+
+Voer de volgende stappen uit om de Editor te openen vanuit de kaartconsole:
+
+1. Open de startpagina en start de kaartconsole.
+
+   ![](images/editor-map-console-dropdown.png){width="350" align="left"}
+
+   Aangezien u de console van de Kaart zonder enig kaartdossier hebt gelanceerd, wordt een leeg scherm van de Console van de Kaart getoond. U kunt een kaartdossier van Experience Manager **Repository** of uw **Inzamelingen** ook openen.
+
+   ![](images/launch-map-console.png){width="500" align="left"}
+
+1. Kies **Uitgezochte kaart** om een kaartdossier te openen dat de onderwerpen bevat die u in de Redacteur wilt uitgeven.
+1. Selecteer het pad waar het kaartbestand zich bevindt. Het geselecteerde kaartbestand wordt toegevoegd aan de kaartconsole.
+1. Navigeer aan het kaartdossier en selecteer **Open in redacteur** van dropdown.
+
+   ![](images/map-console-open-in-editor.png){width="800" align="left"}
+
+   Het kaartbestand met de onderwerpen is geopend voor bewerking in de Editor.
+
+   ![](images/map-console-edit-topics.png){width="800" align="left"}
 
 
-**Bovenliggend onderwerp:**[ Werk met de Redacteur van het Web ](web-editor.md)
+
+
+
+
+**Bovenliggend onderwerp**: [ Inleiding aan de Redacteur ](web-editor.md)

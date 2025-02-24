@@ -1,29 +1,29 @@
 ---
 title: Bulkactivering van gepubliceerde inhoud
-description: Meer informatie over bulkactivering van gepubliceerde inhoud. In AEM gidsen vindt u informatie over de voordelen van de functie voor bulkactivering.
+description: Meer informatie over bulkactivering van gepubliceerde inhoud. In AEM-hulplijnen vindt u informatie over de voordelen van de functie voor bulkactivering.
 exl-id: 3643ecab-b5c1-41ea-8b7b-1470ead63aec
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: 5dac015816317ee9739c7c3678541592a7145e89
+source-git-commit: 99e42091490b28b5d5ee73472a7655e3feeafd25
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
 
 # Bulkactivering van gepubliceerde inhoud {#id214GG080LE8}
 
-In een echt scenario, zouden uw auteurs toegang op de auteursinstantie van AEM hebben terwijl de daadwerkelijke inhoud op de het publiceren instantie van AEM wordt gepubliceerd. De uitgeverijen zouden dan verder over verschillende geo-plaatsen kunnen worden opgesteld. De gepubliceerde uitvoer moet door verschillende processen naar deze publicatieserver worden verplaatst. Het proces waarbij inhoud van de ontwerpinstantie naar de publicatieinstantie wordt verplaatst, wordt de activering of replicatie van inhoud genoemd.
+In een echt scenario zouden uw auteurs toegang hebben tot de ontwerpinstantie van Adobe Experience Manager terwijl de feitelijke inhoud wordt gepubliceerd op de publicatieinstantie van Adobe Experience Manager. De uitgeverijen zouden dan verder over verschillende geo-plaatsen kunnen worden opgesteld. De gepubliceerde uitvoer moet door verschillende processen naar deze publicatieserver worden verplaatst. Het proces waarbij inhoud van de ontwerpinstantie naar de publicatieinstantie wordt verplaatst, wordt de activering of replicatie van inhoud genoemd.
 
 >[!NOTE]
 >
-> Voor meer details over hoe te om de auteur te plaatsen en instantie in AEM te publiceren, zie [ Author en het Architecturale Overzicht van Publish ](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#prerequisites).
+> Voor meer details over hoe te om de auteur te plaatsen en instantie in Adobe Experience Manager te publiceren, bekijk [ Auteur en publiceer het Overzicht van de Architectuur ](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#prerequisites).
 
-Met de functie AEM Guides Bulk Activation kunt u uw inhoud snel en eenvoudig activeren, van ontwerpen tot het publiceren van een exemplaar. Met de functie voor bulkactivering kunt u:
+Met de functie Experience Manager Guides Bulk Activation kunt u uw inhoud snel en eenvoudig activeren, van ontwerpen tot het publiceren van een exemplaar. Met de functie voor bulkactivering kunt u:
 
 - Voeg een of meerdere toewijzingen \(aan een kaartverzameling\) toe aan één activeringstaak
 
-- Selecteer een of meerdere uitvoervoorinstellingen die u wilt publiceren. U kunt AEM Site, PDF, Native PDF, HTML5, Aangepast en
+- Selecteer een of meerdere uitvoervoorinstellingen die u wilt activeren. U kunt Adobe Experience Manager Site, PDF, Native PDF, HTML5, Aangepast en
 JSON-uitvoervoorinstellingen.
 
 
