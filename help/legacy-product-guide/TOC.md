@@ -1,13 +1,13 @@
 ---
 user-guide-title: Experience Manager Guides Old UI
-user-guide-description: Lees productdocumentatie voor Adobe Experience Manager Guides.
+user-guide-description: Lees de productdocumentatie voor Adobe Experience Manager Guides via de oude gebruikersinterface.
 breadcrumb-title: Documentatie voor AEM Guides
 hide: true
 badgeAll: label="Oude UI-gids - Meer informatie" type="Informative" url="/help/legacy-product-guide/disclaimer.md" tooltip="Oude UI-gids"
-source-git-commit: e1d6123991ddd8d25f76ee03befeb95f020a9834
+source-git-commit: 293d2fd9c015a4ec516080b9e5dfed32b96639b7
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 2%
+source-wordcount: '555'
+ht-degree: 0%
 
 ---
 
@@ -139,4 +139,5 @@ ht-degree: 2%
       - [Rapport voor hergebruik van inhoud](./user-guide/reports-content-reuse.md)
       - [Conversiestatus rapport](./user-guide/reports-convertion-status.md)
       - [Rapport voor versiehistorie van teruggedraaide bestanden](./user-guide/reports-reverted-file-version-history.md)
-- [ Gids van de Gebruiker (Nieuwe UI) ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/about-aem-guide/intro)
+- [ GEBRUIKERSGIDS (NIEUWE UI) ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/about-aemg/intro)
+

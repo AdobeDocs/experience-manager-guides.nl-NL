@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lees de productdocumentatie voor Adobe Experience Manager Guides.
 breadcrumb-title: Documentatie voor AEM Guides
-source-git-commit: ab7e91306d9a5253205e773f148d789141b9b0d1
+source-git-commit: 293d2fd9c015a4ec516080b9e5dfed32b96639b7
 workflow-type: tm+mt
-source-wordcount: '2034'
+source-wordcount: '2040'
 ht-degree: 2%
 
 ---
@@ -126,7 +126,8 @@ ht-degree: 2%
       - [!DNL AEM Guides] Werken en Belangrijke functies {#aemg-works-features}
          - [Hoe  [!DNL AEM Guides]  werkt](./user-guide/intro-how-dxml-works.md)
          - [Belangrijke  [!DNL AEM Guides]  eigenschappen](./user-guide/intro-dxml-features.md)
-   - [[!DNL AEM Guides] Introductiepagina](./user-guide/intro-home-page.md)
+   - Startpagina {#home-page}
+      - [[!DNL AEM Guides] Introductiepagina](./user-guide/intro-home-page.md)
    - Inhoud auteur {#author-content}
       - [Overzicht van ontwerpen](./user-guide/authoring-content.md)
       - [Manieren om inhoud te ontwerpen met AEM Guides](./user-guide/authoring-content-xml-doc.md)
@@ -158,7 +159,7 @@ ht-degree: 2%
          - [De DITAVAL-editor gebruiken](./user-guide/ditaval-editor.md)
       - Bureaubladgereedschappen voor het ontwerpen van inhoud {#author-using-desktop-tools}
          - [Inhoud ontwerpen met bureaubladgereedschappen](./user-guide/author-desktop-tools.md)
-   - Revisie {#review}
+   - Inhoud controleren {#review}
       - [Inleiding tot herziening](./user-guide/review.md)
       - [Een DITA-project maken](./user-guide/authoring-create-dita-project.md)
       - [Onderwerpen ter controle verzenden](./user-guide/review-send-topics-for-review.md)
@@ -177,6 +178,19 @@ ht-degree: 2%
    - Kaartbeheer en publicaties {#map-management-publishing}
       - [Overzicht van kaartconsole](./user-guide/map-console-overview.md)
       - [Bestanden openen in kaartconsole](./user-guide/open-files-map-console.md)
+      - Rapporten {#reports-aem-guide}
+         - [Inleiding tot rapporten](./user-guide/reports-intro.md)
+         - [DITA-kaartrapport van de kaartconsole](./user-guide/reports-web-editor.md)
+         - [DITA-kaartrapport van het kaartdashboard](./user-guide/reports-ditamap.md)
+         - [Rapport voor hergebruik van inhoud](./user-guide/reports-content-reuse.md)
+         - [Conversiestatus rapport](./user-guide/reports-convertion-status.md)
+         - [ het teruggekaatste rapport van de dossierversie ](./user-guide/reports-reverted-file-version-history.md)
+      - Inhoud omzetten {#translate-content}
+         - [Overzicht van vertalingen van inhoud](./user-guide/translation.md)
+         - [Aanbevolen procedures voor het vertalen van inhoud](./user-guide/translation-first-time.md)
+         - [Documenten vertalen vanuit de kaartconsole](./user-guide/translate-documents-web-editor.md)
+         - [Vertaalstatus weergeven](./user-guide/translation-view-trans-state-6234.md)
+         - [Gewijzigde onderwerpen vertalen](./user-guide/translation-modified-topics-6234.md)
       - Uitvoergeneratie {#output-gen}
          - [Grondbeginselen van het genereren van uitvoer](./user-guide/generate-output.md)
          - Voorinstellingen uitvoer in AEM Guides {#output-presets-aemg}
@@ -203,19 +217,6 @@ ht-degree: 2%
          - [Uitvoervoorinstellingen voor Algemeen en Mapprofiel beheren](./user-guide/web-editor-manage-output-presets.md)
          - [Variabelen gebruiken voor het instellen van de opties Doelpad, Sitenaam of Bestandsnaam](./user-guide/generate-output-use-variables.md)
          - [Geef de metagegevens door aan de uitvoer met DITA-OT](./user-guide/pass-metadata-dita-ot.md)
-         - Rapporten {#reports-aem-guide}
-            - [Inleiding tot rapporten](./user-guide/reports-intro.md)
-            - [DITA-kaartrapport van de kaartconsole](./user-guide/reports-web-editor.md)
-            - [DITA-kaartrapport van het kaartdashboard](./user-guide/reports-ditamap.md)
-            - [Rapport voor hergebruik van inhoud](./user-guide/reports-content-reuse.md)
-            - [Conversiestatus rapport](./user-guide/reports-convertion-status.md)
-            - [ het teruggekaatste rapport van de dossierversie ](./user-guide/reports-reverted-file-version-history.md)
-         - Inhoud omzetten {#translate-content}
-            - [Overzicht van vertalingen van inhoud](./user-guide/translation.md)
-            - [Aanbevolen procedures voor het vertalen van inhoud](./user-guide/translation-first-time.md)
-            - [Documenten vertalen vanuit de kaartconsole](./user-guide/translate-documents-web-editor.md)
-            - [Vertaalstatus weergeven](./user-guide/translation-view-trans-state-6234.md)
-            - [Gewijzigde onderwerpen vertalen](./user-guide/translation-modified-topics-6234.md)
          - Uitvoer genereren {#generate-output}
             - [Output voor een DITA-kaart genereren](./user-guide/generate-output-for-a-dita-map.md)
             - [Knowledge Base-uitvoer genereren](./user-guide/web-editor-article-publishing.md)
@@ -228,12 +229,12 @@ ht-degree: 2%
          - [Uitvoerproductieproces beheren](./user-guide/generate-output-manage-process.md)
          - [Publicatietaken beheren met het dashboard Publiceren](./user-guide/generate-output-publish-dashboard.md)
          - [Basisprobleemoplossing](./user-guide/generate-output-basic-troubleshooting.md)
-         - Bulkactivering van inhoud {#bulk-activation}
-            - [Bulkactivering van gepubliceerde inhoud](./user-guide/conf-bulk-activation.md)
-            - [Een verzameling bulkactiveringskaarten maken](./user-guide/conf-bulk-activation-create-map-collection.md)
-            - [Uitvoer activeren](./user-guide/conf-bulk-activation-publish-map-collection.md)
-            - [Een bulkactiveringskaartverzameling bewerken](./user-guide/conf-bulk-activation-edit-map-collection.md)
-            - [Een verzameling bulkactiveringskaarten verwijderen](./user-guide/conf-bulk-activation-delete-map-collection.md)
+      - Bulkactivering van inhoud {#bulk-activation}
+         - [Bulkactivering van gepubliceerde inhoud](./user-guide/conf-bulk-activation.md)
+         - [Een verzameling bulkactiveringskaarten maken](./user-guide/conf-bulk-activation-create-map-collection.md)
+         - [Uitvoer activeren](./user-guide/conf-bulk-activation-publish-map-collection.md)
+         - [Een bulkactiveringskaartverzameling bewerken](./user-guide/conf-bulk-activation-edit-map-collection.md)
+         - [Een verzameling bulkactiveringskaarten verwijderen](./user-guide/conf-bulk-activation-delete-map-collection.md)
    - Uitvoer genereren van FrameMaker-documenten {#generate-fm-output}
       - [Basisbeginselen van FrameMaker-uitvoergeneratie](./user-guide/fm-output-generatation.md)
       - Ondersteunde voorinstellingen {#fm-docs-generating-presets}
@@ -256,7 +257,8 @@ ht-degree: 2%
          - [Bestanden uploaden](./user-guide/authoring-upload-existing-files.md)
          - [Bestanden en mappen beheren](./user-guide/authoring-file-management.md)
          - [Bestanden downloaden](./user-guide/authoring-download-assets.md)
-- [ Gids van de Gebruiker (Oude UI) ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview) {target="_blank"}
+- Handboek (oude gebruikersinterface) {#user-guide-old-ui}
+   - [ overzicht van AEM Guides) ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview) {target="_blank"}
 - Installatie en configuratie {#install-guide}
    - Op locatie {#on-prem-ig}
       - [Basisbegrippen op locatie](./install-guide/introduction.md)

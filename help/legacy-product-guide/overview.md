@@ -4,18 +4,14 @@ description: Bekijk zelfstudievideo's voor Experience Manager Guides (voorheen X
 feature: AEM Guides Tutorials
 role: User
 exl-id: de7bda03-371b-4414-846b-86787f98fda8
-source-git-commit: 67d6b6f59e5d8c37389a181949ce4527760576e2
+source-git-commit: 293d2fd9c015a4ec516080b9e5dfed32b96639b7
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
 
 # AEM Guides-overzicht
-
->[!NOTE]
->
->Dit is een opmerking over de oudere handleiding. Deze kan worden gebruikt in plaats van of als aanvulling op de metagegevensbadge.
 
 [!DNL Experience Manager Guides] (waarnaar wordt verwezen in _[!DNL AEM Guides]_hieronder) is een krachtige CCMS-oplossing (Component Content Management Solution) op bedrijfsniveau. Het maakt native DITA-ondersteuning in Experience Manager mogelijk, waardoor AEM inhoud kan maken en leveren op basis van DITA. Auteurs kunnen hiermee inhoud maken met elk offline DITA-ontwerpgereedschap, zoals Adobe FrameMaker of een gebruiksvriendelijke ingebouwde webeditor.
 
@@ -26,59 +22,6 @@ Met [!DNL AEM Guides] -oplossing kunnen bedrijven naadloze en gepersonaliseerde 
 >[!NOTE]
 > 
 > Adobe Experience Manager Guides werd vroeger gemerkt als _XML Documentation voor Adobe Experience Manager_. Houd er rekening mee dat bepaalde verwijzingen in de documentatie mogelijk nog steeds verwijzen naar eerdere branding, maar nog steeds van toepassing zijn op de huidige aanbieding.
-
-<!--
-
-Dummy links cause validation to fail
-
-## Staff Picks
-
-<table>
-<tr>
-  <td>
-    <a href="#">
-      <img alt="400 x 225px" src="myimage.png" />
-    </a>
-    <div>
-      <a href="#">
-    <strong>Enablement Content 1</strong>
-    </a>
-    </div>
-    <p>
-    <em>A brief description of enablement content.</em>
-    <p>
-  </td>
-   <td>
-    <a href="#">
-      <img alt="400 x 225px" src="myimage.png" />
-    </a>
-    <div>
-      <a href="#">
-    <strong>Enablement Content 1</strong>
-    </a>
-    </div>
-    <p>
-    <em>A brief description of enablement content.</em>
-    <p>
-  </td>
-  <td>
-    <a href="#">
-      <img alt="400 x 225px" src="myimage.png" />
-    </a>
-    <div>
-      <a href="#">
-    <strong>Enablement Content 1</strong>
-    </a>
-    </div>
-    <p>
-    <em>A brief description of enablement content.</em>
-    <p>
-  </td>
-</tr>
-</table>
-
--->
-
 
 ## Aanvullende bronnen
 
