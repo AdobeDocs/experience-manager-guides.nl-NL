@@ -3,7 +3,9 @@ title: Documenten vertalen vanuit de webeditor
 description: Vertaal uw inhoud vanuit de webeditor naar meerdere talen. Leer hoe u een vertaalproject maakt, regels toevoegt, versies weergeeft en bestanden die niet gesynchroniseerd zijn in AEM Guides kunt negeren.
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: a288a4d5-5c24-4021-8bfa-4b68cecf630f
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '2343'
 ht-degree: 0%
@@ -14,13 +16,13 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> U wordt aangeraden deze vertaalfunctie uit de webeditor te gebruiken als u een upgrade hebt uitgevoerd naar de AEM Guides-versie van as a Cloud Service februari 2022 of hoger.
+> U wordt aangeraden deze vertaalfunctie uit de webeditor te gebruiken als u een upgrade hebt uitgevoerd naar de AEM Guides as a Cloud Service Release 2022 of hoger.
 
 AEM Guides wordt geleverd met een krachtige functie in de webeditor waarmee u uw inhoud in meerdere talen kunt vertalen. U kunt een nieuw vertaalproject creëren en later de vertaalbanen toevoegen aan het bestaande vertaalproject. U kunt ook een meertalig vertaalproject maken dat vertaaltaken voor alle geselecteerde talen omvat.
 
 >[!NOTE]
 >
-> Uw beheerder kan het tabblad Beheren \(gebruikt voor vertaling\) in de webeditor configureren. Voor meer details, zie *de vertaaleigenschap in de sectie van de Redacteur van het Web* in installeer en vorm as a Cloud Service Adobe Experience Manager Guides.
+> Uw beheerder kan het tabblad Beheren \(gebruikt voor vertaling\) in de webeditor configureren. Voor meer details, zie *de vertaaleigenschap in de sectie van de Redacteur van het Web* in installeren en vormen Adobe Experience Manager Guides as a Cloud Service vormen.
 
 ## Voordat u begint
 
@@ -136,9 +138,9 @@ Met AEM Guides kunnen uw beheerders de vertaalregels configureren. De indeling S
 SRX-bestanden moeten de naam `<language-code>.srx` hebben. Bijvoorbeeld, en-US, of ar-AE.
 
 >[!NOTE]
->De titel is niet hoofdlettergevoelig, dus je kunt &#39;en-US&#39;, &#39;en-us&#39; of &#39;EN-us&#39; hebben. Bovendien kunnen AEM hulplijnen &#39;-&#39; (afbreekstreepje) of &#39;_&#39; (onderstrepingsteken) oplossen. Dus je kunt &#39;en-US&#39; of &#39;en_US&#39; hebben.
+>De titel is niet hoofdlettergevoelig, dus je kunt &#39;en-US&#39;, &#39;en-us&#39; of &#39;EN-us&#39; hebben. AEM-hulplijnen kunnen ook &#39;-&#39; (afbreekstreepje) of &#39;_&#39; (onderstrepingsteken) oplossen. Dus je kunt &#39;en-US&#39; of &#39;en_US&#39; hebben.
 
-U kunt deze bestanden ook in elke map plaatsen die zich in de hoofdmap met AEM elementen bevindt, namelijk `./content/dam` .
+U kunt deze bestanden ook in elke map plaatsen onder de hoofdmap van AEM-elementen die `./content/dam` is.
 
 
 
@@ -205,7 +207,7 @@ Sommige verwijzingen op het vertaaldashboard zijn mogelijk in uitvoering. Deze v
 
 >[!NOTE]
 >
-> U kunt de koppeling In uitvoering zien voor de vertaalde projecten die in AEM Guides as a Cloud Service februari 2023 zijn gemaakt of later.
+> U kunt de koppeling In uitvoering zien voor de vertaalde projecten die in AEM Guides as a Cloud Service in februari 2023 of later zijn gemaakt.
 
 Klik op de naam van de verwijzing in het dialoogvenster om deze te openen in de voorvertoningsmodus. U kunt ook op het vertaalproject klikken om de vertaling te starten.
 

@@ -3,7 +3,9 @@ title: De functies van de webeditor kennen
 description: Ontdek de functies van de webeditor in AEM Guides. Zorg dat u de interface van de webeditor kent, zoals de hoofdwerkbalk, de secundaire werkbalk, het linkerdeelvenster, het bewerkingsgebied van inhoud en het rechterdeelvenster.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
+hide: true
+exl-id: 045cafac-393f-49e9-9432-6533a4c6dc01
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '18802'
 ht-degree: 0%
@@ -98,7 +100,7 @@ De Editor-instellingen zijn alleen beschikbaar voor gebruikers met administratie
 
   ![](images/editor-setting-general.png){width="650" align="left"}
 
-   - **controle van de Spel**: Er zijn twee opties - **AEM Controle van de Spel** en **Browser Controle van de Spel**. Standaard gebruikt de editor de functie Spellingcontrole in browser, waarbij de spellingcontrole wordt uitgevoerd met behulp van het ingebouwde woordenboek van de browser. U kunt overschakelen naar AEM spellingcontrole om AEM woordenboek te gebruiken. Dit kan ook worden aangepast om uw aangepaste woordenlijst toe te voegen. Voor meer informatie over het aanpassen van AEM woordenboek, zie *AEM standaardwoordenboek* sectie aanpassen in installeert en vormt Adobe Experience Manager Guides as a Cloud Service.
+   - **controle van de Spel**: Er zijn twee opties - **de Controle van de Spelling van AEM** en **Browser Controle van de Spel**. Standaard gebruikt de editor de functie Spellingcontrole in browser, waarbij de spellingcontrole wordt uitgevoerd met behulp van het ingebouwde woordenboek van de browser. U kunt overschakelen naar AEM Spell Check om het AEM-woordenboek te gebruiken. Dit woordenboek kan ook worden aangepast om uw aangepaste woordenlijst toe te voegen. Voor meer informatie over het aanpassen van het woordenboek van AEM, zie *de sectie van het standaardWoordenboek van AEM* aanpassen in installeer en vorm Adobe Experience Manager Guides as a Cloud Service.
 
 
    - **Voorwaarde**
@@ -128,7 +130,7 @@ Wijzig de stijl van de citaten. Kies de citaatstijl van drop-down u in uw projec
 
 >[!NOTE]
 >
-> Als er een aangepast deelvenster is geconfigureerd, wordt dit ook weergegeven in de lijst met deelvensters. U kunt schakelen tussen het weergeven of verbergen van het aangepaste deelvenster. Voor meer details op de configuratie, zie *een douanepaneel in de linkerpaneelsectie* in installeren en vormen as a Cloud Service Adobe Experience Manager Guides.
+> Als er een aangepast deelvenster is geconfigureerd, wordt dit ook weergegeven in de lijst met deelvensters. U kunt schakelen tussen het weergeven of verbergen van het aangepaste deelvenster. Voor meer details op de configuratie, zie *een douanepaneel in de linkerpaneel* sectie in installeren en vormen Adobe Experience Manager Guides as a Cloud Service vormen.
 
 - **Lijst van Elementen**: Als beheerder, kunt u de lijst van elementen controleren die een auteur kan opnemen gebruikend [ het Element van het Tussenvoegsel ](#id204SG30105Z) pop-up, en ook de vertoningsnaam voor het element bepalen. Met de instelling Elements List kunt u de naam van het element opgeven volgens de DITA-specificaties en een label dat u wilt gebruiken in plaats van de door DITA gedefinieerde elementnaam:
 
@@ -148,9 +150,9 @@ In het volgende schermafbeelding worden slechts 3 van de 4 geconfigureerde eleme
 
   ![](images/editor-setting-add-attributes-list.png-to-element.PNG){width="300" align="left"}
 
-- **Profiel van Publish**: Dit bevat de Profielen van Publish die kunnen worden gebruikt om de **3} output van de Kennisbank {te publiceren.** U kunt een nieuw profiel voor een doelkennisbasis tot stand brengen. Bijvoorbeeld Salesforce of ServiceNow.
+- **publiceer Profiel**: Dit bevat de Publish Profielen die kunnen worden gebruikt om de **3} output van de Kennisbank {te publiceren.** U kunt een nieuw profiel voor een doelkennisbasis tot stand brengen. Bijvoorbeeld Salesforce of ServiceNow.
 
-   - **creeer een Profiel van Salesforce Publish**
+   - **creeer een Salesforce publiceer Profiel**
 
      **Eerste vereisten**
 
@@ -168,18 +170,18 @@ In het volgende schermafbeelding worden slechts 3 van de 4 geconfigureerde eleme
 
   Zodra app wordt gevormd, verstrekt Salesforce a **Consumentensleutel** en **Geheime consument**.
 
-  Hiermee kunt u het Salesforce Publish-profiel maken.
+  U kunt deze gebruiken om het Salesforce-publicatieprofiel te maken.
 
 
-   - Om een Profiel van Salesforce Publish tot stand te brengen, selecteer de **Salesforce** Kennisbank van het **Type van Server** dropdown. Voer een profielnaam in. In de **Plaats URL**, ga de consumentenplaats in u zou gebruiken om de output te publiceren en dan de **Consumentensleutel** toe te voegen en **Geheime consument** die door de de consumentenplaats van Salesforce wordt verstrekt. Dan, **bevestigt** en **sparen** het pas gecreëerde profiel.
+   - Om Salesforce tot stand te brengen publiceer Profiel, selecteer de **Salesforce** Kennisbank van **het Type van Server** dropdown. Voer een profielnaam in. In de **Plaats URL**, ga de consumentenplaats in u zou gebruiken om de output te publiceren en dan de **Consumentensleutel** toe te voegen en **Geheime consument** die door de de consumentenplaats van Salesforce wordt verstrekt. Dan, **bevestigt** en **sparen** het pas gecreëerde profiel.
      ![ salesforce publiceert profiel in redacteursmontages ](./images/salesforce-publish-profile.png){width="550" align="left"}
 
      >[!NOTE]
      >
-     >Als u een proxy voor Salesforce in Experience Manager Guides wilt configureren, gebruikt u Apache HTTP Components Proxy Configuration in AEM. Leer hoe te [ volmacht voor de Controle van de Verbinding van de AEM ](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html) vormen.
+     >Gebruik Apache HTTP Components Proxy Configuration in AEM om een proxy voor Salesforce in Experience Manager Guides te configureren. Leer hoe te [ volmacht voor de Controleur van de Verbinding van AEM ](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html) vormen.
 
 
-   - **creeer een Profiel ServiceNow Publish**
+   - **creeer een ServiceNow publiceer Profiel**
 
      **Eerste vereisten**
 
@@ -192,12 +194,12 @@ In het volgende schermafbeelding worden slechts 3 van de 4 geconfigureerde eleme
 
       - Klik **sparen**.
 
-     Zodra u app hebt gevormd, creeer het **ServiceNow** Profiel van Publish.
-   - Om een Profiel van Publish tot stand te brengen, selecteer de Kennisbank ServiceNow van het **drop-down Type van Server 0}.** Ga een profiel **Naam** in. In **ServiceNow URL**, ga de consumentenplaats in u voor het publiceren van de output zou gebruiken en dan de **Gebruikersnaam** en **Wachtwoord** toevoegde die} door de plaats van de consument ServiceNow wordt verstrekt. Dan, **bevestigt** en **sparen** het pas gecreëerde profiel.
+     Zodra u app hebt gevormd, creeer **ServiceNow** publiceer Profiel.
+   - Om een Publish Profiel tot stand te brengen, selecteer de Kennisbank ServiceNow van het **drop-down Type van Server 0}.** Ga een profiel **Naam** in. In **ServiceNow URL**, ga de consumentenplaats in u voor het publiceren van de output zou gebruiken en dan de **Gebruikersnaam** en **Wachtwoord** toevoegde die} door de plaats van de consument ServiceNow wordt verstrekt. Dan, **bevestigt** en **sparen** het pas gecreëerde profiel.
 
      ![ ServiceNow publiceert profiel ](./images/service-now-publish-profile.png){width="550" align="left"}
 
-  Nadat u bevestigt, kunt u het Profiel van Publish in de outputvoorinstellingen van een Kaart selecteren DITA en het gebruiken om de output aan de **Salesforce** of **server te produceren ServiceNow** die u hebt gekozen.
+  Nadat u bevestigt, kunt u het Publish Profiel in de outputvoorinstellingen van een Kaart selecteren DITA en het gebruiken om de output aan de **Salesforce** of **** server te produceren ServiceNow die u hebt gekozen.
 
   Leer meer over de [ vooraf ingestelde output van de Kennisbank ](../user-guide/generate-output-knowledge-base.md).
 
@@ -284,13 +286,13 @@ De gebruikersvoorkeuren zijn beschikbaar voor alle auteurs. Met de voorkeuren ka
 
    - **Profielen van de Omslag**: De controles van het Profiel van de Omslag diverse configuraties met betrekking tot voorwaardelijke attributen, auteursmalplaatjes, output stellen vooraf in en de configuraties van de Redacteur van het Web. Het algemene profiel wordt standaard weergegeven. Als uw beheerder mapprofielen heeft geconfigureerd in het systeem, worden deze mapprofielen ook weergegeven in de lijst Mapprofielen.
 
-     De configuraties van de Redacteur van het Web die een beheerder in het omslagprofiel kan bepalen omvatten: het aanpassen van gebruikersinterface met inbegrip van de toolbarpictogrammen, de lay-out van de Redacteur van het Web, fragmenten, en wortelkaart. Voor meer details, zie *globale of omslag-vlakke profielen* in installeer en vorm as a Cloud Service Adobe Experience Manager Guides.
+     De configuraties van de Redacteur van het Web die een beheerder in het omslagprofiel kan bepalen omvatten: het aanpassen van gebruikersinterface met inbegrip van de toolbarpictogrammen, de lay-out van de Redacteur van het Web, fragmenten, en wortelkaart. Voor meer details, zie *globale of omslag-vlakke profielen* in installeer en vorm Adobe Experience Manager Guides as a Cloud Service.
 
      >[!NOTE]
      >
      > De naam van het huidige mapprofiel wordt weergegeven als een label voor het pictogram Gebruikersvoorkeuren op de hoofdwerkbalk.
 
-   - **Weg van de Basis**: Door gebrek, wanneer u tot de AEM bewaarplaats van de Redacteur van het Web toegang hebt, wordt u getoond activa van de /content/dam plaats. De werkmap bevat hoogstwaarschijnlijk enkele mappen in de map /content/dam/. Het zou u een paar klikken nemen om de werkende omslag telkens te bereiken. U kunt het Basispad instellen op uw werkmap en vervolgens in de weergave Opslagplaats de inhoud van die locatie vooraf weergeven. Hierdoor neemt de tijd voor toegang tot uw werkmap af. Ook, wanneer u om het even welk verwijzing of media dossier in uw onderwerp opneemt, doorbladert het dossier plaats begint met de omslag die in de Weg van de Basis wordt geplaatst.
+   - **Weg van de Basis**: Door gebrek, wanneer u tot de bewaarplaats van AEM van de Redacteur van het Web toegang hebt, wordt u getoond activa van de /content/dam plaats. De werkmap bevat hoogstwaarschijnlijk enkele mappen in de map /content/dam/. Het zou u een paar klikken nemen om de werkende omslag telkens te bereiken. U kunt het Basispad instellen op uw werkmap en vervolgens in de weergave Opslagplaats de inhoud van die locatie vooraf weergeven. Hierdoor neemt de tijd voor toegang tot uw werkmap af. Ook, wanneer u om het even welk verwijzing of media dossier in uw onderwerp opneemt, doorbladert het dossier plaats begint met de omslag die in de Weg van de Basis wordt geplaatst.
 
    - **Uitgezochte Kaart van de Wortel**: Selecteer een DITA kaartdossier om zeer belangrijke verwijzingen of verklarende woordenlijstingangen op te lossen. De geselecteerde hoofdmap heeft de hoogste prioriteit om toetsverwijzingen op te lossen. Voor meer details, zie [ zeer belangrijke verwijzingen ](map-editor-other-features.md#id176GD01H05Z) oplossen.
 
@@ -465,7 +467,7 @@ Als u de optie Audio- of Video-bestand selecteert, wordt de dataweergave weergeg
 
 >[!NOTE]
 >
-> Wanneer u een YouTube-videokoppeling toevoegt, moet u de tekenreeks `watch?v=` vervangen door `embed` in de URL. Als u bijvoorbeeld een YouTube-videokoppeling wilt toevoegen: `https://www.youtube.com/**watch?v**=WlIKQOrmZcs` , moet u deze toevoegen als: `https://www.youtube.com/**embed/**WlIKQOrmZcs` . Deze wijziging zorgt ervoor dat de video wordt ingesloten in de AEM Site en PDF-uitvoer.
+> Wanneer u een YouTube-videokoppeling toevoegt, moet u de tekenreeks `watch?v=` vervangen door `embed` in de URL. Als u bijvoorbeeld een YouTube-videokoppeling wilt toevoegen: `https://www.youtube.com/**watch?v**=WlIKQOrmZcs` , moet u deze toevoegen als: `https://www.youtube.com/**embed/**WlIKQOrmZcs` . Deze wijziging zorgt ervoor dat de video wordt ingesloten in de AEM-site en PDF-uitvoer.
 
 U kunt het audio- of videobestand ook toevoegen via het dialoogvenster Multimedia invoegen. Selecteer de optie Audio-/videobestand en klik op het bladerpictogram om de weergave in de repository te starten. Selecteer het audio- of videobestand in de gegevensopslagruimte en klik op Selecteren om de koppeling van het bestand toe te voegen in het veld Audio- of videobestand. Als u een videobestand kiest, wordt ook een voorvertoning van het bestand weergegeven in het voorvertoningsgebied. U kunt het videobestand afspelen om de voorvertoning weer te geven.
 
@@ -509,7 +511,7 @@ Als uw beheerder de optie UUIDs in *XMLEditorConfig* heeft toegelaten, dan zult 
 
 **Onderzoek van de Filter**
 
-U kunt zoeken naar tekst in de bestanden die aanwezig zijn op het geselecteerde pad van de AEM. &#39;Algemeen&#39; wordt bijvoorbeeld gezocht in de onderstaande screenshot. U kunt de zoekopdracht ook verkleinen met behulp van verbeterde filters. U kunt alle DITA- Dossiers zoals Onderwerpen DITA en Kaarten DITA aanwezig op de geselecteerde weg zoeken.
+U kunt zoeken naar tekst in de bestanden die aanwezig zijn op het geselecteerde pad van de AEM-opslagplaats. &#39;Algemeen&#39; wordt bijvoorbeeld gezocht in de onderstaande screenshot. U kunt de zoekopdracht ook verkleinen met behulp van verbeterde filters. U kunt alle DITA- Dossiers zoals Onderwerpen DITA en Kaarten DITA aanwezig op de geselecteerde weg zoeken.
 
 U kunt zoeken naar niet-DITA-bestanden zoals afbeeldingsbestanden, multimedia en documenten in het geselecteerde pad. U kunt ook zoeken naar specifieke waarden in de kenmerken van DITA-elementen. U kunt ook zoeken naar bestanden die door de opgegeven gebruiker zijn uitgecheckt.
 
@@ -517,7 +519,7 @@ U kunt zoeken naar niet-DITA-bestanden zoals afbeeldingsbestanden, multimedia en
 
 >[!NOTE]
 >
-> Uw systeembeheerder kan de tekstfilters ook vormen en andere filters tonen of verbergen. Zie de sectie Tekstfilters configureren in de sectie Installeren en configureren van Adobe Experience Manager Guides as a Cloud Service voor meer informatie.
+> Uw systeembeheerder kan de tekstfilters ook vormen en andere filters tonen of verbergen. Zie De sectie Tekstfilters configureren in de sectie Adobe Experience Manager Guides as a Cloud Service installeren en configureren voor meer informatie.
 
 De lijst met gefilterde bestanden die de gezochte tekst bevatten, wordt weergegeven. In het bovenstaande scherm worden bijvoorbeeld de bestanden met de tekst &#39;algemeen&#39; weergegeven. U kunt ook een voorvertoning van de inhoud van het bestand weergeven.
 
@@ -629,7 +631,7 @@ De volgende bewerkingen kunnen worden uitgevoerd in een document met de codeweer
 
 >[!NOTE]
 >
-> Als een gebruiker de Mening van Markeringen van de Redacteur van het Web toelaat, blijft het toegelaten zelfs over de zittingen. Dit betekent dat u niet de Mening van Markeringen moet opnieuw toelaten om tot het later toegang te hebben.De standaardwaarde voor de Mening van Markeringen voor de zitting van een nieuwe gebruiker wordt bepaald door het bezit tagsView in het ui \_config.json- dossier. Voor meer details, zie *standaardwaarde voor de sectie van de Mening van Codes* in installeer en vorm as a Cloud Service Adobe Experience Manager Guides.
+> Als een gebruiker de Mening van Markeringen van de Redacteur van het Web toelaat, blijft het toegelaten zelfs over de zittingen. Dit betekent dat u niet de Mening van Markeringen moet opnieuw toelaten om tot het later toegang te hebben.De standaardwaarde voor de Mening van Markeringen voor de zitting van een nieuwe gebruiker wordt bepaald door het bezit tagsView in het ui \_config.json- dossier. Voor meer details, zie *standaardwaarde voor de sectie van de Mening van Markeringen* in installeer en vorm Adobe Experience Manager Guides as a Cloud Service.
 
 **toelaten/onbruikbaar de Veranderingen van het Spoor** ![](images/track-change-icon.svg)
 
@@ -785,7 +787,7 @@ Wanneer u terugkeert naar een eerdere versie, wordt een visuele aanwijzing getoo
 
 Met labels kunt u het werkgebied identificeren waarin een bepaald onderwerp zich in de DDLC \(Levenscyclus voor documentontwikkeling\) bevindt. Wanneer u bijvoorbeeld aan een onderwerp werkt, kunt u het label &quot;Goedgekeurd&quot; instellen. Zodra een onderwerp wordt gepubliceerd en ter beschikking gesteld aan klanten, kunt u &quot;Vrijgegeven&quot;etiket aan dat onderwerp toewijzen.
 
-Met AEM Guides kunt u labels opgeven in een tekstindeling met vrije vorm of een set vooraf gedefinieerde labels gebruiken. Met het aangepaste label kan elke auteur in het systeem naar keuze een label opgeven. Dit geeft flexibiliteit, maar het introduceert inconsistente labels in het systeem. Om dit probleem te verhelpen, kunnen beheerders een set vooraf gedefinieerde labels configureren. Voor meer informatie over het vormen van vooraf bepaalde etiketten, zie *vormen en aanpassen de Redacteur van het Web van XML* in installeer en vorm as a Cloud Service Adobe Experience Manager Guides.
+Met AEM Guides kunt u labels opgeven in een tekstindeling met vrije vorm of een set vooraf gedefinieerde labels gebruiken. Met het aangepaste label kan elke auteur in het systeem naar keuze een label opgeven. Dit geeft flexibiliteit, maar het introduceert inconsistente labels in het systeem. Om dit probleem te verhelpen, kunnen beheerders een set vooraf gedefinieerde labels configureren. Voor meer informatie over het vormen van vooraf bepaalde etiketten, zie *vormen en aanpassen de Redacteur van het Web van XML* in installeer en vorm Adobe Experience Manager Guides as a Cloud Service.
 
 Deze labels worden in de vorm van een vervolgkeuzelijst weergegeven aan auteurs, waar ze een label moeten opgeven. Dit zorgt ervoor dat alleen vooraf gedefinieerde, consistente labels in het systeem worden gebruikt.
 
@@ -974,7 +976,7 @@ Dit is synchroon met het zoekvak in het venster Opslagplaats. Bijvoorbeeld, als 
 
   >[!NOTE]
   >
-  >Uw systeembeheerder kan de tekstfilters ook vormen en andere filters tonen of verbergen. Voor meer details zie *tekstfilters* sectie vormen in installeer en vorm as a Cloud Service Adobe Experience Manager Guides.
+  >Uw systeembeheerder kan de tekstfilters ook vormen en andere filters tonen of verbergen. Voor meer details zie *tekstfilters* sectie vormen in installeer en vorm Adobe Experience Manager Guides as a Cloud Service.
   >
   >De lijst met gefilterde bestanden die de gezochte tekst bevatten, wordt weergegeven. De bestanden die de tekst `general purpose` bevatten, worden bijvoorbeeld weergegeven in de vorige schermafbeelding. U kunt meerdere bestanden in de gefilterde lijst selecteren en ze naar een kaart slepen die u wilt bewerken.
 
@@ -1090,7 +1092,7 @@ De verschillende opties in het menu Opties worden hieronder uitgelegd:
   > Als uw beheerder u de toestemmingen op een omslag heeft gegeven, dan **anders noemen** of **Beweging aan** opties wordt getoond.
 
   <details>
-    <summary> Cloud Servicen </summary>
+    <summary> Cloud Services </summary>
 
   Als u de naam van een bestand wijzigt of een bestand verplaatst, worden bestaande verwijzingen van of naar het bestand niet verbroken, omdat elk bestand een unieke UUID heeft.
   </details>
@@ -1105,7 +1107,7 @@ De verschillende opties in het menu Opties worden hieronder uitgelegd:
 
      >[!NOTE]
      >
-     > Als uw beheerder het verwijderen van uitgecheckte bestanden heeft verhinderd, wordt alleen het foutbericht weergegeven. Voor meer details, zie *de schrapping van gecontroleerde dossiers* sectie van de Preventie verhinderen in installeer en vorm as a Cloud Service Adobe Experience Manager Guides.
+     > Als uw beheerder het verwijderen van uitgecheckte bestanden heeft verhinderd, wordt alleen het foutbericht weergegeven. Voor meer details, zie *de schrapping van gecontroleerde dossiers* sectie van de Preventie verhinderen in installeer en vorm Adobe Experience Manager Guides as a Cloud Service.
 
    - Als het dossier aan een favoriete inzameling wordt toegevoegd, wordt de **Schrapping van de Dwang** dialoog getoond, en u kunt het met kracht schrappen.
    - Als het dossier van een ander dossier van verwijzingen wordt voorzien toen **de dialoog van de Schrapping van de Dwang** met het bevestigingsbericht wordt getoond, en u kunt het dossier krachtig schrappen:
@@ -1114,7 +1116,7 @@ De verschillende opties in het menu Opties worden hieronder uitgelegd:
 
      >[!NOTE]
      >
-     > Als uw beheerder de toestemming van de dossierschrapping heeft gegeven, dan **wordt de Schrapping van de Dwang** toegelaten. Anders, **wordt de Schrapping van de Dwang** onbruikbaar gemaakt en een bericht wordt getoond dat u geen toestemming hebt om referenced dossiers te schrappen. Voor meer details, zie *de schrapping van referenced dossiers* sectie van de Preventie in installeer en vorm as a Cloud Service Adobe Experience Manager Guides.
+     > Als uw beheerder de toestemming van de dossierschrapping heeft gegeven, dan **wordt de Schrapping van de Dwang** toegelaten. Anders, **wordt de Schrapping van de Dwang** onbruikbaar gemaakt en een bericht wordt getoond dat u geen toestemming hebt om referenced dossiers te schrappen. Voor meer details, zie *de schrapping van referenced dossiers* sectie van de Preventie verhinderen in installeer en vorm Adobe Experience Manager Guides as a Cloud Service.
 
    - Als u een onderwerp waarnaar wordt verwezen verwijdert en u het bestand met verwijzingen hebt geopend voor bewerken, wordt de verbroken koppeling voor het bestand waarnaar wordt verwezen, weergegeven.
 
@@ -1147,9 +1149,9 @@ De verschillende opties in het menu Opties worden hieronder uitgelegd:
 
 - **Mening in Assets UI**: Gebruik dit om een voorproef van een.dita/.xml- dossier in Assets UI te tonen. In het geval van een .ditamap/.bookmap- dossier, worden alle onderwerpdossiers binnen de kaart getoond in één enkele verenigde pagina-door-pagina mening.
 
-- **Download als PDF**: Gebruik de optie om de output van de PDF te produceren en het te downloaden.
+- **Download als PDF**: Gebruik de optie om de output van PDF te produceren en het te downloaden.
 
-- **Publish als**: Gebruik de optie om een onderwerp of de elementen binnen een onderwerp aan een inhoudsfragment te publiceren.
+- **publiceer als**: Gebruik de optie om een onderwerp of de elementen binnen een onderwerp aan een inhoudsfragment te publiceren.
 
 - **Snel produceert**: Genereer de output voor het geselecteerde dossier. Uitvoer kan alleen worden gegenereerd voor bestanden die deel uitmaken van een uitvoervoorinstelling. Voor meer details, zie [ Op artikel-gebaseerde het publiceren van de Redacteur van het Web ](web-editor-article-publishing.md#id218CK0U019I).
 
@@ -1277,11 +1279,11 @@ In het **de dialoogvakje van de Kaart van de Download**, kunt u de volgende opti
 
   U ontvangt een melding die klaar is voor downloaden op de kaart als de kaart kan worden gedownload. Als het downloaden mislukt, ontvangt u een melding dat het downloaden van de kaart is mislukt.
 
-  U hebt toegang tot de downloadkoppeling via het AEM-meldingsvak. Selecteer het gegenereerde kaartbericht in het Postvak In als u de kaart in de ZIP-indeling wilt downloaden.
+  U kunt de downloadkoppeling openen via het AEM-meldingsvak. Selecteer het gegenereerde kaartbericht in het Postvak In als u de kaart in de ZIP-indeling wilt downloaden.
 
   >[!NOTE]
   >
-  >  Standaard blijven de gedownloade kaarten vijf dagen in het AEM-vak.
+  >  Standaard blijven de gedownloade kaarten vijf dagen in het AEM-berichtvenster Inbox staan.
 
 - **produceer Output**: produceer de output voor het geselecteerde kaartdossier. Uitvoer kan alleen worden gegenereerd voor bestanden die deel uitmaken van een uitvoervoorinstelling. Voor meer details, zie [ Op artikel-gebaseerde het publiceren van de Redacteur van het Web ](web-editor-article-publishing.md#id218CK0U019I).
 - **dicht**: Sluit het kaartdossier.

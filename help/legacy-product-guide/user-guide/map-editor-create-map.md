@@ -3,7 +3,9 @@ title: Een kaart maken
 description: Maak een kaart met de Kaarteditor in AEM Guides. Zoek de stappen om een kaartdossier tot stand te brengen dat op een kaartmalplaatje wordt gebaseerd.
 feature: Authoring, Map Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 981ecaeb-9b1f-4c7a-8336-7746a739bedc
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
@@ -46,11 +48,11 @@ Voer de volgende stappen uit om een kaartbestand te maken:
 
    De versieinformatie voor een pas gecreëerde kaart wordt getoond als *niets*. Wanneer u een nieuwe versie opslaat, krijgt deze een versienummer toegewezen als 1.0. Voor meer informatie over het bewaren van een nieuwe versie, zie [ sparen als Nieuwe Versie ](web-editor-features.md#save-as-new-version-id209ME400GXA).
 
-   U kunt ervoor kiezen de kaart te openen om te bewerken in de geconfigureerde kaarteditor, of het kaartbestand op te slaan in de AEM opslagplaats.
+   U kunt de kaart openen om te bewerken in de geconfigureerde kaarteditor, of het kaartbestand opslaan in de AEM-opslagplaats.
 
    >[!NOTE]
    >
-   > Om de Geavanceerde Redacteur van de Kaart te gebruiken, heb toegang tot het kaartdossier in de Redacteur van het Web. Als uw beheerder de Geavanceerde Redacteur van de Kaart als standaardredacteur in de kaartdossiers heeft gevormd, dan wordt het kaartdossier geopend direct in de Geavanceerde Redacteur van de Kaart voor het uitgeven. Zie *plaats de Geavanceerde Redacteur van de Kaart als standaard* sectie in installeer en vorm as a Cloud Service Adobe Experience Manager Guides.
+   > Om de Geavanceerde Redacteur van de Kaart te gebruiken, heb toegang tot het kaartdossier in de Redacteur van het Web. Als uw beheerder de Geavanceerde Redacteur van de Kaart als standaardredacteur in de kaartdossiers heeft gevormd, dan wordt het kaartdossier geopend direct in de Geavanceerde Redacteur van de Kaart voor het uitgeven. Zie *plaats de Geavanceerde Redacteur van de Kaart als standaard* sectie in installeer en vorm Adobe Experience Manager Guides as a Cloud Service.
 
 
 **Bovenliggend onderwerp:**[ Werk met de Redacteur van de Kaart ](map-editor.md)

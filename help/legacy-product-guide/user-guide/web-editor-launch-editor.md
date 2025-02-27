@@ -1,9 +1,11 @@
 ---
 title: De webeditor starten
-description: Leer hoe u de webeditor start via de AEM Navigatiepagina, de gebruikersinterface van AEM Assets en de DITA-kaartconsole in AEM Guides.
+description: Leer hoe u de webeditor start via de AEM Navigation Page, de AEM Assets UI en de DITA Map Console in AEM Guides.
 feature: Authoring, Web Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 374042e4-0f1c-44cf-926c-c9fefa4b1de0
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 0%
@@ -14,13 +16,13 @@ ht-degree: 0%
 
 U kunt de Web Editor starten op de volgende locaties:
 
-- [Navigatiepagina AEM](#id2056BG00RZJ)
+- [AEM Navigation-pagina](#id2056BG00RZJ)
 - [AEM ASSETS UI](#id2056BG0307U)
 - [DITA-kaartconsole](#id2056BG090BF)
 
 De volgende secties behandelen de details van hoe u tot de Redacteur van het Web van diverse plaatsen toegang hebt en kunt lanceren.
 
-## Navigatiepagina AEM {#id2056BG00RZJ}
+## AEM Navigation-pagina {#id2056BG00RZJ}
 
 Wanneer u zich aanmeldt bij AEM, wordt de navigatiepagina weergegeven:
 
@@ -30,9 +32,9 @@ Het klikken van de **verbinding van Gidsen** neemt u rechtstreeks aan de Redacte
 
 ![](images/web-editor-launch-page.png){width="800" align="left"}
 
-Aangezien u de Redacteur van het Web zonder om het even welk dossier hebt gelanceerd, wordt een leeg scherm van de Redacteur van het Web getoond. U kunt een bestand openen om te bewerken vanuit AEM opslagplaats of de verzameling Favorieten.
+Aangezien u de Redacteur van het Web zonder om het even welk dossier hebt gelanceerd, wordt een leeg scherm van de Redacteur van het Web getoond. U kunt een bestand openen om te bewerken vanuit de AEM-opslagplaats of vanuit uw Favorieten-verzameling.
 
-- Klik het **pictogram van Gidsen** (![](images/aem-guides-icon.png)), om terug naar de pagina van de Navigatie van de AEM te gaan.
+- Klik het **pictogram van Gidsen** (![](images/aem-guides-icon.png)), om terug naar de pagina van de Navigatie van AEM te gaan.
 
 - De **dichte** knoop neemt u aan een bestemming die op uw opstelling wordt gebaseerd:
 
@@ -40,9 +42,9 @@ Aangezien u de Redacteur van het Web zonder om het even welk dossier hebt gelanc
 
   <details>
 
-  <summary> Cloud Servicen </summary>
+  <summary> Cloud Services </summary>
 
-  Als u Cloud Servicen gebruikt, klik de **Dichte** knoop om terug naar de pagina van de Navigatie van de AEM te gaan.
+  Als u de Diensten van de Wolk gebruikt, klik de **Dichte** knoop om terug naar de pagina van de Navigatie van AEM te gaan.
   </details>
 
   <details>

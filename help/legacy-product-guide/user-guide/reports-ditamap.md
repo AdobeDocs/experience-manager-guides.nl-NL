@@ -3,7 +3,9 @@ title: DITA-kaartrapport van het kaartdashboard
 description: Genereer DITA-kaartrapporten van het kaartdashboard in AEM Guides. Leer hoe te om CSV van een DITA kaartrapport te produceren.
 feature: Report Generation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 044fb5df-166d-44a2-9ed6-6db47e4f125e
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '741'
 ht-degree: 0%
@@ -86,7 +88,7 @@ Voer de volgende stappen uit om CSV van een DITA kaartrapport te produceren:
    ![](images/download-report-dialog.png){width="550" align="left"}
 
 
-   U kunt CSV van het geproduceerde rapport ook downloaden later van het AEM bericht Inbox.
+   U kunt CSV van het geproduceerde rapport van AEM bericht Inbox ook downloaden.
 
    Klik het geproduceerde rapport in Inbox om het rapport te downloaden.
 

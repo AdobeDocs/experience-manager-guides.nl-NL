@@ -3,7 +3,9 @@ title: Produceer output voor een kaart DITA van de kaartconsole
 description: Produceer output voor een kaart DITA van de kaartconsole in AEM Guides. Zorg voor meer informatie over het genereren van uitvoer en hoe u de status kunt bekijken, een uitvoertaak kunt annuleren en verwijderen.
 feature: Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 5c2a8239-e6eb-482b-a11b-3732e667c880
+source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
 workflow-type: tm+mt
 source-wordcount: '1418'
 ht-degree: 0%
@@ -24,7 +26,7 @@ Voer de volgende stappen uit om output voor een kaart te produceren DITA:
 
    >[!NOTE]
    >
-   > Als u de AEM Site-uitvoer genereert, gebruikt het publicatieproces de structuur die in het `.ditamap` -bestand is gedefinieerd om AEM sitestructuur te maken.
+   > Als u de AEM Site-uitvoer genereert, gebruikt het publicatieproces de structuur die in het `.ditamap` -bestand is gedefinieerd om de AEM Site-structuur te maken.
 
 1. Klik op het pictogram Genereren om het genereren van de uitvoer te starten.
 
@@ -35,9 +37,9 @@ U kunt de huidige status van het verzoek van de outputgeneratie bekijken door op
 >
 > Als een uitvoergeneratieproces voor een voorinstelling zich in de wachtrij of in uitvoering bevindt, kunt u geen andere uitvoergeneratietaak voor dezelfde voorinstelling starten.
 
-U kunt de uitvoer van de PDF voor één of meerdere die outputvoorinstellingen produceren voor een kaart DITA van de Redacteur van het Web worden gecreeerd. Voor meer details, zie [ Snel van het Gebruik paneel produceren om output voor vooraf instelt ](web-editor-quick-generate-panel.md#) te produceren en te bekijken.
+U kunt de PDF-uitvoer genereren voor een of meer uitvoervoorinstellingen die zijn gemaakt voor een DITA-kaart in de webeditor. Voor meer details, zie [ Snel van het Gebruik paneel produceren om output voor vooraf instelt ](web-editor-quick-generate-panel.md#) te produceren en te bekijken.
 
-U kunt de output van de Plaats van de AEM voor één of meerdere onderwerpen, of de volledige kaart DITA van de Redacteur van het Web ook produceren. Voor meer details, zie [ Op artikel-gebaseerde het publiceren van de Redacteur van het Web ](web-editor-article-publishing.md#id218CK0U019I).
+U kunt de output van de Plaats van AEM voor één of meerdere onderwerpen, of de volledige kaart DITA van de Redacteur van het Web ook produceren. Voor meer details, zie [ Op artikel-gebaseerde het publiceren van de Redacteur van het Web ](web-editor-article-publishing.md#id218CK0U019I).
 
 ## Incrementele productie van uitvoer {#generating_standalone_topic}
 
@@ -104,7 +106,7 @@ Voer de volgende stappen uit om de rij van de outputgeneratie te bekijken:
 
      Vermeldt de output die of wachten om worden geproduceerd of onder generatieproces zijn. De taken in de wachtrij of die momenteel worden uitgevoerd, worden vóór de naam van de voorinstelling weergegeven met een blauw kleurenpictogram. U kunt ook de instelling of voorinstelling voor het genereren van uitvoer vinden die wordt gebruikt voor de taak in de wachtrij, het type, de gebruiker die de taak heeft gestart, de tijd sinds het moment waarop de taak in de wachtrij wordt geplaatst en de huidige status.
 
-     Klik op de verbinding om tot het **dashboard van Publish** toegang te hebben en de huidige lopende status te bekijken. In het Publish-dashboard vindt u een lijst met alle actieve publicatietaken. De **in de rij geplaatste Output** en **verbinding van het Dashboard van Publish** worden getoond slechts wanneer er output is die of wachten om te worden geproduceerd of onder generatieproces zijn. Zij verschijnen niet wanneer de outputtaken zijn voltooid.Voor meer details op het dashboard van Publish, zie [ publiceer taken gebruikend het dashboard van Publish ](generate-output-publish-dashboard.md#) leiden.
+     Klik op de verbinding om tot **toegang te hebben publiceer Dashboard** en bekijk de huidige lopende status. Een lijst met alle actieve publicatietaken is beschikbaar op het dashboard Publiceren. De **In een rij gevormde Output** en **publiceren de verbinding van het Dashboard** wordt getoond slechts wanneer er output is die of wachten om te worden geproduceerd of onder generatieproces zijn. Zij verschijnen niet wanneer de outputtaken zijn voltooid.Voor meer details op Publish Dashboard, zie [ publiceer taken gebruikend het Publish Dashboard ](generate-output-publish-dashboard.md#) leiden.
 
    - **Gegenereerde Output**
 
@@ -121,7 +123,7 @@ Voer de volgende stappen uit om de rij van de outputgeneratie te bekijken:
 
 ## Een uitvoergeneratietaak annuleren {#id2061H100T5Z}
 
-AEM Guides biedt uitgevers een eenvoudige en eenvoudige manier om lopende publicatietaken te annuleren. Als uitgever, kunt u aan de gang zijnde het publiceren taak van de DITA kaartconsole of het [ dashboard van Publish ](generate-output-publish-dashboard.md#) annuleren.
+AEM Guides biedt uitgevers een eenvoudige en eenvoudige manier om lopende publicatietaken te annuleren. Als uitgever, kunt u aan de gang zijnde het publiceren taak van de DITA kaartconsole of [ annuleren Dashboard ](generate-output-publish-dashboard.md#).
 
 Voer de volgende stappen uit om een taak van de outputgeneratie van de DITA kaartconsole te annuleren:
 

@@ -1,9 +1,11 @@
 ---
 title: Weergaven van de webeditor
-description: Documenten weergeven in auteur-, bron- en voorvertoningsmodus. Leer hoe te om inhoud te bekijken die op voorwaardelijke filters wordt gebaseerd, de spoorveranderingen markeringen bekijken, en een onderwerp als PDF uitvoeren in AEM Guides.
+description: Documenten weergeven in auteur-, bron- en voorvertoningsmodus. Leer hoe u inhoud weergeeft op basis van voorwaardelijke filters, de markeringen voor wijzigingen in de track weergeeft en een onderwerp exporteert als PDF in AEM Guides.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: dbc27856-6903-4694-9875-77dc778c80bd
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1449'
 ht-degree: 0%
@@ -120,12 +122,12 @@ Er zijn drie **het Volgen** opties die u van kunt kiezen:
 
 ### Een onderwerp exporteren als PDF {#id2114BL00B5U}
 
-PDF is een van de meest gebruikte uitvoerindelingen die in elke mogelijke fase van de ontwikkelingscyclus van het document wordt gebruikt. AEM Guides biedt u de flexibiliteit om de PDF van een individueel onderwerp of een volledig kaartdossier te produceren. De uitvoer als eigenschap van PDF staat de Auteur, de Uitgever, of een Beheerder toe om de output van de PDF voor een individueel onderwerp gemakkelijk te produceren. De DITA-OT-configuraties die zijn opgeslagen in het profiel op mapniveau worden gebruikt om de PDF te genereren.
+PDF is een van de meest gebruikte uitvoerindelingen die in elke mogelijke fase van de ontwikkelingscyclus van het document wordt gebruikt. AEM Guides biedt u de flexibiliteit om de PDF van een individueel onderwerp of een volledig kaartdossier te produceren. Met de functie Exporteren als PDF kunnen auteur, uitgever of beheerder de PDF-uitvoer voor een afzonderlijk onderwerp gemakkelijk genereren. De DITA-OT-configuraties die zijn opgeslagen in het profiel op mapniveau worden gebruikt om de PDF te genereren.
 
 Deze functie ondersteunt de volgende functies:
 
 - Genereer de PDF van de momenteel actieve werkkopie van een onderwerp.
-- Accepteer de transformatienaam DITA-OT en opdrachtregelargumenten om de PDF te genereren.
+- Accepteer de transformatienaam en opdrachtregelargumenten voor de DITA-OT om de PDF te genereren.
 - Sla de gegenereerde uitvoer op het lokale systeem op.
 - Los sleutel en inhoudsverwijzingen op die in het onderwerp worden gebruikt alvorens de output te produceren.
 

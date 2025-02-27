@@ -1,9 +1,11 @@
 ---
 title: De status van de uitvoergeneratietaak weergeven
-description: Bekijk de rij van de outputgeneratie van de documenten van de FrameMaker. Leer hoe u de status van een uitvoergeneratietaak kunt weergeven.
+description: De wachtrij voor het genereren van uitvoer van FrameMaker-documenten weergeven. Leer hoe u de status van een uitvoergeneratietaak kunt weergeven.
 feature: Publishing FrameMaker Documents
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: bf5a4365-0183-43d5-a39a-b9eb8a34b27d
+source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 0%
@@ -12,11 +14,11 @@ ht-degree: 0%
 
 # De status van de uitvoergeneratietaak weergeven {#viewing_output_history}
 
-Zodra u de taak van de outputgeneratie voor een document van de FrameMaker in werking stelt, verzendt AEM Guides deze taak naar de rij van de outputgeneratie. Deze rij wordt bijgewerkt in echt - tijd, die de status van elke taak van de outputgeneratie in de rij toont.
+Als u de uitvoergeneratietaak voor een FrameMaker-document hebt gestart, stuurt AEM Guides deze taak naar de wachtrij met uitvoergeneratie. Deze rij wordt bijgewerkt in echt - tijd, die de status van elke taak van de outputgeneratie in de rij toont.
 
 Voer de volgende stappen uit om de rij van de outputgeneratie te bekijken:
 
-1. In Assets UI, navigeer aan en klik het document van de FrameMaker waarvoor u de status van de outputgeneratie wilt controleren.
+1. Navigeer in de gebruikersinterface van Assets naar het FrameMaker-document waarvoor u de status van de uitvoergeneratie wilt controleren.
 
 1. Klik op Uitvoer.
 
@@ -35,4 +37,4 @@ Voer de volgende stappen uit om de rij van de outputgeneratie te bekijken:
      In deze lijst kunt u taken uitvoeren die zijn uitgevoerd of taken die zijn mislukt. Voor de taken die met succes zijn voltooid, maakt het publicatieproces een logbestand \(logs.txt\) dat kan worden geopend door op de koppeling in de kolom Gegenereerd bij te klikken.
 
 
-**Bovenliggend onderwerp:**[ produceer output van de documenten van de FrameMaker ](fm-output-generatation.md)
+**Bovenliggend onderwerp:**[ produceer output van de documenten van FrameMaker ](fm-output-generatation.md)

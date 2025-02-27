@@ -1,16 +1,18 @@
 ---
-title: Een onderwerp naar een inhoudsfragment Publish
-description: Publish een onderwerp of de elementen binnen een onderwerp aan een Fragment van de Inhoud in AEM Guides.  Leer hoe te om de aanwezige Fragments van de Inhoud voor een onderwerp te bekijken en hen opnieuw te publiceren.
+title: Een onderwerp naar een inhoudsfragment publiceren
+description: Publiceer een onderwerp of de elementen binnen een onderwerp aan een Fragment van de Inhoud in AEM Guides.  Leer hoe te om de aanwezige Fragments van de Inhoud voor een onderwerp te bekijken en hen opnieuw te publiceren.
 feature: Publishing
 role: User
-source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
+hide: true
+exl-id: f8a8dfd3-19de-49ff-b4d4-265b3ac09488
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
 
 ---
 
-# Publish-inhoudsfragmenten
+# Inhoudsfragmenten publiceren
 
 Inhoudsfragmenten zijn afzonderlijke stukken inhoud in Adobe Experience Manager. Het zijn gestructureerde inhoud die is gebaseerd op een inhoudsmodel. Inhoudsfragmenten zijn pure inhoud zonder ontwerp- of layoutgegevens. Ze kunnen onafhankelijk van de kanalen die Adobe Experience Manager ondersteunt, worden ontworpen en beheerd. Inhoudsfragmenten zijn modulair, waarbij de inhoud wordt opgedeeld in kleinere componenten.
 
@@ -39,7 +41,7 @@ Voeg bijvoorbeeld `/conf/we-retail` toe in de cloudconfiguratie. Deze configurat
 1. In **produceer de dialoogdoos van het Fragment van de Inhoud**, vul de volgende details onder de **Algemene** en **Afbeelding** lusjes in.
 
    **Algemene** tabel
-   ![ voeg het fragmentmodel en toewijzingsdetails in Publish toe als de dialoog van het Fragment van de Inhoud ](images/generate-content-fragment.png)
+   ![ voeg het fragmentmodel en de kaartdetails in toe publiceren als de dialoog van het Fragment van de Inhoud ](images/generate-content-fragment.png)
    *voeg de weg, de naam, de titel, en voorwaarde het filtreren toe om een onderwerp of zijn elementen als Fragment van de Inhoud te publiceren.*
 
 
@@ -63,7 +65,7 @@ Voeg bijvoorbeeld `/conf/we-retail` toe in de cloudconfiguratie. Deze configurat
 
    **Toewijzing** lusje
 
-   ![ voeg het fragmentmodel en toewijzingsdetails in Publish toe als de dialoog van het Fragment van de Inhoud ](images/content-fragment-mapping.png)
+   ![ voeg het fragmentmodel en de kaartdetails in toe publiceren als de dialoog van het Fragment van de Inhoud ](images/content-fragment-mapping.png)
 
    *selecteer het model van het inhoudsfragment, en voeg de kaartdetails toe om een onderwerp of zijn elementen als Fragment van de Inhoud te publiceren.*
 

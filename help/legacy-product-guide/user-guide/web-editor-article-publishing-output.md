@@ -3,7 +3,9 @@ title: Uitvoer genereren vanuit het deelvenster Opslagplaats
 description: Produceer output van het bewaarplaatspaneel of het paneel van de Mening van de Kaart in AEM Guides. Leer om een onderwerp te publiceren over één of meerdere kaarten DITA wordt gebruikt of output voor veelvoudige onderwerpen te produceren die.
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: ffdc2426-dc78-4deb-93cc-3292fd4fcbd8
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 0%
@@ -22,7 +24,7 @@ U kunt de uitvoervoorinstellingen die voor uw DITA-kaart zijn gemaakt, ook gebru
 
 - Gebruik **produceer de eigenschap van de Output** binnen het paneel van de Mening van de Kaart om de output voor de geselecteerde veelvoudige onderwerpen te produceren.
 
-## Publish een onderwerp dat over één of meerdere kaarten DITA wordt gebruikt
+## Publiceer een onderwerp dat over één of meerdere kaarten DITA wordt gebruikt
 
 Voer de volgende stappen uit om output voor één of meerdere onderwerpen in uw kaart te produceren DITA:
 

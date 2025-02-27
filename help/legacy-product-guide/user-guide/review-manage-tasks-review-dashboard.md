@@ -3,7 +3,9 @@ title: Revisietaken beheren met het dashboard Revisie
 description: Revisietaken beheren via het revisiedashboard in AEM Guides. Leer de handelingen uitvoeren onder de taak, inhoud, tabblad revisoren en controleer de status van een revisietaak.
 feature: Reviewing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: f3ed7e82-8bb8-400f-9406-367da9e0052c
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1300'
 ht-degree: 0%
@@ -118,7 +120,7 @@ Het statusrapport voor de controletaak bevat de volgende details:
 - De kolom Status geeft de revisiestatus aan. De status kan een van de volgende zijn:
    - **niet Begonnen**: De recensent heeft nog niet de overzichtsverbinding geopend.
    - **Bezig**: De recensent heeft de overzichtsverbinding geopend en is bezig het onderwerp te herzien.
-   - **Voltooid**: De recensent heeft de overzicht door de overzichtstaak te voltooien die aan hen wordt toegewezen. De controletaak bevindt zich in het AEM-vak voor elke controleur.
+   - **Voltooid**: De recensent heeft de overzicht door de overzichtstaak te voltooien die aan hen wordt toegewezen. De revisietaak bevindt zich in het aanmeldingsvak van AEM voor elke revisor.
 - Wanneer een recensent een overzichtsverbinding opent en aan een bepaald onderwerp navigeert dat het onderwerp aan de Onderwerpen Gereviseerde lijst wordt toegevoegd. Op deze manier kunnen auteurs bepalen of de revisoren hun respectievelijke secties al dan niet hebben geopend. Eventuele opmerkingen worden tussen haakjes weergegeven.
 - Het totale aantal opmerkingen over alle onderwerpen. In het geval van veelvoudige onderwerpen onder overzicht, wordt het aantal commentaren voor elk onderwerp vermeld \ (tussen haakjes \) naast de onderwerpnaam.
 - De datum waarop een onderwerp voor het laatst is geopend door de revisor.

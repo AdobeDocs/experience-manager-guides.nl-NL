@@ -3,7 +3,9 @@ title: Bestanden en mappen beheren
 description: Leer hoe u bestanden en mappen in AEM Guides beheert. Kopieer en plak, sleep en zet bestanden en mappen in bulk en zoek naar DITA-inhoud.
 feature: Content Management
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 35663aa1-9e52-4909-aaee-0f01cf47dc64
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
 source-wordcount: '3109'
 ht-degree: 0%
@@ -60,13 +62,13 @@ In deze sectie wordt uitgelegd hoe AEM Guides de basisbestandsbewerkingen, zoals
 
   >[!NOTE]
   >
-  > **creeer nieuwe Versie voor Geüploade eigenschap van het Dossier** moet door uw beheerder worden toegelaten. Als deze functie is ingeschakeld, wordt een nieuwe versie voor het geüploade bestand gemaakt. Als deze optie is uitgeschakeld, wordt er geen versie van het geüploade bestand gemaakt. Voor meer details, zie *Nieuwe Versie voor Geüploade Dossier* sectie in installeren en vormen as a Cloud Service Adobe Experience Manager Guides.
+  > **creeer nieuwe Versie voor Geüploade eigenschap van het Dossier** moet door uw beheerder worden toegelaten. Als deze functie is ingeschakeld, wordt een nieuwe versie voor het geüploade bestand gemaakt. Als deze optie is uitgeschakeld, wordt er geen versie van het geüploade bestand gemaakt. Voor meer details, zie *Nieuwe Versie voor Geüploade Dossier* sectie in installeren en vormen Adobe Experience Manager Guides as a Cloud Service.
 
   Als een bestand al is uitgecheckt voor bewerkingen door een andere gebruiker en u probeert het bestaande bestand te uploaden en te overschrijven, mislukt het en wordt een fout weergegeven.
 
   >[!NOTE]
   >
-  >Het **overschrijven Uitgecheckte Dossier op uploadt** eigenschap moet door uw beheerder worden onbruikbaar gemaakt. Als deze functie is ingeschakeld, kunt u uitgecheckte bestanden overschrijven. Als de functie niet is ingeschakeld, kan een uitgecheckt bestand niet worden overschreven. Voor meer details, zie *Uitgecheckt Dossier op Upload* sectie in installeer en vorm as a Cloud Service Adobe Experience Manager Guides.
+  >Het **overschrijven Uitgecheckte Dossier op uploadt** eigenschap moet door uw beheerder worden onbruikbaar gemaakt. Als deze functie is ingeschakeld, kunt u uitgecheckte bestanden overschrijven. Als de functie niet is ingeschakeld, kan een uitgecheckt bestand niet worden overschreven. Voor meer details, zie *Uitgecheckt Dossier op Upload* sectie in installeer en vorm Adobe Experience Manager Guides as a Cloud Service.
 
 
 - *belemmering-en-dalingsdossiers op verschillende plaats*: Een nieuw exemplaar van het dossier wordt gecreeerd en een nieuwe UUID wordt ook toegewezen aan het bij de nieuwe plaats. Hier is de bestandsnaam gelijk aan de oorspronkelijke bestandsnaam.
@@ -82,7 +84,7 @@ Als het bestand wordt overschreven, is er geen wijziging in de bestandsnaam of d
 
 Als u **selecteert creeer Versie voor de Bestaande het Werken optie van het Exemplaar**, dan wordt een nieuwe versie van het werkende exemplaar van het document gecreeerd; het nieuwe dossier wordt geupload, wordt een nieuwe versie van het dossier ook gecreeerd, en het wordt gemaakt als het werkende exemplaar van het document.
 
-**creeer nieuwe Versie voor Geüploade eigenschap van het Dossier** moet door uw beheerder worden toegelaten. Als deze functie is ingeschakeld, wordt een nieuwe versie voor het geüploade bestand gemaakt. Als deze optie is uitgeschakeld, wordt er geen versie van het geüploade bestand gemaakt. Voor meer details, zie *Nieuwe Versie voor Geüploade dossier* sectie tot stand brengen in installeer en vorm as a Cloud Service Adobe Experience Manager Guides.
+**creeer nieuwe Versie voor Geüploade eigenschap van het Dossier** moet door uw beheerder worden toegelaten. Als deze functie is ingeschakeld, wordt een nieuwe versie voor het geüploade bestand gemaakt. Als deze optie is uitgeschakeld, wordt er geen versie van het geüploade bestand gemaakt. Voor meer details, zie *Nieuwe Versie voor Geüploade dossier* sectie in installeer en vorm Adobe Experience Manager Guides as a Cloud Service.
 
 
 *belemmering-en-dalingsdossier bij verschillende plaats*: U wordt gegeven de opties **Bestaande Dossier \ (s \)**, **Beweging \(s \) aan Nieuwe Plaats**, en een optie om een versie van het bestaande werkende exemplaar tot stand te brengen.
@@ -98,11 +100,11 @@ Als u bij het vervangen of verplaatsen van de bestanden de optie kiest om een ve
 
 ## Bestanden bulksgewijs verplaatsen {#move-files-bulk}
 
-AEM Guides wordt geleverd met het gereedschap Bulk verplaatsen, waarmee een beheerder een map met een groot aantal bestanden van de ene locatie naar de andere kan verplaatsen. Met dit gereedschap kunt u bestanden in een of meer mappen gemakkelijk naar een andere map in uw AEM opslagplaats verplaatsen. Een van de belangrijkste functies van dit gereedschap is dat het niet alleen een groot aantal bestanden verplaatst, maar ook de verwijzingen naar en van de bestanden die worden verplaatst, behoudt. U kunt het aantal bestanden dat u in batches kunt verplaatsen, bijstellen zonder de ontwerp- en publicatietaken te hinderen.
+AEM Guides wordt geleverd met het gereedschap Bulk verplaatsen, waarmee een beheerder een map met een groot aantal bestanden van de ene locatie naar de andere kan verplaatsen. Met dit programma kunt u bestanden in een of meer mappen gemakkelijk naar een andere map in uw AEM-opslagplaats verplaatsen. Een van de belangrijkste functies van dit gereedschap is dat het niet alleen een groot aantal bestanden verplaatst, maar ook de verwijzingen naar en van de bestanden die worden verplaatst, behoudt. U kunt het aantal bestanden dat u in batches kunt verplaatsen, bijstellen zonder de ontwerp- en publicatietaken te hinderen.
 
 >[!NOTE]
 >
-> Het gereedschap Bulk verplaatsen werkt alleen op mapniveau. Als u individuele onderwerp of kaartdossiers wilt bewegen, dan gebruik het regelmatige verplaatsingshulpmiddel van AEM UI van Assets.
+> Het gereedschap Bulk verplaatsen werkt alleen op mapniveau. Als u individuele onderwerp of kaartdossiers wilt bewegen, dan gebruik het regelmatige verplaatsingshulpmiddel van AEM Assets UI.
 
 Hieronder vindt u een aantal functies van het gereedschap Bulk verplaatsen:
 
@@ -130,7 +132,7 @@ Voer de volgende stappen uit om bestanden in bulk te verplaatsen:
 
    <details>
 
-   <summary> Cloud Servicen en op locatie gebaseerd UUID-bestandssysteem </summary>
+   <summary> Cloud Services en op locatie gebaseerd UUID-bestandssysteem </summary>
 
    ![](images/bulk-move-tool-uuid.png){width="650" align="center"}
 
@@ -217,7 +219,7 @@ Voer de volgende stappen uit om bestanden in bulk te verplaatsen:
 
 ## DITA-inhoud zoeken
 
-AEM herkent standaard geen DITA-inhoud, waardoor het geen mechanisme biedt om DITA-inhoud in de opslagplaats te doorzoeken. AEM Guides voegt een laag boven op AEM toe, zodat AEM DITA-inhoud kan begrijpen en verwerken. Met de zoekfunctie voor DITA-inhoud in AEM Guides kunt u zoeken naar DITA-inhoud in AEM opslagplaats.
+AEM herkent standaard geen DITA-inhoud en biedt dus geen mechanisme om DITA-inhoud in de opslagplaats te doorzoeken. AEM Guides voegt een laag toe boven op AEM, waarmee AEM DITA-inhoud kan begrijpen en verwerken. Met de zoekfunctie voor DITA-inhoud in AEM Guides kunt u zoeken naar DITA-inhoud in de AEM-opslagruimte.
 
 >[!NOTE]
 >
@@ -229,7 +231,7 @@ Met de zoekfunctie kunt u:
 - Zoeken naar DITA-inhoud op basis van een kenmerkwaarde, bijvoorbeeld `@platform`= windows
 - Gebruik een combinatie van DITA-element en kenmerkwaarde, bijvoorbeeld `author`= xml `AND` `@platform`= windows
 
-Voer de volgende stappen uit om te zoeken naar DITA-inhoud in AEM opslagplaats:
+Voer de volgende stappen uit om te zoeken naar DITA-inhoud in de AEM-opslagplaats:
 
 1. Open de gebruikersinterface van Assets.
 
@@ -275,7 +277,7 @@ Voer de volgende stappen uit om naar bestanden te zoeken op basis van hun uitche
 
 ## Bestanden verwijderen
 
-Het verwijderen van bestanden uit AEM opslagplaats is een beperkte functie die wordt beheerd door uw systeembeheerder. Op basis van de configuraties kan het verwijderen van bestanden worden beperkt als ze:
+Het verwijderen van bestanden uit de AEM-opslagplaats is een beperkte functie die wordt beheerd door uw systeembeheerder. Op basis van de configuraties kan het verwijderen van bestanden worden beperkt als ze:
 
 - Uitgecheckt
 - Inkomende of uitgaande referenties hebben
@@ -284,7 +286,7 @@ U kunt bestanden alleen verwijderen als u tot een specifieke gebruikersgroep beh
 
 >[!NOTE]
 >
-> Voor meer details op de configuraties op dossierbeheer, zie *schrapping van gecontroleerde dossiers* verhinderen en *schrapping van referenced dossiers* secties in installeren en vormen as a Cloud Service van Adobe Experience Manager Guides verhinderen.
+> Voor meer details op de configuraties op dossierbeheer, zie *schrapping van gecontroleerde dossiers* verhinderen en *schrapping van referenced dossiers* secties in installeren en vormen Adobe Experience Manager Guides as a Cloud Service.
 
 Als uw beheerder alle gebruiker toestemming heeft gegeven om het bestand te verwijderen, wordt het volgende bericht weergegeven wanneer u bestanden met verwijzingen verwijdert:
 

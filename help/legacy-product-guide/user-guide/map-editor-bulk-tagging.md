@@ -3,7 +3,9 @@ title: Labels in bulk voor DITA-inhoud
 description: Gebruik bulksgewijs labelen van inhoud in AEM Guides om de ontdekkingsmogelijkheden voor DITA-inhoud te verbeteren. Leer hoe u bulkcodes op één of meerdere onderwerpen toepast, verwijdert, weergeeft of verbergt.
 feature: Metadata Management
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: b320e34f-ee0a-4cc3-b4f6-d322fbb29844
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
@@ -14,9 +16,9 @@ ht-degree: 0%
 
 Met labels kunt u inhoud groeperen of classificeren in de gegevensopslagruimte en ook in de gepubliceerde uitvoer. Als u labels op uw inhoud hebt toegepast, kunt u gemakkelijk verwante onderwerpen zoeken in een DITA-kaart die u kan helpen bij het ontwerpen van inhoud. Met de gepubliceerde uitvoer kunnen eindgebruikers de juiste inhoud sneller vinden met de juiste tags.
 
-Met AEM Guides kunt u DITA-inhoud na een paar klikken labelen. U kunt de bulketiketterende eigenschap gebruiken om veelvoudige markeringen op veelvoudige onderwerpen, een kaart DITA, of op een sub-kaart toe te passen. U kunt ook labels toepassen op een afzonderlijk onderwerp. Het etiketteren is de inheemse eigenschap in AEM, kunt u meer details over het creëren van en het leiden van markeringen in de [ Beheersende sectie van Markeringen ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) in AEM documentatie vinden.
+Met AEM Guides kunt u DITA-inhoud na een paar klikken labelen. U kunt de bulketiketterende eigenschap gebruiken om veelvoudige markeringen op veelvoudige onderwerpen, een kaart DITA, of op een sub-kaart toe te passen. U kunt ook labels toepassen op een afzonderlijk onderwerp. Het etiketteren is de inheemse eigenschap in AEM, kunt u meer details over het creëren van en het leiden van markeringen in de [ Beheersende sectie van Markeringen ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) in de documentatie van AEM vinden.
 
-AEM Guides geeft standaard geen leestoegang aan gebruikers in de map waarin alle tags in de AEM zijn opgeslagen. Als u tags wilt gebruiken die zijn gedefinieerd in de AEM opslagplaats, moet u de systeembeheerder vragen toegang te verlenen tot de map waarin de tags zijn opgeslagen.
+AEM Guides geeft standaard geen leestoegang aan gebruikers in de map waarin alle tags in de AEM-opslagplaats zijn opgeslagen. Als u tags wilt gebruiken die zijn gedefinieerd in de AEM-opslagplaats, moet u de systeembeheerder vragen toegang te verlenen tot de map waarin de tags zijn opgeslagen.
 
 ## Bulktags toepassen
 

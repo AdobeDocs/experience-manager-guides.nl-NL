@@ -3,7 +3,9 @@ title: Een inhoudsfragment uit uw gegevensbron invoegen
 description: Gebruik gegevens uit uw gegevensbron in AEM Guides. Leer hoe u een inhoudsfragment uit uw gegevensbron invoegt. Creeer een onderwerp gebruikend de onderwerpgenerator.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
+hide: true
+exl-id: ca557b73-8608-4fdd-8e11-adc6de2ad82a
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '2389'
 ht-degree: 0%
@@ -23,12 +25,12 @@ Selecteer **Gegevensbronnen** ![ gegevensbron ](images/data-source-icon.svg) in 
 Gebaseerd op uw opstelling kan uw beheerder een gegevensbronschakelaar vormen:
 
 <details>
-<summary> Cloud Servicen </summary>
+<summary> Cloud Services </summary>
 
 
-- Als u de versie van Oktober 2023 of later gebruikt, leer hoe te [ een gegevensbronschakelaar van het gebruikersinterface ](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md) in de Gids van de Installatie en van de Configuratie van Cloud Servicen vormen.
+- Als u de versie van Oktober 2023 of recenter gebruikt, leer hoe te [ een gegevensbronschakelaar van het gebruikersinterface ](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md) in de Gids van de Installatie en van de Configuratie van de Diensten van de Wolk vormen.
 
-- Als u de versie van juli 2023 of September 2023 gebruikt, leer hoe te [ een gegevensbronschakelaar ](/help/product-guide/cs-install-guide/conf-data-source-connector.md) in de Gids van de Installatie en van de Configuratie van Cloud Servicen vormen.
+- Als u de versie van juli 2023 of September 2023 gebruikt, leer hoe te [ een gegevensbronschakelaar ](/help/product-guide/cs-install-guide/conf-data-source-connector.md) in de Gids van de Installatie en van de Configuratie van de Diensten van de Wolk vormen.
 
 </details>
 
@@ -279,7 +281,7 @@ Klik op een onderwerpgenerator met de rechtermuisknop aan om de **Opties** te op
 
 ## De hulpmiddelen van de Snelheid van het gebruik in de gegevensbronmalplaatjes {#use-velocity-tools}
 
-Experience Manager sjablonen ondersteunen ook de snelheidsgereedschappen (versie 2.0). Met deze gereedschappen kunt u verschillende functies toepassen op de gegevens die u ophaalt van de gegevensbronnen. Leer meer over het gebruik van de [ hulpmiddelen van de Snelheid ](https://velocity.apache.org/tools/2.0/generic.html) en de functies die u kunt toepassen.
+Experience Manager-sjablonen ondersteunen ook de snelheidsgereedschappen (versie 2.0). Met deze gereedschappen kunt u verschillende functies toepassen op de gegevens die u ophaalt van de gegevensbronnen. Leer meer over het gebruik van de [ hulpmiddelen van de Snelheid ](https://velocity.apache.org/tools/2.0/generic.html) en de functies die u kunt toepassen.
 
 Voer de volgende stappen uit om een hulpmiddel van de Snelheid in een malplaatje te gebruiken:
 1. Bewerk een snelheidssjabloon in de webeditor.

@@ -4,9 +4,9 @@ user-guide-description: Lees de productdocumentatie voor Adobe Experience Manage
 breadcrumb-title: Documentatie voor AEM Guides
 hide: true
 badgeAll: label="Oude UI-gids - Meer informatie" type="Informative" url="/help/legacy-product-guide/disclaimer.md" tooltip="Oude UI-gids"
-source-git-commit: 293d2fd9c015a4ec516080b9e5dfed32b96639b7
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '573'
 ht-degree: 0%
 
 ---
@@ -46,6 +46,8 @@ ht-degree: 0%
                - [Weergaven van de webeditor](./user-guide/web-editor-views.md)
                - [Ondersteuning voor Schematron-bestanden](./user-guide/support-schematron-file.md)
                - [Slimme suggesties voor AI-toepassingen om inhoud te ontwerpen](./user-guide/authoring-ai-based-smart-suggestions.md)
+               - [Slimme Help van AI om inhoud te zoeken](./user-guide/ai-based-smart-help.md)
+               - [AI Assistant voor het schrijven van documenten met slimme efficiëntie](./user-guide/ai-assistant-right-panel.md)
                - [De documenten van de Prijsverhoging van de auteur van het Web](./user-guide/web-editor-markdown-topic.md)
                - [citaten toevoegen aan uw inhoud](./user-guide/web-editor-apply-citations.md)
                - [Gegevens uit uw gegevensbronnen gebruiken](./user-guide/web-editor-content-snippet.md)
@@ -117,6 +119,7 @@ ht-degree: 0%
       - [Basisprobleemoplossing](./user-guide/generate-output-basic-troubleshooting.md)
       - [Inhoudsfragmenten publiceren](./user-guide/publish-content-fragment.md)
       - [Fragmenten voor ervaring publiceren](./user-guide/publish-experience-fragment.md)
+      - [AEM Sites-pagina&#39;s publiceren](./user-guide/publish-aem-sites.md)
       - Bulkactivering van inhoud {#bulk-activation}
          - [Bulkactivering van gepubliceerde inhoud](./user-guide/conf-bulk-activation.md)
          - [Een verzameling bulkactiveringskaarten maken](./user-guide/conf-bulk-activation-create-map-collection.md)

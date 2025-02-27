@@ -1,9 +1,11 @@
 ---
 title: Een verzameling bulkactiveringskaarten maken
-description: Leer hoe u een bulkactiveringskaartverzameling maakt in AEM hulplijnen.
+description: Leer hoe u een bulkactiveringskaartverzameling maakt in AEM-hulplijnen.
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: a242efde-2b29-4d2b-8a50-fd4ae7e8f239
+source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
 workflow-type: tm+mt
 source-wordcount: '735'
 ht-degree: 0%
@@ -18,7 +20,7 @@ Voer de volgende stappen uit om een bulkactiveringskaartverzameling te maken:
 
 1. Selecteer de verbinding van Adobe Experience Manager bij de bovenkant en kies **Hulpmiddelen**.
 
-1. Selecteer het **BulkPublish Dashboard** tegel.
+1. Selecteer het **Bulk publiceer dashboard** tegel.
 
    Voor het eerst wordt een lege verzamelingspagina weergegeven. Als u eerder bulkactiveringsverzamelingen hebt gemaakt, worden deze op deze pagina weergegeven.
 
@@ -75,7 +77,7 @@ Het **lusje van de Geschiedenis van de Controle** stelt informatie over de geact
 - **Taal**: Toont de taalcode van de kaart DITA.
 - **Vooraf ingesteld**: Toont de titel van de output die op het kaartdossier wordt gevormd. Het pictogram wordt ook weergegeven op basis van het type uitvoervoorinstelling.
 - **Status**: Toont het statuut van activering als succesvol of niet succesvol.
-- **Doel**: Als u de output op as a Cloud Service Experience Manager Guides produceert, kunt u de bestemming van de output als Publish of Voorproef bekijken.
+- **Doel**: Als u de output op Experience Manager Guides as a Cloud Service produceert, kunt u de bestemming van de output als publiceren of Voorproef bekijken.
 
   >[!NOTE]
   >
@@ -99,7 +101,7 @@ Het **lusje van de Geschiedenis van de Controle** stelt informatie over de geact
 De volgende filteropties zijn beschikbaar in het linkerdeelvenster:
 
 - **Gewijzigd**: U kunt ja of Nr selecteren. Als u ja selecteert, slechts worden de gewijzigde kaarten DITA getoond. Een gewijzigde kaart is een kaart die is gegenereerd sinds deze voor het laatst is gepubliceerd.
-- **vooraf ingesteld**: Selecteer vooraf ingesteld waarvoor u de kaartdossiers wilt uit filtreren. In deze kolom wordt de titel weergegeven van de uitvoervoorinstelling die in het kaartbestand is geconfigureerd. Bijvoorbeeld, als u *AEM* vooraf ingestelde Plaats kiest, dan slechts worden die kaarten getoond die de *AEM* output hebben die op hen wordt gevormd.
+- **vooraf ingesteld**: Selecteer vooraf ingesteld waarvoor u de kaartdossiers wilt uit filtreren. In deze kolom wordt de titel weergegeven van de uitvoervoorinstelling die in het kaartbestand is geconfigureerd. Bijvoorbeeld, als u *vooraf ingesteld van de Plaats van 0} AEM kiest, dan slechts worden die kaarten getoond die de* vooraf ingestelde 3} output van de Plaats van AEM hebben die op hen wordt gevormd.**
 - **Taal**: U kunt om het even welke beschikbare taalcodes selecteren en slechts de geselecteerde taal tonen in de Kaarten en stelt tabel vooraf in.
 
 De filters worden bijgewerkt wanneer u van de **Kaarten en vooraf instelt** lusje aan het **lusje van de Geschiedenis van de Controle** schakelt en vice versa.

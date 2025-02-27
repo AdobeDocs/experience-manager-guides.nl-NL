@@ -3,7 +3,9 @@ title: Publiceren op basis van artikelen vanuit de webeditor
 description: Leer hoe u een of meer artikelen publiceert vanuit de webeditor. Produceer output voor één of meerdere onderwerpen in een kaart DITA in AEM Guides.
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: ddd6da80-d179-4da3-bff2-915c17bb6e5a
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 0%
@@ -14,7 +16,7 @@ ht-degree: 0%
 
 AEM Guides komt met een op artikel-gebaseerde het publiceren eigenschap die binnen de Redacteur van het Web wordt geïntegreerd die de gebruikers toestaat om één of meerdere onderwerpen gelijktijdig te publiceren.
 
-Deze engine wordt ook geleverd met een sjabloon voor OOTB-inhoud, die is gebaseerd op AEM kerncomponenten, waarmee gebruikers een op kennis gebaseerde opslagplaats voor de technische inhoud kunnen maken. Deze sjabloon kan worden aangepast aan de behoeften van de klanten. Met deze engine kunnen de gebruikers de DITA-kaart op een additieve manier bouwen en onderwerpen publiceren wanneer ze klaar zijn. U kunt de uitvoervoorinstellingen voor uw kaart gemakkelijk maken die in het deelvenster Kaartweergave worden geopend en snel de uitvoer voor een of meer onderwerpen van dezelfde kaart genereren.
+Deze engine wordt ook geleverd met een sjabloon voor OOTB-inhoud, die is gebaseerd op AEM-kerncomponenten, waarmee gebruikers een op kennis gebaseerde opslagplaats voor de technische inhoud kunnen maken. Deze sjabloon kan worden aangepast aan de behoeften van de klanten. Met deze engine kunnen de gebruikers de DITA-kaart op een additieve manier bouwen en onderwerpen publiceren wanneer ze klaar zijn. U kunt de uitvoervoorinstellingen voor uw kaart gemakkelijk maken die in het deelvenster Kaartweergave worden geopend en snel de uitvoer voor een of meer onderwerpen van dezelfde kaart genereren.
 
 Als u de inhoud slechts voor een paar onderwerpen in uw kaart DITA hebt bijgewerkt, moet u niet altijd de volledige kaart publiceren. U kunt slechts de bijgewerkte onderwerpen van de Redacteur van het Web selecteren en publiceren.
 
@@ -22,7 +24,7 @@ Als u de inhoud slechts voor een paar onderwerpen in uw kaart DITA hebt bijgewer
 >
 > Publiceren op basis van artikelen is alleen van toepassing op AEM Site-uitvoer.
 
-Voor op artikel-gebaseerde het publiceren, moet u de output vooraf ingesteld voor uw kaart DITA van de Redacteur van het Web tot stand brengen. Uw kaart moet de onderwerpen omvatten die u wilt publiceren. U kunt ook voorwaarden toepassen en de AEM Sitedetails opgeven voor de uitvoervoorinstelling. Vervolgens kunt u uitvoer genereren met de functie Voorinstelling genereren.
+Voor op artikel-gebaseerde het publiceren, moet u de output vooraf ingesteld voor uw kaart DITA van de Redacteur van het Web tot stand brengen. Uw kaart moet de onderwerpen omvatten die u wilt publiceren. U kunt ook voorwaarden toepassen en de AEM-sitedetails voor de uitvoervoorinstelling opgeven. Vervolgens kunt u uitvoer genereren met de functie Voorinstelling genereren.
 
 U kunt ook de uitvoervoorinstellingen gebruiken die voor uw DITA-kaart zijn gemaakt, om de uitvoer te genereren vanuit het deelvenster Opslagplaats of Kaart. U kunt de output voor één of meerdere onderwerpen, of voor de volledige kaart produceren DITA.
 

@@ -3,7 +3,9 @@ title: Werken met de basiskaarteditor
 description: Leer hoe u met de Basic Map Editor in AEM Guides werkt. Ken de eigenschappen van de basiskaartredacteur op kaartniveau en onderwerpniveau. Creeer en geef relatietabellen in een kaart DITA uit.
 feature: Authoring, Map Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 194caf31-15ae-436d-bbd4-3ea4907c7877
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1471'
 ht-degree: 0%
@@ -17,7 +19,7 @@ ht-degree: 0%
 > De Basic Map Editor, die voorheen beschikbaar was in Experience Manager Guides, is vanaf versie 4.3 en 2307 vervangen. U kunt tot de Basis Redacteur van de Kaart niet toegang hebben om kaarten te creëren en te beheren DITA.
 >U wordt geadviseerd om de Geavanceerde Redacteur van de Kaart te gebruiken. De geavanceerde Kaarteditor biedt verbeterde functies en betere aanpassingsopties. Onderzoek meer over hoe te met de [ Geavanceerde Redacteur van de Kaart ](../user-guide/map-editor-advanced-map-editor.md) te werken.
 
-De Basis Redacteur van de Kaart verstrekt een gemakkelijke belemmering-en-dalingseigenschap om onderwerpen van uw AEM bewaarplaats toe te voegen om de kaart DITA of bookmap tot stand te brengen. U kunt geneste onderwerpen, relatietabellen \(reltable\), attributen en meta-gegevensinformatie toevoegen, en ook de kaart voor correctheid bevestigen.
+De Basis Redacteur van de Kaart verstrekt een gemakkelijke belemmering-en-dalingseigenschap om onderwerpen van uw bewaarplaats van AEM toe te voegen om de kaart DITA of bookmap tot stand te brengen. U kunt geneste onderwerpen, relatietabellen \(reltable\), attributen en meta-gegevensinformatie toevoegen, en ook de kaart voor correctheid bevestigen.
 
 >[!NOTE]
 >

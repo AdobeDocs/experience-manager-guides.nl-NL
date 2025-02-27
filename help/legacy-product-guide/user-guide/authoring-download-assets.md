@@ -1,9 +1,11 @@
 ---
 title: Bestanden downloaden
-description: Leer hoe u bestanden downloadt van de DITA-kaartconsole in AEM Guides en een DITA-kaartbestand exporteert in AEM opslagplaats.
+description: Leer hoe u bestanden downloadt van de DITA-kaartconsole in AEM Guides en een DITA-kaartbestand exporteert in de AEM-opslagplaats.
 feature: Content Management
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: b04a0abe-a029-44ac-b8f4-138d78908d44
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 0%
@@ -12,11 +14,11 @@ ht-degree: 0%
 
 # Bestanden downloaden {#id216MC0H0BE8}
 
-U kunt elementen downloaden, zoals DITA- en niet-DITA-bestanden. Er zijn meerdere manieren waarop u elementen kunt downloaden. Sommige methoden zijn native voor AEM en andere worden ondersteund door AEM Guides. Voor inheemse AEM activa downloadinformatie, zie [ activa van de Download van Adobe Experience Manager ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html) in AEM documentatie. In de volgende sectie wordt uitgelegd hoe u bestanden downloadt via de DITA-kaartconsole in AEM Guides.
+U kunt elementen downloaden, zoals DITA- en niet-DITA-bestanden. Er zijn meerdere manieren waarop u elementen kunt downloaden. Sommige methoden zijn native voor AEM en andere worden ondersteund door AEM Guides. Voor de inheemse informatie van de activadownload van AEM, zie [ activa van Adobe Experience Manager ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html) in de documentatie van AEM downloaden. In de volgende sectie wordt uitgelegd hoe u bestanden downloadt via de DITA-kaartconsole in AEM Guides.
 
 ## Een DITA-toewijzingsbestand exporteren
 
-Zodra u het DITA kaartdossier in de AEM bewaarplaats hebt, kunt u het kaartdossier samen met zijn gebiedsdelen downloaden. Dit geeft u de flexibiliteit om het volledige kaartdossier voor off-line het uitgeven, bevestiging, overzicht, of eenvoudig het creëren van een steun te delen.
+Als u het DITA-kaartbestand eenmaal in de AEM-opslagplaats hebt, kunt u het kaartbestand samen met de afhankelijke bestanden downloaden. Dit geeft u de flexibiliteit om het volledige kaartdossier voor off-line het uitgeven, bevestiging, overzicht, of eenvoudig het creëren van een steun te delen.
 
 Voer de volgende stappen uit om een DITA kaartdossier samen met zijn afhankelijke dossiers te downloaden:
 
@@ -46,11 +48,11 @@ Voer de volgende stappen uit om een DITA kaartdossier samen met zijn afhankelijk
 
    - Klik **Download** om het kaartdossier in.zip formaat te downloaden.
 
-   - Klik **Later Download** om het kaartdossier in een recentere tijd te downloaden. De downloadkoppeling is toegankelijk via het AEM-meldingsvak. Klik op het gegenereerde kaartbericht in het Postvak In om de kaart in de ZIP-indeling te downloaden.
+   - Klik **Later Download** om het kaartdossier in een recentere tijd te downloaden. U kunt de downloadkoppeling openen via het AEM-meldingsvak. Klik op het gegenereerde kaartbericht in het Postvak In om de kaart in de ZIP-indeling te downloaden.
 
    >[!NOTE]
    >
-   > Standaard blijven de gedownloade kaarten vijf dagen in het AEM-vak.
+   > Standaard blijven de gedownloade kaarten vijf dagen in het AEM-berichtvenster Inbox staan.
 
 ![](images/download-map-inbox.png){width="300" align="left"}
 

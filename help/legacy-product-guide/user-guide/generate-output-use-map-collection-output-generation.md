@@ -3,7 +3,9 @@ title: Kaartverzameling gebruiken voor het genereren van uitvoer
 description: Leer om een kaartinzameling tot stand te brengen en te schrappen en een kaart toe te voegen of te schrappen DITA. Vorm, produceer en annuleer een taak van de outputgeneratie van een kaartinzameling in AEM Guides.
 feature: Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 4215618f-2203-4c55-adba-cdec76322e9e
+source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 0%
@@ -54,7 +56,7 @@ De volgende filteropties en kaartdetails worden getoond op de inzamelingspagina:
 
 - **Filter:** de laagste spoorstaaf toont de volgende filters:
    - **Gewijzigd**: U kunt ja of Nr selecteren. Als u ja selecteert, slechts zullen de gewijzigde kaarten DITA in de Kaarten en de Vooraf ingestelde lijst worden getoond.
-   - **vooraf ingesteld**: Selecteer vooraf ingesteld waarvoor u de kaartdossiers wilt uit filtreren. Bijvoorbeeld, als u *AEM* vooraf ingestelde Plaats kiest, dan slechts worden die kaarten getoond die de *AEM* output hebben die op hen wordt gevormd.
+   - **vooraf ingesteld**: Selecteer vooraf ingesteld waarvoor u de kaartdossiers wilt uit filtreren. Bijvoorbeeld, als u *vooraf ingesteld van de Plaats van 0} AEM kiest, dan slechts worden die kaarten getoond die de* vooraf ingestelde 3} output van de Plaats van AEM hebben die op hen wordt gevormd.**
    - **Taal**: U kunt om het even welke beschikbare taalcodes selecteren en slechts de geselecteerde taal in de Kaarten en vooraf instelt lijst tonen.
 - **Kaarten en stelt** lijst vooraf in: De Kaarten en stellen lijst vooraf in stelt informatie in de volgende kolommen voor:
    - **Kaart**: Toont de titel van het DITA kaartdossier.
@@ -69,7 +71,7 @@ De volgende filteropties en kaartdetails worden getoond op de inzamelingspagina:
 
 Om de output te vormen en te produceren gebruikend een Inzameling van de Kaart, voer de volgende stappen uit:
 
-1. Open de verzameling Kaarten. U kunt de verschillende uitvoervoorinstellingen bekijken, zoals de voorinstellingen AEM Site, PDF (inclusief native PDF), HTML5, EPUB en Aangepast. U kunt ook de voorinstellingen voor het algemene profiel en het mapprofiel weergeven die door de beheerder zijn gemaakt.
+1. Open de verzameling Kaarten. U kunt de verschillende uitvoervoorinstellingen weergeven, zoals de AEM-site, PDF (inclusief native PDF), HTML5, EPUB en aangepaste voorinstellingen. U kunt ook de voorinstellingen voor het algemene profiel en het mapprofiel weergeven die door de beheerder zijn gemaakt.
 
    Met het pictogram ![](images/global-preset-icon.svg) wordt een voorinstelling voor het mapprofielniveau aangegeven.
 1. \(Optioneel\) Voer naar wens een van de volgende handelingen uit:
@@ -137,7 +139,7 @@ Hierdoor worden ook eventuele voorinstellingen of landinstellingen die aan de DI
 
 ## Annuleer een taak van de outputgeneratie van een Inzameling van de Kaart
 
-Gelijkaardig aan de manier om een taak van de outputgeneratie van de [ DITA kaartconsole ](generate-output-for-a-dita-map.md#id2061H100T5Z) of het [ dashboard van Publish ](generate-output-publish-dashboard.md#) te annuleren, kunt u een taak van de outputgeneratie van een Inzameling van de Kaart annuleren. Heb toegang tot het lusje van Output van een Inzameling van de Kaart, en ga naar publiceren taak die u wilt annuleren, en **klikken annuleert dit Taakpictogram** om publicatietaak te annuleren.
+Gelijkaardig aan de manier om een taak van de outputgeneratie van de [ DITA kaartconsole ](generate-output-for-a-dita-map.md#id2061H100T5Z) of [ te annuleren publiceer Dashboard ](generate-output-publish-dashboard.md#), kunt u een taak van de outputgeneratie van een Inzameling van de Kaart annuleren. Heb toegang tot het lusje van Output van een Inzameling van de Kaart, en ga naar publiceren taak die u wilt annuleren, en **klikken annuleert dit Taakpictogram** om publicatietaak te annuleren.
 
 ![](images/cancel-publish-task-map-collection.png){width="800" align="left"}
 

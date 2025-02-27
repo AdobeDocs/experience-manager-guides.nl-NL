@@ -3,7 +3,9 @@ title: Een DITA-project maken
 description: Maak een DITA-project met een sjabloon in AEM Guides. Leer hoe u een DITA-project kunt gebruiken om de revisies te starten.
 feature: Reviewing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 1b29c50a-04d0-4052-b893-44fb8bcc3c97
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
@@ -20,7 +22,7 @@ U kunt teamleden aan een project toevoegen die dan diverse rollen - Auteurs, Rec
 
 Zodra u uw project DITA hebt gecreeerd, kunt u uw overzicht van de Redacteur van het Web of de UI van Assets in werking stellen. Voor meer details, zie [ onderwerpen voor overzicht ](review-send-topics-for-review.md#) verzenden.
 
-En als een auteur een revisiewerkstroom start, krijgen de geselecteerde leden van het project een e-mailmelding. Om e-mailberichten te vormen, zie *e-mailmalplaatjes* aanpassen in installeer en vorm as a Cloud Service Adobe Experience Manager Guides.
+En als een auteur een revisiewerkstroom start, krijgen de geselecteerde leden van het project een e-mailmelding. Om e-mailberichten te vormen, zie *e-mailmalplaatjes* aanpassen in installeer en vorm Adobe Experience Manager Guides as a Cloud Service.
 
 Voer de volgende stappen uit om een DITA-project tot stand te brengen:
 

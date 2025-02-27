@@ -1,20 +1,22 @@
 ---
-title: Een onderwerp naar een ervaringsfragment Publish
-description: Publish een onderwerp of de elementen binnen een onderwerp aan een Fragment van de Ervaring in AEM Guides.  Leer hoe te om de Fragments van de Ervaring voor een onderwerp te bekijken en hen opnieuw te publiceren.
+title: Een onderwerp publiceren naar een ervaringsfragment
+description: Publiceer een onderwerp of de elementen binnen een onderwerp aan een Fragment van de Ervaring in AEM Guides.  Leer hoe te om de Fragments van de Ervaring voor een onderwerp te bekijken en hen opnieuw te publiceren.
 feature: Publishing
 role: User
-source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
+hide: true
+exl-id: c3c6c063-441c-413b-a63e-0acbd126ca6d
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 0%
 
 ---
 
-# Publish Experience Fragmenten
+# Fragmenten voor ervaring publiceren
 
-De Fragmenten van de ervaring zijn stukken van modulaire inhoud in Adobe Experience Manager. Deze inhoudsblokken zijn gebaseerd op sjablonen en kapselen zowel de inhoud als de lay-out in. Met deze herbruikbare stukken inhoud kunnen makers van inhoud consistente, schaalbare ervaringen samenstellen en leveren op meerdere kanalen die door de Experience Manager worden ondersteund. Met deze functie kunt u eenvoudig consistente marketingervaringen maken, zoals nieuwsbrieven, promotiebanners en klantengetuigenissen.
+De Fragmenten van de ervaring zijn stukken van modulaire inhoud in Adobe Experience Manager. Deze inhoudsblokken zijn gebaseerd op sjablonen en kapselen zowel de inhoud als de lay-out in. Dankzij deze herbruikbare stukken inhoud kunnen makers van inhoud consistente, schaalbare ervaringen samenstellen en leveren op meerdere kanalen die door Experience Manager worden ondersteund. Met deze functie kunt u eenvoudig consistente marketingervaringen maken, zoals nieuwsbrieven, promotiebanners en klantengetuigenissen.
 
-Met Experience Manager Guides kunt u een onderwerp of de bijbehorende elementen publiceren naar een ervaringsfragment. U kunt een op JSON-Gebaseerde afbeelding tussen een onderwerp en zijn elementen in een Fragment van de Ervaring tot stand brengen. Dan, gebruik de afbeelding om een onderwerp of zijn elementen aan een Fragment van de Ervaring te publiceren. U kunt de Fragmenten van de Ervaring in om het even welke Plaats van de Experience Manager dan gebruiken of de details via APIs halen die door de Fragments van de Ervaring worden gesteund.
+Met Experience Manager Guides kunt u een onderwerp of de bijbehorende elementen publiceren naar een ervaringsfragment. U kunt een op JSON-Gebaseerde afbeelding tussen een onderwerp en zijn elementen in een Fragment van de Ervaring tot stand brengen. Dan, gebruik de afbeelding om een onderwerp of zijn elementen aan een Fragment van de Ervaring te publiceren. Vervolgens kunt u Experience Fragments gebruiken in elke Experience Manager-site of de details extraheren via API&#39;s die worden ondersteund door Experience Fragments.
 
 
 
@@ -45,10 +47,10 @@ Bijvoorbeeld:
 
    >[!NOTE]
    >
-   > U kunt een Fragment van de Ervaring van de **Mening van de Bewaarplaats** ook publiceren. Selecteer het onderwerp dat u als Fragment van de Ervaring wilt publiceren. Dan, van het **menu van Opties**, uitgezochte **Publish als** > **Fragment van de Ervaring**.
+   > U kunt een Fragment van de Ervaring van de **Mening van de Bewaarplaats** ook publiceren. Selecteer het onderwerp dat u als Fragment van de Ervaring wilt publiceren. Dan, van het **menu van Opties**, uitgezocht **publiceer als** > **Fragment van de Ervaring**.
 
 1. In **produceer de dialoogdoos van het Fragment van de Ervaring**, vul de volgende details in:
-   ![ voeg het fragmentmodel en de kaartdetails in Publish toe als de dialoog van het Fragment van de Ervaring ](images/experience-fragment-generate.png){width="500" align="left"}
+   ![ voeg het fragmentmodel en de kaartdetails in toe publiceren als de dialoog van het Fragment van de Ervaring ](images/experience-fragment-generate.png){width="500" align="left"}
 
    *voeg de weg, het malplaatje, en kaartdetails toe om een onderwerp of zijn elementen als Fragment van de Ervaring te publiceren. U kunt een bestaand Fragment van de Ervaring beschrijven.*
 

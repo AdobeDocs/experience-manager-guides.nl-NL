@@ -1,9 +1,11 @@
 ---
 title: Rapport voor versiehistorie van teruggedraaide bestanden
-description: Rapporten over versiehistorie van omgekeerde bestanden weergeven in AEM Guides. Leer hoe u versielogboeken kunt terugkeren vanuit de gebruikersinterface van Assets, de voorvertoning van onderwerpen en de selectie van AEM.
+description: Rapporten over versiehistorie van omgekeerde bestanden weergeven in AEM Guides. Leer hoe u versielogboeken kunt terugkeren vanuit de gebruikersinterface van Assets, de voorvertoning van onderwerpen en de gereedschapsselectie van AEM's.
 feature: Report Generation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: c787947a-b235-4c12-a9cc-eac5136d31db
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
@@ -24,7 +26,7 @@ U kunt dit rapport openen op de volgende plaatsen:
 
 - **voorproef van het Onderwerp**: wanneer u een onderwerp previewing, kunt u ook het **paneel van de Geschiedenis van de Versie** van het linkerspoor omhoog brengen. U zult een paneel gelijkend op Assets UI van waar krijgen u de **Revert Logboeken van de Versie** verbinding kunt klikken om tot de teruggekeerde versiegeschiedenis van het actieve document toegang te hebben.
 
-- **AEM de sectie van Hulpmiddelen**: u kunt tot dit rapport van de AEM sectie van Hulpmiddelen ook toegang hebben. De volgende procedure verklaart hoe u tot de omgekeerde versiegeschiedenis van de AEM sectie van Hulpmiddelen kunt toegang hebben.
+- **AEM sectie van Hulpmiddelen**: u kunt tot dit rapport van de sectie van Hulpmiddelen van AEM ook toegang hebben. In de volgende procedure wordt uitgelegd hoe u de versiegeschiedenis kunt herstellen vanuit de sectie AEM Tools.
 
 
 Voer de volgende stappen uit om tot het Terugkeren rapport van de Geschiedenis toegang te hebben:

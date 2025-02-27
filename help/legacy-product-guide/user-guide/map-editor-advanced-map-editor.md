@@ -3,8 +3,9 @@ title: Werken met de Geavanceerde Kaarteditor
 description: Leer hoe u met de geavanceerde kaarteditor in AEM Guides werkt. Ken de eigenschappen van de geavanceerde Redacteur van de Kaart. Bewerk onderwerpen via een DITA-kaart en gebruik de layoutweergave, de auteurweergave en de voorvertoningsmodus.
 feature: Authoring, Map Editor
 role: User
+hide: true
 exl-id: b63d7c0f-9c29-4fb4-b8fe-9790b16f8726
-source-git-commit: ae49df3912a5a7a3a01e5eaa08fb9f05249da29f
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '3788'
 ht-degree: 0%
@@ -65,7 +66,7 @@ Voer de volgende stappen uit om uw kaartdossier te bouwen gebruikend de Geavance
 
 1. In het LinkerComité, schakelaar aan de **Mening van de Bewaarplaats**.
 
-1. Navigeer in de AEM naar de map die de onderwerpen of submaps bevat die u wilt toevoegen.
+1. Navigeer in de AEM-opslagplaats naar de map met de onderwerpen of submaps die u wilt toevoegen.
 
 1. Selecteer het onderwerp of kaartdossier in de **Mening van de Bewaarplaats** en belemmering-en-daling het in het \ (midden \) gebied van de kaartinhoud het uitgeven.
 
@@ -97,7 +98,7 @@ Voer de volgende stappen uit om uw kaartdossier te bouwen gebruikend de Geavance
 
      ![](images/move-topic-adv-map-editor.png){width="350" align="left"}
 
-   - Om de eigenschappen van uw kaartdossier te controleren, klik overal in de kaart het uitgeven gebied met de rechtermuisknop aan en kies **Eigenschappen** van het contextmenu. Op basis van uw AEM kunt u eigenschappen zien zoals metagegevens, het plannen van \(de\)activering, verwijzingen, documentstatus en meer.
+   - Om de eigenschappen van uw kaartdossier te controleren, klik overal in de kaart het uitgeven gebied met de rechtermuisknop aan en kies **Eigenschappen** van het contextmenu. Op basis van uw AEM-versie kunt u eigenschappen zien zoals metagegevens, het plannen van \(de\)activering, verwijzingen, documentstatus en meer.
 
 1. Klik **sparen**.
 
@@ -272,7 +273,7 @@ Synchroniseert het `title` -element van een bestand waarnaar wordt verwezen in e
 
 >[!NOTE]
 >
-> Uw beheerder kan het kenmerk auto-adding `@navtitle` configureren voor elk referentiebestand dat u toevoegt aan een kaart. Voor meer details over het vormen auto-toevoegend `@navtitle` attribuut, zie *omvatten @navtitle attributen door gebrek* in installeer en vorm as a Cloud Service Adobe Experience Manager Guides.
+> Uw beheerder kan het kenmerk auto-adding `@navtitle` configureren voor elk referentiebestand dat u toevoegt aan een kaart. Voor meer details over het vormen auto-toevoegend `@navtitle` attribuut, zie *omvatten @navtitle attributen door gebrek* in installeer en vorm Adobe Experience Manager Guides as a Cloud Service.
 
 Klik op het pictogram Navigation Title Attribute (Navigatiekenmerk vernieuwen) om de waarden van het kenmerk `title` en `@navtitle` te synchroniseren.
 

@@ -3,7 +3,9 @@ title: Citaten in uw inhoud toevoegen en beheren
 description: Voeg citaten toe en beheer citations in AEM Guides. Leer hoe u inhoud met citaten toepast, importeert, filtert, zoekt, wijzigt, aanhalingsstijl, bewerkt, voorvertoning, invoegt, verwijdert en genereert.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: f8f1116efbf0c7c26f6ebacf6234dcc2fee636c1
+hide: true
+exl-id: 832dbc5d-85f7-41fd-8f5d-789732b46f80
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1887'
 ht-degree: 0%
@@ -17,7 +19,7 @@ Bijschriften zijn verwijzingen naar de informatiebron die aan de inhoud is toege
 In AEM Guides kunt u citaten toevoegen en importeren en deze op uw inhoud toepassen. U kunt deze citaten toevoegen vanuit elke bron van boeken, websites en tijdschriften.
 
 
-Met AEM Guides kunt u citaten bewerken, voorvertonen en sorteren. Nadat u de citaten aan de inhoud hebt toegevoegd, kunt u de uitvoer genereren met Native PDF. U kunt ook de bibliografie- of referentiepagina toevoegen in de uitvoer van de native PDF.
+Met AEM Guides kunt u citaten bewerken, voorvertonen en sorteren. Nadat u de citaten aan de inhoud hebt toegevoegd, kunt u de uitvoer genereren met Native PDF. U kunt ook de bibliografie- of referentiepagina toevoegen in de native PDF-uitvoer.
 
 AEM Guides ondersteunt meerdere aanhalingstekens, zoals de Modern Language Association (MLA), American Psychological Association (APA), Chicago, Institute for Electrical and Electronics Engineers (IEEE) en American Heart Association (AHA). De aanbeveling is ze duidelijk en consequent te gebruiken.
 
@@ -127,7 +129,7 @@ Het **paneel van Bevragingen** opent.
 ### Aanmaakstijl wijzigen {#change-citation-style}
 
 Uw systeembeheerder kan de stijl van citaties van **Vervolgkeuzelijst van de Bevelen** in het **Algemene lusje van Montages** in de **Montages van de Redacteur** veranderen.
-Deze stijlen bepalen hoe citaten in de voorproefruit of de inheemse output van PDF verschijnen.
+Deze stijlen bepalen hoe citaten in de voorproefruit of de Inheemse output van PDF verschijnen.
 
 De volgende opties zijn beschikbaar in het vervolgkeuzemenu:
 
@@ -212,7 +214,7 @@ Het geselecteerde citaat wordt toegevoegd bij de cursorplaats in uw onderwerp.
 1. Selecteer de citaten die u van de **dialoog van de Aanhaling** wilt opnemen.
 1. Selecteer **Gedaan** om hen aan het onderwerp toe te voegen.
 
-Zodra u citaties in het onderwerp hebt opgenomen, kunt u voorproef hen in de Redacteur van het Web. U kunt inhoud met citaten ook publiceren gebruikend Eigen PDF.
+Zodra u citaties in het onderwerp hebt opgenomen, kunt u voorproef hen in de Redacteur van het Web. U kunt inhoud met citaten ook publiceren gebruikend Inheemse PDF.
 
 
 
@@ -255,12 +257,12 @@ In het onderwerp, plaats uw curseur aan het eind van de citatie.
 
 Nadat u citaten in het onderwerp hebt ingevoegd, kunt u inhoud met citaten publiceren met behulp van Native PDF.
 
-In de uitvoer Native PDF worden de citaten weergegeven binnen de inhoud waarin u ze hebt ingevoegd. U kunt ook een bibliografiepagina maken. Wanneer u op een aanhalingsteken klikt, wordt u omgeleid naar de bibliografiepagina.
+In de native PDF-uitvoer worden de citaten weergegeven binnen de inhoud waarin u ze hebt ingevoegd. U kunt ook een bibliografiepagina maken. Wanneer u op een aanhalingsteken klikt, wordt u omgeleid naar de bibliografiepagina.
 
-Creeer de paginalay-out van de a **Bevelen** in de malplaatjes van de PDF, en neem het in uw document op. Alle citaten die in het boek worden gebruikt worden vermeld op één pagina die in de output van PDF verschijnt. Meer leren over het creëren van een paginalay-out, mening [ creeer een paginalay-out ](/help/product-guide/native-pdf/components-pdf-template.md#create-page-layout).
+Creeer de paginalay-out van de a **Bevelen** in de malplaatjes van PDF, en neem het in uw document op. Alle citaten die in het boek worden gebruikt, worden weergegeven op één pagina die in de PDF-uitvoer wordt weergegeven. Meer leren over het creëren van een paginalay-out, mening [ creeer een paginalay-out ](/help/product-guide/native-pdf/components-pdf-template.md#create-page-layout).
 
 
-Om de mening en het gevoel van de citaatpagina te veranderen, past de mening [ PDF malplaatjes ](/help/product-guide/native-pdf/pdf-template.md) aan.
+Om de mening en het gevoel van de citaatpagina te veranderen, past de mening [ de malplaatjes van PDF ](/help/product-guide/native-pdf/pdf-template.md) aan.
 
 
 
@@ -268,7 +270,7 @@ Om de mening en het gevoel van de citaatpagina te veranderen, past de mening [ P
 
 Pas het formatteren op de citatie toe wanneer toegevoegd aan het onderwerp.
 
-1. Selecteer **Stylesheets** in het **paneel van Malplaatjes** van een inheemse PDF output vooraf ingesteld.   Het opent het **STIJLEN** paneel dat alle het stileren opties bevat.
+1. Selecteer **Stijlheets** in het **paneel van Malplaatjes** van een Inheemse de outputpreset van PDF.   Het opent het **STIJLEN** paneel dat alle het stileren opties bevat.
 
 1. Zoek in het deelvenster Zoeken naar `<cite>` .
 

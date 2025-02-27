@@ -3,7 +3,9 @@ title: DITAVAL-editor gebruiken
 description: Begrijp hoe u DITAVAL-bestanden maakt en bewerkt met de DIVATAL Editor in AEM Guides. Weet hoe de DITAVAL-editor DITAVAL-bestanden ondersteunt in auteur- en bronweergaven.
 feature: Authoring, DITAVAL Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 8eee347d-840e-4eaf-9441-c7c53a7c3aa0
+source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 0%
@@ -14,7 +16,7 @@ ht-degree: 0%
 
 DITAVAL-bestanden worden gebruikt om voorwaardelijke uitvoer te genereren. In één onderwerp, kunt u voorwaarden toevoegen gebruikend elementenattributen om inhoud te conditionaliseren. Vervolgens maakt u een DITAVAL-bestand waarin u de voorwaarden opgeeft die moeten worden opgepakt om inhoud te genereren en welke voorwaarde niet in de uiteindelijke uitvoer moet worden opgenomen.
 
-Met AEM Guides kunt u eenvoudig DITAVAL-bestanden maken en bewerken met de DITAVAL-editor. De DITAVAL-editor haalt de kenmerken \(of tags\) op die in uw systeem zijn gedefinieerd en u kunt deze gebruiken om DITAVAL-bestanden te maken of te bewerken. Voor meer details over het creëren van en het leiden van markeringen in AEM, zie ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) sectie van de Codes van het Beheer [ in AEM documentatie.
+Met AEM Guides kunt u eenvoudig DITAVAL-bestanden maken en bewerken met de DITAVAL-editor. De DITAVAL-editor haalt de kenmerken \(of tags\) op die in uw systeem zijn gedefinieerd en u kunt deze gebruiken om DITAVAL-bestanden te maken of te bewerken. Voor meer details over het creëren van en het leiden van markeringen in AEM, zie ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) sectie van de Codes van het beheer [ in de documentatie van AEM.
 
 ## DITAVAL-bestand maken
 
@@ -77,7 +79,7 @@ Als u met één klik alle voorwaardelijke eigenschappen of kenmerken wilt toevoe
 
    >[!NOTE]
    >
-   > Als u het bestand sluit zonder op te slaan, gaan de wijzigingen verloren. Als u niet wenst om veranderingen in AEM bewaarplaats vast te leggen, klik **Sluiten**, en klik dan **Sluiten zonder** op te slaan in de **Unsaved dialoog van Veranderingen**.
+   > Als u het bestand sluit zonder op te slaan, gaan de wijzigingen verloren. Als u niet wenst om veranderingen in de bewaarplaats van AEM vast te leggen, klik **dicht**, en klik dan **Sluiten zonder** op te slaan in de **Unsaved dialoog van Veranderingen**.
 
 
 ## Weergaven DITAVAL-editor

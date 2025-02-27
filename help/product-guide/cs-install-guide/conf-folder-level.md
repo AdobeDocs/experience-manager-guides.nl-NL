@@ -5,9 +5,9 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: e1d6123991ddd8d25f76ee03befeb95f020a9834
+source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
 workflow-type: tm+mt
-source-wordcount: '4755'
+source-wordcount: '4756'
 ht-degree: 0%
 
 ---
@@ -508,7 +508,7 @@ Standaard bevat de XML-editor een heleboel functies waarmee uw auteurs DITA-docu
 
 Met deze instelling kunt u JSON-extensies maken die wijzigingen weerspiegelen die in het `ui_config.json` -bestand zijn aangebracht. U kunt deze extensies afzonderlijk uploaden op het niveau van het mapprofiel, zodat u over meer flexibiliteit en aanpassingsmogelijkheden beschikt. Bijvoorbeeld, wanneer u veranderingen in de **Configuratie van de Redacteur van XML** aanbrengt, zoals het bijwerken van een knoop, identificeert het systeem automatisch de verschillen. Door deze veranderingen in de **Configuratie UI van de Redacteur van XML te uploaden** en hen in uitbreidingen om te zetten JSON gebruikend **zet UI Config in JSON** knoop om, produceert het systeem een uitbreiding die de nieuwe functionaliteit opneemt.
 
-Leer meer over **het aanpassen van configuraties JSON en het omzetten van configuraties UI voor de nieuwe Redacteur van AEM Guides**.
+Leer meer over [ het aanpassen van configuraties JSON en het omzetten van configuraties UI voor de nieuwe Redacteur van AEM Guides ](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 **de paginalay-out van de Redacteur van XML**
 

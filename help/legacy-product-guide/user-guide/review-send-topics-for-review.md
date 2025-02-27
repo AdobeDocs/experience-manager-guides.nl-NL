@@ -3,7 +3,9 @@ title: Onderwerpen ter controle verzenden
 description: Leer hoe u een overzichtstaak maakt en onderwerpen ter controle verzendt in AEM Guides. Verzend één of meerdere onderwerpen in een kaart DITA voor overzicht.
 feature: Reviewing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 4e47536a-ad78-4c97-9cea-a6af854f6e2f
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '2752'
 ht-degree: 0%

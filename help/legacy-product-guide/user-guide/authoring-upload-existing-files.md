@@ -1,9 +1,11 @@
 ---
 title: Bestanden uploaden
-description: Leer hoe u uw bestanden uploadt naar de AEM opslagplaats en fouten verwerkt. De middelen van de console van kennis gebruikersinterface, AEM Desktop app, activa bulkingestor, en gebruiken FrameMaker voor bulkupload.
+description: Leer hoe u uw bestanden uploadt naar de AEM-opslagplaats en fouten verwerkt. Gebruikerinterface van de console met bekende middelen, AEM-bureaubladtoepassing, assetbulk ingestor en gebruik FrameMaker voor bulkupload.
 feature: Content Management
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: fcb2cc43-6a36-42f2-a695-7a50ae1031a0
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 # Bestanden uploaden {#id176FF000JUI}
 
-U hebt waarschijnlijk een opslagplaats voor bestaande DITA-inhoud die u met AEM Guides wilt gebruiken. Voor dergelijke bestaande inhoud kunt u de volgende methoden gebruiken om uw inhoud in bulk te uploaden naar AEM opslagplaats:
+U hebt waarschijnlijk een opslagplaats voor bestaande DITA-inhoud die u met AEM Guides wilt gebruiken. Voor dergelijke bestaande inhoud kunt u een van de volgende methoden gebruiken om uw inhoud in een AEM-opslagplaats te bulksgewijs te uploaden:
 
 >[!IMPORTANT]
 >
@@ -20,11 +22,11 @@ U hebt waarschijnlijk een opslagplaats voor bestaande DITA-inhoud die u met AEM 
 
 ## Assets Console-gebruikersinterface
 
-U kunt inhoud op uw bureaublad selecteren en in de AEM gebruikersinterface \(webbrowser\) naar de doelmap slepen. Voor meer details, zie [ activa ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html#upload-assets) in AEM documentatie uploaden.
+U kunt inhoud op uw bureaublad selecteren en in de AEM-gebruikersinterface \(webbrowser\) naar de doelmap slepen. Voor meer details, zie [ activa ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html#upload-assets) in de documentatie van AEM uploaden.
 
-## Bureaubladapp AEM
+## AEM-bureaubladtoepassing
 
-Gebruik AEM bureaubladtoepassing als u een creatieve professional bent en de middelen op uw lokale bureaublad wilt beheren. U kunt deze elementen openen en bewerken met uw bureaubladtoepassingen. U kunt ook versies bijhouden en uw bestanden delen met andere gebruikers. Voor meer details, zie [ Desktop app ](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html) AEM.
+Gebruik de AEM-bureaubladtoepassing als u een creatieve professional bent en de middelen op uw lokale bureaublad wilt beheren. U kunt deze elementen openen en bewerken met uw bureaubladtoepassingen. U kunt ook versies bijhouden en uw bestanden delen met andere gebruikers. Voor meer details, zie [ Desktop app van AEM ](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html).
 
 ## Bulkingestor
 
@@ -32,9 +34,9 @@ Als u grootschalige migraties en soms grote hoeveelheden inneemt, kunt u de inho
 
 ## FrameMaker gebruiken voor bulkupload
 
-Adobe FrameMaker wordt geleverd met een krachtige AEM-aansluiting waarmee u uw bestaande DITA en andere FrameMaker documenten \(`.book` en `.fm`\) eenvoudig kunt uploaden naar AEM. U kunt verschillende functies voor het uploaden van bestanden gebruiken, zoals het uploaden van één bestand, het uploaden van een volledige map met of zonder afhankelijkheden \(zoals inhoudsverwijzingen, kruisverwijzingen en afbeeldingen\).
+Adobe FrameMaker wordt geleverd met een krachtige AEM-connector waarmee u uw bestaande DITA en andere FrameMaker-documenten \(`.book` en `.fm`\) eenvoudig kunt uploaden naar AEM. U kunt verschillende functies voor het uploaden van bestanden gebruiken, zoals het uploaden van één bestand, het uploaden van een volledige map met of zonder afhankelijkheden \(zoals inhoudsverwijzingen, kruisverwijzingen en afbeeldingen\).
 
-Voor meer details over het gebruiken van bulkupload eigenschap in FrameMaker, zie de sectie *een omslag van CRX creëren en dossiers* in de Gids van de Gebruiker van de FrameMaker uploaden.
+Voor meer details over het gebruiken van bulkupload eigenschap in FrameMaker, zie de sectie *een omslag van CRX creëren en dossiers* in de Gids van de Gebruiker van FrameMaker uploaden.
 
 ## Foutafhandeling tijdens het uploaden van inhoud {#id201MI0I04Y4}
 
@@ -44,6 +46,6 @@ Als een of meer bestanden niet kunnen worden geüpload, wordt na het uploadproce
 
 Voor meer details over hoe de diverse dossier het uploaden scenario&#39;s, [ zien uploaden inhoud DITA ](authoring-file-management.md#).
 
-Als u een gereedschap gebruikt, zoals AEM bureaubladtoepassing of het bulksgewijs invoegen van middelen, wordt de handeling die op een gedupliceerd bestand wordt uitgevoerd, bepaald door een instelling op de AEM server. Neem contact op met de systeembeheerder voor informatie over deze configuratie.
+Als u een hulpprogramma zoals een AEM-bureaubladtoepassing of het bulksgewijs invoegen van middelen gebruikt, wordt de handeling die op een gedupliceerd bestand wordt uitgevoerd, bepaald door een instelling op de AEM-server. Neem contact op met de systeembeheerder voor informatie over deze configuratie.
 
 **Bovenliggend onderwerp:**[ beheert inhoud ](authoring.md)

@@ -3,7 +3,9 @@ title: Werken met basislijn
 description: Weet het gebruik van Baselines in AEM Guides. Leer hoe u vertaalde basislijnen maakt, weergeeft, bewerkt, dupliceert, verwijdert, toevoegt en exporteert.
 feature: Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: d4892eca-2715-4bd6-8ac8-0a8edff2c4f8
+source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
 workflow-type: tm+mt
 source-wordcount: '1960'
 ht-degree: 0%
@@ -51,7 +53,7 @@ Voer de volgende stappen uit om een basislijn te maken:
 
    Wanneer u **Etiket** selecteert, wordt u ook een extra optie gegeven om de recentste versie van onderwerpen te gebruiken die niet het gespecificeerde etiket hebben dat op hen wordt toegepast. Als u deze optie niet selecteert en er een onderwerp- of mediabestand is dat niet het opgegeven label heeft, mislukt het proces voor het maken van de basislijn. Voor meer informatie over het toevoegen van etiketten, zie {de etiketten van het 0} Gebruik ](web-editor-use-label.md#).[
 
-   - **Versie op** &lt; *tijdstempel* \>: Past de versie van onderwerpen zoals op de gespecificeerde datum en de tijd. De tijd die u hier opgeeft, komt overeen met de tijdzone van uw AEM server. Als uw server bij een verschillende timezone is, dan zullen de onderwerpen volgens timezone van uw server en niet uw lokale timezone worden opgepikt.
+   - **Versie op** &lt; *tijdstempel* \>: Past de versie van onderwerpen zoals op de gespecificeerde datum en de tijd. De tijd die u hier opgeeft, komt overeen met de tijdzone van uw AEM-server. Als uw server bij een verschillende timezone is, dan zullen de onderwerpen volgens timezone van uw server en niet uw lokale timezone worden opgepikt.
 
    Nadat u een label of versie hebt geselecteerd als op datum, worden alle onderwerpen waarnaar wordt verwezen en mediabestanden in de kaart dienovereenkomstig geselecteerd. Deze selectie van onderwerpen wordt niet getoond op het gebruikersinterface, maar het wordt bewaard in het achterste eind.
 

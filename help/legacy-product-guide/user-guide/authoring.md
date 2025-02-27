@@ -3,7 +3,9 @@ title: Inhoud beheren
 description: Inhoud beheren en uw rollen en machtigingen in AEM Guides identificeren. Leer de belangrijkste concepten van inhoudsbeheer en het werken met globale of omslag-vlakke profielen.
 feature: Content Management
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 54b960cf-fb00-4d4a-a836-9de4738c49a8
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
 source-wordcount: '717'
 ht-degree: 0%
@@ -16,11 +18,11 @@ Voordat u begint met het maken van inhoud, moet u bekend zijn met enkele basisbe
 
 ## Belangrijkste concepten
 
-Enkele belangrijke concepten van inhoudsbeheer in AEM zijn:
+Enkele belangrijke concepten voor inhoudsbeheer in AEM zijn:
 
 **Beheer van Activa**
 
-AEM Guides gebruikt AEM beheer van digitale elementen \(DAM\) voor het beheer van uw DITA-bestanden. De bestanden die u uploadt of incheckt in de DAM worden opgeslagen als digitale elementen. U kunt uw middelen in AEM Assets beheren en bewerken. Voor meer informatie over activabeheer, zie [ activa ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=en) beheren.
+AEM Guides gebruikt AEM Digital Asset Management \(DAM\) om uw DITA-bestanden te beheren. De bestanden die u uploadt of incheckt in de DAM worden opgeslagen als digitale elementen. U kunt uw middelen in AEM Assets beheren en bewerken. Voor meer informatie over activabeheer, zie [ activa ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=en) beheren.
 
 **het beheer van de Verbinding**
 
@@ -34,7 +36,7 @@ Voor meer informatie over het creëren van versies of het terugkeren naar een sp
 
 **Inheemse behandeling DITA**
 
-Hoewel AEM Guides de structuur van uw DITA- dossiers handhaaft, laat het ook AEM toe om DITA te behandelen gebruikend elementenafbeelding om de elementen DITA aan AEM componenten toe te wijzen. De native DITA-afhandeling wordt gebruikt in functies zoals onderwerpvoorvertoning, AEM Sites-publicatie en de revisieworkflows.
+Hoewel AEM Guides de structuur van uw DITA-bestanden behoudt, kan AEM DITA ook op native wijze afhandelen met behulp van elementtoewijzing om de DITA-elementen toe te wijzen aan AEM-componenten. De native DITA-afhandeling wordt gebruikt in functies zoals onderwerpvoorvertoning, AEM Sites-publicatie en de revisieworkflows.
 
 ## Uw rol en machtigingen identificeren {#id181TF0K0MHT}
 

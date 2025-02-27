@@ -3,7 +3,9 @@ title: Uitvoervoorinstellingen maken vanuit de webeditor
 description: Uitvoervoorinstellingen maken in de webeditor. Leer hoe u een uitvoervoorinstelling in AEM Guides kunt bewerken, hernoemen, dupliceren en verwijderen.
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: ce8e3614-907b-4172-a8f0-e81e4dc096df
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 0%
@@ -35,7 +37,7 @@ Voer de volgende stappen uit om outputvoorinstellingen voor uw kaart te creëren
 1. Voer de volgende configuratiedetails in.
 
    1. Selecteer de vereiste opties op het **Algemene** lusje. U kunt een uitvoervoorinstelling maken met of zonder voorwaarden. U kunt ook een DITVAL-bestand gebruiken. Met AEM Guides kunt u ook een basislijn selecteren voor het publiceren van een specifieke versie van uw DITA-kaart.
-   1. Ga de details van de Plaats van de AEM in **AEM** tabel in. **de Plaats** toont de lijst van AEM Sites beschikbaar op uw AEM bewaarplaats. **Categorie**, **Malplaatje van de Sectie**, en **Sjabloon van het Artikel** zijn de structurele componenten die worden gebruikt om het blik en gevoel van uw output te organiseren. Deze zijn vooraf gedefinieerd in het AEM Sjabloon.
+   1. Ga de details van de Plaats van AEM in **AEM** tabel in. **de Plaats** toont de lijst van AEM Sites beschikbaar op uw bewaarplaats van AEM. **Categorie**, **Malplaatje van de Sectie**, en **Sjabloon van het Artikel** zijn de structurele componenten die worden gebruikt om het blik en gevoel van uw output te organiseren. Deze zijn vooraf gedefinieerd in de AEM-sitesjabloon.
 
       >[!NOTE]
       >

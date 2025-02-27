@@ -3,7 +3,9 @@ title: Een bulkactiveringskaartverzameling bewerken
 description: Het bulkpublicatiedashboard van het gebruik in AEM Guides. Leer een bulkactiveringskaartverzameling bewerken door kaartbestanden toe te voegen of te verwijderen.
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: a15ee164-ec60-483e-8760-b1c290625415
+source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 0%
@@ -18,7 +20,7 @@ U kunt een verzameling activeringskaarten bulksgewijs bewerken door een kaartbes
 
 1. Klik op de verbinding van Adobe Experience Manager bij de bovenkant en kies **Hulpmiddelen**.
 
-1. Klik op het **Bulk Publish Dashboard** tegel.
+1. Klik op het **Bulk publiceren dashboard** tegel.
 
    Er wordt een lijst met bulkactiveringskaartverzamelingen weergegeven.
 

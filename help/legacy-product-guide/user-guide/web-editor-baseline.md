@@ -3,7 +3,9 @@ title: Basislijnen maken en beheren vanuit de webeditor
 description: Basislijnen maken en beheren vanuit de webeditor in AEM Guides. Leer hoe u basislijnen maakt op basis van labels en filters toepast op de basislijnen.
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: f43bc3ae-b7b6-4a8c-b42d-28ec02d0d1d6
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1699'
 ht-degree: 0%
@@ -14,7 +16,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> Het wordt geadviseerd om deze eigenschap van de Basislijn van de Redacteur van het Web te gebruiken als u aan de versie van AEM Guides as a Cloud Service Maart of later hebt bevorderd.
+> U wordt aangeraden deze basislijnfunctie in de webeditor te gebruiken als u een upgrade hebt uitgevoerd naar de release AEM Guides as a Cloud Service March of hoger.
 
 AEM Guides verstrekt de eigenschap van de Basislijn die binnen de Redacteur van het Web wordt geïntegreerd die de gebruikers toestaat om basislijnen tot stand te brengen en hen te gebruiken om onderwerpen van verschillende versies te publiceren of te vertalen. Ze kunnen ook meerdere uitvoervoorinstellingen van dezelfde DITA-kaart tegelijk publiceren.
 
@@ -153,4 +155,3 @@ Gebruikend het pictogram van Filters in het **paneel van de Filters van de Basis
 Zodra u de basislijn hebt uitgegeven, kunt u **klikken sparen** knoop op de bovenkant om de veranderingen in de basislijn te bewaren. U kunt de **knoop van het Terugstellen** klikken als u niet de verandering wilt bewaren en de basislijn terugstellen. Wanneer u de **knoop van het Terugstellen** klikt wordt een waarschuwing getoond dat uw niet bewaarde veranderingen zouden worden verloren.
 
 **Bovenliggend onderwerp:**[ Werk met de Redacteur van het Web ](web-editor.md)
-

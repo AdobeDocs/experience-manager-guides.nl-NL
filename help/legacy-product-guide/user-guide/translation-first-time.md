@@ -3,7 +3,9 @@ title: Aanbevolen procedures voor het vertalen van inhoud
 description: Weet de beste werkwijzen voor het vertalen van inhoud in AEM Guides. Leer hoe u de vertaalservice configureert, een nieuw vertaalproject maakt en de vertaaltaak start.
 feature: Translation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 09e813fd-ec22-4d2e-9ee7-098d562ad44f
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1295'
 ht-degree: 0%
@@ -21,7 +23,7 @@ Houd rekening met het volgende punt voor het vertalen van inhoud:
 - De cloudconfiguratie moet dezelfde zijn als die van de bronmap en er mag slechts één cloudconfiguratie in één map zijn. U kunt veelvoudige omslagen onder /conf tot stand brengen, als u veelvoudige vertaalschakelaars wilt gebruiken.
 - Een map mag niet meer dan 1000 bestanden bevatten.
 - Zorg ervoor dat de gebruiker die belast is met het initiëren van het vertaalproces, beschikt over de machtigingen Lezen, Wijzigen, Maken en Verwijderen voor de bronmappen en de doeltaalmappen.
-- Aangezien het vertalen van inhoud verwezenlijking van een vertaalproject vereist, moet de gebruiker toegang hebben om project in AEM tot stand te brengen.
+- Aangezien voor het vertalen van inhoud een vertaalproject moet worden gemaakt, moet de gebruiker toegang hebben om een project te maken in AEM.
 - Als u Voorwaardelijke voorinstellingen voor uw kaart wilt gebruiken, moet u deze maken voordat u het vertaalproces start. Omdat Voorwaardelijke voorinstellingen ook in de vertaalde versie van de kaart worden gebundeld, zorgt het creëren van voorinstellingen alvorens het vertaalproces in werking te stellen ervoor dat zij in de vertaalde versie beschikbaar zijn.
 - Het proces voor het vertalen van inhoud moet worden gestart vanuit de DITA-kaartconsole en niet vanuit de AEM Assets-gebruikersinterface.
 - De op componenten-gebaseerde DITA-omzettingsworkflow mag niet worden gebruikt als u inhoud via menselijke vertaling vertaalt. Deze optie moet echter worden gebruikt voor machinevertaling.
@@ -38,9 +40,9 @@ Voer de volgende stappen uit om de te gebruiken service voor het vertalen van me
 
 1. Selecteer de brontaalmap in de gebruikersinterface van Assets.
 
-1. Open de omslageigenschappen, en ga naar **Cloud Servicen** tabel.
+1. Open de omslageigenschappen, en ga naar **de Diensten van de Wolk** tabel.
 
-1. In het **Cloud Servicen** lusje, vorm de vertaaldienst die u wilt gebruiken.
+1. In het **lusje van de Diensten van de Wolk**, vorm de vertaaldienst die u wilt gebruiken.
 
    U kunt op computer gebaseerde of menselijke vertaling configureren.
 
@@ -48,7 +50,7 @@ Voer de volgende stappen uit om de te gebruiken service voor het vertalen van me
 
    >[!NOTE]
    >
-   > Zie [ Vormend het Kader van de Integratie van de Vertaling ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) in AEM documentatie voor details bij het integreren met de diensten van de derdevertaling.
+   > Zie [ Vormend het Kader van de Integratie van de Vertaling ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) in de documentatie van AEM voor details bij het integreren met de diensten van de derdevertaling.
 
 1. Klik **sparen &amp; Sluiten** om de bijgewerkte omslageigenschappen te bewaren.
 

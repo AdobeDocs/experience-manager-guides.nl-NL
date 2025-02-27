@@ -3,7 +3,9 @@ title: Onderwerpen maken
 description: Leer om types van onderwerpen te creëren DITA gebruikend douanesjablonen in de Webredacteur van AEM Guides.
 feature: Authoring
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 70ab9226-82d4-4e6a-aa0b-0e298f266c2a
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 0%
@@ -42,7 +44,7 @@ Voer de volgende stappen uit om een onderwerp tot stand te brengen:
 
 1. Klik **creëren**. Het bericht Gemaakt onderwerp wordt weergegeven.
 
-   U kunt verkiezen om het onderwerp voor het uitgeven in de Redacteur van het Web, of sparen het onderwerpdossier in de AEM bewaarplaats te openen.
+   U kunt verkiezen om het onderwerp voor het uitgeven in de Redacteur van het Web, of sparen het onderwerpdossier in de bewaarplaats van AEM te openen.
 
    Elk nieuw onderwerp dat u van Assets UI **creeert** \> **Onderwerp DITA** of de Redacteur van het Web wordt toegewezen een unieke onderwerpidentiteitskaart De waarde van deze id is de bestandsnaam zelf. Bovendien wordt een nieuw document opgeslagen als de meest recente werkkopie van het onderwerp in DAM. Totdat u een revisie van een pas gecreeerd onderwerp opslaat, zult u geen versieaantal in de Geschiedenis van de Versie zien. Als u het onderwerp voor het uitgeven opent, wordt de versieinformatie getoond in de juiste hoogste hoek van het onderwerpdossier tabel:
 

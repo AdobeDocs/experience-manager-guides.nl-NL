@@ -3,7 +3,9 @@ title: Onderwerpen bekijken
 description: Leer hoe u onderwerpen kunt beoordelen en de functies kunt gebruiken als revisor, documentweergave, onderwerpweergave, contextafhankelijke werkbalk, voorvertoningsmodus, bijlagen toevoegen aan opmerkingen en deelvenster Voorwaarden in AEM Guides.
 feature: Reviewing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 371d89b8-fe05-4477-9bf8-cc47c0899108
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '2351'
 ht-degree: 0%
@@ -22,7 +24,7 @@ Voer de volgende stappen uit om een onderwerp te herzien:
 
    >[!NOTE]
    >
-   > U kunt tot de verbinding van het onderwerpoverzicht van uw Inbox berichtengebied in het AEM gebruikersinterface ook toegang hebben.
+   > U kunt tot de verbinding van het onderwerpoverzicht van uw Inbox berichtengebied in het gebruikersinterface van AEM ook toegang hebben.
 
 1. Afhankelijk van de manier waarop de onderwerprevisie in werking wordt gesteld, kon u om het even welke volgende twee schermen zien:
 
@@ -30,7 +32,7 @@ Voer de volgende stappen uit om een onderwerp te herzien:
    >
    > De interface kan anders zijn als u de revisie hebt gemaakt in:
    >
-   > - AEM Guides as a Cloud Service november 2022 of eerder
+   > - AEM Guides as a Cloud Service Release 2022 of eerder
    > - AEM Guides versie 4.1 of lager
 
 

@@ -1,7 +1,8 @@
 ---
 title: Slimme Help van AI om inhoud te zoeken
 description: Leer hoe u op AI gebaseerde Smart Help kunt weergeven en gebruiken in de webeditor.
-source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
+hide: true
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%
@@ -25,7 +26,7 @@ Wanneer u de Redacteur van het Web opent, verschijnt het **Slimme paneel van de 
 
 >[!NOTE]
 >
-> Uw beheerder moet de **Slimme eigenschap van de Hulp** vormen. Voor meer details, bekijk [ de AI-Vervaardigde Slimme Hulp om inhoud ](/help/product-guide/cs-install-guide/conf-smart-help.md) sectie in de Gids van de Installatie en van de Configuratie voor Cloud Servicen te zoeken.
+> Uw beheerder moet de **Slimme eigenschap van de Hulp** vormen. Voor meer details, bekijk [ vormen de AI-Aangedreven Slimme Hulp om inhoud ](/help/product-guide/cs-install-guide/conf-smart-help.md) sectie in de Gids van de Installatie en van de Configuratie voor de Diensten van de Wolk te zoeken.
 
 ![ het Slimme paneel van de Hulp ](images/smart-help-panel.png){width="300" align="left"}
 

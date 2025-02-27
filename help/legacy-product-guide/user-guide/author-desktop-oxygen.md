@@ -3,7 +3,9 @@ title: Werken met zuurstof
 description: Meer informatie over de ondersteuning van de Oxygen XML Editor voor het ontwerpen en publiceren van inhoud in AEM Guides.
 feature: Authoring, Desktop Tools
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: c6395d35-b8fd-446e-a17a-df7f5a432053
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 0%

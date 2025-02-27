@@ -3,7 +3,9 @@ title: Geef de metagegevens door aan de uitvoer met DITA-OT
 description: Leer hoe u de metagegevens aan de uitvoer kunt doorgeven met DITA-OT-publicaties in AEM Guides.
 feature: Publishing, Metadata Management
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 55d70c6d-feb0-43f7-9f18-6d1ccdd1e728
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 # Geef de metagegevens door aan de uitvoer met DITA-OT {#id21BJ00QD0XA}
 
-Metagegevens zijn aanvullende informatie over de uitvoer. In AEM Guides kunt u de bestaande metagegevens doorgeven of aangepaste metagegevenstags maken. U kunt metagegevens doorgeven aan AEM, PDF, HTML,, EPUB en aangepaste uitvoerbestanden met DITA-OT-publicatie.
+Metagegevens zijn aanvullende informatie over de uitvoer. In AEM Guides kunt u de bestaande metagegevens doorgeven of aangepaste metagegevenstags maken. U kunt metagegevens doorgeven aan AEM-, PDF-, HTML5-, EPUB- en Aangepast-uitvoerbestanden met DITA-OT-publicatie.
 
 Voer de volgende stappen uit om de metagegevens door te geven aan de uitvoer met DITA-OT-publicatie:
 
@@ -32,7 +34,7 @@ Voer de volgende stappen uit om de metagegevens door te geven aan de uitvoer met
 
    Dit bestand kan worden bedekt door: `/apps/fmdita/config/metadataList` .
 
-   Om een douanebezit over te gaan waarvoor u reeds de waarden hebt bepaald, zie [ AEM Metagegevens van het Gebruik in PDF output DITA-OT ](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880).
+   Om een douanebezit over te gaan waarvoor u reeds de waarden hebt bepaald, zie [ Meta-gegevens van AEM van het Gebruik in output DITA-OT PDF ](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880).
 
 1. Van **Eigenschappen** dropdown, selecteer de vereiste douane en standaardeigenschappen. Selecteer bijvoorbeeld `author` , `dc:title` en `dc:description` . Dit is de standaard `metadata/properties` die wordt gemaakt wanneer we een bestand maken. De geselecteerde eigenschappen worden onder de dropbox weergegeven.
 

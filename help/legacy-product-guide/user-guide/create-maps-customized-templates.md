@@ -3,7 +3,9 @@ title: Kaarten maken op basis van aangepaste sjablonen
 description: Leer een aangepaste sjabloon te maken, deze te gebruiken om nieuwe kaartbestanden te maken en de gedefinieerde titel door te geven aan een DITA-kaart in AEM Guides.
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
+hide: true
+exl-id: 0f86ac98-7ba4-4e15-8a1f-83456afa7570
+source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
 workflow-type: tm+mt
 source-wordcount: '1103'
 ht-degree: 0%
@@ -94,9 +96,9 @@ Uw beheerder kan ook een map maken en deze zo configureren dat deze de map is wa
 
 Gebaseerd op uw opstelling leert hoe te om de weg van de malplaatjeomslag van douaneDITA te vormen:
 <details>
-    <summary> Cloud Servicen </summary>
+    <summary> Cloud Services </summary>
 
-Leer hoe te om [ de weg van de malplaatjemap van douaneDITA ](/help/product-guide/install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) in de Gids van de Installatie en van de Configuratie van Cloud Servicen te vormen.
+Leer hoe te [ om de weg van de malplaatjeomslag van douaneDITA ](/help/product-guide/install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) in de Gids van de Installatie en van de Configuratie van de Diensten van de Wolk te vormen.
 </details>
 
 <details>
@@ -156,7 +158,7 @@ Voorbeeld
 
 >[!NOTE]
 >
-> Het kaartmalplaatje moet voor creatie door uw beheerder worden gevormd en ter beschikking gesteld. Voor meer details, zie *authoring malplaatjes* sectie in installeer en vorm as a Cloud Service Adobe Experience Manager Guides.
+> Het kaartmalplaatje moet voor creatie door uw beheerder worden gevormd en ter beschikking gesteld. Voor meer details, zie *creatieve malplaatjes* sectie vormen in installeer en vorm Adobe Experience Manager Guides as a Cloud Service.
 
 Voer de volgende stappen uit om een kaart te creëren gebruikend het malplaatje van de douanekaart:
 

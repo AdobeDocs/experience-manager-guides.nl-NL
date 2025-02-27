@@ -1,7 +1,9 @@
 ---
 title: Slimme suggesties voor AI-toepassingen om inhoud te ontwerpen
 description: Leer hoe u op AI gebaseerde slimme suggesties in de Webeditor kunt weergeven en gebruiken.
-source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
+hide: true
+exl-id: 30c85d46-61ba-486c-979c-1a2ed95f5a32
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
 source-wordcount: '684'
 ht-degree: 0%
@@ -37,7 +39,7 @@ Voer de volgende stappen uit om de slimme suggesties te bekijken om aangewezen i
    > U kunt alleen de suggesties voor de huidige viewport weergeven (de inhoud is zichtbaar op het scherm). Om suggesties voor een andere inhoud in het document te bekijken, scrol omhoog of omlaag om het in viewport te tonen, en dan te selecteren **stel opnieuw te gebruiken inhoud** voor ![ ai het herbruikbare inhoudspictogram ](./images/ai-suggest-reusable-content-icon.svg) voor.
 
 
-1. U kunt de slimme suggesties weergeven in het deelvenster met suggesties.  Experience Manager Guides biedt suggesties voor inhoud die in een context lijkt of dezelfde betekenis heeft. Bijvoorbeeld, kunt u naar het onderwerp zoeken dat het nauwkeurige versieaantal, zoals &quot;versie 2023.03.12&quot;bevat. U kunt ook zoeken naar &quot;Adobe is hoofdkwartier in San Jose, Californië,&quot;en gelijkaardige inhoud vinden zoals &quot;San Jose heeft de kwartalen van vele softwarebedrijven zoals Adobe.&quot;
+1. U kunt de slimme suggesties weergeven in het deelvenster met suggesties.  Experience Manager Guides biedt suggesties voor inhoud die in een context lijkt of dezelfde betekenis heeft. Bijvoorbeeld, kunt u naar het onderwerp zoeken dat het nauwkeurige versieaantal, zoals &quot;versie 2023.03.12&quot;bevat. U kunt ook zoeken naar &quot;Adobe is hoofdkwartier in San Jose, Californië&quot; en vergelijkbare inhoud vinden zoals &quot;San Jose heeft de kwartalen van veel softwarebedrijven zoals Adobe.&quot;
 1. Selecteer **![ Informatie van de Inhoud 1} ](images/smart-suggestions-content-info-icon.svg) de Informatie van de Inhoud {om de details te bekijken.**
 
    ![ het informatiepaneel van de Inhoud ](images/smart-suggestions-content-information.png){width="300" align="left"}

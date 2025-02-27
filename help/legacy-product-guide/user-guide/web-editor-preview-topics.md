@@ -1,9 +1,11 @@
 ---
 title: Een voorvertoning van een onderwerp weergeven
-description: Leer hoe u een voorbeeld van een onderwerp in AEM Guides kunt bekijken. In de voorvertoningsmodus vindt u informatie over de functies die beschikbaar zijn. Vertakking, herstel en volgende versies in AEM hulplijnen.
+description: Leer hoe u een voorbeeld van een onderwerp in AEM Guides kunt bekijken. In de voorvertoningsmodus vindt u informatie over de functies die beschikbaar zijn. Vertakking, herstel en volgende versies in AEM-hulplijnen.
 feature: Authoring
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: c2c24b6f-08e8-47be-be33-b3e9fb50052e
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1859'
 ht-degree: 0%
@@ -27,7 +29,7 @@ Voer de volgende stappen uit om een voorvertoning van een onderwerp weer te geve
 
    >[!IMPORTANT]
    >
-   > De positie van de volgende functies op de werkbalk Voorbeeld kan afwijken, afhankelijk van de installatie van de AEM server. Sommige functies zijn mogelijk beschikbaar op de hoofdwerkbalk, terwijl andere functies beschikbaar zijn in het menu Meer.
+   > De positie van de volgende functies op de werkbalk Voorbeeld kan afwijken, afhankelijk van de installatie van uw AEM-server. Sommige functies zijn mogelijk beschikbaar op de hoofdwerkbalk, terwijl andere functies beschikbaar zijn in het menu Meer.
 
 ## Functies beschikbaar in de voorvertoningsmodus
 
@@ -37,7 +39,7 @@ U kunt de volgende bewerkingen uitvoeren vanaf de werkbalk in de voorbeeldmodus:
 
 **Eigenschappen**
 
-Bekijk de eigenschappen van het geselecteerde onderwerp. Op basis van uw AEM kunt u eigenschappen zien zoals metagegevens, het plannen van \(de\)activering, verwijzingen, documentstatus en meer.
+Bekijk de eigenschappen van het geselecteerde onderwerp. Op basis van uw AEM-versie kunt u eigenschappen zien zoals metagegevens, het plannen van \(de\)activering, verwijzingen, documentstatus en meer.
 
 >[!NOTE]
 >

@@ -3,7 +3,9 @@ title: Uitvoer activeren
 description: De uitvoer van DITA-kaarten activeren in AEM Guides. Leer hoe u uw inhoud activeert op het publicatieexemplaar.
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: de1fd057-60c6-4b1a-9e55-f32969eb0079
+source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 0%
@@ -18,7 +20,7 @@ Nadat u een kaartverzameling hebt gemaakt voor bulkactivering, bestaat de volgen
 
 1. Klik op de verbinding van Adobe Experience Manager bij de bovenkant en kies **Hulpmiddelen**.
 
-1. Klik op het **Bulk Publish Dashboard** tegel.
+1. Klik op het **Bulk publiceren dashboard** tegel.
 
    Er wordt een lijst met bulkactiveringskaartverzamelingen weergegeven.
 
@@ -36,23 +38,23 @@ Nadat u een kaartverzameling hebt gemaakt voor bulkactivering, bestaat de volgen
 Bekijk de verschillende manieren om uw inzameling te activeren die op uw opstelling wordt gebaseerd.
 
 <details>
-<summary> Cloud Servicen </summary>
+<summary> Cloud Services </summary>
 
 ![ bulksgewijs-inzameling-publiceert op de wolkendienst ](images/bulk-activation-collection-quick-publish-CS.png){width="650" align="left"}
 
-U kunt de output aan de **Voorproef** of **Publish** instanties activeren.
+U kunt de output aan de **Voorproef** activeren of **publiceren** instanties.
 
 **Voorproef**
 
-* Om de output van geselecteerde kaarten te activeren, selecteer de vooraf geproduceerde kaartoutput en selecteer **Publish aan** > **Voorproef**.
-* Om de output van alle kaarten DITA met hun gevormde voorinstellingen te activeren, selecteer checkbox naast de **Kaart** kolom, en selecteer dan **Publish aan** > **Publish**.
+* Om de output van geselecteerde kaarten te activeren, selecteer de vooraf geproduceerde kaartoutput en selecteer **publiceren aan** > **Voorproef**.
+* Om de output van alle kaarten DITA met hun gevormde voorinstellingen te activeren, selecteer checkbox naast de **Kaart** kolom, en selecteer dan **publiceren aan** > **publiceren**.
 
 
-**Publish**
+**publiceer**
 
-* Om de output van geselecteerde kaarten te activeren, selecteer de vooraf geproduceerde kaartoutput en selecteer **Publish aan** > **Publish**.
+* Om de output van geselecteerde kaarten te activeren, selecteer de vooraf geproduceerde kaartoutput en selecteer **publiceren aan** > **publiceren**.
 
-* Om de output van alle kaarten DITA met hun gevormde voorinstellingen te activeren, selecteer checkbox naast de Kaart (kolom), en selecteer dan **Publish aan** > **Publish**.
+* Om de output van alle kaarten DITA met hun gevormde voorinstellingen te activeren, selecteer checkbox naast de Kaart (kolom), en selecteer dan **publiceren aan** > **publiceren**.
 
 
 >[!NOTE]
@@ -71,8 +73,8 @@ Nadat de uitvoer voor de geselecteerde kaartbestanden is geactiveerd, wordt het 
 
 Voer een van de volgende handelingen uit:
 
-* Om de output van geselecteerde kaarten te activeren, selecteer de vooraf geproduceerde kaartoutput en selecteer **Snelle Publish**.
-* Om de output van alle kaarten DITA met hun gevormde voorinstellingen te activeren, selecteer checkbox naast de Kaart (kolom), en selecteer dan **Snelle Publish.**
+* Om de output van geselecteerde kaarten te activeren, selecteer de vooraf geproduceerde kaartoutput en selecteer **Snel publiceren**.
+* Om de output van alle kaarten DITA met hun gevormde voorinstellingen te activeren, selecteer checkbox naast de Kaart (kolom), en selecteer dan **Snel publiceren.**
   ![ bulk-inzameling-publiceer ](images/bulk-activation-collection-quick-publish.png){width="650" align="left"}
 
   >[!NOTE]

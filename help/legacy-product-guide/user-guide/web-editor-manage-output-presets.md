@@ -3,7 +3,9 @@ title: Uitvoervoorinstellingen voor Algemeen en Mapprofiel beheren
 description: Leer hoe u voorinstellingen voor algemene profielen en mapprofielen als gebruikers met beheerdersrechten in AEM Guides maakt, bewerkt, hernoemt, dupliceert en verwijdert.
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 4e9cd1d5-1c28-4363-917d-f58511c4f809
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 0%
@@ -39,13 +41,13 @@ Voer de volgende stappen uit om een uitvoervoorinstelling voor de algemene profi
 
 >[!NOTE]
 >
-> AEM Guides beschikt ook over een voorinstelling voor PDF-uitvoer buiten de doos om de uitvoer voor uw DITA-kaarten te genereren.
+> AEM Guides beschikt ook over een PDF-uitvoervoorinstelling buiten de doos om de uitvoer voor uw DITA-kaarten te genereren.
 
 **Andere verrichtingen van het menu van Opties**
 
 U kunt ook de volgende bewerkingen uitvoeren op de voorinstelling via het menu Opties:
 
-- Selecteer de voorinstelling als standaard-PDF-voorinstelling. Dan zou geselecteerde vooraf ingesteld als gebrek worden gebruikt vooraf ingesteld om de output van de PDF te produceren gebruikend de **Download als PDF** optie voor een kaart.
+- Selecteer de voorinstelling als standaard-PDF-voorinstelling. Dan zou geselecteerde vooraf ingesteld als gebrek worden gebruikt vooraf ingesteld om de output van PDF te produceren gebruikend de **Download als optie van PDF** voor een kaart.
 - **geeft** uit, **anders noemt**, **dupliceert**, of **schrapt** een bestaande output vooraf ingesteld van het **menu van Opties**.
 
 >[!NOTE]

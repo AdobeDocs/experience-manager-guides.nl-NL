@@ -3,7 +3,9 @@ title: Onderwerpen bewerken in de webeditor
 description: Leer onderwerpen te bewerken in de webeditor. U kent verschillende bewerkingsfuncties om uw onderwerpbestanden in AEM Guides te wijzigen.
 feature: Authoring, Web Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 0341bdec-9635-4ced-b1c6-789b4e1aded8
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1055'
 ht-degree: 0%
@@ -32,7 +34,7 @@ De Redacteur van het Web komt met een waaier van het uitgeven eigenschappen die 
 
    >[!NOTE]
    >
-   > Als u niet wenst om veranderingen in AEM bewaarplaats vast te leggen, klik **Sluiten**, en klik dan **Sluiten zonder** op te slaan in de Unsaved dialoog van Veranderingen.
+   > Als u niet wenst om veranderingen in de bewaarplaats van AEM vast te leggen, klik **dicht**, en klik dan **Sluiten zonder het Opslaan** in de Unsaved dialoog van Veranderingen.
 
 
 ## Gedeeltelijke selectie van inhoud tussen elementen

@@ -3,7 +3,9 @@ title: Documentstatus
 description: Leer de typen documentstatussen in AEM Guides. Weet hoe u de documentstatus kunt wijzigen of weergeven en de documentstatus in DDLC kunt gebruiken.
 feature: Authoring, Features of Web Editor, Document State
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: f8367f84-dd46-4140-8748-c3bda0cf933a
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '936'
 ht-degree: 0%
@@ -24,7 +26,7 @@ Voor een document kunnen alle documentstatussen zijn gedefinieerd in het profiel
 
 Deze statussen worden handmatig of automatisch ingesteld volgens de profielinstellingen van de documentstatussen. Bijvoorbeeld, als het profiel van de Staat van het Document met beginstaat als Ontwerp wordt gevormd, en de staat In-Overzicht wordt bepaald voor documenten onder overzicht. Dan, wanneer u een document creeert, wordt de documentstaat geplaatst aan *Ontwerp*. Als u een revisietaak start, wordt de status van het document gewijzigd in In-Review.
 
-U kunt de documentstatus voor een of meerdere documenten ook handmatig wijzigen. Als u echter de documentstatus voor meerdere documenten wilt wijzigen, wordt de toegestane status bepaald door de algemene staten die zijn toegestaan voor de geselecteerde documenten. Stel dat u de documentstatussen in dezelfde volgorde hebt gedefinieerd als Concept, In-Review, Reviewed en Ready to Publish. Voor document one.dita wordt de staat geplaatst aan *Ontwerp* en op document two.dita, wordt de staat geplaatst aan Gereviseerde. Wanneer u zowel—one.dita als two.dita selecteert, dan zal de toegestane documentstaat *Klaar aan Publish* zijn. Aangezien two.dita in *Gereviseerde* staat is, is de volgende mogelijke staat voor two.dita slechts *Klaar aan Publish*, die wordt getoond wanneer beide documenten worden geselecteerd.
+U kunt de documentstatus voor een of meerdere documenten ook handmatig wijzigen. Als u echter de documentstatus voor meerdere documenten wilt wijzigen, wordt de toegestane status bepaald door de algemene staten die zijn toegestaan voor de geselecteerde documenten. Stel dat u de documentstatussen hebt gedefinieerd als Concept, In-Review, Reviewed en Ready to Publish, in dezelfde volgorde. Voor document one.dita wordt de staat geplaatst aan *Ontwerp* en op document two.dita, wordt de staat geplaatst aan Gereviseerde. Wanneer u zowel—one.dita als two.dita selecteert, dan zal de toegestane documentstaat *klaar zijn om* te publiceren. Aangezien two.dita in *Gereviseerde* staat is, is de volgende mogelijke staat voor two.dita slechts *klaar om* te publiceren, die wordt getoond wanneer beide documenten worden geselecteerd.
 
 >[!NOTE]
 >
@@ -62,7 +64,7 @@ Voer de volgende stappen uit om de functie voor documentgoedkeuring te gebruiken
 
 >[!NOTE]
 >
-> De beheerder moet de functie voor de goedkeuringswerkstroom inschakelen. Voor meer details, zie *goedkeuringswerkschema* sectie van het goedkeuringswerkschema in installeren en vormen as a Cloud Service Adobe Experience Manager Guides.
+> De beheerder moet de functie voor de goedkeuringswerkstroom inschakelen. Voor meer details, zie *goedkeuringswerkschema* sectie van het goedkeuringswerkschema in installeren en vormen Adobe Experience Manager Guides as a Cloud Service.
 
 1. Open in de webeditor het document dat u ter goedkeuring wilt markeren.
 
