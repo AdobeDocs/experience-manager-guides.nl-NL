@@ -4,9 +4,9 @@ description: Ontdek de functies van de Editor in Adobe Experience Manager Guides
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
+source-git-commit: 236947dc7dd01d4f232058a98dcd2db99031c267
 workflow-type: tm+mt
-source-wordcount: '18656'
+source-wordcount: '18661'
 ht-degree: 0%
 
 ---
@@ -1253,7 +1253,7 @@ Wanneer u een kaart opent in de kaartweergave, wordt de titel van de huidige kaa
 
 Wanneer u zeer belangrijke attributen voor het onderwerp of kaartverwijzingen bepaalt, kunt u de titel, het overeenkomstige pictogram, en de sleutel in het linkerpaneel bekijken. De toets wordt weergegeven als `keys=<key-name>` .
 
-![ sleutels in kaartmening ](images/view-key-title-map-view.png){width="300" align="left"}
+![ Sleutels in kaartmening ](images/view-key-title-map-view.png){width="300" align="left"}
 
 Als u bewerkingsrechten hebt voor de kaartbestanden, kunt u de bestanden ook bewerken. Voor meer informatie over het openen van en het uitgeven van een onderwerp door kaart DITA, geeft de mening [ onderwerpen door kaart DITA ](map-editor-advanced-map-editor.md#id17ACJ0F0FHS) uit.
 
@@ -1265,7 +1265,7 @@ De volgende opties zijn beschikbaar voor een kaartbestand in de Kaartweergave:
 
 U kunt de volgende handelingen uitvoeren met het menu Opties van het kaartbestand:
 
-![](images/options-menu-map-view_cs.png){width="800" align="left"}
+![ het menu van Opties in de mening van de Kaart ](images/options-menu-map-view_cs.png){width="800" align="left"}
 
 - **geeft** uit: Open het kaartdossier voor het uitgeven in de Redacteur van de Kaart.
 
