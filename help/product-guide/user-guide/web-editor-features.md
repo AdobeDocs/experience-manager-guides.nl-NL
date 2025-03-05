@@ -4,9 +4,9 @@ description: Ontdek de functies van de Editor in Adobe Experience Manager Guides
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 236947dc7dd01d4f232058a98dcd2db99031c267
+source-git-commit: 52b94c662f04499644f2806255521b3e68da1910
 workflow-type: tm+mt
-source-wordcount: '18661'
+source-wordcount: '18660'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Een krachtig, door AI aangedreven hulpmiddel dat wordt ontworpen om uw productiv
 
 >[!NOTE]
 >
-> De functie AI Assistant is momenteel beschikbaar voor Adobe Experience Manager Guides as a Cloud Service.
+>De functie AI Assistant is momenteel beschikbaar voor Adobe Experience Manager Guides as a Cloud Service.
 
 **breid mening** uit: Staat u toe om de paginamening uit te breiden gebruikend **breid** pictogram uit. In deze weergave is de kopbalk met het Adobe Experience Manager-logo verborgen. Hierdoor wordt de ruimte voor het bewerken van de inhoud gemaximaliseerd. Om aan de standaardmening terug te keren, gebruik **Uitgang het uitgebreide meningspictogram**.
 
@@ -190,6 +190,7 @@ In het volgende schermafbeelding worden slechts 3 van de 4 geconfigureerde eleme
       - Selecteer **sparen**.
 
      Zodra u app hebt gevormd, creeer het **ServiceNow** profiel.
+
    - Om een profiel tot stand te brengen, selecteer de Kennisbank ServiceNow van het **type van Server** dropdown. Ga een profiel **Naam** in. In **ServiceNow URL**, ga de consumentenplaats in u voor het publiceren van de output zou gebruiken en dan de **Gebruikersnaam** en **Wachtwoord** toevoegde die} door de plaats van de consument ServiceNow wordt verstrekt. Dan, **bevestigt** en **sparen** het pas gecreëerde profiel.
 
      ![ ServiceNow publiceert profiel ](./images/service-now-publish-profile.png){width="550" align="left"}
@@ -204,6 +205,7 @@ In het volgende schermafbeelding worden slechts 3 van de 4 geconfigureerde eleme
    - **de bevestigingscontrole van de Looppas alvorens het dossier** op te slaan: Selecteer dit om de bevestigingen in werking te stellen Schematron gebruikend het geselecteerde dossier van het Schema vóór om het even welke sparen verrichting. U kunt een Schematron-bestand toevoegen door het pictogram + te selecteren. De geselecteerde Schematron-bestanden worden weergegeven.
 
      >[!NOTE]
+     >
      >Het geselecteerde schemabestand of de geselecteerde schemabestanden blijven aanwezig voor het geselecteerde mapprofiel.
 
      ![ Bevestiging in redacteursmontages ](./images/editor-setting-validation.png){width="550" align="left"}
@@ -223,18 +225,21 @@ In het volgende schermafbeelding worden slechts 3 van de 4 geconfigureerde eleme
 
   ![](images/editor-setting-translation.png){width="550" align="left"}
 
-   - **Groepen van de Taal**: Als beheerder, kunt u een groep talen tot stand brengen en hen gebruiken als reeks om de inhoud te vertalen.\
+   - **Groepen van de Taal**: Als beheerder, kunt u een groep talen tot stand brengen en hen gebruiken als reeks om de inhoud te vertalen.
+
      Voer de volgende stappen uit om een nieuwe taalgroep te maken:
+
       1. Selecteer **toevoegen**.
       1. Voer de naam van de taalgroep in. Elke taal moet een unieke naam hebben. U kunt een fout weergeven als het naamveld leeg is of als de naam niet uniek is.
       1. Selecteer de talen in het vervolgkeuzemenu. U kunt meerdere talen selecteren.
 
-     Typ de eerste paar tekens van de taal of de taalcode om de gewenste talen te filteren. Typ bijvoorbeeld &#39;en&#39; om alle talen te filteren die &#39;en&#39; bevatten aan het begin van hun naam of code.
+         Typ de eerste paar tekens van de taal of de taalcode om de gewenste talen te filteren. Typ bijvoorbeeld &#39;en&#39; om alle talen te filteren die &#39;en&#39; bevatten aan het begin van hun naam of code.
+
       1. Selecteer het pictogram Gereed om de geselecteerde talen aan de groep toe te voegen. De talen worden weergegeven. Wanneer u drie of meer talen toevoegt, **toon meer** optie wordt getoond. U kunt **selecteren toont meer** om alle talen te bekijken huidig in de groep.
 
          >[!TIP]
          >
-         > Knevel **tonen meer** aan **tonen minder** en bekijken slechts een paar talen.
+         >Knevel **tonen meer** aan **tonen minder** en bekijken slechts een paar talen.
 
       1. Beweeg over de talen in een groep om ![ uit te geven geef pictogram ](images/edit_pencil_icon.svg) uit of schrap ![ ](images/Delete_icon.svg) de taalgroepen schrappen.
       1. Sparen de **Montages**.
@@ -296,7 +301,7 @@ De **Vondst en vervangt** eigenschap is beschikbaar in Auteur en de meningswijze
 
 ![](images/find-replace-bar.png){width="800" align="left"}
 
-Gebruikend het montagespictogram \ (![](images/settings-find-replace-icon.svg) \), kunt u **negeren geval** en **het Hele woord slechts** onderzoeksopties van een knevel voorzien. Om het case-insensitive onderzoek uit te voeren, zet \ (of selecteer \) **geval** optie negeren. Anders, als u het case-sensitive onderzoek wilt uitvoeren, draai \ (of schrap \) **negeren geval** optie. U kunt ook een heel woord zoeken.
+Gebruikend het montagespictogram \ (![](images/settings-find-replace-icon.svg) \), kunt u **negeren geval** en **het Hele woord slechts** onderzoeksopties van een knevel voorzien. Om het geval-ongevoelige onderzoek uit te voeren, zet (of selecteer) **geval** optie negeren. Anders, als u het case-sensitive onderzoek wilt uitvoeren, (of schrapt) **negeren geval** optie. U kunt ook een heel woord zoeken.
 
 Het onderzoek is onmiddellijk, zo betekent het dat aangezien u de onderzoeksuitdrukking of het woord in het **Vondst** gebied typt, de termijn onmiddellijk wordt gezocht en in het onderwerp geselecteerd. Op dezelfde manier voor het vervangen van een tekst in uw onderwerp, ga de onderzoekstermijn en zijn vervanging op de respectieve gebieden in en selecteer **vervangen** of **vervangen allen** knoop.
 
@@ -364,7 +369,7 @@ Ga als volgt te werk om de versiegeschiedenis te openen en terug te keren naar e
 
 **de etiketten van de Versie**
 
-Met labels kunt u het werkgebied identificeren waarin een bepaald onderwerp zich in de DDLC \(Levenscyclus voor documentontwikkeling\) bevindt. Wanneer u bijvoorbeeld aan een onderwerp werkt, kunt u het label &quot;Goedgekeurd&quot; instellen. Zodra een onderwerp wordt gepubliceerd en ter beschikking gesteld aan klanten, kunt u &quot;Vrijgegeven&quot;etiket aan dat onderwerp toewijzen.
+De etiketten helpen u het stadium identificeren waarin een bepaald onderwerp in DDLC (de Cyclus van het Leven van de Ontwikkeling van het Document) is. Wanneer u bijvoorbeeld aan een onderwerp werkt, kunt u het label &quot;Goedgekeurd&quot; instellen. Zodra een onderwerp wordt gepubliceerd en ter beschikking gesteld aan klanten, kunt u &quot;Vrijgegeven&quot;etiket aan dat onderwerp toewijzen.
 
 Met Experience Manager Guides kunt u labels opgeven in een tekstindeling met vrije vorm of een set vooraf gedefinieerde labels gebruiken. Met het aangepaste label kan elke auteur in het systeem naar keuze een label opgeven. Dit geeft flexibiliteit, maar het introduceert inconsistente labels in het systeem. Om dit probleem te verhelpen, kunnen beheerders een set vooraf gedefinieerde labels configureren. Voor meer informatie over het vormen van vooraf bepaalde etiketten, vormt de mening *en past de Redacteur van het Web van XML* in toe installeert en vormt Adobe Experience Manager Guides as a Cloud Service.
 
@@ -1865,9 +1870,9 @@ Voer de volgende stappen uit om de algemene zoek- en vervangactie uit te voeren:
 
 Om **toe te laten vervang allen** pictogram, moet uw systeembeheerder de optie **selecteren toelaten vervangt allen** onder het **Algemene** lusje in **Montages**.
 
-    >[!NOTA] 
-    > 
-    > Hover over een dossier van de lijst van het onderzoeksresultaat om te bekijken vervangen allen in het pictogram van het Dossier op het recht van het. U kunt ook het pictogram Bestand negeren gebruiken om het bestand uit het zoekresultaat te verwijderen. De dossiers die u negeert worden verwijderd uit de lijst en de gezochte termijn wordt niet vervangen in hen.
+>[!NOTE]
+>
+> Houd de muisaanwijzer boven een bestand in de lijst met zoekresultaten om Alles vervangen in het bestandspictogram rechts van de lijst weer te geven. U kunt ook het pictogram Bestand negeren gebruiken om het bestand uit het zoekresultaat te verwijderen. De bestanden die u negeert, worden uit de lijst verwijderd en de zoekterm wordt in de lijst niet vervangen.
 
 Slechts één vervang alle verrichting kan tegelijkertijd in het volledige systeem worden uitgevoerd, en tot de tijdverrichting wordt uitgevoerd zult u &quot;vervangt allen lopend&quot;status bekijken. U kunt de vervangingsverrichting ook afbreken binnen tussen of het logboekrapport bekijken. Als u de bewerking afbreekt, ontvangt u een melding over de bewerking in het Postvak IN. Er wordt een melding weergegeven als u alle exemplaren in het geselecteerde bestand hebt vervangen.
 
