@@ -1,10 +1,10 @@
 ---
-title: Documenten vertalen vanuit de webeditor
+title: Documenten vertalen vanuit de kaartconsole
 description: Vertaal uw inhoud vanuit de webeditor naar meerdere talen. Leer hoe u een vertaalproject maakt, regels toevoegt, versies weergeeft en bestanden die niet gesynchroniseerd zijn in AEM Guides kunt negeren.
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: f29c1225fcb95dbe05a3fc8aa471c88dc7b8ffb2
+source-git-commit: 6b4908e9780ec70f4d11a21680bba384c9636485
 workflow-type: tm+mt
 source-wordcount: '2365'
 ht-degree: 0%

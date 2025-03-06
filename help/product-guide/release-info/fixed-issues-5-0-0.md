@@ -1,21 +1,21 @@
 ---
-title: Opmerkingen bij de release | Opgeloste problemen in Adobe Experience Manager Guides, release 2025.02.0
-description: Meer informatie over de opgeloste problemen vindt u in de release 2025.02.0 van Adobe Experience Manager Guides as a Cloud Service.
-exl-id: e7dec4a2-e11a-4b78-8111-a331d20ce73d
-source-git-commit: 09283ab7c76eca669b30ec92923456c11d53a10b
+title: Opmerkingen bij de release | Opgeloste problemen in Adobe Experience Manager Guides, release 5.0.0
+description: Meer informatie over de opgeloste problemen vindt u in de 5.0.0-release van Adobe Experience Manager Guides.
+source-git-commit: 5ae05935d254b03ad99221bd5f65dbb6a3580c5f
 workflow-type: tm+mt
-source-wordcount: '1311'
+source-wordcount: '1246'
 ht-degree: 0%
 
 ---
 
-# Opgeloste problemen in de release 2025.02.0
+# Opgeloste problemen in de 5.0.0-release (maart 2025)
 
-Dit artikel heeft betrekking op de fouten die zijn verholpen in verschillende gebieden van de release 2025.02.0 van Adobe Experience Manager Guides as a Cloud Service.
+In dit artikel worden de bugs beschreven die zijn gecorrigeerd in verschillende gebieden met 5.0.0 release van Adobe Experience Manager Guides.
 
-Voor meer informatie over de nieuwe eigenschappen en de verhogingen, mening [ wat in de versie 2025.02.0 ](whats-new-2025-02-0.md) nieuw is.
 
-Leer over [ verbeteringsinstructies voor de versie 2025.02.0 ](upgrade-instructions-2025-02-0.md).
+Voor meer informatie over de nieuwe eigenschappen en de verhogingen, mening [ wat in de 5.0.0 versie ](whats-new-5-0-0.md) nieuw is.
+
+Leer over [ verbeteringsinstructies voor de 5.0.0 versie ](upgrade-instructions-5-0-0.md).
 
 
 ## Authoring
@@ -62,16 +62,13 @@ Leer over [ verbeteringsinstructies voor de versie 2025.02.0 ](upgrade-instructi
 
 ## Beheer
 
-- De lekken van het middel komen toe te schrijven aan Unclosed **fouten ResourceResolver in logboeken.** (18488)
 - De titel en het pictogram van het **Forceer schrappen** dialoogvakje worden verkeerd gericht in Assets UI. (21933)
 - Wanneer om het even welke JSON in het omslagprofiel voor de Configuratie van de Redacteur van XML wordt bijgewerkt, verstoort de sparen verrichting de Configuratie van de Redacteur van XML. (22414)
 - Wanneer u een mapprofiel dupliceert, wordt de bijbehorende lijst met gebruikers ook gekopieerd uit het oorspronkelijke mapprofiel. (19067)
 - Wanneer u grote mappen (met een groot volume DITA-inhoud tot 200.000 items) verplaatst vanuit de gebruikersinterface van Assets, treedt er een fout op. (20107)
-- Wanneer het gebruiken van dynamische titel met `<conkeyref>`, lost het niet behoorlijk in **Lijst van het Onderwerp van het Rapport van Gidsen** op. (2014)
 - Het uitgeven van het **profiel van de Omslag** met verenigde shell toegelaten, leidt tot lege UI. (22212)
 - Wanneer u mappen verwijdert die een groot aantal bestanden bevatten, mislukt de bewerking. 17107
 - Wanneer u annuleert/de vertaalbaan schrapt of het project schrapt, toont het vertaaldashboard **Bezig** status. 18417
-- Wanneer u verenigde shell voor een wolkeninstantie toelaat, opent de onderwerpvoorproef niet van kaartdashboard. (18826)
 - Wanneer u twee versies van een onvertaald onderwerp gelijktijdig gebruikend niet erfenisvertaling verzendt en de tweede versie vóór de eerste goedkeurt, wordt het vertaalproject met de eerste versie gebroken. (2200)
 
 
@@ -87,18 +84,20 @@ Leer over [ verbeteringsinstructies voor de versie 2025.02.0 ](upgrade-instructi
 
 ## Bekende problemen
 
-Adobe heeft de volgende bekende problemen vastgesteld voor de release 2025.02.0:
+Adobe heeft de volgende bekende problemen voor 5.0.0-release geïdentificeerd:
 
+- In sommige gevallen werkt de vergrendelingsfunctie voor CSS-bestanden niet zoals verwacht, waardoor andere gebruikers de bestanden kunnen bewerken en opslaan, zelfs als ze door een andere gebruiker zijn vergrendeld.
+- Kan de kaartconsolemening niet afsluiten wanneer Basislijn vuil is en automatisch opslaan ingeschakeld is.
+- Als u vooraf ingestelde wijzigingen in de instellingen toepast, worden de voorinstellingen die al op de kaart zijn gemaakt niet weergegeven als de naam van de voorinstelling hoofdletters bevat.
+- De positie van Achtergrondkleur wordt verkeerd gericht in UI van **het Comité van de Voorwaarde**.
+- Wanneer u beeld als a `<keyref>` gebruikt, wordt het **Type van Verwijzing** van het beeld niet getoond in het **Multimedia rapport**.
 - Wanneer u afbeeldingen als variabelen gebruikt in de PDF-sjabloon, wordt dit niet omgezet in de uitvoer.
-- Het **bepaalt plaats in bewaarplaats** vermogen werkt niet wanneer het openen van de Redacteur van Gidsen voor het eerst, maar begint werkend zoals verwacht na het verfrissen van browser.
 - In **lijst van het Onderwerp** rapporten, ontbreekt het sorteren door titel voor activa met `<conref>` of `<conkeyref>` in de titel, veroorzakend deze ingangen om altijd bij de bovenkant te verschijnen.
 - Als u overschakelt naar een ander mapprofiel, worden de wijzigingen in de gebruikersinterface niet meteen doorgevoerd zonder de browser te vernieuwen.
-- De aanpassingen van het extensieframework die vóór Hulplijnen 2025.02.x.x zijn aangebracht, werken mogelijk niet naar behoren.
+- De aanpassingen van het extensieframework die vóór hulplijnen 5.0.0 zijn gemaakt, werken mogelijk niet naar behoren.
 - De volledige inhoudsopgave van de kaart wordt niet bijgewerkt wanneer onderwerpen selectief van de kaart worden gepubliceerd.
 - Het publiceren van een kaart die een dossier van de Prijsverhoging met interne beeldverwijzingen bevat, ontbreekt op de servers van Vensters.
 - De lijst met opsommingstekens kan niet worden geconverteerd naar de genummerde lijst in Markeringen.
 - Publiceren naar de eigen AEM-site mislukt wanneer markeringsbestanden worden vermeld in een kaart.
-- De positie van Achtergrondkleur wordt verkeerd gericht in UI van **het Comité van de Voorwaarde**.
-- Wanneer u beeld als a `<keyref>` gebruikt, wordt het **Type van Verwijzing** van het beeld niet getoond in het **Multimedia rapport**.
-- In sommige gevallen werkt de vergrendelingsfunctie voor CSS-bestanden niet zoals verwacht, waardoor andere gebruikers de bestanden kunnen bewerken en opslaan, zelfs als ze door een andere gebruiker zijn vergrendeld.
-- Als u vooraf ingestelde wijzigingen in de instellingen toepast, worden de voorinstellingen die al op de kaart zijn gemaakt niet weergegeven als de naam van de voorinstelling hoofdletters bevat.
+
+
