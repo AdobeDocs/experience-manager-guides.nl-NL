@@ -2,7 +2,8 @@
 title: Opmerkingen bij de release | Nieuwe functies in Adobe Experience Manager Guides 5.0.0-release
 description: Meer informatie over de nieuwe en verbeterde functies in de 5.0.0-release van Adobe Experience Manager Guides
 role: Leader
-source-git-commit: a5c18c228f68db9a3282a004dc56c8a0735e4926
+exl-id: 523667d9-fed4-4798-9554-2a27033c8027
+source-git-commit: 14641e72c4b488251c10318f4661e31b5d811cef
 workflow-type: tm+mt
 source-wordcount: '1706'
 ht-degree: 0%
@@ -27,7 +28,7 @@ De belangrijkste hooglichten zijn:
 
   Voor meer details, mening [ ervaring van de homepage van Adobe Experience Manager Guides ](../user-guide/intro-home-page.md).
 
-  ![](assets/aem-home-page-new.png){width="800" align="left"}
+  ![](assets/aem-home-page-whats-new.png){width="800" align="left"}
 
 
 - **Nieuwe ervaring van de Redacteur**: Nu, ervaart de Redacteur in een nieuw blik en voelt. De vernieuwde interface voor editors is voorzien van een schonere en meer georganiseerde werkbalk, naadloze navigatie en een algemene intuïtieve ervaring waarmee u documenten sneller en efficiënter kunt ontwerpen.
@@ -54,7 +55,7 @@ De integratie voorziet u ook van de capaciteit om uw het werkrijen te controlere
 
 Voor meer details, verwijs naar [ integratie van Workfront ](../user-guide/workfront-integration.md).
 
-![](assets/workfront-new-ui-whats-new.png){width="800" align="left"}
+![](assets/workfront-new.png){width="800" align="left"}
 
 
 ## Snellere en schaalbare nieuwe AEM Sites-publicatieengine

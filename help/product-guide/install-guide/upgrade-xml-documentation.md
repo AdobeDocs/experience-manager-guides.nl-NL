@@ -5,9 +5,9 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: de79a2d63328fc6142b475a776dafd7e6d12f911
+source-git-commit: fec62d9c14acbbfc632f08af003f386aa2a6ab35
 workflow-type: tm+mt
-source-wordcount: '8018'
+source-wordcount: '8021'
 ht-degree: 0%
 
 ---
@@ -1298,7 +1298,7 @@ Aangezien de waarde van `'order'` tijdens deze upgrade is gewijzigd van 1000 in 
 
 ## Stappen om de damAssetLucene opnieuw te indexeren
 
-De indexdefinitie wordt bijgewerkt voor damAssetLucene met gidsen. Raadpleeg https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460 voor een nieuwe index voor damAssetLucene na de upgrade naar versie 5.0.0.
+De indexdefinitie wordt bijgewerkt voor damAssetLucene met gidsen. Verwijs naar [ dit artikel ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) voor het opnieuw indexeren van damAssetLucene na bevordering aan versie 5.0.0.
 
 >[!NOTE]
 >
