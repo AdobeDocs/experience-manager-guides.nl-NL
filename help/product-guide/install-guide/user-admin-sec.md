@@ -5,18 +5,18 @@ exl-id: 1269a652-5261-413d-9ea0-b4f75003e9d8
 feature: User Management
 role: Admin
 level: Experienced
-source-git-commit: 462647f953895f1976af5383124129c3ee869fe9
+source-git-commit: 9b657b0530db8fafe3bb6d30a9002791acf8f226
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
 
 # Beheer en beveiliging van gebruikers {#id181AED00G5Z}
 
-Als u functies in AEM Guides wilt openen en configureren, moet u gebruikers maken. Aan deze gebruikers kunnen vervolgens machtigingen worden toegewezen voor toegang tot alle of specifieke functies in AEM Guides. Leer hoe te om gebruikersvergunning te vormen en te handhaven en ook de theorie achter te begrijpen hoe de authentificatie en de vergunning in AEM werken.
+Als u functies in AEM Guides wilt openen en configureren, moet u gebruikers maken. Aan deze gebruikers kunnen vervolgens machtigingen worden toegewezen voor toegang tot alle of specifieke functies in AEM Guides. Leer hoe u gebruikersautorisatie configureert en handhaaft en ook de theorie achter hoe verificatie en autorisatie in AEM werken.
 
-De volgende onderwerpen in AEM documentatie zullen u helpen het gebruikersbeleid en veiligheid-gerelateerde concepten en eigenschappen begrijpen:
+De volgende onderwerpen in de documentatie van AEM zullen u helpen de gebruikersbeleid en veiligheid-gerelateerde concepten en eigenschappen begrijpen:
 
 - [ Gebruikers en Groepen in AEM ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)
 
@@ -29,7 +29,7 @@ De volgende onderwerpen in AEM documentatie zullen u helpen het gebruikersbeleid
 
 ## Gebruikersgroepen gemaakt door AEM Guides {#id181TF0K0MHT}
 
-AEM Guides verstrekt drie out-of-the-box groepen om verschillende taken in een DITA project te beheren. Deze groepen zijn: *Auteurs*, *Recensenten*, en *Uitgevers*. Afhankelijk van de groep waaraan een gebruiker is gekoppeld, mogen deze specifieke taken uitvoeren. Zo kan het publiceren alleen worden uitgevoerd door een uitgever, maar niet door een auteur of een revisor. Op dezelfde manier kan een auteur een nieuw onderwerp tot stand brengen, en een recensent kan slechts een onderwerp herzien.
+AEM Guides biedt drie groepen buiten de doos. Deze groepen zijn: *Auteurs*, *Recensenten*, en *Uitgevers*. Afhankelijk van de groep waaraan een gebruiker is gekoppeld, mogen deze specifieke taken uitvoeren. Zo kan het publiceren alleen worden uitgevoerd door een uitgever, maar niet door een auteur of een revisor. Op dezelfde manier kan een auteur een nieuw onderwerp tot stand brengen, en een recensent kan slechts een onderwerp herzien.
 
 >[!TIP]
 >
@@ -104,7 +104,7 @@ De volgende lijst bevat enkele aanbevelingen en punten die betrekking hebben op 
 
 - Als u uw gebruikers onderzoeksverrichtingen op DAM wilt kunnen uitvoeren, dan maak uw gebruikers een lid van de *dam-gebruikers* groep.
 
-- Als u beheerderrechten aan om het even welke gebruiker wilt geven, kunt u dit doen door hen toegang door AEM standaardgroepen zoals *beheerders*, *projecten-beheerders*, of configuratie \ te geven OSGI (de console \ van de Felix).
+- Als u beheerderrechten aan om het even welke gebruiker wilt geven, kunt u dit doen door hen toegang door AEM standaardgroepen zoals *te geven* beheerders *, of de configuratie \ van OSGI (de console \ van Felix).*
 
 - Als u een gebruiker rechten wilt geven om een documentstatus te wijzigen, moet u de gebruiker toevoegen in het gedeelte over statusovergang van het documentstatusprofiel.
 
