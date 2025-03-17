@@ -5,7 +5,7 @@ exl-id: b920ba7f-e8fc-4af6-aa8a-b8516b1cffc0
 feature: Search Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 8ee4863470f69bca52a9b36cde52703e4d6643bc
 workflow-type: tm+mt
 source-wordcount: '1695'
 ht-degree: 0%
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Zoeken naar gebruikersinterface van AEM Assets configureren {#id192SC800MY4}
 
-AEM herkent standaard geen DITA-inhoud, waardoor het geen mechanisme biedt om DITA-inhoud in de opslagplaats te doorzoeken. Met AEM Guides kunt u de zoekfunctie voor DITA-inhoud toevoegen aan AEM opslagplaats.
+AEM herkent standaard geen DITA-inhoud en biedt dus geen mechanisme om DITA-inhoud in de opslagplaats te doorzoeken. Met AEM Guides kunt u de zoekfunctie voor DITA-inhoud toevoegen in de AEM-opslagplaats.
 
-AEM herkent standaard geen DITA-inhoud, waardoor het geen mechanisme biedt om DITA-inhoud in de opslagplaats te doorzoeken. Er is ook geen OOTB-mogelijkheid om inhoud te zoeken op basis van hun UUID. Met AEM Guides kunt u de zoekfunctie voor DITA-inhoud en zoekmogelijkheden op basis van UUID toevoegen aan de AEM-opslagplaats.
+AEM herkent standaard geen DITA-inhoud en biedt dus geen mechanisme om DITA-inhoud in de opslagplaats te doorzoeken. Er is ook geen OOTB-mogelijkheid om inhoud te zoeken op basis van hun UUID. Met AEM Guides kunt u de zoekfunctie voor DITA-inhoud en zoekmogelijkheden op basis van UUID toevoegen aan de AEM-opslagplaats.
 
 Het vormen van DITA inhoudsonderzoek impliceert de volgende taken:
 
@@ -136,8 +136,7 @@ In het gedeelte Regelset kunt u het volgende opgeven:
 
 Een regel bestaat uit het volgende:
 
-xpath
-:   Dit is de vraag van XPath die de elementen of de attributen van DITA- dossiers terugwint. De standaardconfiguratie voor de elementregel haalt alle `prolog` -elementen op. En de standaardconfiguratie voor de kenmerkregel haalt alle kenmerken van `prolog` -elementen op. U kunt een vraag van XPath specificeren om de elementen of de attributen in series te vervaardigen die u wilt zoeken.
+**xpath** - dit is de vraag van XPath die de elementen of de attributen van DITA- dossiers terugwint. De standaardconfiguratie voor de elementregel haalt alle `prolog` -elementen op. En de standaardconfiguratie voor de kenmerkregel haalt alle kenmerken van `prolog` -elementen op. U kunt een vraag van XPath specificeren om de elementen of de attributen in series te vervaardigen die u wilt zoeken.
 
 De XPath-query bevat de klassenaam van het documenttype. De `topic/topic` -klasse wordt gebruikt voor DITA-onderwerpdocumenten. Als u een regel wilt maken voor andere DITA-documenten, moet u de volgende klassenamen gebruiken:
 
@@ -149,23 +148,19 @@ De XPath-query bevat de klassenaam van het documenttype. De `topic/topic` -klass
 | Referentie | - onderwerp/onderwerpverwijzing/verwijzing |
 | Kaart | - kaart/kaart |
 
-text
-:   Als u naar de tekst binnen het gespecificeerde element wilt zoeken, dan specificeer ja waarde. Als u geen waarde opgeeft, worden alleen de kenmerken in het element geserialiseerd. De kenmerken waarnaar u wilt zoeken, moeten worden opgegeven in de sectie voor kenmerksets.
+**tekst** - als u naar de tekst binnen het gespecificeerde element wilt zoeken, dan specificeer ja waarde. Als u geen waarde opgeeft, worden alleen de kenmerken in het element geserialiseerd. De kenmerken waarnaar u wilt zoeken, moeten worden opgegeven in de sectie voor kenmerksets.
 
-attributeset
-:   Geef de id op van de kenmerkset die u aan deze regel wilt koppelen. De waarde alle-attrs is een speciaal geval om erop te wijzen dat alle attributen voor deze regel in series moeten worden vervaardigd.
+**attributen** - specificeer identiteitskaart van de kenmerkenreeks die u met deze regel wilt associëren. De waarde alle-attrs is een speciaal geval om erop te wijzen dat alle attributen voor deze regel in series moeten worden vervaardigd.
 
 Een kenmerkset bevat een lijst met kenmerken die u wilt zoeken binnen DITA-inhoud. De kenmerkenreeks bevat het volgende:
 
-id
-:   Een unieke id voor de kenmerkset. Deze id wordt opgegeven in de parameter attributeset van een regelset.
+**identiteitskaart** - een uniek herkenningsteken voor de geplaatste attributen. Deze id wordt opgegeven in de parameter attributeset van een regelset.
 
-attribute
-:   Een lijst met kenmerken die u wilt doorzoeken. Voor elk kenmerk moet u een afzonderlijk item maken in het element `attribute` .
+**attributen** - een lijst van attributen die u wilt zoeken. Voor elk kenmerk moet u een afzonderlijk item maken in het element `attribute` .
 
 Voer de volgende stappen uit om aangepaste DITA-elementen of -kenmerken toe te voegen in het bestand met zoekserienummering:
 
-1. Meld u aan bij AEM en open de modus CRXDE Lite.
+1. Meld u aan bij AEM en open de CRXDE Lite-modus.
 
 1. Navigeer naar het configuratiebestand voor serienummering dat beschikbaar is op de volgende locatie:
 
@@ -196,7 +191,7 @@ De nieuwe rangschikkingsinformatie wordt opgeslagen en geactiveerd voor onderzoe
 
 Zodra u om het even welke verandering in het standaard dossier van de onderzoeksrangschikking hebt aangebracht, moet u de optie van de Extractie van Meta-gegevens DITA in de {*bundel 0} toelaten com.adobe.fmdita.config.ConfigManager en dan het werkschema in werking stellen om meta-gegevens te halen.* Hiermee haalt u de vereiste metagegevens uit de bestaande DITA-bestanden en wordt hetzelfde vervolgens beschikbaar gesteld voor zoekopdrachten.
 
-Als u nieuwe bestanden maakt of een bestand bewerkt nadat u het serialisatiebestand hebt bijgewerkt, worden de metagegevens automatisch uit dergelijke bestanden geëxtraheerd. Het uitpakken van metagegevens is alleen vereist voor bestanden die al in de AEM opslagplaats bestaan.
+Als u nieuwe bestanden maakt of een bestand bewerkt nadat u het serialisatiebestand hebt bijgewerkt, worden de metagegevens automatisch uit dergelijke bestanden geëxtraheerd. Het uitpakken van metagegevens is alleen vereist voor bestanden die al in de AEM-opslagplaats bestaan.
 
 Het uitpakken van meta-gegevens uit bestaande DITA- dossiers impliceert twee taken:
 
@@ -239,7 +234,7 @@ Voer de volgende stappen uit om de workflow voor het uitnemen van metagegevens u
 
 ## Tijdelijke bestanden uitsluiten van zoekresultaten {#id197AHI0035Z}
 
-Standaard wordt de zoekopdracht uitgevoerd op de gehele opslagplaats van AEM. Er kunnen locaties zijn die u wilt uitsluiten van de zoekopdracht. Wanneer u bijvoorbeeld de workflow voor het vertalen van inhoud start, blijven de niet-goedgekeurde bestanden op een tijdelijke maplocatie staan. Wanneer u de zoekopdracht uitvoert, worden ook bestanden van deze tijdelijke locatie geretourneerd in de zoekresultaten.
+Standaard wordt de zoekopdracht uitgevoerd in de gehele opslagplaats van AEM. Er kunnen locaties zijn die u wilt uitsluiten van de zoekopdracht. Wanneer u bijvoorbeeld de workflow voor het vertalen van inhoud start, blijven de niet-goedgekeurde bestanden op een tijdelijke maplocatie staan. Wanneer u de zoekopdracht uitvoert, worden ook bestanden van deze tijdelijke locatie geretourneerd in de zoekresultaten.
 
 Als u wilt voorkomen dat AEM Guides de locatie van de tijdelijke vertaalmap doorzoekt, moet u een tijdelijke maplocatie toevoegen aan de lijst met uitsluitingen.
 
@@ -249,7 +244,7 @@ Voer de volgende stappen uit om de tijdelijke vertaalmap uit te sluiten van de z
 >
 > Met deze procedure kunt u elke andere maplocatie aan de lijst met uitsluitingen toevoegen.
 
-1. Meld u aan bij AEM en open de modus CRXDE Lite.
+1. Meld u aan bij AEM en open de CRXDE Lite-modus.
 
 1. Navigeer naar de damAssetLucene-node die beschikbaar is op de volgende locatie:
 

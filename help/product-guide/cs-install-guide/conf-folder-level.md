@@ -5,7 +5,7 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
+source-git-commit: 8ee4863470f69bca52a9b36cde52703e4d6643bc
 workflow-type: tm+mt
 source-wordcount: '4756'
 ht-degree: 0%
@@ -548,17 +548,13 @@ Met behulp van het configuratiebestand in deze sectie kunt u enkele standaardfra
 
 U moet de volgende gegevens opgeven om een fragment te maken:
 
-snippetID
-:   Een unieke id voor het fragment. Dit kan een alfanumerieke waarde hebben.
+**snippetID** - een unieke identiteitskaart voor het fragment. Dit kan een alfanumerieke waarde hebben.
 
-name
-:   Een beschrijvende naam om het fragment te identificeren. Deze naam wordt weergegeven in het paneel Fragmenten.
+**naam** - een beschrijvende naam om het fragment te identificeren. Deze naam wordt weergegeven in het paneel Fragmenten.
 
-beschrijving
-:   Voeg een beschrijvende informatie voor het fragment toe.
+**beschrijving** - voeg een beschrijvende informatie voor het fragment toe.
 
-value
-:   Geef de XML-code van het fragment op.
+**waarde** - verstrek de code van XML van het fragment.
 
 >[!NOTE]
 >
