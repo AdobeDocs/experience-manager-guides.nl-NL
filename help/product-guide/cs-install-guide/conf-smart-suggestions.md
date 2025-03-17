@@ -2,7 +2,7 @@
 title: AI-assistent configureren voor slimme hulp en ontwerpen
 description: Leer hoe u de AI Assistant configureert in Experience Manager Guides
 exl-id: a595ca1f-0123-40d3-a79c-a066bc6517b4
-source-git-commit: 6856b9b31ee5d1111ee1c53836dfa8138780a283
+source-git-commit: 7b217cfd52dbf716b626e66373fffcc1b9eff695
 workflow-type: tm+mt
 source-wordcount: '880'
 ht-degree: 0%
@@ -128,7 +128,7 @@ Voor details, verwijs naar [ Vorm Slimme Suggesties in het Profiel van de Omslag
 
 ```
 {
- "service.account.details": "$[secret:SERVICE_ACCOUNT_DETAILS]",
+ "service.account.details": "$[secret:SERVICE_ACCOUNT_DETAILS]"
 }
 ```
 

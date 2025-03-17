@@ -2,9 +2,9 @@
 title: Opmerkingen bij de release | Opgeloste problemen in Adobe Experience Manager Guides, release 2025.02.0
 description: Meer informatie over de opgeloste problemen vindt u in de release 2025.02.0 van Adobe Experience Manager Guides as a Cloud Service.
 exl-id: e7dec4a2-e11a-4b78-8111-a331d20ce73d
-source-git-commit: 09283ab7c76eca669b30ec92923456c11d53a10b
+source-git-commit: 71971c25094b842cb7a0bd1f5bd2acbca4212a66
 workflow-type: tm+mt
-source-wordcount: '1311'
+source-wordcount: '1325'
 ht-degree: 0%
 
 ---
@@ -102,3 +102,4 @@ Adobe heeft de volgende bekende problemen vastgesteld voor de release 2025.02.0:
 - Wanneer u beeld als a `<keyref>` gebruikt, wordt het **Type van Verwijzing** van het beeld niet getoond in het **Multimedia rapport**.
 - In sommige gevallen werkt de vergrendelingsfunctie voor CSS-bestanden niet zoals verwacht, waardoor andere gebruikers de bestanden kunnen bewerken en opslaan, zelfs als ze door een andere gebruiker zijn vergrendeld.
 - Als u vooraf ingestelde wijzigingen in de instellingen toepast, worden de voorinstellingen die al op de kaart zijn gemaakt niet weergegeven als de naam van de voorinstelling hoofdletters bevat.
+- Wanneer het openen van een kaart DITA met verenigde toegelaten shell, verandert de redacteur af en toe.
