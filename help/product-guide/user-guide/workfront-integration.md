@@ -3,7 +3,8 @@ title: Workfront-integratie
 description: Leer hoe u Workfront kunt integreren met Adobe Experience Manager Guides en hoe u taken kunt gaan maken voor workflows voor ontwerpen, publiceren, reviseren en vertalen.
 feature: Authoring
 role: User
-source-git-commit: aa50c63588f18f2aabc03d8b81edca4281258876
+exl-id: fd988434-3ebd-40ac-a776-e62359dcb6ef
+source-git-commit: dea9876cf0afa615f3719637c909bbda0d1d40b5
 workflow-type: tm+mt
 source-wordcount: '2436'
 ht-degree: 0%
@@ -40,7 +41,7 @@ Voer de volgende stappen uit om toegang te krijgen tot uw Adobe Workfront-taken:
 
    De **de taken van Workfront** pagina wordt getoond.
 
-   ![](./images/workfront-sign-in.png){width="800" align="left"}
+   ![](./images/workfront-sign-in.png){align="left"}
 3. Selecteer **Teken binnen**.
 
    U wordt omgeleid naar de Adobe Workfront-aanmeldpagina.
@@ -48,7 +49,7 @@ Voer de volgende stappen uit om toegang te krijgen tot uw Adobe Workfront-taken:
 
    U wordt automatisch opnieuw gericht aan de **de taken van Workfront** pagina op Experience Manager Guides.
 
-   ![](./images/workfront-tasks-page.png){width="800" align="left"}
+   ![](./images/workfront-tasks-page.png){align="left"}
 
 ## Functies beschikbaar op de pagina Workfront-taken
 
@@ -72,7 +73,7 @@ Voer de volgende stappen uit om een nieuwe Adobe Workfront-taak te maken:
 
    **creeer taak** dialoogdoos wordt getoond.
 
-   ![](./images/workfront-create-task.png){width="650" align="left"}
+   ![](./images/workfront-create-task.png){align="left"}
 2. In het **Algemene** lusje, ga de volgende taakdetails in:
 
    * **Type van Taak**: Selecteer het taaktype dat u wilt tot stand brengen. De beschikbare opties zijn: **Authoring**, **het herzien**, **het Publiceren**, en **Vertaling**.
@@ -83,20 +84,20 @@ Voer de volgende stappen uit om een nieuwe Adobe Workfront-taak te maken:
    * **Ontvanger**: Selecteer een ontvanger voor de taak.
 3. In het **Assets** lusje, uitgezocht **voeg** toe om activa aan deze taak toe te voegen.
 
-   ![](./images/workfront-create-tasks-asset.png){width="650" align="left"}
+   ![](./images/workfront-create-tasks-asset.png){align="left"}
 
    * Voor creatie, het publiceren, en vertaaltaken, wordt u ertoe aangezet om de plaats van het vereiste dossier in het **Uitgezochte weg** dialoogvakje te selecteren. Het geselecteerde dossier (een onderwerp voor creatie en kaart voor het publiceren en vertaling) wordt toegevoegd aan de taak zodra **creeert** knoop wordt geselecteerd.
 
-     ![](./images/attach-asset.png){width="650" align="left"}
+     ![](./images/attach-asset.png){align="left"}
 
    * Voor overzichtstaken, wordt u eerst ertoe aangezet om het type van Activa (Kaart of Onderwerpen) te selecteren, en dan worden de geselecteerde dossiers getoond als volgt:
 
 
-     ![ Toevoegend kaarten aan een overzichtstaak ](./images/attach-asset-topics.png){width="650" align="left"}
+     ![ Toevoegend kaarten aan een overzichtstaak ](./images/attach-asset-topics.png){align="left"}
 
      *Toevoegend onderwerpen aan een overzichtstaak*
 
-     ![ Toevoegend kaarten aan een overzichtstaak ](./images/attach-asset-maps.png){width="650" align="left"}
+     ![ Toevoegend kaarten aan een overzichtstaak ](./images/attach-asset-maps.png){align="left"}
 
      *Toevoegend kaarten aan een overzichtstaak*
 
@@ -125,7 +126,7 @@ Een nieuwe taak wordt gecreeerd en onder **vermeld die door u** tabel wordt gecr
 
 Alle taken die u hebt gecreeerd en nog actief bent worden getoond in **die door u** wordt gecreeerd tabel op de de takenpagina van Workfront, die u zeer belangrijke taakdetails zoals projectnaam, toewijsstukken, de datum van de taakverwezenlijking, de datum van de taakvoltooiing, en taakstatus geven.
 
-![](./images/workfront-tasks-created-by-you.png){width="800" align="left"}
+![](./images/workfront-tasks-created-by-you.png){align="left"}
 
 De volgende opties zijn beschikbaar wanneer u de muisaanwijzer op een taak plaatst die zich op het tabblad Gemaakt door u bevindt:
 
@@ -147,7 +148,7 @@ Toont de taakinformatie, met inbegrip van details ingegaan tijdens taakverwezenl
 
 Alle taken die aan u worden toegewezen en nog actief worden getoond in **Toegewezen aan u** lusje op de de takenpagina van Workfront, die u zeer belangrijke taakdetails zoals projectnaam, wijzers, datum, en taakstatus geven.
 
-![](./images/workfront-tasks-assigned-to-you.png){width="800" align="left"}
+![](./images/workfront-tasks-assigned-to-you.png){align="left"}
 
 De volgende opties zijn beschikbaar wanneer u de muisaanwijzer op een taak plaatst die op het tabblad Toegewezen staat:
 
@@ -159,7 +160,7 @@ Hiermee kunt u de taak openen. Afhankelijk van het type van de taak, zal het in 
 
 Toont de taakinformatie, met inbegrip van details ingegaan tijdens taakverwezenlijking, taakstatus, en om het even welke toegevoegde activa.
 
-![](images/task-details.png){width="800" align="left"}
+![](images/task-details.png){align="left"}
 
 #### Toegang tot toegewezen taken van de sectie van het Overzicht
 
@@ -167,7 +168,7 @@ U kunt tot uw toegewezen taken van Adobe Workfront van de [ sectie van het Overz
 
 **Uw taken** is één dergelijke widget waar een lijst van de taken van Adobe Workfront (die aan u worden toegewezen en nog actief zijn) samen met de belangrijkste taakdetails met inbegrip van naam van de taak, het bijbehorende project, de datum, en de huidige status wordt getoond.
 
-![](./images/workfront-your-tasks-widget.png){width="800" align="left"}
+![](./images/workfront-your-tasks-widget.png){align="left"}
 
 Gelijkaardig aan het Toegewezen aan u lusje, verstrekt Uw taken widget ook opties aan **Open** en mening **de details van de Taak** wanneer u over een taak beweegt.
 
@@ -194,11 +195,11 @@ Voer de volgende stappen uit om aan een ontwerptaak te werken:
 
 1. Heb toegang tot de taak of van de [ sectie van het Overzicht ](#accessing-assigned-tasks-from-overview-section) of [ toevertrouwd aan u ](#managing-tasks-assigned-to-you) tabel.
 
-   ![ Authoring taken in Toegewezen aan u lusje ](./images/authoring-task-access.png){width="650" align="left"}
+   ![ Authoring taken in Toegewezen aan u lusje ](./images/authoring-task-access.png){align="left"}
 
    *Authoring taak in Toegewezen aan u lusje*
 
-   ![ Authoring taken in Uw taken widget ](./images/authoring-task-access-your-tasks.png){width="650" align="left"}
+   ![ Authoring taken in Uw taken widget ](./images/authoring-task-access-your-tasks.png){align="left"}
 
    *Authoring taak in Uw taken widget*
 2. Houd de muisaanwijzer boven de taak die u wilt uitvoeren en selecteer  ![](images/Smock_OpenIn_18_N.svg)  om het te openen. U kunt de taak ook openen door gewoon de taak te selecteren.
@@ -206,7 +207,7 @@ Voer de volgende stappen uit om aan een ontwerptaak te werken:
    Alle ontwerptaken worden geopend in de Editor.
 3. Herzie de taakdetails in het **lusje van Details** en selecteer het **3} dossier van Activa {om het te openen.**
 
-   ![](./images/authoring-task-review-details-editor.png){width="650" align="left"}
+   ![](./images/authoring-task-review-details-editor.png){align="left"}
 
 4. Maak vereiste uitgeeft en selecteer **Teken zoals gedaan**.
 5. Schakelaar aan het **lusje van Commentaren** om een commentaar aan deze taak toe te voegen. Deze commentaren, die op taakniveau worden toegevoegd, zullen ook op het het projectdashboard van Adobe Workfront nadenken.
@@ -223,18 +224,18 @@ Voer de volgende stappen uit om aan een overzichtstaak te werken die aan u wordt
 
 1. Heb toegang tot de taak of van de [ sectie van het Overzicht ](#accessing-assigned-tasks-from-overview-section) of [ toevertrouwd aan u ](#managing-tasks-assigned-to-you) tabel.
 
-   ![ de taken van het Overzicht in Toegewezen aan u lusje ](./images/review-task-access.png){width="650" align="left"}
+   ![ de taken van het Overzicht in Toegewezen aan u lusje ](./images/review-task-access.png){align="left"}
 
    *taak van het Overzicht in Toegewezen aan u lusje*
 
-   ![ de taken van het Overzicht in Uw taken widget ](./images/review-task-access-your-tasks.png){width="650" align="left"}
+   ![ de taken van het Overzicht in Uw taken widget ](./images/review-task-access-your-tasks.png){align="left"}
 
    *Authoring taak in Uw taken widget*
 2. Houd de muisaanwijzer boven de taak die u wilt uitvoeren en selecteer  ![](images/Smock_OpenIn_18_N.svg)  om het te openen. U kunt de taak ook openen door gewoon de taak te selecteren.
 
    Voor recensenten, opent de overzichtstaak in **Overzicht UI**.
 
-   ![](./images/review-task-access-review-ui.png){width="650" align="left"}
+   ![](./images/review-task-access-review-ui.png){align="left"}
 
 3. Voer de vereiste revisie uit. Voor details op hoe te om een onderwerp te herzien, bekijk [ overzichtsonderwerpen ](./review-topics.md).
 4. Zodra de revisie volledig is, uitgezochte **Teken zoals gedaan**.
@@ -248,13 +249,13 @@ Het markeren van de taak zoals deze door de controleur is uitgevoerd, geeft niet
 
 De taken van het overzicht worden opnieuw toegewezen aan de schepper/de auteurs voor overzicht opname, kunnen van [ Overzicht ](#accessing-assigned-tasks-from-overview-section) sectie of van [ worden betreden die aan u ](#managing-tasks-assigned-to-you) tabel wordt toegewezen.
 
-![ de taken van het Overzicht op de wijze van de Auteur ](./images/review-task-author-mode.png){width="800" align="left"}
+![ de taken van het Overzicht op de wijze van de Auteur ](./images/review-task-author-mode.png){align="left"}
 
 *taak van het Overzicht die terug aan auteurs* wordt toegewezen
 
 Voor dergelijke taken, verandert de taakstaat voor de ontvanger in **Authoring** terwijl het taaktype als **Overzicht** blijft. Deze statuswijziging treedt op wanneer de revisie wordt voltooid door alle revisoren.
 
-![](./images/review-tasks-with-authoring-doc-state.png){width="300" align="left"}
+![](./images/review-tasks-with-authoring-doc-state.png){align="left"}
 
 
 Het selecteren van de taak of het open pictogram ![](images/Smock_OpenIn_18_N.svg) opent de taak in de Redacteur waar de auteur [ revisiecommentaren van het adres ](../user-guide/review-address-review-comments.md) kan, de taak uitgeven door de versie van de onderwerpen bij te werken, en dan de taak terug aan recensent toe te wijzen indien nodig.
@@ -271,21 +272,21 @@ Voer de volgende stappen uit om aan een vertaaltaak te werken:
 
 1. Heb toegang tot de taak of van de [ sectie van het Overzicht ](#accessing-assigned-tasks-from-overview-section) of [ toevertrouwd aan u ](#managing-tasks-assigned-to-you) tabel.
 
-   ![ Vertaal taken in Toegewezen aan u lusje ](./images/translation-tasks-access.png){width="650" align="left"}
+   ![ Vertaal taken in Toegewezen aan u lusje ](./images/translation-tasks-access.png){align="left"}
 
    *Vertaal taak in Toegewezen aan u lusje*
 
-   ![ Vertaal taken in Uw taken widget ](./images/translation-tasks-access-your-tasks.png){width="650" align="left"}
+   ![ Vertaal taken in Uw taken widget ](./images/translation-tasks-access-your-tasks.png){align="left"}
 
    *de taak van de Vertaling in Uw taken widget*
 
 2. Houd de muisaanwijzer boven de taak die u wilt uitvoeren en selecteer  ![](images/Smock_OpenIn_18_N.svg)  om het in de **console van de Kaart** te openen. U kunt de taak ook openen door gewoon de taak te selecteren.
 3. Controleer de taakdetails en het bestand dat u voor vertaling hebt toegevoegd.
 
-   ![](./images/translation-tasks-review-details.png){width="650" align="left"}
+   ![](./images/translation-tasks-review-details.png){align="left"}
 4. Navigeer aan het **Vertaling** lusje voor de diverse vertaalopties. Leer hoe te [ inhoud ](../user-guide/translation.md) in Experience Manager Guides vertalen.
 5. Voer de vereiste vertaling uit en selecteer **verzend voor vertaling**.
-   ![](./images/translation-tasks-send-translation.png){width="650" align="left"}
+   ![](./images/translation-tasks-send-translation.png){align="left"}
 6. Navigeer aan de **sectie van Workfront** en selecteer **Teken zoals gedaan** om erop te wijzen dat de taak volledig is.
 7. Schakelaar aan het **lusje van Commentaren** om een commentaar aan deze taak toe te voegen. Deze commentaren, die op taakniveau worden toegevoegd, zullen op het het projectdashboard van Adobe Workfront nadenken.
 
@@ -301,17 +302,17 @@ Voer de volgende stappen uit om aan een het publiceren taak te werken:
 
 1. Heb toegang tot de taak of van de [ sectie van het Overzicht ](#accessing-assigned-tasks-from-overview-section) of [ toevertrouwd aan u ](#managing-tasks-assigned-to-you) tabel.
 
-   ![ het Publiceren taken in Toegewezen aan u lusje ](./images/publishing-tasks-access.png){width="650" align="left"}
+   ![ het Publiceren taken in Toegewezen aan u lusje ](./images/publishing-tasks-access.png){align="left"}
 
    *het Publiceren taak in Toegewezen aan u lusje*
 
-   ![ het Publiceren taken in Uw taken widget ](./images/publishing-tasks-access-your-tasks.png){width="650" align="left"}
+   ![ het Publiceren taken in Uw taken widget ](./images/publishing-tasks-access-your-tasks.png){align="left"}
 
    *het Publiceren taak in Uw taken widget*
 2. Houd de muisaanwijzer boven de taak die u wilt uitvoeren en selecteer  ![](images/Smock_OpenIn_18_N.svg)  om het in de **console van de Kaart** te openen. U kunt de taak ook openen door gewoon de taak te selecteren.
 3. Controleer de taakdetails en het bestand dat is toegevoegd voor publicatie.
 
-   ![](./images/publishing-tasks-review-details.png){width="650" align="left"}
+   ![](./images/publishing-tasks-review-details.png){align="left"}
 4. Navigeer aan **vooraf instelt van de Output** en voer de het publiceren acties uit die worden vereist om de taak te publiceren. Voor meer details, bekijk [ Begrijpend de output stelt ](../user-guide/generate-output-understand-presets.md/) vooraf in.
 5. Zodra het publiceren volledig is, navigeer aan de **sectie van Workfront** en selecteer **Teken zoals gedaan** om erop te wijzen dat de taak volledig is.
 6. Schakelaar aan het **lusje van Commentaren** om een commentaar aan deze taak toe te voegen. Deze commentaren, die op taakniveau worden toegevoegd, zullen op het Workfront project dashboard nadenken.
