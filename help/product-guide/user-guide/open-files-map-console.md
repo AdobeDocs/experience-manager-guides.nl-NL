@@ -3,7 +3,8 @@ title: Over het openen van bestanden in kaartconsole
 description: Leer over de manieren om een DITA kaartdossier in de interface van de Console van de Kaart van Adobe Experience Manager Guides te openen.
 feature: Publishing
 role: User
-source-git-commit: 2e233a1bf061eba539a4af483f5f9ba32ff613c2
+exl-id: 9443ffe8-77db-454a-b2cb-a135ada24d10
+source-git-commit: 1bde45c92d543f47a3a4482dad5aecfbf5753808
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 0%
@@ -44,9 +45,4 @@ U kunt een bestaand kaartdossier in de console van de Kaart van de Redacteur ook
 
    Het kaartbestand wordt geopend in de kaartconsole.
 
-   ![ Nieuw ](images/map-console.png){width="800" align="left"}
-
-
-
-
-
+   ![ Nieuw ](images/map-console.png){align="left"}

@@ -4,7 +4,7 @@ description: Revisietaken beheren via het revisiedashboard in AEM Guides. Leer d
 exl-id: 4fef5653-1c73-4b68-adf2-b24145555142
 feature: Reviewing
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1298'
 ht-degree: 0%
@@ -25,13 +25,13 @@ Voer de volgende stappen uit om toegang te krijgen tot en gebruik te maken van h
 
    Er wordt een deelvenster Project met taaktegels weergegeven.
 
-   ![](images/review-management.png){width="800" align="left"}
+   ![](images/review-management.png){align="left"}
 
 1. Selecteer de drie punten in de **tegel van Revisies**.
 
    Het revisiedashboard wordt weergegeven. Het dashboard bevat een lijst met alle revisietaken die u hebt gemaakt.
 
-   ![](images/review-dashboard.png){width="800" align="left"}
+   ![](images/review-dashboard.png){align="left"}
 
    Het revisiedashboard bevat de details over de revisietaak, zoals de taaknaam, die de revisie heeft gestart, de datum waarop de revisie is gestart, de datum waarop de revisie is gestart, de status, het aantal nieuwe opmerkingen dat niet is geaccepteerd of afgewezen door de auteur en de naam van de controleurs. De taken worden weergegeven in de volgorde van nieuw gemaakte taken naar oudere taken.
 
@@ -50,7 +50,7 @@ Voer de volgende stappen uit om toegang te krijgen tot en gebruik te maken van h
 
 ## Tabblad Taak
 
-![](images/review-task-page.png){width="800" align="left"}
+![](images/review-task-page.png){align="left"}
 
 U kunt de volgende acties onder de **Taak** tabel uitvoeren:
 
@@ -71,7 +71,7 @@ U kunt de volgende acties onder de **Taak** tabel uitvoeren:
 
 ## Inhoud, tabblad
 
-![](images/review-content-page.png){width="800" align="left"}
+![](images/review-content-page.png){align="left"}
 
 U kunt de volgende acties onder de **Inhoud** tabel uitvoeren:
 
@@ -90,7 +90,7 @@ U kunt de volgende acties onder de **Inhoud** tabel uitvoeren:
 
 ## Het tabblad Revisoren {#reviewer-tab-id199RF0N0MUI}
 
-![](images/reviewers-tab.png){width="800" align="left"}
+![](images/reviewers-tab.png){align="left"}
 
 U kunt de volgende acties onder **Recensenten** tabel uitvoeren:
 
@@ -111,7 +111,7 @@ U kunt de volgende acties onder **Recensenten** tabel uitvoeren:
 
 Van de belangrijkste pagina van het Dashboard van het Overzicht, als u een overzichtstaak selecteert en **Status** kiest, wordt het statusrapport van de overzichtstaak getoond.
 
-![](images/review-status-report.png){width="800" align="left"}
+![](images/review-status-report.png){align="left"}
 
 Het statusrapport voor de controletaak bevat de volgende details:
 

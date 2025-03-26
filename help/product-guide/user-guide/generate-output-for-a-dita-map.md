@@ -4,7 +4,7 @@ description: Produceer output voor een kaart DITA van de kaartconsole en het das
 exl-id: d6cbd44c-e74c-4192-bcc4-fb7752c59508
 feature: Publishing
 role: User
-source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
@@ -54,7 +54,7 @@ Voer de volgende stappen uit om output voor een kaart te produceren DITA gebruik
 
 1. Selecteer een of meerdere uitvoervoorinstellingen die u wilt gebruiken voor het genereren van de uitvoer.
 
-   ![](images/generate-multiple-outputs-uuid.png){width="800" align="left"}
+   ![](images/generate-multiple-outputs-uuid.png){align="left"}
 
 1. Selecteer **produceer** pictogram om het proces van de outputgeneratie te beginnen.
 

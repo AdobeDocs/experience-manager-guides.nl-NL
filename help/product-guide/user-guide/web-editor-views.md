@@ -4,7 +4,7 @@ description: De onderwerpen van de mening in auteur, bron, en voorproefwijze. Le
 exl-id: 74db2902-4507-4904-85d8-6b52e4af4c55
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 594e348fc1188e66cf2f4648702ed2b17f1f8f33
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1447'
 ht-degree: 0%
@@ -104,7 +104,7 @@ Als u voorwaarden in uw onderwerp of kaart hebt gebruikt, worden die voorwaarden
 
 In de volgende afbeelding ziet u een onderwerp dat gebruikmaakt van twee voorwaarden: `Audience` en `Product` . De geconditionaliseerde inhoud wordt gemarkeerd met een gele achtergrond.
 
-![](images/preview-filters.png){width="800" align="left"}
+![](images/preview-filters.png){align="left"}
 
 ### Markeringen voor wijzigingen in tracks weergeven {#id2114BJ00CE8}
 

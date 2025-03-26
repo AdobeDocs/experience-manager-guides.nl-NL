@@ -4,7 +4,7 @@ description: Leer de typen documentstatussen in Adobe Experience Manager Guides.
 exl-id: 3a68b2ed-b917-4f05-8b2b-d2722a740502
 feature: Authoring, Features of Web Editor, Document State
 role: User
-source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1042'
 ht-degree: 0%
@@ -60,7 +60,7 @@ Voer de volgende stappen uit om de status van een document te wijzigen:
 
 De kaartmening van Assets UI toont de huidige staat samen met de aanmaakdatum en de grootte van het respectieve onderwerp DITA of kaart DITA.
 
-![](images/document_state.png){width="800" align="left"}
+![](images/document_state.png){align="left"}
 
 ## Documentstatussen gebruiken in DDLC
 

@@ -4,7 +4,7 @@ description: Leer hoe u voorwaardelijke kenmerken maakt in AEM Guides. Gebruik v
 exl-id: 5ec7666e-df6b-4b0d-b6c2-cdc395fcccc5
 feature: Publishing
 role: User
-source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Voer de volgende stappen uit om voorwaardelijke kenmerken te definiëren:
 
    In de volgende schermafbeelding ziet u de definitie voor het kenmerk `platform` met de waarde `unix` en het label `Red Hat Linux` .
 
-   ![](images/add-profile-new.png){width="800" align="left"}
+   ![](images/add-profile-new.png){align="left"}
 
 1. Als u meer waarden voor hetzelfde kenmerk wilt toevoegen, selecteert u het pictogram **+** en voert u een extra waarde en label in.
 

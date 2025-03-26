@@ -4,7 +4,7 @@ description: Leer hoe u een gewijzigd onderwerp opnieuw vertaalt in AEM Guides.
 exl-id: b3228ea9-24a8-44aa-8ba4-e8f44754ffe4
 feature: Translation
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Voer de volgende stappen uit om een gewijzigd onderwerp voor re-vertaling te ver
 
    Als u de pijl selecteert om meer details weer te geven, kunt u de specifieke taalkopie bekijken die niet gesynchroniseerd is.
 
-   ![](images/out-of-sync-uuid-new.png){width="800" align="left"}
+   ![](images/out-of-sync-uuid-new.png){align="left"}
 
 1. Schakel het selectievakje in om de onderwerpen te selecteren die u wilt verzenden voor hervertaling.
 

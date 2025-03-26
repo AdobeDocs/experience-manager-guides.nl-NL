@@ -4,7 +4,7 @@ description: Leer hoe u de metagegevens aan de uitvoer kunt doorgeven met DITA-O
 exl-id: 70ca32dc-56c3-45ee-b6b9-0efb8cc79ea1
 feature: Publishing, Metadata Management
 role: User
-source-git-commit: e1d6123991ddd8d25f76ee03befeb95f020a9834
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Voer de volgende stappen uit om de metagegevens door te geven aan de uitvoer met
 1. Selecteer en open een uitvoervoorinstelling waaraan u de metagegevensvelden wilt doorgeven. Selecteer bijvoorbeeld de uitvoervoorinstelling PDF. Zorg ervoor dat het gebruikend **wordt gecreeerd DITA-OT** optie.
 1. Van de **eigenschappen van het Dossier** dropdown selecteren de meta-gegevens die u tot DITA-OT het publiceren wilt overgaan.
 
-   ![](images/custom-metadata-output-preset-new.png){width="800" align="left"}
+   ![](images/custom-metadata-output-preset-new.png){align="left"}
 
    In het vervolgkeuzemenu Eigenschappen worden zowel de aangepaste als de standaardeigenschappen weergegeven. In de bovenstaande schermafbeelding `dc:description` zijn `dc:language` , `dc:title` en `docstate` bijvoorbeeld de standaardeigenschappen.
 
@@ -61,7 +61,7 @@ Als het werken op **Assets UI**, voer de volgende stappen uit om de meta-gegeven
 1. Selecteer en bewerk een uitvoervoorinstelling waaraan u de metagegevensvelden wilt doorgeven. Selecteer bijvoorbeeld de uitvoervoorinstelling PDF.
 1. Selecteer **DITA-OT** optie in geselecteerde output vooraf ingesteld.
 
-   ![](images/custom-meta-data-output-preset.png){width="800" align="left"}
+   ![](images/custom-meta-data-output-preset.png){align="left"}
 
 1. Selecteer in het keuzemenu Eigenschappen de metagegevens die u wilt doorgeven aan DITA-OT-publicaties.
 

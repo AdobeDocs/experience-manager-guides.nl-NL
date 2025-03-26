@@ -4,7 +4,7 @@ description: Ken de eigenschappen van de Redacteur van de Kaart in Adobe Experie
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: e1d6123991ddd8d25f76ee03befeb95f020a9834
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2570'
 ht-degree: 0%
@@ -38,7 +38,7 @@ De werkbalk in de layoutweergave bevat de volgende opties:
 
 Toont de dialoog van het onderwerponderzoek. Navigeer aan het onderwerp/kaartdossier dat u **Uitgezocht** wilt opnemen en kiezen om het aan de kaart toe te voegen.
 
-![](images/insert-topic-reference-dialog.png){width="800" align="left"}
+![](images/insert-topic-reference-dialog.png){align="left"}
 
 
 **de groep van het Onderwerp** - ![](images/topic-group.svg)
@@ -140,7 +140,7 @@ Als u om het even welke voorwaarden op een onderwerp hebt toegepast, wordt een f
 
 De **mening van de Auteur** staat u toe om uw kaart DITA in de Redacteur uit te geven. Dit toont de WYSIWYG-weergave van de Kaarteditor en sommige pictogrammen die in de weergave Auteur worden weergegeven, zijn gelijk aan de layoutweergave.
 
-![](images/map-editor-author-view.png){width="800" align="left"}
+![](images/map-editor-author-view.png){align="left"}
 
 Bovendien kunt u de volgende pictogrammen weergeven en de verwante taken uitvoeren vanuit de weergave Auteur:
 
@@ -243,7 +243,7 @@ U kunt een overzichtstaak van het huidige onderwerp of kaartdossier direct van d
 
 In deze weergave kunt u inhoud bewerken in de Raw-indeling, zodat u volledige controle hebt over de structuur en opmaak.
 
-![](images/map-editor-source-view.png){width="800" align="left"}
+![](images/map-editor-source-view.png){align="left"}
 
 
 In deze mening, verstrekt de toolbar basisinhoud het uitgeven en toevoegingsopties beschikbaar onder het **drop-down van het Menu** met inbegrip van Besnoeiing, Exemplaar, ongedaan maken, Opnieuw, Schrapping, Vondst en vervang, het etiket van de Versie, Samenvoegen, sparen als nieuwe versie, Slot en Ontgrendelen.
@@ -254,7 +254,7 @@ In de modus Voorvertoning wordt de inhoud weergegeven zoals deze in de uiteindel
 
 Naast het kunnen de positie van elk onderwerpdossier binnen een kaart bekijken, is het wenselijk om de kaartinhoud in één opeenvolgende stroom te bekijken. Met de functie Kaart voorvertonen kunt u de volledige inhoud van het kaartbestand met één klik bekijken. U moet geen output van het kaartdossier produceren om te bekijken hoe de volledige kaart zal kijken als zodra gepubliceerd. U hebt eenvoudig toegang tot de voorvertoning van de kaart en alle onderwerpen en submaps worden weergegeven in de vorm van een boek.
 
-![](images/map-editor-preview.png){width="800" align="left"}
+![](images/map-editor-preview.png){align="left"}
 
 >[!NOTE]
 >
@@ -315,7 +315,7 @@ Ga als volgt te werk om onderwerpen te bewerken via een DITA-kaart:
 
    U kunt veelvoudige onderwerpen in de redacteur openen en elk onderwerp wordt geopend in een nieuw lusje in de redacteur. Zelfs als uw kaart DITA submaps bevat, worden de onderwerpen van sub-maps ook geopend in een nieuw lusje voor het uitgeven. Als u de onderwerpen onder een submap wilt bekijken, kunt u submap selecteren en uitbreiden.
 
-   ![](images/web-editor-multiple-topics.png){width="800" align="left"}
+   ![](images/web-editor-multiple-topics.png){align="left"}
 
    Als u een kaartbestand selecteert, wordt de kaart geopend op een nieuw tabblad van de Editor.
 

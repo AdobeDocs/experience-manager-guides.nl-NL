@@ -4,7 +4,7 @@ description: Weet het gebruik van Baselines in AEM Guides. Leer hoe u vertaalde 
 exl-id: 0554947f-3038-4fd2-8a62-ac0d4b858e94
 feature: Publishing
 role: User
-source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1790'
 ht-degree: 0%
@@ -81,7 +81,7 @@ Voer de volgende stappen uit om een bestaande basislijn te bewerken:
 1. Breng de vereiste wijzigingen aan in de basislijn. U kunt de naam en versie van het onderwerp of inhoud waarnaar wordt verwezen, wijzigen.
 1. Als u een verschillende versie voor één of meerdere onderwerpen wilt gebruiken, dan kunt u dit doen door die onderwerpen manueel te selecteren. Selecteer **doorbladert Onderwerp**, selecteer het onderwerp waarvoor u een verschillende versie wilt gebruiken. Van Uitgezocht een drop-down lijst van de Versie voor het geselecteerde onderwerp, selecteer een versie van het onderwerp dat u in de basislijn wilt gebruiken en **O.K.** selecteren.
 
-   ![](images/baseline-select-version-drop-down.png){width="800" align="left"}
+   ![](images/baseline-select-version-drop-down.png){align="left"}
 
    De informatie over het onderwerp en het is geselecteerde versie wordt opgeslagen in het achterste deel. U kunt deze stap herhalen om de geselecteerde versie voor veelvoudige onderwerpen te veranderen.
 
@@ -128,7 +128,7 @@ Voer de volgende stappen uit om een etiket aan veelvoudige onderwerpen en refere
 
 1. Selecteer **toevoegen Etiketten**.
 
-   ![](images/add-label-baseline-uuid.png){width="800" align="left"}
+   ![](images/add-label-baseline-uuid.png){align="left"}
 
 1. In **voeg de dialoog van het Etiket** toe, specificeer een uniek etiket aan vennoot met deze basislijn.
 
@@ -158,7 +158,7 @@ Voer de volgende stappen uit om een vertaalde basislijn te exporteren:
 
 1. In het **Vertaal** lusje, breid de **optie van de Basislijn** beschikbaar in het linkerspoor uit.
 
-   ![](images/export-baseline-new.png){width="800" align="left"}
+   ![](images/export-baseline-new.png){align="left"}
 
 1. Selecteer de **optie van de Basislijn van het Gebruik** en kies de Basislijn die u wilt uitvoeren.
 

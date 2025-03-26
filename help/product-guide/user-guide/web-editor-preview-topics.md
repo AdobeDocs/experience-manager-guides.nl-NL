@@ -4,7 +4,7 @@ description: Leer hoe u een voorbeeld van een onderwerp in Adobe Experience Mana
 exl-id: f4013ac6-226a-4e66-bd7b-604ac7c361ae
 feature: Authoring
 role: User
-source-git-commit: 67d6b6f59e5d8c37389a181949ce4527760576e2
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1988'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Voer de volgende stappen uit om een voorvertoning van een onderwerp weer te geve
 
    De voorvertoning van het onderwerp wordt weergegeven.
 
-   ![](images/preview-pop-up.png){width="800" align="left"}
+   ![](images/preview-pop-up.png){align="left"}
 
 **onderwerpen van de Voorproef van de wijze van de Voorproef**
 
@@ -61,7 +61,7 @@ Voer de volgende stappen uit om een voorvertoning van een onderwerp weer te geve
 
 De volgende bewerkingen zijn beschikbaar op de werkbalk wanneer u de functie Voorvertoning in de gebruikersinterface van Assets gebruikt.
 
-![](images/preview-screen.png){width="800" align="left"}
+![](images/preview-screen.png){align="left"}
 
 
 **Eigenschappen**
@@ -78,7 +78,7 @@ De pagina Eigenschappen bevat nuttige informatie over de verwijzingen, zoals waa
 
 Het pictogram \ (+ \) in **Gebruikt in** verwijzingssectie staat u toe om naar boven te navigeren om te vinden waar dat onderwerp wordt gebruikt of wordt bedoeld.
 
-![](images/used-in-dialog_cs.png){width="800" align="left"}
+![](images/used-in-dialog_cs.png){align="left"}
 
 Het selecteren van het ![](images/right-arrow-used-in-dialog.svg) pictogram naast een document toont de kaart of onderwerpdossiers waar dat document verder wordt verwezen.
 
@@ -108,7 +108,7 @@ Als uw onderwerp voorwaardelijke inhoud heeft, dan zult u het A/B pictogram op d
   >
   > Als u de broncodeweergave van een DITA-kaartbestand wilt ophalen, selecteert u het bestand in de gebruikersinterface van Assets en selecteert u Source.
 
-  ![](images/xml-source-code-view-from-preview_cs.png){width="800" align="left"}
+  ![](images/xml-source-code-view-from-preview_cs.png){align="left"}
 
 **Verbinding UUID van het Aandeel**
 
@@ -120,7 +120,7 @@ Als uw onderwerp voorwaardelijke inhoud heeft, dan zult u het A/B pictogram op d
 
 Een nieuwe optie **de Verbinding van UUID van het Aandeel** wordt getoond in de toolbar van de bovengenoemde gebieden. Het volgende screenshot toont de **optie van de Verbinding van UUID van het Aandeel UUID** op de wijze van de Voorproef van een onderwerp:
 
-![](images/share-uuid-link_cs.png){width="800" align="left"}
+![](images/share-uuid-link_cs.png){align="left"}
 
 In de UI Asset is deze optie zichtbaar wanneer u een bestand selecteert. In de modus Voorbeeld is deze optie standaard beschikbaar op de hoofdwerkbalk. In een DITA kaartconsole, is deze optie zichtbaar in de Output vooraf instelt sectie.
 
@@ -148,7 +148,7 @@ Bestand uitgecheckt in de lijstweergave:
 
 Als de Uitgecheckte kolom niet zichtbaar is, de uitgezochte **Montages van de Mening** onder **Mening van de Lijst** en selecteert de **Uitgecheckte** status in **vormen de dialoog van Kolommen**.
 
-![](images/list-view-settings-check-out_cs.png){width="800" align="left"}
+![](images/list-view-settings-check-out_cs.png){align="left"}
 
 >[!TIP]
 >
@@ -166,17 +166,17 @@ Als de Uitgecheckte kolom niet zichtbaar is, de uitgezochte **Montages van de Me
 
    1. In het linkerspoor, selecteer **Geschiedenis van de Versie** en selecteer een versie.
 
-      ![](images/timeline-versions62_cs.png){width="800" align="left"}
+      ![](images/timeline-versions62_cs.png){align="left"}
 
    1. Van de vermelde versies, selecteer die u als basisversie wilt gebruiken en **Versie van de Voorproef** selecteren. De voorvertoning van de geselecteerde versie wordt weergegeven in het venster Versievoorvertoning.
 
    1. Van **toon Diff** lijst, selecteer de versie waarmee u de basisversie wilt vergelijken.
 
-      ![](images/show-diff-list-cropped.png){width="800" align="left"}
+      ![](images/show-diff-list-cropped.png){align="left"}
 
       De gewijzigde inhoud wordt gemarkeerd in de voorvertoning van het onderwerp. Met groen gemarkeerde inhoud geeft u de nieuw toegevoegde inhoud aan en rode inhoud is de verwijderde inhoud.
 
-      ![](images/version-difference.png){width="800" align="left"}
+      ![](images/version-difference.png){align="left"}
 
 
 ## Vertakking, terugkeren en volgende versies

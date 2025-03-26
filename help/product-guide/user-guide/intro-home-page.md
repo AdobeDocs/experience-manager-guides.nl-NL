@@ -3,7 +3,8 @@ title: Ervaring met homepage van Adobe Experience Manager Guides
 description: Meer weten over de startpagina van de Adobe Experience Manager Guides.
 feature: Authoring
 role: User
-source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
+exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1853'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 De startpagina is het eerste scherm dat u weergeeft wanneer u zich aanmeldt bij Experience Manager Guides. Het biedt u een verenigde en intuïtieve welkomstschermbeleving, die een snelle weergave omvat van de bestanden die u onlangs hebt geopend, verzamelingen en meer.
 
-![](images/aem-home-page.png){width="800" align="left"}
+![](images/aem-home-page.png){align="left"}
 
 De startpagina van Experience Manager Guides is onderverdeeld in de volgende secties:
 
@@ -26,7 +27,7 @@ De startpagina van Experience Manager Guides is onderverdeeld in de volgende sec
 
 De kopbalbar is de hoogste bar van de pagina van het Huis die het embleem van Adobe Experience Manager (of verenigde Shell toont als u Verenigde Shell als uw Experience Manager Guides UI gebruikt). Wanneer u het logo selecteert, wordt u naar de Experience Manager-navigatiepagina geleid.
 
-![](images/aem-home-header.png){width="800" align="left"}
+![](images/aem-home-header.png){align="left"}
 
 ## Navigatiebalk
 
@@ -36,7 +37,7 @@ Met de gereedschappen voor navigatiebalkoppervlakken kunt u van navigatie wissel
 >
 > Als het gebruiken van Adobe Experience Manager Guides as a Cloud Service, wordt een extra eigenschap geëtiketteerd als **AI Medewerker** getoond in de navigatiebar.
 
-![](images/aem-home-nav-bar.png){width="800" align="left"}
+![](images/aem-home-nav-bar.png){align="left"}
 
 De functies in de navigatiebalk worden als volgt uitgelegd:
 
@@ -88,11 +89,11 @@ De volgende widgets zijn aanwezig in de sectie Widgets:
 
 - **Recente Dossiers**: widget voorziet u van een momentopname van onlangs geopende dossiers (een lijst van dossiers die u in de Redacteur) samen met de belangrijkste dossierdetails met inbegrip van Titel, de naam van het Dossier, het type van Dossier, de weg van het Dossier, en Toegelaten op data.
 
-  ![](images/aem-home-recent-files.png){width="800" align="left"}
+  ![](images/aem-home-recent-files.png){align="left"}
 
   U kunt de kolommen sorteren en het formaat ervan wijzigen door opties te selecteren in het vervolgkeuzemenu van de kolom. Standaard worden de gegevens gesorteerd op basis van de datum en tijd die het laatst zijn geopend.
 
-  ![](images/aem-home-recent-files-sort-resize-options.png){width="800" align="left"}
+  ![](images/aem-home-recent-files-sort-resize-options.png){align="left"}
 
 
   Van [ Voorkeur van de Gebruiker ](#user-preferences), kunt u het maximumaantal dossiers plaatsen die in deze widget kunnen worden getoond. Door gebrek, wordt deze grens geplaatst aan **20**.
@@ -110,11 +111,11 @@ De volgende widgets zijn aanwezig in de sectie Widgets:
 - **Inzamelingen**: Als u aan een reeks dossiers of omslagen werkt, kunt u hen aan deze widget toevoegen om tot hen snel toegang te hebben. Nadat u de bestanden hebt toegevoegd, kunt u de bestanden op Titel weergeven, samen met andere belangrijke gegevens, zoals Eigenaar en Gemaakt op-datums. Terwijl u het vervolgkeuzemenu met kolommen selecteert, kunt u de opties voor het sorteren en vergroten of verkleinen van de kolom weergeven.
 
 
-  ![](images/aem-home-collections.png){width="800" align="left"}
+  ![](images/aem-home-collections.png){align="left"}
 
   De broodkruimels van de geselecteerde inzameling worden getoond bij de bovenkant van widget van de Inzameling. U kunt deze selecteren om terug te keren naar een specifieke map in de hiërarchie.
 
-  ![](images/aem-home-collections-breadcrumbs.png){width="800" align="left"}
+  ![](images/aem-home-collections-breadcrumbs.png){align="left"}
 
   De volgende opties zijn beschikbaar wanneer u de muisaanwijzer op een verzameling plaatst en het pictogram Meer ![](images/Smock_MoreSmallList_18_N.svg) selecteert:
 
@@ -158,7 +159,7 @@ De gebruikersvoorkeuren zijn beschikbaar voor alle auteurs. Met de voorkeuren ku
 
 - **Algemeen**: Het Algemene lusje staat u toe om de volgende montages te vormen:
 
-  ![](images/user_preference_editor.PNG){width="800" align="left"}
+  ![](images/user_preference_editor.PNG){align="left"}
 
    - **het profiel van de Omslag**: Het profiel van de Omslag controleert diverse configuraties met betrekking tot voorwaardelijke attributen, auteursmalplaatjes, output stelt vooraf in en de configuraties van de Redacteur. Het profiel Algemeen wordt standaard weergegeven. Als uw beheerder mapprofielen heeft geconfigureerd in het systeem, worden deze mapprofielen ook weergegeven in de lijst Mapprofielen.
    - **de weg van de Basis**: Door gebrek, wanneer u tot de bewaarplaats van Experience Manager Guides van de Redacteur toegang hebt, wordt u getoond activa van de /content/dam plaats. De werkmap bevat hoogstwaarschijnlijk enkele mappen in de map /content/dam/. U kunt het basispad instellen op de werkmap en in de weergave Opslagplaats geeft u de inhoud van die locatie vooraf weer. Hierdoor neemt de tijd voor toegang tot uw werkmap af. Wanneer u een referentie- of mediabestand invoegt in uw onderwerp, begint de locatie van het bestand bovendien met de map die is ingesteld in het basispad.
@@ -168,7 +169,7 @@ De gebruikersvoorkeuren zijn beschikbaar voor alle auteurs. Met de voorkeuren ku
 
 - **Verschijning**: Het lusje van de Verschijning voorziet u van de opties om de thema&#39;s voor de toepassing en de bronmening van het inhoudsuitgevende gebied te selecteren. Op dit tabblad kunt u de volgende instellingen configureren:
 
-  ![](images/user_preference_editor_appearance.png){width="800" align="left"}
+  ![](images/user_preference_editor_appearance.png){align="left"}
 
    - **de vertoningsconfiguratie van de dossiers van de Redacteur**: Selecteer de standaardmanier om de dossiers in de Redacteur te bekijken. U kunt de bestandenlijst weergeven op titel of bestandsnaam in de verschillende deelvensters van de weergave Auteur. Standaard worden de bestanden op titel weergegeven in de Editor.
    - **het thema van de Toepassing en de mening van Source**: U kunt van de Lichte of Donkere thema&#39;s voor de toepassing en bronmening kiezen. In het geval van het thema Licht gebruiken de werkbalken en deelvensters een lichtgrijze achtergrond. In het geval van het thema Donker gebruiken de werkbalken en deelvensters een achtergrond met een zwarte kleur. Selecteer **thema van het apparaat van 0} Gebruik {om Experience Manager Guides toe te staan om de lichte en donkere thema&#39;s te selecteren die op het thema van uw apparaat worden gebaseerd.**

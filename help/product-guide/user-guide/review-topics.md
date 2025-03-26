@@ -4,7 +4,7 @@ description: Leer hoe u onderwerpen kunt beoordelen en de functies kunt gebruike
 exl-id: fc87fc37-f1cd-4a19-96c2-3a08a8222002
 feature: Reviewing
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2423'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Voer de volgende stappen uit om een onderwerp te herzien:
 
    Het volgende scherm verschijnt wanneer een kaart DITA wordt gebruikt om het overzichtswerkschema in werking te stellen:
 
-   ![](images/multiple-topics-review.png){width="800" align="left"}
+   ![](images/multiple-topics-review.png){align="left"}
 
    De volgende opties zijn beschikbaar op dit scherm:
 
@@ -63,13 +63,13 @@ Voer de volgende stappen uit om een onderwerp te herzien:
 
    Alle onderwerpen in de kaart worden getoond als één enkel samengesteld document. De onderwerpen die de controleur mag beoordelen, worden normaal weergegeven. De onderwerpen die de revisie niet mag reviseren, worden niet weergegeven.
 
-   ![](images/review-read-only.png){width="800" align="left"}
+   ![](images/review-read-only.png){align="left"}
 
    In het bovenstaande schermafbeelding wordt het algemene beschrijvingsonderwerp gedeeld voor revisie met de huidige revisor, die normaal wordt weergegeven. Nochtans, wordt het volgende onderwerp, Geschiedenis van vlieginhoud niet gedeeld voor overzicht en het wordt getoond op read-only wijze. Het onderwerp dat momenteel in focus is, wordt ook benadrukt in de inhoudsopgave.
 
    Het volgende scherm verschijnt wanneer een onderwerp of veelvoudige onderwerpen voor overzicht worden geselecteerd en worden gedeeld:
 
-   ![](images/review-composite-view.png){width="800" align="left"}
+   ![](images/review-composite-view.png){align="left"}
 
    >[!NOTE]
    >
@@ -92,7 +92,7 @@ Het commentaarvakje steunt multi-line ingangen en staat gebruikers toe om het ui
 
 Wanneer u één onderwerp bekijkt, krijgt u een extra optie om terug naar de documentmening te schakelen. In het volgende schermafbeelding wordt een bepaald onderwerp van een kaartbestand geopend voor revisie. De benadrukte optie — **toont de Mening van het Document** staat gebruiker toe terug naar de documentmening van het kaartdossier te schakelen.
 
-![](images/switch-document-view.png){width="800" align="left"}
+![](images/switch-document-view.png){align="left"}
 
 **Werkend met verschillende types van het becommentariëren hulpmiddelen** - u kunt gealigneerde commentaren toevoegen door tekst te benadrukken, door tekst te schrappen, tekst op te nemen, of een commentaarnota toe te voegen. De verschillende typen gereedschappen voor opmerkingen op de werkbalk Opmerkingen worden hieronder beschreven:
 
@@ -159,7 +159,7 @@ De volgende het schermschot toont de inhoud op *1} wijze van de Voorproef {:*
 
 Als u een van de opmerkingen invoegt, wordt het pop-upvenster met opmerkingen weergegeven. Nadat u in het pop-upvenster aanvullende opmerkingen of informatie hebt opgegeven, kunt u deze verzenden door op Enter te drukken. Nadat de opmerking is toegevoegd, kunt u een bijlage aan die opmerking toevoegen.
 
-![](images/comment-pop-up-panel.png){width="800" align="left"}
+![](images/comment-pop-up-panel.png){align="left"}
 
 In de bovenstaande schermafbeelding bevat het document de pop-up van de gemarkeerde opmerking en wordt de opmerking ook toegevoegd in het venster Opmerkingen. Het pictogram van de dossiergehechtheid ![](images/file-attach-review.svg) is beschikbaar samen met de commentaar bij beide plaatsen.
 
@@ -227,7 +227,7 @@ In de voorvertoningsmodus worden de niet-geconditioneerde inhoud en de geconditi
 
 - Als u het pictogram Verouderde opmerking selecteert \(![](images/outdated-comment-icon.svg)\), worden de verschillen weergegeven tussen de meest recente en de versie met opmerkingen van het document. De versienummers \(van de versies die worden vergeleken\) worden boven aan de documenten weergegeven.
 
-  ![](images/comments-page-review-mode.png){width="800" align="left"}
+  ![](images/comments-page-review-mode.png){align="left"}
 
   >[!NOTE]
   >

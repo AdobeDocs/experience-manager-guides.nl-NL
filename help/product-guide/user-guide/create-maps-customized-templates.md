@@ -4,7 +4,7 @@ description: Leer een aangepaste sjabloon te maken, deze te gebruiken om nieuwe 
 exl-id: 9cb0035f-bf81-4ab5-a575-53851bbff494
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 594e348fc1188e66cf2f4648702ed2b17f1f8f33
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1541'
 ht-degree: 0%
@@ -85,7 +85,7 @@ Voer de volgende stappen uit om een kaart of onderwerpmalplaatje van Assets UI t
 
 1. In **Assets UI**, navigeer aan de dita-malplaatjemap.
 
-   ![](images/dita-templates.png){width="800" align="left"}
+   ![](images/dita-templates.png){align="left"}
 
 1. Open de **onderwerpen** omslag als u a **Onderwerp** malplaatje wilt tot stand brengen. Open de **kaarten** omslag als u a **Kaart** malplaatje wilt tot stand brengen.
 1. Selecteer **creeer \> Sjabloon DITA**.

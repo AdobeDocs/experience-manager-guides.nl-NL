@@ -4,7 +4,7 @@ description: De uitvoer van DITA-kaarten activeren in AEM Guides. Leer hoe u uw 
 exl-id: 4da644b9-8c5f-4976-a212-960085b693b8
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: a00674a98e4ba87dbc5ddac3412cedca15a205bd
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Nadat u een kaartverzameling hebt gemaakt voor bulkactivering, bestaat de volgen
 
 1. Selecteer de inzameling die u wilt publiceren en **Open** selecteren.
 
-   ![](images/bulk-activation-collection-open.png){width="800" align="left"}
+   ![](images/bulk-activation-collection-open.png){align="left"}
 
 1. \ (*Facultatief* \) past de vereiste filters van de linkerspoorstaaf op filterkaart op basis van hun gewijzigde \ (status \), output vooraf ingesteld, of taal toe.
 

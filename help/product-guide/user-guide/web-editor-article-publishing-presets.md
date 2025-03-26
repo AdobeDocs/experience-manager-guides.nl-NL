@@ -4,7 +4,7 @@ description: Uitvoervoorinstellingen maken in de webeditor. Leer hoe u een uitvo
 exl-id: cd38b039-ef91-45c9-a226-433e57b09873
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: 5011481c25b4888a3e72b0e2238b10d8e2fbc191
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 0%
@@ -41,21 +41,21 @@ Voer de volgende stappen uit om outputvoorinstellingen voor uw kaart te creëren
    De voorinstelling voor de Knowledge Base wordt gemaakt.
 
 
-   ![ Nieuw ](images/knowledge-base-preset-dialog-box.png){width="800" align="left"}
+   ![ Nieuw ](images/knowledge-base-preset-dialog-box.png){align="left"}
 
 Nadat de voorinstelling is gemaakt, kunt u de uitvoer voor specifieke artikelen in de kennisbasis genereren. Om dit te doen, navigeer aan het **lusje van Artikelen** en selecteer de onderwerpen waarvoor u wenst om de output te produceren.
 1. Selecteer **produceren output** bij de bovenkant om de output te produceren.
 
-   ![](images/add-preset-articles-tab_cs.png){width="800" align="left"}
+   ![](images/add-preset-articles-tab_cs.png){align="left"}
 
 1. In **bevestig dossiers voor het publiceren** herinnering, selecteer de dossiers u wilt publiceren en bevestigen door **te selecteren publiceren**.
 
-   ![ Nieuw ](images/knowledge-base-confirm-files-for-publishing.png){width="800" align="left"}
+   ![ Nieuw ](images/knowledge-base-confirm-files-for-publishing.png){align="left"}
 
 U zult de status van het proces van de outputgeneratie bekijken. De **kolom van Onderwerpen** maakt een lijst van de onderwerpen waarvoor de output wordt geproduceerd terwijl de **3} kolom van de Status {toont de het publiceren status van elk onderwerp.**
 
 
-![](images/add-preset-output-generated_cs.png){width="800" align="left"}
+![](images/add-preset-output-generated_cs.png){align="left"}
 
 Om de output te bekijken, sluit de Output Gegenereerde dialoogdoos en selecteert **output van de Mening** op de vooraf ingestelde pagina.
 

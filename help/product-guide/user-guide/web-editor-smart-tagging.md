@@ -4,7 +4,7 @@ description: Leer hoe u slimme tags kunt toevoegen in AEM Guides. Gebruik het ge
 exl-id: 7fb4b881-0898-44eb-a0e8-85cb99d9593b
 feature: Metadata Management
 role: User
-source-git-commit: 9898f98d897da4da9ca76a89efd262239606ac2e
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Voer de volgende stappen uit om slimme tags te maken:
 1. Selecteer de optie Nabewerking uitvoeren. Er wordt een bericht weergegeven bij de geslaagde start van het gereedschap.
 1. De labels worden automatisch geëxtraheerd en kunnen worden weergegeven op de pagina Eigenschappen van het geselecteerde onderwerp.
 
-   ![](images/properties-smart-tags.png){width="800" align="left"}
+   ![](images/properties-smart-tags.png){align="left"}
 
    >[!NOTE]
    >

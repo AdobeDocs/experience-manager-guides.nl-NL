@@ -4,7 +4,7 @@ description: Publicatietaken beheren met het publicatiedashboard in AEM Guides. 
 exl-id: d9e25e52-ba9d-4088-ac95-8df76b69f5d3
 feature: Publishing
 role: User
-source-git-commit: ff75aca9ddd7b405501a62e055fb99bd5ea2291c
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 0%
@@ -17,7 +17,7 @@ Wanneer u een grote reeks het publiceren taken hebt die op uw systeem lopen, wor
 
 Het publicatiedashboard geeft een volledig overzicht van alle publicatietaken die momenteel in het systeem worden uitgevoerd.
 
-![](images/publish-dashboard.png){width="800" align="left"}
+![](images/publish-dashboard.png){align="left"}
 
 Het publicatiedashboard bevat de volgende gegevens:
 
@@ -39,7 +39,7 @@ Het linkerdeelvenster van het publicatiedashboard biedt de volgende filteropties
 
 - **Vooraf ingestelde Output** - selecteer één of meerdere output vooraf instelt waarvoor u de momenteel actieve het publiceren taken wilt bekijken. In de volgende schermafbeelding worden de publicatietaken gefilterd om alleen die taken weer te geven die gebruikmaken van de voorinstelling voor AEM-siteuitvoer:
 
-  ![](images/publish-dashboard-preset-filter.png){width="800" align="left"}
+  ![](images/publish-dashboard-preset-filter.png){align="left"}
 
 - **die door** wordt geïnitieerd - selecteer een gebruikersbenaming van de lijst om de het publiceren taken te tonen door de geselecteerde gebruiker in werking worden gesteld.
 
@@ -65,7 +65,7 @@ U kunt tot **toegang hebben publiceer Dashboard** van de Adobe Experience Manage
 
    Als u de verbinding van de Naam van het Dossier selecteert, wordt het dashboard van de kaart DITA van de geselecteerde kaart getoond.
 
-   ![](images/publish-dashboard-click-filename-link.png){width="800" align="left"}
+   ![](images/publish-dashboard-click-filename-link.png){align="left"}
 
 
 >[!NOTE]
@@ -80,13 +80,13 @@ Voer de volgende stappen uit om een taak van de outputgeneratie van het Publish 
 
 1. Selecteer in de lijst met actieve publicatietaken het verwijderpictogram van een taak die u wilt annuleren.
 
-   ![](images/publish-dashboard-cancel-task.png){width="800" align="left"}
+   ![](images/publish-dashboard-cancel-task.png){align="left"}
 
 1. Selecteer **ja** op **Bevestig annulering** berichtherinnering.
 
    De opdracht Annuleren wordt geaccepteerd en de annulering wordt geprobeerd zolang de taak actief blijft. Zodra de taak met succes wordt geëindigd, wordt het verwijderd uit de momenteel actieve takenlijst. De status van de taak wordt ook bijgewerkt in het dashboard van de kaart DITA zoals Geannuleerd. In het volgende schermschot, wordt de *HTML5* taak geannuleerd van het Publish Dashboard en zijn status wordt ook veranderd in het DITA kaartdashboard.
 
-   ![](images/cancelled-output-task.png){width="800" align="left"}
+   ![](images/cancelled-output-task.png){align="left"}
 
 
 **Bovenliggend onderwerp:**[ Productie van de Output ](generate-output.md)

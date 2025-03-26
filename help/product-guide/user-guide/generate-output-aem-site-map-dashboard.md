@@ -4,7 +4,7 @@ description: Maak en configureer AEM-sites met voorinstelling in AEM Guides vana
 feature: Publishing
 role: User
 exl-id: 641c98ca-b815-4176-abf5-a12c31ff4496
-source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2404'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Het is een zeer gemeenschappelijk scenario om een grote reeks documentatie te he
 
 Een andere manier om inhoud te koppelen, is het maken van een koppeling met de `peer` `@scope` . Voor dergelijke inhoud, wordt de verbinding opgelost in runtime door de titel van het dossier en de gevormde context voor het verbonden onderwerp van de DITA kaart te kiezen publiceert context. In de volgende schermafbeelding ziet u het deelvenster Eigenschappen voor een koppeling met de naam `peer` `@scope` :
 
-![](images/peer-link-scope-link-new.png){width="800" align="left"}
+![](images/peer-link-scope-link-new.png){align="left"}
 
 Om het publiceren van complexe kaarten en onderwerpen te vereenvoudigen die met andere onderwerpen in andere kaarten verbinden, staat Adobe Experience Manager Guides u toe om de het publiceren context voor elke output vooraf ingesteld te plaatsen.
 
@@ -65,7 +65,7 @@ Voer de volgende stappen uit om de publicatiecontext voor cross-linked bestanden
 
    De tabbladen Instellingen voorinstellingen AEM en Context publiceren worden weergegeven.
 
-   ![](images/aem-site-publish-settings.png){width="800" align="left"}
+   ![](images/aem-site-publish-settings.png){align="left"}
 
 1. Open **publiceer Context** tabel.
 
@@ -77,7 +77,7 @@ Voer de volgende stappen uit om de publicatiecontext voor cross-linked bestanden
 
    Standaard zijn voor alle gekoppelde onderwerpen de meest recente uitvoervoorinstelling en -toewijzing geselecteerd.
 
-   ![](images/default-publish-context.png){width="800" align="left"}
+   ![](images/default-publish-context.png){align="left"}
 
 1. Om de standaardselectie van kaart te veranderen DITA en vooraf ingesteld, uitgezocht **geeft** \ uit (in de belangrijkste toolbar \).
 

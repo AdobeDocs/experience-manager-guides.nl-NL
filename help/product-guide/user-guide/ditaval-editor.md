@@ -4,7 +4,7 @@ description: Begrijp hoe u DITAVAL-bestanden maakt en bewerkt met de DIVATAL Edi
 exl-id: f3901a4f-1925-42aa-b773-0d6f18175ce8
 feature: Authoring, DITAVAL Editor
 role: User
-source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Voer de volgende stappen uit om een DITAVAL-bestand te maken:
 
 1. In het paneel van de Bewaarplaats, selecteer het **Nieuwe dossier** pictogram en selecteer dan **Onderwerp** van het dropdown menu.
 
-   ![](images/new-file-option.png){width="800" align="left"}
+   ![](images/new-file-option.png){align="left"}
 
    U kunt tot deze optie van de [ Homepage van Experience Manager Guides ](./intro-home-page.md) en tot het optiesmenu van een omslag in de mening van de Bewaarplaats ook toegang hebben.
 
@@ -49,7 +49,7 @@ Voer de volgende stappen uit om een DITAVAL-bestand te maken:
 
 Het onderwerp wordt gecreeerd bij de gespecificeerde weg. Het onderwerp wordt ook geopend in de Editor voor bewerking.
 
-![](images/ditaval-file-editor.png){width="800" align="left"}
+![](images/ditaval-file-editor.png){align="left"}
 
 ## DITAVAL-bestand bewerken
 

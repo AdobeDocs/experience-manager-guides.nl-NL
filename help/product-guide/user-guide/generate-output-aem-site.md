@@ -4,7 +4,7 @@ description: Leer hoe incrementele uitvoergeneratie voor AEM Sites werkt in AEM 
 exl-id: 019d9fbf-2f23-4669-8022-d693be75c1c3
 feature: Publishing
 role: User
-source-git-commit: b061bcbcefba1700665bed33f017a962e84a0433
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Voer de volgende stappen uit om incrementele uitvoer voor AEM Sites te genereren
 1. Selecteer de AEM Sites-voorinstelling waarvoor u incrementele uitvoer wilt genereren.
 1. In het **lusje van Onderwerpen**, selecteer de onderwerpen die u wilt publiceren.
 
-   ![ het onderwerpenlijst van plaatsen ](images/aem-presets-topic-list.png) {width="800" align="left"}
+   ![ het onderwerpenlijst van plaatsen ](images/aem-presets-topic-list.png) {align="left"}
 
    >[!NOTE]
    >
@@ -64,7 +64,7 @@ Voer de volgende stappen uit om incrementele uitvoer voor AEM Sites te genereren
    >
    > Als u nieuwe onderwerpen aan de kaart DITA hebt toegevoegd, zult u niet die nieuwe onderwerpen van hier kunnen produceren. U moet de onlangs toegevoegde onderwerpen eerst publiceren door de DITA kaart te gebruiken publiceert functie.
 
-   ![](images/regenerate-topics.png){width="800" align="left"}
+   ![](images/regenerate-topics.png){align="left"}
 
 1. Selecteer **Regenerate**.
 

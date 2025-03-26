@@ -4,7 +4,7 @@ description: Leer hoe u een of meer artikelen publiceert vanaf de kaartconsole. 
 exl-id: d89ce69d-8d4c-4265-bfca-60763f561afd
 feature: Publishing
 role: User
-source-git-commit: 4fbc9c8e28f2b68af0307255eb842065e93fbc83
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 0%
@@ -27,16 +27,16 @@ Voer de volgende stappen uit om op artikel gebaseerde uitvoer te genereren:
 1. Navigeer aan het **lusje van Artikelen** en selecteer de onderwerpen waarvoor u wenst om de output te produceren.
 1. Selecteer **produceren output** bij de bovenkant om de output te produceren.
 
-   ![](images/add-preset-articles-tab_cs.png){width="800" align="left"}
+   ![](images/add-preset-articles-tab_cs.png){align="left"}
 
 1. In **bevestig dossiers voor het publiceren** herinnering, selecteer de dossiers u wilt publiceren en bevestigen door **te selecteren publiceren**.
 
-   ![ Nieuw ](images/knowledge-base-confirm-files-for-publishing.png){width="800" align="left"}
+   ![ Nieuw ](images/knowledge-base-confirm-files-for-publishing.png){align="left"}
 
    U zult de status van het proces van de outputgeneratie bekijken. De **kolom van Onderwerpen** maakt een lijst van de onderwerpen waarvoor de output wordt geproduceerd terwijl de **3} kolom van de Status {toont de het publiceren status van elk onderwerp.**
 
 
-   ![](images/add-preset-output-generated_cs.png){width="800" align="left"}
+   ![](images/add-preset-output-generated_cs.png){align="left"}
 
    Om de output te bekijken, sluit de **Gegenereerde Output** dialoogdoos en selecteert **output van de Mening** op de vooraf ingestelde pagina.
 

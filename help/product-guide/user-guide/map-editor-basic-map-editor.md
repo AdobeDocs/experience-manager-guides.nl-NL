@@ -4,7 +4,7 @@ description: Leer hoe u met de Basic Map Editor in AEM Guides werkt. Ken de eige
 exl-id: 13da729d-e8f7-46ae-873a-1bfc32da974f
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 126cecdaa481b9da1add4ba3664c26c2bc5da068
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1471'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 > De Basic Map Editor, die voorheen beschikbaar was in Experience Manager Guides, is vanaf versie 4.3 en 2307 vervangen. U kunt tot de Basis Redacteur van de Kaart niet toegang hebben om kaarten te creëren en te beheren DITA.
 >U wordt geadviseerd om de Geavanceerde Redacteur van de Kaart te gebruiken. De geavanceerde Kaarteditor biedt verbeterde functies en betere aanpassingsopties. Onderzoek meer over hoe te met de [ Geavanceerde Redacteur van de Kaart ](../user-guide/map-editor-advanced-map-editor.md) te werken.
 
-De Basis Redacteur van de Kaart verstrekt een gemakkelijke belemmering-en-dalingseigenschap om onderwerpen van uw AEM bewaarplaats toe te voegen om de kaart DITA of bookmap tot stand te brengen. U kunt geneste onderwerpen, relatietabellen \(reltable\), attributen en meta-gegevensinformatie toevoegen, en ook de kaart voor correctheid bevestigen.
+De Basis Redacteur van de Kaart verstrekt een gemakkelijke belemmering-en-dalingseigenschap om onderwerpen van uw bewaarplaats van AEM toe te voegen om de kaart DITA of bookmap tot stand te brengen. U kunt geneste onderwerpen, relatietabellen \(reltable\), attributen en meta-gegevensinformatie toevoegen, en ook de kaart voor correctheid bevestigen.
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ Voer de volgende stappen uit om uw kaartbestand te maken:
 
    Het kaartbestand wordt geopend voor bewerking in de Kaarteditor. Gebruikend de Redacteur van de Kaart, bouwt u een kaart door de momenteel beschikbare onderwerpen te gebruiken die in de spoorstaaf van Verwijzingen worden getoond.
 
-   ![](images/dita-map-01.png){width="800" align="left"}
+   ![](images/dita-map-01.png){align="left"}
 
 1. Gebruikend het **spoor van Verwijzingen**, navigeer aan de omslag die de onderwerpen of sub-maps bevat die u wilt toevoegen.
 
@@ -73,13 +73,13 @@ Voer de volgende stappen uit om uw kaartbestand te maken:
 
 Met de hoofdwerkbalk in de Basic Map Editor kunt u de volgende taken uitvoeren:
 
-![](images/ditamap-toolbar-actions.png){width="800" align="left"}
+![](images/ditamap-toolbar-actions.png){align="left"}
 
 **A: Onderzoek**
 
 U kunt naar de vereiste onderwerpen van DAM zoeken en omvatten. Wanneer u op dit pictogram klikt, wordt het dialoogvenster Zoeken weergegeven:
 
-![](images/search-dita-map.png){width="800" align="left"}
+![](images/search-dita-map.png){align="left"}
 
 Voer de trefwoorden in waarnaar u wilt zoeken. Deze trefwoorden komen overeen met de bestandsnaam, inhoud en zelfs kenmerkwaarden van het onderwerp. Als de zoekresultaten beschikbaar zijn, selecteert u het gewenste onderwerp en klikt u op de knop Controleren om de geselecteerde bestanden toe te voegen aan het einde van de kaartstructuur. U kunt de zoekresultaten filteren door de parameters Wijzigen van datum op te geven.
 

@@ -4,7 +4,7 @@ description: Maak een kaart met de Kaarteditor in Experience Manager Guides. Zoe
 exl-id: b9cda118-ab6f-4d6b-9616-a083180ba069
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1555'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Voer de volgende stappen uit om een kaart te maken:
 
 1. In het paneel van de Bewaarplaats, selecteer het **Nieuwe dossier** pictogram en selecteer dan **Kaart DITA** van dropdown menu.
 
-   ![](images/create-map-options.png){width="800" align="left"}
+   ![](images/create-map-options.png){align="left"}
 
    U kunt tot deze optie van de [ Homepage van Experience Manager Guides ](./intro-home-page.md) en tot het optiesmenu van een omslag in de mening van de Bewaarplaats ook toegang hebben.
 
@@ -38,7 +38,7 @@ Voer de volgende stappen uit om een kaart te maken:
 
 De kaart wordt gemaakt op het opgegeven pad. De kaart wordt ook geopend in de Kaarteditor voor bewerking.
 
-![](images/map-file-in-map-editor.png){width="800" align="left"}
+![](images/map-file-in-map-editor.png){align="left"}
 
 ## Onderwerpen toevoegen aan een kaartbestand
 
@@ -53,7 +53,7 @@ Voer de volgende stappen uit om onderwerpen aan een kaartdossier van de console 
 
 1. Het kaartbestand wordt geopend in de Kaarteditor. Als u een nieuw kaartdossier hebt geopend, dan slechts wordt de titel van de kaart getoond in de redacteur.
 
-   ![](images/new-map-file-in-editor.png){width="800" align="left"}
+   ![](images/new-map-file-in-editor.png){align="left"}
 
 
    - **A** - \ (*bar van het Lusje* \): Dit is gelijkaardig aan de het tabbar van de Redacteur. De bar van het lusje van de mening [ ](./web-editor-features.md#tab-bar) in de Redacteur voor meer details.
@@ -76,7 +76,7 @@ Voer de volgende stappen uit om onderwerpen aan een kaartdossier van de console 
 
    Het onderwerp wordt toegevoegd in de kaart.
 
-   ![ kaartredacteur voegt onderwerp ](images/map-editor-add-topic.png){width="800" align="left"} toe
+   ![ kaartredacteur voegt onderwerp ](images/map-editor-add-topic.png){align="left"} toe
 
 1. Als u volgende onderwerpen of een submap wilt toevoegen, sleept u het onderwerp of de submap naar de gewenste locatie in de kaart en zet u deze neer.
 
@@ -84,7 +84,7 @@ Voer de volgende stappen uit om onderwerpen aan een kaartdossier van de console 
 
    - Het bestand wordt toegevoegd op een locatie waar de onderbroken rechthoekbalk in het kaartbewerkingsgebied wordt weergegeven. In het volgende schermafbeelding, zal het *onderwerp van het de steekproefonderwerp van A* binnen tussen *Slimme Voorstellen 1* en *Slimme Voorstellen 2* onderwerpen worden toegevoegd.
 
-     ![](images/horizontal-line-in-adv-map-editor.png){width="800" align="left"}
+     ![](images/horizontal-line-in-adv-map-editor.png){align="left"}
 
    - Als u een onderwerp wilt vervangen, sleept u het nieuwe onderwerp naar het onderwerp dat u wilt vervangen. en laat vallen het erop wijst dat het zal worden vervangen met het onderwerp dat op het wordt gelaten vallen.
 
@@ -94,7 +94,7 @@ Voer de volgende stappen uit om onderwerpen aan een kaartdossier van de console 
 
    - Om de positie van een onderwerp te veranderen, selecteer het onderwerp \ (door het onderwerppictogram te selecteren \), dan belemmering-en-daling het bij de gewenste plaats in het kaartdossier. In het volgende screenshot, stelt het onderwerp *Slimme 1* voor wordt bewogen na het *onderwerp van de Steekproef van A*.
 
-     ![](images/move-topic-adv-map-editor.png){width="800" align="left"}
+     ![](images/move-topic-adv-map-editor.png){align="left"}
 
    - Om de eigenschappen van uw kaartdossier te controleren, klik overal in de kaart het uitgeven gebied met de rechtermuisknop aan en kies **Eigenschappen** van het contextmenu. Op basis van uw Adobe Experience Manager-versie kunt u eigenschappen weergeven zoals metagegevens, \(de\)activering, verwijzingen, documentstatus en meer plannen.
 
@@ -116,7 +116,7 @@ Voer de volgende stappen uit om een kaart te maken van de gebruikersinterface va
    >
    > De manier waarop de onderwerpen in een kaartdossier worden bedoeld hangt van het kaartmalplaatje af. Bijvoorbeeld, als u het malplaatje van de Kaart selecteert, dan worden de onderwerpverwijzingen \ (`topicref` \) gebruikt om naar onderwerpen te verwijzen. In het geval van een Bookmap, worden de onderwerpverwijzingen gecreeerd gebruikend het `chapter` element in DITA.
 
-   ![](images/map-template.png){width="800" align="left"}
+   ![](images/map-template.png){align="left"}
 
 1. Voor de pagina van Eigenschappen, specificeer de kaart **Titel**.
 
@@ -132,7 +132,7 @@ Voer de volgende stappen uit om een kaart te maken van de gebruikersinterface va
 
    Aan elk nieuw kaartbestand dat u maakt via de gebruikersinterface van Assets of de Editor, wordt een unieke kaart-id toegewezen. Bovendien wordt de nieuwe kaart opgeslagen als de meest recente werkkopie in DAM. Totdat u een revisie van een pas gemaakte kaart opslaat, ziet u geen versienummer in de Versiegeschiedenis. Als u de kaart opent om te bewerken, wordt de versie-informatie weergegeven in de rechterbovenhoek van het tabblad van het kaartbestand:
 
-   ![](images/first-version-map-none.png){width="800" align="left"}
+   ![](images/first-version-map-none.png){align="left"}
 
    De versieinformatie voor een pas gecreëerde kaart wordt getoond als *niets*. Wanneer u een nieuwe versie opslaat, krijgt deze een versienummer toegewezen als 1.0. Voor meer informatie over het bewaren van een nieuwe versie, mening [ sparen als nieuwe versie ](web-editor-features.md#save-as-new-version).
 
@@ -160,11 +160,11 @@ Voer de volgende stappen uit om onderwerpen aan een kaartdossier van Assets UI t
 
 1. Met het geselecteerde kaartdossier, uitgezocht **geeft Onderwerpen** uit.
 
-   ![](images/edit-map-main-menu.png){width="800" align="left"}
+   ![](images/edit-map-main-menu.png){align="left"}
 
    Of, kunt u de **Edit optie van Onderwerpen** van het actiemenu op het kaartdossier ook selecteren:
 
-   ![](images/edit-map-action-menu.png){width="800" align="left"}
+   ![](images/edit-map-action-menu.png){align="left"}
 
    Het kaartbestand wordt geopend voor bewerking in de Editor. Om onderwerpen aan het kaartdossier toe te voegen, volg de stappen (4-8) in [ onderwerpen aan een kaartdossier ](#add-topics-to-a-map-file) toevoegen.
 

@@ -4,7 +4,7 @@ description: Leer om types van onderwerpen te creëren DITA gebruikend douanesja
 exl-id: 84e9cfdf-e188-487f-9181-68708029c101
 feature: Authoring
 role: User
-source-git-commit: 67d6b6f59e5d8c37389a181949ce4527760576e2
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 0%
@@ -49,7 +49,7 @@ Voer de volgende stappen uit om een onderwerp van de Redacteur tot stand te bren
 
 Het onderwerp wordt gecreeerd bij de gespecificeerde weg. Het onderwerp wordt ook geopend in de Editor voor bewerking.
 
-![](images/new-topic-editor.png){width="800" align="left"}
+![](images/new-topic-editor.png){align="left"}
 
 ## Onderwerpen maken met de gebruikersinterface van Assets
 
@@ -61,7 +61,7 @@ Voer de volgende stappen uit om een onderwerp van Assets UI tot stand te brengen
 
 1. Voor de pagina van de Vervaging, selecteer het type van document DITA u **daarna** tot stand brengen en wilt selecteren.
 
-   ![](images/create_dita_topic.png){width="800" align="left"}
+   ![](images/create_dita_topic.png){align="left"}
 
    Door gebrek, verstrekt Experience Manager Guides de meest algemeen gebruikte DITA onderwerpmalplaatjes. U kunt meer onderwerpmalplaatjes zoals per uw organisatorische vereisten vormen, de mening *vormt auteursmalplaatjes* in installeert en vormt Adobe Experience Manager Guides voor uw opstelling.
 

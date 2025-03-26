@@ -4,7 +4,7 @@ description: Wijs een overzichtstaak opnieuw toe met behulp van berichten in AEM
 exl-id: 6cd01564-aa26-4773-9c95-9dc519706f27
 feature: Reviewing
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Voer de volgende stappen uit om een overzichtstaak vanuit het Inbox-bericht opni
    >
    > De controleur moet de toestemmingen hebben om opnieuw toe te wijzen en zou een deel van de gebruiker-beheerder groep moeten zijn.
 
-   ![](images/reassign-user-inbox.png){width="800" align="left"}
+   ![](images/reassign-user-inbox.png){align="left"}
 
 1. Selecteer **opnieuw toewijzen**.
 

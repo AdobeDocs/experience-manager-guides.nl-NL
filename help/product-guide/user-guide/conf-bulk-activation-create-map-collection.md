@@ -4,7 +4,7 @@ description: Leer hoe u een bulkactiveringskaartverzameling maakt in AEM-hulplij
 exl-id: ea0bd465-a2d9-488f-83e9-62b336233eb1
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: a00674a98e4ba87dbc5ddac3412cedca15a205bd
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Voer de volgende stappen uit om een bulkactiveringskaartverzameling te maken:
 
 De DITA kaartdossiers worden toegevoegd aan uw bulkactiveringskaartinzameling.
 
-![ Gemaakte bulkactivering inzameling ](images/bulk-activation-collection-created.png){width="800" align="left"}
+![ Gemaakte bulkactivering inzameling ](images/bulk-activation-collection-created.png){align="left"}
 
 ## Tabblad Kaarten en voorinstellingen
 
@@ -87,7 +87,7 @@ Het **lusje van de Geschiedenis van de Controle** stelt informatie over de geact
 
 - **Gewijzigd**: Wijst op als de kaart DITA na de laatste publicatie werd bijgewerkt. Op basis van deze informatie kunt u beslissen of u de uitvoer voor deze DITA-kaart wilt activeren.
 - **Gepubliceerd**: Toont de datum en de tijd van de laatste gepubliceerde (of geactiveerde) output. Als u de koppeling selecteert, wordt de pagina Activeringsresultaten weergegeven. Deze pagina bevat de logbestanden met informatie over het hoofdpad waar de inhoud is geactiveerd.
-  ![ gecreeerde bulkactivering inzamelingsgeschiedenis tabel ](images/bulk-collection-audit-history.png){width="800" align="left"}
+  ![ gecreeerde bulkactivering inzamelingsgeschiedenis tabel ](images/bulk-collection-audit-history.png){align="left"}
 
   *Mening de informatie over de geactiveerde kaartoutput in de **Geschiedenis van de Controle**tabel.*
 

@@ -4,7 +4,7 @@ description: Maak en configureer de AEM Sites-voorinstelling in de module Kaart 
 feature: Publishing
 role: User
 exl-id: f3657268-9dee-43af-b643-499dbc3ca948
-source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '3533'
 ht-degree: 0%
@@ -122,7 +122,7 @@ Het **lusje van de Inhoud** bevat de volgende configuratieopties:
 
 Het **lijst van het Onderwerp** lusje toont de lijst van onderwerpen aanwezig in het huidige werkende exemplaar van de kaart DITA. Standaard worden alle onderwerpen opgenomen. U kunt specifieke onderwerpen selecteren en de output van AEM Sites slechts voor hen produceren. Bijvoorbeeld, hebt u sommige onderwerpen bijgewerkt zodat kunt u slechts die onderwerpen publiceren in plaats van de volledige kaart DITA publiceren.
 
-![ het onderwerpenlijst van plaatsen ](images/aem-presets-topic-list.png) {width="800" align="left"}
+![ het onderwerpenlijst van plaatsen ](images/aem-presets-topic-list.png) {align="left"}
 
 
 >[!NOTE]

@@ -4,7 +4,7 @@ description: Ontdek het gebruik van labels voor verschillende versies van een be
 exl-id: d116906d-b469-4a97-b0af-4fadbe15222b
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Voer de volgende stappen uit om een etiket aan uw onderwerp van de Redacteur toe
 
 Om een versielabel van een onderwerp te schrappen, gebruik **verwijdert** pictogram dat tegen elk etiket wordt verstrekt dat in de dialoog van het Beheer van het Etiket van de Versie wordt toegevoegd.
 
-![](images/remove-version-label.png){width="800" align="left"}
+![](images/remove-version-label.png){align="left"}
 
 
 ## Werken met labels uit de gebruikersinterface van Assets

@@ -4,7 +4,7 @@ description: Leer hoe u een aangepaste voorinstelling maakt via de kaartconsole 
 exl-id: 1bb14411-ec94-4960-92ba-3b2ff7a29932
 feature: Publishing
 role: User
-source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1225'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Voer de volgende stappen uit om de aangepaste voorinstelling te maken vanaf de k
 
 In de console van de Kaart, worden de vooraf ingestelde configuratieopties georganiseerd onder de **Algemene** en **Geavanceerde** lusjes.
 
-![](images/custom-preset-config.png){width="800" align="left"}
+![](images/custom-preset-config.png){align="left"}
 
 Het **Algemene** lusje bevat de volgende configuratieopties:
 

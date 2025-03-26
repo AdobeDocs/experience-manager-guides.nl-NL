@@ -4,7 +4,7 @@ description: Genereer DITA-kaartrapporten van de kaartconsole in AEM Guides. Lee
 exl-id: 2f202b41-85d9-4a5a-aa28-e25715ce5e2e
 feature: Report Generation
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2568'
 ht-degree: 0%
@@ -31,7 +31,7 @@ U kunt de onderwerpenlijst bekijken, de meta-gegevens van alle verwijzingen behe
 
 U kunt van alle vier rapporten van het **paneel van Rapporten** de plaats bepalen. Op basis van uw vereiste kunt u de rapporten selecteren die u hier ziet.
 
-![](images/reports-demo.png){width="800" align="left"}
+![](images/reports-demo.png){align="left"}
 
 Via het venster Rapporten hebt u toegang tot vier verschillende typen rapporten. Elk rapport, samen met zijn toegankelijkheid en eigenschappen, wordt hieronder in detail besproken.
 
@@ -44,7 +44,7 @@ U kunt het rapport van de onderwerpenlijst van een kaart bekijken door de volgen
 
 1. Selecteer **Lijst van het Onderwerp** van het paneel van Rapporten. De lijst van onderwerpen aanwezig in de kaart DITA wordt getoond.
 
-   ![](images/web-editor-topiclist-panel-new.png){width="800" align="left"}
+   ![](images/web-editor-topiclist-panel-new.png){align="left"}
 
 1. Van het **paneel van Filters** kunt u uw onderwerpen filtreren die op het **type van Verwijzing** \ (direct of indirect \), **de Staat van het Document** \ (bijvoorbeeld als uw onderwerpen in Edit, In-Overzicht, of Gereviseerde staat zijn, zijn deze vermeld \) of **Auteur** van het onderwerp.
 
@@ -78,7 +78,7 @@ U kunt het meta-gegevensrapport van een kaart bekijken door de volgende stappen 
 1. Selecteer **Meta-gegevens** van het paneel van Rapporten. De lijst met alle referenties van een kaart wordt samen met de metagegevens van de kaart weergegeven, zoals codes, documentstatus en aangepaste metagegevens. Om een nieuwe kolom van douanemetagegevens toe te voegen, verwijs naar [ kolommen van douanemetagegevens ](#add-custom-metadata-columns) sectie toevoegen.
 
 
-   ![](images/web-editor-metadata-panel-new.png){width="800" align="left"}
+   ![](images/web-editor-metadata-panel-new.png){align="left"}
 
 
 1. Van het **paneel van Filters** kunt u uw onderwerpen filtreren die op de **Staat van het Document** \ (bijvoorbeeld als uw onderwerpen in Edit, In-Overzicht, of Gereviseerde staat zijn, zijn deze vermeld \), **Verwijzingen** \ (direct of indirect \), **het Type van Dossier** \ (Kaart, Onderwerp, Document, Beeld, Video en anderen \) van de verwijzing.
@@ -127,7 +127,7 @@ Voer de volgende stappen uit om metagegevens bij te werken:
    >
    > U kunt geen uitgecheckte bestanden selecteren. Er verschijnt ook een uitcheckpictogram naast de titel van een uitgecheckt bestand. U kunt de muisaanwijzer boven het pictogram plaatsen om de naam van de gebruiker weer te geven.
 
-   ![](images/all-selection.png){width="800" align="left"}
+   ![](images/all-selection.png){align="left"}
 
 
 1. Selecteer **leiden** van de bovenkant.
@@ -225,13 +225,13 @@ U kunt het rapport voor verbroken koppelingen weergeven door de volgende stappen
    - Wanneer u door **Gebroken verbinding** opdracht geeft, worden de wegen van de gebroken verbindingen getoond in de eerste kolom en dan de namen van alle verwijzingen waarin zij zijn gebruikt, in een andere kolom op afzonderlijke rijen getoond. Als dezelfde verbroken koppeling in meerdere bestanden wordt gebruikt, worden deze op één rij weergegeven en worden ze als gegroepeerde of subrijen weergegeven. In de volgende schermafbeelding ziet u bijvoorbeeld twee verbroken koppelingen in de eerste kolom en de verwijzing waarin deze zijn gebruikt. `m_ElectricalSpecs_900.ditamap` wordt in de derde kolom op twee aparte rijen weergegeven.
 
 
-   ![](images/broken-link-report-new.png){width="800" align="left"}
+   ![](images/broken-link-report-new.png){align="left"}
 
 
    - Als u door **opdracht geeft die in** wordt gebruikt, zult u de omgezette mening bekijken waar de namen van de verwijzingen waarin de gebroken verbindingen zijn gebruikt in de eerste kolom vermeld zijn terwijl de gebroken verbindingen in een andere kolom op de zelfde rij worden vermeld. De volgende schermafbeelding toont bijvoorbeeld de verwijzing (waarin de verbroken koppeling wordt gebruikt) `m_ElectricalSpecs_900.ditamap` in de eerste kolom en de verbroken koppelingen worden weergegeven in de derde kolom op dezelfde rij.
 
 
-   ![](images/broken-link-filter-usedin-new.png){width="800" align="left"}
+   ![](images/broken-link-filter-usedin-new.png){align="left"}
 
 
 1. U kunt uw gebroken verbindingen filtreren die op het **Type van Dossier** en **het Type van Verbinding** worden gebaseerd. De lijst met verbroken koppelingen wordt weergegeven op basis van uw selectie in de vervolgkeuzelijst. U kunt er bijvoorbeeld voor kiezen alleen de inhoudsverwijzingen in uw DITA-kaart weer te geven en een bestand toont alleen de verbroken inhoudsverwijzingen die erin worden gebruikt.

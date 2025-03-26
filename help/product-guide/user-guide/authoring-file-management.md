@@ -4,7 +4,7 @@ description: Leer hoe u bestanden en mappen in AEM Guides beheert. Kopieer en pl
 exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
-source-git-commit: 99e42091490b28b5d5ee73472a7655e3feeafd25
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '3131'
 ht-degree: 0%
@@ -310,7 +310,7 @@ Als uw media dossier om het even welke veranderingen heeft ondergaan, kunt u de 
 1. In het linkerspoor, selecteer **Geschiedenis van de Versie** en selecteer een versie.
 1. U kunt de miniaturen van de verschillende versies ook weergeven onder Versiegeschiedenis.
 
-   ![](images/media-version-history-icon.png){width="800" align="center"}
+   ![](images/media-version-history-icon.png){align="center"}
 
 1. Van de vermelde versies, selecteer die u als basisversie wilt gebruiken en **Versie van de Voorproef** selecteren. De voorvertoning van de geselecteerde versie wordt weergegeven in het venster Versievoorvertoning.
 

@@ -3,23 +3,23 @@ title: Kaartconsole in Adobe Experience Manager Guides
 description: Leer meer over de kaartconsole en de verschillende beschikbare functies waarmee u kaarten kunt publiceren en beheren in Adobe Experience Manager Guides.
 feature: Publishing
 role: User
-source-git-commit: 4c13d0dab23c19fe2340128aaa05803bb711a486
+exl-id: b273b1ae-fbb2-4b35-abce-0df78eeb2e11
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 0%
 
 ---
 
-
 # Overzicht van kaartconsole
 
 Adobe Experience Manager Guides biedt een specifieke console aan, die als **wordt bekend console van de Kaart**, om al uw kaartbeheer en het publiceren taken te stroomlijnen. Deze gecentraliseerde interface verbetert productiviteit en nauwkeurigheid in uw op kaart betrekking hebbende activiteiten door u opties te verstrekken om output te produceren, inhoud, toegangsrapporten, en meer te vertalen - allen bij één plaats.
 
-![ dossier eigenschappen opties tabel ](./images/map-console-screen.png){width="800" align="left"}
+![ dossier eigenschappen opties tabel ](./images/map-console-screen.png){align="left"}
 
 De de consoleinterface van de Kaart is hoofdzakelijk verdeeld in twee secties - **de bar van de Navigatie** en **Linkerpaneel**.
 
-![ Nieuw ](images/map-console-sections.png){width="800" align="left"}
+![ Nieuw ](images/map-console-sections.png){align="left"}
 
 - (**A**) **de bar van de Navigatie**: De hulpmiddelen van de navigatiebalkoppervlakten om navigatie te schakelen, de paginamening aan te passen, en de naam van het geselecteerde kaartdossier te tonen.
 

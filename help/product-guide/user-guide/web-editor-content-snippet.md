@@ -4,7 +4,7 @@ description: Gebruik gegevens uit uw gegevensbron in AEM Guides. Leer hoe u een 
 exl-id: fbd5eff2-451b-49d6-ba77-6eb271e94349
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2386'
 ht-degree: 0%
@@ -154,7 +154,7 @@ Klik met de rechtermuisknop op een inhoudsfragmentgenerator om de opties te open
 
 U kunt de **gegevens van de Vraag** ![](images/data-sources-new-icon.svg) van de toolbar ook gebruiken om het gegevensfragment in de onderwerpen op te nemen.  U kunt een generator van dropdown selecteren, uw vraag uitgeven, of het malplaatje veranderen en de gegevens in uw onderwerp opnemen.
 
-![](images/add-content-snippet-generator.png){width="800" align="left"}
+![](images/add-content-snippet-generator.png){align="left"}
 
 *geef uit en neem een gegevensfragment op.*
 
@@ -248,7 +248,7 @@ Voer de volgende stappen uit om een onderwerp tot stand te brengen gebruikend de
 
 
 
-   ![](images/add-topic-generator.png){width="800" align="left"}
+   ![](images/add-topic-generator.png){align="left"}
 
    *produceer nieuwe onderwerpen van een bestaande onderwerpgenerator.*
 

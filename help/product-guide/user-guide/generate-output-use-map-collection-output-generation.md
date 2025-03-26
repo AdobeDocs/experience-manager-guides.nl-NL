@@ -4,7 +4,7 @@ description: Leer om een kaartinzameling tot stand te brengen en te schrappen en
 exl-id: 41152fa4-f739-44d2-9ccd-74072f53e31b
 feature: Publishing
 role: User
-source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1251'
 ht-degree: 0%
@@ -54,7 +54,7 @@ Voer de volgende stappen uit om een Kaartverzameling te maken en DITA-kaarten to
 
    De DITA kaartdossiers worden toegevoegd aan uw Inzameling van de Kaart.
 
-   ![ dashboard van de kaartinzameling ](./images/map-collection-dashboard.png){width="800" align="left"}
+   ![ dashboard van de kaartinzameling ](./images/map-collection-dashboard.png){align="left"}
 
 **het Filtreren opties**
 
@@ -95,7 +95,7 @@ Om de output te vormen en te produceren gebruikend een Inzameling van de Kaart, 
    - Laat **Alle vooraf instelt** voor een kaart DITA toe om alle vooraf instelt in één te selecteren gaat. Deze optie is standaard uitgeschakeld.
    - Laat **het profielvoorinstellingen van de Omslag** voor een kaart DITA toe om alle voorinstellingen van het omslagprofiel voor het te selecteren. Deze optie is standaard uitgeschakeld.
 
-![ geef een kaartinzameling op de wolkendiensten uit ](images/edit-map-collection-cs.png){width="800" align="left"}
+![ geef een kaartinzameling op de wolkendiensten uit ](images/edit-map-collection-cs.png){align="left"}
 
 
 
@@ -112,7 +112,7 @@ Om de output te vormen en te produceren gebruikend een Inzameling van de Kaart, 
 
 In de kaartinzameling, kunt u de meta-gegevenseigenschappen voor de kaarten vormen DITA. Selecteer **vormen Meta-gegevens** om de **pagina van Meta-gegevens van Activa** te openen. Op de **pagina van Metagegevens van Activa**, zijn alle kaarten huidig in de inzameling vermeld op de linkerzijde.
 
-![ vormen meta-gegevens ](images/map-collection-asset-metadata.png){width="800" align="left"}
+![ vormen meta-gegevens ](images/map-collection-asset-metadata.png){align="left"}
 
 Voer de volgende stappen uit om de eigenschappen van metagegevens te configureren:
 
@@ -147,6 +147,6 @@ Hierdoor worden ook eventuele voorinstellingen of landinstellingen die aan de DI
 
 Gelijkaardig aan de manier om een taak van de outputgeneratie van de [ DITA kaartconsole ](generate-output-for-a-dita-map.md#id2061H100T5Z) of [ te annuleren publiceer Dashboard ](generate-output-publish-dashboard.md#), kunt u een taak van de outputgeneratie van een Inzameling van de Kaart annuleren. Heb toegang tot het lusje van Output van een Inzameling van de Kaart, en ga naar publiceren taak die u wilt annuleren, en selecteren **annuleert dit Taakpictogram** om publicatietaak te annuleren.
 
-![](images/cancel-publish-task-map-collection.png){width="800" align="left"}
+![](images/cancel-publish-task-map-collection.png){align="left"}
 
 **Bovenliggend onderwerp:**[ Productie van de Output ](generate-output.md)

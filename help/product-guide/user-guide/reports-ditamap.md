@@ -4,7 +4,7 @@ description: Genereer DITA-kaartrapporten van het kaartdashboard in AEM Guides. 
 exl-id: 7fe52ee0-e940-467b-9b8d-3d2371de7a84
 feature: Report Generation
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '759'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Voer de volgende stappen uit om het Rapport van de Kaart DITA te bekijken:
 
 1. Selecteer **Rapporten**.
 
-   ![](images/reports-page-uuid-new.png){width="800" align="left"}
+   ![](images/reports-page-uuid-new.png){align="left"}
 
    De pagina Rapporten bestaat uit twee delen:
 
@@ -37,7 +37,7 @@ Voer de volgende stappen uit om het Rapport van de Kaart DITA te bekijken:
 
      Wanneer u een onderwerp selecteert, wordt een gedetailleerd rapport van het geselecteerde onderwerp getoond.
 
-     ![](images/detailed-report-uuid-new.png){width="800" align="left"}
+     ![](images/detailed-report-uuid-new.png){align="left"}
 
      De punten die onder **A** worden benadrukt, **B**, **C** en **D** worden hieronder beschreven:
 
@@ -82,7 +82,7 @@ Voer de volgende stappen uit om CSV van een DITA kaartrapport te produceren:
 
 1. Selecteer **produceren Rapport** op top-left om het DITA kaartrapport te produceren.
 
-   ![](images/generate-DITA-map-report-new.png){width="800" align="left"}
+   ![](images/generate-DITA-map-report-new.png){align="left"}
 
 1. U ontvangt een melding als het rapport klaar is om te worden gedownload. Selecteer **Download** om CSV van het geproduceerde rapport te downloaden.
 

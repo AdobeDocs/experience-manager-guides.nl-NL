@@ -4,7 +4,7 @@ description: Ontdek de functies van de Editor in Adobe Experience Manager Guides
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 1e3a957dffc7296210eea89814cf6ca83ff1200e
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '18659'
 ht-degree: 0%
@@ -299,7 +299,7 @@ Wanneer het uitgeven van een onderwerp in de Redacteur, toegang tot de diverse h
 
 De **Vondst en vervangt** eigenschap is beschikbaar in Auteur en de meningswijzen van Source. Als deze optie is ingeschakeld, wordt de tekstbalk Zoeken en vervangen onder aan het bewerkingsgebied voor onderwerpen weergegeven. U kunt de kortere wegsleutels gebruiken **CTRL** + **F** om de Vondst aan te halen en bar te vervangen.
 
-![](images/find-replace-bar.png){width="800" align="left"}
+![](images/find-replace-bar.png){align="left"}
 
 Gebruikend het montagespictogram \ (![](images/settings-find-replace-icon.svg) \), kunt u **negeren geval** en **het Hele woord slechts** onderzoeksopties van een knevel voorzien. Om het geval-ongevoelige onderzoek uit te voeren, zet (of selecteer) **geval** optie negeren. Anders, als u het case-sensitive onderzoek wilt uitvoeren, (of schrapt) **negeren geval** optie. U kunt ook een heel woord zoeken.
 
@@ -365,7 +365,7 @@ Ga als volgt te werk om de versiegeschiedenis te openen en terug te keren naar e
 
    Wanneer u terugkeert naar een eerdere versie, wordt een visuele aanwijzing getoond die erop wijst dat de versie u momenteel werkt aan niet de recentste versie is.
 
-   ![](images/older-version-visual-cue.png){width="800" align="left"}
+   ![](images/older-version-visual-cue.png){align="left"}
 
 **de etiketten van de Versie**
 
@@ -544,7 +544,7 @@ U kunt ook een teken of tekenreeks typen in het zoekvak en zoeken naar de elemen
 
 Als u in een blokelement werkt zoals een `note` , gebruikt u het pictogram Element invoegen om een nieuw element in te voegen na het `note` -element. In het volgende scherm is een notitie-element ingevoegd in het p \(alinea\)-element:
 
-![ het element van het Tussenvoegsel in een blokelement ](images/note-in-para-insert-element_cs.png){width="800" align="left"}
+![ het element van het Tussenvoegsel in een blokelement ](images/note-in-para-insert-element_cs.png){align="left"}
 
 Als u op Enter drukt in het notitie-element, wordt een nieuwe alinea gemaakt in het notitie-element zelf. Om een nieuw element buiten nota op te nemen, selecteer het p element \ (die in het schermafbeelding \) in de elementenbroodkruimel wordt benadrukt en selecteer dan het pictogram van het Element of druk ***Alt*** + ***gaat*** binnen om de het elementendialoogdoos van het Tussenvoegsel te openen. Selecteer vervolgens het gewenste element en druk op Enter om het geselecteerde element in te voegen na het notitie-element.
 
@@ -613,7 +613,7 @@ U kunt ook kenmerken definiëren voor meerdere cellen, hele rijen of kolommen in
 1. Selecteer in de vervolgkeuzelijst Waarde de gewenste tekstuitlijning die u wilt toepassen op de geselecteerde tabelcellen.
 1. Selecteer **toevoegen.**
 
-![](images/align-table-cell_cs.png){width="800" align="left"}
+![](images/align-table-cell_cs.png){align="left"}
 
 **Beeld** - ![](images/Image_icon.svg)
 
@@ -636,7 +636,7 @@ Gebruikend de **Uitgezochte optie van het Dossier**, kunt u naar het vereiste be
 
 Nadat u een afbeelding hebt ingevoegd, kunt u de hoogte, breedte, plaatsing en kenmerken wijzigen in het deelvenster Eigenschappen voor inhoud. Selecteer het afbeeldingsbestand en breng wijzigingen aan in het deelvenster Eigenschappen voor inhoud in het rechterdeelvenster.
 
-![](images/image-properties.png){width="800" align="left"}
+![](images/image-properties.png){align="left"}
 
 In het veld Source wordt de UUID van het ingevoegde afbeeldingsbestand weergegeven. U kunt het volledige pad van het ingevoegde afbeeldingsbestand vinden door de muisaanwijzer boven het Source-veld te plaatsen. Het pad wordt weergegeven in de knopinfo.
 
@@ -713,7 +713,7 @@ U kunt ook zoeken met de UUID van het bestand waarnaar u wilt verwijzen. Voer bi
 
 Als uw beheerder de optie UUIDs in *XMLEditorConfig* heeft toegelaten, dan zult u UUID van de referenced inhoud in het **3} bezit van de Verbinding {bekijken.**
 
-![](images/ref-link-uuid_cs.png){width="800" align="left"}
+![](images/ref-link-uuid_cs.png){align="left"}
 
 >[!NOTE]
 >
@@ -816,12 +816,12 @@ De **informatie van de Versie &amp; sparen als nieuwe versie** eigenschap combin
 
   Het versieaantal verandert met elke nieuwe versie die voor het onderwerp of kaartdossier wordt gecreeerd. Als u aan een pas gecreeerd document werkt, wordt de versieinformatie getoond als **niets**.
 
-  ![](images/version-information.png){width="800" align="left"}
+  ![](images/version-information.png){align="left"}
 
 
 - **sparen als nieuwe versie** is een knoop die de veranderingen bewaart u in uw onderwerp hebt aangebracht en ook tot een nieuwe versie van uw onderwerp leidt.
 
-  ![](images/save-as-new-version.png){width="800" align="left"}
+  ![](images/save-as-new-version.png){align="left"}
 
 
 Wanneer u verkiest om een onderwerp of kaart te bewaren gebruikend **sparen als nieuwe versie**, verschijnt de volgende dialoogdoos:
@@ -842,7 +842,7 @@ Als uw onderwerp wordt gecontroleerd, zullen uw recensenten een bericht krijgen 
 
 Wanneer u de aanwijzer boven de titel van een onderwerp plaatst, ziet u de bestandstitel, het bestandspad en het versienummer.
 
-![](images/mouse-hover-on-title_cs.png){width="800" align="left"}
+![](images/mouse-hover-on-title_cs.png){align="left"}
 
 >[!NOTE]
 >
@@ -852,7 +852,7 @@ Wanneer u de aanwijzer boven de titel van een onderwerp plaatst, ziet u de besta
 
 Hiermee vergrendelt of ontgrendelt u het huidige bestand. Door een bestand te vergrendelen hebt u exclusief schrijftoegang tot het bestand. Hierdoor kunnen andere gebruikers het bestand niet bewerken. Ontgrendel het bestand als u wilt dat anderen bewerkingstoegang hebben. Wanneer het bestand wordt ontgrendeld, worden de wijzigingen opgeslagen in de huidige versie van het bestand.
 
-![](images/web-editor-lock-button.png){width="800" align="left"}
+![](images/web-editor-lock-button.png){align="left"}
 
 Als u in de Kaartweergave werkt en de bovenliggende kaart uitvouwt, kunt u met één klik alle bestanden op de kaart vergrendelen. Vouw gewoon het bovenliggende kaartbestand uit en selecteer het bovenliggende bestand. Dit betekent dat u alle bestanden in de kaart selecteert. Dan kunt u **Slot** ![](images/LockClosed_icon.svg) selecteren om het slot op alle dossiers binnen de kaart te krijgen.
 
@@ -935,7 +935,7 @@ Als u een bestand aan verzamelingen wilt toevoegen, gebruikt u een van de volgen
 
 - Klik met de rechtermuisknop op het tabblad van een bestand in de editor om het contextmenu te openen. Kies **toevoegen aan** > **Inzamelingen** om het dossier aan uw favorieten lijst toe te voegen.
 
-  ![](images/favorite-add-from-file-context-menu_cs.png){width="800" align="left"}
+  ![](images/favorite-add-from-file-context-menu_cs.png){align="left"}
 
 
 >[!NOTE]
@@ -1098,7 +1098,7 @@ U kunt de volgende acties uitvoeren gebruikend het menu van Opties beschikbaar v
 
   Als uw beheerder de optie UUIDs in *XMLEditorConfig* heeft toegelaten, dan zult u UUID van het geuploade beeld in het **Source** bezit bekijken.
 
-  ![](images/uuid-in-source-upload-image_cs.png){width="800" align="left"}
+  ![](images/uuid-in-source-upload-image_cs.png){align="left"}
 
 - **vind dossiers in omslag**: Verschuift de nadruk aan bewaarplaatsonderzoek waar u de onderzoekstermijn kunt ingaan. De zoekopdracht wordt uitgevoerd onder de geselecteerde map in de opslagplaats. U kunt ook een filter toepassen om DITA-bestanden, afbeeldingsbestanden of beide te retourneren.
 
@@ -1150,7 +1150,7 @@ De verschillende opties in het menu Opties worden hieronder uitgelegd:
 
 - **Voorproef**: Krijg een snelle voorproef van het dossier (.dita, .xml, audio, video, of beeld) zonder het te openen. U kunt het formaat van het voorvertoningsvenster wijzigen. Als de inhoud `<xref>` of `<conref>` bevat, kunt u deze selecteren en op een nieuw tabblad openen. De titel van het bestand wordt weergegeven in het venster. Als er geen titel aanwezig is, wordt de bestandsnaam weergegeven. Om het **paneel van de Voorproef** te sluiten, kunt u of het dichte pictogram selecteren of overal buiten de ruit selecteren.
 
-  ![](images/quick-preview_cs.png){width="800" align="left"}
+  ![](images/quick-preview_cs.png){align="left"}
 
 - **anders noemen**: Gebruik deze optie om het geselecteerde dossier anders te noemen. Ga de naam van het nieuwe dossier in **anders noemen Activa** dialoog.
    - U kunt de naam van een bestand van elk type wijzigen.
@@ -1270,7 +1270,7 @@ De volgende opties zijn beschikbaar voor een kaartbestand in de Kaartweergave:
 
 U kunt de volgende handelingen uitvoeren met het menu Opties van het kaartbestand:
 
-![ het menu van Opties in de mening van de Kaart ](images/options-menu-map-view_cs.png){width="800" align="left"}
+![ het menu van Opties in de mening van de Kaart ](images/options-menu-map-view_cs.png){align="left"}
 
 - **geeft** uit: Open het kaartdossier voor het uitgeven in de Redacteur van de Kaart.
 
@@ -1326,7 +1326,7 @@ U kunt de volgende handelingen uitvoeren met het menu Opties van het kaartbestan
 
 De volgende schermafbeelding toont het menu Opties voor een bestand in de kaartweergave:
 
-![](images/options-menu-file_cs.PNG){width="800" align="left"}
+![](images/options-menu-file_cs.PNG){align="left"}
 
 U kunt de volgende handelingen uitvoeren met het menu Opties:
 
@@ -1436,11 +1436,11 @@ De weergave Omtrek biedt de volgende functies:
 
 - Elementen slepen en neerzetten. U kunt een element eenvoudig vervangen door er een ander element op neer te zetten. Als u een element over een ander element sleept en een gestreepte rechthoekige doos rond het element bekijkt, wijst het erop dat het element zal worden vervangen. Het vervangt het element waarop het element wordt gelaten vallen.
 
-  ![](images/replace-element-outline-view_cs.png){width="800" align="left"}
+  ![](images/replace-element-outline-view_cs.png){align="left"}
 
   Als u een element sleept en neerzet, geeft een onderbroken rechthoek aan dat het element op de huidige locatie kan worden geplaatst. Als het slepen en neerzetten ongeldig is, wordt een foutbericht weergegeven om aan te geven dat de bewerking niet is toegestaan.
 
-  ![](images/drop-element-outline-view_cs.png){width="800" align="left"}
+  ![](images/drop-element-outline-view_cs.png){align="left"}
 
 - Het **menu van Opties** in de *mening van het Overzicht* staat u toe om generische verrichtingen zoals Besnoeiing, Exemplaar, Schrapping uit te voeren, identiteitskaart, het element van het Tussenvoegsel vóór of na het huidige element, een element anders te noemen of te vervangen, een element te verpakken, een element, op te heffen en een fragment uit het geselecteerde element te creëren.
 
@@ -1523,7 +1523,7 @@ In het deelvenster Voorwaarden worden de voorwaardelijke kenmerken weergegeven d
 
 U kunt ook meerdere voorwaarden op een element toepassen door meerdere voorwaarden op een element te slepen en neer te zetten. Wanneer u meerdere voorwaarden toepast op een element, worden in het deelvenster Eigenschappen de toegepaste voorwaarden weergegeven, gescheiden met een komma.
 
-![](images/multiple-conditions-applied_cs.png){width="800" align="left"}
+![](images/multiple-conditions-applied_cs.png){align="left"}
 
 In de codeweergave worden de voorwaarden echter gescheiden met een scheidingsteken voor spaties. Wanneer u een voorwaarde toevoegt of bewerkt in de codeweergave, moet u ervoor zorgen dat meerdere voorwaarden worden gescheiden met een spatie.
 
@@ -1531,7 +1531,7 @@ In de codeweergave worden de voorwaarden echter gescheiden met een scheidingstek
 >
 > De volgende schermafbeelding is van een gebruiker met beheerdersrechten. Als gebruiker met beheerdersrechten kunt u voorwaarden toevoegen, bewerken en verwijderen. Anders krijgt u als normale auteur alleen de optie om voorwaarden toe te passen.
 
-![](images/conditional-content-through-panel_cs.png){width="800" align="left"}
+![](images/conditional-content-through-panel_cs.png){align="left"}
 
 Als u een voorwaarde wilt toevoegen of definiëren, selecteert u het pictogram + naast het deelvenster Voorwaarden om het dialoogvenster Voorwaarde definiëren te openen:
 
@@ -1761,7 +1761,7 @@ Fragmenten zijn kleine inhoudsfragmenten die over verschillende onderwerpen in u
 >
 > De volgende schermafbeelding is van een gebruiker met beheerdersrechten. Als gebruiker met beheerdersrechten kunt u fragmenten toevoegen, bewerken en verwijderen. Anders krijgt u als normale auteur alleen de opties om een fragment voor te vertonen en in te voegen.
 
-![](images/snippets-panel_cs.png){width="800" align="left"}
+![](images/snippets-panel_cs.png){align="left"}
 
 Gebruik een van de volgende methoden om een fragment toe te voegen:
 
@@ -1826,7 +1826,7 @@ Met Experience Manager Guides kunt u variabelen maken en beheren voor publiceren
 
 Het pictogram Zoeken en vervangen bevindt zich onder aan het linkerdeelvenster. Met het deelvenster Zoeken en vervangen kunt u zoeken naar tekst in bestanden in een kaart of een map in uw opslagplaats en deze vervangen. U kunt in alle onderwerpen van een kaart evenals onderwerpen vinden en vervangen aanwezig in submaps binnen de kaart.
 
-![](images/map-find-replace.png){width="800" align="left"}
+![](images/map-find-replace.png){align="left"}
 
 Standaard kunt u de bestanden op titels weergeven. Terwijl u de cursor op een bestand plaatst, kunt u de bestandstitel en het bestandspad weergeven als knopinfo.
 
@@ -1919,7 +1919,7 @@ Voer de volgende stappen uit om de revisieopmerkingen weer te geven in de actiev
 1. U kunt ook de zoekterm of tekst invoeren die u wilt zoeken in de titel of het bestandspad van het onderwerp. De onderwerpen die de termijn in de titel of de dossierweg bevatten zijn vermeld.
 1. Dubbelklik op een onderwerp om het te openen in de weergave Ontwerpen. U kunt de commentaren in het **paneel van Commentaren** bekijken.
 
-   ![](images/active-review-task-comments.png){width="800" align="left"}
+   ![](images/active-review-task-comments.png){align="left"}
 
    >[!NOTE]
    > 
@@ -1935,7 +1935,7 @@ In het inhoudsbewerkingsgebied wordt de inhoud van het onderwerp of de kaart wee
 
 Linksonder in het inhoudsbewerkingsgebied bevindt zich de breadcrumb van het element op de huidige cursorlocatie. In de rechterbenedenhoek worden de beschikbare Editor-weergaven weergegeven.
 
-![](images/content-editing-area.png){width="800" align="left"}
+![](images/content-editing-area.png){align="left"}
 
 Meer over de meningen van de Redacteur beschikbaar voor een onderwerpdossier in het inhoud het uitgeven gebied, mening [ meningen van de Redacteur ](./web-editor-views.md).
 

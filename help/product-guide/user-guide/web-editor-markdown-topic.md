@@ -4,7 +4,7 @@ description: Markeringsdocumenten van auteurs uit de Editor. Leer hoe u een Mark
 exl-id: def14e35-27c5-4b90-bc3d-eef7e8f317d2
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1254'
 ht-degree: 0%
@@ -81,7 +81,7 @@ Features available in the tab bar are explained as follows:
 
 De werkbalk bevindt zich vlak onder de tabbalk. De functies in de werkbalk worden als volgt uitgelegd:
 
-![](images/markdown-main-toolbar.png){width="800" align="left"}
+![](images/markdown-main-toolbar.png){align="left"}
 
 | Functies | Beschrijving |
 |----------------|----------------|
@@ -104,7 +104,7 @@ In het bewerkingsgebied voor inhoud wordt de bron Markering van het onderwerp we
 
 Voor het ontwerpen van markeringen ondersteunt de Editor drie verschillende weergavemodi voor het maken en opmaken van inhoud:
 
-![](images/markdown-footer.png){width="800" align="left"}
+![](images/markdown-footer.png){align="left"}
 
 * Source
 * Naast elkaar

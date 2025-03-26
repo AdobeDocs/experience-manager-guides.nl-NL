@@ -4,7 +4,7 @@ description: Leer hoe u revisieopmerkingen als auteur in AEM Guides kunt behande
 exl-id: 4c969788-f700-4fd6-8afa-8e5b411b59f3
 feature: Reviewing
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1024'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Een auteur kan commentaren in een document van de Redacteur van het Web richten.
 >
 > Zorg tijdens het richten van overzichtscommentaren \ (voor een actief overzichtsdocument \), ervoor dat u-open niet het onderwerp in overzicht in veelvoudige lusjes met volledig toegelaten etikettenmening, niet tussen de Auteur en de meningswijzen van Source schakelt.
 
-![](images/comments-page-web-editor_cs-new.png){width="800" align="left"}
+![](images/comments-page-web-editor_cs-new.png){align="left"}
 
 In de modus van de webeditor bevat het rechterdeelvenster de pictogrammen Wijzigingen controleren en bijhouden. In het deelvenster Revisie worden alle opmerkingen weergegeven die revisoren in uw document hebben gemaakt. Het **paneel van de Veranderingen van het Spoor** toont de status van alle opgenomen en geschrapte commentaren in uw document.
 
@@ -54,11 +54,11 @@ In de modus van de webeditor bevat het rechterdeelvenster de pictogrammen Wijzig
 
   Als u de voorgestelde wijziging één voor één wilt opnemen, klikt u gewoon met de rechtermuisknop op de opmerking in de inhoud en selecteert u Wijziging accepteren of Wijziging negeren. Afhankelijk van uw selectie wordt de opmerking geaccepteerd of afgewezen. In het geval van een geaccepteerde opmerking wordt de inhoud toegevoegd aan de inhoud en in het geval van afwijzing wordt deze uit de inhoud verwijderd. De status van de opmerking wordt ook gewijzigd in het deelvenster Revisie.
 
-  ![](images/import-comment-accept-web-editor_cs-new.png){width="800" align="left"}
+  ![](images/import-comment-accept-web-editor_cs-new.png){align="left"}
 
   U kunt ook het deelvenster Wijzigingen bijhouden gebruiken om opmerkingen te accepteren of af te wijzen. Als u een opmerking selecteert, wordt de opmerking in het document gemarkeerd.
 
-  ![](images/changes-tab_cs-new.png){width="800" align="left"}
+  ![](images/changes-tab_cs-new.png){align="left"}
 
   >[!IMPORTANT]
   >

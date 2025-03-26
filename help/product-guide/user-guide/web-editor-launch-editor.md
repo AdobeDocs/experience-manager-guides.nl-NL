@@ -4,7 +4,7 @@ description: Leer hoe u de Editor start via de AEM Navigation Page, de gebruiker
 exl-id: cdde7c29-ee49-4e17-902e-1e2bd6f32e8a
 feature: Authoring, Web Editor
 role: User
-source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
@@ -25,11 +25,11 @@ In de volgende secties vindt u informatie over de manier waarop u vanuit verschi
 
 Wanneer u zich aanmeldt bij Experience Manager, wordt de navigatiepagina weergegeven:
 
-![](images/web-editor-from-navigation-page.png){width="800" align="left"}
+![](images/web-editor-from-navigation-page.png){align="left"}
 
 Het selecteren van de **verbinding van Gidsen** neemt u aan de [ homepage van Adobe Experience Manager Guides ](./intro-home-page.md).
 
-![](images/aem-home-page.png){width="800" align="left"}
+![](images/aem-home-page.png){align="left"}
 
 Om de Redacteur te lanceren, ga naar de navigatiebar, en selecteer dan **Redacteur** van dropdown. De startpagina is standaard geselecteerd.
 
@@ -37,7 +37,7 @@ Om de Redacteur te lanceren, ga naar de navigatiebar, en selecteer dan **Redacte
 
 Terwijl u de Editor hebt gestart zonder een bestand te selecteren, wordt een leeg Editor-scherm weergegeven. U kunt een dossier voor het uitgeven van Experience Manager **Bewaarplaats** of uw **Inzamelingen** openen.
 
-![](images/web-editor-launch-page.png){width="800" align="left"}
+![](images/web-editor-launch-page.png){align="left"}
 
 Alternatief, kunt u de Redacteur ook lanceren door de bestaande dossiers te openen huidig in de **Recente dossiers** widget en **Inzamelingen** widget van [ de ervaring van de Homepage van Adobe Experience Manager Guides ](./intro-home-page.md).
 
@@ -57,7 +57,7 @@ Voer de volgende stappen uit om een onderwerp te openen in de Editor:
    >
    > U kunt UUID van het onderwerp ook bekijken.
 
-   ![](images/assets_ui_with_uuid_cs.png){width="800" align="left"}
+   ![](images/assets_ui_with_uuid_cs.png){align="left"}
 
    >[!IMPORTANT]
    >
@@ -79,15 +79,15 @@ Voer de volgende stappen uit om een onderwerp te openen in de Editor:
    >
    > Als u veelvoudige onderwerpen voor het uitgeven wilt openen, selecteer de gewenste onderwerpen van Activa UI en selecteer **uitgeven**. Zorg ervoor dat er geen pop-upblokkering is ingeschakeld in uw browser. Anders wordt alleen het eerste onderwerp in de geselecteerde lijst geopend voor bewerking.
 
-   ![](images/edit-from-preview_cs.png){width="800" align="left"}
+   ![](images/edit-from-preview_cs.png){align="left"}
 
    Als u geen voorproef een onderwerp wilt en het in de Redacteur direct willen openen, dan uitgezocht **geef** pictogram in het snelle actiemenu van de kaartmening uit:
 
-   ![](images/edit-topic-from-quick-action_cs.png){width="800" align="left"}
+   ![](images/edit-topic-from-quick-action_cs.png){align="left"}
 
    Het onderwerp wordt geopend in de Editor.
 
-   ![](images/edit-mode.png){width="800" align="left"}
+   ![](images/edit-mode.png){align="left"}
 
 U kunt ook een kaartbestand openen in de gebruikersinterface van Assets en de Editor starten om de onderwerpen in het kaartbestand te bewerken.
 
@@ -98,7 +98,7 @@ Voer de volgende stappen uit om een kaart te openen in de Editor:
 1. Selecteer het onderwerpbestand dat u wilt bewerken.
 1. Selecteer **uitgeven Onderwerp**.
 
-   ![](images/edit-topics-map-console_cs.png){width="800" align="left"}
+   ![](images/edit-topics-map-console_cs.png){align="left"}
 
 1. Het onderwerp wordt geopend in de Editor.
 
@@ -122,11 +122,11 @@ Voer de volgende stappen uit om de Editor te openen vanuit de kaartconsole:
 1. Selecteer het pad waar het kaartbestand zich bevindt. Het geselecteerde kaartbestand wordt toegevoegd aan de kaartconsole.
 1. Navigeer aan het kaartdossier en selecteer **Open in redacteur** van dropdown.
 
-   ![](images/map-console-open-in-editor.png){width="800" align="left"}
+   ![](images/map-console-open-in-editor.png){align="left"}
 
    Het kaartbestand met de onderwerpen is geopend voor bewerking in de Editor.
 
-   ![](images/map-console-edit-topics.png){width="800" align="left"}
+   ![](images/map-console-edit-topics.png){align="left"}
 
 
 

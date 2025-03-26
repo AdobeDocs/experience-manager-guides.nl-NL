@@ -3,7 +3,8 @@ title: Uitvoergeneratie
 description: Beheer het productieproces voor uitvoer in AEM Sites, PDF, HTML5, EPUB, custom en JSON via DITA-OT plug-ins, Native PDF-publicatie en FMPS in AEM Guides.
 feature: Publishing
 role: User
-source-git-commit: b061bcbcefba1700665bed33f017a962e84a0433
+exl-id: 11bb3604-f45c-4df7-be74-588dbf8594af
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 0%
@@ -26,7 +27,7 @@ Zodra u de taak van de outputgeneratie voor een kaart in werking stelt of gesele
 
 1. Selecteer **UITVOER**.
 
-   ![](images/output-queued.png){width="800" align="left"}
+   ![](images/output-queued.png){align="left"}
 
    De pagina Uitvoer bestaat uit twee delen:
 
@@ -63,17 +64,17 @@ Voer de volgende stappen uit om een taak van de outputgeneratie van de DITA kaar
 
 1. Selecteer **annuleert dit Taakpictogram**.
 
-   ![](images/cancel-publish-task-map-console.png){width="800" align="left"}
+   ![](images/cancel-publish-task-map-console.png){align="left"}
 
 1. Selecteer **ja** op **Bevestig annulering** berichtherinnering.
 
-   ![](images/confirm-cancel-output-map-console.png){width="800" align="left"}
+   ![](images/confirm-cancel-output-map-console.png){align="left"}
 
    Als de taak nog niet is gestart, wordt de opdracht Annuleren uitgevoerd op de taak. Voor een taak die wordt geannuleerd, wordt de Status geplaatst aan het Annuleren.
 
    Zodra de taak met succes wordt geannuleerd, wordt het verplaatst naar de **Gegenereerde lijst van Output** met a **Geannuleerde** status. Wanneer u de muisaanwijzer op de geannuleerde taak plaatst, ziet u de naam van de gebruiker die de taak heeft geannuleerd. In het volgende schermafbeelding, wordt de *HTML5* taak geannuleerd.
 
-   ![](images/cancelled-output-task.png){width="800" align="left"}
+   ![](images/cancelled-output-task.png){align="left"}
 
 
 ## Een uitvoertaak verwijderen
@@ -90,9 +91,8 @@ Voer de volgende stappen uit om een uitvoertaak uit de Gegenereerde lijst van de
 
 1. Selecteer het verwijderpictogram.
 
-   ![](images/delete-output-task.png){width="800" align="left"}
+   ![](images/delete-output-task.png){align="left"}
 
 1. Selecteer **ja** op **bevestigen schrapping** berichtherinnering.
 
    De taak wordt verwijderd uit de lijst Gegenereerde uitvoer.
-

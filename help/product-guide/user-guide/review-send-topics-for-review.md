@@ -4,7 +4,7 @@ description: Leer hoe u een overzichtstaak maakt en onderwerpen ter controle ver
 exl-id: c486eb6a-7e1f-4faa-973d-b47252d3e7c5
 feature: Reviewing
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2793'
 ht-degree: 0%
@@ -95,7 +95,7 @@ Voer de volgende stappen uit om een overzichtstaak te maken en onderwerpen ter c
 
    De pagina Inhoud wordt weergegeven.
 
-   ![](images/content_page_review.png){width="800" align="left"}
+   ![](images/content_page_review.png){align="left"}
 
 1. Selecteer op de pagina Inhoud een versie van het onderwerp dat u wilt delen voor revisie.
 
@@ -214,7 +214,7 @@ Als u een of meerdere onderwerpen samen met het kaartbestand ter controle wilt v
 
    De pagina Inhoud wordt weergegeven met alle onderwerpen waarnaar in het kaartbestand wordt verwezen. Als uw kaart DITA genestelde kaarten bevat, dan zijn de onderwerpen van de genestelde kaarten ook hier vermeld.
 
-   ![](images/content-page-map-review.png){width="800" align="left"}
+   ![](images/content-page-map-review.png){align="left"}
 
 1. Selecteer op de pagina Inhoud een versie van het onderwerp dat u wilt delen voor revisie.
 
