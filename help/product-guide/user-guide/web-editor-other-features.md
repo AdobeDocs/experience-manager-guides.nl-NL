@@ -4,9 +4,9 @@ description: Andere functies van de Editor in Adobe Experience Manager Guides ve
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 9e84617dcfc8bf596bdf0863883284b660cde2f1
 workflow-type: tm+mt
-source-wordcount: '2406'
+source-wordcount: '2399'
 ht-degree: 0%
 
 ---
@@ -213,9 +213,9 @@ Als u een element loskoppelt, kunt u de elementtag verwijderen uit de geselectee
 
 In XML omvatten witruimten spaties, tabs, regeleinden en lege regels. Experience Manager Guides converteert meerdere overeenkomende witruimten naar één spatie. Zo kunt u de WYSIWYG-weergave van de Editor behouden.
 
-    >[!NOTE] 
-    > 
-    >In sommige elementen waar de witte ruimten volgens de regels moeten worden bewaard DITA, worden de veelvoudige opeenvolgende witte ruimten behouden. Bijvoorbeeld, ` &lt;pre> ` en ` &lt;codeblock> ` elementen.
+>[!NOTE]
+>
+> In sommige elementen waar witruimten moeten worden behouden volgens de DITA-regels, blijven de verschillende witruimten die daaruit voortvloeien behouden. Bijvoorbeeld `<pre>` en `<codeblock>` -elementen.
 
 
 **het Behouden van lijnonderbrekingen en inkeping**

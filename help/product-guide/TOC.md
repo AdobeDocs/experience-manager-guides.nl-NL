@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lees de productdocumentatie voor Adobe Experience Manager Guides.
 breadcrumb-title: Documentatie voor AEM Guides
-source-git-commit: 995cb28356fb087871225475e0d69fc96a9b5f98
+source-git-commit: 9e84617dcfc8bf596bdf0863883284b660cde2f1
 workflow-type: tm+mt
-source-wordcount: '2066'
+source-wordcount: '2089'
 ht-degree: 2%
 
 ---
@@ -17,15 +17,15 @@ ht-degree: 2%
 - Gegevens vrijgeven {#release-info}
    - [AEM Guides-versie](./release-info/aem-guides-releases-roadmap.md)
    - Opmerkingen bij de release {#release-notes}
-      - Cloud Diensten {#cloud-release-notes}
+      - Cloud Services {#cloud-release-notes}
          - [Implementatieinstructies](./release-info/deploy-xml-on-aemaacs.md)
          - Versies van 2025 {#2025-releases}
             - Release 2025.02.0 {#2502-release}
                - [Nieuwe functies](./release-info/whats-new-2025-02-0.md)
                - [Opgeloste problemen](./release-info/fixed-issues-2025-02-0.md)
                - [Upgradeinstructies](./release-info/upgrade-instructions-2025-02-0.md)
-         - 2024 Uitgaven {#2024-releases}
-            - 2024.12.0 Versie {#2412-release}
+         - Versies van 2024 {#2024-releases}
+            - Release 2024.12.0 {#2412-release}
                - [Opgeloste problemen](./release-info/fixed-issues-2024-12-0.md)
                - [Upgradeinstructies](./release-info/upgrade-instructions-2024-12-0.md)
             - 2024.10.0 SP1 Release {#2410-0-sp1-release}
@@ -77,17 +77,17 @@ ht-degree: 2%
          - Versies van 2022 {#2022-releases}
             - [Release-aantekeningen november](./release-info/release-notes-2022-11-0.md)
             - [Release-aantekeningen oktober](./release-info/release-notes-2022-10-0.md)
-            - [Release-opmerkingen voor september](./release-info/release-notes-2022-9-0.md)
-            - [Release-opmerkingen augustus](./release-info/release-notes-2022-8-0.md)
-            - [Release-opmerkingen mei](./release-info/release-notes-2022-5-0.md)
+            - [Release-aantekeningen september](./release-info/release-notes-2022-9-0.md)
+            - [Release-aantekeningen augustus](./release-info/release-notes-2022-8-0.md)
+            - [Release-aantekeningen mei](./release-info/release-notes-2022-5-0.md)
             - [Release-aantekeningen april](./release-info/release-notes-2022-4-0.md)
             - [Opmerkingen bij de release maart](./release-info/release-notes-2022-3-0.md)
             - [Opmerkingen bij de release februari](./release-info/release-notes-2022-2-0.md)
-            - [Release-opmerkingen januari](./release-info/release-notes-2022-1-0.md)
-      - On-premises/beheerde services {#on-prem-release-notes}
-         - [[!DNL AEM Guides] Releases](./release-info/latest-release-info.md)
-         - 5.0.0 Uitgave {#500-release}
-            - [Wat is er nieuw](./release-info/whats-new-5-0-0.md)
+            - [Release-aantekeningen januari](./release-info/release-notes-2022-1-0.md)
+      - On-prem/Managed Services {#on-prem-release-notes}
+         - [[!DNL AEM Guides] releases](./release-info/latest-release-info.md)
+         - 5.0.0 Release {#500-release}
+            - [Nieuwe functies](./release-info/whats-new-5-0-0.md)
             - [Opgeloste problemen](./release-info/fixed-issues-5-0-0.md)
             - [Upgradeinstructies](./release-info/upgrade-instructions-5-0-0.md)
          - 4.6.0 SP4-release {#460-sp4-release}
@@ -137,7 +137,7 @@ ht-degree: 2%
       - [[!DNL AEM Guides] Introductiepagina](./user-guide/intro-home-page.md)
    - Inhoud auteur {#author-content}
       - [Overzicht van ontwerpen](./user-guide/authoring-content.md)
-      - [Manieren om inhoud te maken met behulp van AEM Guides](./user-guide/authoring-content-xml-doc.md)
+      - [Manieren om inhoud te ontwerpen met AEM Guides](./user-guide/authoring-content-xml-doc.md)
       - Editor {#work-with-editor}
          - [Inleiding tot de Editor](./user-guide/web-editor.md)
          - [De Editor starten](./user-guide/web-editor-launch-editor.md)
@@ -145,9 +145,17 @@ ht-degree: 2%
          - Onderwerpen maken en voorvertonen {#create-preview-topics}
             - [Onderwerpen maken en voorvertonen](./user-guide/create-preview-topics.md)
             - [Onderwerpen maken](./user-guide/web-editor-create-topics.md)
-            - [Een voorbeeld van een onderwerp bekijken](./user-guide/web-editor-preview-topics.md)
-         - [Ken de functies van de editor](./user-guide/web-editor-features.md)
-         - [Extra functies in de editor](./user-guide/web-editor-other-features.md)
+            - [Een voorvertoning van een onderwerp weergeven](./user-guide/web-editor-preview-topics.md)
+         - [De functies van de Editor leren kennen](./user-guide/web-editor-features.md)
+         - De Editor-interface en -functies kennen {#editor-interface-features}
+            - [Kopbalk](./user-guide/web-editor-header-bar.md)
+            - [Tabbalk](./user-guide/web-editor-tab-bar.md)
+            - [Werkbalk](./user-guide/web-editor-toolbar.md)
+            - [Deelvenster Links](./user-guide/web-editor-left-panel.md)
+            - [Inhoudsbewerkingsgebied](./user-guide/web-editor-content-editing-area.md)
+            - [Rechterdeelvenster](./user-guide/web-editor-right-panel.md)
+         - [Extra functies in de Editor](./user-guide/web-editor-other-features.md)
+         - [Werken met de Editor-instellingen](./user-guide/web-editor-settings.md)
          - [Sneltoetsen in de Editor](./user-guide/web-editor-keyboard-shortcuts.md)
          - [Weergaven in Editor](./user-guide/web-editor-views.md)
          - [Ondersteuning voor Schematron-bestanden](./user-guide/support-schematron-file.md)
@@ -198,15 +206,15 @@ ht-degree: 2%
          - [Documenten vertalen vanuit de kaartconsole](./user-guide/translate-documents-web-editor.md)
          - [Vertaalstatus weergeven](./user-guide/translation-view-trans-state-6234.md)
          - [Gewijzigde onderwerpen vertalen](./user-guide/translation-modified-topics-6234.md)
-      - Output genereren {#output-gen}
-         - [Basisprincipes van het genereren van uitvoer](./user-guide/generate-output.md)
+      - Uitvoergeneratie {#output-gen}
+         - [Grondbeginselen van het genereren van uitvoer](./user-guide/generate-output.md)
          - Voorinstellingen uitvoer in AEM Guides {#output-presets-aemg}
             - [Inleiding tot uitvoervoorinstellingen](./user-guide/generate-output-understand-presets.md)
             - AEM Sites {#aem-sites}
                - [AEM Sites-voorinstelling in de kaartconsole](./user-guide/generate-output-aem-site-web-editor.md)
-               - [AEM Sites vooraf ingesteld in het kaartdashboard](./user-guide/generate-output-aem-site-map-dashboard.md)
+               - [AEM Sites-voorinstelling in het dashboard Kaart](./user-guide/generate-output-aem-site-map-dashboard.md)
             - PDF {#pdf-preset}
-               - [Overzicht van voorinstellingen voor PDF-uitvoer](./user-guide/generate-output-pdf.md)
+               - [Overzicht van de PDF-uitvoervoorinstelling](./user-guide/generate-output-pdf.md)
                - [DITA-OT PDF-uitvoervoorinstelling](./user-guide/generate-output-pdf-dita-ot.md)
                - [Systeemeigen PDF-uitvoervoorinstelling](./web-editor/native-pdf-web-editor.md)
             - [Kennisbank](./user-guide/generate-output-knowledge-base.md)
@@ -265,7 +273,7 @@ ht-degree: 2%
          - [Bestanden en mappen beheren](./user-guide/authoring-file-management.md)
          - [Bestanden downloaden](./user-guide/authoring-download-assets.md)
 - Handboek (oude gebruikersinterface) {#user-guide-old-ui}
-   - [Overzicht van AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [ overzicht van AEM Guides ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview) {target="_blank"}
 - Installatie en configuratie {#install-guide}
    - Op locatie {#on-prem-ig}
       - [Basisbegrippen op locatie](./install-guide/introduction.md)
@@ -273,7 +281,7 @@ ht-degree: 2%
          - [Overzicht van downloaden en installatie](./install-guide/download-install.md)
          - [Technische voorschriften](./install-guide/download-install-technical-requirements.md)
          - [Adobe Experience Manager installeren](./install-guide/download-install-aem.md)
-         - [AEM Guides voor de eerste keer downloaden en installeren](./install-guide/download-install-aemg-first-time.md)
+         - [Voor het eerst AEM Guides downloaden en installeren](./install-guide/download-install-aemg-first-time.md)
          - [Dispatcher configureren](./install-guide/download-install-configure-dispatcher.md)
          - [AEM Guides-installatie verifiëren](./install-guide/download-install-verify-aemg-installation.md)
          - [Upgrade uitvoeren voor AEM Guides](./install-guide/upgrade-xml-documentation.md)
@@ -325,16 +333,16 @@ ht-degree: 2%
          - [De Geavanceerde Kaarteditor instellen als standaard](./install-guide/conf-map-editor.md)
          - [@navtitle-kenmerk standaard opnemen](./install-guide/auto-add-navtitle.md)
          - [De optie configureren om te bewerken in zuurstof](./cs-install-guide/conf-edit-in-oxygen.md)
-         - [Extra speciale tekens configureren](./web-editor/configure-additional-special-characters.md)
-      - Werken met profielen op algemene en mapniveau {#global-folder-profiles}
-         - [Profielen op algemene of mapniveau configureren](./install-guide/conf-folder-level.md)
+         - [Aanvullende speciale tekens configureren](./web-editor/configure-additional-special-characters.md)
+      - Werken met algemene profielen en mapprofielen {#global-folder-profiles}
+         - [Profielen op algemeen niveau of mapniveau configureren](./install-guide/conf-folder-level.md)
       - Versies configureren {#version-mgt}
          - [Versiebeheer](./install-guide/version-management.md)
       - Werken met XML-editors op bureaublad {#desktop-xml-editor}
          - [XML-editors die zijn gebaseerd op een desktopcomputer integreren](./install-guide/integrate-desktop-editors.md)
       - Werken met instellingen voor het genereren van uitvoer {#output-gen-config}
          - [Instellingen voor uitvoergeneratie configureren](./install-guide/conf-output-generation.md)
-         - [Download en installeer aem sites sjablonen](./install-guide/download-install-aem-sites-templates.md)
+         - [Enkele sitesjablonen downloaden en installeren](./install-guide/download-install-aem-sites-templates.md)
          - [HTML-tags bedekken in AEM Sites-uitvoer](./install-guide/overlay-html-tags-aem-sites.md)
          - Systeemeigen PDF-publicatie {#config-native-pdf-publish}
             - [PDF-sjabloon](./native-pdf/pdf-template.md)
@@ -386,16 +394,16 @@ ht-degree: 2%
       - Werken met onderwerp- en kaartsjablonen {#topic-map-template-cs}
          - [Onderwerp- en kaartsjablonen configureren](./cs-install-guide/conf-template-tags.md)
          - [Aangepaste DITA-onderwerpsjabloon configureren](./cs-install-guide/conf-template-tags-custom-dita-topic-template.md)
-         - [Aangepaste DITA-kaartsjabloon configureren](./cs-install-guide/conf-template-tags-custom-dita-map-templates.md)
+         - [Aangepaste DITA-toewijzingssjabloon configureren](./cs-install-guide/conf-template-tags-custom-dita-map-templates.md)
       - Werken met documentstatussen {#doc-state-cs}
          - [Documentstatussen configureren](./cs-install-guide/customize-doc-state.md)
       - Werken met de webeditorconfiguraties {#web-editor-configs-cs}
          - [Webeditor aanpassen](./cs-install-guide/conf-web-editor.md)
          - [Werkbalk Aanpassen](./cs-install-guide/conf-web-editor-customize-toolbar.md)
          - [ vorm de AI-Aangedreven slimme suggesties voor het schrijven ](./cs-install-guide/conf-smart-suggestions.md)
-         - [Configureer de AI-aangedreven Smart Help om inhoud te zoeken](./cs-install-guide/conf-smart-help.md)
-         - [Standaardwaarde configureren voor de tagsweergave](./cs-install-guide/configure-default-value-tags-view.md)
-         - [Weergave van UUID-gebaseerde links configureren](./cs-install-guide/conf-uuid-based-links.md)
+         - [De door AI aangedreven Smart Help configureren om inhoud te zoeken](./cs-install-guide/conf-smart-help.md)
+         - [Standaardwaarde voor de weergave Codes configureren](./cs-install-guide/configure-default-value-tags-view.md)
+         - [Weergave van op UUID gebaseerde koppelingen configureren](./cs-install-guide/conf-uuid-based-links.md)
          - [ vorm vertoning van geplakte lijsten ](./cs-install-guide/conf-pasted-tables.md)
          - [DITA-onderwerp of toewijzingsbestanden openen op hetzelfde tabblad](./cs-install-guide/open-dita-files-same-tab.md)
          - [Een aangepast deelvenster configureren in het linkerdeelvenster](./cs-install-guide/configure-custom-panel.md)
@@ -445,10 +453,10 @@ ht-degree: 2%
    - [REST API&#39;s voor conversieworkflow](./api-reference/convert-to-dita.md)
    - [REST API voor het maken en activeren van pakketten](./api-reference/create-activate-package.md)
    - [Op Java gebaseerde API om met uitvoergeneratie te werken](./api-reference/generate-output.md)
-   - [Java-gebaseerde API&#39;s om te werken met DITA-kaarten](./api-reference/dita-map-management-java.md)
-   - [Java-gebaseerde API&#39;s voor conversieworkflow](./api-reference/convert-to-dita-java.md)
-   - [Op Java gebaseerde API&#39;s om te werken met basislijn en labels](./api-reference/create-baseline-label-java.md)
-   - [Java-gebaseerde API om met mapprofielen te werken](./api-reference/folder-profile-java.md)
+   - [API&#39;s die zijn gebaseerd op Java om te werken met DITA-kaarten](./api-reference/dita-map-management-java.md)
+   - [Java-API&#39;s voor conversieworkflow](./api-reference/convert-to-dita-java.md)
+   - [API&#39;s die zijn gebaseerd op Java om te werken met basislijnen en labels](./api-reference/create-baseline-label-java.md)
+   - [Java-API om te werken met mapprofielen](./api-reference/folder-profile-java.md)
    - [Java-API voor het maken en activeren van pakketten](./api-reference/create-activate-package-java.md)
    - [Gebeurtenishandler voor nabewerking](./api-reference/post-process-event.md)
    - [Bulkactivering voltooid, gebeurtenishandler](./api-reference/bulk-activation-complete-event.md)
@@ -508,9 +516,9 @@ ht-degree: 2%
          - Aanpassingen {#customisations}
             - [Eenvoudige aanpassing](./guides-ui-extensions/customisations/add-button.md)
             - [Contextmenu&#39;s aanpassen](./guides-ui-extensions/customisations/context-menus.md)
-            - [Werkbalk en bovenbalk aanpassen](./guides-ui-extensions/customisations/toolbar-topbar.md)
+            - [Werkbalk en werkbalk aanpassen](./guides-ui-extensions/customisations/toolbar-topbar.md)
             - [Voorbeelden](./guides-ui-extensions/examples.md)
-            - [Aanpasbare Jsons](./guides-ui-extensions/jsons.md)
+            - [Aanpasbare zonen](./guides-ui-extensions/jsons.md)
             - Revisie {#review-app-customisations}
                - [Onderdelen](./guides-ui-extensions/customisations/ReviewApp/components.md)
                - [Aanpassen](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
