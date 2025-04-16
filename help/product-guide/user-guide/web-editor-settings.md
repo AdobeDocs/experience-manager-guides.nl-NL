@@ -1,18 +1,19 @@
 ---
-title: Weergaven van de Editor voor onderwerpen
-description: De onderwerpen van de mening in auteur, bron, en voorproefwijze. Leer hoe u inhoud weergeeft op basis van voorwaardelijke filters, de markeringen voor wijzigingen in de track weergeeft en een onderwerp exporteert als PDF in AEM Guides.
-Sfeature: Authoring, Features of Web Editor
+title: Editor-instellingen in Experience Manager Guides
+description: Leer meer over de verschillende instellingen die beschikbaar zijn in de Editor-interface van Experience Manager Guides.
+feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 0fb079d08c31688046acf0e5a1e2ce7997d24cd6
+exl-id: fad2874f-dab5-4538-8502-f7112c51d941
+source-git-commit: ffc9a9e15f11e7059822b7cf6d4707b83d15a4f4
 workflow-type: tm+mt
-source-wordcount: '1990'
+source-wordcount: '1975'
 ht-degree: 0%
 
 ---
 
 # Editor-instellingen
 
-De **optie van Montages** huidig in de [ bar van het Lusje ] van de Redacteur is beschikbaar slechts voor beheerders en de beheerders van het omslagprofiel, en staat het vormen van de volgende montages toe:
+De **optie van Montages** huidig in de [ bar van het Lusje ](./web-editor-tab-bar.md) van de Redacteur is beschikbaar slechts voor beheerders en de beheerders van het omslagprofiel, en staat het vormen van de volgende montages toe:
 
 - [Algemeen](#general)
 - [Deelvensters](#panels)

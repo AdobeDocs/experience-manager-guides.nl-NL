@@ -3,7 +3,8 @@ title: Rechterdeelvenster in Editor
 description: Krijg het juiste paneel in de Redacteur te kennen. Meer informatie over de Editor-interface en -functies in Adobe Experience Manager Guides.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 6e7d600da4373cb046e6adad3c5afe3164c9d0fa
+exl-id: 6a0f4ed2-6eca-4b3c-bd3a-3f72f6919b36
+source-git-commit: ffc9a9e15f11e7059822b7cf6d4707b83d15a4f4
 workflow-type: tm+mt
 source-wordcount: '965'
 ht-degree: 0%
@@ -130,7 +131,7 @@ Met de functie Bijgehouden wijzigingen in het rechterdeelvenster kunt u de infor
 
 >[!NOTE]
 >
-> De geleide veranderingseigenschap toont alle updates die gebruikend de Enable/Disable eigenschap van de Veranderingen van het Spoor van de [ bar van het Lusje ](#tab-bar) zijn gevolgd.
+> De geleide veranderingseigenschap toont alle updates die gebruikend de Enable/Disable eigenschap van de Veranderingen van het Spoor van de [ bar van het Lusje ](./web-editor-tab-bar.md) zijn gevolgd.
 
 ## Schematron
 

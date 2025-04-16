@@ -3,9 +3,10 @@ title: Deelvenster Links in de Editor
 description: Krijg het linkerpaneel in de Redacteur te kennen. Leer meer over de Editor-interface en -functies in Adobe Experience Manager Guides.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 74f3e6933b711f855e5a07bb7909678da4254207
+exl-id: 92496d39-b423-4635-8b05-c67fd6af47de
+source-git-commit: ffc9a9e15f11e7059822b7cf6d4707b83d15a4f4
 workflow-type: tm+mt
-source-wordcount: '9325'
+source-wordcount: '9323'
 ht-degree: 0%
 
 ---
@@ -47,7 +48,7 @@ Voor details, mening [ de integratie van Workfront ](./workfront-integration.md)
 
 >[!NOTE]
 >
-> De functies in het linkerdeelvenster worden beheerd door uw beheerder, zodat u de afzonderlijke functies in het linkerdeelvenster kunt in- of uitschakelen. Alleen ingeschakelde functies worden in het linkerdeelvenster weergegeven. Voor meer details, bekijk de **panelen** sectie van [ bar van het Lusje ](#tab-bar).
+> De functies in het linkerdeelvenster worden beheerd door uw beheerder, zodat u de afzonderlijke functies in het linkerdeelvenster kunt in- of uitschakelen. Alleen ingeschakelde functies worden in het linkerdeelvenster weergegeven. Voor meer details, bekijk de **panelen** sectie van [ bar van het Lusje ](./web-editor-tab-bar.md).
 
 De gedetailleerde uitleg van de functies in het linkerdeelvenster is als volgt:
 
@@ -89,7 +90,7 @@ Als u een bestand aan verzamelingen wilt toevoegen, gebruikt u een van de volgen
 
 - Klik met de rechtermuisknop op het tabblad van een bestand in de editor om het contextmenu te openen. Kies **toevoegen aan** > **Inzamelingen** om het dossier aan uw favorieten lijst toe te voegen.
 
-  ![](images/favorite-add-from-file-context-menu_cs.png){width="800" align="left"}
+  ![](images/favorite-add-from-file-context-menu_cs.png){align="left"}
 
 
 >[!NOTE]
@@ -131,7 +132,7 @@ U kunt ook een audio- of videobestand selecteren en afspelen in de Editor. U kun
 de weergave van de video. In het snelmenu hebt u ook de opties om te downloaden, het afspelen te wijzigen
 -snelheid of beeld-in-beeld bekijken.
 
-Selecteer een kaart en druk binnengaan of tweemaal klikken om het in de **mening van de Kaart** te openen. Voor meer details, bekijk de **mening van de Kaart** eigenschapbeschrijving in de [ Linkerpaneel ](#left-panel) sectie. Selecteer een onderwerp en druk binnengaan of tweemaal klikken om het in het [ het uitgeven gebied van de Inhoud ](#content-editing-area) te openen. Als u rechtstreeks vanuit de Editor naar een bestand kunt navigeren en dit kunt openen, bespaart u tijd en verhoogt u de productiviteit.
+Selecteer een kaart en druk binnengaan of tweemaal klikken om het in de **mening van de Kaart** te openen. Voor meer details, bekijk de **eigenschapbeschrijving van de mening van de Kaart** in het linkerpaneel. Selecteer een onderwerp en druk binnengaan of tweemaal klikken om het in het [ het uitgeven gebied van de Inhoud ](./web-editor-content-editing-area.md) te openen. Als u rechtstreeks vanuit de Editor naar een bestand kunt navigeren en dit kunt openen, bespaart u tijd en verhoogt u de productiviteit.
 
 **Onderzoek van de Filter in Bewaarplaats**
 
@@ -220,7 +221,6 @@ Stappen om een nieuw onderwerp tot stand te brengen:
    - Een malplaatje waarop het onderwerp zal worden gebaseerd. Bijvoorbeeld, voor een uit-van-de-doos opstelling, kunt u van Lege, Concept, DITAVAL, Verwijzing, Taak, Onderwerp, Markering, Verklarende woordenlijst, en de malplaatjes van het Oplossen van problemen kiezen. Als er in uw map een mapprofiel is geconfigureerd, worden alleen de onderwerpsjablonen weergegeven die in het mapprofiel zijn geconfigureerd.
 
    - Pad waar u het onderwerpbestand wilt opslaan. Standaard wordt het pad van de geselecteerde map in de opslagplaats weergegeven in het veld Pad.
-
 4. Selecteer **Maken**. Het onderwerp wordt gecreeerd bij de gespecificeerde weg. Het onderwerp wordt ook geopend in de Editor voor bewerking.
 
 </details>
@@ -269,7 +269,7 @@ Stappen om een nieuwe map te maken:
 
   Als uw beheerder de optie UUIDs in *XMLEditorConfig* heeft toegelaten, dan zult u UUID van het geuploade beeld in het **Source** bezit bekijken.
 
-  ![](images/uuid-in-source-upload-image_cs.png){width="800" align="left"}
+  ![](images/uuid-in-source-upload-image_cs.png){align="left"}
 
 - **vind dossiers in omslag**: Verschuift de nadruk aan bewaarplaatsonderzoek waar u de onderzoekstermijn kunt ingaan. De zoekopdracht wordt uitgevoerd onder de geselecteerde map in de opslagplaats. U kunt ook een filter toepassen om DITA-bestanden, afbeeldingsbestanden of beide te retourneren.
 
@@ -321,7 +321,7 @@ De verschillende opties in het menu Opties worden hieronder uitgelegd:
 
 - **Voorproef**: Krijg een snelle voorproef van het dossier (.dita, .xml, audio, video, of beeld) zonder het te openen. U kunt het formaat van het voorvertoningsvenster wijzigen. Als de inhoud `<xref>` of `<conref>` bevat, kunt u deze selecteren en op een nieuw tabblad openen. De titel van het bestand wordt weergegeven in het venster. Als er geen titel aanwezig is, wordt de bestandsnaam weergegeven. Om het **paneel van de Voorproef** te sluiten, kunt u of het dichte pictogram selecteren of overal buiten de ruit selecteren.
 
-  ![](images/quick-preview_cs.png){width="800" align="left"}
+  ![](images/quick-preview_cs.png){align="left"}
 
 - **anders noemen**: Gebruik deze optie om het geselecteerde dossier anders te noemen. Ga de naam van het nieuwe dossier in **anders noemen Activa** dialoog.
    - U kunt de naam van een bestand van elk type wijzigen.
@@ -441,7 +441,7 @@ De volgende opties zijn beschikbaar voor een kaartbestand in de Kaartweergave:
 
 U kunt de volgende handelingen uitvoeren met het menu Opties van het kaartbestand:
 
-![](images/options-menu-map-view_cs.png){width="800" align="left"}
+![](images/options-menu-map-view_cs.png){align="left"}
 
 - **geeft** uit: Open het kaartdossier voor het uitgeven in de Redacteur van de Kaart.
 
@@ -497,7 +497,7 @@ U kunt de volgende handelingen uitvoeren met het menu Opties van het kaartbestan
 
 De volgende schermafbeelding toont het menu Opties voor een bestand in de kaartweergave:
 
-![](images/options-menu-file_cs.PNG){width="800" align="left"}
+![](images/options-menu-file_cs.PNG){align="left"}
 
 U kunt de volgende handelingen uitvoeren met het menu Opties:
 
@@ -607,11 +607,11 @@ De weergave Omtrek biedt de volgende functies:
 
 - Elementen slepen en neerzetten. U kunt een element eenvoudig vervangen door er een ander element op neer te zetten. Als u een element over een ander element sleept en een gestreepte rechthoekige doos rond het element bekijkt, wijst het erop dat het element zal worden vervangen. Het vervangt het element waarop het element wordt gelaten vallen.
 
-  ![](images/replace-element-outline-view_cs.png){width="800" align="left"}
+  ![](images/replace-element-outline-view_cs.png){align="left"}
 
   Als u een element sleept en neerzet, geeft een onderbroken rechthoek aan dat het element op de huidige locatie kan worden geplaatst. Als het slepen en neerzetten ongeldig is, wordt een foutbericht weergegeven om aan te geven dat de bewerking niet is toegestaan.
 
-  ![](images/drop-element-outline-view_cs.png){width="800" align="left"}
+  ![](images/drop-element-outline-view_cs.png){align="left"}
 
 - Het **menu van Opties** in de *mening van het Overzicht* staat u toe om generische verrichtingen zoals Besnoeiing, Exemplaar, Schrapping uit te voeren, identiteitskaart, het element van het Tussenvoegsel vóór of na het huidige element, een element anders te noemen of te vervangen, een element te verpakken, een element, op te heffen en een fragment uit het geselecteerde element te creëren.
 
@@ -634,7 +634,7 @@ Als een blokelement zijn eigen tekst heeft, wordt het getoond samen met dat blok
 Als uw beheerder een profiel voor attributen heeft gecreeerd, dan zult u die attributen samen met hun gevormde waarden krijgen. U kunt vertoningsattributen ook toewijzen die door uw beheerder onder de **attributen van de Vertoning** worden gevormd lusje in de **Montages**. De kenmerken die voor een element zijn gedefinieerd, worden weergegeven in de layoutweergave en in de contourweergave.
 
 
-Voor meer details, bekijk de *attributen van de Vertoning* binnen de *3} eigenschapbeschrijving van Montages {in de [ Linkerpaneel ](#left-panel) sectie.*
+Voor meer details, bekijk de *attributen van de Vertoning* binnen de *de eigenschapbeschrijving van Montages* in het linkerpaneel.
 
 **eigenschap van het Onderzoek**
 
@@ -698,7 +698,7 @@ In het deelvenster Voorwaarden worden de voorwaardelijke kenmerken weergegeven d
 
 U kunt ook meerdere voorwaarden op een element toepassen door meerdere voorwaarden op een element te slepen en neer te zetten. Wanneer u meerdere voorwaarden toepast op een element, worden in het deelvenster Eigenschappen de toegepaste voorwaarden weergegeven, gescheiden met een komma.
 
-![](images/multiple-conditions-applied_cs.png){width="800" align="left"}
+![](images/multiple-conditions-applied_cs.png){align="left"}
 
 In de codeweergave worden de voorwaarden echter gescheiden met een scheidingsteken voor spaties. Wanneer u een voorwaarde toevoegt of bewerkt in de codeweergave, moet u ervoor zorgen dat meerdere voorwaarden worden gescheiden met een spatie.
 
@@ -706,7 +706,7 @@ In de codeweergave worden de voorwaarden echter gescheiden met een scheidingstek
 >
 > De volgende schermafbeelding is van een gebruiker met beheerdersrechten. Als gebruiker met beheerdersrechten kunt u voorwaarden toevoegen, bewerken en verwijderen. Anders krijgt u als normale auteur alleen de optie om voorwaarden toe te passen.
 
-![](images/conditional-content-through-panel_cs.png){width="800" align="left"}
+![](images/conditional-content-through-panel_cs.png){align="left"}
 
 Als u een voorwaarde wilt toevoegen of definiëren, selecteert u het pictogram + naast het deelvenster Voorwaarden om het dialoogvenster Voorwaarde definiëren te openen:
 
@@ -929,7 +929,7 @@ U kunt de waarden ook wijzigen vanuit de vervolgkeuzelijst van het kenmerk in de
 
 U kunt het onderwerpschema ook weergeven en toepassen vanuit het deelvenster Voorwaarden.
 
-Om de onderwerpregeling van het paneel van Voorwaarden te bekijken, moet uw systeembeheerder **onderworpen regeling in de het paneeloptie van Voorwaarden van de Show** onder het Algemene lusje in Montages selecteren. Voor meer details, bekijk de **sectie van Montages** in de [ bar van het Lusje ](#tab-bar).
+Om de onderwerpregeling van het paneel van Voorwaarden te bekijken, moet uw systeembeheerder **onderworpen regeling in de het paneeloptie van Voorwaarden van de Show** onder het Algemene lusje in Montages selecteren. Voor meer details, bekijk de **sectie van Montages** in de [ bar van het Lusje ](./web-editor-tab-bar.md).
 
 In het deelvenster Voorwaarden wordt de vlakke verticale structuur van de onderwerpdefinities in het onderwerpschema weergegeven.
 
@@ -943,7 +943,7 @@ Fragmenten zijn kleine inhoudsfragmenten die over verschillende onderwerpen in u
 >
 > De volgende schermafbeelding is van een gebruiker met beheerdersrechten. Als gebruiker met beheerdersrechten kunt u fragmenten toevoegen, bewerken en verwijderen. Anders krijgt u als normale auteur alleen de opties om een fragment voor te vertonen en in te voegen.
 
-![](images/snippets-panel_cs.png){width="800" align="left"}
+![](images/snippets-panel_cs.png){align="left"}
 
 Gebruik een van de volgende methoden om een fragment toe te voegen:
 
@@ -1008,7 +1008,7 @@ Met Experience Manager Guides kunt u variabelen maken en beheren voor publiceren
 
 Het pictogram Zoeken en vervangen bevindt zich onder aan het linkerdeelvenster. Met het deelvenster Zoeken en vervangen kunt u zoeken naar tekst in bestanden in een kaart of een map in uw opslagplaats en deze vervangen. U kunt in alle onderwerpen van een kaart evenals onderwerpen vinden en vervangen aanwezig in submaps binnen de kaart.
 
-![](images/map-find-replace.png){width="800" align="left"}
+![](images/map-find-replace.png){align="left"}
 
 Standaard kunt u de bestanden op titels weergeven. Terwijl u de cursor op een bestand plaatst, kunt u de bestandstitel en het bestandspad weergeven als knopinfo.
 
@@ -1111,7 +1111,7 @@ Voer de volgende stappen uit om de revisieopmerkingen weer te geven in de actiev
 1. U kunt ook de zoekterm of tekst invoeren die u wilt zoeken in de titel of het bestandspad van het onderwerp. De onderwerpen die de termijn in de titel of de dossierweg bevatten zijn vermeld.
 1. Dubbelklik op een onderwerp om het te openen in de weergave Ontwerpen. U kunt de commentaren in het **paneel van Commentaren** bekijken.
 
-   ![](images/active-review-task-comments.png){width="800" align="left"}
+   ![](images/active-review-task-comments.png){align="left"}
 
    >[!NOTE]
    > 

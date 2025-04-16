@@ -3,7 +3,8 @@ title: Werkbalk in Editor
 description: Krijg om de Toolbar in de Redacteur te kennen. Meer informatie over de Editor-interface en -functies in Adobe Experience Manager Guides.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 74f3e6933b711f855e5a07bb7909678da4254207
+exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
+source-git-commit: ffc9a9e15f11e7059822b7cf6d4707b83d15a4f4
 workflow-type: tm+mt
 source-wordcount: '5909'
 ht-degree: 0%
@@ -38,7 +39,7 @@ Wanneer het uitgeven van een onderwerp in de Redacteur, toegang tot de diverse h
 
 De **Vondst en vervangt** eigenschap is beschikbaar in Auteur en de meningswijzen van Source. Als deze optie is ingeschakeld, wordt de tekstbalk Zoeken en vervangen onder aan het bewerkingsgebied voor onderwerpen weergegeven. U kunt de kortere wegsleutels gebruiken **CTRL** + **F** om de Vondst aan te halen en bar te vervangen.
 
-![](images/find-replace-bar.png){width="800" align="left"}
+![](images/find-replace-bar.png){align="left"}
 
 Gebruikend het montagespictogram \ (![](images/settings-find-replace-icon.svg) \), kunt u **negeren geval** en **het Hele woord slechts** onderzoeksopties van een knevel voorzien. Om het case-insensitive onderzoek uit te voeren, zet \ (of selecteer \) **geval** optie negeren. Anders, als u het case-sensitive onderzoek wilt uitvoeren, draai \ (of schrap \) **negeren geval** optie. U kunt ook een heel woord zoeken.
 
@@ -56,7 +57,7 @@ De **geschiedeniseigenschap van de Versie** in de Redacteur staat u toe om de be
 
 
 <details>
-    <summary> Stappen voor toegang tot de versiegeschiedenis </summary>
+    <summary> Stappen om tot de geschiedenis van de Versie toegang te hebben </summary>
 
 
 1. Open een onderwerp in de Redacteur.
@@ -107,7 +108,7 @@ De **geschiedeniseigenschap van de Versie** in de Redacteur staat u toe om de be
 
    Wanneer u terugkeert naar een eerdere versie, wordt een visuele aanwijzing getoond die erop wijst dat de versie u momenteel werkt aan niet de recentste versie is.
 
-   ![](images/older-version-visual-cue.png){width="800" align="left"}
+   ![](images/older-version-visual-cue.png){align="left"}
 
 </details>
 
@@ -295,7 +296,7 @@ U kunt ook een teken of tekenreeks typen in het zoekvak en zoeken naar de elemen
 
 Als u in een blokelement werkt zoals een `note` , gebruikt u het pictogram Element invoegen om een nieuw element in te voegen na het `note` -element. In het volgende scherm is een notitie-element ingevoegd in het p \(alinea\)-element:
 
-![ het element van het Tussenvoegsel in een blokelement ](images/note-in-para-insert-element_cs.png){width="800" align="left"}
+![ het element van het Tussenvoegsel in een blokelement ](images/note-in-para-insert-element_cs.png){align="left"}
 
 Als u op Enter drukt in het notitie-element, wordt een nieuwe alinea gemaakt in het notitie-element zelf. Om een nieuw element buiten nota op te nemen, selecteer het p element \ (die in het schermafbeelding \) in de elementenbroodkruimel wordt benadrukt en selecteer dan het pictogram van het Element of druk ***Alt*** + ***gaat*** binnen om de het elementendialoogdoos van het Tussenvoegsel te openen. Selecteer vervolgens het gewenste element en druk op Enter om het geselecteerde element in te voegen na het notitie-element.
 
@@ -366,7 +367,7 @@ U kunt ook kenmerken definiëren voor meerdere cellen, hele rijen of kolommen in
 1. Selecteer in de vervolgkeuzelijst Waarde de gewenste tekstuitlijning die u wilt toepassen op de geselecteerde tabelcellen.
 1. Selecteer **toevoegen.**
 
-![](images/align-table-cell_cs.png){width="800" align="left"}
+![](images/align-table-cell_cs.png){align="left"}
 
 </details>
 
@@ -379,11 +380,11 @@ Hiermee voegt u een afbeelding in op de huidige of volgende geldige locatie. Sel
 > U kunt ook een afbeelding toevoegen door deze van uw lokale systeem naar uw artikel te slepen. In dit geval, wordt het beelddossier toegevoegd gebruikend **uploadt Assets** werkschema.  Voor meer details, bekijk **uploadt Assets** werkschema in de [ Linkerpaneel ](#left-panel) sectie.
 
 
-![](images/insert-image.png){width="650" align="left"}
+![](images/insert-image.png){width="300" align="left"}
 
 In het dialoogvenster Afbeelding invoegen kunt u een afbeelding/figuurtitel en Alternatieve tekst voor de afbeelding toevoegen.
 
->
+>[!NOTE]
 >
 > Wanneer u een afbeelding invoegt en een alternatieve tekst voor dezelfde afbeelding opgeeft, wordt deze binnen het element `<alt>` toegevoegd in overeenstemming met de meest recente DITA-standaarden. Het gebruik van het kenmerk `@alt` voor alternatieve tekst is afgekeurd, maar wordt wel ondersteund in eerdere DITA-versies.
 
@@ -391,7 +392,7 @@ Gebruikend de **Uitgezochte optie van het Dossier**, kunt u naar het vereiste be
 
 Nadat u een afbeelding hebt ingevoegd, kunt u de hoogte, breedte, plaatsing en kenmerken wijzigen in het deelvenster Eigenschappen voor inhoud. Selecteer het afbeeldingsbestand en breng wijzigingen aan in het deelvenster Eigenschappen voor inhoud in het rechterdeelvenster.
 
-![](images/image-properties.png){width="800" align="left"}
+![](images/image-properties.png){align="left"}
 
 In het veld Source wordt de UUID van het ingevoegde afbeeldingsbestand weergegeven. U kunt het volledige pad van het ingevoegde afbeeldingsbestand vinden door de muisaanwijzer boven het Source-veld te plaatsen. Het pad wordt weergegeven in de knopinfo.
 
@@ -468,7 +469,7 @@ U kunt ook zoeken met de UUID van het bestand waarnaar u wilt verwijzen. Voer bi
 
 Als uw beheerder de optie UUIDs in *XMLEditorConfig* heeft toegelaten, dan zult u UUID van de referenced inhoud in het **3} bezit van de Verbinding {bekijken.**
 
-![](images/ref-link-uuid_cs.png){width="800" align="left"}
+![](images/ref-link-uuid_cs.png){align="left"}
 
 >[!NOTE]
 >
@@ -523,7 +524,7 @@ Hiermee voegt u speciale tekens in het onderwerp in. Selecteer het pictogram Sym
 >
 > Experience Manager Guides biedt beweegbare en aanpasbare dialoogvensters. Dialoogvensters met twee kruislijnen in de rechterbenedenhoek kunnen worden vergroot of verkleind. De kruislijnen in het dialoogvenster Speciaal teken worden hieronder weergegeven.
 
-![](images/insert-special-char.png){width="550" align="left"}
+![](images/insert-special-char.png){width="350" align="left"}
 
 In het dialoogvenster Speciaal teken invoegen kunt u zoeken naar een speciaal teken met de naam ervan. Alle speciale tekens worden in verschillende categorieën opgeslagen. Gebruik de Uitgezochte drop-down lijst van de Categorie en selecteer een categorie. De speciale tekens die beschikbaar zijn in de geselecteerde categorie worden weergegeven. U kunt met de pijltoetsen door de lijst met speciale tekens navigeren of het gewenste teken selecteren dat u wilt invoegen. De naam en de hexadecimale code van het geselecteerde speciale teken worden onder de lijst weergegeven. Selecteer **Tussenvoegsel** om het geselecteerde karakter in uw document op te nemen.
 
@@ -543,7 +544,7 @@ U kunt de kenmerken van het trefwoord wijzigen of een nieuw kenmerk aan het tref
 
 **Fragmenten** - ![](images/insert-snippet-icon.svg)
 
-Voeg een fragment in op de huidige of volgende geldige locatie. Deze functie werkt alleen als in uw systeem fragmenten zijn gedefinieerd. Voor meer informatie over het toevoegen van een fragment, bekijk de **eigenschapbeschrijving van het Fragment** {in de [ Linkerpaneel ](web-editor-features.md#left-panel) sectie.
+Voeg een fragment in op de huidige of volgende geldige locatie. Deze functie werkt alleen als in uw systeem fragmenten zijn gedefinieerd. Voor meer informatie over het toevoegen van een fragment, bekijk de **eigenschapbeschrijving van het Fragment** {in de [ Linkerpaneel ](./web-editor-left-panel.md) sectie.
 
 Wanneer u de optie Fragmenten selecteert, wordt de catalogus Fragment invoegen weergegeven. De catalogus is contextgevoelig, wat aangeeft dat de fragmenten alleen worden weergegeven als ze op de huidige locatie zijn toegestaan.
 
@@ -571,12 +572,12 @@ De **informatie van de Versie &amp; sparen als nieuwe versie** eigenschap combin
 
   Het versieaantal verandert met elke nieuwe versie die voor het onderwerp of kaartdossier wordt gecreeerd. Als u aan een pas gecreeerd document werkt, wordt de versieinformatie getoond als **niets**.
 
-  ![](images/version-information.png){width="800" align="left"}
+  ![](images/version-information.png){align="left"}
 
 
 - **sparen als nieuwe versie** is een knoop die de veranderingen bewaart u in uw onderwerp hebt aangebracht en ook tot een nieuwe versie van uw onderwerp leidt.
 
-  ![](images/save-as-new-version.png){width="800" align="left"}
+  ![](images/save-as-new-version.png){align="left"}
 
 
 Wanneer u verkiest om een onderwerp of kaart te bewaren gebruikend **sparen als nieuwe versie**, verschijnt de volgende dialoogdoos:
@@ -597,7 +598,7 @@ Als uw onderwerp wordt gecontroleerd, zullen uw recensenten een bericht krijgen 
 
 Wanneer u de aanwijzer boven de titel van een onderwerp plaatst, ziet u de bestandstitel, het bestandspad en het versienummer.
 
-![](images/mouse-hover-on-title_cs.png){width="800" align="left"}
+![](images/mouse-hover-on-title_cs.png){align="left"}
 
 >[!NOTE]
 >
@@ -607,7 +608,7 @@ Wanneer u de aanwijzer boven de titel van een onderwerp plaatst, ziet u de besta
 
 Hiermee vergrendelt of ontgrendelt u het huidige bestand. Door een bestand te vergrendelen hebt u exclusief schrijftoegang tot het bestand. Hierdoor kunnen andere gebruikers het bestand niet bewerken. Ontgrendel het bestand als u wilt dat anderen bewerkingstoegang hebben. Wanneer het bestand wordt ontgrendeld, worden de wijzigingen opgeslagen in de huidige versie van het bestand.
 
-![](images/web-editor-lock-button.png){width="800" align="left"}
+![](images/web-editor-lock-button.png){align="left"}
 
 Als u in de Kaartweergave werkt en de bovenliggende kaart uitvouwt, kunt u met één klik alle bestanden op de kaart vergrendelen. Vouw gewoon het bovenliggende kaartbestand uit en selecteer het bovenliggende bestand. Dit betekent dat u alle bestanden in de kaart selecteert. Dan kunt u **Slot** ![](images/LockClosed_icon.svg) selecteren om het slot op alle dossiers binnen de kaart te krijgen.
 
