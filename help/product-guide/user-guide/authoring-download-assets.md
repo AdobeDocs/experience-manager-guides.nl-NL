@@ -4,7 +4,7 @@ description: Leer hoe u bestanden downloadt van de DITA-kaartconsole in AEM Guid
 exl-id: ae9eb355-d3ac-446a-958b-5f2da43f5533
 feature: Content Management
 role: User
-source-git-commit: f3858b1694837c7a3fa7bb222ed8ff31ce7103f8
+source-git-commit: 632b253a36822b4b5b93766153f0fc3a1116b616
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 0%
@@ -36,7 +36,10 @@ Voer de volgende stappen uit om een DITA kaartdossier samen met zijn afhankelijk
 1. Selecteer **Download**. In het dialoogvenster Kaart downloaden kunt u de volgende opties kiezen:
 
    - **Basislijn van het Gebruik**: Selecteer deze optie om een lijst van Basislijnen te krijgen die voor de kaart DITA worden gecreeerd. Als u het kaartbestand en de inhoud ervan wilt downloaden op basis van een specifieke basislijn, selecteert u de basislijn in de vervolgkeuzelijst. Voor meer details over het werken met Basislijnen, mening [ Werk met Basislijn ](generate-output-use-baseline-for-publishing.md#).
+
    - **de Hiërarchie van het Dossier van de Afvlakking**: Selecteer deze optie om alle referenced onderwerpen en media dossiers in één enkele omslag te bewaren.
+
+
    >[!NOTE]
    >
    > U kunt het kaartbestand ook downloaden zonder een optie te selecteren. In dat geval wordt de laatste voortgezette versie van de onderwerpen waarnaar wordt verwezen en de mediabestanden gedownload.

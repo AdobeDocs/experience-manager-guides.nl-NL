@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lees de productdocumentatie voor Adobe Experience Manager Guides.
 breadcrumb-title: Documentatie voor AEM Guides
-source-git-commit: 9e84617dcfc8bf596bdf0863883284b660cde2f1
+source-git-commit: b78a34430476c15cadacb23d65bd978b3c25bd23
 workflow-type: tm+mt
-source-wordcount: '2089'
+source-wordcount: '2098'
 ht-degree: 2%
 
 ---
@@ -16,33 +16,37 @@ ht-degree: 2%
 - [Disclaimer](./user-guide/rebranding-disclaimer.md)
 - Gegevens vrijgeven {#release-info}
    - [AEM Guides-versie](./release-info/aem-guides-releases-roadmap.md)
-   - Opmerkingen bij de release {#release-notes}
+   - Release-opmerkingen {#release-notes}
       - Cloud Services {#cloud-release-notes}
          - [Implementatieinstructies](./release-info/deploy-xml-on-aemaacs.md)
          - Versies van 2025 {#2025-releases}
-            - Release 2025.02.0 {#2502-release}
+            - 2025.04.0 Release {#2504-release}
+               - [Nieuwe functies](./release-info/whats-new-2025-04-0.md)
+               - [Opgeloste problemen](./release-info/fixed-issues-2025-04-0.md)
+               - [Upgradeinstructies](./release-info/upgrade-instructions-2025-04-0.md)
+            - 2025.02.0 Release {#2502-release}
                - [Nieuwe functies](./release-info/whats-new-2025-02-0.md)
                - [Opgeloste problemen](./release-info/fixed-issues-2025-02-0.md)
                - [Upgradeinstructies](./release-info/upgrade-instructions-2025-02-0.md)
          - Versies van 2024 {#2024-releases}
-            - Release 2024.12.0 {#2412-release}
+            - 2024.12.0 Release {#2412-release}
                - [Opgeloste problemen](./release-info/fixed-issues-2024-12-0.md)
                - [Upgradeinstructies](./release-info/upgrade-instructions-2024-12-0.md)
-            - 2024.10.0 SP1 Release {#2410-0-sp1-release}
+            - 2024.10.0 SP1-release {#2410-0-sp1-release}
                - [Opgeloste problemen](./release-info/fixed-issues-2024-10-0-sp1.md)
-            - Release 2024.10.0 {#2410-0-release}
+            - 2024.10.0 Release {#2410-0-release}
                - [Nieuwe functies](./release-info/whats-new-2024-10-0.md)
                - [Opgeloste problemen](./release-info/fixed-issues-2024-10-0.md)
                - [Upgradeinstructies](./release-info/upgrade-instructions-2024-10-0.md)
-            - Release 2024.6.0 {#2406-release}
+            - 2024.6.0 Release {#2406-release}
                - [Nieuwe functies](./release-info/whats-new-2024-06-0.md)
                - [Opgeloste problemen](./release-info/fixed-issues-2024-06-0.md)
                - [Upgradeinstructies](./release-info/upgrade-instructions-2024-06-0.md)
-            - Release 2024.4.0 {#2404-release}
+            - 2024.4.0 Release {#2404-release}
                - [Nieuwe functies](./release-info/whats-new-2024-04-0.md)
                - [Opgeloste problemen](./release-info/fixed-issues-2024-04-0.md)
                - [Upgradeinstructies](./release-info/upgrade-instructions-2024-04-0.md)
-            - Release 2024.2.0 {#2402-release}
+            - 2024.2.0 Release {#2402-release}
                - [Nieuwe functies](./release-info/whats-new-2024-2-0.md)
                - [Opgeloste problemen](./release-info/fixed-issues-2024-2-0.md)
                - [Upgradeinstructies](./release-info/upgrade-instructions-2024-2-0.md)
@@ -93,10 +97,10 @@ ht-degree: 2%
          - 4.6.0 SP4-release {#460-sp4-release}
             - [ Vaste kwesties ](./release-info/fixed-issues-4-6-0-sp4.md)
             - [Upgradeinstructies](./release-info/upgrade-instructions-4-6-0-sp4.md)
-         - 4.6.0 SP3-release {#460-sp3-release}
+         - 4.6.0 SP3 Release {#460-sp3-release}
             - [ Vaste kwesties ](./release-info/fixed-issues-4-6-0-sp2.md)
             - [Upgradeinstructies](./release-info/upgrade-instructions-4-6-0-sp2.md)
-         - 4.6.0 SP1 Release {#460-sp1-release}
+         - 4.6.0 SP1-release {#460-sp1-release}
             - [ Vaste kwesties ](./release-info/fixed-issues-4-6-0-sp1.md)
             - [ de instructies van de Verbetering ](./release-info/upgrade-instructions-4-6-0-sp1.md)
          - 4.6.0 Release {#460-release}
@@ -130,10 +134,10 @@ ht-degree: 2%
 - Handboek (nieuwe gebruikersinterface) {#user-guide}
    - Inleiding {#about-aemg}
       - [Info  [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
-      - [!DNL AEM Guides] Werken en Belangrijke functies {#aemg-works-features}
+      - [!DNL AEM Guides] werken en belangrijke functies {#aemg-works-features}
          - [Hoe  [!DNL AEM Guides]  werkt](./user-guide/intro-how-dxml-works.md)
          - [Belangrijke  [!DNL AEM Guides]  eigenschappen](./user-guide/intro-dxml-features.md)
-   - Startpagina {#home-page}
+   - Homepage {#home-page}
       - [[!DNL AEM Guides] Introductiepagina](./user-guide/intro-home-page.md)
    - Inhoud auteur {#author-content}
       - [Overzicht van ontwerpen](./user-guide/authoring-content.md)
@@ -147,7 +151,7 @@ ht-degree: 2%
             - [Onderwerpen maken](./user-guide/web-editor-create-topics.md)
             - [Een voorvertoning van een onderwerp weergeven](./user-guide/web-editor-preview-topics.md)
          - [De functies van de Editor leren kennen](./user-guide/web-editor-features.md)
-         - De Editor-interface en -functies kennen {#editor-interface-features}
+         - De interface en functies van de Editor kennen {#editor-interface-features}
             - [Kopbalk](./user-guide/web-editor-header-bar.md)
             - [Tabbalk](./user-guide/web-editor-tab-bar.md)
             - [Werkbalk](./user-guide/web-editor-toolbar.md)
@@ -190,7 +194,7 @@ ht-degree: 2%
       - [Werken met metagegevens in AEM](./user-guide/metadata-dita.md)
       - [Slimme tags toepassen](./user-guide/web-editor-smart-tagging.md)
       - [Labels in bulk voor DITA-inhoud](./user-guide/map-editor-bulk-tagging.md)
-   - Kaartbeheer en publicaties {#map-management-publishing}
+   - Kaartbeheer en publicatie {#map-management-publishing}
       - [Overzicht van kaartconsole](./user-guide/map-console-overview.md)
       - [Bestanden openen in kaartconsole](./user-guide/open-files-map-console.md)
       - Rapporten {#reports-aem-guide}
@@ -208,7 +212,7 @@ ht-degree: 2%
          - [Gewijzigde onderwerpen vertalen](./user-guide/translation-modified-topics-6234.md)
       - Uitvoergeneratie {#output-gen}
          - [Grondbeginselen van het genereren van uitvoer](./user-guide/generate-output.md)
-         - Voorinstellingen uitvoer in AEM Guides {#output-presets-aemg}
+         - Uitvoervoorinstellingen in AEM Guides {#output-presets-aemg}
             - [Inleiding tot uitvoervoorinstellingen](./user-guide/generate-output-understand-presets.md)
             - AEM Sites {#aem-sites}
                - [AEM Sites-voorinstelling in de kaartconsole](./user-guide/generate-output-aem-site-web-editor.md)
@@ -273,7 +277,7 @@ ht-degree: 2%
          - [Bestanden en mappen beheren](./user-guide/authoring-file-management.md)
          - [Bestanden downloaden](./user-guide/authoring-download-assets.md)
 - Handboek (oude gebruikersinterface) {#user-guide-old-ui}
-   - [ overzicht van AEM Guides ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview) {target="_blank"}
+   - [ overzicht van AEM Guides ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installatie en configuratie {#install-guide}
    - Op locatie {#on-prem-ig}
       - [Basisbegrippen op locatie](./install-guide/introduction.md)
@@ -289,7 +293,7 @@ ht-degree: 2%
          - [Aanbevelingen voor optimalisatie van prestaties](./install-guide/download-install-recommend-perf-optimiz.md)
       - Werken met gebruikersgroepen en beveiliging {#user-group-sec}
          - [Beheer en beveiliging van gebruikers](./install-guide/user-admin-sec.md)
-      - Inhoud migreren {#content-migration}
+      - Contentmigratie {#content-migration}
          - [Migratie van niet-UUID naar UUID-inhoud](./install-guide/migrate-uuid-non-uuid.md)
          - Migratieproces {#migration-process}
             - [Niet-UUID-inhoud migreren met versies](./install-guide/migrate-non-uuid-uuid.md)
@@ -363,7 +367,7 @@ ht-degree: 2%
          - [Workflows configureren en aanpassen](./install-guide/customize-workflows.md)
       - Werken met vertaalconfiguraties {#translate-config}
          - [Inhoud vertalen](./install-guide/translation.md)
-      - Werken met zoeken op AEM Assets {#aem-asset-search}
+      - Werken met AEM Assets-zoekopdracht {#aem-asset-search}
          - [Zoeken naar gebruikersinterface van AEM Assets configureren](./install-guide/conf-dita-search.md)
       - [Bijlage](./install-guide/appendix.md)
    - Cloud Services {#cs-ig}
@@ -441,10 +445,10 @@ ht-degree: 2%
          - [Workflows configureren en aanpassen](./cs-install-guide/customize-workflows.md)
       - Werken met vertaalconfiguraties {#translate-config-cs}
          - [Inhoud vertalen](./cs-install-guide/translation.md)
-      - Werken met zoeken op AEM Assets {#aem-asset-search-cs}
+      - Werken met AEM Assets-zoekopdracht {#aem-asset-search-cs}
          - [Zoeken naar gebruikersinterface van AEM Assets configureren](./cs-install-guide/conf-dita-search.md)
       - [Bijlage](./cs-install-guide/appendix.md)
-- API-naslaggids {#api-reference}
+- API-naslag {#api-reference}
    - [Inleiding](./api-reference/introduction.md)
    - [REST API&#39;s voor uitvoerbeheer](./api-reference/output-management.md)
    - [REST API voor werken met DITA-kaarten](./api-reference/dita-map-management.md)
@@ -462,7 +466,7 @@ ht-degree: 2%
    - [Bulkactivering voltooid, gebeurtenishandler](./api-reference/bulk-activation-complete-event.md)
    - [Omzetproces, gebeurtenishandler](./api-reference/conversion-complete-event.md)
 - Kennisbank {#knowledge-base}
-   - Professionele sessie {#expert-session}
+   - Expertsessie {#expert-session}
       - [Overzicht van de sessie met experts](./knowledge-base/expert-sessions/expert-session.md)
       - [Inhoud vertalen](./knowledge-base/expert-sessions/translating-content-using-aem-guides-oct22.md)
       - [Inhoud beheren met behulp van basislijnen](./knowledge-base/expert-sessions/baselines-dec22.md)
@@ -486,7 +490,7 @@ ht-degree: 2%
          - Webeditor {#webeditor}
             - [Opnieuw gebruiken van inhoud in AEM Guides](./knowledge-base/kb-articles/authoring/webeditor/content-reusability-in-aem-guides.md)
             - [Markering gebruiken in AEM Guides](./knowledge-base/kb-articles/authoring/webeditor/markdown-in-dita-and-aem-guides.md)
-            - {#customizing} aanpassen
+            - Aanpassen {#customizing}
                - [Aangepaste knop toevoegen aan werkbalk](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md)
                - [Aangepaste stijlen toevoegen aan de webeditor](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
                - [Contextmenu Map aanpassen](./knowledge-base/kb-articles/authoring/webeditor/customization/hide-create-ditamap-webeditor.md)
@@ -496,11 +500,11 @@ ht-degree: 2%
          - Rapporten {#reports}
             - [Metagegevens voor uw DITA-inhoud beheren](./knowledge-base/kb-articles/authoring/reports/manage-metadata.md)
          - [Pictogram definiëren voor aangepaste bewerkingstypen](./knowledge-base/kb-articles/authoring/define-icon-for-custom-ditatypes.md)
-      - Hulplijnen, extensieframework {#extention-framework}
+      - Extensiekader voor hulplijnen {#extention-framework}
          - Aem Guides Framework {#aem-guides-framework}
             - [Basisaanpassingen](./guides-ui-extensions/aem_guides_framework/basic-customisation.md)
             - [JUI Framework](./guides-ui-extensions/aem_guides_framework/jui-framework.md)
-            - Componenten {#framework-components}
+            - Onderdelen {#framework-components}
                - [Knop](./guides-ui-extensions/aem_guides_framework/components/button.md)
                - [Pictogram](./guides-ui-extensions/aem_guides_framework/components/icon.md)
                - [Label](./guides-ui-extensions/aem_guides_framework/components/label.md)
@@ -519,7 +523,7 @@ ht-degree: 2%
             - [Werkbalk en werkbalk aanpassen](./guides-ui-extensions/customisations/toolbar-topbar.md)
             - [Voorbeelden](./guides-ui-extensions/examples.md)
             - [Aanpasbare zonen](./guides-ui-extensions/jsons.md)
-            - Revisie {#review-app-customisations}
+            - Controleren{#review-app-customisations}
                - [Onderdelen](./guides-ui-extensions/customisations/ReviewApp/components.md)
                - [Aanpassen](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
                - [Aangepast dialoogvenster](./guides-ui-extensions/customisations/ReviewApp/custom-dialog.md)

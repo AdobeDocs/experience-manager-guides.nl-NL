@@ -4,9 +4,9 @@ description: Inhoud beheren en uw rollen en machtigingen in AEM Guides identific
 exl-id: 84926dc2-1180-48ef-85d0-50e3478bf26a
 feature: Content Management
 role: User
-source-git-commit: 99e42091490b28b5d5ee73472a7655e3feeafd25
+source-git-commit: 461692ce786f914dd196f289efef726e42bf9660
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
@@ -88,15 +88,3 @@ De volgende lijst maakt een lijst van diverse taken en de groepen die die taken 
 [ 1 ](#fnsrc_1) als *Auteurs* en *Uitgevers* voor een overzicht worden uitgenodigd.
 
 [ 2 ](#fnsrc_2) afhankelijk van de rechten die aan de gebruiker in het profiel van de documentstaat worden gegeven.
-
-## Voorwaarden voor het ontwerpen van inhoud
-
-**Werk met globale of omslag-vlakke profielen**
-
-In een onderneming, kunnen de verschillende groepen of de producten verschillende auteursmalplaatjes, outputmalplaatjes, voorwaardelijke attributenprofielen \ (of onderwerpregelingen \), en de configuraties van de Redacteur van het Web gebruiken. Als u deze alleen op ondernemingsniveau \(of algemeen\) configureert, kunnen auteurs problemen ondervinden omdat ze sjablonen of profielen bekijken die voor hen niet relevant zijn.
-
-Met Experience Manager Guides kunt u ontwerpsjablonen \(onderwerp of kaart\), uitvoersjablonen, voorwaardelijke kenmerken en webeditorconfiguraties op ondernemingsniveau en op mapniveau configureren. Op deze manier kunt u de configuraties voor verschillende afdelingen of producten in uw onderneming van elkaar scheiden.
-
-Ook, kunt u de omslag-specifieke configuraties aan een afdeling of productbeheerders delegeren om het beleid te decentraliseren.
-
-Voor details bij vestiging globale en omslag-vlakke profielen, mening *vorm globale of omslag-vlakke profielen* in installeer en vorm Adobe Experience Manager Guides as a Cloud Service.

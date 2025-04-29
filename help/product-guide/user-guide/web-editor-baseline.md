@@ -4,9 +4,9 @@ description: Basislijnen maken en beheren met de kaartconsole in Adobe Experienc
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
+source-git-commit: 154d4cb2c4c51581590048e1d368f4c744402847
 workflow-type: tm+mt
-source-wordcount: '1815'
+source-wordcount: '1831'
 ht-degree: 0%
 
 ---
@@ -137,7 +137,7 @@ U kunt een basislijn dupliceren en deze aanpassen aan uw vereisten.
   > Het toevoegen of verwijderen van labels gebeurt asynchroon, zodat u aan andere bestanden kunt blijven werken. Nadat het label is toegevoegd of verwijderd, wordt een pop-upbericht weergegeven met de bevestiging dat het label is toegevoegd of verwijderd. U ontvangt ook een melding in het Postvak IN.
 
 - **geeft eigenschappen** van een bestaande statische basislijn uit die u terwijl het creëren van de basislijn hebt geplaatst.
-- Exporteer de momentopname van een basislijn in een dossier van Microsoft Excel met de **optie van de Basislijn van de Uitvoer**.
+- **de optie van de Basislijn van de Uitvoer** voert een momentopname van de basislijn in het dossier van Microsoft Excel, met inbegrip van alle essentiële details zoals titel, dossiernaam, dossiertype, versieaantal, documentstaat, en andere relevante informatie uit.
 
 
 ### Lijst met labels {#labels-list}

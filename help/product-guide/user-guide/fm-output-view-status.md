@@ -4,22 +4,22 @@ description: De wachtrij voor het genereren van uitvoer van FrameMaker-documente
 exl-id: c358f747-f0a5-4d9e-a96f-20f30663101f
 feature: Publishing FrameMaker Documents
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: b78a34430476c15cadacb23d65bd978b3c25bd23
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
 
 # De status van de uitvoergeneratietaak weergeven {#viewing_output_history}
 
-Als u de uitvoergeneratietaak voor een FrameMaker-document hebt gestart, stuurt AEM Guides deze taak naar de wachtrij met uitvoergeneratie. Deze rij wordt bijgewerkt in echt - tijd, die de status van elke taak van de outputgeneratie in de rij toont.
+Als u de uitvoergeneratietaak voor een FrameMaker-document hebt gestart, stuurt Adobe Experience Manager Guides deze taak naar de wachtrij met uitvoergeneratie. Deze rij wordt bijgewerkt in echt - tijd, die de status van elke taak van de outputgeneratie in de rij toont.
 
 Voer de volgende stappen uit om de rij van de outputgeneratie te bekijken:
 
-1. Navigeer in de gebruikersinterface van Assets naar het FrameMaker-document waarvoor u de status van de uitvoergeneratie wilt controleren.
+1. In Assets UI, navigeer aan en selecteer het document van FrameMaker waarvoor u de status van de outputgeneratie wilt controleren.
 
-1. Klik op Uitvoer.
+1. Selecteer Uitvoer.
 
    ![](images/output-queued-fm.png){align="left"}
 
@@ -33,7 +33,7 @@ Voer de volgende stappen uit om de rij van de outputgeneratie te bekijken:
 
      Hiermee geeft u de uitvoertaken weer die zijn voltooid. Nogmaals, is de informatie die in dit wordt getoond gelijkaardig aan de Grij gevormde sectie van Output, met het enige verschil van de tijd van de outputproductie.
 
-     In deze lijst kunt u taken uitvoeren die zijn uitgevoerd of taken die zijn mislukt. Voor de taken die met succes zijn voltooid, maakt het publicatieproces een logbestand \(logs.txt\) dat kan worden geopend door op de koppeling in de kolom Gegenereerd bij te klikken.
+     In deze lijst kunt u taken uitvoeren die zijn uitgevoerd of taken die zijn mislukt. Voor de taken die met succes zijn voltooid, maakt het publicatieproces een logbestand \(logs.txt\) dat kan worden geopend door de koppeling te selecteren in de kolom Gegenereerd bij.
 
 
 **Bovenliggend onderwerp:**[ produceer output van de documenten van FrameMaker ](fm-output-generatation.md)

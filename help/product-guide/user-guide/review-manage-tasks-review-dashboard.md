@@ -4,9 +4,9 @@ description: Revisietaken beheren via het revisiedashboard in AEM Guides. Leer d
 exl-id: 4fef5653-1c73-4b68-adf2-b24145555142
 feature: Reviewing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 717d300c6e879bad573f67e3eb91dd266ab203c6
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '1312'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,8 @@ U kunt de volgende acties onder de **Taak** tabel uitvoeren:
 - Wijzig **Verschuldigde Datum**. U kunt de deadline voor het voltooien van de taak voorbereiden of uitstellen.
 - Selecteer de optie om gebruikers te beperken tot het bekijken van alleen die onderwerpen die aan hen zijn toegewezen.
 - Selecteer **Update** om de gewijzigde details bij te werken.
+
+  Er wordt een pop-upbericht weergegeven om te bevestigen of de update is gelukt of niet.
 - Selecteer **Voltooid** om de overzichtstaak te merken zoals volledig vóór de vervaldatum. Wanneer de taak van een individueel onderwerp als Voltooid wordt duidelijk, wordt de overzicht van het geselecteerde onderwerp gesloten. Nochtans, in het geval van onderwerpen die voor overzicht door een kaart DITA worden gedeeld, zal het merken van de DITA kaarttaak als Voltooid de overzicht van alle onderwerpen binnen de kaart sluiten die voor overzicht werden gedeeld.
 - Selecteer **Dupliceer** om een exemplaar van de overzichtstaak tot stand te brengen. Het maken van een dubbele revisietaak lijkt op het maken van een nieuwe revisietaak. Zodra u de gedupliceerde taakwerkstroom start, wordt de pagina Revisietaak maken weergegeven. U moet de nieuwe taakdetails verstrekken zoals die in [ worden verklaard verzendt onderwerpen voor overzicht ](review-send-topics-for-review.md#).
 

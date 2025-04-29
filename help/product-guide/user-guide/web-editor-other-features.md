@@ -4,9 +4,9 @@ description: Andere functies van de Editor in Adobe Experience Manager Guides ve
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 9e84617dcfc8bf596bdf0863883284b660cde2f1
+source-git-commit: c8ea6eae180ce7045a0364713604711aae2bb6bd
 workflow-type: tm+mt
-source-wordcount: '2399'
+source-wordcount: '2556'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 In de Editor kunt u een aantal andere nuttige functies gebruiken:
 
-**het menufuncties van de context op het lusje van een dossier**
+## Contextmenufuncties op het tabblad van een bestand
 
 Wanneer u een bestand opent in de Editor, kunt u verschillende handelingen uitvoeren in het contextmenu. U kunt verschillende opties bekijken afhankelijk van of u een mediabestand, één DITA-bestand of meerdere bestanden opent.
 
@@ -142,19 +142,21 @@ De Editor biedt een dialoogvenster voor het bladeren van slimme bestanden. De ed
 >
 > In het geval van een afbeeldings-, audio- of videobestand bladert het dialoogvenster naar de standaardlocatie van het bestand en niet naar de laatst gebruikte locatie.
 
-**Steun voor op artikel-gebaseerde het publiceren**
+## Ondersteuning voor op artikelen gebaseerde publicaties
 
 Van de Redacteur, kunt u de output voor één of meerdere onderwerpen, of de volledige kaart produceren DITA. U moet outputvoorinstellingen voor uw kaart creëren DITA en dan kunt u de output voor één of meerdere onderwerpen gemakkelijk produceren. Als u een paar onderwerpen in uw kaart hebt bijgewerkt, kunt u de output slechts voor die onderwerpen van de Redacteur ook produceren. Voor meer details, mening [ op artikel-gebaseerde het publiceren ](web-editor-article-publishing.md#id218CK0U019I).
 
-**Steun voor de documenten van de Prijsverhoging**
+## Ondersteuning voor opmaakdocumenten
 
 In de Editor kunt u Markeringen gebruiken voor documenten \(.md\) samen met uw DITA-documenten. U kunt een document van de Prijsverhoging in de Redacteur gemakkelijk ontwerpen en voorproef en het ook toevoegen in uw kaartdossier door de DITA kaartredacteur. Voor meer details, bekijk [ documenten van de Prijsverhoging van de Auteur van de Redacteur ](web-editor-markdown-topic.md#).
 
-**Steun voor DITA verklarende woordenlijstterm onderwerp**
+## Steun voor DITA verklarende woordenlijstterm onderwerp
 
 De Editor ondersteunt verklarende woordenlijsten die u kunt invoegen door `term` - of `abbreviated-form` -elementen toe te voegen.
 
-**de vergelijkingen van MathML van het Tussenvoegsel**
+## Werken met MathML-vergelijkingen
+
+### MathML-vergelijkingen invoegen
 
 Experience Manager Guides geeft u een out-of-the-box steun voor het opnemen van de vergelijkingen van MathML door integratie met ](https://docs.wiris.com/en/mathtype/mathtype_web/intro) toepassing van het Web MathType [. Om een vergelijking van MathML op te nemen, selecteer het **pictogram van het Element** en type mathml. Wanneer u mathml element van de lijst selecteert, wordt de **dialoog van MathML van het Tussenvoegsel** getoond:
 
@@ -164,22 +166,22 @@ Gebruikend de de vergelijkingshulpmiddelen van MathML, creeer uw vergelijking en
 
 Op elk ogenblik kunt u een vergelijking bijwerken door op een bestaande vergelijking met de rechtermuisknop te klikken en **te selecteren geeft MathML** van het contextmenu uit.
 
-- **Bevestiging van vergelijkingen in de redacteur van MathML**
+### Validatie van vergelijkingen in de MathML-editor
 
-  Experience Manager Guides valideert MathML-vergelijkingen wanneer u een onderwerp opslaat dat ze bevat.
+Experience Manager Guides valideert MathML-vergelijkingen wanneer u een onderwerp opslaat dat ze bevat.
 Als u een vergelijking invoegt met de MathML-editor, wordt de vergelijking rood gemarkeerd als er syntaxisproblemen zijn. U kunt dit corrigeren voordat u het invoegt. Als u geen veranderingen aanbrengt maar **uitgezocht Tussenvoegsel** selecteert, toont het een waarschuwing.
 
-  ![ bevestigt mathml vergelijking ](images/validate-mathml-equation.png){width="400" align="left"}
+![ bevestigt mathml vergelijking ](images/validate-mathml-equation.png){width="400" align="left"}
 
-  Als u de vergelijking van MathML opneemt die een syntaxisfout bevat, komt een bevestigingsfout voor wanneer u probeert om het onderwerp op te slaan.
+Als u de vergelijking van MathML opneemt die een syntaxisfout bevat, komt een bevestigingsfout voor wanneer u probeert om het onderwerp op te slaan.
 
 
-**neem voetnoten** op
+## Voetnoten invoegen
 
 Voeg voetnoot in uw inhoud in met behulp van het element `fn` . In de ontwerpmodus wordt de voetnootwaarde inline weergegeven met de inhoud. Wanneer u echter van de modus Voorvertoning overschakelt of uw document publiceert, wordt de voetnoot aan het einde van het onderwerp weergegeven.
 
 
-**noem of vervang een element** anders
+## Een element hernoemen of vervangen
 
 De redacteur toont de broodkruimel van het element bij de bodem-linkerzijde van het onderwerp. Als u een element wilt omwisselen of vervangen door een ander element, kunt u dit doen via het contextmenu van de broodkruimel. U kunt `p` -element bijvoorbeeld omwisselen met `note` of een ander geldig element in de context.
 
@@ -195,9 +197,9 @@ Naast het contextmenu van de broodkruimel, kan het anders noemen de dialoog van 
 
 - U kunt het dialoogvenster Naam van element wijzigen openen door het menu Opties van een element in het deelvenster Overzicht aan te roepen.
 
+## Een element omsluiten en de omloop ervan opheffen
 
-
-**verpakt een element**
+### Een element laten omlopen
 
 - Door een element te laten omlopen, kunt u een elementtag toevoegen aan de geselecteerde tekst. U kunt de tekst naar elk onderliggend element laten lopen volgens de DITA-standaarden. Als u bijvoorbeeld tekst onder een `note` -element hebt, kunt u de tekst laten omlopen in een `p` -element.
 
@@ -205,11 +207,11 @@ Naast het contextmenu van de broodkruimel, kan het anders noemen de dialoog van 
 
 - U kunt de tekst of het element in de inhoud ook selecteren en dan de **optie van het Element van de Omslag** van het contextmenu selecteren.
 
-**Unwrap een element**
+### Een element opheffen
 
 Als u een element loskoppelt, kunt u de elementtag verwijderen uit de geselecteerde tekst en deze samenvoegen met het bovenliggende element. Als u bijvoorbeeld een element `p` in een element `note` hebt, kunt u het element `p` opheffen om de tekst direct in het element `note` samen te voegen. De **optie van het Element van de Omslag** is beschikbaar in het contextmenu van de broodkruimel van het onderwerp. Om een element, met de rechtermuisknop aan te sluiten klik op het element om het contextmenu te openen, dan selecteer definitief **Element van de Terugloop** om het element te verwijderen en de tekst van het element met zijn ouderelement samen te voegen.
 
-**Witruimte behandeling voor elementen DITA**
+## Witruimte-verwerking voor DITA-elementen
 
 In XML omvatten witruimten spaties, tabs, regeleinden en lege regels. Experience Manager Guides converteert meerdere overeenkomende witruimten naar één spatie. Zo kunt u de WYSIWYG-weergave van de Editor behouden.
 
@@ -218,7 +220,7 @@ In XML omvatten witruimten spaties, tabs, regeleinden en lege regels. Experience
 > In sommige elementen waar witruimten moeten worden behouden volgens de DITA-regels, blijven de verschillende witruimten die daaruit voortvloeien behouden. Bijvoorbeeld `<pre>` en `<codeblock>` -elementen.
 
 
-**het Behouden van lijnonderbrekingen en inkeping**
+## Regeleinden en inspringing behouden
 
 DITA-elementen die regeleinde en spaties bevatten, worden ondersteund en weergegeven volgens hun definitie in de modus Auteur, Source of Voorvertoning en ook in de uiteindelijke gepubliceerde uitvoer. In de volgende schermafbeelding ziet u de inhoud binnen het element `msgblock` waarin de regeleinden en spaties \(inspringing\) zijn behouden:
 
@@ -226,7 +228,7 @@ DITA-elementen die regeleinde en spaties bevatten, worden ondersteund en weergeg
 
 
 
-**Behandelend vaste ruimten in Redacteur**
+## Afhandeling van vaste spaties in de Editor
 
 - U kunt vaste ruimten in uw document opnemen gebruikend het **Symobol** ![](images/symbol-icon.svg) pictogram of **Alt** + **de kortere wegsleutels van de Ruimte**.  Deze vaste spaties worden weergegeven als een indicator terwijl u een onderwerp bewerkt in de Editor. U kunt de vertoning van de vaste ruimten met **tonen niet-breekruimtemindicator op de auteurswijze** optie van de **Verschijning** tabel van [ de voorkeur van de Gebruiker ](./intro-home-page.md#user-preferences) uitzetten.
 
@@ -234,7 +236,7 @@ DITA-elementen die regeleinde en spaties bevatten, worden ondersteund en weergeg
 Nochtans, als u inhoud met een vaste ruimte van de **auteur** mening kopieert en kleeft, wordt het bewaard.
 
 
-**auto-produceerde elementidentiteitskaart**
+## Element-id automatisch genereren
 
 U kunt automatisch IDs voor de elementen in uw DITA onderwerp produceren. Deze IDs is uniek binnen een onderwerp DITA. Als u bijvoorbeeld id&#39;s voor een alinea-element genereert, zijn de id&#39;s p\_1, p2, p\_3 enzovoort. U kunt meerdere elementen selecteren en id&#39;s genereren voor elk geselecteerd element.
 
@@ -246,5 +248,24 @@ Ga als volgt te werk om automatisch een id voor een of meerdere elementen te gen
 
    Alternatief kunt u in breadcrumb met de rechtermuisknop klikken en **selecteren produceert IDs**.
 
+
+
+## Grote bestanden verwerken in de Editor
+
+De belangrijkste kenmerken voor een betere afhandeling van grote bestanden zijn als volgt:
+
+- Voor betere prestaties zijn bepaalde functies, zoals Ongedaan maken, Opnieuw, het deelvenster Omtrek en de vuile markering uitgeschakeld. Voor een optimale ervaring verdient het aanbeveling om onderwerpen in kleinere onderwerpen te verdelen.
+
+- Bovenaan wordt een waarschuwingsbericht voor grote bestanden weergegeven, zoals in het onderstaande fragment wordt getoond. Dit alarm benadrukt het aantal elementen die op de waarde worden gebaseerd die in de **wordt gespecificeerd largeFileTagCount** parameter van het bestand uiconfig.json. Door gebrek, **largeFileTagCount** wordt geplaatst aan 2500.
+
+![](images/add-toast-notification.png){width="600" align="left"}
+
+
+- Bovendien wordt het aantal tags weergegeven op de onderste balk van de interface. Als u de muisaanwijzer boven deze tellingswaarde voor tags plaatst, wordt knopinfo weergegeven. Selecterend **leer meer** lusje meer details over de behandeling van grote dossiers.
+
+![](images/add-toast-tag-count.png){width="600" align="left"}
+
+
+- Het waarschuwingsbericht is alleen beschikbaar voor DITA-bestanden en is in alle weergaven zichtbaar: Auteur, Source en Layout.
 
 **Bovenliggend onderwerp:**[ Inleiding aan de Redacteur ](web-editor.md)

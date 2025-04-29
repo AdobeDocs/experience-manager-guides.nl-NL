@@ -4,9 +4,9 @@ description: Leer hoe u Workfront kunt integreren met Adobe Experience Manager G
 feature: Authoring
 role: User
 exl-id: fd988434-3ebd-40ac-a776-e62359dcb6ef
-source-git-commit: dea9876cf0afa615f3719637c909bbda0d1d40b5
+source-git-commit: 62b1abd012f4bbf532480e2625505cdea1c70bc7
 workflow-type: tm+mt
-source-wordcount: '2436'
+source-wordcount: '2482'
 ht-degree: 0%
 
 ---
@@ -85,6 +85,8 @@ Voer de volgende stappen uit om een nieuwe Adobe Workfront-taak te maken:
 3. In het **Assets** lusje, uitgezocht **voeg** toe om activa aan deze taak toe te voegen.
 
    ![](./images/workfront-create-tasks-asset.png){align="left"}
+
+   Het **Uitgezochte weg** dialoog wordt getoond. Selecteer een pad naar het gewenste element. U kunt meerdere elementen toevoegen door de geldige paden te selecteren in de padbrowser. De geselecteerde paden blijven behouden, zodat u ze gemakkelijk kunt bekijken of wijzigen wanneer u het dialoogvenster opnieuw opent.
 
    * Voor creatie, het publiceren, en vertaaltaken, wordt u ertoe aangezet om de plaats van het vereiste dossier in het **Uitgezochte weg** dialoogvakje te selecteren. Het geselecteerde dossier (een onderwerp voor creatie en kaart voor het publiceren en vertaling) wordt toegevoegd aan de taak zodra **creeert** knoop wordt geselecteerd.
 

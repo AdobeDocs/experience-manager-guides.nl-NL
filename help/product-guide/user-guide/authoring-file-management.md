@@ -4,9 +4,9 @@ description: Leer hoe u bestanden en mappen in AEM Guides beheert. Kopieer en pl
 exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 717d300c6e879bad573f67e3eb91dd266ab203c6
 workflow-type: tm+mt
-source-wordcount: '3131'
+source-wordcount: '3201'
 ht-degree: 0%
 
 ---
@@ -146,7 +146,7 @@ Voer de volgende stappen uit om bestanden in bulk te verplaatsen:
 
    - **de weg \ van Source \(s \)**: Specificeer de plaats van omslagen die u wilt bewegen.
 
-      - Selecteer **doorbladert Omslag**  <img src="images/browse-folder-icon.svg" width="25">    het dialoogvenster Bladeren openen. Selecteer de omslagen u zich wilt bewegen en **Uitgezocht** kiezen om het proces te voltooien.
+      - Selecteer **doorbladert Omslag**  <img src="images/browse-folder-icon.svg" width="25">    om de **Uitgezochte weg** dialoog te openen. Selecteer de omslagen u zich wilt bewegen en **Uitgezocht** kiezen om het proces te voltooien. U kunt meerdere mappen selecteren die op verschillende locaties in de padbrowser zijn geplaatst. Het pad van de geselecteerde mappen blijft behouden, zodat u ze gemakkelijk kunt bekijken of wijzigen wanneer u het dialoogvenster opnieuw opent.
 
       - U kunt ook de bronlocatie typen of kopiëren en plakken. Druk op Enter om de map aan de lijst toe te voegen.
 
@@ -195,7 +195,7 @@ Voer de volgende stappen uit om bestanden in bulk te verplaatsen:
 
    - **de weg \ van Source \(s \)**: Specificeer de plaats van omslagen die u wilt bewegen.
 
-      - Selecteer **doorbladert Omslag**  <img src="images/browse-folder-icon.svg" width="25">    het dialoogvenster Bladeren openen. Selecteer de omslagen u zich wilt bewegen en **Uitgezocht** kiezen om het proces te voltooien.
+      - Selecteer **doorbladert Omslag**  <img src="images/browse-folder-icon.svg" width="25">    om de **Uitgezochte weg** dialoog te openen. Selecteer de omslagen u zich wilt bewegen en **Uitgezocht** kiezen om het proces te voltooien. U kunt meerdere mappen selecteren die op verschillende locaties in de padbrowser zijn geplaatst. Het pad van de geselecteerde mappen blijft behouden, zodat u ze gemakkelijk kunt bekijken of wijzigen wanneer u het dialoogvenster opnieuw opent.
 
       - U kunt ook de bronlocatie typen of kopiëren en plakken. Druk op Enter om de map aan de lijst toe te voegen.
 
