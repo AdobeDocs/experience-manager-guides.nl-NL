@@ -22,7 +22,7 @@ Enkele belangrijke concepten voor inhoudsbeheer in AEM zijn:
 
 **Beheer van Activa**
 
-AEM Guides gebruikt AEM Digital Asset Management \(DAM\) om uw DITA-bestanden te beheren. De bestanden die u uploadt of incheckt in de DAM worden opgeslagen als digitale elementen. U kunt uw middelen in AEM Assets beheren en bewerken. Voor meer informatie over activabeheer, zie [ activa ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=en) beheren.
+AEM Guides gebruikt AEM Digital Asset Management \(DAM\) om uw DITA-bestanden te beheren. De bestanden die u uploadt of incheckt in de DAM worden opgeslagen als digitale elementen. U kunt uw middelen in AEM Assets beheren en bewerken. Voor meer informatie over activabeheer, zie [ activa ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=nl-NL) beheren.
 
 **het beheer van de Verbinding**
 

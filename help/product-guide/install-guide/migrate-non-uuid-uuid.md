@@ -220,5 +220,5 @@ Voor meer details, zuiveren de mening [ oudere versies ](../install-guide/versio
    > Als vóór migratie, het bezit, **Titel van het Gebruik voor AEM de paginanamen van de Plaats** binnen `com.adobe.fmdita.config.ConfigManager`, geplaatst aan *Vals*, dan na migratie moet dit bezit worden bijgewerkt.
 
 
-1. Nadat de validatie is uitgevoerd, kan het grootste deel van de schijfruimte worden vrijgemaakt door compactie uit te voeren (zie `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`).
+1. Nadat de validatie is uitgevoerd, kan het grootste deel van de schijfruimte worden vrijgemaakt door compactie uit te voeren (zie `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=nl-NL`).
 

@@ -44,7 +44,7 @@ In deze sessie leert u over het volgende:
 
 - [ KB Uitvoer het publiceren ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/output-presets-aemg/generate-output-knowledge-base)
 
-- [ AEM Malplaatjes ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/templates/templates)
+- [ AEM Malplaatjes ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/implementing/developing/platform/templates/templates)
 
 - **Communautair Forum** - voor zitting-specifieke communautaire interactie over Experience League, bezoek [ het Forum van AEM Guides ](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 

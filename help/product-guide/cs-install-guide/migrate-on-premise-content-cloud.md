@@ -41,7 +41,7 @@ U kunt het **Hulpmiddel van de Overdracht van de Inhoud** als dossier van het ZI
 
 ![ hulpmiddel van de de inhoudoverdracht van de download ](./assets/content-transfer-tool-software-portal.png)
 Dan installeer het pakket via **Manager van het Pakket** op uw bronAdobe Experience Manager instantie. Download de nieuwste versie.
-Voor meer details op de recentste versie, mening [ de Nota&#39;s van de Versie ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html?lang=en).
+Voor meer details op de recentste versie, mening [ de Nota&#39;s van de Versie ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html?lang=nl-NL).
 
 >[!NOTE]
 > 

@@ -51,7 +51,7 @@ In deze sessie hebt u kennis genomen van het volgende:
 
 ## Gerelateerde bronnen
 
-- {de video&#39;s van de Eigenschap 0} **- [ Experience League ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/folder-profiles.html)**
+- {de video&#39;s van de Eigenschap 0} **- [ Experience League ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/folder-profiles.html?lang=nl-NL)**
 
 - **Gids van de Gebruiker** - [ inhoud van de Auteur ](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
 

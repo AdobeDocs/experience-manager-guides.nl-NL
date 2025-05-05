@@ -23,17 +23,17 @@ Automatiseer de vertaling van pagina-inhoud, elementen en door de gebruiker gege
 
 Voor het vertalen van inhoud worden de volgende stappen uitgevoerd:
 
-1. Verbind AEM met uw [ leverancier van de vertaaldienst ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider) en creeer [ configuraties van het kader van de vertaalintegratie ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration).
+1. Verbind AEM met uw [ leverancier van de vertaaldienst ](https://helpx.adobe.com/nl/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider) en creeer [ configuraties van het kader van de vertaalintegratie ](https://helpx.adobe.com/nl/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration).
 
-1. Koppel de pagina&#39;s van uw taalmeester met de [ vertaaldienst en kaderconfiguraties ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation).
+1. Koppel de pagina&#39;s van uw taalmeester met de [ vertaaldienst en kaderconfiguraties ](https://helpx.adobe.com/nl/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation).
 
-1. Identificeer het type van [ te vertalen inhoud ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-rules.html).
+1. Identificeer het type van [ te vertalen inhoud ](https://helpx.adobe.com/nl/experience-manager/6-5/sites/administering/using/tc-rules.html).
 
-1. [ bereidt de inhoud voor vertaling ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-prep.html) voor door de taalmeester te ontwerpen en de wortelpagina&#39;s van taalexemplaren te creëren.
+1. [ bereidt de inhoud voor vertaling ](https://helpx.adobe.com/nl/experience-manager/6-5/sites/administering/using/tc-prep.html) voor door de taalmeester te ontwerpen en de wortelpagina&#39;s van taalexemplaren te creëren.
 
-1. Creeer [ vertaalprojecten ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html) om de inhoud te verzamelen om te vertalen en het vertaalproces voor te bereiden.
+1. Creeer [ vertaalprojecten ](https://helpx.adobe.com/nl/experience-manager/6-5/sites/administering/using/tc-manage.html) om de inhoud te verzamelen om te vertalen en het vertaalproces voor te bereiden.
 
-1. Gebruik de vertaalprojecten om [ het proces van de inhoudsomzetting ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html) te beheren.
+1. Gebruik de vertaalprojecten om [ het proces van de inhoudsomzetting ](https://helpx.adobe.com/nl/experience-manager/6-5/sites/administering/using/tc-manage.html) te beheren.
 
 
 Wanneer uw vertaalservicebureau geen aansluiting voor integratie met AEM biedt, ondersteunt AEM het handmatig exporteren en importeren van vertaalde inhoud in XML-indeling.
@@ -88,7 +88,7 @@ Op basis van de vertaalworkflow die in uw installatie wordt gebruikt, moet de op
 
    >[!NOTE]
    >
-   > Als u vertaalschakelaar gebruikt, dan zorg ervoor dat u de schakelaar zoals die in *[wordt beschreven vormend het Kader van de Integratie van de Vertaling ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html)* onderwerp in AEM documentatie hebt gevormd.
+   > Als u vertaalschakelaar gebruikt, dan zorg ervoor dat u de schakelaar zoals die in *[wordt beschreven vormend het Kader van de Integratie van de Vertaling ](https://helpx.adobe.com/nl/experience-manager/6-5/sites/administering/using/tc-tic.html)* onderwerp in AEM documentatie hebt gevormd.
 
 1. Klik **sparen**.
 

@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Bestanden downloaden {#id216MC0H0BE8}
 
-U kunt elementen downloaden, zoals DITA- en niet-DITA-bestanden. Er zijn meerdere manieren waarop u elementen kunt downloaden. Sommige methoden zijn native voor Adobe Experience Manager en andere worden ondersteund door Adobe Experience Manager Guides. Voor inheemse Adobe Experience Manager activa downloadinformatie, mening [ de activa van de Download van Adobe Experience Manager ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html) in de documentatie van Adobe Experience Manager. In de volgende sectie wordt uitgelegd hoe u bestanden downloadt via de DITA-kaartconsole in Experience Manager Guides.
+U kunt elementen downloaden, zoals DITA- en niet-DITA-bestanden. Er zijn meerdere manieren waarop u elementen kunt downloaden. Sommige methoden zijn native voor Adobe Experience Manager en andere worden ondersteund door Adobe Experience Manager Guides. Voor inheemse Adobe Experience Manager activa downloadinformatie, mening [ de activa van de Download van Adobe Experience Manager ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html?lang=nl-NL) in de documentatie van Adobe Experience Manager. In de volgende sectie wordt uitgelegd hoe u bestanden downloadt via de DITA-kaartconsole in Experience Manager Guides.
 
 ## Een DITA-toewijzingsbestand exporteren
 

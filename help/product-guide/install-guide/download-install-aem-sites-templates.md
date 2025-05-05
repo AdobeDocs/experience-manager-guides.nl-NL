@@ -31,7 +31,7 @@ Voer de volgende stappen uit om AEM Sites-sjablonen te downloaden en installeren
    http://<server name>:<port>/crx/packmgr/index.jsp
    ```
 
-   De pakketmanager beheert de pakketten op uw lokale AEM installatie. Voor meer informatie over het werken met de Manager van het Pakket, mening [ hoe te met Pakketten ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html) in AEM documentatie werken.
+   De pakketmanager beheert de pakketten op uw lokale AEM installatie. Voor meer informatie over het werken met de Manager van het Pakket, mening [ hoe te met Pakketten ](https://helpx.adobe.com/nl/experience-manager/6-5/sites/administering/using/package-manager.html) in AEM documentatie werken.
 
 1. Om het pakket te uploaden, klik **Upload Pakket**.
 
@@ -52,7 +52,7 @@ Zodra de pakketten worden geïnstalleerd, wordt een plaats genoemd **AEMG** gecr
 
 
 **AEMG** bevat de volgende componenten.
-- Een omslag voor Engels (en) taal is aanwezig in de **omslag AEMG**. U kunt naar wens overeenkomstige taalkopieën maken. Een meertalige website bevat bijvoorbeeld kopieën in de Engelse (en), Duitse (de) en Franse (fr) taal.  Leer meer over hoe te om een taalexemplaar tot stand te brengen gebruikend de [ Tovenaar van het Exemplaar van de Taal ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/introduction/tc-wizard).
+- Een omslag voor Engels (en) taal is aanwezig in de **omslag AEMG**. U kunt naar wens overeenkomstige taalkopieën maken. Een meertalige website bevat bijvoorbeeld kopieën in de Engelse (en), Duitse (de) en Franse (fr) taal.  Leer meer over hoe te om een taalexemplaar tot stand te brengen gebruikend de [ Tovenaar van het Exemplaar van de Taal ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/sites/administering/introduction/tc-wizard).
 - Binnen de Engelse (en) taalomslag, verstrekt Experience Manager Guides vele uit-van-de-doos steekproefpagina&#39;s zoals **Onderzoek**, **binnen Teken**, **Dokken**, en **Steun**.
 
 - **Dokken** is de pagina van het Huis van de steekproefDocumentatie. Het fungeert als centrale locatie voor alle productgerelateerde documentatie
@@ -97,7 +97,7 @@ Voer de volgende stappen uit om de onderwerpmalplaatjes uit te geven:
 1. Selecteer de sjabloon die u wilt bewerken.
 1. Selecteer **uitgeven** pictogram op de bovenkant.
 
-De AEM Sjablooneditor wordt geopend. U kunt uw onderwerpmalplaatje uitgeven. Leer meer over [ Creërend de Malplaatjes van de Pagina ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/siteandpage/templates#editing-a-template-structure-template-author).
+De AEM Sjablooneditor wordt geopend. U kunt uw onderwerpmalplaatje uitgeven. Leer meer over [ Creërend de Malplaatjes van de Pagina ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/sites/authoring/siteandpage/templates#editing-a-template-structure-template-author).
 
 
 ## Bestaande AEM Sites-sjablonen aanpassen

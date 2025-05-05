@@ -44,7 +44,7 @@ Wanneer u het installatieprogramma hebt, installeert u het op de lokale computer
 
 >[!IMPORTANT]
 >
->Als u een oudere versie van de plug-in op uw systeem hebt geïnstalleerd, moet u deze verwijderen voordat u het installatieproces start. Zie **het Desinstalleren van de sectie van Pakketten** in [ hoe te met het artikel van Pakketten ](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html) voor desinstallatie instructies werken.
+>Als u een oudere versie van de plug-in op uw systeem hebt geïnstalleerd, moet u deze verwijderen voordat u het installatieproces start. Zie **het Desinstalleren van de sectie van Pakketten** in [ hoe te met het artikel van Pakketten ](https://helpx.adobe.com/nl/experience-manager/6-4/sites/administering/using/package-manager.html) voor desinstallatie instructies werken.
 
 Voer de volgende stappen uit op het systeem waarop Oxygen XML Author is geïnstalleerd:
 
@@ -78,7 +78,7 @@ Voer de volgende stappen uit op het systeem waarop Oxygen XML Author is geïnsta
 
 >[!IMPORTANT]
 >
->Als u een oudere versie van de plug-in op uw systeem hebt geïnstalleerd, moet u deze verwijderen voordat u het installatieproces start. Zie **het Desinstalleren van de sectie van Pakketten** in [ hoe te met het artikel van Pakketten ](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html) desinstallatie instructies te werken.
+>Als u een oudere versie van de plug-in op uw systeem hebt geïnstalleerd, moet u deze verwijderen voordat u het installatieproces start. Zie **het Desinstalleren van de sectie van Pakketten** in [ hoe te met het artikel van Pakketten ](https://helpx.adobe.com/nl/experience-manager/6-4/sites/administering/using/package-manager.html) desinstallatie instructies te werken.
 
 Voer de volgende stappen uit op het systeem waarop Oxygen XML Author is geïnstalleerd:
 
@@ -117,7 +117,7 @@ Als AEM beheerder voert u de volgende stappen uit om het pakket te installeren:
 
    `http://<server name>:<port>/crx/packmgr/index.jsp`
 
-   De pakketmanager beheert de pakketten op uw lokale AEM installatie. Voor meer informatie over het werken met de Manager van het Pakket, zie [ hoe te met Pakketten ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager.html?lang=en) in AEM documentatie werken.
+   De pakketmanager beheert de pakketten op uw lokale AEM installatie. Voor meer informatie over het werken met de Manager van het Pakket, zie [ hoe te met Pakketten ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager.html?lang=nl-NL) in AEM documentatie werken.
 
    ![ de manager van het Pakket ](images/package-manager.png) {width="650" align="left"}
 

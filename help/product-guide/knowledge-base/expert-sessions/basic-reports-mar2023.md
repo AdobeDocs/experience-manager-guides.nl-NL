@@ -51,7 +51,7 @@ In deze sessie hebt u kennis genomen van het volgende:
 
 - **[Download AEM Guides rapporteert handboek](./assets/aem-guides-expert-session-reports-documentation.pdf)** om de details van rapporten te begrijpen die in de zitting worden getoond.
 
-- {de video&#39;s van de Eigenschap 0} **- [ Experience League ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/working-with-reports.html?lang=en)**
+- {de video&#39;s van de Eigenschap 0} **- [ Experience League ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/working-with-reports.html?lang=nl-NL)**
 
 - **Gids van de Gebruiker** - [ inhoud van de Auteur ](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
 

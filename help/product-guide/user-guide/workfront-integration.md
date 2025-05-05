@@ -25,10 +25,10 @@ Met de integratie van Experience Manager Guides en Adobe Workfront kunt u:
 
 * Plan, wijs, en spoor de vooruitgang van individuele taken en projecten zonder het steunen van veelvoudige, niet geïntegreerde hulpmiddelen toe.
 * U kunt alle Experience Manager Guides-workflows efficiënter beheren, waaronder het ontwerpen, reviseren, publiceren en vertalen van inhoud.
-* Ontvang e-mailmeldingen van Adobe Workfront wanneer nieuwe taken worden toegewezen. Voor meer details, overzicht van de menings[ Berichten ](https://experienceleague.adobe.com/en/docs/workfront/using/basics/use-notifications/wf-notifications).
+* Ontvang e-mailmeldingen van Adobe Workfront wanneer nieuwe taken worden toegewezen. Voor meer details, overzicht van de menings[ Berichten ](https://experienceleague.adobe.com/nl/docs/workfront/using/basics/use-notifications/wf-notifications).
 * De gezondheid van het project controleren met het intuïtieve dashboard van Adobe Workfront, dat inzicht in projectprestaties in real time biedt.
 
-  Om over Adobe Workfront te leren robuuste die projectbeheermogelijkheden voor projectmanagers in Experience Manager Guides worden toegelaten, mening [ Plan een projectoverzicht ](https://experienceleague.adobe.com/en/docs/workfront/using/manage-work/projects/plan-a-project/plan-project).
+  Om over Adobe Workfront te leren robuuste die projectbeheermogelijkheden voor projectmanagers in Experience Manager Guides worden toegelaten, mening [ Plan een projectoverzicht ](https://experienceleague.adobe.com/nl/docs/workfront/using/manage-work/projects/plan-a-project/plan-project).
 
 ## Aan de slag
 
@@ -61,7 +61,7 @@ De volgende functies zijn beschikbaar op de pagina Workfront-taken:
 
 Op de pagina Workfront-taken staat ook een pictogram voor het uitlijnen van koppelingen ![](./images/Smock_LinkOut_18_N.svg) . Als dit pictogram is geselecteerd, gaat u naar de Adobe Workfront-projectpagina. Hier kunt u taakdetails weergeven, opmerkingen bekijken, opmerkingen toevoegen en andere functies gebruiken op basis van de machtigingen die aan uw Adobe Workfront-account zijn toegewezen.
 
-Voor meer details, mening [ Overzicht van het Project, de Taak, en de data van de Uitgave in Workfront ](https://experienceleague.adobe.com/en/docs/workfront/using/basics/navigate/definitions-pti-dates).
+Voor meer details, mening [ Overzicht van het Project, de Taak, en de data van de Uitgave in Workfront ](https://experienceleague.adobe.com/nl/docs/workfront/using/basics/navigate/definitions-pti-dates).
 
 ### Workfront-taken maken
 
@@ -122,7 +122,7 @@ Een nieuwe taak wordt gecreeerd en onder **vermeld die door u** tabel wordt gecr
 
 >[!NOTE]
 >
-> Als projectmanager kunt u deze nieuwe taak in uw Adobe Workfront dashboard samen met andere belangrijke taakdetails bekijken. Voor meer details, begrijpen de mening [ dashboards ](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/dashboards/understand-dashboards/understand-dashboards).
+> Als projectmanager kunt u deze nieuwe taak in uw Adobe Workfront dashboard samen met andere belangrijke taakdetails bekijken. Voor meer details, begrijpen de mening [ dashboards ](https://experienceleague.adobe.com/nl/docs/workfront/using/reporting/dashboards/understand-dashboards/understand-dashboards).
 
 ### Taken beheren die door u zijn gemaakt
 

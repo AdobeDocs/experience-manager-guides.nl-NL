@@ -44,11 +44,11 @@ In deze sessie hebt u kennis genomen van het volgende:
 
 ## Gerelateerde bronnen
 
-- **vorm datasource schakelaar** - [ op Experience League ](https://experienceleague.adobe.com/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-data-source-connector-tools.html?lang=en)
+- **vorm datasource schakelaar** - [ op Experience League ](https://experienceleague.adobe.com/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-data-source-connector-tools.html?lang=nl-NL)
 
-- **Documentatie** - [ op Experience League ](https://experienceleague.adobe.com/docs/experience-manager-guides/using/user-guide/author-content/create-preview-topics/author-content-aem-guides/work-with-web-editor/web-editor-content-snippet.html)
+- **Documentatie** - [ op Experience League ](https://experienceleague.adobe.com/docs/experience-manager-guides/using/user-guide/author-content/create-preview-topics/author-content-aem-guides/work-with-web-editor/web-editor-content-snippet.html?lang=nl-NL)
 
-- **Werkend met snelheidshulpmiddelen voor malplaatjes** - [ op Experience League ](https://experienceleague.adobe.com/docs/experience-manager-guides/using/user-guide/author-content/create-preview-topics/author-content-aem-guides/work-with-web-editor/web-editor-content-snippet.html?lang=en#use-velocity-tools)
+- **Werkend met snelheidshulpmiddelen voor malplaatjes** - [ op Experience League ](https://experienceleague.adobe.com/docs/experience-manager-guides/using/user-guide/author-content/create-preview-topics/author-content-aem-guides/work-with-web-editor/web-editor-content-snippet.html?lang=nl-NL#use-velocity-tools)
 
 
 

@@ -17,19 +17,19 @@ U hebt waarschijnlijk een opslagplaats voor bestaande DITA-inhoud die u met Adob
 
 >[!IMPORTANT]
 >
-> De mening [ voegt digitale activa aan Adobe Experience Manager as a Cloud Service Assets ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html) voor gedetailleerde informatie in de gesteunde inhoud toe uploadt methodes in Adobe Experience Manager.
+> De mening [ voegt digitale activa aan Adobe Experience Manager as a Cloud Service Assets ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=nl-NL) voor gedetailleerde informatie in de gesteunde inhoud toe uploadt methodes in Adobe Experience Manager.
 
 ## Assets Console-gebruikersinterface
 
-U kunt inhoud op uw bureaublad selecteren en in de Adobe Experience Manager-gebruikersinterface \(webbrowser\) naar de doelmap slepen. Voor meer details, mening [ uploadt activa ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html#upload-assets) in de documentatie van Adobe Experience Manager.
+U kunt inhoud op uw bureaublad selecteren en in de Adobe Experience Manager-gebruikersinterface \(webbrowser\) naar de doelmap slepen. Voor meer details, mening [ uploadt activa ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=nl-NL#upload-assets) in de documentatie van Adobe Experience Manager.
 
 ## Adobe Experience Manager-bureaubladtoepassing
 
-Gebruik de Adobe Experience Manager-bureaubladtoepassing als u een creatieve professional bent en de middelen op uw lokale bureaublad wilt beheren. U kunt deze elementen openen en bewerken met uw bureaubladtoepassingen. U kunt ook versies bijhouden en uw bestanden delen met andere gebruikers. Voor meer details, bekijk [ Desktop app van Adobe Experience Manager ](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html).
+Gebruik de Adobe Experience Manager-bureaubladtoepassing als u een creatieve professional bent en de middelen op uw lokale bureaublad wilt beheren. U kunt deze elementen openen en bewerken met uw bureaubladtoepassingen. U kunt ook versies bijhouden en uw bestanden delen met andere gebruikers. Voor meer details, bekijk [ Desktop app van Adobe Experience Manager ](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html?lang=nl-NL).
 
 ## Bulkingestor
 
-Als u grootschalige migraties en soms grote hoeveelheden inneemt, kunt u de inhoud uploaden met Asset bulksgewijs inslikken. Met dit hulpprogramma kunt u bulkinhoud uploaden uit ondersteunde datastores zoals Azure of S3. Voor meer details, mening [ bulkingestor van Activa ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=en#asset-bulk-ingestor).
+Als u grootschalige migraties en soms grote hoeveelheden inneemt, kunt u de inhoud uploaden met Asset bulksgewijs inslikken. Met dit hulpprogramma kunt u bulkinhoud uploaden uit ondersteunde datastores zoals Azure of S3. Voor meer details, mening [ bulkingestor van Activa ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=nl-NL#asset-bulk-ingestor).
 
 ## FrameMaker gebruiken voor bulkupload
 

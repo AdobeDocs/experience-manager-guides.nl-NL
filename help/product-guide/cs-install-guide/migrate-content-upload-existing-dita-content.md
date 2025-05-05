@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Bestaande DITA-inhoud uploaden {#id176FF000JUI}
 
-U hebt waarschijnlijk een opslagplaats voor bestaande DITA-inhoud die u met de AEM Guides wilt gebruiken. Voor dergelijke bestaande inhoud, kunt u om het even welke gesteunde methodes gebruiken die in [ worden verklaard digitale activa aan Adobe Experience Manager as a Cloud Service Assets ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html) toevoegen.
+U hebt waarschijnlijk een opslagplaats voor bestaande DITA-inhoud die u met de AEM Guides wilt gebruiken. Voor dergelijke bestaande inhoud, kunt u om het even welke gesteunde methodes gebruiken die in [ worden verklaard digitale activa aan Adobe Experience Manager as a Cloud Service Assets ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=nl-NL) toevoegen.
 
 ## Patroon UUID-bestandsnaam configureren
 

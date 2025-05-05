@@ -93,8 +93,8 @@ Als u Ditamap publiceert, geeft Native PDF automatisch functionaliteit om inhoud
 
 ## Aanvullende bronnen:
 
-- [ de inheemse documentatie van de het ontwerppagina van de PDF pagina ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/design-page-layout)
-- [ Eigen de essentiële PDF eerste zitting van de pre-geregistreerde Deskundige zitting ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23)
+- [ de inheemse documentatie van de het ontwerppagina van de PDF pagina ](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/design-page-layout)
+- [ Eigen de essentiële PDF eerste zitting van de pre-geregistreerde Deskundige zitting ](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23)
 
 <br>
 <br>

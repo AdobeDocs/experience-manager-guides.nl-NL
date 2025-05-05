@@ -52,7 +52,7 @@ Voer de volgende stappen uit om aangepaste DITA-OT-plug-in te uploaden naar de A
 
    >[!NOTE]
    >
-   > Het wordt aanbevolen het standaard DITA-OT-pakket niet te overschrijven. U moet het aangepaste DITA-OT-pakket uploaden dat de map Plug-in /var/dxml/dita\_resources/dita-ot bevat. U kunt het ook doen gebruikend de pijpleiding van Cloud Manager, zie [ Opstellend aan AEM as a Cloud Service ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html) in de documentatie van AEM voor meer details.
+   > Het wordt aanbevolen het standaard DITA-OT-pakket niet te overschrijven. U moet het aangepaste DITA-OT-pakket uploaden dat de map Plug-in /var/dxml/dita\_resources/dita-ot bevat. U kunt het ook doen gebruikend de pijpleiding van Cloud Manager, zie [ Opstellend aan AEM as a Cloud Service ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=nl-NL) in de documentatie van AEM voor meer details.
 
 1. U kunt het standaardprofiel bewerken, een nieuw profiel maken of instellingen in het standaardprofiel dupliceren om een nieuw profiel te maken.
 

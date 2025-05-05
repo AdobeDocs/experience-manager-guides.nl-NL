@@ -49,7 +49,7 @@ Voer de volgende stappen uit om de te gebruiken service voor het vertalen van me
 
    >[!NOTE]
    >
-   > De mening [ Vormend het Kader van de Integratie van de Vertaling ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) in documentatie van Adobe Experience Manager voor details bij het integreren met de diensten van de derdeconversie.
+   > De mening [ Vormend het Kader van de Integratie van de Vertaling ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=nl-NL) in documentatie van Adobe Experience Manager voor details bij het integreren met de diensten van de derdeconversie.
 
 1. Selecteer **sparen &amp; sluit** om de bijgewerkte omslageigenschappen te bewaren.
 

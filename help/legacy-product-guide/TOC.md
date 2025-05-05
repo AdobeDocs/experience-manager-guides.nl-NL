@@ -16,7 +16,7 @@ ht-degree: 0%
 
 - [Disclaimer](disclaimer.md)
 - [[!DNL AEM Guides] overzicht](overview.md)
-- [ de informatie van de Versie](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/release-info/aem-guides-releases-roadmap){target="_blank"}
+- [ de informatie van de Versie](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/release-info/aem-guides-releases-roadmap){target="_blank"}
 - Handboek (oude gebruikersinterface) {#user-guide}
    - Inleiding {#about-aem-guide}
       - [Info  [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -142,5 +142,5 @@ ht-degree: 0%
       - [Rapport voor hergebruik van inhoud](./user-guide/reports-content-reuse.md)
       - [Conversiestatus rapport](./user-guide/reports-convertion-status.md)
       - [Rapport voor versiehistorie van teruggedraaide bestanden](./user-guide/reports-reverted-file-version-history.md)
-- [ GEBRUIKERSGIDS (NIEUWE UI) ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/about-aemg/intro)
+- [ GEBRUIKERSGIDS (NIEUWE UI) ](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/user-guide/about-aemg/intro)
 

@@ -16,6 +16,6 @@ ht-degree: 0%
 
 Adobe Experience Manager Assets biedt u de functie om elementen te maken en er metagegevens aan toe te voegen. U kunt metagegevens voor elk element behouden. U kunt metagegevens beheren met uw elementen en elementen ook automatisch ordenen en verwerken op basis van de metagegevens van de elementen.
 
-Voor meer details over meta-gegevensbeheer in AEM, zie [ meta-gegevens van uw digitale activa ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/metadata.html?lang=en) beheren.
+Voor meer details over meta-gegevensbeheer in AEM, zie [ meta-gegevens van uw digitale activa ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/metadata.html?lang=nl-NL) beheren.
 
 **Bovenliggend onderwerp:**&#x200B;[ leidt meta-gegevens ](manage-metadata.md)

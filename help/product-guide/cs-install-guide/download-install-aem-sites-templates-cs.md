@@ -35,7 +35,7 @@ Voer de volgende stappen uit om een AEM Sites te maken met behulp van de sjabloo
 1. Voer `Site title` en `Site name` in.
 1. Klik **creëren**. Het pakket is geïnstalleerd en er wordt een AEM Sites-sjabloon gemaakt.
 
-Leer meer over [ Toevoegend een Malplaatje van de Plaats aan AEM ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/site-creation/site-templates#adding).
+Leer meer over [ Toevoegend een Malplaatje van de Plaats aan AEM ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/sites/administering/site-creation/site-templates#adding).
 
 
 >[!NOTE]
@@ -51,7 +51,7 @@ Zodra het pakket wordt geïnstalleerd, wordt een plaats genoemd **AEMG** gecreee
 
 
 **AEMG** bevat de volgende componenten.
-- Een omslag voor Engels (en) taal is aanwezig in de **omslag AEMG**. U kunt naar wens overeenkomstige taalkopieën maken. Een meertalige website bevat bijvoorbeeld kopieën in de Engelse (en), Duitse (de) en Franse (fr) taal.  Leer meer over hoe te om een taalexemplaar tot stand te brengen gebruikend de [ Tovenaar van het Exemplaar van de Taal ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/introduction/tc-wizard).
+- Een omslag voor Engels (en) taal is aanwezig in de **omslag AEMG**. U kunt naar wens overeenkomstige taalkopieën maken. Een meertalige website bevat bijvoorbeeld kopieën in de Engelse (en), Duitse (de) en Franse (fr) taal.  Leer meer over hoe te om een taalexemplaar tot stand te brengen gebruikend de [ Tovenaar van het Exemplaar van de Taal ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/sites/administering/introduction/tc-wizard).
 - Binnen de Engelse (en) taalomslag, verstrekt Experience Manager Guides vele uit-van-de-doos steekproefpagina&#39;s zoals **Onderzoek**, **binnen Teken**, **Dokken**, en **Steun**.
 
 - **Dokken** is de pagina van het Huis van de steekproefDocumentatie. Het fungeert als centrale locatie voor alle productgerelateerde documentatie
@@ -96,7 +96,7 @@ Voer de volgende stappen uit om de onderwerpmalplaatjes uit te geven:
 1. Selecteer de sjabloon die u wilt bewerken.
 1. Selecteer **uitgeven** pictogram op de bovenkant.
 
-De AEM Sjablooneditor wordt geopend. U kunt uw onderwerpmalplaatje uitgeven. Leer meer over [ Creërend de Malplaatjes van de Pagina ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/siteandpage/templates#editing-a-template-structure-template-author).
+De AEM Sjablooneditor wordt geopend. U kunt uw onderwerpmalplaatje uitgeven. Leer meer over [ Creërend de Malplaatjes van de Pagina ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/sites/authoring/siteandpage/templates#editing-a-template-structure-template-author).
 
 
 ## Bestaande AEM Sites-sjablonen aanpassen {#customize-existing-aem-sites-templates}

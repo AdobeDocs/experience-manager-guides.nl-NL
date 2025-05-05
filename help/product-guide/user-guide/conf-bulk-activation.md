@@ -17,7 +17,7 @@ In een echt scenario zouden uw auteurs toegang hebben tot de ontwerpinstantie va
 
 >[!NOTE]
 >
-> Voor meer details over hoe te om de auteur te plaatsen en instantie in Adobe Experience Manager te publiceren, bekijk [ Auteur en publiceer het Overzicht van de Architectuur ](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#prerequisites).
+> Voor meer details over hoe te om de auteur te plaatsen en instantie in Adobe Experience Manager te publiceren, bekijk [ Auteur en publiceer het Overzicht van de Architectuur ](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=nl-NL#prerequisites).
 
 Met de functie Experience Manager Guides Bulk Activation kunt u uw inhoud snel en eenvoudig activeren, van ontwerpen tot het publiceren van een exemplaar. Met de functie voor bulkactivering kunt u:
 

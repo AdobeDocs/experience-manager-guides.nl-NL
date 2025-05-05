@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Efficiëntie verbeteren met slimme Help in AI Assistant (Beta)
 
-Experience Manager Guides verstrekt op GenAI-Gebaseerde slimme Hulp, een gespreksonderzoekseigenschap die u relevante inhoud van [ documentatie van Adobe Experience Manager Guides ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview) helpt vinden.
+Experience Manager Guides verstrekt op GenAI-Gebaseerde slimme Hulp, een gespreksonderzoekseigenschap die u relevante inhoud van [ documentatie van Adobe Experience Manager Guides ](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/overview) helpt vinden.
 
 U kunt uw vragen stellen en op een informatieve manier antwoorden krijgen. Het antwoord op uw vraag is gebaseerd op de inhoud van de productdocumentatie. Deze zoekopdracht is volledig conversatief. U kunt vragen stellen over de verschillende functies van Experience Manager Guides of vragen stellen over het oplossen van problemen. Op basis van het antwoord kunt u ook aanvullende vragen stellen. Het antwoord bevat ook koppelingen naar brondocumenten, waarnaar u voor meer informatie kunt verwijzen.
 

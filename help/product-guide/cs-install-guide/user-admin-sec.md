@@ -18,9 +18,9 @@ Als u functies in de AEM Guides wilt openen en configureren, moet u gebruikers m
 
 De volgende onderwerpen in de documentatie van AEM zullen u helpen de gebruikersbeleid en veiligheid-gerelateerde concepten en eigenschappen begrijpen:
 
-- [ AEM gebruikers, groepen en toestemmingen ](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html)
+- [ AEM gebruikers, groepen en toestemmingen ](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html?lang=nl-NL)
 
-- [ Beleid van de Gebruiker en Veiligheid ](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html)
+- [ Beleid van de Gebruiker en Veiligheid ](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?lang=nl-NL)
 
 
 ## Gebruikersgroepen gemaakt door AEM Guides {#id181TF0K0MHT}

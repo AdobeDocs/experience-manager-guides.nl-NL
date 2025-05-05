@@ -34,7 +34,7 @@ Laten we dit begrijpen met een voorbeeld waarin we de korte beschrijving en tite
 
 Gebruik de omslagprofielen om *css_layout.css* onder het lusje van de Configuratie van de Redacteur van &quot;XML&quot;te controleren en CSS toe te voegen die douanestijlen heeft
 
-[ gebruik deze verbinding om meer over het profiel van de Omslag te leren en CSS malplaatjelay-out te vormen ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=en#customize-the-css-template-layout)
+[ gebruik deze verbinding om meer over het profiel van de Omslag te leren en CSS malplaatjelay-out te vormen ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=nl-NL#customize-the-css-template-layout)
 
 Gebruik het volgende om bovenstaande stijl in uw webeditor in te stellen:
 - Gebruik [ css_layout.css ](../../../assets/authoring/webeditor-customstyles-css_layout.css) en upload het aan het omslagprofiel van uw keus
@@ -58,4 +58,4 @@ Please note this is compatible to AEM Guides version 4.2 and AEM Guides cloud ve
 
 ## Verwijzingen
 
-U kunt ook in de deskundige zitting rond webeditor configuraties en aanpassing geinteresseerd zijn die in [ worden behandeld Deskundige zitting op webeditor ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/webbased-authoring-jan2023.html?lang=en)
+U kunt ook in de deskundige zitting rond webeditor configuraties en aanpassing geinteresseerd zijn die in [ worden behandeld Deskundige zitting op webeditor ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/webbased-authoring-jan2023.html?lang=nl-NL)

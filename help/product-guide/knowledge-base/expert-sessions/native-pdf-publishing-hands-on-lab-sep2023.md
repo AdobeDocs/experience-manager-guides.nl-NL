@@ -50,9 +50,9 @@ In deze sessie hebt u het volgende geleerd voor het publiceren van Native PDF:
 
 - **Inheemse de opstellingsstappen van PDF** - [ Experience League ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.html?lang=en)
 
-- **Functioneel overzicht van het Native PDF publiceren** - [ op Experience League ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23.html?lang=en)
+- **Functioneel overzicht van het Native PDF publiceren** - [ op Experience League ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23.html?lang=nl-NL)
 
-- **Gedocumenteerde gemeenschappelijke gebruiksgevallen** - [ op Experience League ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/content-styles/stylesheet.html?lang=en)
+- **Gedocumenteerde gemeenschappelijke gebruiksgevallen** - [ op Experience League ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/content-styles/stylesheet.html?lang=nl-NL)
 
 - **Communautair Forum** - voor zitting-specifieke communautaire interactie over Experience League, bezoek [ het Forum van AEM Guides ](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 

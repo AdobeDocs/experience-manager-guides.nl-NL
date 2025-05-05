@@ -143,4 +143,4 @@ Afbeeldingskaarten:
 
 
 
-Leer meer over de beste praktijken van [ Veiligheid ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/security).
+Leer meer over de beste praktijken van [ Veiligheid ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/implementing/developing/introduction/security).

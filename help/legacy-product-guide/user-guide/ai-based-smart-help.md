@@ -13,7 +13,7 @@ ht-degree: 0%
 
 
 
-Experience Manager Guides verstrekt op GenAI-Gebaseerde Slimme Hulp, een gespreksonderzoekseigenschap die u relevante inhoud van de [ Documentatie van Adobe Experience Manager Guides ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview) helpt vinden.
+Experience Manager Guides verstrekt op GenAI-Gebaseerde Slimme Hulp, een gespreksonderzoekseigenschap die u relevante inhoud van de [ Documentatie van Adobe Experience Manager Guides ](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/overview) helpt vinden.
 U kunt uw vragen stellen en op een informatieve manier antwoorden krijgen. Het antwoord op uw vraag is gebaseerd op de inhoud van de productdocumentatie. Deze zoekopdracht is volledig conversatief. U kunt vragen stellen, en dan, gebaseerd op het antwoord, kunt u ook verdere vragen stellen. Het antwoord bevat ook koppelingen naar brondocumenten, waarnaar u voor meer informatie kunt verwijzen.
 
 U kunt bijvoorbeeld in Experience Manager Guides een onderwerp voor uw documentatie maken. U kunt vragen, *hoe te om een onderwerp tot stand te brengen?* U krijgt een antwoord en de koppelingen voor de verwante artikelen. Als u vervolgens wilt leren hoe u de PDF-uitvoer voor het document kunt genereren, kunt u er vragen over stellen. Bijvoorbeeld, *hoe te om een onderwerp aan een PDF te publiceren?* of *hoe te om de output van PDF voor een onderwerp te produceren?*

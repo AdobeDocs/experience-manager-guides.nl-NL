@@ -25,7 +25,7 @@ Met Experience Manager Guides kunt u een onderwerp of de elementen ervan publice
 
 Voer de volgende stappen uit om een inhoudsfragment te maken:
 
-1. Creeer het model van het Fragment van de a [ Inhoud ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/content-fragments/content-fragments-models.html?lang=en) in Adobe Experience Manager Assets.
+1. Creeer het model van het Fragment van de a [ Inhoud ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/content-fragments/content-fragments-models.html?lang=nl-NL) in Adobe Experience Manager Assets.
 1. Maak een map waarin u de inhoudsfragmenten wilt opslaan die u maakt op basis van het model Inhoudsfragment. Bijvoorbeeld &#39;stock-content-fragments&#39;.
 1. Bewerk de eigenschappen van de map (bijvoorbeeld &quot;stock-content-fragments&quot;) en voeg het pad van de map toe, die het model Content Fragment bevat in de cloudconfiguratie.
 Voeg bijvoorbeeld `/conf/we-retail` toe in de cloudconfiguratie. Deze configuratie verbindt alle modellen van het Fragment van de Inhoud met de omslag.\

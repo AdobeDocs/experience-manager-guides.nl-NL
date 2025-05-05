@@ -19,9 +19,9 @@ Met artikel kunt u FMPS instellen en uitvoeren met AEM Guides.
 
 ## Verenigbaarheid van FMPS met AEM Guides
 
-- Verenigbaarheid met 4.1 AEM Guides: [ 4.1 verenigbaarheidsmatrijs ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.1.html?lang=en/#compatibility-matrix)
+- Verenigbaarheid met 4.1 AEM Guides: [ 4.1 verenigbaarheidsmatrijs ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.1.html?lang=nl-NL/#compatibility-matrix)
 - Verenigbaarheid met 4.0 AEM Guides: [ 4.0 verenigbaarheidsmatrijs ](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html/#Compatibility%20matrix)
-- Laatste Versie: [ Latest versie info ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/latest-release-info.html?lang=en)
+- Laatste Versie: [ Latest versie info ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/latest-release-info.html?lang=nl-NL)
 
 ## Installatie
 
@@ -91,7 +91,7 @@ U kunt uw reeds gemaakte basislijnen publiceren met versie FMPS2020.0.2 of hoger
 
 ## Overige bronnen:
 
-[ FMPS leren en Steun ](https://helpx.adobe.com/support/framemaker-publishing-server.html)
+[ FMPS leren en Steun ](https://helpx.adobe.com/nl/support/framemaker-publishing-server.html)
 
 [ AEM Guides Leren en Steun ](https://helpx.adobe.com/in/support/xml-documentation-for-experience-manager.html)
 

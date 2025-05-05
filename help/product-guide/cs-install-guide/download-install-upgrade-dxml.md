@@ -25,7 +25,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> Voor meer details over het gebruiken van CI/CD pijpleiding, zie [ Gebruik CI/CD Pijpleiding in Adobe Cloud Manager ](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/cloud-manager/use-the-cicd-pipeline-in-cloud-manager-for-aem.html).
+> Voor meer details over het gebruiken van CI/CD pijpleiding, zie [ Gebruik CI/CD Pijpleiding in Adobe Cloud Manager ](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/cloud-manager/use-the-cicd-pipeline-in-cloud-manager-for-aem.html?lang=nl-NL).
 
 ## Browser-cache wissen
 

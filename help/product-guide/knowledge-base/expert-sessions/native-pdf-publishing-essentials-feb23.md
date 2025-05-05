@@ -41,7 +41,7 @@ In deze sessie leert u over het volgende:
 
 ## Gerelateerde bronnen
 
-- {de video&#39;s van de Eigenschap 0} **- [ Experience League ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)**
+- {de video&#39;s van de Eigenschap 0} **- [ Experience League ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=nl-NL)**
 
 - **Gids van de Gebruiker** - [ Inheemse PDF het publiceren ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/configuring/config-native-pdf-publish/pdf-template.html?lang=en)
 

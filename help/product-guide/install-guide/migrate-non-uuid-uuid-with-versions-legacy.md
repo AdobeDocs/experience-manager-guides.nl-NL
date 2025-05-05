@@ -90,7 +90,7 @@ Voer de volgende controles uit op de niet-UUID-versie (4.1 niet-UUID of 4.3.0 ni
 
 ### Stap 1: Configuratie bijwerken
 
-1. Zorg ervoor dat de beschikbare vrije ruimte ten minste tien keer zo groot is als AEM (crx-quickstart-map) tijdens de migratie. Zodra u de migratie voltooit, kunt u het grootste deel van de schijfruimte terugwinnen door compilatie in werking te stellen (verwijs naar [ Opruiming van de Revisie ](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en)).
+1. Zorg ervoor dat de beschikbare vrije ruimte ten minste tien keer zo groot is als AEM (crx-quickstart-map) tijdens de migratie. Zodra u de migratie voltooit, kunt u het grootste deel van de schijfruimte terugwinnen door compilatie in werking te stellen (verwijs naar [ Opruiming van de Revisie ](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=nl-NL)).
 
 1. Laat *toe de Lancers van het Werkschema van de PostProcessing* in `com.adobe.fmdita.config.ConfigManager` toe en *laat Versie post-processing* in `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation.` toe
 
@@ -154,4 +154,4 @@ Nadat de server is gemigreerd, kunt u naverwerking, codering en de volgende work
    ![ bevestigt systeemverbeteringslusje in migratie ](assets/migration-validate-system-upgrade.png){width="800" align="left"}
 
 
-1. Nadat de validatie is uitgevoerd, kan het grootste deel van de schijfruimte worden vrijgemaakt door compactie uit te voeren (zie `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`).
+1. Nadat de validatie is uitgevoerd, kan het grootste deel van de schijfruimte worden vrijgemaakt door compactie uit te voeren (zie `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=nl-NL`).

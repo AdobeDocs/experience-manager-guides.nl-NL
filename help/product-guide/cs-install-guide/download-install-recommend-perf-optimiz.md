@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Houd rekening met de volgende punten voor het optimaliseren van prestaties:
 
-- Om inhoud en het indexeren ervaring te optimaliseren, zie [ het Onderzoek en het Indexeren van de Inhoud ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html) in AEM documentatie optimaliseren.
+- Om inhoud en het indexeren ervaring te optimaliseren, zie [ het Onderzoek en het Indexeren van de Inhoud ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html?lang=nl-NL) in AEM documentatie optimaliseren.
 
 - Reparatie Xerces Jar bij gebruik van aangepaste DITA-OT voor publicatie. Dit is een verplichte configuratie, afhankelijk van uw gebruiksgeval. Deze wijziging is alleen vereist als u aangepaste DITA-OT gebruikt voor het publiceren van uitvoer.
 

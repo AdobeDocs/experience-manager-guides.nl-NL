@@ -32,7 +32,7 @@ Voer de volgende stappen uit om AEM Guides voor het eerst op een computer te dow
    http://<server name>:<port>/crx/packmgr/index.jsp
    ```
 
-   De pakketmanager beheert de pakketten op uw lokale AEM installatie. Voor meer informatie over het werken met de Manager van het Pakket, zie [ hoe te met Pakketten ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html) in AEM documentatie werken.
+   De pakketmanager beheert de pakketten op uw lokale AEM installatie. Voor meer informatie over het werken met de Manager van het Pakket, zie [ hoe te met Pakketten ](https://helpx.adobe.com/nl/experience-manager/6-5/sites/administering/using/package-manager.html) in AEM documentatie werken.
 
    ![](assets/package-manager.png){width="650" align="left"}
 

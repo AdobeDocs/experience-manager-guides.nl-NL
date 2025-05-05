@@ -17,7 +17,7 @@ ht-degree: 0%
 ## Gegevensopslag \(verplicht\) configureren
 
 **wat is de verandering?**
-Plaats het `minRecordLength` bezit aan een waarde van `100` onder de configuratie `org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.` voor meer informatie over de opslag van de dossierdatum en S3 gegevensopslag, zie [ het Vormen knoopopslag en gegevensopslag in AEM 6 ](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/data-store-config.html) artikel.
+Plaats het `minRecordLength` bezit aan een waarde van `100` onder de configuratie `org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.` voor meer informatie over de opslag van de dossierdatum en S3 gegevensopslag, zie [ het Vormen knoopopslag en gegevensopslag in AEM 6 ](https://helpx.adobe.com/nl/experience-manager/6-5/sites/deploying/using/data-store-config.html) artikel.
 
 >[!NOTE]
 >
