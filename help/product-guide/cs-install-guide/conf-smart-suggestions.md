@@ -31,7 +31,7 @@ Voer de volgende stappen uit om IMS-configuraties te maken in Adobe Developer Co
 >Als u reeds een project OAuth hebt gecreeerd om op microservice-gebaseerde het publiceren te vormen, kunt u de volgende stappen overslaan om het project tot stand te brengen.
 
 1. Start [ Adobe Developer Console ](https://developer.adobe.com/console).
-1. Na met succes het programma openen aan Developer Console, zult u het **1} scherm van het Huis {bekijken.** Het **1} scherm van het Huis {is waar u informatie en snelle verbindingen, met inbegrip van top-navigatiekoppelingen aan Projecten en Downloads gemakkelijk kunt vinden.**
+1. Na met succes het programma openen aan Developer Console, zult u het **1&rbrace; scherm van het Huis {bekijken.** Het **1} scherm van het Huis &lbrace;is waar u informatie en snelle verbindingen, met inbegrip van top-navigatiekoppelingen aan Projecten en Downloads gemakkelijk kunt vinden.**
 1. Om een nieuw leeg project tot stand te brengen, creeer **nieuw project** van de **Snelle begin** verbindingen.
    ![ Snelle beginverbindingen ](assets/conf-ss-quick-start.png) {width="550" align="left"}
    *creeer een nieuw project.*
