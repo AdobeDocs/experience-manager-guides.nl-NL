@@ -2,7 +2,7 @@
 title: AI-assistent configureren voor slimme hulp en ontwerpen
 description: Leer hoe u de AI Assistant configureert in Experience Manager Guides
 exl-id: a595ca1f-0123-40d3-a79c-a066bc6517b4
-source-git-commit: 7b217cfd52dbf716b626e66373fffcc1b9eff695
+source-git-commit: 018bd7c7bc3bb9161e5bedd42d50a5c501ca2919
 workflow-type: tm+mt
 source-wordcount: '880'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Voer de volgende stappen uit om IMS-configuraties te maken in Adobe Developer Co
 >Als u reeds een project OAuth hebt gecreeerd om op microservice-gebaseerde het publiceren te vormen, kunt u de volgende stappen overslaan om het project tot stand te brengen.
 
 1. Start [ Adobe Developer Console ](https://developer.adobe.com/console).
-1. Na met succes het programma openen aan Developer Console, zult u het **1&rbrace; scherm van het Huis {bekijken.** Het **1} scherm van het Huis &lbrace;is waar u informatie en snelle verbindingen, met inbegrip van top-navigatiekoppelingen aan Projecten en Downloads gemakkelijk kunt vinden.**
+1. Na met succes het programma openen aan Developer Console, zult u het **1} scherm van het Huis {bekijken.** Het **1} scherm van het Huis {is waar u informatie en snelle verbindingen, met inbegrip van top-navigatiekoppelingen aan Projecten en Downloads gemakkelijk kunt vinden.**
 1. Om een nieuw leeg project tot stand te brengen, creeer **nieuw project** van de **Snelle begin** verbindingen.
    ![ Snelle beginverbindingen ](assets/conf-ss-quick-start.png) {width="550" align="left"}
    *creeer een nieuw project.*
@@ -84,7 +84,7 @@ Voer de volgende stappen uit om configuratie IMS aan het milieu toe te voegen:
 
 ## AI-markering in de omgeving inschakelen
 
-Als u de functie AI Assistant wilt inschakelen in de gebruikersinterface van Experience Manager Guides, voegt u de markering `ENABLES_GUIDES_AI` toe in de omgeving.
+Als u de functie AI Assistant wilt inschakelen in de gebruikersinterface van Experience Manager Guides, voegt u de markering `ENABLE_GUIDES_AI` toe in de omgeving.
 
 Zorg ervoor dat u de zelfde naam en configuratie zoals die in het volgende het schermschot wordt gegeven gebruikt.
 
