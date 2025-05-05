@@ -29,7 +29,7 @@ Details bundel:
 
 - Versie: **3.4**
 
-- Pakket: ****com.adobe.fmdita.api.maps****
+- Pakket: **&#x200B;**&#x200B;com.adobe.fmdita.api.maps&#x200B;**&#x200B;**
 
 - Klassegegevens:
 

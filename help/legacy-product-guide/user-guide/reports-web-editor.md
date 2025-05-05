@@ -42,6 +42,7 @@ U kunt een rapport van de onderwerpen tot stand brengen door de volgende stappen
    - **de Staat van het Document** De huidige staat van het onderwerp.
    - **Auteur** De gebruiker die het laatst aan het onderwerp werkte.
    - **Bovenliggende Kaart** De lijst van alle kaarten waar het onderwerp direct van verwijzingen wordt voorzien.
+
    >[!NOTE]
    >
    > Klik **verfrissen zich** om een nieuwe lijst van onderwerpen te krijgen en om het even welke verandering in uw kaartdossier te bekijken of als om het even welke verwijzing binnen uw onderwerpdossier wordt bijgewerkt.
@@ -63,7 +64,7 @@ Voer de volgende stappen uit om de metagegevens van uw verwijzingen in de huidig
    ![](images/web-editor-metadata-panel.png){width="800" align="left"}
 
 1. Van het **paneel van Filters** kunt u uw onderwerpen filtreren die op de **Staat van het Document** \ (de huidige staat van uw onderwerpen worden gebaseerd. Bijvoorbeeld als uw onderwerpen in Edit, In-Overzicht, of Gereviseerde staat zijn, zijn deze vermeld \), **Verwijzingen** \ (direct of indirect \), **Type van Dossier** \ (Kaart, Onderwerp, en Beeld \) van de verwijzing.
-1. U kunt ook verkiezen om slechts de **Dossiers zonder markeringen** te bekijken of ook specifieke markeringen van de **3} filter van Markeringen te kiezen {om de dossiers te bekijken verbonden aan hen.**
+1. U kunt ook verkiezen om slechts de **Dossiers zonder markeringen** te bekijken of ook specifieke markeringen van de **3&rbrace; filter van Markeringen te kiezen &lbrace;om de dossiers te bekijken verbonden aan hen.**
    1. U kunt ook de volgende opties voor het filteren van onderwerpen gebruiken om de volgende kolommen in de lijst met metagegevens weer te geven:
       - **Titel** \ (die door gebrek wordt geselecteerd \) De titel van het referenced dossier wordt gespecificeerd in de kaart DITA. U kunt op het bestand klikken om het te bewerken. U kunt ook op een audio- of videobestand klikken en dit afspelen in de webeditor. U kunt het volume of de weergave van de video wijzigen. In het snelmenu hebt u ook de mogelijkheid om de afspeelsnelheid te downloaden, te wijzigen of de afbeelding in beeld te bekijken.
 
@@ -137,6 +138,7 @@ Het **Multimedia** rapport verstrekt gedetailleerde informatie over de multimedi
    - **Type Multimedia** \ (die door gebrek wordt geselecteerd \) Type van multimedia. De beschikbare opties zijn Audio, Video of Afbeelding.
    - **gebruikt binnen** \ (die door gebrek wordt geselecteerd \) de verwijzingen waarin multimedia is gebruikt. U kunt op de verwijzing klikken om deze te bewerken.
    - **Type van Verwijzing** \ (die door gebrek wordt geselecteerd \) het type van verwijzing - direct of indirect.
+
    >[!NOTE]
    >
    > Klik **verfrissen zich** om een nieuwe lijst van multimedia te krijgen en om het even welke verandering in uw kaartdossier te bekijken of als om het even welke multimedia binnen uw kaart DITA wordt bijgewerkt.
@@ -159,9 +161,11 @@ U kunt het rapport voor verbroken koppelingen weergeven door de volgende stappen
 1. Van het **paneel van Filters** u kunt tot de lijst door verbindingen of door de namen van gebruikt in verwijzingen opdracht geven.
 
    - Wanneer u door **Gebroken Verbinding** opdracht geeft, worden de wegen van de gebroken verbindingen getoond in de eerste kolom en dan de namen van alle verwijzingen waarin zij zijn gebruikt, in een andere kolom op afzonderlijke rijen getoond. Als dezelfde verbroken koppeling in meerdere bestanden wordt gebruikt, worden deze op één rij weergegeven en worden ze als gegroepeerde of subrijen weergegeven. In de volgende schermafbeelding ziet u bijvoorbeeld drie verbroken koppelingen in de eerste kolom en de verwijzing waarin deze worden gebruikt. `TestMap.ditamap` wordt in de derde kolom weergegeven op drie aparte rijen.
+
    ![](images/broken-link-report.png){width="800" align="left"}
 
    - Als u door **in** kolom opdracht geeft gebruikt, zult u de omgezette mening bekijken waar de namen van de verwijzingen waarin de gebroken verbindingen zijn gebruikt in de eerste kolom vermeld zijn terwijl de gebroken verbindingen in een andere kolom op de zelfde rij worden vermeld. De volgende schermafbeelding toont bijvoorbeeld de verwijzing (waarin de verbroken koppeling wordt gebruikt) `TestMap.ditamap` in de eerste kolom en de verbroken koppelingen worden weergegeven in de derde kolom op dezelfde rij.
+
    ![](images/broken-link-filter-usedin.png){width="800" align="left"}
 1. U kunt uw gebroken verbindingen filtreren die op het **Type van Dossier** en **het Type van Verbinding** worden gebaseerd. De lijst met verbroken koppelingen wordt weergegeven op basis van uw selectie in de vervolgkeuzelijst. U kunt er bijvoorbeeld voor kiezen alleen de inhoudsverwijzingen in uw DITA-kaart weer te geven en een bestand toont alleen de inhoudsverwijzingen die erin worden gebruikt.
 
@@ -194,4 +198,4 @@ Klik **verfrissen zich** om een nieuwe lijst van gebroken verbindingen te krijge
 1. Klik **CSV van de Download** om de huidige momentopname van de gebroken verbindingen in de kaart te downloaden DITA. CSV bevat de geselecteerde kolommen en de verbroken verbindingen die in de Gebroken mening van Verbindingen worden gefiltreerd. U kunt dit CSV-bestand vervolgens openen en weergeven in elke CSV-editor.
 
 
-**Bovenliggend onderwerp:**[ Rapporten ](reports-intro.md)
+**Bovenliggend onderwerp:**&#x200B;[ Rapporten ](reports-intro.md)

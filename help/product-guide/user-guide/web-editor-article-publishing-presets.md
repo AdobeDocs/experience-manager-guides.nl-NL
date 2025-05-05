@@ -52,7 +52,7 @@ Nadat de voorinstelling is gemaakt, kunt u de uitvoer voor specifieke artikelen 
 
    ![ Nieuw ](images/knowledge-base-confirm-files-for-publishing.png){align="left"}
 
-U zult de status van het proces van de outputgeneratie bekijken. De **kolom van Onderwerpen** maakt een lijst van de onderwerpen waarvoor de output wordt geproduceerd terwijl de **3} kolom van de Status {toont de het publiceren status van elk onderwerp.**
+U zult de status van het proces van de outputgeneratie bekijken. De **kolom van Onderwerpen** maakt een lijst van de onderwerpen waarvoor de output wordt geproduceerd terwijl de **3&rbrace; kolom van de Status &lbrace;toont de het publiceren status van elk onderwerp.**
 
 
 ![](images/add-preset-output-generated_cs.png){align="left"}
@@ -66,4 +66,4 @@ Om de output te bekijken, sluit de Output Gegenereerde dialoogdoos en selecteert
 
 
 
-**Bovenliggend onderwerp:**[ Op artikel-gebaseerde het publiceren van de Redacteur ](web-editor-article-publishing.md)
+**Bovenliggend onderwerp:**&#x200B;[ Op artikel-gebaseerde het publiceren van de Redacteur ](web-editor-article-publishing.md)

@@ -31,4 +31,4 @@ ht-degree: 0%
 
 Na het upgradeproces moeten alle gebruikers het cachegeheugen van de browser wissen voordat ze de geüpgrade versie van AEM Guides gebruiken.
 
-**Bovenliggend onderwerp:**[ Download en installeer ](download-install.md)
+**Bovenliggend onderwerp:**&#x200B;[ Download en installeer ](download-install.md)

@@ -34,7 +34,7 @@ Voer de volgende stappen uit om de verwijzingen te controleren, gebruikend het v
 1. Voer het script voor validatie \[`/bin/fmdita/validatebtree?operation=validate`\] uit om te controleren of er nieuwe verbroken verwijzingen zijn.
 1. Als het validate manuscript om het even welke fouten meldt, kunt u het herstellen gebruikend het flardmanuscript.
 1. Registreer de hieronder gegeven details en deel hen indien nodig met uw team van het klantensucces:
-1. 
+1. &#x200B;
    - Wordt afgedrukt door script voor validatie
 - Pakket met &quot;`/content/fmdita/references`&quot;
 - Eventuele andere vereiste details, afhankelijk van het gerapporteerde scenario
@@ -50,8 +50,8 @@ Voer de volgende stappen uit om verbroken verwijzingen te repareren met behulp v
 > Het wordt aanbevolen de logbestanden te kopiëren en op te slaan ter referentie.
 
 1. Nadat het patchscript is uitgevoerd, kunt u de volgende controles uitvoeren:
-1. 
-   - Controleren of er een nieuw knooppunt is gemaakt onder `/content/fmdita``references_backup_<timestamp>"`
+1. &#x200B;
+   - Controleren of er een nieuw knooppunt is gemaakt onder `/content/fmdita` `references_backup_<timestamp>"`
 - Controleer of de referenties zijn gecorrigeerd
 
 **Logger**
@@ -344,7 +344,7 @@ In het volgende voorbeeld wordt getoond hoe u een `title` naar een `table` verpl
 
 De elementen van `paragraphStyleRule` worden hieronder beschreven:
 
-** `paraRule` element**
+**&#x200B; `paraRule` element**
 
 Het element `paraRule` is verplicht. Hiermee geeft u de toewijzingsregels voor alle alineastijlen op. In een document van het InDesign, is al tekst bevat binnen substructuur van de Stijlen van de Paragraaf, zelfs de paragrafen zonder enige stijl worden genoemd `\[No paragraph style\]`. De vierkante haakjes geven een ingebouwde stijlnaam voor een InDesign aan.
 

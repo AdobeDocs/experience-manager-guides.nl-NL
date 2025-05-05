@@ -45,7 +45,7 @@ Standaard kunt u de bestanden op titels weergeven. Terwijl u de cursor op een sj
 
 >[!NOTE]
 >
-> Als beheerder kunt u de lijst met bestanden ook weergeven in de Editor. Selecteer de **optie van de Naam van het 0} Dossier {van de** 3} sectie van de de vertoningsconfiguratie van de dossiers van de Redacteur in **voorkeur van de Gebruiker**.****
+> Als beheerder kunt u de lijst met bestanden ook weergeven in de Editor. Selecteer de **optie van de Naam van het 0&rbrace; Dossier {van de** 3} sectie van de de vertoningsconfiguratie van de dossiers van de Redacteur in **voorkeur van de Gebruiker**.**&#x200B;**
 
 Voer de volgende stappen uit om een onderwerp of kaartmalplaatje van de Redacteur tot stand te brengen:
 
@@ -75,7 +75,7 @@ Ook, kies het type van malplaatje dat u van de **Malplaatje** drop-down lijst wi
 
 Nadat u de sjabloon hebt gemaakt, moet u deze toevoegen aan uw algemene profiel of mapprofiel. Nadat het malplaatje wordt toegevoegd, zullen uw auteurs beginnen het nieuwe malplaatje in het onderwerp/kaartcreatieproces te bekijken.
 
-Gebruikend het **menu van Opties** op een bestaand malplaatje, kunt u verkiezen om **uit te geven** of **** het dupliceren. In geval van duplicatie blijven de structuur en het type \(van document\) van de sjabloon behouden en kunt u deze opnieuw gebruiken om er een andere sjabloon van te maken.
+Gebruikend het **menu van Opties** op een bestaand malplaatje, kunt u verkiezen om **uit te geven** of **&#x200B;**&#x200B;het dupliceren. In geval van duplicatie blijven de structuur en het type \(van document\) van de sjabloon behouden en kunt u deze opnieuw gebruiken om er een andere sjabloon van te maken.
 
 ![](images/template-options-menu-editor.png){width="500" align="left"}
 
@@ -230,4 +230,4 @@ De kaart genereert alle elementen waarnaar in de sjabloonmap wordt verwezen. Som
 
 - Als een andere kaart of een onderwerp op het zelfde niveau in de omslag wordt gecreeerd, dan worden de namen van de pas gecreëerde activa toegevoegd met 0.1.2, etc. U kunt ervoor kiezen de kaart te openen om het kaartbestand te bewerken of op te slaan in de opslagplaats.
 
-**Bovenliggend onderwerp:**[ Inleiding aan de Redacteur van de Kaart ](map-editor.md)
+**Bovenliggend onderwerp:**&#x200B;[ Inleiding aan de Redacteur van de Kaart ](map-editor.md)

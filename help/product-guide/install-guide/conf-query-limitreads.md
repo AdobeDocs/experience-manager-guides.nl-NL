@@ -33,4 +33,4 @@ Voer de volgende stappen uit om het aantal knooppunten dat een query tegelijkert
 
 Wanneer u deze kenmerkwaarde verhoogt, helpt het u het rapport voor grotere kaarten te produceren DITA.
 
-**Bovenliggend onderwerp:**[ pas de Redacteur van het Web ](conf-web-editor.md) aan
+**Bovenliggend onderwerp:**&#x200B;[ pas de Redacteur van het Web ](conf-web-editor.md) aan

@@ -39,7 +39,7 @@ In de redacteur van het Web, zijn de volgende configuraties georganiseerd onder 
 
 | Opties voor ServiceNow | Beschrijving |
 | --- | --- |
-| Profiel publiceren | Gebruik dropdown om van de de verbindingsprofielen te selecteren ServiceNow uw beheerder vormt. Meer over leren hoe uw beheerder een publicatieprofiel kan tot stand brengen, bekijk de **eigenschapbeschrijving van de Montages van de Redacteur** {in de [ Linkerpaneel ](./web-editor-features.md#id2051EA0M0HS) sectie. |
+| Profiel publiceren | Gebruik dropdown om van de de verbindingsprofielen te selecteren ServiceNow uw beheerder vormt. Meer over leren hoe uw beheerder een publicatieprofiel kan tot stand brengen, bekijk de **eigenschapbeschrijving van de Montages van de Redacteur** &lbrace;in de [ Linkerpaneel ](./web-editor-features.md#id2051EA0M0HS) sectie. |
 | Kennisbank | Gebruik dit gebied om de vereiste Kennisbank te selecteren ServiceNow. U kunt kennisbases in de plaats vormen ServiceNow om de inhoud op te slaan die op de toestemmingen wordt gebaseerd. De artikelen van deze DITA-kaart kunnen op deze kennisbanken worden gepubliceerd. |
 | Categorie en subcategorie | Categorieën zijn als hiërarchische bomen die worden gebruikt om de artikelen van de Kennisbank te vinden en te classificeren ServiceNow. Voeg een categorie en een subcategorie toe om de onderwerpen en subonderwerpen van TOC aan die categorie en subcategorie op de plaats ServiceNow te publiceren. |
 
@@ -47,7 +47,7 @@ In de redacteur van het Web, zijn de volgende configuraties georganiseerd onder 
 
 | Salesforce-opties | Beschrijving |
 | --- | --- |
-| Profiel publiceren | Gebruik de drop-down om van de de verbindingsprofielen te selecteren van Salesforce uw beheerder vormt. Meer over leren hoe uw beheerder een publicatieprofiel kan tot stand brengen, bekijk de **eigenschapbeschrijving van de Montages van de Redacteur** {in de [ Linkerpaneel ](./web-editor-features.md#id2051EA0M0HS) sectie. |
+| Profiel publiceren | Gebruik de drop-down om van de de verbindingsprofielen te selecteren van Salesforce uw beheerder vormt. Meer over leren hoe uw beheerder een publicatieprofiel kan tot stand brengen, bekijk de **eigenschapbeschrijving van de Montages van de Redacteur** &lbrace;in de [ Linkerpaneel ](./web-editor-features.md#id2051EA0M0HS) sectie. |
 | Recordtype | Gebruik het vervolgkeuzemenu om een van de recordtypen te selecteren die in Salesforce zijn ingesteld op basis van de zichtbaarheidsinstellingen die zijn gebaseerd op uw gebruikersprofiel. Met Salesforce-recordtypen kunt u vele records van één type voor dat object groeperen. Ze bepalen hoe uw publicatie wordt georganiseerd. U kunt bijvoorbeeld Type veelgestelde record selecteren en publiceren volgens de pagina-indeling en velden van de veelgestelde vragen. |
 | Veld voor artikelinhoud | U kunt verschillende velden en een unieke indeling voor elke recordtypesjabloon hebben. Gebruik deze velden om specifieke informatie in te voeren, afhankelijk van het type artikel. U kunt bijvoorbeeld de titel, het antwoord en de vergelijking van een artikel met veelgestelde vragen weergeven. |
 | Categorieën | Selecteer een categorie in het vervolgkeuzemenu om de onderwerpen van de inhoudsopgave in die categorie op de Salesforce-site te publiceren. |

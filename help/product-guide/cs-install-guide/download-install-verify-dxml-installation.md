@@ -18,7 +18,7 @@ Nadat u AEM Guides hebt geïnstalleerd, moet u controleren of de installatie is 
 
 1. Open de Developer Console van je Cloud Service.
 
-   Voor details om tot Developer Console toegang te hebben, zie {de toegang van 0} Developer Console ](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html) in AEM documentatie.[
+   Voor details om tot Developer Console toegang te hebben, zie {de toegang van 0} Developer Console [&#128279;](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html) in AEM documentatie.
 
 1. Open de lijst met OSGi-bundels in AEM.
 
@@ -29,4 +29,4 @@ Nadat u AEM Guides hebt geïnstalleerd, moet u controleren of de installatie is 
    De status zou *Actief* voor met succes opgestelde bundels moeten tonen. Als om het even welke bundel geen Actieve status heeft, dan controleer de AEM logboeken om de installatiekwestie problemen op te lossen.
 
 
-**Bovenliggend onderwerp:**[ Download en installeer ](download-install.md)
+**Bovenliggend onderwerp:**&#x200B;[ Download en installeer ](download-install.md)

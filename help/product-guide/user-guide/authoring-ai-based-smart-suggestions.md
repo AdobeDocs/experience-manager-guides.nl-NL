@@ -39,7 +39,7 @@ Voer de volgende stappen uit om de slimme suggesties te bekijken om aangewezen i
 
 
 1. U kunt de slimme suggesties weergeven in het deelvenster met suggesties.  Experience Manager Guides biedt suggesties voor inhoud die in een context lijkt of dezelfde betekenis heeft. Bijvoorbeeld, kunt u naar het onderwerp zoeken dat het nauwkeurige versieaantal, zoals &quot;versie 2023.03.12&quot;bevat. U kunt ook zoeken naar &quot;Adobe is hoofdkwartier in San Jose, Californië&quot; en vergelijkbare inhoud vinden zoals &quot;San Jose heeft de kwartalen van veel softwarebedrijven zoals Adobe.&quot;
-1. Selecteer **![ Informatie van de Inhoud 1} ](images/smart-suggestions-content-info-icon.svg) de Informatie van de Inhoud {om de details te bekijken.**
+1. Selecteer **![ Informatie van de Inhoud 1&rbrace; ](images/smart-suggestions-content-info-icon.svg) de Informatie van de Inhoud &lbrace;om de details te bekijken.**
 
    ![ het informatiepaneel van de Inhoud ](images/smart-suggestions-content-information.png){width="300" align="left"}
 

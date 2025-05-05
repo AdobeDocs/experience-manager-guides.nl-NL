@@ -33,4 +33,4 @@ U kunt een verzameling bulkactiveringskaarten verwijderen als deze niet meer nod
    De verzameling van de bulkactiveringskaart wordt uit het systeem verwijderd.
 
 
-**Bovenliggend onderwerp:**[ Bulk Activering van gepubliceerde inhoud ](conf-bulk-activation.md)
+**Bovenliggend onderwerp:**&#x200B;[ Bulk Activering van gepubliceerde inhoud ](conf-bulk-activation.md)

@@ -147,7 +147,7 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 - Foutberichten voor dubbele kaartnamen in de gebruikersinterface van Assets worden niet bijgewerkt. 14320
 - Er treedt een fout op in de logica voor het maken van versies tijdens het slepen en neerzetten van elementen. 14291
 - Herbruikbare inhoud slaat de element-id&#39;s over. 14213
-- De plaatsende controle om **paneel van de Variabelen van de Taal te verbergen** onder **lusje van de Output {ontbreekt.** (14194)
+- De plaatsende controle om **paneel van de Variabelen van de Taal te verbergen** onder **lusje van de Output &lbrace;ontbreekt.** (14194)
 - De Redacteur van het Web werpt toepassingsfouten wanneer het toevoegen van een nieuwe verwijzing of een onderwerp gebruikend een gespecialiseerd schema in de mening van de Lay-out. (14094)
 - Een ankerkoppeling naar `<dlentry>` of `<dt>` -element geeft de koppelingstekst niet weer. 13543
 - De **inzameling van Favorieten** in de Redacteur van het Web slaagt er niet in om te laden. 13495

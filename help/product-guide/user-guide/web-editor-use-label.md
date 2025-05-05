@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Met Adobe Experience Manager Guides kunt u labels toevoegen aan verschillende versies van een bestand. U kunt deze labels gebruiken om de versie op te geven die u wilt opnemen in een basislijn voor publicatie. Voor meer informatie over het gebruiken van etiketten om een basislijn tot stand te brengen, mening [ Werk met Basislijn ](generate-output-use-baseline-for-publishing.md#).
 
-Bijvoorbeeld, als u *versie 1.0* van een onderwerp in *versie 1.0* en *versie 1.1* van het zelfde onderwerp in *versie 2.0* wilt gebruiken, kunt u *versie 1.0* etiket op *versie 1.0* en *versie 2.0 toevoegen. 13} etiket op* versie 1.1 *.*
+Bijvoorbeeld, als u *versie 1.0* van een onderwerp in *versie 1.0* en *versie 1.1* van het zelfde onderwerp in *versie 2.0* wilt gebruiken, kunt u *versie 1.0* etiket op *versie 1.0* en *versie 2.0 toevoegen. 13&rbrace; etiket op* versie 1.1 *.*
 
 Nadat u de labels hebt toegevoegd, kunt u een basislijn maken en opgeven welke versie van het onderwerp moet worden opgenomen voor publicatie met die basislijn. Als u wilt zien welke versie in een basislijn moet worden opgenomen of uitgesloten, gebruikt u de optie Versiehistorie.
 
@@ -24,11 +24,11 @@ Nadat u de labels hebt toegevoegd, kunt u een basislijn maken en opgeven welke v
 Voer de volgende stappen uit om een etiket aan uw onderwerp van de Redacteur toe te voegen:
 
 1. Navigeer in het deelvenster Opslagplaats naar een onderwerp en open het in de Editor.
-1. Selecteer **etiket van de Versie** van **** dropdown van het Menu.
+1. Selecteer **etiket van de Versie** van **&#x200B;**&#x200B;dropdown van het Menu.
 
    ![](images/version-label-option.png){width="400" align="left"}
 
-   Het **dialoog van het Beheer van het Etiket van de Versie 0} wordt getoond.**
+   Het **dialoog van het Beheer van het Etiket van de Versie 0&rbrace; wordt getoond.**
 
 1. In de **dialoog van het Beheer van het Etiket van de Versie**, selecteer een versie waar u een etiket wilt toevoegen.
 1. Selecteer een etiket voor de geselecteerde versie en selecteer **toevoegen Etiket**.
@@ -81,4 +81,4 @@ Om een versielabel van een onderwerp te schrappen, gebruik **schrapping** knoop 
 ![](images/delete-labels.png){width="300" align="left"}
 
 
-**Bovenliggend onderwerp:**[ Inleiding aan Redacteur ](web-editor.md)
+**Bovenliggend onderwerp:**&#x200B;[ Inleiding aan Redacteur ](web-editor.md)

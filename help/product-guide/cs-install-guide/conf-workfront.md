@@ -60,7 +60,7 @@ Voer de volgende stappen uit om Adobe Workfront in Experience Manager Guides te 
 
    U wordt automatisch omgeleid naar de Workfront-configuratiepagina op Experience Manager Guides.
 
-6. Selecteer in de vervolgkeuzelijst voor aangepaste formulieren het aangepaste Adobe Workfront-formulier dat u voor Experience Manager Guides hebt gemaakt. Vereisten van de mening [ ](#prerequisites).
+6. Selecteer in de vervolgkeuzelijst voor aangepaste formulieren het aangepaste Adobe Workfront-formulier dat u voor Experience Manager Guides hebt gemaakt. Vereisten van de mening [&#128279;](#prerequisites).
 7. Selecteer **sparen en sluit** om de de configuratieveranderingen van Workfront toe te passen en te bewaren.
 
 Zodra gevormd, [ voeg gebruikers aan Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/add-users/create-manage-users/add-users) toe gebruikend de zelfde e-mailadressen zij in Experience Manager Guides hebben.

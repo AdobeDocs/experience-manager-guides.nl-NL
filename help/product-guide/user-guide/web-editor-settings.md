@@ -146,7 +146,7 @@ Dit bevat de Profielen die kunnen worden gebruikt om de **output van de Kennisba
 
 Vorm de server ServiceNow om de activa te uploaden.
 
-- Verbind met de **** server ServiceNow.
+- Verbind met de **&#x200B;**&#x200B;server ServiceNow.
 - Navigeer aan **Eigenschappen van het Systeem** > **Veiligheid**.
 - Schakel de volgende optie uit:
 
@@ -156,11 +156,11 @@ Vorm de server ServiceNow om de activa te uploaden.
 
   Zodra u app hebt gevormd, creeer het **ServiceNow** profiel.
 
-- Om een profiel tot stand te brengen, selecteer de Kennisbank ServiceNow van het **type van Server** dropdown. Ga een profiel **Naam** in. In **ServiceNow URL**, ga de consumentenplaats in u voor het publiceren van de output zou gebruiken en dan de **Gebruikersnaam** en **Wachtwoord** toevoegde die} door de plaats van de consument ServiceNow wordt verstrekt. Dan, **bevestigt** en **sparen** het pas gecreëerde profiel.
+- Om een profiel tot stand te brengen, selecteer de Kennisbank ServiceNow van het **type van Server** dropdown. Ga een profiel **Naam** in. In **ServiceNow URL**, ga de consumentenplaats in u voor het publiceren van de output zou gebruiken en dan de **Gebruikersnaam** en **Wachtwoord** toevoegde die&rbrace; door de plaats van de consument ServiceNow wordt verstrekt. Dan, **bevestigt** en **sparen** het pas gecreëerde profiel.
 
   ![ ServiceNow publiceert profiel ](./images/service-now-publish-profile.png){width="550" align="left"}
 
-  Nadat u bevestigt, kunt u het Publish Profiel in de outputvoorinstellingen van een Kaart selecteren DITA en het gebruiken om de output aan de **Salesforce** of **** server te produceren ServiceNow die u hebt gekozen.
+  Nadat u bevestigt, kunt u het Publish Profiel in de outputvoorinstellingen van een Kaart selecteren DITA en het gebruiken om de output aan de **Salesforce** of **&#x200B;**&#x200B;server te produceren ServiceNow die u hebt gekozen.
 
   Leer meer over de [ vooraf ingestelde output van de Kennisbank ](../user-guide/generate-output-knowledge-base.md).
 
@@ -184,7 +184,7 @@ Dit tabblad bevat opties voor het configureren van de Schematron-validaties in d
 
 ## Weergavekenmerken
 
-Net als in de lijst Kenmerken kunt u de lijst met kenmerken instellen die in de lijst met kenmerken van een element moet worden weergegeven. Door gebrek, zijn vier **attributen van de Vertoning** — publiek, platform, product, en steunen gevormd om in de attributenlijst van een element worden getoond. U kunt een vertoningsattribuut ook toevoegen gebruikend **** pictogram op de bovenkant toevoegen. U kunt om het even welke vertoningsattributen ook schrappen gebruikend het **pictogram van de Schrapping**.
+Net als in de lijst Kenmerken kunt u de lijst met kenmerken instellen die in de lijst met kenmerken van een element moet worden weergegeven. Door gebrek, zijn vier **attributen van de Vertoning** — publiek, platform, product, en steunen gevormd om in de attributenlijst van een element worden getoond. U kunt een vertoningsattribuut ook toevoegen gebruikend **&#x200B;**&#x200B;pictogram op de bovenkant toevoegen. U kunt om het even welke vertoningsattributen ook schrappen gebruikend het **pictogram van de Schrapping**.
 
 De kenmerken die voor een element zijn gedefinieerd, worden weergegeven in de layoutweergave en in de contourweergave.
 
@@ -244,4 +244,4 @@ Er wordt een fout weergegeven als het pad naar de metagegevens leeg is. Als u he
 U kunt ook de volgorde definiëren waarin deze metagegevenstags worden weergegeven. Als u de standaardvolgorde van deze tags wilt wijzigen, selecteert u de stippelbalken om de tags naar de gewenste locatie te slepen.
 De meta-gegevensetiketten verschijnen in de zelfde opeenvolging in het **de geschiedenisdialoogvakje van de Versie** van de Redacteur.
 
-**Bovenliggend onderwerp:**[ Inleiding aan de Redacteur ](web-editor.md)
+**Bovenliggend onderwerp:**&#x200B;[ Inleiding aan de Redacteur ](web-editor.md)

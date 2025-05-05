@@ -41,7 +41,7 @@ Voer de volgende stappen uit om toegang te krijgen tot en gebruik te maken van h
 
 1. Selecteer een revisietaak.
 
-   U wordt getoond geeft Eigenschappen uit en [ 1} opties van de Status {in de toolbar.](#check-review-status-id199RF0A0UHS)
+   U wordt getoond geeft Eigenschappen uit en [ 1&rbrace; opties van de Status &lbrace;in de toolbar.](#check-review-status-id199RF0A0UHS)
 
 1. Als u **selecteert geef Eigenschappen** uit, wordt de pagina van de Details van de Taak getoond.
 
@@ -126,4 +126,4 @@ Het statusrapport voor de controletaak bevat de volgende details:
 - Het totale aantal opmerkingen over alle onderwerpen. In het geval van veelvoudige onderwerpen onder overzicht, wordt het aantal commentaren voor elk onderwerp vermeld \ (tussen haakjes \) naast de onderwerpnaam.
 - De datum waarop een onderwerp voor het laatst is geopend door de revisor.
 
-**Bovenliggend onderwerp:**[ Inleiding aan overzicht ](review.md)
+**Bovenliggend onderwerp:**&#x200B;[ Inleiding aan overzicht ](review.md)

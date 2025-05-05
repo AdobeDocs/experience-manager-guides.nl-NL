@@ -66,7 +66,7 @@ Om een nieuwe versie van het dossier tot stand te brengen, uitgezocht **sparen a
 
 ***voeg aan*** toe: U kunt van de volgende opties kiezen:
 
-- **Favorieten**: Om het geselecteerde dossier aan favoriete inzameling toe te voegen, selecteer **toevoegen aan \> Favorieten**. Voor meer details, zie de **** eigenschapbeschrijving van Favorieten in de [ Linkerpaneel ](web-editor-features.md#id2051EA0M0HS) sectie.
+- **Favorieten**: Om het geselecteerde dossier aan favoriete inzameling toe te voegen, selecteer **toevoegen aan \> Favorieten**. Voor meer details, zie de **&#x200B;**&#x200B;eigenschapbeschrijving van Favorieten in de [ Linkerpaneel ](web-editor-features.md#id2051EA0M0HS) sectie.
 
 
 
@@ -160,7 +160,7 @@ Afhankelijk van of het bestand vergrendeld/ontgrendeld is en of de opgeslagen of
 
 **de vergelijkingen van MathML van het Tussenvoegsel**
 
-- Experience Manager Guides geeft u een out-of-the-box steun voor het opnemen van de vergelijkingen van MathML door integratie met ](https://docs.wiris.com/en/mathtype/mathtype_web/intro) toepassing van het Web MathType [. Om een vergelijking van MathML op te nemen, selecteer het **pictogram van het Element van het Tussenvoegsel** en type mathml. Wanneer u mathml element van de lijst selecteert, wordt de **dialoog van MathML van het Tussenvoegsel** getoond:
+- Experience Manager Guides geeft u een out-of-the-box steun voor het opnemen van de vergelijkingen van MathML door integratie met [&#128279;](https://docs.wiris.com/en/mathtype/mathtype_web/intro) toepassing van het Web MathType . Om een vergelijking van MathML op te nemen, selecteer het **pictogram van het Element van het Tussenvoegsel** en type mathml. Wanneer u mathml element van de lijst selecteert, wordt de **dialoog van MathML van het Tussenvoegsel** getoond:
 
 ![ neem mathml vergelijking in mathml redacteur op ](images/insert-mathml-equation.png){width="550" align="left"}
 
@@ -253,4 +253,4 @@ Ga als volgt te werk om automatisch een id voor een of meerdere elementen te gen
    Alternatief kunt u in breadcrumb met de rechtermuisknop klikken en **selecteren produceert IDs**.
 
 
-**Bovenliggend onderwerp:**[ Werk met de Redacteur van het Web ](web-editor.md)
+**Bovenliggend onderwerp:**&#x200B;[ Werk met de Redacteur van het Web ](web-editor.md)

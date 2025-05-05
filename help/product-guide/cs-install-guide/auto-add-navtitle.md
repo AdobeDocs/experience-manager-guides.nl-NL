@@ -54,4 +54,4 @@ Ga als volgt te werk om `@navtitle` -kenmerk standaard op te nemen in de eigensc
 
 Met deze configuratie bevat elk referentiebestand dat u toevoegt aan een kaart standaard het kenmerk `@navtitle` .
 
-**Bovenliggend onderwerp:**[ pas de Redacteur van het Web ](conf-web-editor.md) aan
+**Bovenliggend onderwerp:**&#x200B;[ pas de Redacteur van het Web ](conf-web-editor.md) aan

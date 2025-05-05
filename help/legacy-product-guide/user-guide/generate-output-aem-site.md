@@ -32,6 +32,6 @@ Leer meer over [ AEM Sites vooraf instelt in de Redacteur van het Web ](generate
 
 1. Als u uitvoervoorinstellingen voor de AEM-site wilt openen, selecteert u een DITA-toewijzingsbestand in de gebruikersinterface van Assets.
 1. Selecteer de Uitvoervoorinstellingen en selecteer vervolgens de uitvoeroptie voor de AEM-site.
-1. In het kaartdashboard, geeft de klik **** op de bovenkant uit om de diverse configuraties bij te werken, en klikt dan **sparen**.
+1. In het kaartdashboard, geeft de klik **&#x200B;**&#x200B;op de bovenkant uit om de diverse configuraties bij te werken, en klikt dan **sparen**.
 
 Leer meer over [ AEM Sites vooraf instelt op het kaartdashboard ](generate-output-aem-site-map-dashboard.md).

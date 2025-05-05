@@ -22,7 +22,7 @@ Toont de momenteel geopende onderwerpen in de Redacteur als dossierlusjes. U kun
 
 >[!NOTE]
 >
-> Als beheerder kunt u de lijst met bestanden ook weergeven op bestandsnamen op de tabbladen. Selecteer de **Filename** optie van de **3} sectie van de de vertoningsconfiguratie van de dossiers van de Redacteur in [ voorkeur van de Gebruiker ](./intro-home-page.md#user-preferences).**
+> Als beheerder kunt u de lijst met bestanden ook weergeven op bestandsnamen op de tabbladen. Selecteer de **Filename** optie van de **3&rbrace; sectie van de de vertoningsconfiguratie van de dossiers van de Redacteur in [ voorkeur van de Gebruiker ](./intro-home-page.md#user-preferences).**
 
 Als u het tabblad Bestand selecteert, wordt een contextmenu geopend met de opties Opslaan als nieuwe versie, Kopiëren, Zoeken in, Toevoegen aan, Eigenschappen, Splitsen, Downloaden als PDF en Sluiten.
 
@@ -52,4 +52,4 @@ Een krachtig, door AI aangedreven hulpmiddel dat wordt ontworpen om uw productiv
    - **Op-gebouwSoftware**: Als u Adobe Experience Manager Guides (4.2.1 en later) gebruikt, die de **optie van Assets** selecteert neemt u aan uw huidige dossierweg in Assets UI.
 - **Montages**: Neemt u aan de dialoog van de Montages van de Redacteur. Voor details, verwijs naar [ Werkend met de Montages van de Redacteur ](./web-editor-settings.md).
 
-**Bovenliggend onderwerp:**[ Inleiding aan de Redacteur ](web-editor.md)
+**Bovenliggend onderwerp:**&#x200B;[ Inleiding aan de Redacteur ](web-editor.md)

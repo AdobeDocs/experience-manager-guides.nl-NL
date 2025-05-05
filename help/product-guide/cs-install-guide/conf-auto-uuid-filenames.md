@@ -26,4 +26,4 @@ Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configur
 >
 > Als deze optie is ingeschakeld, zien auteurs niet de optie om de bestandsnaam op te geven tijdens het maken van een nieuw onderwerp- of kaartbestand. Een nieuw onderwerp of kaartdossier kan van Assets UI en de Redacteur van het Web worden gecreeerd.
 
-**Bovenliggend onderwerp:**[ vorm filenames ](conf-file-names.md)
+**Bovenliggend onderwerp:**&#x200B;[ vorm filenames ](conf-file-names.md)

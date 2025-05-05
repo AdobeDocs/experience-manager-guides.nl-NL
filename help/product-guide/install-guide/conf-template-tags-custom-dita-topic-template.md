@@ -77,4 +77,4 @@ Voer de volgende stappen uit om een map voor uw aangepaste DITA-onderwerpsjablon
 
 Als de gespecificeerde plaats in DAM bestaat, dan worden alle standaardkaart en onderwerpmalplaatjes gekopieerd in die omslag. Als de plaats niet bestaat, dan wordt de omslag gecreeerd met alle standaardkaart en onderwerpmalplaatjes.
 
-**Bovenliggend onderwerp:**[ vorm onderwerp en kaartmalplaatjes ](conf-template-tags.md)
+**Bovenliggend onderwerp:**&#x200B;[ vorm onderwerp en kaartmalplaatjes ](conf-template-tags.md)

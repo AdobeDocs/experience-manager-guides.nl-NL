@@ -101,7 +101,7 @@ De volgende widgets zijn aanwezig in de sectie Widgets:
   De volgende opties zijn beschikbaar wanneer u de muisaanwijzer op een bestand plaatst:
 
    - **Open in redacteur**: Staat u toe om het dossier in de Redacteur te openen. U kunt een bestand ook openen door het te selecteren.
-   - **Vastzetten/unpin**: Staat u toe om één of meerdere dossiers aan Recente dossiers widget vast te zetten. Vastgezette bestanden worden bovenaan in de widgetlijst weergegeven. Om een dossier los te maken, gebruik **** optie vrijmaken.
+   - **Vastzetten/unpin**: Staat u toe om één of meerdere dossiers aan Recente dossiers widget vast te zetten. Vastgezette bestanden worden bovenaan in de widgetlijst weergegeven. Om een dossier los te maken, gebruik **&#x200B;**&#x200B;optie vrijmaken.
    - **verwijder**: Staat u toe om het dossier uit Recente dossiers widget te verwijderen.
 
   **creeer nieuw dossier van het Nieuwe dossier dropdown menu**
@@ -172,7 +172,7 @@ De gebruikersvoorkeuren zijn beschikbaar voor alle auteurs. Met de voorkeuren ku
   ![](images/user_preference_editor_appearance.png){align="left"}
 
    - **de vertoningsconfiguratie van de dossiers van de Redacteur**: Selecteer de standaardmanier om de dossiers in de Redacteur te bekijken. U kunt de bestandenlijst weergeven op titel of bestandsnaam in de verschillende deelvensters van de weergave Auteur. Standaard worden de bestanden op titel weergegeven in de Editor.
-   - **het thema van de Toepassing en de mening van Source**: U kunt van de Lichte of Donkere thema&#39;s voor de toepassing en bronmening kiezen. In het geval van het thema Licht gebruiken de werkbalken en deelvensters een lichtgrijze achtergrond. In het geval van het thema Donker gebruiken de werkbalken en deelvensters een achtergrond met een zwarte kleur. Selecteer **thema van het apparaat van 0} Gebruik {om Experience Manager Guides toe te staan om de lichte en donkere thema&#39;s te selecteren die op het thema van uw apparaat worden gebaseerd.**
+   - **het thema van de Toepassing en de mening van Source**: U kunt van de Lichte of Donkere thema&#39;s voor de toepassing en bronmening kiezen. In het geval van het thema Licht gebruiken de werkbalken en deelvensters een lichtgrijze achtergrond. In het geval van het thema Donker gebruiken de werkbalken en deelvensters een achtergrond met een zwarte kleur. Selecteer **thema van het apparaat van 0&rbrace; Gebruik &lbrace;om Experience Manager Guides toe te staan om de lichte en donkere thema&#39;s te selecteren die op het thema van uw apparaat worden gebaseerd.**
 
      In alle thema&#39;s wordt het bewerkingsgebied van de inhoud weergegeven in een witte-kleurenachtergrond in de weergave Auteur.
 

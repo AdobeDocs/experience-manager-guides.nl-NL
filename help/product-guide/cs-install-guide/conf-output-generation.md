@@ -269,7 +269,7 @@ Als u het element `table` wilt uitsluiten van afvlakking, voegt u de volgende ei
 
 ### De versie voor verwijderde pagina&#39;s configureren in AEM Site-uitvoer
 
-Wanneer u de output van de Plaats van AEM met **schrapping en** creeert ****optie die voor het Bestaande plaatsen van de Pagina&#39;s van de Output wordt geselecteerd, wordt een versie gecreeerd voor pagina \(s \) die worden geschrapt. U kunt het systeem vormen om de verwezenlijking van een versie vóór schrapping tegen te houden.
+Wanneer u de output van de Plaats van AEM met **schrapping en** creeert **&#x200B;**&#x200B;optie die voor het Bestaande plaatsen van de Pagina&#39;s van de Output wordt geselecteerd, wordt een versie gecreeerd voor pagina \(s \) die worden geschrapt. U kunt het systeem vormen om de verwezenlijking van een versie vóór schrapping tegen te houden.
 
 Voer de volgende stappen uit om te stoppen met het maken van een versie voor de pagina\(s\) die wordt verwijderd:
 

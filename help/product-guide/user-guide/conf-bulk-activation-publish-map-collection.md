@@ -85,4 +85,4 @@ Er wordt een succesbericht weergegeven wanneer de kaartuitvoer in een wachtrij w
 
 Nadat de uitvoer voor de geselecteerde kaartbestanden is geactiveerd, wordt het tabblad voor de auditgeschiedenis bijgewerkt en wordt de meest recente geactiveerde uitvoer bovenaan weergegeven. De **Gepubliceerde** kolom wordt bijgewerkt met de het publiceren datum en tijd.
 
-**Bovenliggend onderwerp: **[ Bulk Activering van gepubliceerde inhoud ](conf-bulk-activation.md)
+**Bovenliggend onderwerp: &#x200B;** [ Bulk Activering van gepubliceerde inhoud ](conf-bulk-activation.md)

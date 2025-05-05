@@ -28,11 +28,11 @@ De auto-sparen eigenschap wordt niet toegelaten door gebrek en u moet dit van co
 
 1. Onderzoek naar en klik op **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** bundel.
 
-1. In de *montages 0} XmlEditorConfig, selecteer **Auto sparen**optie.*
+1. In de *montages 0&rbrace; XmlEditorConfig, selecteer **Auto sparen**&#x200B;optie.*
 
 1. Op het **Auto sparen het gebied van het Interval**, specificeer het tijdinterval in seconden om de auto-sparen eigenschap teweeg te brengen.
 
 1. Klik **sparen**.
 
 
-**Bovenliggend onderwerp:**[ pas de Redacteur van het Web ](conf-web-editor.md) aan
+**Bovenliggend onderwerp:**&#x200B;[ pas de Redacteur van het Web ](conf-web-editor.md) aan

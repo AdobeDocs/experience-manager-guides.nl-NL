@@ -19,7 +19,7 @@ Voer de volgende stappen uit om de vertaalstatus van een kaart te bekijken DITA:
 
 1. Navigeer aan het vereiste DITA kaartdossier door de **Console van de Kaart** in de Redacteur.
 1. Selecteer het **Vertaling** lusje.
-1. In het **paneel van de Vertaling** op de linkerzijde, controle-binnen de taal van de **Beschikbare Talen** lijst die u de status wilt controleren **** toepassen en selecteren.
+1. In het **paneel van de Vertaling** op de linkerzijde, controle-binnen de taal van de **Beschikbare Talen** lijst die u de status wilt controleren **&#x200B;**&#x200B;toepassen en selecteren.
 1. Alle onderwerpen met de geselecteerde doeltaal worden samen met de   vertaalstatus.
 
    >[!NOTE]
@@ -28,4 +28,4 @@ Voer de volgende stappen uit om de vertaalstatus van een kaart te bekijken DITA:
 
    ![](images/translation-status-new.png){align="left"}
 
-**Bovenliggend onderwerp:**[ het vertaaloverzicht van de Inhoud ](translation.md)
+**Bovenliggend onderwerp:**&#x200B;[ het vertaaloverzicht van de Inhoud ](translation.md)

@@ -475,7 +475,7 @@ Voer de volgende stappen uit om de standaardvragen te vormen:
    >
    >U kunt standaardvragen voor het **Slimme paneel van de Hulp** aan het globale of een omslag-niveau profiel vormen.
 
-1. Selecteer het **lusje van de Configuratie van de Redacteur van 0} XML.**
+1. Selecteer het **lusje van de Configuratie van de Redacteur van 0&rbrace; XML.**
 
 1. Klik **uitgeven** pictogram op de bovenkant.
 1. In de **UI van de Redacteur van XML configuratie** sectie, selecteer het **pictogram van de Download** om het `ui_config.json` dossier op uw lokaal systeem te downloaden.
@@ -520,7 +520,7 @@ Met deze instelling bepaalt u de werkbalk en de andere gebruikersinterface-eleme
 
 >[!NOTE]
 >
-> Voor de release van AEM Guides 2502 en nieuwere versies wordt aangeraden de extensie JSON te gebruiken in plaats van `ui_config.json` voor aanpassing. Voor details, verwijs naar de **sectie van de Configuratie van de Redacteur UI van 0} XML hierboven.**
+> Voor de release van AEM Guides 2502 en nieuwere versies wordt aangeraden de extensie JSON te gebruiken in plaats van `ui_config.json` voor aanpassing. Voor details, verwijs naar de **sectie van de Configuratie van de Redacteur UI van 0&rbrace; XML hierboven.**
 
 **CSS de Lay-out van het Malplaatje**
 

@@ -110,7 +110,7 @@ Voor meer details, mening [ de Orde van de Pagina ](../native-pdf/components-pdf
 
 In een native PDF-uitvoer beginnen standaard alle secties op een nieuwe pagina. Nu kunt u een sectie samenvoegen tot de vorige of volgende pagina. Hiermee wordt de sectie gepubliceerd in overeenstemming met de geselecteerde pagina in de PDF-uitvoer en is er geen pagina-einde tussen.
 
-Voor meer details, bekijk de **eigenschapbeschrijving van 0} pagina&#39;s van de Fusie {in [ sectie van de Orde van de Pagina ](../native-pdf/components-pdf-template.md#page-order).**
+Voor meer details, bekijk de **eigenschapbeschrijving van 0&rbrace; pagina&#39;s van de Fusie &lbrace;in [ sectie van de Orde van de Pagina ](../native-pdf/components-pdf-template.md#page-order).**
 
 ### Een hoofdstuk vanaf de huidige pagina starten
 
@@ -124,7 +124,7 @@ Voor meer details, bekijk de **Algemene** lusjebeschrijving in [ Geavanceerde Mo
 
 U kunt ook aangepaste paginalay-outs maken en deze als statische pagina&#39;s publiceren in de PDF-uitvoer. Zo kunt u statische inhoud toevoegen, zoals notities of lege pagina&#39;s.
 
-Voor meer details, bekijk de **Statische 1} eigenschapbeschrijving van pagina&#39;s {in [ sectie van de Volgorde van de Pagina ](../native-pdf/components-pdf-template.md#page-order).**
+Voor meer details, bekijk de **Statische 1&rbrace; eigenschapbeschrijving van pagina&#39;s &lbrace;in [ sectie van de Volgorde van de Pagina ](../native-pdf/components-pdf-template.md#page-order).**
 
 
 ### Variabelen in kruisverwijzingen

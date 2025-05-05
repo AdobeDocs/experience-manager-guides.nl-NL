@@ -194,7 +194,7 @@ Voer de volgende stappen uit om de workflow voor het uitnemen van metagegevens u
 
 1. Klik op de **verbinding van Adobe Experience Manager** bij de bovenkant en kies **Hulpmiddelen**.
 
-1. Selecteer **Gidsen** van de lijst van hulpmiddelen en klik de **3} tegel van de Extractie van Metagegevens DITA {.**
+1. Selecteer **Gidsen** van de lijst van hulpmiddelen en klik de **3&rbrace; tegel van de Extractie van Metagegevens DITA &lbrace;.**
 
 1. Als u meta-gegevens uit één enkel dossier en zijn gebiedsdelen wilt halen, klik **Uitgezocht een verbinding van het Dossier** en doorblader voor een dossier.
 

@@ -36,7 +36,7 @@ Voer de volgende stappen uit om een basislijn te maken:
 
 1. Open een DITA kaartdossier in Assets UI en navigeer aan de **Basislijnen** pagina.
 2. Selecteer **creeer** op top-left.
-3. Op de pagina van de Basislijn, ga een naam voor de Basislijn op het **gebied van de Naam van de 1} Basislijn 0} in.**
+3. Op de pagina van de Basislijn, ga een naam voor de Basislijn op het **gebied van de Naam van de 1&rbrace; Basislijn 0&rbrace; in.**
 
    ![](images/create-baseline-assets-ui.png){width="300" align="left"}
 
@@ -171,4 +171,4 @@ Voer de volgende stappen uit om een vertaalde basislijn te exporteren:
 1. \ (Facultatief \) om een Basislijn uit te voeren die reeds wordt uitgevoerd, uitgezocht **Overschrijf Bestaande Basislijn** en selecteer dan **Basislijn van de Uitvoer**.
 
 
-**Bovenliggend onderwerp:**[ Productie van de Output ](generate-output.md)
+**Bovenliggend onderwerp:**&#x200B;[ Productie van de Output ](generate-output.md)

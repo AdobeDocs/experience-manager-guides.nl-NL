@@ -122,7 +122,7 @@ De variabelen met dezelfde id worden geïmporteerd wanneer u het bestand importe
 >[!NOTE]
 > 
 ><ul><li>Als het dossier geen dossier van XML is, of als het dossier een onjuist formaat bevat dat niet met de taalvariabelen in kaart brengt, bekijkt u een fout dat er een kwestie met het dossier van XML is. 
-&gt;<li>Als het bestand geen variabelen met dezelfde id bevat, wordt u gewaarschuwd dat er geen overeenkomstige taalvariabele in het geïmporteerde bestand wordt gevonden.
+>&gt;<li>Als het bestand geen variabelen met dezelfde id bevat, wordt u gewaarschuwd dat er geen overeenkomstige taalvariabele in het geïmporteerde bestand wordt gevonden.
 
 ### Opties voor een taalvariabele
 
@@ -130,7 +130,7 @@ Beweeg over de variabele om het **menu van Opties** voor het te bekijken.
 
 <img width="550" alt="optiemenu voor taalvariabelen" src="./assets/language-variable-user-options.png">
 
-*gebruik het **menu van Opties**om, een taalvariabele te schrappen voor te vertonen of te dupliceren.*
+*gebruik het **menu van Opties**&#x200B;om, een taalvariabele te schrappen voor te vertonen of te dupliceren.*
 
 U kunt zowel toepassings- als gebruikersvariabelen voorvertonen. Om te bekijken hoe de waarde van de variabele in de output wordt getoond, selecteer **Voorproef** van het **menu van Opties** van de geselecteerde variabele.
 U kunt ook verkiezen om **Schrapping** of **te dupliceren** de gebruikersvariabelen. Als u een variabele uit één taal verwijdert, wordt deze automatisch uit alle talen verwijderd.

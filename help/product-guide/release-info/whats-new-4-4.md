@@ -27,7 +27,7 @@ Experience Manager Guides beschikt nu over een verbeterde functie voor versiehis
 ![ de geschiedenisdialoogdoos van de Versie ](assets/version-history-dialog-web-editor.png){width="800" align="left"}
 *Voorproef de veranderingen in de verschillende versies van een onderwerp.*
 
-Leer meer over de **eigenschapbeschrijving van de Geschiedenis van de Versie 0} {in het [ Linkerpaneel (erfenis) ](/help/legacy-product-guide/user-guide/web-editor-features.md#id2051EA0M0HS) sectie.**
+Leer meer over de **eigenschapbeschrijving van de Geschiedenis van de Versie 0&rbrace; &lbrace;in het [ Linkerpaneel (erfenis) ](/help/legacy-product-guide/user-guide/web-editor-features.md#id2051EA0M0HS) sectie.**
 
 ## Voorinstellingen voor voorwaarden beheren
 
@@ -56,7 +56,7 @@ Nu, terwijl het ontwerpen, kunt u de markeringen van dossiermeta-gegevens bijwer
 
 *de meta-gegevens van de Update en geeft dossiereigenschappen van het juiste paneel uit.*
 
-Voor meer details, verwijs naar de **eigenschapbeschrijving van de Eigenschappen van het 0} Dossier {binnen de [ Juiste 3} sectie van het Comité.**](../user-guide/web-editor-features.md#id2051EB003YK)
+Voor meer details, verwijs naar de **eigenschapbeschrijving van de Eigenschappen van het 0&rbrace; Dossier {binnen de [ Juiste 3} sectie van het Comité.**](../user-guide/web-editor-features.md#id2051EB003YK)
 
 ## De belangrijkste attributen van de mening in de Mening van de Kaart
 
@@ -67,7 +67,7 @@ Wanneer u zeer belangrijke attributen voor het onderwerp of kaartverwijzingen be
 *Mening de belangrijkste attributen in de Mening van de Kaart.*
 
 
-Voor meer details, verwijs naar de **eigenschapbeschrijving van de Mening van de Kaart** {in de [ Linkerpaneel ](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.
+Voor meer details, verwijs naar de **eigenschapbeschrijving van de Mening van de Kaart** &lbrace;in de [ Linkerpaneel ](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.
 
 ## De mogelijkheid om een basislijn te dupliceren op basis van een label
 
@@ -123,7 +123,7 @@ alle geldige elementen die met &#39;t&#39; beginnen.
 *Type een karakter om naar alle geldige elementen te zoeken die met het karakter beginnen.*
 
 
-Voor meer details, bekijk de **eigenschapbeschrijving van het Element van het 0} Tussenvoegsel {in de [ Linkerpaneel ](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.**
+Voor meer details, bekijk de **eigenschapbeschrijving van het Element van het 0&rbrace; Tussenvoegsel &lbrace;in de [ Linkerpaneel ](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.**
 
 
 ## De mogelijkheid om een lijst op hetzelfde niveau te splitsen
@@ -134,7 +134,7 @@ Nu, kunt u uw lijst in de Redacteur van het Web gemakkelijk verdelen. Selecteer 
 
 *selecteer de optie om de huidige lijst te verdelen.*
 
-Voor meer details, bekijk de **eigenschapbeschrijving van de Lijst van het 0} Tussenvoegsel {in de [ Linkerpaneel ](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.**
+Voor meer details, bekijk de **eigenschapbeschrijving van de Lijst van het 0&rbrace; Tussenvoegsel &lbrace;in de [ Linkerpaneel ](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.**
 
 ## DITA-elementen eenvoudig opheffen
 
@@ -145,7 +145,7 @@ Voor meer details, bekijk **Unwrap een element** sectie van de [ andere eigensch
 
 Nu, kunt u tot de eigenschap van het Dossier van het juiste paneel **toegang hebben** op alle vier wijzen of meningen: Lay-out, Auteur, Source, en Voorproef.  Hierdoor kunt u de eigenschappen van uw bestand bekijken, zelfs als u tussen de verschillende modi schakelt.
 
-Voor meer details, bekijk de **eigenschapbeschrijving van de Eigenschappen van het 0} Dossier {in de [ Juiste 3} sectie van het Comité.**](../user-guide/web-editor-features.md#id2051EB003YK)
+Voor meer details, bekijk de **eigenschapbeschrijving van de Eigenschappen van het 0&rbrace; Dossier {in de [ Juiste 3} sectie van het Comité.**](../user-guide/web-editor-features.md#id2051EB003YK)
 
 
 ## Bestanden weergeven op titel of bestandsnamen
@@ -154,7 +154,7 @@ U kunt nu de standaardmanier kiezen om de bestanden weer te geven in de webedito
 
 ![ de dialoog van de Voorkeur van de Gebruiker ](assets/user-preferences-2311.png){width="550" align="left"}
 
-*verander de standaardmanier om de dossiers van de **2} dialoog van de Voorkeur van de Gebruiker te bekijken.***
+*verander de standaardmanier om de dossiers van de **2&rbrace; dialoog van de Voorkeur van de Gebruiker te bekijken.***
 
 
 ## Bestandstabbladen herstellen bij vernieuwen van browser
@@ -259,7 +259,7 @@ Leer meer over het [ malplaatje van de PDF ](../native-pdf/pdf-template.md).
 
 ### De volgorde van pagina&#39;s wijzigen en meerdere pagina&#39;s per vel publiceren
 
-Naast het publiceren van de pagina&#39;s volgens het brondocument, kunt u ook de volgorde van pagina&#39;s in PDF wijzigen terwijl u een document met meerdere pagina&#39;s publiceert.  Dit biedt u de flexibiliteit om de pagina&#39;s in verschillende volgorden, zoals alle oneven, of alle even pagina&#39;s eerst te publiceren. U kunt de pagina&#39;s ook als een boek publiceren en lezen. U kunt ook het aantal pagina&#39;s bepalen dat u op één vel papier wilt publiceren. Voor meer details, bekijk de ](../native-pdf/components-pdf-template.md#page-organization) sectie van de Organisatie van de Pagina 0} {.[
+Naast het publiceren van de pagina&#39;s volgens het brondocument, kunt u ook de volgorde van pagina&#39;s in PDF wijzigen terwijl u een document met meerdere pagina&#39;s publiceert.  Dit biedt u de flexibiliteit om de pagina&#39;s in verschillende volgorden, zoals alle oneven, of alle even pagina&#39;s eerst te publiceren. U kunt de pagina&#39;s ook als een boek publiceren en lezen. U kunt ook het aantal pagina&#39;s bepalen dat u op één vel papier wilt publiceren. Voor meer details, bekijk de [&#128279;](../native-pdf/components-pdf-template.md#page-organization) sectie van de Organisatie van de Pagina 0&rbrace; &lbrace;.
 
 ### Woordenlijsttermen sorteren op basis van sorteersleutels
 

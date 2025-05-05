@@ -17,7 +17,7 @@ U kunt uw vragen stellen en op een informatieve manier antwoorden krijgen. Het a
 
 Bijvoorbeeld, kunt u vragen zoals *willen stellen hoe ik een kaart publiceer?* U krijgt een antwoord en de koppelingen voor de verwante artikelen. Als u vervolgens wilt leren hoe u een specifieke methode kunt gebruiken om de uitvoer te publiceren, kunt u er vragen over stellen. Bijvoorbeeld, *hoe ik een kaart aan PDF publiceer?*
 
-Wanneer u **Medewerker AI** op de Homepage, de console van de Kaart, of de Redacteur opent, opent het **3} paneel van de Hulp {op het recht.** In het geval van de Editor wordt het deelvenster Authoring ook weergegeven met slimme ontwerpmogelijkheden. Voor details, mening [ AI Medewerker aan auteursdocumenten ](./ai-assistant-right-panel.md)
+Wanneer u **Medewerker AI** op de Homepage, de console van de Kaart, of de Redacteur opent, opent het **3&rbrace; paneel van de Hulp &lbrace;op het recht.** In het geval van de Editor wordt het deelvenster Authoring ook weergegeven met slimme ontwerpmogelijkheden. Voor details, mening [ AI Medewerker aan auteursdocumenten ](./ai-assistant-right-panel.md)
 
 ![ het Slimme paneel van de Hulp ](images/smart-help-panel.png){width="300" align="left"}
 

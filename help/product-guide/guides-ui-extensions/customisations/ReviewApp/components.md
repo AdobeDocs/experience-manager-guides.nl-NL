@@ -22,7 +22,7 @@ Hier volgen de belangrijkste onderdelen van de revisie-app:
 - Onderwerpbeoordelingen: `id: topic_reviews`
    - Het rechterdeelvenster waarin de opmerkingen worden weergegeven in de Revisie-app.
 
-{het Schermschot van het Comité van het Overzicht van 0} Onderwerp ](./imgs/topic_reviews.png)![
+{het Schermschot van het Comité van het Overzicht van 0} Onderwerp ![&#128279;](./imgs/topic_reviews.png)
 
 - Opmerking revisie: `id: review_comment`
    - De widget voor elke revisieopmerking.
@@ -35,12 +35,15 @@ Opmerking revisie aan de zijde van de XML-editor:
 
 - Reactie op opmerkingen bekijken: `id: comment_reply`
    - De widget voor elke reactie met revisieopmerkingen.
+
      ![ het Antwoord van de Commentaar van het Overzicht Screenshot ](./imgs/reply.png)
 
 - Nieuw commentaar op revisie: `id: comment_new_reply`
    - De widget voor het reageren op revisieopmerkingen.
+
      ![ het Nieuwe Antwoord van de Commentaar van het Overzicht Schermafbeelding ](./imgs/new_reply.png)
 
 - Gereedschapset Annotatie: `id: annotation_toolbox`
    - De werkbalk rechtsboven in de revisie-app.
+
      ![ Toolbox van de Annotatie Schermafbeelding ](./imgs/annotation_toolbox.png)

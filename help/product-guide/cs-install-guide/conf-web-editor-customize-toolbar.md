@@ -55,12 +55,12 @@ Voer de volgende stappen uit om een eigenschap aan de toolbar van de Redacteur v
         &quot;type&quot;: &quot;blockGroup&quot;, 
         &quot;extraclass&quot;:
         &quot;toolbarverrichtingen&quot;, 
-        &quot;items&quot;: [
-       {
+        &quot;items&quot;: &lbrack;
+       &lbrace;
         &quot;type&quot;: &quot;buttonGroup&quot;, 
         &quot;extraclass&quot;: &quot;left-controls&quot;, 
         &quot;label&quot;: &quot;Left Controls&quot;, 
-        &quot;items&quot;: [
+        &quot;items&quot;: &lbrack;
        &quot;
    
    In de `items` -verzameling moet u de definitie voor een of meer werkbalkpictogrammen opgeven.
@@ -145,4 +145,4 @@ Voer de volgende stappen uit om ongewenste functies van de werkbalk te verwijder
 1. Sparen het {*dossier 0} ui\_config.json en laad de Redacteur van het Web opnieuw.*
 
 
-**Bovenliggend onderwerp:**[ pas de Redacteur van het Web ](conf-web-editor.md) aan
+**Bovenliggend onderwerp:**&#x200B;[ pas de Redacteur van het Web ](conf-web-editor.md) aan

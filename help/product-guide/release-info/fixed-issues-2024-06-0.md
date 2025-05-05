@@ -20,17 +20,17 @@ Leer over [ verbeteringsinstructies voor de versie 2024.06.0 ](upgrade-instructi
 ## Authoring
 
 - De kopiëren en deegverrichting van onderwerpen groter dan 15KB ontbreekt met een onverwachte fout. 17171
-- De functionaliteit om de documentstaat van het **paneel van de Eigenschappen van het Dossier te veranderen** werkt niet correct en verandert in de *3} staat van het Ontwerp {.* (17088)
+- De functionaliteit om de documentstaat van het **paneel van de Eigenschappen van het Dossier te veranderen** werkt niet correct en verandert in de *3&rbrace; staat van het Ontwerp &lbrace;.* (17088)
 - Wanneer u de instellingen van de XML-editor wijzigt met behulp van een aangepast mapprofiel, wordt de `ui_config.json` bijgewerkt met een onjuist bestand. (17011)
-- In het **paneel van de Bewaarplaats**, behoudt het **3} onderzoek van de Filter {niet de waarde van** Uitgecheckt door **gebied wanneer het opnieuw openen van het** Geavanceerde de filterdoos **van de filterdialoog.** 16935
+- In het **paneel van de Bewaarplaats**, behoudt het **3&rbrace; onderzoek van de Filter &lbrace;niet de waarde van** Uitgecheckt door **gebied wanneer het opnieuw openen van het** Geavanceerde de filterdoos **van de filterdialoog.** 16935
 - Gekoppelde afbeeldingen van de onderwerpen worden niet weergegeven in de basislijn na het maken van de versie. 16931
 - De herbruikbare inhoudspanelen maken geen lijst van elementen wanneer de **voorkeur van de Gebruiker** aan meningsdossiers door **Filename** wordt geplaatst. 16896
-- De subelementen binnen het element van de lijsttitel kunnen niet op de **1} wijze van de Voorproef {van Experience Manager Guides teruggeven.** (16691)
+- De subelementen binnen het element van de lijsttitel kunnen niet op de **1&rbrace; wijze van de Voorproef &lbrace;van Experience Manager Guides teruggeven.** (16691)
 - De uitvoering van postprocess manuscript ontbreekt toe te schrijven aan **FileNotFoundException** uitzondering. 16517
 - Vimeo-video&#39;s bieden geen ondersteuning voor schermvullende functies in Experience Manager Guides. (15996)
 - Als u lange vooraf opgemaakte tekstreeksen in `<pre>` - of `<codeblock>` -elementen plakt, wordt de tekst afgebroken. 15859
 - De schrapping van de inhoud komt toe te schrijven aan dubbele GUIDs wanneer de malplaatjes via code worden geïnstalleerd maar onverwerkt blijven. 15858
-- Experience Manager Guides slaagt er niet in om aan het **attribuut van de Rol van de 0} Verwerking {in** 3} wijze van de Voorproef te houden. **** 15787
+- Experience Manager Guides slaagt er niet in om aan het **attribuut van de Rol van de 0&rbrace; Verwerking {in** 3} wijze van de Voorproef te houden. **&#x200B;**&#x200B;15787
 - De Editor verwijdert periodiek extra tekst buiten het geselecteerde gebied.  15708
 - Kan grote tabellen niet kopiëren en plakken vanuit Word-documenten of HTML naar de webeditor. (15369)
 - De **functie van het Exemplaar** ontbreekt voor lege omslagen in Experience Manager Guides as a Cloud Service. 15353
@@ -73,7 +73,7 @@ Leer over [ verbeteringsinstructies voor de versie 2024.06.0 ](upgrade-instructi
 
 ## Rapporten
 
-- De onnauwkeurige **tellingen van de Lijst van het Onderwerp** {in Experience Manager Guides UI toe te schrijven aan unpatched eigenschappen wanneer het kopiëren van activa DITA de rapporten beïnvloedt die voor een kaart DTIA worden geproduceerd. (15529)
+- De onnauwkeurige **tellingen van de Lijst van het Onderwerp** &lbrace;in Experience Manager Guides UI toe te schrijven aan unpatched eigenschappen wanneer het kopiëren van activa DITA de rapporten beïnvloedt die voor een kaart DTIA worden geproduceerd. (15529)
 - Onderwerpen met externe verwijzingen met *%20* in de URL tonen verbroken bestandsverwijzingen. 15347
 
 

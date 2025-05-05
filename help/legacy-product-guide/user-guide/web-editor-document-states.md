@@ -104,4 +104,4 @@ Als een document is gemarkeerd als goedgekeurd, kan het niet meer worden bewerkt
    De staat van het document wordt veranderd in Ontwerp en het document wordt geopend in de Redacteur van het Web op uitgeeft wijze.
 
 
-**Bovenliggend onderwerp:**[ Werk met de Redacteur van het Web ](web-editor.md)
+**Bovenliggend onderwerp:**&#x200B;[ Werk met de Redacteur van het Web ](web-editor.md)

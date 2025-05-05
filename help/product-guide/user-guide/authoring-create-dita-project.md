@@ -76,4 +76,4 @@ Voer de volgende stappen uit om een DITA-project tot stand te brengen:
 1. Selecteer **Open** om uw projectpagina te openen.
 
 
-**Bovenliggend onderwerp:**[ Inleiding aan overzicht ](review.md)
+**Bovenliggend onderwerp:**&#x200B;[ Inleiding aan overzicht ](review.md)

@@ -15,7 +15,7 @@ ht-degree: 0%
 
 DITAVAL-bestanden worden gebruikt om voorwaardelijke uitvoer te genereren. In één onderwerp, kunt u voorwaarden toevoegen gebruikend elementenattributen om inhoud te conditionaliseren. Vervolgens maakt u een DITAVAL-bestand waarin u de voorwaarden opgeeft die moeten worden opgepakt om inhoud te genereren en welke voorwaarde niet in de uiteindelijke uitvoer moet worden opgenomen.
 
-Met Adobe Experience Manager Guides kunt u eenvoudig DITAVAL-bestanden maken en bewerken met de DITAVAL-editor. De DITAVAL-editor haalt de kenmerken \(of tags\) op die in uw systeem zijn gedefinieerd en u kunt deze gebruiken om DITAVAL-bestanden te maken of te bewerken. Voor meer details over het creëren van en het leiden van markeringen in Adobe Experience Manager, mening ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) sectie van de Markeringen van 0} het Beheer in de documentatie van Adobe Experience Manager.[
+Met Adobe Experience Manager Guides kunt u eenvoudig DITAVAL-bestanden maken en bewerken met de DITAVAL-editor. De DITAVAL-editor haalt de kenmerken \(of tags\) op die in uw systeem zijn gedefinieerd en u kunt deze gebruiken om DITAVAL-bestanden te maken of te bewerken. Voor meer details over het creëren van en het leiden van markeringen in Adobe Experience Manager, mening [&#128279;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) sectie van de Markeringen van 0&rbrace; het Beheer in de documentatie van Adobe Experience Manager.
 
 In de volgende secties vindt u de opties die beschikbaar zijn voor een DITAVAL-bestand in Experience Manager Guides.
 
@@ -53,7 +53,7 @@ Het onderwerp wordt gecreeerd bij de gespecificeerde weg. Het onderwerp wordt oo
 
 ## DITAVAL-bestand bewerken
 
-Als u een DITAVAL-onderwerp maakt, wordt dit geopend in de Editor en bewerkt. Om een bestaand DITAVAL onderwerp uit te geven, navigeer aan de omslag of de kaart waar het DITAVAL onderwerp wordt gevestigd, en selecteer dan **uitgeven** van het **** menu van Opties.
+Als u een DITAVAL-onderwerp maakt, wordt dit geopend in de Editor en bewerkt. Om een bestaand DITAVAL onderwerp uit te geven, navigeer aan de omslag of de kaart waar het DITAVAL onderwerp wordt gevestigd, en selecteer dan **uitgeven** van het **&#x200B;**&#x200B;menu van Opties.
 
 Met de DITAVAL-editor kunt u de volgende taken uitvoeren:
 

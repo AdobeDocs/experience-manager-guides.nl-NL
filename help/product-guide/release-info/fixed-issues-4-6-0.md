@@ -27,15 +27,15 @@ Leer over [ verbeteringsinstructies voor de versie 4.6.0 ](../release-info/upgra
 - De grote kaarten DITA laden langzaam en nemen tijd in omschakeling aan de **mening van de Lay-out**.  17590
 - De fouten voor dubbele beeld IDs in de onderwerpen beperken de gebruiker om een onderwerp op te slaan of te ontwerpen. (17528)
 - De kopiëren en deegverrichting van onderwerpen groter dan 15KB ontbreekt met een onverwachte fout. 17171
-- De functionaliteit om de documentstaat van het **paneel van de Eigenschappen van het Dossier te veranderen** werkt niet correct en verandert in de *3} staat van het Ontwerp {.* (17088)
+- De functionaliteit om de documentstaat van het **paneel van de Eigenschappen van het Dossier te veranderen** werkt niet correct en verandert in de *3&rbrace; staat van het Ontwerp &lbrace;.* (17088)
 - Wanneer u de instellingen van de XML-editor wijzigt met behulp van een aangepast mapprofiel, wordt de `ui_config.json` bijgewerkt met een onjuist bestand. (17011)
 - De herbruikbare inhoudspanelen maken geen lijst van elementen wanneer de **voorkeur van de Gebruiker** aan meningsdossiers door **Filename** wordt geplaatst. 16896
-- De subelementen binnen het element van de lijsttitel kunnen niet op de **1} wijze van de Voorproef {van Experience Manager Guides teruggeven.** (16691)
+- De subelementen binnen het element van de lijsttitel kunnen niet op de **1&rbrace; wijze van de Voorproef &lbrace;van Experience Manager Guides teruggeven.** (16691)
 - **Speciale karakters** die met vluchtkarakters worden geschreven worden verwijderd uit het onderwerp na het worden geupload aan Experience Manager Guides. 16495
 - Vimeo-video&#39;s bieden geen ondersteuning voor schermvullende functies in Experience Manager Guides. (15996)
 - Als u lange vooraf opgemaakte tekstreeksen in `<pre>` - of `<codeblock>` -elementen plakt, wordt de tekst afgebroken. 15859
 - De schrapping van de inhoud komt toe wegens dubbele GUIDs wanneer de malplaatjes via code worden geïnstalleerd maar onverwerkt blijven. 15858
-- Experience Manager Guides slaagt er niet in om aan het **attribuut van de Rol van de 0} Verwerking {in** 3} wijze van de Voorproef te houden. **** 15787
+- Experience Manager Guides slaagt er niet in om aan het **attribuut van de Rol van de 0&rbrace; Verwerking {in** 3} wijze van de Voorproef te houden. **&#x200B;**&#x200B;15787
 - De Editor verwijdert periodiek extra tekst buiten het geselecteerde gebied. 15708
 - Kan grote tabellen niet kopiëren en plakken vanuit Word-documenten of HTML naar de webeditor. (15369)
 - Geen API&#39;s of gebeurtenissen om kenmerktoevoeging aan een element of invoeging van een nieuw element vast te leggen. 15351

@@ -125,4 +125,4 @@ Om de Redacteur van het Web van DITA kaartconsole te openen, volg deze stappen:
    > Als uw beheerder **uitgeeft onbruikbaar maakt zonder Controle** optie heeft gevormd, dan moet u het dossier controleren alvorens uit te geven. Als u het bestand niet uitcheckt, wordt het document in de editor geopend in de modus Alleen-lezen.
 
 
-**Bovenliggend onderwerp:**[ Werk met de Redacteur van het Web ](web-editor.md)
+**Bovenliggend onderwerp:**&#x200B;[ Werk met de Redacteur van het Web ](web-editor.md)

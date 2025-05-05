@@ -70,7 +70,7 @@ U kunt een tekstprompt gebruiken om de inhoud te wijzigen en een uitvoer te gene
 
 1. U kunt de vraag in de redacteur ook uitgeven en de reactie regenereren. U kunt bijvoorbeeld de vraag wijzigen om de tekst overzichtelijker te maken in ongeveer 40 woorden.
 
-   ![ de snelle redacteur van de hulptekst van de ai {](./images/ai-assisstant-text-prompt.png)
+   ![ de snelle redacteur van de hulptekst van de ai &lbrace;](./images/ai-assisstant-text-prompt.png)
 
 1. U kunt de bron van de gegenereerde inhoud verifiëren en deze indien nodig bewerken.
 

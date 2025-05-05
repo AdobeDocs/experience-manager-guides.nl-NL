@@ -22,7 +22,7 @@ Voer de volgende stappen uit om een sitepagina te genereren:
 
 
 1. Open het onderwerp in de Redacteur en selecteer de Eigenschappen van het Dossier van het juiste paneel.
-1. Selecteer **pictogram van de 0} Nieuwe output ![ nieuw outputpictogram ](./images/Add_icon.svg) van de** Uitvoer **sectie.**
+1. Selecteer **pictogram van de 0&rbrace; Nieuwe output ![ nieuw outputpictogram ](./images/Add_icon.svg) van de** Uitvoer **sectie.**
 1. Selecteer **de pagina van Plaatsen**.
 1. In **produceer de pagina van Plaatsen** dialoogdoos, vul de volgende details in:
    ![ voeg de weg en malplaatjedetails in Generate de pagina van Plaatsen ](images/aem-sites-page-generate.png){width="500" align="left"} toe

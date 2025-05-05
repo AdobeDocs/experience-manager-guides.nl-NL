@@ -36,7 +36,7 @@ AEM Guides biedt nu geavanceerde ondersteuning voor de metagegevens die zijn toe
 
 U kunt een XMP importeren en AEM Guides kan de gegevens uit het bestand kiezen. U kunt ook de namen en waarden van metagegevens opgeven met het vervolgkeuzemenu. U kunt ook aangepaste metagegevens toevoegen door deze rechtstreeks in het naamveld te typen.
 
-Voor meer details, zie **de eigenschapbeschrijving van 0} Meta-gegevens {in [ een vooraf ingestelde PDF output ](../web-editor/native-pdf-web-editor.md) creëren.**
+Voor meer details, zie **de eigenschapbeschrijving van 0&rbrace; Meta-gegevens &lbrace;in [ een vooraf ingestelde PDF output ](../web-editor/native-pdf-web-editor.md) creëren.**
 
 ### Verbeterd deelvenster Omtrekweergave
 

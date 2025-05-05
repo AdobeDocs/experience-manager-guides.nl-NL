@@ -40,7 +40,7 @@ Met [!DNL Experience Manager Guides] -oplossing kunnen bedrijven naadloze en gep
 
 ## Aanvullende bronnen
 
-* [[!DNL Experience Manager Guides]  Gids van de Gebruiker (Oude UI) ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview) {target="_blank"}
+* [[!DNL Experience Manager Guides]  Gids van de Gebruiker (Oude UI) ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"} 
 * [[!DNL AEM Guides]  Leren &amp; Steun ](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
 * [ Experience League - verken AEM ](https://business.adobe.com/products/experience-manager/adobe-experience-manager.html)
 

@@ -159,7 +159,7 @@ In het volgende voorbeeld wordt een initiaalstijl gemaakt:
 
    >[!NOTE]
    >
-   Zie [ een vooraf bepaalde of nieuwe stijl ](components-pdf-template.md#customize-style) sectie aanpassen voor het openen van een stylesheet voor aanpassing of het uitgeven.
+   >Zie [ een vooraf bepaalde of nieuwe stijl ](components-pdf-template.md#customize-style) sectie aanpassen voor het openen van een stylesheet voor aanpassing of het uitgeven.
 
 1. In de **lijst van Stijlen**, breid de **Stijlen van de Paragraaf** uit.
 
@@ -169,7 +169,7 @@ In het volgende voorbeeld wordt een initiaalstijl gemaakt:
 
 1. Klik **Gedaan**.
 
-   Een nieuwe genoemde paragraafstijl `::first-letter` wordt gecreeerd en onder de **2} lijst van de Stijlen van de Paragraaf toegevoegd {toegevoegd.**
+   Een nieuwe genoemde paragraafstijl `::first-letter` wordt gecreeerd en onder de **2&rbrace; lijst van de Stijlen van de Paragraaf toegevoegd &lbrace;toegevoegd.**
 
 1. Selecteer `::first-letter` onder de stijl p en stel de volgende eigenschappen in:
 
@@ -195,7 +195,7 @@ In het volgende voorbeeld wordt een inline tekenstijl gemaakt:
 
    >[!NOTE]
    >
-   Zie [ een vooraf bepaalde of nieuwe stijl ](components-pdf-template.md#customize-style) sectie aanpassen voor het openen van een stylesheet voor aanpassing of het uitgeven.
+   >Zie [ een vooraf bepaalde of nieuwe stijl ](components-pdf-template.md#customize-style) sectie aanpassen voor het openen van een stylesheet voor aanpassing of het uitgeven.
 
 1. In de **lijst van Stijlen**, breid de **Stijlen van het Karakter** uit.
 
@@ -215,7 +215,7 @@ In het volgende voorbeeld wordt een inline tekenstijl gemaakt:
 
      >[!NOTE]
      >
-     U kunt ook lettertypen toevoegen aan uw sjabloon. Deze lettertypen worden opgeslagen in het gedeelte Bronnen van uw sjabloon. Voor meer details over het toevoegen van doopvonten en het werken met Middelen, zie [ Werk met middelen ](components-pdf-template.md#work-with-resources).
+     >U kunt ook lettertypen toevoegen aan uw sjabloon. Deze lettertypen worden opgeslagen in het gedeelte Bronnen van uw sjabloon. Voor meer details over het toevoegen van doopvonten en het werken met Middelen, zie [ Werk met middelen ](components-pdf-template.md#work-with-resources).
 
    * **Lay-out**: U kunt de lay-out-related eigenschappen zoals Hoogte en Breedte, Marge, het Opvullen, Uitlijning, en meer plaatsen.
 
@@ -239,7 +239,7 @@ In het volgende voorbeeld wordt de stijl van de genummerde of geordende lijst aa
 
    >[!NOTE]
    >
-   Zie [ een vooraf bepaalde of nieuwe stijl ](components-pdf-template.md#customize-style) sectie aanpassen voor het openen van een stylesheet voor aanpassing of het uitgeven.
+   >Zie [ een vooraf bepaalde of nieuwe stijl ](components-pdf-template.md#customize-style) sectie aanpassen voor het openen van een stylesheet voor aanpassing of het uitgeven.
 
 1. In de **lijst van Stijlen**, breid de **Stijlen van de Lijst** uit.
 
@@ -277,7 +277,7 @@ In het volgende voorbeeld wordt de stijl van de genummerde of geordende lijst aa
 
      >[!NOTE]
      >
-     U kunt de waarde invoeren in px (pixels), pt (punten), rem, em, % (percentage) of in (inches) eenheden.
+     >U kunt de waarde invoeren in px (pixels), pt (punten), rem, em, % (percentage) of in (inches) eenheden.
 
    * **Breedte van de Prefix**: Dit is het gebied dat door het Formaat van het Aantal bezet is. Deze wordt automatisch ingesteld op een grootte die gemakkelijk geschikt is voor de geselecteerde indeling. Als u de grootte wilt vergroten, kunt u de standaardwaarde vervangen.
 
@@ -299,7 +299,7 @@ In het volgende voorbeeld ziet u hoe u een tabelstijl en de verschillende opties
 
    >[!NOTE]
    >
-   Zie [ een vooraf bepaalde of nieuwe stijl ](components-pdf-template.md#customize-style) sectie aanpassen voor het openen van een stylesheet voor aanpassing of het uitgeven.
+   >Zie [ een vooraf bepaalde of nieuwe stijl ](components-pdf-template.md#customize-style) sectie aanpassen voor het openen van een stylesheet voor aanpassing of het uitgeven.
 
 1. In de **lijst van Stijlen**, klik op de **Stijl van de Lijst** met de rechtermuisknop aan en kies **Nieuwe Stijl**.
 
@@ -315,7 +315,7 @@ In het volgende voorbeeld ziet u hoe u een tabelstijl en de verschillende opties
 
      >[!NOTE]
      >
-     De volgende montages zijn beschikbaar onder de **Algemene** sectie wanneer **het Formatteren op** wordt geplaatst aan **Gehele Lijst**.
+     >De volgende montages zijn beschikbaar onder de **Algemene** sectie wanneer **het Formatteren op** wordt geplaatst aan **Gehele Lijst**.
 
    * **Wrapping van de Tekst**: Selecteer hoe te om tekst rond de lijst te verpakken. Dit is handig wanneer de tabel zich in een ander element op blokniveau bevindt en de tabel samen met andere inhoud in het blokelement moet worden gerenderd. De het verpakken opties zijn *verlaten* of *recht* gericht, of *niets*.
 
@@ -329,7 +329,7 @@ In het volgende voorbeeld ziet u hoe u een tabelstijl en de verschillende opties
 
      >[!NOTE]
      >
-     De volgende montages zijn beschikbaar onder de **1} sectie van de Cel wanneer** Formatterend op **wordt geplaatst aan** Gehele Lijst **.**
+     >De volgende montages zijn beschikbaar onder de **1&rbrace; sectie van de Cel wanneer** Formatterend op **wordt geplaatst aan** Gehele Lijst **.**
 
    * **het Opvullen**: Specificeer binnen het opvullen tussen lijstcellen. U kunt verschillende opvullingswaarden opgeven voor de boven-, onder-, linker- en rechterzijde.
 
@@ -355,7 +355,7 @@ In het volgende voorbeeld, zullen wij de titel (`wintitle`) stijl van een nieuw 
 
    >[!NOTE]
    >
-   Zie [ een vooraf bepaalde of nieuwe stijl ](components-pdf-template.md#customize-style) sectie aanpassen voor het openen van een stylesheet voor aanpassing of het uitgeven.
+   >Zie [ een vooraf bepaalde of nieuwe stijl ](components-pdf-template.md#customize-style) sectie aanpassen voor het openen van een stylesheet voor aanpassing of het uitgeven.
 
 1. In de **lijst van Stijlen**, breid **Andere Stijlen** uit.
 
@@ -367,7 +367,7 @@ In het volgende voorbeeld, zullen wij de titel (`wintitle`) stijl van een nieuw 
 
 1. Klik **Gedaan**.
 
-   Een nieuwe stijl genoemd `.wintitle` wordt gecreeerd en onder de **Andere 2} lijst van Stijlen {toegevoegd.**
+   Een nieuwe stijl genoemd `.wintitle` wordt gecreeerd en onder de **Andere 2&rbrace; lijst van Stijlen &lbrace;toegevoegd.**
 
 1. Selecteer .wintitle van de **Andere lijst van Stijlen**, en plaats de eigenschappen zoals vereist.
 
@@ -406,7 +406,7 @@ U kunt bijvoorbeeld de volgende stijlen definiëren om tekengrootte 18 te defini
 
 >[!NOTE]
 >
-In het vorige voorbeeld zijn &quot;Voor&quot; en &quot;Terug&quot; de voorbeeldnamen van de lay-outbestanden die u in de sjablonen kunt gebruiken.
+>In het vorige voorbeeld zijn &quot;Voor&quot; en &quot;Terug&quot; de voorbeeldnamen van de lay-outbestanden die u in de sjablonen kunt gebruiken.
 
 
 ## Aangepaste CSS-stijl definiëren voor voor- en achtervoegselinhoud

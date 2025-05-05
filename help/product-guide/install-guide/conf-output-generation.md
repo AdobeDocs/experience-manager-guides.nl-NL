@@ -332,7 +332,7 @@ Als u het element `table` wilt uitsluiten van afvlakking, voegt u de volgende ei
 
 ### De versie voor verwijderde pagina&#39;s configureren in AEM Site-uitvoer
 
-Wanneer u AEM output van de Plaats met **schrapping produceert en** creeert ****optie die voor het Bestaande plaatsen van de Pagina&#39;s van de Output wordt geselecteerd, wordt een versie gecreeerd voor pagina \(s \) die worden geschrapt. U kunt het systeem vormen om de verwezenlijking van een versie vóór schrapping tegen te houden.
+Wanneer u AEM output van de Plaats met **schrapping produceert en** creeert **&#x200B;**&#x200B;optie die voor het Bestaande plaatsen van de Pagina&#39;s van de Output wordt geselecteerd, wordt een versie gecreeerd voor pagina \(s \) die worden geschrapt. U kunt het systeem vormen om de verwezenlijking van een versie vóór schrapping tegen te houden.
 
 Voer de volgende stappen uit om te stoppen met het maken van een versie voor de pagina\(s\) die wordt verwijderd:
 
@@ -706,9 +706,9 @@ Voer de volgende stappen uit om een dag en tijd in te stellen voor het wissen va
 
 1. Onderzoek naar en klik op **com.adobe.fmdita.config.ConfigManager** bundel.
 
-1. In het **bezit van de Aanzuivering van de Geschiedenis van de Output van 0} {het aantal dagen waarna de outputgeschiedenis samen met outputlogboeken wordt gezuiverd.** De standaardwaarde is 5 dagen. Als u deze functie wilt uitschakelen, stelt u deze eigenschap in op 0.
+1. In het **bezit van de Aanzuivering van de Geschiedenis van de Output van 0&rbrace; &lbrace;het aantal dagen waarna de outputgeschiedenis samen met outputlogboeken wordt gezuiverd.** De standaardwaarde is 5 dagen. Als u deze functie wilt uitschakelen, stelt u deze eigenschap in op 0.
 
-1. In het **bezit van de Opschoontijd van de Geschiedenis van de Output 0} {de tijd specificeren wanneer het het zuiveren proces in werking wordt gesteld.** De standaardwaarde is 0:00 \(of 12:00 middernacht\). Elke dag op dit ogenblik, wordt het het zuiveren proces uitgevoerd op output die vóór het aantal dagen wordt geproduceerd in het **Periode van de Aanzuivering van de Geschiedenis van de Output** bezit wordt gespecificeerd.
+1. In het **bezit van de Opschoontijd van de Geschiedenis van de Output 0&rbrace; &lbrace;de tijd specificeren wanneer het het zuiveren proces in werking wordt gesteld.** De standaardwaarde is 0:00 \(of 12:00 middernacht\). Elke dag op dit ogenblik, wordt het het zuiveren proces uitgevoerd op output die vóór het aantal dagen wordt geproduceerd in het **Periode van de Aanzuivering van de Geschiedenis van de Output** bezit wordt gespecificeerd.
 
    >[!NOTE]
    >
@@ -729,4 +729,4 @@ U kunt het maximumaantal geproduceerde output veranderen die in het lusje van Ou
 
 AEM Guides staat u toe om de grootte van de de generatieprocessen van de outputproductie te vormen die het aantal processen van de outputgeneratie controleert die gelijktijdig lopen. Standaard is de grootte van de procespool ingesteld op het aantal verwerkingskernen dat beschikbaar is in uw systeem plus één. U kunt deze waarde wijzigen in 1 als u opeenvolgende publicaties wilt. In dit geval wordt de eerste publicatietaak uitgevoerd en wordt de volgende publicatietaak opgeslagen in de publicatiereeks.
 
-Om de grootte van de de verwerkingspool van de outputgeneratie te veranderen, werk de **het plaatsen van de Grootte van de Pool van de 1} generatie in de `com.adobe.fmdita.publish.manager.PublishThreadManagerImpl` bundel bij.**
+Om de grootte van de de verwerkingspool van de outputgeneratie te veranderen, werk de **het plaatsen van de Grootte van de Pool van de 1&rbrace; generatie in de `com.adobe.fmdita.publish.manager.PublishThreadManagerImpl` bundel bij.**

@@ -55,5 +55,5 @@ In het volgende voorbeeld wordt de API-aanroep getoond met de opdracht curl met 
 
      &quot;XML 
     
-     krullen -u &lt;*username*>:&lt;*password*> - H &quot;Content-Type: application/json; charset=UTF-8&quot; -k -X POST -d &quot;{[JSON-rules string](create-activate-package-java.md#example-create-activate-package-id198JH0B905Java Z)}&quot; http://&lt;*aem-guides-server*>:&lt;*port-number*>/bin/fmdita/activate?activationTarget=`&lt;validActivationTargetValue>`
+     krullen -u &lt;*username*>:&lt;*password*> - H &quot;Content-Type: application/json; charset=UTF-8&quot; -k -X POST -d &quot;{[JSON-rules string] (create-activate-package-java.md#example-create-activate-package-id198JH0B905Java Z)}&quot; http://&lt;*aem-guides-server*>:&lt;*port-number*>/bin/fmdita/activate?activationTarget=`&lt;validActivationTargetValue>`
     &quot;

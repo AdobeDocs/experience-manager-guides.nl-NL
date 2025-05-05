@@ -70,7 +70,7 @@ Nu kunt u de meta-gegevensinformatie voor de onderwerpen of de kaart ook plaatse
 
 ![ het juiste paneel van de lay-outweergave ](assets/layout-inline-attributes.png)
 
-Voor meer details, zie *sectie van de mening van de Lay-out van 0} in het Gebruiken van Adobe Experience Manager Guides as a Cloud Service.*
+Voor meer details, zie *sectie van de mening van de Lay-out van 0&rbrace; in het Gebruiken van Adobe Experience Manager Guides as a Cloud Service.*
 
 ### Inline-kenmerken in de Editor-instellingen
 

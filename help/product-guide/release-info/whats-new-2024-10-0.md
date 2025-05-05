@@ -76,7 +76,7 @@ Als het zelfde onderwerp naar meer dan eens in een dossier wordt verwezen, dan k
 
 ![ Verouderde vooraf ingestelde AEM Sites ](assets/aem-sites-legacy.png)
 
-*specificeer de het publiceren context voor de verbonden onderwerpen van de **Verwijzingen van de kaart**lusje van **AEM Sites**vooraf ingesteld.*
+*specificeer de het publiceren context voor de verbonden onderwerpen van de **Verwijzingen van de kaart**&#x200B;lusje van **AEM Sites**&#x200B;vooraf ingesteld.*
 
 Leer meer over [ AEM Sites vooraf instelt ](../user-guide/generate-output-aem-site.md).
 

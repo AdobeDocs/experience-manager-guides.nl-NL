@@ -21,7 +21,7 @@ Met AEM Guides kunt u de titel configureren voor de pictogrammen Inchecken en Ui
 1. Selecteer **Gidsen** van de lijst van hulpmiddelen en klik de **Profielen van de Omslag**.
 1. Klik op de **Globale tegel van het Profiel**.
 1. Selecteer het **lusje van de Configuratie van de Redacteur van XML** en klik **uitgeven** pictogram op de bovenkant.
-1. In de **UI van de Redacteur van XML configuratie** sectie, klik het **3} pictogram van de Download {om het `ui_config.json` dossier op uw lokaal systeem te downloaden.**
+1. In de **UI van de Redacteur van XML configuratie** sectie, klik het **3&rbrace; pictogram van de Download &lbrace;om het `ui_config.json` dossier op uw lokaal systeem te downloaden.**
 1. Wijzig in het bestand `ui_config.json` de titel in de sectie &quot;bovenste balk&quot;. U kunt de volgende waarden wijzigen:
 
    ```json

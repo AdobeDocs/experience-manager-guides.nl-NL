@@ -18,4 +18,4 @@ Adobe Experience Manager Assets biedt u de functie om elementen te maken en er m
 
 Voor meer details over meta-gegevensbeheer in AEM, zie [ meta-gegevens van uw digitale activa ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/metadata.html?lang=en) beheren.
 
-**Bovenliggend onderwerp:**[ leidt meta-gegevens ](manage-metadata.md)
+**Bovenliggend onderwerp:**&#x200B;[ leidt meta-gegevens ](manage-metadata.md)

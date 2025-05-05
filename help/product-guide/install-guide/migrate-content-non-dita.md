@@ -390,4 +390,4 @@ Voer de volgende stappen uit om uw bestaande gestructureerde documenten om te ze
 
 Met behulp van het blok `<config> </config>` kunt u een of meer configuraties definiëren voor conversie. De omzettingswerkstroom wordt uitgevoerd en de definitieve output in de vorm van een onderwerp DITA wordt bewaard in de plaats die in het `outputDir` element wordt gespecificeerd.
 
-**Bovenliggend onderwerp:**[ Migreer bestaande inhoud ](migrate-content.md)
+**Bovenliggend onderwerp:**&#x200B;[ Migreer bestaande inhoud ](migrate-content.md)

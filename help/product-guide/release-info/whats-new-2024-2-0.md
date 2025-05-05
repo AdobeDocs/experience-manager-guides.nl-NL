@@ -46,7 +46,7 @@ Experience Manager Guides beschikt nu over een verbeterde functie voor versiehis
 *Voorproef de veranderingen in de verschillende versies van een onderwerp.*
 
 
-Leer meer over de **eigenschapbeschrijving van de Geschiedenis van de Versie 0} {in de [ Linkerpaneel ](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.**
+Leer meer over de **eigenschapbeschrijving van de Geschiedenis van de Versie 0&rbrace; &lbrace;in de [ Linkerpaneel ](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.**
 
 ## Verbeterde gebruikerservaring in het deelvenster Vertaling
 
@@ -72,7 +72,7 @@ alle geldige elementen die met &quot;t&quot; beginnen.
 *Type een karakter om naar alle geldige elementen te zoeken die met het karakter beginnen.*
 
 
-Voor meer details, bekijk de **eigenschapbeschrijving van het Element van het 0} Tussenvoegsel {in de [ Linkerpaneel ](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.**
+Voor meer details, bekijk de **eigenschapbeschrijving van het Element van het 0&rbrace; Tussenvoegsel &lbrace;in de [ Linkerpaneel ](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.**
 
 
 ## Mogelijkheid om de huidige lijst te splitsen en te beginnen met een nieuw lijstitem op hetzelfde niveau
@@ -83,13 +83,13 @@ Nu, kunt u uw lijst in de Redacteur van het Web gemakkelijk verdelen. Selecteer 
 
 *selecteer de optie om de huidige lijst te verdelen.*
 
-Voor meer details, bekijk de **eigenschapbeschrijving van de Lijst van het 0} Tussenvoegsel {in de [ Linkerpaneel ](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.**
+Voor meer details, bekijk de **eigenschapbeschrijving van de Lijst van het 0&rbrace; Tussenvoegsel &lbrace;in de [ Linkerpaneel ](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.**
 
 ## Bestandseigenschappen openen in de bronmodus van het ontwerp
 
 Nu, kunt u tot de eigenschap van het Dossier van het juiste paneel **toegang hebben** op alle vier wijzen of meningen: Lay-out, Auteur, Source, en Voorproef.  Hierdoor kunt u de eigenschappen van uw bestand bekijken, zelfs als u tussen de verschillende modi schakelt.
 
-Voor meer details, bekijk de **eigenschapbeschrijving van de Eigenschappen van het 0} Dossier {in de [ Juiste 3} sectie van het Comité.**](../user-guide/web-editor-features.md#id2051EB003YK)
+Voor meer details, bekijk de **eigenschapbeschrijving van de Eigenschappen van het 0&rbrace; Dossier {in de [ Juiste 3} sectie van het Comité.**](../user-guide/web-editor-features.md#id2051EB003YK)
 
 ## Mogelijkheid om meerdere uitvoervoorinstellingen met dynamische basislijnen parallel te publiceren
 

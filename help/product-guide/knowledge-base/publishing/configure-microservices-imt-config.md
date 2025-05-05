@@ -40,7 +40,7 @@ Voer de volgende stappen uit om configuraties IMS in **Adobe Developer Console**
 
    <img src="assets/projects-tab.png" alt="tabblad Projecten" width="500">
 
-   *selecteer het **Projecten**lusje op **Adobe Developer Console***
+   *selecteer het **Projecten**&#x200B;lusje op **Adobe Developer Console***
 
 1. Om een nieuw leeg project tot stand te brengen, selecteer **Leeg project** van **creeer nieuwe project** dropdown.
 

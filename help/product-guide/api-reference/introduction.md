@@ -231,7 +231,7 @@ U kunt op Java gebaseerde API&#39;s die beschikbaar zijn in Experience Manager G
 
 ## Aanvullende bronnen
 
-Na is een lijst van andere nuttige middelen van AEM Guides, die op [ ](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html) pagina Leren &amp; van de Steun beschikbaar zijn:
+Na is een lijst van andere nuttige middelen van AEM Guides, die op [&#128279;](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html) pagina Leren &amp; van de Steun beschikbaar zijn:
 
 - Handboek
 - Installatie- en configuratiehandleiding

@@ -49,7 +49,7 @@ Voer de volgende stappen uit om een eigenschap aan de toolbar van de Redacteur v
 
 1. Voeg in het bestand `ui_config.json` de definitie van de nieuwe functie toe in de sectie Werkbalken. Doorgaans kunt u een nieuwe werkbalkknoopgroep maken en er een of meer werkbalkknoppen aan toevoegen. U kunt ook een nieuwe werkbalkknop toevoegen binnen een bestaande werkbalkgroep. U moet de volgende gegevens opgeven om een nieuwe werkbalkgroep te maken:
 
-   - **type:**Specify `blockGroup` als `type` waarde. Deze waarde geeft aan dat u een blokgroep maakt die een of meer werkbalkgroepen zou bevatten.
+   - **type:**&#x200B;Specify `blockGroup` als `type` waarde. Deze waarde geeft aan dat u een blokgroep maakt die een of meer werkbalkgroepen zou bevatten.
 
    - **extraclass:** Naam van de klasse of de klassen die met ruimte worden gescheiden.
 
@@ -240,4 +240,4 @@ Het bestand `ui_config.json` heeft drie secties:
 1. Sparen het {*dossier 0} ui\_config.json en laad de Redacteur van het Web opnieuw.*
 
 
-**Bovenliggend onderwerp:**[ pas de Redacteur van het Web ](conf-web-editor.md) aan
+**Bovenliggend onderwerp:**&#x200B;[ pas de Redacteur van het Web ](conf-web-editor.md) aan

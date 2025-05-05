@@ -25,7 +25,7 @@ Voer de volgende stappen uit om het Rapport voor hergebruik van inhoud weer te g
 
 1. Selecteer **Gidsen** van de lijst van hulpmiddelen.
 
-1. Selecteer de **tegel van het Rapport van het Hergebruik van de Inhoud 0}**.
+1. Selecteer de **tegel van het Rapport van het Hergebruik van de Inhoud 0&rbrace;**.
 
 1. Selecteer **doorbladeren** om een weg te kiezen waar uw onderwerpen verblijven of manueel de weg ingaan.
 
@@ -62,4 +62,4 @@ Voer de volgende stappen uit om het Rapport voor hergebruik van inhoud weer te g
 >
 > U kunt het Rapport voor hergebruik van inhoud ook exporteren in CSV-indeling. Selecteer hiertoe Exporteren naar CSV-koppeling in de linkerbovenhoek van het scherm en kies een locatie waar u het CSV-bestand wilt opslaan. U kunt dit CSV-bestand vervolgens openen in elke CSV-editor.
 
-**Bovenliggend onderwerp:**[ Inleiding aan rapporten ](reports-intro.md)
+**Bovenliggend onderwerp:**&#x200B;[ Inleiding aan rapporten ](reports-intro.md)

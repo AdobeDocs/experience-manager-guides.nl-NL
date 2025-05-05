@@ -22,8 +22,8 @@ Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configur
 |---|------------|--------------|
 | `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.savenewversion` | Boolean \( true/ false\). <br>  **Standaardwaarde**: waar |
 
-Wanneer deze configuratie wordt toegelaten, **sparen als Nieuwe 1} checkbox van de Versie {door gebrek in de dialoogdoos wordt geselecteerd.**
+Wanneer deze configuratie wordt toegelaten, **sparen als Nieuwe 1&rbrace; checkbox van de Versie &lbrace;door gebrek in de dialoogdoos wordt geselecteerd.**
 
 Voor meer details, zie *Dossier sluiten en sparen scenario&#39;s* sectie in de Gebruikende as a Cloud Service gids van Adobe Experience Manager Guides.
 
-**Bovenliggend onderwerp:**[ pas de Redacteur van het Web ](conf-web-editor.md) aan
+**Bovenliggend onderwerp:**&#x200B;[ pas de Redacteur van het Web ](conf-web-editor.md) aan

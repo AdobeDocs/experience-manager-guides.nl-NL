@@ -22,4 +22,4 @@ Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configur
 |---|------------|--------------|
 | `com.adobe.fmdita.common.SanitizeNodeNameImpl` | `aemsite.DisallowedFileNameChars` | Voeg tekens toe die u wilt vervangen door een onderstrepingsteken in de namen van de uitvoerbestanden van de AEM. <br> **Standaardwaarde**: ``'<\>\`@$`` |
 
-**Bovenliggend onderwerp:**[ vorm filenames ](conf-file-names.md)
+**Bovenliggend onderwerp:**&#x200B;[ vorm filenames ](conf-file-names.md)

@@ -25,4 +25,4 @@ Houd rekening met de volgende punten voor het optimaliseren van prestaties:
   Deze verandering vermindert de het publiceren tijd en geheugengebruik terwijl het publiceren van kaarten DITA met een groot aantal onderwerpen.
 
 
-**Bovenliggend onderwerp:**[ Download en installeer ](download-install.md)
+**Bovenliggend onderwerp:**&#x200B;[ Download en installeer ](download-install.md)

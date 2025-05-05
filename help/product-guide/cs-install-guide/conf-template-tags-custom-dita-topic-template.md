@@ -64,4 +64,4 @@ Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configur
 |---|------------|--------------|
 | `com.adobe.fmdita.config.ConfigManager` | `topic.templates` | Geef een locatie op voor de opslag van aangepaste sjablonen.<br> Als de gespecificeerde plaats in DAM bestaat, dan worden alle standaardkaart en onderwerpmalplaatjes gekopieerd in die omslag. Als de plaats niet bestaat, dan wordt de omslag gecreeerd met alle standaardkaart en onderwerpmalplaatjes. |
 
-**Bovenliggend onderwerp:**[ vorm onderwerp en kaartmalplaatjes ](conf-template-tags.md)
+**Bovenliggend onderwerp:**&#x200B;[ vorm onderwerp en kaartmalplaatjes ](conf-template-tags.md)

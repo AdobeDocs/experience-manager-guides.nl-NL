@@ -30,7 +30,7 @@ Voer de volgende stappen uit om elementen te configureren voor automatisch gegen
 
 1. Onderzoek naar en klik op **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** bundel.
 
-1. In de *montages 0} XmlEditorConfig, specificeer één of meerdere elementen in **Auto produceert IDs voor het gebied van de Markeringen van het Element**.*
+1. In de *montages 0&rbrace; XmlEditorConfig, specificeer één of meerdere elementen in **Auto produceert IDs voor het gebied van de Markeringen van het Element**.*
 
    >[!NOTE]
    >
@@ -45,4 +45,4 @@ Voer de volgende stappen uit om elementen te configureren voor automatisch gegen
 1. Klik **sparen**.
 
 
-**Bovenliggend onderwerp:**[ pas de Redacteur van het Web ](conf-web-editor.md) aan
+**Bovenliggend onderwerp:**&#x200B;[ pas de Redacteur van het Web ](conf-web-editor.md) aan

@@ -20,7 +20,7 @@ Voor meer details op de verbeteringsinstructies, verenigbaarheidsmatrijs, en de 
 
 ## Vorm een gegevensbronschakelaar van het gebruikersinterface
 
-Experience Manager Guides verstrekt nu het hulpmiddel van de Gegevensbronnen van a **** dat u uit-van-de-doosschakelaars voor gegevensbronnen helpt vormen. U kunt de schakelaars voor JIRA, SQL (MySQL, PostgreSQL, de Server van Microsoft SQL, SQLite, MariaDB, H2DB), de gegevensbestanden van de Handel van Adobe, en van de Elasticsearch gemakkelijk tot stand brengen.
+Experience Manager Guides verstrekt nu het hulpmiddel van de Gegevensbronnen van a **&#x200B;**&#x200B;dat u uit-van-de-doosschakelaars voor gegevensbronnen helpt vormen. U kunt de schakelaars voor JIRA, SQL (MySQL, PostgreSQL, de Server van Microsoft SQL, SQLite, MariaDB, H2DB), de gegevensbestanden van de Handel van Adobe, en van de Elasticsearch gemakkelijk tot stand brengen.
 
 U kunt ook gemakkelijk een gegevensbronaansluiting bewerken, opnieuw verbinden, dupliceren of verwijderen. Leer hoe te [ gemakkelijk een gegevensbronschakelaar van het gebruikersinterface ](../cs-install-guide/conf-data-source-connector-tools.md) vormen.
 
@@ -57,7 +57,7 @@ Experience Manager Guides geeft de hoofdstuknummers weer samen met de hoofdstukn
 
 Nu kunt u niet alleen een kaart in de kaartweergave van de Redacteur van het Web uitgeven maar ook het downloaden. U kunt de kaart downloaden met een specifieke basislijn. U kunt de hiërarchie ook afvlakken en alle bestanden en mappen in één map opslaan.
 
-Voor meer details, verwijs naar de **eigenschapbeschrijving van de Mening van de Kaart** {binnen de [ Linkerpaneel ](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.
+Voor meer details, verwijs naar de **eigenschapbeschrijving van de Mening van de Kaart** &lbrace;binnen de [ Linkerpaneel ](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.
 
 ![ optiemenu van een dossier in de mening van de bewaarplaats ](assets/options-menu-repo-view-file-level-2310.png){width="550" align="left"}
 

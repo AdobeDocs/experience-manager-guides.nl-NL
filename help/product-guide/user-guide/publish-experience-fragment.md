@@ -36,6 +36,7 @@ Bijvoorbeeld:
 
      Als u geen toegestane sjabloon voor een map definieert, worden de sjablonen standaard gekozen uit de bovenliggende map of de sjabloonmap.
    * **Bestelbaar**: Staat u toe om de orde van de activa binnen een omslag te veranderen.
+
      ![ voeg de details van de wolkenconfiguratie in de omslageigenschappen ](images/experience-fragment-folder-properties.png){width="650" align="left"} toe
      *voeg de wolkenconfiguratie in de omslageigenschappen toe om het met de fragmentmalplaatjes te verbinden.*
 1. Om een Fragment van de Ervaring te produceren, selecteer **Nieuwe Output ![ nieuw outputpictogram ](./images/Add_icon.svg) van de** Output **sectie in de** Eigenschappen van het Dossier **van een onderwerp.**

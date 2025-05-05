@@ -47,7 +47,7 @@ Toont de momenteel geopende onderwerpen in de Redacteur als dossierlusjes. U kun
 
 >[!NOTE]
 >
-> Als beheerder kunt u de lijst met bestanden ook weergeven op bestandsnamen op de tabbladen. Selecteer de **Filename** optie van de **3} sectie van de de vertoningsconfiguratie van de dossiers van de Redacteur in [ voorkeur van de Gebruiker ](./intro-home-page.md#user-preferences).**
+> Als beheerder kunt u de lijst met bestanden ook weergeven op bestandsnamen op de tabbladen. Selecteer de **Filename** optie van de **3&rbrace; sectie van de de vertoningsconfiguratie van de dossiers van de Redacteur in [ voorkeur van de Gebruiker ](./intro-home-page.md#user-preferences).**
 
 Als u het tabblad Bestand selecteert, wordt een contextmenu geopend met de opties Opslaan als nieuwe versie, Kopiëren, Zoeken in, Toevoegen aan, Eigenschappen, Splitsen, Downloaden als PDF en Sluiten.
 
@@ -148,7 +148,7 @@ In het volgende schermafbeelding worden slechts 3 van de 4 geconfigureerde eleme
 
 - **Kleuren**: Toont een lijst van pre-gevormde achtergrondkleuren voor **Voorwaarden**. Gebruikers kunnen een achtergrondkleur selecteren wanneer zij een voorwaarde op een onderwerp toepassen. Als beheerder kunt u ook aangepaste achtergrondkleuren maken en aan de lijst toevoegen. Om een nieuwe kleur toe te voegen, ga de gewenste naam op het **gebied van de Naam van de Kleur** in, kies een douanekleur, en selecteer **+** pictogram. De aangepaste kleur wordt aan het einde van de kleurlijst weergegeven.
 
-- **publiceer profielen**: Dit bevat de Profielen die kunnen worden gebruikt om de **3} output van de Kennisbank {te publiceren.** U kunt een nieuw profiel voor een doelkennisbasis tot stand brengen. Bijvoorbeeld Salesforce of ServiceNow.
+- **publiceer profielen**: Dit bevat de Profielen die kunnen worden gebruikt om de **3&rbrace; output van de Kennisbank &lbrace;te publiceren.** U kunt een nieuw profiel voor een doelkennisbasis tot stand brengen. Bijvoorbeeld Salesforce of ServiceNow.
 
    - **creeer een profiel van Salesforce**
 
@@ -183,7 +183,7 @@ In het volgende schermafbeelding worden slechts 3 van de 4 geconfigureerde eleme
      **Eerste vereisten**
 
      Vorm de server ServiceNow om de activa te uploaden.
-      - Verbind met de **** server ServiceNow.
+      - Verbind met de **&#x200B;**&#x200B;server ServiceNow.
       - Navigeer aan **Eigenschappen van het Systeem** > **Veiligheid**.
       - Schakel de volgende optie uit:
 
@@ -193,11 +193,11 @@ In het volgende schermafbeelding worden slechts 3 van de 4 geconfigureerde eleme
 
      Zodra u app hebt gevormd, creeer het **ServiceNow** profiel.
 
-   - Om een profiel tot stand te brengen, selecteer de Kennisbank ServiceNow van het **type van Server** dropdown. Ga een profiel **Naam** in. In **ServiceNow URL**, ga de consumentenplaats in u voor het publiceren van de output zou gebruiken en dan de **Gebruikersnaam** en **Wachtwoord** toevoegde die} door de plaats van de consument ServiceNow wordt verstrekt. Dan, **bevestigt** en **sparen** het pas gecreëerde profiel.
+   - Om een profiel tot stand te brengen, selecteer de Kennisbank ServiceNow van het **type van Server** dropdown. Ga een profiel **Naam** in. In **ServiceNow URL**, ga de consumentenplaats in u voor het publiceren van de output zou gebruiken en dan de **Gebruikersnaam** en **Wachtwoord** toevoegde die&rbrace; door de plaats van de consument ServiceNow wordt verstrekt. Dan, **bevestigt** en **sparen** het pas gecreëerde profiel.
 
      ![ ServiceNow publiceert profiel ](./images/service-now-publish-profile.png){width="550" align="left"}
 
-  Nadat u bevestigt, kunt u het Publish Profiel in de outputvoorinstellingen van een Kaart selecteren DITA en het gebruiken om de output aan de **Salesforce** of **** server te produceren ServiceNow die u hebt gekozen.
+  Nadat u bevestigt, kunt u het Publish Profiel in de outputvoorinstellingen van een Kaart selecteren DITA en het gebruiken om de output aan de **Salesforce** of **&#x200B;**&#x200B;server te produceren ServiceNow die u hebt gekozen.
 
   Leer meer over de [ vooraf ingestelde output van de Kennisbank ](../user-guide/generate-output-knowledge-base.md).
 
@@ -217,7 +217,7 @@ In het volgende schermafbeelding worden slechts 3 van de 4 geconfigureerde eleme
    - **staat alle gebruikers toe om schemadossiers in bevestigingspaneel toe te voegen**: Selecteer dit om de gebruikers toe te staan om het even welk dossier van het Schema in het paneel van de Bevestiging van de Redacteur toe te voegen. Dit staat de gebruikers toe om dossiers Schematron toe te voegen en dan de onderwerpen tegen het dossier van Schematron te bevestigen. Als dit niet wordt geselecteerd, is de optie om schematroondossier **toe te voegen Schematroebestand** knoop niet beschikbaar aan de gebruikers in het **paneel van de Bevestiging** van de Redacteur.
 
 
-- **de attributen van de Vertoning**: Als de lijst van Attributen, kunt u de lijst van attributen controleren die in de attributenlijst van een element moeten worden getoond. Door gebrek, zijn vier **attributen van de Vertoning** — publiek, platform, product, en steunen gevormd om in de attributenlijst van een element worden getoond. U kunt een vertoningsattribuut ook toevoegen gebruikend **** pictogram op de bovenkant toevoegen. U kunt om het even welke vertoningsattributen ook schrappen gebruikend het **pictogram van de Schrapping**.
+- **de attributen van de Vertoning**: Als de lijst van Attributen, kunt u de lijst van attributen controleren die in de attributenlijst van een element moeten worden getoond. Door gebrek, zijn vier **attributen van de Vertoning** — publiek, platform, product, en steunen gevormd om in de attributenlijst van een element worden getoond. U kunt een vertoningsattribuut ook toevoegen gebruikend **&#x200B;**&#x200B;pictogram op de bovenkant toevoegen. U kunt om het even welke vertoningsattributen ook schrappen gebruikend het **pictogram van de Schrapping**.
 
   De kenmerken die voor een element zijn gedefinieerd, worden weergegeven in de layoutweergave en in de contourweergave.
 
@@ -320,7 +320,7 @@ De **geschiedeniseigenschap van de Versie** in de Redacteur staat u toe om de be
 Ga als volgt te werk om de versiegeschiedenis te openen en terug te keren naar een specifieke versie van het onderwerp:
 
 1. Open een onderwerp in de Redacteur.
-1. Selecteer **geschiedenis van de Versie** van **** dropdown van het Menu.
+1. Selecteer **geschiedenis van de Versie** van **&#x200B;**&#x200B;dropdown van het Menu.
 
    Het **de dialoogvakje van de Geschiedenis van de Versie** verschijnt.
 
@@ -377,7 +377,7 @@ Met Experience Manager Guides kunt u labels opgeven in een tekstindeling met vri
 
 Deze labels worden in de vorm van een vervolgkeuzelijst weergegeven aan auteurs, waar ze een label moeten opgeven. Dit zorgt ervoor dat alleen vooraf gedefinieerde, consistente labels in het systeem worden gebruikt.
 
-Er zijn verschillende methodes waardoor u etiketten op uw onderwerpen kunt toepassen - ](web-editor-use-label.md) paneel van de geschiedenis van de 1} Versie in Assets UI, [ Basislijnen ](/help/product-guide/user-guide/generate-output-use-baseline-for-publishing.md) UI, en de Redacteur. [ Met de functie Versielabel in de Editor kunnen auteurs snel en eenvoudig labels toewijzen aan hun onderwerpen.
+Er zijn verschillende methodes waardoor u etiketten op uw onderwerpen kunt toepassen - [&#128279;](web-editor-use-label.md) paneel van de geschiedenis van de 1&rbrace; Versie in Assets UI, [ Basislijnen ](/help/product-guide/user-guide/generate-output-use-baseline-for-publishing.md) UI, en de Redacteur.  Met de functie Versielabel in de Editor kunnen auteurs snel en eenvoudig labels toewijzen aan hun onderwerpen.
 
 Voer de volgende stappen uit om labels aan uw onderwerp toe te voegen vanuit de Editor:
 
@@ -611,7 +611,7 @@ Met behulp van het contextmenu van de tabel kunt u:
 U kunt ook kenmerken definiëren voor meerdere cellen, hele rijen of kolommen in een tabel. Als u bijvoorbeeld een tabelcel wilt uitlijnen, sleept u en selecteert u de gewenste cel. In het paneel van Eigenschappen van de Inhoud (op het recht), verandert het bezit **Type** in **ingang**.
 
 1. In de **sectie van Attributen**, uitgezocht **+ voeg** toe.
-1. Selecteer het `@valign` attribuut van de **2} dropdown lijst van Attributen {.**
+1. Selecteer het `@valign` attribuut van de **2&rbrace; dropdown lijst van Attributen &lbrace;.**
 1. Selecteer in de vervolgkeuzelijst Waarde de gewenste tekstuitlijning die u wilt toepassen op de geselecteerde tabelcellen.
 1. Selecteer **toevoegen.**
 
@@ -713,7 +713,7 @@ U kunt ook zoeken met de UUID van het bestand waarnaar u wilt verwijzen. Voer bi
 
 ![](images/insert-content-using-uuid-search.png){width="650" align="left"}
 
-Als uw beheerder de optie UUIDs in *XMLEditorConfig* heeft toegelaten, dan zult u UUID van de referenced inhoud in het **3} bezit van de Verbinding {bekijken.**
+Als uw beheerder de optie UUIDs in *XMLEditorConfig* heeft toegelaten, dan zult u UUID van de referenced inhoud in het **3&rbrace; bezit van de Verbinding &lbrace;bekijken.**
 
 ![](images/ref-link-uuid_cs.png){align="left"}
 
@@ -790,7 +790,7 @@ U kunt de kenmerken van het trefwoord wijzigen of een nieuw kenmerk aan het tref
 
 **Fragmenten** - ![](images/insert-snippet-icon.svg)
 
-Voeg een fragment in op de huidige of volgende geldige locatie. Deze functie werkt alleen als in uw systeem fragmenten zijn gedefinieerd. Voor meer informatie over het toevoegen van een fragment, bekijk de **eigenschapbeschrijving van het Fragment** {in de [ Linkerpaneel ](web-editor-features.md#left-panel) sectie.
+Voeg een fragment in op de huidige of volgende geldige locatie. Deze functie werkt alleen als in uw systeem fragmenten zijn gedefinieerd. Voor meer informatie over het toevoegen van een fragment, bekijk de **eigenschapbeschrijving van het Fragment** &lbrace;in de [ Linkerpaneel ](web-editor-features.md#left-panel) sectie.
 
 Wanneer u de optie Fragmenten selecteert, wordt de catalogus Fragment invoegen weergegeven. De catalogus is contextgevoelig, wat aangeeft dat de fragmenten alleen worden weergegeven als ze op de huidige locatie zijn toegestaan.
 
@@ -917,7 +917,7 @@ Standaard kunt u de bestanden op titels weergeven. Terwijl u de cursor op een be
 
 >[!NOTE]
 >
-> Als beheerder kunt u de lijst met bestanden ook weergeven op bestandsnamen in de Editor. Selecteer de **optie van de Naam van het 0} Dossier {van de** 3} sectie van de de vertoningsconfiguratie van de dossiers van de Redacteur in **voorkeur van de Gebruiker**.****
+> Als beheerder kunt u de lijst met bestanden ook weergeven op bestandsnamen in de Editor. Selecteer de **optie van de Naam van het 0&rbrace; Dossier {van de** 3} sectie van de de vertoningsconfiguratie van de dossiers van de Redacteur in **voorkeur van de Gebruiker**.**&#x200B;**
 
 Om een nieuwe inzameling tot stand te brengen, selecteer + pictogram naast het paneel van Inzamelingen om de **Nieuwe inzamelings** dialoogdoos te brengen:
 
@@ -967,7 +967,7 @@ Als u het pictogram Opslagplaats selecteert, wordt een lijst met bestanden en ma
 
 >[!NOTE]
 >
-> Als beheerder kunt u de lijst met bestanden ook weergeven op bestandsnamen in de Editor. Selecteer de **optie van de Naam van het 0} Dossier {van de** 3} sectie van de de vertoningsconfiguratie van de dossiers van de Redacteur in **voorkeur van de Gebruiker**.****
+> Als beheerder kunt u de lijst met bestanden ook weergeven op bestandsnamen in de Editor. Selecteer de **optie van de Naam van het 0&rbrace; Dossier {van de** 3} sectie van de de vertoningsconfiguratie van de dossiers van de Redacteur in **voorkeur van de Gebruiker**.**&#x200B;**
 
 Er worden 75 bestanden tegelijk geladen. Telkens als u **selecteert Laad meer**.. worden 75 dossiers geladen, en de knoopeinden die worden getoond wanneer alle dossiers zijn vermeld. Het laden van deze batch is efficiënt en u hebt sneller toegang tot de bestanden dan tot het laden van alle bestanden in een map.
 
@@ -988,7 +988,7 @@ De Editor biedt verbeterde filters voor het zoeken naar tekst. U kunt zoeken en 
 
 *pas filters op onderzoek naar de dossiers toe die de tekst bevatten`personal spaceship.`*
 
-Selecteer het **\ van het Filteronderzoek van 0} Filter {(![ het filterpictogram van het Onderzoek ](images/filter-search-icon.svg) \) pictogram om pop-up van de Filter te openen.**
+Selecteer het **\ van het Filteronderzoek van 0&rbrace; Filter &lbrace;(![ het filterpictogram van het Onderzoek ](images/filter-search-icon.svg) \) pictogram om pop-up van de Filter te openen.**
 
 >[!NOTE]
 >
@@ -1253,7 +1253,7 @@ Standaard kunt u de bestanden op titels weergeven. Terwijl u de cursor op een be
 
 >[!NOTE]
 >
->Als beheerder kunt u ook de bestandsnaam bekijken van de bovenliggende kaart die momenteel is geopend in de kaartweergave. Selecteer de **optie van de Naam van het 0} Dossier {van de** 3} sectie van de de vertoningsconfiguratie van de dossiers van de Redacteur in **voorkeur van de Gebruiker**.****
+>Als beheerder kunt u ook de bestandsnaam bekijken van de bovenliggende kaart die momenteel is geopend in de kaartweergave. Selecteer de **optie van de Naam van het 0&rbrace; Dossier {van de** 3} sectie van de de vertoningsconfiguratie van de dossiers van de Redacteur in **voorkeur van de Gebruiker**.**&#x200B;**
 
 
 Wanneer u een kaart opent in de kaartweergave, wordt de titel van de huidige kaart weergegeven in het midden van de balk met tabbladen. Als de titel te lang is, wordt een ovaal weergegeven en kunt u de muisaanwijzer boven de titel houden om de volledige titel in de knopinfo weer te geven.
@@ -1379,11 +1379,11 @@ Standaard kunt u de bestanden op titels weergeven. Terwijl u de cursor op een be
 
 >[!NOTE]
 >
-> Als beheerder kunt u de lijst met bestanden ook weergeven op bestandsnamen in de Editor. Selecteer de **optie van de Naam van het 0} Dossier {van de** 3} sectie van de de vertoningsconfiguratie van de dossiers van de Redacteur in **voorkeur van de Gebruiker**.****
+> Als beheerder kunt u de lijst met bestanden ook weergeven op bestandsnamen in de Editor. Selecteer de **optie van de Naam van het 0&rbrace; Dossier {van de** 3} sectie van de de vertoningsconfiguratie van de dossiers van de Redacteur in **voorkeur van de Gebruiker**.**&#x200B;**
 
 Als u een DITA-bestand wilt toevoegen aan het deelvenster Herbruikbare inhoud, gebruikt u een van de volgende methoden:
 
-- Selecteer het pictogram **+** naast Herbruikbare inhoud om het dialoogvenster Bladeren te openen. Selecteer het dossier dat u wilt toevoegen en dan selecteren **** toevoegen om het proces te voltooien.
+- Selecteer het pictogram **+** naast Herbruikbare inhoud om het dialoogvenster Bladeren te openen. Selecteer het dossier dat u wilt toevoegen en dan selecteren **&#x200B;**&#x200B;toevoegen om het proces te voltooien.
 
 - In de mening van de Bewaarplaats, selecteer het **pictogram van Opties** van het gewenste dossier en kies **toevoegen aan** > **Herbruikbare inhoud** van het contextmenu.
 
@@ -1465,7 +1465,7 @@ Als een blokelement zijn eigen tekst heeft, wordt het getoond samen met dat blok
 Als uw beheerder een profiel voor attributen heeft gecreeerd, dan zult u die attributen samen met hun gevormde waarden krijgen. U kunt vertoningsattributen ook toewijzen die door uw beheerder onder de **attributen van de Vertoning** worden gevormd lusje in de **Montages**. De kenmerken die voor een element zijn gedefinieerd, worden weergegeven in de layoutweergave en in de contourweergave.
 
 
-Voor meer details, bekijk de *attributen van de Vertoning* binnen de *3} eigenschapbeschrijving van Montages {in de [ Linkerpaneel ](#left-panel) sectie.*
+Voor meer details, bekijk de *attributen van de Vertoning* binnen de *3&rbrace; eigenschapbeschrijving van Montages &lbrace;in de [ Linkerpaneel ](#left-panel) sectie.*
 
 **eigenschap van het Onderzoek**
 
@@ -1500,7 +1500,7 @@ U kunt de volgende instellingen configureren voor het gereedschap Hotspot:
 
 - **Onderwerpen**: Kies of het **Huidige onderwerp** dat in de Redacteur wordt geopend, alle **Geopende onderwerpen** in de huidige kaart, of de **Huidige kaart** die in de Redacteur van de Kaart wordt uitgegeven om de termijnen te zoeken.
 - **Onderwerpen van de Filter door Status**: U kunt verkiezen om het onderzoek tot onderwerpen te beperken die de geselecteerde documentstatus hebben. De onderwerpen kunnen in Ontwerp zijn, uitgeven, In-Overzicht, Goedgekeurd, herzien, Klaar status, of in om het even welke staat zoals gevormd door de organisatie.
-- **Actie**: U kunt verkiezen om of de verklarende woordenlijstsleutels **manueel voor elk onderwerp** of **automatisch voor alle onderwerpen** te zoeken. Als u **manueel voor elk onderwerp** kiest, zet het u ertoe aan om te bevestigen alvorens elke termijn in elk onderwerp om te zetten. Als u **{automatisch voor alle onderwerpen** kiest, zet het alle termijnen in alle onderwerpen automatisch om.
+- **Actie**: U kunt verkiezen om of de verklarende woordenlijstsleutels **manueel voor elk onderwerp** of **automatisch voor alle onderwerpen** te zoeken. Als u **manueel voor elk onderwerp** kiest, zet het u ertoe aan om te bevestigen alvorens elke termijn in elk onderwerp om te zetten. Als u **&lbrace;automatisch voor alle onderwerpen** kiest, zet het alle termijnen in alle onderwerpen automatisch om.
 - **zet** om: U kunt of een gezochte **Tekst in verklarende woordenlijsttermijn** of **Verklarende woordenlijsttermijn in tekst omzetten.**
 - **Opties**: U kunt uit de volgende opties selecteren:
    - **case-sensitive gelijke**: Zoekt naar een termijn om de gelijke te vinden die het zelfde casing heeft. &#39;USB&#39; komt bijvoorbeeld niet overeen met &#39;usb&#39;.
@@ -1803,7 +1803,7 @@ Standaard kunt u de bestanden op titels weergeven. Terwijl u de cursor op een sj
 
 >[!NOTE]
 >
-> Als beheerder kunt u de lijst met bestanden ook weergeven in de Editor. Selecteer de **optie van de Naam van het 0} Dossier {van de** 3} sectie van de de vertoningsconfiguratie van de dossiers van de Redacteur in **voorkeur van de Gebruiker**.****
+> Als beheerder kunt u de lijst met bestanden ook weergeven in de Editor. Selecteer de **optie van de Naam van het 0&rbrace; Dossier {van de** 3} sectie van de de vertoningsconfiguratie van de dossiers van de Redacteur in **voorkeur van de Gebruiker**.**&#x200B;**
 
 Leren hoe te om douanesjablonen tot stand te brengen, [ kaarten creëren die op aangepaste malplaatjes ](./create-maps-customized-templates.md) worden gebaseerd.
 
@@ -1834,7 +1834,7 @@ Standaard kunt u de bestanden op titels weergeven. Terwijl u de cursor op een be
 
 >[!NOTE]
 >
-> Als beheerder kunt u ook de lijst met bestandsnamen weergeven in de Editor. Selecteer de **optie van de Naam van het 0} Dossier {van de** 3} sectie van de de vertoningsconfiguratie van de dossiers van de Redacteur in **voorkeur van de Gebruiker**.****
+> Als beheerder kunt u ook de lijst met bestandsnamen weergeven in de Editor. Selecteer de **optie van de Naam van het 0&rbrace; Dossier {van de** 3} sectie van de de vertoningsconfiguratie van de dossiers van de Redacteur in **voorkeur van de Gebruiker**.**&#x200B;**
 
 Voer de volgende stappen uit om de algemene zoek- en vervangactie uit te voeren:
 
@@ -1894,7 +1894,7 @@ De revisietaken worden weergegeven in het deelvenster. Standaard kunt u de besta
 
 >[!NOTE]
 >
-> Als beheerder kunt u de lijst met bestanden ook weergeven op bestandsnamen in de Editor. Selecteer de **optie van de Naam van het 0} Dossier {van de** 3} sectie van de de vertoningsconfiguratie van de dossiers van de Redacteur in **voorkeur van de Gebruiker**.****
+> Als beheerder kunt u de lijst met bestanden ook weergeven op bestandsnamen in de Editor. Selecteer de **optie van de Naam van het 0&rbrace; Dossier {van de** 3} sectie van de de vertoningsconfiguratie van de dossiers van de Redacteur in **voorkeur van de Gebruiker**.**&#x200B;**
 
 Als auteur, kunt u de commentaren in een onderwerp richten gebruikend de Redacteur.
 
@@ -1925,7 +1925,7 @@ Voer de volgende stappen uit om de revisieopmerkingen weer te geven in de actiev
 
    >[!NOTE]
    > 
-   > Het **paneel van de Overzicht** en het **3} paneel van Commentaren {zijn in synchronisatie op elk ogenblik.** In het venster Opmerkingen worden de opmerkingen geladen op basis van de revisietaak die in het deelvenster Revisie is geladen.
+   > Het **paneel van de Overzicht** en het **3&rbrace; paneel van Commentaren &lbrace;zijn in synchronisatie op elk ogenblik.** In het venster Opmerkingen worden de opmerkingen geladen op basis van de revisietaak die in het deelvenster Revisie is geladen.
    >U kunt de taken voor gesloten revisies weergeven in de linkertrack van het Revisiepanel, samen met de actieve revisietaken.
    >Bovendien, voor een gesloten overzichtstaak kunt u de overzichtscommentaren in het paneel van Commentaren op het recht bekijken maar **de Commentaren van de Invoer** en **terugkeren de knopen van de Versie** worden onbruikbaar gemaakt.
    >Voor meer informatie over hoe te om de commentaren te richten, bekijk [ de revisiecommentaren van het Adres ](review-address-review-comments.md#).
@@ -1943,7 +1943,7 @@ Meer over de meningen van de Redacteur beschikbaar voor een onderwerpdossier in 
 
 >[!NOTE]
 >
-> Als u aan een kaartdossier werkt, dan worden de verschillende opties of de meningen getoond op het inhoud het uitgeven gebied, met inbegrip van a **Lay-out** mening voor het kaartdossier. Voor meer details, de redacteurseigenschappen van de Kaart van de mening [ ](./map-editor-advanced-map-editor.md).
+> Als u aan een kaartdossier werkt, dan worden de verschillende opties of de meningen getoond op het inhoud het uitgeven gebied, met inbegrip van a **Lay-out** mening voor het kaartdossier. Voor meer details, de redacteurseigenschappen van de Kaart van de mening [&#128279;](./map-editor-advanced-map-editor.md).
 
 ## Rechterdeelvenster
 
@@ -1967,13 +1967,13 @@ U kunt tot de **eigenschappen van de Inhoud** eigenschap toegang hebben door het
 
 **Type**: U kunt de markeringen van de volledige hiërarchie voor de huidige markering van dropdown bekijken en selecteren.
 
-**Attributen**: Het **** dropdown paneel van Attributen {is beschikbaar in Lay-out, Auteur, en de meningen van Source. U kunt de kenmerken eenvoudig toevoegen, bewerken of verwijderen.
+**Attributen**: Het **&#x200B;**&#x200B;dropdown paneel van Attributen &lbrace;is beschikbaar in Lay-out, Auteur, en de meningen van Source. U kunt de kenmerken eenvoudig toevoegen, bewerken of verwijderen.
 
 1. Selecteer **toevoegen**.
 
    ![ attributen in inhoudseigenschappen ](images/properties-tab-attributes_cs.png){width="300" align="left"}
 
-1. In het **dropdown paneel van Attributen** {, selecteer de attributen van de dropdown lijst en specificeer de waarde van een attribuut.  Dan selecteer **toevoegen**.
+1. In het **dropdown paneel van Attributen** &lbrace;, selecteer de attributen van de dropdown lijst en specificeer de waarde van een attribuut.  Dan selecteer **toevoegen**.
 
    ![ deelvenster Kenmerken met meerdere kenmerken ](images/attributes-multiple-properties.png){width="300" align="left"}
 
@@ -1986,7 +1986,7 @@ U kunt tot de **eigenschappen van de Inhoud** eigenschap toegang hebben door het
 >
 > Zelfs als uw onderwerp inhoud waarnaar wordt verwezen bevat, kunt u er kenmerken aan toevoegen via het deelvenster Eigenschappen.
 
-Als uw beheerder een profiel voor attributen heeft gecreeerd, dan zult u die attributen samen met hun gevormde waarden krijgen. Gebruikend het paneel van inhoudseigenschappen, kunt u die attributen kiezen en hen toewijzen aan relevante inhoud in uw onderwerp. Op deze manier kunt u ook voorwaardelijke inhoud maken, die u vervolgens kunt gebruiken om voorwaardelijke uitvoer te maken. Voor meer informatie over het produceren van output die voorwaardelijke voorinstellingen gebruiken, stelt de voorwaarde van het menings{](generate-output-use-condition-presets.md#) vooraf in.[
+Als uw beheerder een profiel voor attributen heeft gecreeerd, dan zult u die attributen samen met hun gevormde waarden krijgen. Gebruikend het paneel van inhoudseigenschappen, kunt u die attributen kiezen en hen toewijzen aan relevante inhoud in uw onderwerp. Op deze manier kunt u ook voorwaardelijke inhoud maken, die u vervolgens kunt gebruiken om voorwaardelijke uitvoer te maken. Voor meer informatie over het produceren van output die voorwaardelijke voorinstellingen gebruiken, stelt de voorwaarde van het menings&lbrace;[&#128279;](generate-output-use-condition-presets.md#) vooraf in.
 
 ### Bestandseigenschappen
 
@@ -2027,7 +2027,7 @@ Standaard kunt u de bestanden op titels weergeven. Terwijl u de cursor op een be
 
 >[!NOTE]
 >
-> Als beheerder kunt u de lijst met bestanden ook weergeven op bestandsnamen in de Editor. Selecteer de **optie van de Naam van het 0} Dossier {van de** 3} sectie van de de vertoningsconfiguratie van de dossiers van de Redacteur in **voorkeur van de Gebruiker**.****
+> Als beheerder kunt u de lijst met bestanden ook weergeven op bestandsnamen in de Editor. Selecteer de **optie van de Naam van het 0&rbrace; Dossier {van de** 3} sectie van de de vertoningsconfiguratie van de dossiers van de Redacteur in **voorkeur van de Gebruiker**.**&#x200B;**
 
 >[!NOTE]
 >

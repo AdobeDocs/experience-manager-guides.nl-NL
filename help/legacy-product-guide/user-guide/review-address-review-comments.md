@@ -15,7 +15,7 @@ ht-degree: 0%
 # Opmerkingen voor revisie van adres {#id2056B0X0KBI}
 
 
-Als auteur, kunt u commentaren in een onderwerp richten gebruikend de Redacteur van het Web. De opmerkingen worden geladen op basis van de revisietaak die is geselecteerd in het deelvenster Revisie. Voor meer details, bekijk de **paneel ![](images/active-review-tasklist-icon.svg) eigenschapbeschrijving van het Overzicht** {in de [ Linkerpaneel ](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.
+Als auteur, kunt u commentaren in een onderwerp richten gebruikend de Redacteur van het Web. De opmerkingen worden geladen op basis van de revisietaak die is geselecteerd in het deelvenster Revisie. Voor meer details, bekijk de **paneel ![](images/active-review-tasklist-icon.svg) eigenschapbeschrijving van het Overzicht** &lbrace;in de [ Linkerpaneel ](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.
 
 De volgende secties beschrijven manieren om commentaren in de Redacteur van het Web uit te geven.
 
@@ -63,7 +63,7 @@ In de modus van de webeditor bevat het rechterdeelvenster de pictogrammen Revisi
 
   >[!IMPORTANT]
   >
-  > De functie Opmerkingen importeren werkt alleen voor de documenten die niet zijn gewijzigd sinds ze zijn gedeeld voor revisie. Als u om het even welke verandering na het verzenden van het document voor overzicht hebt aangebracht, zult u een alarm aan **krijgen van de Invoer van de Kracht** commentaren in uw document. Dit leidt echter tot het verlies van alle updates die u in uw document hebt gemaakt. Het **alarm van de Invoer van 0} Kracht wordt ook getoond als het document buiten wordt gecreeerd en dan voor overzicht wordt gedeeld.** U kunt de opmerkingen importeren.
+  > De functie Opmerkingen importeren werkt alleen voor de documenten die niet zijn gewijzigd sinds ze zijn gedeeld voor revisie. Als u om het even welke verandering na het verzenden van het document voor overzicht hebt aangebracht, zult u een alarm aan **krijgen van de Invoer van de Kracht** commentaren in uw document. Dit leidt echter tot het verlies van alle updates die u in uw document hebt gemaakt. Het **alarm van de Invoer van 0&rbrace; Kracht wordt ook getoond als het document buiten wordt gecreeerd en dan voor overzicht wordt gedeeld.** U kunt de opmerkingen importeren.
 
   Als en wanneer u een opmerking accepteert of afwijst, wordt deze verwijderd uit de lijst Bijgehouden wijzigingen. Dit is ook een indicator voor het aantal opmerkingen dat in het document moet worden behandeld.
 
@@ -74,4 +74,4 @@ In de modus van de webeditor bevat het rechterdeelvenster de pictogrammen Revisi
 - **I**: Pas een filter op de commentaren toe. U kunt filteren om opmerkingen weer te geven op basis van het revisietype \(alle, gemarkeerde, verwijderde, ingevoegde of notitie\), de revisiestatus \(alle, geaccepteerde, geweigerde of geen\), de revisoren \(alle of specifieke revisoren\(s\)\) of de versies van het onderwerp.
 
 
-**Bovenliggend onderwerp:**[ onderwerpen of kaarten van het Overzicht ](review.md)
+**Bovenliggend onderwerp:**&#x200B;[ onderwerpen of kaarten van het Overzicht ](review.md)

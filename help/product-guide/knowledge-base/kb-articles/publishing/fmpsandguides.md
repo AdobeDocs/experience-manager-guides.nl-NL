@@ -86,8 +86,7 @@ U kunt uw reeds gemaakte basislijnen publiceren met versie FMPS2020.0.2 of hoger
 
 >FMPS2020.0.2 of latere versies zijn compatibel met publiceren op basislijn.
 >Zorg ervoor dat uw basislijn correct is gemaakt; ga naar het Kaartdashboard— Onderwerpen— Download  Wijs en kies Basislijn gebruiken toe.
-- ### Publish-taken van FMPS nemen meer tijd in beslag dan andere engines
-
+>- ### Publish-taken van FMPS nemen meer tijd in beslag dan andere engines
 >Wanneer u publiceert vanuit FMPS, is de ideale vaste headertijd ongeveer 3-4 minuten. Neem contact op met uw FMPS-beheerder of neem contact op met de ondersteuning voor Adoben als u denkt dat deze langer duurt.
 
 ## Overige bronnen:

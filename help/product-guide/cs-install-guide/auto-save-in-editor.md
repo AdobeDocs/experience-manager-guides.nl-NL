@@ -25,4 +25,4 @@ Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configur
 | `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.autosave` | Boolean \(true/false\).<br> **Standaardwaarde**: vals |
 | `xmleditor.autosaveinterval` | Geef het tijdsinterval in seconden op om de functie voor automatisch opslaan te activeren. |
 
-**Bovenliggend onderwerp:**[ pas de Redacteur van het Web ](conf-web-editor.md) aan
+**Bovenliggend onderwerp:**&#x200B;[ pas de Redacteur van het Web ](conf-web-editor.md) aan

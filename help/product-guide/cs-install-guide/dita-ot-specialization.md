@@ -125,7 +125,7 @@ Voer de volgende stappen uit om een nieuw profiel te maken en dit te configurere
 
 1. Selecteer **Gidsen** van de lijst van hulpmiddelen.
 
-1. Klik op de **1} tegel van Profielen DITA {.**
+1. Klik op de **1&rbrace; tegel van Profielen DITA &lbrace;.**
 
 1. U kunt het standaardprofiel bewerken, een nieuw profiel maken of instellingen in het standaardprofiel dupliceren om een nieuw profiel te maken.
 
@@ -141,6 +141,6 @@ Voer de volgende stappen uit om een nieuw profiel te maken en dit te configurere
    >
    > Selecteer deze optie alleen als er items voor openbare id&#39;s ontbreken in de catalogus of als de DITA-bestanden alleen de systeem-id&#39;s gebruiken die relatief zijn ten opzichte van het lokale bestandspad van waaruit ze worden geüpload.
 
-   Voor meer informatie over andere eigenschappen op de pagina van Profielen, zie de eigenschappen lijst in [ Stap 6 ](#id17A9F0D075Z) van de [ douane DITA-OT stop-ins van het Gebruik {](#id181NH1020L7) sectie.
+   Voor meer informatie over andere eigenschappen op de pagina van Profielen, zie de eigenschappen lijst in [ Stap 6 ](#id17A9F0D075Z) van de [ douane DITA-OT stop-ins van het Gebruik &lbrace;](#id181NH1020L7) sectie.
 
 1. Klik **Gedaan** om het profiel te bewaren.

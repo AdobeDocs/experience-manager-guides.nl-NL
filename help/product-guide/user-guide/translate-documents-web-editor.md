@@ -113,7 +113,7 @@ In een XLIFF-project wordt de inhoud geëxporteerd naar de industriestandaard XL
    - U kunt **selecteren creeert een nieuw meertalig vertaalproject** dat vertaalbanen voor alle talen zal omvatten die u voor vertaling hebt geselecteerd. Als u bijvoorbeeld Frans, Duits en Spaans hebt geselecteerd, wordt er een project met vertaalbanen voor alle drie de talen gemaakt.
    - Als u reeds een vertaalproject hebt, kunt u onderwerpen aan dat project toevoegen. Selecteer **toevoegen aan bestaande vertaalproject** optie van de lijst van het Project en kies een project van de Bestaande lijst van het Project van de Vertaling. U kunt deze projecten op meest recente, stijgende, of dalende orde sorteren.
 
-   - Als u **aan bestaand vertaalproject** selecteert, werkt deze verrichting de bestaande activaingang in het project bij als de activa reeds wordt toegevoegd en de verwante staat van de vertaalbaan in de *3} staat van het Ontwerp {is.*
+   - Als u **aan bestaand vertaalproject** selecteert, werkt deze verrichting de bestaande activaingang in het project bij als de activa reeds wordt toegevoegd en de verwante staat van de vertaalbaan in de *3&rbrace; staat van het Ontwerp &lbrace;is.*
       - Als de bestemmingstaal niet aanwezig in het project is, wordt een nieuw project gecreeerd voor het enig-taalvertaalproject, en een nieuwe baan wordt gecreeerd voor meertalig vertaalproject.
 
       - Als de baan reeds voor de bestemmingstaal aanwezig is en de baanstatus niet in de *staat van het Ontwerp* is, wordt een nieuwe baan gecreeerd binnen het zelfde project om de activa voor vertaling toe te voegen.
@@ -124,7 +124,7 @@ In een XLIFF-project wordt de inhoud geëxporteerd naar de industriestandaard XL
 
    - Als u het werkingsgebied voor een te vertalen project moet tot stand brengen, kunt u **selecteren creeert een nieuw scoping vertaalproject**. Hierdoor worden de kopieën niet voor vertaling verzonden en blijft de oorspronkelijke vertaalstatus van de bestanden behouden. Er is geen effect op het exemplaar van de bestemmingstaal van de genoemde onderwerpen die voor scoping worden verzonden.
 
-1. Op het **gebied van de Titel van het 0} Project, ga een titel voor het project in.**
+1. Op het **gebied van de Titel van het 0&rbrace; Project, ga een titel voor het project in.**
 1. Selecteer **voorleggen** om een nieuw vertaalproject tot stand te brengen.
 
 Een nieuw vertaalproject wordt gecreeerd met de geselecteerde versie van de onderwerpen. Op dit moment wordt een pop-upbericht weergegeven met de bevestiging dat het vertaalproject is gemaakt. Zodra alle exemplaren van de doeltaal in het vertaalproject beschikbaar zijn, krijgt u een bericht in Inbox. Zodra de doeltaalkopieën beschikbaar zijn in het vertaalproject, kunt u de vertaaltaak starten. Voor detailmening, [ Begin de vertaalbaan ](translation-first-time.md#id225IK030OE8).
@@ -179,7 +179,7 @@ Selecteer het **verschil** pictogram \ van de Tonen (![](images/show-difference-
 >
 > **toon verschil** pictogram \ (![](images/show-difference-icon.svg) \) verschijnt slechts voor DITA- dossiers die de vertaalstatus als **uit Synchronisatie** hebben.
 
-Het **dialoog van het Verschil van de Versie 0} {verschijnt.** Het toont de **Laatste vertaalde versie** en het **Geselecteerde versie** aantal op de linkerzijde. Het voorproefvenster toont de verschillen tussen de laatste vertaalde versie en de geselecteerde versie van het onderwerp.
+Het **dialoog van het Verschil van de Versie 0&rbrace; &lbrace;verschijnt.** Het toont de **Laatste vertaalde versie** en het **Geselecteerde versie** aantal op de linkerzijde. Het voorproefvenster toont de verschillen tussen de laatste vertaalde versie en de geselecteerde versie van het onderwerp.
 
 ![](images/version-diff.png){width="650" align="left"}
 
@@ -226,4 +226,4 @@ Voor het uitvoeren van documentbeheer biedt Experience Manager Guides de mogelij
 U kunt de vertaalprojecten ook onbruikbaar maken als u hen later wilt gebruiken. Als u een project verwijdert, worden alle bestanden en mappen in het project verwijderd. Als u een project uitschakelt, wordt het niet verwijderd, maar in de opslagplaats bewaard. Maar u kunt een gehandicapt project niet bijwerken of uitgeven.  Het verwijderen of uitschakelen van een project heeft geen invloed op de vertaalstatus van verwijzingen.
 
 
-**Bovenliggend onderwerp:**[ Inleiding aan de Redacteur ](web-editor.md)
+**Bovenliggend onderwerp:**&#x200B;[ Inleiding aan de Redacteur ](web-editor.md)

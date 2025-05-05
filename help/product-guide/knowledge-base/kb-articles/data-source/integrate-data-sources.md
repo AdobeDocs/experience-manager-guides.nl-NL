@@ -53,6 +53,7 @@ Voer de volgende stappen uit om de inhoud in Experience Manager Guides te integr
 1. **Opstelling de gegevensbronschakelaar**
    - De gegevensbronschakelaar dient als interface om connectiviteit met de externe gegevensbronnen te vestigen. U moet de connector configureren om de verbinding tot stand te brengen en de verificatiemethoden, zoals `Basic Auth` of `API key Auth` , op te nemen. Alle configuratiedetails, met inbegrip van gecodeerde informatie, worden veilig opgeslagen in Adobe Experience Manager.
    - De schakelaarlaag wordt ontworpen om uitbreidbaar te zijn, toestaand u om uw implementaties tot stand te brengen voor het verbinden met diverse systemen die niet uit-van-de-doos door Experience Manager Guides worden verstrekt.
+
      ![ Laag van de Schakelaar ](assets/data-source-connector-layer.jpg)
    >[!NOTE]
    >
@@ -98,8 +99,10 @@ Voer de volgende stappen uit om de inhoud in Experience Manager Guides te integr
         ```
 
       - Sjablonen
+
         ![ het Sjablonen Motor ](assets/data-source-TemplatingEngine.png){width="800" align="left"}
       - Gegevens gegenereerd uit dezelfde gegevensbron maar met verschillende sjablonen
+
         ![ Gegenereerde Gegevens ](assets/data-source-templates-topics.png){width="800" align="left"}
 
 1. **produceer inhoud gebruikend de malplaatjes**

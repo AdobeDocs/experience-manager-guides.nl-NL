@@ -52,7 +52,7 @@ U kunt een tekstprompt gebruiken om de inhoud te wijzigen. Bijvoorbeeld, kunt u 
 
 1. (Facultatief) Uitgezochte **breid** uit ![ ](./images/expand-icon.svg) om de **de tekstherinnering van het Gebruik** redacteur te openen. De huidige en de gegenereerde inhoud worden weergegeven. U kunt de inhoud van de bronlay-out bewerken en de voorvertoning controleren.
 
-   ![ de snelle redacteur van de hulptekst van de ai {](./images/text-prompt.png)
+   ![ de snelle redacteur van de hulptekst van de ai &lbrace;](./images/text-prompt.png)
 
 
    >[!NOTE]

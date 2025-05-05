@@ -181,7 +181,7 @@ De optie voor naverwerken van tijdelijke bestanden is standaard uitgeschakeld. U
 
 1. Vorm de **post-procestaal taalexemplaren** optie zoals per uw opstelling:
 
-   - \ (*Gebrek* \) als u niet de post-verwerkingsverrichting op de tijdelijke dossiers wilt in werking stellen, dan ** onbruikbaar maken **na-procestaalexemplaren** optie.
+   - \ (*Gebrek* \) als u niet de post-verwerkingsverrichting op de tijdelijke dossiers wilt in werking stellen, dan **&#x200B; onbruikbaar maken &#x200B;** na-procestaalexemplaren** optie.
 
    - Als u de post-verwerkingsverrichting op de tijdelijke dossiers wilt in werking stellen, dan *laat* de **na-procestaalexemplaren** optie toe.
 

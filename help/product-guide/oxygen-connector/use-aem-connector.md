@@ -255,6 +255,7 @@ Voer de volgende stappen uit om profielkenmerken en kruisverwijzingen te configu
 1. In het **lusje van Uitbreidingen**, breng de volgende veranderingen aan:
 
    - Klik **kiezen** naast de **bundel van Uitbreidingen** en selecteer   `LinkResolverExtensionBundle - com.adobe.o2.framework.extn` in de **Klasse** lijst. Klik **OK**.
+
      ![ Gevormde uitbreiding voor onderwerpen DITA ](images/dita-map-extenstion-link-resolve.png) {width="650" align="left"}
    - Klik **kiezen** naast de **Listener van de Staat van de Uitbreiding van de Auteur** onder **Individuele Uitbreidingen** en selecteren `CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn` in de **Klasse** lijst. Klik **OK**.
    - Klik **kiezen** naast de **Redacteur van de Waarde van het Attribuut van de Auteur** onder **Individuele Uitbreidingen** en selecteren `CustomValueEditor - com.adobe.o2.framework.extn` in de **Klasse** lijst. Klik **OK**.
@@ -273,7 +274,7 @@ Voer de volgende stappen uit om de DITA kaartuitbreiding te vormen:
 
 1. In de Auteur van XML van Zuurstof, klik **Opties** \> **Voorkeur**.
 1. In het **lusje van de Vereniging van het Type van Document**, uitgezochte **Kaart DITA**, en klik dan **breidt** uit.
-1. In het **lusje 0} Classpath, uitgezochte com.adobe.o2.connector in de** Loader van de Klasse van de Ouder van het Gebruik van Insteekmodule met identiteitskaart **drop-down.**
+1. In het **lusje 0&rbrace; Classpath, uitgezochte com.adobe.o2.connector in de** Loader van de Klasse van de Ouder van het Gebruik van Insteekmodule met identiteitskaart **drop-down.**
 1. In het **lusje van Uitbreidingen**, breng de volgende veranderingen aan:
    - Klik **kiezen** naast de **bundel van Uitbreidingen** en selecteer   `com.adobe.o2.framework.extn.LinkResolverDITAMapExtensionBundle` in de **Klasse** lijst. Klik **OK**.
 
@@ -375,7 +376,7 @@ Als u de editors wilt gebruiken beschikbaar in AEM Guides, kunt u dit doen door 
 
    - **Dashboard van de Kaart**: U kunt verkiezen om een.ditamap- dossier in het kaartdashboard uit te geven waar u diverse verrichtingen op het kaartdossier kunt uitvoeren. Deze bewerkingen zijn afhankelijk van de rol/groep waartoe u behoort.
 
-   - **de Kaarteditor van DITA van 0} Web: Als u het.ditamap- dossier voor het uitgeven in de Redacteur van de Kaart wilt openen, dan deze optie kiezen.** Gebruikend de optie van de Redacteur van de Kaart DITA, kunt u onderwerpen toevoegen of verwijderen, relatietabellen toevoegen, en andere verrichtingen op uw kaart uitvoeren.
+   - **de Kaarteditor van DITA van 0&rbrace; Web: Als u het.ditamap- dossier voor het uitgeven in de Redacteur van de Kaart wilt openen, dan deze optie kiezen.** Gebruikend de optie van de Redacteur van de Kaart DITA, kunt u onderwerpen toevoegen of verwijderen, relatietabellen toevoegen, en andere verrichtingen op uw kaart uitvoeren.
 
 
 ### Bestanden uitchecken {#id195HC020TS4}
@@ -570,7 +571,7 @@ Voer de volgende stappen uit om onderwerpen te zoeken:
 
 1. \(Optioneel\) Dubbelklik op een bestand in het zoekresultaat om het te openen in Oxygen XML Author.
 1. Voer een van de volgende handelingen uit om terug te gaan naar de AEM Repository-weergave:
-   - Om de AEM mening van de Bewaarplaats te bekijken zonder de onderzoeksresultaten te ontruimen, doorbladert de klik **** tabel.
+   - Om de AEM mening van de Bewaarplaats te bekijken zonder de onderzoeksresultaten te ontruimen, doorbladert de klik **&#x200B;**&#x200B;tabel.
    - Als u de zoekresultaten wilt wissen en de AEM Repository wilt weergeven, klikt u op het pictogram Zoekopdracht verwijderen.
 
 ## Open DITA-onderwerp in Oxygen XML Author vanuit AEM webinterface {#id182CE0I905Z}

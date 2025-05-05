@@ -31,7 +31,7 @@ Leer over [ verbeteringsinstructies voor de versie 4.4.0 ](../release-info/upgra
 - Foutberichten voor dubbele kaartnamen in de gebruikersinterface van Assets worden niet bijgewerkt. 14320
 - Er treedt een fout op in de logica voor het maken van versies tijdens het slepen en neerzetten van elementen. 14291
 - Herbruikbare inhoud slaat de element-id&#39;s over. 14213
-- De plaatsende controle om **paneel van de Variabelen van de Taal te verbergen** onder **lusje van de Output {ontbreekt.** (14194)
+- De plaatsende controle om **paneel van de Variabelen van de Taal te verbergen** onder **lusje van de Output &lbrace;ontbreekt.** (14194)
 - De Redacteur van het Web werpt toepassingsfouten wanneer het toevoegen van een nieuwe verwijzing of een onderwerp gebruikend een gespecialiseerd schema in de **mening van de Lay-out**. (14094)
 - De ruimte na het conref `<ph>` -element verdwijnt bij het opslaan van het onderwerp. 13642
 - Er treedt een toepassingsfout op wanneer wordt geprobeerd DITA-bestanden op te slaan voordat de naverwerking is voltooid. 13571
@@ -49,7 +49,7 @@ Leer over [ verbeteringsinstructies voor de versie 4.4.0 ](../release-info/upgra
 - In de **mening van de Lay-out** voor een Bookmap, gebruikend **Beweging Juist** om een geselecteerd hoofdstuk te maken werkt een sub-element niet. 12567
 - Als u een DITA-bestand maakt op basis van een sjabloon met een bestandsnaam die begint met numerieke tekens, treedt er een naamruimtefout op. (12188)
 - Het rootmap plaatsen blijft in de Redacteur van het Web bestaan zelfs als de gebruiker het niet uitdrukkelijk van de **Voorkeur van de Gebruiker** heeft geplaatst. (11551)
-- De inhoud met sommige toegepaste attributen wordt niet benadrukt in **Auteur** of **3} wijze van de Voorproef {.** (1063)
+- De inhoud met sommige toegepaste attributen wordt niet benadrukt in **Auteur** of **3&rbrace; wijze van de Voorproef &lbrace;.** (1063)
 - In de Redacteur van het Web, opent het **Zeer belangrijke venster van Verwijzingen** wanneer het opnemen van de `varname` markering. 10940
 - Door een woordenlijstonderwerp van de repository naar een glossary map te slepen, maakt u `topicref` . 10767
 - Het voorvertoningsvenster van de XML-editor wordt afgebroken in Google Chrome- en Microsoft Edge-browsers. 10755
@@ -76,7 +76,7 @@ Leer over [ verbeteringsinstructies voor de versie 4.4.0 ](../release-info/upgra
 - In het Inheemse publiceren van PDF, vereist de selectie van de achtergrondkleur op de **lay-out van het Malplaatje** een pagina herladen wanneer het terugkeren aan `None`. 13621
 - AEM het publiceren van de Plaats ontmoet een kwestie wanneer het begaan aan aan de datastore voor grote kaarten met werkingsgebied peer verbindingen. 13531
 - Probleem doet zich voor bij het doorverbinden aan datastore voor een grote DITA-kaart met bereik van peer-koppelingen in AEM publicatie van site. (13530)
-- Het onjuiste pictogram en tooltip worden getoond voor **geef inhoud** optie in de **3} toolbar van de Lay-outs van de Pagina {van de Malplaatjes uit die in het Inheemse publiceren van PDF worden gebruikt.** 13492
+- Het onjuiste pictogram en tooltip worden getoond voor **geef inhoud** optie in de **3&rbrace; toolbar van de Lay-outs van de Pagina &lbrace;van de Malplaatjes uit die in het Inheemse publiceren van PDF worden gebruikt.** 13492
 - Onbekwaam om een plaats te activeren gebruikend het Dashboard van Publish van Experience Manager Guides **Bulk**. 13439
 - In het publiceren van de Eigen PDF, wordt de toegankelijkheid gecompromitteerd aangezien de beelden in kopbal en footer alt geen tekst tonen. 12829
 - In de AEM Sites-uitvoer zijn de stijl of regeleinden verloren gegaan voor het `<lines>` -element met subelementen.12542
@@ -94,7 +94,7 @@ Leer over [ verbeteringsinstructies voor de versie 4.4.0 ](../release-info/upgra
 ## Beheer
 
 - De verwijzing van de inhoud wordt gebroken op kopiëren-kleeft de DITA- dossiers die zelfverwijzingsverbindingen zonder GUID hebben. 13540)
-- **dossiers van de Filter van de Basislijn 0} {werken niet met de Naam van het Dossier in de Redacteur van het Web.** 13486
+- **dossiers van de Filter van de Basislijn 0&rbrace; &lbrace;werken niet met de Naam van het Dossier in de Redacteur van het Web.** 13486
 - In de Redacteur van het Web, toont de basislijn de titel voor de vorige versie in plaats van de geselecteerde versie van het DITA- dossier. (13444)
 - Het onbruikbaar maken van het indexeren van de ouderkaart DITA om betere prestaties te krijgen kan de functionaliteit van bepaalde eigenschappen beïnvloeden.12213
 - Voorinstellingen voor voorwaarden voor grote DITA-kaarten worden niet gemaakt. 10936

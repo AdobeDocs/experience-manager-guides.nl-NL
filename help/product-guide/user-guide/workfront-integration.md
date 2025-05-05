@@ -207,7 +207,7 @@ Voer de volgende stappen uit om aan een ontwerptaak te werken:
 2. Houd de muisaanwijzer boven de taak die u wilt uitvoeren en selecteer  ![](images/Smock_OpenIn_18_N.svg)  om het te openen. U kunt de taak ook openen door gewoon de taak te selecteren.
 
    Alle ontwerptaken worden geopend in de Editor.
-3. Herzie de taakdetails in het **lusje van Details** en selecteer het **3} dossier van Activa {om het te openen.**
+3. Herzie de taakdetails in het **lusje van Details** en selecteer het **3&rbrace; dossier van Activa &lbrace;om het te openen.**
 
    ![](./images/authoring-task-review-details-editor.png){align="left"}
 

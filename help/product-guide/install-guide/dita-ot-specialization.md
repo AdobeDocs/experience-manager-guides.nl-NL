@@ -65,6 +65,7 @@ Voer de volgende stappen uit om aangepaste DITA-OT-plug-in te uploaden naar de A
    - Voer de integrator \(om de aangepaste insteekmodule te installeren\) uit op een Mac/Linux-besturingssysteem om problemen met bestandsscheidingstekens te voorkomen - aangezien Windows en Linux-besturingssystemen verschillende bestandscheiders hebben, is de insteekmodule die is geïntegreerd in Mac/Linux OS compatibel met zowel Windows- als Linux-instellingen.
    - Zorg ervoor dat het `DITA-OT.ZIP` -bestand een map met de naam &quot;DITA-OT&quot; bevat die alle relevante plug-ins en bestanden bevat.
    - Controleer of het `DITA-OT.ZIP` -bestand dat u maakt van het mimeType is: &quot;nt:file&quot; \(dit komt overeen met het primaire type ZIP-bestand wanneer het wordt geüpload naar AEM\). Gebruik een WebDAV-tool of code-implementatie om dit ZIP-bestand te uploaden naar het gewenste pad in AEM. \(Gebruik AEM pakketbeheer niet om dit ZIP-bestand te implementeren, omdat dit ZIP-bestand geen pakket met AEM inhoud is, maar slechts een archiefbestand.\)
+
    >[!NOTE]
    >
    > Het wordt aanbevolen het standaard DITA-OT-pakket niet te overschrijven. U moet uw aangepaste DITA-OT-pakket met uw plug-in uploaden naar een andere locatie in de map `apps` .
@@ -84,7 +85,7 @@ Voer de volgende stappen uit om een nieuw profiel te maken en dit te configurere
 
 1. Selecteer **Gidsen** van de lijst van hulpmiddelen.
 
-1. Klik op de **1} tegel van Profielen DITA {.**
+1. Klik op de **1&rbrace; tegel van Profielen DITA &lbrace;.**
 
    >[!NOTE]
    >
@@ -165,7 +166,7 @@ Voer de volgende stappen uit om een nieuw profiel te creëren en het te vormen o
 
 1. Selecteer **Gidsen** van de lijst van hulpmiddelen.
 
-1. Klik op de **1} tegel van Profielen DITA {.**
+1. Klik op de **1&rbrace; tegel van Profielen DITA &lbrace;.**
 
    >[!NOTE]
    >
@@ -193,7 +194,7 @@ Voer de volgende stappen uit om een nieuw profiel te creëren en het te vormen o
    >
    > Selecteer deze optie alleen als er items voor openbare id&#39;s ontbreken in de catalogus of als de DITA-bestanden alleen de systeem-id&#39;s gebruiken die relatief zijn ten opzichte van het lokale bestandspad van waaruit ze worden geüpload.
 
-   Voor meer informatie over andere eigenschappen op de pagina van Profielen, zie de eigenschappen lijst in [ Stap 6 ](#id17A9F0D075Z) van de [ douane DITA-OT stop-ins van het Gebruik {](#id181NH1020L7) sectie.
+   Voor meer informatie over andere eigenschappen op de pagina van Profielen, zie de eigenschappen lijst in [ Stap 6 ](#id17A9F0D075Z) van de [ douane DITA-OT stop-ins van het Gebruik &lbrace;](#id181NH1020L7) sectie.
 
 1. Klik **Gedaan** om het profiel te bewaren.
 

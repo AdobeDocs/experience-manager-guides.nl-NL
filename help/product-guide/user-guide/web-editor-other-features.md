@@ -158,7 +158,7 @@ De Editor ondersteunt verklarende woordenlijsten die u kunt invoegen door `term`
 
 ### MathML-vergelijkingen invoegen
 
-Experience Manager Guides geeft u een out-of-the-box steun voor het opnemen van de vergelijkingen van MathML door integratie met ](https://docs.wiris.com/en/mathtype/mathtype_web/intro) toepassing van het Web MathType [. Om een vergelijking van MathML op te nemen, selecteer het **pictogram van het Element** en type mathml. Wanneer u mathml element van de lijst selecteert, wordt de **dialoog van MathML van het Tussenvoegsel** getoond:
+Experience Manager Guides geeft u een out-of-the-box steun voor het opnemen van de vergelijkingen van MathML door integratie met [&#128279;](https://docs.wiris.com/en/mathtype/mathtype_web/intro) toepassing van het Web MathType . Om een vergelijking van MathML op te nemen, selecteer het **pictogram van het Element** en type mathml. Wanneer u mathml element van de lijst selecteert, wordt de **dialoog van MathML van het Tussenvoegsel** getoond:
 
 ![ neem mathml vergelijking in mathml redacteur op ](images/insert-mathml-equation.png){width="550" align="left"}
 
@@ -268,4 +268,4 @@ De belangrijkste kenmerken voor een betere afhandeling van grote bestanden zijn 
 
 - Het waarschuwingsbericht is alleen beschikbaar voor DITA-bestanden en is in alle weergaven zichtbaar: Auteur, Source en Layout.
 
-**Bovenliggend onderwerp:**[ Inleiding aan de Redacteur ](web-editor.md)
+**Bovenliggend onderwerp:**&#x200B;[ Inleiding aan de Redacteur ](web-editor.md)

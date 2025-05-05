@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Op microservice gebaseerde publicaties configureren met JWT-verificatie
 
-[!BADGE  Cloud Service ]{type=Informative}
+[!BADGE &#x200B; Cloud Service &#x200B;]{type=Informative}
 
 >[!NOTE]
 >

@@ -33,4 +33,4 @@ Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configur
 >
 > Wanneer een auteur een kaartbestand maakt en ervoor kiest dit te openen om te bewerken, wordt standaard de Basic Map Editor gestart. Als de optie Bewerken is geselecteerd voor een kaartbestand in de gebruikersinterface van Assets, wordt deze ook geopend in de basiskaarteditor.
 
-**Bovenliggend onderwerp:**[ pas de Redacteur van het Web ](conf-web-editor.md) aan
+**Bovenliggend onderwerp:**&#x200B;[ pas de Redacteur van het Web ](conf-web-editor.md) aan

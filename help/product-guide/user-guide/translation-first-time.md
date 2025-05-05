@@ -79,4 +79,4 @@ Nadat de vertaling voltooit, verandert het statuut van de vertaalbaan in *Klaar 
 >- Als u verwerpt, schrapt of annuleert de vertaalbaan voor een onderwerp aanwezig in veelvoudige projecten (voor om het even welke projecten), keert de **Bezig** vertaalstatus van het onderwerp niet terug maar dat project wordt verwijderd uit **Bezig** projectlijst voor dat bepaalde activa.
 >- Bovendien, als u annuleert of de vertaalbaan schrapt of het volledige project schrapt, keert de **Bezig** vertaalstatus terug naar hun originele status.
 
-**Bovenliggend onderwerp:**[ het vertaaloverzicht van de Inhoud ](translation.md)
+**Bovenliggend onderwerp:**&#x200B;[ het vertaaloverzicht van de Inhoud ](translation.md)

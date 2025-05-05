@@ -83,7 +83,7 @@ De volgende lijst bevat enkele aanbevelingen en punten die betrekking hebben op 
 
 - *de recensenten* kunnen tot revisiecommentaren op een onderwerp toegang hebben en toevoegen onder overzicht van de console van het Project of van inbox berichtverbinding. Deze toegang is ook alleen beschikbaar tot de tijd dat de revisietaak is geopend.
 
-- Door gebrek, *worden de Uitgevers van 0} toegang en toestemmingen verleend op de volgende omslagen in DAM:*
+- Door gebrek, *worden de Uitgevers van 0&rbrace; toegang en toestemmingen verleend op de volgende omslagen in DAM:*
 
    - `/content/fmdita` -\> Lezen en schrijven
 

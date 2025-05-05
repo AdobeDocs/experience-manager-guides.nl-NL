@@ -28,4 +28,4 @@ Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configur
 >
 > Deze configuratie wordt door gebrek onbruikbaar gemaakt en de optie is niet beschikbaar in de Redacteur van het Web.
 
-**Bovenliggend onderwerp:**[ pas de Redacteur van het Web ](conf-web-editor.md) aan
+**Bovenliggend onderwerp:**&#x200B;[ pas de Redacteur van het Web ](conf-web-editor.md) aan

@@ -56,7 +56,7 @@ De volgende filteropties en kaartdetails worden getoond op de inzamelingspagina:
 
 - **Filter:** de laagste spoorstaaf toont de volgende filters:
    - **Gewijzigd**: U kunt ja of Nr selecteren. Als u ja selecteert, slechts zullen de gewijzigde kaarten DITA in de Kaarten en de Vooraf ingestelde lijst worden getoond.
-   - **vooraf ingesteld**: Selecteer vooraf ingesteld waarvoor u de kaartdossiers wilt uit filtreren. Bijvoorbeeld, als u *vooraf ingesteld van de Plaats van 0} AEM kiest, dan slechts worden die kaarten getoond die de* vooraf ingestelde 3} output van de Plaats van AEM hebben die op hen wordt gevormd.**
+   - **vooraf ingesteld**: Selecteer vooraf ingesteld waarvoor u de kaartdossiers wilt uit filtreren. Bijvoorbeeld, als u *vooraf ingesteld van de Plaats van 0&rbrace; AEM kiest, dan slechts worden die kaarten getoond die de* vooraf ingestelde 3&rbrace; output van de Plaats van AEM hebben die op hen wordt gevormd.**
    - **Taal**: U kunt om het even welke beschikbare taalcodes selecteren en slechts de geselecteerde taal in de Kaarten en vooraf instelt lijst tonen.
 - **Kaarten en stelt** lijst vooraf in: De Kaarten en stellen lijst vooraf in stelt informatie in de volgende kolommen voor:
    - **Kaart**: Toont de titel van het DITA kaartdossier.
@@ -89,6 +89,7 @@ Om de output te vormen en te produceren gebruikend een Inzameling van de Kaart, 
    - Een afzonderlijke voorinstelling inschakelen.
    - Laat **Alle vooraf instelt** voor een kaart DITA toe om alle vooraf instelt in één te selecteren gaat. Deze optie is standaard uitgeschakeld.
    - Laat **het profielvoorinstellingen van de Omslag** voor een kaart DITA toe om alle voorinstellingen van het omslagprofiel voor het te selecteren. Deze optie is standaard uitgeschakeld.
+
      ![ geef een kaartinzameling op de wolkendiensten uit ](images/edit-map-collection-cs.png){width="800" align="left"}
 
 
@@ -143,4 +144,4 @@ Gelijkaardig aan de manier om een taak van de outputgeneratie van de [ DITA kaar
 
 ![](images/cancel-publish-task-map-collection.png){width="800" align="left"}
 
-**Bovenliggend onderwerp:**[ Productie van de Output ](generate-output.md)
+**Bovenliggend onderwerp:**&#x200B;[ Productie van de Output ](generate-output.md)

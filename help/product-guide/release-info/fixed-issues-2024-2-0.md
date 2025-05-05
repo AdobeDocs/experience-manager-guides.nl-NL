@@ -48,7 +48,7 @@ Leer over [ verbeteringsinstructies voor de versie 2024.2.0 ](upgrade-instructio
 
 ## Beheer
 
-- **dossiers van de Filter van de Basislijn 0} {werken niet met de Naam van het Dossier in de Redacteur van het Web.** 13486
+- **dossiers van de Filter van de Basislijn 0&rbrace; &lbrace;werken niet met de Naam van het Dossier in de Redacteur van het Web.** 13486
 - Het onbruikbaar maken van het indexeren van de ouderkaart DITA om betere prestaties te krijgen kan de functionaliteit van bepaalde eigenschappen beïnvloeden.12213
 
 

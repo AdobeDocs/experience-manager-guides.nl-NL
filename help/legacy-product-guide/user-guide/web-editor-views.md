@@ -152,4 +152,4 @@ Voer de volgende stappen uit om een onderwerp als PDF te exporteren:
    De PDF wordt gegenereerd en geopend op een nieuw tabblad of er wordt een dialoogvenster weergegeven waarin u de PDF op uw lokale systeem kunt opslaan.
 
 
-**Bovenliggend onderwerp:**[ Werk met de Redacteur van het Web ](web-editor.md)
+**Bovenliggend onderwerp:**&#x200B;[ Werk met de Redacteur van het Web ](web-editor.md)

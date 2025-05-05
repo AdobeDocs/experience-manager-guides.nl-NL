@@ -37,4 +37,4 @@ Dit onderwerp begeleidt u door het proces om een kaart te creëren DITA en dan d
 - **[Andere eigenschappen in de kaartredacteurs](map-editor-other-features.md)**
 
 
-**Bovenliggend onderwerp:**[ Inhoud van de Auteur gebruikend AEM Guides ](authoring-content-xml-doc.md)
+**Bovenliggend onderwerp:**&#x200B;[ Inhoud van de Auteur gebruikend AEM Guides ](authoring-content-xml-doc.md)

@@ -97,4 +97,4 @@ Voer de volgende stappen uit om CSV van een DITA kaartrapport te produceren:
 
 Zodra het rapport in Inbox wordt gedownload kunt u het rapport ook selecteren en het Open pictogram op de bovenkant gebruiken om het geselecteerde rapport te openen.
 
-**Bovenliggend onderwerp:**[ Inleiding aan rapporten ](reports-intro.md)
+**Bovenliggend onderwerp:**&#x200B;[ Inleiding aan rapporten ](reports-intro.md)

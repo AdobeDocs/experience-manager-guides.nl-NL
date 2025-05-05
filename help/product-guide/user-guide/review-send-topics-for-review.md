@@ -250,6 +250,7 @@ Als u een of meerdere onderwerpen samen met het kaartbestand ter controle wilt v
    - **opnieuw toewijzen**: Toont het Opnieuw toewijzen van de dialoog van Revisoren. U kunt de naam typen van een revisor of gebruikersrol \(of groep\) waaraan u de revisietaak wilt toewijzen. Hiermee verwijdert u alle bestaande revisoren uit de geselecteerde onderwerpen en wijst u de nieuw geselecteerde revisoren toe aan deze onderwerpen.
    - **Uitvoer**: Staat u toe om de details van de overzichtstaak in een Csv- dossier uit te voeren. Het bestand bevat details zoals het pad en de titel van het onderwerp, de naam van de controleur en de versie van de onderwerpen die ter controle zijn verzonden.
    - **geeft Recensenten** uit: Selecterend het ![](images/edit_pencil_icon.svg) pictogram in de onderwerpenlijst toont de Edit dialoog van Reviewers. U kunt revisoren voor het geselecteerde onderwerp toevoegen aan of verwijderen uit dit dialoogvenster.
+
    >[!IMPORTANT]
    >
    > U moet ten minste één controleur toewijzen om de revisietaak te maken.
@@ -269,4 +270,4 @@ Als u een of meerdere onderwerpen samen met het kaartbestand ter controle wilt v
 
 Er wordt een e-mail verzonden naar alle revisoren, met de kennisgeving dat aan hen onderwerpen zijn toegewezen voor revisie. De e-mail bevat een directe koppeling die zij kunnen gebruiken om toegang te krijgen tot het onderwerp in een browservenster. De onderwerpen samen met de kaart DITA worden geopend op de overzichtswijze.
 
-**Bovenliggend onderwerp:**[ Inleiding aan overzicht ](review.md)
+**Bovenliggend onderwerp:**&#x200B;[ Inleiding aan overzicht ](review.md)

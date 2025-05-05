@@ -107,4 +107,4 @@ Voer de volgende stappen uit om alle markeringen uit één of meerdere onderwerp
 
 Als u een lange lijst van markeringen hebt die op uw onderwerpen worden toegepast, dan zou u het een beetje omslachtig kunnen vinden om te navigeren. U kunt eenvoudig tags verbergen in de weergave van de DITA-kaartconsole door het pictogram Codes verbergen te selecteren. Als de labels niet zichtbaar zijn, worden alle labels ook weergegeven wanneer u de optie Tags tonen selecteert.
 
-**Bovenliggend onderwerp:**[ leidt meta-gegevens ](manage-metadata.md)
+**Bovenliggend onderwerp:**&#x200B;[ leidt meta-gegevens ](manage-metadata.md)

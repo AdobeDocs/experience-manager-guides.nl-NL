@@ -138,7 +138,7 @@ Naast het organiseren van onderwerpen in het kaartdossier, kunt u ook toevoegen,
 
 In het rechterdeelvenster worden de eigenschappen Inhoud en Kaart weergegeven in de layoutweergave van de Kaarteditor. Nu kunt u de meta-gegevensinformatie voor de onderwerpen of de kaart ook plaatsen. U kunt de Titel Nav, de Tekst van de Verbinding, Korte Beschrijving, en Sleutelwoorden voor het geselecteerde onderwerp of de kaart bepalen.
 
-Voor meer details, zie *sectie van de mening van de Lay-out van 0} in de Gebruikende gids van Adobe Experience Manager Guides.*
+Voor meer details, zie *sectie van de mening van de Lay-out van 0&rbrace; in de Gebruikende gids van Adobe Experience Manager Guides.*
 
 ## Deelvenster Snel genereren
 

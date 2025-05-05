@@ -60,4 +60,4 @@ Voer de volgende stappen uit om een DITA kaartdossier samen met zijn afhankelijk
 
 Nadat de kaart is gedownload, kunt u de kaart selecteren en het pictogram Openen bovenaan gebruiken om het geselecteerde rapport te openen.
 
-**Bovenliggend onderwerp:**[ beheert inhoud ](authoring.md)
+**Bovenliggend onderwerp:**&#x200B;[ beheert inhoud ](authoring.md)

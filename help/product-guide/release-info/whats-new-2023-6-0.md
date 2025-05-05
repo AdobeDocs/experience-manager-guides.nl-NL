@@ -146,4 +146,4 @@ U kunt nu ook het apparaatthema gebruiken. Gebruikend de **Voorkeur van de Gebru
 
 ![](assets/device-theme-user-preferences.png){width="550" align="left"}
 
-Voor meer details, zie de **eigenschapbeschrijving van de Voorkeur van de Gebruiker 1} in de [ Belangrijkste toolbar ](../user-guide/web-editor-features.md#id2051EA0G05Z) sectie.**
+Voor meer details, zie de **eigenschapbeschrijving van de Voorkeur van de Gebruiker 1&rbrace; in de [ Belangrijkste toolbar ](../user-guide/web-editor-features.md#id2051EA0G05Z) sectie.**

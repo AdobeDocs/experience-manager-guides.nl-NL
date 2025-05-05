@@ -20,8 +20,8 @@ Leer over [ verbeteringsinstructies voor 4.6.0 Service Pack 3 versie ](upgrade-i
 
 - Alle voorwaardengroepen gaan verloren en de voorwaarden worden afgevlakt bij het bijwerken van de voorwaarden van het omslagprofiel. (23526)
 - Het veranderen van de waarde van kopbalrijen voor een lijst in het **eigenschappen van de Inhoud** paneel past niet de bijgewerkte waarde toe. (23213)
-- Wanneer het toevoegen van nieuwe onderwerpverwijzingen in kaart DITA gebruikend **het elementendialoog van de verwijzing van 0} Onderwerp {in de lay-outweergave, worden de toegevoegde verwijzingen getoond als gebroken verbinding.** (22859)
-- Wanneer het toevoegen van onderwerpen in kaart DITA gebruikend **het elementendialoog van de Verwijzing van 0} Onderwerp {in de auteursmening, worden de geselecteerde onderwerpen opgenomen in omgekeerde orde van wordt geselecteerd.** (22858)
+- Wanneer het toevoegen van nieuwe onderwerpverwijzingen in kaart DITA gebruikend **het elementendialoog van de verwijzing van 0&rbrace; Onderwerp &lbrace;in de lay-outweergave, worden de toegevoegde verwijzingen getoond als gebroken verbinding.** (22859)
+- Wanneer het toevoegen van onderwerpen in kaart DITA gebruikend **het elementendialoog van de Verwijzing van 0&rbrace; Onderwerp &lbrace;in de auteursmening, worden de geselecteerde onderwerpen opgenomen in omgekeerde orde van wordt geselecteerd.** (22858)
 - Wanneer u een afbeelding uit een extern product kopieert (bijvoorbeeld MS PowerPoint) en deze in hulplijnen plakt, wordt de functionaliteit voor het uploaden van het element direct voor gebruik in het bestand verbroken. 24983
 - Wanneer het zoeken van dossiers in de bewaarplaats gebruikend **Onderzoek &amp; filter** functionaliteit, kunnen de veelvoudige dossiers niet worden geselecteerd. 25104
 

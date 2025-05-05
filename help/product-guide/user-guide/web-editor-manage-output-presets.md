@@ -56,4 +56,4 @@ U kunt ook de volgende bewerkingen uitvoeren op de voorinstelling via het menu O
 >
 > Wanneer een output vooraf ingesteld in Globale en Profielen van de Omslag wordt geschrapt, zal het in alle verwante kaarten weerspiegelen en zal niet onder **vooraf instelt van de Output** tabel verschijnen.
 
-**Bovenliggend onderwerp:**[ Werk met de Redacteur van het Web ](web-editor.md)
+**Bovenliggend onderwerp:**&#x200B;[ Werk met de Redacteur van het Web ](web-editor.md)

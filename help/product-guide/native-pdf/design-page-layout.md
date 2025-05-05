@@ -124,7 +124,7 @@ Het allereerste dat u in een paginalay-out moet bepalen is de paginagrootte. In 
    >Zie [ een sectie van de paginalay-out ](components-pdf-template.md#customize-page-layout) aanpassen voor het openen van een paginalay-out voor aanpassing of het uitgeven.
 
 1. In het juiste paneel, klik **Eigenschappen van de Pagina**.
-1. In de **drop-down lijst van de Grootte van de Pagina 0} {, uitgezochte** Douane **.**
+1. In de **drop-down lijst van de Grootte van de Pagina 0&rbrace; &lbrace;, uitgezochte** Douane **.**
 
    De velden Paginabreedte en Paginahoogte worden weergegeven.
 
@@ -146,7 +146,7 @@ Om dit soort output te bereiken, moeten wij de volgende belangrijkste taken uitv
 
 1. Maak een pagina-indeling met de stand Liggend.
 
-1. Verander het **bezit van de Rotatie van de Mening 0} om inhoud in 90° terug te geven.**
+1. Verander het **bezit van de Rotatie van de Mening 0&rbrace; om inhoud in 90° terug te geven.**
 
 1. Maak een aangepaste stijl voor de nieuwe pagina-indeling.
 
@@ -165,6 +165,7 @@ Voer de volgende stappen uit om bovenstaande taken te verwezenlijken:
 1. Wijzig de eigenschap Weergave rotatie om inhoud met de wijzers van de klok mee weer te geven in 90°.
 
    1. Selecteer **met de klok mee 90°** van de drop-down lijst van de Omwenteling van de Mening.
+
    <img src="./assets/view-rotation-page-props.png" width="300">
 
    1. Klik **sparen allen** om de bijgewerkte eigenschappen van de paginalay-out te bewaren.
@@ -179,9 +180,11 @@ Voer de volgende stappen uit om bovenstaande taken te verwezenlijken:
       De lay-outstijlpagina wordt geopend voor bewerking.
 
    1. Klik op **Andere Stijlen** met de rechtermuisknop aan en kies **Nieuwe Stijl**.
+
       <img src="./assets/stylesheet-other-new-style.png" width="300">
 
    1. In Add popup van de Stijl, ga **landscape-stijl** in **classname** in.
+
       <img src="./assets/stylesheet-new-landscape-style.png" width="400">
 
    1. Klik **Gedaan**.
@@ -209,7 +212,7 @@ Voer de volgende stappen uit om bovenstaande taken te verwezenlijken:
 
    1. Klik in het rechterdeelvenster en open het deelvenster Eigenschappen van inhoud.
 
-   1. In het paneel van Eigenschappen van de Inhoud, voeg een nieuw **bezit 0} outputklasse {met** landscape-stijl **als bezitswaarde toe.**
+   1. In het paneel van Eigenschappen van de Inhoud, voeg een nieuw **bezit 0&rbrace; outputklasse &lbrace;met** landscape-stijl **als bezitswaarde toe.**
 
       <img src="./assets/new-style-table-outputclass.png" width="300">
 
@@ -236,7 +239,7 @@ Als u bijvoorbeeld een achtergrondafbeelding wilt invoegen in het middelste gede
 
 1. Breid de **Achtergrond** sectie uit.
 
-1. Klik doorbladert knoop op het **plaatsgebied van de Weg van het Beeld 0} {.**
+1. Klik doorbladert knoop op het **plaatsgebied van de Weg van het Beeld 0&rbrace; &lbrace;.**
 
 1. Blader naar de afbeelding die u als achtergrondafbeelding wilt gebruiken en selecteer deze.
 
@@ -424,9 +427,9 @@ In het volgende voorbeeld worden een paginanummer en een hoofdstuktitel ingevoeg
 
 1. Ga een lege ruimte na het gebied van het paginanummer in en klik het **pictogram van de Gebieden van het Tussenvoegsel**.
 
-1. Selecteer de **categorie van de Titel van het 0} Hoofdstuk van de lijst van het Gebied, het** 3} formaat van de Titel van het Hoofdstuk van de lijst van het Formaat, en klik **Tussenvoegsel**.****
+1. Selecteer de **categorie van de Titel van het 0&rbrace; Hoofdstuk van de lijst van het Gebied, het** 3&rbrace; formaat van de Titel van het Hoofdstuk van de lijst van het Formaat, en klik **Tussenvoegsel**.**&#x200B;**
 
-   Het _gebied van de Titel van het 0} Hoofdstuk, dat met de titel van het hoofdstuk op het tijdstip van het publiceren bevolkt is, wordt opgenomen in het footer gebied._ Op dit moment worden het paginanummer en de hoofdstuktitelvelden gescheiden door een spatie.
+   Het _gebied van de Titel van het 0&rbrace; Hoofdstuk, dat met de titel van het hoofdstuk op het tijdstip van het publiceren bevolkt is, wordt opgenomen in het footer gebied._ Op dit moment worden het paginanummer en de hoofdstuktitelvelden gescheiden door een spatie.
 
    <img src="./assets/page-number-topic-title-near-footer.png" width="400">
 
@@ -436,7 +439,8 @@ In het volgende voorbeeld worden een paginanummer en een hoofdstuktitel ingevoeg
 
    1. In het juiste paneel, klik de **Eigenschappen van de Inhoud** (<img src="./assets/content-properties-icon.png" width="25"> ).
 
-   1. Breid de **eigenschappen van de Lay-out** uit {en plaats de **Float** bezitswaarde aan **recht**.
+   1. Breid de **eigenschappen van de Lay-out** uit &lbrace;en plaats de **Float** bezitswaarde aan **recht**.
+
       <img src="./assets/float-prop-html-content.png" width="400">
 
       Het veld Titel hoofdstuk wordt rechts van de voettekst van de pagina uitgelijnd.

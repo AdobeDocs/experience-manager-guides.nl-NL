@@ -62,7 +62,7 @@ Leer meer over hoe te [ automatisch schrappen of het vertaalproject ](../user-gu
 
 ## De uitvoer voor uw kaarten in bulkactiveringsverzameling activeren op Voorvertoning-instantie
 
-Nu, naast het activeren van de output voor uw bulkactiveringsinzameling op publiceer instantie, verstrekt de Gidsen van de Experience Manager als Cloud Servicen de eigenschap om het op de **1} instantie van de Voorproef te activeren.**
+Nu, naast het activeren van de output voor uw bulkactiveringsinzameling op publiceer instantie, verstrekt de Gidsen van de Experience Manager als Cloud Servicen de eigenschap om het op de **1&rbrace; instantie van de Voorproef te activeren.**
 
 
 Deze eigenschap helpt u uw inhoud aan een voorproefinstantie activeren, toestaand u om te controleren hoe het kijkt en werkt alvorens het aan de **Publish** instantie te activeren.
@@ -70,7 +70,7 @@ Deze eigenschap helpt u uw inhoud aan een voorproefinstantie activeren, toestaan
 
 ![ gecreeerde bulkactivering inzamelingsgeschiedenis tabel ](assets/bulk-collection-audit-history.png){width="800" align="left"}
 
-*Mening de informatie over de geactiveerde kaartoutput in de **Geschiedenis van de Controle**tabel.*
+*Mening de informatie over de geactiveerde kaartoutput in de **Geschiedenis van de Controle**&#x200B;tabel.*
 
 
 Leer meer over [ bulkactivering ](../user-guide/conf-bulk-activation-publish-map-collection.md).
@@ -118,7 +118,7 @@ U kunt configureren om de bestanden op titel of bestandsnaam weer te geven en he
 
 *pas de verschijning volgens uw voorkeur aan.*
 
-Leer meer over de **eigenschapbeschrijving van de voorkeur van de Gebruiker** {in de [ Linkerpaneel ](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.
+Leer meer over de **eigenschapbeschrijving van de voorkeur van de Gebruiker** &lbrace;in de [ Linkerpaneel ](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.
 
 ## Een geopend bestand zoeken in de dataweergave van de webeditor
 
@@ -185,7 +185,7 @@ Leer meer over de **eigenschap van het Element van het Tussenvoegsel** in de [ S
 
 ## Inhoudseigenschappen Type wordt weergegeven als een vervolgkeuzemenu
 
-Nu, verschijnt het Type van Eigenschappen van de Inhoud **** als dropdown menu. In het vervolgkeuzemenu kunt u de tags van de volledige hiërarchie voor de huidige tag weergeven en selecteren.
+Nu, verschijnt het Type van Eigenschappen van de Inhoud **&#x200B;**&#x200B;als dropdown menu. In het vervolgkeuzemenu kunt u de tags van de volledige hiërarchie voor de huidige tag weergeven en selecteren.
 
 Met dit vervolgkeuzemenu hebt u snel toegang tot de relevante tags binnen de hiërarchische structuur.
 
@@ -194,7 +194,7 @@ Met dit vervolgkeuzemenu hebt u snel toegang tot de relevante tags binnen de hi�
 
 *selecteer een markering van de hiërarchie voor de huidige markering.*
 
-Leer meer over de **eigenschap van de Eigenschappen van de Inhoud** in de [ Juiste 3} sectie van het Comité.](../user-guide/web-editor-features.md#id2051eb003yk)
+Leer meer over de **eigenschap van de Eigenschappen van de Inhoud** in de [ Juiste 3&rbrace; sectie van het Comité.](../user-guide/web-editor-features.md#id2051eb003yk)
 
 
 

@@ -19,7 +19,7 @@ Om de aanpassing van de revisie-app te vereenvoudigen, hebben we enkele haken we
 - id: `review_comment`
 - haak: `this.next('updateExtraProps')`:
 
-Zoals hier besproken [ ](../../aem_guides_framework/basic-customisation.md), gaat om het even welk nieuw attribuut dat tijdens aanpassing wordt toegevoegd onder `this.model.extraProps`. Met de methode `updateExtraProps` kunt u kenmerken toevoegen aan een revisieopmerking en kunt u de update en opslag van het toegevoegde kenmerk ook op de server uitvoeren.
+Zoals hier besproken [&#128279;](../../aem_guides_framework/basic-customisation.md), gaat om het even welk nieuw attribuut dat tijdens aanpassing wordt toegevoegd onder `this.model.extraProps`. Met de methode `updateExtraProps` kunt u kenmerken toevoegen aan een revisieopmerking en kunt u de update en opslag van het toegevoegde kenmerk ook op de server uitvoeren.
 
 ### Voorbeeld van gebruik
 

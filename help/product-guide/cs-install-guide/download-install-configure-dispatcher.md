@@ -23,4 +23,4 @@ Dispatcher is de Adobe Experience Manager-tool voor cache- en taakverdelingsbewe
 >
 > AEM als cloudservice biedt geen ondersteuning voor dispatcher voor bijvoorbeeld auteurs.
 
-**Bovenliggend onderwerp:**[ Download en installeer ](download-install.md)
+**Bovenliggend onderwerp:**&#x200B;[ Download en installeer ](download-install.md)

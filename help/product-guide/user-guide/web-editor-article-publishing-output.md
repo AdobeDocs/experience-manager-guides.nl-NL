@@ -89,4 +89,4 @@ Voer de volgende stappen uit om output voor meer dan één onderwerp in uw kaart
 1. U zult de status van het proces van de outputgeneratie zien.Om de output te bekijken, beweegt de muiswijzer over het onderwerp en klikt de Output van de Mening.
 
 
-**Bovenliggend onderwerp:**[ Op artikel-gebaseerde het publiceren van de Redacteur van het Web ](web-editor-article-publishing.md)
+**Bovenliggend onderwerp:**&#x200B;[ Op artikel-gebaseerde het publiceren van de Redacteur van het Web ](web-editor-article-publishing.md)

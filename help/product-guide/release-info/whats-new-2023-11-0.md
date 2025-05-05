@@ -35,7 +35,7 @@ Leer meer over het [ malplaatje van de PDF ](../native-pdf/pdf-template.md).
 
 ### De volgorde van pagina&#39;s wijzigen en meerdere pagina&#39;s per vel publiceren
 
-Naast het publiceren van de pagina&#39;s volgens het brondocument, kunt u ook de volgorde van pagina&#39;s in PDF wijzigen terwijl u een document met meerdere pagina&#39;s publiceert.  Dit biedt u de flexibiliteit om de pagina&#39;s in verschillende volgorden, zoals alle oneven, of alle even pagina&#39;s eerst te publiceren. U kunt de pagina&#39;s ook als een boek publiceren en lezen. U kunt ook het aantal pagina&#39;s bepalen dat u op één vel papier wilt publiceren. Voor meer details, bekijk de ](../native-pdf/components-pdf-template.md#page-organization) sectie van de Organisatie van de Pagina 0} {.[
+Naast het publiceren van de pagina&#39;s volgens het brondocument, kunt u ook de volgorde van pagina&#39;s in PDF wijzigen terwijl u een document met meerdere pagina&#39;s publiceert.  Dit biedt u de flexibiliteit om de pagina&#39;s in verschillende volgorden, zoals alle oneven, of alle even pagina&#39;s eerst te publiceren. U kunt de pagina&#39;s ook als een boek publiceren en lezen. U kunt ook het aantal pagina&#39;s bepalen dat u op één vel papier wilt publiceren. Voor meer details, bekijk de [&#128279;](../native-pdf/components-pdf-template.md#page-organization) sectie van de Organisatie van de Pagina 0&rbrace; &lbrace;.
 
 ### Woordenlijsttermen sorteren op basis van sorteersleutels
 
@@ -59,7 +59,7 @@ U kunt nu de standaardmanier kiezen om de bestanden weer te geven in de webedito
 
 ![ de dialoog van de Voorkeur van de Gebruiker ](assets/user-preferences-2311.png){width="550" align="left"}
 
-*verander de standaardmanier om de dossiers van de **2} dialoog van de Voorkeur van de Gebruiker te bekijken.***
+*verander de standaardmanier om de dossiers van de **2&rbrace; dialoog van de Voorkeur van de Gebruiker te bekijken.***
 
 
 ### Voorinstellingen voor voorwaarden beheren

@@ -30,4 +30,4 @@ Als u een patroon voor automatisch gegenereerde id wilt configureren, maakt u ee
 |---|------------|--------------|
 | `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.pattern` | De standaardwaarde voor dit veld is ingesteld op `${elementName}_${id}` . De waarde `${elementName}` wordt vervangen door de naam van het element. De variabele `${id}` genereert een volgnummer voor het element. Als u bijvoorbeeld het alinea-element toewijst voor automatisch gegenereerde id&#39;s, krijgt de eerste alinea van het onderwerp of document een id zoals p\_1, de volgende alinea krijgt p\_2 enzovoort. In een ander document wordt het genereren van de id echter opnieuw gestart. Dit betekent dat id&#39;s zoals p\_1 en p\_2 in een ander document kunnen worden toegewezen aan alinea-elementen. **Standaardwaarde**: ``${elementName}_${id}`` |
 
-**Bovenliggend onderwerp:**[ pas de Redacteur van het Web ](conf-web-editor.md) aan
+**Bovenliggend onderwerp:**&#x200B;[ pas de Redacteur van het Web ](conf-web-editor.md) aan

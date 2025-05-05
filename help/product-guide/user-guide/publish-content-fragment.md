@@ -49,6 +49,7 @@ Voeg bijvoorbeeld `/conf/we-retail` toe in de cloudconfiguratie. Deze configurat
    * **Naam**: Type de naam van het Fragment van de Inhoud. Door gebrek, wordt de naam bevolkt met de titel van het onderwerp, en de ruimten worden vervangen met &quot;_&quot;. Bijvoorbeeld, *sample_content_fragment*. U kunt het bestand bewerken.  Deze naam wordt gebruikt om de URL voor het inhoudsfragment te genereren.
 
    * U kunt verschillende voorwaarden selecteren om varianten van inhoudsfragmenten te maken. Selecteer een van de volgende opties:
+
      >[!NOTE]
      > 
      > De voorwaarden worden toegelaten slechts als voorwaardelementen in het onderwerp worden bepaald.

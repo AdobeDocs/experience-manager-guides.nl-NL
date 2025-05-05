@@ -88,4 +88,4 @@ De primaire manier om CSS te beheren is door de extraClass sleutel in de uitbrei
 }
 ```
 
-U kunt aangepaste stijlen met CSS-klassen plaatsen door een CSS-bestand toe te voegen aan clientlibs. Tijdens de bouw creëren wij ook ](https://tailwindcss.com/docs/utility-first) output 0} Tailwind {voor de nutsklassen in staartwind. [ De config voor hetzelfde bestand vindt u in de map `tailwind.config.js` op `./tailwind.config.js`
+U kunt aangepaste stijlen met CSS-klassen plaatsen door een CSS-bestand toe te voegen aan clientlibs. Tijdens de bouw creëren wij ook [&#128279;](https://tailwindcss.com/docs/utility-first) output 0&rbrace; Tailwind &lbrace;voor de nutsklassen in staartwind.  De config voor hetzelfde bestand vindt u in de map `tailwind.config.js` op `./tailwind.config.js`

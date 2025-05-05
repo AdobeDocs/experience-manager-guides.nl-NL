@@ -72,7 +72,7 @@ Experience Manager Guides geeft de hoofdstuknummers weer samen met de hoofdstukn
 
 Nu kunt u niet alleen een kaart in de kaartweergave van de Redacteur van het Web uitgeven maar ook het downloaden. U kunt de kaart downloaden met een specifieke basislijn. U kunt de hiërarchie ook afvlakken en alle bestanden en mappen in één map opslaan.
 
-Voor meer details, verwijs naar de **eigenschapbeschrijving van de Mening van de Kaart** {binnen de [ Linkerpaneel ](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.
+Voor meer details, verwijs naar de **eigenschapbeschrijving van de Mening van de Kaart** &lbrace;binnen de [ Linkerpaneel ](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.
 
 ![ optiemenu van een dossier in de mening van de bewaarplaats ](assets/options-menu-repo-view-file-level-2310.png){width="550" align="left"}
 

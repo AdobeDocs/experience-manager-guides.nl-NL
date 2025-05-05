@@ -41,7 +41,7 @@ Voer de volgende stappen uit om uw kaartbestand te maken:
    >
    > Als u eenmaal een exclusief kaartbestand hebt vergrendeld, kunnen andere gebruikers de kaart niet meer bewerken. Ze kunnen echter wel aan de onderwerpen in het kaartbestand werken.
 
-1. Met het geselecteerde kaartdossier, geeft de klik **** uit.
+1. Met het geselecteerde kaartdossier, geeft de klik **&#x200B;**&#x200B;uit.
 
    Het kaartbestand wordt geopend voor bewerking in de Kaarteditor. Gebruikend de Redacteur van de Kaart, bouwt u een kaart door de momenteel beschikbare onderwerpen te gebruiken die in de spoorstaaf van Verwijzingen worden getoond.
 
@@ -86,7 +86,7 @@ Voer de trefwoorden in waarnaar u wilt zoeken. Deze trefwoorden komen overeen me
 
 **B: Groep**
 
-Klik checkbox links van de onderwerpen en klik Groep in de toolbar om de geselecteerde onderwerpen te groeperen. Voor meer informatie over het groeperen van onderwerpen, zie de ](https://docs.oasis-open.org/dita/v1.0/langspec/topicgroup.html) documentatie 0} topicgroup {in de Specificatie van de Taal van OASIS DITA.[
+Klik checkbox links van de onderwerpen en klik Groep in de toolbar om de geselecteerde onderwerpen te groeperen. Voor meer informatie over het groeperen van onderwerpen, zie de [&#128279;](https://docs.oasis-open.org/dita/v1.0/langspec/topicgroup.html) documentatie 0&rbrace; topicgroup &lbrace;in de Specificatie van de Taal van OASIS DITA.
 
 **C: Schrapping**
 
@@ -112,7 +112,7 @@ In de **StandaardWijze**, toont het klikken van een onderwerpverbinding de voorp
 
 **G: De Eigenschappen van de kaart**
 
-Geef het dialoogvenster Eigenschappen kaart weer waarin u de kenmerken en metagegevens voor de kaart kunt instellen. Om een attribuut toe te voegen, klik **voeg** knoop bij de bodem-linkerhoek van de dialoog toe om de **3} drop-down lijst van Attributen {te krijgen.** Selecteer in de lijst het kenmerk dat u wilt toevoegen. Als voor het geselecteerde kenmerk vooraf gedefinieerde waarden zijn opgegeven in het DTD-bestand, worden deze waarden weergegeven in een nieuwe vervolgkeuzelijst. U kunt de gewenste waarde selecteren in de vervolgkeuzelijst. Als er geen vooraf gedefinieerde waarde is, wordt een tekstvak weergegeven waarin u een waarde voor het geselecteerde kenmerk kunt invoeren.
+Geef het dialoogvenster Eigenschappen kaart weer waarin u de kenmerken en metagegevens voor de kaart kunt instellen. Om een attribuut toe te voegen, klik **voeg** knoop bij de bodem-linkerhoek van de dialoog toe om de **3&rbrace; drop-down lijst van Attributen &lbrace;te krijgen.** Selecteer in de lijst het kenmerk dat u wilt toevoegen. Als voor het geselecteerde kenmerk vooraf gedefinieerde waarden zijn opgegeven in het DTD-bestand, worden deze waarden weergegeven in een nieuwe vervolgkeuzelijst. U kunt de gewenste waarde selecteren in de vervolgkeuzelijst. Als er geen vooraf gedefinieerde waarde is, wordt een tekstvak weergegeven waarin u een waarde voor het geselecteerde kenmerk kunt invoeren.
 
 ![](images/map-properties.png){width="300" align="left"}
 
@@ -157,7 +157,7 @@ Voer de volgende stappen uit om met relatietabellen in de BasisRedacteur van de 
    >
    > Het lusje van Onderwerpen geeft u een optie om het kaartdossier met zijn gebiedsdelen te downloaden. Voor meer details, zie [ Exporteer een DITA kaartdossier ](authoring-download-assets.md#id218UBA00IXA).
 
-1. In de belangrijkste toolbar, geeft de klik **** uit.
+1. In de belangrijkste toolbar, geeft de klik **&#x200B;**&#x200B;uit.
 
    Het kaartbestand wordt geopend in de Basic Map Editor.
 
@@ -196,4 +196,4 @@ Als u een onderwerp van uw lijst wilt schrappen, klik het dwarspictogram naast h
 
 Als u de relatietabel wilt verwijderen, klikt u ergens buiten de relatietabel en klikt u op Verwijderen.
 
-**Bovenliggend onderwerp:**[ Werk met de Redacteur van de Kaart ](map-editor.md)
+**Bovenliggend onderwerp:**&#x200B;[ Werk met de Redacteur van de Kaart ](map-editor.md)

@@ -78,7 +78,7 @@ Voer de volgende stappen uit om uw kaartdossier te bouwen gebruikend de Geavance
 
    Houd rekening met de volgende punten bij het samenstellen van uw kaartbestand:
 
-   - Het bestand wordt toegevoegd op een locatie waar de horizontale balk wordt weergegeven in het kaartbewerkingsgebied. In het volgende screenshot, zal het *onderwerp van het 0} Overzicht {binnen tussen de* Algemene Beschrijving *en* Lancering en Landing de onderwerpen van de Plaats *worden toegevoegd.*
+   - Het bestand wordt toegevoegd op een locatie waar de horizontale balk wordt weergegeven in het kaartbewerkingsgebied. In het volgende screenshot, zal het *onderwerp van het 0&rbrace; Overzicht &lbrace;binnen tussen de* Algemene Beschrijving *en* Lancering en Landing de onderwerpen van de Plaats *worden toegevoegd.*
 
      ![](images/horizontal-line-in-adv-map-editor.png){width="350" align="left"}
 
@@ -127,7 +127,7 @@ Toont de dialoog van het onderwerponderzoek. Navigeer naar het onderwerp-/kaartb
 
 **de Groep van het Onderwerp van het Tussenvoegsel** - ![](images/insert-topic-group.png)
 
-Voeg het element `topicgroup` in. Voor meer informatie over het groeperen van onderwerpen, zie de ](https://docs.oasis-open.org/dita/v1.0/langspec/topicgroup.html) documentatie 0} topicgroup {in de Specificatie van de Taal van OASIS DITA.[
+Voeg het element `topicgroup` in. Voor meer informatie over het groeperen van onderwerpen, zie de [&#128279;](https://docs.oasis-open.org/dita/v1.0/langspec/topicgroup.html) documentatie 0&rbrace; topicgroup &lbrace;in de Specificatie van de Taal van OASIS DITA.
 
 **Belangrijkste Definitie van het Tussenvoegsel** - ![](images/Key_icon.svg)
 

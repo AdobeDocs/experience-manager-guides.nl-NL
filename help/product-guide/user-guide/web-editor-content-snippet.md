@@ -88,7 +88,7 @@ Voer de volgende stappen uit om een inhoudsfragment tot stand te brengen gebruik
 
    ![](images/add-content-snippet-generator-empty-screen.png){width="500" align="left"}
 
-1. Ga de vraag in het **tekstvakje van de vraag van 0} Gegevens in.**  Selecteer **de steekproefvraag van het Exemplaar** om een gegevensvraag snel te kopiëren. In plaats van manueel het creëren van de vraag, kunt u de steekproefvraag in het **vakje van de de vraagtekst van Gegevens** kopiëren en kleven. Dan, geef eenvoudig de vraag volgens uw gegevensvereisten uit.
+1. Ga de vraag in het **tekstvakje van de vraag van 0&rbrace; Gegevens in.**  Selecteer **de steekproefvraag van het Exemplaar** om een gegevensvraag snel te kopiëren. In plaats van manueel het creëren van de vraag, kunt u de steekproefvraag in het **vakje van de de vraagtekst van Gegevens** kopiëren en kleven. Dan, geef eenvoudig de vraag volgens uw gegevensvereisten uit.
 
    >[!NOTE]
    >
@@ -109,7 +109,7 @@ De out-of-the-box malplaatjes voor de geselecteerde gegevensbron worden getoond 
    >   
    >U kunt ook de gereedschappen Snelheid gebruiken in de sjablonen. Leer meer over hoe te [ de hulpmiddelen van de gebruiksSnelheid ](#use-velocity-tools).
 
-1. Het **dropdown van het Middel 0} verschijnt voor sommige schakelaars zoals de Cliënt van het TerugSTEL, Salsify, Akeneo, en Microsoft ADO.**  Selecteer om het even welk middel van dropdown en verbind met het om een inhoudsfragment of een onderwerp tot stand te brengen gebruikend de generator voor het.
+1. Het **dropdown van het Middel 0&rbrace; verschijnt voor sommige schakelaars zoals de Cliënt van het TerugSTEL, Salsify, Akeneo, en Microsoft ADO.**  Selecteer om het even welk middel van dropdown en verbind met het om een inhoudsfragment of een onderwerp tot stand te brengen gebruikend de generator voor het.
 
    >[!NOTE]
    >
@@ -129,7 +129,7 @@ Bijvoorbeeld:
       ![](images/add-content-snippet-generator-preview.png){width="500" align="left"}
       *voeg een inhoudsfragmentgenerator toe. Bekijk de gegevens op bron of voorproefwijze.*
 
-1. Om de resultaten van de vraag te bewaren, ga de naam van de generator in en selecteer dan **** toevoegen.   Er wordt een nieuwe inhoudsfragmentgenerator toegevoegd aan de lijst.
+1. Om de resultaten van de vraag te bewaren, ga de naam van de generator in en selecteer dan **&#x200B;**&#x200B;toevoegen.   Er wordt een nieuwe inhoudsfragmentgenerator toegevoegd aan de lijst.
 
    >[!NOTE]
    >
@@ -190,7 +190,7 @@ Voer de volgende stappen uit om een onderwerp tot stand te brengen gebruikend de
 
    *voeg de Vraag van Gegevens, het kaartmalplaatje van Gegevens, en de details van de wortelknoop voor de onderwerpgenerator toe en geef het een unieke naam in het paneel van de Configuratie van de Ophalen.*
 
-   1. Ga de vraag in het **tekstvakje van de vraag van 0} Gegevens in.** Selecteer **de steekproefvraag van het Exemplaar** om een gegevensvraag snel te kopiëren. In plaats van manueel het creëren van de vraag, kunt u de steekproefvraag in het **vakje van de de vraagtekst van Gegevens** kopiëren en kleven. Dan, geef eenvoudig de vraag volgens uw gegevensvereisten uit.
+   1. Ga de vraag in het **tekstvakje van de vraag van 0&rbrace; Gegevens in.** Selecteer **de steekproefvraag van het Exemplaar** om een gegevensvraag snel te kopiëren. In plaats van manueel het creëren van de vraag, kunt u de steekproefvraag in het **vakje van de de vraagtekst van Gegevens** kopiëren en kleven. Dan, geef eenvoudig de vraag volgens uw gegevensvereisten uit.
 
       >[!NOTE]
       >

@@ -19,4 +19,4 @@ AEM Guides biedt ook ondersteuning voor ontwerpen met desktopgereedschappen, zoa
 - **[Werk met Zuurstof](author-desktop-oxygen.md)**
 
 
-**Bovenliggend onderwerp:**[ Inhoud van de Auteur ](authoring-content.md)
+**Bovenliggend onderwerp:**&#x200B;[ Inhoud van de Auteur ](authoring-content.md)

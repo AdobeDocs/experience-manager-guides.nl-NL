@@ -33,7 +33,7 @@ Voer de volgende stappen uit om op artikel gebaseerde uitvoer te genereren:
 
    ![ Nieuw ](images/knowledge-base-confirm-files-for-publishing.png){align="left"}
 
-   U zult de status van het proces van de outputgeneratie bekijken. De **kolom van Onderwerpen** maakt een lijst van de onderwerpen waarvoor de output wordt geproduceerd terwijl de **3} kolom van de Status {toont de het publiceren status van elk onderwerp.**
+   U zult de status van het proces van de outputgeneratie bekijken. De **kolom van Onderwerpen** maakt een lijst van de onderwerpen waarvoor de output wordt geproduceerd terwijl de **3&rbrace; kolom van de Status &lbrace;toont de het publiceren status van elk onderwerp.**
 
 
    ![](images/add-preset-output-generated_cs.png){align="left"}
@@ -46,4 +46,4 @@ Voer de volgende stappen uit om op artikel gebaseerde uitvoer te genereren:
    > U kunt een bestaande uitvoervoorinstelling ook hernoemen, dupliceren of verwijderen in het menu Opties.
 
 
-**Bovenliggend onderwerp:**[ Werk met de Redacteur ](web-editor.md)
+**Bovenliggend onderwerp:**&#x200B;[ Werk met de Redacteur ](web-editor.md)

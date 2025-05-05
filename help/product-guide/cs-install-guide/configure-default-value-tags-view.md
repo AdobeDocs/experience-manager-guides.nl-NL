@@ -21,7 +21,7 @@ AEM Guides staat u toe om de standaardstaat voor de Mening van Markeringen in de
 1. Selecteer **Gidsen** van de lijst van hulpmiddelen en klik de **Profielen van de Omslag**.
 1. Klik op de **Globale tegel van het Profiel**.
 1. Selecteer het **lusje van de Configuratie van de Redacteur van XML** en klik **uitgeven** pictogram op de bovenkant.
-1. In de **UI van de Redacteur van XML configuratie** sectie, klik het **3} pictogram van de Download {om het `ui_config.json` dossier op uw lokaal systeem te downloaden.**
+1. In de **UI van de Redacteur van XML configuratie** sectie, klik het **3&rbrace; pictogram van de Download &lbrace;om het `ui_config.json` dossier op uw lokaal systeem te downloaden.**
 1. Wijzig in het bestand `ui_config.json` de weergavestatus van de standaardlabels door de sectie defaultValues (zie hieronder) te wijzigen:
 
 ```
@@ -37,4 +37,4 @@ AEM Guides staat u toe om de standaardstaat voor de Mening van Markeringen in de
 >
 > De voorkeur van de gebruiker in de Redacteur van het Web om de Mening van Markeringen toe te laten/onbruikbaar te maken heeft belangrijkheid over deze standaardwaarde. Zo, als een gebruiker de Mening van Markeringen van de Redacteur van het Web toelaat, blijft het toegelaten zelfs over de zittingen.
 
-**Bovenliggend onderwerp:**[ pas de Redacteur van het Web ](conf-web-editor.md) aan
+**Bovenliggend onderwerp:**&#x200B;[ pas de Redacteur van het Web ](conf-web-editor.md) aan

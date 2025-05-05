@@ -27,4 +27,4 @@ U kunt uitvoerbestanden in PDF, ePub, HTML en vele andere indelingen maken met d
 
 *contacteer uw team van het klantensucces om deze eigenschap te krijgen die in het milieu wordt toegelaten. Dit wordt niet toegelaten als deel van uit-van-de-doos steun.*
 
-**Bovenliggend onderwerp:**[ Inhoud van de Auteur ](authoring-content.md)
+**Bovenliggend onderwerp:**&#x200B;[ Inhoud van de Auteur ](authoring-content.md)

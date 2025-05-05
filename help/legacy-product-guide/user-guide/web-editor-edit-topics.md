@@ -49,6 +49,7 @@ Als u de geselecteerde inhoud verwijdert, wordt de resterende inhoud na het verw
 
    - Selecteer de inhoud in een element.
    - Selecteer ![ voeg ](images/Add_icon.svg) pictogram van de secundaire toolbar op de bovenkant toe om **Surround met de dialoogdoos van het Element** te bekijken. In het dialoogvenster worden de geldige elementen voor de geselecteerde inhoud weergegeven.
+
      >[!NOTE]
      >
      > U kunt het dialoogvenster Surround met element ook weergeven door het contextmenu van de geselecteerde inhoud te selecteren.
@@ -79,7 +80,7 @@ AEM Guides geeft ook aan of de laatst opgeslagen \(werkende\) kopie van het best
 
 ## Vergrendelde bestanden openen in de modus Auteur en Source
 
-Wanneer een DITA- of Markdown-bestand is vergrendeld of uitgecheckt door een andere gebruiker, is het niet mogelijk de inhoud te bewerken of te wijzigen. Nochtans, kunt u het dossier in een read-only formaat in zowel de **Auteur** als **Source** wijzen, naast de **** wijze van de Voorproef nog bekijken.
+Wanneer een DITA- of Markdown-bestand is vergrendeld of uitgecheckt door een andere gebruiker, is het niet mogelijk de inhoud te bewerken of te wijzigen. Nochtans, kunt u het dossier in een read-only formaat in zowel de **Auteur** als **Source** wijzen, naast de **&#x200B;**&#x200B;wijze van de Voorproef nog bekijken.
 
 Op de read-only wijze, hebt u de capaciteit om de inhoud, de markeringen, en de attributen binnen de **Auteur** of **Source** wijzen te bekijken. U kunt ook de bestandseigenschappen wijzigen.
 
@@ -103,7 +104,7 @@ U kunt tot de **mening van de Lay-out** voor read-only kaarten toegang hebben DI
 
 Terwijl u een bestand opent in de webeditor, biedt Experience Manager Guides de functie om het bestand te zoeken in de weergave Opslagplaats. Het huidige onderwerp wordt bijvoorbeeld gezocht terwijl u het bewerkt.
 
-U kunt de eigenschap uitzetten om van het dossier met **de plaats te bepalen bepaalt altijd van dossiers in bewaarplaats** optie van het **3} lusje van de Verschijning {van de** voorkeur van de Gebruiker **.**
+U kunt de eigenschap uitzetten om van het dossier met **de plaats te bepalen bepaalt altijd van dossiers in bewaarplaats** optie van het **3&rbrace; lusje van de Verschijning &lbrace;van de** voorkeur van de Gebruiker **.**
 
 
-**Bovenliggend onderwerp:**[ Werk met de Redacteur van het Web ](web-editor.md)
+**Bovenliggend onderwerp:**&#x200B;[ Werk met de Redacteur van het Web ](web-editor.md)

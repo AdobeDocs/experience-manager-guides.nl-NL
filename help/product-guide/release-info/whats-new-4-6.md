@@ -30,7 +30,7 @@ Een ervaringsfragment is een modulaire inhoudseenheid in Adobe Experience Manage
 
 ![ dossier eigenschappen opties tabel ](./assets/file-properties-outputs-4-6.png) {width="300" align="left"}
 
-*Publish en bekijk de Fragmenten van de Ervaring van een onderwerp van de **2} sectie van Output {in de**Eigenschappen van het Dossier **.***
+*Publish en bekijk de Fragmenten van de Ervaring van een onderwerp van de **2&rbrace; sectie van Output &lbrace;in de**&#x200B;Eigenschappen van het Dossier **.***
 
 Met Experience Manager Guides kunt u nu een onderwerp of de bijbehorende elementen publiceren naar een ervaringsfragment. U kunt een op JSON-Gebaseerde afbeelding tussen een onderwerp of zijn elementen en een malplaatje van het Fragment van de Ervaring tot stand brengen. U kunt ook Experience Fragment-variaties maken met behulp van de voorwaardenfilters.
 
@@ -81,7 +81,7 @@ Als het zelfde onderwerp naar meer dan eens in een dossier wordt verwezen, dan k
 
 ![ Verouderde vooraf ingestelde AEM Sites ](assets/aem-sites-legacy.png)
 
-*specificeer de het publiceren context voor de verbonden onderwerpen van de **Verwijzingen van de kaart**lusje van **AEM Sites**vooraf ingesteld.*
+*specificeer de het publiceren context voor de verbonden onderwerpen van de **Verwijzingen van de kaart**&#x200B;lusje van **AEM Sites**&#x200B;vooraf ingesteld.*
 
 
 
@@ -216,7 +216,7 @@ U kunt configureren om de bestanden op titel of bestandsnaam weer te geven en he
 
 *pas de verschijning volgens uw voorkeur aan.*
 
-Leer meer over de **eigenschapbeschrijving van de voorkeur van de Gebruiker** {in de [ Linkerpaneel ](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.
+Leer meer over de **eigenschapbeschrijving van de voorkeur van de Gebruiker** &lbrace;in de [ Linkerpaneel ](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.
 
 
 ### Een geopend bestand zoeken in de dataweergave van de webeditor
@@ -238,7 +238,7 @@ Voor meer details, bekijk de [ andere eigenschappen van de Redacteur van het Web
 
 ### De mogelijkheid om eigenschappen van elk element vanuit de elementenhiërarchie weer te geven
 
-Nu, verschijnt het Type van Eigenschappen van de Inhoud **** als dropdown menu. In het vervolgkeuzemenu kunt u de tags van de volledige hiërarchie voor de huidige tag weergeven en selecteren.
+Nu, verschijnt het Type van Eigenschappen van de Inhoud **&#x200B;**&#x200B;als dropdown menu. In het vervolgkeuzemenu kunt u de tags van de volledige hiërarchie voor de huidige tag weergeven en selecteren.
 
 Met dit vervolgkeuzemenu hebt u snel toegang tot de eigenschappen van de inhoud van de geselecteerde tag.
 
@@ -247,7 +247,7 @@ Met dit vervolgkeuzemenu hebt u snel toegang tot de eigenschappen van de inhoud 
 
 *selecteer een markering van de hiërarchie voor de huidige markering.*
 
-Leer meer over de **eigenschap van de Eigenschappen van de Inhoud** in de [ Juiste 3} sectie van het Comité.](../user-guide/web-editor-features.md#id2051eb003yk)
+Leer meer over de **eigenschap van de Eigenschappen van de Inhoud** in de [ Juiste 3&rbrace; sectie van het Comité.](../user-guide/web-editor-features.md#id2051eb003yk)
 
 
 

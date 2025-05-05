@@ -89,7 +89,7 @@ Het **lusje van de Geschiedenis van de Controle** stelt informatie over de geact
 - **Gepubliceerd**: Toont de datum en de tijd van de laatste gepubliceerde (of geactiveerde) output. Als u de koppeling selecteert, wordt de pagina Activeringsresultaten weergegeven. Deze pagina bevat de logbestanden met informatie over het hoofdpad waar de inhoud is geactiveerd.
   ![ gecreeerde bulkactivering inzamelingsgeschiedenis tabel ](images/bulk-collection-audit-history.png){align="left"}
 
-  *Mening de informatie over de geactiveerde kaartoutput in de **Geschiedenis van de Controle**tabel.*
+  *Mening de informatie over de geactiveerde kaartoutput in de **Geschiedenis van de Controle**&#x200B;tabel.*
 
 
   >[!NOTE]
@@ -103,9 +103,9 @@ Het **lusje van de Geschiedenis van de Controle** stelt informatie over de geact
 De volgende filteropties zijn beschikbaar in het linkerdeelvenster:
 
 - **Gewijzigd**: U kunt ja of Nr selecteren. Als u ja selecteert, slechts worden de gewijzigde kaarten DITA getoond. Een gewijzigde kaart is een kaart die is gegenereerd sinds deze voor het laatst is gepubliceerd.
-- **vooraf ingesteld**: Selecteer vooraf ingesteld waarvoor u de kaartdossiers wilt uit filtreren. In deze kolom wordt de titel weergegeven van de uitvoervoorinstelling die in het kaartbestand is geconfigureerd. Bijvoorbeeld, als u *vooraf ingesteld van de Plaats van 0} AEM kiest, dan slechts worden die kaarten getoond die de* vooraf ingestelde 3} output van de Plaats van AEM hebben die op hen wordt gevormd.**
+- **vooraf ingesteld**: Selecteer vooraf ingesteld waarvoor u de kaartdossiers wilt uit filtreren. In deze kolom wordt de titel weergegeven van de uitvoervoorinstelling die in het kaartbestand is geconfigureerd. Bijvoorbeeld, als u *vooraf ingesteld van de Plaats van 0&rbrace; AEM kiest, dan slechts worden die kaarten getoond die de* vooraf ingestelde 3&rbrace; output van de Plaats van AEM hebben die op hen wordt gevormd.**
 - **Taal**: U kunt om het even welke beschikbare taalcodes selecteren en slechts de geselecteerde taal tonen in de Kaarten en stelt tabel vooraf in.
 
 De filters worden bijgewerkt wanneer u van de **Kaarten en vooraf instelt** lusje aan het **lusje van de Geschiedenis van de Controle** schakelt en vice versa.
 
-**Bovenliggend onderwerp: **[ Bulk Activering van gepubliceerde inhoud ](conf-bulk-activation.md)
+**Bovenliggend onderwerp: &#x200B;** [ Bulk Activering van gepubliceerde inhoud ](conf-bulk-activation.md)

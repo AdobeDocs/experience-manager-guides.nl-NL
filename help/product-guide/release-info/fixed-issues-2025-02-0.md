@@ -23,12 +23,12 @@ Leer over [ verbeteringsinstructies voor de versie 2025.02.0 ](upgrade-instructi
 - Bij het bijwerken van voorwaarden uit het mapprofiel gaan alle voorwaardengroepen verloren en worden de voorwaarden samengevoegd. (23526)
 - Het veranderen van de waarde van kopbalrijen voor een lijst in het **eigenschappen van de Inhoud** paneel past niet de bijgewerkte waarde toe. (23213)
 - Voor volgende Guides-documentstatusovergangen moet de pagina worden vernieuwd. (19421)
-- Wanneer het toevoegen van onderwerpen in kaart DITA gebruikend **het elementendialoog van de verwijzing van het 0} Onderwerp {in de** Auteur **mening, worden de geselecteerde onderwerpen opgenomen in omgekeerde orde van wordt geselecteerd.** 8031
+- Wanneer het toevoegen van onderwerpen in kaart DITA gebruikend **het elementendialoog van de verwijzing van het 0&rbrace; Onderwerp &lbrace;in de** Auteur **mening, worden de geselecteerde onderwerpen opgenomen in omgekeerde orde van wordt geselecteerd.** 8031
 - Wanneer het schakelen tussen **Auteur** mening en **Source** mening, worden de belangrijke ruimten in `<pre>` of `<codeblock>` elementen geschrapt en het dossier wordt bewaard met deze schrapping. (1987)
 - De staat van het Document die als **wordt gemerkt Gedaan** keert aan **Ontwerp** terug alvorens een nieuwe versie op te slaan, resulterend in de **Gedaan** staat die niet in enige documentversies voortduurt. (2006)
 - Wanneer lijstitems buiten de paratag worden geplaatst, gaat de inhoud van het lijstitem verloren. (22764)
-- Wanneer het toevoegen van onderwerpen in kaart DITA gebruikend **het elementendialoog van de verwijzing van het 0} Onderwerp {in de** Auteur **mening, worden de geselecteerde onderwerpen opgenomen in omgekeerde orde van wordt geselecteerd.** (22858)
-- Wanneer het toevoegen van nieuwe onderwerpverwijzingen in kaart DITA gebruikend **het elementendialoog van de verwijzing van 0} Onderwerp {in de** mening van de Lay-out **, worden de toegevoegde verwijzingen getoond als gebroken verbindingen.** (22859)
+- Wanneer het toevoegen van onderwerpen in kaart DITA gebruikend **het elementendialoog van de verwijzing van het 0&rbrace; Onderwerp &lbrace;in de** Auteur **mening, worden de geselecteerde onderwerpen opgenomen in omgekeerde orde van wordt geselecteerd.** (22858)
+- Wanneer het toevoegen van nieuwe onderwerpverwijzingen in kaart DITA gebruikend **het elementendialoog van de verwijzing van 0&rbrace; Onderwerp &lbrace;in de** mening van de Lay-out **, worden de toegevoegde verwijzingen getoond als gebroken verbindingen.** (22859)
 - Wanneer u op de `<simpletable>` markering binnen een onderwerp met de rechtermuisknop klikt, **anders noemt** optie niet toont. (22860)
 - Wanneer u een `xref` invoegt die op sleutels gebaseerde verwijzingen met koppelingstekst gebruikt, wordt de koppelingstekst niet weergegeven in Experience Manager Guides. (1875)
 - Het slepen van en het laten vallen van een beeld binnen een onderwerp in **Auteur** mening veroorzaakt de beeldverwijzing om te breken, die tot gegevensverlies leiden. (25769)
@@ -51,7 +51,7 @@ Leer over [ verbeteringsinstructies voor de versie 2025.02.0 ](upgrade-instructi
 - Bij het bewerken van een groot CSS-bestand in de Native PDF CSS-editor wordt een aanzienlijke vertraging waargenomen. 16915
 - Bij publicatie op basis van HTML5 wordt de DITA-OT-markering generate.copy.outer automatisch toegepast. (24299)
 - De verwijzing zet in relatieve verbinding zelfs om wanneer het **werkingsgebied** van verbinding aan **extern** wordt geplaatst. (23059)
-- Wanneer een ICC dossier bij een intern weg beschikbaar is, kan het niet in **1} montages van de Druk voor Inheemse vooraf ingestelde PDF worden geselecteerd.** (14741)
+- Wanneer een ICC dossier bij een intern weg beschikbaar is, kan het niet in **1&rbrace; montages van de Druk voor Inheemse vooraf ingestelde PDF worden geselecteerd.** (14741)
 - Wanneer meerdere publicatieverzoeken voor verschillende kaarten worden gestart met dezelfde mapprofielvoorinstelling, mislukt het publiceren. (18800)
 - Voor onderwerpen met een multi-getaxeerde meta-gegevens/bezit wanneer overgegaan tot DITA OT, ontbreekt het publiceren. (19001)
 - Het **geeft eigenschappen** dialoog voor een basislijn uit toont niet de eerder bewaarde criteria voor dynamische basislijn.  (23964)

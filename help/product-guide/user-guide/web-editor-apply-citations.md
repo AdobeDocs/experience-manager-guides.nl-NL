@@ -32,7 +32,7 @@ Experience Manager Guides ondersteunt meerdere aanhalingstekens, zoals de Modern
 
 Ga als volgt te werk om citaten toe te voegen:
 
-1. Selecteer het **![ pictogram van citaten ](images/citations-icon.svg) van de citaten** Bevelingen {in het linkerpaneel.
+1. Selecteer het **![ pictogram van citaten ](images/citations-icon.svg) van de citaten** Bevelingen &lbrace;in het linkerpaneel.
 
    Het **paneel van Bevragingen** opent.
 
@@ -81,7 +81,7 @@ Ga als volgt te werk om citaten toe te voegen:
 
 Voer de volgende stappen uit om citaten te importeren:
 
-1. In het linkerpaneel, uitgezochte **![ citationenpictogram van 1} Cites ](images/citations-icon.svg).**
+1. In het linkerpaneel, uitgezochte **![ citationenpictogram van 1&rbrace; Cites ](images/citations-icon.svg).**
 
    Het **paneel van Bevragingen** opent.
 
@@ -96,7 +96,7 @@ Voer de volgende stappen uit om citaten te importeren:
 
    >[!NOTE]
    > <ol><li> Experience Manager Guides importeert alleen citaten die uniek zijn en nog niet aanwezig zijn.
-    &gt; <li> Experience Manager Guides kan citaten importeren uit een boek, journaal of website. Momenteel ondersteunt het geen citaten uit andere bronnen.
+   > &gt; <li> Experience Manager Guides kan citaten importeren uit een boek, journaal of website. Momenteel ondersteunt het geen citaten uit andere bronnen.
 
 ## citaten beheren
 
@@ -144,7 +144,7 @@ Voer de volgende stappen uit om de uitnodiging te bewerken:
 
 1. Selecteer **uitgeven**.
 
-Het **geeft 1} dialoogvakje van de Aanhaling uit opent.**
+Het **geeft 1&rbrace; dialoogvakje van de Aanhaling uit opent.**
 
 1. Breng de gewenste wijzigingen aan. Selecteer **Gereed**.
 Het geselecteerde citaat wordt uitgegeven.
@@ -186,7 +186,7 @@ U kunt citaten aan het onderwerp van de belangrijkste toolbar of het linkerpanee
 
 ### Van de hoofdwerkbalk
 
-1. Selecteer het **![ pictogram van citaten 1} ](images/citations-icon.svg) van de citaten** Bevelingen {in de belangrijkste toolbar.
+1. Selecteer het **![ pictogram van citaten 1&rbrace; ](images/citations-icon.svg) van de citaten** Bevelingen &lbrace;in de belangrijkste toolbar.
 1. In het **de dialoogvakje van de Bevelen**, kies de citatie. U kunt ook meerdere citaten selecteren.
    ![ citeringsdialoog ](images/citation-dialog-main-toolbar.png){width="300" align="left"}
 1. U kunt citaties filtreren door de eerste paar alfabeten in het onderzoekspaneel van het **de dialoogvakje van de Aanhaling** te typen.
@@ -201,7 +201,7 @@ Het geselecteerde citaat wordt toegevoegd bij de cursorplaats in uw onderwerp.
 > 
 >Om het **pictogram van de Bevragingen** van het linkerpaneel te bekijken, moet uw systeembeheerder de **optie van de Bevragingen** in de **Panelen** tabel in **Montages** toelaten.
 
-1. Selecteer **![ het pictogram van citaten ](images/citations-icon.svg) van de citaten** Bevelingen {in het linkerpaneel.
+1. Selecteer **![ het pictogram van citaten ](images/citations-icon.svg) van de citaten** Bevelingen &lbrace;in het linkerpaneel.
 1. Sleep de citatie van het **paneel van Cites** en laat vallen het bij de aangewezen plaats in het onderwerp.
 
    U kunt **Tussenvoegsel** van ![](images/options.svg) **Opties** ook selecteren om een citaat op te nemen.

@@ -190,4 +190,4 @@ De kaart genereert alle elementen waarnaar in de sjabloonmap wordt verwezen. Som
 
 - Als een andere kaart of een onderwerp op het zelfde niveau in de omslag wordt gecreeerd, dan worden de namen van de pas gecreëerde activa toegevoegd met 0.1.2, etc. U kunt ervoor kiezen de kaart te openen om het kaartbestand te bewerken of op te slaan in de opslagplaats.
 
-**Bovenliggend onderwerp:**[ Werk met de Redacteur van de Kaart ](map-editor.md)
+**Bovenliggend onderwerp:**&#x200B;[ Werk met de Redacteur van de Kaart ](map-editor.md)

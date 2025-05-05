@@ -88,4 +88,4 @@ Voer de volgende stappen uit om een taak van de outputgeneratie van het Publish 
    ![](images/cancelled-output-task.png){width="800" align="left"}
 
 
-**Bovenliggend onderwerp:**[ Productie van de Output ](generate-output.md)
+**Bovenliggend onderwerp:**&#x200B;[ Productie van de Output ](generate-output.md)

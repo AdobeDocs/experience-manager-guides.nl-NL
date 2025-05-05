@@ -39,4 +39,4 @@ Voer de volgende stappen uit om slimme tags te maken:
 
 *contacteer uw team van het klantensucces om deze eigenschap te krijgen die in het milieu wordt toegelaten. Dit wordt niet toegelaten als deel van uit-van-de-doos steun.*
 
-**Bovenliggend onderwerp:**[ leidt meta-gegevens ](manage-metadata.md)
+**Bovenliggend onderwerp:**&#x200B;[ leidt meta-gegevens ](manage-metadata.md)

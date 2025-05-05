@@ -131,7 +131,7 @@ Voer de volgende stappen uit om de documentstatuswijziging te automatiseren:
    `<AEM_Server_URL>:<port>/workflow`
 
 1. Open een workflow op de pagina met workflows. Bijvoorbeeld Revisieonderwerp.
-1. Selecteer **Stap van het Proces** van de **3} sectie van het Werkschema {van de AEM dialoog en belemmering-daling op het werkschema.**
+1. Selecteer **Stap van het Proces** van de **3&rbrace; sectie van het Werkschema &lbrace;van de AEM dialoog en belemmering-daling op het werkschema.**
 
    ![](assets/process-step-workflow.png)
 

@@ -62,4 +62,4 @@ Voer de volgende stappen aan auteur uit een onderwerp van de Prijsverhoging van 
 >
 > Als u geen opgeslagen wijzigingen hebt, wordt een pop-up weergegeven en wordt u gevraagd uw onderwerp op te slaan voordat u het sluit.
 
-**Bovenliggend onderwerp:**[ Werk met de Redacteur van het Web ](web-editor.md)
+**Bovenliggend onderwerp:**&#x200B;[ Werk met de Redacteur van het Web ](web-editor.md)

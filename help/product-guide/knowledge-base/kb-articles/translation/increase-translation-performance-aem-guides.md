@@ -24,10 +24,12 @@ Elk vertaalproject produceert veelvoudige gebruikersgroepen voor toegang, die to
 
 - Markeer alle projecten als &quot;Inactief&quot; zodra de vertaling is voltooid en goedgekeurd. Het project blijft beschikbaar voor revisie en wordt eenvoudig als inactief gemarkeerd.
    - Als u deze stappen uitvoert, blijven de algemene vertaalprestaties in goede gezondheid behouden.
+
      ![ Inactief vertaalproject ](../assets/translation/translation-project-image1.png)
 
 - Voor oudere projecten moet de map die als inactief is gemarkeerd, worden verwijderd. Deze map moet worden goedgekeurd en gecontroleerd.
    - Als u deze stappen uitvoert, blijven de algemene vertaalprestaties in goede gezondheid behouden doordat tijdelijke vertaalbestanden en gebruikersgroepen die bij deze projectmap horen, worden opgeschoond.
+
      ![ Vertaalproject en -map verwijderen ](../assets/translation/translation-project-image2.png)
 
 

@@ -81,4 +81,4 @@ Genereert ``java.lang.Exception`` in de volgende scenario&#39;s:
 - Als parameters die aan de API worden doorgegeven ongeldig zijn.
 - Als de API wordt aangeroepen via een niet-geautoriseerde gebruikerssessie, bijvoorbeeld de gebruiker die geen beheerder is voor het opgegeven mapprofiel.
 
-[ ](#fnsrc_1) `attributeNames` `values`, en `labels` bij de zelfde index in een serielijst moet aan de zelfde ingang beantwoorden.
+[&#128279;](#fnsrc_1) `attributeNames` `values`, en `labels` bij de zelfde index in een serielijst moet aan de zelfde ingang beantwoorden.

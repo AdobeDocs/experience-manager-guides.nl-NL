@@ -56,7 +56,7 @@ Voer de volgende stappen uit om onderwerpen aan een kaartdossier van de console 
    ![](images/new-map-file-in-editor.png){align="left"}
 
 
-   - **A** - \ (*bar van het Lusje* \): Dit is gelijkaardig aan de het tabbar van de Redacteur. De bar van het lusje van de mening [ ](./web-editor-features.md#tab-bar) in de Redacteur voor meer details.
+   - **A** - \ (*bar van het Lusje* \): Dit is gelijkaardig aan de het tabbar van de Redacteur. De bar van het lusje van de mening [&#128279;](./web-editor-features.md#tab-bar) in de Redacteur voor meer details.
 
    - **B** - \ (*Toolbar* \) dit is de toolbar die u toestaat om met kaartdossiers te werken. Voor meer informatie over de functies beschikbaar door de toolbar, mening [ Eigenschappen beschikbaar in de toolbar van de Redacteur van de Kaart ](#features-available-in-the-map-editors-toolbar).
 
@@ -68,11 +68,11 @@ Voer de volgende stappen uit om onderwerpen aan een kaartdossier van de console 
 
    - **F** - \ (*Juiste Comité* \): verleent toegang tot het paneel van Eigenschappen. U kunt de inhoudseigenschappen en de kaarteigenschappen van het geselecteerde onderwerp of de kaart bekijken. Voor meer details over de functionaliteit beschikbaar in dit paneel, mening [ Juiste paneel ](web-editor-features.md#right-panel) in de Redacteur.
 
-1. In het LinkerComité, schakelaar aan de **1} mening van de Bewaarplaats {.**
+1. In het LinkerComité, schakelaar aan de **1&rbrace; mening van de Bewaarplaats &lbrace;.**
 
 1. Navigeer in de Adobe Experience Manager-opslagplaats naar de map met de onderwerpen of submaps die u wilt toevoegen.
 
-1. Selecteer het onderwerp of kaartdossier in de **1} mening van de Bewaarplaats {en belemmering-en-daling het in het \ (midden \) gebied van de kaartinhoud het uitgeven.**
+1. Selecteer het onderwerp of kaartdossier in de **1&rbrace; mening van de Bewaarplaats &lbrace;en belemmering-en-daling het in het \ (midden \) gebied van de kaartinhoud het uitgeven.**
 
    Het onderwerp wordt toegevoegd in de kaart.
 

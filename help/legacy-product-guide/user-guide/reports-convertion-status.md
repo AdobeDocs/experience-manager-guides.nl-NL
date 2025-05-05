@@ -22,7 +22,7 @@ Voer de volgende stappen uit om het rapport Conversiestatus weer te geven:
 
 1. Selecteer **Gidsen** van de lijst van hulpmiddelen.
 
-1. Klik op de **tegel van het Rapport van de Status van de Omzetting 0} {.**
+1. Klik op de **tegel van het Rapport van de Status van de Omzetting 0&rbrace; &lbrace;.**
 
    Het rapport Conversiestatus wordt weergegeven voor alle conversietaken die op het systeem worden uitgevoerd.
 
@@ -57,4 +57,4 @@ Voer de volgende stappen uit om het rapport Conversiestatus weer te geven:
       - **Output**: Weg van het met succes omgezette document. Als u op de koppeling Uitvoer klikt, gaat u naar de locatie waar de uitvoer is opgeslagen.
 
 
-**Bovenliggend onderwerp:**[ Rapporten ](reports-intro.md)
+**Bovenliggend onderwerp:**&#x200B;[ Rapporten ](reports-intro.md)

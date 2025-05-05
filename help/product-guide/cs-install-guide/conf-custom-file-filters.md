@@ -68,4 +68,4 @@ Voer de volgende stappen uit om uw aangepaste filteropties voor bestanden toe te
    ![](assets/file-browse-custom-filters.png)
 
 
-**Bovenliggend onderwerp:**[ pas de Redacteur van het Web ](conf-web-editor.md) aan
+**Bovenliggend onderwerp:**&#x200B;[ pas de Redacteur van het Web ](conf-web-editor.md) aan

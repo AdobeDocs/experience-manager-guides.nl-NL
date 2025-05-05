@@ -59,7 +59,7 @@ Voer de volgende stappen uit om een bestaande PDF-sjabloon te dupliceren:
 
    <img src="assets/duplicate-template.png" alt="PDF-sjabloon dupliceren" width="350">
 
-   *selecteer een malplaatje om te dupliceren, de duimnagel voor te vertonen, en de titel in de **Dubbele PDF Malplaatje**dialoog bij te werken.*
+   *selecteer een malplaatje om te dupliceren, de duimnagel voor te vertonen, en de titel in de **Dubbele PDF Malplaatje**&#x200B;dialoog bij te werken.*
 
 1. Geef een titel voor de sjabloon op.
 

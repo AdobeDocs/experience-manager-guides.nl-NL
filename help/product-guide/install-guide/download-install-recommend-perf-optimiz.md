@@ -51,7 +51,7 @@ De JVM-beginparameters moeten zorgvuldig worden ingesteld op basis van de infras
 
 - Stel de JVM-heapgrootte in op minimaal 1/4e van het totale beschikbare geheugen. Gebruik de parameter `-Xmx<size>` om de grootte van het heapgeheugen in te stellen. Stel de waarde in voor -`Xms` gelijk aan `-Xmx` .
 
-- Inschakelen `-XX:+HeapDumpOnOutOfMemoryError` en het pad instellen voor `-XX:HeapDumpPath=</path/to/folder``>` .
+- Inschakelen `-XX:+HeapDumpOnOutOfMemoryError` en het pad instellen voor `-XX:HeapDumpPath=</path/to/folder` `>` .
 
 - Java GC-logbestand inschakelen als:
 
@@ -93,7 +93,7 @@ Deze wijziging verbetert de laadtijd van pagina&#39;s op de instantie Auteur, aa
 **wat is de verandering?**
 Deze wijziging is vereist als u DITA-OT gebruikt om uitvoer te publiceren en er ook een aantal gelijktijdige publicatiethreads is gedefinieerd.
 
-Standaard stelt AEM Guides de publicatiethreads in op het aantal CPU&#39;s+1. Het wordt echter aanbevolen deze waarde in te stellen op de helft \(1/2\) of een derde \(1/3\) van het totale aantal CPU&#39;s. Om dit te doen, plaats het **bezit van de Grootte van de Pool van de 1} Generatie onder de configuratie `com.adobe.fmdita.publish.manager.PublishThreadManagerImpl` zoals volgens de aanbevelingen.**
+Standaard stelt AEM Guides de publicatiethreads in op het aantal CPU&#39;s+1. Het wordt echter aanbevolen deze waarde in te stellen op de helft \(1/2\) of een derde \(1/3\) van het totale aantal CPU&#39;s. Om dit te doen, plaats het **bezit van de Grootte van de Pool van de 1&rbrace; Generatie onder de configuratie `com.adobe.fmdita.publish.manager.PublishThreadManagerImpl` zoals volgens de aanbevelingen.**
 
 **Wanneer te vormen?**
 Dit kan in runtime door de console van Felix of via codeplaatsing worden gedaan.
@@ -115,4 +115,4 @@ Dit kan in runtime door de console van Felix of via codeplaatsing worden gedaan.
 Een verhoogd aantal van de **Grens AEM de Pagina&#39;s van de Plaats in het bezit van de Samenvatting** optimaliseert het proces van de AEM de outputproductie van de Plaats.
 
 
-**Bovenliggend onderwerp:**[ Download en installeer ](download-install.md)
+**Bovenliggend onderwerp:**&#x200B;[ Download en installeer ](download-install.md)

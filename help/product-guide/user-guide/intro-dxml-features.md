@@ -72,11 +72,11 @@ Met de AEM-connector in FrameMaker kunt u uw FrameMaker-bestanden beheren. Met d
 
 ## Aanvullende bronnen
 
-Na is een lijst van andere nuttige middelen van Experience Manager Guides, die op [ ](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html) pagina Leren &amp; van de Steun beschikbaar zijn:
+Na is een lijst van andere nuttige middelen van Experience Manager Guides, die op [&#128279;](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html) pagina Leren &amp; van de Steun beschikbaar zijn:
 
 * Handboek
 * API-naslaggids
 * Handleiding voor snel starten
 * [ Help* de Pagina van het Archief ](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) (de documentatie van de toegangsoudere versie)
 
-**Bovenliggend onderwerp:**[ Ongeveer Adobe Experience Manager Guides as a Cloud Service ](intro.md)
+**Bovenliggend onderwerp:**&#x200B;[ Ongeveer Adobe Experience Manager Guides as a Cloud Service ](intro.md)

@@ -39,7 +39,7 @@ Nu maakt AEM Guides uw revisies naadloos. Het biedt het deelvenster Revisies in 
 
 Als auteur kunt u met deze functie gemakkelijk de revisietaken openen, de opmerkingen bekijken en de opmerkingen snel in een gecentraliseerde weergave adresseren.
 ![](assets/active-review-task-comments.png){width="800" align="left"}
-Voor meer details, bekijk de **2} eigenschapbeschrijving van het Overzicht {binnen de [ Linkerpaneel ](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.**
+Voor meer details, bekijk de **2&rbrace; eigenschapbeschrijving van het Overzicht &lbrace;binnen de [ Linkerpaneel ](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.**
 
 
 ## Verbeteringen voor kaartverzameling

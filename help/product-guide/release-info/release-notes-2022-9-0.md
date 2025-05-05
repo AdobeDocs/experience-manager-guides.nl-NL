@@ -103,7 +103,7 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 * Het paneel van het overzicht toont geen inhoud wanneer geschakeld van **Auteur** aan **Source** wijze. 10319
 * Conref in een nieuw gecreeerd onderwerp gebruikend een inhoud in het onderwerpmalplaatje werkt niet. De gekopieerde hash-id wordt niet bijgewerkt in de inhoudskopie. 9890
 * Web-editor | Er bestaat geen lader tijdens het maken van een kaart van de kaartsjabloon. 9891
-* Nieuwe kaarteditor | De toegevoegde gewaagde of Cursieve tekst in de kaarttitel wordt niet behouden als wij van **Auteur** aan de **3} mening van de Lay-out {schakelen.** 10218
+* Nieuwe kaarteditor | De toegevoegde gewaagde of Cursieve tekst in de kaarttitel wordt niet behouden als wij van **Auteur** aan de **3&rbrace; mening van de Lay-out &lbrace;schakelen.** 10218
 * Nieuwe kaarteditor | De voorwaarden die op een verwijzing worden toegepast, kunnen niet uit de layoutweergave worden verwijderd. 10213
 * Nieuwe kaarteditor | Het toepassen van voorwaardenverwijzingen werkt niet in de mening van de Lay-out zoals de mening van de Auteur. (10198)
 * Nieuwe kaarteditor | Met de optie Naar links verplaatsen in het contextmenu wordt de verwijzing verwijderd als deze niet naar links kan worden verplaatst. 10219

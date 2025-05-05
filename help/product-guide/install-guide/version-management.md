@@ -212,7 +212,7 @@ Voer de volgende stappen uit om de oudere versies leeg te maken:
 
    ![](assets/preview-purge-report.png){width="350" align="left"}
 
-1. 
+1. &#x200B;
    - **Aantal Versies om van de Laatste Versie** te behouden: ga het aantal versies in die zouden moeten worden behouden en niet worden gezuiverd. Als we bijvoorbeeld 5 invoeren, blijven de laatste 5 versies behouden en worden de versies vóór die versies gekwalificeerd om te worden gewist als aan andere zuiveringsvoorwaarden wordt voldaan.
 - **Behoud Versies die binnen Tijdopnemer \ (in Dagen \)** worden gecreeerd: Ga de maximumleeftijd van een versie in dagen in. De versies ouder dan het opgegeven aantal dagen zijn gekwalificeerd om te worden gewist als aan andere zuiveringsvoorwaarden wordt voldaan. Als we bijvoorbeeld 100 invoeren, kunnen alle versies die vóór 100 dagen zijn gemaakt, worden gewist als aan andere zuiveringsvoorwaarden wordt voldaan.
 - **Weg**: Selecteer de weg van het dossier of de omslag waarvan dossiers u wilt zuiveren.

@@ -88,7 +88,7 @@ Voer de volgende stappen uit om een inhoudsfragment tot stand te brengen gebruik
 
 1. Selecteer **toevoegen** om een nieuwe generator van het inhoudsfragment toe te voegen. Het **voegt de generator van het inhoudsfragment** paneel opent.
 
-1. Ga de vraag in het **tekstvakje van de vraag van 0} Gegevens in.**  Selecteer **de steekproefvraag van het Exemplaar** om een gegevensvraag snel te kopiëren. In plaats van manueel het creëren van de vraag, kunt u de steekproefvraag in het **vakje van de de vraagtekst van Gegevens** kopiëren en kleven. Dan, geef eenvoudig de vraag volgens uw gegevensvereisten uit.
+1. Ga de vraag in het **tekstvakje van de vraag van 0&rbrace; Gegevens in.**  Selecteer **de steekproefvraag van het Exemplaar** om een gegevensvraag snel te kopiëren. In plaats van manueel het creëren van de vraag, kunt u de steekproefvraag in het **vakje van de de vraagtekst van Gegevens** kopiëren en kleven. Dan, geef eenvoudig de vraag volgens uw gegevensvereisten uit.
 
    >[!NOTE]
    >
@@ -109,7 +109,7 @@ De out-of-the-box malplaatjes voor de geselecteerde gegevensbron worden getoond 
    >   
    >U kunt ook de gereedschappen Snelheid gebruiken in de sjablonen. Leer meer over hoe te [ de hulpmiddelen van de gebruiksSnelheid ](#use-velocity-tools).
 
-1. Het **dropdown van het Middel 0} verschijnt voor sommige schakelaars zoals de Cliënt van het TerugSTEL, Salsify, Akeneo, en Microsoft ADO.**  Selecteer om het even welk middel van dropdown en verbind met het om een inhoudsfragment of een onderwerp tot stand te brengen gebruikend de generator voor het.
+1. Het **dropdown van het Middel 0&rbrace; verschijnt voor sommige schakelaars zoals de Cliënt van het TerugSTEL, Salsify, Akeneo, en Microsoft ADO.**  Selecteer om het even welk middel van dropdown en verbind met het om een inhoudsfragment of een onderwerp tot stand te brengen gebruikend de generator voor het.
 
    >[!NOTE]
    >
@@ -125,6 +125,7 @@ Bijvoorbeeld:
       - Als u de jira-geordend-lijstmalplaatje hebt geselecteerd, kunt u een geordende lijst voor de kwesties van Jira bekijken.
 
    1. De bronweergave toont de gegevens in de DITA-bronweergave.
+
       ![](images/add-content-snippet-generator.png){width="800" align="left"}
       *voeg een inhoudsfragmentgenerator toe. Bekijk de gegevens op bron of voorproefwijze.*
 
@@ -189,7 +190,7 @@ Voer de volgende stappen uit om een onderwerp tot stand te brengen gebruikend de
 
    *voeg de Vraag van Gegevens, het kaartmalplaatje van Gegevens, en de details van de wortelknoop voor de onderwerpgenerator toe en geef het een unieke naam in het paneel van de Configuratie van de Ophalen.*
 
-   1. Ga de vraag in het **tekstvakje van de vraag van 0} Gegevens in.** Selecteer **de steekproefvraag van het Exemplaar** om een gegevensvraag snel te kopiëren. In plaats van manueel het creëren van de vraag, kunt u de steekproefvraag in het **vakje van de de vraagtekst van Gegevens** kopiëren en kleven. Dan, geef eenvoudig de vraag volgens uw gegevensvereisten uit.
+   1. Ga de vraag in het **tekstvakje van de vraag van 0&rbrace; Gegevens in.** Selecteer **de steekproefvraag van het Exemplaar** om een gegevensvraag snel te kopiëren. In plaats van manueel het creëren van de vraag, kunt u de steekproefvraag in het **vakje van de de vraagtekst van Gegevens** kopiëren en kleven. Dan, geef eenvoudig de vraag volgens uw gegevensvereisten uit.
 
       >[!NOTE]
       >

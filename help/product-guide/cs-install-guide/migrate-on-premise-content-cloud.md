@@ -33,10 +33,10 @@ Dit artikel biedt een gedetailleerd, stapsgewijs proces voor het migreren van uw
 **het Hulpmiddel van de Overdracht van de Inhoud** is een hulpmiddel dat door Adobe wordt ontwikkeld dat u kunt gebruiken om de migratie van bestaande inhoud van een bronAdobe Experience Manager op-gebouw of instantie van Managed Services aan de instantie van de doelExperience Manager Cloud Service in werking te stellen.
 Met de tool worden &#39;principals&#39; (gebruikers of groepen) automatisch overgedragen.
 
-U kunt het **Hulpmiddel van de Overdracht van de Inhoud** als dossier van het ZIP van het **3 portaal van de Distributie van de Software downloaden {:**
+U kunt het **Hulpmiddel van de Overdracht van de Inhoud** als dossier van het ZIP van het **3 portaal van de Distributie van de Software downloaden &lbrace;:**
 
 1. Selecteer **AEM as a Cloud Service** lusje op het **portaal van de Distributie van de Software**.
-1. Het hulpmiddel van de Overdracht van de Inhoud van het onderzoek ****.
+1. Het hulpmiddel van de Overdracht van de Inhoud van het onderzoek **&#x200B;**.
 1. Selecteer **het Hulpmiddel van de Overdracht van de Inhoud** van de lijst en download het.
 
 ![ hulpmiddel van de de inhoudoverdracht van de download ](./assets/content-transfer-tool-software-portal.png)
@@ -84,11 +84,11 @@ Voer de volgende stappen uit om Experience Manager Guides-inhoud te migreren naa
 1. Klik **Exemplaar aan klembord**. Maak uw eerste project.
    ![ extractiesleutel ](./assets/migration-copy-to-clipboard.png)
 
-1. Selecteer **Adobe Experience Manager** op de bovenkant en selecteer dan de **3} tegel van de Distributie van de Software {.**
+1. Selecteer **Adobe Experience Manager** op de bovenkant en selecteer dan de **3&rbrace; tegel van de Distributie van de Software &lbrace;.**
    ![ portal van de softwaredistributie ](./assets/migration-software-portal.png)
 
 
-1. Voor het **portaal van de Distributie van de Software 0} {, uitgezochte** Adobe Experience Manager als Cloud Service **lusje, onderzoek &quot;inhoudsoverdrachthulpmiddel&quot;, en download het pakket van het inhoudsoverdrachtshulpmiddel.**
+1. Voor het **portaal van de Distributie van de Software 0&rbrace; &lbrace;, uitgezochte** Adobe Experience Manager als Cloud Service **lusje, onderzoek &quot;inhoudsoverdrachthulpmiddel&quot;, en download het pakket van het inhoudsoverdrachtshulpmiddel.**
 
    >[!NOTE]
    >

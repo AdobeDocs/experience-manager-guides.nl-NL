@@ -21,4 +21,4 @@ Als u op artikelen gebaseerde publicaties wilt inschakelen, downloadt en install
 - Kennisbasissjabloon voor op artikelen gebaseerde publicaties
 - Componentpakket voor op artikel gebaseerde publicaties
 
-**Bovenliggend onderwerp:**[ pas de Redacteur van het Web ](conf-web-editor.md) aan
+**Bovenliggend onderwerp:**&#x200B;[ pas de Redacteur van het Web ](conf-web-editor.md) aan

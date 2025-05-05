@@ -55,4 +55,4 @@ Voer de volgende stappen uit om een kaartbestand te maken:
    > Om de Geavanceerde Redacteur van de Kaart te gebruiken, heb toegang tot het kaartdossier in de Redacteur van het Web. Als uw beheerder de Geavanceerde Redacteur van de Kaart als standaardredacteur in de kaartdossiers heeft gevormd, dan wordt het kaartdossier geopend direct in de Geavanceerde Redacteur van de Kaart voor het uitgeven. Zie *plaats de Geavanceerde Redacteur van de Kaart als standaard* sectie in installeer en vorm Adobe Experience Manager Guides as a Cloud Service.
 
 
-**Bovenliggend onderwerp:**[ Werk met de Redacteur van de Kaart ](map-editor.md)
+**Bovenliggend onderwerp:**&#x200B;[ Werk met de Redacteur van de Kaart ](map-editor.md)

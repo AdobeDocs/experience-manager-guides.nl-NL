@@ -76,7 +76,7 @@ Nu, terwijl het ontwerpen, kunt u de markeringen van dossiermeta-gegevens bijwer
 
 *de meta-gegevens van de Update en geeft dossiereigenschappen van het juiste paneel uit.*
 
-Voor meer details, verwijs naar de **eigenschapbeschrijving van de Eigenschappen van het 0} Dossier {binnen de [ Juiste 3} sectie van het Comité.**](../user-guide/web-editor-features.md#id2051EB003YK)
+Voor meer details, verwijs naar de **eigenschapbeschrijving van de Eigenschappen van het 0&rbrace; Dossier {binnen de [ Juiste 3} sectie van het Comité.**](../user-guide/web-editor-features.md#id2051EB003YK)
 
 ## Capaciteit om inhoud aan de ServiceNow kennisbasis te publiceren
 
@@ -109,7 +109,7 @@ Leer hoe te [ de Inzameling van de gebruiksKaart voor outputgeneratie ](../user-
 
 Wanneer u zeer belangrijke attributen voor het onderwerp of kaartverwijzingen bepaalt, kunt u de titel, het overeenkomstige pictogram, en de sleutel in het linkerpaneel ook bekijken. De toets wordt weergegeven als `key=<key-name>` .
 
-Voor meer details, verwijs naar de **eigenschapbeschrijving van de Mening van de Kaart** {in de [ Linkerpaneel ](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.
+Voor meer details, verwijs naar de **eigenschapbeschrijving van de Mening van de Kaart** &lbrace;in de [ Linkerpaneel ](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.
 
 ![ sleutels in kaartmening ](assets/view-key-title-map-view.png) {width="300" align="left"}
 

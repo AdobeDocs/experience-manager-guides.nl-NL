@@ -45,4 +45,4 @@ Voer de volgende stappen uit om de metagegevens door te geven aan de uitvoer met
 
 De geselecteerde eigenschappen van metagegevens worden doorgegeven aan de uitvoer die wordt gegenereerd met DITA-OT.
 
-**Bovenliggend onderwerp:**[ Productie van de Output ](generate-output.md)
+**Bovenliggend onderwerp:**&#x200B;[ Productie van de Output ](generate-output.md)

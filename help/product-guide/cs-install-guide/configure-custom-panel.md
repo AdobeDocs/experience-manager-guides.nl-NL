@@ -58,4 +58,4 @@ tcx.ready(function () { //Ready will call the callback after editor code is set 
 });
 ```
 
-**Bovenliggend onderwerp:**[ pas de Redacteur van het Web ](conf-web-editor.md) aan
+**Bovenliggend onderwerp:**&#x200B;[ pas de Redacteur van het Web ](conf-web-editor.md) aan

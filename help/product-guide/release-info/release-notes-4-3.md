@@ -120,7 +120,7 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 - Native PDF | Xref drukt de inhoud van href onderwerptitel in plaats van het etiket Xref. (11322)
 - Native PDF | Kan de sjablooninstellingen voor PDF niet opslaan. 10751
 - Native PDF | De tekst breidt zich voorbij de kolombreedte uit bij het opnemen van meerdere Xrefs. 10876
-- Native PDF | `<note>``</note>` -element genereert geen extra bereiktitel van het type. 10549
+- Native PDF | `<note>` `</note>` -element genereert geen extra bereiktitel van het type. 10549
 - JSON-uitvoer | De eigenschap `fmUuid` op het knooppunt jcr:content van JSON verschilt van de eigenschap &quot;id&quot; in de JSON. 11564
 - JSON-uitvoer | Als de kaart en het onderwerp met zelfde filename aanwezig zijn, wordt JSON voor de kaart verwijderd. 11524
 

@@ -35,4 +35,4 @@ Nadat u AEM Guides hebt geïnstalleerd, moet u controleren of de installatie is 
 >
 > Er zijn een aantal aanbevelingen voor het optimaliseren van de prestaties die u kunt overwegen om de systeemprestaties te verbeteren. Zie [ Recommendations voor prestatiesoptimalisering ](download-install-recommend-perf-optimiz.md#) voor details.
 
-**Bovenliggend onderwerp:**[ Download en installeer ](download-install.md)
+**Bovenliggend onderwerp:**&#x200B;[ Download en installeer ](download-install.md)

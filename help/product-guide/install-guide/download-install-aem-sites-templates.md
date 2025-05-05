@@ -65,7 +65,7 @@ en geeft elk product weer waarvoor documentatie beschikbaar is als afzonderlijke
 
    - **het malplaatje van de Pagina van de Inhoud**: Gebruik dit malplaatje om de standaardpagina&#39;s tot stand te brengen die de meeste inhoud van de productplaats bevatten. Deze kunnen tekst, afbeeldingen, video&#39;s en andere inhoudselementen bevatten. Deze sjabloon bevat alleen de kop- en voettekst. Pas de pagina aan en gebruik deze om naar wens een pagina te maken. U kunt bijvoorbeeld de ondersteuningspagina of de aanmeldingspagina voor uw product maken.
    - **het malplaatje van de Pagina van het Huis**: De belangrijkste het landen pagina van een website, die een overzicht, zeer belangrijke secties zoals de zeer belangrijke elementen en eigenschappen, en navigatiekoppelingen omvat. De hoofdpagina van een product-ABC maakt bijvoorbeeld verbinding met de andere inhoud- of functiepagina&#39;s.
-   - **malplaatje van de Pagina van 0} Onderwerp**: De pagina&#39;s die voor het organiseren en presenteren van op onderwerp-gebaseerde inhoud worden gebruikt. Bijvoorbeeld, bevat een gebruikersgids verschillende onderwerppagina&#39;s, elk waarvan een specifiek onderwerp met betrekking tot eigenschappen en het oplossen van problemen bevat.
+   - **malplaatje van de Pagina van 0&rbrace; Onderwerp**: De pagina&#39;s die voor het organiseren en presenteren van op onderwerp-gebaseerde inhoud worden gebruikt. Bijvoorbeeld, bevat een gebruikersgids verschillende onderwerppagina&#39;s, elk waarvan een specifiek onderwerp met betrekking tot eigenschappen en het oplossen van problemen bevat.
 
   ![ malplaatje van Plaatsen ](assets/sites-ui-templates.png)
 
@@ -83,7 +83,7 @@ Voer de volgende stappen uit om de homepage voor uw product tot stand te brengen
 1. Binnen Plaatsen UI, klik **creeer** knoop op de top-juiste hoek.
 1. Selecteer **Pagina** van **creeer** dropdown.
 1. Selecteer **Pagina van het Huis** en klik dan **daarna**.
-1. Ga de titel van de Plaats en de naam van de Plaats in en klik **creeer** op de hoogste juiste hoek. Een AEM plaatsmalplaatje wordt gecreeerd gebruikend het **plaatssjabloon van de Pagina van het 0} Huis {.** U kunt bijvoorbeeld een homepage voor uw product maken `Product ABC` .
+1. Ga de titel van de Plaats en de naam van de Plaats in en klik **creeer** op de hoogste juiste hoek. Een AEM plaatsmalplaatje wordt gecreeerd gebruikend het **plaatssjabloon van de Pagina van het 0&rbrace; Huis &lbrace;.** U kunt bijvoorbeeld een homepage voor uw product maken `Product ABC` .
 
 
 >[!NOTE]
@@ -114,8 +114,10 @@ U hebt de volgende twee typen sjablonen nodig:
   ![ malplaatje van de sectiepagina ](assets/customize-existing-aem-templates-section.png)
    - Sjabloon voor detailpagina- of onderwerppagina: gebruik deze sjabloon voor de inhoud van onderwerpen in een kaart. Alle pagina&#39;s van Plaatsen van inhoud DITA/XML worden gecreeerd gebruikend de malplaatjes van de Pagina van het Onderwerp. Voor het maken van deze sjablonen zijn er twee voorwaarden:
       - Voeg een tekstcomponent aan het malplaatje, in een containercomponent, met een verplichte bezit toe. `text="$topic.content$"`.
+
         ![ malplaatje van de containerpagina ](assets/customize-existing-aem-templates-container.png)
       - Spiegelt dezelfde container en tekstcomponent in de structuur van dezelfde sjabloon, zoals in de volgende schermafbeelding wordt getoond:
+
         ![ structuur van containermalplaatje ](assets/customize-existing-aem-templates-structure.png)
 
 ### Categoriepagina coderen als documentatiecontainer

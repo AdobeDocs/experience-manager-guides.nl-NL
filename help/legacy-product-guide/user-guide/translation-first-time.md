@@ -100,7 +100,7 @@ Voer de volgende stappen uit om een vertaalproject te maken:
    >
    > Als u reeds een vertaalproject hebt, kunt u onderwerpen aan dat project toevoegen. Selecteer **toevoegen aan de Bestaande optie van het Project van de Vertaling** van de **lijst van het Project** en kies een project van de **Bestaande lijst van het Project van de Vertaling**.
 
-1. Op het **gebied van de Titel van het 0} Project, ga een titel voor het project in.**
+1. Op het **gebied van de Titel van het 0&rbrace; Project, ga een titel voor het project in.**
 
 1. Selecteer **omvatten de Kaart DITA** optie om de kaart voor vertaling te verzenden.
 1. Klik **Begin** om een nieuw vertaalproject tot stand te brengen.
@@ -141,4 +141,4 @@ Nadat de vertaling voltooit, verandert het statuut van de vertaalbaan in *Klaar 
 >
 > Als u de vertaling voor één of meerdere onderwerpen in een vertaalbaan verwerpt, keert de **Bezig** vertaalstatus van alle verworpen onderwerpen terug naar hun originele status. De status van de bedoelde onderwerpen wordt gecontroleerd en teruggezet volgens de meest recente vertaalstatus. Ook, worden de vertaaldossiers die in het bestemmingsproject worden gecreeerd niet geschrapt zelfs als de vertaling voor hen wordt verworpen.
 
-**Bovenliggend onderwerp:**[ vertaal inhoud ](translation.md)
+**Bovenliggend onderwerp:**&#x200B;[ vertaal inhoud ](translation.md)

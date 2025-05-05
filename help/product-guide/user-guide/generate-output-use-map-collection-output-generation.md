@@ -33,7 +33,7 @@ Voer de volgende stappen uit om een Kaartverzameling te maken en DITA-kaarten to
    >
    > U kunt Assets UI ook openen en **Verzamelingen van de Kaart selecteren**. Als de pagina van de Verzamelingen van de Kaart niet beschikbaar is, dan selecteer de **optie van de Navigatie** in het linkerspoor, en selecteer dan **Verzamelingen van de Kaart**.
 
-1. Op de **pagina van de Verzamelingen van de Kaart**, creeer **** op het hoogste recht, en verstrek a **Titel van de Inzameling** voor uw kaartinzameling.
+1. Op de **pagina van de Verzamelingen van de Kaart**, creeer **&#x200B;**&#x200B;op het hoogste recht, en verstrek a **Titel van de Inzameling** voor uw kaartinzameling.
 1. Selecteer **creeer**.
 
    Een bericht van het Succes wordt getoond bij verwezenlijking van de kaartinzameling.
@@ -62,7 +62,7 @@ De volgende filteropties en kaartdetails worden getoond op de inzamelingspagina:
 
 - **Filter:** De linkerspoorstaaf toont de volgende filters:
    - **Gewijzigd**: U kunt ja of Nr selecteren. Als u ja selecteert, slechts zullen de gewijzigde kaarten DITA in de Kaarten en de Vooraf ingestelde lijst worden getoond.
-   - **vooraf ingesteld**: Selecteer vooraf ingesteld waarvoor u de kaartdossiers wilt uit filtreren. Bijvoorbeeld, als u *vooraf ingesteld van de Plaats van 0} AEM kiest, dan slechts worden die kaarten getoond die de* vooraf ingestelde 3} output van de Plaats van AEM hebben die op hen wordt gevormd.**
+   - **vooraf ingesteld**: Selecteer vooraf ingesteld waarvoor u de kaartdossiers wilt uit filtreren. Bijvoorbeeld, als u *vooraf ingesteld van de Plaats van 0&rbrace; AEM kiest, dan slechts worden die kaarten getoond die de* vooraf ingestelde 3&rbrace; output van de Plaats van AEM hebben die op hen wordt gevormd.**
    - **Taal**: U kunt om het even welke beschikbare taalcodes selecteren en slechts de geselecteerde taal in de Kaarten en vooraf instelt lijst tonen.
 - **Kaarten en stelt** lijst vooraf in: De Kaarten en stellen lijst vooraf in stelt informatie in de volgende kolommen voor:
    - **Kaart**: Toont de titel van het DITA kaartdossier.
@@ -149,4 +149,4 @@ Gelijkaardig aan de manier om een taak van de outputgeneratie van de [ DITA kaar
 
 ![](images/cancel-publish-task-map-collection.png){align="left"}
 
-**Bovenliggend onderwerp:**[ Productie van de Output ](generate-output.md)
+**Bovenliggend onderwerp:**&#x200B;[ Productie van de Output ](generate-output.md)

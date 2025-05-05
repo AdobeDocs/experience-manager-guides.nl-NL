@@ -105,7 +105,7 @@ De inheemse PDF het publiceren motor heeft Oracle JDK nodig om de knoopmodules i
 
 10. Als de opdracht unzip niet is geïnstalleerd/herkend, kan deze worden geïnstalleerd met de volgende opdracht
 
-   **yum installeert unzip**
+    **yum installeert unzip**
 
 11. Installeer het fontconfig-pakket.
 Opdracht: u installeert fontconfig

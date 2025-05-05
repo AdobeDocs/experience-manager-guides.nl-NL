@@ -44,14 +44,14 @@ U kunt een Basislijn met een specifieke versie van de onderwerpen en van verwijz
 
 Voer de volgende stappen uit om een basislijn te maken:
 
-1. Voor de pagina van Basislijnen, leidt de klik **** tot.
+1. Voor de pagina van Basislijnen, leidt de klik **&#x200B;**&#x200B;tot.
 1. Ga een naam voor de Basislijn in **Naam van de Basislijn** in.
    ![ creeer een basislijn ](images/create-baseline.png){width="800" align="left"}
 1. In **plaats de Versie die op** wordt gebaseerd, selecteer één van de volgende opties:
 
    - **Etiket**: Selecteer deze optie om de onderwerpen volgens het etiket te kiezen dat op hen wordt toegepast. Voer een label in om de lijst te filteren op basis van de ingevoerde tekenreeks. In de uitgefilterde lijst kunt u een label kiezen om onderwerpen en andere elementen met het opgegeven label te selecteren.
 
-   Wanneer u **Etiket** selecteert, wordt u ook een extra optie gegeven om de recentste versie van onderwerpen te gebruiken die niet het gespecificeerde etiket hebben dat op hen wordt toegepast. Als u deze optie niet selecteert en er een onderwerp- of mediabestand is dat niet het opgegeven label heeft, mislukt het proces voor het maken van de basislijn. Voor meer informatie over het toevoegen van etiketten, zie {de etiketten van het 0} Gebruik ](web-editor-use-label.md#).[
+   Wanneer u **Etiket** selecteert, wordt u ook een extra optie gegeven om de recentste versie van onderwerpen te gebruiken die niet het gespecificeerde etiket hebben dat op hen wordt toegepast. Als u deze optie niet selecteert en er een onderwerp- of mediabestand is dat niet het opgegeven label heeft, mislukt het proces voor het maken van de basislijn. Voor meer informatie over het toevoegen van etiketten, zie {de etiketten van het 0} Gebruik [&#128279;](web-editor-use-label.md#).
 
    - **Versie op** &lt; *tijdstempel* \>: Past de versie van onderwerpen zoals op de gespecificeerde datum en de tijd. De tijd die u hier opgeeft, komt overeen met de tijdzone van uw AEM-server. Als uw server bij een verschillende timezone is, dan zullen de onderwerpen volgens timezone van uw server en niet uw lokale timezone worden opgepikt.
 
@@ -183,4 +183,4 @@ Voer de volgende stappen uit om een vertaalde basislijn te exporteren:
 1. \ (Facultatief \) om een Basislijn uit te voeren die reeds wordt uitgevoerd, uitgezocht **Overschrijf Bestaande Basislijn** en klik dan **de Basislijn van de Uitvoer**.
 
 
-**Bovenliggend onderwerp:**[ Productie van de Output ](generate-output.md)
+**Bovenliggend onderwerp:**&#x200B;[ Productie van de Output ](generate-output.md)

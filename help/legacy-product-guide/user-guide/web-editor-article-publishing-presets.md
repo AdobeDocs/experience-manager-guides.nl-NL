@@ -48,7 +48,7 @@ Voer de volgende stappen uit om outputvoorinstellingen voor uw kaart te creëren
 
    ![](images/add-preset-articles-tab_cs.png){width="800" align="left"}
 
-1. De status van het productieproces van de uitvoer wordt weergegeven. De **kolom van Onderwerpen** maakt een lijst van de onderwerpen waarvoor de output wordt geproduceerd terwijl de **3} kolom van de Status {toont de het publiceren status van elk onderwerp.**
+1. De status van het productieproces van de uitvoer wordt weergegeven. De **kolom van Onderwerpen** maakt een lijst van de onderwerpen waarvoor de output wordt geproduceerd terwijl de **3&rbrace; kolom van de Status &lbrace;toont de het publiceren status van elk onderwerp.**
 
    Als u de uitvoer wilt weergeven, plaatst u de muisaanwijzer boven het onderwerp en klikt u op Uitvoer weergeven.
 
@@ -61,4 +61,4 @@ Voer de volgende stappen uit om outputvoorinstellingen voor uw kaart te creëren
 
 ![](images/edit-preset_cs.png){width="550" align="left"}
 
-**Bovenliggend onderwerp:**[ Op artikel-gebaseerde het publiceren van de Redacteur van het Web ](web-editor-article-publishing.md)
+**Bovenliggend onderwerp:**&#x200B;[ Op artikel-gebaseerde het publiceren van de Redacteur van het Web ](web-editor-article-publishing.md)

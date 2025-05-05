@@ -63,11 +63,12 @@ U kunt het rapport van de onderwerpenlijst van een kaart bekijken door de volgen
    - **de Staat van het Document** De staat van het onderwerp.
    - **Auteur** De gebruiker die het laatst aan het onderwerp werkte.
    - **Bovenliggende Kaart** De lijst van alle kaarten waar het onderwerp direct van verwijzingen wordt voorzien.
+
    >[!NOTE]
    >
    > Selecteer **verfrissen zich** om een nieuwe lijst van onderwerpen te krijgen en om het even welke verandering in uw kaartdossier te bekijken of als om het even welke verwijzing binnen uw onderwerpdossier wordt bijgewerkt.
 
-1. Selecteer **Download** om de momentopname van alle onderwerpen in de kaart te downloaden DITA. Het excel blad bevat de geselecteerde kolommen en de onderwerpen die in de **1} mening van de Lijst van het Onderwerp {worden gefiltreerd.**
+1. Selecteer **Download** om de momentopname van alle onderwerpen in de kaart te downloaden DITA. Het excel blad bevat de geselecteerde kolommen en de onderwerpen die in de **1&rbrace; mening van de Lijst van het Onderwerp &lbrace;worden gefiltreerd.**
 
 ## Metagegevensrapport
 
@@ -87,7 +88,7 @@ U kunt het meta-gegevensrapport van een kaart bekijken door de volgende stappen 
    >
    > Alle filters bevatten een uitgebreide lijst met opties in het systeem.
 
-1. U kunt ook verkiezen om slechts de **Dossiers zonder markeringen** te bekijken of ook specifieke markeringen van de **3} filter van Markeringen te kiezen {om de dossiers te bekijken verbonden aan hen.**
+1. U kunt ook verkiezen om slechts de **Dossiers zonder markeringen** te bekijken of ook specifieke markeringen van de **3&rbrace; filter van Markeringen te kiezen &lbrace;om de dossiers te bekijken verbonden aan hen.**
 1. U kunt ook de volgende opties voor het filteren van onderwerpen gebruiken om de volgende kolommen in de lijst met metagegevens weer te geven:
    - **Titel** \ (die door gebrek wordt geselecteerd \) De titel van het referenced dossier wordt gespecificeerd in de kaart DITA. U kunt het bestand selecteren om het te bewerken.
 
@@ -153,7 +154,7 @@ Met deze functie kunt u naar behoefte aangepaste kolommen voor metagegevens toev
    ![](images/custom-metadata-setting.png){width="600" align="left"}
 
 1. Selecteer **Meta-gegevens** op het linkerpaneel van pop-up die verschijnt.
-1. Voeg een nieuw gebied van douanemetagegevens zoals per het vereiste toe gebruikend **** tabel toevoegt.
+1. Voeg een nieuw gebied van douanemetagegevens zoals per het vereiste toe gebruikend **&#x200B;**&#x200B;tabel toevoegt.
 
    ![](images/add-custom-metadata.png){width="600" align="left"}
 
@@ -206,6 +207,7 @@ Het **Multimedia** rapport verstrekt gedetailleerde informatie over de multimedi
    - **Type Multimedia** \ (die door gebrek wordt geselecteerd \) Type van multimedia. De beschikbare opties zijn Audio, Video of Afbeelding.
    - **gebruikt binnen** \ (die door gebrek wordt geselecteerd \) de verwijzingen waarin multimedia is gebruikt. U kunt de verwijzing selecteren om deze te bewerken.
    - **Type van Verwijzing** \ (die door gebrek wordt geselecteerd \) het type van verwijzing - direct of indirect.
+
    >[!NOTE]
    >
    > Selecteer **verfrissen zich** om een nieuwe lijst van multimedia te krijgen en om het even welke verandering in uw kaartdossier te bekijken of als om het even welke multimedia binnen uw kaart DITA wordt bijgewerkt.
@@ -266,4 +268,4 @@ U kunt het rapport voor verbroken koppelingen weergeven door de volgende stappen
 1. Selecteer **Download** om de momentopname van alle gebroken verbindingen in de kaart te downloaden DITA. Het Excel-bestand bevat de geselecteerde kolommen en de verbroken koppelingen die zijn gefilterd in de weergave Verbroken koppelingen.
 
 
-**Bovenliggend onderwerp:**[ Inleiding aan rapporten ](reports-intro.md)
+**Bovenliggend onderwerp:**&#x200B;[ Inleiding aan rapporten ](reports-intro.md)

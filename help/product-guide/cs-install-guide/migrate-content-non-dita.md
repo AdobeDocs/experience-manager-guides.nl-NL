@@ -128,7 +128,7 @@ Het conversieproces omvat de volgende acties op de achtergrond:
 - Creatie en bevestiging van individuele onderwerpen DITA en DITA kaartdossiers.
 - Verwijderen van tijdelijke bestanden.
 
-Breedweg, vereist het omzettingsproces u [ InDesign dossiers voor omzetting ](appendix.md#id195DBF0045Z)[ appendix.md \#id195DBF0045Z ](appendix.md#id195DBF0045Z) en [ voorbereidt het kaartdossier voor InDesign aan migratie DITA ](appendix.md#id194AF0003HT)[ appendix.md \ #id194AF003HT ](appendix.md#id194AF0003HT), u moet de bepaalde procedure volgen om het omzettingsproces te leiden.
+Breedweg, vereist het omzettingsproces u [ InDesign dossiers voor omzetting ](appendix.md#id195DBF0045Z) [ appendix.md \#id195DBF0045Z ](appendix.md#id195DBF0045Z) en [ voorbereidt het kaartdossier voor InDesign aan migratie DITA ](appendix.md#id194AF0003HT) [ appendix.md \ #id194AF003HT ](appendix.md#id194AF0003HT), u moet de bepaalde procedure volgen om het omzettingsproces te leiden.
 
 Voer de volgende stappen uit om uw bestaande documenten van het InDesign in DITA onderwerptype document om te zetten:
 
@@ -396,4 +396,4 @@ Voer de volgende stappen uit om uw bestaande gestructureerde documenten om te ze
 
 Met behulp van het blok `<config> </config>` kunt u een of meer configuraties definiëren voor conversie. De omzettingswerkstroom wordt uitgevoerd en de definitieve output in de vorm van een onderwerp DITA wordt bewaard in de plaats die in het `outputDir` element wordt gespecificeerd.
 
-**Bovenliggend onderwerp:**[ Migreer bestaande inhoud ](migrate-content.md)
+**Bovenliggend onderwerp:**&#x200B;[ Migreer bestaande inhoud ](migrate-content.md)

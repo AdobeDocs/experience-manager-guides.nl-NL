@@ -34,7 +34,7 @@ Voer de volgende stappen uit om regx te configureren voor geldige \(of toegestan
 
 1. Onderzoek naar en klik op *com.adobe.fmdita.config.ConfigManager* bundel.
 
-1. In **Regex voor Geldige het bezit van Karakters**, zorg ervoor dat het bezit aan \ [-a-zA-Z0-9 \ \ \ wordt geplaatst. U kunt meer tekens aan deze lijst toevoegen. De lijst moet echter deze basistekens hebben en de lijst moet beginnen met een koppelteken &quot;-&quot;.
+1. In **Regex voor Geldige het bezit van Karakters**, zorg ervoor dat het bezit aan \ &lbrack;-a-zA-Z0-9 \ \ \ wordt geplaatst. U kunt meer tekens aan deze lijst toevoegen. De lijst moet echter deze basistekens hebben en de lijst moet beginnen met een koppelteken &quot;-&quot;.
 
    >[!NOTE]
    >
@@ -47,4 +47,4 @@ Voer de volgende stappen uit om regx te configureren voor geldige \(of toegestan
 >
 > Net als in de lijst met geldige bestandsnaamtekens kunt u ook een lijst met geldige bestandsnaamtekens opgeven voor AEM site-uitvoer. Voor meer details, zie [ geldige dossiernamen voor AEM output van de Plaats ](conf-file-names-valid-regx-aem-site-output.md#) vormen.
 
-**Bovenliggend onderwerp:**[ vorm filenames ](conf-file-names.md)
+**Bovenliggend onderwerp:**&#x200B;[ vorm filenames ](conf-file-names.md)

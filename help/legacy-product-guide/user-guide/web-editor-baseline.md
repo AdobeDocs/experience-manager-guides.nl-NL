@@ -118,7 +118,7 @@ U kunt een basislijn dupliceren en deze aanpassen aan uw vereisten.
 1. Klik **Dupliceren**.
 
 - **noem** anders, of **schrap** een bestaande basislijn.
-- Voeg, verwijder, of breng veranderingen in bestaande etiketten van **toe leidt de optie van Etiketten** voor statische basislijnen. Als uw beheerder vooraf gedefinieerde labels heeft geconfigureerd, worden deze labels weergegeven in de vervolgkeuzelijst Label toevoegen. Voor meer informatie over het toevoegen van etiketten, zie {de etiketten van het 0} Gebruik ](web-editor-use-label.md#).[
+- Voeg, verwijder, of breng veranderingen in bestaande etiketten van **toe leidt de optie van Etiketten** voor statische basislijnen. Als uw beheerder vooraf gedefinieerde labels heeft geconfigureerd, worden deze labels weergegeven in de vervolgkeuzelijst Label toevoegen. Voor meer informatie over het toevoegen van etiketten, zie {de etiketten van het 0} Gebruik [&#128279;](web-editor-use-label.md#).
 
   >[!NOTE]
   >
@@ -154,4 +154,4 @@ Gebruikend het pictogram van Filters in het **paneel van de Filters van de Basis
 
 Zodra u de basislijn hebt uitgegeven, kunt u **klikken sparen** knoop op de bovenkant om de veranderingen in de basislijn te bewaren. U kunt de **knoop van het Terugstellen** klikken als u niet de verandering wilt bewaren en de basislijn terugstellen. Wanneer u de **knoop van het Terugstellen** klikt wordt een waarschuwing getoond dat uw niet bewaarde veranderingen zouden worden verloren.
 
-**Bovenliggend onderwerp:**[ Werk met de Redacteur van het Web ](web-editor.md)
+**Bovenliggend onderwerp:**&#x200B;[ Werk met de Redacteur van het Web ](web-editor.md)

@@ -37,4 +37,4 @@ Voer de volgende stappen uit om de rij van de outputgeneratie te bekijken:
      In deze lijst kunt u taken uitvoeren die zijn uitgevoerd of taken die zijn mislukt. Voor de taken die met succes zijn voltooid, maakt het publicatieproces een logbestand \(logs.txt\) dat kan worden geopend door op de koppeling in de kolom Gegenereerd bij te klikken.
 
 
-**Bovenliggend onderwerp:**[ produceer output van de documenten van FrameMaker ](fm-output-generatation.md)
+**Bovenliggend onderwerp:**&#x200B;[ produceer output van de documenten van FrameMaker ](fm-output-generatation.md)

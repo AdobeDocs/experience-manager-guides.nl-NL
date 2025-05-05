@@ -57,7 +57,7 @@ Voer de volgende stappen uit om een onderwerp van Assets UI tot stand te brengen
 
 1. In Assets UI, navigeer aan de plaats waar u het onderwerp wilt tot stand brengen.
 
-1. Om een nieuw onderwerp tot stand te brengen, creeer **** \> **Onderwerp DITA**.
+1. Om een nieuw onderwerp tot stand te brengen, creeer **&#x200B;**&#x200B;\> **Onderwerp DITA**.
 
 1. Voor de pagina van de Vervaging, selecteer het type van document DITA u **daarna** tot stand brengen en wilt selecteren.
 
@@ -93,4 +93,4 @@ Voer de volgende stappen uit om een onderwerp van Assets UI tot stand te brengen
 
 4. Zodra u uw onderwerp DITA hebt gecreeerd, houd sparen de veranderingen in uw het werk exemplaar en creeer een nieuwe versie zodra u de updates aan uw onderwerp hebt voltooid.
 
-**Bovenliggend onderwerp:**[ creeer en voorproef onderwerpen ](create-preview-topics.md)
+**Bovenliggend onderwerp:**&#x200B;[ creeer en voorproef onderwerpen ](create-preview-topics.md)

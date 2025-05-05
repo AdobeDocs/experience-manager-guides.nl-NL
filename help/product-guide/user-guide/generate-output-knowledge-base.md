@@ -86,7 +86,7 @@ De volgende configuratieopties worden getoond voor **ServiceNow** als doel:
 
 | Opties voor ServiceNow | Beschrijving |
 | --- | --- |
-| Profiel publiceren | Gebruik dropdown om van de de verbindingsprofielen te selecteren ServiceNow uw beheerder vormt. Meer over leren hoe uw beheerder een publicatieprofiel kan tot stand brengen, bekijk de **eigenschapbeschrijving van de Montages van de Redacteur** {in de [ Linkerpaneel ](./web-editor-features.md#id2051EA0M0HS) sectie. |
+| Profiel publiceren | Gebruik dropdown om van de de verbindingsprofielen te selecteren ServiceNow uw beheerder vormt. Meer over leren hoe uw beheerder een publicatieprofiel kan tot stand brengen, bekijk de **eigenschapbeschrijving van de Montages van de Redacteur** &lbrace;in de [ Linkerpaneel ](./web-editor-features.md#id2051EA0M0HS) sectie. |
 | Kennisbank | Gebruik dit gebied om de vereiste Kennisbank te selecteren ServiceNow. U kunt kennisbases in de plaats vormen ServiceNow om de inhoud op te slaan die op de toestemmingen wordt gebaseerd. De artikelen van deze DITA-kaart kunnen op deze kennisbanken worden gepubliceerd. |
 | Categorie en subcategorie | Categorieën zijn als hiërarchische bomen die worden gebruikt om de artikelen van de Kennisbank te vinden en te classificeren ServiceNow. Voeg een categorie en een subcategorie toe om de onderwerpen en subonderwerpen van TOC aan die categorie en subcategorie op de plaats ServiceNow te publiceren. |
 

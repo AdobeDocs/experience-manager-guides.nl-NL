@@ -133,7 +133,7 @@ Voer de volgende stappen uit om een nieuwe stijl te maken:
 
 1. Selecteer de Klasse van de a **Pseudo** om een element te stileren. Met een pseudoklasse kunt u een speciale status van het element definiëren. Gebruik bijvoorbeeld de pseudo-klasse om een element op te maken wanneer u de muisaanwijzer op het element plaatst of wanneer u de focus op het element plaatst. U kunt ook meerdere pseudoklassen selecteren. U kunt bijvoorbeeld pseudo-klasse `a::visited {color: blue;}` gebruiken om de bezochte koppelingen op te maken.
 
-1. Voeg de kiezer voor de nieuwe stijl toe. Het **gebied van de Selector** {helpt u om douanekiezers naast de klasse, de Markering, en de combinatie van de Klasse toe te voegen Pseudo. U kunt bijvoorbeeld een `table a.link` -stijl maken voor alle hyperlinks in een tabel.
+1. Voeg de kiezer voor de nieuwe stijl toe. Het **gebied van de Selector** &lbrace;helpt u om douanekiezers naast de klasse, de Markering, en de combinatie van de Klasse toe te voegen Pseudo. U kunt bijvoorbeeld een `table a.link` -stijl maken voor alle hyperlinks in een tabel.
 
    Voor meer informatie betreffende CSS markeringen, verwees de mening [ naar CSS stijlgrammatica ](https://www.w3.org/TR/CSS21/syndata.html#characters).
 
@@ -372,7 +372,7 @@ De pagina&#39;s in een PDF-document worden doorgaans gepubliceerd op basis van d
 <img src="assets/template-page-organization.png" alt="Paginaorganisatie" width="550">
 
 
-De volgende montages zijn beschikbaar onder de **sectie van de Organisatie van de Pagina 0} {:**
+De volgende montages zijn beschikbaar onder de **sectie van de Organisatie van de Pagina 0&rbrace; &lbrace;:**
 
 #### Paginavolgorde
 
@@ -459,11 +459,11 @@ U kunt bijvoorbeeld een taalvariabele &quot;reference-label&quot; toevoegen en d
 Wanneer u `${lng:<variable name>}` toevoegt aan de sectie Alinea, bevatten de kruisverwijzingen in de alinea&#39;s van de uitvoer de gelokaliseerde tekst en het paginanummer.\
 In de volgende schermafbeeldingen ziet u bijvoorbeeld de kruisverwijzingen &quot;Weergeven op pagina 1&quot; in het Engels en &quot;Einzelheiten finden Sie auf der Seite 1&quot; in het Duits.
 
-<img src="./assets/english-output-corss-reference.png" alt="Engelse uitvoer van een kruisverwijzing in een alinea" width ="800" border="2px">
+<img src="./assets/english-output-corss-reference.png" alt="Engelse uitvoer van een kruisverwijzing in een alinea&quot; width =&quot;800" border="2px">
 
 *kruisverwijzing van A binnen een paragraaf wanneer gepubliceerd in de Engelse taal.*
 
-<img src="./assets/german-output-corss-reference.png" alt="Duitse uitvoer van een kruisverwijzing in een alinea" width ="800" border="2px">
+<img src="./assets/german-output-corss-reference.png" alt="Duitse uitvoer van een kruisverwijzing in een alinea&quot; width =&quot;800" border="2px">
 
 
 *kruisverwijzing van A binnen een paragraaf wanneer gepubliceerd in de Duitse taal.*

@@ -77,7 +77,7 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 * `<conref>` -notitie in een para-tag wordt niet weergegeven in de voorvertoningsmodus. (10559)
 * Als u de backspace aan het einde van een lijstitem aanpast, wordt de hele lijst verwijderd. 10540
 * Het scherm wordt als leeg weergegeven in Chrome v106 bij het slepen en neerzetten van een element vanuit de gebruikersinterface (bijvoorbeeld vanuit het deelvenster Voorwaarden). 10524
-* De auto knoop van de Inspringing mist van de toolbar in de **** mening van Source. (10448)
+* De auto knoop van de Inspringing mist van de toolbar in de **&#x200B;**&#x200B;mening van Source. (10448)
 * Het eerste teken van een lijstitem gaat soms verloren wanneer de lijst in de editor wordt geschreven.(10447)
 * **ongedaan maken** of **opnieuw** werkt niet correct aan sommige dossiers. 10373
 * Aangepaste metagegevens blijven niet behouden bij kopiëren en plakken. 10367

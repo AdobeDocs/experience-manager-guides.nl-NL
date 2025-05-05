@@ -32,4 +32,4 @@ Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configur
 >
 > Net als in de lijst met geldige bestandsnaamtekens kunt u ook een lijst met geldige bestandsnaamtekens opgeven voor AEM site-uitvoer. Voor meer details, zie [ geldige dossiernamen voor AEM output van de Plaats ](conf-file-names-valid-regx-aem-site-output.md#) vormen.
 
-**Bovenliggend onderwerp:**[ vorm filenames ](conf-file-names.md)
+**Bovenliggend onderwerp:**&#x200B;[ vorm filenames ](conf-file-names.md)

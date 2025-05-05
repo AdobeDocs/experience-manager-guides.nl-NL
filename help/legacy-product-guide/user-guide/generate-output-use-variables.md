@@ -31,4 +31,4 @@ In de volgende tabel worden de variabelen weergegeven die uit het vak worden ond
 | `${system_time}` | Gebruikt de huidige servertijd om de bestemmingspad tot stand te brengen. | **DITA de naam van het kaartdossier:** <br>`SampleDita.ditamap` <br> <br> **DITA de weg van het kaartdossier:** <br>`/content/dam/projects/AEM-Guides/en/user-guide/` <br><Br>**Pad van de Bestemming** gevormd als: <br> `/content/output/sites/${system_time}`<br><br>**Definitieve outputplaats:**<br>`/content/output/sites/055612/SampleDita.html` |
 
 Daarnaast kunt u de metagegevens die voor de DITA-kaart of het bladwijzerbestand zijn gedefinieerd, ook als variabelen gebruiken. De metagegevens vindt u onder het knooppunt `/jcr:content/metadata` van de DITA-kaart of het bladwijzerbestand. Een van de metagegevenseigenschappen die in het knooppunt `/jcr:content/metadata` wordt gedefinieerd, is bijvoorbeeld `dc:title` . U kunt `${dc:title}` opgeven en de titelwaarde wordt gebruikt in de uiteindelijke uitvoer.
-**Bovenliggend onderwerp:**[ Productie van de Output ](generate-output.md)
+**Bovenliggend onderwerp:**&#x200B;[ Productie van de Output ](generate-output.md)

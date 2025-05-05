@@ -70,14 +70,14 @@ Voer de volgende stappen uit om de tekstfilters te configureren:
 
       In het bovenstaande codefragment is het eerste filter voor DITA-bestanden. De filterdefinitie heeft de volgende parameters:
 
-      ****Titel****: De vertoningsnaam van de filter. Deze titel wordt weergegeven als filteroptie in het bladerdialoogvenster van het bestand.
+      **&#x200B;**&#x200B;Titel&#x200B;**&#x200B;**: De vertoningsnaam van de filter. Deze titel wordt weergegeven als filteroptie in het bladerdialoogvenster van het bestand.
 
-      ****Bezit****: Het bezit in de meta-gegevens van het dossier aan te passen. Als u bijvoorbeeld alleen bestanden wilt toestaan die de metagegevens van de klasse dita\_in hun eigenschap hebben, neemt het eigenschapsfilter &quot;jcr:content/metadata/dita\_class&quot; als waarde.
+      **&#x200B;**&#x200B;Bezit&#x200B;**&#x200B;**: Het bezit in de meta-gegevens van het dossier aan te passen. Als u bijvoorbeeld alleen bestanden wilt toestaan die de metagegevens van de klasse dita\_in hun eigenschap hebben, neemt het eigenschapsfilter &quot;jcr:content/metadata/dita\_class&quot; als waarde.
 
-      ****Verrichting **:**specificeer &quot;bestaat&quot;om voor bestaan van de waarde aan te passen die in de bezitsparameter wordt gespecificeerd
+      **&#x200B;**&#x200B;Verrichting **:**&#x200B;specificeer &quot;bestaat&quot;om voor bestaan van de waarde aan te passen die in de bezitsparameter wordt gespecificeerd
 
 1. Upload het bijgewerkte bestand ui\_config.json dat de toegevoegde filters bevat.
 
 De geconfigureerde filters zijn beschikbaar in het deelvenster Filters.
 
-**Bovenliggend onderwerp:**[ pas de Redacteur van het Web ](conf-web-editor.md) aan
+**Bovenliggend onderwerp:**&#x200B;[ pas de Redacteur van het Web ](conf-web-editor.md) aan

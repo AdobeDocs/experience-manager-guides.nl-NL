@@ -49,4 +49,4 @@ Voer de volgende stappen uit om de resterende bestanden op te schonen nadat u de
 1. Klik **ongeldig het Geheime voorgeheugen**.
 1. Maak de cache van de browser leeg.
 
-**Bovenliggend onderwerp:**[ Download en installeer ](download-install.md)
+**Bovenliggend onderwerp:**&#x200B;[ Download en installeer ](download-install.md)

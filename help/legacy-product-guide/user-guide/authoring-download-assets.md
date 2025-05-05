@@ -38,6 +38,7 @@ Voer de volgende stappen uit om een DITA kaartdossier samen met zijn afhankelijk
 
    - **Basislijn van het Gebruik**: Selecteer deze optie om een lijst van Basislijnen te krijgen die voor de kaart DITA worden gecreeerd. Als u het kaartbestand en de inhoud ervan wilt downloaden op basis van een specifieke basislijn, selecteert u de basislijn in de vervolgkeuzelijst. Voor meer details over het werken met Basislijnen, zie [ Werk met Basislijn ](generate-output-use-baseline-for-publishing.md#).
    - **de Hiërarchie van het Dossier van de Afvlakking**: Selecteer deze optie om alle referenced onderwerpen en media dossiers in één enkele omslag te bewaren.
+
    >[!NOTE]
    >
    > U kunt het kaartbestand ook downloaden zonder een optie te selecteren. In dat geval wordt de laatste voortgezette versie van de onderwerpen waarnaar wordt verwezen en de mediabestanden gedownload.
@@ -58,4 +59,4 @@ Voer de volgende stappen uit om een DITA kaartdossier samen met zijn afhankelijk
 
 Nadat de kaart is gedownload, kunt u de kaart selecteren en het pictogram Openen bovenaan gebruiken om het geselecteerde rapport te openen.
 
-**Bovenliggend onderwerp:**[ beheert inhoud ](authoring.md)
+**Bovenliggend onderwerp:**&#x200B;[ beheert inhoud ](authoring.md)

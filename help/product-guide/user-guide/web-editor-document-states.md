@@ -94,7 +94,7 @@ Voer de volgende stappen uit om de functie voor documentgoedkeuring te gebruiken
    >
    > Als uw beheerder geen vooraf gedefinieerde lijst met labels heeft geconfigureerd, wordt u een tekstveld met een vrije vorm getoond waarin u een label kunt invoeren.
 
-1. Zodra het document met succes zoals goedgekeurd wordt gemerkt, dan wordt a **Voorproef** van het document getoond op de read-only wijze. Alle bewerkingsopties worden uit alle drie de modi verwijderd: Auteur, Source en Voorvertoning. Nochtans, krijgt u nog toegang tot **** dropdown van het Menu dat de **geschiedenis van de Versie** en **Codes** opties kenmerkt.
+1. Zodra het document met succes zoals goedgekeurd wordt gemerkt, dan wordt a **Voorproef** van het document getoond op de read-only wijze. Alle bewerkingsopties worden uit alle drie de modi verwijderd: Auteur, Source en Voorvertoning. Nochtans, krijgt u nog toegang tot **&#x200B;**&#x200B;dropdown van het Menu dat de **geschiedenis van de Versie** en **Codes** opties kenmerkt.
 
    ![](images/approved-doc-read-only.png){width="650" align="left"}
 
@@ -114,4 +114,4 @@ Als een document is gemarkeerd als goedgekeurd, kan het niet meer worden bewerkt
    De status van het document wordt gewijzigd in Concept en het document wordt geopend in de Editor in de bewerkingsmodus.
 
 
-**Bovenliggend onderwerp:**[ Inleiding aan de Redacteur ](web-editor.md)
+**Bovenliggend onderwerp:**&#x200B;[ Inleiding aan de Redacteur ](web-editor.md)
