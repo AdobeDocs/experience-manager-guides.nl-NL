@@ -1,9 +1,10 @@
 ---
 title: Nieuwe UX- en AI-mogelijkheden in AEM Guides
 description: Ontdek hoe de herontworpen gebruikerservaring en AI-assistenten in AEM Guides het ontwerpen stroomlijnen, de navigatie verbeteren en realtime intelligentie in uw contentworkflows brengen.
-source-git-commit: 87d1ff16daea5d40924ebb59669a3474ec5bafca
+exl-id: 26daaae5-1f10-42bf-91b5-93cdb6df6625
+source-git-commit: 1b41b2eb7e917c389c6f15ff73037f89353e8269
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '271'
 ht-degree: 0%
 
 ---
@@ -27,9 +28,9 @@ In de reis van de inhoudcreatie, hangt het leveren van verenigbare, hoogwaardige
 ## Toetsen
 
 In deze vergadering hebben we het volgende besproken:
-- De opnieuw ontworpen, aangepaste landingspagina voor snelle toegang tot recente bestanden, verzamelingen en werkfront.
+- De opnieuw ontworpen, aangepaste landingspagina voor snelle toegang tot recente bestanden, verzamelingen en taken op het werk.
 - Vereenvoudigde navigatie voor overgangen tussen ontwerpen, publiceren en inhoudsbeheer.
-- Speciale kaartconsole die publicatie-, vertaal- en rapportagetaken op één locatie consolideert.
+- Speciale kaartconsole die publicatie-, vertaal- en rapportagemogelijkheden op één locatie consolideert.
 - Slimme inhoud wordt opnieuw gebruikt met door AI aangestuurde suggesties.
 - Verbeteringen van de inhoud, zoals vertalingen, samenvattingen en verbeteringen van de inhoud in real time tijdens het ontwerpen.
 - Het door AI gestuurde deelvenster Help biedt contextuele ondersteuning in de ontwerpomgeving.
@@ -37,11 +38,11 @@ In deze vergadering hebben we het volgende besproken:
 
 ## Gerelateerde bronnen
 
-- [ Nieuwe de paginaervaring van het Huis ](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/user-guide/home-page/intro-home-page)
+- [ Nieuwe de paginaervaring van het Huis ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/home-page/intro-home-page)
 
-- [ AI Capabilities ](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/user-guide/ai-assistant-aem/ai-assistant)
+- [ AI Capabilities in AEM Guides ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/ai-assistant-aem/ai-assistant)
 
-- [ Nieuwe de paginaervaring van het Huis ](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-smart-suggestions)
+- [ vorm AI Medewerker ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-smart-suggestions)
 
 
 
@@ -54,7 +55,7 @@ In deze vergadering hebben we het volgende besproken:
 
 ### Forum van de Gemeenschap
 
-- Voor zitting-specifieke communautaire interactie over Experience League, bezoek {het Forum van AEM Guides van 0} [&#128279;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- Voor zitting-specifieke communautaire interactie over Experience League, bezoek {het Forum van AEM Guides van 0} ](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).[
 
 
 ## Contact opnemen
