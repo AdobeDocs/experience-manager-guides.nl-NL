@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lees de productdocumentatie voor Adobe Experience Manager Guides.
 breadcrumb-title: Documentatie voor AEM Guides
-source-git-commit: b78a34430476c15cadacb23d65bd978b3c25bd23
+source-git-commit: fd20f8d8dffd9ab566128ace61cb923279aa2d8b
 workflow-type: tm+mt
-source-wordcount: '2098'
+source-wordcount: '2106'
 ht-degree: 2%
 
 ---
@@ -129,8 +129,8 @@ ht-degree: 2%
                - [4.2.1 Opmerkingen bij de release](./release-info/release-notes-4-2-1.md)
                - [4.2 Opmerkingen bij de release](./release-info/release-notes-4-2.md)
          - [Opmerkingen bij de release 4.1.x](./release-info/release-notes-4-1.md)
-         - [ 4.0.x de Nota&#39;s van de Versie ](https://helpx.adobe.com/nl/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [ 3.8.x de Nota&#39;s van de Versie ](https://helpx.adobe.com/nl/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [ 4.0.x de Nota&#39;s van de Versie ](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [ 3.8.x de Nota&#39;s van de Versie ](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Handboek (nieuwe gebruikersinterface) {#user-guide}
    - Inleiding {#about-aemg}
       - [Info  [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -277,7 +277,7 @@ ht-degree: 2%
          - [Bestanden en mappen beheren](./user-guide/authoring-file-management.md)
          - [Bestanden downloaden](./user-guide/authoring-download-assets.md)
 - Handboek (oude gebruikersinterface) {#user-guide-old-ui}
-   - [ overzicht van AEM Guides](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [ overzicht van AEM Guides ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installatie en configuratie {#install-guide}
    - Op locatie {#on-prem-ig}
       - [Basisbegrippen op locatie](./install-guide/introduction.md)
@@ -485,6 +485,7 @@ ht-degree: 2%
       - [Inhoud migreren van niet-uuid naar UUID](./knowledge-base/expert-sessions/migration-non-uuid-to-uuid.md)
       - [Migratie van Delta-inhoud](./knowledge-base/expert-sessions/migration-delta-content.md)
       - [Slimme PDF-publicatie met native PDF](./knowledge-base//expert-sessions/smarter-pdf-publishing-with-native-pdf.md)
+      - [Nieuwe UX- en AI-mogelijkheden in AEM Guides](./knowledge-base/expert-sessions/new-ux-and-ai-capabilities.md)
    - Artikelen {#kb-articles}
       - Authoring {#authoring}
          - Webeditor {#webeditor}
