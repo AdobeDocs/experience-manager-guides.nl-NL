@@ -37,11 +37,11 @@ In deze vergadering hebben we het volgende besproken:
 
 ## Gerelateerde bronnen
 
-- [ Nieuwe de paginaervaring van het Huis ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/home-page/intro-home-page)
+- [ Nieuwe de paginaervaring van het Huis ](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/user-guide/home-page/intro-home-page)
 
-- [ AI Capabilities ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/ai-assistant-aem/ai-assistant)
+- [ AI Capabilities ](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/user-guide/ai-assistant-aem/ai-assistant)
 
-- [ Nieuwe de paginaervaring van het Huis ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-smart-suggestions)
+- [ Nieuwe de paginaervaring van het Huis ](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-smart-suggestions)
 
 
 
