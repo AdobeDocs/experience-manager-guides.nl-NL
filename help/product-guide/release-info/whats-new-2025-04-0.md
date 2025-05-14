@@ -2,9 +2,10 @@
 title: Opmerkingen bij de release | Nieuwe functies in de Adobe Experience Manager Guides 2025.04.0-release
 description: Meer informatie over de nieuwe en verbeterde functies in de 2025.04.0-release van Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 2d0be1a3b3d4b625333e5b8c93e6b01f38e00b39
+exl-id: 5d28119b-641f-402b-833c-6f7554e7c273
+source-git-commit: f4ed3c8b70c47beb1f97c6703ade4d4f49fa814e
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '569'
 ht-degree: 0%
 
 ---
@@ -23,7 +24,7 @@ Adobe Experience Manager Guides voegt nu a **formaat** attributen voor verwijzin
 
 - Voor dossiers met a **.pdf** uitbreiding, zal het formaat aan **pdf** worden geplaatst
 - Voor dossiers met a **.html** uitbreiding, zal het formaat aan **html** worden geplaatst
-- Voor dossiers met a **.dita** of **&#x200B;**&#x200B;dossiers.ditamap, zal het formaat aan **dita** worden geplaatst
+- Voor dossiers met a **.dita** of **** dossiers.ditamap, zal het formaat aan **dita** worden geplaatst
 
 Bovendien, zullen de dossiers met a **.xml** uitbreiding ook hun formaat hebben dat aan **wordt geplaatst dita**. Voor bestanden zonder extensie blijft de indeling leeg. Voorts voor om het even welke verwijzingsverbindingen met een werkingsgebied dat aan **wordt geplaatst extern**, zal het formaat aan **html** ongeacht de dossieruitbreiding in de verwijzingsverbindingen worden geplaatst.
 
@@ -51,6 +52,6 @@ Experience Manager Guides introduceert een verbeterde zoekervaring in het deelve
 Voor meer details, mening [ Herbruikbare inhoud ](../user-guide/web-editor-features.md#reusable-content).
 
 
-## DITA OT-versie bijwerken voor microservicecontainers
+## Java-versieverbetering voor microservicecontainers
 
 Voor cloud-omgevingen met microservice gaan we over naar Java 21, zodat de bestaande DITA-OT- en native PDF-generatieprocessen ongewijzigd blijven. De bestaande workflow van DITA-OT 3 blijft naadloos functioneren met Java 21.  Bovendien is DITA-OT 4 volledig operationeel, zodat gebruikers PDF&#39;s kunnen genereren met DITA-OT en native PDF, en uitvoer kunnen produceren voor native AEM-sites en andere indelingen.
