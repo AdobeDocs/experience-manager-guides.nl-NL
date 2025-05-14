@@ -61,7 +61,7 @@ De **geschiedeniseigenschap van de Versie** in de Redacteur staat u toe om de be
 
 
 1. Open een onderwerp in de Redacteur.
-1. Selecteer **geschiedenis van de Versie** van **** dropdown van het Menu.
+1. Selecteer **geschiedenis van de Versie** van **&#x200B;**&#x200B;dropdown van het Menu.
 
    Het **de dialoogvakje van de Geschiedenis van de Versie** verschijnt.
 
@@ -121,7 +121,7 @@ Met Experience Manager Guides kunt u labels opgeven in een tekstindeling met vri
 
 Deze labels worden in de vorm van een vervolgkeuzelijst weergegeven aan auteurs, waar ze een label moeten opgeven. Dit zorgt ervoor dat alleen vooraf gedefinieerde, consistente labels in het systeem worden gebruikt.
 
-Er zijn verschillende methodes waardoor u etiketten op uw onderwerpen kunt toepassen - ](web-editor-use-label.md) paneel van de geschiedenis van de 1} Versie in Assets UI, [ Basislijnen ](/help/product-guide/user-guide/generate-output-use-baseline-for-publishing.md) UI, en de Redacteur. [ Met de functie Versielabel in de Editor kunnen auteurs snel en eenvoudig labels toewijzen aan hun onderwerpen.
+Er zijn verschillende methodes waardoor u etiketten op uw onderwerpen kunt toepassen - [&#128279;](web-editor-use-label.md) paneel van de geschiedenis van de 1&rbrace; Versie in Assets UI, [ Basislijnen ](/help/product-guide/user-guide/generate-output-use-baseline-for-publishing.md) UI, en de Redacteur.  Met de functie Versielabel in de Editor kunnen auteurs snel en eenvoudig labels toewijzen aan hun onderwerpen.
 
 <details>
     <summary> Stappen om etiketten aan uw onderwerp van de Redacteur toe te voegen </summary>
@@ -363,7 +363,7 @@ Met behulp van het contextmenu van de tabel kunt u:
 U kunt ook kenmerken definiëren voor meerdere cellen, hele rijen of kolommen in een tabel. Als u bijvoorbeeld een tabelcel wilt uitlijnen, sleept u en selecteert u de gewenste cel. In het paneel van Eigenschappen van de Inhoud (op het recht), verandert het bezit **Type** in **ingang**.
 
 1. In de **sectie van Attributen**, uitgezocht **+ voeg** toe.
-1. Selecteer het `@valign` attribuut van de **2} dropdown lijst van Attributen {.**
+1. Selecteer het `@valign` attribuut van de **2&rbrace; dropdown lijst van Attributen &lbrace;.**
 1. Selecteer in de vervolgkeuzelijst Waarde de gewenste tekstuitlijning die u wilt toepassen op de geselecteerde tabelcellen.
 1. Selecteer **toevoegen.**
 
@@ -467,7 +467,7 @@ U kunt ook zoeken met de UUID van het bestand waarnaar u wilt verwijzen. Voer bi
 
 ![](images/insert-content-using-uuid-search.png){width="650" align="left"}
 
-Als uw beheerder de optie UUIDs in *XMLEditorConfig* heeft toegelaten, dan zult u UUID van de referenced inhoud in het **3} bezit van de Verbinding {bekijken.**
+Als uw beheerder de optie UUIDs in *XMLEditorConfig* heeft toegelaten, dan zult u UUID van de referenced inhoud in het **3&rbrace; bezit van de Verbinding &lbrace;bekijken.**
 
 ![](images/ref-link-uuid_cs.png){align="left"}
 
@@ -544,7 +544,7 @@ U kunt de kenmerken van het trefwoord wijzigen of een nieuw kenmerk aan het tref
 
 **Fragmenten** - ![](images/insert-snippet-icon.svg)
 
-Voeg een fragment in op de huidige of volgende geldige locatie. Deze functie werkt alleen als in uw systeem fragmenten zijn gedefinieerd. Voor meer informatie over het toevoegen van een fragment, bekijk de **eigenschapbeschrijving van het Fragment** {in de [ Linkerpaneel ](./web-editor-left-panel.md) sectie.
+Voeg een fragment in op de huidige of volgende geldige locatie. Deze functie werkt alleen als in uw systeem fragmenten zijn gedefinieerd. Voor meer informatie over het toevoegen van een fragment, bekijk de **eigenschapbeschrijving van het Fragment** &lbrace;in de [ Linkerpaneel ](./web-editor-left-panel.md) sectie.
 
 Wanneer u de optie Fragmenten selecteert, wordt de catalogus Fragment invoegen weergegeven. De catalogus is contextgevoelig, wat aangeeft dat de fragmenten alleen worden weergegeven als ze op de huidige locatie zijn toegestaan.
 
@@ -621,4 +621,4 @@ Als een bestand is vergrendeld door een andere gebruiker en u de muisaanwijzer b
 Als beheerder, krijgt u ook toegang tot de **Grijsmacht ontgrendelt** eigenschap die u toestaat om het dossier te ontgrendelen dat door andere gebruikers wordt gesloten. Met deze functie hebt u toegang tot de bewerkingsrechten voor een bestand dat is vergrendeld door andere gebruikers.
 
 ![](images/web-editor-force-unlock-new.png){width="350" align="left"}
-**Bovenliggend onderwerp:**[ Inleiding aan de Redacteur ](web-editor.md)
+**Bovenliggend onderwerp:**&#x200B;[ Inleiding aan de Redacteur ](web-editor.md)

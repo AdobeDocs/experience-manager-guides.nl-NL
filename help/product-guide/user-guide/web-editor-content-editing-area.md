@@ -23,6 +23,6 @@ Meer over de meningen van de Redacteur beschikbaar voor een onderwerpdossier in 
 
 >[!NOTE]
 >
-> Als u aan een kaartdossier werkt, dan worden de verschillende opties of de meningen getoond op het inhoud het uitgeven gebied, met inbegrip van a **Lay-out** mening voor het kaartdossier. Voor meer details, de redacteurseigenschappen van de Kaart van de mening [ ](./map-editor-advanced-map-editor.md).
+> Als u aan een kaartdossier werkt, dan worden de verschillende opties of de meningen getoond op het inhoud het uitgeven gebied, met inbegrip van a **Lay-out** mening voor het kaartdossier. Voor meer details, de redacteurseigenschappen van de Kaart van de mening [&#128279;](./map-editor-advanced-map-editor.md).
 
-**Bovenliggend onderwerp:**[ Inleiding aan de Redacteur ](web-editor.md)
+**Bovenliggend onderwerp:**&#x200B;[ Inleiding aan de Redacteur ](web-editor.md)
