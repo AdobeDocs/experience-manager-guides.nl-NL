@@ -3,9 +3,9 @@ title: Opmerkingen bij de release | Nieuwe functies in de Adobe Experience Manag
 description: Meer informatie over de nieuwe en verbeterde functies in de 2025.04.0-release van Adobe Experience Manager Guides
 role: Leader
 exl-id: 5d28119b-641f-402b-833c-6f7554e7c273
-source-git-commit: f4ed3c8b70c47beb1f97c6703ade4d4f49fa814e
+source-git-commit: fe7d81f1826fe4ee0c716df36daabe3c5efd8994
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
@@ -24,20 +24,9 @@ Adobe Experience Manager Guides voegt nu a **formaat** attributen voor verwijzin
 
 - Voor dossiers met a **.pdf** uitbreiding, zal het formaat aan **pdf** worden geplaatst
 - Voor dossiers met a **.html** uitbreiding, zal het formaat aan **html** worden geplaatst
-- Voor dossiers met a **.dita** of **&#x200B;**&#x200B;dossiers.ditamap, zal het formaat aan **dita** worden geplaatst
+- Voor dossiers met a **.dita** of **** dossiers.ditamap, zal het formaat aan **dita** worden geplaatst
 
 Bovendien, zullen de dossiers met a **.xml** uitbreiding ook hun formaat hebben dat aan **wordt geplaatst dita**. Voor bestanden zonder extensie blijft de indeling leeg. Voorts voor om het even welke verwijzingsverbindingen met een werkingsgebied dat aan **wordt geplaatst extern**, zal het formaat aan **html** ongeacht de dossieruitbreiding in de verwijzingsverbindingen worden geplaatst.
-
-
-## Nauwkeurige communicatie voor grote bestanden in de Editor
-
-Experience Manager Guides meldt nu dat een bestand is geclassificeerd als groot bestand en dat bepaalde functies, zoals Ongedaan maken, Opnieuw, het deelvenster Omtrek en de vuile markering, mogelijk niet naar behoren werken. Een waakzaam bericht wordt getoond bij de bovenkant van de interface voor grote dossiers zoals aangetoond in het hieronder fragment, die op het aantal elementen wijzen die op de **worden gebaseerd largeFileTagCount** parameter in het **worden gebaseerd uiconfig.json** dossier.
-
-Bovendien wordt het aantal tags weergegeven op de onderste balk en verschijnt knopinfo wanneer u de muisaanwijzer op de balk plaatst. Het selecteren van **Leer meer** lusje verstrekt gedetailleerde informatie over de behandeling van grote dossiers. Deze waarschuwing is alleen beschikbaar voor DITA-bestanden en is in alle weergaven zichtbaar: Auteur, Source en Layout.
-
-Voor meer details, mening [ Behandelend grote dossiers in de Redacteur ](../user-guide/web-editor-other-features.md#handling-large-files-in-the-editor).
-
-![](assets/add-toast-tag-count.png){width="800" align="left"}
 
 ## Geëxporteerde basislijn bevat nu de documentstatus
 
