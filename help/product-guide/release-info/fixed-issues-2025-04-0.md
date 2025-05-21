@@ -1,9 +1,10 @@
 ---
 title: Opmerkingen bij de release | Opgeloste problemen in Adobe Experience Manager Guides, release 2025.04.0
 description: Meer informatie over de opgeloste problemen vindt u in de release 2025.04.0 van Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 9a943a26a22b64035b61c72c47268a0de2c23b7f
+exl-id: ad3e95b5-4903-4387-8e4d-c4b9ba77fee2
+source-git-commit: 70078864379eedd82ae21da70614055c60f0b114
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '771'
 ht-degree: 0%
 
 ---
@@ -54,18 +55,16 @@ Leer over [ verbeteringsinstructies voor de versie 2025.04.0 ](upgrade-instructi
 Adobe heeft de volgende bekende problemen vastgesteld voor de release 2025.04.0:
 
 - De referentietelling in de interface van de basislijn wordt niet bijgewerkt bij het bewerken van de basislijn. Deze wordt alleen bijgewerkt wanneer de wijzigingen worden opgeslagen. (28015)
-- Wanneer de veelvoudige lusjes in de Redacteur open zijn, ongedaan makend **&#x200B;**&#x200B;verrichting in de **Source** mening van een dossier terugkeert laatste uitgeeft maar ook schakelaars aan het eerder geopende lusje. 27891
-- De **optie van de Controle van de Spelling van 0&rbrace; AEM {verschijnt in de** 3} dropdown lijst van het Menu &lbrace;, zelfs wanneer de **Browser spellingcontrole** optie in de montages van de Redacteur wordt toegelaten. **&#x200B;**&#x200B;(27993)
+- Wanneer de veelvoudige lusjes in de Redacteur open zijn, ongedaan makend **** verrichting in de **Source** mening van een dossier terugkeert laatste uitgeeft maar ook schakelaars aan het eerder geopende lusje. 27891
+- De **optie van de Controle van de Spelling van 0} AEM {verschijnt in de** 3} dropdown lijst van het Menu {, zelfs wanneer de **Browser spellingcontrole** optie in de montages van de Redacteur wordt toegelaten. **** (27993)
 - Een extra versie wordt gecreeerd en getoond in het **paneel van de Geschiedenis van de Versie** wanneer u een beeld in Assets UI uitgeeft en het bewaart. (28001)
 - Er wordt automatisch een lege regel ingevoegd bij het plakken van nieuwe inhoud in een nieuwe regel binnen een `codeblock` -element.27842
-- Het schakelen tussen vooraf instelt die de zelfde Basislijn gebruiken deactiveert **&#x200B;**&#x200B;knoop voor huidige vooraf ingesteld. (28025)
+- Het schakelen tussen vooraf instelt die de zelfde Basislijn gebruiken deactiveert **** knoop voor huidige vooraf ingesteld. (28025)
 - Een onderwerp in een DITA-kaart kan niet worden gepubliceerd in de AEM Sites-uitvoer wanneer het wordt gebruikt als zowel `keydef` als `topicref` in de submaps. (2269)
-- In AEM Sites-uitvoer worden afbeeldingen afgebroken wanneer Basislijn niet wordt toegepast tijdens het publiceren. (28043)
 - Een toepassingsfout komt voor wanneer de veelvoudige onderwerpen van een kaart worden uitgegeven en dan gesloten gebruikend **sluit alle** optie, met **Vraag op sparen versie op dicht** toegelaten plaatsen.27931
 
+Adobe heeft het volgende bekende probleem geïdentificeerd met een oplossing:
 
-
-
-
-
-
++++In AEM Sites-uitvoer worden afbeeldingen afgebroken wanneer Basislijn niet wordt toegepast tijdens het publiceren. (28043)
+***Oplossing:*** u kunt dergelijke activa van **Assets UI** publiceren, post die de verbinding operationeel wordt.
++++
