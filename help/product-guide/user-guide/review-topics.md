@@ -154,11 +154,11 @@ De taken die u kunt uitvoeren via het venster Opmerkingen worden hieronder besch
 
 - Als u een onderwerp opent in de modus Voorvertoning, ziet u hoe een onderwerp wordt weergegeven wanneer een onderwerp wordt bekeken door een auteur nadat alle wijzigingen zijn toegepast. Alle ingevoegde tekst wordt bijvoorbeeld als normale tekst weergegeven en alle verwijderde \(verwijderde\) tekst wordt uit de inhoud verwijderd.
 
-- De volgende het schermschot toont de inhoud op *1} wijze van het Overzicht {:*
+- De volgende het schermschot toont de inhoud op *1&rbrace; wijze van het Overzicht &lbrace;:*
 
 ![](images/review-author-mode.png){width="550" align="left"}
 
-De volgende het schermschot toont de inhoud op *1} wijze van de Voorproef {:*
+De volgende het schermschot toont de inhoud op *1&rbrace; wijze van de Voorproef &lbrace;:*
 
 ![](images/review-preview-mode.png){width="550" align="left"}
 
@@ -257,4 +257,4 @@ Selecteer één of meerdere van de volgende het filtreren opties van het **Type 
 
 Om de filter te verwijderen en alle commentaren te bekijken, schrap alle filters van het **Type van Filter** dialoog en selecteer **toepassen**.
 
-**Bovenliggend onderwerp:**[ Inleiding aan overzicht ](review.md)
+**Bovenliggend onderwerp:**&#x200B;[ Inleiding aan overzicht ](review.md)

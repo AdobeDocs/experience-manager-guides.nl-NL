@@ -25,7 +25,7 @@ Voer de onderstaande stappen uit om de elementen te verwerken of opnieuw te verw
 
 1. Selecteer het embleem van Adobe Experience Manager bij de bovenkant en kies **Hulpmiddelen**.
 1. In het **paneel van Hulpmiddelen** uitgezocht **Gidsen**.
-1. Selecteer de **Tegel van de Bewerker van 0} Activa.**
+1. Selecteer de **Tegel van de Bewerker van 0&rbrace; Activa.**
 
    ![ stroom-activa-bewerker ](images/flow-asset-processor.png){width="550" align="left"}
 

@@ -168,5 +168,5 @@ Gebruikend het pictogram van Filters in het **paneel van de Filters van de Basis
 
 Zodra u de basislijn hebt uitgegeven, uitgezocht **sparen** om de veranderingen in de basislijn te bewaren. U kunt **Terugstellen** selecteren als u niet de verandering wilt bewaren en de basislijn terugstellen. Wanneer u **het Terugstellen** selecteert, wordt een waarschuwing getoond dat uw niet bewaarde veranderingen zouden worden verloren.
 
-**Bovenliggend onderwerp:**[ Productie van de Output ](generate-output.md)
+**Bovenliggend onderwerp:**&#x200B;[ Productie van de Output ](generate-output.md)
 

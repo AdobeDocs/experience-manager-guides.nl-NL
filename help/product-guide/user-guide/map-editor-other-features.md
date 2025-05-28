@@ -72,4 +72,4 @@ Er wordt een navigatieverwijzing van het geselecteerde kaartbestand toegevoegd o
 *mening van de Lay-out*
 
 
-**Bovenliggend onderwerp:**[ Inleiding aan de Redacteur van de Kaart ](map-editor.md)
+**Bovenliggend onderwerp:**&#x200B;[ Inleiding aan de Redacteur van de Kaart ](map-editor.md)
