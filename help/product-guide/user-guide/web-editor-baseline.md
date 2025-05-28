@@ -4,9 +4,9 @@ description: Basislijnen maken en beheren met de kaartconsole in Adobe Experienc
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: 154d4cb2c4c51581590048e1d368f4c744402847
+source-git-commit: c7e76de14a3dd63eff794ecca16ebbccb3cb2d8a
 workflow-type: tm+mt
-source-wordcount: '1831'
+source-wordcount: '1881'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,10 @@ In **selecteer de versie die op wordt gebaseerd,** selecteer één van de volgen
 
 - **Datum**: Kies de versie van de onderwerpen zoals op de gespecificeerde datum en de tijd.
 - **Etiket**: Selecteer deze optie om de onderwerpen volgens het etiket te kiezen dat op hen wordt toegepast. Als voor de onderwerpen labels zijn opgegeven, worden de labels vermeld in de vervolgkeuzelijst. U kunt een label in de lijst kiezen. U kunt ook een label toevoegen in het tekstvak.
+
+  >[!NOTE]
+  >
+  > Wanneer u labels kiest, blijft de lader van labels zichtbaar totdat alle labels zijn opgehaald en volledig zijn geladen. Nadat de labels zijn geladen, worden deze in alfabetische volgorde weergegeven zonder onderscheid tussen hoofdletters en kleine letters. Deze worden opgehaald in batches van 20, waarbij in het vervolgkeuzemenu oneindig schuiven is ingeschakeld om extra batches te laden terwijl u schuift.
 
   Voor de directe verwijzingen in statische basislijnen, worden de etiketten getrokken van de recentste bewaarde versie van de kaart. Bijvoorbeeld, als u etiketten `Label Release 1.0` en `Label Release 1.1` voor versies 1.0 en 1.1 van Onderwerp A hebt gecreeerd, en dan Onderwerp A aan de kaart toevoegt die als versie 1.0 wordt bewaard. In dit geval kunt u de labels `Label Release 1.0` en `Label Release 1.1` in het vervolgkeuzemenu weergeven voor statische basislijnlabels.
 
@@ -164,5 +168,5 @@ Gebruikend het pictogram van Filters in het **paneel van de Filters van de Basis
 
 Zodra u de basislijn hebt uitgegeven, uitgezocht **sparen** om de veranderingen in de basislijn te bewaren. U kunt **Terugstellen** selecteren als u niet de verandering wilt bewaren en de basislijn terugstellen. Wanneer u **het Terugstellen** selecteert, wordt een waarschuwing getoond dat uw niet bewaarde veranderingen zouden worden verloren.
 
-**Bovenliggend onderwerp:**&#x200B;[ Productie van de Output ](generate-output.md)
+**Bovenliggend onderwerp:**[ Productie van de Output ](generate-output.md)
 

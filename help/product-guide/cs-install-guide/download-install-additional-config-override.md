@@ -5,9 +5,9 @@ exl-id: dc5f81f7-5b0a-4d12-a944-ba66b0239d5c
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: dae38cf948b99c8b89c61472938ce97b571f9366
+source-git-commit: e4b213b5f0efda18fb24f100f3ee8237947890bf
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Om een vlotte overgang te verzekeren en verstoringen te minimaliseren, verstrekt
 
 >[!IMPORTANT]
 >
-> Deze configuratieoptie om tussen nieuwe en oude UI te schakelen zal beschikbaar tot de versie 2025.4.0 zijn. Daarna, zal nieuwe UI het gebrek worden, en de optie om op vorige UI terug te schakelen zal niet meer worden gesteund.
+> Deze configuratieoptie om tussen nieuwe en oude UI te schakelen werd gesteund tot de versie van 2025.4.0. Met versie 2025.6.0, wordt dit het plaatsen afgekeurd en kan niet meer worden gebruikt om aan oude UI terug te keren.
 
 Voer de volgende stappen uit om de gebruikersinterface van Experience Manager Guides te configureren:
 
@@ -65,4 +65,4 @@ Voer de volgende stappen uit om de gebruikersinterface van Experience Manager Gu
 
 
 
-**Bovenliggend onderwerp:**&#x200B;[ Download en installeer ](download-install.md)
+**Bovenliggend onderwerp:**[ Download en installeer ](download-install.md)

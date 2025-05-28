@@ -4,9 +4,9 @@ description: Leer hoe u het publiceren van een eigen PDF-bestand kunt gebruiken,
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
 feature: Publishing, Native PDF Output
 role: User
-source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
+source-git-commit: 9ae2690c52ab5408a9d17e9a40a89fe1f902042f
 workflow-type: tm+mt
-source-wordcount: '3064'
+source-wordcount: '3083'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ Metagegevens zijn de beschrijving of definitie van de inhoud. Metagegevens helpe
 
 Gebruik het tabblad Metagegevens om de metagegevensvelden in te stellen, zoals de naam van de auteur, de documenttitel, trefwoorden, copyrightinformatie en andere gegevensvelden voor de PDF-uitvoer. U kunt ook aangepaste metagegevens toevoegen voor uw PDF-uitvoer.
 
-Deze meta-gegevens wordt in kaart gebracht aan de meta-gegevens in het **1&rbrace; lusje van de Beschrijving &lbrace;binnen de** Eigenschappen van het Document **van uw output PDF.**
+Deze meta-gegevens wordt in kaart gebracht aan de meta-gegevens in het **1} lusje van de Beschrijving {binnen de** Eigenschappen van het Document **van uw output PDF.**
 
 
 
@@ -131,8 +131,8 @@ Bescherm uw PDF door beperkingen toe te voegen aan het openen en lezen van het b
 
 | Instelling | Beschrijving |
 | --- | --- |
-| **plaats wachtwoord om het document** te openen | Selecteer deze optie om een beveiligd wachtwoord toe te voegen om uw PDF-bestand weer te geven. Specificeer een wachtwoord op het **gebied van het wachtwoord van de Gebruiker 0&rbrace;.** Gebruikers kunnen de PDF alleen openen door het wachtwoord in te voeren dat in dit veld is opgegeven. |
-| **plaats de documentbeperkingen** | Selecteer deze optie om de interactie tussen gebruikers en uw PDF te beperken. Specificeer een wachtwoord op het **gebied van het Wachtwoord van de Eigenaar 0&rbrace; &lbrace;voor de hieronder beperkingsmontages te werken.  <br>**<ul><li> **het Druk** Uitgezocht om een gebruiker toe te staan om PDF te drukken. <br> <li> **de kwaliteit van het Ontwerp druk** Uitgezocht om een gebruiker toe te staan om PDF in een lagere resolutie te drukken.  <br> <li> **Inhoud het kopiëren** Uitgezocht om een gebruiker toe te staan om inhoud van PDF te kopiëren.   <br> <li> **Annotaties** Uitgezocht om een gebruiker toe te staan om een nota of een commentaar in PDF toe te voegen. <br> <li> **de wijzigingen van de Inhoud** Uitgezocht om een gebruiker toe te staan om de inhoud in PDF te veranderen. <br> <li> **Inhoud het kopiëren voor toegankelijkheid** Uitgezocht om het schermlezers toe te staan om inhoud in PDF te lezen en te navigeren. <br>  **de assemblage van het Document** Uitgezocht om gebruikers toe te staan om pagina&#39;s in PDF op te nemen. <br> **Nota**: De gebruikers moeten het eigenaarwachtwoord ingaan om het even welke beperkingen van het Dossier te veranderen > Eigenschappen in Adobe Acrobat. |
+| **plaats wachtwoord om het document** te openen | Selecteer deze optie om een beveiligd wachtwoord toe te voegen om uw PDF-bestand weer te geven. Specificeer een wachtwoord op het **gebied van het wachtwoord van de Gebruiker 0}.** Gebruikers kunnen de PDF alleen openen door het wachtwoord in te voeren dat in dit veld is opgegeven. |
+| **plaats de documentbeperkingen** | Selecteer deze optie om de interactie tussen gebruikers en uw PDF te beperken. Specificeer een wachtwoord op het **gebied van het Wachtwoord van de Eigenaar 0} {voor de hieronder beperkingsmontages te werken.  <br>**<ul><li> **het Druk** Uitgezocht om een gebruiker toe te staan om PDF te drukken. <br> <li> **de kwaliteit van het Ontwerp druk** Uitgezocht om een gebruiker toe te staan om PDF in een lagere resolutie te drukken.  <br> <li> **Inhoud het kopiëren** Uitgezocht om een gebruiker toe te staan om inhoud van PDF te kopiëren.   <br> <li> **Annotaties** Uitgezocht om een gebruiker toe te staan om een nota of een commentaar in PDF toe te voegen. <br> <li> **de wijzigingen van de Inhoud** Uitgezocht om een gebruiker toe te staan om de inhoud in PDF te veranderen. <br> <li> **Inhoud het kopiëren voor toegankelijkheid** Uitgezocht om het schermlezers toe te staan om inhoud in PDF te lezen en te navigeren. <br>  **de assemblage van het Document** Uitgezocht om gebruikers toe te staan om pagina&#39;s in PDF op te nemen. <br> **Nota**: De gebruikers moeten het eigenaarwachtwoord ingaan om het even welke beperkingen van het Dossier te veranderen > Eigenschappen in Adobe Acrobat. |
 
 **Druk**
 
@@ -183,8 +183,8 @@ Gebruik de volgende opties om geavanceerde instellingen op te geven voor het sam
 | **laat de vergelijkingen van MathML** toe | Selecteer deze optie om MathML-vergelijkingen in uw inhoud te renderen. De vergelijkingen worden anders standaard genegeerd. |
 | **creeer interactieve vorm van PDF** | Selecteer deze optie als u interactieve en aanpasbare PDF-formuliervelden wilt opnemen voor verbeterde gebruikersinvoer in gegenereerde PDF-uitvoerbestanden. |
 | **omvat spoorveranderingen** | Selecteer deze optie als u bijgehouden wijzigingen in de gegenereerde PDF wilt opnemen, zodat u deze gemakkelijk kunt bekijken en vergelijken. |
-| **behoud tijdelijke dossiers** | Selecteer deze optie als u de tussentijdse HTML-bestanden die zijn gemaakt tijdens het genereren van de eigen PDF-uitvoer wilt behouden. U kunt de tijdelijke bestanden later downloaden nadat u de uitvoer hebt gegenereerd. |
-| **conformiteit van PDF** | Dit is de standaard waarmee u uw PDF wilt opslaan om ervoor te zorgen dat deze voldoet. Selecteer in het vervolgkeuzemenu een optie in de lijst met beschikbare PDF-standaarden. Voor meer details over de gesteunde normen, mening [ Ongeveer PDF normen ](https://helpx.adobe.com/nl/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
+| **behoud tijdelijke dossiers** | Selecteer deze optie als u de tussentijdse HTML-bestanden die zijn gemaakt tijdens het genereren van de eigen PDF-uitvoer wilt behouden. U kunt de tijdelijke bestanden later downloaden nadat u de uitvoer hebt gegenereerd. De gedownloade bestanden bevatten ook `system_config.json` -bestand dat u informatie geeft over de URL van de auteur, de lokale URL en de publicatie-URL. |
+| **conformiteit van PDF** | Dit is de standaard waarmee u uw PDF wilt opslaan om ervoor te zorgen dat deze voldoet. Selecteer in het vervolgkeuzemenu een optie in de lijst met beschikbare PDF-standaarden. Voor meer details over de gesteunde normen, mening [ Ongeveer PDF normen ](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
 | **eigenschappen van het Dossier** | Selecteer de metagegevens die u wilt doorgeven aan eigen PDF-publicaties. In het vervolgkeuzemenu worden zowel de aangepaste als de standaardeigenschappen weergegeven. `dc:description`, `dc:language`, `dc:title` en `docstate` zijn bijvoorbeeld de standaardeigenschappen, terwijl u `author` als de aangepaste eigenschap kunt hebben. De geselecteerde eigenschappen van metagegevens worden doorgegeven aan het PDF-bestand dat is gegenereerd met Native PDF. <br> Deze eigenschappen worden gekozen uit het `metadataList` dossier beschikbaar bij:`/libs/fmdita/config/metadataList`. <br> Dit dossier kan bij worden bedekt: `/apps/fmdita/config/metadataList`. |
 
 

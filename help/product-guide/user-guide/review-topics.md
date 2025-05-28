@@ -4,9 +4,9 @@ description: Leer hoe u onderwerpen kunt beoordelen en de functies kunt gebruike
 exl-id: fc87fc37-f1cd-4a19-96c2-3a08a8222002
 feature: Reviewing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 9197cb757e3b883d81eee8a72c797b74cf06e570
 workflow-type: tm+mt
-source-wordcount: '2423'
+source-wordcount: '2476'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,7 @@ Voer de volgende stappen uit om een onderwerp te herzien:
 
    - **G**: Aantal commentaren die op een onderwerp worden ontvangen. Dit getal verandert op basis van het filter dat u toepast.
 
+
    Alle onderwerpen in de kaart worden getoond als één enkel samengesteld document. De onderwerpen die de controleur mag beoordelen, worden normaal weergegeven. De onderwerpen die de revisie niet mag reviseren, worden niet weergegeven.
 
    ![](images/review-read-only.png){align="left"}
@@ -91,6 +92,12 @@ Het commentaarvakje steunt multi-line ingangen en staat gebruikers toe om het ui
 **de mening van het Document en onderwerpmening** - door gebrek, als de veelvoudige onderwerpen voor overzicht worden gedeeld, dan wordt een samengestelde documentmening van onderwerpen getoond aan de recensenten. In het geval van een DITA kaartoverzicht, worden alle onderwerpen in de kaart voorgesteld in de vorm van één enkel document, gelijkend op een boekmening. Als u wilt, kunt u een bepaald onderwerp ook selecteren en slechts wordt dat onderwerp dan getoond op het overzichtsscherm.
 
 Wanneer u één onderwerp bekijkt, krijgt u een extra optie om terug naar de documentmening te schakelen. In het volgende schermafbeelding wordt een bepaald onderwerp van een kaartbestand geopend voor revisie. De benadrukte optie — **toont de Mening van het Document** staat gebruiker toe terug naar de documentmening van het kaartdossier te schakelen.
+
+>[!NOTE]
+>
+> Een schermresolutie met een breedte van meer dan 1600 px is compatibel met de standaardbreedte van het deelvenster (links en rechts). Hierdoor wordt geen horizontale schuifbalk weergegeven en blijft de inhoud op de juiste wijze uitgelijnd in de documentweergave. U kunt ook het scherm altijd vergroten of verkleinen om de juiste documentweergave te behouden in de revisieinterface.
+
+
 
 ![](images/switch-document-view.png){align="left"}
 
@@ -147,11 +154,11 @@ De taken die u kunt uitvoeren via het venster Opmerkingen worden hieronder besch
 
 - Als u een onderwerp opent in de modus Voorvertoning, ziet u hoe een onderwerp wordt weergegeven wanneer een onderwerp wordt bekeken door een auteur nadat alle wijzigingen zijn toegepast. Alle ingevoegde tekst wordt bijvoorbeeld als normale tekst weergegeven en alle verwijderde \(verwijderde\) tekst wordt uit de inhoud verwijderd.
 
-- De volgende het schermschot toont de inhoud op *1&rbrace; wijze van het Overzicht &lbrace;:*
+- De volgende het schermschot toont de inhoud op *1} wijze van het Overzicht {:*
 
 ![](images/review-author-mode.png){width="550" align="left"}
 
-De volgende het schermschot toont de inhoud op *1&rbrace; wijze van de Voorproef &lbrace;:*
+De volgende het schermschot toont de inhoud op *1} wijze van de Voorproef {:*
 
 ![](images/review-preview-mode.png){width="550" align="left"}
 
@@ -250,4 +257,4 @@ Selecteer één of meerdere van de volgende het filtreren opties van het **Type 
 
 Om de filter te verwijderen en alle commentaren te bekijken, schrap alle filters van het **Type van Filter** dialoog en selecteer **toepassen**.
 
-**Bovenliggend onderwerp:**&#x200B;[ Inleiding aan overzicht ](review.md)
+**Bovenliggend onderwerp:**[ Inleiding aan overzicht ](review.md)

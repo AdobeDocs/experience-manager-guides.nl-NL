@@ -1,17 +1,17 @@
 ---
-title: Andere functies in de kaarteditors
-description: Ontdek enkele veelvoorkomende functies in de Kaarteditor. Leer hoe u belangrijke verwijzingen in de Kaart-editor kunt oplossen.
+title: Andere functies in de Kaarteditor
+description: Ontdek enkele veelvoorkomende functies in de Kaarteditor. Leer hoe u belangrijke verwijzingen kunt oplossen in de Kaarteditor.
 exl-id: f0e7a402-ac12-4c63-9d7f-92567ee29a39
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 594e348fc1188e66cf2f4648702ed2b17f1f8f33
+source-git-commit: 41c6e4edb470038c4934c01f1c28539f1e4d4f86
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '662'
 ht-degree: 0%
 
 ---
 
-# Extra functies in de kaarteditor {#id1942D0T0HUI}
+# Extra functies in de Kaarteditor {#id1942D0T0HUI}
 
 Enkele veelvoorkomende functies in de Kaarteditor zijn:
 
@@ -41,4 +41,35 @@ Deze hoofdmap is van toepassing op alle elementen \(mappen en submappen\) die bi
 
 **het Onderwerp geeft mening** uit - selecteer het Zeer belangrijke pictogram van de Resolutie terwijl het uitgeven van een onderwerp DITA en selecteer het DITA- dossier voor het oplossen van de belangrijkste verwijzingen te gebruiken.
 
-**Bovenliggend onderwerp:**&#x200B;[ Inleiding aan de Redacteur van de Kaart ](map-editor.md)
+## Navigatieverwijzingen toevoegen
+
+Het element `navref` wordt gebruikt binnen een kaart DITA om navigatieverwijzingen van een andere kaart te omvatten DITA. Op deze manier kunnen auteurs de navigatiestructuur, zoals gedeelde menu&#39;s of koppelingen, opnieuw gebruiken zonder de feitelijke inhoud van de structuurafbeelding waarnaar wordt verwezen, samen te voegen in de uitvoer.
+
+>[!NOTE]
+>
+> Het element `navref` is uitsluitend bedoeld voor navigatiedoeleinden binnen de structuur van de kaart. Het draagt niet bij aan de gegenereerde DITA-kaartuitvoer en is uitgesloten van verwerking en weergave in de Kaartweergave, Rapporten, Basislijn, Vertaling en Voorvertoning.
+
+Voer de volgende stappen uit om navigatiereferenties toe te voegen aan een kaart:
+
+1. Open het DITA-kaartbestand waar u een navigatieverwijzing wilt toevoegen.
+
+   Het kaartbestand wordt geopend in de Kaarteditor.
+1. Schakel over naar de weergave Auteur en plaats de cursor op een geldige locatie voor een navigatieverwijzing.
+1. Selecteer de **optie van het Element** van de toolbar.
+1. In het **element van het Tussenvoegsel** dialoog, uitgezochte **navref**.
+
+   ![](./images/select-navref-element.png)
+1. De **Uitgezochte weg** dialoog wordt getoond. Selecteer een kaartdossier u als navigatieverwijzing in uw kaart wilt omvatten, en **Uitgezocht** kiezen.
+
+Er wordt een navigatieverwijzing van het geselecteerde kaartbestand toegevoegd op de opgegeven locatie. De titel van de structuurafbeelding waarnaar wordt verwezen, wordt zowel in de weergave Auteur als in de layoutweergave weergegeven.
+
+![](./images/navref-added-author-view.png)
+
+*de mening van de Auteur*
+
+![](./images/navref-added-layout-view.png)
+
+*mening van de Lay-out*
+
+
+**Bovenliggend onderwerp:**[ Inleiding aan de Redacteur van de Kaart ](map-editor.md)
