@@ -1,7 +1,8 @@
 ---
 title: Opmerkingen bij de release | Opgeloste problemen in Adobe Experience Manager Guides, release 2025.06.0
 description: Meer informatie over de opgeloste problemen vindt u in de release 2025.06.0 van Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 78d8896982ff73e954de6d6daa9832faf30ed3b3
+exl-id: 0f362ab3-0fae-4eba-bbd6-0b64ae1f2599
+source-git-commit: 83be0a1e051bfc524ff2448397d87349f30b4301
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 0%
@@ -18,7 +19,6 @@ Leer over [ verbeteringsinstructies voor de versie 2025.06.0 ](upgrade-instructi
 
 ## Authoring
 
-- Wanneer het openen van een kaart DITA met verenigde toegelaten shell, verandert de redacteur af en toe. (GUIDEN-26919)
 - Als u geen JCR-sessieverbindingen sluit tijdens het bijwerken of maken van onderwerpen, resulteert dit in geheugenlekken en downtime van de service. (GUIDEN-26282)
 - Als u de kolommen sleept, verandert de breedte van een percentage in pixelwaarden. Dit leidt tot vervormde of onjuist uitgelijnde tabellen.(HIDEN-23128)
 - Wanneer inhoud in een `code block` wordt geplakt of wanneer ruimten in `code block` worden toegevoegd en de weergave wordt geschakeld, gaat de afstand verloren. (GUIDEN-27478)
@@ -47,6 +47,8 @@ Leer over [ verbeteringsinstructies voor de versie 2025.06.0 ](upgrade-instructi
 Adobe heeft het volgende bekende probleem voor de release 2025.06.0 geïdentificeerd:
 
 - Als u de optie Zoeken en vervangen gebruikt en de bewerking Eén exemplaar vervangen hebt toegepast op een bestand, kunnen geen verdere acties meer worden uitgevoerd in het deelvenster Zoeken en vervangen. (HIDEN-28930)
+
+- Wanneer het openen van een kaart DITA met verenigde toegelaten shell, verandert de redacteur af en toe. (GUIDEN-26919)
 
 - Wanneer in een mappenprofiel een al geïndexeerd element uit de gebruikersinterface wordt verwijderd, wordt het bijbehorende geïndexeerde pad niet verwijderd en mislukt een poging om het element opnieuw te indexeren met een foutbericht. (HULPLIJNEN-29147) <br>**Oplossing:** u moet de verouderde weg verwijderen die niet meer bestaat alvorens het re-indexeren in werking te stellen.
 

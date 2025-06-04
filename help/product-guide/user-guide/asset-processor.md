@@ -4,7 +4,8 @@ description: Leer hoe u elementen kunt verwerken
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: b0e744baeb6867bfc9e7d212ec53e581812d8f63
+exl-id: 27786098-119c-4b7a-8275-8a89d435294f
+source-git-commit: 851dafc1f17864bf6a295de7be12ffe513c3af57
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 0%
@@ -25,9 +26,9 @@ Voer de onderstaande stappen uit om de elementen te verwerken of opnieuw te verw
 
 1. Selecteer het embleem van Adobe Experience Manager bij de bovenkant en kies **Hulpmiddelen**.
 1. In het **paneel van Hulpmiddelen** uitgezocht **Gidsen**.
-1. Selecteer de **Tegel van de Bewerker van 0&rbrace; Activa.**
+1. Selecteer de **Tegel van de Bewerker van 0} Activa.**
 
-   ![ stroom-activa-bewerker ](images/flow-asset-processor.png){width="550" align="left"}
+   ![ stroom-activa-bewerker ](images/flow-asset-processor.png){align="left"}
 
 1. Het venster van de Bewerker van de Activa van Hulplijnen opent met de hieronder getoonde details. Bovendien worden alleen de gegevens over de laatste vijf migraties weergegeven in dit venster.
 
@@ -43,7 +44,7 @@ Voer de onderstaande stappen uit om de elementen te verwerken of opnieuw te verw
 
    - **Status**: Punten aan het statuut van opwerking zoals Bezig, Voltooid of Geannuleerd.
 
-   ![ gidsen-activa-bewerker ](images/guides-asset-processor.png){width="550" align="left"}
+   ![ gidsen-activa-bewerker ](images/guides-asset-processor.png){align="left"}
 
 1. Selecteer **Nieuw Proces** lusje op de hoogste juiste hoek van het venster om een nieuwe verwerkingstaak te beginnen.
 
@@ -66,20 +67,16 @@ Er zijn extra opties beschikbaar voor de verwerkingstaak nadat deze is gestart. 
 
 - **Begin** opnieuw: Herstart de eerder succesvolle taak van de activaverwerking.
 
-  ![ opnieuw beginnen-activa-bewerker ](images/restart-asset-processor.png){width="550" align="left"}
+  ![ opnieuw beginnen-activa-bewerker ](images/restart-asset-processor.png){align="left"}
 
 - **hervatten**: Hervat de eerder geannuleerde of ontbroken taak van de activaverwerking.
 
-  ![ hervat-activa-bewerker ](images/resume-asset-processor.png){width="550" align="left"}
+  ![ hervat-activa-bewerker ](images/resume-asset-processor.png){align="left"}
 
 - **annuleert**: Annuleert de momenteel lopende taak van de activaverwerking.
 
-  ![ annuleren-activa-bewerker ](images/cancel-asset-processor.png){width="550" align="left"}
+  ![ annuleren-activa-bewerker ](images/cancel-asset-processor.png){align="left"}
 
 - **Logboeken van de Mening**: Toont de logboeken voor de taak van de activaverwerking. Voor lopende taken, toont het logboek gedetailleerde verwerkingsinformatie, met inbegrip van geschatte resterende tijd en activastatus. In deze logbestandlijst worden maximaal de laatste 500 berichten weergegeven. Het volledige logboek kan worden gedownload.
 
-  ![ logboeken-activa-bewerker ](images/logs-asset-processor.png){width="550" align="left"}
-
-
-
-
+  ![ logboeken-activa-bewerker ](images/logs-asset-processor.png){align="left"}

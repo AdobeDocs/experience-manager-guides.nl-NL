@@ -5,9 +5,9 @@ exl-id: 3be387b9-6ac2-4b61-afdf-fbe9d8b6cc1e
 feature: Workflow Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 3f61aa6615a1b9765154d55249a33136443dfa33
 workflow-type: tm+mt
-source-wordcount: '1744'
+source-wordcount: '1856'
 ht-degree: 0%
 
 ---
@@ -18,20 +18,20 @@ Met workflows kunt u Adobe Experience Manager \(AEM\)-activiteiten automatiseren
 
 Zie voor meer informatie over workflows in AEM:
 
-- [ het beheren van Werkschema&#39;s ](https://helpx.adobe.com/nl/experience-manager/6-5/sites/administering/using/workflows.html)
+- [ het beheren van Werkschema&#39;s ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html)
 
-- Het toepassen van en het deelnemen aan werkschema&#39;s: [ Werkend met Werkschema&#39;s ](https://helpx.adobe.com/nl/experience-manager/6-5/sites/authoring/using/workflows.html).
+- Het toepassen van en het deelnemen aan werkschema&#39;s: [ Werkend met Werkschema&#39;s ](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/workflows.html).
 
-- Creërend werkschemamodellen en het uitbreiden van werkschemamogelijkheden: [ het Ontwikkelen en het Uitbreiden van Werkschema&#39;s ](https://helpx.adobe.com/nl/experience-manager/6-5/sites/developing/using/workflows.html).
+- Creërend werkschemamodellen en het uitbreiden van werkschemamogelijkheden: [ het Ontwikkelen en het Uitbreiden van Werkschema&#39;s ](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/workflows.html).
 
-- Het verbeteren van de prestaties van werkschema&#39;s die significante servermiddelen gebruiken: [ Gelijktijdige Verwerking van het Werkschema ](https://helpx.adobe.com/nl/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance).
+- Het verbeteren van de prestaties van werkschema&#39;s die significante servermiddelen gebruiken: [ Gelijktijdige Verwerking van het Werkschema ](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance).
 
 
 De secties in dit onderwerp zullen u door diverse aanpassingen lopen die u in de standaardwerkschema&#39;s kunt maken die in AEM Guides worden verscheept.
 
 ## De revisiewerkstroom aanpassen {#id176NE0C00HS}
 
-Het team van het inhoudauteurs van elke organisatie werkt op een specifieke manier om aan hun bedrijfsvereisten te voldoen. In sommige organisaties is er een toegewijde editor, terwijl een andere organisatie een geautomatiseerd systeem voor redactionele herziening had kunnen opzetten. In een organisatie kan bijvoorbeeld een typische ontwerp- en publicatieworkflow taken bevatten zoals taken die elke auteur uitvoert met ontwerpinhoud, die automatisch naar de revisoren worden doorgestuurd wanneer de revisie is voltooid en die naar de uitgever worden doorgestuurd om de definitieve uitvoer te genereren. In AEM, kunnen de activiteiten die u op uw inhoud en activa doet in de vorm van een proces worden gecombineerd en aan een AEM werkschema in kaart gebracht. Voor meer informatie over werkschema&#39;s in AEM, zie [ het Beheer Werkstromen ](https://helpx.adobe.com/nl/experience-manager/6-5/sites/administering/using/workflows.html) in AEM documentatie.
+Het team van het inhoudauteurs van elke organisatie werkt op een specifieke manier om aan hun bedrijfsvereisten te voldoen. In sommige organisaties is er een toegewijde editor, terwijl een andere organisatie een geautomatiseerd systeem voor redactionele herziening had kunnen opzetten. In een organisatie kan bijvoorbeeld een typische ontwerp- en publicatieworkflow taken bevatten zoals taken die elke auteur uitvoert met ontwerpinhoud, die automatisch naar de revisoren worden doorgestuurd wanneer de revisie is voltooid en die naar de uitgever worden doorgestuurd om de definitieve uitvoer te genereren. In AEM kunnen activiteiten die u uitvoert op uw inhoud en middelen worden gecombineerd in de vorm van een proces en worden toegewezen aan een AEM-workflow. Voor meer informatie over werkschema&#39;s in AEM, zie [ het Beheer Werkstromen ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html) in de documentatie van AEM.
 
 Met AEM Guides kunt u de standaardrevisiewerkstroom aanpassen. U kunt de volgende vier aangepaste revisiegerelateerde processen gebruiken in combinatie met andere workflows voor ontwerpen of publiceren.
 
@@ -44,7 +44,9 @@ Met AEM Guides kunt u de standaardrevisiewerkstroom aanpassen. U kunt de volgend
 - **Baan van het Programma om Overzicht** te sluiten: Dit proces zorgt ervoor dat het revisieproces op het bereiken van de deadline voltooit.
 
 
-Wanneer u een aangepaste revisiewerkstroom maakt, moet u eerst de vereiste metagegevens instellen die nodig zijn voor het revisieproces maken. Hiertoe kunt u een ECMA-script maken. Hieronder ziet u een voorbeeld van het ECMA-script dat de metagegevens toewijst:
+Wanneer u een aangepaste revisiewerkstroom maakt, moet u eerst de vereiste metagegevens instellen die nodig zijn voor het revisieproces maken. Hiertoe kunt u een ECMA-script maken. Een voorbeeld van het ECMA-script dat de metagegevens toewijst, wordt hieronder gegeven voor zowel het onderwerp als de kaart.
+
+**voor Onderwerp**
 
 ```json
 var workflowdata=workItem.getWorkflowData();
@@ -59,6 +61,35 @@ workflowdata.getMetaDataMap().put("assignee","user-one", "user-two");
 workflowdata.getMetaDataMap().put("status","1");
 workflowdata.getMetaDataMap().put("projectPath","/content/projects/review");
 workflowdata.getMetaDataMap().put("startTime", System.currentTimeMillis());
+workflowdata.getMetaDataMap().put("reviewType", "AEM");
+workflowdata.getMetaDataMap().put("versionJson", "[{\"path\":\"GUID-ca6ae229-889a-4d98-a1c6-60b08a820bb3.dita\",\"review\":true,\"version\":\"1.0\",\"reviewers\":[\"projects-samplereviewproject-owner\"]}]");
+workflowdata.getMetaDataMap().put("isDitamap","false");
+```
+
+**voor Kaart**
+
+```json
+var workflowdata = workItem.getWorkflowData();
+workflowdata.getMetaDataMap().put("initiator", "admin");
+workflowdata.getMetaDataMap().put("operation", "AEM_REVIEW");
+workflowdata.getMetaDataMap().put("orgTopics", "GUID-ae42f13c-7201-4453-9a3a-c87675a5868e.dita|GUID-28a6517b-1b62-4d3a-b7dc-0e823225b6a5.dita|GUID-dd699e10-118d-4f1b-bf19-7f1973092227.dita|");
+var payloadJson = "{\"referrer\":\"\",\"rootMap\":\"GUID-17feb385-acf3-4113-b838-77b11fd6988d.ditamap\",\"asset\":[\"GUID-17feb385-acf3-4113-b838-77b11fd6988d.ditamap\"],\"base\":\"/content/dam\"}";
+workflowdata.getMetaDataMap().put("payloadJson", payloadJson);
+workflowdata.getMetaDataMap().put("deadline", "2047-06-27T13:19:00.000+05:30");
+workflowdata.getMetaDataMap().put("title", "Review task via workflow with map");
+workflowdata.getMetaDataMap().put("description", "Review task via workflow with map Description");
+workflowdata.getMetaDataMap().put("assignee", "user-one");
+workflowdata.getMetaDataMap().put("status", "1");
+workflowdata.getMetaDataMap().put("projectPath", "/content/projects/review_project_via_workflow");
+workflowdata.getMetaDataMap().put("startTime", new Date().getTime());
+var versionJson = "[{\"path\":\"GUID-ae42f13c-7201-4453-9a3a-c87675a5868e.dita\",\"version\":\"1.0\",\"review\":true,\"reviewers\":[\"starling-regression-user\"]},{\"path\":\"GUID-28a6517b-1b62-4d3a-b7dc-0e823225b6a5.dita\",\"version\":\"1.0\",\"review\":true,\"reviewers\":[\"starling-regression-user\"]},{\"path\":\"GUID-dd699e10-118d-4f1b-bf19-7f1973092227.dita\",\"version\":\"1.0\",\"review\":true,\"reviewers\":[\"starling-regression-user\"]}]";
+workflowdata.getMetaDataMap().put("versionJson", versionJson);
+workflowdata.getMetaDataMap().put("notifyViaEmail", "true");
+workflowdata.getMetaDataMap().put("allowAllReviewers", "false");
+workflowdata.getMetaDataMap().put("isDitamap", "true");
+workflowdata.getMetaDataMap().put("ditamap", "GUID-17feb385-acf3-4113-b838-77b11fd6988d.ditamap");
+var ditamapHierarchy = "[{\"path\":\"GUID-17feb385-acf3-4113-b838-77b11fd6988d.ditamap\",\"items\":[{\"path\":\"GUID-db5787bb-5467-4dc3-b3e5-cfde562ee745.ditamap\",\"items\":[{\"path\":\"GUID-ae42f13c-7201-4453-9a3a-c87675a5868e.dita\",\"items\":[],\"title\":\"\"},{\"path\":\"GUID-28a6517b-1b62-4d3a-b7dc-0e823225b6a5.dita\",\"items\":[],\"title\":\"\"}],\"title\":\"\"},{\"path\":\"GUID-dd699e10-118d-4f1b-bf19-7f1973092227.dita\",\"items\":[],\"title\":\"\"}]}]";
+workflowdata.getMetaDataMap().put("ditamapHierarchy", ditamapHierarchy);
 ```
 
 U kunt dit script maken in het knooppunt `/etc/workflows/scripts` . In de volgende tabel worden de eigenschappen beschreven die door dit ECMA-script worden toegewezen:
@@ -75,31 +106,40 @@ U kunt dit script maken in het knooppunt `/etc/workflows/scripts` . In de volgen
 | `assignee` | String | Gebruikersnaam van de gebruikers naar wie u het onderwerp ter controle wilt verzenden. |
 | `status` | Geheel | Een statische waarde ingesteld als 1. |
 | `startTime` | Lang | Gebruik de functie `System.currentTimeMillis()` om de huidige systeemtijd op te halen. |
+| `projectPath` | String | Pad van het revisieproject waaraan de toetsingstaak zal worden toegewezen, bijvoorbeeld: /content/projects/samplereviewproject. |
+| `reviewType` | String | Statische waarde &quot;AEM&quot;. |
+| `versionJson` | JSON-object | versionJson is een lijst van onderwerpen die in de revisie gaan waar elk onderwerpobject de volgende structuur { &quot;weg&quot;heeft: &quot;/content/dam/1-topic.dita&quot;, &quot;versie&quot;: &quot;1.1&quot;, &quot;overzicht&quot;: waar, &quot;recensenten&quot;: [ &quot;projects-we_retail-editor&quot;] } |
+| `isDitamap` | Boolean | false/true |
+| `ditamapHierarchy` | JSON-object | Als de kaart wordt verzonden voor overzicht dan zou de waarde hier als moeten zijn:[ { &quot;weg&quot;: &quot;GUID-f0df1513-fe07-473f-9960-477d4df29c87.ditamap&quot;, &quot;punten&quot; GUID [ &quot;weg&quot;: &quot;-97 47e8ab-8cf1-45dd-9e20-d47d482f667d.dita&quot;, &quot;title&quot;: &quot;&quot;, &quot;items&quot;: [] } ] } ]. |
+| `ditamap` | String | Het pad opgeven van de tijdelijke aanduiding van de revisietaak |
+| `allowAllReviewers` | Boolean | false/true |
+| `notifyViaEmail` | Boolean | false/true |
+
 
 Nadat u het script hebt gemaakt, roept u het aan voordat u het revisieproces maken in uw workflow oproept. Afhankelijk van uw vereisten kunt u vervolgens de andere revisiewerkstroomprocessen aanroepen.
 
 ### De revisiewerkstroom verwijderen uit de zuiveringsconfiguratie
 
-Om de prestaties van de workflow-engine te verbeteren, kunt u regelmatig voltooide workflowexemplaren uit de AEM opslagplaats verwijderen. Als u de standaard AEM configuraties gebruikt, worden alle voltooide workflowinstanties na een bepaalde periode opgeschoond. Dit leidt er ook toe dat alle workflows van de revisie uit de AEM opslagplaats worden verwijderd.
+Om de prestaties van de workflow-engine te verbeteren, kunt u regelmatig voltooide workflowexemplaren uit de AEM-opslagplaats wissen. Als u de standaard AEM-configuraties gebruikt, worden alle voltooide workflowinstanties na een bepaalde periode opgeschoond. Dit leidt er ook toe dat alle workflows voor revisie worden gewist uit de AEM-opslagplaats.
 
-U kunt voorkomen dat revisiewerkstromen automatisch worden gewist door het model \(informatie\) van de revisiewerkstroom te verwijderen uit de configuratie voor automatisch leegmaken. U moet de **Configuratie van de Wrijving van het Werkschema van de Adobe gebruiken granite** om de modellen van het overzichtswerkschema uit auto-zuiverende lijst te verwijderen.
+U kunt voorkomen dat revisiewerkstromen automatisch worden gewist door het model \(informatie\) van de revisiewerkstroom te verwijderen uit de configuratie voor automatisch leegmaken. U moet de **Configuratie van de Wrijving van het Werkschema van Adobe Granite** gebruiken om de modellen van het overzichtswerkschema uit auto-zuiverende lijst te verwijderen.
 
-In de **Configuratie van de Wrijving van het Werkschema van de Adobe Granite**, zorg ervoor dat u minstens één werkschema een lijst maakt dat u veilig kunt zuiveren. U kunt bijvoorbeeld de volgende workflows gebruiken die door AEM Guides zijn gemaakt:
+In de **Configuratie van de Woorden van het Werkschema van Adobe Granite**, zorg ervoor dat u minstens één werkschema een lijst maakt dat u veilig kunt zuiveren. U kunt bijvoorbeeld de volgende workflows gebruiken die door AEM Guides zijn gemaakt:
 
 - /etc/workflow/models/publishditamap/jcr:content/model
 - /etc/workflow/models/post-dita-project-creation-tasks/jcr:content/model
 
-Toevoegend een werkschema in de **Configuratie van de Wrijving van het Werkschema van de Adobe Granite** zorgt ervoor dat AEM slechts die werkschema&#39;s zuivert die in de configuratie vermeld zijn. Zo voorkomt u dat AEM de informatie over de revisiewerkstroom leegmaakt.
+Toevoegend een werkschema in de **Configuratie van de Woorden van het Werkschema van Adobe Granite** zorgt ervoor dat AEM slechts die werkschema&#39;s zuivert die in de configuratie vermeld zijn. Zo voorkomt u dat AEM de informatie over de revisiewerkstroom opschoont.
 
-Voor meer details over het vormen van de **Configuratie van de Wrijving van het Werkschema van de Adobe granite**, zie *het Beheer van de Instanties van het Werkschema* in AEM documentatie.
+Voor meer details over het vormen van de **Configuratie van de Woorden van het Werkschema van Adobe Granite**, zie *het Beheer van de Instanties van het Werkschema* in de documentatie van AEM.
 
 ### E-mailsjablonen aanpassen
 
-Een aantal AEM Guides-workflows maakt gebruik van e-mailmeldingen. Als u bijvoorbeeld een revisietaak start, wordt een e-mailmelding verzonden naar de revisoren. Als u er echter voor wilt zorgen dat het e-mailbericht wordt verzonden, moet u deze functie in AEM inschakelen. Om e-mailbericht in AEM toe te laten, zie het artikel [ Vormend E-mailbericht ](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=nl-NL) in AEM documentatie.
+Een aantal AEM Guides-workflows maakt gebruik van e-mailmeldingen. Als u bijvoorbeeld een revisietaak start, wordt een e-mailmelding verzonden naar de revisoren. Om ervoor te zorgen dat het e-mailbericht wordt verzonden, moet u deze functionaliteit echter in AEM inschakelen. Om e-mailbericht in AEM toe te laten, zie het artikel [ Vormend E-mailbericht ](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en) in de documentatie van AEM.
 
 AEM Guides bevat een set e-mailsjablonen die u kunt aanpassen. Voer de volgende stappen uit om deze sjablonen aan te passen:
 
-1. Meld u aan bij AEM en open de modus CRXDE Lite.
+1. Meld u aan bij AEM en open de CRXDE Lite-modus.
 
 1. Ga op het tabblad Navigator naar de volgende locatie:
 
@@ -120,7 +160,7 @@ AEM Guides bevat een set e-mailsjablonen die u kunt aanpassen. Voer de volgende 
 
 ## Workflow voor het genereren na uitvoer aanpassen {#id17A6GI004Y4}
 
-AEM Guides biedt u de flexibiliteit om een workflow voor het genereren van producten na de uitvoer op te geven. U kunt sommige naverwerkingstaken uitvoeren op de uitvoer die met AEM Guides wordt gegenereerd. U kunt bijvoorbeeld bepaalde CQ-tags toepassen op de gegenereerde AEM Site-uitvoer of bepaalde eigenschappen instellen voor de PDF-uitvoer, of u kunt een e-mailbericht naar een set gebruikers sturen zodra de uitvoer is gegenereerd.
+AEM Guides biedt u de flexibiliteit om een workflow voor het genereren van producten na de uitvoer op te geven. U kunt sommige naverwerkingstaken uitvoeren op de uitvoer die met AEM Guides wordt gegenereerd. U kunt bijvoorbeeld bepaalde CQ-tags toepassen op de gegenereerde AEM Site-uitvoer of bepaalde eigenschappen instellen voor de PDF-uitvoer, of u kunt een e-mail naar een set gebruikers sturen zodra de uitvoer is gegenereerd.
 
 U kunt een nieuw workflowmodel maken dat u kunt gebruiken als workflow voor het genereren van producten na de uitvoer. Wanneer een productiewerkstroom na de uitvoer wordt geactiveerd, deelt de werkstroom voor het genereren van de uitvoer contextafhankelijke informatie via de metagegevenskaart van de werkstroom, die u kunt gebruiken om de verwerking op de gegenereerde uitvoer uit te voeren. In de volgende tabel worden de contextuele gegevens beschreven die als metagegevens worden gedeeld:
 
@@ -163,11 +203,11 @@ generatedPath;
 */
 ```
 
-Nadat u het script hebt gemaakt, roept u het aangepaste script in uw workflow aan. Afhankelijk van uw vereisten kunt u vervolgens de andere workflowprocessen aanroepen. Zodra u uw douanewerkschema hebt ontworpen, roep *Finalize de Generatie van Post* als laatste stap in uw werkschemaproces. *voltooit de Generatie van Post* stap ervoor dat het statuut van de taak van de outputgeneratie aan *wordt bijgewerkt* op voltooiing van het proces van de outputgeneratie. Nadat u een aangepaste workflow voor het genereren van na de uitvoer hebt gemaakt, kunt u deze configureren met al uw voorinstellingen voor het genereren van uitvoer. Selecteer het vereiste werkschema in het *bezit van het Werkschema van de Generatie van Post van de Looppas* van vereiste vooraf ingesteld. Wanneer u een taak van de outputgeneratie gebruikend de gevormde output vooraf instelt in werking stelt, verandert de taakstatus \ (in het lusje \ van de Output) in *Post-Verwerking*.
+Nadat u het script hebt gemaakt, roept u het aangepaste script in uw workflow aan. Afhankelijk van uw vereisten kunt u vervolgens de andere workflowprocessen aanroepen. Zodra u uw douanewerkschema hebt ontworpen, roep *Finalize Post Generation* als laatste stap in uw werkschemaproces. De *voltooit PostGeneratie* stap zorgt ervoor dat het statuut van de taak van de outputgeneratie aan *wordt bijgewerkt die* op voltooiing van het proces van de outputgeneratie wordt voltooid. Nadat u een aangepaste workflow voor het genereren van na de uitvoer hebt gemaakt, kunt u deze configureren met al uw voorinstellingen voor het genereren van uitvoer. Selecteer het vereiste werkschema in het *bezit van het Werkschema van de Post van de Generatie van de Looppas* van vereiste vooraf ingesteld. Wanneer u een taak van de outputgeneratie gebruikend de gevormde output vooraf instelt in werking stelt, verandert de taakstatus \ (in het lusje \ van de Output) in *post-Verwerking*.
 
 ## Workflow voor bijwerken van middelen aanpassen {#id18C3D0I0B5Z}
 
-Door gebrek, teweegbrengt het *DAM de werkschema van de Activa van de Update* teweeg wanneer u creeert of om het even welk AEM Middel \ (XML of niet-XML \) bijwerkt. Bijvoorbeeld, wanneer u een onderwerp creeert of het bijwerkt, wordt het *DAM werkschema van de Activa van de Update* uitgevoerd. Het *DAM werkschema van de Activa van de Update* probeert om relevante meta-gegevens uit Assets te halen. Het uit-van-doos *Werkschema van de Update van Activa* heeft geen stappen om het even welke relevante meta-gegevens uit een DITA- dossier te halen en het *DAM werkschema van de Activa van de Update* produceert veel logboeken op het tijdstip van uitvoering. Als u extra logboeken wilt vermijden, kunt u het werkschema vormen om alle dossiers van XML van verwerking over te slaan.
+Door gebrek, teweegbrengt het *DAM de werkschema van de Activa van de Update* teweeg wanneer u creeert of om het even welke Activa \ van AEM (XML of niet-XML \) bijwerkt. Bijvoorbeeld, wanneer u een onderwerp creeert of het bijwerkt, wordt het *DAM werkschema van de Activa van de Update* uitgevoerd. Het *DAM werkschema van de Activa van de Update* probeert om relevante meta-gegevens uit Assets te halen. Het uit-van-doos *Werkschema van de Update van Activa* heeft geen stappen om het even welke relevante meta-gegevens uit een DITA- dossier te halen en het *DAM werkschema van de Activa van de Update* produceert veel logboeken op het tijdstip van uitvoering. Als u extra logboeken wilt vermijden, kunt u het werkschema vormen om alle dossiers van XML van verwerking over te slaan.
 
 Voer de volgende stappen uit om het *DAM werkschema van de Activa van de Update* aan te passen:
 
@@ -207,4 +247,4 @@ De volgende eigenschappen bepalen hoe AEM Guides de naverwerkingsworkflows uitvo
 | Eigenschap | Bundnaam | Beschrijving |
 |--------|-----------|-----------|
 | Dynamische voorkeuren | `com.adobe.fmdita.postprocess.PostProcessObservation` | Voor alle dossiers waarop de naverwerking niet is uitgevoerd, wint het de uitgaande verwijzingen terug door de onderwerpdossiers te ontleden. Aanbevolen wordt deze optie niet in te schakelen omdat het systeem overbelast kan worden als het aantal te verwerken bestanden groot is. |
-| Post Process Threads | `com.adobe.fmdita.config.ConfigManager` | Hiermee stelt u het aantal naverwerkingsthreads in dat moet worden gebruikt voor de naverwerkingsworkflow. <br> de standaardwaarde is 1. |
+| Threads na verwerking | `com.adobe.fmdita.config.ConfigManager` | Hiermee stelt u het aantal naverwerkingsthreads in dat moet worden gebruikt voor de naverwerkingsworkflow. <br> de standaardwaarde is 1. |
