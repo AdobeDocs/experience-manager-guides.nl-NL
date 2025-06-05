@@ -2,9 +2,9 @@
 title: Opmerkingen bij de release | Opgeloste problemen in Adobe Experience Manager Guides, release 2025.06.0
 description: Meer informatie over de opgeloste problemen vindt u in de release 2025.06.0 van Adobe Experience Manager Guides as a Cloud Service.
 exl-id: 0f362ab3-0fae-4eba-bbd6-0b64ae1f2599
-source-git-commit: 83be0a1e051bfc524ff2448397d87349f30b4301
+source-git-commit: c137f18d3cb85ed47547d5523c4dea08c22f9560
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
@@ -50,6 +50,6 @@ Adobe heeft het volgende bekende probleem voor de release 2025.06.0 geïdentific
 
 - Wanneer het openen van een kaart DITA met verenigde toegelaten shell, verandert de redacteur af en toe. (GUIDEN-26919)
 
-- Wanneer in een mappenprofiel een al geïndexeerd element uit de gebruikersinterface wordt verwijderd, wordt het bijbehorende geïndexeerde pad niet verwijderd en mislukt een poging om het element opnieuw te indexeren met een foutbericht. (HULPLIJNEN-29147) <br>**Oplossing:** u moet de verouderde weg verwijderen die niet meer bestaat alvorens het re-indexeren in werking te stellen.
+- Als een al geïndexeerd element in de gebruikersinterface van een AI-configuratie onder een mapprofiel wordt verwijderd, wordt het bijbehorende geïndexeerde pad niet verwijderd en mislukt een poging om het element opnieuw te indexeren met een foutbericht. (HULPLIJNEN-29147) <br>**Oplossing:** u moet de verouderde weg verwijderen die niet meer bestaat alvorens het re-indexeren in werking te stellen.
 
-- Als een kaart cyclische afhankelijkheden bevat en u de Kaartweergave opent, zijn de weergaven Source, Auteur en Layout niet toegankelijk totdat de pagina is vernieuwd. (HULPLIJNEN-28334) <br>**Oplossing:** u moet de pagina verfrissen om toegang tot deze meningen te herstellen.
+- Als een kaart cyclische afhankelijkheden bevat en u de Kaartweergave opent, zijn de Source-, auteur- en layoutweergave ontoegankelijk totdat de browser wordt vernieuwd. (HULPLIJNEN-28334) <br>**Oplossing:** u moet browser verfrissen om toegang tot deze meningen te herstellen.
