@@ -2,9 +2,10 @@
 title: Opmerkingen bij de release | Nieuwe functies in de Adobe Experience Manager Guides 2025.06.0-release
 description: Meer informatie over de nieuwe en verbeterde functies in de 2025.06.0-release van Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 147bd8cce875178f94dae5742bc6573b51f24d3a
+exl-id: 48f27aa6-d870-4228-8e62-db81699a25f7
+source-git-commit: 158c2a99ac43fd70726bedf30f4de1a970a48864
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
@@ -47,3 +48,13 @@ Voor meer details, mening [ dossiers van de Download ](../user-guide/authoring-d
 De meest recente verbeteringen aan de Editor verbeteren de verwerking van `navref` -elementen in een DITA-kaart. Nu, wanneer u een `navref` element aan een kaart toevoegt, opent de **Uitgezochte weg** dialoog, toestaand u om de kaartverwijzingen gemakkelijk te kiezen om als navigatiekoppelingen in uw kaart te omvatten. Nadat de titel van de toegevoegde kaart is toegevoegd, wordt deze zowel in de ontwerpweergave als in de layoutweergave weergegeven, zodat de opgenomen navigatie tijdens het ontwerpen beter zichtbaar is.  Bovendien wordt het toegevoegde `navref` -element automatisch omgezet om de doorverwezen kaart in de Editor weer te geven.
 
 Voor meer details, voegt de mening [ navigatieverwijzingen ](../user-guide/map-editor-other-features.md#add-navigation-references) toe.
+
+## Prestatieverbeteringen in AI Assistant
+
+De release introduceert verbeteringen voor de AI Assistant-backendengine, die betere prestaties en grotere stabiliteit biedt. U kunt deze update inschakelen en doorgaan met de Help van AI Assistant:
+
+- Werk de `chat.url` configuratie bij om op het nieuwe eindpunt URL te wijzen.
+- Voeg een nieuwe omgevingsvariabele `GUIDES_AI_SITE_ID` toe in Cloud Manager.
+
+Voor details, vormt de mening [ de Medewerker AI ](../cs-install-guide/conf-smart-suggestions.md).
+
