@@ -48,7 +48,7 @@ In deze sessie hebt u het volgende geleerd voor het publiceren van Native PDF:
 
 ## Gerelateerde bronnen
 
-- **Inheemse de opstellingsstappen van PDF** - [ Experience League ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.html?lang=en)
+- **Inheemse de opstellingsstappen van PDF** - [ Experience League ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.html?lang=nl-NL)
 
 - **Functioneel overzicht van het Native PDF publiceren** - [ op Experience League ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23.html?lang=nl-NL)
 

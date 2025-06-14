@@ -45,7 +45,7 @@ In deze sessie hebt u kennis genomen van het volgende:
 - [ Beherend meta-gegevens in activa DITA ](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/knowledge-base/kb-articles/authoring/reports/manage-metadata)
 - [ Extraheer meta DITA als meta-gegevens ](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/install-guide/cs-ig/aem-asset-search-cs/conf-dita-search#id192SF0G10YK)
 - [ meta-gegevens van het Gebruik in output DITA-OT ](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/conf-output-generation#id191LF0U0TY4)
-- [ meta-gegevens van het Gebruik in Inheemse PDF ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/web-editor/native-pdf-web-editor#native-pdf-publishing)
+- [ meta-gegevens van het Gebruik in Inheemse PDF ](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/user-guide/output-gen/web-editor/native-pdf-web-editor#native-pdf-publishing)
 
 
 ### Forum van de Gemeenschap

@@ -22,7 +22,7 @@ Hieronder vindt u een overzicht van de stappen die u in dit artikel zult leren:
 ## Achtergrond
 
 Met AEM Guides kunt u DITA-OT-plug-ins gebruiken om naar de gewenste uitvoerindelingen te publiceren met behulp van de geconfigureerde plug-ins, en
-u kunt meta-gegevens van de activa ook overgaan die in AEM DAM aan het DITA-OT proces worden beheerd om het in de geproduceerde output te gebruiken - zie de documentatie op [ hoe te opstelling ditamap/onderwerpen om meta-gegevens door output vooraf ingesteld ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/pass-metadata-dita-ot) over te gaan
+u kunt meta-gegevens van de activa ook overgaan die in AEM DAM aan het DITA-OT proces worden beheerd om het in de geproduceerde output te gebruiken - zie de documentatie op [ hoe te opstelling ditamap/onderwerpen om meta-gegevens door output vooraf ingesteld ](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/user-guide/output-gen/pass-metadata-dita-ot) over te gaan
 
 
 ## Veronderstellingen

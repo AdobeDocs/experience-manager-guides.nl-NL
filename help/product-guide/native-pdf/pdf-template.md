@@ -93,7 +93,7 @@ Selecteer deze optie om de sjabloon weer te geven in de gebruikersinterface van 
 
 Nadat u de aangepaste sjabloon hebt gemaakt, kunt u deze kiezen in de paginalay-outs in de voorinstelling voor PDF-uitvoer.
 
-Leer hoe te om [ een output van PDF ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=en) te publiceren.
+Leer hoe te om [ een output van PDF ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=nl-NL) te publiceren.
 
 >[!NOTE]
 >

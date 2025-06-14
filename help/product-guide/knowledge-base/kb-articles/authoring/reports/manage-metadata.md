@@ -57,8 +57,8 @@ U kunt ook bestaande tags verwijderen die veel voorkomen in geselecteerde bestan
 
 ## Overige nuttige bronnen
 
-- [ Bulk Tagging die het Dashboard van de Kaart gebruikt (Assets UI) ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/manaege-metadata/map-editor-bulk-tagging.html?lang=en)
-- [ Ditamap Rapporten in web-editor ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/reports-aem-guide/reports-web-editor.html?lang=en)
+- [ Bulk Tagging die het Dashboard van de Kaart gebruikt (Assets UI) ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/manaege-metadata/map-editor-bulk-tagging.html?lang=nl-NL)
+- [ Ditamap Rapporten in web-editor ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/reports-aem-guide/reports-web-editor.html?lang=nl-NL)
 - [ Tags toevoegen in AEM ](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/configuring/tagging.html?lang=nl-NL)
 
 

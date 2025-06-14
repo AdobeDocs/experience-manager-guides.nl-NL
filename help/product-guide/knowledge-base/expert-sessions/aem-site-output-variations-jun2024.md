@@ -40,9 +40,9 @@ In deze sessie leert u over het volgende:
 ## Gerelateerde bronnen
 
 
-- [ AEM Uitvoer van de Plaats het Publiceren ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/output-presets-aemg/generate-output-aem-site#:~:text=To%20open%20output%20presets%20for,configurations%2C%20and%20then%20click%20Save.)
+- [ AEM Uitvoer van de Plaats het Publiceren ](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/user-guide/output-gen/output-presets-aemg/generate-output-aem-site#:~:text=To%20open%20output%20presets%20for,configurations%2C%20and%20then%20click%20Save.)
 
-- [ KB Uitvoer het publiceren ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/output-presets-aemg/generate-output-knowledge-base)
+- [ KB Uitvoer het publiceren ](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/user-guide/output-gen/output-presets-aemg/generate-output-knowledge-base)
 
 - [ AEM Malplaatjes ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/implementing/developing/platform/templates/templates)
 
