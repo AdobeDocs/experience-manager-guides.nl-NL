@@ -4,9 +4,9 @@ description: Leer hoe incrementele uitvoergeneratie voor AEM Sites werkt in AEM 
 exl-id: 019d9fbf-2f23-4669-8022-d693be75c1c3
 feature: Publishing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 05d3246bd8b1e1b1d870b494aa09f6acff8a0f1d
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '662'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,7 @@ Als uw kaart wordt bebroed en u één enkel onderwerp in die kaart hebt bijgewer
 
 Voer de volgende stappen uit om output voor een specifiek onderwerp of een groep onderwerpen opnieuw te produceren:
 
->[!IMPORTANT]
->
-> Wanneer u de AEM Sites-uitvoer opnieuw genereert, wordt de uitvoer gemaakt met de huidige versie van de bestanden en niet met de gekoppelde basislijn.
-
-## Incrementele uitvoer genereren vanuit de kaartconsole
+## Incrementele uitvoer genereren vanuit de kaartconsole (voor AEM-sites die samengestelde componenttoewijzing gebruiken)
 
 Voer de volgende stappen uit om incrementele uitvoer voor AEM Sites te genereren met behulp van Kaartconsole:
 
@@ -36,17 +32,24 @@ Voer de volgende stappen uit om incrementele uitvoer voor AEM Sites te genereren
 1. Selecteer de AEM Sites-voorinstelling waarvoor u incrementele uitvoer wilt genereren.
 1. In het **lusje van Onderwerpen**, selecteer de onderwerpen die u wilt publiceren.
 
-   ![ het onderwerpenlijst van plaatsen ](images/aem-presets-topic-list.png) {align="left"}
+   - Zonder basislijn
+
+     ![ het onderwerpenlijst van plaatsen ](images/aem-presets-topic-list.png) {align="left"}
+
+   - Met basislijn
+
+     ![ lijst van het het onderwerp van de a- plaatsen met basislijn ](images/aem-presets-topic-list-new.png) {align="left"}
 
    >[!NOTE]
    >
    > Wanneer een Basislijn in het **Inhoud** lusje wordt geselecteerd, toont de lijst van het Onderwerp onderwerpen en hun versies van de Basislijn in bijlage.<br><br>
    > De incrementele publicatie uit de lijst met onderwerpen moet alleen worden gebruikt als de structuur van de kaart niet is gewijzigd. Als er een verandering in de kaartstructuur/TOC is, dan zou de volledige kaart eens moeten worden gepubliceerd om TOC bij te werken.
+
 1. Selecteer **sparen** om de veranderingen te bewaren.
 1. Selecteer **produceren output** om de output te produceren.
 
 
-## Incrementele uitvoer van het dashboard Kaart genereren
+## Incrementele uitvoer genereren van het dashboard Kaart (voor AEM-sites die gebruikmaken van toewijzing van oudere componenten)
 
 Voer de volgende stappen uit om incrementele uitvoer voor AEM Sites te genereren met behulp van het kaartdashboard:
 
@@ -71,6 +74,9 @@ Voer de volgende stappen uit om incrementele uitvoer voor AEM Sites te genereren
    De **Regenereer Geselecteerde pagina van Onderwerpen** verschijnt.
 
 1. Selecteer de uitvoervoorinstelling die u wilt gebruiken om de geselecteerde onderwerpen opnieuw te genereren.
+
+   Als er een basislijn is geselecteerd voor een AEM Sites-uitvoervoorinstelling die gebruikmaakt van oudere componenttoewijzing, worden de onderwerpversies die zijn opgenomen in de geselecteerde basislijn gebruikt voor het genereren van uitvoer. Bovendien, zou het stijgende publiceren van de lijst van Onderwerpen slechts moeten worden gebruikt wanneer er geen veranderingen in de kaartstructuur zijn. Als er een verandering in de kaartstructuur/TOC is, dan zou de volledige kaart eens moeten worden gepubliceerd om TOC bij te werken. Voor details bij het gebruiken van de plaats van AEM vooraf ingesteld, bekijkt [ AEM Sites vooraf instelt op het kaartdashboard ](./generate-output-aem-site-map-dashboard.md).
+
 
 1. Selecteer **Regenereren** om het proces van de outputgeneratie te beginnen.
 
