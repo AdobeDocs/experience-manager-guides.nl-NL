@@ -26,7 +26,7 @@ Leer over [ verbeteringsinstructies voor de versie 2025.07.0 ](upgrade-instructi
 ## Beheer van bedrijfsmiddelen
 
 - Wanneer u een onderwerp opent in de weergave Auteur nadat de browser is vernieuwd, blijven eerder toegepaste tags in het deelvenster Bestandseigenschappen niet behouden en wanneer u nieuwe tags toevoegt, worden de bestaande tags overschreven, met name wanneer een groot aantal tags beschikbaar is voor selectie. (HIDEN-29078)
-- Wanneer het produceren van een rapport van Meta-gegevens voor een kaart DITA die een groot aantal activa bevat, leidt **** knoop wordt unresponsief of toont een vertraagde reactie. (HULPLIJNEN-2843)
+- Wanneer het produceren van een rapport van Meta-gegevens voor een kaart DITA die een groot aantal activa bevat, leidt **&#x200B;**&#x200B;knoop wordt unresponsief of toont een vertraagde reactie. (HULPLIJNEN-2843)
 
 ## Controleren
 

@@ -53,7 +53,7 @@ Het onderwerp wordt gecreeerd bij de gespecificeerde weg. Het onderwerp wordt oo
 
 ## DITAVAL-bestand bewerken
 
-Als u een DITAVAL-onderwerp maakt, wordt dit geopend in de Editor en bewerkt. Om een bestaand DITAVAL onderwerp uit te geven, navigeer aan de omslag of de kaart waar het DITAVAL onderwerp wordt gevestigd, en selecteer dan **uitgeven** van het **** menu van Opties.
+Als u een DITAVAL-onderwerp maakt, wordt dit geopend in de Editor en bewerkt. Om een bestaand DITAVAL onderwerp uit te geven, navigeer aan de omslag of de kaart waar het DITAVAL onderwerp wordt gevestigd, en selecteer dan **uitgeven** van het **&#x200B;**&#x200B;menu van Opties.
 
 Met de DITAVAL-editor kunt u meerdere taken uitvoeren zoals hieronder worden weergegeven met de opties op de werkbalk van de Editor.
 
