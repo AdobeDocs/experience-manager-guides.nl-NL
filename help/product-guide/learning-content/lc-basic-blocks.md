@@ -14,7 +14,7 @@ ht-degree: 0%
 
 U kunt de basisbewerkingsfuncties gebruiken die beschikbaar zijn op de werkbalk Leerinhoud, zoals hieronder wordt beschreven:
 
-- **Widgets**: Voeg widgets als accordeon, carrousel, hotspots, en meer aan uw het leren inhoud toe gebruikend het **3} menu van het Tussenvoegsel {zoals hieronder getoond.** Voor meer details op interactieve widgets, mening [ Gebruik interactieve widgets ](./lc-widgets.md).
+- **Widgets**: Voeg widgets als accordeon, carrousel, hotspots, en meer aan uw het leren inhoud toe gebruikend het **3&rbrace; menu van het Tussenvoegsel &lbrace;zoals hieronder getoond.** Voor meer details op interactieve widgets, mening [ Gebruik interactieve widgets ](./lc-widgets.md).
 
   ![](assets/widgets-learning-content.png){width="650" align="left"}
 

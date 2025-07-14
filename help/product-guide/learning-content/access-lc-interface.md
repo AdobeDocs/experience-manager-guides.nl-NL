@@ -20,7 +20,7 @@ Voer de volgende stappen uit om toegang te krijgen tot de interface voor leerinh
 
    ![](assets/aem-navigation-switcher.png){width="300" align="left"}
 
-4. Open het **paneel van de Bewaarplaats** en navigeer aan de omslag waarin u een cursus wilt tot stand brengen en **Nieuw > Cursus** van het **** menu van Opties selecteren.
+4. Open het **paneel van de Bewaarplaats** en navigeer aan de omslag waarin u een cursus wilt tot stand brengen en **Nieuw > Cursus** van het **&#x200B;**&#x200B;menu van Opties selecteren.
 
    ![](assets/create-new-course.png)
 

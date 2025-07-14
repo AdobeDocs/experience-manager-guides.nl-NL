@@ -41,7 +41,7 @@ U kunt de leerinhoud verbeteren door meerdere widgets toe te voegen om de cursus
   ![](assets/iframe-learning-content.png){width="650" align="left"}
 
 
-  **wijze van de Voorproef 0} {:**
+  **wijze van de Voorproef 0&rbrace; &lbrace;:**
 
   ![](assets/iframe-learning-content-preview.png){width="650" align="left"}
 
