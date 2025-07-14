@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lees de productdocumentatie voor Adobe Experience Manager Guides.
 breadcrumb-title: Documentatie voor AEM Guides
-source-git-commit: 0cbeef94aa1c2300feae33ad3bc53bef82ebec47
+source-git-commit: b114cbcc0f637a71a9d9b7458686a06070179983
 workflow-type: tm+mt
-source-wordcount: '2139'
-ht-degree: 2%
+source-wordcount: '2277'
+ht-degree: 1%
 
 ---
 
@@ -140,8 +140,8 @@ ht-degree: 2%
                - [4.2.1 Opmerkingen bij de release](./release-info/release-notes-4-2-1.md)
                - [4.2 Opmerkingen bij de release](./release-info/release-notes-4-2.md)
          - [Opmerkingen bij de release 4.1.x](./release-info/release-notes-4-1.md)
-         - [ 4.0.x de Nota&#39;s van de Versie ](https://helpx.adobe.com/nl/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [ 3.8.x de Nota&#39;s van de Versie ](https://helpx.adobe.com/nl/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [ 4.0.x de Nota&#39;s van de Versie ](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [ 3.8.x de Nota&#39;s van de Versie ](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Handboek (nieuwe gebruikersinterface) {#user-guide}
    - Inleiding {#about-aemg}
       - [Info  [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -282,6 +282,47 @@ ht-degree: 2%
       - [ AI Medewerker Authoring aan auteursdocumenten slim ](./user-guide/ai-assistant-right-panel.md)
       - [Intelligente suggesties voor het schrijven van inhoud door AI](./user-guide/authoring-ai-based-smart-suggestions.md)
       - [Veelgestelde vragen](./user-guide/ai-assistant-faq.md)
+   - Leerinhoud beheren {#learning-training-content}
+      - Aan de slag - handleiding {#get-started}
+         - Inleiding {#intro-lc}
+            - [Overzicht van de inhoud voor leren en training](./learning-content/intro.md)
+            - [Interface voor leermiddelen en trainingsinhoud openen](./learning-content/access-lc-interface.md)
+         - Uw cursus instellen {#setup-course}
+            - [Cursusoverzicht](./learning-content/course-overview.md)
+            - [Uw eerste cursus maken](./learning-content/create-first-course.md)
+            - [Grondbeginselen van Cursusbeheer begrijpen](./learning-content/course-manager-basics.md)
+            - [Uw cursus beheren](./learning-content/manage-course.md)
+         - Leerinhoud maken en aanpassen {#customize-lc}
+            - [Overzicht van leerinhoud](./learning-content/lc-overview.md)
+            - [Leerinhoud maken](./learning-content/create-content.md)
+            - [Leerinhoud bewerken](./learning-content/edit-content.md)
+            - [Basisbouwstenen toevoegen](./learning-content/lc-basic-blocks.md)
+            - [Interactieve widgets gebruiken](./learning-content/lc-widgets.md)
+            - [Inline stijlen gebruiken](./learning-content/lc-inline-styles.md)
+         - quiz maken en beheren {#quiz}
+            - [Quizoverzicht](./learning-content/quiz-overview.md)
+            - [Quiz maken](./learning-content/create-quiz.md)
+            - [Quiz bewerken](./learning-content/edit-quiz.md)
+            - [Vragen invoegen in een quiz](./learning-content/quiz-insert-questions.md)
+            - Vragenbank {#question-bank}
+               - [Vraag-bank maken](./learning-content/create-qb.md)
+               - [Vragen van de vragenbank invoegen](./learning-content/insert-questions.md)
+            - [ Quizeigenschappen ](./learning-content/quiz-properties.md)
+         - Uw cursus publiceren {#publish-course}
+            - [Informatie over cursuspublicaties](./learning-content/publish-overview.md)
+            - [Ondersteunde voorinstellingen](./learning-content/course-presets.md)
+            - Cursus publiceren in SCORM-indeling {#scorm-output}
+               - [SCORM-uitvoervoorinstelling maken](./learning-content/create-scorm-preset.md)
+               - [Voorinstelling SCORM-uitvoer configureren](./learning-content/config-scorm-preset.md)
+               - [SCORM-uitvoer genereren](./learning-content/generate-scorm-output.md)
+            - Cursus publiceren in PDF-indeling {#pdf-output}
+               - [PDF-uitvoervoorinstelling maken](./learning-content/create-course-pdf-preset.md)
+               - [PDF-uitvoervoorinstelling configureren](./learning-content/config-course-pdf-preset.md)
+               - [PDF genereren](./learning-content/generate-course-pdf.md)
+      - Configuratiegids {#config-lc}
+         - [Over deze handleiding](./lc-config-guide/introduction.md)
+         - [Mapprofielen configureren](./lc-config-guide/lc-folder-profile.md)
+         - [ vorm andere montages ](./lc-config-guide/lc-other-settings.md)
    - Bijlage {#appendix}
       - Inhoud beheren {#manage-content}
          - [Belangrijke concepten, rollen en machtigingen, en vereisten](./user-guide/authoring.md)
@@ -291,7 +332,7 @@ ht-degree: 2%
       - Problemen oplossen {#troubleshooting}
          - [Time-out sessie](./user-guide/session-timeout-prompt.md)
 - Handboek (oude gebruikersinterface) {#user-guide-old-ui}
-   - [ overzicht van AEM Guides](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [ overzicht van AEM Guides ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installatie en configuratie {#install-guide}
    - Op locatie {#on-prem-ig}
       - [Basisbegrippen op locatie](./install-guide/introduction.md)
@@ -461,8 +502,7 @@ ht-degree: 2%
          - [Inhoud vertalen](./cs-install-guide/translation.md)
       - Werken met AEM Assets-zoekopdracht {#aem-asset-search-cs}
          - [Zoeken naar gebruikersinterface van AEM Assets configureren](./cs-install-guide/conf-dita-search.md)
-      - [Bijlage](./cs-install-guide/appendix.md)
-
+      - [ Bijlage ](./cs-install-guide/appendix.md)
 - API-naslag {#api-reference}
    - [Inleiding](./api-reference/introduction.md)
    - [REST API&#39;s voor uitvoerbeheer](./api-reference/output-management.md)
