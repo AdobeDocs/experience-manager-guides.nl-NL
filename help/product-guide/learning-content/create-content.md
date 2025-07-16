@@ -3,7 +3,8 @@ title: Leerinhoud maken
 description: Bespreekt over het creëren van een het Leren inhoud in het Leren en de inhoud van de Opleiding.
 feature: Authoring
 role: User
-source-git-commit: 110082f38f170d277dfd745a4fce77ad030707c3
+exl-id: a08a165d-801b-4b35-9626-b27471349327
+source-git-commit: 57ddd498cd06d7d8cb511b0c3108591280a35bdb
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 0%
@@ -19,7 +20,7 @@ Voer de volgende stappen uit om leerinhoud aan een cursus toe te voegen:
    ![](assets/workflow-learning-content.png){width="650" align="left"}
 
 1. Selecteer **het Leren inhoud**.
-Het dialoogvenster Nieuwe leerinhoud wordt weergegeven.
+De **Nieuwe het leren inhoud** dialoog wordt getoond.
 
    ![](assets/learning-content-dialog.png){width="350" align="left"}
 
@@ -35,4 +36,3 @@ Leerinhoud wordt gemaakt in de cursus en wordt weergegeven in het deelvenster Cu
 >[!NOTE]
 >
 > Wanneer u nieuwe leerinhoud maakt, wordt automatisch versie 1.0 toegewezen.
-

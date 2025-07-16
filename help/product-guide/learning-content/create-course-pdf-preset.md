@@ -3,7 +3,8 @@ title: PDF-voorinstelling maken
 description: Een PDF-voorinstelling maken in de inhoud Leren en Training
 feature: Authoring
 role: User
-source-git-commit: 4b581043d2577545b69773d33869dcd873a2ea3b
+exl-id: c353cee7-eee1-4e6d-92b4-73016cb8cfa3
+source-git-commit: 57ddd498cd06d7d8cb511b0c3108591280a35bdb
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 0%
@@ -18,7 +19,7 @@ Voer de volgende stappen uit om een PDF-uitvoervoorinstelling te maken:
 
    ![](assets/open-in-map-console.png){width="350" align="left"}
 
-1. In **vooraf instelt van de Output** lusje, selecteer + pictogram om tot een output vooraf ingesteld te leiden.
+1. In het **vooraf instelt van de Output** paneel, selecteer + pictogram om tot een output vooraf ingesteld te leiden.
 1. Selecteer **PDF** van **Type** dropdown in de Nieuwe output vooraf ingestelde dialoog.
 1. Op het **gebied van de Naam**, verstrek een naam voor dit vooraf ingesteld.
 1. Op **produceer PDF Gebruikend** gebied, uitgezochte **Inheemse PDF**.
@@ -28,5 +29,3 @@ Voer de volgende stappen uit om een PDF-uitvoervoorinstelling te maken:
 De PDF-voorinstellingspagina wordt geopend waar u de benodigde configuraties kunt uitvoeren.
 
 ![](assets/learning-pdf-preset.png){width="650" align="left"}
-
-

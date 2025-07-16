@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lees de productdocumentatie voor Adobe Experience Manager Guides.
 breadcrumb-title: Documentatie voor AEM Guides
-source-git-commit: b114cbcc0f637a71a9d9b7458686a06070179983
+source-git-commit: cc57af80f2556a9be9a7cc610ae0efa50e0e086b
 workflow-type: tm+mt
-source-wordcount: '2277'
+source-wordcount: '2283'
 ht-degree: 1%
 
 ---
@@ -140,8 +140,8 @@ ht-degree: 1%
                - [4.2.1 Opmerkingen bij de release](./release-info/release-notes-4-2-1.md)
                - [4.2 Opmerkingen bij de release](./release-info/release-notes-4-2.md)
          - [Opmerkingen bij de release 4.1.x](./release-info/release-notes-4-1.md)
-         - [ 4.0.x de Nota&#39;s van de Versie ](https://helpx.adobe.com/nl/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [ 3.8.x de Nota&#39;s van de Versie ](https://helpx.adobe.com/nl/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [ 4.0.x de Nota&#39;s van de Versie ](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [ 3.8.x de Nota&#39;s van de Versie ](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Handboek (nieuwe gebruikersinterface) {#user-guide}
    - Inleiding {#about-aemg}
       - [Info  [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -323,6 +323,9 @@ ht-degree: 1%
          - [Over deze handleiding](./lc-config-guide/introduction.md)
          - [Mapprofielen configureren](./lc-config-guide/lc-folder-profile.md)
          - [ vorm andere montages ](./lc-config-guide/lc-other-settings.md)
+      - Videozelfstudies {#lc-video}
+         - [Auteur-workflow](./lc-video-tutorials/author-workflow.md)
+         - [Beheerderstroom](./lc-video-tutorials/admin-workflow.md)
    - Bijlage {#appendix}
       - Inhoud beheren {#manage-content}
          - [Belangrijke concepten, rollen en machtigingen, en vereisten](./user-guide/authoring.md)
@@ -332,7 +335,7 @@ ht-degree: 1%
       - Problemen oplossen {#troubleshooting}
          - [Time-out sessie](./user-guide/session-timeout-prompt.md)
 - Handboek (oude gebruikersinterface) {#user-guide-old-ui}
-   - [ overzicht van AEM Guides](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [ overzicht van AEM Guides ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installatie en configuratie {#install-guide}
    - Op locatie {#on-prem-ig}
       - [Basisbegrippen op locatie](./install-guide/introduction.md)
