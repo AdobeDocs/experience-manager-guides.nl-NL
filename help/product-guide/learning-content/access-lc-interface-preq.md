@@ -3,7 +3,7 @@ title: Onderzoek de interface en de eerste vereisten
 description: Ontdek de interface en voorwaarden wanneer u werkt met de inhoud voor leren en training in Adobe Experience Manager Guides.
 feature: Authoring
 role: User
-source-git-commit: 200aae4c5d05531da5413c80a1cf254d2c0f0ec3
+source-git-commit: eda6c57d80359b1c70266708dc444f4880e1bf6c
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Voer de volgende stappen uit om toegang te krijgen tot de gebruikersinterface:
 
    Voor details, mening [ ervaring van de homepage van Adobe Experience Manager Guides ](../user-guide/intro-home-page.md).
 
-   ![](assets/aem-navigation-switcher.png){width="300" align="left"}
+   ![](assets/aem-navigation-switcher.png){width="350" align="left"}
 
 ## Vereisten
 
