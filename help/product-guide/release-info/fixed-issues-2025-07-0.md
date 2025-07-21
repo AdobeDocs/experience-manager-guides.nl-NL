@@ -1,9 +1,10 @@
 ---
 title: Opmerkingen bij de release | Opgeloste problemen in Adobe Experience Manager Guides, release 2025.07.0
 description: Meer informatie over de opgeloste problemen vindt u in de release 2025.07.0 van Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: bf8b295444a1e21fc19bfbc04efaa20fe78f71bb
+exl-id: 0744e821-5aee-432b-a6c8-7ed6538935db
+source-git-commit: c4d3cdd2a0a98b7c9c937c66c5c3130bf4c5c164
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '527'
 ht-degree: 0%
 
 ---
@@ -26,7 +27,7 @@ Leer over [ verbeteringsinstructies voor de versie 2025.07.0 ](upgrade-instructi
 ## Beheer van bedrijfsmiddelen
 
 - Wanneer u een onderwerp opent in de weergave Auteur nadat de browser is vernieuwd, blijven eerder toegepaste tags in het deelvenster Bestandseigenschappen niet behouden en wanneer u nieuwe tags toevoegt, worden de bestaande tags overschreven, met name wanneer een groot aantal tags beschikbaar is voor selectie. (HIDEN-29078)
-- Wanneer het produceren van een rapport van Meta-gegevens voor een kaart DITA die een groot aantal activa bevat, leidt **&#x200B;**&#x200B;knoop wordt unresponsief of toont een vertraagde reactie. (HULPLIJNEN-2843)
+- Wanneer het produceren van een rapport van Meta-gegevens voor een kaart DITA die een groot aantal activa bevat, leidt **** knoop wordt unresponsief of toont een vertraagde reactie. (HULPLIJNEN-2843)
 
 ## Controleren
 
@@ -50,6 +51,6 @@ Leer over [ verbeteringsinstructies voor de versie 2025.07.0 ](upgrade-instructi
 Adobe heeft de volgende bekende problemen vastgesteld voor de release 2025.07.0:
 
 - Wanneer het werken met de onderwerpen van de Prijsverhoging, de de verwijzings **knoop van het a** Onderwerp verschijnt in de toolbar van de Redacteur, maar het werkt niet. (GIDS-31038)
-- Wanneer mappen met hoofdletters worden geüpload met de Adobe Experience Manager-bureaubladtoepassing, blijft de behuizing niet behouden en worden de namen in kleine letters weergegeven in de Editor. (GUIDEN-30909)
+- Namen van mapknooppunten worden onjuist weergegeven in plaats van maptitels in de Editor. (GUIDEN-30909)
 - In de **dialoog van de Fusie**, toont de dropdown lijst verkeerd **Belangrijkste inhoud** in plaats van het tonen van de beschikbare versies van het geselecteerde onderwerp. (GUIDEN-30820)
 - Wanneer het openen van een kaart DITA met verenigde toegelaten shell, verandert de redacteur af en toe.(GUIDEN-26919)
