@@ -4,7 +4,8 @@ description: Leer meer over de beheerderworkflow voor leer- en trainingsinhoud i
 feature: Authoring
 role: Admin
 level: Experienced
-source-git-commit: 2a2bcb6638c0201c7256d986be95c0ccb21f8d9e
+exl-id: c4fd1da6-1f45-4c84-bc5b-3851501a6d88
+source-git-commit: 98a520a255c5587ac0de82685391c0fc153bc8d1
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 0%
@@ -17,9 +18,6 @@ Deze pagina biedt snel toegang tot video&#39;s over belangrijke beheerderwerkstr
 
 | Titel | Beschrijving | Videokoppeling |
 |-------|-------------|------------|
-| Overzicht van AEM Guides for Administrators | Omvat belangrijke opstellingstaken voor beheerders van AEM Guides, met inbegrip van omslagstructuur, toestemmingen, herbruikbare inhoud, en redacteursaanpassing. | [ video van de Lancering ](https://video.tv.adobe.com/v/3464906/learning-content-aem-guides){target="_blank"} |
-| Ontwerpomgeving instellen in AEM Guides | Een stapsgewijze handleiding voor het instellen van de ontwerpomgeving in AEM Guides, inclusief maphiërarchie, mapprofielen, ontwerp- en uitvoersjablonen en voorkeuren voor editors. | [ video van de Lancering ](https://video.tv.adobe.com/v/3464835/learning-content-aem-guides){target="_blank"} |
-| Ontwerpsjablonen beheren | Verklaart, creeert, en past creërende malplaatjes in AEM Guides, met inbegrip van het werken met omslagprofielen, stijlbladen, en herbruikbare activa aan. | [ video van de Lancering ](https://video.tv.adobe.com/v/3464907){target="_blank"} |
-
-
-
+| Overzicht van AEM Guides for Administrators | Omvat belangrijke opstellingstaken voor beheerders van AEM Guides, met inbegrip van omslagstructuur, toestemmingen, herbruikbare inhoud, en redacteursaanpassing. | [ video van de Lancering ](https://video.tv.adobe.com/v/3469321){target="_blank"} |
+| Ontwerpomgeving instellen in AEM Guides | Een stapsgewijze handleiding voor het instellen van de ontwerpomgeving in AEM Guides, inclusief maphiërarchie, mapprofielen, ontwerp- en uitvoersjablonen en voorkeuren voor editors. | [ video van de Lancering ](https://video.tv.adobe.com/v/3469527/learning-content-aem-guides){target="_blank"} |
+| Ontwerpsjablonen beheren | Verklaart, creeert, en past creërende malplaatjes in AEM Guides, met inbegrip van het werken met omslagprofielen, stijlbladen, en herbruikbare activa aan. | [ video van de Lancering ](https://video.tv.adobe.com/v/3469528/aem-guides-learning-content){target="_blank"} |
