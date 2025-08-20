@@ -4,7 +4,7 @@ description: Begrijp hoe u DITAVAL-bestanden maakt en bewerkt met de DIVATAL Edi
 exl-id: f3901a4f-1925-42aa-b773-0d6f18175ce8
 feature: Authoring, DITAVAL Editor
 role: User
-source-git-commit: a49234698e040c7441ea0f82265f4b7936a95dfc
+source-git-commit: cbc9cd59e36dad63b25866b2d5c52a7380dc7d26
 workflow-type: tm+mt
 source-wordcount: '1501'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 DITAVAL-bestanden worden gebruikt om voorwaardelijke uitvoer te genereren. In één onderwerp, kunt u voorwaarden toevoegen gebruikend elementenattributen om inhoud te conditionaliseren. Vervolgens maakt u een DITAVAL-bestand waarin u de voorwaarden opgeeft die moeten worden opgepakt om inhoud te genereren en welke voorwaarde niet in de uiteindelijke uitvoer moet worden opgenomen.
 
-Met Adobe Experience Manager Guides kunt u eenvoudig DITAVAL-bestanden maken en bewerken met de DITAVAL-editor. De DITAVAL-editor haalt de kenmerken op (die kunnen worden gebruikt als voorwaarden) die in uw systeem zijn gedefinieerd en u kunt deze gebruiken om DITAVAL-bestanden te maken of te bewerken. Voor meer details over het creëren van en het beheren van voorwaarden in Adobe Experience Manager, mening [ het Beheer de sectie van Markeringen ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=nl-NL) in de documentatie van Adobe Experience Manager.
+Met Adobe Experience Manager Guides kunt u eenvoudig DITAVAL-bestanden maken en bewerken met de DITAVAL-editor. De DITAVAL-editor haalt de kenmerken op (die kunnen worden gebruikt als voorwaarden) die in uw systeem zijn gedefinieerd en u kunt deze gebruiken om DITAVAL-bestanden te maken of te bewerken. Voor meer details over het creëren van en het beheren van voorwaarden in Adobe Experience Manager, mening [ het Beheer de sectie van Markeringen ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) in de documentatie van Adobe Experience Manager.
 
 In de volgende secties vindt u de opties die beschikbaar zijn voor een DITAVAL-bestand in Experience Manager Guides.
 
@@ -30,7 +30,7 @@ Voer de volgende stappen uit om een DITAVAL-bestand te maken:
 
 1. In het paneel van de Bewaarplaats, selecteer het **Nieuwe dossier** pictogram en selecteer dan **Onderwerp** van het dropdown menu.
 
-   ![](images/new-file-option.png){width="300" align="left"}
+   ![](images/new-file-option.png){width="350" align="left"}
 
    U kunt tot deze optie van de [ Homepage van Experience Manager Guides ](./intro-home-page.md) en tot het optiesmenu van een omslag in de mening van de Bewaarplaats ook toegang hebben.
 
@@ -42,7 +42,7 @@ Voer de volgende stappen uit om een DITAVAL-bestand te maken:
    - Een malplaatje waarop het onderwerp zal worden gebaseerd. Voor een DITAVAL dossier, uitgezochte **Ditaval** van de dropdown lijst.
    - Pad waar u het onderwerpbestand wilt opslaan. Standaard wordt het pad van de geselecteerde map in de opslagplaats weergegeven in het veld Pad.
 
-   ![](images/new-topic-dialog-ditaval.png){width="300" align="left"}
+   ![](images/new-topic-dialog-ditaval.png){width="350" align="left"}
 
 
 4. Selecteer **creeer**.
@@ -53,7 +53,7 @@ Het onderwerp wordt gecreeerd bij de gespecificeerde weg. Het onderwerp wordt oo
 
 ## DITAVAL-bestand bewerken
 
-Als u een DITAVAL-onderwerp maakt, wordt dit geopend in de Editor en bewerkt. Om een bestaand DITAVAL onderwerp uit te geven, navigeer aan de omslag of de kaart waar het DITAVAL onderwerp wordt gevestigd, en selecteer dan **uitgeven** van het **&#x200B;**&#x200B;menu van Opties.
+Als u een DITAVAL-onderwerp maakt, wordt dit geopend in de Editor en bewerkt. Om een bestaand DITAVAL onderwerp uit te geven, navigeer aan de omslag of de kaart waar het DITAVAL onderwerp wordt gevestigd, en selecteer dan **uitgeven** van het **** menu van Opties.
 
 Met de DITAVAL-editor kunt u meerdere taken uitvoeren zoals hieronder worden weergegeven met de opties op de werkbalk van de Editor.
 
@@ -112,35 +112,35 @@ Er zijn voor een bepaalde eigenschap grofweg vier acties beschikbaar die als vol
 - **Achtergrondkleur**: Selecteer de tint, de verzadiging, het contrast van de Achtergrondkleur. De corresponderende HEX-waarde wordt automatisch bijgewerkt op basis van uw selectie. U kunt de indeling van de kleurruimte ook wijzigen met het vervolgkeuzemenu en kiezen tussen HEX, RGB en HSB.
 
 
-![](images/ditaval-background-color.png){width="650" align="left"}
+  ![](images/ditaval-background-color.png){width="350" align="left"}
 
 
 
 - **Kleur van de Tekst**: Selecteer de tint, de verzadiging, het contrast van de kleur van de Tekst. De corresponderende HEX-waarde wordt automatisch bijgewerkt op basis van uw selectie. U kunt de indeling van de kleurruimte ook wijzigen met het vervolgkeuzemenu en kiezen tussen HEX, RGB en HSB.
 
 
-![](images/ditaval-text-color.png){width="650" align="left"}
+  ![](images/ditaval-text-color.png){width="350" align="left"}
 
 
 
 - **het stileren opties**: U kunt sommige het stileren opties evenals Vet toevoegen, Cursief, Onderstrepen, Overlijn, dubbel onderstrepen.
 
 
-![](images/ditaval-styling-option.png){width="650" align="left"}
+  ![](images/ditaval-styling-option.png){width="350" align="left"}
 
 
 
 - **Vlaggen van het Begin en van het Eind**: U kunt beelden als begin en eindvlaggen opnemen gebruikend **voeg Vlag** knoop toe. Om beelden te kiezen, of gebruik **doorbladert Assets** om van de bewaarplaats van Gidsen te selecteren of **voeg Dossier** toe om van uw lokaal systeem te uploaden. Daarnaast kunt u alternatieve tekst voor de afbeeldingen opgeven.
 
 
-![](images/ditaval-start-end-flags.png){width="650" align="left"}
+  ![](images/ditaval-start-end-flags.png){width="350" align="left"}
 
 
 
 - **conflict van de Stijl**: Het lost de conflicten op die voorkomen wanneer één enkel element veelvoudige eigenschappen met verschillende stijlen van de Vlag bevat. In dergelijke gevallen wordt de waarde die is gedefinieerd in de eigenschappen van het stijlconflict geselecteerd. Deze waarde fungeert in feite als een standaardwaardekiezer voor achtergrond- en tekstkleuren.
 
 
-![](images/ditaval-style-conflict.png){width="650" align="left"}
+  ![](images/ditaval-style-conflict.png){width="650" align="left"}
 
 
 #### Versiegegevens en Opslaan als nieuwe versie

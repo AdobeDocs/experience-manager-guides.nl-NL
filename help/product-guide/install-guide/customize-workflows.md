@@ -5,9 +5,9 @@ exl-id: 3be387b9-6ac2-4b61-afdf-fbe9d8b6cc1e
 feature: Workflow Configuration
 role: Admin
 level: Experienced
-source-git-commit: 3f61aa6615a1b9765154d55249a33136443dfa33
+source-git-commit: 01efb1f17b39fcbc48d78dd1ae818ece167f4fe5
 workflow-type: tm+mt
-source-wordcount: '1856'
+source-wordcount: '1854'
 ht-degree: 0%
 
 ---
@@ -18,20 +18,20 @@ Met workflows kunt u Adobe Experience Manager \(AEM\)-activiteiten automatiseren
 
 Zie voor meer informatie over workflows in AEM:
 
-- [ het beheren van Werkschema&#39;s ](https://helpx.adobe.com/nl/experience-manager/6-5/sites/administering/using/workflows.html)
+- [ het beheren van Werkschema&#39;s ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html)
 
-- Het toepassen van en het deelnemen aan werkschema&#39;s: [ Werkend met Werkschema&#39;s ](https://helpx.adobe.com/nl/experience-manager/6-5/sites/authoring/using/workflows.html).
+- Het toepassen van en het deelnemen aan werkschema&#39;s: [ Werkend met Werkschema&#39;s ](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/workflows.html).
 
-- Creërend werkschemamodellen en het uitbreiden van werkschemamogelijkheden: [ het Ontwikkelen en het Uitbreiden van Werkschema&#39;s ](https://helpx.adobe.com/nl/experience-manager/6-5/sites/developing/using/workflows.html).
+- Creërend werkschemamodellen en het uitbreiden van werkschemamogelijkheden: [ het Ontwikkelen en het Uitbreiden van Werkschema&#39;s ](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/workflows.html).
 
-- Het verbeteren van de prestaties van werkschema&#39;s die significante servermiddelen gebruiken: [ Gelijktijdige Verwerking van het Werkschema ](https://helpx.adobe.com/nl/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance).
+- Het verbeteren van de prestaties van werkschema&#39;s die significante servermiddelen gebruiken: [ Gelijktijdige Verwerking van het Werkschema ](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance).
 
 
 De secties in dit onderwerp zullen u door diverse aanpassingen lopen die u in de standaardwerkschema&#39;s kunt maken die in AEM Guides worden verscheept.
 
 ## De revisiewerkstroom aanpassen {#id176NE0C00HS}
 
-Het team van het inhoudauteurs van elke organisatie werkt op een specifieke manier om aan hun bedrijfsvereisten te voldoen. In sommige organisaties is er een toegewijde editor, terwijl een andere organisatie een geautomatiseerd systeem voor redactionele herziening had kunnen opzetten. In een organisatie kan bijvoorbeeld een typische ontwerp- en publicatieworkflow taken bevatten zoals taken die elke auteur uitvoert met ontwerpinhoud, die automatisch naar de revisoren worden doorgestuurd wanneer de revisie is voltooid en die naar de uitgever worden doorgestuurd om de definitieve uitvoer te genereren. In AEM kunnen activiteiten die u uitvoert op uw inhoud en middelen worden gecombineerd in de vorm van een proces en worden toegewezen aan een AEM-workflow. Voor meer informatie over werkschema&#39;s in AEM, zie [ het Beheer Werkstromen ](https://helpx.adobe.com/nl/experience-manager/6-5/sites/administering/using/workflows.html) in de documentatie van AEM.
+Het team van het inhoudauteurs van elke organisatie werkt op een specifieke manier om aan hun bedrijfsvereisten te voldoen. In sommige organisaties is er een toegewijde editor, terwijl een andere organisatie een geautomatiseerd systeem voor redactionele herziening had kunnen opzetten. In een organisatie kan bijvoorbeeld een typische ontwerp- en publicatieworkflow taken bevatten zoals taken die elke auteur uitvoert met ontwerpinhoud, die automatisch naar de revisoren worden doorgestuurd wanneer de revisie is voltooid en die naar de uitgever worden doorgestuurd om de definitieve uitvoer te genereren. In AEM kunnen activiteiten die u uitvoert op uw inhoud en middelen worden gecombineerd in de vorm van een proces en worden toegewezen aan een AEM-workflow. Voor meer informatie over werkschema&#39;s in AEM, zie [ het Beheer Werkstromen ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html) in de documentatie van AEM.
 
 Met AEM Guides kunt u de standaardrevisiewerkstroom aanpassen. U kunt de volgende vier aangepaste revisiegerelateerde processen gebruiken in combinatie met andere workflows voor ontwerpen of publiceren.
 
@@ -108,9 +108,9 @@ U kunt dit script maken in het knooppunt `/etc/workflows/scripts` . In de volgen
 | `startTime` | Lang | Gebruik de functie `System.currentTimeMillis()` om de huidige systeemtijd op te halen. |
 | `projectPath` | String | Pad van het revisieproject waaraan de toetsingstaak zal worden toegewezen, bijvoorbeeld: /content/projects/samplereviewproject. |
 | `reviewType` | String | Statische waarde &quot;AEM&quot;. |
-| `versionJson` | JSON-object | versionJson is een lijst van onderwerpen die in de revisie gaan waar elk onderwerpobject de volgende structuur { &quot;weg&quot;heeft: &quot;/content/dam/1-topic.dita&quot;, &quot;versie&quot;: &quot;1.1&quot;, &quot;overzicht&quot;: waar, &quot;recensenten&quot;: [ &quot;projects-we_retail-editor&quot;] } |
+| `versionJson` | JSON-object | versionJson is een lijst van onderwerpen die in de revisie gaan waar elk onderwerpobject de volgende structuur heeft [ &quot;weg&quot;: &quot;/content/dam/1-topic.dita&quot;, &quot;versie&quot;: &quot;1.1&quot;, &quot;overzicht&quot;: waar, &quot;recensenten&quot;: [ &quot;projects-we_retail-editor&quot;] ] |
 | `isDitamap` | Boolean | false/true |
-| `ditamapHierarchy` | JSON-object | Als de kaart wordt verzonden voor overzicht dan zou de waarde hier als moeten zijn:[ { &quot;weg&quot;: &quot;GUID-f0df1513-fe07-473f-9960-477d4df29c87.ditamap&quot;, &quot;punten&quot; GUID [ &quot;weg&quot;: &quot;-97 47e8ab-8cf1-45dd-9e20-d47d482f667d.dita&quot;, &quot;title&quot;: &quot;&quot;, &quot;items&quot;: [] } ] &rbrace; ]. |
+| `ditamapHierarchy` | JSON-object | Als de kaart wordt verzonden voor overzicht dan zou de waarde hier als moeten zijn:[ { &quot;weg&quot;: &quot;GUID-f0df1513-fe07-473f-9960-477d4df29c87.ditamap&quot;, &quot;punten&quot; GUID [ &quot;weg&quot;: &quot;-97 47e8ab-8cf1-45dd-9e20-d47d482f667d.dita&quot;, &quot;title&quot;: &quot;&quot;, &quot;items&quot;: [] } ] } ]. |
 | `ditamap` | String | Het pad opgeven van de tijdelijke aanduiding van de revisietaak |
 | `allowAllReviewers` | Boolean | false/true |
 | `notifyViaEmail` | Boolean | false/true |
@@ -127,7 +127,7 @@ U kunt voorkomen dat revisiewerkstromen automatisch worden gewist door het model
 In de **Configuratie van de Woorden van het Werkschema van Adobe Granite**, zorg ervoor dat u minstens één werkschema een lijst maakt dat u veilig kunt zuiveren. U kunt bijvoorbeeld de volgende workflows gebruiken die door AEM Guides zijn gemaakt:
 
 - /etc/workflow/models/publishditamap/jcr:content/model
-- /etc/workflow/models/post-dita-project-creation-tasks/jcr:content/model
+- /etc/workflow/models/post-dita-project-creation-tasks/ jcr:content/model
 
 Toevoegend een werkschema in de **Configuratie van de Woorden van het Werkschema van Adobe Granite** zorgt ervoor dat AEM slechts die werkschema&#39;s zuivert die in de configuratie vermeld zijn. Zo voorkomt u dat AEM de informatie over de revisiewerkstroom opschoont.
 
@@ -135,7 +135,7 @@ Voor meer details over het vormen van de **Configuratie van de Woorden van het W
 
 ### E-mailsjablonen aanpassen
 
-Een aantal AEM Guides-workflows maakt gebruik van e-mailmeldingen. Als u bijvoorbeeld een revisietaak start, wordt een e-mailmelding verzonden naar de revisoren. Om ervoor te zorgen dat het e-mailbericht wordt verzonden, moet u deze functionaliteit echter in AEM inschakelen. Om e-mailbericht in AEM toe te laten, zie het artikel [ Vormend E-mailbericht ](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=nl-NL) in de documentatie van AEM.
+Een aantal AEM Guides-workflows maakt gebruik van e-mailmeldingen. Als u bijvoorbeeld een revisietaak start, wordt een e-mailmelding verzonden naar de revisoren. Om ervoor te zorgen dat het e-mailbericht wordt verzonden, moet u deze functionaliteit echter in AEM inschakelen. Om e-mailbericht in AEM toe te laten, zie het artikel [ Vormend E-mailbericht ](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en) in de documentatie van AEM.
 
 AEM Guides bevat een set e-mailsjablonen die u kunt aanpassen. Voer de volgende stappen uit om deze sjablonen aan te passen:
 

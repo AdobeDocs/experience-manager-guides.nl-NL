@@ -4,9 +4,9 @@ description: Leer hoe u onderwerpen kunt beoordelen en de functies kunt gebruike
 exl-id: fc87fc37-f1cd-4a19-96c2-3a08a8222002
 feature: Reviewing
 role: User
-source-git-commit: 9197cb757e3b883d81eee8a72c797b74cf06e570
+source-git-commit: b7648fe1d36de3c243ca5a55f42a41f7523056ce
 workflow-type: tm+mt
-source-wordcount: '2476'
+source-wordcount: '2655'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 0%
 # Onderwerpen bekijken {#id2056B0W0FBI}
 
 Als u een revisor bent, ontvangt u een e-mail met een revisieverzoek met de koppeling naar de revisieonderwerpen. Met deze koppeling hebt u toegang tot de overzichtspagina waarop u uw feedback over de gedeelde onderwerpen kunt toevoegen.
+
+>[!NOTE]
+>
+> Terwijl u het revisieverzoek opent vanuit het bericht, kunt u het opnieuw toewijzen aan een andere gebruiker die deel uitmaakt van hetzelfde revisieproject. Voor details, wijst de mening [ opnieuw revisietaak toe gebruikend bericht ](./reassign-review-using-notification.md).
 
 Voer de volgende stappen uit om een onderwerp te herzien:
 
@@ -34,8 +38,6 @@ Voer de volgende stappen uit om een onderwerp te herzien:
    > - Adobe Experience Manager Guides as a Cloud Service Release 2022 of eerder
    > - Adobe Experience Manager Guides versie 4.1 of lager
 
-
-
    Het volgende scherm verschijnt wanneer een kaart DITA wordt gebruikt om het overzichtswerkschema in werking te stellen:
 
    ![](images/multiple-topics-review.png){align="left"}
@@ -54,7 +56,7 @@ Voer de volgende stappen uit om een onderwerp te herzien:
 
      >[!NOTE]
      >
-     > Wanneer u de filters toepast, worden alleen de opmerkingen die overeenkomen met de geselecteerde filters weergegeven in het venster Opmerkingen. Het aantal gefilterde opmerkingen wordt links in het deelvenster Onderwerpen weergegeven.
+     > Bij het toepassen van de filters worden alleen de opmerkingen die overeenkomen met de geselecteerde filters weergegeven in het venster Opmerkingen. Het aantal gefilterde opmerkingen wordt links in het deelvenster Onderwerpen weergegeven.
 
    - **E**: Een onderwerp dat voor overzicht aan de huidige recensent wordt toegewezen wordt getoond in zwart en kan worden geselecteerd. Wanneer de controleur een onderwerpverbinding selecteert die onderwerp aan de bovenkant van het scherm wordt gebracht.
    - **F**: Een onderwerp dat niet voor overzicht beschikbaar is wordt grijs weergegeven. Het onderwerp wordt getoond op read-only wijze en u wordt niet toegestaan om het even welke overzichtscommentaren over dergelijke onderwerpen toe te voegen.
@@ -154,13 +156,28 @@ De taken die u kunt uitvoeren via het venster Opmerkingen worden hieronder besch
 
 - Als u een onderwerp opent in de modus Voorvertoning, ziet u hoe een onderwerp wordt weergegeven wanneer een onderwerp wordt bekeken door een auteur nadat alle wijzigingen zijn toegepast. Alle ingevoegde tekst wordt bijvoorbeeld als normale tekst weergegeven en alle verwijderde \(verwijderde\) tekst wordt uit de inhoud verwijderd.
 
-- De volgende het schermschot toont de inhoud op *1&rbrace; wijze van het Overzicht &lbrace;:*
+- De volgende het schermschot toont de inhoud op *1} wijze van het Overzicht {:*
 
 ![](images/review-author-mode.png){width="550" align="left"}
 
-De volgende het schermschot toont de inhoud op *1&rbrace; wijze van de Voorproef &lbrace;:*
+De volgende het schermschot toont de inhoud op *1} wijze van de Voorproef {:*
 
 ![](images/review-preview-mode.png){width="550" align="left"}
+
+
+**de taakgebruikers van de Markering in een commentaar**
+
+Wanneer u met meerdere revisoren samenwerkt aan een revisietaak, kunt u de communicatie verbeteren door specifieke gebruikers in zowel nieuwe opmerkingen als antwoorden te coderen. Als controleur kunt u een opmerking initiëren of reageren op een bestaande opmerking terwijl u andere gebruikers die bij dezelfde revisietaak zijn betrokken, van tags voorziet om hun aandacht te vestigen of follow-ups toe te wijzen. Deze functionaliteit is alleen beschikbaar voor actieve revisietaken.
+
+>[!NOTE]
+>
+> Om de lijst van gebruikers te bekijken die aan een overzichtstaak worden toegewezen en hen in een commentaar etiketteren, moet u *Gelezen toegang* op `/home/users and /home/groups` knopen hebben. Voor details, mening [ gebruikersbeleid en veiligheid ](../cs-install-guide/user-admin-sec.md#additional-notes-on-user-groups). <br> Als er na het bevestigen van de toegang nog steeds geen codes beschikbaar zijn, moet uw beheerder mogelijk een `user-admin` -licentie toewijzen om deze functionaliteit in te schakelen.
+
+![](images/tag-users-review-ui.png){width="350" align="left"}
+
+Gecodeerde gebruikers ontvangen zowel een e-mail als een AEM-melding, zodat ze deze snel kunnen informeren. Voor meer details op hoe de heroverwegingsberichten teweegbrengen, mening [ het Begrip van heroverwegingsberichten ](./review-understanding-review-notifications.md).
+
+![](images/mentioned-in-tags-author.png){width="350" align="left"}
 
 **voegt gehechtheid aan commentaren** toe -   Als u uw opmerking wilt aanvullen met aanvullende informatie die beschikbaar is in een ander bestand, kunt u dit doen door de opmerking bij de opmerking te voegen. Als revisor kunt u eenvoudig een of meerdere bestanden van uw lokale systeem aan uw opmerking toevoegen. U kunt een bestand toevoegen aan alle ondersteunde formulieren met opmerkingen: Markeren, Doorhalen, Tekst invoegen of Opmerking.
 
@@ -257,4 +274,4 @@ Selecteer één of meerdere van de volgende het filtreren opties van het **Type 
 
 Om de filter te verwijderen en alle commentaren te bekijken, schrap alle filters van het **Type van Filter** dialoog en selecteer **toepassen**.
 
-**Bovenliggend onderwerp:**&#x200B;[ Inleiding aan overzicht ](review.md)
+**Bovenliggend onderwerp:**[ Inleiding aan overzicht ](review.md)

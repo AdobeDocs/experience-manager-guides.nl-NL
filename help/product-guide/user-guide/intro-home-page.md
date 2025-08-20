@@ -4,9 +4,9 @@ description: Meer weten over de startpagina van de Adobe Experience Manager Guid
 feature: Authoring
 role: User
 exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 03f117381bda7d31b50085b83f309e24f9a75210
 workflow-type: tm+mt
-source-wordcount: '1853'
+source-wordcount: '1824'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,7 @@ De volgende widgets zijn aanwezig in de sectie Widgets:
   De volgende opties zijn beschikbaar wanneer u de muisaanwijzer op een bestand plaatst:
 
    - **Open in redacteur**: Staat u toe om het dossier in de Redacteur te openen. U kunt een bestand ook openen door het te selecteren.
-   - **Vastzetten/unpin**: Staat u toe om één of meerdere dossiers aan Recente dossiers widget vast te zetten. Vastgezette bestanden worden bovenaan in de widgetlijst weergegeven. Om een dossier los te maken, gebruik **&#x200B;**&#x200B;optie vrijmaken.
+   - **Vastzetten/unpin**: Staat u toe om één of meerdere dossiers aan Recente dossiers widget vast te zetten. Vastgezette bestanden worden bovenaan in de widgetlijst weergegeven. Om een dossier los te maken, gebruik **** optie vrijmaken.
    - **verwijder**: Staat u toe om het dossier uit Recente dossiers widget te verwijderen.
 
   **creeer nieuw dossier van het Nieuwe dossier dropdown menu**
@@ -159,22 +159,22 @@ De gebruikersvoorkeuren zijn beschikbaar voor alle auteurs. Met de voorkeuren ku
 
 - **Algemeen**: Het Algemene lusje staat u toe om de volgende montages te vormen:
 
-  ![](images/user_preference_editor.PNG){align="left"}
+  ![](images/user_preference_editor-new.png){align="left"}
 
    - **het profiel van de Omslag**: Het profiel van de Omslag controleert diverse configuraties met betrekking tot voorwaardelijke attributen, auteursmalplaatjes, output stelt vooraf in en de configuraties van de Redacteur. Het profiel Algemeen wordt standaard weergegeven. Als uw beheerder mapprofielen heeft geconfigureerd in het systeem, worden deze mapprofielen ook weergegeven in de lijst Mapprofielen.
    - **de weg van de Basis**: Door gebrek, wanneer u tot de bewaarplaats van Experience Manager Guides van de Redacteur toegang hebt, wordt u getoond activa van de /content/dam plaats. De werkmap bevat hoogstwaarschijnlijk enkele mappen in de map /content/dam/. U kunt het basispad instellen op de werkmap en in de weergave Opslagplaats geeft u de inhoud van die locatie vooraf weer. Hierdoor neemt de tijd voor toegang tot uw werkmap af. Wanneer u een referentie- of mediabestand invoegt in uw onderwerp, begint de locatie van het bestand bovendien met de map die is ingesteld in het basispad.
-      - **Uitgezochte Kaart van de Wortel**: Selecteer een DITA kaartdossier om zeer belangrijke verwijzingen of verklarende woordenlijstingangen op te lossen. De geselecteerde hoofdmap heeft de hoogste prioriteit om toetsverwijzingen op te lossen. Voor meer details, lost de mening [ zeer belangrijke verwijzingen ](./map-editor-other-features.md) op.
-      - **Maximum aantal recente dossiers**: Gebruik dit gebied, om een maximumgrens op de dossiers te plaatsen die in Recente dossiers widget worden getoond.
-      - **plaats standaard kaart het openen gedrag**: Hier, kunt u een standaardgedrag selecteren het systeem tijdens het openen van een DITA kaartdossier zal volgen.
+   - **Uitgezochte Kaart van de Wortel**: Selecteer een DITA kaartdossier om zeer belangrijke verwijzingen of verklarende woordenlijstingangen op te lossen. De geselecteerde hoofdmap heeft de hoogste prioriteit om toetsverwijzingen op te lossen. Voor meer details, lost de mening [ zeer belangrijke verwijzingen ](./map-editor-other-features.md) op.
+   - **Maximum aantal recente dossiers**: Gebruik dit gebied, om een maximumgrens op de dossiers te plaatsen die in Recente dossiers widget worden getoond.
+   - **het Openen voorkeur voor Kaarten**: Hier, kunt u een standaardgedrag selecteren het systeem zal volgen terwijl het openen van een DITA kaartdossier.
 
 - **Verschijning**: Het lusje van de Verschijning voorziet u van de opties om de thema&#39;s voor de toepassing en de bronmening van het inhoudsuitgevende gebied te selecteren. Op dit tabblad kunt u de volgende instellingen configureren:
 
-  ![](images/user_preference_editor_appearance.png){align="left"}
+  ![](images/user_preference_editor_appearance-new.png){align="left"}
 
-   - **de vertoningsconfiguratie van de dossiers van de Redacteur**: Selecteer de standaardmanier om de dossiers in de Redacteur te bekijken. U kunt de bestandenlijst weergeven op titel of bestandsnaam in de verschillende deelvensters van de weergave Auteur. Standaard worden de bestanden op titel weergegeven in de Editor.
-   - **het thema van de Toepassing en de mening van Source**: U kunt van de Lichte of Donkere thema&#39;s voor de toepassing en bronmening kiezen. In het geval van het thema Licht gebruiken de werkbalken en deelvensters een lichtgrijze achtergrond. In het geval van het thema Donker gebruiken de werkbalken en deelvensters een achtergrond met een zwarte kleur. Selecteer **thema van het apparaat van 0&rbrace; Gebruik &lbrace;om Experience Manager Guides toe te staan om de lichte en donkere thema&#39;s te selecteren die op het thema van uw apparaat worden gebaseerd.**
+   - **het thema van de Toepassing en de mening van Source**: U kunt van de Lichte of Donkere thema&#39;s voor de toepassing en bronmening kiezen. In het geval van het thema Licht gebruiken de werkbalken en deelvensters een lichtgrijze achtergrond. In het geval van het thema Donker gebruiken de werkbalken en deelvensters een achtergrond met een zwarte kleur. Selecteer **thema van het apparaat van 0} Gebruik {om Experience Manager Guides toe te staan om de lichte en donkere thema&#39;s te selecteren die op het thema van uw apparaat worden gebaseerd.**
 
      In alle thema&#39;s wordt het bewerkingsgebied van de inhoud weergegeven in een witte-kleurenachtergrond in de weergave Auteur.
 
+   - **de vertoningsconfiguratie van de dossiers van de Redacteur**: Selecteer de standaardmanier om de dossiers in de Redacteur te bekijken. U kunt de bestandenlijst weergeven op titel of bestandsnaam in de verschillende deelvensters in de weergave Auteur. Standaard worden de bestanden op titel weergegeven in de Editor.
+
    - **bepaal altijd de plaats van dossiers in de bewaarplaats**: Selecteer deze optie om de plaats van een dossier in de bewaarplaats te tonen terwijl het uitgeven van het in de Redacteur.
-   - **toon non-breaking ruimteindicator op de auteurswijze**: Selecteer deze optie om een indicator voor de vaste ruimten te tonen terwijl het uitgeven van het in de Redacteur. Deze optie is standaard ingeschakeld.

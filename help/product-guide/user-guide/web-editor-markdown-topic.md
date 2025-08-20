@@ -4,9 +4,9 @@ description: Markeringsdocumenten van auteurs uit de Editor. Leer hoe u een Mark
 exl-id: def14e35-27c5-4b90-bc3d-eef7e8f317d2
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 779be011c078fb3c2fae4fc6a92e3e2d734672b0
 workflow-type: tm+mt
-source-wordcount: '1254'
+source-wordcount: '1197'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Markering is een eenvoudige opmaaktaal waarmee u opmaakelementen kunt toevoegen 
 Voer de volgende stappen uit om een onderwerp van de Prijsverhoging van de Redacteur tot stand te brengen:
 
 1. In het paneel van de Bewaarplaats, selecteer ![](images/Add_icon.svg), en selecteer dan **Onderwerp** van dropdown.
-1. In het **Nieuwe onderwerp** dialoogvakje, verstrek de volgende details:
+2. In het **Nieuwe onderwerp** dialoogvakje, verstrek de volgende details:
 
    ![](images/create-markdown-dialog.png){width="300" align="left"}
 
@@ -29,10 +29,10 @@ Voer de volgende stappen uit om een onderwerp van de Prijsverhoging van de Redac
    * **Malplaatje**: Selecteer **Markering** van de dropdown lijst. Het malplaatje **Onderwerp** wordt geselecteerd door gebrek.
    * **Weg**: Doorblader de weg waar u het onderwerpdossier wilt bewaren. Standaard wordt het pad van de geselecteerde map in de opslagplaats weergegeven in het veld Pad.
 
-   >
+   >[!NOTE]
    >
    > In het geval van een upgrade moet u de sjabloon Markering toevoegen aan het huidige mapprofiel dat wordt gebruikt. U kunt [ een nieuw prijsdalingsmalplaatje van de Redacteur ](./web-editor-features.md#templates) tot stand brengen of een bestaand malplaatje voor prijsdown authoring gebruiken. Voor details op hoe te om auteursmalplaatjes in Experience Manager Guides toe te voegen, mening [ vorm globale of omslag-vlakke profielen ](../cs-install-guide/conf-folder-level.md).
-1. Selecteer **creeer**.
+3. Selecteer **creeer**.
 
    Het onderwerp van de Prijsverhoging wordt gecreeerd bij de geselecteerde weg en is open voor het uitgeven.
 
@@ -88,7 +88,7 @@ De werkbalk bevindt zich vlak onder de tabbalk. De functies in de werkbalk worde
 | Handelingen bewerken | Verleent toegang tot diverse document het uitgeven eigenschappen met inbegrip van **Besnoeiing**  ![](images/S_Cut_18_N.svg), **ongedaan maken**  ![](images/S_Undo_18_N.svg), **opnieuw**  ![](images/S_Redo_18_N.svg), **Exemplaar**  ![](images/S_Copy_18_N.svg), **Schrapping**  ![](images/S_Delete_18_N.svg), en **Vondst en vervangt**  ![](images/S_FindAndReplace_18_N.svg) . U kunt tot de beschikbare opties van **toegang hebben** dropdown van het Menu. |
 | Opties voor tekstopmaak | Verleent toegang tot diverse tekst het formatteren opties met inbegrip van **Koppen**  ![](images/S_DisplayHeading_18_N.svg), **Vet**  ![](images/S_TextBold_18_N.svg), **Cursief**  ![](images/S_TextItalic_18_N.svg), **Doorhalen**  ![](images/S_TextStrikethrough_18_N.svg), **Code**  ![](images/S_Code_18_N.svg), en **citaat van het Blok**  ![](images/S_BlockQuoteMultipleLines_18_N.svg) . |
 | Opties voor het invoegen van inhoud | Verstrekt opties om a **Genummerde lijst** op te nemen  ![](images/S_TextNumbered_18_N.svg), **Geordende lijst**  ![](images/S_TextBulleted_18_N.svg), **Lijst**  ![](images/tableAdd.svg), **Beeld** ![](images/S_ImageAdd_18_N.svg), **Kruisverwijzing**  ![](images/S_LinkGlobe_18_N.svg), en **Symbool**  ![](images/S_SpecialCharacter_18_N.svg) in een document.<br><br> **Nota**: U kunt beelden en andere dossiers in de redacteur van de Prijsverhoging ook slepen en laten vallen. Bestanden worden toegevoegd als kruisverwijzingskoppelingen, terwijl afbeeldingen worden weergegeven als standaardelementen voor afbeeldingen. |
-| Versiehistorie | Hiermee kunt u versies van markeringsbestanden maken en de geschiedenis van wijzigingen weergeven. U kunt verschillende versies vergelijken en terugkeren naar vorige versies indien nodig. De de geschiedenisoptie van de Versie is aanwezig in **&#x200B;**&#x200B;dropdown van het Menu. |
+| Versiehistorie | Hiermee kunt u versies van markeringsbestanden maken en de geschiedenis van wijzigingen weergeven. U kunt verschillende versies vergelijken en terugkeren naar vorige versies indien nodig. De de geschiedenisoptie van de Versie is aanwezig in **** dropdown van het Menu. |
 | Opslaan als nieuwe versie | Slaat de veranderingen op die in het onderwerp worden aangebracht en leidt ook tot een nieuwe versie van het onderwerp. Als u aan een nieuw gecreeerd onderwerp werkt, wordt de versieinformatie getoond als niets. |
 | Vergrendelen/ontgrendelen | Hiermee vergrendelt of ontgrendelt u het huidige bestand. Door een bestand te vergrendelen hebt u exclusief schrijftoegang tot het bestand. Hierdoor kunnen andere gebruikers het bestand niet bewerken. Ontgrendel het bestand als u wilt dat anderen bewerkingstoegang hebben. Als beheerder, krijgt u ook toegang tot de **Grijsmacht ontgrendelt** eigenschap die u toestaat om het dossier te ontgrendelen dat door iemand anders wordt gesloten. |
 
@@ -158,7 +158,7 @@ In het gedeelte Verwijzingen hebt u toegang tot de volgende functies:
 * **Gebruikt in**: Gebruikt in verwijzingen maakt een lijst van de documenten waar het huidige dossier wordt bedoeld of gebruikt.
 * **Uitgaande verbindingen**: De Uitgaande verbindingen maken een lijst van de documenten die in het huidige document worden bedoeld.
 
->
+>[!NOTE]
 >
 > Alle Gebruikte binnen en Uitgaande verbindingsverwijzingen zijn hyperlinked aan de documenten. U kunt de gekoppelde documenten gemakkelijk openen en bewerken.
 
@@ -170,12 +170,9 @@ De volgende Experience Manager Guides-functies zijn momenteel niet van toepassin
 2. Samenvoegen
 3. AI-assistent
 4. Wijzigingen bijhouden
-5. Zoeken en vervangen
-6. Zoeken en filteren
-
->[!NOTE]
->
-> De **Vondst en vervangt** eigenschap verwerkt geen Prijsonderingsdossiers op het niveau van de bewaarplaats. Dit omvat het zoeken naar een Markeringsbestand in een kaart of map. Nochtans, kan het nog binnen de redacteur van de Prijsverhoging worden gebruikt. Ook, verwerkt het **Onderzoek** en **filter** opties in de mening van de Bewaarplaats geen Prijsonderingsdossiers.
 
 
-**Bovenliggend onderwerp:**&#x200B;[ Inleiding aan de Redacteur ](web-editor.md)
+
+
+
+**Bovenliggend onderwerp:**[ Inleiding aan de Redacteur ](web-editor.md)

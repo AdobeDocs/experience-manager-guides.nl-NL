@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lees de productdocumentatie voor Adobe Experience Manager Guides.
 breadcrumb-title: Documentatie voor AEM Guides
-source-git-commit: 200aae4c5d05531da5413c80a1cf254d2c0f0ec3
+source-git-commit: 3b306a873f3b71078256407d977e8bdd5af1180b
 workflow-type: tm+mt
-source-wordcount: '2282'
+source-wordcount: '2323'
 ht-degree: 1%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 1%
       - Cloud Services {#cloud-release-notes}
          - [Implementatieinstructies](./release-info/deploy-xml-on-aemaacs.md)
          - Versies van 2025 {#2025-releases}
+            - 2025.08.0 Release {#2508-release}
+               - [Nieuwe functies](./release-info/whats-new-2025-08-0.md)
+               - [Opgeloste problemen](./release-info/fixed-issues-2025-08-0.md)
+               - [Upgradeinstructies](./release-info/upgrade-instructions-2025-08-0.md)
             - 2025.07.0 Release {#2507-release}
                - [Nieuwe functies](./release-info/whats-new-2025-07-0.md)
                - [Opgeloste problemen](./release-info/fixed-issues-2025-07-0.md)
@@ -140,8 +144,8 @@ ht-degree: 1%
                - [4.2.1 Opmerkingen bij de release](./release-info/release-notes-4-2-1.md)
                - [4.2 Opmerkingen bij de release](./release-info/release-notes-4-2.md)
          - [Opmerkingen bij de release 4.1.x](./release-info/release-notes-4-1.md)
-         - [ 4.0.x de Nota&#39;s van de Versie ](https://helpx.adobe.com/nl/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [ 3.8.x de Nota&#39;s van de Versie ](https://helpx.adobe.com/nl/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [ 4.0.x de Nota&#39;s van de Versie ](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [ 3.8.x de Nota&#39;s van de Versie ](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Handboek (nieuwe gebruikersinterface) {#user-guide}
    - Inleiding {#about-aemg}
       - [Info  [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -193,12 +197,15 @@ ht-degree: 1%
    - Inhoud controleren {#review}
       - [Inleiding tot herziening](./user-guide/review.md)
       - [Een DITA-project maken](./user-guide/authoring-create-dita-project.md)
-      - [Onderwerpen ter controle verzenden](./user-guide/review-send-topics-for-review.md)
-      - [Revisietaak opnieuw toewijzen met behulp van melding](./user-guide/reassign-review-using-notification.md)
+      - [ verzendt onderwerpen voor overzicht ](./user-guide/review-send-topics-for-review.md)
       - [Onderwerpen bekijken](./user-guide/review-topics.md)
+      - [Revisietaak opnieuw toewijzen met behulp van melding](./user-guide/reassign-review-using-notification.md)
+      - [De revisietaak voltooien als Revisor](./user-guide/review-complete-review-tasks.md)
       - [Opmerkingen voor revisie van adres](./user-guide/review-address-review-comments.md)
+      - [Een revisietaak sluiten of opnieuw vragen](./user-guide/review-close-review-task.md)
       - [Revisietaken beheren met het dashboard Revisie](./user-guide/review-manage-tasks-review-dashboard.md)
       - [Een voltooide revisietaak weergeven](./user-guide/review-view-completed-task.md)
+      - [Herzieningsmeldingen](./user-guide/review-understanding-review-notifications.md)
    - Samenwerken met Adobe Workfront {#workfront-integration}
       - [Workfront-integratie met Experience Manager Guides](./user-guide/workfront-integration.md)
    - Metagegevens en codering {#manage-metadata}
@@ -335,7 +342,7 @@ ht-degree: 1%
       - Problemen oplossen {#troubleshooting}
          - [Time-out sessie](./user-guide/session-timeout-prompt.md)
 - Handboek (oude gebruikersinterface) {#user-guide-old-ui}
-   - [ overzicht van AEM Guides](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [ overzicht van AEM Guides ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installatie en configuratie {#install-guide}
    - Op locatie {#on-prem-ig}
       - [Basisbegrippen op locatie](./install-guide/introduction.md)
@@ -421,6 +428,7 @@ ht-degree: 1%
                - [JavaScript gebruiken om te werken met inhoud of stijl](./native-pdf/use-javascript-content-style.md)
                - [Stijlen toepassen op voetnoten](./native-pdf/footnote-number-style.md)
          - [JVM-vlaggen configureren voor native PDF-publicatie](./native-pdf/configure-jvm-flags.md)
+         - [Basisuitvoerlocatie configureren voor het publiceren van uitvoer](./native-pdf/configure-base-output-location.md)
          - Werken met aangepaste workflows {#custom-workflow}
          - [Workflows configureren en aanpassen](./install-guide/customize-workflows.md)
       - Werken met vertaalconfiguraties {#translate-config}
@@ -499,6 +507,7 @@ ht-degree: 1%
          - [Node-proces configureren voor native PDF-publicatie](./native-pdf/configure-node-options.md)
          - [Een koppeling maken tussen een onderwerp en een inhoudsfragment](./cs-install-guide/conf-content-fragment-mapping-cs.md)
          - [Een koppeling maken tussen een onderwerp en een ervaringsfragment](./cs-install-guide/conf-experience-fragment-mapping-cs.md)
+         - [Basisuitvoerlocatie configureren voor het publiceren van uitvoer](./native-pdf/configure-base-location-cs.md)
       - Werken met aangepaste workflows {#custom-workflow-cs}
          - [Workflows configureren en aanpassen](./cs-install-guide/customize-workflows.md)
       - Werken met vertaalconfiguraties {#translate-config-cs}

@@ -4,9 +4,9 @@ description: Leer hoe u bestanden en mappen in AEM Guides beheert. Kopieer en pl
 exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
-source-git-commit: 717d300c6e879bad573f67e3eb91dd266ab203c6
+source-git-commit: 14bbb3a055d8b528b6ed657be797c5fa96dd3e7e
 workflow-type: tm+mt
-source-wordcount: '3201'
+source-wordcount: '3263'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,6 @@ In deze sectie wordt uitgelegd hoe Adobe Experience Manager Guides de basisbesta
 - *als het dossier met de zelfde naam niet in de bestemmingsomslag* bestaat: Een nieuw exemplaar van het dossier wordt gecreeerd en een nieuwe UUID wordt ook toegewezen aan het bij de nieuwe plaats. Hier is de bestandsnaam gelijk aan de UUID.
 - *als het dossier met de zelfde naam reeds in de bestemmingsomslag* bestaat: Een nieuw exemplaar van het dossier wordt gecreeerd en een nieuwe UUID wordt ook toegewezen aan het. De bestandsnaam is gelijk aan de UUID.
 
-
 ## Mappen kopiëren en plakken
 
 **Exemplaar en deeg omslag bij de zelfde plaats**
@@ -43,6 +42,16 @@ In deze sectie wordt uitgelegd hoe Adobe Experience Manager Guides de basisbesta
 - *de omslag heeft dossiers met menselijke leesbare filenames*: Een nieuw exemplaar van de omslag wordt gecreeerd en een nieuwe UUID wordt ook toegewezen aan alle dossiers binnen de omslag bij de nieuwe plaats. Hier ziet u geen wijziging in de map- of bestandsnamen.
 
 - *de omslag heeft dossiers met filenames die op een patroon UUID* worden gebaseerd: Een nieuw exemplaar van de omslag wordt gecreeerd met de zelfde naam zoals de originele omslag. Er wordt ook een nieuwe UUID toegewezen aan alle bestanden in de nieuwe map. De bestandsnamen worden ook gewijzigd. De bestandsnamen zijn gelijk aan de nieuwe UUID.
+
+**bericht en bericht van het Succes**
+
+De kopiëren-deegverrichting voor omslagen in de UI van Assets loopt asynchroon op de achtergrond, die u toestaat blijven werkend terwijl het systeem het verzoek verwerkt. Er wordt een pop-upbericht weergegeven om aan te geven dat het proces is gestart.
+
+![](images/copy-folders-success-popup.png){width="350" align="left"}
+
+Wanneer de bewerking is voltooid, wordt een melding van een geslaagde of mislukte bewerking geactiveerd om aan te geven of de bewerking is geslaagd of mislukt.
+
+![](images/copy-folders-success-notification.png){width="650" align="left"}
 
 
 ## Bestanden slepen en neerzetten
@@ -126,7 +135,7 @@ Voer de volgende stappen uit om bestanden in bulk te verplaatsen:
 
 1. Selecteer het embleem van Adobe Experience Manager bij de bovenkant en kies **Hulpmiddelen**.
 1. Selecteer **Gidsen** van de lijst van hulpmiddelen.
-1. Selecteer de **tegel van het Hulpmiddel van de Verplaatsing 0&rbrace; Bulk.**
+1. Selecteer de **tegel van het Hulpmiddel van de Verplaatsing 0} Bulk.**
 1. De pagina Bulk verplaatsen wordt weergegeven op basis van uw instellingen. Verstrek de volgende details op de **pagina van het Hulpmiddel van de Beweging van het Bulk**:
 
    <details>
@@ -222,7 +231,7 @@ Adobe Experience Manager herkent standaard geen DITA-inhoud en biedt dus geen me
 
 >[!NOTE]
 >
->Uw systeembeheerder kan de **onderzoekscomponent vormen van het Element 0&rbrace; DITA &lbrace;en dan kunt u de eigenschap van Adobe Experience Manager Assets gebruiken UI.** Voor meer detailmening, *voeg de onderzoekscomponent van het Element DITA in Assets UI* sectie in toe installeer en vorm Adobe Experience Manager Guides as a Cloud Service.
+>Uw systeembeheerder kan de **onderzoekscomponent vormen van het Element 0} DITA {en dan kunt u de eigenschap van Adobe Experience Manager Assets gebruiken UI.** Voor meer detailmening, *voeg de onderzoekscomponent van het Element DITA in Assets UI* sectie in toe installeer en vorm Adobe Experience Manager Guides as a Cloud Service.
 
 Met de zoekfunctie kunt u:
 
@@ -317,4 +326,4 @@ Als uw media dossier om het even welke veranderingen heeft ondergaan, kunt u de 
    ![](images/media-version-preview.png){width="650" align="center"}
 
 
-**Bovenliggend onderwerp:**&#x200B;[ beheert inhoud ](authoring.md)
+**Bovenliggend onderwerp:**[ beheert inhoud ](authoring.md)

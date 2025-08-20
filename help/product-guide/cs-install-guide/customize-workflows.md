@@ -5,9 +5,9 @@ exl-id: a5742082-cc0b-49d9-9921-d0da1b272ea5
 feature: Workflow Configuration
 role: Admin
 level: Experienced
-source-git-commit: 026d75e69ef002607ac375cf1af7d055fcc22b38
+source-git-commit: 01efb1f17b39fcbc48d78dd1ae818ece167f4fe5
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '1762'
 ht-degree: 0%
 
 ---
@@ -18,16 +18,16 @@ Met workflows kunt u Adobe Experience Manager \(AEM\)-activiteiten automatiseren
 
 Zie voor meer informatie over workflows in AEM:
 
-- [ het beheren van de Instanties van het Werkschema ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/workflows-administering.html?lang=nl-NL)
+- [ het beheren van de Instanties van het Werkschema ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/workflows-administering.html)
 
-- Het toepassen van en het deelnemen aan werkschema&#39;s: [ Werkend met de Werkschema&#39;s van het Project ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/projects/workflows.html?lang=nl-NL).
+- Het toepassen van en het deelnemen aan werkschema&#39;s: [ Werkend met de Werkschema&#39;s van het Project ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/projects/workflows.html).
 
 
 De secties in dit onderwerp zullen u door diverse aanpassingen lopen die u in de standaardwerkschema&#39;s kunt maken die in AEM Guides worden verscheept.
 
 ## De revisiewerkstroom aanpassen {#id176NE0C00HS}
 
-Het team van het inhoudauteurs van elke organisatie werkt op een specifieke manier om aan hun bedrijfsvereisten te voldoen. In sommige organisaties is er een toegewijde editor, terwijl een andere organisatie een geautomatiseerd systeem voor redactionele herziening had kunnen opzetten. In een organisatie kan bijvoorbeeld een typische ontwerp- en publicatieworkflow taken bevatten zoals taken die elke auteur uitvoert met ontwerpinhoud, die automatisch naar de revisoren worden doorgestuurd wanneer de revisie is voltooid en die naar de uitgever worden doorgestuurd om de definitieve uitvoer te genereren. In AEM kunnen activiteiten die u uitvoert op uw inhoud en middelen worden gecombineerd in de vorm van een proces en worden toegewezen aan een AEM-workflow. Voor meer informatie over werkschema&#39;s in AEM, zie [ het Beheer Werkstromen ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/workflows-administering.html?lang=nl-NL) in de documentatie van AEM.
+Het team van het inhoudauteurs van elke organisatie werkt op een specifieke manier om aan hun bedrijfsvereisten te voldoen. In sommige organisaties is er een toegewijde editor, terwijl een andere organisatie een geautomatiseerd systeem voor redactionele herziening had kunnen opzetten. In een organisatie kan bijvoorbeeld een typische ontwerp- en publicatieworkflow taken bevatten zoals taken die elke auteur uitvoert met ontwerpinhoud, die automatisch naar de revisoren worden doorgestuurd wanneer de revisie is voltooid en die naar de uitgever worden doorgestuurd om de definitieve uitvoer te genereren. In AEM kunnen activiteiten die u uitvoert op uw inhoud en middelen worden gecombineerd in de vorm van een proces en worden toegewezen aan een AEM-workflow. Voor meer informatie over werkschema&#39;s in AEM, zie [ het Beheer Werkstromen ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/workflows-administering.html) in de documentatie van AEM.
 
 Met AEM Guides kunt u de standaardrevisiewerkstroom aanpassen. U kunt de volgende vier aangepaste revisiegerelateerde processen gebruiken in combinatie met andere workflows voor ontwerpen of publiceren.
 
@@ -60,6 +60,7 @@ workflowdata.getMetaDataMap().put("startTime", System.currentTimeMillis());
 workflowdata.getMetaDataMap().put("reviewType", "AEM");
 workflowdata.getMetaDataMap().put("versionJson", "[{\"path\":\"GUID-ca6ae229-889a-4d98-a1c6-60b08a820bb3.dita\",\"review\":true,\"version\":\"1.0\",\"reviewers\":[\"projects-samplereviewproject-owner\"]}]");
 workflowdata.getMetaDataMap().put("isDitamap","false");
+workflowdata.getMetaDataMap().put("reviewVersion","3.0");
 ```
 
 **voor Kaart**
@@ -86,6 +87,7 @@ workflowdata.getMetaDataMap().put("isDitamap", "true");
 workflowdata.getMetaDataMap().put("ditamap", "GUID-17feb385-acf3-4113-b838-77b11fd6988d.ditamap");
 var ditamapHierarchy = "[{\"path\":\"GUID-17feb385-acf3-4113-b838-77b11fd6988d.ditamap\",\"items\":[{\"path\":\"GUID-db5787bb-5467-4dc3-b3e5-cfde562ee745.ditamap\",\"items\":[{\"path\":\"GUID-ae42f13c-7201-4453-9a3a-c87675a5868e.dita\",\"items\":[],\"title\":\"\"},{\"path\":\"GUID-28a6517b-1b62-4d3a-b7dc-0e823225b6a5.dita\",\"items\":[],\"title\":\"\"}],\"title\":\"\"},{\"path\":\"GUID-dd699e10-118d-4f1b-bf19-7f1973092227.dita\",\"items\":[],\"title\":\"\"}]}]";
 workflowdata.getMetaDataMap().put("ditamapHierarchy", ditamapHierarchy);
+workflowdata.getMetaDataMap().put("reviewVersion","3.0");
 ```
 
 U kunt dit script maken in het knooppunt `/etc/workflows/scripts` . In de volgende tabel worden de eigenschappen beschreven die door beide van het bovengenoemde ECMA-script worden toegewezen.
@@ -104,12 +106,13 @@ U kunt dit script maken in het knooppunt `/etc/workflows/scripts` . In de volgen
 | `startTime` | Lang | Gebruik de functie `System.currentTimeMillis()` om de huidige systeemtijd op te halen. |
 | `projectPath` | String | Pad van het revisieproject waaraan de toetsingstaak zal worden toegewezen, bijvoorbeeld: /content/projects/samplereviewproject. |
 | `reviewType` | String | Statische waarde &quot;AEM&quot;. |
-| `versionJson` | JSON-object | versionJson is een lijst van onderwerpen die in de revisie gaan waar elk onderwerpobject de volgende structuur { &quot;weg&quot;heeft: &quot;/content/dam/1-topic.dita&quot;, &quot;versie&quot;: &quot;1.1&quot;, &quot;overzicht&quot;: waar, &quot;recensenten&quot;: [ &quot;projects-we_retail-editor&quot;] } |
+| `versionJson` | JSON-object | versionJson is een lijst van onderwerpen die in de revisie gaan waar elk onderwerpobject de volgende structuur heeft [ &quot;weg&quot;: &quot;/content/dam/1-topic.dita&quot;, &quot;versie&quot;: &quot;1.1&quot;, &quot;overzicht&quot;: waar, &quot;recensenten&quot;: [ &quot;projects-we_retail-editor&quot;] ] |
 | `isDitamap` | Boolean | false/true |
-| `ditamapHierarchy` | JSON-object | Als de kaart wordt verzonden voor overzicht dan zou de waarde hier als moeten zijn:[ { &quot;weg&quot;: &quot;GUID-f0df1513-fe07-473f-9960-477d4df29c87.ditamap&quot;, &quot;punten&quot; GUID [ &quot;weg&quot;: &quot;-97 47e8ab-8cf1-45dd-9e20-d47d482f667d.dita&quot;, &quot;title&quot;: &quot;&quot;, &quot;items&quot;: [] } ] &rbrace; ]. |
+| `ditamapHierarchy` | JSON-object | Als de kaart wordt verzonden voor overzicht dan zou de waarde hier als moeten zijn:[ { &quot;weg&quot;: &quot;GUID-f0df1513-fe07-473f-9960-477d4df29c87.ditamap&quot;, &quot;punten&quot; GUID [ &quot;weg&quot;: &quot;-97 47e8ab-8cf1-45dd-9e20-d47d482f667d.dita&quot;, &quot;title&quot;: &quot;&quot;, &quot;items&quot;: [] } ] } ]. |
 | `ditamap` | String | Het pad opgeven van de tijdelijke aanduiding van de revisietaak |
 | `allowAllReviewers` | Boolean | false/true |
 | `notifyViaEmail` | Boolean | false/true |
+| `reviewVersion` | String | Geeft de huidige versie van de revisieworkflow op. De standaardwaarde wordt ingesteld op `3.0` .<br> om de nieuwe eigenschappen van het overzichtswerkschema voor [ Auteurs ](../user-guide/review-close-review-task.md) en [ Reviewers ](../user-guide/review-complete-review-tasks.md) toe te laten, zorg ervoor dat `reviewVersion` aan `3.0` wordt geplaatst. |
 
 
 Nadat u het script hebt gemaakt, roept u het aan voordat u het revisieproces maken in uw workflow oproept. Afhankelijk van uw vereisten kunt u vervolgens de andere revisiewerkstroomprocessen aanroepen.
@@ -123,31 +126,64 @@ U kunt voorkomen dat revisiewerkstromen automatisch worden gewist door het model
 In de **Configuratie van de Woorden van het Werkschema van Adobe Granite**, zorg ervoor dat u minstens één werkschema een lijst maakt dat u veilig kunt zuiveren. U kunt bijvoorbeeld de volgende workflows gebruiken die door AEM Guides zijn gemaakt:
 
 - /etc/workflow/models/publishditamap/jcr:content/model
-- /etc/workflow/models/post-dita-project-creation-tasks/jcr:content/model
+- /etc/workflow/models/post-dita-project-creation-tasks/ jcr:content/model
 
 Toevoegend een werkschema in de **Configuratie van de Woorden van het Werkschema van Adobe Granite** zorgt ervoor dat AEM slechts die werkschema&#39;s zuivert die in de configuratie vermeld zijn. Zo voorkomt u dat AEM de informatie over de revisiewerkstroom opschoont.
 
 Voor meer details over het vormen van de **Configuratie van de Woorden van het Werkschema van Adobe Granite**, zie *het Beheer van de Instanties van het Werkschema* in de documentatie van AEM.
 
-### E-mailsjablonen aanpassen
+### E-mail- en AEM-meldingen aanpassen
 
-Een aantal AEM Guides-workflows maakt gebruik van e-mailmeldingen. Als u bijvoorbeeld een revisietaak start, wordt een e-mailmelding verzonden naar de revisoren. Om ervoor te zorgen dat het e-mailbericht wordt verzonden, moet u deze functionaliteit echter in AEM inschakelen. Om e-mailbericht in AEM toe te laten, zie het artikel [ Verzendend E-mail ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html?lang=nl-NL#sending-email) in de documentatie van AEM.
+Een aantal AEM Guides-workflows maakt gebruik van e-mailmeldingen. Als u bijvoorbeeld een revisietaak start, wordt een e-mailmelding verzonden naar de revisoren. Om ervoor te zorgen dat het e-mailbericht wordt verzonden, moet u deze functionaliteit echter in AEM inschakelen. Om e-mailbericht in AEM toe te laten, zie het artikel [ Verzendend E-mail ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html#sending-email) in de documentatie van AEM.
 
-De AEM Guides bevat een set e-mailsjablonen die u kunt aanpassen. Voer de volgende stappen uit om deze sjablonen aan te passen:
+De AEM Guides bevat een set e-mailberichten en AEM-meldingen die worden gebruikt in de revisiewerkstroom en die u kunt aanpassen. Voer de volgende stappen uit om deze meldingen aan te passen:
 
-1. Gebruik Pakketbeheer om het `/libs/fmdita/mail` -bestand te downloaden.
+1. Gebruik Pakketbeheer om de map `/libs/fmdita/mail/review` te downloaden.
 
    >[!NOTE]
    >
    > Breng geen aanpassingen aan in de standaardconfiguratiebestanden in het knooppunt ``libs`` . U moet een overlay van het knooppunt ``libs`` in het knooppunt ``apps`` maken en de vereiste bestanden alleen in het knooppunt ``apps`` bijwerken.
 
-1. De e-mailmap bevat de volgende aanpasbare sjablonen:
+1. De map `review` bevat de volgende submappen:
 
-   | Naam sjabloonbestand | Beschrijving |
+   - `aem-notification`
+   - `CSS`
+   - `email-notification`
+
+   De gedetailleerde beschrijving van deze submappen wordt hieronder uitgelegd:
+
+   | Submappen controleren | Beschrijving |
    |-----------------|-----------|
-   | closereview.html | Deze e-mailsjabloon wordt gebruikt wanneer een revisietaak wordt gesloten. |
-   | createreview.html | Deze e-mailsjabloon wordt gebruikt wanneer een nieuwe revisietaak wordt gemaakt. |
-   | reviewapproval.css | Dit CSS-bestand bevat de opmaak van e-mailsjablonen. |
+   | `aem-notification` | Bevat verschillende AEM-berichttypen die kunnen worden aangepast. <br> `closed` <br> `content-updated` <br> `feedback-addressed` <br> `feedback-provided` <br> `requested` <br> `reviewer-removed` <br> `tag-mention` <br> In deze submappen bevinden zich `primary.vm` - en `secondary.vm` -bestanden waarmee u de AEM-berichttitel en -beschrijving kunt aanpassen. |
+   | `CSS` | Bevat het bestand `email-notification.css` voor het aanpassen van de opmaak van e-mailmeldingen. |
+   | `email-notification` | Bevat verschillende typen e-mailmeldingen die u kunt aanpassen. <br> `closed` <br> `content-updated` <br> `feedback-addressed` <br> `feedback-provided` <br> `requested` <br> `reviewer-removed` <br> `tag-mention` <br> In deze submappen bevinden zich `primary.vm` - en `secondary.vm` -bestanden waarmee u het onderwerp en de hoofdtekst van de e-mailmelding kunt aanpassen. |
+
+De definitie van elk meldingstype wordt hieronder beschreven:
+
+- `closed`: activeert wanneer een revisietaak wordt gesloten.
+- `content-updated`: activeert wanneer een auteur of aanvrager de inhoud bijwerkt.
+- `feedback-addressed`: activeert wanneer de auteur of aanvrager de opmerkingen behandelt en een revisie aanvraagt bij de Revisor.
+- `feedback-provided` Triggers wanneer Reviewer de taak als voltooid markeert door opmerkingen op taakniveau te leveren aan de auteur of initiator van de revisietaak.
+- `requested`: activeert wanneer een auteur of aanvrager een revisietaak maakt.
+- `reviewer-removed`: activeert wanneer een revisor niet is toegewezen aan de revisietaak.
+- `tag-mention`: activeert wanneer een gebruiker wordt genoemd of gelabeld in revisieopmerkingen.
+
+Zorg tijdens het aanpassen van een e-mail- of AEM-melding dat u alleen de volgende vooraf gedefinieerde set variabelen gebruikt die in `primary.vm` - en `secondary.vm` -bestanden worden gebruikt.
+
+
+| **naam van Variabele** | **Beschrijving** | **Type van Gegevens** |
+|-------------------------|---------------------------------------------------------------|---------------|
+| `projectPath` | Pad naar het project met de overzichtstaak | String |
+| `reviewTitle` | Titel van de toetsingstaak | String |
+| `projectName` | Naam van het project | String |
+| `commentator` | Naam van de gebruiker die een opmerking heeft toegevoegd | String |
+| `commentExcerpt` | Fragment van de toegevoegde opmerking | String |
+| `taskLink` | Directe koppeling naar de revisietaak | URL |
+| `authorName` | Naam van de auteur die de revisietaak heeft gemaakt of bijgewerkt | String |
+| `dueDate` | Vervaldatum van de toetsingstaak | Datum |
+| `reviewerName` | Naam van de controleur die aan de taak is toegewezen | String |
+| `user` | Gebruiker die is betrokken bij de revisietaak, zoals Auteur, Reviewer of zelfs Beheerder. | String |
+| `recipient` | Specifieke gebruiker die de melding ontvangt | String |
 
 
 ## Workflow voor het genereren na uitvoer aanpassen {#id17A6GI004Y4}

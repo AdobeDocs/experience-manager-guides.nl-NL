@@ -5,9 +5,9 @@ exl-id: 38711c0c-efa8-461a-92e1-ecfcdcdd36d3
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: a3c7973868549c72e868c05a3fc6ca8bdce9bce3
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '327'
 ht-degree: 0%
 
 ---
@@ -41,12 +41,13 @@ Ga als volgt te werk om `@navtitle` -kenmerk standaard op te nemen in de eigensc
                            },
    ```
 
-1. Wijzig de parameter `required` als:
+1. Verander de parameter `required` zoals hieronder getoond:
 
    ```
    "required": {"navtitle": true}
    ```
 
+   Wanneer de reeks aan `true`, **verfrist het attribuut van de navigatitel** knoop wordt toegelaten om omhoog in de toolbar van de Redacteur te tonen. Wanneer ingesteld op `false` of leeg gelaten, blijft de knop verborgen in de Editor.
 1. Sla het bestand op.
 
 1. Upload het bestand in het bijbehorende profiel \(Algemeen of Map\).
@@ -54,4 +55,6 @@ Ga als volgt te werk om `@navtitle` -kenmerk standaard op te nemen in de eigensc
 
 Met deze configuratie bevat elk referentiebestand dat u toevoegt aan een kaart standaard het kenmerk `@navtitle` .
 
-**Bovenliggend onderwerp:**&#x200B;[ pas de Redacteur van het Web ](conf-web-editor.md) aan
+
+
+**Bovenliggend onderwerp:**[ pas de Redacteur van het Web ](conf-web-editor.md) aan

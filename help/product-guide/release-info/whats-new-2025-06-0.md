@@ -3,9 +3,9 @@ title: Opmerkingen bij de release | Nieuwe functies in de Adobe Experience Manag
 description: Meer informatie over de nieuwe en verbeterde functies in de 2025.06.0-release van Adobe Experience Manager Guides
 role: Leader
 exl-id: 48f27aa6-d870-4228-8e62-db81699a25f7
-source-git-commit: 158c2a99ac43fd70726bedf30f4de1a970a48864
+source-git-commit: d418ffb254b11430509609b91e0174690815cf73
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
@@ -17,14 +17,6 @@ Dit artikel behandelt de nieuwe en verbeterde functies die zijn geïntroduceerd 
 Voor de lijst van kwesties die in deze versie worden bevestigd, mening [ Vaste kwesties in de versie 2025.06.0 ](fixed-issues-2025-06-0.md).
 
 Leer over [ verbeteringsinstructies voor de versie 2025.06.0 ](../release-info/upgrade-instructions-2025-06-0.md).
-
-## Tijdelijke bestanden voor gepubliceerde uitvoer bevatten nu auteur- en publicatie-URL&#39;s in een nieuw configuratiebestand
-
-De meest recente publicatieverbeteringen aan Experience Manager Guides voegen nu een nieuw `system_config.json` -bestand toe aan de tijdelijke bestanden die worden gegenereerd tijdens het publiceren van HTML-, PDF- en JSON-uitvoerbestanden met behulp van DITA-OT en Native PDF-uitvoer. Dit dossier is automatisch inbegrepen in de het publiceren baan en ook toegankelijk door tijdelijke dossiers wanneer u **laat behouden tijdelijke dossiers** optie voor vooraf instelt en de output produceren.
-
-Het bestand `system_config.json` bevat belangrijke instantiedetails, zoals de URL van de auteur, de lokale URL en de URL voor publiceren, die een duidelijkere context bieden en de traceerbaarheid van de gedownloade URL&#39;s verbeteren.
-
-Voor meer details, begrijpt de mening [ de output vooraf instelt ](../user-guide/generate-output-understand-presets.md).
 
 ## Time-outmelding voor sessie om onbedoeld verlies van inhoud te voorkomen
 

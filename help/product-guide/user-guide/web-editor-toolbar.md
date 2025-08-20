@@ -4,9 +4,9 @@ description: Krijg om de Toolbar in de Redacteur te kennen. Meer informatie over
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
-source-git-commit: b80737d6066008104ceea103edbc828bc8e632cb
+source-git-commit: 3dee9b2c90515ff7681770247f215996dc2c8325
 workflow-type: tm+mt
-source-wordcount: '5909'
+source-wordcount: '5962'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,9 @@ De werkbalk verschijnt wanneer u een onderwerp of kaart opent voor bewerking in 
 
 ## Vervolgkeuzelijst Menu
 
-Het vervolgkeuzemenu Menu biedt toegang tot de bewerkingsacties, Zoeken en vervangen, Versiegeschiedenis, Versielabel, Samenvoegen, Revisietaak maken, Wijzigingen bijhouden en de functie Codes.
+In het vervolgkeuzemenu Menu hebt u toegang tot de bewerkingsacties, Zoeken en vervangen, Versiegeschiedenis, Versielabel, Samenvoegen, Revisietaak maken en Tonen (inclusief Wijzigingen bijhouden, Codes, Vaste spatie).
+
+![ dropdown van het Menu voor de toolbar van de Redacteur ](images/editor-toolbar-menu-dropdown-new.png){width="350" align="left"}
 
 Hieronder wordt een gedetailleerde uitleg gegeven van deze kenmerken:
 
@@ -61,7 +63,7 @@ De **geschiedeniseigenschap van de Versie** in de Redacteur staat u toe om de be
 
 
 1. Open een onderwerp in de Redacteur.
-1. Selecteer **geschiedenis van de Versie** van **&#x200B;**&#x200B;dropdown van het Menu.
+1. Selecteer **geschiedenis van de Versie** van **** dropdown van het Menu.
 
    Het **de dialoogvakje van de Geschiedenis van de Versie** verschijnt.
 
@@ -121,7 +123,7 @@ Met Experience Manager Guides kunt u labels opgeven in een tekstindeling met vri
 
 Deze labels worden in de vorm van een vervolgkeuzelijst weergegeven aan auteurs, waar ze een label moeten opgeven. Dit zorgt ervoor dat alleen vooraf gedefinieerde, consistente labels in het systeem worden gebruikt.
 
-Er zijn verschillende methodes waardoor u etiketten op uw onderwerpen kunt toepassen - [&#128279;](web-editor-use-label.md) paneel van de geschiedenis van de 1&rbrace; Versie in Assets UI, [ Basislijnen ](/help/product-guide/user-guide/generate-output-use-baseline-for-publishing.md) UI, en de Redacteur.  Met de functie Versielabel in de Editor kunnen auteurs snel en eenvoudig labels toewijzen aan hun onderwerpen.
+Er zijn verschillende methodes waardoor u etiketten op uw onderwerpen kunt toepassen - [ paneel van de geschiedenis van de 1} Versie in Assets UI, ](web-editor-use-label.md) Basislijnen [ UI, en de Redacteur. ](/help/product-guide/user-guide/generate-output-use-baseline-for-publishing.md) Met de functie Versielabel in de Editor kunnen auteurs snel en eenvoudig labels toewijzen aan hun onderwerpen.
 
 <details>
     <summary> Stappen om etiketten aan uw onderwerp van de Redacteur toe te voegen </summary>
@@ -227,52 +229,52 @@ Voer de volgende stappen uit om wijzigingen in een kaartbestand samen te voegen:
 
 U kunt [ een overzichtstaak ](./review-send-topics-for-review.md) van het huidige onderwerp of kaartdossier direct van de Redacteur tot stand brengen. Open het dossier waarvoor u de overzichtstaak wilt tot stand brengen en **selecteren creeert overzichtstaak** van dropdown van het Menu om het proces van de overzichtsverwezenlijking in werking te stellen.
 
-**de veranderingen van het Spoor**
+**toon menu**
 
-U kunt alle updates die op een document zijn aangebracht bijhouden door de modus Wijzigingen bijhouden in te schakelen. Nadat u wijzigingen in de track hebt ingeschakeld, worden alle invoegingen en verwijderingen vastgelegd in het document. Alle verwijderde inhoud wordt gemarkeerd met Doorhalen en alle invoegingen worden gemarkeerd in groene tekst. Bovendien krijgt u ook de veranderingsbars bij de rand van de onderwerppagina. Ook hier wordt een rode balk weergegeven voor verwijderde inhoud en een groene balk voor toegevoegde inhoud. Als er een toevoeging en schrapping op de zelfde lijn is, dan zowel worden de groene als de rode bars getoond.
+Het menu Tonen bestaat uit de volgende functies:
 
+- **de veranderingen van het Spoor:** u kunt een spoor van alle die updates houden op een document worden aangebracht door het Spoor toe te laten verandert wijze. Nadat u wijzigingen in de track hebt ingeschakeld, worden alle invoegingen en verwijderingen vastgelegd in het document. Alle verwijderde inhoud wordt gemarkeerd met Doorhalen en alle invoegingen worden gemarkeerd in groene tekst. Bovendien krijgt u ook de veranderingsbars bij de rand van de onderwerppagina. Ook hier wordt een rode balk weergegeven voor verwijderde inhoud en een groene balk voor toegevoegde inhoud. Als er een toevoeging en schrapping op de zelfde lijn is, dan zowel worden de groene als de rode bars getoond.
 In de volgende schermafbeelding wordt de verwijderde en ingevoegde inhoud samen met de wijzigingsbalken gemarkeerd:
+  ![](images/track-changes-content.png){width="650" align="left"}
 
-![](images/track-changes-content.png){width="650" align="left"}
+  Doorgaans kunnen wijzigingen in een document worden bijgehouden bij collegiale toetsing. U kunt wijzigingen bijhouden inschakelen en uw document delen voor revisie. De revisor brengt vervolgens wijzigingen aan met de functie Wijzigingen bijhouden ingeschakeld. Wanneer u het document ontvangt, hebt u een mechanisme nodig om de voorgestelde updates samen met een handige manier te bekijken om wijzigingen te accepteren of te negeren.
 
-Doorgaans kunnen wijzigingen in een document worden bijgehouden bij collegiale toetsing. U kunt wijzigingen bijhouden inschakelen en uw document delen voor revisie. De revisor brengt vervolgens wijzigingen aan met de functie Wijzigingen bijhouden ingeschakeld. Wanneer u het document ontvangt, hebt u een mechanisme nodig om de voorgestelde updates samen met een handige manier te bekijken om wijzigingen te accepteren of te negeren.
+  Experience Manager Guides biedt de functie Bijgehouden wijzigingen die informatie bevat over de updates die in het document zijn aangebracht. De functie Bijgehouden wijzigingen biedt informatie over welke updates zijn uitgevoerd, wie deze heeft gemaakt en op welk moment. Met de functie Bijgehouden wijzigingen kunt u de voorgestelde updates in het document ook gemakkelijk accepteren of negeren.
 
-Experience Manager Guides biedt de functie Bijgehouden wijzigingen die informatie bevat over de updates die in het document zijn aangebracht. De functie Bijgehouden wijzigingen biedt informatie over welke updates zijn uitgevoerd, wie deze heeft gemaakt en op welk moment. Met de functie Bijgehouden wijzigingen kunt u de voorgestelde updates in het document ook gemakkelijk accepteren of negeren.
+  Om tot de eigenschap toegang te hebben, selecteer het **pictogram van het Spoor verandert** in het juiste paneel.
 
-Om tot de eigenschap toegang te hebben, selecteer het **pictogram van het Spoor verandert** in het juiste paneel.
+  ![](images/changes-panel_cs.png){width="300" align="left"}
 
-![](images/changes-panel_cs.png){width="300" align="left"}
+  Als u een bijgehouden wijziging selecteert, wordt de gewijzigde inhoud in het document geselecteerd. U kunt een wijziging accepteren door het pictogram Wijziging accepteren te selecteren of deze te negeren door Wijzigen negeren te selecteren.
 
-Als u een bijgehouden wijziging selecteert, wordt de gewijzigde inhoud in het document geselecteerd. U kunt een wijziging accepteren door het pictogram Wijziging accepteren te selecteren of deze te negeren door Wijzigen negeren te selecteren.
+  Als u alle veranderingen met één enkele klik wilt goedkeuren of verwerpen, selecteert **goedkeurt alle veranderingen** of **verwerpt alle veranderingen**.
 
-Als u alle veranderingen met één enkele klik wilt goedkeuren of verwerpen, selecteert **goedkeurt alle veranderingen** of **verwerpt alle veranderingen**.
+  >[!NOTE]
+  >
+  > In de modus Voorvertoning kunt u het document met of zonder de gewijzigde markeringen van de inhoud weergeven. Voor meer details, bekijk de [ wijze van de Voorproef ](web-editor-views.md#preview-mode).
 
->[!NOTE]
->
-> In de modus Voorvertoning kunt u het document met of zonder de gewijzigde markeringen van de inhoud weergeven. Voor meer details, bekijk de [ wijze van de Voorproef ](web-editor-views.md#preview-mode).
+- **Markeringen:** De **3} eigenschap van Markeringen {in de Redacteur is een knevelknoop die de zichtbaarheid van elementen DITA controleert.** Als deze optie is ingeschakeld, worden structuurcodes binnen de inhoud weergegeven, zodat u de onderliggende DITA-elementen beter kunt weergeven en beheren. Als deze optie is uitgeschakeld, verbergt de editor deze tags, zodat de ontwerpomgeving schoner en gerichter wordt.
 
-**Markeringen**
+  In de volgende schermafbeelding ziet u een document waarvoor de weergave Codes is ingeschakeld:
 
-De **eigenschap van Markeringen** in de Redacteur is een knevelknoop die de zichtbaarheid van elementen DITA controleert. Als deze optie is ingeschakeld, worden structuurcodes binnen de inhoud weergegeven, zodat u de onderliggende DITA-elementen beter kunt weergeven en beheren. Als deze optie is uitgeschakeld, verbergt de editor deze tags, zodat de ontwerpomgeving schoner en gerichter wordt.
+  ![](images/tags-view.png){width="650" align="left"}
 
-In de volgende schermafbeelding ziet u een document waarvoor de weergave Codes is ingeschakeld:
+  De volgende bewerkingen kunnen worden uitgevoerd in een document met codes:
 
-![](images/tags-view.png){width="650" align="left"}
+   - **selecteer een element**: Selecteer de het openen of het sluiten markering van een element om zijn inhoud te selecteren.
 
-De volgende bewerkingen kunnen worden uitgevoerd in een document met codes:
+   - **breid of doen ineenstorten markeringen** uit: selecteer + of - teken in een markering om het uit te breiden of samen te vouwen.
 
-- **selecteer een element**: Selecteer de het openen of het sluiten markering van een element om zijn inhoud te selecteren.
+   - **Gebruik het contextmenu**: Het contextmenu verstrekt opties om, het geselecteerde element te snijden te kopiëren of te kleven. U kunt ook een element voor of na het geselecteerde element invoegen. Met de andere opties kunt u een id genereren of het deelvenster Eigenschappen openen voor het geselecteerde element.
 
-- **breid of doen ineenstorten markeringen** uit: selecteer + of - teken in een markering om het uit te breiden of samen te vouwen.
-
-- **Gebruik het contextmenu**: Het contextmenu verstrekt opties om, het geselecteerde element te snijden te kopiëren of te kleven. U kunt ook een element voor of na het geselecteerde element invoegen. Met de andere opties kunt u een id genereren of het deelvenster Eigenschappen openen voor het geselecteerde element.
-
-- **belemmering-en-dalingselementen**: Selecteer de markering van een element en belemmering-en-daling het gemakkelijk op uw document. Als de neerzetlocatie een geldige locatie is waar het element is toegestaan, wordt het element op de neergezette locatie geplaatst.
+   - **belemmering-en-dalingselementen**: Selecteer de markering van een element en belemmering-en-daling het gemakkelijk op uw document. Als de neerzetlocatie een geldige locatie is waar het element is toegestaan, wordt het element op de neergezette locatie geplaatst.
 
 
->[!NOTE]
->
-> Als een gebruiker de weergave Codes in de Editor inschakelt, blijft deze zelfs tijdens de sessies ingeschakeld. Dit betekent dat u de mening van Markeringen niet moet opnieuw toelaten om tot het later toegang te hebben. De standaardwaarde voor de weergave Codes van een nieuwe gebruikerssessie wordt bepaald door de eigenschap `tagsView` in het `ui\_config.json` -bestand. Voor meer details, bekijk [ standaardwaarde voor de sectie van de Mening van Markeringen ](../cs-install-guide/configure-default-value-tags-view.md) in installeer en vorm Adobe Experience Manager Guides as a Cloud Service.
+  >[!NOTE]
+  >
+  > Als een gebruiker de weergave Codes in de Editor inschakelt, blijft deze zelfs tijdens de sessies ingeschakeld. Dit betekent dat u de mening van Markeringen niet moet opnieuw toelaten om tot het later toegang te hebben. De standaardwaarde voor de weergave Codes van een nieuwe gebruikerssessie wordt bepaald door de eigenschap `tagsView` in het `ui\_config.json` -bestand. Voor meer details, bekijk [ standaardwaarde voor de sectie van de Mening van Markeringen ](../cs-install-guide/configure-default-value-tags-view.md) in installeer en vorm Adobe Experience Manager Guides as a Cloud Service.
+
+- **Vaste ruimte:** laat deze optie toe om een indicator voor de vaste ruimten te tonen terwijl het uitgeven van het in de Redacteur. Het is zichtbaar slechts in de **Auteur** mening voor onderwerp DITA en kaarten DITA.
 
 ## Opties voor het invoegen van inhoud
 
@@ -363,7 +365,7 @@ Met behulp van het contextmenu van de tabel kunt u:
 U kunt ook kenmerken definiëren voor meerdere cellen, hele rijen of kolommen in een tabel. Als u bijvoorbeeld een tabelcel wilt uitlijnen, sleept u en selecteert u de gewenste cel. In het paneel van Eigenschappen van de Inhoud (op het recht), verandert het bezit **Type** in **ingang**.
 
 1. In de **sectie van Attributen**, uitgezocht **+ voeg** toe.
-1. Selecteer het `@valign` attribuut van de **2&rbrace; dropdown lijst van Attributen &lbrace;.**
+1. Selecteer het `@valign` attribuut van de **2} dropdown lijst van Attributen {.**
 1. Selecteer in de vervolgkeuzelijst Waarde de gewenste tekstuitlijning die u wilt toepassen op de geselecteerde tabelcellen.
 1. Selecteer **toevoegen.**
 
@@ -467,7 +469,7 @@ U kunt ook zoeken met de UUID van het bestand waarnaar u wilt verwijzen. Voer bi
 
 ![](images/insert-content-using-uuid-search.png){width="650" align="left"}
 
-Als uw beheerder de optie UUIDs in *XMLEditorConfig* heeft toegelaten, dan zult u UUID van de referenced inhoud in het **3&rbrace; bezit van de Verbinding &lbrace;bekijken.**
+Als uw beheerder de optie UUIDs in *XMLEditorConfig* heeft toegelaten, dan zult u UUID van de referenced inhoud in het **3} bezit van de Verbinding {bekijken.**
 
 ![](images/ref-link-uuid_cs.png){align="left"}
 
@@ -544,7 +546,7 @@ U kunt de kenmerken van het trefwoord wijzigen of een nieuw kenmerk aan het tref
 
 **Fragmenten** - ![](images/insert-snippet-icon.svg)
 
-Voeg een fragment in op de huidige of volgende geldige locatie. Deze functie werkt alleen als in uw systeem fragmenten zijn gedefinieerd. Voor meer informatie over het toevoegen van een fragment, bekijk de **eigenschapbeschrijving van het Fragment** &lbrace;in de [ Linkerpaneel ](./web-editor-left-panel.md) sectie.
+Voeg een fragment in op de huidige of volgende geldige locatie. Deze functie werkt alleen als in uw systeem fragmenten zijn gedefinieerd. Voor meer informatie over het toevoegen van een fragment, bekijk de **eigenschapbeschrijving van het Fragment** {in de [ Linkerpaneel ](./web-editor-left-panel.md) sectie.
 
 Wanneer u de optie Fragmenten selecteert, wordt de catalogus Fragment invoegen weergegeven. De catalogus is contextgevoelig, wat aangeeft dat de fragmenten alleen worden weergegeven als ze op de huidige locatie zijn toegestaan.
 
@@ -621,4 +623,4 @@ Als een bestand is vergrendeld door een andere gebruiker en u de muisaanwijzer b
 Als beheerder, krijgt u ook toegang tot de **Grijsmacht ontgrendelt** eigenschap die u toestaat om het dossier te ontgrendelen dat door andere gebruikers wordt gesloten. Met deze functie hebt u toegang tot de bewerkingsrechten voor een bestand dat is vergrendeld door andere gebruikers.
 
 ![](images/web-editor-force-unlock-new.png){width="350" align="left"}
-**Bovenliggend onderwerp:**&#x200B;[ Inleiding aan de Redacteur ](web-editor.md)
+**Bovenliggend onderwerp:**[ Inleiding aan de Redacteur ](web-editor.md)

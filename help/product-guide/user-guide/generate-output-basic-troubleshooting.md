@@ -4,9 +4,9 @@ description: Los problemen op met basisoplossingen in AEM Guides. Leer om, het l
 exl-id: 57b88291-b5a3-4931-b3ed-f2b2ce7a463c
 feature: Publishing, Troubleshooting
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 262edba89ab4bf65cb6e109bd7c5df177e2e56fe
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '721'
 ht-degree: 0%
 
 ---
@@ -21,24 +21,32 @@ Voer de volgende stappen uit om het logboekbestand van de outputgeneratie te bek
 
 1. Zodra u het proces van de outputgeneratie hebt in werking gesteld, uitgezochte **Output** in de DITA kaartconsole.
 
-   De **Algemene** kolom van de **Gegenereerde Output** toont de pictogrammen om een visuele richtsnoer over het succes of de mislukking van de outputgeneratie te geven.
+   De **Generatie die** kolom van **plaatst Gegenereerde Output** toont de kleur om een visuele richtsnoer over het succes of de mislukking van de outputgeneratie voor verschillende output vooraf instelt te geven.
 
-   ![](images/output-general-settings.png){width="300" align="left"}
+   ![](images/output-general-settings-new.png){width="300" align="left"}
 
-   In de bovenstaande schermafbeelding geven het eerste en derde pictogram een mislukte uitvoergeneratie aan. Het tweede pictogram toont een succesvolle outputgeneratie maar met berichten. De laatste is een geslaagde outputgeneratie zonder enig bericht.
+   In de bovenstaande schermafbeelding:
+
+   - Rood geeft aan dat de uitvoer is mislukt.
+   - Groen geeft aan dat de uitvoer is gelukt.
+   - Ambergeel geeft aan dat de uitvoer met fouten is gelukt.
+
+   >[!NOTE]
+   >
+   > De kleuren op het **lusje van de Output**, dat de status van diverse outputresultaten aanwijst, zijn verschillend van de kleuren die worden gebruikt om de diverse soorten fout binnen de logboekdossiers te categoriseren.
 
 1. Selecteer de verbinding in **Gegenereerd bij** kolom nadat de baan volledig is.
 
    Het logbestand wordt op een nieuw tabblad geopend.
 
-   ![](images/log-file.png){align="left"}
+   ![](images/log-file-new.png){align="left"}
 
 1. Pas de volgende filters toe om de tekst in het logbestand te markeren:
-   - Onherstelbaar: hiermee worden de fatale fouten in het logbestand met roze kleur gemarkeerd.
-   - Fout: markeert de fouten in het logbestand met oranje kleur.
-   - Waarschuwing: hiermee worden de waarschuwingen in het logbestand gemarkeerd met paarse kleur.
-   - Info: hiermee worden de informatieberichten in het logbestand gemarkeerd met een blauwe kleur.
-   - Uitzondering: markeert de uitzonderingen in het logbestand met een gele kleur.
+   - Onherstelbaar: hiermee worden de fatale fouten in het logbestand met donkerrode kleur gemarkeerd.
+   - Fout: hiermee worden de fouten in het logbestand gemarkeerd met rode kleur. Uitzonderingen worden beschouwd als fouten en worden op dezelfde manier rood gemarkeerd.
+   - Waarschuwing: markeert de waarschuwingen in het logbestand met een amberkleurige kleur.
+   - Info: hiermee worden de informatieberichten in het logbestand gemarkeerd met een groene kleur.
+
 1. Met de navigatieknoppen Omhoog en Omlaag kunt u naar de gemarkeerde tekst in het logbestand gaan.
 
    U kunt ook door het logbestand bladeren en de berichten controleren.
@@ -91,4 +99,4 @@ Voer de volgende stappen uit om dit probleem op te lossen:
 1. Verhoog de waarde voor het *Aantal Vraag per de parameter van het Verzoek* zoals per uw vereisten.
 
 
-**Bovenliggend onderwerp:**&#x200B;[ Productie van de Output ](generate-output.md)
+**Bovenliggend onderwerp:**[ Productie van de Output ](generate-output.md)

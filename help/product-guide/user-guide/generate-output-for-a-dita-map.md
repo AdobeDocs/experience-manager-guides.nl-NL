@@ -4,9 +4,9 @@ description: Produceer output voor een kaart DITA van de kaartconsole en het das
 exl-id: d6cbd44c-e74c-4192-bcc4-fb7752c59508
 feature: Publishing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 358d38ca761661eaee7aeac2cc7d46c53105c543
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Voer de volgende stappen uit om output voor een kaart te produceren DITA gebruik
 
    <img src="images/generate-output-pdf.png" alt="tabblad Metagegevens" width="600">
 
-   Of, beweeg over vooraf ingesteld en selecteer **&#x200B;**&#x200B;van het vooraf ingestelde contextmenu produceren.
+   Of, beweeg over vooraf ingesteld en selecteer **** van het vooraf ingestelde contextmenu produceren.
 
 
    <img src="images/generate-preset-map-console.png" alt="tabblad Metagegevens" width="600">
@@ -67,7 +67,15 @@ U kunt het huidige statuut van het verzoek van de outputgeneratie in de **Uitvoe
 
 U kunt de output van AEM Sites voor één of meerdere onderwerpen, of de volledige kaart DITA van de console van de Kaart ook produceren. Voor meer details, produceert de mening [ output van de Kennisbank ](web-editor-article-publishing.md#id218CK0U019I).
 
+## Verschillende onderwerpen in een DITA-kaart samenvoegen met het kenmerk `chunk`
+
+Een kaart DITA kan verschillende onderwerptypes zoals verwijzing, concept, en taak omvatten. Met het kenmerk `chunk=to-content` kunt u deze onderwerpen samenvoegen om één pagina-uitvoer op AEM Sites te genereren. Nochtans, om het samengevoegde onderwerp behoorlijk te publiceren, zorg ervoor dat uw Beheerder de correcte catalogus van XML in de Profielen DITA heeft gevormd.
+
+Het systeem vereist een Openbare identiteitskaart met het `composite` sleutelwoord in de catalogus van XML om de aangewezen regel correct te identificeren en toe te passen DTD.
+Deze configuratie is standaard opgenomen in de standaard XML-catalogus. Nochtans, als u een catalogus van douaneXML gebruikt, zorg ervoor uw Beheerder deze openbare identiteitskaart aan de configuratie heeft toegevoegd. Zonder het, kan het samengevoegde onderwerp niet behoorlijk publiceren.
+
+Voor details op hoe te om Openbare identiteitskaart en identiteitskaart van het Systeem in uw douaneDTDs/XSDs te gebruiken, mening [ integreer specialisatie DITA ](../cs-install-guide/dita-ot-specialization.md#integrate-dita-specialization-id211mb0e00xa).
 
 
 
-**Bovenliggend onderwerp:**&#x200B;[ Productie van de Output ](generate-output.md)
+**Bovenliggend onderwerp:**[ Productie van de Output ](generate-output.md)

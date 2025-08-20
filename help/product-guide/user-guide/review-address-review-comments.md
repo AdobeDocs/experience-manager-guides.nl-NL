@@ -4,29 +4,28 @@ description: Leer hoe u revisieopmerkingen als auteur in AEM Guides kunt behande
 exl-id: 4c969788-f700-4fd6-8afa-8e5b411b59f3
 feature: Reviewing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: f8320d0e0b5982d932c9df46f8ccf35d5f44dbac
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1220'
 ht-degree: 0%
 
 ---
 
 # Opmerkingen voor revisie van adres {#id2056B0X0KBI}
 
+Als auteur, kunt u commentaren in een onderwerp richten gebruikend de Redacteur. De opmerkingen worden geladen op basis van de revisietaak die is geselecteerd in het deelvenster Revisie. Voor meer details, bekijk de **paneel** eigenschapbeschrijving van het Overzicht ![](images/active-review-tasklist-icon.svg) {in de [ Linkerpaneel ](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.
 
-Als auteur, kunt u commentaren in een onderwerp richten gebruikend de Redacteur van het Web. De opmerkingen worden geladen op basis van de revisietaak die is geselecteerd in het deelvenster Revisie. Voor meer details, bekijk de **paneel ![](images/active-review-tasklist-icon.svg) eigenschapbeschrijving van het Overzicht** &lbrace;in de [ Linkerpaneel ](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.
+De volgende secties beschrijven manieren om commentaren in de Redacteur te richten.
 
-De volgende secties beschrijven manieren om commentaren in de Redacteur van het Web te richten.
-
-Een auteur kan commentaren in een document van de Redacteur van het Web richten. Visuele indicatoren die erop wijzen of de commentaren die \ (tekst \) werden opgenomen, werden geschrapt of werden benadrukt. Het type opmerking wordt ook boven aan elke opmerking vermeld.
+Een auteur kan opmerkingen in een document adresseren vanuit de Editor. Visuele indicatoren die erop wijzen of de commentaren die \ (tekst \) werden opgenomen, werden geschrapt of werden benadrukt. Het type opmerking wordt ook boven aan elke opmerking vermeld.
 
 >[!NOTE]
 >
-> Zorg tijdens het richten van overzichtscommentaren \ (voor een actief overzichtsdocument \), ervoor dat u-open niet het onderwerp in overzicht in veelvoudige lusjes met volledig toegelaten etikettenmening, niet tussen de Auteur en de meningswijzen van Source schakelt.
+> Zorg tijdens het richten van overzichtscommentaren \ (voor een actief overzichtsdocument \), ervoor dat u niet het onderwerp in-overzicht in veelvoudige lusjes met volledig toegelaten markeringsmening opent, niet tussen de Auteur en de meningswijzen van Source schakelt.
 
 ![](images/comments-page-web-editor_cs-new.png){align="left"}
 
-In de modus van de webeditor bevat het rechterdeelvenster de pictogrammen Wijzigingen controleren en bijhouden. In het deelvenster Revisie worden alle opmerkingen weergegeven die revisoren in uw document hebben gemaakt. Het **paneel van de Veranderingen van het Spoor** toont de status van alle opgenomen en geschrapte commentaren in uw document.
+In de Editor bevat het rechterdeelvenster de pictogrammen Revisie en Wijzigingen bijhouden. In het deelvenster Revisie worden alle opmerkingen weergegeven die door revisoren in uw document zijn gemaakt. Het **paneel van de veranderingen van het Spoor** toont de status van alle opgenomen en geschrapte commentaren in uw document.
 
 - **A**: Selecteer een overzichtstaak om overzichtscommentaren te bekijken. Als uw onderwerp voor overzicht in veelvoudige overzichtstaken is gedeeld, zult u die taken bekijken die in deze drop-down worden vermeld.
 
@@ -42,7 +41,7 @@ In de modus van de webeditor bevat het rechterdeelvenster de pictogrammen Wijzig
   >
   > Als de wortelkaart van uw overzichtstaak van de auteurswortelkaart verschillend is, toont het de informatie over het om erop te wijzen dat de creatie en de kaart van de overzichtswortel niet aanpassen.
 
-- **C**: Als u uw onderwerp na het in werking stellen van het overzicht hebt bijgewerkt, dan terugkeert het selecteren van Onderwerp aan het pictogram van de Versie van het Overzicht uw werkend exemplaar terug naar de versie die voor overzicht werd gedeeld. Hierdoor kunt u de revisie-feedback rechtstreeks opnemen in de versie die ter controle is gedeeld. Na het opnemen van terugkoppelt, kunt u veranderingen in de omgekeerde versie bewaren of een nieuwe revisie van uw onderwerp tot stand brengen. Als u verkiest om een nieuwe revisie van uw onderwerp tot stand te brengen, dan wordt een nieuwe tak gecreeerd van de onderwerpversie die voor overzicht werd gedeeld. Als u bijvoorbeeld versie `1.2` van een onderwerp hebt gedeeld voor revisie terwijl de huidige ontwerpversie `1.3` is, kunt u dit pictogram gebruiken om terug te gaan naar versie `1.2` voor het opnemen van revisieopmerkingen. Als u een nieuwe revisie maakt nadat u wijzigingen in versie `1.2` hebt ingevoegd, wordt een nieuwe vertakking met versie `1.2.0` gemaakt voor het onderwerp.
+- **C**: Als u uw onderwerp na het in werking stellen van het overzicht hebt bijgewerkt, dan terugkeert het selecteren van **Onderwerp aan het pictogram van de Versie van het Overzicht** uw het werk exemplaar terug naar de versie die voor overzicht werd gedeeld. Hierdoor kunt u de revisie-feedback rechtstreeks opnemen in de versie die ter controle is gedeeld. Na het opnemen van terugkoppelt, kunt u veranderingen in de omgekeerde versie bewaren of een nieuwe revisie van uw onderwerp tot stand brengen. Als u verkiest om een nieuwe revisie van uw onderwerp tot stand te brengen, dan wordt een nieuwe tak gecreeerd van de onderwerpversie die voor overzicht werd gedeeld. Als u bijvoorbeeld versie `1.2` van een onderwerp hebt gedeeld voor revisie terwijl de huidige ontwerpversie `1.3` is, kunt u dit pictogram gebruiken om terug te gaan naar versie `1.2` voor het opnemen van revisieopmerkingen. Als u een nieuwe revisie maakt nadat u wijzigingen in versie `1.2` hebt ingevoegd, wordt een nieuwe vertakking met versie `1.2.0` gemaakt voor het onderwerp.
 
   Typisch, na het opnemen van overzicht terugkoppelt, zou u veranderingen van de recentste versie van het onderwerp willen samenvoegen. Om dit te doen, gebruik de [ eigenschap van de Fusie ](web-editor-features.md#id205DF04E0HS) om alle die updates te krijgen nadat het onderwerp voor overzicht werd gedeeld.
 
@@ -62,7 +61,7 @@ In de modus van de webeditor bevat het rechterdeelvenster de pictogrammen Wijzig
 
   >[!IMPORTANT]
   >
-  > De functie Opmerkingen importeren werkt alleen voor de documenten die niet zijn gewijzigd sinds ze zijn gedeeld voor revisie. Als u om het even welke verandering na het verzenden van het document voor overzicht hebt aangebracht, zult u een alarm aan **krijgen van de Invoer van de Kracht** commentaren in uw document. Dit leidt echter tot het verlies van alle updates die u in uw document hebt gemaakt. Het **alarm van de Invoer van 0&rbrace; Kracht wordt ook getoond als het document buiten wordt gecreeerd en dan voor overzicht wordt gedeeld.** U kunt de opmerkingen importeren.
+  > De functie Opmerkingen importeren werkt alleen voor de documenten die niet zijn gewijzigd sinds ze zijn gedeeld voor revisie. Als u om het even welke verandering na het verzenden van het document voor overzicht hebt aangebracht, zult u een alarm aan **krijgen van de Invoer van de Kracht** commentaren in uw document. Dit leidt echter tot het verlies van alle updates die u in uw document hebt gemaakt. Het **alarm van de Invoer van 0} Kracht wordt ook getoond als het document buiten wordt gecreeerd en dan voor overzicht wordt gedeeld.** U kunt de opmerkingen importeren.
 
   Als en wanneer u een opmerking accepteert of afwijst, wordt deze verwijderd uit de lijst Bijgehouden wijzigingen. Dit is ook een indicator voor het aantal opmerkingen dat in het document moet worden behandeld.
 
@@ -72,5 +71,23 @@ In de modus van de webeditor bevat het rechterdeelvenster de pictogrammen Wijzig
 
 - **I**: Pas een filter op de commentaren toe. U kunt filteren om opmerkingen weer te geven op basis van het revisietype \(alle, gemarkeerde, verwijderde, ingevoegde of notitie\), de revisiestatus \(alle, geaccepteerde, geweigerde of geen\), de revisoren \(alle of specifieke revisoren\(s\)\) of de versies van het onderwerp.
 
+**Antwoord aan een commentaar door andere gebruikers te etiketteren**
 
-**Bovenliggend onderwerp:**&#x200B;[ Inleiding aan overzicht ](review.md)
+Als auteur en initiator van de revisietaak kunt u reageren op revisieopmerkingen en andere gebruikers die bij dezelfde revisietaak zijn betrokken, een tag toewijzen om hun aandacht te richten of follow-ups toe te wijzen. Deze functionaliteit is alleen beschikbaar voor actieve revisietaken.
+
+>[!NOTE]
+>
+> Om de lijst van gebruikers te bekijken die aan een overzichtstaak worden toegewezen en hen in een commentaar etiketteren, moet u *Gelezen toegang* op `/home/users and /home/groups` knopen hebben. Voor details, mening [ gebruikersbeleid en veiligheid ](../cs-install-guide/user-admin-sec.md#additional-notes-on-user-groups). <br> Als er na het bevestigen van de toegang nog steeds geen codes beschikbaar zijn, moet uw beheerder mogelijk een `user-admin` -licentie toewijzen om deze functionaliteit in te schakelen.
+
+![](images/tag-users-review.png){width="350" align="left"}
+*de gebruikers van de Titel :Tag als initiatiefnemer/Auteur*
+
+Gecodeerde gebruikers ontvangen zowel een e-mail als een AEM-melding, zodat ze deze snel kunnen informeren. Voor meer details op hoe de heroverwegingsberichten teweegbrengen, mening [ het Begrip van heroverwegingsberichten ](./review-understanding-review-notifications.md).
+
+**de revisiecommentaren van de Toegang gebruikend het Overzicht UI**
+
+Als u de initiatiefnemer of Auteur van een overzichtstaak bent en het van de **console van Projecten** opent, zal het onderwerp in het Overzicht UI lanceren. Aangezien deze taak niet aan u is toegewezen, kunt u opmerkingen weergeven en hierop reageren, maar kunt u geen revisiehandelingen uitvoeren. De werkbalk Opmerkingen blijft uitgeschakeld voor gebruikers die niet aan de taak zijn toegewezen.
+
+![](images/review-comments-toolbar-disabled.png){width="350" align="left"}
+
+**Bovenliggend onderwerp:**[ Inleiding aan overzicht ](review.md)

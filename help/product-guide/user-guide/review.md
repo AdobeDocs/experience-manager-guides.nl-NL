@@ -4,9 +4,9 @@ description: U kunt onderwerpen of kaarten op efficiënte wijze beoordelen in AE
 exl-id: 81ea0b52-52b0-4764-a6d8-a96d5c7693bf
 feature: Reviewing
 role: User
-source-git-commit: 38ea2eb35ebd75c1202c86d598ad953db3894d40
+source-git-commit: b7648fe1d36de3c243ca5a55f42a41f7523056ce
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Enkele belangrijkste eigenschappen die door Adobe Experience Manager Guides aan 
 - Deel een bijgewerkte versie van het onderwerp voor overzicht van het Dashboard van het Overzicht.
 
 - De commentaren van de toegang die op verschillende versies van onderwerp worden gedeeld.
-
+- Tags toewijzen aan gebruikers van een specifieke revisietaak in opmerkingen of antwoorden voor snelle actie en follow-ups. Gecodeerde gebruikers worden direct via AEM en via e-mail op de hoogte gesteld.
 - Groep en filtercommentaren die op versie van onderwerp worden gebaseerd.
 
 - De verschillen van de mening zij aan zij tussen verschillende versies van onderwerpen die voor overzicht worden gedeeld.
@@ -41,6 +41,7 @@ Eigenschappen beschikbaar aan de *recensenten*:
 - Schakel tussen samengestelde weergave en individuele onderwerpweergave.
 - Gebruik de gereedschappen voor opmerkingen, zoals het invoegen, verwijderen, markeren en notities en opmerkingen, om feedback te geven.
 - Voeg een of meerdere bestanden toe aan een revisieopmerking.
+- Reageer op een opmerking door gebruikers die betrokken zijn bij dezelfde revisietaak van tags te voorzien.
 - Download bijlagen van een opmerking.
 - In het deelvenster Revisie kunt u opmerkingen toevoegen of reageren op opmerkingen van andere gebruikers.
 - U kent gemakkelijk de versie van het onderwerp dat wordt gecontroleerd.
@@ -57,10 +58,18 @@ Eigenschappen beschikbaar aan de *recensenten*:
 
 - **[verzendt onderwerpen voor overzicht](review-send-topics-for-review.md)**
 
+- **[onderwerpen van het Overzicht](review-topics.md)**
+
 - **[wijs opnieuw overzichtstaak toe gebruikend bericht](reassign-review-using-notification.md)**
 
-- **[onderwerpen van het Overzicht](review-topics.md)**
+- **[voltooi de overzichtstaak als Recensent](review-complete-review-tasks.md)**
 
 - **[de revisiecommentaren van het Adres](review-address-review-comments.md)**
 
+- **[dicht of verzoek opnieuw overzicht voor een overzichtstaak](review-close-review-task.md)**
+
 - **[beheer overzichtstaken gebruikend het Dashboard van het Overzicht](review-manage-tasks-review-dashboard.md)**
+
+- **[Mening een voltooide overzichtstaak](review-view-completed-task.md)**
+
+- **[Begrijpend overzichtsberichten](review-understanding-review-notifications.md)**

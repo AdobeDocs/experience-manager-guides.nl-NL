@@ -5,9 +5,9 @@ feature: Authoring
 role: Admin
 level: Experienced
 exl-id: 1f72642c-e694-47cd-9182-f4f4aaf69655
-source-git-commit: d5068ac73748ec7bc047450a947924b40977748f
+source-git-commit: 4ac91ae3be8a7eda99389288c4a70a2047456071
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
@@ -23,12 +23,12 @@ Leer meer over [ integratie van Adobe Workfront ](../user-guide/workfront-integr
 Voordat u aan de slag gaat, moet u ervoor zorgen dat:
 
 1. U hebt standaard toegang tot Adobe Workfront en beheerderstoegang tot Experience Manager Guides.
-2. U [ creeert een nieuwe douanevorm in Adobe Workfront ](https://experienceleague.adobe.com/nl/docs/workfront/using/administration-and-setup/customize/custom-forms/design-a-form/design-a-form) die voor Experience Manager Guides wordt vereist door de hieronder gebieden specifiek te gebruiken:
+2. U [ creeert een nieuwe douanevorm in Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/customize/custom-forms/design-a-form/design-a-form) die voor Experience Manager Guides wordt vereist door de hieronder gebieden specifiek te gebruiken:
 
    | Veldtype | Label | Naam | Keuzen (waarden tonen ingeschakeld) |
    |------------|------|------|-------------------------------|
    | Vervolgkeuzelijst met één keuze | Taaktype | taaktype | Authoring (value = AUTHOR), Publishing (value = PUBLISH), Translation (value = TRANSLATION), Review (value = REVIEW) |
-   | Vervolgkeuzelijst met één keuze | Taakstatus | taakstaat | Authoring (value = AUTHOR), revisie (value = REVIEW) |
+   | Vervolgkeuzelijst met één keuze | Taakstatus | taakstaat | Authoring (value = AUTHOR), Publishing (value = PUBLISH), Translation (value = TRANSLATION), Review (value = REVIEW) |
    | Tekst met opmaak | Lijst met auteurs | schrijverlijst | - |
    | Tekst met opmaak | Lijst met revisoren | reviewerlijst | - |
    | Tekst met één regel | URL controleren | review-url | - |
@@ -39,6 +39,8 @@ Voordat u aan de slag gaat, moet u ervoor zorgen dat:
 >
 > * In de bovengenoemde lijst, vertegenwoordigen de keuzen de opties beschikbaar onder het **type van Taak** gebied. Voor elke optie, zou u vereisen om de **taaknaam** en **taakwaarde** te verstrekken. De naam en waarden voor elk taaktype moeten exact hetzelfde zijn als in de bovenstaande tabel. Bijvoorbeeld, voor taaktypeAuteur, verstrek **Authoring** als naam en **AUTEUR** als zijn overeenkomstige waarde.
 > * Wanneer het werken met de diensten op prem, zorg altijd ervoor dat `localhost` met het correcte serveradres in de **Dag CQ de configuratie van de Verbinding van de Verbinding Externalzer** wordt vervangen om de opgeloste taakverbinding in de e-mailberichten behoorlijk te ontvangen.
+> * Wanneer het creëren van een overzichtstaak in Workfront, moeten de gebruikers (auteurs of recensenten) deel van de **werkschema-gebruikers** groep uitmaken. Bovendien, als a **Auteur** moet u een deel van **tevreden-auteurs** en **auteurs** groep zijn, terwijl als a **Recensent** u een deel van de **recensenten** groep moet zijn.
+
 
 ## Aan de slag
 
@@ -55,7 +57,7 @@ Voer de volgende stappen uit om Adobe Workfront in Experience Manager Guides te 
 
    Om tot **identiteitskaart van de Cliënt toegang te hebben** en **Geheime** sleutel van de Cliënt die in uw opstelling van Adobe Workfront wordt gevormd, navigeer aan `Setup >> Systems>> oAuth2 Applications`.
 
-   Voor meer details over het vormen van uw domein van Adobe Workfront, bekijk de sectie van de de codestroom van de Vergunning in [ creeer toepassingen OAuth2 voor de integratie van Workfront ](https://experienceleague.adobe.com/nl/docs/workfront/using/administration-and-setup/configure-integrations/create-oauth-application#create-an-oauth2-application-using-user-credentials-authorization-code-flow).
+   Voor meer details over het vormen van uw domein van Adobe Workfront, bekijk de sectie van de de codestroom van de Vergunning in [ creeer toepassingen OAuth2 voor de integratie van Workfront ](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/configure-integrations/create-oauth-application#create-an-oauth2-application-using-user-credentials-authorization-code-flow).
 
 4. Selecteer **Login en verifieer**.
 
@@ -64,7 +66,7 @@ Voer de volgende stappen uit om Adobe Workfront in Experience Manager Guides te 
 
    U wordt automatisch omgeleid naar de Workfront-configuratiepagina op Experience Manager Guides.
 
-6. Selecteer in de vervolgkeuzelijst voor aangepaste formulieren het aangepaste Adobe Workfront-formulier dat u voor Experience Manager Guides hebt gemaakt. Vereisten van de mening [&#128279;](#prerequisites).
+6. Selecteer in de vervolgkeuzelijst voor aangepaste formulieren het aangepaste Adobe Workfront-formulier dat u voor Experience Manager Guides hebt gemaakt. Vereisten van de mening [ ](#prerequisites).
 7. Selecteer **sparen en sluit** om de de configuratieveranderingen van Workfront toe te passen en te bewaren.
 
-Zodra gevormd, [ voeg gebruikers aan Adobe Workfront ](https://experienceleague.adobe.com/nl/docs/workfront/using/administration-and-setup/add-users/create-manage-users/add-users) toe gebruikend de zelfde e-mailadressen zij in Experience Manager Guides hebben.
+Zodra gevormd, [ voeg gebruikers aan Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/add-users/create-manage-users/add-users) toe gebruikend de zelfde e-mailadressen zij in Experience Manager Guides hebben.

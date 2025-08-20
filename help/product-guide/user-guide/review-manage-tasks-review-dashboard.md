@@ -4,9 +4,9 @@ description: Revisietaken beheren via het revisiedashboard in AEM Guides. Leer d
 exl-id: 4fef5653-1c73-4b68-adf2-b24145555142
 feature: Reviewing
 role: User
-source-git-commit: 717d300c6e879bad573f67e3eb91dd266ab203c6
+source-git-commit: 19e521ed790a7ac25afab88e8878250f943d9bff
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1348'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,10 @@ Voer de volgende stappen uit om toegang te krijgen tot en gebruik te maken van h
 
    ![](images/review-management.png){align="left"}
 
+   >[!NOTE]
+   >
+   > U kunt het projectdashboard ook rechtstreeks openen vanuit het linkerdeelvenster van de Editor. Open het [ paneel van het Overzicht ](./web-editor-left-panel.md#review) en gebruik **Open het** pictogram van het projectdashboard dat tegen elk overzichtsproject wordt geplaatst dat in het paneel van het Overzicht wordt vermeld.
+
 1. Selecteer de drie punten in de **tegel van Revisies**.
 
    Het revisiedashboard wordt weergegeven. Het dashboard bevat een lijst met alle revisietaken die u hebt gemaakt.
@@ -41,7 +45,7 @@ Voer de volgende stappen uit om toegang te krijgen tot en gebruik te maken van h
 
 1. Selecteer een revisietaak.
 
-   U wordt getoond geeft Eigenschappen uit en [ 1&rbrace; opties van de Status &lbrace;in de toolbar.](#check-review-status-id199RF0A0UHS)
+   U wordt getoond geeft Eigenschappen uit en [ 1} opties van de Status {in de toolbar.](#check-review-status-id199RF0A0UHS)
 
 1. Als u **selecteert geef Eigenschappen** uit, wordt de pagina van de Details van de Taak getoond.
 
@@ -126,4 +130,4 @@ Het statusrapport voor de controletaak bevat de volgende details:
 - Het totale aantal opmerkingen over alle onderwerpen. In het geval van veelvoudige onderwerpen onder overzicht, wordt het aantal commentaren voor elk onderwerp vermeld \ (tussen haakjes \) naast de onderwerpnaam.
 - De datum waarop een onderwerp voor het laatst is geopend door de revisor.
 
-**Bovenliggend onderwerp:**&#x200B;[ Inleiding aan overzicht ](review.md)
+**Bovenliggend onderwerp:**[ Inleiding aan overzicht ](review.md)
