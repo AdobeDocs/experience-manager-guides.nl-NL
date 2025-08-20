@@ -43,7 +43,7 @@ Toont de dialoog van het onderwerponderzoek. Navigeer aan het onderwerp/kaartdos
 
 **de groep van het Onderwerp** - ![](images/topic-group.svg)
 
-Voeg het element `topicgroup` in. Voor meer informatie over het groeperen van onderwerpen, bekijk de [ documentatie 0} topicgroup {in de Specificatie van de Taal van OASIS DITA.](https://docs.oasis-open.org/dita/v1.0/langspec/topicgroup.html)
+Voeg het element `topicgroup` in. Voor meer informatie over het groeperen van onderwerpen, bekijk de [ documentatie 0&rbrace; topicgroup &lbrace;in de Specificatie van de Taal van OASIS DITA.](https://docs.oasis-open.org/dita/v1.0/langspec/topicgroup.html)
 
 **Zeer belangrijke definitie** - ![](images/key-definition.svg)
 
@@ -146,7 +146,7 @@ Bovendien kunt u de volgende pictogrammen weergeven en de verwante taken uitvoer
 
 **Tussenvoegsel vóór/Tussenvoegsel na** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
-Geeft het element **Invoegen voor of **Element invoegen na dialoogvenster weer. Selecteer het element dat u op de kaart wilt invoegen. Afhankelijk van de bewerking wordt het nieuwe element ingevoegd voor of na het huidige element op de kaart.
+Geeft het element **Invoegen voor of &#x200B;** Element invoegen na dialoogvenster weer. Selecteer het element dat u op de kaart wilt invoegen. Afhankelijk van de bewerking wordt het nieuwe element ingevoegd voor of na het huidige element op de kaart.
 
 **Element** - ![](images/Add_icon.svg)
 
@@ -348,7 +348,7 @@ Het deelvenster Eigenschappen voor inhoud bevat informatie over het type onderwe
   ![ lay-outweergave ](images/layout-inline-attributes.png){width="650" align="left"}
 
 
-  Voor meer details, bekijk de *attributen van de Vertoning* binnen de *3} eigenschapbeschrijving van Montages {in de* Redacteur [.](web-editor-features.md#main-toolbar)
+  Voor meer details, bekijk de *attributen van de Vertoning* binnen de *3&rbrace; eigenschapbeschrijving van Montages &lbrace;in de* Redacteur [.](web-editor-features.md#main-toolbar)
 
 - **Meta-gegevens** Gebruikend de meta-gegevens, kunt u de meta-gegevensinformatie plaatsen. U kunt de NAV-titel, Tekst koppelen, Korte beschrijving en Trefwoorden definiëren.
 

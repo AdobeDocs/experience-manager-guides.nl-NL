@@ -110,7 +110,7 @@ U kunt dit script maken in het knooppunt `/etc/workflows/scripts` . In de volgen
 | `reviewType` | String | Statische waarde &quot;AEM&quot;. |
 | `versionJson` | JSON-object | versionJson is een lijst van onderwerpen die in de revisie gaan waar elk onderwerpobject de volgende structuur heeft [ &quot;weg&quot;: &quot;/content/dam/1-topic.dita&quot;, &quot;versie&quot;: &quot;1.1&quot;, &quot;overzicht&quot;: waar, &quot;recensenten&quot;: [ &quot;projects-we_retail-editor&quot;] ] |
 | `isDitamap` | Boolean | false/true |
-| `ditamapHierarchy` | JSON-object | Als de kaart wordt verzonden voor overzicht dan zou de waarde hier als moeten zijn:[ { &quot;weg&quot;: &quot;GUID-f0df1513-fe07-473f-9960-477d4df29c87.ditamap&quot;, &quot;punten&quot; GUID [ &quot;weg&quot;: &quot;-97 47e8ab-8cf1-45dd-9e20-d47d482f667d.dita&quot;, &quot;title&quot;: &quot;&quot;, &quot;items&quot;: [] } ] } ]. |
+| `ditamapHierarchy` | JSON-object | Als de kaart wordt verzonden voor overzicht dan zou de waarde hier als moeten zijn:[ { &quot;weg&quot;: &quot;GUID-f0df1513-fe07-473f-9960-477d4df29c87.ditamap&quot;, &quot;punten&quot; GUID [ &quot;weg&quot;: &quot;-97 47e8ab-8cf1-45dd-9e20-d47d482f667d.dita&quot;, &quot;title&quot;: &quot;&quot;, &quot;items&quot;: [] } ] &rbrace; ]. |
 | `ditamap` | String | Het pad opgeven van de tijdelijke aanduiding van de revisietaak |
 | `allowAllReviewers` | Boolean | false/true |
 | `notifyViaEmail` | Boolean | false/true |

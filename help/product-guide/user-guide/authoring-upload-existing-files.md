@@ -49,4 +49,4 @@ Voor meer details over hoe de diverse dossier uploadende scenario&#39;s function
 
 Als u een hulpprogramma zoals een Adobe Experience Manager-bureaubladtoepassing of het bulksgewijs invoegen van middelen gebruikt, wordt de handeling die op een gedupliceerd bestand wordt uitgevoerd, bepaald door een instelling op de Adobe Experience Manager-server. Neem contact op met de systeembeheerder voor informatie over deze configuratie.
 
-**Bovenliggend onderwerp:**[ beheert inhoud ](authoring.md)
+**Bovenliggend onderwerp:**&#x200B;[ beheert inhoud ](authoring.md)

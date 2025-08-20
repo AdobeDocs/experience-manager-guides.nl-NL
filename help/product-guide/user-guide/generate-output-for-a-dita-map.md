@@ -29,7 +29,7 @@ Voer de volgende stappen uit om output voor een kaart te produceren DITA gebruik
 
    <img src="images/generate-output-pdf.png" alt="tabblad Metagegevens" width="600">
 
-   Of, beweeg over vooraf ingesteld en selecteer **** van het vooraf ingestelde contextmenu produceren.
+   Of, beweeg over vooraf ingesteld en selecteer **&#x200B;**&#x200B;van het vooraf ingestelde contextmenu produceren.
 
 
    <img src="images/generate-preset-map-console.png" alt="tabblad Metagegevens" width="600">
@@ -78,4 +78,4 @@ Voor details op hoe te om Openbare identiteitskaart en identiteitskaart van het 
 
 
 
-**Bovenliggend onderwerp:**[ Productie van de Output ](generate-output.md)
+**Bovenliggend onderwerp:**&#x200B;[ Productie van de Output ](generate-output.md)
