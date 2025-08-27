@@ -5,7 +5,7 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: 10c0a105c09f5a20b5bf2ef9b3201e7747048a8a
+source-git-commit: 63e81b6213e293dd6b6e7e46b611b25d8cb6a815
 workflow-type: tm+mt
 source-wordcount: '4794'
 ht-degree: 0%
@@ -411,7 +411,7 @@ Als u een bestaande uitvoervoorinstelling hebt bijgewerkt of als u een nieuwe ui
 
 ## AI-assistent configureren voor slimme hulp en ontwerpen
 
-Voor ![ AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service.
+Voor Experience Manager Guides as a Cloud Service (![ wolk van AEM ](assets/aem-cloud-icon.svg)).
 
 De AI Assistant in Adobe Experience Manager Guides is een krachtig, door AI aangedreven hulpmiddel dat is ontworpen om uw inhoud te verbeteren door middel van intelligente authoring en hergebruik van inhoud. Het verenigt twee robuuste eigenschappen AI - **Authoring** en **Hulp** - in de interface van Experience Manager Guides, toelatend u aan auteursdocumenten en toegangsinformatie sneller en efficiënter.
 
@@ -454,9 +454,9 @@ Leer meer over om [ op AI-Gebaseerde slimme suggesties ](../user-guide/authoring
 
 **pas de standaardvragen voor slimme hulp** aan
 
-Voor ![ de wolk van AEM ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service.
+Voor Experience Manager Guides as a Cloud Service (![ wolk van AEM ](assets/aem-cloud-icon.svg)).
 
-U kunt de AI-Verleende slimme **Hulp** vormen om de auteurs te helpen vragen stellen en gemakkelijk de vereiste inhoud van de [ documentatie van Experience Manager Guides ](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/overview) vinden.
+U kunt de AI-Verleende slimme **Hulp** vormen om de auteurs te helpen vragen stellen en gemakkelijk de vereiste inhoud van de [ documentatie van Experience Manager Guides ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview) vinden.
 
 Het **lusje van de Configuratie van de Redacteur van XML** staat u toe om de standaardvragen van het **deelvenster van de Hulp** te vormen.
 
@@ -475,7 +475,7 @@ Voer de volgende stappen uit om de standaardvragen te vormen:
    >
    >U kunt standaardvragen voor het **Slimme paneel van de Hulp** aan het globale of een omslag-niveau profiel vormen.
 
-1. Selecteer het **lusje van de Configuratie van de Redacteur van 0&rbrace; XML.**
+1. Selecteer het **lusje van de Configuratie van de Redacteur van 0} XML.**
 
 1. Klik **uitgeven** pictogram op de bovenkant.
 1. In de **UI van de Redacteur van XML configuratie** sectie, selecteer het **pictogram van de Download** om het `ui_config.json` dossier op uw lokaal systeem te downloaden.
@@ -508,7 +508,7 @@ Standaard bevat de XML-editor een heleboel functies waarmee uw auteurs DITA-docu
 
 Met deze instelling kunt u JSON-extensies maken die wijzigingen weerspiegelen die in het `ui_config.json` -bestand zijn aangebracht. U kunt deze extensies afzonderlijk uploaden op het niveau van het mapprofiel, zodat u over meer flexibiliteit en aanpassingsmogelijkheden beschikt. Bijvoorbeeld, wanneer u veranderingen in de **Configuratie van de Redacteur van XML** aanbrengt, zoals het bijwerken van een knoop, identificeert het systeem automatisch de verschillen. Door deze veranderingen in de **Configuratie UI van de Redacteur van XML te uploaden** en hen in uitbreidingen om te zetten JSON gebruikend **zet UI Config in JSON** knoop om, produceert het systeem een uitbreiding die de nieuwe functionaliteit opneemt.
 
-Leer meer over [ het aanpassen van configuraties JSON en het omzetten van configuraties UI voor de nieuwe Redacteur van AEM Guides ](https://experienceleague.adobe.com/nl/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+Leer meer over [ het aanpassen van configuraties JSON en het omzetten van configuraties UI voor de nieuwe Redacteur van AEM Guides ](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 >[!NOTE]
 >
@@ -524,7 +524,7 @@ Met deze instelling bepaalt u de werkbalk en de andere gebruikersinterface-eleme
 
 >[!NOTE]
 >
-> Voor de release van AEM Guides 2502 en nieuwere versies wordt aangeraden de extensie JSON te gebruiken in plaats van `ui_config.json` voor aanpassing. Voor details, verwijs naar de **sectie van de Configuratie van de Redacteur UI van 0&rbrace; XML hierboven.**
+> Voor de release van AEM Guides 2502 en nieuwere versies wordt aangeraden de extensie JSON te gebruiken in plaats van `ui_config.json` voor aanpassing. Voor details, verwijs naar de **sectie van de Configuratie van de Redacteur UI van 0} XML hierboven.**
 
 **CSS de Lay-out van het Malplaatje**
 
