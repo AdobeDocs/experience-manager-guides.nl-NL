@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lees de productdocumentatie voor Adobe Experience Manager Guides.
 breadcrumb-title: Documentatie voor AEM Guides
-source-git-commit: 3b306a873f3b71078256407d977e8bdd5af1180b
+source-git-commit: 9cdd4c94ccf71585ef2c630da8c7b3808f68bb3b
 workflow-type: tm+mt
-source-wordcount: '2323'
+source-wordcount: '2349'
 ht-degree: 1%
 
 ---
@@ -144,8 +144,8 @@ ht-degree: 1%
                - [4.2.1 Opmerkingen bij de release](./release-info/release-notes-4-2-1.md)
                - [4.2 Opmerkingen bij de release](./release-info/release-notes-4-2.md)
          - [Opmerkingen bij de release 4.1.x](./release-info/release-notes-4-1.md)
-         - [ 4.0.x de Nota&#39;s van de Versie ](https://helpx.adobe.com/nl/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [ 3.8.x de Nota&#39;s van de Versie ](https://helpx.adobe.com/nl/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [ 4.0.x de Nota&#39;s van de Versie ](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [ 3.8.x de Nota&#39;s van de Versie ](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Handboek (nieuwe gebruikersinterface) {#user-guide}
    - Inleiding {#about-aemg}
       - [Info  [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -342,7 +342,7 @@ ht-degree: 1%
       - Problemen oplossen {#troubleshooting}
          - [Time-out sessie](./user-guide/session-timeout-prompt.md)
 - Handboek (oude gebruikersinterface) {#user-guide-old-ui}
-   - [ overzicht van AEM Guides](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [ overzicht van AEM Guides ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installatie en configuratie {#install-guide}
    - Op locatie {#on-prem-ig}
       - [Basisbegrippen op locatie](./install-guide/introduction.md)
@@ -607,6 +607,10 @@ ht-degree: 1%
          - DITA-OT {#dita-ot}
             - [AEM-metagegevens in plug-in gebruiken](./knowledge-base/kb-articles/publishing/dita-ot/dita-ot-pass-and-use-aem-metadata-in-dita-ot.md)
             - [Een aangepaste DITA-OT instellen](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
+         - AEM Sites-sjablonen {#aem-site-templates}
+            - [AEM Sites-sjablonen voor Cloud-services downloaden en installeren](./knowledge-base/kb-articles/publishing/download-install-aem-sites-templates-cs-kb.md)
+            - [AEM Sites-sjablonen voor services op locatie downloaden en installeren](./knowledge-base/kb-articles/publishing/download-install-aem-sites-templates-prem-kb.md)
+            - [Bestaande AEM Sites-sjablonen aanpassen](./knowledge-base/kb-articles/publishing/customize-exsisting-site-template-kb.md)
          - [ FMPS en Gidsen ](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
          - [Microservice architectuur en prestaties](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
          - [Op microservice gebaseerde publicaties configureren met JWT-verificatie](./knowledge-base/publishing/configure-microservices.md)
