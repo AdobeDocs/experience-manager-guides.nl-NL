@@ -35,7 +35,7 @@ Voordat u verdergaat met de installatie, moet u controleren of aan de volgende v
 ## Installatie van pakketten met CRX Package Manager
 
 1. **installeer het Pakket van Componenten:**
-   1. Navigeer aan [**de Manager van het Pakket van CRX** ](http://<your-name-instance>/crx/packmgr).
+   1. Navigeer aan [**de Manager van het Pakket van CRX** ](http://&lt;your-name-instance>/crx/packmgr).
    2. Upload en installeer het zip-pakket on-prem-guides-components.all-1.x.0.zip.
 
 2. **installeer het Pakket van Plaatsen:** upload en installeer het pakket aemg-docs.all-1.x.0.zip gebruikend de Manager van het Pakket van CRX.
