@@ -133,4 +133,4 @@ Installeer het **Pakket van Componenten (gidsen-componenten.all-1.x.x.zip)** en 
 
 >[!NOTE]
 >
-> Zorg ervoor dat alle configuraties in een niet-productieomgeving worden getest voordat u ze implementeert op productie. <br><br> verwijs naar het officiële [ Opstellen aan de documentatie van AEM as a Cloud Service ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview) voor extra details.
+> Zorg ervoor dat alle configuraties in een niet-productieomgeving worden getest voordat u ze implementeert op productie. <br><br> verwijs naar het officiële [ Opstellen aan de documentatie van AEM as a Cloud Service ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/implementing/deploying/overview) voor extra details.
