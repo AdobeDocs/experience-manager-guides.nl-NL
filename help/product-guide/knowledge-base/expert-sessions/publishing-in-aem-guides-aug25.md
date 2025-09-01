@@ -39,9 +39,9 @@ In deze vergadering hebben we het volgende besproken:
 
 ## Gerelateerde bronnen
 
-- [ de grondbeginselen van de Generatie van de Output ] (https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/map-management-publishing/output-gen/generate-output)
+- [ de grondbeginselen van de Generatie van de Output ] (https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/user-guide/map-management-publishing/output-gen/generate-output)
 
-- [ installeer nieuwe Malplaatjes van AEM Sites ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/aem-site-templates/download-install-aem-sites-templates-cs-kb)
+- [ installeer nieuwe Malplaatjes van AEM Sites ](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/aem-site-templates/download-install-aem-sites-templates-cs-kb)
 
 - [ Enig Onderwerp het Publiceren ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/map-management-publishing/output-gen/generate-output/single-topic-publishing/publish-content-fragment.html)
 
