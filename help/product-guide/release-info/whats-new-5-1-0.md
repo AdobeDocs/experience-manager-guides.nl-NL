@@ -107,7 +107,7 @@ Adobe Experience Manager Guides voegt nu a **formaat** attributen voor verwijzin
 
 - Voor dossiers met a **.pdf** uitbreiding, zal het formaat aan **pdf** worden geplaatst
 - Voor dossiers met a **.html** uitbreiding, zal het formaat aan **html** worden geplaatst
-- Voor dossiers met a **.dita** of **** dossiers.ditamap, zal het formaat aan **dita** worden geplaatst
+- Voor dossiers met a **.dita** of **&#x200B;**&#x200B;dossiers.ditamap, zal het formaat aan **dita** worden geplaatst
 
 Bovendien, zullen de dossiers met a **.xml** uitbreiding ook hun formaat hebben dat aan **wordt geplaatst dita**. Voor bestanden zonder extensie blijft de indeling leeg. Voorts voor om het even welke verwijzingsverbindingen met een werkingsgebied dat aan **wordt geplaatst extern**, zal het formaat aan **html** ongeacht de dossieruitbreiding in de verwijzingsverbindingen worden geplaatst.
 
