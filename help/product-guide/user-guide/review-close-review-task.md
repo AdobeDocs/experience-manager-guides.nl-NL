@@ -3,9 +3,10 @@ title: Nieuwe revisie aanvragen of een revisietaak als auteur sluiten
 description: Meer informatie over de workflow voor het sluiten van een revisietaak of het opnieuw aanvragen van een revisie als auteur in Experience Manager Guides.
 feature: Reviewing
 role: User
-source-git-commit: b7648fe1d36de3c243ca5a55f42a41f7523056ce
+exl-id: d2119bbe-3a0c-4da3-b4f8-7872496fa61f
+source-git-commit: 439be49e8f4c8cfacb16679257352f4197574365
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
@@ -45,13 +46,18 @@ Voer de volgende stappen uit om een revisie aan te vragen of een revisietaak te 
 4. Selecteer **de taak van de Update** om verdere actie op de geselecteerde overzichtstaak te voeren.
 5. In de **taak van de Update** dialoog, kies één van de volgende acties:
 
-   - **verzoek een herbeoordeling**: Initieert een andere ronde van overzicht. U kunt een andere versie van het onderwerp voor overzicht selecteren. Door gebrek, wordt de recentste (of laatste-uitgegeven) versie van het onderwerp of kaartdossier die voor overzicht wordt verzonden geselecteerd. Revisoren die de vorige revisie hebben voltooid, ontvangen een melding om feedback te geven over de bijgewerkte versie. Andere Revisoren, die de overzichtstaak niet als volledig hebben gemerkt, worden op de hoogte gebracht over de onderwerpupdate.
+   - **verzoek een herbeoordeling**: Initieert een andere ronde van overzicht. U kunt een andere versie van het onderwerp voor overzicht selecteren. Door gebrek, wordt de recentste (of laatste-uitgegeven) versie van het onderwerp of kaartdossier die voor overzicht wordt verzonden geselecteerd. U kunt **ook gebruiken uitgeeft versies** optie om de versie van geselecteerde onderwerpen aan **Latest versie**, **Versie op**, en **Basislijn** te plaatsen zoals per de behoefte.  Revisoren die de vorige revisie hebben voltooid, ontvangen een melding om feedback te geven over de bijgewerkte versie. Andere Revisoren, die de overzichtstaak niet als volledig hebben gemerkt, worden op de hoogte gebracht over de onderwerpupdate.
 
    - **dicht overzicht**: Sluit de overzichtstaak. De **taak van de Update** knoop aanwezig bij de bodem van het paneel van het Overzicht verandert in **Gesloten** en een bericht wordt verzonden naar alle gebruikers betrokken bij de overzichtstaak die op zijn sluiting wijzen.
 
-   Voor meer details op hoe de heroverwegingsberichten teweegbrengen, mening [ het Begrip van heroverwegingsberichten ](./review-understanding-review-notifications.md).
+   Voor details op hoe de heroverwegingsberichten teweegbrengen, mening [ het Begrip van heroverwegingsberichten ](./review-understanding-review-notifications.md).
 
-   ![](images/update-task-dialog.png).
+   ![](images/update-task-dialog.png){width="350" align="left"}
+
+   >[!NOTE]
+   >
+   > Het **de taakdialoog van de Update** zal ook de de staatskolom van a **Doc** omvatten om op de huidige staat van de vermelde overzichtsonderwerpen te wijzen wanneer het gebruiken van Experience Manager Guides als Diensten van de Wolk.
+
 
 6. Selecteer **bevestigen**.
 

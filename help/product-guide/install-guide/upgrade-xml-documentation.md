@@ -5,9 +5,9 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 579be351210f8a32d9cb66950b935bfad039f51b
+source-git-commit: c9ea64eb0445ec5767ba62ac6f9c1871dc3e98a3
 workflow-type: tm+mt
-source-wordcount: '8041'
+source-wordcount: '9118'
 ht-degree: 0%
 
 ---
@@ -18,14 +18,14 @@ ht-degree: 0%
 >
 > Volg de upgrade-instructies voor de versie met licentie van uw product.
 
-U kunt uw huidige versie van Experience Manager Guides upgraden naar versie 5.0.0 Service Pack 1:
+U kunt uw huidige versie van Experience Manager Guides upgraden naar versie 5.1.0:
 
-
-- Als u versie 5.0.0, 4.6.x, 4.6, of 4.4 gebruikt, kunt u aan versie 5.0.0 Service Pack 1 direct bevorderen.
+- Als u versie 4.6.3, 4.6.4, 5.0.0, of 5.0.0 Service Pack 1 gebruikt, dan kunt u aan versie 5.1.0 direct bevorderen.
+- Als u versie 4.6.0 en 4.6.1 gebruikt, moet u een upgrade naar versie 4.6.3 of 4.6.4 of 5.0.0 uitvoeren voordat u een upgrade naar versie 5.1.0 uitvoert.
 - Als u versie 4.3.x, 4.2, 4.2.1 (Hotfix 4.2.1.3), 4.1 of 4.1.x gebruikt, moet u een upgrade naar versie 4.4 uitvoeren voordat u een upgrade naar versie 5.0.0 uitvoert.
 - Als u versie 4.0 gebruikt, moet u een upgrade naar versie 4.2 uitvoeren voordat u een upgrade naar versie 4.3.x uitvoert.
 - Als u versie 3.8.5 gebruikt, moet u een upgrade naar versie 4.0 uitvoeren voordat u een upgrade naar versie 4.2 uitvoert.
-- Als u op een versie voorafgaand aan 3.8.5 bent, verwijs naar de sectie van Experience Manager Guides van de Verbetering in de product-specifieke installatiegids beschikbaar op [ Adobe Experience Manager Guides Help het archief van PDF ](https://helpx.adobe.com/nl/xml-documentation-for-experience-manager/archive.html).
+- Als u op een versie voorafgaand aan 3.8.5 bent, verwijs naar de sectie van Experience Manager Guides van de Verbetering in de product-specifieke installatiegids beschikbaar op [ Adobe Experience Manager Guides Help het archief van PDF ](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 
 >[!NOTE]
@@ -43,6 +43,7 @@ Raadpleeg de volgende procedures voor meer informatie:
 - [Upgrade naar versie 4.4.0](#upgrade-to-version-440)
 - [Upgrade naar versie 4.6.0](#upgrade-to-version-460)
 - [Upgrade naar versie 5.0.0](#upgrade-to-version-500)
+- [Upgrade naar versie 5.1.0](#upgrade-to-version-510)
 
 
 
@@ -58,11 +59,11 @@ Voordat u het proces uitvoert, moet u bepaalde taken uitvoeren. De volgende subs
 
 >[!NOTE]
 >
-> Dit upgradeproces is alleen van toepassing van versie 3.8.5 tot versie 4.0. Voor het proces om van versie 3.4 of hoger aan 3.8.5 te bevorderen, verwijs naar de *sectie van de Verbetering Experience Manager Guides* in de product-specifieke installatiegids beschikbaar op [ Adobe Experience Manager Guides Help PDF archief ](https://helpx.adobe.com/nl/xml-documentation-for-experience-manager/archive.html).
+> Dit upgradeproces is alleen van toepassing van versie 3.8.5 tot versie 4.0. Voor het proces om van versie 3.4 of hoger aan 3.8.5 te bevorderen, verwijs naar de *sectie van de Verbetering Experience Manager Guides* in de product-specifieke installatiegids beschikbaar op [ Adobe Experience Manager Guides Help PDF archief ](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 
 
-**&#x200B;**&#x200B;Eerste vereisten&#x200B;**&#x200B;**
+****Eerste vereisten****
 
 Voordat u het Experience Manager Guides-upgradeproces start, moet u controleren of:
 
@@ -135,7 +136,7 @@ De upgrade naar versie 4.2 is afhankelijk van de huidige versie van Experience M
 
 Als u versie 4.0, 4.1 of 4.1.x gebruikt, kunt u rechtstreeks upgraden naar versie 4.2.
 
-**&#x200B;**&#x200B;Eerste vereisten&#x200B;**&#x200B;**
+****Eerste vereisten****
 
 Voordat u het Experience Manager Guides 4.2-upgradeproces start, moet u controleren of:
 
@@ -188,8 +189,8 @@ Nadat u Experience Manager Guides hebt geïnstalleerd, kunt u de verschillende c
 
 1. Selecteer **DAM het werkschema van Activa van de Update**.
 1. Klik op **uitgeven**.
-1. Als de **component van de Initiator van het Proces van 0&rbrace; DXML &lbrace;aanwezig is, zorg ervoor dat de aanpassingen worden gesynchroniseerd.**
-1. Als de **component van de Initiator van het Proces van 0&rbrace; DXML &lbrace;ontbreekt, voer de volgende stappen uit om het op te nemen:**
+1. Als de **component van de Initiator van het Proces van 0} DXML {aanwezig is, zorg ervoor dat de aanpassingen worden gesynchroniseerd.**
+1. Als de **component van de Initiator van het Proces van 0} DXML {ontbreekt, voer de volgende stappen uit om het op te nemen:**
 
 1. Klik **component van het Tussenvoegsel** \ (Verantwoordelijk voor Experience Manager Guides post-verwerking als definitieve stap in het proces \).
 1. Vorm de **stap van het Proces** met hieronder details:
@@ -204,7 +205,7 @@ Nadat u Experience Manager Guides hebt geïnstalleerd, kunt u de verschillende c
 
    - Selecteer **DXML de Initiator van het Proces van het Post** van het **Proces** drop down
 
-   - Selecteer **de Geavanceerde Behandeling van 0&rbrace;**
+   - Selecteer **de Geavanceerde Behandeling van 0}**
 
    - Selecteer **Gereed**
 
@@ -311,7 +312,7 @@ De upgrade naar versie 4.2.1 is afhankelijk van de huidige versie van Experience
 >
 >De nabewerking en indexering kunnen een paar uur duren. Wij adviseren u om het verbeteringsproces tijdens de off-piek uren te beginnen.
 
-**&#x200B;**&#x200B;Eerste vereisten&#x200B;**&#x200B;**
+****Eerste vereisten****
 
 Voordat u het Experience Manager Guides 4.2.1-upgradeproces start, moet u controleren of:
 
@@ -405,8 +406,8 @@ Nadat u Experience Manager Guides hebt geïnstalleerd, kunt u de verschillende c
 
 1. Selecteer **DAM het werkschema van Activa van de Update**.
 1. Klik op **uitgeven**.
-1. Als de **component van de Initiator van het Proces van 0&rbrace; DXML &lbrace;aanwezig is, zorg ervoor dat de aanpassingen worden gesynchroniseerd.**
-1. Als de **component van de Initiator van het Proces van 0&rbrace; DXML &lbrace;ontbreekt, voer de volgende stappen uit om het op te nemen:**
+1. Als de **component van de Initiator van het Proces van 0} DXML {aanwezig is, zorg ervoor dat de aanpassingen worden gesynchroniseerd.**
+1. Als de **component van de Initiator van het Proces van 0} DXML {ontbreekt, voer de volgende stappen uit om het op te nemen:**
 
 1. Klik **component van het Tussenvoegsel** \ (Verantwoordelijk voor Experience Manager Guides post-verwerking als definitieve stap in het proces \).
 1. Vorm de **stap van het Proces** met hieronder details:
@@ -421,7 +422,7 @@ Nadat u Experience Manager Guides hebt geïnstalleerd, kunt u de verschillende c
 
    - Selecteer **DXML de Initiator van het Proces van het Post** van het **Proces** drop down
 
-   - Selecteer **de Geavanceerde Behandeling van 0&rbrace;**
+   - Selecteer **de Geavanceerde Behandeling van 0}**
 
    - Selecteer **Gereed**
 
@@ -488,7 +489,7 @@ De upgrade naar versie 4.3.0 is afhankelijk van de huidige versie van Experience
 >
 >De nabewerking en indexering kunnen een paar uur duren. Wij adviseren u om het verbeteringsproces tijdens de off-piek uren te beginnen.
 
-**&#x200B;**&#x200B;Eerste vereisten&#x200B;**&#x200B;**
+****Eerste vereisten****
 
 Voordat u het Experience Manager Guides 4.3.0-upgradeproces start, moet u controleren of:
 
@@ -546,7 +547,7 @@ De upgrade naar versie 4.3.1 is afhankelijk van de huidige versie van Experience
 >
 >De nabewerking en indexering kunnen een paar uur duren. Wij adviseren u om het verbeteringsproces tijdens de off-piek uren te beginnen.
 
-**&#x200B;**&#x200B;Eerste vereisten&#x200B;**&#x200B;**
+****Eerste vereisten****
 
 Voordat u het Experience Manager Guides 4.3.1-upgradeproces start, moet u controleren of:
 
@@ -633,8 +634,8 @@ Nadat u Experience Manager Guides hebt geïnstalleerd, kunt u de verschillende c
 
 1. Selecteer **DAM het werkschema van Activa van de Update**.
 1. Klik op **uitgeven**.
-1. Als de **component van de Initiator van het Proces van 0&rbrace; DXML &lbrace;aanwezig is, zorg ervoor dat de aanpassingen worden gesynchroniseerd.**
-1. Als de **component van de Initiator van het Proces van 0&rbrace; DXML &lbrace;ontbreekt, voer de volgende stappen uit om het op te nemen:**
+1. Als de **component van de Initiator van het Proces van 0} DXML {aanwezig is, zorg ervoor dat de aanpassingen worden gesynchroniseerd.**
+1. Als de **component van de Initiator van het Proces van 0} DXML {ontbreekt, voer de volgende stappen uit om het op te nemen:**
 
 1. Klik **component van het Tussenvoegsel** \ (Verantwoordelijk voor Experience Manager Guides post-verwerking als definitieve stap in het proces \).
 1. Vorm de **stap van het Proces** met hieronder details:
@@ -649,7 +650,7 @@ Nadat u Experience Manager Guides hebt geïnstalleerd, kunt u de verschillende c
 
    - Selecteer **DXML de Initiator van het Proces van het Post** van het **Proces** drop down
 
-   - Selecteer **de Geavanceerde Behandeling van 0&rbrace;**
+   - Selecteer **de Geavanceerde Behandeling van 0}**
 
    - Selecteer **Gereed**
 
@@ -787,7 +788,7 @@ De upgrade naar versie 4.4.0 is afhankelijk van de huidige versie van Experience
 >
 >De nabewerking en indexering kunnen een paar uur duren. Wij adviseren u om het verbeteringsproces tijdens de off-piek uren te beginnen.
 
-**&#x200B;**&#x200B;Eerste vereisten&#x200B;**&#x200B;**
+****Eerste vereisten****
 
 Voordat u het Experience Manager Guides 4.4.0-upgradeproces start, moet u controleren of:
 
@@ -836,8 +837,8 @@ Nadat u Experience Manager Guides hebt geïnstalleerd, kunt u de verschillende c
 
 1. Selecteer **DAM het werkschema van Activa van de Update**.
 1. Klik op **uitgeven**.
-1. Als de **component van de Initiator van het Proces van 0&rbrace; DXML &lbrace;aanwezig is, zorg ervoor dat de aanpassingen worden gesynchroniseerd.**
-1. Als de **component van de Initiator van het Proces van 0&rbrace; DXML &lbrace;ontbreekt, voer de volgende stappen uit om het op te nemen:**
+1. Als de **component van de Initiator van het Proces van 0} DXML {aanwezig is, zorg ervoor dat de aanpassingen worden gesynchroniseerd.**
+1. Als de **component van de Initiator van het Proces van 0} DXML {ontbreekt, voer de volgende stappen uit om het op te nemen:**
 
 1. Klik **component van het Tussenvoegsel** \ (Verantwoordelijk voor Experience Manager Guides post-verwerking als definitieve stap in het proces \).
 1. Vorm de **stap van het Proces** met hieronder details:
@@ -852,7 +853,7 @@ Nadat u Experience Manager Guides hebt geïnstalleerd, kunt u de verschillende c
 
    - Selecteer **DXML de Initiator van het Proces van het Post** van het **Proces** drop down
 
-   - Selecteer **de Geavanceerde Behandeling van 0&rbrace;**
+   - Selecteer **de Geavanceerde Behandeling van 0}**
 
    - Selecteer **Gereed**
 
@@ -980,7 +981,7 @@ Als u nog een aangepaste schrijfbewerking voor tekenreeksen in uw codebase hebt,
 Aangezien de waarde van `'order'` tijdens deze upgrade is gewijzigd van 1000 in 50, moet u eventueel de bestaande aangepaste rewriter samenvoegen met `'fmdita-rewriter'` .
 
 
-**Bovenliggend onderwerp:**&#x200B;[ Download en installeer ](download-install.md)
+**Bovenliggend onderwerp:**[ Download en installeer ](download-install.md)
 
 
 ## Upgrade naar versie 4.6.0
@@ -995,7 +996,7 @@ De upgrade naar versie 4.6.0 is afhankelijk van de huidige versie van Experience
 >
 > De nabewerking en indexering kunnen een paar uur duren. Wij adviseren u om het verbeteringsproces tijdens de off-piek uren te beginnen.
 
-**&#x200B;**&#x200B;Eerste vereisten&#x200B;**&#x200B;**
+****Eerste vereisten****
 
 Voordat u het Experience Manager Guides 4.6.0-upgradeproces start, moet u controleren of:
 
@@ -1042,8 +1043,8 @@ Nadat u Experience Manager Guides hebt geïnstalleerd, kunt u de verschillende c
 
 1. Selecteer **DAM het werkschema van Activa van de Update**.
 1. Klik op **uitgeven**.
-1. Als de **component van de Initiator van het Proces van 0&rbrace; DXML &lbrace;aanwezig is, zorg ervoor dat de aanpassingen worden gesynchroniseerd.**
-1. Als de **component van de Initiator van het Proces van 0&rbrace; DXML &lbrace;ontbreekt, voer de volgende stappen uit om het op te nemen:**
+1. Als de **component van de Initiator van het Proces van 0} DXML {aanwezig is, zorg ervoor dat de aanpassingen worden gesynchroniseerd.**
+1. Als de **component van de Initiator van het Proces van 0} DXML {ontbreekt, voer de volgende stappen uit om het op te nemen:**
 
 1. Klik **component van het Tussenvoegsel** \ (Verantwoordelijk voor Experience Manager Guides post-verwerking als definitieve stap in het proces \).
 1. Vorm de **stap van het Proces** met hieronder details:
@@ -1058,7 +1059,7 @@ Nadat u Experience Manager Guides hebt geïnstalleerd, kunt u de verschillende c
 
    - Selecteer **DXML de Initiator van het Proces van het Post** van het **Proces** drop down
 
-   - Selecteer **de Geavanceerde Behandeling van 0&rbrace;**
+   - Selecteer **de Geavanceerde Behandeling van 0}**
 
    - Selecteer **Gereed**
 
@@ -1150,7 +1151,7 @@ Aangezien de waarde van `'order'` tijdens deze upgrade is gewijzigd van 1000 in 
 >
 > De nabewerking en indexering kunnen een paar uur duren. Wij adviseren u om het verbeteringsproces tijdens de off-piek uren te beginnen.
 
-**&#x200B;**&#x200B;Eerste vereisten&#x200B;**&#x200B;**
+****Eerste vereisten****
 
 Voordat u het Experience Manager Guides 5.0.0-upgradeproces start, moet u controleren of:
 
@@ -1197,8 +1198,8 @@ Nadat u Experience Manager Guides hebt geïnstalleerd, kunt u de verschillende c
 
 1. Selecteer **DAM het werkschema van Activa van de Update**.
 1. Klik op **uitgeven**.
-1. Als de **component van de Initiator van het Proces van 0&rbrace; DXML &lbrace;aanwezig is, zorg ervoor dat de aanpassingen worden gesynchroniseerd.**
-1. Als de **component van de Initiator van het Proces van 0&rbrace; DXML &lbrace;ontbreekt, voer de volgende stappen uit om het op te nemen:**
+1. Als de **component van de Initiator van het Proces van 0} DXML {aanwezig is, zorg ervoor dat de aanpassingen worden gesynchroniseerd.**
+1. Als de **component van de Initiator van het Proces van 0} DXML {ontbreekt, voer de volgende stappen uit om het op te nemen:**
 
 1. Klik **component van het Tussenvoegsel** \ (Verantwoordelijk voor Experience Manager Guides post-verwerking als definitieve stap in het proces \).
 1. Vorm de **stap van het Proces** met hieronder details:
@@ -1213,7 +1214,7 @@ Nadat u Experience Manager Guides hebt geïnstalleerd, kunt u de verschillende c
 
    - Selecteer **DXML de Initiator van het Proces van het Post** van het **Proces** drop down
 
-   - Selecteer **de Geavanceerde Behandeling van 0&rbrace;**
+   - Selecteer **de Geavanceerde Behandeling van 0}**
 
    - Selecteer **Gereed**
 
@@ -1298,11 +1299,176 @@ Aangezien de waarde van `'order'` tijdens deze upgrade is gewijzigd van 1000 in 
 
 ## Stappen om de damAssetLucene opnieuw te indexeren
 
-De indexdefinitie wordt bijgewerkt voor damAssetLucene met gidsen. Verwijs naar [ dit artikel ](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-16460) voor het opnieuw indexeren van damAssetLucene na bevordering aan versie 5.0.0.
+De indexdefinitie wordt bijgewerkt voor damAssetLucene met gidsen. Verwijs naar [ dit artikel ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) voor het opnieuw indexeren van damAssetLucene na bevordering aan versie 5.0.0.
 
 >[!NOTE]
 >
-> Zorg er na het volgen van de documentatie voor dat beide eigenschappen (reindex=true en rendex-async=true voor /oak:index/damAssetLucene) tegelijkertijd via de opslagbewerking worden bijgewerkt.
+> Terwijl het volgen van de documentatie ervoor zorgt beide eigenschappen (reindex=true en redex-async=true voor /oak :index/damAssetLucene) gelijktijdig via sparen verrichting worden bijgewerkt.
+
+## Upgrade naar versie 5.1.0
+
+>[!TIP]
+>
+> De upgrade naar versie 5.1.0 is afhankelijk van de huidige versie van Experience Manager Guides. Als u versie 4.6.3, 4.6.4, 5.0.0, of 5.0.0 Service Pack 1 gebruikt, dan kunt u aan versie 5.1.0 direct bevorderen.
+
+>[!NOTE]
+>
+> De nabewerking en indexering kunnen een paar uur duren. Wij adviseren u om het verbeteringsproces tijdens de off-piek uren te beginnen.
+
+****Eerste vereisten****
+
+Voordat u het Experience Manager Guides 5.1.0-upgradeproces start, moet u controleren of:
+
+1. Bijgewerkt naar Experience Manager Guides versie 4.6.3, 4.6.4, 5.0.0 of 5.0.0 Service Pack 1 en hun respectieve installatiestappen voltooien.
+1. (Optioneel) Alle vertaaltaken zijn afgesloten.
+1. Veranderde het logboekniveau in **INFO** voor `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` klasse en voeg deze logboeken in een nieuw logboekdossier toe, bijvoorbeeld, `logs/translation_upgrade.log`.
+
+
+## Versie 5.1.0 installeren
+
+1. Download 5.1.0 versiepakket van [ het Portaal van de Distributie van de Software van Adobe ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. Installeer het pakket versie 5.1.0.
+1. U kunt ervoor kiezen om de trigger te HIT om de upgradetaak voor de vertaalkaart te starten. Voor details, zie [ trekker van manuscript via een Servlet ](#enable-trigger-of-script-via-a-servlet) toelaten.
+
+1. Nadat u de pakketinstallatie hebt voltooid, wacht u op het volgende bericht in de logbestanden:
+
+   `Completed the post deployment setup script`
+
+   Het bovenstaande bericht geeft aan dat alle installatiestappen zijn voltooid.
+
+   Als u om het even welke volgende prefix van de FOUT ontmoet, rapporteer hen aan uw team van het klantensucces:
+
+   - Fout tijdens een setupscript voor implementatie na plaatsing
+   - Uitzondering tijdens het exporteren van de MAP voor vertaling
+   - Kan vertaalkaart van v1 naar v2 voor eigenschap niet importeren
+1. Upgrade de insteekmodule Zuurstofaansluiting die wordt vrijgegeven met versie 5.1.0 \(indien nodig\).
+1. Wis de browsercache nadat u het pakket hebt geïnstalleerd.
+
+## Nadat u versie 5.1.0 hebt geïnstalleerd
+
+Nadat u Experience Manager Guides hebt geïnstalleerd, kunt u de verschillende configuraties samenvoegen die van toepassing zijn vanaf de nieuw geïnstalleerde versie tot aan uw installatie.
+
+>[!NOTE]
+>
+> Het dampupdate-assetmodel kan worden aangepast. Dus als er aanpassingen zijn uitgevoerd, moeten we de aanpassingen en Experience Manager Guides synchroniseren in de werkkopie van het model.
+
+1. **DAM het werkschema van de Activa van de Update \ (veranderingen \):**
+
+1. URL openen:
+
+   ```
+   http://localhost:4502/libs/cq/workflow/admin/console/content/models.html 
+   ```
+
+1. Selecteer **DAM het werkschema van Activa van de Update**.
+1. Selecteer **uitgeven**.
+1. Als de **component van de Initiator van het Proces van 0} DXML {aanwezig is, zorg ervoor dat de aanpassingen worden gesynchroniseerd.**
+1. Als de **component van de Initiator van het Proces van 0} DXML {ontbreekt, voer de volgende stappen uit om het op te nemen:**
+
+1. Selecteer **component van het Tussenvoegsel** \ (Verantwoordelijk voor Experience Manager Guides post-verwerking als definitieve stap in het proces \).
+1. Vorm de **stap van het Proces** met hieronder details:
+
+   **Gemeenschappelijke lusje**
+
+   **Titel:** DXML de Initiator van het Proces van het Post
+
+   **Beschrijving**: De stap van de initiator van het postproces DXML die een slingerbaan voor DXML post-verwerking van het gewijzigde/gecreeerde element zal teweegbrengen
+
+   **lusje van het Proces**
+
+   - Selecteer **DXML de Initiator van het Proces van het Post** van het **Proces** drop down
+
+   - Selecteer **de Geavanceerde Behandeling van 0}**
+
+   - Selecteer **Gereed**
+
+1. Selecteer **Synchronisatie** op het hoogste recht na de voltooiing van de veranderingen. Je ontvangt een melding over succes.
+
+   >[!NOTE]
+   >
+   > Vernieuw en controleer of de aangepaste wijzigingen en de naverwerkingsstap van Experience Manager Guides aanwezig zijn in het uiteindelijke workflowmodel.
+
+1. Zodra **DAM het werkschema van de Activa van de Update** wordt bevestigd, controleer overeenkomstige lanceringsconfiguraties. Ga hiertoe naar de AEM Workflow-interface en open draagraketten.
+
+   ```http
+   http://localhost:4502/libs/cq/workflow/content/console.html
+   ```
+
+   Vind en breng veranderingen \ (indien nodig \) in de volgende twee lanceerinrichtingen \ (die actief zouden moeten zijn \) die aan **DAM het werkschema van de Activa van de Update** beantwoorden:
+
+1. Lanceerprogramma voor &quot;*Gemaakt Knoop*&quot;voor **DAM het werkschema van de Activa van de Update** - voor voorwaarde `"jcr:content/jcr:mimeType!=video"`, zou de &quot;het Globaliseren&quot;waarde moeten zijn:
+
+   ```json
+   /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
+   ```
+
+   - &#39;excludeList&#39; moet `"event-user-data:changedByWorkflowProcess"` hebben.
+   - Lanceerinrichting voor &quot;*Gewijzigde Knoop*&quot;voor **DAM het werkschema van de Activa van de Update -** voor voorwaarde &quot;`jcr:content/jcr:mimeType!=video`&quot;, zou de &quot;het Globaliseren&quot;waarde moeten zijn:
+
+   ```json
+   /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
+   ```
+
+   - `excludeList` moet `"event-user-data:changedByWorkflowProcess"` hebben.
+
+1. Nadat de upgrade is voltooid, zorgt u ervoor dat alle aanpassingen/overlays worden gevalideerd en bijgewerkt zodat ze overeenkomen met de nieuwe toepassingscode. Hieronder volgen enkele voorbeelden:
+   - Alle componenten die worden overschreven door/libs/fmditor/libsc, moeten worden vergeleken met de nieuwe productcode en updates moeten worden uitgevoerd in overlay bestanden onder/apps.
+   - Alle clientlibcategorieën die worden gebruikt van het product, dienen te worden gecontroleerd op wijzigingen. Overschreven configuraties \(voorbeelden verderop\) moeten worden vergeleken met de nieuwste configuraties om de nieuwste functies te krijgen:
+   - elementmapping.xml
+   - ui\_config.json\(kan zijn ingesteld in mapprofielen\)
+   - modified `com.adobe.fmdita.config.ConfigManager`
+
+1. Als u aanpassingen hebt toegevoegd in damAssetLucene, kan het nodig zijn deze opnieuw toe te passen. Nadat u deze wijzigingen hebt aangebracht, stelt u de index in op true. Hierdoor worden alle bestaande knooppunten opnieuw gecompileerd met de aanpassingen. Nadat de rendex-markering is voltooid, wordt deze weer op false ingesteld. Dit kan een paar uur duren, afhankelijk van het aantal elementen in het systeem.
+
+## Stappen om de Experience Manager Guides-indexen opnieuw te indexeren
+
+1. Open `crx/de` en navigeer naar het indexpad: `/oak:index/guidesAssetProperties`
+2. Plaats het herindexbezit als `true` (`false` door gebrek) en klik **sparen allen**.
+3. Zodra de redex volledig is, wordt de redex-eigenschap opnieuw ingesteld op `false` en wordt de redex-telling met 1 verhoogd.
+
+   >[!NOTE]
+   >
+   > Dit kan een paar minuten duren, afhankelijk van de hoeveelheid gegevens die aanwezig is.
+4. Voer dezelfde stappen uit voor andere toegevoegde of gewijzigde indexen: `guidesBulkActivation`, `guidesPeerLinkIndex` en `guidesKonnectTemplateIndex` .
+
+## Stappen om de bestaande inhoud te indexeren
+
+
+
+Voer de volgende stappen uit om de bestaande inhoud te indexeren:
+
+- Voer een POST-aanvraag uit op de server \(met correcte verificatie\) - `http://<server:port\>/bin/guides/map-find/indexing` . (Optioneel) U kunt specifieke paden van de kaarten doorgeven om deze te indexeren. Standaard worden alle kaarten geïndexeerd || Voorbeeld: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+
+- De API retourneert een jobId. Als u de status van de taak wilt controleren, kunt u een GET-aanvraag met taak-id naar hetzelfde eindpunt verzenden - `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(bijvoorbeeld: ` http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
+
+- Zodra de taak is voltooid, reageert het bovenstaande GET-verzoek met succes en vermeldt het of kaarten zijn mislukt. De met succes geïndexeerde kaarten kunnen van de serverlogboeken worden bevestigd.
+
+
+>[!NOTE]
+>
+> Als u het douaneschema gebruikt, moet u de weg van de dossiers van douane DTD en XSD catalog.xml in de bewaarplaats van AEM in **bepalen integreer Catalogi** optie.
+
+
+
+
+## Stappen voor het afhandelen van het `'fmdita rewriter'` -conflict
+
+Experience Manager Guides heeft de module van de a [**douane die herschrijver**](../cs-install-guide/conf-output-generation.md#custom-rewriter) voor de behandeling van de verbindingen in het geval van dwars-kaarten (verbindingen tussen de onderwerpen van twee verschillende kaarten) worden geproduceerd.
+
+Als u nog een aangepaste schrijfbewerking voor tekenreeksen in uw codebase hebt, gebruikt u een `'order'` -waarde groter dan 50, omdat Experience Manager Guides anders `'order'` 50 gebruikt.  Als u dit wilt overschrijven, hebt u een waarde > 50 nodig. Voor meer details, mening [ Output die pijplijnen herschrijft ](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
+
+Aangezien de waarde van `'order'` tijdens deze upgrade is gewijzigd van 1000 in 50, moet u eventueel de bestaande aangepaste rewriter samenvoegen met `'fmdita-rewriter'` .
+
+
+
+## Stappen om de damAssetLucene opnieuw te indexeren
+
+De indexdefinitie wordt bijgewerkt voor damAssetLucene met gidsen. Verwijs naar [ dit artikel ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) voor het opnieuw indexeren van damAssetLucene na bevordering aan versie 5.1.0.
+
+>[!NOTE]
+>
+> Terwijl het volgen van de documentatie ervoor zorgt beide eigenschappen (reindex=true en redex-async=true voor /oak :index/damAssetLucene) gelijktijdig via sparen verrichting worden bijgewerkt.
+
 
 
 **Bovenliggend onderwerp:** [ Download en installeer ](download-install.md)
