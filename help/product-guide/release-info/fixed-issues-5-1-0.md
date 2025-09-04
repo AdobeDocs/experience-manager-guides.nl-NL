@@ -1,9 +1,9 @@
 ---
 title: Opmerkingen bij de release | Opgeloste problemen in Adobe Experience Manager Guides, release 5.1.0
 description: Meer informatie over de opgeloste problemen vindt u in de 5.1.0-release van Adobe Experience Manager Guides.
-source-git-commit: 64df76f371867469d738f59a174e7931176e8591
+source-git-commit: 6c29d5540f48c850416db279b4392b6042c8ca2c
 workflow-type: tm+mt
-source-wordcount: '1796'
+source-wordcount: '1789'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Leer over [ verbeteringsinstructies voor de 5.1.0 versie ](upgrade-instructions-
 - Namen van mapknooppunten worden onjuist weergegeven in plaats van maptitels in de Editor. (GUIDEN-32402)
 - Er treedt een fout op bij het uploaden van elementen met niet-ondersteunde of verboden tekens in de bestandsnamen. (HIDEN-28845)
 - Wanneer u een onderwerp opent in de weergave Auteur nadat de browser is vernieuwd, blijven eerder toegepaste tags in het deelvenster Bestandseigenschappen niet behouden en wanneer u nieuwe tags toevoegt, worden de bestaande tags overschreven, met name wanneer een groot aantal tags beschikbaar is voor selectie. (HIDEN-29078)
-- Wanneer het produceren van een rapport van Meta-gegevens voor een kaart DITA die een groot aantal activa bevat, leidt **&#x200B;**&#x200B;knoop wordt unresponsief of toont een vertraagde reactie. (HULPLIJNEN-2843)
+- Wanneer het produceren van een rapport van Meta-gegevens voor een kaart DITA die een groot aantal activa bevat, leidt **** knoop wordt unresponsief of toont een vertraagde reactie. (HULPLIJNEN-2843)
 - De staat van het document van het werkende exemplaar van een onderwerp wordt getoond tegen alle versies van dat onderwerp in de Vertaling en Basislijn UI. (GUIDEN-20674)
 
 ## Controleren
@@ -109,7 +109,6 @@ Adobe heeft de volgende bekende problemen voor 5.1.0-release geïdentificeerd:
 
 - De meest recente opmerking op taakniveau wordt weergegeven in het e-mailbericht aan de taakaanvrager als de controleur de taak voltooit zonder een opmerking toe te voegen. (HIDEN-33590)
 - In het dialoogvenster Samenvoegen wordt in de vervolgkeuzelijst de hoofdinhoud onjuist weergegeven in plaats van de beschikbare versies van het geselecteerde onderwerp weer te geven. (GUIDEN-30820)
-welke koppeling operationeel wordt. (GUIDEN-30820)
 - Als u schakelt tussen voorinstellingen die dezelfde basislijn gebruiken, wordt de knop Opslaan voor de huidige voorinstelling gedeactiveerd. (HIDEN-28025)
 - Er wordt automatisch een lege regel ingevoegd bij het plakken van nieuwe inhoud in een nieuwe regel in een codeblokkenelement.(GUIDEN-27842)
 - Een onderwerp binnen een kaart DITA ontbreekt om in de output van AEM Sites te publiceren wanneer het als zowel keydef als topicref binnen zijn submaps wordt gebruikt. (HULPLIJNEN-2269)
