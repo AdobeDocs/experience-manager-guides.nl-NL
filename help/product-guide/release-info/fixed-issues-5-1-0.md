@@ -56,7 +56,7 @@ Leer over [ verbeteringsinstructies voor de 5.1.0 versie ](upgrade-instructions-
 - Namen van mapknooppunten worden onjuist weergegeven in plaats van maptitels in de Editor. (GUIDEN-32402)
 - Er treedt een fout op bij het uploaden van elementen met niet-ondersteunde of verboden tekens in de bestandsnamen. (HIDEN-28845)
 - Wanneer u een onderwerp opent in de weergave Auteur nadat de browser is vernieuwd, blijven eerder toegepaste tags in het deelvenster Bestandseigenschappen niet behouden en wanneer u nieuwe tags toevoegt, worden de bestaande tags overschreven, met name wanneer een groot aantal tags beschikbaar is voor selectie. (HIDEN-29078)
-- Wanneer het produceren van een rapport van Meta-gegevens voor een kaart DITA die een groot aantal activa bevat, leidt **** knoop wordt unresponsief of toont een vertraagde reactie. (HULPLIJNEN-2843)
+- Wanneer het produceren van een rapport van Meta-gegevens voor een kaart DITA die een groot aantal activa bevat, leidt **&#x200B;**&#x200B;knoop wordt unresponsief of toont een vertraagde reactie. (HULPLIJNEN-2843)
 - De staat van het document van het werkende exemplaar van een onderwerp wordt getoond tegen alle versies van dat onderwerp in de Vertaling en Basislijn UI. (GUIDEN-20674)
 
 ## Controleren
