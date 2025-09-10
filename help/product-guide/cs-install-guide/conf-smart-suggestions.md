@@ -2,9 +2,9 @@
 title: AI-assistent configureren voor slimme hulp en ontwerpen
 description: Leer hoe u de AI Assistant configureert in Experience Manager Guides
 exl-id: a595ca1f-0123-40d3-a79c-a066bc6517b4
-source-git-commit: b80737d6066008104ceea103edbc828bc8e632cb
+source-git-commit: b5b4c5484593a2f7d9121da1c7bfb28dd2c36a57
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '925'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Voer de volgende stappen uit om IMS-configuraties te maken in Adobe Developer Co
 >Als u reeds een project OAuth hebt gecreeerd om op microservice-gebaseerde het publiceren te vormen, kunt u de volgende stappen overslaan om het project tot stand te brengen.
 
 1. Start [ Adobe Developer Console ](https://developer.adobe.com/console).
-1. Na met succes het programma openen aan Developer Console, zult u het **1&rbrace; scherm van het Huis {bekijken.** Het **1} scherm van het Huis &lbrace;is waar u informatie en snelle verbindingen, met inbegrip van top-navigatiekoppelingen aan Projecten en Downloads gemakkelijk kunt vinden.**
+1. Na met succes het programma openen aan Developer Console, zult u het **1} scherm van het Huis {bekijken.** Het **1} scherm van het Huis {is waar u informatie en snelle verbindingen, met inbegrip van top-navigatiekoppelingen aan Projecten en Downloads gemakkelijk kunt vinden.**
 1. Om een nieuw leeg project tot stand te brengen, creeer **nieuw project** van de **Snelle begin** verbindingen.
    ![ Snelle beginverbindingen ](assets/conf-ss-quick-start.png) {width="550" align="left"}
    *creeer een nieuw project.*
@@ -79,7 +79,7 @@ Voer de volgende stappen uit om configuratie IMS aan het milieu toe te voegen:
 1. Schakelaar aan de **Milieu&#39;s** tabel.
 1. Selecteer de omgevingsnaam die u wilt configureren. Dit zou u aan de **pagina van de Informatie van het Milieu** moeten navigeren.
 1. Schakelaar aan de **Configuratie** tabel.
-1. Werk het JSON-veld SERVICE_ACCOUNT_DETAILS bij. Zorg ervoor dat u dezelfde naam en configuratie gebruikt als in de volgende schermafbeelding.
+1. Werk het JSON-veld bij - `SERVICE_ACCOUNT_DETAILS`. Zorg ervoor dat u dezelfde naam en configuratie gebruikt als in de volgende schermafbeelding.
 
    ![ de configuratie van de de dienstrekening van ims ](assets/ims-service-account-config.png){width="800" align="left"}
 
