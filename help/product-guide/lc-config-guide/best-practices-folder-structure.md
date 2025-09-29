@@ -58,7 +58,7 @@ Zodra de mappenhiërarchie is ingesteld, kunt u beginnen met het maken van gebru
 
 Om nieuwe gebruikers tot stand te brengen en hen toe te voegen aan groepen, navigeer aan **Hulpmiddelen** > **Veiligheid** > **Gebruikers**.
 
-Voor de pagina van het Beheer van de Gebruiker, creeert de uitgezochte **** om een nieuwe gebruiker tot stand te brengen. Voeg gebruikersgegevens toe en wijs deze toe aan een groep.
+Voor de pagina van het Beheer van de Gebruiker, creeert de uitgezochte **&#x200B;**&#x200B;om een nieuwe gebruiker tot stand te brengen. Voeg gebruikersgegevens toe en wijs deze toe aan een groep.
 
 ![](assets/create-users-page.png)
 

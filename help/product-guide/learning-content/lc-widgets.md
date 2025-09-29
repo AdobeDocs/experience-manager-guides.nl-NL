@@ -47,7 +47,7 @@ De beschikbare widgets die zijn ontworpen om de gebruikerservaring te verbeteren
   ![](assets/iframe-learning-content.png){width="650" align="left"}
 
 
-  **wijze van de Voorproef 0} {:**
+  **wijze van de Voorproef 0&rbrace; &lbrace;:**
 
   ![](assets/iframe-learning-content-preview.png){width="650" align="left"}
 
