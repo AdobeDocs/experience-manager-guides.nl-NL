@@ -5,9 +5,9 @@ feature: Authoring
 role: Admin
 level: Experienced
 exl-id: dc26ae48-c953-492c-823a-5f65157b6902
-source-git-commit: f14ee85ccc49abd662a046b2bd4e7be2eece4902
+source-git-commit: 64adc89966e60823f6b46fb062b7659ed150cfc3
 workflow-type: tm+mt
-source-wordcount: '1451'
+source-wordcount: '1453'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 0%
 # Mapprofielen configureren
 
 Een omslagprofiel wordt vereist om de configuraties voor verschillende afdelingen of producten in uw onderneming te scheiden. Voor Leren en Trainingsinhoud, kunt u een omslag-vlakke profiel tot stand brengen en vormen om auteursmalplaatjes, outputmalplaatjes, outputvoorinstellingen, en andere omslag-vlakke montages te beheren.
+
+Leer over [ Beste praktijken voor vestiging de omslagstructuur ](best-practices-folder-structure.md).
 
 Om aan de slag te gaan met de configuratie van het omslagprofiel voor het Leren en Trainingsinhoud, moet u:
 
@@ -25,7 +27,6 @@ Om aan de slag te gaan met de configuratie van het omslagprofiel voor het Leren 
    ![](assets/create-new-folder.png){width="350" align="left"}
 2. **creeer taalomslagen om vertaling** te beheren: Als u inhoud in verschillende talen vertaalt, moet u omslagen creëren die aan elke taal beantwoorden. Elk van deze taalomslagen zal de inhoud bevatten die aan die taal beantwoordt.
 
-   Voor details, mening [ Beste praktijken voor inhoudsomzetting ](../user-guide/translation-first-time.md).
 3. **creeer een omslag om Assets** te beheren: Gelijkaardig aan omslagen, kunt u verschillende omslagen van Assets ook tot stand brengen om aan de behoeften van verschillende afdelingen te voldoen. Op deze manier zorgt u er ook voor dat Auteurs en Uitgevers toegang hebben tot de juiste CSS die in hun sjablonen, afbeeldingen en andere elementen is geconfigureerd.
 
    ![](assets/configure-assets-folder.png){width="350" align="left"}

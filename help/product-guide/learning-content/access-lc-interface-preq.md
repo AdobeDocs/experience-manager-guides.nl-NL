@@ -1,9 +1,10 @@
 ---
 title: Onderzoek de interface en de eerste vereisten
-description: Ontdek de interface en voorwaarden wanneer u werkt met de inhoud voor leren en training in Adobe Experience Manager Guides.
+description: Ontdek de interface en voorwaarden wanneer u werkt met de producttraining en -training in Adobe Experience Manager Guides.
 feature: Authoring
 role: User
-source-git-commit: eda6c57d80359b1c70266708dc444f4880e1bf6c
+exl-id: b55af490-ebd5-4aa0-a5f3-84d835175dc9
+source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
@@ -44,13 +45,3 @@ De pagina Gebruikersvoorkeuren bestaat uit twee tabbladen:
 - **Vormgeving**: Verstrekt u van de opties om de thema&#39;s voor de toepassing en de bronmening van de het Leren inhoud te selecteren.
 
 Voor details, mening [ voorkeur van de Gebruiker ](../user-guide/intro-home-page.md#user-preferences) in Experience Manager Guides.
-
-
-
-
-
-
-
-
-
-

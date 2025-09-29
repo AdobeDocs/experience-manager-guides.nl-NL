@@ -1,9 +1,10 @@
 ---
 title: PDF genereren
-description: Leer hoe u PDF-uitvoer genereert in leer- en trainingsinhoud.
+description: Leer hoe u PDF-uitvoer kunt genereren via Producttraining en Leren.
 feature: Authoring
 role: User
-source-git-commit: 4b581043d2577545b69773d33869dcd873a2ea3b
+exl-id: 364aa6a4-4ef6-4f7d-b207-ee011b79183c
+source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
 workflow-type: tm+mt
 source-wordcount: '84'
 ht-degree: 0%
@@ -26,8 +27,3 @@ Voer de volgende stappen uit om een PDF te genereren:
 1. U kunt PDF downloaden door **output van de Mening** op het succesbericht evenals van de toolbar te selecteren.
 
    ![](assets/view-output.png){width="650" align="left"}
-
-
-
-
-

@@ -1,9 +1,10 @@
 ---
 title: Configuratie van SCORM-voorinstellingen
-description: Meer informatie over de verschillende vooraf ingestelde SCORM-configuratie in de inhoud Learning and Training
+description: Meer informatie over de verschillende vooraf ingestelde SCORM-configuratie in Producttraining en Leren
 feature: Authoring
 role: User
-source-git-commit: 110082f38f170d277dfd745a4fce77ad030707c3
+exl-id: b3000708-6120-4725-bea1-0b8e58048948
+source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 0%
@@ -27,5 +28,3 @@ Nadat de voorinstelling is gemaakt, configureert u de instellingen voor de SCORM
   ![](assets/scorm-publish-tab.png){width="650" align="left"}
 
 Zodra alle veranderingen worden gevormd, sparen de veranderingen voor SCORM vooraf ingesteld gebruikend **sparen** op de rechterhoek van de toolbar van de SCORM vooraf ingestelde pagina.
-
-

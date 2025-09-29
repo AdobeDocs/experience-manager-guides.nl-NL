@@ -1,20 +1,27 @@
 ---
-title: Basisbouwstenen toevoegen aan uw leerinhoud
-description: Meer informatie over de basisbouwstenen die u kunt toevoegen aan uw leerinhoud in de leer- en trainingsinhoud
+title: Basisbouwstenen toevoegen
+description: Meer informatie over de basisbouwstenen die u kunt toevoegen aan uw onderwerp of leerinhoud in de producttraining en het leren werken
 feature: Authoring
 role: User
-source-git-commit: 4b581043d2577545b69773d33869dcd873a2ea3b
+exl-id: 171b9df9-3782-4cfa-b450-7824e5fd390d
+source-git-commit: 74e5baaf1743986ab188f5c89644d7683f885d0a
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
 
-# Basisbouwstenen toevoegen aan uw leerinhoud
+# Basisbouwstenen toevoegen aan uw onderwerp
 
-U kunt de basisbewerkingsfuncties gebruiken die beschikbaar zijn op de werkbalk Leerinhoud, zoals hieronder wordt beschreven:
+De volgende video biedt een kort overzicht van de beschikbare functies voor een beter begrip van hoe u een leeronderwerp maakt en er elementaire bouwstenen aan toevoegt.
 
-- **Widgets**: Voeg widgets als accordeon, carrousel, hotspots, en meer aan uw het leren inhoud toe gebruikend het **3&rbrace; menu van het Tussenvoegsel &lbrace;zoals hieronder getoond.** Voor meer details op interactieve widgets, mening [ Gebruik interactieve widgets ](./lc-widgets.md).
+
+>[!VIDEO](https://video.tv.adobe.com/v/3469535/learning-content-aem-guides)
+
+
+U kunt de basisbewerkingsfuncties gebruiken die beschikbaar zijn op de werkbalk van de Editor, zoals hieronder wordt beschreven:
+
+- **Widgets**: Voeg widgets als accordeon, carrousel, hotspots, en meer aan uw Onderwerp of het leren inhoud toe gebruikend het **3} menu van het Tussenvoegsel {zoals hieronder getoond.** Voor meer details op interactieve widgets, mening [ Gebruik interactieve widgets ](./lc-widgets.md).
 
   ![](assets/widgets-learning-content.png){width="650" align="left"}
 
@@ -50,5 +57,3 @@ U kunt de basisbewerkingsfuncties gebruiken die beschikbaar zijn op de werkbalk 
 - **Hyperlinks**: Voegt hyperlinks aan de vereiste plaats in uw inhoud toe. U kunt het van het **Meer** menu op de toolbar gebruiken. Dit kan een bestandsverwijzing, web-URL of een e-mailkoppeling zijn, zoals hieronder wordt weergegeven.
 
   ![](assets/hyperlink-learning-content.png){width="650" align="left"}
-
-

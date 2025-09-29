@@ -3,16 +3,22 @@ title: Interactieve widgets gebruiken
 description: Leer meer over de interactieve widgets die u kunt gebruiken in de leerinhoud.
 feature: Authoring
 role: User
-source-git-commit: 54956963caf6384e129da97ed0f2100913893977
+exl-id: e7ca2df1-9d15-4718-9698-8a0f059a86d7
+source-git-commit: 74e5baaf1743986ab188f5c89644d7683f885d0a
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
 
 # Interactieve widgets gebruiken
 
-U kunt de leerinhoud verbeteren door meerdere widgets toe te voegen om de cursus interactiever te maken. Selecteer het **menu van het Tussenvoegsel** op de toolbar om tot widgets toegang te hebben. De beschikbare widgets zijn onder andere:
+U kunt de leerinhoud verbeteren door meerdere widgets toe te voegen om de cursus interactiever te maken. Hier volgt een korte video van de verschillende beschikbare widgets.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3469531/learning-content-aem-guides)
+
+
+De beschikbare widgets die zijn ontworpen om de gebruikerservaring te verbeteren en de levering van inhoud te stroomlijnen, zijn onder meer:
 
 - **Accordeon:** voegt een accordeon aan de inhoud toe. U kunt geschikte tekst in zowel de accordeonkopbal als zijn lichaam opnemen. Zijn eigenschappen kunnen worden beheerd gebruikend het **eigenschappen van de Inhoud** paneel, met inbegrip van opties om enige of veelvoudige accordeons toe te staan om gelijktijdig te openen, evenals om elementen toe te voegen of te verwijderen.
 
@@ -41,7 +47,7 @@ U kunt de leerinhoud verbeteren door meerdere widgets toe te voegen om de cursus
   ![](assets/iframe-learning-content.png){width="650" align="left"}
 
 
-  **wijze van de Voorproef 0&rbrace; &lbrace;:**
+  **wijze van de Voorproef 0} {:**
 
   ![](assets/iframe-learning-content-preview.png){width="650" align="left"}
 

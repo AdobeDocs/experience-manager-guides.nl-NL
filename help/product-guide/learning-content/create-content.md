@@ -1,38 +1,44 @@
 ---
-title: Leerinhoud maken
-description: Bespreekt over het creëren van een het Leren inhoud in het Leren en de inhoud van de Opleiding.
+title: Een onderwerp maken
+description: Bespreekt over het creëren van een Onderwerp in de Opleiding en het Leren van het Product.
 feature: Authoring
 role: User
 exl-id: a08a165d-801b-4b35-9626-b27471349327
-source-git-commit: 57ddd498cd06d7d8cb511b0c3108591280a35bdb
+source-git-commit: 75a35db1b81d71f3994c3a6763647b94a2b79b36
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
 
-# Leerinhoud maken
+# Een onderwerp maken
 
-Voer de volgende stappen uit om leerinhoud aan een cursus toe te voegen:
+Alvorens wij in het geleidelijke proces duiken, is hier een snel videooverzicht om u te helpen visualiseren hoe te om een het Leren onderwerp tot stand te brengen.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3475211/learning-content-aem-guides)
+
+
+Voer de volgende stappen uit om een Onderwerp aan een cursus toe te voegen:
 
 1. Open een cursus in de **manager van de Cursus** en uitgezocht **voeg nieuw** van het **menu van Opties** toe.
 
    ![](assets/workflow-learning-content.png){width="650" align="left"}
 
-1. Selecteer **het Leren inhoud**.
-De **Nieuwe het leren inhoud** dialoog wordt getoond.
+1. Selecteer **Onderwerp**.
 
-   ![](assets/learning-content-dialog.png){width="350" align="left"}
+   Het **Nieuwe het leren onderwerp** dialoog wordt getoond.
+
+   ![](assets/new-learning-topic-dialog.png){width="350" align="left"}
 
 1. Selecteer de gewenste sjabloon in het vervolgkeuzemenu.
 
    ![](assets/template-types-lc.png){width="350" align="left"}
 
-1. Geef een geschikte titel op voor de leerinhoud.
+1. Geef een geschikte titel voor het onderwerp op.
 1. Selecteer **creeer**.
 
-Leerinhoud wordt gemaakt in de cursus en wordt weergegeven in het deelvenster Cursusmanager.
+Er wordt een nieuw leeronderwerp gemaakt in de cursus en weergegeven in het deelvenster Cursusmanager.
 
 >[!NOTE]
 >
-> Wanneer u nieuwe leerinhoud maakt, wordt automatisch versie 1.0 toegewezen.
+> Zodra u nieuw het leren onderwerp creeert, wordt het automatisch toegewezen Versie 1.0.

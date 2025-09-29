@@ -1,12 +1,12 @@
 ---
-title: Een cursus beheren in leer- en trainingsinhoud
+title: Een cursus producttraining en training beheren
 description: Leer meer over de verschillende functies in Experience Manager Guides waarmee u uw cursus efficiënt kunt beheren.
 feature: Authoring
 role: User
 exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
-source-git-commit: 57ddd498cd06d7d8cb511b0c3108591280a35bdb
+source-git-commit: 0c3cb192391248adcca4b845b5e4237531fc0ab7
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '567'
 ht-degree: 0%
 
 ---
@@ -23,13 +23,15 @@ Voer de volgende stappen uit om nieuwe inhoud aan uw cursus toe te voegen:
 
    ![](assets/learning-course-content.png)
 2. Selecteer het type inhoud dat u wilt maken. De beschikbare opties zijn:
-   - **het leren inhoud**: Het belangrijkste materiaal in een cursus bestaat uit korte, geconcentreerde stukken zoals stappen, voorbeelden, of verklaringen die een specifieke vaardigheid of een idee onderwijzen. Voor meer details, mening [ creeer en pas het Leren inhoud ](./create-content.md) aan.
-   - **het Leren samenvatting**: Een snelle overzicht aan het eind van een cursushoofdstuk dat studenten aan de belangrijkste punten herinnert zij enkel leerden.
+   - **Overzicht**: Het eerste onderwerp van uw cursus dat een snelle inleiding aan verstrekt wat de cursus behandelt.
+   - **Onderwerp**: Het belangrijkste materiaal in een cursus bestaat uit korte, geconcentreerde stukken zoals stappen, voorbeelden, of verklaringen die een specifieke vaardigheid of een idee onderwijzen. Voor meer details, leidt de mening [ tot en past Onderwerp ](./create-content.md) aan.
+   - **Samenvatting**: Een snelle overzicht aan het eind van een cursushoofdstuk dat studenten aan de belangrijkste punten herinnert zij enkel leerden.
    - **Quiz**: Een reeks vragen die worden gebruikt om te controleren hoe goed iemand begrijpt wat zij hebben geleerd. Voor meer details, leidt de mening [ tot en leidt Quiz ](./create-quiz.md).
    - **bank van de Vraag**: Een gedeelde pool van herbruikbare vragen die kunnen worden gebruikt om quizzen snel en verenigbaar tot stand te brengen. Voor meer details, bekijk [ bank van de Vraag ](./create-qb.md).
-   - **het Leren groep**: Een het leren groepshulp organiseert verwante het leren inhoud zoals hoofdstukken, onderwerpen, en andere modules in een logische orde, bouwend een duidelijke hiërarchie die het gemakkelijker maakt om trainingsmaterialen te beheren en te hergebruiken.
+   - **Groep**: De hulp van een het leren groep organiseert verwante onderwerpen zoals hoofdstukken, onderwerpen, en andere modules in een logische orde, bouwend een duidelijke hiërarchie die het gemakkelijker maakt om trainingsmaterialen te beheren en te hergebruiken.
 3. Selecteer **creeer**.
-De geselecteerde inhoud wordt gemaakt en aan de cursus toegevoegd.
+
+De geselecteerde inhoud wordt gemaakt en aan de cursus toegevoegd. Voor een videooverzicht, mening [ voeg nieuwe inhoud aan een cursus ](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on) toe.
 
 ## Bestaande inhoud toevoegen
 
@@ -44,11 +46,19 @@ U kunt bestaande inhoud uit de opslagplaats voor inhoud toevoegen aan uw cursus.
 
 De geselecteerde cursusinhoud wordt vanuit de opslagplaats aan de cursus toegevoegd.
 
+>[!NOTE]
+>
+>U kunt **ook gebruiken toevoegt Bestaand**> **Dossier (het slechts ZIP van het Middel)** optie om een ZIP dossier te omvatten dat wordt uitgepakt en in de omslagstructuur van de definitieve output SCORM geïntegreerd. Hierdoor wordt het verpakken van bronnen tijdens het publiceren van cursussen gestroomlijnd.
+
+Voor een videooverzicht, voegt de mening [ bestaande inhoud aan cursus ](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on) toe.
+
 ## Inhoud verwijderen
 
-U kunt om het even welk onderwerp uit de cursus verwijderen door het **menu van Opties** voor dat specifieke onderwerp te selecteren en dan **te selecteren verwijder** zoals hieronder getoond.
+U kunt om het even welk onderwerp uit de cursus verwijderen door het **menu van Opties** voor dat specifieke onderwerp te selecteren en dan **te selecteren verwijder ingang** zoals hieronder getoond.
 
 ![](assets/remove-learning-content.png)
+
+Voor een videooverzicht, verwijdert de mening [ inhoud uit cursus ](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides).
 
 ## Cursusversies maken
 
@@ -71,3 +81,5 @@ De **toon** optie bepaalt hoe de onderwerpen worden getoond. U kunt verkiezen om
 > Deze weergave-instellingen zijn alleen van toepassing in Cursusmanager en hebben geen invloed op de gepubliceerde uitvoer.
 
 ![](assets/course-display-settings.png)
+
+Voor een videooverzicht, mening [ tonen opties ](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides).

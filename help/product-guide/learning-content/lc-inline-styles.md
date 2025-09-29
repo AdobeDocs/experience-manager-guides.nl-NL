@@ -1,11 +1,12 @@
 ---
 title: Inline stijlen gebruiken
-description: Leer hoe u verschillende inline stijlen kunt gebruiken bij het maken van leerinhoud in de leer- en trainingsinhoud
+description: Leer hoe u verschillende inline stijlen kunt gebruiken bij het maken van leerinhoud in de producttraining en het leren werken
 feature: Authoring
 role: User
-source-git-commit: 4b581043d2577545b69773d33869dcd873a2ea3b
+exl-id: 78b62eb3-bc61-4c39-96b2-c0511d659ebf
+source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -18,9 +19,14 @@ Pas inline stijlen toe om de weergave van specifieke tekst direct in de cursusin
 >
 > Deze opmaakopties zijn alleen zichtbaar als de beheerder ze heeft ingeschakeld.
 
+
+>[!VIDEO](https://video.tv.adobe.com/v/3469533/aem-guides-learning-content)
+
+
+De volgende opties zijn inline opmaakopties beschikbaar.
+
 ![](assets/content-properties-learning-content.png){width="350" align="left"}
 
-De volgende opties zijn beschikbaar:
 
 - **Doopvont:** laat u toe om de tekstverschijning aan te passen gebruikend diverse opties zoals doopvontfamilie, doopvontgewicht, tekstdecoratie, doopvontgrootte, en meer. Met deze instellingen kunt u uw inhoud opmaken, zoals in het onderstaande voorbeeld wordt getoond.
 
