@@ -73,5 +73,5 @@ Om toestemmingen toe te wijzen, navigeer aan **Hulpmiddelen** > **Veiligheid** >
 
 Met deze machtigingen kunt u ervoor zorgen dat gebruikers alleen inhoud binnen hun toegewezen mappen kunnen maken of wijzigen.
 
-Voor meer details, mening [ Toestemmingen in AEM ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/security/security#permissions-in-aem).
+Voor meer details, mening [ Toestemmingen in AEM ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/security/security#permissions-in-aem).
 
