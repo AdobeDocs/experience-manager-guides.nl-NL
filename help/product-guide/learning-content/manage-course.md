@@ -4,7 +4,7 @@ description: Leer meer over de verschillende functies in Experience Manager Guid
 feature: Authoring
 role: User
 exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
-source-git-commit: 0c3cb192391248adcca4b845b5e4237531fc0ab7
+source-git-commit: 6a61f404892dee8256e969a0b3433b8425f84c6c
 workflow-type: tm+mt
 source-wordcount: '567'
 ht-degree: 0%
@@ -48,7 +48,7 @@ De geselecteerde cursusinhoud wordt vanuit de opslagplaats aan de cursus toegevo
 
 >[!NOTE]
 >
->U kunt **ook gebruiken toevoegt Bestaand**> **Dossier (het slechts ZIP van het Middel)** optie om een ZIP dossier te omvatten dat wordt uitgepakt en in de omslagstructuur van de definitieve output SCORM geïntegreerd. Hierdoor wordt het verpakken van bronnen tijdens het publiceren van cursussen gestroomlijnd.
+>U kunt **ook gebruiken toevoegt Bestaand** > **Dossier (het slechts ZIP van het Middel)** optie om een ZIP dossier te omvatten dat wordt uitgepakt en in de omslagstructuur van de definitieve output SCORM geïntegreerd. Hierdoor wordt het verpakken van bronnen tijdens het publiceren van cursussen gestroomlijnd.
 
 Voor een videooverzicht, voegt de mening [ bestaande inhoud aan cursus ](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on) toe.
 

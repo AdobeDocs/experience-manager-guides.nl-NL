@@ -4,9 +4,9 @@ description: Leer hoe u verschillende inline stijlen kunt gebruiken bij het make
 feature: Authoring
 role: User
 exl-id: 78b62eb3-bc61-4c39-96b2-c0511d659ebf
-source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
+source-git-commit: 6a61f404892dee8256e969a0b3433b8425f84c6c
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,8 @@ ht-degree: 0%
 # Inline stijlen gebruiken
 
 Pas inline stijlen toe om de weergave van specifieke tekst direct in de cursusinhoud aan te passen. Op deze manier kunt u snel opmaakaanpassingen uitvoeren, zoals tekengrootte, kleur, uitlijning en nog veel meer. U kunt de gealigneerde stijlen voor de geselecteerde tekst wijzigen gebruikend het **eigenschappen van de Inhoud** paneel.
+
+Hier is een korte doorkijkvideo die over diverse beschikbare gealigneerde stijlen demonstreert.
 
 >[!NOTE]
 >
@@ -23,10 +25,7 @@ Pas inline stijlen toe om de weergave van specifieke tekst direct in de cursusin
 >[!VIDEO](https://video.tv.adobe.com/v/3469533/aem-guides-learning-content)
 
 
-De volgende opties zijn inline opmaakopties beschikbaar.
-
-![](assets/content-properties-learning-content.png){width="350" align="left"}
-
+De beschikbare opties voor inline opmaak worden als volgt beschreven:
 
 - **Doopvont:** laat u toe om de tekstverschijning aan te passen gebruikend diverse opties zoals doopvontfamilie, doopvontgewicht, tekstdecoratie, doopvontgrootte, en meer. Met deze instellingen kunt u uw inhoud opmaken, zoals in het onderstaande voorbeeld wordt getoond.
 
