@@ -1,10 +1,11 @@
 ---
 title: Opmerkingen bij de release | Upgradeinstructies voor Adobe Experience Manager Guides 5.1.0-versie
 description: Leer meer over de compatibiliteitsmatrix en hoe u een upgrade uitvoert naar de 5.1.0-versie van Adobe Experience Manager Guides.
-source-git-commit: 5809c93b86955c25296daaed42eea444fc98d8f0
+exl-id: 4b7b6756-d260-4baf-a9cb-d99fc02f020f
+source-git-commit: 6bcfed792036a51aa0c11498e4cb489199280a56
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 0%
+source-wordcount: '520'
+ht-degree: 1%
 
 ---
 
@@ -20,11 +21,10 @@ Voor de lijst van kwesties die in deze versie zijn bevestigd, mening [ Vaste kwe
 
 In deze sectie wordt een overzicht gegeven van de compatibiliteitsmatrix voor de softwaretoepassingen die worden ondersteund door de release van Experience Manager Guides 5.1.0.
 
-### Adobe Experience Manager
-
-**5.1.0 UUID**
-
-Versie 6.5 Service Pack 23, Service Pack 22, en Service Pack 21.
+| AEM Guides | AEM-versie | Service Pack |
+| --- | --- | --- |
+| 5.1.0 (UUID) | 6,5 LTS | 1 |
+| 5.1.0 (UUID) | 6,5 | 23, 22, 21 |
 
 Voor meer details, bekijk de [ Technische vereisten ](../install-guide/download-install-technical-requirements.md) sectie in de Gids van de Installatie en van de Configuratie op locatie.
 
@@ -49,24 +49,32 @@ Voor meer details, bekijk de [ Technische vereisten ](../install-guide/download-
 ### Nieuwe sjabloonversie voor AEM-site
 
 
-| Versie van componenten | Site-versie |
-|---|---|
-| guides-components.all-1.4.0 | aemg-docs.all-1.2.0 |
+| AEM Guides | AEM-versie | Versie van componenten | Site-versie |
+|---|---|---| ---|
+| 5.1.0 UUID | 6,5 LTS | guides-components.all-1.4.1 | aemg-docs.all-1.2.0 |
+| 5.1.0 UUID | 6,5 | guides-components.all-1.4.0 | aemg-docs.all-1.2.0 |
 
+## Upgrade naar Experience Manager Guides 5.1.0
 
-## Upgrade naar versie 5.1.0 van Experience Manager Guides
+U kunt uw huidige versie van Experience Manager Guides aan versie 5.1.0 op **AEM 6.5** of **AEM 6.5 LTS** gemakkelijk bevorderen.
 
-U kunt eenvoudig uw huidige versie van Hulplijnen upgraden naar versie 5.1.0. Voordat u verdergaat met de upgrade naar versie 5.1.0 van Experience Manager Guides, moet u rekening houden met de volgende punten:
+>[!NOTE]
+>
+> Als u momenteel op AEM 6.5 werkt en van plan bent over te stappen op AEM 6.5 LTS, dient u eerst de AEM-upgrade te voltooien voordat u verdergaat met de Experience Manager Guides 5.1.0-upgrade. Voor details, mening [ Bevorderend aan Adobe Experience Manager (AEM) 6.5 LTS ](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
+
+Voordat u verdergaat met de upgrade naar versie 5.1.0 van Experience Manager Guides, moet u rekening houden met de volgende punten:
 
 - Als u versie 4.6.3, 4.6.4, 5.0.0, of 5.0.0 Service Pack 1 gebruikt, dan kunt u aan versie 5.1.0 direct bevorderen.
 - Als u versie 4.6.0 en 4.6.1 gebruikt, moet u een upgrade naar versie 4.6.3 of 4.6.4 of 5.0.0 uitvoeren voordat u een upgrade naar versie 5.1.0 uitvoert.
 - Als u versie 4.3.x, 4.2, 4.2.1 (Hotfix 4.2.1.3), 4.1 of 4.1.x gebruikt, moet u een upgrade naar versie 4.4 uitvoeren voordat u een upgrade naar versie 5.1.0 uitvoert.
 - Als u versie 4.0 gebruikt, moet u een upgrade naar versie 4.2 uitvoeren voordat u een upgrade naar versie 4.3.x uitvoert.
 - Als u versie 3.8.5 gebruikt, moet u een upgrade naar versie 4.0 uitvoeren voordat u een upgrade naar versie 4.2 uitvoert.
-- Als u op een versie voorafgaand aan 3.8.5 bent, verwijs naar de sectie van Experience Manager Guides van de Verbetering in de product-specifieke installatiegids beschikbaar op [ Adobe Experience Manager Guides Help het archief van PDF ](https://helpx.adobe.com/nl/xml-documentation-for-experience-manager/archive.html).
+- Als u op een versie voorafgaand aan 3.8.5 bent, verwijs naar de sectie van Experience Manager Guides van de Verbetering in de product-specifieke installatiegids beschikbaar op [ Adobe Experience Manager Guides Help het archief van PDF ](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 >[!NOTE]
 >
 >U moet AEM Service Pack installeren voordat u de Experience Manager Guides-versie kunt upgraden.
 
 Voor details, mening [ de instructies van de Verbetering voor de On-premise versies ](../install-guide/upgrade-xml-documentation.md) van Experience Manager Guides.
+
+
