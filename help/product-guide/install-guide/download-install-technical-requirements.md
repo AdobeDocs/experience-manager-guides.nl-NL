@@ -5,7 +5,7 @@ exl-id: d69245b0-bf20-43c1-b46e-b6c220319690
 feature: Introduction, Installation
 role: Admin
 level: Experienced
-source-git-commit: 339fc84c2c3232dbe9946c0063c13a8bbef131a5
+source-git-commit: 7964049ac3a614886630a6f0ca21d53eeecb47c5
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Voordat u Adobe Experience Manager Guides installeert, moet u controleren of uw 
 
 >[!NOTE]
 >
-> [&#x200B; leer meer over de versies van Experience Manager Guides en download de bouwstijl &#x200B;](../release-info/latest-release-info.md).
+> [ leer meer over de versies van Experience Manager Guides en download de bouwstijl ](../release-info/latest-release-info.md).
 
 
 | [!DNL AEM Guides] Release | Technische specificaties |
@@ -35,7 +35,7 @@ Voordat u Adobe Experience Manager Guides installeert, moet u controleren of uw 
 | **AEM Guides 4.2** | **niet-UUID en UUID 4.2.1**<br><br><ul> <li>AEM 6.5 SP15, SP14, SP13 of SP12 <br><br><li>Java: 11 of 8   <br><br><li> Besturingssystemen: <ul><li>Windows Server 2012 R2  <li>Red Hat Linux 7 en 6</ul></ul> <br>**niet-UUID en UUID 4.2**<br><br><ul> <li>AEM 6.5 SP15, SP14, SP13 of SP12 <br><br><li>Java: 11 of 8 <br><br> <li> Besturingssystemen: <ul><li>Windows Server 2012 R2 <br> <li>Red Hat Linux 7 en 6</ul> |
 | **AEM Guides 4.1** | **niet-UUID en UUID 4.1.2**<br><br> <ul><li>AEM 6.5 SP13, SP12, SP11 of SP10 <br><br> <li>Java: 11 of 8 <br><br> <li>Besturingssystemen: <ul><li>Windows Server 2012 R2 <br><li> Red Hat Linux 7 en 6 </ul></ul><br><br> **niet-UUID en UUID 4.1**<br><br><ul> <li>AEM 6.5 SP13, SP12, SP11 of SP10 <br><li>Java: 11 of 8<li>Besturingssystemen: <ul><li>Windows Server 2012 R2 <br> <li> Red Hat Linux 7 en 6 |
 | **AEM Guides 4.0** | **niet-UUID en UUID 4.0.3**<br><br><ul><li> AEM 6.5 SP12, SP11, SP10 of SP9 <br><li>Java: 11 of 8 <br><br> <li>Besturingssystemen: <ul><li>Windows Server 2012 R2 <br> <li>Red Hat Linux 7 en 6 <br><br> </ul></ul>**niet-UUID en UUID 4.0.2** <br><br><ul><li> AEM 6.5 SP12, SP11, SP10 of SP9 <br><li>Java: 11 of 8 <br><br> <li>Besturingssystemen: <ul><li>Windows Server 2012 R2 <br> <li>Red Hat Linux 7 en 6 <br><br> </ul></ul>**niet-UUID en UUID 4.0**<br> <br> <ul><li>AEM 6.5 SP11, SP10 of SP9 <br><li>Java: 11 of 8 <br><br><li> Besturingssystemen: <ul><li>Windows Server 2012 R2 <br> <li> Red Hat Linux 7 en 6 |
-| **AEM Guides 3.8.5** <br> 3.8.5 is een versie van SP bovenop 3.8. <br> 3.8 versie moet niet standalone worden geïnstalleerd aangezien 3.8.5 SP een kritieke moeilijke situatie bevat. <br> de Klanten moeten 3.8 eerst installeren en dan SP 3.8.5. | **niet-UUID** <br> <ul><li>AEM 6.5 SP9 of SP8 <br> AEM 6.4 SP8 <br> AEM 6.3 SP3   <br><br> <li>Besturingssystemen: <ul><li>Windows Server 2012 R2 <br> <li> Red Hat Linux 7 en 6</ul><br> **UUID** <br><li> AEM 6.5 SP9 of SP8 <br><br> <li> Besturingssystemen: <ul><li>Windows Server 2012 R2 <br> <li>Red Hat Linux 7 en 6 |
+| **AEM Guides 3.8.5** <br><br> 3.8.5 is een versie van SP bovenop 3.8.  <br> 3.8-release mag niet <br> zelfstandig worden geïnstalleerd omdat 3.8.5 SP <br> een kritieke oplossing bevat. <br> Klanten moeten eerst 3.8 <br> installeren en vervolgens SP 3.8.5. | **niet-UUID** <br> <ul><li>AEM 6.5 SP9 of SP8 <br> AEM 6.4 SP8 <br> AEM 6.3 SP3   <br><br> <li>Besturingssystemen: <ul><li>Windows Server 2012 R2 <br> <li> Red Hat Linux 7 en 6</ul><br> **UUID** <br><li> AEM 6.5 SP9 of SP8 <br><br> <li> Besturingssystemen: <ul><li>Windows Server 2012 R2 <br> <li>Red Hat Linux 7 en 6 |
 
 
-**Bovenliggend onderwerp:** [&#x200B; Download en installeer &#x200B;](download-install.md)
+**Bovenliggend onderwerp:** [ Download en installeer ](download-install.md)
