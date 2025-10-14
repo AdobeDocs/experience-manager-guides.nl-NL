@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Voer de volgende stappen uit om de basisuitvoerlocatie te configureren:
 
-1. Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](../cs-install-guide/download-install-additional-config-override.md) om het configuratiedossier tot stand te brengen.
+1. Gebruik de instructies die in [&#x200B; worden gegeven met voeten treedt van de Configuratie &#x200B;](../cs-install-guide/download-install-additional-config-override.md) om het configuratiedossier tot stand te brengen.
 
 1. In het configuratiedossier, verstrek de volgende (bezit) details om de plaats van de basisoutput te vormen:
 

@@ -40,11 +40,11 @@ In deze sessie leert u over het volgende:
 
 ## Gerelateerde bronnen
 
-- {de video&#39;s van de Eigenschap 0} **- [ Experience League ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=nl-NL)**
+- {de video&#39;s van de Eigenschap 0} **- [&#x200B; Experience League &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=nl-NL)**
 
-- **Gids van de Gebruiker** - [ Werk met basislijn ](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html)
+- **Gids van de Gebruiker** - [&#x200B; Werk met basislijn &#x200B;](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html)
 
-- **Communautair Forum** - voor zitting-specifieke communautaire interactie over Experience League, bezoek [ het Forum van AEM Guides ](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Communautair Forum** - voor zitting-specifieke communautaire interactie over Experience League, bezoek [&#x200B; het Forum van AEM Guides &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >

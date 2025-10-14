@@ -35,4 +35,4 @@ De auto-sparen eigenschap wordt niet toegelaten door gebrek en u moet dit van co
 1. Klik **sparen**.
 
 
-**Bovenliggend onderwerp:**&#x200B;[ pas de Redacteur van het Web ](conf-web-editor.md) aan
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; pas de Redacteur van het Web &#x200B;](conf-web-editor.md) aan

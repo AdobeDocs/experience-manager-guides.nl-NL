@@ -21,4 +21,4 @@ AEM Guides wordt geleverd met een krachtige functie voor het maken van DITA-onde
 - **[Voorproef een onderwerp](web-editor-preview-topics.md)**
 
 
-**Bovenliggend onderwerp:**&#x200B;[ Inhoud van de Auteur ](authoring-content.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Inhoud van de Auteur &#x200B;](authoring-content.md)

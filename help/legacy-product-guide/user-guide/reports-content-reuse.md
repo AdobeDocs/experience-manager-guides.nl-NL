@@ -63,4 +63,4 @@ Voer de volgende stappen uit om het Rapport voor hergebruik van inhoud weer te g
 >
 > U kunt het Rapport voor hergebruik van inhoud ook exporteren in CSV-indeling. Klik hiertoe op de koppeling Exporteren naar CSV in de linkerbovenhoek van het scherm en kies een locatie waar u het CSV-bestand wilt opslaan. U kunt dit CSV-bestand vervolgens openen in elke CSV-editor.
 
-**Bovenliggend onderwerp:**&#x200B;[ Rapporten ](reports-intro.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Rapporten &#x200B;](reports-intro.md)

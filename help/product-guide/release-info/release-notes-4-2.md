@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Deze versienota behandelt de verbeteringsinstructies, verenigbaarheidsmatrijs, en kwesties die in versie 4.2 van Adobe Experience Manager Guides (later als *worden bedoeld AEM Guides*) worden bevestigd.
 
-Voor meer informatie over de nieuwe eigenschappen en de verhogingen, zie [ wat in versie 4.2 van Adobe Experience Manager Guides ](whats-new-4-2-release.md) nieuw is.
+Voor meer informatie over de nieuwe eigenschappen en de verhogingen, zie [&#x200B; wat in versie 4.2 van Adobe Experience Manager Guides &#x200B;](whats-new-4-2-release.md) nieuw is.
 
 ## Upgrade naar versie 4.2 van AEM Guides
 
@@ -28,7 +28,7 @@ U kunt uw huidige versie van AEM Guides eenvoudig upgraden naar versie 4.2. Voor
 >
 >U moet AEM servicepack installeren voordat u de AEM Guides-versie kunt upgraden.
 
-Voor details, zie [ instructies van de Verbetering ](assets/Adobe-Experience-Manager-Guides-Upgrade-Instructions-EN.pdf).
+Voor details, zie [&#x200B; instructies van de Verbetering &#x200B;](assets/Adobe-Experience-Manager-Guides-Upgrade-Instructions-EN.pdf).
 
 ## Compatibiliteitsmatrix
 

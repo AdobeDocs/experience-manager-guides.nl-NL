@@ -24,24 +24,24 @@ ht-degree: 0%
 **Stap 1**
 
 Definieer de voorwaarden die relevant zijn voor de documentatie in [!UICONTROL Folder Profiles] :
-Verwijs naar sectie **voorwaardelijke attributen voor globale of omslag-vlakke profielen** in [ Pagina 69 van de Gids van de Installatie en van de Configuratie ](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_Installation-Configuration-Guide_EN.pdf) vormen
+Verwijs naar sectie **voorwaardelijke attributen voor globale of omslag-vlakke profielen** in [&#x200B; Pagina 69 van de Gids van de Installatie en van de Configuratie &#x200B;](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_Installation-Configuration-Guide_EN.pdf) vormen
 
-![ vorm Voorwaarden in de Profielen van de Omslag ](assets/conditions-in-profiles.png)
+![&#x200B; vorm Voorwaarden in de Profielen van de Omslag &#x200B;](assets/conditions-in-profiles.png)
 
 **Stap 2**
 
 Selecteer **[!UICONTROL Folder Profile]** die in Stap 1 in **de Voorkeur van de Gebruiker** in de Redacteur van XML wordt bepaald:
-Verwijs naar sectie **Voorkeur van de Gebruiker** in [ Pagina 41 van de Gids van de Gebruiker ](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)
+Verwijs naar sectie **Voorkeur van de Gebruiker** in [&#x200B; Pagina 41 van de Gids van de Gebruiker &#x200B;](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)
 
 
 **Stap 3**
 
 Gebruik de voorwaarden om secties van inhoud te conditionaliseren:
-Verwijs naar sectie **Voorwaarden** in [ Pagina 90 van de Gids van de Gebruiker ](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)
+Verwijs naar sectie **Voorwaarden** in [&#x200B; Pagina 90 van de Gids van de Gebruiker &#x200B;](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)
 
-![ Voorwaarden van het Gebruik in de Redacteur van het Web ](assets/conditions-in-web-editor.png)
+![&#x200B; Voorwaarden van het Gebruik in de Redacteur van het Web &#x200B;](assets/conditions-in-web-editor.png)
 
 **Stap 4**
 
 Definieer voorinstellingen voor voorwaarden op kaartniveau om aan te geven welke voorwaarden moeten worden ingeschakeld in de uitvoer:
-Verwijs naar sectie **Voorinstellingen van het Gebruik** in [ Pagina 249 van de Gids van de Gebruiker ](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)
+Verwijs naar sectie **Voorinstellingen van het Gebruik** in [&#x200B; Pagina 249 van de Gids van de Gebruiker &#x200B;](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)

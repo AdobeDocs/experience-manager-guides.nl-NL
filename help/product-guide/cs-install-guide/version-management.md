@@ -28,7 +28,7 @@ In een omgeving voor meerdere toepassingen is het ook belangrijk ervoor te zorge
 
 Om **toe te laten creeer nieuwe versie voor geupload dossier** optie, voer de volgende stappen uit:
 
-1. Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](download-install-additional-config-override.md#) om het configuratiedossier tot stand te brengen.
+1. Gebruik de instructies die in [&#x200B; worden gegeven met voeten treedt van de Configuratie &#x200B;](download-install-additional-config-override.md#) om het configuratiedossier tot stand te brengen.
 1. In het configuratiedossier, verstrek de volgende \ (bezit \) details om **te vormen creeer nieuwe versie voor geupload dossier** optie:
 
 
@@ -46,7 +46,7 @@ Met de AEM Guides Web Editor kunt u DITA-onderwerpen maken en bijwerken. U kunt 
 
 Een andere belangrijke regel is ervoor te zorgen dat de dossiers die zijn gecontroleerd terug in het systeem worden gecontroleerd. Zo voorkomt u dat gebruikers per ongeluk de bestanden sluiten zonder ze weer in te checken.
 
-Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](download-install-additional-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende \(eigenschap\) gegevens op om het bewerken van uitgecheckte bestanden te configureren:
+Gebruik de instructies die in [&#x200B; worden gegeven met voeten treedt van de Configuratie &#x200B;](download-install-additional-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende \(eigenschap\) gegevens op om het bewerken van uitgecheckte bestanden te configureren:
 
 | PID | Eigenschappensleutel | Waarde van eigenschap |
 |---|------------|--------------|
@@ -70,7 +70,7 @@ Bovendien kunt u configureren om een waarschuwingsbericht weer te geven wanneer 
 
 Voer de volgende stappen uit om gebruikers toe te staan het uploadbestand te overschrijven dat door hen of een andere gebruiker is uitgecheckt:
 
-1. Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](download-install-additional-config-override.md#) om het configuratiedossier tot stand te brengen.
+1. Gebruik de instructies die in [&#x200B; worden gegeven met voeten treedt van de Configuratie &#x200B;](download-install-additional-config-override.md#) om het configuratiedossier tot stand te brengen.
 1. In het configuratiedossier, verstrek de volgende \(bezit \) details om het **overschrijven Uitgecheckt Dossier op Upload** optie te vormen:
 
 
@@ -84,7 +84,7 @@ Voer de volgende stappen uit om gebruikers toe te staan het uploadbestand te ove
 
 ## Verwijderen van uitgecheckte bestanden voorkomen
 
-Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](download-install-additional-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende \(eigenschap\) gegevens op om te voorkomen dat gebruikers per ongeluk uitgecheckte bestanden verwijderen:
+Gebruik de instructies die in [&#x200B; worden gegeven met voeten treedt van de Configuratie &#x200B;](download-install-additional-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende \(eigenschap\) gegevens op om te voorkomen dat gebruikers per ongeluk uitgecheckte bestanden verwijderen:
 
 | PID | Eigenschappensleutel | Waarde van eigenschap |
 |---|------------|--------------|
@@ -101,7 +101,7 @@ Met deze configuratie kunt u toestaan of weigeren dat alle gebruikers bestanden 
 - Als u een map verwijdert en naar een bestand in de map wordt verwezen door een bestand buiten die map, wordt u gevraagd de verwijzing te verwijderen voordat u het bestand verwijdert.
 
 
-Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](download-install-additional-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende \(eigenschap\)-details op om te bepalen wie een bestand kan verwijderen dat verwijzingen bevat of waarnaar wordt verwezen door andere bestanden:
+Gebruik de instructies die in [&#x200B; worden gegeven met voeten treedt van de Configuratie &#x200B;](download-install-additional-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende \(eigenschap\)-details op om te bepalen wie een bestand kan verwijderen dat verwijzingen bevat of waarnaar wordt verwezen door andere bestanden:
 
 | PID | Eigenschappensleutel | Waarde van eigenschap |
 |---|------------|--------------|

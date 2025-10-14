@@ -27,12 +27,12 @@ Voer de volgende stappen uit om een sitepagina te genereren:
 
 
 
-1. Selecteer **Nieuwe Output** ![ nieuw outputpictogram ](./images/Add_icon.svg) van de **Output** sectie in de **Eigenschappen van het Dossier** van een onderwerp.
+1. Selecteer **Nieuwe Output** ![&#x200B; nieuw outputpictogram &#x200B;](./images/Add_icon.svg) van de **Output** sectie in de **Eigenschappen van het Dossier** van een onderwerp.
 1. Selecteer **de pagina van Plaatsen**.
 
 
 1. In **produceer de pagina van Plaatsen** dialoogdoos, vul de volgende details in:
-   ![ voeg de weg en malplaatjedetails in Generate de pagina van Plaatsen ](images/aem-sites-page-generate.png){width="500" align="left"} toe
+   ![&#x200B; voeg de weg en malplaatjedetails in Generate de pagina van Plaatsen &#x200B;](images/aem-sites-page-generate.png){width="500" align="left"} toe
 
    *Voeg de weg, de titel, de naam, en malplaatjedetails toe om een onderwerp of zijn elementen als pagina van Plaatsen te publiceren. *
 
@@ -58,7 +58,7 @@ Voer de volgende stappen uit om een sitepagina te genereren:
 1. Klik **produceren** om de pagina van Plaatsen te publiceren.
 1. U kunt de pagina van Plaatsen voor een onderwerp onder de **sectie van Output** in de **Eigenschappen van het Dossier** bekijken. De sitepagina&#39;s worden weergegeven op basis van de datum en het tijdstip van publicatie, met als laatste de eerste pagina.
 
-   ![ Mening de pagina van Plaatsen voor een onderwerp ](images/aem-sites-outputs.png) {width=300 align=&quot;links&quot;}
+   ![&#x200B; Mening de pagina van Plaatsen voor een onderwerp &#x200B;](images/aem-sites-outputs.png) {width=300 align=&quot;links&quot;}
 
    *Mening de pagina van Plaatsen aanwezig voor een onderwerp en publiceer hen opnieuw.*
 

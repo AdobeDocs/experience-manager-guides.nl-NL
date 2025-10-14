@@ -25,18 +25,18 @@ Elk vertaalproject produceert veelvoudige gebruikersgroepen voor toegang, die to
 - Markeer alle projecten als &quot;Inactief&quot; zodra de vertaling is voltooid en goedgekeurd. Het project blijft beschikbaar voor revisie en wordt eenvoudig als inactief gemarkeerd.
    - Als u deze stappen uitvoert, blijven de algemene vertaalprestaties in goede gezondheid behouden.
 
-     ![ Inactief vertaalproject ](../assets/translation/translation-project-image1.png)
+     ![&#x200B; Inactief vertaalproject &#x200B;](../assets/translation/translation-project-image1.png)
 
 - Voor oudere projecten moet de map die als inactief is gemarkeerd, worden verwijderd. Deze map moet worden goedgekeurd en gecontroleerd.
    - Als u deze stappen uitvoert, blijven de algemene vertaalprestaties in goede gezondheid behouden doordat tijdelijke vertaalbestanden en gebruikersgroepen die bij deze projectmap horen, worden opgeschoond.
 
-     ![ Vertaalproject en -map verwijderen ](../assets/translation/translation-project-image2.png)
+     ![&#x200B; Vertaalproject en -map verwijderen &#x200B;](../assets/translation/translation-project-image2.png)
 
 
 ## Als u aan bent, bouwt u 4.6 of 2404 of later:
 
 U kunt dezelfde stappen blijven volgen als hierboven vermeld. Vanaf versie 4.6/2404 introduceert AEM Guides een editor-instelling waarmee beheerders de automatische verwijdering van vertaalprojecten kunnen uitschakelen.
 
-Verwijs: [ schrapt of maakt automatisch een voltooid vertaalproject ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/author-content/create-preview-topics/author-content-aem-guides/work-with-web-editor/translate-documents-web-editor#automatically-delete-or-disable-a-completed-translation-project) onbruikbaar
+Verwijs: [&#x200B; schrapt of maakt automatisch een voltooid vertaalproject &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/author-content/create-preview-topics/author-content-aem-guides/work-with-web-editor/translate-documents-web-editor#automatically-delete-or-disable-a-completed-translation-project) onbruikbaar
 
-![ Geautomatiseerde montages om vertaalproject in AEM Guides te schrappen en onbruikbaar te maken ](../assets/translation/translation-project-image3.png)
+![&#x200B; Geautomatiseerde montages om vertaalproject in AEM Guides te schrappen en onbruikbaar te maken &#x200B;](../assets/translation/translation-project-image3.png)

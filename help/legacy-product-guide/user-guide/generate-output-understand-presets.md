@@ -39,6 +39,6 @@ In de volgende secties worden de opties beschreven die beschikbaar zijn voor de 
 
 - **[JSON](generate-output-json.md)**
 
-Als beheerder kunt u met Experience Manager Guides uitvoervoorinstellingen voor de algemene profielen en de mapprofielen maken en beheren. Voor meer details, bekijkt [ de Globale en output van het Profiel van de Omslag vooraf instelt ](./web-editor-manage-output-presets.md).
+Als beheerder kunt u met Experience Manager Guides uitvoervoorinstellingen voor de algemene profielen en de mapprofielen maken en beheren. Voor meer details, bekijkt [&#x200B; de Globale en output van het Profiel van de Omslag vooraf instelt &#x200B;](./web-editor-manage-output-presets.md).
 
-**Bovenliggend onderwerp:**&#x200B;[ Productie van de Output ](generate-output.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Productie van de Output &#x200B;](generate-output.md)

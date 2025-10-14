@@ -25,23 +25,23 @@ Voer de volgende stappen uit om outputvoorinstellingen voor uw kaart te creëren
 
    >[!NOTE]
    >
-   > U kunt om het even welk onderwerp van de kaart toevoegen of schrappen gebruikend de Geavanceerde Redacteur van de Kaart. Voor meer details, mening [ Werk met de Geavanceerde Redacteur van de Kaart ](map-editor-advanced-map-editor.md#).
+   > U kunt om het even welk onderwerp van de kaart toevoegen of schrappen gebruikend de Geavanceerde Redacteur van de Kaart. Voor meer details, mening [&#x200B; Werk met de Geavanceerde Redacteur van de Kaart &#x200B;](map-editor-advanced-map-editor.md#).
 
 1. Selecteer **Open in kaartconsole** pictogram. De kaart wordt geopend in de kaartconsole.
 
 1. Navigeer aan **vooraf instelt van de Output** tabel en selecteer + pictogram om tot een output te leiden die voor uw kaart DITA wordt vooraf ingesteld.
 
 1. Selecteer **Kennisbank** van het **Type** drop-down, ga naam in, en selecteer **Adobe Experience Manager** in de **Nieuwe output vooraf ingestelde** dialoogdoos.
-1. Selecteer **toevoegen aan huidige omslagprofiel** optie om een output tot stand te brengen vooraf ingesteld voor het huidige omslagprofiel. ![ pictogram van het omslagprofiel ](images/global-preset-icon.svg) wijst op een vooraf ingesteld niveau van het omslagprofiel.
+1. Selecteer **toevoegen aan huidige omslagprofiel** optie om een output tot stand te brengen vooraf ingesteld voor het huidige omslagprofiel. ![&#x200B; pictogram van het omslagprofiel &#x200B;](images/global-preset-icon.svg) wijst op een vooraf ingesteld niveau van het omslagprofiel.
 
-   Leer meer over [ beheer Globale en de outputpresets van het Profiel van de Omslag ](./web-editor-manage-output-presets.md).
+   Leer meer over [&#x200B; beheer Globale en de outputpresets van het Profiel van de Omslag &#x200B;](./web-editor-manage-output-presets.md).
 
 1. Selecteer **toevoegen**.
 
    De voorinstelling voor de Knowledge Base wordt gemaakt.
 
 
-   ![ Nieuw ](images/knowledge-base-preset-dialog-box.png){align="left"}
+   ![&#x200B; Nieuw &#x200B;](images/knowledge-base-preset-dialog-box.png){align="left"}
 
 Nadat de voorinstelling is gemaakt, kunt u de uitvoer voor specifieke artikelen in de kennisbasis genereren. Om dit te doen, navigeer aan het **lusje van Artikelen** en selecteer de onderwerpen waarvoor u wenst om de output te produceren.
 1. Selecteer **produceren output** bij de bovenkant om de output te produceren.
@@ -50,7 +50,7 @@ Nadat de voorinstelling is gemaakt, kunt u de uitvoer voor specifieke artikelen 
 
 1. In **bevestig dossiers voor het publiceren** herinnering, selecteer de dossiers u wilt publiceren en bevestigen door **te selecteren publiceren**.
 
-   ![ Nieuw ](images/knowledge-base-confirm-files-for-publishing.png){align="left"}
+   ![&#x200B; Nieuw &#x200B;](images/knowledge-base-confirm-files-for-publishing.png){align="left"}
 
 U zult de status van het proces van de outputgeneratie bekijken. De **kolom van Onderwerpen** maakt een lijst van de onderwerpen waarvoor de output wordt geproduceerd terwijl de **3&rbrace; kolom van de Status &lbrace;toont de het publiceren status van elk onderwerp.**
 
@@ -66,4 +66,4 @@ Om de output te bekijken, sluit de Output Gegenereerde dialoogdoos en selecteert
 
 
 
-**Bovenliggend onderwerp:**&#x200B;[ Op artikel-gebaseerde het publiceren van de Redacteur ](web-editor-article-publishing.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Op artikel-gebaseerde het publiceren van de Redacteur &#x200B;](web-editor-article-publishing.md)

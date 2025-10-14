@@ -17,21 +17,21 @@ U hebt waarschijnlijk een opslagplaats voor bestaande DITA-inhoud die u met Adob
 
 >[!IMPORTANT]
 >
-> De mening [ voegt digitale activa aan Adobe Experience Manager as a Cloud Service Assets ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=nl-NL) voor gedetailleerde informatie in de gesteunde inhoud toe uploadt methodes in Adobe Experience Manager.
+> De mening [&#x200B; voegt digitale activa aan Adobe Experience Manager as a Cloud Service Assets &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=nl-NL) voor gedetailleerde informatie in de gesteunde inhoud toe uploadt methodes in Adobe Experience Manager.
 
 ## Assets Console-gebruikersinterface
 
-Om [ digitale activa aan Adobe Experience Manager as a Cloud Service Assets ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=nl-NL#filename-handling?lang=nl-NL#upload-assets) toe te voegen gebruikend het gebruikersinterface van de Console van Assets, selecteer het vereiste middel op uw Desktop en sleep op het gebruikersinterface van Adobe Experience Manager \ (Webbrowser \) aan de bestemmingsomslag. Zorg er bij het uploaden van elementen voor dat de bestandsnamen geen niet-ondersteunde of verboden tekens bevatten.
+Om [&#x200B; digitale activa aan Adobe Experience Manager as a Cloud Service Assets &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=nl-NL#filename-handling?lang=nl-NL#upload-assets) toe te voegen gebruikend het gebruikersinterface van de Console van Assets, selecteer het vereiste middel op uw Desktop en sleep op het gebruikersinterface van Adobe Experience Manager \ (Webbrowser \) aan de bestemmingsomslag. Zorg er bij het uploaden van elementen voor dat de bestandsnamen geen niet-ondersteunde of verboden tekens bevatten.
 
-Voor meer details, mening [ bestandsnaam behandeling en verboden karakters ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=nl-NL#filename-handling) sectie in de documentatie van Adobe Experience Manager.
+Voor meer details, mening [&#x200B; bestandsnaam behandeling en verboden karakters &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=nl-NL#filename-handling) sectie in de documentatie van Adobe Experience Manager.
 
 ## Adobe Experience Manager-bureaubladtoepassing
 
-Gebruik de Adobe Experience Manager-bureaubladtoepassing als u een creatieve professional bent en de middelen op uw lokale bureaublad wilt beheren. U kunt deze elementen openen en bewerken met uw bureaubladtoepassingen. U kunt ook versies bijhouden en uw bestanden delen met andere gebruikers. Voor meer details, bekijk [ Desktop app van Adobe Experience Manager ](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html?lang=nl-NL).
+Gebruik de Adobe Experience Manager-bureaubladtoepassing als u een creatieve professional bent en de middelen op uw lokale bureaublad wilt beheren. U kunt deze elementen openen en bewerken met uw bureaubladtoepassingen. U kunt ook versies bijhouden en uw bestanden delen met andere gebruikers. Voor meer details, bekijk [&#x200B; Desktop app van Adobe Experience Manager &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html?lang=nl-NL).
 
 ## Bulkingestor
 
-Als u grootschalige migraties en soms grote hoeveelheden inneemt, kunt u de inhoud uploaden met Asset bulksgewijs inslikken. Met dit hulpprogramma kunt u bulkinhoud uploaden uit ondersteunde datastores zoals Azure of S3. Voor meer details, mening [ bulkingestor van Activa ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=nl-NL#asset-bulk-ingestor).
+Als u grootschalige migraties en soms grote hoeveelheden inneemt, kunt u de inhoud uploaden met Asset bulksgewijs inslikken. Met dit hulpprogramma kunt u bulkinhoud uploaden uit ondersteunde datastores zoals Azure of S3. Voor meer details, mening [&#x200B; bulkingestor van Activa &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=nl-NL#asset-bulk-ingestor).
 
 ## FrameMaker gebruiken voor bulkupload
 
@@ -45,8 +45,8 @@ Als het uploaden van een of meer bestanden mislukt, wordt er een vraag weergegev
 
 ![](images/uuid-files-failed-to-upload_cs.png){width="650" align="center"}
 
-Voor meer details over hoe de diverse dossier uploadende scenario&#39;s functioneren, mening [ leidt dossiers en omslagen ](authoring-file-management.md#).
+Voor meer details over hoe de diverse dossier uploadende scenario&#39;s functioneren, mening [&#x200B; leidt dossiers en omslagen &#x200B;](authoring-file-management.md#).
 
 Als u een hulpprogramma zoals een Adobe Experience Manager-bureaubladtoepassing of het bulksgewijs invoegen van middelen gebruikt, wordt de handeling die op een gedupliceerd bestand wordt uitgevoerd, bepaald door een instelling op de Adobe Experience Manager-server. Neem contact op met de systeembeheerder voor informatie over deze configuratie.
 
-**Bovenliggend onderwerp:**&#x200B;[ beheert inhoud ](authoring.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; beheert inhoud &#x200B;](authoring.md)

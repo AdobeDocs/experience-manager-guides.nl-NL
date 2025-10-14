@@ -27,4 +27,4 @@ AEM Guides wordt geleverd met de drie editors uit de doos. U kunt deze gebruiken
 - **[DITAVAL redacteur](ditaval-editor.md)**
 
 
-**Bovenliggend onderwerp:**&#x200B;[ Inhoud van de Auteur ](authoring-content.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Inhoud van de Auteur &#x200B;](authoring-content.md)

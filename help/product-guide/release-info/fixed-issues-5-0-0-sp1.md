@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Dit artikel behandelt de fouten die in diverse gebieden van 5.0.0 Service Pack 1 versie van Adobe Experience Manager Guides worden opgelost.
 
-Leer over [ verbeteringsinstructies voor 5.0.0 Service Pack 1 versie ](upgrade-instructions-5-0-0-sp1.md).
+Leer over [&#x200B; verbeteringsinstructies voor 5.0.0 Service Pack 1 versie &#x200B;](upgrade-instructions-5-0-0-sp1.md).
 
 ## Authoring
 

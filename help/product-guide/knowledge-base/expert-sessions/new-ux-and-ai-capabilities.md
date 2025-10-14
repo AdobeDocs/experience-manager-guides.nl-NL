@@ -38,11 +38,11 @@ In deze vergadering hebben we het volgende besproken:
 
 ## Gerelateerde bronnen
 
-- [ Nieuwe de paginaervaring van het Huis ](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/user-guide/home-page/intro-home-page)
+- [&#x200B; Nieuwe de paginaervaring van het Huis &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/user-guide/home-page/intro-home-page)
 
-- [ AI Capabilities in AEM Guides ](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/user-guide/ai-assistant-aem/ai-assistant)
+- [&#x200B; AI Capabilities in AEM Guides &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/user-guide/ai-assistant-aem/ai-assistant)
 
-- [ vorm AI Medewerker ](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-smart-suggestions)
+- [&#x200B; vorm AI Medewerker &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-smart-suggestions)
 
 
 

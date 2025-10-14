@@ -80,4 +80,4 @@ Voer de volgende stappen uit om de tekstfilters te configureren:
 
 De geconfigureerde filters zijn beschikbaar in het deelvenster Filters.
 
-**Bovenliggend onderwerp:**&#x200B;[ pas de Redacteur van het Web ](conf-web-editor.md) aan
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; pas de Redacteur van het Web &#x200B;](conf-web-editor.md) aan

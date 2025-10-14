@@ -21,7 +21,7 @@ Met Adobe Experience Manager Guides kunt u een JSON-toewijzing maken tussen een 
 >[!NOTE]
 > 
 > Als u versie 4.6 of hoger gebruikt, hoeft u deze toewijzing niet te maken, kunt u de onderwerpelementen naar de velden in het fragmentmodel van de inhoud slepen.
-> Leer meer over hoe te om [ inhoudsfragmenten ](../user-guide/publish-content-fragment.md) te publiceren.
+> Leer meer over hoe te om [&#x200B; inhoudsfragmenten &#x200B;](../user-guide/publish-content-fragment.md) te publiceren.
 
 
 1. Om *contentFragmentMapping.json* te downloaden, login in Adobe Experience Manager als beheerder.

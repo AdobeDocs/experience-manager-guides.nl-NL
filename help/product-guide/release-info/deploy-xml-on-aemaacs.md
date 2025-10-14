@@ -32,7 +32,7 @@ Leer hoe u [!DNL Experience Manager Guides] toevoegt aan uw [!DNL Experience Man
 
 U hebt met succes uw programma voor automatische levering van de oplossing van Experience Manager Guides gevormd.
 
-![ Vormend de oplossing van Experience Manager Guides ](assets/addon-configuration.png)
+![&#x200B; Vormend de oplossing van Experience Manager Guides &#x200B;](assets/addon-configuration.png)
 
 >[!NOTE]
 >

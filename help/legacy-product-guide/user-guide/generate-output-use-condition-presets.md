@@ -73,7 +73,7 @@ Voer een van de volgende handelingen uit:
    >
    > U geeft een waarschuwing weer als u een andere voorinstelling selecteert of de voorinstelling sluit zonder deze op te slaan.
 
-Zodra u een voorwaarde vooraf ingesteld creeert, verschijnt het onder de **Vooraf ingestelde Voorwaarde** dropdown van de Output vooraf instelt. Leer meer over hoe te [ de output van PDF publiceren ](/help/product-guide/web-editor/native-pdf-web-editor.md).
+Zodra u een voorwaarde vooraf ingesteld creeert, verschijnt het onder de **Vooraf ingestelde Voorwaarde** dropdown van de Output vooraf instelt. Leer meer over hoe te [&#x200B; de output van PDF publiceren &#x200B;](/help/product-guide/web-editor/native-pdf-web-editor.md).
 
 ### De naam van een voorinstelling voor een voorwaarde wijzigen
 
@@ -168,4 +168,4 @@ U kunt één of meerdere voorwaarde schrappen vooraf instelt van het **Vooraf in
 1. Klik **verwijderen** knoop.
 1. Klik **verwijderen** om de actie te bevestigen.
 
-**Bovenliggend onderwerp:**&#x200B;[ Productie van de Output ](generate-output.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Productie van de Output &#x200B;](generate-output.md)

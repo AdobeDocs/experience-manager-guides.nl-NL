@@ -24,7 +24,7 @@ U kunt de AEM Sites-voorinstellingen maken en configureren vanuit de webeditor o
 1. Selecteer op het tabblad Uitvoer het pictogram + om een uitvoervoorinstelling te maken.
 1. Selecteer de Plaats van AEM van het type drop-down in de **Nieuwe output vooraf ingestelde** dialoogdoos.
 
-Leer meer over [ AEM Sites vooraf instelt in de Redacteur van het Web ](generate-output-aem-site-web-editor.md).
+Leer meer over [&#x200B; AEM Sites vooraf instelt in de Redacteur van het Web &#x200B;](generate-output-aem-site-web-editor.md).
 
 
 **van het kaartdashboard**
@@ -34,4 +34,4 @@ Leer meer over [ AEM Sites vooraf instelt in de Redacteur van het Web ](generate
 1. Selecteer de Uitvoervoorinstellingen en selecteer vervolgens de uitvoeroptie voor de AEM-site.
 1. In het kaartdashboard, geeft de klik **&#x200B;**&#x200B;op de bovenkant uit om de diverse configuraties bij te werken, en klikt dan **sparen**.
 
-Leer meer over [ AEM Sites vooraf instelt op het kaartdashboard ](generate-output-aem-site-map-dashboard.md).
+Leer meer over [&#x200B; AEM Sites vooraf instelt op het kaartdashboard &#x200B;](generate-output-aem-site-map-dashboard.md).

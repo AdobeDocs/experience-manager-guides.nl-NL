@@ -48,14 +48,14 @@ Als u de geselecteerde inhoud verwijdert, wordt de resterende inhoud na het verw
 - Omring de inhoud met een geldig element: voer de volgende stappen uit om de inhoud te laten omlopen met een geldig element:
 
    - Selecteer de inhoud in een element.
-   - Selecteer ![ voeg ](images/Add_icon.svg) pictogram van de secundaire toolbar op de bovenkant toe om **Surround met de dialoogdoos van het Element** te bekijken. In het dialoogvenster worden de geldige elementen voor de geselecteerde inhoud weergegeven.
+   - Selecteer ![&#x200B; voeg &#x200B;](images/Add_icon.svg) pictogram van de secundaire toolbar op de bovenkant toe om **Surround met de dialoogdoos van het Element** te bekijken. In het dialoogvenster worden de geldige elementen voor de geselecteerde inhoud weergegeven.
 
      >[!NOTE]
      >
      > U kunt het dialoogvenster Surround met element ook weergeven door het contextmenu van de geselecteerde inhoud te selecteren.
 
    - Selecteer een element in het dialoogvenster. De geselecteerde inhoud wordt ondergebracht in dat element. Bijvoorbeeld, als u de inhoud in een paragraaf selecteert en dan het `<note>` element van **Surround met de doos van de element** dialoog kiest, verschijnt de geselecteerde inhoud onder een nota.\
-     ![ surround elementendialoogdoos ](./images/surround-element.png) {width="300" align="left"}
+     ![&#x200B; surround elementendialoogdoos &#x200B;](./images/surround-element.png) {width="300" align="left"}
 
 ## Browser vernieuwen tijdens bewerken van bestanden
 
@@ -71,11 +71,11 @@ Het rechterdeelvenster wordt ook opnieuw geopend en geeft dezelfde weergave weer
 
 AEM Guides geeft de werkkopie-indicator weer, waarmee wordt aangegeven of de huidige \(werkkopie\) van het bestand al dan niet synchroon is met de opgeslagen versie. Als u wijzigingen hebt aangebracht in uw huidige kopie en uw bestand niet hebt opgeslagen, wordt een \*-markering weergegeven samen met de titel op het tabblad Bestand van het onderwerp. Deze indicator dient als herinnering om uw wijzigingen op te slaan en verdwijnt wanneer u het bestand opslaat.
 
-![ werkende exemplaarindicator ](images/working-copy-text-update-indicator.png){width="550" align="left"}
+![&#x200B; werkende exemplaarindicator &#x200B;](images/working-copy-text-update-indicator.png){width="550" align="left"}
 
 AEM Guides geeft ook aan of de laatst opgeslagen \(werkende\) kopie van het bestand al dan niet synchroon is met de opgeslagen versie. Als u enkele niet-opgeslagen wijzigingen hebt aangebracht tussen de werkkopie en de laatst opgeslagen versie, wordt een \*-markering weergegeven samen met de versiegegevens die worden weergegeven in de rechterbovenhoek van het tabblad Bestandsbeheer van het onderwerp. Deze indicator dient als herinnering voor het opslaan en maken van een versie van de huidige \(werkende\) versie van het bestand.
 
-![ de updateindicator van de Versie ](images/version-update-indicator.png){width="550" align="left"}
+![&#x200B; de updateindicator van de Versie &#x200B;](images/version-update-indicator.png){width="550" align="left"}
 
 
 ## Vergrendelde bestanden openen in de modus Auteur en Source
@@ -92,7 +92,7 @@ Op de werkbalk worden de volgende pictogrammen weergegeven voor alleen-lezen toe
 
 Experience Manager Guides toont ook a **Gelezen slechts toegangs** indicator dichtbij het versieaantal.
 
-![ mening read slechts dossier op auteurswijze ](images/locked-file-editor.png)
+![&#x200B; mening read slechts dossier op auteurswijze &#x200B;](images/locked-file-editor.png)
 
 U kunt tot de **mening van de Lay-out** voor read-only kaarten toegang hebben DITA. In deze weergave ziet u de DITA-kaart en de bijbehorende eigenschappen, maar voorkomt u bewerkingen.
 
@@ -107,4 +107,4 @@ Terwijl u een bestand opent in de webeditor, biedt Experience Manager Guides de 
 U kunt de eigenschap uitzetten om van het dossier met **de plaats te bepalen bepaalt altijd van dossiers in bewaarplaats** optie van het **3&rbrace; lusje van de Verschijning &lbrace;van de** voorkeur van de Gebruiker **.**
 
 
-**Bovenliggend onderwerp:**&#x200B;[ Werk met de Redacteur van het Web ](web-editor.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Werk met de Redacteur van het Web &#x200B;](web-editor.md)

@@ -16,16 +16,16 @@ ht-degree: 0%
 
 AEM Guides is een plug-in die boven op Adobe Experience Manager wordt geïnstalleerd. De installatie AEM vereist inzicht in sommige basis AEM concepten en geadviseerde plaatsingsscenario&#39;s. De volgende koppelingen helpen u aan de slag te gaan met AEM installatie:
 
-- [ Basis AEM Concepten ](https://helpx.adobe.com/nl/experience-manager/6-5/sites/deploying/using/deploy.html#BasicConcepts)
+- [&#x200B; Basis AEM Concepten &#x200B;](https://helpx.adobe.com/nl/experience-manager/6-5/sites/deploying/using/deploy.html#BasicConcepts)
 
-- [ geadviseerde AEM Inzettingsaties ](https://helpx.adobe.com/nl/experience-manager/6-5/sites/deploying/using/recommended-deploys.html)
+- [&#x200B; geadviseerde AEM Inzettingsaties &#x200B;](https://helpx.adobe.com/nl/experience-manager/6-5/sites/deploying/using/recommended-deploys.html)
 
 
 >[!IMPORTANT]
 >
-> Als u Java 11 met AEM 6.5.x gebruikt, zou u een kwestie kunnen onder ogen zien - *JDK 11 oorzaken`NoClassDefFoundError`*. Verwijs [ JDK 11 oorzaken NoClassDefFoundError \| AEM artikel 6.5 ](https://helpx.adobe.com/experience-manager/kb/jdk-11-causes-noclassdeffounderror---aem-6-5.html) om dit probleem op te lossen.
+> Als u Java 11 met AEM 6.5.x gebruikt, zou u een kwestie kunnen onder ogen zien - *JDK 11 oorzaken`NoClassDefFoundError`*. Verwijs [&#x200B; JDK 11 oorzaken NoClassDefFoundError \| AEM artikel 6.5 &#x200B;](https://helpx.adobe.com/experience-manager/kb/jdk-11-causes-noclassdeffounderror---aem-6-5.html) om dit probleem op te lossen.
 
-Zodra u de plaatsingsstrategie hebt geïdentificeerd die het best voor uw organisatie werkt, voer het installatieproces zoals die in *[wordt beschreven Begonnen ](https://helpx.adobe.com/nl/experience-manager/6-5/sites/deploying/using/deploy.html#GettingStarted)* sectie in AEM documentatie uit.
+Zodra u de plaatsingsstrategie hebt geïdentificeerd die het best voor uw organisatie werkt, voer het installatieproces zoals die in *[wordt beschreven Begonnen &#x200B;](https://helpx.adobe.com/nl/experience-manager/6-5/sites/deploying/using/deploy.html#GettingStarted)* sectie in AEM documentatie uit.
 
 Als u van plan bent om uw AEM instantie te bevorderen, dan moet u de bepaalde opeenvolging volgen:
 
@@ -35,6 +35,6 @@ Als u van plan bent om uw AEM instantie te bevorderen, dan moet u de bepaalde op
 
 >[!IMPORTANT]
 >
-> Er zijn een aantal aanbevelingen voor het optimaliseren van de prestaties die u kunt overwegen om de systeemprestaties te verbeteren. Zie [ Recommendations voor prestatiesoptimalisering ](download-install-recommend-perf-optimiz.md#) voor details.
+> Er zijn een aantal aanbevelingen voor het optimaliseren van de prestaties die u kunt overwegen om de systeemprestaties te verbeteren. Zie [&#x200B; Recommendations voor prestatiesoptimalisering &#x200B;](download-install-recommend-perf-optimiz.md#) voor details.
 
-**Bovenliggend onderwerp:**&#x200B;[ Download en installeer ](download-install.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Download en installeer &#x200B;](download-install.md)

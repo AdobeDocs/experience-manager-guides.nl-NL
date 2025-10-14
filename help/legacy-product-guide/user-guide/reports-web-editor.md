@@ -198,4 +198,4 @@ Klik **verfrissen zich** om een nieuwe lijst van gebroken verbindingen te krijge
 1. Klik **CSV van de Download** om de huidige momentopname van de gebroken verbindingen in de kaart te downloaden DITA. CSV bevat de geselecteerde kolommen en de verbroken verbindingen die in de Gebroken mening van Verbindingen worden gefiltreerd. U kunt dit CSV-bestand vervolgens openen en weergeven in elke CSV-editor.
 
 
-**Bovenliggend onderwerp:**&#x200B;[ Rapporten ](reports-intro.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Rapporten &#x200B;](reports-intro.md)

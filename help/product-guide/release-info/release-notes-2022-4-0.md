@@ -49,7 +49,7 @@ Er zijn veel verbeteringen en nieuwe functies toegevoegd aan de webeditor:
 
 Een DITA inhoudsbelangrijkste verwijzing neemt een deel van inhoud van één onderwerp in een andere op. Er wordt een toets gebruikt om de inhoud te zoeken. De belangrijkste verwijzingen verbonden aan een onderwerp DITA moeten worden opgelost. De geselecteerde hoofdmap heeft de hoogste prioriteit om toetsverwijzingen op te lossen.
 
-![ dialoog van gebruikersvoorkeur ](assets/user-preferences.png)
+![&#x200B; dialoog van gebruikersvoorkeur &#x200B;](assets/user-preferences.png)
 
 Nu worden de belangrijkste verwijzingen opgelost op basis van de wortelkaart die in de volgende orde van prioriteit wordt geplaatst:
 
@@ -67,13 +67,13 @@ Nu kunt u een aangepast deelvenster toevoegen in het linkerdeelvenster van de we
 
 Nu kunt u de documentstaat van geselecteerde onderwerpen binnen een kaart gemakkelijk veranderen DITA. U kunt de eigenschappen van geselecteerde onderwerpen in een kaart DITA van het **Meer menu van Opties** bij de bodem van het paneel van de Mening van de Kaart ook openen en uitgeven.
 
-![ geselecteerde onderwerpeigenschappen ](assets/map-view-properties.png)
+![&#x200B; geselecteerde onderwerpeigenschappen &#x200B;](assets/map-view-properties.png)
 
 ### Versiegegevens die worden weergegeven in de modus Voorbeeld
 
 De Redacteur van het Web helpt u in het beheren van uw versies. Nu kunt u de versie van het actieve onderwerp of kaart DITA in de hoogste juiste hoek van het het dossierlusje van het onderwerp op de wijze van de Voorproef van een onderwerp ook zien.
 
-![ voorproefversie ](assets/preview-version.png)
+![&#x200B; voorproefversie &#x200B;](assets/preview-version.png)
 
 ## Opgeloste problemen
 

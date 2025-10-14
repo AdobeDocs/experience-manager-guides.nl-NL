@@ -21,7 +21,7 @@ Voer de volgende stappen uit om een bulkactiveringskaartverzameling te maken:
 
 1. Selecteer het **Bulk publiceer dashboard** tegel.
 
-   Het dashboard voor bulksgewijs publiceren wordt weergegeven. U kunt tot dit dashboard van het Linkerpaneel van de [ Homepage van Adobe Experience Manager Guides ](intro-home-page.md) ook toegang hebben.
+   Het dashboard voor bulksgewijs publiceren wordt weergegeven. U kunt tot dit dashboard van het Linkerpaneel van de [&#x200B; Homepage van Adobe Experience Manager Guides &#x200B;](intro-home-page.md) ook toegang hebben.
 
    Voor het eerst wordt een lege verzamelingspagina weergegeven. Als u eerder bulkactiveringsverzamelingen hebt gemaakt, worden deze op deze pagina weergegeven.
 
@@ -48,7 +48,7 @@ Voer de volgende stappen uit om een bulkactiveringskaartverzameling te maken:
 
 De DITA kaartdossiers worden toegevoegd aan uw bulkactiveringskaartinzameling.
 
-![ Gemaakte bulkactivering inzameling ](images/bulk-activation-collection-created.png){align="left"}
+![&#x200B; Gemaakte bulkactivering inzameling &#x200B;](images/bulk-activation-collection-created.png){align="left"}
 
 ## Tabblad Kaarten en voorinstellingen
 
@@ -87,7 +87,7 @@ Het **lusje van de Geschiedenis van de Controle** stelt informatie over de geact
 
 - **Gewijzigd**: Wijst op als de kaart DITA na de laatste publicatie werd bijgewerkt. Op basis van deze informatie kunt u beslissen of u de uitvoer voor deze DITA-kaart wilt activeren.
 - **Gepubliceerd**: Toont de datum en de tijd van de laatste gepubliceerde (of geactiveerde) output. Als u de koppeling selecteert, wordt de pagina Activeringsresultaten weergegeven. Deze pagina bevat de logbestanden met informatie over het hoofdpad waar de inhoud is geactiveerd.
-  ![ gecreeerde bulkactivering inzamelingsgeschiedenis tabel ](images/bulk-collection-audit-history.png){align="left"}
+  ![&#x200B; gecreeerde bulkactivering inzamelingsgeschiedenis tabel &#x200B;](images/bulk-collection-audit-history.png){align="left"}
 
   *Mening de informatie over de geactiveerde kaartoutput in de **Geschiedenis van de Controle**&#x200B;tabel.*
 
@@ -108,4 +108,4 @@ De volgende filteropties zijn beschikbaar in het linkerdeelvenster:
 
 De filters worden bijgewerkt wanneer u van de **Kaarten en vooraf instelt** lusje aan het **lusje van de Geschiedenis van de Controle** schakelt en vice versa.
 
-**Bovenliggend onderwerp: &#x200B;** [ Bulk Activering van gepubliceerde inhoud ](conf-bulk-activation.md)
+**Bovenliggend onderwerp: &#x200B;** [&#x200B; Bulk Activering van gepubliceerde inhoud &#x200B;](conf-bulk-activation.md)

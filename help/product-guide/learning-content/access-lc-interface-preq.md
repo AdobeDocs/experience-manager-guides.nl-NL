@@ -27,7 +27,7 @@ Voer de volgende stappen uit om toegang te krijgen tot de gebruikersinterface:
    - **Redacteur**: Een makkelijk te gebruiken Redacteur die u aan de inhoud van de auteurscursus in Experience Manager Guides toestaat.
    - **console van de Kaart**: Verstrekt u een specifieke werkruimte om alle aspecten van cursus te behandelen die publiceren.
 
-   Voor details, mening [ ervaring van de homepage van Adobe Experience Manager Guides ](../user-guide/intro-home-page.md).
+   Voor details, mening [&#x200B; ervaring van de homepage van Adobe Experience Manager Guides &#x200B;](../user-guide/intro-home-page.md).
 
    ![](assets/aem-navigation-switcher.png){width="350" align="left"}
 
@@ -44,4 +44,4 @@ De pagina Gebruikersvoorkeuren bestaat uit twee tabbladen:
 - **Algemeen**: Staat u toe om een profiel van de Omslag, de weg van de Basis, de kaart van de Wortel, en meer te selecteren.
 - **Vormgeving**: Verstrekt u van de opties om de thema&#39;s voor de toepassing en de bronmening van de het Leren inhoud te selecteren.
 
-Voor details, mening [ voorkeur van de Gebruiker ](../user-guide/intro-home-page.md#user-preferences) in Experience Manager Guides.
+Voor details, mening [&#x200B; voorkeur van de Gebruiker &#x200B;](../user-guide/intro-home-page.md#user-preferences) in Experience Manager Guides.

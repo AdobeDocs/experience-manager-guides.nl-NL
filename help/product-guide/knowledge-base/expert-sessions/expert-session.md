@@ -17,7 +17,7 @@ Onze maandelijkse deskundigensessies zijn ontworpen om onze klanten en partners 
 
 Tijdens deze sessies bespreken onze experts diepgaande functies, functies en voordelen van ons product, en wisselen ze praktische tips en best practices uit die u helpen er optimaal gebruik van te maken. Of u nu een nieuwe gebruiker bent of een gespruitte pro, deze sessies bieden u de informatie die u nodig hebt om uw gebruik van AEM Guides te maximaliseren.
 
-Wij begrijpen dat uw tijd waardevol is en daarom hebben wij deze vergaderingen van experts voor u gemakkelijk en toegankelijk gemaakt. U kunt voor de aanstaande zitting registreren door ons [ communautair forum ](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) of door e-mail te bezoeken die naar u is verzonden.
+Wij begrijpen dat uw tijd waardevol is en daarom hebben wij deze vergaderingen van experts voor u gemakkelijk en toegankelijk gemaakt. U kunt voor de aanstaande zitting registreren door ons [&#x200B; communautair forum &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) of door e-mail te bezoeken die naar u is verzonden.
 
 Als u een van de vorige sessies hebt overgeslagen, hebt u toegang tot de opnamen in deze sectie.
 

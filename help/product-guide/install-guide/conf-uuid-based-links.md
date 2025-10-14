@@ -35,4 +35,4 @@ Voer de volgende stappen uit om de relatieve weg of UUID van de referenced inhou
 1. Klik **sparen**.
 
 
-**Bovenliggend onderwerp:**&#x200B;[ pas de Redacteur van het Web ](conf-web-editor.md) aan
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; pas de Redacteur van het Web &#x200B;](conf-web-editor.md) aan

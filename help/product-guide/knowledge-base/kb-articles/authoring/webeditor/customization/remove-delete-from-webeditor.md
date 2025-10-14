@@ -11,11 +11,11 @@ ht-degree: 0%
 
 # De optie Verwijderen verwijderen uit het contextmenu van het bestand in de webbrowser
 
-In dit artikel leert u hoe u de optie Verwijderen verbergt in het contextmenu van bestanden in de AEM Guides-webeditor voor specifieke gebruikers of groepen. Voor andere aanpassingen in de menuopties van de dossiercontext, gelieve het kader van de Uitbreiding van Gidsen te controleren. Meer details kunnen [ hier ](https://github.com/adobe/guides-extension/tree/main) worden gevonden.
+In dit artikel leert u hoe u de optie Verwijderen verbergt in het contextmenu van bestanden in de AEM Guides-webeditor voor specifieke gebruikers of groepen. Voor andere aanpassingen in de menuopties van de dossiercontext, gelieve het kader van de Uitbreiding van Gidsen te controleren. Meer details kunnen [&#x200B; hier &#x200B;](https://github.com/adobe/guides-extension/tree/main) worden gevonden.
 
 Zoals u onder het fragment kunt zien, is de optie Verwijderen beschikbaar voor deze specifieke gebruiker.
 
-![ contextmenu van het Dossier met Schrapping ](../../../assets/authoring/file-contextmenu-Delete.png)
+![&#x200B; contextmenu van het Dossier met Schrapping &#x200B;](../../../assets/authoring/file-contextmenu-Delete.png)
 
 Laten we nu bekijken hoe we de optie Verwijderen kunnen verbergen voor deze gebruiker.
 
@@ -28,9 +28,9 @@ Laten we nu bekijken hoe we de optie Verwijderen kunnen verbergen voor deze gebr
 - Inclusief rechten &quot;jcr:removeChildNodes&quot; en &quot;jcr:removeNode&quot;.
 - Kies Machtigingstype als &#39;weigeren&#39; en klik op Toevoegen zoals hieronder wordt weergegeven.
 
-![ de Toestemming van de Gebruiker ontkent ACE ](../../../assets/authoring/permission-ACE-Delete.png)
+![&#x200B; de Toestemming van de Gebruiker ontkent ACE &#x200B;](../../../assets/authoring/permission-ACE-Delete.png)
 
-![ de controlelijst van de Toegang in toestemmingen ](../../../assets/authoring/delete-acl.png)
+![&#x200B; de controlelijst van de Toegang in toestemmingen &#x200B;](../../../assets/authoring/delete-acl.png)
 
 ### Testen
 
@@ -42,7 +42,7 @@ Laten we nu bekijken hoe we de optie Verwijderen kunnen verbergen voor deze gebr
 
 Het contextmenu voor bestanden ziet er nu als volgt uit:
 
-![ contextmenu van het Dossier zonder Schrapping ](../../../assets/authoring/file-contextmenu-Delete-removed.png)
+![&#x200B; contextmenu van het Dossier zonder Schrapping &#x200B;](../../../assets/authoring/file-contextmenu-Delete-removed.png)
 
 ```
 Please note that these steps would also remove 'move' and 'rename' options from the Web Editor as they are also tied to delete process at the backend.

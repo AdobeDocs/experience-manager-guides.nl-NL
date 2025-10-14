@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Dit artikel behandelt de nieuwe en verbeterde eigenschappen in versie September 2023 van Adobe Experience Manager Guides (later die als *wordt bedoeld AEM Guides as a Cloud Service*).
 
-Voor meer details op de verbeteringsinstructies, verenigbaarheidsmatrijs, en de kwesties die in deze versie worden bevestigd, zie [ de nota&#39;s van de Versie ](release-notes-2023-9-0.md).
+Voor meer details op de verbeteringsinstructies, verenigbaarheidsmatrijs, en de kwesties die in deze versie worden bevestigd, zie [&#x200B; de nota&#39;s van de Versie &#x200B;](release-notes-2023-9-0.md).
 
 ## Verbind met een gegevensbron en neem de onderwerpen op
 
@@ -31,7 +31,7 @@ U kunt de gevormde schakelaars onder het **paneel van Gegevensbronnen** in de Re
 
 U kunt nu ook een onderwerp van een verbonden gegevensbron tot stand brengen. Een onderwerp kan gegevens in diverse formaten, zoals lijsten, lijsten, en paragrafen bevatten. Het staat u ook toe om een kaart DITA voor alle onderwerpen tot stand te brengen. U kunt meta-gegevens aan het onderwerp associëren wanneer het trekken uit een gegevensbron.
 
-Voor meer details, mening [ Gegevens van het Gebruik van uw gegevensbron ](../user-guide/web-editor-content-snippet.md).
+Voor meer details, mening [&#x200B; Gegevens van het Gebruik van uw gegevensbron &#x200B;](../user-guide/web-editor-content-snippet.md).
 
 ## citaten toevoegen aan uw inhoud
 
@@ -41,11 +41,11 @@ In AEM Guides kunt u citaten toevoegen of citaten importeren en deze op de inhou
 
 Na het opnemen van uw citaten aan uw onderwerpen, kunt u voorproef hen in de Redacteur van het Web. U kunt inhoud met citaten ook publiceren gebruikend Eigen PDF.
 
-![ Bevelen die in een paneel ](assets/citation-panel.png){width="300" align="left"} worden vermeld
+![&#x200B; Bevelen die in een paneel &#x200B;](assets/citation-panel.png){width="300" align="left"} worden vermeld
 
 *Mening de lijst van citaten in het paneel van Bevelingen.*
 
-Voor meer details, voegt de mening [ toe en beheert citaties in uw inhoud ](../user-guide/web-editor-apply-citations.md).
+Voor meer details, voegt de mening [&#x200B; toe en beheert citaties in uw inhoud &#x200B;](../user-guide/web-editor-apply-citations.md).
 
 
 ## Publish naar een inhoudsfragment
@@ -56,11 +56,11 @@ AEM Guides biedt nu een manier om een onderwerp of de elementen binnen een onder
 
 Maak een hoofdletter van de kracht van AEM Guides en van inhoudsfragmenten en gebruik inhoudsfragmenten op elke AEM site. U kunt de details ook extraheren via API&#39;s die worden ondersteund door inhoudsfragmenten.
 
-![ optie om inhoudsfragment ](assets/content-fragment-publish.png){width="550" align="left"} te publiceren
+![&#x200B; optie om inhoudsfragment &#x200B;](assets/content-fragment-publish.png){width="550" align="left"} te publiceren
 
 *Publish een onderwerp aan een inhoudsfragment.*
 
-Voor meer details, bekijk [ Publish aan een inhoudsfragment ](../user-guide//publish-content-fragment.md).
+Voor meer details, bekijk [&#x200B; Publish aan een inhoudsfragment &#x200B;](../user-guide//publish-content-fragment.md).
 
 ## Verbeteringen voor revisie
 
@@ -69,9 +69,9 @@ AEM Guides beschikt nu over een verbeterde revisiefunctie met de volgende functi
 ### Zoeken in revisieonderwerpen
 
 Het uitvoeren van revisies is een belangrijk onderdeel van AEM Guides. Hiermee kunnen de revisoren de documenten controleren die aan hen zijn toegewezen.
-U kunt nu naar een onderwerp zoeken door een deel van de tekst van de titel of het bestandspad in te voeren in de zoekbalk van de onderwerpenweergave van het revisiepaneel. U kunt ook alle onderwerpen of onderwerpen met opmerkingen weergeven. Standaard kunt u alle onderwerpen in de overzichtstaak weergeven. Voor meer details, mening [ onderwerpen van het Overzicht ](../user-guide/review-topics.md).
+U kunt nu naar een onderwerp zoeken door een deel van de tekst van de titel of het bestandspad in te voeren in de zoekbalk van de onderwerpenweergave van het revisiepaneel. U kunt ook alle onderwerpen of onderwerpen met opmerkingen weergeven. Standaard kunt u alle onderwerpen in de overzichtstaak weergeven. Voor meer details, mening [&#x200B; onderwerpen van het Overzicht &#x200B;](../user-guide/review-topics.md).
 
-![ Onderzoek in een paneel van overzichtsonderwerpen ](assets/review-search-topic.png){width="800" align="left"}
+![&#x200B; Onderzoek in een paneel van overzichtsonderwerpen &#x200B;](assets/review-search-topic.png){width="800" align="left"}
 
 *Onderzoek een overzichtsonderwerp in het overzichtspaneel.*
 
@@ -104,13 +104,13 @@ U kunt de volgende secties in uw PDF tonen of verbergen en ook de orde schikken 
 
 Als u geen bepaalde sectie in de uitvoer van PDF wilt tonen, kunt u dat verbergen door de schakeloptie uit te schakelen.
 
-Voor meer details, mening [ de Orde van de Pagina ](../native-pdf/components-pdf-template.md#page-order).
+Voor meer details, mening [&#x200B; de Orde van de Pagina &#x200B;](../native-pdf/components-pdf-template.md#page-order).
 
 ### Pagina&#39;s samenvoegen
 
 In een native PDF-uitvoer beginnen standaard alle secties op een nieuwe pagina. Nu kunt u een sectie samenvoegen tot de vorige of volgende pagina. Hiermee wordt de sectie gepubliceerd in overeenstemming met de geselecteerde pagina in de PDF-uitvoer en is er geen pagina-einde tussen.
 
-Voor meer details, bekijk de **eigenschapbeschrijving van 0&rbrace; pagina&#39;s van de Fusie &lbrace;in [ sectie van de Orde van de Pagina ](../native-pdf/components-pdf-template.md#page-order).**
+Voor meer details, bekijk de **eigenschapbeschrijving van 0&rbrace; pagina&#39;s van de Fusie &lbrace;in [&#x200B; sectie van de Orde van de Pagina &#x200B;](../native-pdf/components-pdf-template.md#page-order).**
 
 ### Een hoofdstuk vanaf de huidige pagina starten
 
@@ -118,13 +118,13 @@ U kunt de basisconfiguratiemontages voor de aanvang van een hoofdstuk van oneven
 
 Nu kunt u ook een hoofdstuk starten vanaf de huidige pagina. Als u dit wilt doen, worden alle hoofdstukken zonder pagina-einden verder gepubliceerd. Als een hoofdstuk bijvoorbeeld halverwege pagina 15 eindigt, begint het volgende hoofdstuk ook op de 15e pagina zelf.
 
-Voor meer details, bekijk de **Algemene** lusjebeschrijving in [ Geavanceerde Montages van de PDF ](../native-pdf/components-pdf-template.md#advanced-pdf-settings-advanced-pdf-settings).
+Voor meer details, bekijk de **Algemene** lusjebeschrijving in [&#x200B; Geavanceerde Montages van de PDF &#x200B;](../native-pdf/components-pdf-template.md#advanced-pdf-settings-advanced-pdf-settings).
 
 ### Statische pagina&#39;s
 
 U kunt ook aangepaste paginalay-outs maken en deze als statische pagina&#39;s publiceren in de PDF-uitvoer. Zo kunt u statische inhoud toevoegen, zoals notities of lege pagina&#39;s.
 
-Voor meer details, bekijk de **Statische 1&rbrace; eigenschapbeschrijving van pagina&#39;s &lbrace;in [ sectie van de Volgorde van de Pagina ](../native-pdf/components-pdf-template.md#page-order).**
+Voor meer details, bekijk de **Statische 1&rbrace; eigenschapbeschrijving van pagina&#39;s &lbrace;in [&#x200B; sectie van de Volgorde van de Pagina &#x200B;](../native-pdf/components-pdf-template.md#page-order).**
 
 
 ### Variabelen in kruisverwijzingen
@@ -136,7 +136,7 @@ Gebruik {figure} om een verwijzing naar het cijferaantal toe te voegen. Het sele
 
 Gebruik {table} om een kruisverwijzing naar het tabelnummer toe te voegen. Het kiest het lijstaantal van de autoaantalstijlen die u voor titel hebt bepaald.
 
-Voor meer details, mening [ verwijzingen ](../native-pdf/components-pdf-template.md##cross-references).
+Voor meer details, mening [&#x200B; verwijzingen &#x200B;](../native-pdf/components-pdf-template.md##cross-references).
 
 
 
@@ -148,7 +148,7 @@ De CSS-editor is nu opnieuw ontworpen voor een betere gebruikerservaring met kie
 
 U kunt nu aangepaste kiezers gebruiken om complexe stijlen toe te voegen. Met het nieuwe veld Selector kunt u naast de combinatie Klasse, Tag en Pseudo-klasse ook aangepaste kiezers toevoegen. U kunt bijvoorbeeld een `table a.link` -stijl maken voor alle hyperlinks in een tabel.
 
-![ toevoegend stijlen in de inheemse malplaatjes pdf ](assets/add-styles-native-pdf.png){width="300" align="left"}
+![&#x200B; toevoegend stijlen in de inheemse malplaatjes pdf &#x200B;](assets/add-styles-native-pdf.png){width="300" align="left"}
 
 *voeg de details voor de nieuwe stijl toe.*
 
@@ -163,7 +163,7 @@ U kunt nu een of meer onderwerpdefinities definiëren in een kaart en de opsommi
 
 U kunt nu ook voorwaarden definiëren en deze toepassen op bepaalde specifieke elementen in een onderwerp.  De voorwaarden zijn alleen zichtbaar voor die specifieke elementen en niet voor alle andere elementen.
 
-Voor meer details op de behandeling hiërarchische definities van onderwerpdefinities en opsommingen, bekijk de beschrijving van de onderwerpschemaeigenschap in de [ Linkerpaneel ](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.
+Voor meer details op de behandeling hiërarchische definities van onderwerpdefinities en opsommingen, bekijk de beschrijving van de onderwerpschemaeigenschap in de [&#x200B; Linkerpaneel &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.
 
 
 
@@ -172,39 +172,39 @@ Voor meer details op de behandeling hiërarchische definities van onderwerpdefin
 ## Alle voorinstellingen in een kaartverzameling selecteren
 
 U kunt niet alleen een individuele voorinstelling en alle voorinstellingen van het mapprofiel inschakelen, maar ook alle voorinstellingen voor een DITA-kaart in één keer.
-![ geef een kaartinzameling ](assets/edit-map-collection-cs.png){width="800" align="left"} uit\
+![&#x200B; geef een kaartinzameling &#x200B;](assets/edit-map-collection-cs.png){width="800" align="left"} uit\
 *selecteer alle vooraf instelt in een kaartinzameling.*
 
-Voor meer details, mening [ de Inzameling van de Kaart van het Gebruik voor outputgeneratie ](../user-guide/generate-output-use-map-collection-output-generation.md).
+Voor meer details, mening [&#x200B; de Inzameling van de Kaart van het Gebruik voor outputgeneratie &#x200B;](../user-guide/generate-output-use-map-collection-output-generation.md).
 
 
 ## Native PDF-ondersteuning in Bulk Publish-dashboard
 
 
 Met de functie AEM Guides Bulk Activation kunt u uw inhoud snel en eenvoudig activeren, van ontwerpen tot het publiceren van een exemplaar. In de kaart van de Activering van het Bulk, kunt u de Inheemse vooraf ingestelde PDF output, de AEM Plaats, PDF, HTML5, Douane, en output JSON omvatten.
-Voor meer details, mening [ Bulk activering van gepubliceerde inhoud ](../user-guide/conf-bulk-activation.md).
+Voor meer details, mening [&#x200B; Bulk activering van gepubliceerde inhoud &#x200B;](../user-guide/conf-bulk-activation.md).
 
 ## Verbeterd gereedschap Bulk verplaatsen
 
 Als beheerder kunt u nu het verbeterde gereedschap Bulkverplaatsing gebruiken om mappen met een groot aantal bestanden van de ene naar de andere locatie te verplaatsen.
-In het dialoogvenster Bladeren kunt u de bronmappen selecteren die u wilt verplaatsen. U kunt ook bladeren om de bestemmingsplaats te selecteren om de bronomslagen te bewegen. Selecteer ![ infopictogram ](assets/info-icon.svg) {width="25" align="left"} dichtbij een gebied om meer informatie over het te bekijken.
+In het dialoogvenster Bladeren kunt u de bronmappen selecteren die u wilt verplaatsen. U kunt ook bladeren om de bestemmingsplaats te selecteren om de bronomslagen te bewegen. Selecteer ![&#x200B; infopictogram &#x200B;](assets/info-icon.svg) {width="25" align="left"} dichtbij een gebied om meer informatie over het te bekijken.
 
-Voor meer details, bekijk [ dossiers van de Beweging in bulk ](../user-guide/authoring-file-management.md#move-files-bulk).
+Voor meer details, bekijk [&#x200B; dossiers van de Beweging in bulk &#x200B;](../user-guide/authoring-file-management.md#move-files-bulk).
 
 
 ## Verbeterde voorvertoning via het contextmenu
 
 Gebruik het contextmenu om snel een voorvertoning van het bestand weer te geven (.dita, .xml, audio, video of afbeelding) zonder het te openen. U kunt nu het formaat van het voorvertoningsvenster wijzigen. Als de inhoud een referentiekoppeling bevat, kunt u het venster selecteren en openen op een nieuw tabblad.
 
-![ Het deelvenster Voorvertoning ](assets/quick-preview_cs.png){width="800" align="left"}
+![&#x200B; Het deelvenster Voorvertoning &#x200B;](assets/quick-preview_cs.png){width="800" align="left"}
 
 *voorproef het dossier in de ruit.*
 
-Voor meer details op het contextmenu, zie de **Opties voor een dossier** eigenschapbeschrijving in de [ Linkerpaneel ](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.
+Voor meer details op het contextmenu, zie de **Opties voor een dossier** eigenschapbeschrijving in de [&#x200B; Linkerpaneel &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.
 
 
 ## Variabelen voor huidige datum en tijd gebruiken in de opties Doelpad, Sitenaam of Bestandsnaam
 
 Terwijl het produceren van output in AEM Plaats of PDF, kunt u variabelen gebruiken voor het plaatsen van de **Weg van de Bestemming**, **Naam van de Plaats**, of **Naam van het Dossier** opties. U kunt nu ook de variabelen `${system_date}` en `${system_time}` gebruiken. Met deze variabelen kunt u de huidige datum en tijd aan deze opties toevoegen.
 
-Leer hoe te [ gebruikvariabelen voor het plaatsen van de Weg van de Bestemming, de Naam van de Plaats, of de opties van de Naam van het Dossier ](../user-guide/generate-output-use-variables.md).
+Leer hoe te [&#x200B; gebruikvariabelen voor het plaatsen van de Weg van de Bestemming, de Naam van de Plaats, of de opties van de Naam van het Dossier &#x200B;](../user-guide/generate-output-use-variables.md).

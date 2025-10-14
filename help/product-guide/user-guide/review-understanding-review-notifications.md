@@ -54,9 +54,9 @@ Als een taak opmerkingen bevat, wordt bovendien een commentaarfragment (een deel
 - Wanneer u een opmerking van tags hebt voorzien, wordt een fragment van de gelabelde opmerking weergegeven in het e-mailbericht.
 - Wanneer een opmerking op taakniveau wordt toegevoegd aan een revisietaak waarvan u deel uitmaakt, wordt een fragment van die opmerking weergegeven in het e-mailbericht.
 
-Voor een volledige lijst van vooraf bepaalde variabelen en de aanpassing van het overzichtsbericht, vormt de mening [ en past werkschema&#39;s ](../cs-install-guide/customize-workflows.md#customize-email-and-aem-notification-templates) aan.
+Voor een volledige lijst van vooraf bepaalde variabelen en de aanpassing van het overzichtsbericht, vormt de mening [&#x200B; en past werkschema&#39;s &#x200B;](../cs-install-guide/customize-workflows.md#customize-email-and-aem-notification-templates) aan.
 
 
 
 
-**Bovenliggend onderwerp:**&#x200B;[ Inleiding aan overzicht ](review.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Inleiding aan overzicht &#x200B;](review.md)

@@ -18,11 +18,11 @@ Een van de meest gebruikte functies in de op een browser gebaseerde editor is de
 
 De functie voor automatisch opslaan is niet standaard ingeschakeld en u moet deze functie inschakelen met behulp van het configuratiebestand.
 
-Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](download-install-additional-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende \(eigenschap\) gegevens op om het automatisch opslaan van het bestand en het automatisch opslaan van het tijdinterval te configureren:
+Gebruik de instructies die in [&#x200B; worden gegeven met voeten treedt van de Configuratie &#x200B;](download-install-additional-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende \(eigenschap\) gegevens op om het automatisch opslaan van het bestand en het automatisch opslaan van het tijdinterval te configureren:
 
 | PID | Eigenschappensleutel | Waarde van eigenschap |
 |---|------------|--------------|
 | `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.autosave` | Boolean \(true/false\).<br> **Standaardwaarde**: vals |
 | `xmleditor.autosaveinterval` | Geef het tijdsinterval in seconden op om de functie voor automatisch opslaan te activeren. |
 
-**Bovenliggend onderwerp:**&#x200B;[ pas de Redacteur van het Web ](conf-web-editor.md) aan
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; pas de Redacteur van het Web &#x200B;](conf-web-editor.md) aan

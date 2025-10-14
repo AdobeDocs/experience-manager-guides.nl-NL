@@ -17,8 +17,8 @@ ht-degree: 0%
 Experience Manager Guides komt met het **hulpmiddel van Gegevensbronnen** dat u helpt uit-van-de-doosschakelaars voor gegevensbronnen vormen. U kunt opstelling JIRA, SQL (MySQL, PostgreSQL, de Server van Microsoft SQL, SQLite, MariaDB, H2DB), de schakelaars van de Cliënt van de Handel van Adobe, Elasticsearch, en Algemene REST.
 
 
-Naast deze kant-en-klare connectors biedt Experience Manager Guides de connectors voor Salsify-, Akeneo- en Microsoft Azure DevOps Boards (ADO)-gegevensbronnen. U kunt deze open-bronschakelaars van de [ Gemaakt Centrale bewaarplaats downloaden en installeren ](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides). De gebruikers kunnen deze schakelaars dan vormen.
-Leer hoe te [ een open-bronschakelaar ](#install-open-source-connector) installeren.
+Naast deze kant-en-klare connectors biedt Experience Manager Guides de connectors voor Salsify-, Akeneo- en Microsoft Azure DevOps Boards (ADO)-gegevensbronnen. U kunt deze open-bronschakelaars van de [&#x200B; Gemaakt Centrale bewaarplaats downloaden en installeren &#x200B;](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides). De gebruikers kunnen deze schakelaars dan vormen.
+Leer hoe te [&#x200B; een open-bronschakelaar &#x200B;](#install-open-source-connector) installeren.
 
 
 
@@ -74,10 +74,10 @@ U kunt veelvoudige middelen toevoegen of gebruiken die op verschillende URLs voo
 
 Voer de volgende stappen uit om een bron te maken:
 
-1. Selecteer ![ pictogram ](assets/Add_icon.svg) in de **het middelsectie van URL** toevoegen om een middel voor elke URL toe te voegen.
+1. Selecteer ![&#x200B; pictogram &#x200B;](assets/Add_icon.svg) in de **het middelsectie van URL** toevoegen om een middel voor elke URL toe te voegen.
 1. Vorm alle details in **voeg middel** dialoogdoos toe.
 1. Klik **toevoegen**.
-1. U kunt ![ uitgeven pictogram ](assets/edit_pencil_icon.svg) of schrapt ![ ](assets/Delete_icon.svg) het middel van de URL middellijst.
+1. U kunt ![&#x200B; uitgeven pictogram &#x200B;](assets/edit_pencil_icon.svg) of schrapt ![&#x200B; &#x200B;](assets/Delete_icon.svg) het middel van de URL middellijst.
 
 1. U kunt ook de standaardbronnen gebruiken die beschikbaar zijn voor gegevensbronnen zoals Salsify, Akeneo en Microsoft ADO. Schakel de opties UIT voor de bron die u niet wilt configureren voor een gegevensbron.
 
@@ -87,7 +87,7 @@ Dit helpt u om gegevens van om het even welke middelen voor een bepaalde gegeven
 
 ## Een opensource-connector installeren{#install-open-source-connector}
 
-Om een gebiedsdeel te publiceren dat op de [ Gemaakt Centrale bewaarplaats ](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides) aan de Cloud Servicen aanwezig is, moet u het gebiedsdeel voor een open-bronschakelaar omvatten en inbedden.
+Om een gebiedsdeel te publiceren dat op de [&#x200B; Gemaakt Centrale bewaarplaats &#x200B;](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides) aan de Cloud Servicen aanwezig is, moet u het gebiedsdeel voor een open-bronschakelaar omvatten en inbedden.
 
 1. Voeg de afhankelijkheid in `all/pom.xml` toe in de projectcode van Git voor cloudbeheer. U kunt bijvoorbeeld de volgende afhankelijkheid toevoegen voor de gegevensbronaansluiting van Microsoft Azure DevOps Boards.
 
@@ -137,4 +137,4 @@ U bekijkt een fout als de schakelaar met de zelfde naam bestaat.
 * **Schrapping**: Schrap de geselecteerde schakelaar.
 
 
-Zodra u de gegevensbron hebt gevormd, is de schakelaar vermeld onder het **paneel van Gegevensbronnen** in de Redacteur van het Web. U kunt dan met de gegevensbron verbinden en een inhoudsfragment opnemen in uw onderwerpen. Voor meer details, neemt de mening [ een inhoudsfragment van uw gegevensbron ](../user-guide/web-editor-content-snippet.md) op.
+Zodra u de gegevensbron hebt gevormd, is de schakelaar vermeld onder het **paneel van Gegevensbronnen** in de Redacteur van het Web. U kunt dan met de gegevensbron verbinden en een inhoudsfragment opnemen in uw onderwerpen. Voor meer details, neemt de mening [&#x200B; een inhoudsfragment van uw gegevensbron &#x200B;](../user-guide/web-editor-content-snippet.md) op.

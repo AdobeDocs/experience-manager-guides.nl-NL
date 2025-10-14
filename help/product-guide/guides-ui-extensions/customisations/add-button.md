@@ -64,11 +64,11 @@ De JSON voor de &quot;annotation_toolbox&quot; `.src/jsons/review_app/annotation
 
 Voordat de annotatietoolbox werd aangepast, zag deze er als volgt uit:
 
-![ annotation-toolbox ](imgs/annotation_toolbox.png " toolbox van de Annotatie ")
+![&#x200B; annotation-toolbox &#x200B;](imgs/annotation_toolbox.png " toolbox van de Annotatie ")
 
 Na de aanpassing ziet de gereedschapset voor annotaties er als volgt uit:
 
-![ aangepast-annotation-toolbox ](imgs/customised_annotation_toolbox.png " Aangepaste annotatietoolbox ")
+![&#x200B; aangepast-annotation-toolbox &#x200B;](imgs/customised_annotation_toolbox.png " Aangepaste annotatietoolbox ")
 
 ## CSS toevoegen
 

@@ -26,7 +26,7 @@ Het vormen van DITA inhoudsonderzoek impliceert de volgende taken:
 1. [Aangepaste elementen of kenmerken toevoegen in zoekopdracht](#id192SF0G10YK)
 1. [Metagegevens uit bestaande inhoud extraheren](#id192SF0GA0HT)
 
-Naast het toevoegen van onderzoeksvermogen, kunt u de omslagen ook vormen die niet in het onderzoek zouden moeten worden omvat. Voor meer details, zie [ Tijdelijke dossiers van onderzoeksresultaten uitsluiten ](#id197AHI0035Z).
+Naast het toevoegen van onderzoeksvermogen, kunt u de omslagen ook vormen die niet in het onderzoek zouden moeten worden omvat. Voor meer details, zie [&#x200B; Tijdelijke dossiers van onderzoeksresultaten uitsluiten &#x200B;](#id197AHI0035Z).
 
 ## DITA Element-zoekcomponent toevoegen in Assets UI {#id192SF0F50HS}
 

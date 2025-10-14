@@ -35,8 +35,8 @@ const listJSON =  {
 },
 ```
 
-ItemConfig is gewoonlijk een `widget` . Meer over widgets leren ga naar [ Widgets ](../Widgets/basic-widget.md)
+ItemConfig is gewoonlijk een `widget` . Meer over widgets leren ga naar [&#x200B; Widgets &#x200B;](../Widgets/basic-widget.md)
 
 De gerenderde lijst ziet er als volgt uit:
 
-![ lijst ](./imgs/list.png " Lijst ")
+![&#x200B; lijst &#x200B;](./imgs/list.png " Lijst ")

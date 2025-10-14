@@ -24,7 +24,7 @@ Er zijn twee manieren om de meta-gegevens tot Output over te gaan gebruikend DIT
 
 Voer de volgende stappen uit om de metagegevens door te geven aan de uitvoer met DITA-OT-publicatie:
 
-1. [ open het DITA kaartdossier in kaartconsole ](./open-files-map-console.md) waarvoor u de meta-gegevens tot DITA-OT wilt overgaan.
+1. [&#x200B; open het DITA kaartdossier in kaartconsole &#x200B;](./open-files-map-console.md) waarvoor u de meta-gegevens tot DITA-OT wilt overgaan.
 1. Selecteer en open een uitvoervoorinstelling waaraan u de metagegevensvelden wilt doorgeven. Selecteer bijvoorbeeld de uitvoervoorinstelling PDF. Zorg ervoor dat het gebruikend **wordt gecreeerd DITA-OT** optie.
 1. Van de **eigenschappen van het Dossier** dropdown selecteren de meta-gegevens die u tot DITA-OT het publiceren wilt overgaan.
 
@@ -51,7 +51,7 @@ De geselecteerde eigenschappen van metagegevens worden doorgegeven aan de uitvoe
 
 >[!NOTE]
 >
-> Vanaf de release van 2502 van Experience Manager Guides is de functionaliteit voor het doorgeven van metagegevensargumenten voor hoofdmappen via de opdrachtregel DITA-OT afgekeurd. Om onderbrekingen te voorkomen, is echter een nieuwe eigenschap toegevoegd aan de `Config.Manager` om de functionaliteit in of uit te schakelen.  Voor meer details, vormt de mening [ montages van de outputgeneratie ](../cs-install-guide/conf-output-generation.md#configure-the-dita-ot-command-line-arguement-field-on-the-dita-map-dashboard).
+> Vanaf de release van 2502 van Experience Manager Guides is de functionaliteit voor het doorgeven van metagegevensargumenten voor hoofdmappen via de opdrachtregel DITA-OT afgekeurd. Om onderbrekingen te voorkomen, is echter een nieuwe eigenschap toegevoegd aan de `Config.Manager` om de functionaliteit in of uit te schakelen.  Voor meer details, vormt de mening [&#x200B; montages van de outputgeneratie &#x200B;](../cs-install-guide/conf-output-generation.md#configure-the-dita-ot-command-line-arguement-field-on-the-dita-map-dashboard).
 
 ## Het dashboard Kaart gebruiken
 
@@ -86,4 +86,4 @@ De geselecteerde eigenschappen van metagegevens worden doorgegeven aan de uitvoe
 
 
 
-**Bovenliggend onderwerp:**&#x200B;[ Productie van de Output ](generate-output.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Productie van de Output &#x200B;](generate-output.md)

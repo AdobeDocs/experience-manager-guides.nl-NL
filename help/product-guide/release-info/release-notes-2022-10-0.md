@@ -50,11 +50,11 @@ AEM Guides as a Cloud Service biedt verbeteringen en nieuwe functies in de relea
 
 Nu verstrekt AEM Guides **Snel produceert** paneel dat u snel helpt de output voor vooraf instelt produceren en bekijken die voor uw kaart DITA wordt gecreeerd.
 
-![ snel produceert pictogram ](assets/quick-generate-icon.png)
+![&#x200B; snel produceert pictogram &#x200B;](assets/quick-generate-icon.png)
 
 In **snel produceert** paneel, kunt u de lijst van alle die outputvoorinstellingen zien voor uw kaart DITA worden gecreeerd.
 
-![ Snel produceert paneel ](assets/quick-generate-panel.png)
+![&#x200B; Snel produceert paneel &#x200B;](assets/quick-generate-panel.png)
 
 Selecteer een of meer voorinstellingen en genereer snel de uitvoer. U kunt ook snel de uitvoer weergeven die voor de voorinstellingen is gegenereerd. Er wordt een succesbericht weergegeven bij het genereren van de uitvoer. Er wordt een foutbericht weergegeven als het genereren van de uitvoer mislukt. U kunt het foutenlogboek ook bekijken om de details van de fout te zien die in het generatieproces voorkwam.
 

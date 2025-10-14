@@ -15,7 +15,7 @@ ht-degree: 0%
 
 DITAVAL-bestanden worden gebruikt om voorwaardelijke uitvoer te genereren. In één onderwerp, kunt u voorwaarden toevoegen gebruikend elementenattributen om inhoud te conditionaliseren. Vervolgens maakt u een DITAVAL-bestand waarin u de voorwaarden opgeeft die moeten worden opgepakt om inhoud te genereren en welke voorwaarde niet in de uiteindelijke uitvoer moet worden opgenomen.
 
-Met Adobe Experience Manager Guides kunt u eenvoudig DITAVAL-bestanden maken en bewerken met de DITAVAL-editor. De DITAVAL-editor haalt de kenmerken op (die kunnen worden gebruikt als voorwaarden) die in uw systeem zijn gedefinieerd en u kunt deze gebruiken om DITAVAL-bestanden te maken of te bewerken. Voor meer details over het creëren van en het beheren van voorwaarden in Adobe Experience Manager, mening [ het Beheer de sectie van Markeringen ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=nl-NL) in de documentatie van Adobe Experience Manager.
+Met Adobe Experience Manager Guides kunt u eenvoudig DITAVAL-bestanden maken en bewerken met de DITAVAL-editor. De DITAVAL-editor haalt de kenmerken op (die kunnen worden gebruikt als voorwaarden) die in uw systeem zijn gedefinieerd en u kunt deze gebruiken om DITAVAL-bestanden te maken of te bewerken. Voor meer details over het creëren van en het beheren van voorwaarden in Adobe Experience Manager, mening [&#x200B; het Beheer de sectie van Markeringen &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=nl-NL) in de documentatie van Adobe Experience Manager.
 
 In de volgende secties vindt u de opties die beschikbaar zijn voor een DITAVAL-bestand in Experience Manager Guides.
 
@@ -32,7 +32,7 @@ Voer de volgende stappen uit om een DITAVAL-bestand te maken:
 
    ![](images/new-file-option.png){width="350" align="left"}
 
-   U kunt tot deze optie van de [ Homepage van Experience Manager Guides ](./intro-home-page.md) en tot het optiesmenu van een omslag in de mening van de Bewaarplaats ook toegang hebben.
+   U kunt tot deze optie van de [&#x200B; Homepage van Experience Manager Guides &#x200B;](./intro-home-page.md) en tot het optiesmenu van een omslag in de mening van de Bewaarplaats ook toegang hebben.
 
 2. Het **Nieuwe onderwerp** dialoogvakje wordt getoond.
 
@@ -62,7 +62,7 @@ Met de DITAVAL-editor kunt u meerdere taken uitvoeren zoals hieronder worden wee
 #### Vervolgkeuzelijst Menu
 
 Het vervolgkeuzemenu Menu biedt toegang tot de bewerkingsacties, Zoeken en vervangen, Versiegeschiedenis, Versielabel, Samenvoegen, Revisietaak maken, Wijzigingen bijhouden en de functie Codes.
-Voor meer details, mening [ dropdown opties van het Menu ](./web-editor-toolbar.md#menu-dropdown)
+Voor meer details, mening [&#x200B; dropdown opties van het Menu &#x200B;](./web-editor-toolbar.md#menu-dropdown)
 
 #### Prop toevoegen
 
@@ -72,7 +72,7 @@ Voeg één eigenschap toe aan uw DITAVAL-bestand.
 
 De eerste vervolgkeuzelijst bevat de toegestane DITA-kenmerken die u kunt gebruiken in het DITAVAL-bestand.
 
-De tweede drop-down lijst toont de waarden die voor de geselecteerde attributen worden gevormd. Dan, toont de volgende drop-down lijst de acties die u op de geselecteerde attributen kunt vormen. De toegestane waarden in de vervolgkeuzelijst voor handelingen zijn - `include` , `exclude` , `passthrough` en `flag` . Voor meer informatie over deze waarden, bekijk de definitie van [ prop ](http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/ditaval/ditaval-prop.html#ditaval-prop) element in OASIS DITA documentatie. Voor details van de actie van de eigenschappen die in de attributen worden toegevoegd, mening [ Acties voor bezit ](#actions-for-property).
+De tweede drop-down lijst toont de waarden die voor de geselecteerde attributen worden gevormd. Dan, toont de volgende drop-down lijst de acties die u op de geselecteerde attributen kunt vormen. De toegestane waarden in de vervolgkeuzelijst voor handelingen zijn - `include` , `exclude` , `passthrough` en `flag` . Voor meer informatie over deze waarden, bekijk de definitie van [&#x200B; prop &#x200B;](http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/ditaval/ditaval-prop.html#ditaval-prop) element in OASIS DITA documentatie. Voor details van de actie van de eigenschappen die in de attributen worden toegevoegd, mening [&#x200B; Acties voor bezit &#x200B;](#actions-for-property).
 
 #### Revisie-profiel toevoegen
 
@@ -146,13 +146,13 @@ Er zijn voor een bepaalde eigenschap grofweg vier acties beschikbaar die als vol
 #### Versiegegevens en Opslaan als nieuwe versie
 
 Met de functie Versiegegevens en opslaan als nieuwe versie worden het bijhouden van versies en het opslaan van inhoud gecombineerd tot één functie.
-Voor meer details, mening [ sparen als nieuwe versie ](./web-editor-toolbar.md#version-information-and-save-as-new-version)
+Voor meer details, mening [&#x200B; sparen als nieuwe versie &#x200B;](./web-editor-toolbar.md#version-information-and-save-as-new-version)
 
 
 #### Vergrendelen/ontgrendelen
 
 Hiermee vergrendelt of ontgrendelt u het huidige bestand. Door een bestand te vergrendelen hebt u exclusief schrijftoegang tot het bestand.
-Voor meer details, ontgrendel de mening [ Slot het dossier ](./web-editor-toolbar.md#lockunlock)
+Voor meer details, ontgrendel de mening [&#x200B; Slot het dossier &#x200B;](./web-editor-toolbar.md#lockunlock)
 
 
 ### De inhoud opslaan

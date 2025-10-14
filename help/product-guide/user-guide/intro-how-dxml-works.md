@@ -17,7 +17,7 @@ In het volgende diagram ziet u hoe Experience Manager Guides werkt met AEM en el
 
 ![](images/xml-add-on-how-it-works.png){align="center"}
 
-Als de sessie lang inactief blijft terwijl u door een van de werkschema&#39;s werkt, wordt een vraag over de sessietime-out geactiveerd om verlies van inhoud te voorkomen. Voor meer details, bekijk [ onderbreking van de Zitting ](./session-timeout-prompt.md).
+Als de sessie lang inactief blijft terwijl u door een van de werkschema&#39;s werkt, wordt een vraag over de sessietime-out geactiveerd om verlies van inhoud te voorkomen. Voor meer details, bekijk [&#x200B; onderbreking van de Zitting &#x200B;](./session-timeout-prompt.md).
 
 
-**Bovenliggend onderwerp:**&#x200B;[ Ongeveer Adobe Experience Manager Guides as a Cloud Service ](intro.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Ongeveer Adobe Experience Manager Guides as a Cloud Service &#x200B;](intro.md)

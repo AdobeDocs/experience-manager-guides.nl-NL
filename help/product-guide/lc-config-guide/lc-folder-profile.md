@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Een omslagprofiel wordt vereist om de configuraties voor verschillende afdelingen of producten in uw onderneming te scheiden. Voor Leren en Trainingsinhoud, kunt u een omslag-vlakke profiel tot stand brengen en vormen om auteursmalplaatjes, outputmalplaatjes, outputvoorinstellingen, en andere omslag-vlakke montages te beheren.
 
-Leer over [ Beste praktijken voor vestiging de omslagstructuur ](best-practices-folder-structure.md).
+Leer over [&#x200B; Beste praktijken voor vestiging de omslagstructuur &#x200B;](best-practices-folder-structure.md).
 
 Om aan de slag te gaan met de configuratie van het omslagprofiel voor het Leren en Trainingsinhoud, moet u:
 
@@ -30,17 +30,17 @@ Om aan de slag te gaan met de configuratie van het omslagprofiel voor het Leren 
 3. **creeer een omslag om Assets** te beheren: Gelijkaardig aan omslagen, kunt u verschillende omslagen van Assets ook tot stand brengen om aan de behoeften van verschillende afdelingen te voldoen. Op deze manier zorgt u er ook voor dat Auteurs en Uitgevers toegang hebben tot de juiste CSS die in hun sjablonen, afbeeldingen en andere elementen is geconfigureerd.
 
    ![](assets/configure-assets-folder.png){width="350" align="left"}
-4. [ creeer een omslagprofiel ](../cs-install-guide/conf-folder-level.md#create-and-configure-a-folder-level-profile) aan kaart verschillende omslagen.
-5. **selecteer het profiel van de Omslag dat moet worden gevormd**: Zodra het omslagprofiel wordt gecreeerd, moet u het profiel van de Omslag op de [ pagina van de Voorkeur van de Gebruiker selecteren ](../user-guide/intro-home-page.md#user-preferences) om ervoor te zorgen dat de Auteurs en de Uitgevers toegang tot de correcte malplaatjes hebben.
+4. [&#x200B; creeer een omslagprofiel &#x200B;](../cs-install-guide/conf-folder-level.md#create-and-configure-a-folder-level-profile) aan kaart verschillende omslagen.
+5. **selecteer het profiel van de Omslag dat moet worden gevormd**: Zodra het omslagprofiel wordt gecreeerd, moet u het profiel van de Omslag op de [&#x200B; pagina van de Voorkeur van de Gebruiker selecteren &#x200B;](../user-guide/intro-home-page.md#user-preferences) om ervoor te zorgen dat de Auteurs en de Uitgevers toegang tot de correcte malplaatjes hebben.
 
    ![](assets/folder-profile.png){width="650" align="left"}
 
 6. **vorm de montages van het Profiel van de Omslag**: Voor het Leren en de inhoud van de Opleiding, kunnen de volgende montages op een omslagniveau worden gevormd:
-   - [ Panelen ](#configure-panels)
+   - [&#x200B; Panelen &#x200B;](#configure-panels)
    - [Sjablonen](#configure-templates)
    - [Uitvoervoorinstellingen](#configure-output-presets)
-   - [ redacteur van HTML ](#html-editor-settings)
-   - [ publiceer profielen ](#manage-publish-profiles)
+   - [&#x200B; redacteur van HTML &#x200B;](#html-editor-settings)
+   - [&#x200B; publiceer profielen &#x200B;](#manage-publish-profiles)
 
 Om tot deze montages toegang te hebben, schakelaar aan de mening van de Redacteur en selecteer **Montages** van het **menu van Opties** zoals hieronder getoond:
 
@@ -92,7 +92,7 @@ Voor het Leren en de inhoud van de Opleiding, zorg ervoor dat slechts de volgend
 
 ## Sjablonen configureren
 
-Dit het plaatsen staat u toe om de auteursende en het publiceren malplaatjes huidig in het [ Linkerpaneel in de Redacteur ](../user-guide/web-editor-left-panel.md) te beheren. U kunt auteurs- en uitvoersjablonen toevoegen, verwijderen of opnieuw ordenen. Deze sjablonen zijn vervolgens toegankelijk voor auteurs en uitgevers.
+Dit het plaatsen staat u toe om de auteursende en het publiceren malplaatjes huidig in het [&#x200B; Linkerpaneel in de Redacteur &#x200B;](../user-guide/web-editor-left-panel.md) te beheren. U kunt auteurs- en uitvoersjablonen toevoegen, verwijderen of opnieuw ordenen. Deze sjablonen zijn vervolgens toegankelijk voor auteurs en uitgevers.
 
 ![](assets/templates-settings.png){width="350" align="left"}
 
@@ -124,7 +124,7 @@ Om een verschillend malplaatje te gebruiken dan die getoond in de **Uitgezochte 
 
 Als u een andere kaart- of onderwerpsjabloon wilt gebruiken, maakt u een nieuw ontwerpsjabloon in het deelvenster Sjablonen in de Editor. De kaartmalplaatjes van het gebruik om het Leren cursussen en onderwerpmalplaatjes voor het Leren inhoud, Quiz, of het Leren samenvatting tot stand te brengen.
 
-Voor details, leidt de mening [ tot aangepaste malplaatjes van de Redacteur ](../user-guide/create-maps-customized-templates.md).
+Voor details, leidt de mening [&#x200B; tot aangepaste malplaatjes van de Redacteur &#x200B;](../user-guide/create-maps-customized-templates.md).
 
 ![](assets/authoring-templates-editor.png){width="350" align="left"}
 

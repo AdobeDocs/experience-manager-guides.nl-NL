@@ -56,4 +56,4 @@ Voer de volgende stappen uit om het rapport Conversiestatus weer te geven:
       - **Output**: Weg van het met succes omgezette document. Als u op de koppeling Uitvoer selecteert, gaat u naar de locatie waar de uitvoer wordt opgeslagen.
 
 
-**Bovenliggend onderwerp:**&#x200B;[ Inleiding aan rapporten ](reports-intro.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Inleiding aan rapporten &#x200B;](reports-intro.md)

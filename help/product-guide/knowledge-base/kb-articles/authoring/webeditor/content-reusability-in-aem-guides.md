@@ -85,12 +85,12 @@ Kyc_procedure.dita blijft de enige informatiebron. Als de regelgevende veranderi
 AEM Guides gebruiken, twee klikken
 
 Stap 1: klik op Herbruikbare inhoud invoegen
-![ toolbar ](../../assets/publishing/content-reusability_image1.png)
+![&#x200B; toolbar &#x200B;](../../assets/publishing/content-reusability_image1.png)
 
 <br>
 
 Stap 2: Selecteer het bestand en het fragment dat u opnieuw wilt gebruiken.
-![ conref ](../../assets/publishing/content-reusability_image2.png)
+![&#x200B; conref &#x200B;](../../assets/publishing/content-reusability_image2.png)
 
 Net als bij &#39;conref&#39; kunt u &#39;conkeyref&#39; ook gebruiken waar u in plaats van een inhoudspad naar inhoud verwijst via key
 
@@ -129,10 +129,10 @@ Hier wordt het onderwerppad gewijzigd van &quot;kyc_procedure_2020.dita&quot; in
 AEM Guides gebruiken, twee klikken
 
 Stap 1: klik op Herbruikbare inhoud invoegen
-![ toolbar ](../../assets/publishing/content-reusability_image1.png)
+![&#x200B; toolbar &#x200B;](../../assets/publishing/content-reusability_image1.png)
 
 Stap 2: Selecteer (facultatief) uw wortelkaart, sleutel, en fragment dat opnieuw moet worden gebruikt.
-![ conkeyref ](../../assets/publishing/content-reusability_image3.png)
+![&#x200B; conkeyref &#x200B;](../../assets/publishing/content-reusability_image3.png)
 
 Hier is de hoofdmap automatisch geselecteerd omdat deze al was geopend in de kaartweergave.
 
@@ -143,11 +143,11 @@ AEM Guides biedt de mogelijkheid om inhoud met één muisklik opnieuw te gebruik
 
 Stap 1: Voeg een generisch onderwerp aan Herbruikbare inhoud toe
 
-![ voeg Herbruikbare inhoud ](../../assets/publishing/content-reusability_image4.png) toe
+![&#x200B; voeg Herbruikbare inhoud &#x200B;](../../assets/publishing/content-reusability_image4.png) toe
 
 Stap 2: Zodra toegevoegd, belemmering, en laat vallen het fragment dat u in om het even welk van uw bestemmingsonderwerpen wilt opnieuw gebruiken.
 
-![ voeg Herbruikbare inhoud GIF ](../../assets/publishing/content-reusability_image5.gif) toe
+![&#x200B; voeg Herbruikbare inhoud GIF &#x200B;](../../assets/publishing/content-reusability_image5.gif) toe
 
 
 
@@ -167,4 +167,4 @@ Id&#39;s toewijzen aan fragmenten (Dita-elementen) die u opnieuw wilt gebruiken 
 <br>
 
 
-Plaats op het communautair van AEM Guides [ forum ](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) voor om het even welke vragen.
+Plaats op het communautair van AEM Guides [&#x200B; forum &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) voor om het even welke vragen.

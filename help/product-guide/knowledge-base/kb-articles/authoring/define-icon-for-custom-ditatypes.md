@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Met douaneschema in AEM Guides wordt gebruikt, kunt u douaneonderwerp of kaarttypes tot stand brengen en waarmee u de types van douaneonderwerp/kaart kunt opmerken tonen geen pictogram in de Web-redacteur of UI van Assets. Zie onderstaande schermafbeelding ter referentie
 
-![ schermafbeelding voor verwijzing ](../assets/authoring/custom-ditatype-icon-notshown.png)
+![&#x200B; schermafbeelding voor verwijzing &#x200B;](../assets/authoring/custom-ditatype-icon-notshown.png)
 
 
 Zo om een pictogram aan de types van douaneonderwerp/kaart toe te wijzen, moet u het volgende doen:
@@ -33,7 +33,7 @@ _Stap 1:_ bepaalt het ditatype voor het onderwerp/de ap van douane dita
 - Open de dataweergave in de webeditor > open ontwikkelingsconsole in de browser
 - De pictogramruimte naast het vermelde onderwerp/de lijst Inspect
 - Controleer de klasse die aan het douaneonderwerp wordt toegewezen
-- Zie hieronder het schermafbeelding voor meer details ![ het schermafbeelding ](../assets/authoring/custom-ditatype-icon-knowditatype.png) zien
+- Zie hieronder het schermafbeelding voor meer details ![&#x200B; het schermafbeelding &#x200B;](../assets/authoring/custom-ditatype-icon-knowditatype.png) zien
 - Deze klasse wordt gebruikt om pictogrammen toe te wijzen en css voor dit te schrijven
 
 _Stap 2:_ creeer css en wijs pictogram aan dit ditatype toe
@@ -58,10 +58,10 @@ _Stap 2:_ creeer css en wijs pictogram aan dit ditatype toe
 - deze wijzigingen opslaan/implementeren
 
 Zie onder de schermafbeelding voor meer informatie.
-![ verwijs screenshot ](../assets/authoring/custom-ditatype-icon-define-webeditor-styles.png)
+![&#x200B; verwijs screenshot &#x200B;](../assets/authoring/custom-ditatype-icon-define-webeditor-styles.png)
 
 En de uiteindelijke uitvoer wordt weergegeven onder de schermafbeelding
-![ getoond in het schermschot ](../assets/authoring/custom-ditatype-icon-webeditor-showstyles.png)
+![&#x200B; getoond in het schermschot &#x200B;](../assets/authoring/custom-ditatype-icon-webeditor-showstyles.png)
 
 
 ## Pictogram weergeven voor aangepast onderwerp/kaart in gebruikersinterface van Assets
@@ -80,6 +80,6 @@ _Stap 2:_ creeer Javacscript om te bepalen welke pictogrammen voor het type van 
 - Creeer een dossier genoemd js.txt onder de omslag van de cliëntbibliotheek en voeg verwijzing naar &quot;topic_type.js toe
 - deze wijzigingen opslaan/implementeren
 Zie onder de schermafbeelding voor meer informatie.
-  ![ verwijs screenshot ](../assets/authoring/custom-ditatype-icon-define-assetsui-styles.png)
+  ![&#x200B; verwijs screenshot &#x200B;](../assets/authoring/custom-ditatype-icon-define-assetsui-styles.png)
 
-En de definitieve output zal verschijnen zoals aangetoond in screenshot ![ getoond in screenshot ](../assets/authoring/custom-ditatype-icon-assetsui-showstyles.png)
+En de definitieve output zal verschijnen zoals aangetoond in screenshot ![&#x200B; getoond in screenshot &#x200B;](../assets/authoring/custom-ditatype-icon-assetsui-showstyles.png)

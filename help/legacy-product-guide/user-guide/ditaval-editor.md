@@ -52,7 +52,7 @@ Voer de volgende stappen uit om een DITAVAL-bestand te bewerken:
    Met de DITAVAL-editor kunt u de volgende taken uitvoeren:
 
    A: Linkerdeelvenster in-/uitschakelen
-De weergave van het linkerdeelvenster in-/uitschakelen. Als u het DITAVAL-bestand hebt geopend via de DITA-kaart, worden de kaart en de opslagplaats weergegeven in dit deelvenster. Voor meer informatie over het openen van een dossier door kaart DITA, zie [ onderwerpen door kaart DITA ](map-editor-advanced-map-editor.md#id17ACJ0F0FHS) uitgeven.
+De weergave van het linkerdeelvenster in-/uitschakelen. Als u het DITAVAL-bestand hebt geopend via de DITA-kaart, worden de kaart en de opslagplaats weergegeven in dit deelvenster. Voor meer informatie over het openen van een dossier door kaart DITA, zie [&#x200B; onderwerpen door kaart DITA &#x200B;](map-editor-advanced-map-editor.md#id17ACJ0F0FHS) uitgeven.
 
    B: Opslaan
 Hiermee slaat u de wijzigingen op die u in het bestand hebt aangebracht. Alle wijzigingen worden opgeslagen in de huidige versie van het bestand.
@@ -64,7 +64,7 @@ Voeg één eigenschap toe aan uw DITAVAL-bestand.
 
    De eerste vervolgkeuzelijst bevat de toegestane DITA-kenmerken die u kunt gebruiken in het DITAVAL-bestand. Er zijn vijf kenmerken die worden ondersteund: `audience` , `platform` , `product` , `props` en `otherprops` .
 
-   De tweede drop-down lijst toont de waarden die voor de geselecteerde attributen worden gevormd. Dan, toont de volgende drop-down lijst de acties die u op de geselecteerde attributen kunt vormen. De toegestane waarden in de vervolgkeuzelijst voor handelingen zijn - `include` , `exclude` , `passthrough` en `flag` . Voor meer informatie over deze waarden, zie de definitie van [ prop ](http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/ditaval/ditaval-prop.html#ditaval-prop) element in OASIS DITA- documentatie
+   De tweede drop-down lijst toont de waarden die voor de geselecteerde attributen worden gevormd. Dan, toont de volgende drop-down lijst de acties die u op de geselecteerde attributen kunt vormen. De toegestane waarden in de vervolgkeuzelijst voor handelingen zijn - `include` , `exclude` , `passthrough` en `flag` . Voor meer informatie over deze waarden, zie de definitie van [&#x200B; prop &#x200B;](http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/ditaval/ditaval-prop.html#ditaval-prop) element in OASIS DITA- documentatie
 
    D: Alle eigenschappen toevoegen
 Als u met één klik alle voorwaardelijke eigenschappen of kenmerken wilt toevoegen die in uw systeem zijn gedefinieerd, gebruikt u de functie Alle eigenschappen toevoegen.

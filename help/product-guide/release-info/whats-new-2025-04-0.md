@@ -14,9 +14,9 @@ ht-degree: 0%
 
 Dit artikel behandelt de nieuwe en verbeterde functies die zijn geïntroduceerd met de release 2025.04.0 van Adobe Experience Manager Guides as a Cloud Service.
 
-Voor de lijst van kwesties die in deze versie worden bevestigd, mening [ Vaste kwesties in de versie 2025.04.0 ](fixed-issues-2025-04-0.md).
+Voor de lijst van kwesties die in deze versie worden bevestigd, mening [&#x200B; Vaste kwesties in de versie 2025.04.0 &#x200B;](fixed-issues-2025-04-0.md).
 
-Leer over [ verbeteringsinstructies voor de versie 2025.04.0 ](../release-info/upgrade-instructions-2025-04-0.md).
+Leer over [&#x200B; verbeteringsinstructies voor de versie 2025.04.0 &#x200B;](../release-info/upgrade-instructions-2025-04-0.md).
 
 ## &#39;Format&#39;-kenmerk toegevoegd voor verwijzingskoppelingen
 
@@ -32,13 +32,13 @@ Bovendien, zullen de dossiers met a **.xml** uitbreiding ook hun formaat hebben 
 
 De eigenschap van de Basislijn van de Uitvoer omvat nu de **documentstaat** naast zeer belangrijke details zoals titel, dossiernaam, dossiertype, en versieaantal in de basislijnmomentopname. Deze verbetering verbetert het basislijnbeheer door een uitgebreider overzicht van de basislijn te verstrekken.
 
-Voor meer details, leidt de mening [ basislijnen van de console van de Kaart ](../user-guide/web-editor-baseline.md#manage-baselines) tot en beheert.
+Voor meer details, leidt de mening [&#x200B; basislijnen van de console van de Kaart &#x200B;](../user-guide/web-editor-baseline.md#manage-baselines) tot en beheert.
 
 ## Verbeterde zoekervaring voor het deelvenster Herbruikbare inhoud
 
 Experience Manager Guides introduceert een verbeterde zoekervaring in het deelvenster Herbruikbare inhoud. Bij deze update worden bij het zoeken naar trefwoorden nu alle bestanden gescand die zijn toegevoegd als herbruikbare inhoud, en niet alleen de geopende bestanden. Op deze manier kunt u de exacte positie van het trefwoord in alle gevallen vinden, ongeacht of de containers zijn geopend of samengevouwen. Wanneer u de zoekbalk wist, blijft bovendien de oorspronkelijke staat van alle containers behouden, wat een efficiëntere en gebruikersvriendelijkere zoekfunctionaliteit biedt.
 
-Voor meer details, mening [ Herbruikbare inhoud ](../user-guide/web-editor-features.md#reusable-content).
+Voor meer details, mening [&#x200B; Herbruikbare inhoud &#x200B;](../user-guide/web-editor-features.md#reusable-content).
 
 
 ## Java-versieverbetering voor microservicecontainers

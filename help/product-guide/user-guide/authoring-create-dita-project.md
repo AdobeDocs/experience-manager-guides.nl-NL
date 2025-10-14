@@ -19,7 +19,7 @@ U kunt een DITA-project maken en het vervolgens gebruiken om uw revisies te star
 
 U kunt teamleden aan een project toevoegen die dan diverse rollen - Auteurs, Recensenten, en Uitgevers zouden kunnen worden toegewezen.
 
-Nadat u een DITA-project hebt gemaakt, kunt u de revisie starten vanuit de Editor of de gebruikersinterface van Assets. Voor meer details, verzendt de mening [ onderwerpen voor overzicht ](review-send-topics-for-review.md#).
+Nadat u een DITA-project hebt gemaakt, kunt u de revisie starten vanuit de Editor of de gebruikersinterface van Assets. Voor meer details, verzendt de mening [&#x200B; onderwerpen voor overzicht &#x200B;](review-send-topics-for-review.md#).
 
 En als een auteur een revisiewerkstroom start, krijgen de geselecteerde leden van het project een e-mailmelding. Om e-mailberichten te vormen, de mening *past e-mailmalplaatjes* aan in installeer en vorm Adobe Experience Manager Guides as a Cloud Service.
 
@@ -63,7 +63,7 @@ Voer de volgende stappen uit om een DITA-project tot stand te brengen:
 
       >[!NOTE]
       >
-      >Als u Experience Manager Guides versie 3.5 of eerder gebruikt, wordt u een optie getoond om een DITA kaartdossier te selecteren om zeer belangrijke verwijzingen voor onderwerphet uitgeven, voorproef en overzichtswerkschema&#39;s op te lossen. In 3.6 en latere versies kunt u de hoofdmap instellen via de Editor. Voor meer informatie, bekijk de [ Voorkeur van de Gebruiker ](web-editor-features.md#id2087G0P40SB) in de Redacteur. Een andere manier om de wortelkaart te plaatsen is door het bij de globale of omslag-vlakke profielen te vormen. Voor meer details, vorm de mening *globale of omslag-vlakke profielen* in de Gids van de Installatie en van de Configuratie.
+      >Als u Experience Manager Guides versie 3.5 of eerder gebruikt, wordt u een optie getoond om een DITA kaartdossier te selecteren om zeer belangrijke verwijzingen voor onderwerphet uitgeven, voorproef en overzichtswerkschema&#39;s op te lossen. In 3.6 en latere versies kunt u de hoofdmap instellen via de Editor. Voor meer informatie, bekijk de [&#x200B; Voorkeur van de Gebruiker &#x200B;](web-editor-features.md#id2087G0P40SB) in de Redacteur. Een andere manier om de wortelkaart te plaatsen is door het bij de globale of omslag-vlakke profielen te vormen. Voor meer details, vorm de mening *globale of omslag-vlakke profielen* in de Gids van de Installatie en van de Configuratie.
 
    Informatie in het **Geavanceerde** lusje:
 
@@ -76,4 +76,4 @@ Voer de volgende stappen uit om een DITA-project tot stand te brengen:
 1. Selecteer **Open** om uw projectpagina te openen.
 
 
-**Bovenliggend onderwerp:**&#x200B;[ Inleiding aan overzicht ](review.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Inleiding aan overzicht &#x200B;](review.md)

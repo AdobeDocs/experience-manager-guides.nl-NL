@@ -17,7 +17,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 > De Basic Map Editor, die voorheen beschikbaar was in Experience Manager Guides, is vanaf versie 4.3 en 2307 vervangen. U kunt tot de Basis Redacteur van de Kaart niet toegang hebben om kaarten te creëren en te beheren DITA.
->U wordt geadviseerd om de Geavanceerde Redacteur van de Kaart te gebruiken. De geavanceerde Kaarteditor biedt verbeterde functies en betere aanpassingsopties. Onderzoek meer over hoe te met de [ Geavanceerde Redacteur van de Kaart ](../user-guide/map-editor-advanced-map-editor.md) te werken.
+>U wordt geadviseerd om de Geavanceerde Redacteur van de Kaart te gebruiken. De geavanceerde Kaarteditor biedt verbeterde functies en betere aanpassingsopties. Onderzoek meer over hoe te met de [&#x200B; Geavanceerde Redacteur van de Kaart &#x200B;](../user-guide/map-editor-advanced-map-editor.md) te werken.
 
 De Basis Redacteur van de Kaart verstrekt een gemakkelijke belemmering-en-dalingseigenschap om onderwerpen van uw bewaarplaats van AEM toe te voegen om de kaart DITA of bookmap tot stand te brengen. U kunt geneste onderwerpen, relatietabellen \(reltable\), attributen en meta-gegevensinformatie toevoegen, en ook de kaart voor correctheid bevestigen.
 
@@ -128,7 +128,7 @@ Klik op de pictogrammen voor pijl-links of pijl-rechts om het onderwerp naar lin
 
 **B: Eigenschappen**
 
-Klik op het pictogram Eigenschappen om het dialoogvenster Eigenschappen van Topicref te openen. In dit dialoogvenster kunt u de onderwerpkenmerken en metagegevens instellen. Voor meer informatie over de standaardonderwerpattributen en meta-gegevens, zie de [ topicref ](https://docs.oasis-open.org/dita/v1.2/os/spec/langref/topicref.html) documentatie in de Specificatie van de Taal OASIS DITA.
+Klik op het pictogram Eigenschappen om het dialoogvenster Eigenschappen van Topicref te openen. In dit dialoogvenster kunt u de onderwerpkenmerken en metagegevens instellen. Voor meer informatie over de standaardonderwerpattributen en meta-gegevens, zie de [&#x200B; topicref &#x200B;](https://docs.oasis-open.org/dita/v1.2/os/spec/langref/topicref.html) documentatie in de Specificatie van de Taal OASIS DITA.
 
 
 ![](images/map-properties-metadata.png){width="350" align="left"}
@@ -155,7 +155,7 @@ Voer de volgende stappen uit om met relatietabellen in de BasisRedacteur van de 
 
    >[!TIP]
    >
-   > Het lusje van Onderwerpen geeft u een optie om het kaartdossier met zijn gebiedsdelen te downloaden. Voor meer details, zie [ Exporteer een DITA kaartdossier ](authoring-download-assets.md#id218UBA00IXA).
+   > Het lusje van Onderwerpen geeft u een optie om het kaartdossier met zijn gebiedsdelen te downloaden. Voor meer details, zie [&#x200B; Exporteer een DITA kaartdossier &#x200B;](authoring-download-assets.md#id218UBA00IXA).
 
 1. In de belangrijkste toolbar, geeft de klik **&#x200B;**&#x200B;uit.
 
@@ -196,4 +196,4 @@ Als u een onderwerp van uw lijst wilt schrappen, klik het dwarspictogram naast h
 
 Als u de relatietabel wilt verwijderen, klikt u ergens buiten de relatietabel en klikt u op Verwijderen.
 
-**Bovenliggend onderwerp:**&#x200B;[ Werk met de Redacteur van de Kaart ](map-editor.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Werk met de Redacteur van de Kaart &#x200B;](map-editor.md)

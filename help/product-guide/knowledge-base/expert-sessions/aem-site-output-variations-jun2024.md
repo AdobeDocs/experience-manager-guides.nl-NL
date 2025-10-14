@@ -40,13 +40,13 @@ In deze sessie leert u over het volgende:
 ## Gerelateerde bronnen
 
 
-- [ AEM Uitvoer van de Plaats het Publiceren ](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/user-guide/output-gen/output-presets-aemg/generate-output-aem-site#:~:text=To%20open%20output%20presets%20for,configurations%2C%20and%20then%20click%20Save.)
+- [&#x200B; AEM Uitvoer van de Plaats het Publiceren &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/user-guide/output-gen/output-presets-aemg/generate-output-aem-site#:~:text=To%20open%20output%20presets%20for,configurations%2C%20and%20then%20click%20Save.)
 
-- [ KB Uitvoer het publiceren ](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/user-guide/output-gen/output-presets-aemg/generate-output-knowledge-base)
+- [&#x200B; KB Uitvoer het publiceren &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/user-guide/output-gen/output-presets-aemg/generate-output-knowledge-base)
 
-- [ AEM Malplaatjes ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/implementing/developing/platform/templates/templates)
+- [&#x200B; AEM Malplaatjes &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/implementing/developing/platform/templates/templates)
 
-- **Communautair Forum** - voor zitting-specifieke communautaire interactie over Experience League, bezoek [ het Forum van AEM Guides ](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Communautair Forum** - voor zitting-specifieke communautaire interactie over Experience League, bezoek [&#x200B; het Forum van AEM Guides &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >

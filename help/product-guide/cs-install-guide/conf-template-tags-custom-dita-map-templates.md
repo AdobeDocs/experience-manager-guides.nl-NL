@@ -24,7 +24,7 @@ Voer de volgende stappen uit om uw malplaatjes van de douanekaart toe te voegen:
 
    >[!NOTE]
    >
-   > Om een douaneplaats te vormen om onderwerp op te slaan of malplaatjes in kaart te brengen, zie [ de weg van de malplaatjeomslag van douane DITA ](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z) vormen
+   > Om een douaneplaats te vormen om onderwerp op te slaan of malplaatjes in kaart te brengen, zie [&#x200B; de weg van de malplaatjeomslag van douane DITA &#x200B;](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z) vormen
 
 1. Klik **creëren** \> **Sjabloon DITA**.
 
@@ -61,7 +61,7 @@ De volgende keer dat u een nieuwe kaart maakt, wordt de sjabloon weergegeven op 
 U kunt de drempel voor asynchrone verwerking vormen die op het aantal verwijzingen in de kaart DITA wordt gebaseerd. Standaard worden kaarten met meer dan 5 verwijzingen gemaakt via asynchrone bewerkingen, terwijl kaarten met minder verwijzingen synchrone bewerkingen blijven gebruiken.
 
 
-Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](download-install-additional-config-override.md#) om het configuratiedossier tot stand te brengen. In het configuratiedossier, verstrek de volgende (bezit) details om aantal verwijzingen in het DITA kaartmalplaatje te specificeren om het proces synchroon te houden:
+Gebruik de instructies die in [&#x200B; worden gegeven met voeten treedt van de Configuratie &#x200B;](download-install-additional-config-override.md#) om het configuratiedossier tot stand te brengen. In het configuratiedossier, verstrek de volgende (bezit) details om aantal verwijzingen in het DITA kaartmalplaatje te specificeren om het proces synchroon te houden:
 
 | PID | Eigenschappensleutel | Waarde van eigenschap |
 |---|------------|--------------|
@@ -71,4 +71,4 @@ Wanneer het creëren van een kaart DITA met grote onderwerpverwijzingen gebruike
 
 Om dit te verhinderen, vorm **asynchrone dita kaartverwezenlijking** in XmlEditorConfig die taken om parallel toestaat te lopen en verwerkingstijden voor grotere kaarten te verminderen DITA.
 
-**Bovenliggend onderwerp:** [ vorm onderwerp en kaartmalplaatjes ](conf-template-tags.md)
+**Bovenliggend onderwerp:** [&#x200B; vorm onderwerp en kaartmalplaatjes &#x200B;](conf-template-tags.md)

@@ -21,7 +21,7 @@ De volgende video biedt een kort overzicht van de beschikbare functies voor een 
 
 U kunt de basisbewerkingsfuncties gebruiken die beschikbaar zijn op de werkbalk van de Editor, zoals hieronder wordt beschreven:
 
-- **Widgets**: Voeg widgets als accordeon, carrousel, hotspots, en meer aan uw Onderwerp of het leren inhoud toe gebruikend het **3&rbrace; menu van het Tussenvoegsel &lbrace;zoals hieronder getoond.** Voor meer details op interactieve widgets, mening [ Gebruik interactieve widgets ](./lc-widgets.md).
+- **Widgets**: Voeg widgets als accordeon, carrousel, hotspots, en meer aan uw Onderwerp of het leren inhoud toe gebruikend het **3&rbrace; menu van het Tussenvoegsel &lbrace;zoals hieronder getoond.** Voor meer details op interactieve widgets, mening [&#x200B; Gebruik interactieve widgets &#x200B;](./lc-widgets.md).
 
   ![](assets/widgets-learning-content.png){width="650" align="left"}
 

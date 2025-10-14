@@ -24,23 +24,23 @@ Met Experience Manager Guides kunt u een onderwerp of de elementen ervan publice
 
 Voer de volgende stappen uit om een inhoudsfragment te maken:
 
-1. Creeer het model van het Fragment van de a [ Inhoud ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/content-fragments/content-fragments-models.html?lang=nl-NL) in Adobe Experience Manager Assets.
+1. Creeer het model van het Fragment van de a [&#x200B; Inhoud &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/assets/content-fragments/content-fragments-models.html?lang=nl-NL) in Adobe Experience Manager Assets.
 1. Maak een map waarin u de inhoudsfragmenten wilt opslaan die u maakt op basis van het model Inhoudsfragment. Bijvoorbeeld &#39;stock-content-fragments&#39;.
 1. Bewerk de eigenschappen van de map (bijvoorbeeld &quot;stock-content-fragments&quot;) en voeg het pad van de map toe, die het model Content Fragment bevat in de cloudconfiguratie.
 Voeg bijvoorbeeld `/conf/we-retail` toe in de cloudconfiguratie. Deze configuratie verbindt alle modellen van het Fragment van de Inhoud met de omslag.\
-   ![ voeg de details van de wolkenconfiguratie in de omslageigenschappen ](images/fragment-folder-cloud-configuration.png){width="650" align="left"} toe
+   ![&#x200B; voeg de details van de wolkenconfiguratie in de omslageigenschappen &#x200B;](images/fragment-folder-cloud-configuration.png){width="650" align="left"} toe
    *voeg de wolkenconfiguratie in de omslageigenschappen toe om het met de fragmentmodellen te verbinden.*
 
-1. Om een Fragment van de Inhoud te produceren, selecteer **Nieuwe Output ![ nieuw outputpictogram ](./images/Add_icon.svg) van de** Uitvoer **sectie in de** Eigenschappen van het Dossier **van een onderwerp.**
+1. Om een Fragment van de Inhoud te produceren, selecteer **Nieuwe Output ![&#x200B; nieuw outputpictogram &#x200B;](./images/Add_icon.svg) van de** Uitvoer **sectie in de** Eigenschappen van het Dossier **van een onderwerp.**
 1. Selecteer **het Fragment van de Inhoud**.\
-   ![ dossier eigenschappen opties tabel ](./images/file-properties-outputs-tab-new.png) {width="300" align="left"}
+   ![&#x200B; dossier eigenschappen opties tabel &#x200B;](./images/file-properties-outputs-tab-new.png) {width="300" align="left"}
 
    *voeg een nieuw Fragment van de Inhoud van de Eigenschappen van het Dossier van een onderwerp* toe.
 
 1. In **produceer de dialoogdoos van het Fragment van de Inhoud**, vul de volgende details onder de **Algemene** en **Afbeelding** lusjes in.
 
    **Algemene** tabel
-   ![ voeg het fragmentmodel en de kaartdetails in toe publiceren als de dialoog van het Fragment van de Inhoud ](images/generate-content-fragment.png)
+   ![&#x200B; voeg het fragmentmodel en de kaartdetails in toe publiceren als de dialoog van het Fragment van de Inhoud &#x200B;](images/generate-content-fragment.png)
    *voeg de weg, de naam, de titel, en voorwaarde het filtreren toe om een onderwerp of zijn elementen als Fragment van de Inhoud te publiceren.*
 
 
@@ -65,7 +65,7 @@ Voeg bijvoorbeeld `/conf/we-retail` toe in de cloudconfiguratie. Deze configurat
 
    **Toewijzing** lusje
 
-   ![ voeg het fragmentmodel en de kaartdetails in toe publiceren als de dialoog van het Fragment van de Inhoud ](images/content-fragment-mapping.png)
+   ![&#x200B; voeg het fragmentmodel en de kaartdetails in toe publiceren als de dialoog van het Fragment van de Inhoud &#x200B;](images/content-fragment-mapping.png)
 
    *selecteer het model van het inhoudsfragment, en voeg de kaartdetails toe om een onderwerp of zijn elementen als Fragment van de Inhoud te publiceren.*
 
@@ -76,13 +76,13 @@ De rechterzijde wordt gevuld met de inhoud van het gepubliceerde inhoudsfragment
 
      >[!NOTE]
      >
-     > Als u 4.4 of vroegere versies gebruikt, selecteer een afbeelding van drop-down. Het plukt de afbeeldingen van het {*dossier 0} contentFragmentMapping.json.*  Uw beheerder kan de afbeeldingen in het {*dossier toevoegen 0} contentFragmentMapping.json.* Leer meer over hoe te om [ een afbeelding tussen een onderwerp en een Fragment van de Inhoud ](../cs-install-guide/conf-content-fragment-mapping-cs.md) in de Gids van de Installatie en van de Configuratie tot stand te brengen.
+     > Als u 4.4 of vroegere versies gebruikt, selecteer een afbeelding van drop-down. Het plukt de afbeeldingen van het {*dossier 0} contentFragmentMapping.json.*  Uw beheerder kan de afbeeldingen in het {*dossier toevoegen 0} contentFragmentMapping.json.* Leer meer over hoe te om [&#x200B; een afbeelding tussen een onderwerp en een Fragment van de Inhoud &#x200B;](../cs-install-guide/conf-content-fragment-mapping-cs.md) in de Gids van de Installatie en van de Configuratie tot stand te brengen.
 
 1. Selecteer **produceren** om het Fragment van de Inhoud te publiceren.
 
 1. U kunt de Fragmenten van de Inhoud voor een onderwerp onder de **sectie van Output** in de **Eigenschappen van het Dossier** bekijken.
 
-   ![ Mening de Fragmenten van de Inhoud voor een onderwerp ](images/outputs-options-menu-new.png){width="300" align="left"}
+   ![&#x200B; Mening de Fragmenten van de Inhoud voor een onderwerp &#x200B;](images/outputs-options-menu-new.png){width="300" align="left"}
 
    *Mening de fragmenten van de Inhoud aanwezig voor een onderwerp en herpubliceer hen.*
 

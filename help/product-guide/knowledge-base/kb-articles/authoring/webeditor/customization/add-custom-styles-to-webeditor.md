@@ -24,7 +24,7 @@ Dit omvat de volgende stappen:
 
 Laten we dit begrijpen met een voorbeeld waarin we de korte beschrijving en titel als een apart blok willen weergeven met bepaalde stijlaspecten in de redactie.
 
-![ Previewing webeditor met douanestijlen ](../../../assets/authoring/webeditor-customstyles-preview.png)
+![&#x200B; Previewing webeditor met douanestijlen &#x200B;](../../../assets/authoring/webeditor-customstyles-preview.png)
 
 
 ## Dit implementeren
@@ -34,11 +34,11 @@ Laten we dit begrijpen met een voorbeeld waarin we de korte beschrijving en tite
 
 Gebruik de omslagprofielen om *css_layout.css* onder het lusje van de Configuratie van de Redacteur van &quot;XML&quot;te controleren en CSS toe te voegen die douanestijlen heeft
 
-[ gebruik deze verbinding om meer over het profiel van de Omslag te leren en CSS malplaatjelay-out te vormen ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=nl-NL#customize-the-css-template-layout)
+[&#x200B; gebruik deze verbinding om meer over het profiel van de Omslag te leren en CSS malplaatjelay-out te vormen &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=nl-NL#customize-the-css-template-layout)
 
 Gebruik het volgende om bovenstaande stijl in uw webeditor in te stellen:
-- Gebruik [ css_layout.css ](../../../assets/authoring/webeditor-customstyles-css_layout.css) en upload het aan het omslagprofiel van uw keus
-- Installeer het pakket in bijlage [ webeditor-styles-resources.zip ](../../../assets/authoring/webeditor-styles-resources.zip) gebruikend AEM pakketmanager om de middelen te installeren die in het bovengenoemde CSS dossier worden gebruikt
+- Gebruik [&#x200B; css_layout.css &#x200B;](../../../assets/authoring/webeditor-customstyles-css_layout.css) en upload het aan het omslagprofiel van uw keus
+- Installeer het pakket in bijlage [&#x200B; webeditor-styles-resources.zip &#x200B;](../../../assets/authoring/webeditor-styles-resources.zip) gebruikend AEM pakketmanager om de middelen te installeren die in het bovengenoemde CSS dossier worden gebruikt
 
 ```
 This will install the resources at path "/content/dam/resources" which will include sub-folders "fonts" and "images"
@@ -58,4 +58,4 @@ Please note this is compatible to AEM Guides version 4.2 and AEM Guides cloud ve
 
 ## Verwijzingen
 
-U kunt ook in de deskundige zitting rond webeditor configuraties en aanpassing geinteresseerd zijn die in [ worden behandeld Deskundige zitting op webeditor ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/webbased-authoring-jan2023.html?lang=nl-NL)
+U kunt ook in de deskundige zitting rond webeditor configuraties en aanpassing geinteresseerd zijn die in [&#x200B; worden behandeld Deskundige zitting op webeditor &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/webbased-authoring-jan2023.html?lang=nl-NL)

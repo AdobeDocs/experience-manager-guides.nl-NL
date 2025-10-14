@@ -15,7 +15,7 @@ ht-degree: 0%
 # Opmerkingen voor revisie van adres {#id2056B0X0KBI}
 
 
-Als auteur, kunt u commentaren in een onderwerp richten gebruikend de Redacteur van het Web. De opmerkingen worden geladen op basis van de revisietaak die is geselecteerd in het deelvenster Revisie. Voor meer details, bekijk de **paneel ![](images/active-review-tasklist-icon.svg) eigenschapbeschrijving van het Overzicht** &lbrace;in de [ Linkerpaneel ](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.
+Als auteur, kunt u commentaren in een onderwerp richten gebruikend de Redacteur van het Web. De opmerkingen worden geladen op basis van de revisietaak die is geselecteerd in het deelvenster Revisie. Voor meer details, bekijk de **paneel ![](images/active-review-tasklist-icon.svg) eigenschapbeschrijving van het Overzicht** &lbrace;in de [&#x200B; Linkerpaneel &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.
 
 De volgende secties beschrijven manieren om commentaren in de Redacteur van het Web uit te geven.
 
@@ -45,7 +45,7 @@ In de modus van de webeditor bevat het rechterdeelvenster de pictogrammen Revisi
 
 - **C**: Als u uw onderwerp na het in werking stellen van het overzicht hebt bijgewerkt, dan het klikken op Terugkeren Onderwerp aan het pictogram van de Versie van het Overzicht terugkeert uw werkend exemplaar terug naar de versie die voor overzicht werd gedeeld. Hierdoor kunt u de revisie-feedback rechtstreeks opnemen in de versie die ter controle is gedeeld. Na het opnemen van terugkoppelt, kunt u veranderingen in de omgekeerde versie bewaren of een nieuwe revisie van uw onderwerp tot stand brengen. Als u verkiest om een nieuwe revisie van uw onderwerp tot stand te brengen, dan wordt een nieuwe tak gecreeerd van de onderwerpversie die voor overzicht werd gedeeld. Als u bijvoorbeeld versie `1.2` van een onderwerp hebt gedeeld voor revisie terwijl de huidige ontwerpversie `1.3` is, kunt u dit pictogram gebruiken om terug te gaan naar versie `1.2` voor het opnemen van revisieopmerkingen. Als u een nieuwe revisie maakt nadat u wijzigingen in versie `1.2` hebt ingevoegd, wordt een nieuwe vertakking met versie `1.2.0` gemaakt voor het onderwerp.
 
-  Typisch, na het opnemen van overzicht terugkoppelt, zou u veranderingen van de recentste versie van het onderwerp willen samenvoegen. Om dit te doen, gebruik de [ eigenschap van de Fusie ](web-editor-features.md#id205DF04E0HS) om alle die updates te krijgen nadat het onderwerp voor overzicht werd gedeeld.
+  Typisch, na het opnemen van overzicht terugkoppelt, zou u veranderingen van de recentste versie van het onderwerp willen samenvoegen. Om dit te doen, gebruik de [&#x200B; eigenschap van de Fusie &#x200B;](web-editor-features.md#id205DF04E0HS) om alle die updates te krijgen nadat het onderwerp voor overzicht werd gedeeld.
 
 - **D**: Open de zij-aan-zij mening om de gecommentarieerde versie van het onderwerp te tonen. Zoals in het bovenstaande schermafbeelding te zien is, is de meest linkse sectie de nieuwste versie van het onderwerp waarin u wijzigingen kunt aanbrengen. De volgende sectie is de gecommenteerde versie van het onderwerp. Aangezien u tussen commentaren in het onderwerp navigeert, verandert de zijmening en toont die versie van het onderwerp waarop de commentaar werd gemaakt. Elke opmerking in het opmerkingenvenster is gekoppeld aan de corresponderende tekst in deze sectie. Hiermee kunt u de tekst met opmerkingen herkennen. De opmerkingen worden weergegeven in de volgorde van de tekst met opmerkingen in het document.
 
@@ -74,4 +74,4 @@ In de modus van de webeditor bevat het rechterdeelvenster de pictogrammen Revisi
 - **I**: Pas een filter op de commentaren toe. U kunt filteren om opmerkingen weer te geven op basis van het revisietype \(alle, gemarkeerde, verwijderde, ingevoegde of notitie\), de revisiestatus \(alle, geaccepteerde, geweigerde of geen\), de revisoren \(alle of specifieke revisoren\(s\)\) of de versies van het onderwerp.
 
 
-**Bovenliggend onderwerp:**&#x200B;[ onderwerpen of kaarten van het Overzicht ](review.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; onderwerpen of kaarten van het Overzicht &#x200B;](review.md)

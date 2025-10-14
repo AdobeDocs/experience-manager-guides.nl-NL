@@ -17,7 +17,7 @@ ht-degree: 0%
 ## Gegevensopslag \(verplicht\) configureren
 
 **wat is de verandering?**
-Plaats het `minRecordLength` bezit aan een waarde van `100` onder de configuratie `org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.` voor meer informatie over de opslag van de dossierdatum en S3 gegevensopslag, zie [ het Vormen knoopopslag en gegevensopslag in AEM 6 ](https://helpx.adobe.com/nl/experience-manager/6-5/sites/deploying/using/data-store-config.html) artikel.
+Plaats het `minRecordLength` bezit aan een waarde van `100` onder de configuratie `org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.` voor meer informatie over de opslag van de dossierdatum en S3 gegevensopslag, zie [&#x200B; het Vormen knoopopslag en gegevensopslag in AEM 6 &#x200B;](https://helpx.adobe.com/nl/experience-manager/6-5/sites/deploying/using/data-store-config.html) artikel.
 
 >[!NOTE]
 >
@@ -115,4 +115,4 @@ Dit kan in runtime door de console van Felix of via codeplaatsing worden gedaan.
 Een verhoogd aantal van de **Grens AEM de Pagina&#39;s van de Plaats in het bezit van de Samenvatting** optimaliseert het proces van de AEM de outputproductie van de Plaats.
 
 
-**Bovenliggend onderwerp:**&#x200B;[ Download en installeer ](download-install.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Download en installeer &#x200B;](download-install.md)

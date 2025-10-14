@@ -17,7 +17,7 @@ In dit artikel worden de bugs beschreven die zijn gecorrigeerd in verschillende 
 
 
 
-Leer over [ verbeteringsinstructies voor de versie 4.3.1.5 ](../release-info/upgrade-instructions-4-3-1-5.md).
+Leer over [&#x200B; verbeteringsinstructies voor de versie 4.3.1.5 &#x200B;](../release-info/upgrade-instructions-4-3-1-5.md).
 
 
 ## Authoring

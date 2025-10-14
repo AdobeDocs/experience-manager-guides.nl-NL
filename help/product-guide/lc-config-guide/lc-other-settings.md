@@ -28,8 +28,8 @@ Als Beheerder, kunt u de volgende montages voor de Leercursusauteurs en de Uitge
   ![](assets/create-conditions.png){width="350" align="left"}
 - **Variabelen**: U kunt variabelen bepalen om uw inhoud draagbaarder, consistenter, en gemakkelijker te maken bij te werken. Tijdens het genereren van de uitvoer worden variabelen vervangen door de waarden uit de geselecteerde variabele, zodat u op efficiënte wijze aangepaste uitvoerbestanden kunt produceren.
 
-  Voor details, creeer de mening [ een nieuwe variabele ](../native-pdf/native-pdf-variables.md#create-a-new-variable)
+  Voor details, creeer de mening [&#x200B; een nieuwe variabele &#x200B;](../native-pdf/native-pdf-variables.md#create-a-new-variable)
 
 - **de toolbar van de Redacteur**: U kunt de toolbar van de Redacteur zoals per uw organisatorische behoeften aanpassen. U kunt bijvoorbeeld liever de naam van een werkbalkknop wijzigen, de locatie ervan wijzigen, enzovoort.
 
-  Voor details, vormt de mening [ en past de Redacteur van XML ](../cs-install-guide/conf-folder-level.md#configure-and-customize-the-xml-editor-id2065g300o5z) aan.
+  Voor details, vormt de mening [&#x200B; en past de Redacteur van XML &#x200B;](../cs-install-guide/conf-folder-level.md#configure-and-customize-the-xml-editor-id2065g300o5z) aan.

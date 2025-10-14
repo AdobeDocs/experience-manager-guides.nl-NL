@@ -15,14 +15,14 @@ ht-degree: 0%
 
 Er zijn twee manieren om output voor een kaart te produceren DITA:
 
-- [ produceer output voor een kaart DITA van de console van de Kaart ](#generate-output-for-a-dita-map-from-the-map-console)
+- [&#x200B; produceer output voor een kaart DITA van de console van de Kaart &#x200B;](#generate-output-for-a-dita-map-from-the-map-console)
 - [Output voor een DITA-kaart genereren via het kaartdashboard](#generate-output-for-a-dita-map-from-the-map-dashboard)
 
 ## Produceer output voor een kaart DITA van de console van de Kaart
 
 Voer de volgende stappen uit om output voor een kaart te produceren DITA gebruikend de console van de Kaart:
 
-1. [ open een kaartdossier in de console van de Kaart ](./open-files-map-console.md).
+1. [&#x200B; open een kaartdossier in de console van de Kaart &#x200B;](./open-files-map-console.md).
 2. De DITA kaartconsole wordt getoond met de lijst van **Voorinstellingen van de Output** beschikbaar om output te produceren.
 
 3. Open vooraf ingesteld die u voor het produceren van de output wilt gebruiken, en **selecteren produceert output** om het generatieproces te beginnen.
@@ -59,13 +59,13 @@ Voer de volgende stappen uit om output voor een kaart te produceren DITA gebruik
 1. Selecteer **produceer** pictogram om het proces van de outputgeneratie te beginnen.
 
 
-U kunt het huidige statuut van het verzoek van de outputgeneratie in de **Uitvoer** tabel bekijken. Voor meer informatie, mening [ bekijk het statuut van de taak van de outputgeneratie ](./generate-output-manage-process.md#view-the-status-of-the-output-generation-task).
+U kunt het huidige statuut van het verzoek van de outputgeneratie in de **Uitvoer** tabel bekijken. Voor meer informatie, mening [&#x200B; bekijk het statuut van de taak van de outputgeneratie &#x200B;](./generate-output-manage-process.md#view-the-status-of-the-output-generation-task).
 
 >[!IMPORTANT]
 >
 > Als een uitvoergeneratieproces voor een voorinstelling zich in de wachtrij of in uitvoering bevindt, kunt u geen andere uitvoergeneratietaak voor dezelfde voorinstelling starten.
 
-U kunt de output van AEM Sites voor één of meerdere onderwerpen, of de volledige kaart DITA van de console van de Kaart ook produceren. Voor meer details, produceert de mening [ output van de Kennisbank ](web-editor-article-publishing.md#id218CK0U019I).
+U kunt de output van AEM Sites voor één of meerdere onderwerpen, of de volledige kaart DITA van de console van de Kaart ook produceren. Voor meer details, produceert de mening [&#x200B; output van de Kennisbank &#x200B;](web-editor-article-publishing.md#id218CK0U019I).
 
 ## Verschillende onderwerpen in een DITA-kaart samenvoegen met het kenmerk `chunk`
 
@@ -74,8 +74,8 @@ Een kaart DITA kan verschillende onderwerptypes zoals verwijzing, concept, en ta
 Het systeem vereist een Openbare identiteitskaart met het `composite` sleutelwoord in de catalogus van XML om de aangewezen regel correct te identificeren en toe te passen DTD.
 Deze configuratie is standaard opgenomen in de standaard XML-catalogus. Nochtans, als u een catalogus van douaneXML gebruikt, zorg ervoor uw Beheerder deze openbare identiteitskaart aan de configuratie heeft toegevoegd. Zonder het, kan het samengevoegde onderwerp niet behoorlijk publiceren.
 
-Voor details op hoe te om Openbare identiteitskaart en identiteitskaart van het Systeem in uw douaneDTDs/XSDs te gebruiken, mening [ integreer specialisatie DITA ](../cs-install-guide/dita-ot-specialization.md#integrate-dita-specialization-id211mb0e00xa).
+Voor details op hoe te om Openbare identiteitskaart en identiteitskaart van het Systeem in uw douaneDTDs/XSDs te gebruiken, mening [&#x200B; integreer specialisatie DITA &#x200B;](../cs-install-guide/dita-ot-specialization.md#integrate-dita-specialization-id211mb0e00xa).
 
 
 
-**Bovenliggend onderwerp:**&#x200B;[ Productie van de Output ](generate-output.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Productie van de Output &#x200B;](generate-output.md)

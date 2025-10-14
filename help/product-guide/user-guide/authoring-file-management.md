@@ -326,4 +326,4 @@ Als uw media dossier om het even welke veranderingen heeft ondergaan, kunt u de 
    ![](images/media-version-preview.png){width="650" align="center"}
 
 
-**Bovenliggend onderwerp:**&#x200B;[ beheert inhoud ](authoring.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; beheert inhoud &#x200B;](authoring.md)

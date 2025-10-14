@@ -39,7 +39,7 @@ Maak aparte mappen voor elke afdeling, zoals HR, Financiën en Legal, zodat ze h
 **Beste praktijken voor het plaatsen van de omslagen van het afdelingsniveau**
 
 - Creeer een specifieke **Gemeenschappelijke** > **activa** omslag onder elke afdeling voor op afdelingsniveau gemeenschappelijke activa (indien nodig).
-- Als u de inhoud wilt delen voor vertaling, maakt u taalspecifieke mappen (bijvoorbeeld en, de, fr). Auteurs dienen alleen inhoud in de brontaalmap (zoals en) te maken of bij te werken, omdat inhoud buiten de brontaalmap niet in de vertaalworkflow is opgenomen. De andere taalmappen kunnen leeg blijven als plaatsaanduidingen. Leer meer over [ inhoudsomzetting ](../user-guide/translation.md).
+- Als u de inhoud wilt delen voor vertaling, maakt u taalspecifieke mappen (bijvoorbeeld en, de, fr). Auteurs dienen alleen inhoud in de brontaalmap (zoals en) te maken of bij te werken, omdat inhoud buiten de brontaalmap niet in de vertaalworkflow is opgenomen. De andere taalmappen kunnen leeg blijven als plaatsaanduidingen. Leer meer over [&#x200B; inhoudsomzetting &#x200B;](../user-guide/translation.md).
 - De toestemmingen kunnen worden gebruikt om toegang van specifieke afdelingen of gebruikers tot de pas gecreëerde omslagstructuur te beperken. Wijs bijvoorbeeld machtigingen toe om ervoor te zorgen dat alleen gebruikers van de HR-afdeling inhoud binnen de toegewezen map kunnen maken of wijzigen.
 
 Herhaal dezelfde structuur voor andere afdelingen, zoals Financiën, Juridische Zaken, enz.
@@ -62,7 +62,7 @@ Voor de pagina van het Beheer van de Gebruiker, creeert de uitgezochte **&#x200B
 
 ![](assets/create-users-page.png)
 
-Voor meer details, mening [ gebruikersbeleid en veiligheid ](../cs-install-guide/user-admin-sec.md)
+Voor meer details, mening [&#x200B; gebruikersbeleid en veiligheid &#x200B;](../cs-install-guide/user-admin-sec.md)
 
 
 ## Machtigingen toewijzen aan elke gebruikersgroep
@@ -73,5 +73,5 @@ Om toestemmingen toe te wijzen, navigeer aan **Hulpmiddelen** > **Veiligheid** >
 
 Met deze machtigingen kunt u ervoor zorgen dat gebruikers alleen inhoud binnen hun toegewezen mappen kunnen maken of wijzigen.
 
-Voor meer details, mening [ Toestemmingen in AEM ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/security/security#permissions-in-aem).
+Voor meer details, mening [&#x200B; Toestemmingen in AEM &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/security/security#permissions-in-aem).
 

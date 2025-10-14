@@ -47,7 +47,7 @@ Het linkerdeelvenster van het publicatiedashboard biedt de volgende filteropties
 
 ## Het dashboard Publiceren openen
 
-U kunt tot **toegang hebben publiceer Dashboard** direct van de [ homepage van Experience Manager Guides ](./intro-home-page.md). Open de homepage en selecteer **publiceren rij** optie van het linkerpaneel.
+U kunt tot **toegang hebben publiceer Dashboard** direct van de [&#x200B; homepage van Experience Manager Guides &#x200B;](./intro-home-page.md). Open de homepage en selecteer **publiceren rij** optie van het linkerpaneel.
 
 >[!NOTE]
 >
@@ -70,13 +70,13 @@ U kunt tot **toegang hebben publiceer Dashboard** van de Adobe Experience Manage
 
 >[!NOTE]
 >
-> U kunt tot het Publish Dashboard van het **lusje van Output** ook toegang hebben terwijl u output van het kaartdashboard produceert. Voor meer details, verwijs naar [ Mening het statuut van de taak van de outputgeneratie ](generate-output-for-a-dita-map.md#viewing_output_history).
+> U kunt tot het Publish Dashboard van het **lusje van Output** ook toegang hebben terwijl u output van het kaartdashboard produceert. Voor meer details, verwijs naar [&#x200B; Mening het statuut van de taak van de outputgeneratie &#x200B;](generate-output-for-a-dita-map.md#viewing_output_history).
 
 ## Een publicatietaak annuleren
 
 Voer de volgende stappen uit om een taak van de outputgeneratie van het Publish Dashboard te annuleren:
 
-1. [ heb toegang tot het Publish dashboard ](#access-the-publish-dashboard).
+1. [&#x200B; heb toegang tot het Publish dashboard &#x200B;](#access-the-publish-dashboard).
 
 1. Selecteer in de lijst met actieve publicatietaken het verwijderpictogram van een taak die u wilt annuleren.
 
@@ -89,4 +89,4 @@ Voer de volgende stappen uit om een taak van de outputgeneratie van het Publish 
    ![](images/cancelled-output-task.png){align="left"}
 
 
-**Bovenliggend onderwerp:**&#x200B;[ Productie van de Output ](generate-output.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Productie van de Output &#x200B;](generate-output.md)

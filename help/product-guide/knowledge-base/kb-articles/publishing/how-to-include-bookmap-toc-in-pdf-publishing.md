@@ -78,7 +78,7 @@ U kunt het ontwerp beheren door de paginalay-out voor de inhoudsopgave en de sti
 
 Inhoudsopgave en andere volgorde voor opnamelijsten in PDF zijn alleen gebaseerd op de structuur van de boekmap.
 
-![ toc ](../assets/publishing/toc.png)
+![&#x200B; toc &#x200B;](../assets/publishing/toc.png)
 
 
 ## Veelgestelde vragen
@@ -89,17 +89,17 @@ Ditamaps hebben zelf niet direct een inhoudsopgave (TOC) zoals een boekenkaart. 
 
 Als u Ditamap publiceert, geeft Native PDF automatisch functionaliteit om inhoudsopgave en bladlist te genereren, kunt u genereren van inhoudsopgave bij ditamap inschakelen/uitschakelen vanuit native PDF-instellingen.
 
-![ laat onbruikbaar maken TOC ](../assets/publishing/pageorder.png) toe
+![&#x200B; laat onbruikbaar maken TOC &#x200B;](../assets/publishing/pageorder.png) toe
 
 ## Aanvullende bronnen:
 
-- [ de inheemse documentatie van de het ontwerppagina van de PDF pagina ](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/design-page-layout)
-- [ Eigen de essentiële PDF eerste zitting van de pre-geregistreerde Deskundige zitting ](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23)
+- [&#x200B; de inheemse documentatie van de het ontwerppagina van de PDF pagina &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/design-page-layout)
+- [&#x200B; Eigen de essentiële PDF eerste zitting van de pre-geregistreerde Deskundige zitting &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23)
 
 <br>
 <br>
 
-Post op het communautair van AEM Guides [ forum ](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) voor om het even welke vragen.
+Post op het communautair van AEM Guides [&#x200B; forum &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) voor om het even welke vragen.
 
 
 

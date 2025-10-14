@@ -80,4 +80,4 @@ Als u een grote kaart op prem publiceert, dan zou u de heap parameters van Java 
 
 Een deel van elke publicatieaanvraag moet op de AEM worden uitgevoerd om de juiste publicatie-inhoud op te halen die naar de microservice moet worden verzonden. De nieuwe cloudarchitectuur gebruikt AEM taken in plaats van AEM workflows, zoals in de oude architectuur het geval was. Met deze wijziging kunnen AEM Guides-beheerders de instellingen voor de wachtrij voor publicatie van wolken afzonderlijk configureren zonder dat dit gevolgen heeft voor andere AEM taken of workflowconfiguraties.
 
-De details op hoe te om nieuwe te vormen publiceren microservice kunnen hier worden gevonden: [ vormen Microservice ](configure-microservices.md)
+De details op hoe te om nieuwe te vormen publiceren microservice kunnen hier worden gevonden: [&#x200B; vormen Microservice &#x200B;](configure-microservices.md)

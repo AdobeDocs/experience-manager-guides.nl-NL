@@ -41,11 +41,11 @@ In deze vergadering hebben we het volgende besproken:
 
 ### Documentatie
 
-- [ het Hulpmiddel van het Exemplaar van de Inhoud ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/implementing/developer-tools/content-copy)
-- [ Gebruikend pakketmanager om inhoud ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager) over te brengen
-- [ Migrerend inhoud van niet-UUID aan UUID ](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/install-guide/on-prem-ig/content-migration/migration-process/migrate-non-uuid-uuid)
+- [&#x200B; het Hulpmiddel van het Exemplaar van de Inhoud &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/implementing/developer-tools/content-copy)
+- [&#x200B; Gebruikend pakketmanager om inhoud &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager) over te brengen
+- [&#x200B; Migrerend inhoud van niet-UUID aan UUID &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/install-guide/on-prem-ig/content-migration/migration-process/migrate-non-uuid-uuid)
 - [AEM Guides: UUID-inhoud verplaatsen van on-premise/AMS naar cloud](../../cs-install-guide/migrate-on-premise-content-cloud.md)
-- [ Bewegend aan de Wolk van AEM ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/migration-journey/getting-started)
+- [&#x200B; Bewegend aan de Wolk van AEM &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/migration-journey/getting-started)
 - [AEM Guides: niet-uuid-inhoud migreren naar Cloud](../../install-guide/migrate-uuid-non-uuid.md)
 
 ### Forum van de Gemeenschap

@@ -93,7 +93,7 @@ const toolbarExtend = {
 
 Zodra aangepast, kan de definitieve output als volgt worden gezien:
 
-![ editor_toolbar ](imgs/editor_toolbar.png)
+![&#x200B; editor_toolbar &#x200B;](imgs/editor_toolbar.png)
 
 Raadpleeg het onderstaande voorbeeld als u de werkbalk in AEM Guides 4.6.x-versie en in de vorige versie aanpast.
 
@@ -214,7 +214,7 @@ const topbarExtend = {
 
 Zodra aangepast, kan de definitieve output als volgt worden gezien:
 
-![ toolbar ](imgs/toolbar.png)
+![&#x200B; toolbar &#x200B;](imgs/toolbar.png)
 
 
 In een ander voorbeeld, zouden wij een knoop van de douanetoolbar tot stand brengen die rechtstreeks aan gewenste sub-opties van **Verwijzing** zoals E-mail, de verwijzing van het Dossier, Weblink, enz. kan springen.

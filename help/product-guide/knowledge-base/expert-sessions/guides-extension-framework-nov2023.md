@@ -45,13 +45,13 @@ In deze sessie hebt u kennis genomen van het volgende:
 
 ## Gerelateerde bronnen
 
-- **de basisbewaarplaats van het Kader van de Uitbreiding** - [ GIT ](https://github.com/adobe/guides-extension/tree/main)
+- **de basisbewaarplaats van het Kader van de Uitbreiding** - [&#x200B; GIT &#x200B;](https://github.com/adobe/guides-extension/tree/main)
 
-- **Documentatie** - [ op Experience League ](../../guides-ui-extensions/aem_guides_framework/basic-customisation.md)
+- **Documentatie** - [&#x200B; op Experience League &#x200B;](../../guides-ui-extensions/aem_guides_framework/basic-customisation.md)
 
-- **Gedocumenteerde gemeenschappelijke gebruiksgevallen** - [ op Experience League ](../../guides-ui-extensions/aem_guides_framework/jui-framework.md)
+- **Gedocumenteerde gemeenschappelijke gebruiksgevallen** - [&#x200B; op Experience League &#x200B;](../../guides-ui-extensions/aem_guides_framework/jui-framework.md)
 
-- **Openbare bewaarplaats met steekproeven** - [ op GIT ](https://github.com/adobe/guides-extension/tree/sc-expert-session). Verwijs tak sc-deskundige-zitting
+- **Openbare bewaarplaats met steekproeven** - [&#x200B; op GIT &#x200B;](https://github.com/adobe/guides-extension/tree/sc-expert-session). Verwijs tak sc-deskundige-zitting
 
 
 >[!NOTE]

@@ -37,7 +37,7 @@ Voer de volgende stappen uit om een voorvertoning van een onderwerp weer te geve
 
 Wanneer u een onderwerp in de Redacteur opent en op de **wijze van de Voorproef** schakelt, die in de bodem-juiste hoek van het inhoudsuitgevende gebied wordt gevestigd, kunt u een voorproef van het momenteel geopende onderwerp bekijken.
 
-Voor meer details, mening [ meningen van de Redacteur ](./web-editor-views.md#preview).
+Voor meer details, mening [&#x200B; meningen van de Redacteur &#x200B;](./web-editor-views.md#preview).
 
 
 ## Voorvertoning van onderwerpen weergeven in de gebruikersinterface van Assets
@@ -213,7 +213,7 @@ Als de Uitgecheckte kolom niet zichtbaar is, de uitgezochte **Montages van de Me
 
       >[!NOTE]
       >
-      > Een lijst van versies beschikbaar voor het geselecteerde onderwerp wordt getoond. Elke versie bevat timestamp, gebruikersnaam, versiecommentaar, en [ etiket ](web-editor-use-label.md#) informatie.
+      > Een lijst van versies beschikbaar voor het geselecteerde onderwerp wordt getoond. Elke versie bevat timestamp, gebruikersnaam, versiecommentaar, en [&#x200B; etiket &#x200B;](web-editor-use-label.md#) informatie.
 
    1. Selecteer een versie van waar u een vertakking wilt maken. In de volgende schermafbeelding is versie 1.2 geselecteerd voor het maken van een vertakking.
 
@@ -244,6 +244,6 @@ Als de Uitgecheckte kolom niet zichtbaar is, de uitgezochte **Montages van de Me
    1. Selecteer **O.K.**.
 
 
-  Een nieuwe tak wordt gecreeerd van de geselecteerde versie van het onderwerp. Het bovenstaande proces is ook van toepassing voor het terugkeren naar een specifieke versie van een onderwerp. Het terugkeren naar een specifieke versie betekent technisch dat u een nieuwe tak van de geselecteerde versie creeert en die versie het huidige werkende exemplaar van het onderwerp maakt. U kunt de geschiedenis van dossiers ook bekijken die in het rapport van de Geschiedenis van de Versie zijn teruggekeerd. Voor meer details over dit rapport, mening [ het Teruggedraaide rapport van de dossierversie ](reports-reverted-file-version-history.md#).
+  Een nieuwe tak wordt gecreeerd van de geselecteerde versie van het onderwerp. Het bovenstaande proces is ook van toepassing voor het terugkeren naar een specifieke versie van een onderwerp. Het terugkeren naar een specifieke versie betekent technisch dat u een nieuwe tak van de geselecteerde versie creeert en die versie het huidige werkende exemplaar van het onderwerp maakt. U kunt de geschiedenis van dossiers ook bekijken die in het rapport van de Geschiedenis van de Versie zijn teruggekeerd. Voor meer details over dit rapport, mening [&#x200B; het Teruggedraaide rapport van de dossierversie &#x200B;](reports-reverted-file-version-history.md#).
 
-**Bovenliggend onderwerp:**&#x200B;[ creeer en voorproef onderwerpen ](create-preview-topics.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; creeer en voorproef onderwerpen &#x200B;](create-preview-topics.md)

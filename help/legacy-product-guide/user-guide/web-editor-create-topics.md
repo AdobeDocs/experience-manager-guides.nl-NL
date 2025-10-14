@@ -50,7 +50,7 @@ Voer de volgende stappen uit om een onderwerp tot stand te brengen:
 
    ![](images/topic-version-none_cs.png){width="550" align="left"}
 
-   De versieinformatie voor een pas gecreeerd onderwerp wordt getoond als *niets*. Wanneer u een nieuwe versie opslaat, krijgt deze een versienummer toegewezen als 1.0. Voor meer informatie over het bewaren van een nieuwe versie, zie [ sparen als Nieuwe Versie ](web-editor-features.md#save-as-new-version-id209ME400GXA).
+   De versieinformatie voor een pas gecreeerd onderwerp wordt getoond als *niets*. Wanneer u een nieuwe versie opslaat, krijgt deze een versienummer toegewezen als 1.0. Voor meer informatie over het bewaren van een nieuwe versie, zie [&#x200B; sparen als Nieuwe Versie &#x200B;](web-editor-features.md#save-as-new-version-id209ME400GXA).
 
 
 >[!NOTE]
@@ -61,4 +61,4 @@ Voer de volgende stappen uit om een onderwerp tot stand te brengen:
 >
 > Zodra u uw onderwerp DITA hebt gecreeerd, houd sparen de veranderingen in uw het werk exemplaar en creeer een nieuwe versie zodra u de updates aan uw onderwerp hebt voltooid.
 
-**Bovenliggend onderwerp:**&#x200B;[ creeer en voorproef onderwerpen ](create-preview-topics.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; creeer en voorproef onderwerpen &#x200B;](create-preview-topics.md)

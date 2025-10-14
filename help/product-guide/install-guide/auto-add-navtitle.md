@@ -22,7 +22,7 @@ Ga als volgt te werk om `@navtitle` -kenmerk standaard op te nemen in de eigensc
 
 1. Download het bestand ui\_config.json.
 
-   U kunt deze wijziging doorvoeren op algemeen niveau of op een mapniveau. Afhankelijk van waar u deze wijziging wilt aanbrengen, moet u het respectievelijke bestand ui\_config.json downloaden. Voor meer informatie over het downloaden ui\_config.json- dossier, zie [ vormen en de Redacteur van het Web van XML aanpassen ](conf-folder-level.md#id2065G300O5Z).
+   U kunt deze wijziging doorvoeren op algemeen niveau of op een mapniveau. Afhankelijk van waar u deze wijziging wilt aanbrengen, moet u het respectievelijke bestand ui\_config.json downloaden. Voor meer informatie over het downloaden ui\_config.json- dossier, zie [&#x200B; vormen en de Redacteur van het Web van XML aanpassen &#x200B;](conf-folder-level.md#id2065G300O5Z).
 
 1. Zoek naar de `ditaAttributes` definitie.
 

@@ -49,12 +49,12 @@ Als u versie 4.3.x of later gebruikt, voert u deze stappen uit om uw niet-UUID-i
 
 
 
-![ lusje van de verenigbaarheidsbeoordeling in migratie ](assets/migration-compatibility-assessment.png){width="800" align="left"}
+![&#x200B; lusje van de verenigbaarheidsbeoordeling in migratie &#x200B;](assets/migration-compatibility-assessment.png){width="800" align="left"}
 
 
 1. Selecteer **vormen Bevestigingen** van het linkerpaneel. Dan **Uitgezochte kaart** en **Uitgezochte vooraf ingesteld** van de kaart om hen te vormen. De huidige lijst van de outputbevestiging zal de outputdossiers tonen aanwezig vóór migratie en kan tegen de outputdossiers worden bevestigd die na migratie later worden geproduceerd.
 
-![ vormt het lusje van Bevestigingen in migratie ](assets/migration-configure-validation.png){width="800" align="left"}
+![&#x200B; vormt het lusje van Bevestigingen in migratie &#x200B;](assets/migration-configure-validation.png){width="800" align="left"}
 
 
 
@@ -63,7 +63,7 @@ Als u versie 4.3.x of later gebruikt, voert u deze stappen uit om uw niet-UUID-i
 
 ### Stap 1: Configuratie bijwerken
 
-1. Zorg ervoor dat de beschikbare vrije ruimte ten minste tien keer zo groot is als AEM (crx-quickstart-map) tijdens de migratie. Zodra u de migratie voltooit, kunt u het grootste deel van de schijfruimte terugwinnen door compilatie in werking te stellen (verwijs naar [ Opruiming van de Revisie ](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=nl-NL)).
+1. Zorg ervoor dat de beschikbare vrije ruimte ten minste tien keer zo groot is als AEM (crx-quickstart-map) tijdens de migratie. Zodra u de migratie voltooit, kunt u het grootste deel van de schijfruimte terugwinnen door compilatie in werking te stellen (verwijs naar [&#x200B; Opruiming van de Revisie &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=nl-NL)).
 
 1. Laat *toe de Lancers van het Werkschema van de Verwerking van Post* in `com.adobe.fmdita.config.ConfigManager` toe en *laat Versie post-processing* in `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation.` toe
 
@@ -87,7 +87,7 @@ Als u versie 4.3.x of later gebruikt, voert u deze stappen uit om uw niet-UUID-i
 
 #### Het migratiepakket installeren
 
-![ de verbeteringslusje van het Systeem in migratie ](assets/migration-system-upgrade.png){width="800" align="left"}
+![&#x200B; de verbeteringslusje van het Systeem in migratie &#x200B;](assets/migration-system-upgrade.png){width="800" align="left"}
 
 * Selecteer **verbetering van het Systeem** van het linkerpaneel om de migratie in werking te stellen. Start op een map met kleinere gegevens voordat u deze uitvoert op `/content/dam` .
 
@@ -104,7 +104,7 @@ Daarnaast is het belangrijk om ervoor te zorgen dat de migratie van inhoud ook w
 
 Selecteer **Verbetering van de Basislijn/van het Overzicht** van het linkerpaneel om de basislijnen en overzicht op omslagniveau te migreren.
 
-![ Basislijn en overzicht lusje in migratie ](assets/migration-baseline-review-upgrade.png){width="800" align="left"}
+![&#x200B; Basislijn en overzicht lusje in migratie &#x200B;](assets/migration-baseline-review-upgrade.png){width="800" align="left"}
 
 
 ### Stap 3: Herstel de configuratie
@@ -122,7 +122,7 @@ Nadat de server is gemigreerd, kunt u naverwerking, codering en de volgende work
 
 Zodra de migratie wordt voltooid, bevestigt de uitgezochte **systeemverbetering** van het linkerpaneel en bevestigt de outputdossiers vóór en na de migratie om de migratie succesvol te verzekeren.
 
-![ bevestigt systeemverbeteringslusje in migratie ](assets/migration-validate-system-upgrade.png){width="800" align="left"}
+![&#x200B; bevestigt systeemverbeteringslusje in migratie &#x200B;](assets/migration-validate-system-upgrade.png){width="800" align="left"}
 
 
 1. Wanneer de migratie is voltooid, kan het grootste deel van de schijfruimte worden teruggespoeld door een compactie uit te voeren (zie `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=nl-NL`).

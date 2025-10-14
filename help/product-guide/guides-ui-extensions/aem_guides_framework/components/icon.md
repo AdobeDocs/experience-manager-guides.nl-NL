@@ -15,7 +15,7 @@ ht-degree: 0%
 Als u een pictogram wilt weergeven, gebruiken we de component, het pictogram.
 De component van het tekstgebied in JUI vertegenwoordigt HTML `<icon/>`.
 
-Pictogrammen beschikbaar bij [ de Pictogrammen van het Spectrum van de Adobe ](https://spectrum.adobe.com/page/icons/) zijn compatibel met onze app.
+Pictogrammen beschikbaar bij [&#x200B; de Pictogrammen van het Spectrum van de Adobe &#x200B;](https://spectrum.adobe.com/page/icons/) zijn compatibel met onze app.
 
 ```js title="icon.js"
 const iconJSON =  {
@@ -30,4 +30,4 @@ pictogrammen kunnen ook aan knoppen worden toegevoegd.
 
 Het weergegeven pictogram ziet er als volgt uit:
 
-![ pictogram ](./imgs/info_icon.png " Pictogram ")
+![&#x200B; pictogram &#x200B;](./imgs/info_icon.png " Pictogram ")

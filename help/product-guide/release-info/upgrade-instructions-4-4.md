@@ -14,9 +14,9 @@ ht-degree: 0%
 
 Dit artikel behandelt de upgrade-instructies en de compatibiliteitsmatrix voor de release van Adobe Experience Manager Guides 4.4.0.
 
-Voor meer informatie over de nieuwe eigenschappen en de verhogingen, mening [ wat in de 4.4.0 versie ](../release-info/whats-new-4-4.md) nieuw is.
+Voor meer informatie over de nieuwe eigenschappen en de verhogingen, mening [&#x200B; wat in de 4.4.0 versie &#x200B;](../release-info/whats-new-4-4.md) nieuw is.
 
-Voor de lijst van kwesties die in deze versie zijn bevestigd, mening [ Vaste kwesties in de 4.4.0 versie ](../release-info/fixed-issues-4-4.md).
+Voor de lijst van kwesties die in deze versie zijn bevestigd, mening [&#x200B; Vaste kwesties in de 4.4.0 versie &#x200B;](../release-info/fixed-issues-4-4.md).
 
 
 
@@ -34,7 +34,7 @@ Versie 6.5 Service Pack 20, 19, 18, of 17
 Versie 6.5 Service Pack 20, 19, 18, of 17
 
 
-Voor meer details, bekijk de [ Technische vereisten ](../install-guide/download-install-technical-requirements.md) sectie in de Gids van de Installatie en van de Configuratie op locatie.
+Voor meer details, bekijk de [&#x200B; Technische vereisten &#x200B;](../install-guide/download-install-technical-requirements.md) sectie in de Gids van de Installatie en van de Configuratie op locatie.
 
 ### FrameMaker en FrameMaker Publishing Server
 
@@ -74,7 +74,7 @@ U kunt eenvoudig uw huidige versie van Hulplijnen upgraden naar versie 4.4.0. Vo
 - Als u versie 4.2, 4.1 of 4.1.x gebruikt, moet u een upgrade naar versie 4.3.1, 4.3.0 of 4.2.1 (Hotfix 4.2.1.3) uitvoeren voordat u een upgrade naar versie 4.4.0 uitvoert.
 - Als u versie 4.0 gebruikt, moet u een upgrade naar versie 4.2 uitvoeren voordat u een upgrade naar versie 4.3.x uitvoert.
 - Als u versie 3.8.5 gebruikt, moet u een upgrade naar versie 4.0 uitvoeren voordat u een upgrade naar versie 4.2 uitvoert.
-- Als u op een versie voorafgaand aan 3.8.5 bent, verwijs naar de sectie van Experience Manager Guides van de Verbetering in de product-specifieke installatiegids beschikbaar op [ Adobe Experience Manager Guides help PDF archive ](https://helpx.adobe.com/nl/xml-documentation-for-experience-manager/archive.html).
+- Als u op een versie voorafgaand aan 3.8.5 bent, verwijs naar de sectie van Experience Manager Guides van de Verbetering in de product-specifieke installatiegids beschikbaar op [&#x200B; Adobe Experience Manager Guides help PDF archive &#x200B;](https://helpx.adobe.com/nl/xml-documentation-for-experience-manager/archive.html).
 
 
 
@@ -82,4 +82,4 @@ U kunt eenvoudig uw huidige versie van Hulplijnen upgraden naar versie 4.4.0. Vo
 >
 >U moet AEM servicepack installeren voordat u de Experience Manager Guides-versie kunt upgraden.
 
-Voor details, mening [ de instructies van de Verbetering voor de On-premise versies ](../install-guide/upgrade-xml-documentation.md) van Experience Manager Guides.
+Voor details, mening [&#x200B; de instructies van de Verbetering voor de On-premise versies &#x200B;](../install-guide/upgrade-xml-documentation.md) van Experience Manager Guides.

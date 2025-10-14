@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Labels gebruiken {#id164JBG0M0T1}
 
-Met AEM Guides kunt u labels toevoegen aan verschillende versies van een bestand. U kunt deze labels gebruiken om de versie op te geven die u wilt opnemen in een basislijn voor publicatie. Voor meer informatie over het gebruiken van etiketten om een basislijn tot stand te brengen, zie [ Werk met Basislijn ](generate-output-use-baseline-for-publishing.md#).
+Met AEM Guides kunt u labels toevoegen aan verschillende versies van een bestand. U kunt deze labels gebruiken om de versie op te geven die u wilt opnemen in een basislijn voor publicatie. Voor meer informatie over het gebruiken van etiketten om een basislijn tot stand te brengen, zie [&#x200B; Werk met Basislijn &#x200B;](generate-output-use-baseline-for-publishing.md#).
 
 Bijvoorbeeld, als u *versie 1.0* van een onderwerp in *versie 1.0* en *versie 1.1* van het zelfde onderwerp in *versie 2.0* wilt gebruiken, kunt u *versie 1.0* etiket op *versie 1.0* en *versie 2.0 toevoegen. 13&rbrace; etiket op* versie 1.1 *.*
 
@@ -40,7 +40,7 @@ Voer de volgende stappen uit om een etiket aan uw onderwerp toe te voegen:
 
 >[!NOTE]
 >
-> Gebruikend een basislijn, kunt u een etiket aan veelvoudige onderwerpen toevoegen. Voor meer informatie over het toevoegen van etiketten gebruikend basislijn, zie [ etiketten aan een Basislijn ](generate-output-use-baseline-for-publishing.md#id184KD0T305Z) toevoegen.
+> Gebruikend een basislijn, kunt u een etiket aan veelvoudige onderwerpen toevoegen. Voor meer informatie over het toevoegen van etiketten gebruikend basislijn, zie [&#x200B; etiketten aan een Basislijn &#x200B;](generate-output-use-baseline-for-publishing.md#id184KD0T305Z) toevoegen.
 
 ## Een label verwijderen
 
@@ -58,4 +58,4 @@ Voer de volgende stappen uit om een label te verwijderen:
    ![](images/delete-labels.png){width="300" align="left"}
 
 
-**Bovenliggend onderwerp:**&#x200B;[ Werk met de Redacteur van het Web ](web-editor.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Werk met de Redacteur van het Web &#x200B;](web-editor.md)

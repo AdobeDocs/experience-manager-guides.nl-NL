@@ -83,7 +83,7 @@ Onder Pagina-indelingen wordt een kopie van de geselecteerde pagina-indeling gem
    Hiermee opent u de pagina-indeling-editor voor aanpassing.
 1. Zodra u de gewenste veranderingen hebt aangebracht, klik *sparen allen* (of `Crl+S`).
 
-   Voor meer informatie bij het bepalen van individuele lay-outelementen zoals kopbal, footer, paginanummer, titel, en meer, zie [ Ontwerp een paginalay-out ](design-page-layout.md).
+   Voor meer informatie bij het bepalen van individuele lay-outelementen zoals kopbal, footer, paginanummer, titel, en meer, zie [&#x200B; Ontwerp een paginalay-out &#x200B;](design-page-layout.md).
 
 ## Stijlbladen gebruiken om PDF aan te passen {#stylesheet-customization}
 
@@ -135,7 +135,7 @@ Voer de volgende stappen uit om een nieuwe stijl te maken:
 
 1. Voeg de kiezer voor de nieuwe stijl toe. Het **gebied van de Selector** &lbrace;helpt u om douanekiezers naast de klasse, de Markering, en de combinatie van de Klasse toe te voegen Pseudo. U kunt bijvoorbeeld een `table a.link` -stijl maken voor alle hyperlinks in een tabel.
 
-   Voor meer informatie betreffende CSS markeringen, verwees de mening [ naar CSS stijlgrammatica ](https://www.w3.org/TR/CSS21/syndata.html#characters).
+   Voor meer informatie betreffende CSS markeringen, verwees de mening [&#x200B; naar CSS stijlgrammatica &#x200B;](https://www.w3.org/TR/CSS21/syndata.html#characters).
 
 1. Klik **Gedaan**.
 
@@ -169,7 +169,7 @@ In het middelste deelvenster kunt u de eigenschappen bewerken, maar het kan last
 In het middelste deelvenster kunt u de veelgebruikte eigenschappen bewerken, maar niet alle eigenschappen die CSS ondersteunt. In de **ruit van Eigenschappen**, kunt u alle eigenschappen uitgeven die CSS steunt en hen voorproef. U hoeft niet over te schakelen naar de bronweergave om eigenschappen te bewerken.
 
 
-Leer meer over het gebruiken van de stijlredacteur aan [ werk met de gemeenschappelijke inhoudsstijlen ](stylesheet.md).
+Leer meer over het gebruiken van de stijlredacteur aan [&#x200B; werk met de gemeenschappelijke inhoudsstijlen &#x200B;](stylesheet.md).
 
 ## Werken met bronnen {#work-with-resources}
 
@@ -200,7 +200,7 @@ het gebruiken van het malplaatje.
 
 >
 >
-> Beginnend met Experience Manager Guides 5.0/2025.02.0 versie, is de **sectie van de Druk** in de Geavanceerde montages van PDF verplaatst naar het **vooraf instelt van de Output** paneel. Om de montages van de Druk te vormen, publiceer de mening [ output van PDF ](../web-editor/native-pdf-web-editor.md#print).
+> Beginnend met Experience Manager Guides 5.0/2025.02.0 versie, is de **sectie van de Druk** in de Geavanceerde montages van PDF verplaatst naar het **vooraf instelt van de Output** paneel. Om de montages van de Druk te vormen, publiceer de mening [&#x200B; output van PDF &#x200B;](../web-editor/native-pdf-web-editor.md#print).
 
 Om te vormen, klik **Montages** in het **paneel van Malplaatjes** om de volgende opties te bekijken:
 
@@ -229,7 +229,7 @@ Stel de basisconfiguratie-instellingen in voor het starten van een hoofdstuk van
 
 * **toon geen hoofdstukaantal in TOC**: Selecteer deze optie om de hoofdstuknamen zonder de hoofdstukaantallen in TOC te tonen.   Standaard worden de hoofdstuknummers weergegeven in de inhoudsopgave van uw PDF-uitvoer.
 * **formaat van de Leider**: Gebruik drop-down om Gestippelde, Ononderbroken, of de lijnen van de Leider van de Ruimte te selecteren om rubriekniveaus met zijn overeenkomstige paginanummers te verbinden.
-Voor het toepassen van de structuur van TOC en het stileren van rubriekniveaus, zie [ hoofdstukTOC ](design-page-layout.md#add-chapter-toc) toevoegen.
+Voor het toepassen van de structuur van TOC en het stileren van rubriekniveaus, zie [&#x200B; hoofdstukTOC &#x200B;](design-page-layout.md#add-chapter-toc) toevoegen.
 
   >[!NOTE]
   >
@@ -281,7 +281,7 @@ De volgende instellingen zijn beschikbaar in de sectie Pagina-indeling:
 
   Met de opmaakmodellen kunt u verschillende woordenlijstelementen opmaken in de PDF-uitvoer. Gebruik de verklarende woordenlijststijlen `.glo-header`, `.glo-footer`, `.glo-body`, `.glo-title`, `.glo-unit`, `.glo-link` en `.glo-term` om de stijlen voor de elementen van de verklarende woordenlijst aan te passen.
 
-  Leer meer over het gebruiken van de stijlredacteur aan [ werk met de gemeenschappelijke inhoudsstijlen ](stylesheet.md).
+  Leer meer over het gebruiken van de stijlredacteur aan [&#x200B; werk met de gemeenschappelijke inhoudsstijlen &#x200B;](stylesheet.md).
 
 * **Voorste de Pagina&#39;s van de Matter en de Achterpagina&#39;s van de Matte**: Deze paginalay-outs bepalen het stileren voor of achtermaterie pagina&#39;s in uw boek. Als u de voorste materialay-out hebt ontworpen, kaart het aan de **Voorste optie van de Pagina&#39;s van de Matter**. Wanneer u de lay-out van de voormaterie van dropdown selecteert, wordt de voorproeflay-out toegepast op alle onderwerpen in de voorkwestie.
 
@@ -295,7 +295,7 @@ De volgende instellingen zijn beschikbaar in de sectie Pagina-indeling:
 
 
 
-Voor meer informatie over paginalay-outs, zie [ Ontwerp een paginalay-out ](design-page-layout.md).
+Voor meer informatie over paginalay-outs, zie [&#x200B; Ontwerp een paginalay-out &#x200B;](design-page-layout.md).
 
 ### Volgorde pagina-indeling {#page-order}
 

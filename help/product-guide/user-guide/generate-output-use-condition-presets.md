@@ -33,7 +33,7 @@ De **Vooraf ingestelde Voorwaarde** mening verstrekt gedetailleerde informatie o
 
 U kunt een voorwaardenvooraf ingesteld van de onderwerpen tot stand brengen door de volgende stappen uit te voeren:
 
-1. [ open het DITA kaartdossier in de console van de Kaart ](./open-files-map-console.md).
+1. [&#x200B; open het DITA kaartdossier in de console van de Kaart &#x200B;](./open-files-map-console.md).
 1. Navigeer aan de **Vooraf ingestelde Voorwaarde** op de linkerzijde. De lijst met voorinstellingen voor voorwaarden die voor de DITA-kaart zijn gedefinieerd, wordt weergegeven.
 1. Selecteer het + pictogram naast **Vooraf ingestelde Voorwaarde** om de **Nieuwe vooraf ingestelde voorwaarde** dialoogdoos te openen.
 1. Voer een unieke naam in voor de voorinstelling.
@@ -73,7 +73,7 @@ Selecteer voor een willekeurig kenmerk een van de volgende handelingen in de ver
    >
    > U geeft een waarschuwing weer als u een andere voorinstelling selecteert of de voorinstelling sluit zonder deze op te slaan.
 
-Zodra u een vooraf ingestelde voorwaarde creeert, verschijnt het onder **Vooraf ingestelde Voorwaarde** dropdown van de **Voorinstellingen van de Output**. Leer meer over hoe te [ de output van PDF publiceren ](../web-editor/native-pdf-web-editor.md).
+Zodra u een vooraf ingestelde voorwaarde creeert, verschijnt het onder **Vooraf ingestelde Voorwaarde** dropdown van de **Voorinstellingen van de Output**. Leer meer over hoe te [&#x200B; de output van PDF publiceren &#x200B;](../web-editor/native-pdf-web-editor.md).
 
 ### De naam van een voorinstelling voor een voorwaarde wijzigen
 
@@ -169,4 +169,4 @@ U kunt één of meerdere voorwaarde schrappen vooraf instelt van het **Vooraf in
 1. Selecteer **verwijderen** knoop.
 1. Selecteer **verwijderen** om de actie te bevestigen.
 
-**Bovenliggend onderwerp:**&#x200B;[ Productie van de Output ](generate-output.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Productie van de Output &#x200B;](generate-output.md)

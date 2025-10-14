@@ -18,9 +18,9 @@ Als u functies in de AEM Guides wilt openen en configureren, moet u gebruikers m
 
 De volgende onderwerpen in de documentatie van AEM zullen u helpen de gebruikersbeleid en veiligheid-gerelateerde concepten en eigenschappen begrijpen:
 
-- [ AEM gebruikers, groepen en toestemmingen ](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html?lang=nl-NL)
+- [&#x200B; AEM gebruikers, groepen en toestemmingen &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html?lang=nl-NL)
 
-- [ Beleid van de Gebruiker en Veiligheid ](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?lang=nl-NL)
+- [&#x200B; Beleid van de Gebruiker en Veiligheid &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?lang=nl-NL)
 
 
 ## Gebruikersgroepen gemaakt door AEM Guides {#id181TF0K0MHT}
@@ -39,7 +39,7 @@ De volgende lijst maakt een lijst van diverse taken en de groepen die die taken 
 | DITA-kaart maken | Ja |   | Ja |
 | Verzamelingen toewijzen | Ja |   | Ja |
 | Revisietaak maken | Ja |   | Ja |
-| Het Onderwerp van het overzicht [ 1 ](#fntarg_1) | Ja | Ja | Ja |
+| Het Onderwerp van het overzicht [&#x200B; 1 &#x200B;](#fntarg_1) | Ja | Ja | Ja |
 | Belangrijkste resolutie | Ja |   | Ja |
 | Uitchecken/Inchecken | Ja |   | Ja |
 | Onderwerp bewerken | Ja |   | Ja |
@@ -50,7 +50,7 @@ De volgende lijst maakt een lijst van diverse taken en de groepen die die taken 
 | Delen | Ja |   | Ja |
 | **de staat van het Document** |
 | Profiel documentstatus maken/bewerken |   |   | Ja |
-| De documentstaat van de verandering [ 2 ](#fntarg_2) | Ja | Ja | Ja |
+| De documentstaat van de verandering [&#x200B; 2 &#x200B;](#fntarg_2) | Ja | Ja | Ja |
 | **Eigenschappen beschikbaar in DITA kaartconsole \ (Output stelt lusje \ vooraf in)** |
 | Genereren |   |   | Ja |
 | Bewerken |   |   | Ja |
@@ -103,4 +103,4 @@ De volgende lijst bevat enkele aanbevelingen en punten die betrekking hebben op 
 
 - Als u een gebruiker rechten wilt geven om een documentstatus te wijzigen, moet u de gebruiker toevoegen in het gedeelte over statusovergang van het documentstatusprofiel.
 
-[ 1 ](#fnsrc_1) als *Auteurs* en *Uitgevers* voor een overzicht worden uitgenodigd.[ 2 ](#fnsrc_2) afhankelijk van de rechten die aan de gebruiker in het profiel van de documentstaat worden gegeven.
+[&#x200B; 1 &#x200B;](#fnsrc_1) als *Auteurs* en *Uitgevers* voor een overzicht worden uitgenodigd.[&#x200B; 2 &#x200B;](#fnsrc_2) afhankelijk van de rechten die aan de gebruiker in het profiel van de documentstaat worden gegeven.

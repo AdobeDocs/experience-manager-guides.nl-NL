@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Disclaimer
 
-Vanaf de release van 2502 beschikt Experience Manager Guides over een nieuwe gebruikersinterface en een bijgewerkte gebruikershandleiding om de bruikbaarheid te verbeteren en workflows te stroomlijnen. Als u de recentste versie gebruikt, verwijs naar de [ Nieuwe Gids van de Gebruiker ](../product-guide/overview.md) voor de meest bijgewerkte informatie.
+Vanaf de release van 2502 beschikt Experience Manager Guides over een nieuwe gebruikersinterface en een bijgewerkte gebruikershandleiding om de bruikbaarheid te verbeteren en workflows te stroomlijnen. Als u de recentste versie gebruikt, verwijs naar de [&#x200B; Nieuwe Gids van de Gebruiker &#x200B;](../product-guide/overview.md) voor de meest bijgewerkte informatie.
 
 <!-- If you are using a previous version of Experience Manager Guides, the legacy documentation remains available to support your ongoing needs. You can continue to access the [Old User Guide](overview.md) for detailed information on previous UI workflows and features.
 -->

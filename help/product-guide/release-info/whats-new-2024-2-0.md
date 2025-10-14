@@ -13,10 +13,10 @@ ht-degree: 0%
 
 Dit artikel behandelt de nieuwe en verbeterde functies van de release 2024.2.0 van Adobe Experience Manager Guides.
 
-Voor de lijst van kwesties die in deze versie worden bevestigd, mening [ Vaste kwesties in de 2024.2.0 versie ](fixed-issues-2024-2-0.md).
+Voor de lijst van kwesties die in deze versie worden bevestigd, mening [&#x200B; Vaste kwesties in de 2024.2.0 versie &#x200B;](fixed-issues-2024-2-0.md).
 
 
-Leer over [ verbeteringsinstructies voor de versie 2024.2.0 ](upgrade-instructions-2024-2-0.md).
+Leer over [&#x200B; verbeteringsinstructies voor de versie 2024.2.0 &#x200B;](upgrade-instructions-2024-2-0.md).
 
 
 
@@ -27,7 +27,7 @@ Nu, kunt u uw auteursreis met Slimme Suggesties, een nieuwe op AI-Gebaseerde eig
 
 Om de inhoud correct en consistent te houden, blijven de zoekopdracht en de suggesties beperkt tot de inhoud die eigendom is van uw organisatie en komen ze veel overeen met de trefwoorden die u zoekt.
 
-![ Het deelvenster Slimme suggesties in de webeditor ](assets/web-editor-smart-suggestion.png) {width="800" align="left"}
+![&#x200B; Het deelvenster Slimme suggesties in de webeditor &#x200B;](assets/web-editor-smart-suggestion.png) {width="800" align="left"}
 
 
 *Mening Slimme Suggesties om passende inhoudverwijzingen van uw inhoudsbewaarplaats te vinden en toe te voegen.*
@@ -36,27 +36,27 @@ U kunt de huidige inhoud ook vergelijken met vergelijkbare inhoud in de andere o
 
 Met deze intelligente functie vermindert u het handmatig doorzoeken van gerelateerde inhoud en helpt u zich te richten op het maken van nieuwe inhoud.  Het helpt ook consistentie te handhaven en bevordert betere teamsamenwerking.
 
-Leer meer over [ AI-Aangedreven Slimme suggesties aan auteursinhoud ](../user-guide/authoring-ai-based-smart-suggestions.md).
+Leer meer over [&#x200B; AI-Aangedreven Slimme suggesties aan auteursinhoud &#x200B;](../user-guide/authoring-ai-based-smart-suggestions.md).
 
 ## De omgezette eigenschap van de versiegeschiedenis in de Redacteur van het Web
 
 Experience Manager Guides beschikt nu over een verbeterde functie voor versiehistorie waarmee u de wijzigingen die in een document zijn aangebracht, kunt vergelijken. In de nieuwe weergave Naast elkaar kunt u de inhoud en de metagegevens van de huidige versie eenvoudig vergelijken met een eerdere versie van hetzelfde document. U kunt ook de labels en opmerkingen voor de vergeleken versies weergeven. Als beheerder, kunt u de versiemetagegevens van het onderwerp en hun waarden controleren die in het **de dialoogvakje van de Geschiedenis van de Versie** worden getoond.
 
-![ de geschiedenisdialoogdoos van de Versie ](assets/version-history-dialog-web-editor.png){width="800" align="left"}
+![&#x200B; de geschiedenisdialoogdoos van de Versie &#x200B;](assets/version-history-dialog-web-editor.png){width="800" align="left"}
 *Voorproef de veranderingen in de verschillende versies van een onderwerp.*
 
 
-Leer meer over de **eigenschapbeschrijving van de Geschiedenis van de Versie 0&rbrace; &lbrace;in de [ Linkerpaneel ](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.**
+Leer meer over de **eigenschapbeschrijving van de Geschiedenis van de Versie 0&rbrace; &lbrace;in de [&#x200B; Linkerpaneel &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.**
 
 ## Verbeterde gebruikerservaring in het deelvenster Vertaling
 
 Het **paneel van de Vertaling** is verbeterd.  U kunt de **Beschikbare Talen** lijst bekijken en snel de scène selecteren waarin u uw project wilt vertalen. Met één enkele selectie, kunt u **selecteren allen** ook kiezen om uw project in alle beschikbare talen te vertalen.
 
-![ vertaalpaneel ](assets/translation-languages-4.4.png){width="300" align="left"}
+![&#x200B; vertaalpaneel &#x200B;](assets/translation-languages-4.4.png){width="300" align="left"}
 
 *selecteer de scènes waarin u uw project wilt vertalen. Kies het gebrek, de basislijn, of de recentste versie van dossiers voor vertaling.*
 
-Leer meer over hoe te [ inhoud ](../user-guide/translation.md) vertalen.
+Leer meer over hoe te [&#x200B; inhoud &#x200B;](../user-guide/translation.md) vertalen.
 
 
 ## Verbeterde zoeklogica in het dialoogvenster Element invoegen
@@ -67,29 +67,29 @@ Als u bijvoorbeeld een alinea bewerkt en een element wilt invoegen, kunt u een t
 alle geldige elementen die met &quot;t&quot; beginnen.
 
 
-![ de dialoogdoos van het Tussenvoegsel ](assets/insert-element.png){width="300" align="left"}
+![&#x200B; de dialoogdoos van het Tussenvoegsel &#x200B;](assets/insert-element.png){width="300" align="left"}
 
 *Type een karakter om naar alle geldige elementen te zoeken die met het karakter beginnen.*
 
 
-Voor meer details, bekijk de **eigenschapbeschrijving van het Element van het 0&rbrace; Tussenvoegsel &lbrace;in de [ Linkerpaneel ](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.**
+Voor meer details, bekijk de **eigenschapbeschrijving van het Element van het 0&rbrace; Tussenvoegsel &lbrace;in de [&#x200B; Linkerpaneel &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.**
 
 
 ## Mogelijkheid om de huidige lijst te splitsen en te beginnen met een nieuw lijstitem op hetzelfde niveau
 
 Nu, kunt u uw lijst in de Redacteur van het Web gemakkelijk verdelen. Selecteer de **Gesplitste optie van de Lijst** van het contextmenu van een lijstitem om de huidige lijst te verdelen. Er wordt een nieuwe lijst gemaakt op hetzelfde niveau, te beginnen met het lijstitem dat u hebt geselecteerd voor de splitsing.
 
-![ vertaalpaneel ](assets/context-menu-split-list.png){width="300" align="left"}
+![&#x200B; vertaalpaneel &#x200B;](assets/context-menu-split-list.png){width="300" align="left"}
 
 *selecteer de optie om de huidige lijst te verdelen.*
 
-Voor meer details, bekijk de **eigenschapbeschrijving van de Lijst van het 0&rbrace; Tussenvoegsel &lbrace;in de [ Linkerpaneel ](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.**
+Voor meer details, bekijk de **eigenschapbeschrijving van de Lijst van het 0&rbrace; Tussenvoegsel &lbrace;in de [&#x200B; Linkerpaneel &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.**
 
 ## Bestandseigenschappen openen in de bronmodus van het ontwerp
 
 Nu, kunt u tot de eigenschap van het Dossier van het juiste paneel **toegang hebben** op alle vier wijzen of meningen: Lay-out, Auteur, Source, en Voorproef.  Hierdoor kunt u de eigenschappen van uw bestand bekijken, zelfs als u tussen de verschillende modi schakelt.
 
-Voor meer details, bekijk de **eigenschapbeschrijving van de Eigenschappen van het 0&rbrace; Dossier {in de [ Juiste 3} sectie van het Comité.**](../user-guide/web-editor-features.md#id2051EB003YK)
+Voor meer details, bekijk de **eigenschapbeschrijving van de Eigenschappen van het 0&rbrace; Dossier {in de [&#x200B; Juiste 3} sectie van het Comité.**](../user-guide/web-editor-features.md#id2051EB003YK)
 
 ## Mogelijkheid om meerdere uitvoervoorinstellingen met dynamische basislijnen parallel te publiceren
 
@@ -107,7 +107,7 @@ In de uitvoervoorinstelling Eigen PDF kunt u de metagegevens kiezen die u wilt d
 
 Deze functie is handig omdat u de eigenschappen van elementen, zoals auteur, aanmaakdatum of documenttitel, consistent kunt houden. Hierdoor kunt u uw documenten gemakkelijker organiseren, doorzoeken en indelen.
 
-Voor meer details, bekijk de **Geavanceerde** montages in de [ output van de PDF van Publish ](../web-editor/native-pdf-web-editor.md).
+Voor meer details, bekijk de **Geavanceerde** montages in de [&#x200B; output van de PDF van Publish &#x200B;](../web-editor/native-pdf-web-editor.md).
 
 
 ### Metagegevens gebruiken die zijn toegevoegd in het element `topicmeta` voor de uitvoer van de PDF
@@ -121,4 +121,4 @@ Nu biedt Experience Manager Guides de optie om de metagegevens te gebruiken die 
 
 Met deze functie kunt u documenten beter beheren, zorgen voor consistentie en kunt u uw documenten doorzoeken.
 
-Om meer te weten, bekijk het **Meta-gegevens** lusje in de [ output van de PDF van Publish ](../web-editor/native-pdf-web-editor.md).
+Om meer te weten, bekijk het **Meta-gegevens** lusje in de [&#x200B; output van de PDF van Publish &#x200B;](../web-editor/native-pdf-web-editor.md).

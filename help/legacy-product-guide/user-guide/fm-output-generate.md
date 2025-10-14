@@ -29,6 +29,6 @@ Voer de volgende stappen uit om uitvoer voor FrameMaker-documenten te genereren:
 
 >[!NOTE]
 >
-> U kunt de huidige status van het verzoek van de outputgeneratie bekijken door op Output te klikken. Voor meer informatie, zie [ Mening het statuut van de taak van de outputgeneratie ](fm-output-view-status.md).
+> U kunt de huidige status van het verzoek van de outputgeneratie bekijken door op Output te klikken. Voor meer informatie, zie [&#x200B; Mening het statuut van de taak van de outputgeneratie &#x200B;](fm-output-view-status.md).
 
-**Bovenliggend onderwerp:**&#x200B;[ produceer output van de documenten van FrameMaker ](fm-output-generatation.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; produceer output van de documenten van FrameMaker &#x200B;](fm-output-generatation.md)

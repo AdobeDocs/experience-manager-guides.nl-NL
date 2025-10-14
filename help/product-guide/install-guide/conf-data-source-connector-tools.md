@@ -76,8 +76,8 @@ U bekijkt een fout als de schakelaar met de zelfde naam bestaat.
 * **Schrapping**: Schrap de geselecteerde schakelaar.
 
 
-Zodra u de gegevensbron hebt gevormd, is de schakelaar vermeld onder het **paneel van Gegevensbronnen** in de Redacteur van het Web. U kunt dan met de gegevensbron verbinden en een inhoudsfragment opnemen in uw onderwerpen. Voor meer details, mening [ Gegevens van het Gebruik van uw gegevensbron ](../user-guide/web-editor-content-snippet.md).
+Zodra u de gegevensbron hebt gevormd, is de schakelaar vermeld onder het **paneel van Gegevensbronnen** in de Redacteur van het Web. U kunt dan met de gegevensbron verbinden en een inhoudsfragment opnemen in uw onderwerpen. Voor meer details, mening [&#x200B; Gegevens van het Gebruik van uw gegevensbron &#x200B;](../user-guide/web-editor-content-snippet.md).
 
 >[!NOTE]
 >
->U kunt ook aangepaste connectors maken en deze gebruiken met de verschillende gegevensbronnen. Leer hoe te om [ douaneschakelaars ](../knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md) te vormen.
+>U kunt ook aangepaste connectors maken en deze gebruiken met de verschillende gegevensbronnen. Leer hoe te om [&#x200B; douaneschakelaars &#x200B;](../knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md) te vormen.

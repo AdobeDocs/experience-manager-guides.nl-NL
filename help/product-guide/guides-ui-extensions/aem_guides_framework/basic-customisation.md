@@ -131,7 +131,7 @@ in dit geval bevat `extraProps.buttonLabel` het label van de knop
 ```
 
 Onder GIF ziet u de bovenstaande code in actie
-![ basic_customization ](imgs/basic_customisation.gif " Basisaanpassingsknoop ")
+![&#x200B; basic_customization &#x200B;](imgs/basic_customisation.gif " Basisaanpassingsknoop ")
 
 
 ### Configuratievoorbeeld weergeven

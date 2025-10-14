@@ -22,7 +22,7 @@ Hieronder vindt u een overzicht van de stappen die u in dit artikel zult leren:
 ## Achtergrond
 
 Met AEM Guides kunt u DITA-OT-plug-ins gebruiken om naar de gewenste uitvoerindelingen te publiceren met behulp van de geconfigureerde plug-ins, en
-u kunt meta-gegevens van de activa ook overgaan die in AEM DAM aan het DITA-OT proces worden beheerd om het in de geproduceerde output te gebruiken - zie de documentatie op [ hoe te opstelling ditamap/onderwerpen om meta-gegevens door output vooraf ingesteld ](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/user-guide/output-gen/pass-metadata-dita-ot) over te gaan
+u kunt meta-gegevens van de activa ook overgaan die in AEM DAM aan het DITA-OT proces worden beheerd om het in de geproduceerde output te gebruiken - zie de documentatie op [&#x200B; hoe te opstelling ditamap/onderwerpen om meta-gegevens door output vooraf ingesteld &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/user-guide/output-gen/pass-metadata-dita-ot) over te gaan
 
 
 ## Veronderstellingen
@@ -37,7 +37,7 @@ U hebt vroegere kennis van hoe DITA-OT werkt en zijn folderstructuur
 
 Met het AEM Assets-metagegevensschema kunt u in AEM aangepaste eigenschapvelden voor de Assets maken en kunnen gebruikers metagegevens aan de elementen toewijzen. Het nemen van een voorbeeld van a _onderwerp_ activa waar een meta-gegevens genoemd _aangepaste prop_ voor een voorbeeld kan worden geplaatst - verwijs hieronder screenshot:
 
-![ vastgestelde eigenschappen in meta-gegevensredacteur voor een activa ](../../assets/publishing/assets-metadata-properties-ui-customprop.png)
+![&#x200B; vastgestelde eigenschappen in meta-gegevensredacteur voor een activa &#x200B;](../../assets/publishing/assets-metadata-properties-ui-customprop.png)
 
 
 ### De metagegevens voor de uitvoervoorinstelling van ditamap configureren om door te geven aan DITA-OT
@@ -52,7 +52,7 @@ Zie onderstaande schermafbeelding voor informatie over het configureren van de u
 5. Het tijdelijke bestand downloaden met de knop die in de voorinstelling wordt weergegeven
 
 Raadpleeg de onderstaande screenshot voor meer informatie over de bovenstaande stappen:
-![ vorm output vooraf ingesteld voor een kaart om meta-gegevens over te gaan ](../../assets/publishing/map-outputpreset-html5-customprop.png)
+![&#x200B; vorm output vooraf ingesteld voor een kaart om meta-gegevens over te gaan &#x200B;](../../assets/publishing/map-outputpreset-html5-customprop.png)
 
 
 ### De DITA-OT-plug-in implementeren
@@ -60,7 +60,7 @@ Raadpleeg de onderstaande screenshot voor meer informatie over de bovenstaande s
 #### De map metadata.xml openen in de tijdelijke map
 
 In het gedownloade tijdelijke bestandspakket zult u een metadata.xml-bestand zien waarin de structuur van de eigenschappen en waarden wordt weergegeven (zie onderstaande schermafbeelding)
-![ metadata.xml structuur en bouwt ](../../assets/publishing/publish-tempfiles-metadata-structure.png)
+![&#x200B; metadata.xml structuur en bouwt &#x200B;](../../assets/publishing/publish-tempfiles-metadata-structure.png)
 
 ##### Metagegevens begrijpen.xml
 
@@ -134,7 +134,7 @@ Verwijs hieronder code:
 ```
 
 Zie de onderstaande schermafbeelding en de bovenstaande stappen.
-![ stappen om dia-aan stop ](../../assets/publishing/publishing-metadata-dita-ot-plugin-implementation.png) uit te voeren
+![&#x200B; stappen om dia-aan stop &#x200B;](../../assets/publishing/publishing-metadata-dita-ot-plugin-implementation.png) uit te voeren
 
 
 ### De insteekmoduleimplementatie testen
@@ -166,10 +166,10 @@ Wanneer het bovengenoemde bevel wordt uitgevoerd kunt u de output in de folder &
 
 ### Implementatie
 
-Zodra u de stop DITA-OT hebt ontwikkeld, kunt u dit in DITA-OT integreren gebruikend _dita - installeer_ bevel onder de folder DITA-OT, en het opstellen aan de AEM server [ verwijs dit artikel voor meer details ](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/steps-to-setup-a-custom-dita-ot/td-p/407659)
+Zodra u de stop DITA-OT hebt ontwikkeld, kunt u dit in DITA-OT integreren gebruikend _dita - installeer_ bevel onder de folder DITA-OT, en het opstellen aan de AEM server [&#x200B; verwijs dit artikel voor meer details &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/steps-to-setup-a-custom-dita-ot/td-p/407659)
 
 
 ## Bronnen
 
-1. De tijdelijke dossiers van de steekproef die van steekproefditamap worden gedownload - [ downloaden gebruikend deze verbinding ](../../assets/publishing/sample-temp-html5-adobe.html-content.zip)
-2. DITA-OT stop met hierboven verklaarde implementatie [ download gebruikend deze verbinding ](../../assets/publishing/sample-custom-plugin-com.adobe.html.zip)
+1. De tijdelijke dossiers van de steekproef die van steekproefditamap worden gedownload - [&#x200B; downloaden gebruikend deze verbinding &#x200B;](../../assets/publishing/sample-temp-html5-adobe.html-content.zip)
+2. DITA-OT stop met hierboven verklaarde implementatie [&#x200B; download gebruikend deze verbinding &#x200B;](../../assets/publishing/sample-custom-plugin-com.adobe.html.zip)

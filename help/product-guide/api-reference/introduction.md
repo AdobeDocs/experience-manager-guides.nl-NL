@@ -74,7 +74,7 @@ Nadat u de API JAR&#39;s in uw lokale Maven-opslagruimte hebt geïnstalleerd, vo
 
    >[!IMPORTANT]
    >
-   > In het volgende codefragment moet X.x worden vervangen door het eigenlijke versienummer en de bestandsnaam van de API JAR. Deze informatie zal het zelfde als gegeven in Stap 3 van het [ installatieproces ](#install-jar-local) zijn.
+   > In het volgende codefragment moet X.x worden vervangen door het eigenlijke versienummer en de bestandsnaam van de API JAR. Deze informatie zal het zelfde als gegeven in Stap 3 van het [&#x200B; installatieproces &#x200B;](#install-jar-local) zijn.
 
    ```XML
    <plugin>
@@ -225,7 +225,7 @@ Om API JAR te gebruiken, moet u het gebiedsdeel aan pom.xml van uw project toevo
 
 ### Java-API&#39;s
 
-U kunt op Java gebaseerde API&#39;s die beschikbaar zijn in Experience Manager Guides gebruiken om aangepaste plug-ins te maken en workflows uit te breiden. De mening [![ javadoc ](https://javadoc.io/badge2/com.adobe.aem/aem-guides-sdk-api/javadoc.svg) ](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api) voor de recentste en gedetailleerde documentatie bij het gebruiken van op Java-Gebaseerde API.
+U kunt op Java gebaseerde API&#39;s die beschikbaar zijn in Experience Manager Guides gebruiken om aangepaste plug-ins te maken en workflows uit te breiden. De mening [![&#x200B; javadoc &#x200B;](https://javadoc.io/badge2/com.adobe.aem/aem-guides-sdk-api/javadoc.svg) &#x200B;](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api) voor de recentste en gedetailleerde documentatie bij het gebruiken van op Java-Gebaseerde API.
 
 
 
@@ -236,4 +236,4 @@ Na is een lijst van andere nuttige middelen van AEM Guides, die op [&#128279;](h
 - Handboek
 - Installatie- en configuratiehandleiding
 - Handleiding voor snel starten
-- [ de Archiefpagina van het Archief van de Hulp ](https://helpx.adobe.com/nl/xml-documentation-for-experience-manager/archive.html) \ (de documentatie van de toegangsoudere versie \)
+- [&#x200B; de Archiefpagina van het Archief van de Hulp &#x200B;](https://helpx.adobe.com/nl/xml-documentation-for-experience-manager/archive.html) \ (de documentatie van de toegangsoudere versie \)

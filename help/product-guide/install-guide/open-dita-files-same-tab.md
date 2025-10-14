@@ -44,4 +44,4 @@ Deze instelling is van invloed op de volgende plaatsen waar u toegang kunt krijg
 - Het lusje van rapporten in de DITA kaartconsole
 
 
-**Bovenliggend onderwerp:**&#x200B;[ pas de Redacteur van het Web ](conf-web-editor.md) aan
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; pas de Redacteur van het Web &#x200B;](conf-web-editor.md) aan

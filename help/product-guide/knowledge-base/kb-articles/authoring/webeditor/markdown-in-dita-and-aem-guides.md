@@ -28,9 +28,9 @@ Het heeft de Eenvoudigere opstelling en snellere implementatie. Maar beperkte fu
 
 Gebruiker moet kenmerk `format="markdown" ` of `format="mdita"` toevoegen, zodat publicatieprogramma&#39;s het bestandstype begrijpen en dienovereenkomstig publiceren.
 
-Het dossier van de steekproef: [ de Verlaging Ditamap ](https://acrobat.adobe.com/id/urn:aaid:sc:AP:da31137e-be84-44fb-8974-d038eeff0283)
+Het dossier van de steekproef: [&#x200B; de Verlaging Ditamap &#x200B;](https://acrobat.adobe.com/id/urn:aaid:sc:AP:da31137e-be84-44fb-8974-d038eeff0283)
 
-![ schermafbeelding voor verwijzing ](../../assets/authoring/markdown_map.png)
+![&#x200B; schermafbeelding voor verwijzing &#x200B;](../../assets/authoring/markdown_map.png)
 
 
 #### Publish naar PDF en Web-uitvoer
@@ -44,14 +44,14 @@ Volledig gebruik van AEM Guides-functionaliteit voor hergebruik van inhoud, voor
 Markeringen naar DITA kunnen worden geconverteerd met externe gereedschappen, zoals Adobe FrameMaker en DITA-OT.
 
 
-Voor Adobe FrameMaker, verwijs: [ de prijsdaling van de Invoer ](https://www.adobe.com/in/products/framemaker/features.html#import-markdown)
+Voor Adobe FrameMaker, verwijs: [&#x200B; de prijsdaling van de Invoer &#x200B;](https://www.adobe.com/in/products/framemaker/features.html#import-markdown)
 
-Voor DITA-OT, verwijs: [ Markdown als Input ](https://www.dita-ot.org/dev/topics/markdown-input.html)
+Voor DITA-OT, verwijs: [&#x200B; Markdown als Input &#x200B;](https://www.dita-ot.org/dev/topics/markdown-input.html)
 
-Het dossier van de steekproef dat gebruikend Adobe FrameMaker wordt omgezet: [ Markdown aan steekproef DITA ](https://acrobat.adobe.com/id/urn:aaid:sc:AP:874881f3-ba43-410c-abc6-2df899536d79)
+Het dossier van de steekproef dat gebruikend Adobe FrameMaker wordt omgezet: [&#x200B; Markdown aan steekproef DITA &#x200B;](https://acrobat.adobe.com/id/urn:aaid:sc:AP:874881f3-ba43-410c-abc6-2df899536d79)
 
 #### Publish naar PDF en Web-uitvoer
 
 Wanneer markeringsbestanden zijn omgezet in DITA, kan de gebruiker naadloos uitvoer publiceren naar alle indelingen die beschikbaar zijn in AEM Guides.
 
-Beschikbare formaten in AEM Guides: [ formaten van de Output ](../../../../user-guide/generate-output-understand-presets.md)
+Beschikbare formaten in AEM Guides: [&#x200B; formaten van de Output &#x200B;](../../../../user-guide/generate-output-understand-presets.md)

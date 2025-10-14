@@ -16,14 +16,14 @@ ht-degree: 0%
 
 Adobe Workfront is een op de cloud gebaseerde oplossing voor werkbeheer die teams en organisaties helpt hun werk efficiënt te plannen, te volgen en te beheren. Dankzij de integratie tussen Experience Manager Guides en Adobe Workfront hebt u toegang tot robuuste functies voor projectbeheer, bovenop de Experience Manager Guides Core CCMS-mogelijkheden, zodat u taken efficiënt kunt plannen, toewijzen en volgen.
 
-Leer meer over [ integratie van Adobe Workfront ](../user-guide/workfront-integration.md) in Experience Manager Guides.
+Leer meer over [&#x200B; integratie van Adobe Workfront &#x200B;](../user-guide/workfront-integration.md) in Experience Manager Guides.
 
 ## Vereisten
 
 Voordat u aan de slag gaat, moet u ervoor zorgen dat:
 
 1. U hebt standaard toegang tot Adobe Workfront en beheerderstoegang tot Experience Manager Guides.
-2. U [ creeert een nieuwe douanevorm in Adobe Workfront ](https://experienceleague.adobe.com/nl/docs/workfront/using/administration-and-setup/customize/custom-forms/design-a-form/design-a-form) die voor Experience Manager Guides wordt vereist door de hieronder gebieden specifiek te gebruiken:
+2. U [&#x200B; creeert een nieuwe douanevorm in Adobe Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront/using/administration-and-setup/customize/custom-forms/design-a-form/design-a-form) die voor Experience Manager Guides wordt vereist door de hieronder gebieden specifiek te gebruiken:
 
    | Veldtype | Label | Naam | Keuzen (waarden tonen ingeschakeld) |
    |------------|------|------|-------------------------------|
@@ -57,7 +57,7 @@ Voer de volgende stappen uit om Adobe Workfront in Experience Manager Guides te 
 
    Om tot **identiteitskaart van de Cliënt toegang te hebben** en **Geheime** sleutel van de Cliënt die in uw opstelling van Adobe Workfront wordt gevormd, navigeer aan `Setup >> Systems>> oAuth2 Applications`.
 
-   Voor meer details over het vormen van uw domein van Adobe Workfront, bekijk de sectie van de de codestroom van de Vergunning in [ creeer toepassingen OAuth2 voor de integratie van Workfront ](https://experienceleague.adobe.com/nl/docs/workfront/using/administration-and-setup/configure-integrations/create-oauth-application#create-an-oauth2-application-using-user-credentials-authorization-code-flow).
+   Voor meer details over het vormen van uw domein van Adobe Workfront, bekijk de sectie van de de codestroom van de Vergunning in [&#x200B; creeer toepassingen OAuth2 voor de integratie van Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront/using/administration-and-setup/configure-integrations/create-oauth-application#create-an-oauth2-application-using-user-credentials-authorization-code-flow).
 
 4. Selecteer **Login en verifieer**.
 
@@ -69,4 +69,4 @@ Voer de volgende stappen uit om Adobe Workfront in Experience Manager Guides te 
 6. Selecteer in de vervolgkeuzelijst voor aangepaste formulieren het aangepaste Adobe Workfront-formulier dat u voor Experience Manager Guides hebt gemaakt. Vereisten van de mening [&#128279;](#prerequisites).
 7. Selecteer **sparen en sluit** om de de configuratieveranderingen van Workfront toe te passen en te bewaren.
 
-Zodra gevormd, [ voeg gebruikers aan Adobe Workfront ](https://experienceleague.adobe.com/nl/docs/workfront/using/administration-and-setup/add-users/create-manage-users/add-users) toe gebruikend de zelfde e-mailadressen zij in Experience Manager Guides hebben.
+Zodra gevormd, [&#x200B; voeg gebruikers aan Adobe Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront/using/administration-and-setup/add-users/create-manage-users/add-users) toe gebruikend de zelfde e-mailadressen zij in Experience Manager Guides hebben.

@@ -156,7 +156,7 @@ Voer de volgende stappen uit om een taalvariabele zoals de `copyright-label` in 
 
    >[!NOTE]
    >
-   > De mening [ past een sectie van de paginalay-out ](../native-pdf/components-pdf-template.md#customize-a-page-layout-customize-page-layout) voor het openen van een paginalay-out voor aanpassing of het uitgeven aan.
+   > De mening [&#x200B; past een sectie van de paginalay-out &#x200B;](../native-pdf/components-pdf-template.md#customize-a-page-layout-customize-page-layout) voor het openen van een paginalay-out voor aanpassing of het uitgeven aan.
 
 1. Selecteer de koptekst om deze actief te maken en een variabele in te voegen.
 1. Selecteer **Variabele van het Tussenvoegsel**  <img src="./assets/insert-language-variable.svg" width="25"> op de werkbalk.
@@ -185,7 +185,7 @@ Naast de waarde die u aan een taalvariabele toewijst, kunt u ook HTML-tags gebru
   Waarde voor Tamil:
   `<span data-field="page-number" data-format="tamil">1</span>`
 
-U kunt ook taalvariabelen toevoegen en andere velden opmaken die worden vermeld in de functie Velden invoegen van de paginalay-outs. Voor meer details bij het toevoegen van gebieden, mening [ voegt gebieden en meta-gegevens ](../native-pdf/design-page-layout.md#add-fields-metadata) toe.
+U kunt ook taalvariabelen toevoegen en andere velden opmaken die worden vermeld in de functie Velden invoegen van de paginalay-outs. Voor meer details bij het toevoegen van gebieden, mening [&#x200B; voegt gebieden en meta-gegevens &#x200B;](../native-pdf/design-page-layout.md#add-fields-metadata) toe.
 
 - U kunt ook gelokaliseerde afbeeldingen aan de waarden toevoegen. U kunt bijvoorbeeld een afbeeldingspictogram toevoegen in de hoofdstuknummertaal en gelokaliseerde afbeeldingen van het pictogram ophalen in de PDF-uitvoer.
 

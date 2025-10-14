@@ -16,10 +16,10 @@ ht-degree: 0%
 
 Wanneer u een koppeling maakt met de optie Referentie invoegen of Inhoud hergebruiken invoegen in de webeditor, wordt de koppeling standaard gemaakt met de UUID van de inhoud waarnaar wordt verwezen. Het **bezit van de Verbinding** \ (in het paneel van Eigenschappen \) van de referenced inhoud kan worden gevormd om de relatieve dossierweg van de referenced inhoud of UUID te tonen. Standaard wordt de UUID van de inhoud waarnaar wordt verwezen, weergegeven in het deelvenster Eigenschappen.
 
-Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](download-install-additional-config-override.md#) om het configuratiedossier tot stand te brengen. In het configuratiedossier, verstrek de volgende \(bezit \) details om de relatieve weg of UUID van de referenced inhoud in de Redacteur van het Web te tonen:
+Gebruik de instructies die in [&#x200B; worden gegeven met voeten treedt van de Configuratie &#x200B;](download-install-additional-config-override.md#) om het configuratiedossier tot stand te brengen. In het configuratiedossier, verstrek de volgende \(bezit \) details om de relatieve weg of UUID van de referenced inhoud in de Redacteur van het Web te tonen:
 
 | PID | Eigenschappensleutel | Waarde van eigenschap |
 |---|------------|--------------|
 | `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.uuid` | Boolean \(true/false\). Als u het relatieve pad van de gekoppelde inhoud wilt weergeven, stelt u deze eigenschap in op false. <br> **Standaardwaarde**: waar |
 
-**Bovenliggend onderwerp:**&#x200B;[ pas de Redacteur van het Web ](conf-web-editor.md) aan
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; pas de Redacteur van het Web &#x200B;](conf-web-editor.md) aan

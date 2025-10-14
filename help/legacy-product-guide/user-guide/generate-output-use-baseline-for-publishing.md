@@ -18,7 +18,7 @@ Met de functie Basislijn kunt u een versie van uw onderwerpen en elementen maken
 
 Het selecteren van een Basislijn is facultatief voor output vooraf instelt en een kaart DITA kan meer dan één Basislijn hebben. Elke uitvoervoorinstelling in een DITA-kaart kan echter maar aan één basislijn worden gekoppeld. Als er geen basislijn is opgegeven op het moment van publicatie, wordt de uitvoer gepubliceerd met de meest recente versie van de inhoud.
 
-Op dezelfde manier is het optioneel om een basislijn te selecteren voor het vertalen van inhoud. Als u inhoud echter wilt vertalen met een basislijn, wordt de inhoud van de basislijn samen met de vertaalde kopieën opgeslagen. Vervolgens kunt u de vertaalde basislijn gebruiken om verdere bewerkingen uit te voeren, zoals deze delen met externe uitgevers of archiveren. Voor meer informatie over het uitvoeren van een vertaalde Basislijn, zie [ Vertaalde Basislijn van de Uitvoer ](#id196SE600GHS).
+Op dezelfde manier is het optioneel om een basislijn te selecteren voor het vertalen van inhoud. Als u inhoud echter wilt vertalen met een basislijn, wordt de inhoud van de basislijn samen met de vertaalde kopieën opgeslagen. Vervolgens kunt u de vertaalde basislijn gebruiken om verdere bewerkingen uit te voeren, zoals deze delen met externe uitgevers of archiveren. Voor meer informatie over het uitvoeren van een vertaalde Basislijn, zie [&#x200B; Vertaalde Basislijn van de Uitvoer &#x200B;](#id196SE600GHS).
 
 >[!TIP]
 >
@@ -46,7 +46,7 @@ Voer de volgende stappen uit om een basislijn te maken:
 
 1. Voor de pagina van Basislijnen, leidt de klik **&#x200B;**&#x200B;tot.
 1. Ga een naam voor de Basislijn in **Naam van de Basislijn** in.
-   ![ creeer een basislijn ](images/create-baseline.png){width="800" align="left"}
+   ![&#x200B; creeer een basislijn &#x200B;](images/create-baseline.png){width="800" align="left"}
 1. In **plaats de Versie die op** wordt gebaseerd, selecteer één van de volgende opties:
 
    - **Etiket**: Selecteer deze optie om de onderwerpen volgens het etiket te kiezen dat op hen wordt toegepast. Voer een label in om de lijst te filteren op basis van de ingevoerde tekenreeks. In de uitgefilterde lijst kunt u een label kiezen om onderwerpen en andere elementen met het opgegeven label te selecteren.
@@ -183,4 +183,4 @@ Voer de volgende stappen uit om een vertaalde basislijn te exporteren:
 1. \ (Facultatief \) om een Basislijn uit te voeren die reeds wordt uitgevoerd, uitgezocht **Overschrijf Bestaande Basislijn** en klik dan **de Basislijn van de Uitvoer**.
 
 
-**Bovenliggend onderwerp:**&#x200B;[ Productie van de Output ](generate-output.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Productie van de Output &#x200B;](generate-output.md)

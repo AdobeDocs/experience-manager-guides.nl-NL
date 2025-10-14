@@ -61,24 +61,24 @@ AEM Guides as a Cloud Service biedt veel verbeteringen en nieuwe functies in de 
 AEM Guides beschikt nu over de functie om dynamische basislijnen te maken op basis van labels. Als u een basislijn genereert, een basislijn downloadt of een vertaalproject maakt met een basislijn, worden de bestanden dynamisch gekozen op basis van de bijgewerkte labels. Deze functie is handig omdat u de basislijn niet hoeft te wijzigen wanneer u de labels bijwerkt.
 U kunt de momentopname van de basislijn als CSV ook uitvoeren.
 
-![ creeer basislijnen ](assets/dynamic-baseline.png)
+![&#x200B; creeer basislijnen &#x200B;](assets/dynamic-baseline.png)
 
 ### Tekst zoeken en vervangen op kaartniveau
 
 U kunt nu zoeken naar bestanden in een kaart die specifieke tekst bevatten. De gezochte tekst wordt benadrukt in de dossiers. U kunt het gezochte woord of de gezochte uitdrukking met een ander woord of een uitdrukking binnen de dossiers ook vervangen.
 Selecteer **vervangen** pictogram om het huidige voorkomen te vervangen en **vervangen allen in dossier** pictogram om alle voorkomen in het geselecteerde dossier te vervangen.
 
-![ vinden Vervangen in kaart ](assets/map-find-replace.png)
+![&#x200B; vinden Vervangen in kaart &#x200B;](assets/map-find-replace.png)
 
 Door gebrek, worden het dossier van de optiecontrole **alvorens** te vervangen en **nieuwe versie na vervangen** geselecteerd, zodat wordt een dossier gecontroleerd alvorens u de tekst vervangt, en een nieuwe versie wordt gecreeerd nadat de tekst wordt vervangen.
 
 ### Het versieverschil voor uit-synchronisatiebestanden van het vertaaldashboard weergeven
 
 U kunt nu verkiezen om **uit de dossiers van de Synchronisatie** te vertalen die op de veranderingen worden gebaseerd die tussen de twee versies van een onderwerp worden gedaan.\
-![ Vertaal dashboard ](assets/translation-version-diff.png)
+![&#x200B; Vertaal dashboard &#x200B;](assets/translation-version-diff.png)
 Vanuit het vertaaldashboard kunt u eenvoudig zien wat de verschillen zijn tussen de laatste vertaalde versie en de huidige versie van het geselecteerde bestand.
 
-![ de dialoog van het versieverschil ](assets/version-diff.png)
+![&#x200B; de dialoog van het versieverschil &#x200B;](assets/version-diff.png)
 
 Gebaseerd op de verschillen, kunt u beslissen of u een onderwerp wilt vertalen of niet.
 
@@ -87,7 +87,7 @@ Gebaseerd op de verschillen, kunt u beslissen of u een onderwerp wilt vertalen o
 U kunt de metagegevens instellen vanuit de uitvoervoorinstelling van een DITA-kaart. U kunt de metagegevens Titel, Auteur, Onderwerp en Trefwoorden instellen. Deze metagegevens worden toegewezen aan de metagegevens in de bestandseigenschappen van de uitvoer PDF.
 Deze metagegevens overschrijven de metagegevens die op boekniveau zijn gedefinieerd. U kunt de metagegevens specifiek definiëren in elke uitvoervoorinstelling en deze doorgeven aan de PDF van de uitvoer.
 
-![ Meta-gegevens in Vooraf ingesteld ](assets/preset-metadata.png)
+![&#x200B; Meta-gegevens in Vooraf ingesteld &#x200B;](assets/preset-metadata.png)
 
 
 ## Opgeloste problemen

@@ -69,13 +69,13 @@ Voer de volgende stappen uit om toegang te krijgen tot het dashboard Publiceren:
 
 >[!NOTE]
 >
-> U kunt het publicatiedashboard ook openen via het tabblad Uitvoer terwijl u uitvoer genereert via het kaartdashboard. Voor meer details, zie [ Mening het statuut van de taak van de outputgeneratie ](generate-output-for-a-dita-map.md#viewing_output_history).
+> U kunt het publicatiedashboard ook openen via het tabblad Uitvoer terwijl u uitvoer genereert via het kaartdashboard. Voor meer details, zie [&#x200B; Mening het statuut van de taak van de outputgeneratie &#x200B;](generate-output-for-a-dita-map.md#viewing_output_history).
 
 ## Een publicatietaak annuleren
 
 Voer de volgende stappen uit om een taak van de outputgeneratie van het Publish Dashboard te annuleren:
 
-1. [ heb toegang tot het Publish dashboard ](#id205CC100DY4).
+1. [&#x200B; heb toegang tot het Publish dashboard &#x200B;](#id205CC100DY4).
 
 1. Klik in de lijst met actieve publicatietaken op het pictogram Verwijderen van een taak die u wilt annuleren.
 
@@ -88,4 +88,4 @@ Voer de volgende stappen uit om een taak van de outputgeneratie van het Publish 
    ![](images/cancelled-output-task.png){width="800" align="left"}
 
 
-**Bovenliggend onderwerp:**&#x200B;[ Productie van de Output ](generate-output.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Productie van de Output &#x200B;](generate-output.md)

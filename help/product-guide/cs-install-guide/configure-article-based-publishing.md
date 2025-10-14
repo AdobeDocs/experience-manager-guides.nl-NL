@@ -18,10 +18,10 @@ AEM Guides biedt een krachtige publicatiefunctie die is gebaseerd op artikelen e
 
 Voer de volgende stappen uit om een AEM site te maken voor het publiceren van op artikelen gebaseerde uitvoer:
 
-1. Download **het Pakket van de Inhoud van de Componenten van XML Documentation voor Cloud Service** van uw [ Portaal van de Distributie van de Software van de Adobe ](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html).
+1. Download **het Pakket van de Inhoud van de Componenten van XML Documentation voor Cloud Service** van uw [&#x200B; Portaal van de Distributie van de Software van de Adobe &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html).
 1. Open AEM Package Manager. De standaard-URL voor toegang tot pakketbeheer is: `https://<hostname>/crx/packmgr/index.jsp`
 1. Upload XML Documentation Components Content Package voor Cloud Service en installeer deze.
-1. Download het `Knowledge-base-template-for-article-based-publishing-for-cloud-service.zip` dossier van uw [ Portaal van de Distributie van de Software van de Adobe ](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html).
+1. Download het `Knowledge-base-template-for-article-based-publishing-for-cloud-service.zip` dossier van uw [&#x200B; Portaal van de Distributie van de Software van de Adobe &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html).
 1. Van de Globale Navigatie, uitgezochte **Plaatsen**.
 1. Binnen Plaatsen UI, creeer **&#x200B;**&#x200B;knoop op de top-juiste hoek.
 1. Selecteer **Plaats van malplaatje** van **creeer** dropdown.
@@ -42,4 +42,4 @@ Voer de volgende stappen uit om een AEM site te maken voor het publiceren van op
 
 U kunt de AEM gebruiken om uw artikel te publiceren gebruikend de output vooraf instelt van de Redacteur van het Web.
 
-**Bovenliggend onderwerp:**&#x200B;[ pas de Redacteur van het Web ](conf-web-editor.md) aan
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; pas de Redacteur van het Web &#x200B;](conf-web-editor.md) aan

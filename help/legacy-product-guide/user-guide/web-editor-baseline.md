@@ -27,7 +27,7 @@ U kunt een basislijn van de Redacteur van het Web tot stand brengen door de volg
 1. Open het DITA-kaartbestand in de Kaartweergave in het deelvenster Opslagplaats.
 1. Klik **leiden** tabel. Het **paneel van de Basislijn** toont de basislijnen van de kaart DITA.
 
-   ![ het paneel van de Basleine ](images/baseline-manage.png){width="800" align="left"}
+   ![&#x200B; het paneel van de Basleine &#x200B;](images/baseline-manage.png){width="800" align="left"}
 
 1. Voor het **paneel van de Basislijn**, selecteer + pictogram bij top-right beginnen een basislijn te creëren.
 1. Ga een naam voor de basislijn in **Naam** in.
@@ -59,9 +59,9 @@ U kunt een basislijn van de Redacteur van het Web tot stand brengen door de volg
 
    Basislijnen die zijn gemaakt met de automatische updateconfiguratie worden dynamisch bijgewerkt. Als u een basislijn genereert, een basislijn downloadt of een vertaalproject maakt met een basislijn, worden de bestanden dynamisch gekozen op basis van de bijgewerkte labels. Bijvoorbeeld, als u versie 1.2 van een onderwerp met Versie 1.0 van het Etiket voor de basislijn en recentere bijgewerkte versie 1.5 met Versie 1.0 van het Etiket hebt gebruikt, zal de basislijn dynamisch worden bijgewerkt, en versie 1.5 zal worden gebruikt.
 
-   ![ creeer een basislijn ](images/dynamic-baseline.png){width="300" align="left"}
+   ![&#x200B; creeer een basislijn &#x200B;](images/dynamic-baseline.png){width="300" align="left"}
 
-   - **Etiketten**: Als de onderwerpen labels hebben voor hen worden gespecificeerd, dan gebruik **Etiketten** dropdown om van de [ vermelde etiketten ](#labels-list) te kiezen.
+   - **Etiketten**: Als de onderwerpen labels hebben voor hen worden gespecificeerd, dan gebruik **Etiketten** dropdown om van de [&#x200B; vermelde etiketten &#x200B;](#labels-list) te kiezen.
 De eerst geselecteerde labels krijgen een hogere prioriteit dan de latere labels.
 
      >[!NOTE]
@@ -94,7 +94,7 @@ U kunt uw bestaande basislijnen beheren met de verschillende functies op het bas
   >
   >Met de bewerking Bewerken in het geval van een dynamische basislijn kunt u de eigenschappen van de basislijn bewerken terwijl de referenties voor dynamische basislijnen bij uitvoering worden gegenereerd met de labels.
 
-  ![ opties van een basislijn ](images/baseline-options.png){width="800" align="left"}
+  ![&#x200B; opties van een basislijn &#x200B;](images/baseline-options.png){width="800" align="left"}
 
 
 
@@ -103,7 +103,7 @@ U kunt uw bestaande basislijnen beheren met de verschillende functies op het bas
 ### Een basislijn dupliceren
 
 U kunt een basislijn dupliceren en deze aanpassen aan uw vereisten.
-![ dupliceer een basislijn ](images/baseline-duplicate.png){width="300" align="left"}
+![&#x200B; dupliceer een basislijn &#x200B;](images/baseline-duplicate.png){width="300" align="left"}
 *Dupliceer een basislijn die op een etiket wordt gebaseerd of creeer een nauwkeurige kopie.*
 
 1. Selecteer **Dupliceer** van het menu van Opties van een basislijn. Het **Duplicate basislijn** dialoogvakje opent.
@@ -114,7 +114,7 @@ U kunt een basislijn dupliceren en deze aanpassen aan uw vereisten.
    In **selecteer de versie die op** wordt gebaseerd, kunt u of de **Exacte exemplaar** optie of de **optie van het Etiket** kiezen:
 
    - **Exact exemplaar**: Experience Manager Guides plukt de zelfde versie van alle onderwerpen en leidt tot een nauwkeurige kopie van de gedupliceerde basislijn.
-   - **Etiket**: Gebruikend dropdown, kunt u één van de [ vermelde etiketten ](#labels-list) kiezen. Experience Manager Guides kiest die versies van de onderwerpen met het geselecteerde die etiket voor hen wordt bepaald, terwijl voor de resterende onderwerpen, het de versie van de gedupliceerde basislijn kiest. U selecteert bijvoorbeeld het label `Release 1.0` in het vervolgkeuzemenu en kiest vervolgens de versies van de onderwerpen waarvoor u dit label hebt gedefinieerd. Voor alle andere onderwerpen, kiest het de versie van de gedupliceerde basislijn.
+   - **Etiket**: Gebruikend dropdown, kunt u één van de [&#x200B; vermelde etiketten &#x200B;](#labels-list) kiezen. Experience Manager Guides kiest die versies van de onderwerpen met het geselecteerde die etiket voor hen wordt bepaald, terwijl voor de resterende onderwerpen, het de versie van de gedupliceerde basislijn kiest. U selecteert bijvoorbeeld het label `Release 1.0` in het vervolgkeuzemenu en kiest vervolgens de versies van de onderwerpen waarvoor u dit label hebt gedefinieerd. Voor alle andere onderwerpen, kiest het de versie van de gedupliceerde basislijn.
 1. Klik **Dupliceren**.
 
 - **noem** anders, of **schrap** een bestaande basislijn.
@@ -140,7 +140,7 @@ De labels in de vervolgkeuzelijst zijn gebaseerd op de volgende criteria:
 
 Gebruikend het pictogram van Filters in het **paneel van de Filters van de Basislijn** kunt u filters op de basislijn toepassen die in het basislijn het uitgeven venster wordt geopend:
 
-![ basislijnfilters ](images/baseline-filter.png){width="300" align="left"}
+![&#x200B; basislijnfilters &#x200B;](images/baseline-filter.png){width="300" align="left"}
 
 - De bestanden filteren op bestandsnamen of bestandslocatie.
 - Filter de bestanden op basis van de waarden voor verschillende kolommen, zoals Bestandstype, Referentietype, enzovoort.
@@ -154,4 +154,4 @@ Gebruikend het pictogram van Filters in het **paneel van de Filters van de Basis
 
 Zodra u de basislijn hebt uitgegeven, kunt u **klikken sparen** knoop op de bovenkant om de veranderingen in de basislijn te bewaren. U kunt de **knoop van het Terugstellen** klikken als u niet de verandering wilt bewaren en de basislijn terugstellen. Wanneer u de **knoop van het Terugstellen** klikt wordt een waarschuwing getoond dat uw niet bewaarde veranderingen zouden worden verloren.
 
-**Bovenliggend onderwerp:**&#x200B;[ Werk met de Redacteur van het Web ](web-editor.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Werk met de Redacteur van het Web &#x200B;](web-editor.md)

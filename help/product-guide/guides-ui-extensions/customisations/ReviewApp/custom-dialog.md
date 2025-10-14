@@ -119,7 +119,7 @@ const acceptWithModification = {
 
 In dit voorbeeld wordt de informatie bijgehouden die betrekking heeft op het toevoegen van een knop om een aangepast dialoogvenster te openen.
 Laten we hier eens naar het deelvenster `review_comment` kijken. U vindt hier de volledige extensie:
-[ Commentaar van het Overzicht ](../../examples/review_app_examples/review_comment.ts)
+[&#x200B; Commentaar van het Overzicht &#x200B;](../../examples/review_app_examples/review_comment.ts)
 
 ```typescript
 const reviewComment = {

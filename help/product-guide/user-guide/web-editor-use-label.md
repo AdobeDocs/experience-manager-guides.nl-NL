@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Labels gebruiken {#id164JBG0M0T1}
 
-Met Adobe Experience Manager Guides kunt u labels toevoegen aan verschillende versies van een bestand. U kunt deze labels gebruiken om de versie op te geven die u wilt opnemen in een basislijn voor publicatie. Voor meer informatie over het gebruiken van etiketten om een basislijn tot stand te brengen, mening [ Werk met Basislijn ](generate-output-use-baseline-for-publishing.md#).
+Met Adobe Experience Manager Guides kunt u labels toevoegen aan verschillende versies van een bestand. U kunt deze labels gebruiken om de versie op te geven die u wilt opnemen in een basislijn voor publicatie. Voor meer informatie over het gebruiken van etiketten om een basislijn tot stand te brengen, mening [&#x200B; Werk met Basislijn &#x200B;](generate-output-use-baseline-for-publishing.md#).
 
 Bijvoorbeeld, als u *versie 1.0* van een onderwerp in *versie 1.0* en *versie 1.1* van het zelfde onderwerp in *versie 2.0* wilt gebruiken, kunt u *versie 1.0* etiket op *versie 1.0* en *versie 2.0 toevoegen. 13&rbrace; etiket op* versie 1.1 *.*
 
@@ -46,7 +46,7 @@ Voer de volgende stappen uit om een etiket aan uw onderwerp van de Redacteur toe
 
    >[!NOTE]
    >
-   > Gebruikend een basislijn, kunt u een etiket aan veelvoudige onderwerpen toevoegen. Voor meer informatie over het toevoegen van etiketten die basislijn gebruiken, voegt de mening [ etiketten aan een Basislijn ](generate-output-use-baseline-for-publishing.md#id184KD0T305Z) toe.
+   > Gebruikend een basislijn, kunt u een etiket aan veelvoudige onderwerpen toevoegen. Voor meer informatie over het toevoegen van etiketten die basislijn gebruiken, voegt de mening [&#x200B; etiketten aan een Basislijn &#x200B;](generate-output-use-baseline-for-publishing.md#id184KD0T305Z) toe.
 
 Om een versielabel van een onderwerp te schrappen, gebruik **verwijdert** pictogram dat tegen elk etiket wordt verstrekt dat in de dialoog van het Beheer van het Etiket van de Versie wordt toegevoegd.
 
@@ -74,11 +74,11 @@ Voer de volgende stappen uit om een etiket aan uw onderwerp van Assets UI toe te
 
 >[!NOTE]
 >
-> Gebruikend een basislijn, kunt u een etiket aan veelvoudige onderwerpen toevoegen. Voor meer informatie over het toevoegen van etiketten die basislijn gebruiken, voegt de mening [ etiketten aan een Basislijn ](generate-output-use-baseline-for-publishing.md#id184KD0T305Z) toe.
+> Gebruikend een basislijn, kunt u een etiket aan veelvoudige onderwerpen toevoegen. Voor meer informatie over het toevoegen van etiketten die basislijn gebruiken, voegt de mening [&#x200B; etiketten aan een Basislijn &#x200B;](generate-output-use-baseline-for-publishing.md#id184KD0T305Z) toe.
 
 Om een versielabel van een onderwerp te schrappen, gebruik **schrapping** knoop die tegen elk etiket in het paneel van de Geschiedenis van de Versie wordt verstrekt.
 
 ![](images/delete-labels.png){width="300" align="left"}
 
 
-**Bovenliggend onderwerp:**&#x200B;[ Inleiding aan Redacteur ](web-editor.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Inleiding aan Redacteur &#x200B;](web-editor.md)

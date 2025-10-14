@@ -18,7 +18,7 @@ Als u van plan bent om een Dispatcher op AEM instantie van de Auteur samen met A
 
 >[!NOTE]
 >
-> Dispatcher is de Adobe Experience Manager-tool voor cache- en taakverdelingsbewerkingen. Voor meer details over het gebruiken van Dispatcher, zie [ Overzicht van Dispatcher ](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html?lang=nl-NL).
+> Dispatcher is de Adobe Experience Manager-tool voor cache- en taakverdelingsbewerkingen. Voor meer details over het gebruiken van Dispatcher, zie [&#x200B; Overzicht van Dispatcher &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html?lang=nl-NL).
 
 ## EnableEncodedSlashes in URLs inschakelen
 
@@ -81,4 +81,4 @@ Als u een Dispatcher met AEM Guides gebruikt en uw instantie Auteur een verzende
                 }
 ```
 
-**Bovenliggend onderwerp:**&#x200B;[ Download en installeer ](download-install.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Download en installeer &#x200B;](download-install.md)

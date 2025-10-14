@@ -23,4 +23,4 @@ Gebruik **breid** pictogram in de toolbar uit om de kopbalbar te verbergen en he
 
 
 
-**Bovenliggend onderwerp:**&#x200B;[ Inleiding aan de Redacteur ](web-editor.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Inleiding aan de Redacteur &#x200B;](web-editor.md)

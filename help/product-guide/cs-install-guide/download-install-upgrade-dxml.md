@@ -25,10 +25,10 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> Voor meer details over het gebruiken van CI/CD pijpleiding, zie [ Gebruik CI/CD Pijpleiding in Adobe Cloud Manager ](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/cloud-manager/use-the-cicd-pipeline-in-cloud-manager-for-aem.html?lang=nl-NL).
+> Voor meer details over het gebruiken van CI/CD pijpleiding, zie [&#x200B; Gebruik CI/CD Pijpleiding in Adobe Cloud Manager &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/cloud-manager/use-the-cicd-pipeline-in-cloud-manager-for-aem.html?lang=nl-NL).
 
 ## Browser-cache wissen
 
 Na het upgradeproces moeten alle gebruikers het cachegeheugen van de browser wissen voordat ze de geüpgrade versie van AEM Guides gebruiken.
 
-**Bovenliggend onderwerp:**&#x200B;[ Download en installeer ](download-install.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Download en installeer &#x200B;](download-install.md)

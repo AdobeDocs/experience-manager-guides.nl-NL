@@ -23,7 +23,7 @@ Voor op artikel-gebaseerde het publiceren, moet u de output vooraf instellen voo
 
 Voer de volgende stappen uit om op artikel gebaseerde uitvoer te genereren:
 
-1. [ creeer de vooraf ingestelde Kennisbank ](./generate-output-knowledge-base.md) voor op artikel-gebaseerde output.
+1. [&#x200B; creeer de vooraf ingestelde Kennisbank &#x200B;](./generate-output-knowledge-base.md) voor op artikel-gebaseerde output.
 1. Navigeer aan het **lusje van Artikelen** en selecteer de onderwerpen waarvoor u wenst om de output te produceren.
 1. Selecteer **produceren output** bij de bovenkant om de output te produceren.
 
@@ -31,7 +31,7 @@ Voer de volgende stappen uit om op artikel gebaseerde uitvoer te genereren:
 
 1. In **bevestig dossiers voor het publiceren** herinnering, selecteer de dossiers u wilt publiceren en bevestigen door **te selecteren publiceren**.
 
-   ![ Nieuw ](images/knowledge-base-confirm-files-for-publishing.png){align="left"}
+   ![&#x200B; Nieuw &#x200B;](images/knowledge-base-confirm-files-for-publishing.png){align="left"}
 
    U zult de status van het proces van de outputgeneratie bekijken. De **kolom van Onderwerpen** maakt een lijst van de onderwerpen waarvoor de output wordt geproduceerd terwijl de **3&rbrace; kolom van de Status &lbrace;toont de het publiceren status van elk onderwerp.**
 
@@ -46,4 +46,4 @@ Voer de volgende stappen uit om op artikel gebaseerde uitvoer te genereren:
    > U kunt een bestaande uitvoervoorinstelling ook hernoemen, dupliceren of verwijderen in het menu Opties.
 
 
-**Bovenliggend onderwerp:**&#x200B;[ Werk met de Redacteur ](web-editor.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Werk met de Redacteur &#x200B;](web-editor.md)

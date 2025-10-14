@@ -18,19 +18,19 @@ U hebt waarschijnlijk een opslagplaats voor bestaande DITA-inhoud die u met AEM 
 
 >[!IMPORTANT]
 >
-> Zie [ digitale activa toevoegen aan Adobe Experience Manager as a Cloud Service Assets ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=nl-NL) voor gedetailleerde informatie in de gesteunde inhoud uploadt methodes in AEM.
+> Zie [&#x200B; digitale activa toevoegen aan Adobe Experience Manager as a Cloud Service Assets &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=nl-NL) voor gedetailleerde informatie in de gesteunde inhoud uploadt methodes in AEM.
 
 ## Assets Console-gebruikersinterface
 
-U kunt inhoud op uw bureaublad selecteren en in de AEM-gebruikersinterface \(webbrowser\) naar de doelmap slepen. Voor meer details, zie [ activa ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=nl-NL#upload-assets) in de documentatie van AEM uploaden.
+U kunt inhoud op uw bureaublad selecteren en in de AEM-gebruikersinterface \(webbrowser\) naar de doelmap slepen. Voor meer details, zie [&#x200B; activa &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=nl-NL#upload-assets) in de documentatie van AEM uploaden.
 
 ## AEM-bureaubladtoepassing
 
-Gebruik de AEM-bureaubladtoepassing als u een creatieve professional bent en de middelen op uw lokale bureaublad wilt beheren. U kunt deze elementen openen en bewerken met uw bureaubladtoepassingen. U kunt ook versies bijhouden en uw bestanden delen met andere gebruikers. Voor meer details, zie [ Desktop app van AEM ](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html?lang=nl-NL).
+Gebruik de AEM-bureaubladtoepassing als u een creatieve professional bent en de middelen op uw lokale bureaublad wilt beheren. U kunt deze elementen openen en bewerken met uw bureaubladtoepassingen. U kunt ook versies bijhouden en uw bestanden delen met andere gebruikers. Voor meer details, zie [&#x200B; Desktop app van AEM &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html?lang=nl-NL).
 
 ## Bulkingestor
 
-Als u grootschalige migraties en soms grote hoeveelheden inneemt, kunt u de inhoud uploaden met Asset bulksgewijs inslikken. Met dit hulpprogramma kunt u bulkinhoud uploaden uit ondersteunde datastores zoals Azure of S3. Voor meer details, zie [ bulkingestor van Activa ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=nl-NL#asset-bulk-ingestor).
+Als u grootschalige migraties en soms grote hoeveelheden inneemt, kunt u de inhoud uploaden met Asset bulksgewijs inslikken. Met dit hulpprogramma kunt u bulkinhoud uploaden uit ondersteunde datastores zoals Azure of S3. Voor meer details, zie [&#x200B; bulkingestor van Activa &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=nl-NL#asset-bulk-ingestor).
 
 ## FrameMaker gebruiken voor bulkupload
 
@@ -44,8 +44,8 @@ Als een of meer bestanden niet kunnen worden geüpload, wordt na het uploadproce
 
 ![](images/uuid-files-failed-to-upload_cs.png){width="650" align="center"}
 
-Voor meer details over hoe de diverse dossier het uploaden scenario&#39;s, [ zien uploaden inhoud DITA ](authoring-file-management.md#).
+Voor meer details over hoe de diverse dossier het uploaden scenario&#39;s, [&#x200B; zien uploaden inhoud DITA &#x200B;](authoring-file-management.md#).
 
 Als u een hulpprogramma zoals een AEM-bureaubladtoepassing of het bulksgewijs invoegen van middelen gebruikt, wordt de handeling die op een gedupliceerd bestand wordt uitgevoerd, bepaald door een instelling op de AEM-server. Neem contact op met de systeembeheerder voor informatie over deze configuratie.
 
-**Bovenliggend onderwerp:**&#x200B;[ beheert inhoud ](authoring.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; beheert inhoud &#x200B;](authoring.md)

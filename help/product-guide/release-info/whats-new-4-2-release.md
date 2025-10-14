@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Dit artikel behandelt de nieuwe en verbeterde eigenschappen in versie 4.2 van Adobe Experience Manager Guides (later die als *wordt bedoeld AEM Guides*).
 
-Voor meer details op de verbeteringsinstructies, verenigbaarheidsmatrijs, en de kwesties die in deze versie worden bevestigd, zie het [ de nota&#39;s van de Versie ](release-notes-4-2.md) artikel.
+Voor meer details op de verbeteringsinstructies, verenigbaarheidsmatrijs, en de kwesties die in deze versie worden bevestigd, zie het [&#x200B; de nota&#39;s van de Versie &#x200B;](release-notes-4-2.md) artikel.
 
 ## Rapporten genereren vanuit de webeditor
 

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Dit artikel behandelt de nieuwe en verbeterde eigenschappen in versie Maart 2023 van Adobe Experience Manager Guides (later genoemd als *as a Cloud Service van AEM Guides*).
 
-Voor meer details op de verbeteringsinstructies, verenigbaarheidsmatrijs, en de kwesties die in deze versie worden bevestigd, zie het [ de nota&#39;s van de Versie ](release-notes-2023-3-0.md) artikel.
+Voor meer details op de verbeteringsinstructies, verenigbaarheidsmatrijs, en de kwesties die in deze versie worden bevestigd, zie het [&#x200B; de nota&#39;s van de Versie &#x200B;](release-notes-2023-3-0.md) artikel.
 
 
 ## Video- of audiobestanden openen en afspelen in de webeditor

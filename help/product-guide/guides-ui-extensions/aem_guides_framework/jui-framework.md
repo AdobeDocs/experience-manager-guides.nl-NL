@@ -26,7 +26,7 @@ JUI-React-Spectrum  bibliotheek bevat omvattende widgets voor Adobe React Spect
 
 ### MVC UI-ontwerp
 
-![ JUI MVC stroom ](./imgs/jui-mvc-flow.png)
+![&#x200B; JUI MVC stroom &#x200B;](./imgs/jui-mvc-flow.png)
 
 ### Widget
 
@@ -38,7 +38,7 @@ JUI-React-Spectrum  bibliotheek bevat omvattende widgets voor Adobe React Spect
 - Kan andere widgets hebben
 - App is een widget
 
-![ JUI Widget ](./imgs/jui-widget.png)
+![&#x200B; JUI Widget &#x200B;](./imgs/jui-widget.png)
 
 ### Element
 
@@ -79,4 +79,4 @@ JUI-React-Spectrum  bibliotheek bevat omvattende widgets voor Adobe React Spect
 
 ### Voorbeeld van toepassingsontwerp
 
-![ Steekproef App ](./imgs/jui-sample-app.png)
+![&#x200B; Steekproef App &#x200B;](./imgs/jui-sample-app.png)

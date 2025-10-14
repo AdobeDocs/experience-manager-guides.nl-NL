@@ -21,7 +21,7 @@ Dit artikel biedt een gedetailleerd, stapsgewijs proces voor het migreren van uw
 ## Voorwaarden
 
 * Adobe Experience Manager 6.4 of hoger
-* Experience Manager Guides moet de UUID-versie hebben. Als u een niet-UUID versie van Adobe Experience Manager Guides gebruikt, migreer eerst aan UUID gebruikend de stappen in [ Migreer niet-DITA inhoud ](../install-guide/migrate-uuid-non-uuid.md).
+* Experience Manager Guides moet de UUID-versie hebben. Als u een niet-UUID versie van Adobe Experience Manager Guides gebruikt, migreer eerst aan UUID gebruikend de stappen in [&#x200B; Migreer niet-DITA inhoud &#x200B;](../install-guide/migrate-uuid-non-uuid.md).
 * Toegang tot **Cloud Acceleration Manager** voor de wolkeninstantie waar u wenst om de inhoud te migreren
 * Maximaal 20 TB opslagruimte wordt ondersteund
 * Totale Lucene Index-grootte van 25 GB
@@ -39,9 +39,9 @@ U kunt het **Hulpmiddel van de Overdracht van de Inhoud** als dossier van het ZI
 1. Het hulpmiddel van de Overdracht van de Inhoud van het onderzoek **&#x200B;**.
 1. Selecteer **het Hulpmiddel van de Overdracht van de Inhoud** van de lijst en download het.
 
-![ hulpmiddel van de de inhoudoverdracht van de download ](./assets/content-transfer-tool-software-portal.png)
+![&#x200B; hulpmiddel van de de inhoudoverdracht van de download &#x200B;](./assets/content-transfer-tool-software-portal.png)
 Dan installeer het pakket via **Manager van het Pakket** op uw bronAdobe Experience Manager instantie. Download de nieuwste versie.
-Voor meer details op de recentste versie, mening [ de Nota&#39;s van de Versie ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html?lang=nl-NL).
+Voor meer details op de recentste versie, mening [&#x200B; de Nota&#39;s van de Versie &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html?lang=nl-NL).
 
 >[!NOTE]
 > 
@@ -53,39 +53,39 @@ Voor meer details op de recentste versie, mening [ de Nota&#39;s van de Versie ]
 
 Voer de volgende stappen uit om Experience Manager Guides-inhoud te migreren naar Experience Manager als cloudservice.
 
-1. Login aan [ experience.adobe.com ](https://experience.adobe.com/) en selecteert **Experience Manager**.
+1. Login aan [&#x200B; experience.adobe.com &#x200B;](https://experience.adobe.com/) en selecteert **Experience Manager**.
 
-   ![ ervaringsmanager ](./assets/migration-experience-manager.png)
+   ![&#x200B; ervaringsmanager &#x200B;](./assets/migration-experience-manager.png)
 
 
 1. Klik **Lancering** op de **Cloud Acceleration Manager** tegel.
-   ![ manager van de wolkenversnelling ](./assets/migration-experience-manager-cloud.png)
+   ![&#x200B; manager van de wolkenversnelling &#x200B;](./assets/migration-experience-manager-cloud.png)
 
 1. Maak uw eerste project.
-   ![ creeer project ](./assets/migration-cloud-create-project.png)
+   ![&#x200B; creeer project &#x200B;](./assets/migration-cloud-create-project.png)
 
 1. Voeg de naam en de beschrijving toe en klik **creëren**. Uw project is gemaakt.
 1. Selecteer het gemaakte project en open het projectscherm.
 1. Klik **Overzicht** op de **Inhoud overbrengen** tegel.
 
-   ![ de inhoudsoverdracht van het Overzicht ](./assets/migration-content-transfer-review.png)
+   ![&#x200B; de inhoudsoverdracht van het Overzicht &#x200B;](./assets/migration-content-transfer-review.png)
 
 1. Klik **creeer migratieset**.
 
 1. Geef de naam en beschrijving voor de migratieset op.
 
 
-   ![ creeer-migratie-reeks ](./assets/migration-cloud-create-migration-set.png)
+   ![&#x200B; creeer-migratie-reeks &#x200B;](./assets/migration-cloud-create-migration-set.png)
 
 
 1. Na de verwezenlijking, selecteer de drie punten en selecteer **de extractiesleutel van het Exemplaar**.
 
 
 1. Klik **Exemplaar aan klembord**. Maak uw eerste project.
-   ![ extractiesleutel ](./assets/migration-copy-to-clipboard.png)
+   ![&#x200B; extractiesleutel &#x200B;](./assets/migration-copy-to-clipboard.png)
 
 1. Selecteer **Adobe Experience Manager** op de bovenkant en selecteer dan de **3&rbrace; tegel van de Distributie van de Software &lbrace;.**
-   ![ portal van de softwaredistributie ](./assets/migration-software-portal.png)
+   ![&#x200B; portal van de softwaredistributie &#x200B;](./assets/migration-software-portal.png)
 
 
 1. Voor het **portaal van de Distributie van de Software 0&rbrace; &lbrace;, uitgezochte** Adobe Experience Manager als Cloud Service **lusje, onderzoek &quot;inhoudsoverdrachthulpmiddel&quot;, en download het pakket van het inhoudsoverdrachtshulpmiddel.**
@@ -95,7 +95,7 @@ Voer de volgende stappen uit om Experience Manager Guides-inhoud te migreren naa
    >  Zorg ervoor dat u de nieuwste versie downloadt.
 
 1. Upload en installeer het pakket `content-transfer.all-3.0.10.zip` in de **Manager van het Pakket** van uw instantie On-premise.
-   ![ hulpmiddel van de de inhoudoverdracht van de download ](./assets/content-transfer-tool-software-portal.png)
+   ![&#x200B; hulpmiddel van de de inhoudoverdracht van de download &#x200B;](./assets/content-transfer-tool-software-portal.png)
 
 
 1. Op de op-premise instantie selecteer **Hulpmiddelen** > **Verrichtingen** > **de Migratie van de Inhoud** > **de Overdracht van de Inhoud**.
@@ -110,7 +110,7 @@ Voer de volgende stappen uit om Experience Manager Guides-inhoud te migreren naa
 Bijvoorbeeld: `/content/sites`
 of
    `/content/dam/tech-docs`
-   ![ inbegrepen wegen ](./assets/migration-included-paths.png)
+   ![&#x200B; inbegrepen wegen &#x200B;](./assets/migration-included-paths.png)
 
 
 
@@ -129,26 +129,26 @@ of
 
 1. Klik **sparen**
 1. Selecteer de **geplaatste migratie** en selecteer dan **Extraheren** op de bovenkant.
-   ![ extractie van migratieset ](./assets/migration-extract.png)
+   ![&#x200B; extractie van migratieset &#x200B;](./assets/migration-extract.png)
 
 1. Verifieer details in de **Vastgestelde Extractie van de Migratie** pop - omhoog voor de wegen en de configuraties u selecteerde en **klikt Extraheren**. De extractie neemt enkele minuten in beslag en u ziet de bijgewerkte status.
-   ![ migratie plaatste extractie ](./assets/migration-set-extraction.png)
+   ![&#x200B; migratie plaatste extractie &#x200B;](./assets/migration-set-extraction.png)
 
 1. Wanneer de extractie is voltooid en wordt aangegeven door de status `finished` , gaat u naar Cloud Acceleration Manager en selecteert u het project dat u in stap 18 hebt gemaakt.
 Voor meer informatie selecteer de drie punten, en selecteer dan **details van de Mening**.
 
 
 1. Controleer in het pop-upvenster Gegevens migratieset de configuratie van de migratieset en sluit het pop-upvenster. U kunt de paden en andere instellingen weergeven zoals in de volgende schermafbeelding wordt getoond:
-   ![ migratie-details ](./assets/migration-details.png)
+   ![&#x200B; migratie-details &#x200B;](./assets/migration-details.png)
 
 
 1. Klik **IngestieBanen** > **Nieuwe Ingestie**.
 1. Bevestig de vereiste controletekenwaarden en klik dan **creëren**.
-   ![ erkent migratiecontroles ](./assets/migration-new-ingestion-acknowledge.png)
+   ![&#x200B; erkent migratiecontroles &#x200B;](./assets/migration-new-ingestion-acknowledge.png)
 
 1. Kies de migratiereeks, selecteer de vereiste server van uw milieu, en klik dan **Samenvatting**.
 
-   ![ nieuwe opname ](./assets/migration-new-ingestion.png)
+   ![&#x200B; nieuwe opname &#x200B;](./assets/migration-new-ingestion.png)
 
 ## Content Transfer Tool uitvoeren op een Publish-instantie
 
@@ -181,7 +181,7 @@ Als de extractie mislukt als gevolg van de volgende fout, kunt u dit oplossen do
 `casstorageprod.blob.core.windows.net`
 
 
-![ ssl registreren ](./assets/migration-ssl-logging.png)
+![&#x200B; ssl registreren &#x200B;](./assets/migration-ssl-logging.png)
 
 
 *laat SSL het Registreren toe.*

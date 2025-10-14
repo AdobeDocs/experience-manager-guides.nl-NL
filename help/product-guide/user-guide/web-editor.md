@@ -34,4 +34,4 @@ Ook, is de Redacteur DITA-bewust en het steunt normen DITA 1.3, 1.2, lichtgewich
 - **[de etiketten van het Gebruik](web-editor-use-label.md)**
 
 
-**Bovenliggend onderwerp:**&#x200B;[ Inhoud van de Auteur gebruikend Experience Manager Guides ](authoring-content-xml-doc.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Inhoud van de Auteur gebruikend Experience Manager Guides &#x200B;](authoring-content-xml-doc.md)

@@ -49,7 +49,7 @@ De verschillende opties in het contextmenu worden hieronder uitgelegd:
 
 ***sparen als Nieuwe Versie***
 
-Om een nieuwe versie van het dossier tot stand te brengen, uitgezocht **sparen als Nieuwe Versie**. Voor meer details over **sparen** en **sparen als Nieuwe Versie**, zie [ de eigenschappen van de Redacteur van het Web ](web-editor-features.md#) kennen.
+Om een nieuwe versie van het dossier tot stand te brengen, uitgezocht **sparen als Nieuwe Versie**. Voor meer details over **sparen** en **sparen als Nieuwe Versie**, zie [&#x200B; de eigenschappen van de Redacteur van het Web &#x200B;](web-editor-features.md#) kennen.
 
 ***Exemplaar***: U kunt van de volgende opties kiezen:
 
@@ -66,11 +66,11 @@ Om een nieuwe versie van het dossier tot stand te brengen, uitgezocht **sparen a
 
 ***voeg aan*** toe: U kunt van de volgende opties kiezen:
 
-- **Favorieten**: Om het geselecteerde dossier aan favoriete inzameling toe te voegen, selecteer **toevoegen aan \> Favorieten**. Voor meer details, zie de **&#x200B;**&#x200B;eigenschapbeschrijving van Favorieten in de [ Linkerpaneel ](web-editor-features.md#id2051EA0M0HS) sectie.
+- **Favorieten**: Om het geselecteerde dossier aan favoriete inzameling toe te voegen, selecteer **toevoegen aan \> Favorieten**. Voor meer details, zie de **&#x200B;**&#x200B;eigenschapbeschrijving van Favorieten in de [&#x200B; Linkerpaneel &#x200B;](web-editor-features.md#id2051EA0M0HS) sectie.
 
 
 
-- **Herbruikbare Inhoud**: Om het geselecteerde dossier aan de herbruikbare inhoudslijst te kopiëren, uitgezocht **voeg aan \> Herbruikbare Inhoud** toe. Voor meer details, zie de **Herbruikbare de eigenschapbeschrijving van Inhoud** in de [ Linkerpaneel ](web-editor-features.md#id2051EA0M0HS) sectie.
+- **Herbruikbare Inhoud**: Om het geselecteerde dossier aan de herbruikbare inhoudslijst te kopiëren, uitgezocht **voeg aan \> Herbruikbare Inhoud** toe. Voor meer details, zie de **Herbruikbare de eigenschapbeschrijving van Inhoud** in de [&#x200B; Linkerpaneel &#x200B;](web-editor-features.md#id2051EA0M0HS) sectie.
 
 
 
@@ -89,7 +89,7 @@ Door gebrek, staat de Redacteur van het Web u toe om één onderwerp tegelijkert
 
 ***Snel produceren***
 
-Genereer de uitvoer voor het geselecteerde bestand. Uitvoer kan alleen worden gegenereerd voor bestanden die deel uitmaken van een uitvoervoorinstelling. Voor meer details, zie [ Op artikel-gebaseerde het publiceren van de Redacteur van het Web ](web-editor-article-publishing.md#id218CK0U019I).
+Genereer de uitvoer voor het geselecteerde bestand. Uitvoer kan alleen worden gegenereerd voor bestanden die deel uitmaken van een uitvoervoorinstelling. Voor meer details, zie [&#x200B; Op artikel-gebaseerde het publiceren van de Redacteur van het Web &#x200B;](web-editor-article-publishing.md#id218CK0U019I).
 
 ***dicht***: U kunt van de volgende opties kiezen:
 
@@ -118,7 +118,7 @@ Afhankelijk van of het bestand vergrendeld/ontgrendeld is en of de opgeslagen of
 
   ![](images/file-close-unlock-file.png){width="400" align="left"}
 
-- **sparen als Nieuwe Versie**: Dit zal de veranderingen bewaren u in uw inhoud hebt aangebracht en tot een nieuwe versie van uw dossier leiden. U kunt ook labels en opmerkingen toevoegen voor de zojuist opgeslagen versie. Voor meer informatie over het bewaren van een nieuwe versie, zie [ sparen als Nieuwe Versie ](web-editor-features.md#save-as-new-version-id209ME400GXA).
+- **sparen als Nieuwe Versie**: Dit zal de veranderingen bewaren u in uw inhoud hebt aangebracht en tot een nieuwe versie van uw dossier leiden. U kunt ook labels en opmerkingen toevoegen voor de zojuist opgeslagen versie. Voor meer informatie over het bewaren van een nieuwe versie, zie [&#x200B; sparen als Nieuwe Versie &#x200B;](web-editor-features.md#save-as-new-version-id209ME400GXA).
 
 - **ontgrendel het Dossier**: Als u verkiest om een dossier te ontgrendelen, zal het de slot op uw dossier vrijgeven en de veranderingen worden bewaard in de huidige versie van het dossier.
 
@@ -148,11 +148,11 @@ Afhankelijk van of het bestand vergrendeld/ontgrendeld is en of de opgeslagen of
 
 **Steun voor op artikel-gebaseerde het publiceren**
 
-- Van de Redacteur van het Web, kunt u de output voor één of meerdere onderwerpen, of de volledige kaart produceren DITA. U moet outputvoorinstellingen voor uw kaart creëren DITA en dan kunt u de output voor één of meerdere onderwerpen gemakkelijk produceren. Als u een paar onderwerpen in uw kaart hebt bijgewerkt, kunt u de output slechts voor die onderwerpen van de Redacteur van het Web ook produceren. Voor meer details, zie [ Op artikel-gebaseerde het publiceren van de Redacteur van het Web ](web-editor-article-publishing.md#id218CK0U019I).
+- Van de Redacteur van het Web, kunt u de output voor één of meerdere onderwerpen, of de volledige kaart produceren DITA. U moet outputvoorinstellingen voor uw kaart creëren DITA en dan kunt u de output voor één of meerdere onderwerpen gemakkelijk produceren. Als u een paar onderwerpen in uw kaart hebt bijgewerkt, kunt u de output slechts voor die onderwerpen van de Redacteur van het Web ook produceren. Voor meer details, zie [&#x200B; Op artikel-gebaseerde het publiceren van de Redacteur van het Web &#x200B;](web-editor-article-publishing.md#id218CK0U019I).
 
 **Steun voor de documenten van de Prijsverhoging**
 
-- In de webeditor kunt u Markeringen gebruiken voor documenten \(.md\) en voor uw DITA-documenten. U kunt een document van de Prijsverhoging in de Redacteur van het Web gemakkelijk ontwerpen en voorproef en het ook toevoegen in uw kaartdossier door DITA kaartredacteur. Voor meer details, zie [ documenten van de Prijsverlaging van de Auteur van het Web ](web-editor-markdown-topic.md#).
+- In de webeditor kunt u Markeringen gebruiken voor documenten \(.md\) en voor uw DITA-documenten. U kunt een document van de Prijsverhoging in de Redacteur van het Web gemakkelijk ontwerpen en voorproef en het ook toevoegen in uw kaartdossier door DITA kaartredacteur. Voor meer details, zie [&#x200B; documenten van de Prijsverlaging van de Auteur van het Web &#x200B;](web-editor-markdown-topic.md#).
 
 **Steun voor DITA verklarende woordenlijstterm onderwerp**
 
@@ -162,11 +162,11 @@ Afhankelijk van of het bestand vergrendeld/ontgrendeld is en of de opgeslagen of
 
 - Experience Manager Guides geeft u een out-of-the-box steun voor het opnemen van de vergelijkingen van MathML door integratie met [&#128279;](https://docs.wiris.com/en/mathtype/mathtype_web/intro) toepassing van het Web MathType . Om een vergelijking van MathML op te nemen, selecteer het **pictogram van het Element van het Tussenvoegsel** en type mathml. Wanneer u mathml element van de lijst selecteert, wordt de **dialoog van MathML van het Tussenvoegsel** getoond:
 
-![ neem mathml vergelijking in mathml redacteur op ](images/insert-mathml-equation.png){width="550" align="left"}
+![&#x200B; neem mathml vergelijking in mathml redacteur op &#x200B;](images/insert-mathml-equation.png){width="550" align="left"}
 
 Gebruikend de de vergelijkingshulpmiddelen van MathML, creeer uw vergelijking en klik **Tussenvoegsel** om het aan uw document toe te voegen. De vergelijking wordt ingevoegd met lichtgrijze achtergrond, zoals hieronder wordt getoond:
 
-![ steekproef mathml vergelijking ](images/sample-mathml-equation.PNG){width="400" align="left"}
+![&#x200B; steekproef mathml vergelijking &#x200B;](images/sample-mathml-equation.PNG){width="400" align="left"}
 
 Op elk ogenblik kunt u een vergelijking bijwerken door op een bestaande vergelijking met de rechtermuisknop te klikken en **te selecteren geeft MathML** van het contextmenu uit.
 
@@ -175,7 +175,7 @@ Op elk ogenblik kunt u een vergelijking bijwerken door op een bestaande vergelij
   Experience Manager Guides valideert MathML-vergelijkingen wanneer u een onderwerp opslaat dat ze bevat.
 Als u een vergelijking invoegt met de MathML-editor, wordt de vergelijking rood gemarkeerd als er syntaxisproblemen zijn. U kunt dit corrigeren voordat u het invoegt. Als u geen veranderingen aanbrengt maar **uitgezocht Tussenvoegsel** selecteert, toont het een waarschuwing.
 
-  ![ bevestigt mathml vergelijking ](images/validate-mathml-equation.png){width="400" align="left"}
+  ![&#x200B; bevestigt mathml vergelijking &#x200B;](images/validate-mathml-equation.png){width="400" align="left"}
 
   Als u de vergelijking van MathML opneemt die een syntaxisfout bevat, komt een bevestigingsfout voor wanneer u probeert om het onderwerp op te slaan.
 
@@ -234,7 +234,7 @@ Naast het contextmenu van de broodkruimel, kan het anders noemen de dialoog van 
 
 **Behandelend vaste ruimten in de Redacteur van het Web**
 
-- U kunt vaste ruimten in uw document opnemen gebruikend het **Speciale Karakters van het Tussenvoegsel** ![ het pictogram van het tussenvoegsel speciale karakters ](images/insert-special-chars-icon.svg) of **Alt** + **de kortere wegsleutels van de Ruimte**.  Deze vaste spaties verschijnen als indicator terwijl u een onderwerp in de Redacteur van het Web uitgeeft. U kunt de vertoning van de vaste ruimten met **tonen niet-breekbaar ruimteindicator op de auteurswijze** optie van de **Verschijning** tabel van de **voorkeur van de Gebruiker** ![ pictogram van de voorkeur van de Gebruiker ](images/user_preference_editor_icon.svg).
+- U kunt vaste ruimten in uw document opnemen gebruikend het **Speciale Karakters van het Tussenvoegsel** ![&#x200B; het pictogram van het tussenvoegsel speciale karakters &#x200B;](images/insert-special-chars-icon.svg) of **Alt** + **de kortere wegsleutels van de Ruimte**.  Deze vaste spaties verschijnen als indicator terwijl u een onderwerp in de Redacteur van het Web uitgeeft. U kunt de vertoning van de vaste ruimten met **tonen niet-breekbaar ruimteindicator op de auteurswijze** optie van de **Verschijning** tabel van de **voorkeur van de Gebruiker** ![&#x200B; pictogram van de voorkeur van de Gebruiker &#x200B;](images/user_preference_editor_icon.svg).
 
 - Als u inhoud met een vaste ruimte van om het even welke externe bronnen in de **auteur** mening kopieert en kleeft, wordt de vaste ruimte omgezet in een ruimte.
 Nochtans, als u inhoud met een vaste ruimte van de **auteur** mening kopieert en kleeft, wordt het bewaard.
@@ -253,4 +253,4 @@ Ga als volgt te werk om automatisch een id voor een of meerdere elementen te gen
    Alternatief kunt u in breadcrumb met de rechtermuisknop klikken en **selecteren produceert IDs**.
 
 
-**Bovenliggend onderwerp:**&#x200B;[ Werk met de Redacteur van het Web ](web-editor.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Werk met de Redacteur van het Web &#x200B;](web-editor.md)

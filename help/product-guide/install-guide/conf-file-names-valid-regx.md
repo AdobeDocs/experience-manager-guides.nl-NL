@@ -45,6 +45,6 @@ Voer de volgende stappen uit om regx te configureren voor geldige \(of toegestan
 
 >[!NOTE]
 >
-> Net als in de lijst met geldige bestandsnaamtekens kunt u ook een lijst met geldige bestandsnaamtekens opgeven voor AEM site-uitvoer. Voor meer details, zie [ geldige dossiernamen voor AEM output van de Plaats ](conf-file-names-valid-regx-aem-site-output.md#) vormen.
+> Net als in de lijst met geldige bestandsnaamtekens kunt u ook een lijst met geldige bestandsnaamtekens opgeven voor AEM site-uitvoer. Voor meer details, zie [&#x200B; geldige dossiernamen voor AEM output van de Plaats &#x200B;](conf-file-names-valid-regx-aem-site-output.md#) vormen.
 
-**Bovenliggend onderwerp:**&#x200B;[ vorm filenames ](conf-file-names.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; vorm filenames &#x200B;](conf-file-names.md)

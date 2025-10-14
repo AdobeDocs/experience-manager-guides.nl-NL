@@ -13,9 +13,9 @@ ht-degree: 0%
 
 Dit artikel heeft betrekking op de fouten die zijn opgelost in verschillende gebieden van de release van Adobe Experience Manager Guides as a Cloud Service in 2024.2.0.
 
-Voor meer informatie over de nieuwe eigenschappen en de verhogingen, mening [ wat in de versie 2024.2.0 ](whats-new-2024-2-0.md) nieuw is.
+Voor meer informatie over de nieuwe eigenschappen en de verhogingen, mening [&#x200B; wat in de versie 2024.2.0 &#x200B;](whats-new-2024-2-0.md) nieuw is.
 
-Leer over [ verbeteringsinstructies voor de versie 2024.2.0 ](upgrade-instructions-2024-2-0.md).
+Leer over [&#x200B; verbeteringsinstructies voor de versie 2024.2.0 &#x200B;](upgrade-instructions-2024-2-0.md).
 
 
 

@@ -14,9 +14,9 @@ ht-degree: 0%
 
 Dit artikel behandelt de nieuwe en verbeterde functies die zijn geïntroduceerd met de release 2025.06.0 van Adobe Experience Manager Guides as a Cloud Service.
 
-Voor de lijst van kwesties die in deze versie worden bevestigd, mening [ Vaste kwesties in de versie 2025.06.0 ](fixed-issues-2025-06-0.md).
+Voor de lijst van kwesties die in deze versie worden bevestigd, mening [&#x200B; Vaste kwesties in de versie 2025.06.0 &#x200B;](fixed-issues-2025-06-0.md).
 
-Leer over [ verbeteringsinstructies voor de versie 2025.06.0 ](../release-info/upgrade-instructions-2025-06-0.md).
+Leer over [&#x200B; verbeteringsinstructies voor de versie 2025.06.0 &#x200B;](../release-info/upgrade-instructions-2025-06-0.md).
 
 ## Time-outmelding voor sessie om onbedoeld verlies van inhoud te voorkomen
 
@@ -24,13 +24,13 @@ Er verschijnt nu een pop-upbericht waarin u wordt gewaarschuwd wanneer uw Adobe 
 
 ![](assets/sign-out-prompt.png)
 
-Leer meer over [ herinnering van de zittingsonderbreking ](../user-guide/session-timeout-prompt.md) in Experience Manager Guides.
+Leer meer over [&#x200B; herinnering van de zittingsonderbreking &#x200B;](../user-guide/session-timeout-prompt.md) in Experience Manager Guides.
 
 ## Verbeterde opties voor kaartdownloaden in de Editor
 
 Experience Manager Guides introduceert een nieuwe **Echte het dossiernamen van het Gebruik** optie in de **kaart van de Download** dialoog. Wanneer u nu kaartbestanden downloadt, kunt u ervoor kiezen de oorspronkelijke bestandsnamen te behouden in plaats van de standaard-UUID&#39;s, waardoor het veel eenvoudiger wordt om uw bestanden te herkennen en te beheren. Deze optie is slechts beschikbaar als u **selecteert behoud dossierhiërarchie** en gehandicapt wanneer u **kiest afvlakken dossierhiërarchie**, die u meer flexibiliteit geeft in het organiseren van uw gedownloade kaarten.
 
-Voor meer details, mening [ dossiers van de Download ](../user-guide/authoring-download-assets.md#download-a-dita-map-file-from-the-editor).
+Voor meer details, mening [&#x200B; dossiers van de Download &#x200B;](../user-guide/authoring-download-assets.md#download-a-dita-map-file-from-the-editor).
 
 ![](assets/download-map-dialog-new.png){width="300" align="left"}
 
@@ -39,7 +39,7 @@ Voor meer details, mening [ dossiers van de Download ](../user-guide/authoring-d
 
 De meest recente verbeteringen aan de Editor verbeteren de verwerking van `navref` -elementen in een DITA-kaart. Nu, wanneer u een `navref` element aan een kaart toevoegt, opent de **Uitgezochte weg** dialoog, toestaand u om de kaartverwijzingen gemakkelijk te kiezen om als navigatiekoppelingen in uw kaart te omvatten. Nadat de titel van de toegevoegde kaart is toegevoegd, wordt deze zowel in de ontwerpweergave als in de layoutweergave weergegeven, zodat de opgenomen navigatie tijdens het ontwerpen beter zichtbaar is.  Bovendien wordt het toegevoegde `navref` -element automatisch omgezet om de doorverwezen kaart in de Editor weer te geven.
 
-Voor meer details, voegt de mening [ navigatieverwijzingen ](../user-guide/map-editor-other-features.md#add-navigation-references) toe.
+Voor meer details, voegt de mening [&#x200B; navigatieverwijzingen &#x200B;](../user-guide/map-editor-other-features.md#add-navigation-references) toe.
 
 ## Prestatieverbeteringen in AI Assistant
 
@@ -48,5 +48,5 @@ De release introduceert verbeteringen voor de AI Assistant-backendengine, die be
 - Werk de `chat.url` configuratie bij om op het nieuwe eindpunt URL te wijzen.
 - Voeg een nieuwe omgevingsvariabele `GUIDES_AI_SITE_ID` toe in Cloud Manager.
 
-Voor details, vormt de mening [ de Medewerker AI ](../cs-install-guide/conf-smart-suggestions.md).
+Voor details, vormt de mening [&#x200B; de Medewerker AI &#x200B;](../cs-install-guide/conf-smart-suggestions.md).
 

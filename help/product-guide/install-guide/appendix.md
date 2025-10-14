@@ -22,7 +22,7 @@ Terwijl het mogelijk is om de inhoud DITA in een zinnige orde in een redacteur u
 
 ***het Verbinden tekstkaders***
 
-InDesign gebruikt de term *&quot;threading&quot;* voor het proces om één kader aan een andere te verbinden. Voor meer details over het verbinden van tekstkaders, zie *[Verbindend tekst ](https://helpx.adobe.com/in/indesign/using/threading-text.html)* onderwerp in de documentatie van het InDesign.
+InDesign gebruikt de term *&quot;threading&quot;* voor het proces om één kader aan een andere te verbinden. Voor meer details over het verbinden van tekstkaders, zie *[Verbindend tekst &#x200B;](https://helpx.adobe.com/in/indesign/using/threading-text.html)* onderwerp in de documentatie van het InDesign.
 
 ***Overlappende kaders***
 
@@ -196,7 +196,7 @@ In het bovenstaande voorbeeld zijn er twee `paraRule` -elementen voor `@style` =
 De kenmerken die worden gebruikt in `doctypeParaRule` worden hieronder uitgelegd:
 
 - `@style`: De naam van een stijl in het document van het bronInDesign.
-- `@local`: Zie [\#id194CG0V005Z ](#id194CG0V005Z).
+- `@local`: Zie [\#id194CG0V005Z &#x200B;](#id194CG0V005Z).
 - `@mapToDoctype`: De naam van een DITA onderwerptype van een opgesomde lijst van alle geldige `doctypes`.
 
 **Regels van de het verpakken van het Element**
@@ -306,7 +306,7 @@ Het element `paraRule` is verplicht. Hiermee geeft u de toewijzingsregels voor a
 De kenmerken die worden gebruikt in `paraRule` worden hieronder uitgelegd:
 
 - `@style`: De naam van een stijl in het document van het bronInDesign.
-- `@local`: Zie [\#id194CG0V005Z ](#id194CG0V005Z).
+- `@local`: Zie [\#id194CG0V005Z &#x200B;](#id194CG0V005Z).
 - `@mapTo`: De naam van een DITA-doelelement.
 
 - `@context`: Dit attribuut wordt gebruikt om aan een specifieke **omslag** regel te verbinden wanneer meer dan één omslagkeus beschikbaar is. Voorbeeld: het `li` -element kan zijn verpakt in een `ol` - of `ul` -element. Als u de verschillende lijsttypen wilt identificeren, kunt u een specifieke stijlnaam of het kenmerk `@local` gebruiken, die het volgende kan weergeven:
@@ -339,7 +339,7 @@ Dit zijn de toewijzingsregels voor alle tekenstijlen. In een document van het In
 De kenmerken die worden gebruikt in `charRule` worden hieronder uitgelegd:
 
 - `@style`: De naam van een stijl in het document van het bronInDesign.
-- `@local`: Zie [\#id194CG0V005Z ](#id194CG0V005Z).
+- `@local`: Zie [\#id194CG0V005Z &#x200B;](#id194CG0V005Z).
 - `@mapTo`: De naam van een DITA-doelelement.
 - `@refactor`: Dit optionele kenmerk heeft twee waarden:
    - `unwrap`: het overeenkomende element wordt verwijderd terwijl de inhoud behouden blijft.
@@ -420,7 +420,7 @@ De kenmerken die worden gebruikt in `elementRule` worden hieronder uitgelegd:
 
 - `@elementName`: De naam van een element in het document met het bronelement.
 
-- `@local`: Zie [\#id194CG0V005Z ](#id194CG0V005Z). \(Alleen handig voor hybride documenten\).
+- `@local`: Zie [\#id194CG0V005Z &#x200B;](#id194CG0V005Z). \(Alleen handig voor hybride documenten\).
 
 - `@mapTo`: De naam van een DITA-doelelement.
 

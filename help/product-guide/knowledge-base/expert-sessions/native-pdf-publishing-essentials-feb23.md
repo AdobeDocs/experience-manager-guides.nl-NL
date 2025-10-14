@@ -41,11 +41,11 @@ In deze sessie leert u over het volgende:
 
 ## Gerelateerde bronnen
 
-- {de video&#39;s van de Eigenschap 0} **- [ Experience League ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=nl-NL)**
+- {de video&#39;s van de Eigenschap 0} **- [&#x200B; Experience League &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=nl-NL)**
 
-- **Gids van de Gebruiker** - [ Inheemse PDF het publiceren ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/configuring/config-native-pdf-publish/pdf-template.html?lang=en)
+- **Gids van de Gebruiker** - [&#x200B; Inheemse PDF het publiceren &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/configuring/config-native-pdf-publish/pdf-template.html?lang=en)
 
-- **Communautair Forum** - voor zitting-specifieke communautaire interactie over Experience League, bezoek [ het Forum van AEM Guides ](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Communautair Forum** - voor zitting-specifieke communautaire interactie over Experience League, bezoek [&#x200B; het Forum van AEM Guides &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >

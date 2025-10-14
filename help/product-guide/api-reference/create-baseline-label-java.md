@@ -17,7 +17,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 > U kunt op Java gebaseerde API&#39;s die beschikbaar zijn in Experience Manager Guides gebruiken om aangepaste plug-ins te maken en workflows uit te breiden. Dit artikel wordt in november 2024 gearchiveerd.
-> De mening [![ javadoc ](https://javadoc.io/badge2/com.adobe.aem/aem-guides-sdk-api/javadoc.svg) ](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api) voor de recentste en gedetailleerde documentatie bij het gebruiken van op Java-Gebaseerde API.
+> De mening [![&#x200B; javadoc &#x200B;](https://javadoc.io/badge2/com.adobe.aem/aem-guides-sdk-api/javadoc.svg) &#x200B;](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api) voor de recentste en gedetailleerde documentatie bij het gebruiken van op Java-Gebaseerde API.
 
 
 Met de volgende op Java gebaseerde API&#39;s kunt u basislijnen maken en labels toevoegen aan bestanden in een basislijn. Deze API&#39;s zijn beschikbaar in de vorm van een bundel. U moet deze bundel in uw code omvatten om deze APIs te gebruiken.
@@ -121,7 +121,7 @@ public static void applyLabel(Session session,
 |----|----|-----------|
 | `session` | javax.jcr.Session | Een geldige JCR-sessie. |
 | `sourcePath` | String | Absoluut pad van het DITA-kaartbestand in AEM opslagplaats. |
-| ``baselineName`` | String | Naam van het basislijnknooppunt waarop het label moet worden toegepast. Om de naam van de basislijnknoop te krijgen, kunt u [ gebruiken \ #id185NFF0085Z ](#id185NFF0085Z) methode of de basislijnknoop van de kaart DITA in CRXDE controleren.<br> **Nota:** het Etiket wordt toegepast op versie van dossiers die direct van het kaartdossier in de basislijn van verwijzingen worden voorzien. |
+| ``baselineName`` | String | Naam van het basislijnknooppunt waarop het label moet worden toegepast. Om de naam van de basislijnknoop te krijgen, kunt u [&#x200B; gebruiken \ #id185NFF0085Z &#x200B;](#id185NFF0085Z) methode of de basislijnknoop van de kaart DITA in CRXDE controleren.<br> **Nota:** het Etiket wordt toegepast op versie van dossiers die direct van het kaartdossier in de basislijn van verwijzingen worden voorzien. |
 | `label` | String | Een label dat wordt toegepast op bestanden in de basislijn. Zorg ervoor dat het label niet de volgende tekens bevat: &sol; &komma; &dubbelepunt; &komma; &lbrack; &komma; &komma; &vert; &komma; &amp; komma; &ast; <br> Als u meerdere labels wilt instellen, moet u labels scheiden met een komma, bijvoorbeeld Label 1, Label2. |
 
 **Uitzondering**:

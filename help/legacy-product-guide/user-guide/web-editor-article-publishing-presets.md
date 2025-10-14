@@ -26,7 +26,7 @@ Voer de volgende stappen uit om outputvoorinstellingen voor uw kaart te creëren
 
    >[!NOTE]
    >
-   > U kunt om het even welk onderwerp van de kaart toevoegen of schrappen gebruikend de Geavanceerde Redacteur van de Kaart. Voor meer details, zie [ Werk met de Geavanceerde Redacteur van de Kaart ](map-editor-advanced-map-editor.md#).
+   > U kunt om het even welk onderwerp van de kaart toevoegen of schrappen gebruikend de Geavanceerde Redacteur van de Kaart. Voor meer details, zie [&#x200B; Werk met de Geavanceerde Redacteur van de Kaart &#x200B;](map-editor-advanced-map-editor.md#).
 
 1. In het **lusje van de Output**, selecteer + pictogram om tot een output vooraf ingesteld voor uw kaart te leiden DITA.
 
@@ -61,4 +61,4 @@ Voer de volgende stappen uit om outputvoorinstellingen voor uw kaart te creëren
 
 ![](images/edit-preset_cs.png){width="550" align="left"}
 
-**Bovenliggend onderwerp:**&#x200B;[ Op artikel-gebaseerde het publiceren van de Redacteur van het Web ](web-editor-article-publishing.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Op artikel-gebaseerde het publiceren van de Redacteur van het Web &#x200B;](web-editor-article-publishing.md)

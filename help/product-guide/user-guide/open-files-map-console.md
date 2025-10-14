@@ -17,17 +17,17 @@ Voer de volgende stappen uit om een DITA kaartdossier in de console van de Kaart
 
 1. Open **console van de Kaart** van de Homepage.
 
-   ![ Nieuw ](images/map-console-home-page.png){width="800"align="left"}
+   ![&#x200B; Nieuw &#x200B;](images/map-console-home-page.png){width="800"align="left"}
 
 2. Aangezien er geen toewijzingsbestand is geselecteerd, wordt u gevraagd een kaartbestand te selecteren om de functies voor kaartbeheer en publicatie te gebruiken.
 
-   ![ Nieuw ](images/empty-screen-map-console.png)
+   ![&#x200B; Nieuw &#x200B;](images/empty-screen-map-console.png)
 
 3. Kies **Uitgezochte kaart**, en selecteer een weg waar uw DITA kaartdossier wordt gevestigd.
 
    Het kaartbestand wordt geopend in de kaartconsole. Door gebrek, wordt de **Output vooraf instelt** tabel geselecteerd.
 
-   ![ Nieuw ](images/map-console-screen.png){width="800"align="left"}
+   ![&#x200B; Nieuw &#x200B;](images/map-console-screen.png){width="800"align="left"}
 
    >[!NOTE]
    >
@@ -45,4 +45,4 @@ U kunt een bestaand kaartdossier in de console van de Kaart van de Redacteur ook
 
    Het kaartbestand wordt geopend in de kaartconsole.
 
-   ![ Nieuw ](images/map-console.png){align="left"}
+   ![&#x200B; Nieuw &#x200B;](images/map-console.png){align="left"}

@@ -26,4 +26,4 @@ Voer de volgende stappen uit om de vertaalstatus van een kaart te bekijken DITA:
    >
    > U kunt de inhoud verder filteren op basis van de vertaalstatus \(als Ontbrekende kopie, Bezig of In sync\), Source Type \(als Alle, DITA, DITA-kaart of Bron\), wijzigingsdatum. U kunt ook trefwoorden invoeren om te zoeken naar specifieke onderwerpen.
 
-**Bovenliggend onderwerp:**&#x200B;[ vertaal inhoud ](translation.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; vertaal inhoud &#x200B;](translation.md)

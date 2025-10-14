@@ -42,4 +42,4 @@ Deze hoofdmap is van toepassing op alle elementen \(mappen en submappen\) die bi
 
 **het Onderwerp geeft mening** uit - klik op het Zeer belangrijke pictogram van de Resolutie terwijl het uitgeven van een onderwerp DITA en selecteer het DITA- dossier voor het oplossen van de belangrijkste verwijzingen te gebruiken.
 
-**Bovenliggend onderwerp:**&#x200B;[ Werk met de Redacteur van de Kaart ](map-editor.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Werk met de Redacteur van de Kaart &#x200B;](map-editor.md)

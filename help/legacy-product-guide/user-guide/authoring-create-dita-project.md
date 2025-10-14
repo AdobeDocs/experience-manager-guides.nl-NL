@@ -20,7 +20,7 @@ U kunt een DITA-project maken en het vervolgens gebruiken om uw revisies te star
 
 U kunt teamleden aan een project toevoegen die dan diverse rollen - Auteurs, Recensenten, en Uitgevers zouden kunnen worden toegewezen.
 
-Zodra u uw project DITA hebt gecreeerd, kunt u uw overzicht van de Redacteur van het Web of de UI van Assets in werking stellen. Voor meer details, zie [ onderwerpen voor overzicht ](review-send-topics-for-review.md#) verzenden.
+Zodra u uw project DITA hebt gecreeerd, kunt u uw overzicht van de Redacteur van het Web of de UI van Assets in werking stellen. Voor meer details, zie [&#x200B; onderwerpen voor overzicht &#x200B;](review-send-topics-for-review.md#) verzenden.
 
 En als een auteur een revisiewerkstroom start, krijgen de geselecteerde leden van het project een e-mailmelding. Om e-mailberichten te vormen, zie *e-mailmalplaatjes* aanpassen in installeer en vorm Adobe Experience Manager Guides as a Cloud Service.
 
@@ -64,7 +64,7 @@ Voer de volgende stappen uit om een DITA-project tot stand te brengen:
 
       >[!NOTE]
       >
-      >Als u AEM Guides versie 3.5 of eerder gebruikt, wordt u een optie getoond om een DITA kaartdossier te selecteren om zeer belangrijke verwijzingen voor onderwerphet uitgeven, voorproef en overzichtswerkschema&#39;s op te lossen. In 3.6 en recentere versies, kunt u de wortelkaart door de Redacteur van het Web plaatsen. Voor meer informatie, zie de [ Voorkeur van de Gebruiker ](web-editor-features.md#id2087G0P40SB) in de Redacteur van het Web. Een andere manier om de wortelkaart te plaatsen is door het bij de globale of omslag-vlakke profielen te vormen. Voor meer details, zie *globale of omslag-vlakke profielen* in de Gids van de Installatie en van de Configuratie vormen.
+      >Als u AEM Guides versie 3.5 of eerder gebruikt, wordt u een optie getoond om een DITA kaartdossier te selecteren om zeer belangrijke verwijzingen voor onderwerphet uitgeven, voorproef en overzichtswerkschema&#39;s op te lossen. In 3.6 en recentere versies, kunt u de wortelkaart door de Redacteur van het Web plaatsen. Voor meer informatie, zie de [&#x200B; Voorkeur van de Gebruiker &#x200B;](web-editor-features.md#id2087G0P40SB) in de Redacteur van het Web. Een andere manier om de wortelkaart te plaatsen is door het bij de globale of omslag-vlakke profielen te vormen. Voor meer details, zie *globale of omslag-vlakke profielen* in de Gids van de Installatie en van de Configuratie vormen.
 
    Informatie in het **Geavanceerde** lusje:
 
@@ -77,4 +77,4 @@ Voer de volgende stappen uit om een DITA-project tot stand te brengen:
 1. Klik **Open** om uw projectpagina te openen.
 
 
-**Bovenliggend onderwerp:**&#x200B;[ onderwerpen of kaarten van het Overzicht ](review.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; onderwerpen of kaarten van het Overzicht &#x200B;](review.md)

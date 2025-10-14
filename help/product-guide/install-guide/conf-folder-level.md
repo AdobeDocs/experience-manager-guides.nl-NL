@@ -68,7 +68,7 @@ Met de tegel Mapprofielen in de instellingen voor hulplijnen kunt u instellingen
 
    - Aangepast
 
-  Uitgevers kunnen deze voorinstellingen voor uitvoer buiten de doos gebruiken om inhoud te publiceren. Deze voorinstellingen kunnen worden geconfigureerd door een beheerder van het algemene profiel of het mapprofiel. Zodra gevormd, worden de het publiceren voorinstellingen beschikbaar aan de uitgevers voor pas gecreëerde kaarten DITA. U kunt het publiceren ook toepassen vooraf instelt op bestaande kaarten DITA, zie [ vooraf ingestelde veranderingen ](#id18AGD0K0OHS) voor meer details toepassen.
+  Uitgevers kunnen deze voorinstellingen voor uitvoer buiten de doos gebruiken om inhoud te publiceren. Deze voorinstellingen kunnen worden geconfigureerd door een beheerder van het algemene profiel of het mapprofiel. Zodra gevormd, worden de het publiceren voorinstellingen beschikbaar aan de uitgevers voor pas gecreëerde kaarten DITA. U kunt het publiceren ook toepassen vooraf instelt op bestaande kaarten DITA, zie [&#x200B; vooraf ingestelde veranderingen &#x200B;](#id18AGD0K0OHS) voor meer details toepassen.
 
 - **de Configuraties van de Redacteur van XML**: Gebruik dit lusje om het blik-en-gevoel en diverse eigenschappen van de Redacteur van het Web aan te passen. De volgende configureerbare montages zijn beschikbaar voor de Redacteur van het Web:
 
@@ -100,13 +100,13 @@ Voer de volgende stappen uit om het algemene profiel te configureren:
 
 1. Klik op de **Globale tegel van het Profiel**.
 
-1. Om **Voorwaardelijke Attributen** te vormen, zie [ voorwaardelijke attributen voor globale of omslag-vlakke profielen ](#id1889D0I305Z) vormen.
+1. Om **Voorwaardelijke Attributen** te vormen, zie [&#x200B; voorwaardelijke attributen voor globale of omslag-vlakke profielen &#x200B;](#id1889D0I305Z) vormen.
 
-1. Om **Authoring Malplaatje** te vormen, zie [ creatieve malplaatjes ](#id1889D0IL0Y4) vormen.
+1. Om **Authoring Malplaatje** te vormen, zie [&#x200B; creatieve malplaatjes &#x200B;](#id1889D0IL0Y4) vormen.
 
-1. Om **Output te vormen stelt** vooraf in, zie [ output vooraf instelt ](#id18AGD0IH0Y4) vormen.
+1. Om **Output te vormen stelt** vooraf in, zie [&#x200B; output vooraf instelt &#x200B;](#id18AGD0IH0Y4) vormen.
 
-1. Om de Configuratie van de Redacteur van XML te vormen, zie [ en pas de Redacteur van het Web van XML ](#id2065G300O5Z) aan.
+1. Om de Configuratie van de Redacteur van XML te vormen, zie [&#x200B; en pas de Redacteur van het Web van XML &#x200B;](#id2065G300O5Z) aan.
 
 1. Na het maken van alle vereiste updates, sparen en sluit het **Globale Profiel**.
 
@@ -217,7 +217,7 @@ Als u een aangepast kenmerk gebruikt, moet dit een geldig DITA-kenmerk zijn dat 
 
    >[!IMPORTANT]
    >
-   > Het gespecialiseerde DTD-bestand moet onderdeel zijn van de implementatie van aangepaste code. DTDs onder /etc maakt deel uit van de productplaatsing en daarom wordt het met installatie van om het even welke nieuwe versie beschreven. Het wordt geadviseerd om gespecialiseerde DTD onder /apps binnen de projectomslag toe te voegen, en de weg DTD/catalogus in het profiel te omvatten DITA.Voor meer informatie, zie [ specialisatie DITA ](dita-ot-specialization.md#id211MB0E00XA) integreren.
+   > Het gespecialiseerde DTD-bestand moet onderdeel zijn van de implementatie van aangepaste code. DTDs onder /etc maakt deel uit van de productplaatsing en daarom wordt het met installatie van om het even welke nieuwe versie beschreven. Het wordt geadviseerd om gespecialiseerde DTD onder /apps binnen de projectomslag toe te voegen, en de weg DTD/catalogus in het profiel te omvatten DITA.Voor meer informatie, zie [&#x200B; specialisatie DITA &#x200B;](dita-ot-specialization.md#id211MB0E00XA) integreren.
 
 1. Open Adobe Experience Manager Web Console Configuration-pagina.
 
@@ -246,7 +246,7 @@ Als u een aangepast kenmerk gebruikt, moet dit een geldig DITA-kenmerk zijn dat 
 
 AEM Guides wordt geleverd met 7 kant-en-klare ontwerpsjablonen en 2 DITA-kaartsjablonen. U kunt ervoor kiezen om slechts een paar sjablonen beschikbaar te hebben voor uw auteurs. Als u een douanemalplaatje gebruikt, kan het zelfde worden gevormd en ter beschikking gesteld voor creatie. U gebruikt het tabblad Ontwerpsjabloon in de configuratie Mapprofielen om onderwerp- of kaartsjablonen toe te voegen aan of te verwijderen uit algemene profielen of uit mapprofielen.
 
-Zelfs alvorens het onderwerp of de kaartmalplaatjes op globaal of omslag-niveau te vormen, kunt u een plaats ook bepalen om uw douane auteursmalplaatjes op te slaan. Om een douaneplaats te vormen om auteursmalplaatjes op te slaan, zie [ de weg van de malplaatjeomslag van douaneDITA ](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z) vormen.
+Zelfs alvorens het onderwerp of de kaartmalplaatjes op globaal of omslag-niveau te vormen, kunt u een plaats ook bepalen om uw douane auteursmalplaatjes op te slaan. Om een douaneplaats te vormen om auteursmalplaatjes op te slaan, zie [&#x200B; de weg van de malplaatjeomslag van douaneDITA &#x200B;](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z) vormen.
 
 Voer de volgende stappen uit om het onderwerp of de kaartmalplaatjes in een omslagprofiel toe te voegen:
 
@@ -269,7 +269,7 @@ Voer de volgende stappen uit om het onderwerp of de kaartmalplaatjes in een omsl
 
    >[!NOTE]
    >
-   > Standaard worden alle ontwerpsjablonen opgeslagen in de map /content/dam/dita-templates. De map `dita-templates` bevat `topics` en `maps` submappen waarin de onderwerp- en kaartsjablonen worden opgeslagen. U kunt uw aangepaste sjablonen \(.dita, .xml of .ditamapfiles\) toevoegen in de standaardsjabloonmappen. Nadat u de sjabloon in de standaardmap hebt toegevoegd, kunt u deze toevoegen in het algemene profiel of in het mappenprofiel. Voor meer informatie over het creëren van douanesjablonen die de Redacteur van het Web gebruiken, zie [ douane creërend malplaatje ](#id1917D0EG0HJ).
+   > Standaard worden alle ontwerpsjablonen opgeslagen in de map /content/dam/dita-templates. De map `dita-templates` bevat `topics` en `maps` submappen waarin de onderwerp- en kaartsjablonen worden opgeslagen. U kunt uw aangepaste sjablonen \(.dita, .xml of .ditamapfiles\) toevoegen in de standaardsjabloonmappen. Nadat u de sjabloon in de standaardmap hebt toegevoegd, kunt u deze toevoegen in het algemene profiel of in het mappenprofiel. Voor meer informatie over het creëren van douanesjablonen die de Redacteur van het Web gebruiken, zie [&#x200B; douane creërend malplaatje &#x200B;](#id1917D0EG0HJ).
 
    ![](assets/search-author-temp.png){width="550" align="left"}
 
@@ -310,7 +310,7 @@ Voer de volgende stappen uit om een aangepaste ontwerpsjabloon te maken:
 
    >[!NOTE]
    >
-   > Om een douaneplaats te vormen om onderwerp op te slaan of malplaatjes in kaart te brengen, zie [ de weg van de malplaatjeomslag van douane DITA ](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z) vormen
+   > Om een douaneplaats te vormen om onderwerp op te slaan of malplaatjes in kaart te brengen, zie [&#x200B; de weg van de malplaatjeomslag van douane DITA &#x200B;](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z) vormen
 
 1. Klik **creëren** \> **Sjabloon DITA**.
 
@@ -420,7 +420,7 @@ Door gebrek, komt de Redacteur van het Web van XML met veel eigenschappen om uw 
 
 **de Configuratie UI van de Redacteur van XML**
 
-Deze instelling bepaalt de werkbalk en de andere gebruikersinterface-elementen van de webeditor. Klik het **pictogram van de Download** om het recentste ui \_config.json- dossier op uw lokaal systeem te downloaden. Vervolgens kunt u het bestand wijzigen en het bestand uploaden. Klik het **Standaardpictogram van de Download** om het standaard ui \_config.json- dossier op uw lokaal systeem te downloaden. U kunt het standaardbestand altijd downloaden, er wijzigingen in aanbrengen en het uploaden. Afhankelijk van de plaats waar u het bestand uploadt op het niveau van de map of het algemene profiel, worden de wijzigingen dienovereenkomstig toegepast. Voor meer details over hoe te om de Redacteur van XML aan te passen gebruikend het ui \_config.json- dossier, zie [ toolbar ](conf-web-editor-customize-toolbar.md#) aanpassen.
+Deze instelling bepaalt de werkbalk en de andere gebruikersinterface-elementen van de webeditor. Klik het **pictogram van de Download** om het recentste ui \_config.json- dossier op uw lokaal systeem te downloaden. Vervolgens kunt u het bestand wijzigen en het bestand uploaden. Klik het **Standaardpictogram van de Download** om het standaard ui \_config.json- dossier op uw lokaal systeem te downloaden. U kunt het standaardbestand altijd downloaden, er wijzigingen in aanbrengen en het uploaden. Afhankelijk van de plaats waar u het bestand uploadt op het niveau van de map of het algemene profiel, worden de wijzigingen dienovereenkomstig toegepast. Voor meer details over hoe te om de Redacteur van XML aan te passen gebruikend het ui \_config.json- dossier, zie [&#x200B; toolbar &#x200B;](conf-web-editor-customize-toolbar.md#) aanpassen.
 
 **CSS de Lay-out van het Malplaatje**
 

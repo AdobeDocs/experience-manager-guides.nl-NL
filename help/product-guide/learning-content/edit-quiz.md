@@ -26,6 +26,6 @@ Voer de volgende stappen uit om de quiz te bewerken:
 
    ![](assets/quiz-lock.png){width="650" align="left"}
 
-1. U kunt [ vragen aan de quiz ](./quiz-insert-questions.md) toevoegen evenals [ vragen van de vraagbank ](./insert-questions.md) opnemen.
+1. U kunt [&#x200B; vragen aan de quiz &#x200B;](./quiz-insert-questions.md) toevoegen evenals [&#x200B; vragen van de vraagbank &#x200B;](./insert-questions.md) opnemen.
 1. Om uw werk te bewaren, gebruik **sparen als nieuwe versie** om een nieuwe versie tot stand te brengen, of druk `Ctrl+S` om het bestaande dossier te beschrijven.
 1. Na het bewaren van de quiz, kunt u **&#x200B;**&#x200B;het onderwerp voor anderen ontgrendelen om uit te geven.

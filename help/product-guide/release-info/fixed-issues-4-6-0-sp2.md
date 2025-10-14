@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Dit artikel behandelt de fouten die in diverse gebieden van versie 4.6.0 Service Pack 3 van Adobe Experience Manager Guides worden opgelost.
 
-Leer over [ verbeteringsinstructies voor 4.6.0 Service Pack 3 versie ](upgrade-instructions-4-6-0-sp2.md).
+Leer over [&#x200B; verbeteringsinstructies voor 4.6.0 Service Pack 3 versie &#x200B;](upgrade-instructions-4-6-0-sp2.md).
 
 ## Authoring
 

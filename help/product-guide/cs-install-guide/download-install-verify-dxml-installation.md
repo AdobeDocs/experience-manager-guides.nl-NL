@@ -22,11 +22,11 @@ Nadat u AEM Guides hebt geïnstalleerd, moet u controleren of de installatie is 
 
 1. Open de lijst met OSGi-bundels in AEM.
 
-   Voor details om tot Bundels toegang te hebben, zie [ Bundels ](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=nl-NL#bundles) in AEM documentatie.
+   Voor details om tot Bundels toegang te hebben, zie [&#x200B; Bundels &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=nl-NL#bundles) in AEM documentatie.
 
 1. Zoek naar fmdita in de lijst van bundels en controleer zijn status.
 
    De status zou *Actief* voor met succes opgestelde bundels moeten tonen. Als om het even welke bundel geen Actieve status heeft, dan controleer de AEM logboeken om de installatiekwestie problemen op te lossen.
 
 
-**Bovenliggend onderwerp:**&#x200B;[ Download en installeer ](download-install.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Download en installeer &#x200B;](download-install.md)

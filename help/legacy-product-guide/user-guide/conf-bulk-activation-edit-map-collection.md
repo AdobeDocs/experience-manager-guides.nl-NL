@@ -50,4 +50,4 @@ U kunt de verschillende typen uitvoervoorinstellingen samen met hun pictogrammen
 1. Klik **Gedaan**.
 
 
-**Bovenliggend onderwerp:**&#x200B;[ Bulk Activering van gepubliceerde inhoud ](conf-bulk-activation.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Bulk Activering van gepubliceerde inhoud &#x200B;](conf-bulk-activation.md)

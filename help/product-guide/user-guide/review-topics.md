@@ -17,7 +17,7 @@ Als u een revisor bent, ontvangt u een e-mail met een revisieverzoek met de kopp
 
 >[!NOTE]
 >
-> Terwijl u het revisieverzoek opent vanuit het bericht, kunt u het opnieuw toewijzen aan een andere gebruiker die deel uitmaakt van hetzelfde revisieproject. Voor details, wijst de mening [ opnieuw revisietaak toe gebruikend bericht ](./reassign-review-using-notification.md).
+> Terwijl u het revisieverzoek opent vanuit het bericht, kunt u het opnieuw toewijzen aan een andere gebruiker die deel uitmaakt van hetzelfde revisieproject. Voor details, wijst de mening [&#x200B; opnieuw revisietaak toe gebruikend bericht &#x200B;](./reassign-review-using-notification.md).
 
 Voer de volgende stappen uit om een onderwerp te herzien:
 
@@ -171,11 +171,11 @@ Wanneer u met meerdere revisoren samenwerkt aan een revisietaak, kunt u de commu
 
 >[!NOTE]
 >
-> Om de lijst van gebruikers te bekijken die aan een overzichtstaak worden toegewezen en hen in een commentaar etiketteren, moet u *Gelezen toegang* op `/home/users and /home/groups` knopen hebben. Voor details, mening [ gebruikersbeleid en veiligheid ](../cs-install-guide/user-admin-sec.md#additional-notes-on-user-groups). <br> Als er na het bevestigen van de toegang nog steeds geen codes beschikbaar zijn, moet uw beheerder mogelijk een `user-admin` -licentie toewijzen om deze functionaliteit in te schakelen.
+> Om de lijst van gebruikers te bekijken die aan een overzichtstaak worden toegewezen en hen in een commentaar etiketteren, moet u *Gelezen toegang* op `/home/users and /home/groups` knopen hebben. Voor details, mening [&#x200B; gebruikersbeleid en veiligheid &#x200B;](../cs-install-guide/user-admin-sec.md#additional-notes-on-user-groups). <br> Als er na het bevestigen van de toegang nog steeds geen codes beschikbaar zijn, moet uw beheerder mogelijk een `user-admin` -licentie toewijzen om deze functionaliteit in te schakelen.
 
 ![](images/tag-users-review-ui.png){width="350" align="left"}
 
-Gecodeerde gebruikers ontvangen zowel een e-mail als een AEM-melding, zodat ze deze snel kunnen informeren. Voor meer details op hoe de heroverwegingsberichten teweegbrengen, mening [ het Begrip van heroverwegingsberichten ](./review-understanding-review-notifications.md).
+Gecodeerde gebruikers ontvangen zowel een e-mail als een AEM-melding, zodat ze deze snel kunnen informeren. Voor meer details op hoe de heroverwegingsberichten teweegbrengen, mening [&#x200B; het Begrip van heroverwegingsberichten &#x200B;](./review-understanding-review-notifications.md).
 
 ![](images/mentioned-in-tags-author.png){width="350" align="left"}
 
@@ -274,4 +274,4 @@ Selecteer één of meerdere van de volgende het filtreren opties van het **Type 
 
 Om de filter te verwijderen en alle commentaren te bekijken, schrap alle filters van het **Type van Filter** dialoog en selecteer **toepassen**.
 
-**Bovenliggend onderwerp:**&#x200B;[ Inleiding aan overzicht ](review.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Inleiding aan overzicht &#x200B;](review.md)

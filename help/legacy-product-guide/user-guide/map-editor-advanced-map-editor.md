@@ -52,17 +52,17 @@ Voer de volgende stappen uit om uw kaartdossier te bouwen gebruikend de Geavance
 
    ![](images/new-map-file-in-editor.png){width="800" align="left"}
 
-   - **A** - \ (*Belangrijkste toolbar* \): Dit is gelijkaardig aan de belangrijkste toolbar van de Redacteur van het Web. Zie [ Belangrijkste toolbar ](web-editor-features.md#id2051EA0G05Z) in de Redacteur van het Web voor meer details.
+   - **A** - \ (*Belangrijkste toolbar* \): Dit is gelijkaardig aan de belangrijkste toolbar van de Redacteur van het Web. Zie [&#x200B; Belangrijkste toolbar &#x200B;](web-editor-features.md#id2051EA0G05Z) in de Redacteur van het Web voor meer details.
 
-   - **B** - \ (*Secundaire toolbar* \) dit is de Secundaire toolbar die u toestaat om met kaartdossiers te werken. Voor meer informatie over de functies beschikbaar door Secundaire toolbar, zie [ Eigenschappen beschikbaar in de Geavanceerde toolbar van de Redacteur van de Kaart ](#id205DEC0005Z).
+   - **B** - \ (*Secundaire toolbar* \) dit is de Secundaire toolbar die u toestaat om met kaartdossiers te werken. Voor meer informatie over de functies beschikbaar door Secundaire toolbar, zie [&#x200B; Eigenschappen beschikbaar in de Geavanceerde toolbar van de Redacteur van de Kaart &#x200B;](#id205DEC0005Z).
 
    - **C** - \ (*de meningen van de Kaart* \): Staat u toe om de Redacteur van de Kaart tussen de Lay-out, de Auteur, Source en de Voorproef te schakelen. De **mening van de Lay-out** staat u toe om de onderwerpen in een kaart te organiseren DITA. Dit geeft de boom of de hiërarchische mening van de kaart. De **mening van de Auteur** staat u toe om de onderwerpen in de Redacteur van de Kaart uit te geven. Dit geeft ook de WYSIWYG-weergave van het kaartbestand. De **mening van Source** staat u toe om met onderliggende XML van het kaartdossier te werken. De Voorproef geeft u een geconsolideerde mening van al onderwerp en submaps binnen het kaartdossier. De **dichte** verbinding sluit het kaartdossier.
 
-   - **D** - \ (*Linkerpaneel* \): Verleent toegang tot het linkerpaneel dat u toegang tot Favorieten, Bewaarplaats, Kaart, Overzicht en andere eigenschappen geeft. U kunt de selectie uit- of samenvouwen door te klikken op het pictogram Zijbalk uitvouwen \(![](images/sidebar-expand-icon.svg)\). Voor meer details over de eigenschappen beschikbaar in het linkerpaneel, zie [ Linkerpaneel ](web-editor-features.md#id2051EA0M0HS) in de Redacteur van het Web.
+   - **D** - \ (*Linkerpaneel* \): Verleent toegang tot het linkerpaneel dat u toegang tot Favorieten, Bewaarplaats, Kaart, Overzicht en andere eigenschappen geeft. U kunt de selectie uit- of samenvouwen door te klikken op het pictogram Zijbalk uitvouwen \(![](images/sidebar-expand-icon.svg)\). Voor meer details over de eigenschappen beschikbaar in het linkerpaneel, zie [&#x200B; Linkerpaneel &#x200B;](web-editor-features.md#id2051EA0M0HS) in de Redacteur van het Web.
 
    - **E** - \ (*Midden Gebied* \): De inhoud van de kaart het uitgeven gebied.
 
-   - **F** - \ (*Juiste Comité* \): verleent toegang tot het paneel van Eigenschappen. U kunt de inhoudseigenschappen en de kaarteigenschappen van het geselecteerde onderwerp of de kaart zien. Voor meer details over de functionaliteit beschikbaar in dit paneel, zie [ Juiste paneel ](web-editor-features.md#id2051EB003YK) in de Redacteur van het Web.
+   - **F** - \ (*Juiste Comité* \): verleent toegang tot het paneel van Eigenschappen. U kunt de inhoudseigenschappen en de kaarteigenschappen van het geselecteerde onderwerp of de kaart zien. Voor meer details over de functionaliteit beschikbaar in dit paneel, zie [&#x200B; Juiste paneel &#x200B;](web-editor-features.md#id2051EB003YK) in de Redacteur van het Web.
 
 1. In het LinkerComité, schakelaar aan de **Mening van de Bewaarplaats**.
 
@@ -72,7 +72,7 @@ Voer de volgende stappen uit om uw kaartdossier te bouwen gebruikend de Geavance
 
    Het onderwerp wordt toegevoegd in de kaart.
 
-   ![ kaartredacteur voegt onderwerp ](images/map-editor-add-topic.png){width="800" align="left"} toe
+   ![&#x200B; kaartredacteur voegt onderwerp &#x200B;](images/map-editor-add-topic.png){width="800" align="left"} toe
 
 1. Als u volgende onderwerpen of een submap wilt toevoegen, sleept u het onderwerp of de submap naar de gewenste locatie in de kaart en zet u deze neer.
 
@@ -105,7 +105,7 @@ Voer de volgende stappen uit om uw kaartdossier te bouwen gebruikend de Geavance
 
 ## Functies beschikbaar op de werkbalk van de Geavanceerde Kaarteditor {#id205DEC0005Z}
 
-De toolbar in de Geavanceerde Redacteur van de Kaart is gelijkaardig aan de Redacteur van het onderwerpWeb. De basisbewerkingen zoals het in- en uitschakelen van het linkerdeelvenster, het opslaan van een kaart, het maken van een nieuwe versie van de kaart, het ongedaan maken/opnieuw uitvoeren van de laatste bewerking en het verwijderen van de geselecteerde elementen komen in beide editors veel voor. Voor detail over hoe deze verrichtingen werken, zie [ de eigenschappen van de Redacteur van het Web ](web-editor-features.md#) sectie kennen.
+De toolbar in de Geavanceerde Redacteur van de Kaart is gelijkaardig aan de Redacteur van het onderwerpWeb. De basisbewerkingen zoals het in- en uitschakelen van het linkerdeelvenster, het opslaan van een kaart, het maken van een nieuwe versie van de kaart, het ongedaan maken/opnieuw uitvoeren van de laatste bewerking en het verwijderen van de geselecteerde elementen komen in beide editors veel voor. Voor detail over hoe deze verrichtingen werken, zie [&#x200B; de eigenschappen van de Redacteur van het Web &#x200B;](web-editor-features.md#) sectie kennen.
 
 De volgende kaartspecifieke bewerkingen zijn ook beschikbaar op de werkbalk in de layoutweergave en de weergave Auteur:
 
@@ -165,7 +165,7 @@ Hiermee wordt een vergrendeling op het kaartbestand opgehaald en wordt de vergre
 
 **Fusie** - ![](images/merge-icon.svg)
 
-Voor meer details over het samenvoegen van inhoud van een verschillende versie van het zelfde of een verschillend dossier, zie [ Samenvoegen ](web-editor-features.md#id205DF04E0HS) in de Redacteur van het Web.
+Voor meer details over het samenvoegen van inhoud van een verschillende versie van het zelfde of een verschillend dossier, zie [&#x200B; Samenvoegen &#x200B;](web-editor-features.md#id205DF04E0HS) in de Redacteur van het Web.
 
 **Geschiedenis van de Versie** - ![](images/version-history-web-editor-ico.svg)
 
@@ -185,7 +185,7 @@ Hiermee toont of verbergt u het regelnummer voor elk onderwerp. De regelnummers 
 
 - **toon de Doos van de Controle**
 
-Toont of verbergt checkbox voor elk onderwerp. U kunt het selectievakje gebruiken om het onderwerp te selecteren en verschillende taken uit te voeren via het menu Opties. Voor meer details, zie het [ menu van Opties ](#id228ID8006H8).
+Toont of verbergt checkbox voor elk onderwerp. U kunt het selectievakje gebruiken om het onderwerp te selecteren en verschillende taken uit te voeren via het menu Opties. Voor meer details, zie het [&#x200B; menu van Opties &#x200B;](#id228ID8006H8).
 
 - **toon Dossier - naam**
 
@@ -205,8 +205,8 @@ Naast het organiseren van onderwerpen in het kaartdossier, kunt u de volgende ac
 ![](images/map-editor-options-menu.png){width="650" align="left"}
 
 - **voegt** toe: U kunt verkiezen om een nieuw onderwerp of een lege verwijzing van de Redacteur van de Kaart toe te voegen:
-   - **Lege Verwijzing**: Deze optie staat u toe om een lege verwijzing in uw kaart toe te voegen DITA. U kunt de opgenomen lege verwijzing later tweemaal klikken en de details van het Onderwerp toevoegen. Voor meer details, zie [ een onderwerp ](web-editor-features.md#id228ICI0105U) in de Redacteur van het Web tot stand brengen.
-   - **Nieuw Onderwerp**: Wanneer u verkiest om een nieuw onderwerp van het menu tot stand te brengen, krijgt u de Create Nieuwe dialoog van het Onderwerp. Geef in het dialoogvenster Nieuw onderwerp maken de vereiste gegevens op en klik op Maken. Voor meer details, zie [ een onderwerp ](web-editor-features.md#id228ICI0105U) in de Redacteur van het Web tot stand brengen.
+   - **Lege Verwijzing**: Deze optie staat u toe om een lege verwijzing in uw kaart toe te voegen DITA. U kunt de opgenomen lege verwijzing later tweemaal klikken en de details van het Onderwerp toevoegen. Voor meer details, zie [&#x200B; een onderwerp &#x200B;](web-editor-features.md#id228ICI0105U) in de Redacteur van het Web tot stand brengen.
+   - **Nieuw Onderwerp**: Wanneer u verkiest om een nieuw onderwerp van het menu tot stand te brengen, krijgt u de Create Nieuwe dialoog van het Onderwerp. Geef in het dialoogvenster Nieuw onderwerp maken de vereiste gegevens op en klik op Maken. Voor meer details, zie [&#x200B; een onderwerp &#x200B;](web-editor-features.md#id228ICI0105U) in de Redacteur van het Web tot stand brengen.
 - **Beweging**: U kunt verkiezen om een onderwerp omhoog/onderaan/juist/links in de hiërarchie te bewegen.U kunt een onderwerp of een kaart van het bewaarnemerpaneel aan de kaart ook slepen en neerzetten die in de Redacteur van de Kaart wordt geopend.
 - **maak** ongedaan: maak de laatste verrichting in de mening van de Lay-out ongedaan.
 - **opnieuw**: Opnieuw de laatste verrichting in de mening van de Lay-out.
@@ -230,18 +230,18 @@ In het rechterdeelvenster worden de eigenschappen Inhoud en Kaart weergegeven in
 
 **Eigenschappen van de Inhoud**
 
-Het deelvenster Eigenschappen voor inhoud bevat informatie over het type onderwerp dat momenteel is geselecteerd in de kaart, de koppeling-URL en de kenmerken van het onderwerp. Voor meer details, zie [ Eigenschappen van de Inhoud ](web-editor-features.md#id228IDB00HMM) in de Redacteur van het Web.
+Het deelvenster Eigenschappen voor inhoud bevat informatie over het type onderwerp dat momenteel is geselecteerd in de kaart, de koppeling-URL en de kenmerken van het onderwerp. Voor meer details, zie [&#x200B; Eigenschappen van de Inhoud &#x200B;](web-editor-features.md#id228IDB00HMM) in de Redacteur van het Web.
 
 - **Andere Attributen** als uw beheerder een profiel voor attributen heeft gecreeerd, dan zult u die attributen samen met hun gevormde waarden krijgen. Gebruikend het paneel van inhoudseigenschappen, kunt u die attributen kiezen en hen toewijzen aan relevante inhoud in uw onderwerp. U kunt attributen ook toewijzen die door uw beheerder onder het **lusje van de Attributen van de Vertoning** in de redacteursmontages worden gevormd. De kenmerken die voor een element zijn gedefinieerd, worden weergegeven in de layoutweergave en in de contourweergave. Dit helpt u om een snelle blik bij alle onderwerpen in een kaart te hebben waarvoor een bepaald attribuut wordt bepaald. Bijvoorbeeld alle onderwerpen waarvoor het platformkenmerk &#39;Android&#39; is gedefinieerd.
 
-  ![ lay-outweergave ](images/layout-inline-attributes.png){width="650" align="left"}
+  ![&#x200B; lay-outweergave &#x200B;](images/layout-inline-attributes.png){width="650" align="left"}
 
 
-  Voor meer details, zie de *Attributen van de Vertoning* binnen de *eigenschapbeschrijving van de Montages van de Redacteur* in de [ Linkerpaneel ](web-editor-features.md#id2051EA0M0HS) sectie.
+  Voor meer details, zie de *Attributen van de Vertoning* binnen de *eigenschapbeschrijving van de Montages van de Redacteur* in de [&#x200B; Linkerpaneel &#x200B;](web-editor-features.md#id2051EA0M0HS) sectie.
 
 - **Meta-gegevens** Gebruikend de meta-gegevens, kunt u de meta-gegevensinformatie plaatsen. U kunt de NAV-titel, Tekst koppelen, Korte beschrijving en Trefwoorden definiëren.
 
-Voor meer informatie over de standaardonderwerpattributen en meta-gegevens, zie de [ topicref ](https://docs.oasis-open.org/dita/v1.2/os/spec/langref/topicref.html) documentatie in de Specificatie van de Taal OASIS DITA.
+Voor meer informatie over de standaardonderwerpattributen en meta-gegevens, zie de [&#x200B; topicref &#x200B;](https://docs.oasis-open.org/dita/v1.2/os/spec/langref/topicref.html) documentatie in de Specificatie van de Taal OASIS DITA.
 
 **Eigenschappen van de Kaart**
 
@@ -249,7 +249,7 @@ Hiermee geeft u het dialoogvenster Kaarteigenschappen weer waarin u de kenmerken
 
 ## Auteursweergave {#id205DEC0005Z_author_view}
 
-De **mening van de Auteur** staat u toe om uw kaart DITA in de Redacteur van het Web uit te geven. Dit toont de WYSIWYG-weergave van de Kaarteditor en sommige pictogrammen die in de weergave Auteur worden weergegeven, zijn gelijk aan de layoutweergave. Voor meer details, zie [ mening van de Lay-out ](#id205DEC0005Z_layout_view). Bovendien kunt u de volgende pictogrammen zien en de verwante taken uitvoeren van de mening van de Auteur:
+De **mening van de Auteur** staat u toe om uw kaart DITA in de Redacteur van het Web uit te geven. Dit toont de WYSIWYG-weergave van de Kaarteditor en sommige pictogrammen die in de weergave Auteur worden weergegeven, zijn gelijk aan de layoutweergave. Voor meer details, zie [&#x200B; mening van de Lay-out &#x200B;](#id205DEC0005Z_layout_view). Bovendien kunt u de volgende pictogrammen zien en de verwante taken uitvoeren van de mening van de Auteur:
 
 **Tussenvoegsel vóór/Tussenvoegsel na** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
@@ -261,7 +261,7 @@ Hiermee geeft u het dialoogvenster Element invoegen weer. Selecteer het element 
 
 **de Lijst van de Verhouding van het Tussenvoegsel** - ![](images/relationship_table_icon.svg)
 
-Voegt een relatietabel in de kaart in. Aangezien het concept van het werken met de relatietabel zoals verklaard in de Basis sectie van de Redacteur van de Kaart is, zie [ Werk met relatietabellen in de Basis Redacteur van de Kaart ](map-editor-basic-map-editor.md#id1944B0I0COB) voor meer details.
+Voegt een relatietabel in de kaart in. Aangezien het concept van het werken met de relatietabel zoals verklaard in de Basis sectie van de Redacteur van de Kaart is, zie [&#x200B; Werk met relatietabellen in de Basis Redacteur van de Kaart &#x200B;](map-editor-basic-map-editor.md#id1944B0I0COB) voor meer details.
 
 **Tussenvoegsel Herbruikbare Inhoud** - ![](images/content-reuse-icon.png)
 
@@ -283,11 +283,11 @@ Hiermee toont of verbergt u de XML-labels. De tags dienen als visuele aanwijzing
 
 **toelaten/onbruikbaar de Veranderingen van het Spoor** - ![](images/track-change-icon.svg)
 
-U kunt alle in het kaartbestand aangebrachte updates bijhouden door de modus Wijzigingen bijhouden in te schakelen. Nadat u wijzigingen in de track hebt ingeschakeld, worden alle invoegingen en verwijderingen vastgelegd in het document. Voor meer details, zie [ toelaten/onbruikbaar maken de Veranderingen van het Spoor ](web-editor-features.md#id205DF0203Y4) in de Redacteur van het Web.
+U kunt alle in het kaartbestand aangebrachte updates bijhouden door de modus Wijzigingen bijhouden in te schakelen. Nadat u wijzigingen in de track hebt ingeschakeld, worden alle invoegingen en verwijderingen vastgelegd in het document. Voor meer details, zie [&#x200B; toelaten/onbruikbaar maken de Veranderingen van het Spoor &#x200B;](web-editor-features.md#id205DF0203Y4) in de Redacteur van het Web.
 
 **creeer de Taak van het Overzicht** - ![](images/create-review-task-icon.svg)
 
-U kunt een overzichtstaak van het huidige onderwerp of kaartdossier direct van de Redacteur van het Web tot stand brengen. Open het bestand waarvoor u de revisietaak wilt maken en klik op Revisietaak maken om het proces voor het maken van de revisie te starten. Volg de instructies die in de [ onderwerpen of kaarten van het Overzicht ](review.md#) voor meer details worden gegeven.
+U kunt een overzichtstaak van het huidige onderwerp of kaartdossier direct van de Redacteur van het Web tot stand brengen. Open het bestand waarvoor u de revisietaak wilt maken en klik op Revisietaak maken om het proces voor het maken van de revisie te starten. Volg de instructies die in de [&#x200B; onderwerpen of kaarten van het Overzicht &#x200B;](review.md#) voor meer details worden gegeven.
 
 ## Onderwerpen bewerken via de DITA-kaart {#id17ACJ0F0FHS}
 
@@ -303,7 +303,7 @@ Ga als volgt te werk om onderwerpen te bewerken via een DITA-kaart:
 
    >[!TIP]
    >
-   > Het lusje van Onderwerpen geeft u een optie om het kaartdossier met zijn gebiedsdelen te downloaden. Voor meer details, zie [ Exporteer een DITA kaartdossier ](authoring-download-assets.md#id218UBA00IXA).
+   > Het lusje van Onderwerpen geeft u een optie om het kaartdossier met zijn gebiedsdelen te downloaden. Voor meer details, zie [&#x200B; Exporteer een DITA kaartdossier &#x200B;](authoring-download-assets.md#id218UBA00IXA).
 
 1. In de belangrijkste toolbar, geeft de klik **Onderwerpen** uit.
 
@@ -387,4 +387,4 @@ U kunt de voorvertoning van een kaart openen via:
    - Het huidige onderwerp in kaartvoorproef wordt ook benadrukt in de kaartboom.
 
 
-**Bovenliggend onderwerp:** [ Werk met de Redacteur van de Kaart ](map-editor.md)
+**Bovenliggend onderwerp:** [&#x200B; Werk met de Redacteur van de Kaart &#x200B;](map-editor.md)

@@ -37,4 +37,4 @@ Voer de volgende stappen uit om vragen van de vraagbank in de quiz op te nemen:
 
    ![](assets/inserted-question.png){width="650" align="left"}
 
-Voor een snel videooverzicht, mening [ Gebruikend de bank van de Vraag ](https://video.tv.adobe.com/v/3475212/learning-content-aem-guides).
+Voor een snel videooverzicht, mening [&#x200B; Gebruikend de bank van de Vraag &#x200B;](https://video.tv.adobe.com/v/3475212/learning-content-aem-guides).

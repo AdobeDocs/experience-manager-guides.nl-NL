@@ -22,13 +22,13 @@ Het bereiken van bedrijfsmerken door de FrontCover-pagina naadloos samen te voeg
 
 **vóór:**
 
-![ alvorens branding te bevestigen: Schermafbeelding die pre-branded PDF lay-out ](../assets/publishing/branding-image1.png) toont
+![&#x200B; alvorens branding te bevestigen: Schermafbeelding die pre-branded PDF lay-out &#x200B;](../assets/publishing/branding-image1.png) toont
 <br>
 <br>
 
 **na:**
 
-![ na het bevestigen branding: Schermafbeelding die post-branded PDF lay-out ](../assets/publishing/branding-image2.png) tonen
+![&#x200B; na het bevestigen branding: Schermafbeelding die post-branded PDF lay-out &#x200B;](../assets/publishing/branding-image2.png) tonen
 
 ## Uw inhoud instellen
 
@@ -95,7 +95,7 @@ Bij het publiceren van een DITAMAP biedt Native PDF de functionaliteit om automa
 Samenvoegen:
 - Ga naar de native PDF sjablooninstellingen —> Volgorde paginalayout
 - Voeg nu FrontCover met Volgende pagina samen, d.w.z. Hoofdstuk &amp; Onderwerpen.
-  ![ het samenvoegen FrontCover met Hoofdstuk: Schermafbeelding die de inheemse PDF malplaatjemontages ](../assets/publishing/branding-image3.png) toont
+  ![&#x200B; het samenvoegen FrontCover met Hoofdstuk: Schermafbeelding die de inheemse PDF malplaatjemontages &#x200B;](../assets/publishing/branding-image3.png) toont
 - Sjabloon opslaan, deze sjabloon selecteren voor uw voorinstelling en publiceren!
 
 
@@ -127,10 +127,10 @@ window.addEventListener('DOMContentLoaded', function () {
 ```
 
 - Neem deze JavaScript op in uw hoofdstuksjabloon.
-  ![ omvat JavaScript in hoofdstukmalplaatje: Het schot dat van het scherm ingaat in het malplaatje van de PDF van de paginalay-out ](../assets/publishing/branding-image4.png) toont
+  ![&#x200B; omvat JavaScript in hoofdstukmalplaatje: Het schot dat van het scherm ingaat in het malplaatje van de PDF van de paginalay-out &#x200B;](../assets/publishing/branding-image4.png) toont
 
 - JavaScript inschakelen van de vooraf ingestelde optie
-  ![ laat vooraf ingesteld het plaatsen van JavaScript toe: De schot die van het scherm toont vooraf ingesteld plaatsen om JavaScript ](../assets/publishing/branding-image5.png) toe te laten
+  ![&#x200B; laat vooraf ingesteld het plaatsen van JavaScript toe: De schot die van het scherm toont vooraf ingesteld plaatsen om JavaScript &#x200B;](../assets/publishing/branding-image5.png) toe te laten
 
 - Publish!
 

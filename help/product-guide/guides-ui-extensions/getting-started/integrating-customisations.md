@@ -16,7 +16,7 @@ Met extensies kunt u uw AEM Guides-app aanpassen aan uw wensen. Dit extensiefram
 
 ## Vereisten
 
-Dit pakket vereist [ git bash ](https://github.com/git-guides/install-git) en npm
+Dit pakket vereist [&#x200B; git bash &#x200B;](https://github.com/git-guides/install-git) en npm
 
 ## Installatie
 
@@ -42,14 +42,14 @@ npx @adobe/create-guides-extension
    - `guides-extension.js`
    - `guides-extension.umd.cjs`
 
-![ bouwt Output ](./../imgs/build_output.png)
+![&#x200B; bouwt Output &#x200B;](./../imgs/build_output.png)
 
 ## De aanpassing toevoegen aan AEM
 
 - Ga naar `CRXDE` `crx/de/index.jsp#/`
 - Maak onder de map `apps` een nieuw knooppunt van het type `cq:ClientLibraryFolder`
 
-![ de structuur van de Omslag ](./../imgs/crxde_folder_structure.png)
+![&#x200B; de structuur van de Omslag &#x200B;](./../imgs/crxde_folder_structure.png)
 
 - Selecteer in de `properties` van het knooppunt `Multi` de volgende eigenschap toevoegen
 Naam: `categories`
@@ -61,7 +61,7 @@ Waarde: `apps.fmdita.review_overrides`, `apps.fmdita.xml_editor.page_overrides`
 > Voor de op één na laatste gebruikersinterface zijn de waarden: `apps.fmdita.penultimate.xml_editor.page_overrides` en `apps.fmdita.review_overrides`
 
 
-![ Eigenschappen van de Omslag ](./../imgs/crxde_folder_properties.png)
+![&#x200B; Eigenschappen van de Omslag &#x200B;](./../imgs/crxde_folder_properties.png)
 
 - Als u de gebouwde JS wilt toevoegen, maakt u bijvoorbeeld een nieuw bestand `tcx1.js` in het hierboven gemaakte knooppunt. Voeg hier de code uit `dist/guides-extension.umd.cjs` of `dist/guides-extension.js` toe. Maak nu een nieuw bestand `js.txt` en voeg hier de naam van ons JS-bestand toe. In dit geval is dit:
 

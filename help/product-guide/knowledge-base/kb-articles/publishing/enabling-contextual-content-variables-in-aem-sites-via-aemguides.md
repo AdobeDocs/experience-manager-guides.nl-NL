@@ -34,7 +34,7 @@ Controleer voordat u verdergaat of aan de volgende voorwaarden is voldaan:
    - Zorg ervoor dat **ACS AEM Commons** op uw AEM instantie geïnstalleerd is. Dit is vereist voor het gebruik van CCVAR.
 
 2. **Contextafhankelijke Configuratie van de Variabelen van de Inhoud**:
-   - Voltooi de opstelling voor **Contextuele Variabelen van de Inhoud** in AEM gebruikend de [ officiële documentatie ](https://adobe-consulting-services.github.io/acs-aem-commons/features/contextual-content-variables/index.html). Dit omvat:
+   - Voltooi de opstelling voor **Contextuele Variabelen van de Inhoud** in AEM gebruikend de [&#x200B; officiële documentatie &#x200B;](https://adobe-consulting-services.github.io/acs-aem-commons/features/contextual-content-variables/index.html). Dit omvat:
       - Toelatend **de Samenvoeging van het Bezit**.
       - Het vormen **HTML die** herschrijven (als het gebruiken van HTML output).
       - Het vormen **JSON die** herschrijft (als het gebruiken van output JSON).
@@ -119,4 +119,4 @@ Als `((inherited_page_properties.jcr:language))` wordt omgezet in `en` , wordt d
 ### Bronnen
 
 Voor meer details op **Contextuele Variabelen van de Inhoud**, verwijs naar de officiële documentatie:\
-[ Contextuele Variabelen van de Inhoud in AEMBevelen ](https://adobe-consulting-services.github.io/acs-aem-commons/features/contextual-content-variables/index.html)
+[&#x200B; Contextuele Variabelen van de Inhoud in AEMBevelen &#x200B;](https://adobe-consulting-services.github.io/acs-aem-commons/features/contextual-content-variables/index.html)

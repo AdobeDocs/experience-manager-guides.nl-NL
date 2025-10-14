@@ -39,4 +39,4 @@ Zodra de overzichtstaak wordt opnieuw toegewezen, toont de kolom van de Toewijzi
 
 De toegewezen controleur ontvangt een bericht in Inbox voor de opnieuw toegewezen overzichtstaak.
 
-**Bovenliggend onderwerp:**&#x200B;[ onderwerpen of kaarten van het Overzicht ](review.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; onderwerpen of kaarten van het Overzicht &#x200B;](review.md)

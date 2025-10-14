@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Bestanden downloaden {#id216MC0H0BE8}
 
-U kunt elementen downloaden, zoals DITA- en niet-DITA-bestanden. Er zijn meerdere manieren waarop u elementen kunt downloaden. Sommige methoden zijn native voor Adobe Experience Manager en andere worden ondersteund door Adobe Experience Manager Guides. Voor inheemse Adobe Experience Manager activa downloadinformatie, mening [ de activa van de Download van Adobe Experience Manager ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html?lang=nl-NL) in de documentatie van Adobe Experience Manager. In de volgende sectie wordt uitgelegd hoe u bestanden downloadt in Experience Manager Guides.
+U kunt elementen downloaden, zoals DITA- en niet-DITA-bestanden. Er zijn meerdere manieren waarop u elementen kunt downloaden. Sommige methoden zijn native voor Adobe Experience Manager en andere worden ondersteund door Adobe Experience Manager Guides. Voor inheemse Adobe Experience Manager activa downloadinformatie, mening [&#x200B; de activa van de Download van Adobe Experience Manager &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html?lang=nl-NL) in de documentatie van Adobe Experience Manager. In de volgende sectie wordt uitgelegd hoe u bestanden downloadt in Experience Manager Guides.
 
 ## Download een DITA-kaartbestand uit de Editor
 
@@ -32,7 +32,7 @@ Voer de volgende stappen uit om een DITA kaartdossier van de Redacteur te downlo
 
 1. In het dialoogvenster Kaart downloaden kunt u de volgende opties kiezen:
 
-   - **basislijn van het Gebruik**: Selecteer deze optie om een lijst van Basislijnen te krijgen die voor de kaart DITA worden gecreeerd. Als u het kaartbestand en de inhoud ervan wilt downloaden op basis van een specifieke basislijn, selecteert u de basislijn in de vervolgkeuzelijst. Voor meer details over het werken met Basislijnen, mening [ Werk met Basislijn ](generate-output-use-baseline-for-publishing.md#).
+   - **basislijn van het Gebruik**: Selecteer deze optie om een lijst van Basislijnen te krijgen die voor de kaart DITA worden gecreeerd. Als u het kaartbestand en de inhoud ervan wilt downloaden op basis van een specifieke basislijn, selecteert u de basislijn in de vervolgkeuzelijst. Voor meer details over het werken met Basislijnen, mening [&#x200B; Werk met Basislijn &#x200B;](generate-output-use-baseline-for-publishing.md#).
 
    - **de hiërarchieopties van het Dossier**: U kunt het drop-down van de dossierhiërarchie ook gebruiken om te kiezen hoe de omslagstructuur voor uw gedownloade kaartdossiers wordt behandeld. De beschikbare opties zijn:
 
@@ -86,7 +86,7 @@ Voer de volgende stappen uit om een DITA kaartdossier samen met zijn afhankelijk
 
 1. Selecteer **Download**. In het dialoogvenster Kaart downloaden kunt u de volgende opties kiezen:
 
-   - **Basislijn van het Gebruik**: Selecteer deze optie om een lijst van Basislijnen te krijgen die voor de kaart DITA worden gecreeerd. Als u het kaartbestand en de inhoud ervan wilt downloaden op basis van een specifieke basislijn, selecteert u de basislijn in de vervolgkeuzelijst. Voor meer details over het werken met Basislijnen, mening [ Werk met Basislijn ](generate-output-use-baseline-for-publishing.md#).
+   - **Basislijn van het Gebruik**: Selecteer deze optie om een lijst van Basislijnen te krijgen die voor de kaart DITA worden gecreeerd. Als u het kaartbestand en de inhoud ervan wilt downloaden op basis van een specifieke basislijn, selecteert u de basislijn in de vervolgkeuzelijst. Voor meer details over het werken met Basislijnen, mening [&#x200B; Werk met Basislijn &#x200B;](generate-output-use-baseline-for-publishing.md#).
 
    - **de Hiërarchie van het Dossier van de Afvlakking**: Selecteer deze optie om alle referenced onderwerpen en media dossiers in één enkele omslag te bewaren.
 
@@ -111,4 +111,4 @@ Voer de volgende stappen uit om een DITA kaartdossier samen met zijn afhankelijk
 
 Nadat de kaart is gedownload, kunt u de kaart selecteren en het pictogram Openen bovenaan gebruiken om het geselecteerde rapport te openen.
 
-**Bovenliggend onderwerp:**&#x200B;[ beheert inhoud ](authoring.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; beheert inhoud &#x200B;](authoring.md)

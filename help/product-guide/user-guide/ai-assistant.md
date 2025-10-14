@@ -19,16 +19,16 @@ De **Medewerker AI** in Adobe Experience Manager Guides is een krachtig, AI-gedr
 
 De **Authoring** eigenschap in AI Medewerker maakt uw auteursproces slimmer en sneller. Het biedt mogelijkheden zoals het produceren van intelligente suggesties voor inhoudshergebruik, het vertalen van inhoud, het verbeteren van inhoudskwaliteit, en meer, allen die op uw geselecteerde inhoud worden gebaseerd. Deze functie verbetert de algemene ontwerpervaring en de productiviteit van auteurs.
 
-Voor meer details, mening [ Authoring ](./ai-assistant-right-panel.md).
+Voor meer details, mening [&#x200B; Authoring &#x200B;](./ai-assistant-right-panel.md).
 
-![ Hulp ai ](./images/ai-assistant-panel.png){align="left"}
+![&#x200B; Hulp ai &#x200B;](./images/ai-assistant-panel.png){align="left"}
 
 De **eigenschap van de Hulp** in AI Medewerker is een intuïtief, op praatje-gebaseerd hulpmiddel dat wordt ontworpen om u beter te helpen Experience Manager Guides begrijpen, problemen oplossen, en door informatie binnen de Documentatie van Adobe Experience Manager Guides zoeken. In plaats van het zoeken door gebruikersgidsen en verwijzingsdocumenten, kunt u de **eigenschap van de Hulp** gebruiken om relevante antwoorden aan uw vragen snel te vinden. Hierdoor bespaart u tijd en kunt u zich richten op het maken van inhoud, wat resulteert in hogere productiviteit en efficiëntie.
 
-Voor meer details, mening [ Hulp ](./ai-based-smart-help.md).
+Voor meer details, mening [&#x200B; Hulp &#x200B;](./ai-based-smart-help.md).
 
 
-![ het Slimme paneel van de Hulp ](images/smart-help-panel.png){align="left"}
+![&#x200B; het Slimme paneel van de Hulp &#x200B;](images/smart-help-panel.png){align="left"}
 
 ## Aan de slag met AI Assistant
 
@@ -41,7 +41,7 @@ Voer de volgende stappen uit om AI Assistant te starten:
 
    De AI Hulp pagina wordt getoond die zijn zeer belangrijke eigenschappen, verbinding van gebruikersrichtlijnen, en a **benadrukt begonnen** knoop.
 
-   ![ het Slimme paneel van de Hulp ](images/get-started-ai.png){align="left"}
+   ![&#x200B; het Slimme paneel van de Hulp &#x200B;](images/get-started-ai.png){align="left"}
 
 1. Lees zorgvuldig de gebruikersrichtlijnen en selecteer dan **begonnen worden** om de AI Medewerker te lanceren.
 

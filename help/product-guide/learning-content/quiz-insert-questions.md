@@ -21,7 +21,7 @@ Voer de volgende stappen uit om vragen in een quiz in te voegen:
 
    Wanneer u een vraag invoegt, wordt de nieuwe vraag standaard toegevoegd als de cursor zich op een vraagblok bevindt.
 
-   Om een vraag tussen de twee bestaande vragen op te nemen, neem eerst [ een paragraaf ](#insert-paragraph-within-the-quiz) op, en neem dan vragen op.
+   Om een vraag tussen de twee bestaande vragen op te nemen, neem eerst [&#x200B; een paragraaf &#x200B;](#insert-paragraph-within-the-quiz) op, en neem dan vragen op.
 
 1. Een vraag wordt ingevoegd in de geselecteerde indeling. Vervolgens kunt u de vraag op basis van uw vereisten bewerken.
 

@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Dit artikel behandelt de nieuwe en verbeterde eigenschappen in versie 4.2.1 van Adobe Experience Manager Guides (later die als *wordt bedoeld AEM Guides*).
 
-Voor meer details op de verbeteringsinstructies, verenigbaarheidsmatrijs, en de kwesties die in deze versie worden bevestigd, zie het [ de nota&#39;s van de Versie ](release-notes-4-2-1.md) artikel.
+Voor meer details op de verbeteringsinstructies, verenigbaarheidsmatrijs, en de kwesties die in deze versie worden bevestigd, zie het [&#x200B; de nota&#39;s van de Versie &#x200B;](release-notes-4-2-1.md) artikel.
 
 ## Ga van de Redacteur van het Web aan de AEM homepage
 
@@ -26,7 +26,7 @@ Nu kunt u gemakkelijk van de Redacteur van het Web aan de pagina van de Navigati
 * Klik het **pictogram van Gidsen** (![](assets/aem-guides-icon.png)), om terug naar de pagina van de Navigatie van de AEM te gaan.
 
 
-Voor meer details, zie [ AEM de pagina van de Navigatie ](../user-guide/web-editor-launch-editor.md#id2056BG00RZJ).
+Voor meer details, zie [&#x200B; AEM de pagina van de Navigatie &#x200B;](../user-guide/web-editor-launch-editor.md#id2056BG00RZJ).
 
 ## Geavanceerde ondersteuning voor metagegevens in PDF-publicaties
 
@@ -36,7 +36,7 @@ AEM Guides biedt nu geavanceerde ondersteuning voor de metagegevens die zijn toe
 
 U kunt een XMP importeren en AEM Guides kan de gegevens uit het bestand kiezen. U kunt ook de namen en waarden van metagegevens opgeven met het vervolgkeuzemenu. U kunt ook aangepaste metagegevens toevoegen door deze rechtstreeks in het naamveld te typen.
 
-Voor meer details, zie **de eigenschapbeschrijving van 0&rbrace; Meta-gegevens &lbrace;in [ een vooraf ingestelde PDF output ](../web-editor/native-pdf-web-editor.md) creëren.**
+Voor meer details, zie **de eigenschapbeschrijving van 0&rbrace; Meta-gegevens &lbrace;in [&#x200B; een vooraf ingestelde PDF output &#x200B;](../web-editor/native-pdf-web-editor.md) creëren.**
 
 ### Verbeterd deelvenster Omtrekweergave
 
@@ -50,7 +50,7 @@ De omtrekweergave biedt de volgende verbeteringen:
 
 * Met de zoekfunctie kunt u naar een element zoeken op basis van de naam, id, tekst of kenmerkwaarde.
 
-Voor meer details, zie de de eigenschapbeschrijving van de mening van het Overzicht in de [ Linkersectie van het Comité ](../user-guide/web-editor-features.md#id2051EA0M0HS).
+Voor meer details, zie de de eigenschapbeschrijving van de mening van het Overzicht in de [&#x200B; Linkersectie van het Comité &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS).
 
 ## Genereer het Multimedia-rapport uit de webeditor
 
@@ -61,7 +61,7 @@ U kunt CSV ook produceren om de huidige momentopname van multimedia te downloade
 
 <img src="assets/web-editor-reports-multimedia.png" alt="multimediapport" width="600">
 
-Voor meer details, zie Genereer een beschrijving van de het rapporteigenschap van verschillende media in het [ DITA kaartrapport van de Redacteur van het Web ](../user-guide/reports-web-editor.md) sectie.
+Voor meer details, zie Genereer een beschrijving van de het rapporteigenschap van verschillende media in het [&#x200B; DITA kaartrapport van de Redacteur van het Web &#x200B;](../user-guide/reports-web-editor.md) sectie.
 
 ## Native PDF | De bar van de verandering om op veranderde onderwerpen in Inhoudsopgave te wijzen
 
@@ -69,7 +69,7 @@ AEM Guides staat u nu toe om de veranderde onderwerpen in TOC van de output van 
 
 <img src="assets/change-marker-toc.png" alt="Markeerteken in inhoudsopgave wijzigen " width="500">
 
-Voor meer details, zie [ Werk met de stijlen van de bars van de douaneverandering ](../native-pdf/change-bar-style.md).
+Voor meer details, zie [&#x200B; Werk met de stijlen van de bars van de douaneverandering &#x200B;](../native-pdf/change-bar-style.md).
 
 
 
@@ -77,7 +77,7 @@ Voor meer details, zie [ Werk met de stijlen van de bars van de douaneveranderin
 
 Nu kunt u de paginamarkering opmaken in de voetnoten. U kunt bijvoorbeeld vierkante haakjes toevoegen of de kleur ervan wijzigen. Met deze stijlen kunnen gebruikers gemakkelijk de paginamarkeringen in het document herkennen.
 
-Voor meer details, zie [ de douanestijlen van het Gebruik in voetnoten ](../native-pdf/footnote-number-style.md).
+Voor meer details, zie [&#x200B; de douanestijlen van het Gebruik in voetnoten &#x200B;](../native-pdf/footnote-number-style.md).
 
 ## Video- of audiobestanden openen en afspelen in de webeditor
 
@@ -85,4 +85,4 @@ AEM Guides beschikt nu over de functie om de audio- of videobestanden te openen 
 
 <img src="assets/video-web-editor.png" alt="video afspelen" width="600">
 
-Voor meer details, zie de de eigenschapbeschrijving van de Mening van de Bewaarplaats in de [ Linkersectie van het Comité ](../user-guide/web-editor-features.md#id2051EA0M0HS).
+Voor meer details, zie de de eigenschapbeschrijving van de Mening van de Bewaarplaats in de [&#x200B; Linkersectie van het Comité &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS).

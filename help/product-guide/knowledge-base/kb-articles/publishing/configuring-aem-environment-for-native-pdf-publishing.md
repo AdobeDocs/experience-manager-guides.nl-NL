@@ -111,7 +111,7 @@ De inheemse PDF het publiceren motor heeft Oracle JDK nodig om de knoopmodules i
 Opdracht: u installeert fontconfig
 12. Genereer native PDF op basis van voorinstellingen in de webeditor.
 
-**NOTA** : node_modules.zip pakket kan [ hier ](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:295d8f03-41e1-429b-8465-2761ce3c2fb3) worden gedownload.
+**NOTA** : node_modules.zip pakket kan [&#x200B; hier &#x200B;](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:295d8f03-41e1-429b-8465-2761ce3c2fb3) worden gedownload.
 
 Het handmatig importeren van de gedownloade knoopmodules voor het Linux-besturingssysteem is een oplossing voor gebruikers die op hulplijnen 4.1 of eerdere versies staan (stap 6-12)
 
@@ -150,7 +150,7 @@ iii) ./node-darwin/bin/node node-darwin/lib/node_modules/npm/bin/npm-cli.js —p
 
    i) Voer **uit./node-darwin/bin/node** opdracht van /crx-quickstart/profiles/nodejs-b1aad0a7-9079-e56c-1ed8-6fcababe8166 folder
 
-   ![ mac ](../assets/publishing/mac.png)
+   ![&#x200B; mac &#x200B;](../assets/publishing/mac.png)
 
    ii) a = require(&#39;java&#39;)
 
@@ -165,7 +165,7 @@ Hieronder ziet u de algemene fouten die kunnen optreden tijdens het genereren va
 
 ### Null pointer Exception in Windows/Mac OS
 
-![ ongeldige wijzeruitzondering ](../assets/publishing/null-pointer-exception.png)
+![&#x200B; ongeldige wijzeruitzondering &#x200B;](../assets/publishing/null-pointer-exception.png)
 
 Als het probleem zich blijft voordoen zelfs nadat de Java-omgeving is gecorrigeerd, moet u het volgende opnieuw valideren:
 
@@ -175,14 +175,14 @@ Als het probleem zich blijft voordoen zelfs nadat de Java-omgeving is gecorrigee
 
 ### Ontbrekende bibliotheken in RHEL 7 Linux OS
 
-![ ontbrekende bibliotheken ](../assets/publishing/missing-libraries.png)
+![&#x200B; ontbrekende bibliotheken &#x200B;](../assets/publishing/missing-libraries.png)
 
 ### Time-out Publish-proces. Het proces is in de gegeven tijd niet voltooid
 
-![ publiceer procesonderbreking ](../assets/publishing/publish-process-timeout.png)
+![&#x200B; publiceer procesonderbreking &#x200B;](../assets/publishing/publish-process-timeout.png)
 
 Valideer de time-outeigenschapswaarde voor het knooppunt nodejs in /var/dxml/profiles/b1aad0a7-9079-e56c-1ed8-6fcababe8166/nodejs in de gegevensopslagplaats van CRX. De standaardwaarde is 300.
 
 
 
-Als u om het even welke kwesties ontmoet terwijl het uitvoeren van om het even welke bovengenoemde stappen, post uw vraag op het communautair van AEM Guides [ forum ](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) voor hulp.
+Als u om het even welke kwesties ontmoet terwijl het uitvoeren van om het even welke bovengenoemde stappen, post uw vraag op het communautair van AEM Guides [&#x200B; forum &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) voor hulp.

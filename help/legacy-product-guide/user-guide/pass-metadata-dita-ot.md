@@ -34,7 +34,7 @@ Voer de volgende stappen uit om de metagegevens door te geven aan de uitvoer met
 
    Dit bestand kan worden bedekt door: `/apps/fmdita/config/metadataList` .
 
-   Om een douanebezit over te gaan waarvoor u reeds de waarden hebt bepaald, zie [ Meta-gegevens van AEM van het Gebruik in output DITA-OT PDF ](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880).
+   Om een douanebezit over te gaan waarvoor u reeds de waarden hebt bepaald, zie [&#x200B; Meta-gegevens van AEM van het Gebruik in output DITA-OT PDF &#x200B;](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880).
 
 1. Van **Eigenschappen** dropdown, selecteer de vereiste douane en standaardeigenschappen. Selecteer bijvoorbeeld `author` , `dc:title` en `dc:description` . Dit is de standaard `metadata/properties` die wordt gemaakt wanneer we een bestand maken. De geselecteerde eigenschappen worden onder de dropbox weergegeven.
 
@@ -45,4 +45,4 @@ Voer de volgende stappen uit om de metagegevens door te geven aan de uitvoer met
 
 De geselecteerde eigenschappen van metagegevens worden doorgegeven aan de uitvoer die wordt gegenereerd met DITA-OT.
 
-**Bovenliggend onderwerp:**&#x200B;[ Productie van de Output ](generate-output.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Productie van de Output &#x200B;](generate-output.md)

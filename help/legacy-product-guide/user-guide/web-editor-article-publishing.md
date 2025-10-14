@@ -33,4 +33,4 @@ U kunt ook de uitvoervoorinstellingen gebruiken die voor uw DITA-kaart zijn gema
 - **[produceer output van het paneel van de Bewaarplaats of het paneel van de Mening van de Kaart](web-editor-article-publishing-output.md)**
 
 
-**Bovenliggend onderwerp:**&#x200B;[ Werk met de Redacteur van het Web ](web-editor.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Werk met de Redacteur van het Web &#x200B;](web-editor.md)

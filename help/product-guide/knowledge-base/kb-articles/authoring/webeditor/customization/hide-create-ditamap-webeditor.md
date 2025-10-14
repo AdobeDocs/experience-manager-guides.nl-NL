@@ -17,13 +17,13 @@ In dit gebruiksgeval wordt deze optie voor alle gebruikers zonder auteur verborg
 ## Voorwaarden
 
 We gebruiken het AEM Guides Extension-pakket waarmee u de gebruikersinterface van uw app naar wens kunt aanpassen.
-Gelieve te gaan door deze [ documentatie ](https://github.com/adobe/guides-extension/tree/main) om meer inzicht in te krijgen hoe het Kader van de Uitbreiding van Gidsen werkt.
+Gelieve te gaan door deze [&#x200B; documentatie &#x200B;](https://github.com/adobe/guides-extension/tree/main) om meer inzicht in te krijgen hoe het Kader van de Uitbreiding van Gidsen werkt.
 
 Nu gaat u aan de slag en leert u hoe u het contextmenu van de map kunt aanpassen om deze optie te verbergen voor alle gebruikers die geen auteur zijn.
 
 Zoals u onder codefragment kunt zien, is de optie &quot;DitaMap maken&quot; zichtbaar voor een auteur-gebruiker.
 
-![ toon creeer optie DitaMap ](../../../assets/authoring/ditamap-show-author.png)
+![&#x200B; toon creeer optie DitaMap &#x200B;](../../../assets/authoring/ditamap-show-author.png)
 
 Laten we nu bekijken hoe we deze optie kunnen verbergen met het Guides Extension Framework.
 
@@ -122,17 +122,17 @@ controller: {
 - Meld u aan bij AEM met een gebruiker die geen deel uitmaakt van een groep auteurs. De optie DitaMap maken wordt verborgen in het contextmenu van elke map, zoals hieronder wordt weergegeven.
 Dit gebruikscase is toegevoegd aan GIT. Zie hieronder de gerelateerde bronnen.
 
-![ verberg creeert optie DitaMap ](../../../assets/authoring/ditamap-hide-non-author.png)
+![&#x200B; verberg creeert optie DitaMap &#x200B;](../../../assets/authoring/ditamap-hide-non-author.png)
 
 ### Gerelateerde bronnen
 
-- **de basisbewaarplaats van het Kader van de Uitbreiding** - [ GIT ](https://github.com/adobe/guides-extension/tree/main)
+- **de basisbewaarplaats van het Kader van de Uitbreiding** - [&#x200B; GIT &#x200B;](https://github.com/adobe/guides-extension/tree/main)
 
-- **Documentatie** - [ op Experience League ](../../../../../guides-ui-extensions/aem_guides_framework/basic-customisation.md)
+- **Documentatie** - [&#x200B; op Experience League &#x200B;](../../../../../guides-ui-extensions/aem_guides_framework/basic-customisation.md)
 
-- **Gedocumenteerde gemeenschappelijke gebruiksgevallen** - [ op Experience League ](../../../../../guides-ui-extensions/aem_guides_framework/jui-framework.md)
+- **Gedocumenteerde gemeenschappelijke gebruiksgevallen** - [&#x200B; op Experience League &#x200B;](../../../../../guides-ui-extensions/aem_guides_framework/jui-framework.md)
 
-- **Openbare bewaarplaats met steekproeven** - [ op GIT ](https://github.com/adobe/guides-extension/tree/sc-expert-session). Verwijs tak sc-deskundige-zitting
+- **Openbare bewaarplaats met steekproeven** - [&#x200B; op GIT &#x200B;](https://github.com/adobe/guides-extension/tree/sc-expert-session). Verwijs tak sc-deskundige-zitting
 
 ```
 

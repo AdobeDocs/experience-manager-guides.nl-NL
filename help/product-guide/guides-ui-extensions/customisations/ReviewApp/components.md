@@ -17,7 +17,7 @@ Hier volgen de belangrijkste onderdelen van de revisie-app:
 - Deelvenster Inline revisie: `id: inline_review_panel`
    - Het rechterdeelvenster waar de revisieopmerkingen worden weergegeven aan de zijde van de XML-editor.
 
-![ Inline het paneelschot van de Overzicht ](./imgs/inline_review.png)
+![&#x200B; Inline het paneelschot van de Overzicht &#x200B;](./imgs/inline_review.png)
 
 - Onderwerpbeoordelingen: `id: topic_reviews`
    - Het rechterdeelvenster waarin de opmerkingen worden weergegeven in de Revisie-app.
@@ -28,22 +28,22 @@ Hier volgen de belangrijkste onderdelen van de revisie-app:
    - De widget voor elke revisieopmerking.
 
 Opmerking bekijken over de revisie-app:
-![ Schermafbeelding van de Commentaar van het Overzicht ](./imgs/review_comment.png)
+![&#x200B; Schermafbeelding van de Commentaar van het Overzicht &#x200B;](./imgs/review_comment.png)
 
 Opmerking revisie aan de zijde van de XML-editor:
-![ Schermafbeelding van de Commentaar van het Overzicht ](./imgs/review_comment_xmleditor.png)
+![&#x200B; Schermafbeelding van de Commentaar van het Overzicht &#x200B;](./imgs/review_comment_xmleditor.png)
 
 - Reactie op opmerkingen bekijken: `id: comment_reply`
    - De widget voor elke reactie met revisieopmerkingen.
 
-     ![ het Antwoord van de Commentaar van het Overzicht Screenshot ](./imgs/reply.png)
+     ![&#x200B; het Antwoord van de Commentaar van het Overzicht Screenshot &#x200B;](./imgs/reply.png)
 
 - Nieuw commentaar op revisie: `id: comment_new_reply`
    - De widget voor het reageren op revisieopmerkingen.
 
-     ![ het Nieuwe Antwoord van de Commentaar van het Overzicht Schermafbeelding ](./imgs/new_reply.png)
+     ![&#x200B; het Nieuwe Antwoord van de Commentaar van het Overzicht Schermafbeelding &#x200B;](./imgs/new_reply.png)
 
 - Gereedschapset Annotatie: `id: annotation_toolbox`
    - De werkbalk rechtsboven in de revisie-app.
 
-     ![ Toolbox van de Annotatie Schermafbeelding ](./imgs/annotation_toolbox.png)
+     ![&#x200B; Toolbox van de Annotatie Schermafbeelding &#x200B;](./imgs/annotation_toolbox.png)

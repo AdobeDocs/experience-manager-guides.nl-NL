@@ -36,4 +36,4 @@ Hierdoor wordt een textArea gemaakt waarin de gebeurtenis wordt aangeroepen wann
 
 Het gerenderde tekstgebied ziet er als volgt uit:
 
-![ tekst-gebied ](./imgs/text_area.png " Gebied van de Tekst ")
+![&#x200B; tekst-gebied &#x200B;](./imgs/text_area.png " Gebied van de Tekst ")

@@ -42,7 +42,7 @@ Voordat u de stappen in deze procedure uitvoert, moet u controleren of u de vere
 
 1. Als gebruiker, kunt u de taalgroepen bekijken die aan uw omslagprofiel worden gevormd. De taalgroepen geven de taalmappen en hun taalcodes weer. De taalgroep met de naam G1 bevat bijvoorbeeld de volgende mappen: Italiaans \(it\), Duits \(de\), Frans \(fr\) en Engels \(en\).
 
-   ![ vertaalpaneel ](images/translation-languages.png){width="300" align="left"}
+   ![&#x200B; vertaalpaneel &#x200B;](images/translation-languages.png){width="300" align="left"}
 
    *selecteer de taalgroepen of de talen waarin u uw documenten wilt vertalen.*
 
@@ -73,7 +73,7 @@ Voordat u de stappen in deze procedure uitvoert, moet u controleren of u de vere
 
    **niets** selecteer deze optie om de standaardversies van de dossiers te vertalen. Deze optie is standaard ingeschakeld.
 
-   **Basislijn van het Gebruik:** u kunt een basislijn selecteren om uw project te vertalen. Klik op Basislijn gebruiken en kies een basislijn die op de kaart is gemaakt. Alle bestanden die deel uitmaken van de geselecteerde basislijn, worden weergegeven op de pagina Vertalen. Nadat de inhoud is vertaald, kunt u de vertaalde basislijn exporteren. Voor meer details over het uitvoeren van de vertaalde Basislijn, zie [ Uitvoer vertaalde Basislijn ](generate-output-use-baseline-for-publishing.md#id196SE600GHS).
+   **Basislijn van het Gebruik:** u kunt een basislijn selecteren om uw project te vertalen. Klik op Basislijn gebruiken en kies een basislijn die op de kaart is gemaakt. Alle bestanden die deel uitmaken van de geselecteerde basislijn, worden weergegeven op de pagina Vertalen. Nadat de inhoud is vertaald, kunt u de vertaalde basislijn exporteren. Voor meer details over het uitvoeren van de vertaalde Basislijn, zie [&#x200B; Uitvoer vertaalde Basislijn &#x200B;](generate-output-use-baseline-for-publishing.md#id196SE600GHS).
 
    **de Laatste Versie van het Gebruik zoals op**: verkies om de versie van onderwerpen te filtreren die op hun creatieve datum en tijd worden gebaseerd. Wanneer u een datum en tijd selecteert, wordt alleen de meest recente versie van de bestanden weergegeven die op of voor de geselecteerde datum en tijd zijn gemaakt.
 
@@ -125,7 +125,7 @@ In een XLIFF-project wordt de inhoud geëxporteerd naar de industriestandaard XL
 1. Op het **gebied van de Titel van het 0&rbrace; Project, ga een titel voor het project in.**
 1. Klik **creëren** om een nieuw vertaalproject tot stand te brengen.
 
-   Een nieuw vertaalproject wordt gecreeerd met de geselecteerde versie van de onderwerpen. Op dit moment wordt een pop-upbericht weergegeven met de bevestiging dat het vertaalproject is gemaakt. Zodra alle exemplaren van de doeltaal in het vertaalproject beschikbaar zijn, krijgt u een bericht in Inbox. Zodra de doeltaalkopieën beschikbaar zijn in het vertaalproject, kunt u de vertaaltaak starten. Voor details zie, [ Begin de vertaalbaan ](translation-first-time.md#id225IK030OE8).
+   Een nieuw vertaalproject wordt gecreeerd met de geselecteerde versie van de onderwerpen. Op dit moment wordt een pop-upbericht weergegeven met de bevestiging dat het vertaalproject is gemaakt. Zodra alle exemplaren van de doeltaal in het vertaalproject beschikbaar zijn, krijgt u een bericht in Inbox. Zodra de doeltaalkopieën beschikbaar zijn in het vertaalproject, kunt u de vertaaltaak starten. Voor details zie, [&#x200B; Begin de vertaalbaan &#x200B;](translation-first-time.md#id225IK030OE8).
 
    >[!NOTE]
    >
@@ -227,4 +227,4 @@ Voor het uitvoeren van documentbeheer biedt Experience Manager Guides de mogelij
 U kunt de vertaalprojecten ook onbruikbaar maken als u hen later wilt gebruiken. Als u een project verwijdert, worden alle bestanden en mappen in het project verwijderd. Als u een project uitschakelt, wordt het niet verwijderd, maar in de opslagplaats bewaard. Maar u kunt een gehandicapt project niet bijwerken of uitgeven.  Het verwijderen of uitschakelen van een project heeft geen invloed op de vertaalstatus van verwijzingen.
 
 
-**Bovenliggend onderwerp:**&#x200B;[ Werk met de Redacteur van het Web ](web-editor.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Werk met de Redacteur van het Web &#x200B;](web-editor.md)

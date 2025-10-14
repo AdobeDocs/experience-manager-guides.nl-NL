@@ -31,7 +31,7 @@ Voer de volgende stappen uit om een uitvoervoorinstelling voor de algemene profi
    - Naam
    - Doel \(voor voorinstelling voor kennisdatabase\)
 1. Selecteer **toevoegen aan omslagprofiel** controledoos om een output tot stand te brengen die voor het verwante omslagprofiel vooraf wordt ingesteld en dan **klikken voegt** toe. Vooraf ingesteld wordt gecreeerd, en het verschijnt onder het **lusje van de Output** van alle verwante kaarten. \( ![](images/global-preset-icon.svg)\)-pictogram geeft een voorinstelling voor het mapprofielniveau aan.
-1. Voer de configuratiedetails in. Voor meer details op output stelt vooraf in, mening [ Begrijpend de output vooraf in ](./generate-output-understand-presets.md).
+1. Voer de configuratiedetails in. Voor meer details op output stelt vooraf in, mening [&#x200B; Begrijpend de output vooraf in &#x200B;](./generate-output-understand-presets.md).
 
    >[!NOTE]
    >
@@ -54,4 +54,4 @@ U kunt ook de volgende bewerkingen uitvoeren op de voorinstelling via het menu O
 >
 > Wanneer een output vooraf ingesteld in Globale en Profielen van de Omslag wordt geschrapt, zal het in alle verwante kaarten weerspiegelen en zal niet onder de **Output** tabel verschijnen.
 
-**Bovenliggend onderwerp:**&#x200B;[ Werk met de Redacteur van het Web ](web-editor.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Werk met de Redacteur van het Web &#x200B;](web-editor.md)

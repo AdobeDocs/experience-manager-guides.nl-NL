@@ -21,7 +21,7 @@ Nadat u een kaartverzameling hebt gemaakt voor bulkactivering, bestaat de volgen
 
 1. Selecteer het **Bulk publiceer dashboard** tegel.
 
-   Het bulkpublicatiedashboard wordt weergegeven met een lijst met bulkactiveringskaartverzamelingen. U kunt tot dit dashboard van het Linkerpaneel van de [ Homepage van Adobe Experience Manager Guides ](intro-home-page.md) ook toegang hebben.
+   Het bulkpublicatiedashboard wordt weergegeven met een lijst met bulkactiveringskaartverzamelingen. U kunt tot dit dashboard van het Linkerpaneel van de [&#x200B; Homepage van Adobe Experience Manager Guides &#x200B;](intro-home-page.md) ook toegang hebben.
 
 1. Selecteer de inzameling die u wilt publiceren en **Open** selecteren.
 
@@ -39,7 +39,7 @@ Bekijk de verschillende manieren om uw inzameling te activeren die op uw opstell
 <details>
 <summary> Cloud Services </summary>
 
-![ bulksgewijs-inzameling-publiceert op de wolkendienst ](images/bulk-activation-collection-quick-publish-CS.png){width="650" align="left"}
+![&#x200B; bulksgewijs-inzameling-publiceert op de wolkendienst &#x200B;](images/bulk-activation-collection-quick-publish-CS.png){width="650" align="left"}
 
 U kunt de output aan de **Voorproef** activeren of **publiceren** instanties.
 
@@ -74,7 +74,7 @@ Voer een van de volgende handelingen uit:
 
 * Om de output van geselecteerde kaarten te activeren, selecteer de vooraf geproduceerde kaartoutput en selecteer **Snel publiceren**.
 * Om de output van alle kaarten DITA met hun gevormde voorinstellingen te activeren, selecteer checkbox naast de Kaart (kolom), en selecteer dan **Snel publiceren.**
-  ![ bulk-inzameling-publiceer ](images/bulk-activation-collection-quick-publish.png){width="650" align="left"}
+  ![&#x200B; bulk-inzameling-publiceer &#x200B;](images/bulk-activation-collection-quick-publish.png){width="650" align="left"}
 
   >[!NOTE]
   > 
@@ -85,4 +85,4 @@ Er wordt een succesbericht weergegeven wanneer de kaartuitvoer in een wachtrij w
 
 Nadat de uitvoer voor de geselecteerde kaartbestanden is geactiveerd, wordt het tabblad voor de auditgeschiedenis bijgewerkt en wordt de meest recente geactiveerde uitvoer bovenaan weergegeven. De **Gepubliceerde** kolom wordt bijgewerkt met de het publiceren datum en tijd.
 
-**Bovenliggend onderwerp: &#x200B;** [ Bulk Activering van gepubliceerde inhoud ](conf-bulk-activation.md)
+**Bovenliggend onderwerp: &#x200B;** [&#x200B; Bulk Activering van gepubliceerde inhoud &#x200B;](conf-bulk-activation.md)

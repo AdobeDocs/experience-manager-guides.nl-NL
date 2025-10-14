@@ -19,11 +19,11 @@ De AI-assistent in Adobe Experience Manager Guides is gebouwd om privacy en veil
 
 ## Wordt de inhoud die ik aan AI Assistant geef gedeeld met anderen?
 
-Nee, de inhoud en aanwijzingen die u aan AI Assistant verschaft, worden niet gedeeld met andere klanten. AI Assistant verwerkt uw invoer alleen om reacties binnen uw werkruimte te genereren en gebruikt deze niet om modellen voor anderen op te leiden. Voor meer details, mening [ Generatieve AI gebruikersrichtlijnen van Adobe ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
+Nee, de inhoud en aanwijzingen die u aan AI Assistant verschaft, worden niet gedeeld met andere klanten. AI Assistant verwerkt uw invoer alleen om reacties binnen uw werkruimte te genereren en gebruikt deze niet om modellen voor anderen op te leiden. Voor meer details, mening [&#x200B; Generatieve AI gebruikersrichtlijnen van Adobe &#x200B;](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
 
 ## Kan ik feedback geven op de antwoorden van de AI Assistant?
 
-Ja, u krijgt de opties om van de reacties die door AI Assistant zijn gegenereerd, te houden, te verhelen of te rapporteren. Uw feedback helpt het Experience Manager Guides-team de juistheid en relevantie van reacties van AI Assistant te verbeteren, waardoor de prestaties in de loop der tijd verbeteren. Om meer over deze eigenschappen te leren, mening [ AI-Gerichte slimme Hulp om inhoud ](./ai-based-smart-help.md) te zoeken.
+Ja, u krijgt de opties om van de reacties die door AI Assistant zijn gegenereerd, te houden, te verhelen of te rapporteren. Uw feedback helpt het Experience Manager Guides-team de juistheid en relevantie van reacties van AI Assistant te verbeteren, waardoor de prestaties in de loop der tijd verbeteren. Om meer over deze eigenschappen te leren, mening [&#x200B; AI-Gerichte slimme Hulp om inhoud &#x200B;](./ai-based-smart-help.md) te zoeken.
 
 ## Hoe lang worden de gegevens van conversationele Hulp opgeslagen?
 

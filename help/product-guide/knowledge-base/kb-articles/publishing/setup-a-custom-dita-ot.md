@@ -19,12 +19,12 @@ Op hoog niveau zijn de volgende stappen:
 
 + Krijg de basisDITA-OT
    + Als u een kopie van de DITA-OT buiten de box wilt verkrijgen vanuit [!DNL AEM Guides] , downloadt u deze van het pad `/etc/fmdita/dita_resources/DITA-OT.zip`
-   + Als u een verschillende versie wilt verkrijgen dan kunt u van [ dita-te repo ](https://www.dita-ot.org/download) downloaden
-+ Breng veranderingen in DITA-OT als [ het toevoegen van nieuwe stop ](https://www.dita-ot.org/dev/topics/plugins-installing.html) aan, of het aanpassen van bestaande stoppen (verwijs voorbeeld in verwante verbindingssectie hieronder)
+   + Als u een verschillende versie wilt verkrijgen dan kunt u van [&#x200B; dita-te repo &#x200B;](https://www.dita-ot.org/download) downloaden
++ Breng veranderingen in DITA-OT als [&#x200B; het toevoegen van nieuwe stop &#x200B;](https://www.dita-ot.org/dev/topics/plugins-installing.html) aan, of het aanpassen van bestaande stoppen (verwijs voorbeeld in verwante verbindingssectie hieronder)
 + Uploaden `DITA-OT.zip` ontvangen naar `/apps/<project-folder>/dita_resources` (een aangepaste projectmap maken wordt aanbevolen)
 + DITA-profiel toevoegen via **[!UICONTROL Tools]** > **[!UICONTROL Guides]** > **[!UICONTROL DITA Profiles]** (gebruik het DITA-OT-pad waar de aangepaste DITA-OT wordt geüpload, raadpleeg de onderstaande schermafbeelding)
-  ![ Profielen DITA ](assets/dita-profile.png)
+  ![&#x200B; Profielen DITA &#x200B;](assets/dita-profile.png)
 
 >[!MORELIKETHIS]
 >
->+ [ het Aanpassen van DITA-OT steekproeven van de insteekmodule ](https://www.dita-ot.org/dev/topics/pdf-customization.html)
+>+ [&#x200B; het Aanpassen van DITA-OT steekproeven van de insteekmodule &#x200B;](https://www.dita-ot.org/dev/topics/pdf-customization.html)

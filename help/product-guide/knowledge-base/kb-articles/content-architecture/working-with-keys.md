@@ -57,8 +57,8 @@ Hier hebt u twee definities, zoals hierboven getoond, a [!UICONTROL keyref] als 
 
 + Bewerk het onderwerp en voeg de sleutelwaarde toe gebruikend [!UICONTROL keyref].
 + Zoals getoond in het schermafbeelding, zal een klein venster verschijnen van waar de sleutelwoorden kunnen worden gekozen. Dit wordt weergegeven wanneer u het element &quot;trefwoord&quot; toevoegt.
-  ![ het Element van het Tussenvoegsel ](assets/insert_element.png)
-  ![ Zeer belangrijke Verwijzing ](assets/key_ref.png)
+  ![&#x200B; het Element van het Tussenvoegsel &#x200B;](assets/insert_element.png)
+  ![&#x200B; Zeer belangrijke Verwijzing &#x200B;](assets/key_ref.png)
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>

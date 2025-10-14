@@ -13,4 +13,4 @@ ht-degree: 0%
 
 # PDF-uitvoervoorinstelling configureren
 
-Nadat de voorinstelling is gemaakt, configureert u de instellingen voor de PDF-voorinstelling. De vooraf ingestelde configuratieopties zijn ingedeeld op de tabbladen Algemeen, Metagegevens, Lay-out, Beveiliging, Afdrukken en Geavanceerd. Voor meer details, mening [ de output vooraf ingestelde configuratie van PDF ](../web-editor/native-pdf-web-editor.md).
+Nadat de voorinstelling is gemaakt, configureert u de instellingen voor de PDF-voorinstelling. De vooraf ingestelde configuratieopties zijn ingedeeld op de tabbladen Algemeen, Metagegevens, Lay-out, Beveiliging, Afdrukken en Geavanceerd. Voor meer details, mening [&#x200B; de output vooraf ingestelde configuratie van PDF &#x200B;](../web-editor/native-pdf-web-editor.md).

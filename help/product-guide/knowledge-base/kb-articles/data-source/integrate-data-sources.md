@@ -54,10 +54,10 @@ Voer de volgende stappen uit om de inhoud in Experience Manager Guides te integr
    - De gegevensbronschakelaar dient als interface om connectiviteit met de externe gegevensbronnen te vestigen. U moet de connector configureren om de verbinding tot stand te brengen en de verificatiemethoden, zoals `Basic Auth` of `API key Auth` , op te nemen. Alle configuratiedetails, met inbegrip van gecodeerde informatie, worden veilig opgeslagen in Adobe Experience Manager.
    - De schakelaarlaag wordt ontworpen om uitbreidbaar te zijn, toestaand u om uw implementaties tot stand te brengen voor het verbinden met diverse systemen die niet uit-van-de-doos door Experience Manager Guides worden verstrekt.
 
-     ![ Laag van de Schakelaar ](assets/data-source-connector-layer.jpg)
+     ![&#x200B; Laag van de Schakelaar &#x200B;](assets/data-source-connector-layer.jpg)
    >[!NOTE]
    >
-   > Open de definitiemodule Konnect en implementeer de connectorinterface om een aangepaste connector te maken. Leer meer over hoe te [ vormen de schakelaars van de douanegegevensbron ](./conf-custom-data-source-connector.md).
+   > Open de definitiemodule Konnect en implementeer de connectorinterface om een aangepaste connector te maken. Leer meer over hoe te [&#x200B; vormen de schakelaars van de douanegegevensbron &#x200B;](./conf-custom-data-source-connector.md).
 
 1. **pas de malplaatjes van de Snelheid** aan
 
@@ -100,10 +100,10 @@ Voer de volgende stappen uit om de inhoud in Experience Manager Guides te integr
 
       - Sjablonen
 
-        ![ het Sjablonen Motor ](assets/data-source-TemplatingEngine.png){width="800" align="left"}
+        ![&#x200B; het Sjablonen Motor &#x200B;](assets/data-source-TemplatingEngine.png){width="800" align="left"}
       - Gegevens gegenereerd uit dezelfde gegevensbron maar met verschillende sjablonen
 
-        ![ Gegenereerde Gegevens ](assets/data-source-templates-topics.png){width="800" align="left"}
+        ![&#x200B; Gegenereerde Gegevens &#x200B;](assets/data-source-templates-topics.png){width="800" align="left"}
 
 1. **produceer inhoud gebruikend de malplaatjes**
    - U kunt de inhoud genereren op basis van de sjablonen die u hebt gemaakt.
@@ -119,5 +119,5 @@ Voer de volgende stappen uit om de inhoud in Experience Manager Guides te integr
 >[!MORELIKETHIS]
 >
 > De volgende documenten verstrekken meer details bij het vormen van de schakelaars en het gebruiken van hen in uw instantie.
-> - [ vorm een gegevensbronschakelaar ](../../../install-guide/conf-data-source-connector-tools.md)
-> - [ produceer inhoud gebruikend fragmenten of onderwerpen ](../../../user-guide/web-editor-content-snippet.md)
+> - [&#x200B; vorm een gegevensbronschakelaar &#x200B;](../../../install-guide/conf-data-source-connector-tools.md)
+> - [&#x200B; produceer inhoud gebruikend fragmenten of onderwerpen &#x200B;](../../../user-guide/web-editor-content-snippet.md)

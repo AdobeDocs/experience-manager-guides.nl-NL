@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Met labels kunt u inhoud groeperen of classificeren in de gegevensopslagruimte en ook in de gepubliceerde uitvoer. Als u labels op uw inhoud hebt toegepast, kunt u gemakkelijk verwante onderwerpen zoeken in een DITA-kaart die u kan helpen bij het ontwerpen van inhoud. Met de gepubliceerde uitvoer kunnen eindgebruikers de juiste inhoud sneller vinden met de juiste tags.
 
-Met AEM Guides kunt u DITA-inhoud na een paar klikken labelen. U kunt de bulketiketterende eigenschap gebruiken om veelvoudige markeringen op veelvoudige onderwerpen, een kaart DITA, of op een sub-kaart toe te passen. U kunt ook labels toepassen op een afzonderlijk onderwerp. Het etiketteren is de inheemse eigenschap in AEM, kunt u meer details over het creëren van en het leiden van markeringen in de [ Beheersende sectie van Markeringen ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=nl-NL) in de documentatie van AEM vinden.
+Met AEM Guides kunt u DITA-inhoud na een paar klikken labelen. U kunt de bulketiketterende eigenschap gebruiken om veelvoudige markeringen op veelvoudige onderwerpen, een kaart DITA, of op een sub-kaart toe te passen. U kunt ook labels toepassen op een afzonderlijk onderwerp. Het etiketteren is de inheemse eigenschap in AEM, kunt u meer details over het creëren van en het leiden van markeringen in de [&#x200B; Beheersende sectie van Markeringen &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=nl-NL) in de documentatie van AEM vinden.
 
 AEM Guides geeft standaard geen leestoegang aan gebruikers in de map waarin alle tags in de AEM-opslagplaats zijn opgeslagen. Als u tags wilt gebruiken die zijn gedefinieerd in de AEM-opslagplaats, moet u de systeembeheerder vragen toegang te verlenen tot de map waarin de tags zijn opgeslagen.
 
@@ -108,4 +108,4 @@ Voer de volgende stappen uit om alle markeringen uit één of meerdere onderwerp
 
 Als u een lange lijst van markeringen hebt die op uw onderwerpen worden toegepast, dan zou u het een beetje omslachtig kunnen vinden om te navigeren. U kunt eenvoudig tags verbergen in de weergave van de DITA-kaartconsole door op het pictogram Codes verbergen te klikken. Als de labels niet zichtbaar zijn, worden ook alle tags weergegeven wanneer u op Tags tonen klikt.
 
-**Bovenliggend onderwerp:**&#x200B;[ leidt meta-gegevens ](manage-metadata.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; leidt meta-gegevens &#x200B;](manage-metadata.md)

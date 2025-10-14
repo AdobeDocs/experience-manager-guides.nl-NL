@@ -17,7 +17,7 @@ Experience Manager Guides biedt ook ondersteuning voor ontwerpen met desktopgere
 
 **Werk met FrameMaker**
 
-FrameMaker ondersteunt het ontwerpen en publiceren van de inhoud in Experience Manager Guides. FrameMaker wordt geleverd met een out-of-the-box aansluiting op Adobe Experience Manager. FrameMaker biedt u ook een gebruiksvriendelijke interface waarmee u versies van uw documenten kunt onderhouden in een gedistribueerde en gezamenlijke omgeving. U kunt uw inhoud ontwerpen in FrameMaker en publiceren in verschillende indelingen - PDF, HTML5, EPUB en DITA. U kunt ook de verschillende bestandsbeheerbewerkingen uitvoeren, zoals uitchecken, uitchecken met afhankelijke personen, inchecken, vernieuwen enzovoort. Voor meer details, bekijk [ Hulp van FrameMaker ](https://help.adobe.com/en_US/framemaker/using/index.html).
+FrameMaker ondersteunt het ontwerpen en publiceren van de inhoud in Experience Manager Guides. FrameMaker wordt geleverd met een out-of-the-box aansluiting op Adobe Experience Manager. FrameMaker biedt u ook een gebruiksvriendelijke interface waarmee u versies van uw documenten kunt onderhouden in een gedistribueerde en gezamenlijke omgeving. U kunt uw inhoud ontwerpen in FrameMaker en publiceren in verschillende indelingen - PDF, HTML5, EPUB en DITA. U kunt ook de verschillende bestandsbeheerbewerkingen uitvoeren, zoals uitchecken, uitchecken met afhankelijke personen, inchecken, vernieuwen enzovoort. Voor meer details, bekijk [&#x200B; Hulp van FrameMaker &#x200B;](https://help.adobe.com/en_US/framemaker/using/index.html).
 
 **Werk met Zuurstof**
 
@@ -27,4 +27,4 @@ U kunt uitvoerbestanden in PDF, ePub, HTML en vele andere indelingen maken met d
 
 *contacteer uw team van het klantensucces om deze eigenschap te krijgen die in het milieu wordt toegelaten. Dit wordt niet toegelaten als deel van uit-van-de-doos steun.*
 
-**Bovenliggend onderwerp:**&#x200B;[ Inhoud van de Auteur ](authoring-content.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Inhoud van de Auteur &#x200B;](authoring-content.md)

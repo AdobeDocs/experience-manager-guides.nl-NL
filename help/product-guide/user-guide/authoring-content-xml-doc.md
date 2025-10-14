@@ -15,10 +15,10 @@ ht-degree: 0%
 
 Experience Manager Guides wordt geleverd met de drie editors uit de doos. U kunt deze gebruiken om documenten te maken, te bewerken en te publiceren.
 
-1. **Redacteur**: Gebruik het om gestructureerde documenten tot stand te brengen en uit te geven. [ krijgt om de interface van de Redacteur ](web-editor.md) te kennen.
-1. **Redacteur van de Kaart**: Gebruik het om kaart DITA en bookmap dossiers tot stand te brengen en uit te geven. [ Werk met de Redacteur van de Kaart ](map-editor.md).
-1. **Ditaval Redacteur**: Gebruik het om voorwaardelijke output te produceren. [ Leer meer over de Redacteur van DITAVAL ](ditaval-editor.md).
+1. **Redacteur**: Gebruik het om gestructureerde documenten tot stand te brengen en uit te geven. [&#x200B; krijgt om de interface van de Redacteur &#x200B;](web-editor.md) te kennen.
+1. **Redacteur van de Kaart**: Gebruik het om kaart DITA en bookmap dossiers tot stand te brengen en uit te geven. [&#x200B; Werk met de Redacteur van de Kaart &#x200B;](map-editor.md).
+1. **Ditaval Redacteur**: Gebruik het om voorwaardelijke output te produceren. [&#x200B; Leer meer over de Redacteur van DITAVAL &#x200B;](ditaval-editor.md).
 
 
 
-**Bovenliggend onderwerp:**&#x200B;[ Inhoud van de Auteur ](authoring-content.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Inhoud van de Auteur &#x200B;](authoring-content.md)

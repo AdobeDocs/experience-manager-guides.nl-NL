@@ -31,7 +31,7 @@ Voer de volgende stappen uit om een onderwerp van de Prijsverhoging van de Redac
 
    >[!NOTE]
    >
-   > In het geval van een upgrade moet u de sjabloon Markering toevoegen aan het huidige mapprofiel dat wordt gebruikt. U kunt [ een nieuw prijsdalingsmalplaatje van de Redacteur ](./web-editor-features.md#templates) tot stand brengen of een bestaand malplaatje voor prijsdown authoring gebruiken. Voor details op hoe te om auteursmalplaatjes in Experience Manager Guides toe te voegen, mening [ vorm globale of omslag-vlakke profielen ](../cs-install-guide/conf-folder-level.md).
+   > In het geval van een upgrade moet u de sjabloon Markering toevoegen aan het huidige mapprofiel dat wordt gebruikt. U kunt [&#x200B; een nieuw prijsdalingsmalplaatje van de Redacteur &#x200B;](./web-editor-features.md#templates) tot stand brengen of een bestaand malplaatje voor prijsdown authoring gebruiken. Voor details op hoe te om auteursmalplaatjes in Experience Manager Guides toe te voegen, mening [&#x200B; vorm globale of omslag-vlakke profielen &#x200B;](../cs-install-guide/conf-folder-level.md).
 3. Selecteer **creeer**.
 
    Het onderwerp van de Prijsverhoging wordt gecreeerd bij de geselecteerde weg en is open voor het uitgeven.
@@ -147,7 +147,7 @@ In het gedeelte Algemeen hebt u toegang tot de volgende functies:
 * **creeerde op**: De datum en de tijd van vertoningen waarop het onderwerp werd gecreeerd.
 * **Gewijzigd op**: De datum en de tijd van vertoningen waarop het onderwerp werd gewijzigd.
 * **Vergrendeld door**: Toont de gebruiker die het onderwerp uitcontroleerde.
-* **de staat van het Document**: U kunt de documentstaat van het momenteel geopende onderwerp selecteren en bijwerken. Voor meer details, mening [ de Staat van het Document ](./web-editor-document-states.md).
+* **de staat van het Document**: U kunt de documentstaat van het momenteel geopende onderwerp selecteren en bijwerken. Voor meer details, mening [&#x200B; de Staat van het Document &#x200B;](./web-editor-document-states.md).
 * **Markeringen**: Dit zijn de meta-gegevensmarkeringen van het onderwerp. Deze worden ingesteld vanuit het tagveld op de eigenschappenpagina. U kunt deze typen of selecteren in het vervolgkeuzemenu. De tags worden weergegeven onder de vervolgkeuzelijst. Als u een tag wilt verwijderen, selecteert u het kruispictogram naast de tag.
 * **geef meer eigenschappen** uit: U kunt meer eigenschappen van de pagina van dossiereigenschappen uitgeven.
 
@@ -175,4 +175,4 @@ De volgende Experience Manager Guides-functies zijn momenteel niet van toepassin
 
 
 
-**Bovenliggend onderwerp:**&#x200B;[ Inleiding aan de Redacteur ](web-editor.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Inleiding aan de Redacteur &#x200B;](web-editor.md)

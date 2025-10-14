@@ -18,13 +18,13 @@ Als u functies in AEM Guides wilt openen en configureren, moet u gebruikers make
 
 De volgende onderwerpen in de documentatie van AEM zullen u helpen de gebruikersbeleid en veiligheid-gerelateerde concepten en eigenschappen begrijpen:
 
-- [ Gebruikers en Groepen in AEM ](https://helpx.adobe.com/nl/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)
+- [&#x200B; Gebruikers en Groepen in AEM &#x200B;](https://helpx.adobe.com/nl/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)
 
-- [ Toestemmingen in AEM ](https://helpx.adobe.com/nl/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)
+- [&#x200B; Toestemmingen in AEM &#x200B;](https://helpx.adobe.com/nl/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)
 
-- [ het Leiden Gebruikers en Groepen ](https://helpx.adobe.com/nl/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)
+- [&#x200B; het Leiden Gebruikers en Groepen &#x200B;](https://helpx.adobe.com/nl/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)
 
-- [ het Leiden Toestemmingen ](https://helpx.adobe.com/nl/experience-manager/6-5/sites/administering/using/security.html#ManagingPermissions)
+- [&#x200B; het Leiden Toestemmingen &#x200B;](https://helpx.adobe.com/nl/experience-manager/6-5/sites/administering/using/security.html#ManagingPermissions)
 
 
 ## Gebruikersgroepen gemaakt door AEM Guides {#id181TF0K0MHT}
@@ -43,7 +43,7 @@ De volgende lijst maakt een lijst van diverse taken en de groepen die die taken 
 | DITA-kaart maken | Ja |   | Ja |
 | Verzamelingen toewijzen | Ja |   | Ja |
 | Revisietaak maken | Ja |   | Ja |
-| Het Onderwerp van het overzicht [ 1 ](#fntarg_1) | Ja | Ja | Ja |
+| Het Onderwerp van het overzicht [&#x200B; 1 &#x200B;](#fntarg_1) | Ja | Ja | Ja |
 | Belangrijkste resolutie | Ja |   | Ja |
 | Openen in FrameMaker | Ja |   | Ja |
 | Uitchecken/Inchecken | Ja |   | Ja |
@@ -55,7 +55,7 @@ De volgende lijst maakt een lijst van diverse taken en de groepen die die taken 
 | Delen | Ja |   | Ja |
 | **de staat van het Document** |
 | Profiel documentstatus maken/bewerken |   |   | Ja |
-| De documentstaat van de verandering [ 2 ](#fntarg_2) | Ja | Ja | Ja |
+| De documentstaat van de verandering [&#x200B; 2 &#x200B;](#fntarg_2) | Ja | Ja | Ja |
 | **Eigenschappen beschikbaar in DITA kaartconsole \ (Output stelt lusje \ vooraf in)** |
 | Genereren |   |   | Ja |
 | Bewerken |   |   | Ja |
@@ -108,4 +108,4 @@ De volgende lijst bevat enkele aanbevelingen en punten die betrekking hebben op 
 
 - Als u een gebruiker rechten wilt geven om een documentstatus te wijzigen, moet u de gebruiker toevoegen in het gedeelte over statusovergang van het documentstatusprofiel.
 
-[ 1 ](#fnsrc_1) als *Auteurs* en *Uitgevers* voor een overzicht worden uitgenodigd.[ 2 ](#fnsrc_2) afhankelijk van de rechten die aan de gebruiker in het profiel van de documentstaat worden gegeven.
+[&#x200B; 1 &#x200B;](#fnsrc_1) als *Auteurs* en *Uitgevers* voor een overzicht worden uitgenodigd.[&#x200B; 2 &#x200B;](#fnsrc_2) afhankelijk van de rechten die aan de gebruiker in het profiel van de documentstaat worden gegeven.

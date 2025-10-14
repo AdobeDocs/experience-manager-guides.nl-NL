@@ -24,8 +24,8 @@ Hier volgen enkele schermafbeeldingen die dit nader verklaren:
 
 **Inhoud Source**
 
-![ Inhoud Source ](assets/source-content.jpg)
+![&#x200B; Inhoud Source &#x200B;](assets/source-content.jpg)
 
 **Vertaalde Inhoud in Spaans**
 
-![ Vertaalde Inhoud in Spaans ](assets/trans-content.jpg)
+![&#x200B; Vertaalde Inhoud in Spaans &#x200B;](assets/trans-content.jpg)

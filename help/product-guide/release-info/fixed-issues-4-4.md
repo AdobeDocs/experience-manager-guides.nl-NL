@@ -15,9 +15,9 @@ ht-degree: 0%
 
 In dit artikel worden de bugs beschreven die zijn gecorrigeerd in verschillende gebieden van de release 4.4.0 van Adobe Experience Manager Guides.
 
-Voor meer informatie over de nieuwe eigenschappen en de verhogingen, mening [ wat in de 4.4.0 versie ](./whats-new-4-4.md) nieuw is.
+Voor meer informatie over de nieuwe eigenschappen en de verhogingen, mening [&#x200B; wat in de 4.4.0 versie &#x200B;](./whats-new-4-4.md) nieuw is.
 
-Leer over [ verbeteringsinstructies voor de versie 4.4.0 ](../release-info/upgrade-instructions-4-4.md).
+Leer over [&#x200B; verbeteringsinstructies voor de versie 4.4.0 &#x200B;](../release-info/upgrade-instructions-4-4.md).
 
 
 ## Authoring

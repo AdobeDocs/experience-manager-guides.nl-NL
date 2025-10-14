@@ -24,19 +24,19 @@ Het toevoegen van een actioneerbare knoop aan webeditor omvat het volgende stapp
 
 Laten we dit begrijpen met een voorbeeld waarin een auteur een jira-verwijzing wil toevoegen aan een sectie met een onderwerp-proloog. De proloog sectie met ingebedde jira verwijzing-identiteitskaart kan als hieronder kijken:
 
-![ sectie van het Prolog met identiteitskaart JIRA verwijzing ](../../../assets/authoring/webeditor-add-customtoolbarbutton-prolog-sample.png)
+![&#x200B; sectie van het Prolog met identiteitskaart JIRA verwijzing &#x200B;](../../../assets/authoring/webeditor-add-customtoolbarbutton-prolog-sample.png)
 
 Het element &#39;change-request-id&#39; dat de JIRA-id bevat, moet worden opgehaald uit de API (laat bijvoorbeeld gebaseerd op een specifieke JIRA-query die door de toepassing wordt weergegeven). Wanneer de gebruiker de proloog sectie creeert, zou de gebruiker een knoop moeten kunnen klikken en jira verwijzings identiteitskaart van Web-redacteursttoolbar opnemen, iets als:
 
-![ sectie van het Logboek - voeg verwijzing JIRA ](../../../assets/authoring/webeditor-add-customtoolbarbutton-prolog-insertjirareference.png) toe
+![&#x200B; sectie van het Logboek - voeg verwijzing JIRA &#x200B;](../../../assets/authoring/webeditor-add-customtoolbarbutton-prolog-insertjirareference.png) toe
 
 En wanneer de gebruiker op de knop klikt, moet er een dialoogvenster worden weergegeven waarin de mogelijke opties worden weergegeven en de gebruiker de gewenste JIRA-id kan selecteren, bijvoorbeeld:
 
-![ de sectie van het Prolog voegt de dialoog van identiteitskaart JIRA ](../../../assets/authoring/webeditor-add-customtoolbarbutton-prolog-insertjirareference-dialog.png) toe
+![&#x200B; de sectie van het Prolog voegt de dialoog van identiteitskaart JIRA &#x200B;](../../../assets/authoring/webeditor-add-customtoolbarbutton-prolog-insertjirareference-dialog.png) toe
 
 die vervolgens de &quot;change-request-id&quot; aan de blog moet toevoegen:
 
-![ sectie van het Prolog met identiteitskaart JIRA verwijzing ](../../../assets/authoring/webeditor-add-customtoolbarbutton-prolog-sample.png)
+![&#x200B; sectie van het Prolog met identiteitskaart JIRA verwijzing &#x200B;](../../../assets/authoring/webeditor-add-customtoolbarbutton-prolog-sample.png)
 
 
 
@@ -57,7 +57,7 @@ Gebruik de omslagprofielen om *ui_config.json* onder het lusje van de Configurat
 }
 ```
 
-[ gebruik deze verbinding om meer over het profiel van de Omslag te leren en het vormen ui_config.json ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=nl-NL)
+[&#x200B; gebruik deze verbinding om meer over het profiel van de Omslag te leren en het vormen ui_config.json &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=nl-NL)
 
 
 ### De klikgebeurtenis voor de nieuwe knop afhandelen
@@ -66,7 +66,7 @@ Gebruik de omslagprofielen om *ui_config.json* onder het lusje van de Configurat
 
 
 - Na het opslaan van het omslagprofiel creeer &quot;cq:ClientLibraryFolder&quot;onder een projectfolder (zou onder *kunnen zijn/apps*) en voeg eigenschappen zoals aangetoond in het hieronder scherm toe:
-  ![ de bibliotheekmontages van de Cliënt voor webeditor ](../../../assets/authoring/webeditor-add-customtoolbarbutton-clientlibrarysettings.png)
+  ![&#x200B; de bibliotheekmontages van de Cliënt voor webeditor &#x200B;](../../../assets/authoring/webeditor-add-customtoolbarbutton-clientlibrarysettings.png)
 
 ```
 This example uses "coralui3" library to show a dialog as it is used in the Javascript sample we presented.
@@ -102,13 +102,13 @@ You may use different library of your choice.
 
 Zie onderstaande screenshot voor een uitleg van hoe deze eruitziet:
 
-![ Test nieuwe knoop ](../../../assets/authoring/webeditor-add-customtoolbarbutton-testing.png)
+![&#x200B; Test nieuwe knoop &#x200B;](../../../assets/authoring/webeditor-add-customtoolbarbutton-testing.png)
 
 
 ### Bijlagen
 
-- Het pakket van clientlibs van de steekproef dat de webeditor cliëntbibliotheek zal installeren die javascript code voor de actie van de toolbarknoop hebben: [ download gebruikend deze verbinding ](../../../assets/authoring/webeditor-addbuttonontoolbar-insertjira-clientlib.zip)
-- Steekproef *ui_config.json* dat u aan een omslagprofiel kunt uploaden: [ download steekproef ui_config.json ](../../../assets/authoring/sample_ui_config_Guides4.2-InsertJiraReference.json)
+- Het pakket van clientlibs van de steekproef dat de webeditor cliëntbibliotheek zal installeren die javascript code voor de actie van de toolbarknoop hebben: [&#x200B; download gebruikend deze verbinding &#x200B;](../../../assets/authoring/webeditor-addbuttonontoolbar-insertjira-clientlib.zip)
+- Steekproef *ui_config.json* dat u aan een omslagprofiel kunt uploaden: [&#x200B; download steekproef ui_config.json &#x200B;](../../../assets/authoring/sample_ui_config_Guides4.2-InsertJiraReference.json)
 
 ```
 Please note this is compatible to AEM 6.5 and AEM Guides version 4.2.

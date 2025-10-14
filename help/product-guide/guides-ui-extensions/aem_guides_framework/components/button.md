@@ -29,4 +29,4 @@ Hierdoor wordt een knop met het label `Yes, login` gemaakt. De andere eigenschap
 
 De weergegeven knop ziet er als volgt uit:
 
-![ knoop ](imgs/yes_login_button.png " Knoop ")
+![&#x200B; knoop &#x200B;](imgs/yes_login_button.png " Knoop ")

@@ -41,9 +41,9 @@ In deze vergadering hebben we het volgende besproken:
 
 - {de grondbeginselen van de Generatie van 0} Output [&#128279;](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/user-guide/map-management-publishing/output-gen/generate-output)
 
-- [ installeer nieuwe Malplaatjes van AEM Sites ](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/aem-site-templates/download-install-aem-sites-templates-cs-kb)
+- [&#x200B; installeer nieuwe Malplaatjes van AEM Sites &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/aem-site-templates/download-install-aem-sites-templates-cs-kb)
 
-- [ Enig Onderwerp het Publiceren ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/map-management-publishing/output-gen/generate-output/single-topic-publishing/publish-content-fragment.html)
+- [&#x200B; Enig Onderwerp het Publiceren &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/map-management-publishing/output-gen/generate-output/single-topic-publishing/publish-content-fragment.html)
 
 
 

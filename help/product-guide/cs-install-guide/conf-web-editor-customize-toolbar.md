@@ -18,7 +18,7 @@ Standaard wordt de webeditor geleverd met de meest voorkomende redactionele func
 
 >[!NOTE]
 >
-> Wanneer u van de oude gebruikersinterface naar de nieuwe gebruikersinterface van AEM Guides migreert (van toepassing vanaf de release van AEM Guides 2502 en 5.0), moeten updates naar `ui_config` worden omgezet in flexibelere en modulaire gebruikersinterfaceconfiguraties. Met dit framework kunt u naadloos wijzigingen aanbrengen in de editor_toolbar en andere doelwidget, indien van toepassing. Voor details, mening [ Overzicht van Omzetten UI Config ](https://experienceleague.adobe.com/nl/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+> Wanneer u van de oude gebruikersinterface naar de nieuwe gebruikersinterface van AEM Guides migreert (van toepassing vanaf de release van AEM Guides 2502 en 5.0), moeten updates naar `ui_config` worden omgezet in flexibelere en modulaire gebruikersinterfaceconfiguraties. Met dit framework kunt u naadloos wijzigingen aanbrengen in de editor_toolbar en andere doelwidget, indien van toepassing. Voor details, mening [&#x200B; Overzicht van Omzetten UI Config &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 Er zijn twee manieren om de toolbar van de Redacteur van het Web aan te passen:
 
@@ -145,4 +145,4 @@ Voer de volgende stappen uit om ongewenste functies van de werkbalk te verwijder
 1. Sparen het {*dossier 0} ui\_config.json en laad de Redacteur van het Web opnieuw.*
 
 
-**Bovenliggend onderwerp:**&#x200B;[ pas de Redacteur van het Web ](conf-web-editor.md) aan
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; pas de Redacteur van het Web &#x200B;](conf-web-editor.md) aan

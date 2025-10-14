@@ -93,7 +93,7 @@ In het voetnootgedeelte worden alle voetnoten geplaatst, meestal onder aan een p
 
 U kunt de pagina-eigenschappen voor paginalay-outs gebruiken om het voetnootgedeelte in de verschillende secties in een PDF-document op te maken. U kunt bijvoorbeeld de eigenschappen voor marges en opvulling van het voetnootgedeelte in een hoofdstuk opgeven. U kunt ook de rand, stijl, kleur, breedte en straal wijzigen.
 
-Leer over hoe te [ met de paginaeigenschappen van een paginalay-out ](./design-page-layout.md#page-props-page-layout) werken.
+Leer over hoe te [&#x200B; met de paginaeigenschappen van een paginalay-out &#x200B;](./design-page-layout.md#page-props-page-layout) werken.
 
 ### CSS-stijlen
 

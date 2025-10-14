@@ -47,4 +47,4 @@ Ook, is de Redacteur van het Web DITA-bewust en het steunt DITA 1.3, 1.2 normen,
 - **[de etiketten van het Gebruik](web-editor-use-label.md)**
 
 
-**Bovenliggend onderwerp:**&#x200B;[ Inhoud van de Auteur gebruikend AEM Guides ](authoring-content-xml-doc.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Inhoud van de Auteur gebruikend AEM Guides &#x200B;](authoring-content-xml-doc.md)

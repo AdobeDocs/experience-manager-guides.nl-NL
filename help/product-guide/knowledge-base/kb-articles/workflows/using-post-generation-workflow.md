@@ -23,7 +23,7 @@ U kunt bijvoorbeeld bepaalde eigenschappen instellen voor de uitvoer van de PDF,
 
 Maak een op Java of ECMA gebaseerd workflowproces dat de bewerking uitvoert op de gegenereerde uitvoer. Bijvoorbeeld, kopieert het kopiëren van sommige meta-gegevens van bron aan de geproduceerde inhoud of het manipuleren van meta-gegevens van de geproduceerde output.
 - We nemen bijvoorbeeld een voorbeeld van het maken van een dergelijk proces met behulp van ECMA-script (u kunt het bijgevoegde pakket raadplegen)
-- Voor Java gebaseerd werkschemaproces, verwijs sectie &quot;*het werkschema van de post-outputgeneratie*&quot;van [ de gids van de Installatie en van de configuratie ](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_Installation-Configuration-Guide_EN.pdf#page=119) aanpassen
+- Voor Java gebaseerd werkschemaproces, verwijs sectie &quot;*het werkschema van de post-outputgeneratie*&quot;van [&#x200B; de gids van de Installatie en van de configuratie &#x200B;](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_Installation-Configuration-Guide_EN.pdf#page=119) aanpassen
 
 
 ### Een workflowmodel maken
@@ -33,14 +33,14 @@ Met het proces van het douanewerkschema dat u in vorige stap creeerde, creeer ee
 
 Verwijs hieronder getoonde model van het steekproefwerkschema:
 
-![ het model van het de generatiewerkschema van Post ](../assets/workflows/pgwf-workflow-model.png)
+![&#x200B; het model van het de generatiewerkschema van Post &#x200B;](../assets/workflows/pgwf-workflow-model.png)
 
 
 ### Deze workflow na het genereren gebruiken op een kaart
 
 De Post-workflow voor genereren is een eigenschap die kan worden geconfigureerd voor elke uitvoervoorinstelling in het publicatiemechanisme van AEM Guides. Voorbeeld:
 
-![ het generatiewerkschema van Post op Vooraf ingestelde Output ](../assets/workflows/pgwf-preset-settings.png)
+![&#x200B; het generatiewerkschema van Post op Vooraf ingestelde Output &#x200B;](../assets/workflows/pgwf-preset-settings.png)
 
 
 Ervan uitgaande dat het geselecteerde model al is gemaakt.

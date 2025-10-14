@@ -35,4 +35,4 @@ const labelJSON =  {
 
 Het gerenderde label ziet er als volgt uit:
 
-![ etiket ](./imgs/label.png " Etiket ")
+![&#x200B; etiket &#x200B;](./imgs/label.png " Etiket ")

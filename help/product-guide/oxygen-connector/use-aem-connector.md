@@ -19,7 +19,7 @@ Met de insteekmodule Oxygen voor Adobe Experience Manager Guides \(later Oxygen-
 
 ## Downloaden en installeren {#id1826M0L0PUI}
 
-De insteekmodule Oxygen voor AEM Guides wordt beschikbaar gesteld via uw Adobe Software Distribution Portal. Onderzoek naar &quot;zuurstof&quot;in het lusje van de Experience Manager en download dan het plugin installatieprogramma van uw [ Portaal van de Distributie van de Software van de Adobe ](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html).
+De insteekmodule Oxygen voor AEM Guides wordt beschikbaar gesteld via uw Adobe Software Distribution Portal. Onderzoek naar &quot;zuurstof&quot;in het lusje van de Experience Manager en download dan het plugin installatieprogramma van uw [&#x200B; Portaal van de Distributie van de Software van de Adobe &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html).
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ Wanneer u het installatieprogramma hebt, installeert u het op de lokale computer
 
 >[!IMPORTANT]
 >
->Als u een oudere versie van de plug-in op uw systeem hebt geïnstalleerd, moet u deze verwijderen voordat u het installatieproces start. Zie **het Desinstalleren van de sectie van Pakketten** in [ hoe te met het artikel van Pakketten ](https://helpx.adobe.com/nl/experience-manager/6-4/sites/administering/using/package-manager.html) voor desinstallatie instructies werken.
+>Als u een oudere versie van de plug-in op uw systeem hebt geïnstalleerd, moet u deze verwijderen voordat u het installatieproces start. Zie **het Desinstalleren van de sectie van Pakketten** in [&#x200B; hoe te met het artikel van Pakketten &#x200B;](https://helpx.adobe.com/nl/experience-manager/6-4/sites/administering/using/package-manager.html) voor desinstallatie instructies werken.
 
 Voer de volgende stappen uit op het systeem waarop Oxygen XML Author is geïnstalleerd:
 
@@ -67,18 +67,18 @@ Voer de volgende stappen uit op het systeem waarop Oxygen XML Author is geïnsta
 
    Het deelvenster AEM Guides wordt weergegeven in de Oxygen XML-auteur.
 
-   ![ AEM schakelaar ](images/oxygen-aem-connector.png){width="800" align="left"}
+   ![&#x200B; AEM schakelaar &#x200B;](images/oxygen-aem-connector.png){width="800" align="left"}
 
    >[!NOTE]
    >
-   >Als u niet het paneel van AEM Guides ziet, zie de aanknopingspunten in de het oplossen van problemensectie— [ Ontbrekende paneel van AEM Guides ](#id192BH200ZAX).
+   >Als u niet het paneel van AEM Guides ziet, zie de aanknopingspunten in de het oplossen van problemensectie— [&#x200B; Ontbrekende paneel van AEM Guides &#x200B;](#id192BH200ZAX).
 
 
 ### De insteekmodule installeren op Mac
 
 >[!IMPORTANT]
 >
->Als u een oudere versie van de plug-in op uw systeem hebt geïnstalleerd, moet u deze verwijderen voordat u het installatieproces start. Zie **het Desinstalleren van de sectie van Pakketten** in [ hoe te met het artikel van Pakketten ](https://helpx.adobe.com/nl/experience-manager/6-4/sites/administering/using/package-manager.html) desinstallatie instructies te werken.
+>Als u een oudere versie van de plug-in op uw systeem hebt geïnstalleerd, moet u deze verwijderen voordat u het installatieproces start. Zie **het Desinstalleren van de sectie van Pakketten** in [&#x200B; hoe te met het artikel van Pakketten &#x200B;](https://helpx.adobe.com/nl/experience-manager/6-4/sites/administering/using/package-manager.html) desinstallatie instructies te werken.
 
 Voer de volgende stappen uit op het systeem waarop Oxygen XML Author is geïnstalleerd:
 
@@ -99,11 +99,11 @@ Voer de volgende stappen uit op het systeem waarop Oxygen XML Author is geïnsta
 
    Het deelvenster AEM Guides wordt weergegeven in de Oxygen XML-auteur.
 
-   ![ AEM schakelaar Mac ](images/oxygen-aem-connector-mac.png) {width="800" align="left"}
+   ![&#x200B; AEM schakelaar Mac &#x200B;](images/oxygen-aem-connector-mac.png) {width="800" align="left"}
 
    >[!NOTE]
    >
-   >Als u niet het paneel van AEM Guides ziet, zie de aanknopingspunten in de het oplossen van problemensectie— [ Ontbrekende paneel van AEM Guides ](#id192BH200ZAX).
+   >Als u niet het paneel van AEM Guides ziet, zie de aanknopingspunten in de het oplossen van problemensectie— [&#x200B; Ontbrekende paneel van AEM Guides &#x200B;](#id192BH200ZAX).
 
 
 ### Het pakket installeren om de functie voor het bewerken van documenten vanuit AEM webinterface in te schakelen {#id182CE0Q0TY4}
@@ -117,9 +117,9 @@ Als AEM beheerder voert u de volgende stappen uit om het pakket te installeren:
 
    `http://<server name>:<port>/crx/packmgr/index.jsp`
 
-   De pakketmanager beheert de pakketten op uw lokale AEM installatie. Voor meer informatie over het werken met de Manager van het Pakket, zie [ hoe te met Pakketten ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager.html?lang=nl-NL) in AEM documentatie werken.
+   De pakketmanager beheert de pakketten op uw lokale AEM installatie. Voor meer informatie over het werken met de Manager van het Pakket, zie [&#x200B; hoe te met Pakketten &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager.html?lang=nl-NL) in AEM documentatie werken.
 
-   ![ de manager van het Pakket ](images/package-manager.png) {width="650" align="left"}
+   ![&#x200B; de manager van het Pakket &#x200B;](images/package-manager.png) {width="650" align="left"}
 
 1. Om het pakket van Zuurstof te uploaden, klik **Upload Pakket**.
 1. Navigeer in het dialoogvenster Pakket uploaden naar het Oxygen-pakketbestand dat u in Stap 1 hebt gedownload en klik op OK.
@@ -128,13 +128,13 @@ Als AEM beheerder voert u de volgende stappen uit om het pakket te installeren:
 
 1. Om het installatieproces te beginnen, klik **installeer**.
 
-   ![ pakket van zuurstof ](images/oxygen-package.png){width="650" align="left"}
+   ![&#x200B; pakket van zuurstof &#x200B;](images/oxygen-package.png){width="650" align="left"}
 
 1. In de Install dialoog van het Pakket, klik **installeer**.
 1. Nadat de installatie is voltooid, klikt u op de knop Home in de linkerbovenhoek van CRX Package Manager.
 1. Selecteer een DITA-bestand in de map met middelen.
 
-   **geef in Zuurstof** optie uit is beschikbaar in de toolbar. Voor meer informatie over het gebruiken van deze optie, zie [ Open onderwerp DITA in de Auteur van XML van Zuurstof van AEM Webinterface ](#id182CE0I905Z).
+   **geef in Zuurstof** optie uit is beschikbaar in de toolbar. Voor meer informatie over het gebruiken van deze optie, zie [&#x200B; Open onderwerp DITA in de Auteur van XML van Zuurstof van AEM Webinterface &#x200B;](#id182CE0I905Z).
 
    >[!NOTE]
    >
@@ -151,7 +151,7 @@ Nadat u de plug-in hebt gedownload en geïnstalleerd, moet u de volgende instell
 
 ### Instellingen voor webverificatie
 
-JxBrowser wordt gebruikt voor SSO-verificatie door de Oxygen-connector plug-in. Het is een op chroom gebaseerde browser. Voor java 9+ is toegang tot niet openbare API&#39;s vereist en u moet deze toegang tot JxBrowser uitdrukkelijk verlenen. Voor meer details, zie [ het Oplossen van problemen JxBrowser ](https://jxbrowser-support.teamdev.com/docs/guides/troubleshooting/issues.html).
+JxBrowser wordt gebruikt voor SSO-verificatie door de Oxygen-connector plug-in. Het is een op chroom gebaseerde browser. Voor java 9+ is toegang tot niet openbare API&#39;s vereist en u moet deze toegang tot JxBrowser uitdrukkelijk verlenen. Voor meer details, zie [&#x200B; het Oplossen van problemen JxBrowser &#x200B;](https://jxbrowser-support.teamdev.com/docs/guides/troubleshooting/issues.html).
 
 Werk de opgegeven bestanden bij om de instellingen voor webverificatie te configureren in de Oxygen-insteekmodule voor AEM Guides:
 
@@ -209,7 +209,7 @@ Voer de volgende stappen uit om de verbindingsmontages in de Insteekmodule van Z
 
 1. In het paneel van AEM Guides, klik het montagespictogram en selecteer dan **Montages**.
 
-   ![ Verbindingsinstellingen ](images/settings.png){width="800" align="left"}
+   ![&#x200B; Verbindingsinstellingen &#x200B;](images/settings.png){width="800" align="left"}
 
 1. Geef de volgende details op:
    - **Server URL**: URL van de AEM server, bijvoorbeeld:
@@ -246,17 +246,17 @@ Voer de volgende stappen uit om profielkenmerken en kruisverwijzingen te configu
 1. In de Auteur van XML van Zuurstof, klik **Opties** \> **Voorkeur**.
 1. In het **lusje van de Vereniging van het Type van Document**, uitgezochte **DITA**, en klik dan **breidt** uit.
 
-   ![ vereniging van documenttype ](images/document_type_association.png){width="650" align="left"}
+   ![&#x200B; vereniging van documenttype &#x200B;](images/document_type_association.png){width="650" align="left"}
 
 1. In het **Klassepad** lusje, selecteer `com.adobe.o2.connector` in de **Loader van de Klasse van de Ouder van het Gebruik van Insteekmodule met identiteitskaart** drop-down.
 
-   ![ het weglusje van de Klasse ](images/dita-extension.png){width="650" align="left"}
+   ![&#x200B; het weglusje van de Klasse &#x200B;](images/dita-extension.png){width="650" align="left"}
 
 1. In het **lusje van Uitbreidingen**, breng de volgende veranderingen aan:
 
    - Klik **kiezen** naast de **bundel van Uitbreidingen** en selecteer   `LinkResolverExtensionBundle - com.adobe.o2.framework.extn` in de **Klasse** lijst. Klik **OK**.
 
-     ![ Gevormde uitbreiding voor onderwerpen DITA ](images/dita-map-extenstion-link-resolve.png) {width="650" align="left"}
+     ![&#x200B; Gevormde uitbreiding voor onderwerpen DITA &#x200B;](images/dita-map-extenstion-link-resolve.png) {width="650" align="left"}
    - Klik **kiezen** naast de **Listener van de Staat van de Uitbreiding van de Auteur** onder **Individuele Uitbreidingen** en selecteren `CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn` in de **Klasse** lijst. Klik **OK**.
    - Klik **kiezen** naast de **Redacteur van de Waarde van het Attribuut van de Auteur** onder **Individuele Uitbreidingen** en selecteren `CustomValueEditor - com.adobe.o2.framework.extn` in de **Klasse** lijst. Klik **OK**.
    - Klik **kiezen** naast de **externe objecten van de Auteur toevoegingsmanager** onder **Individuele Uitbreidingen** en selecteren `CustomURLInsertionHandler - com.adobe.o2.ui ` in de **Klasse** lijst. Klik **OK**.
@@ -298,7 +298,7 @@ Voer de volgende stappen uit om de DITA kaartuitbreiding te vormen:
 
 In het volgende scherm wordt het deelvenster AEM Guides weergegeven.
 
-![ schakelaarpaneel ](images/connector-panel.png){width="550" align="left"}
+![&#x200B; schakelaarpaneel &#x200B;](images/connector-panel.png){width="550" align="left"}
 
 **A** \) toont de bar van het Onderzoek.
 
@@ -323,23 +323,23 @@ In het volgende scherm wordt het deelvenster AEM Guides weergegeven.
 De functies van de insteekmodule Oxygen voor AEM Guides zijn beschikbaar wanneer u met de rechtermuisknop op een map of bestand in de AEM klikt. De functies die beschikbaar zijn voor de mappen verschillen van die voor de bestanden. Hier volgt een volledige lijst met functies in het contextmenu van de insteekmodule Oxygen voor AEM Guides:
 
 - **Open**: Opent het geselecteerde dossier of breidt de geselecteerde omslag uit.
-- **Open in**: U kunt verkiezen om het geselecteerde dossier in de Redacteur van het Web van AEM Guides of het Dashboard van de Kaart, of de Redacteur van de Kaart te openen. Voor meer informatie over deze opties, zie [ Open dossier in de redacteur van AEM Guides ](#id195GH0V30KX).
-- **Controle-uit**: Controleert een dossier van AEM bewaarplaats. Voor meer details, zie [ Controle-uit dossiers ](#id195HC020TS4).
-- **Controle-uit met gebiedsdelen**: Controleert een dossier met zijn directe verwijzingen. Voor meer details, zie [ Controle-uit dossiers ](#id195HC020TS4).
-- **Controle-uit met read-only gebiedsdelen**: Controleert het geselecteerde dossier samen met zijn gebiedsdelen uit. U kunt de afhankelijke bestanden niet wijzigen. Voor meer details, zie [ Controle-uit dossiers ](#id195HC020TS4).
+- **Open in**: U kunt verkiezen om het geselecteerde dossier in de Redacteur van het Web van AEM Guides of het Dashboard van de Kaart, of de Redacteur van de Kaart te openen. Voor meer informatie over deze opties, zie [&#x200B; Open dossier in de redacteur van AEM Guides &#x200B;](#id195GH0V30KX).
+- **Controle-uit**: Controleert een dossier van AEM bewaarplaats. Voor meer details, zie [&#x200B; Controle-uit dossiers &#x200B;](#id195HC020TS4).
+- **Controle-uit met gebiedsdelen**: Controleert een dossier met zijn directe verwijzingen. Voor meer details, zie [&#x200B; Controle-uit dossiers &#x200B;](#id195HC020TS4).
+- **Controle-uit met read-only gebiedsdelen**: Controleert het geselecteerde dossier samen met zijn gebiedsdelen uit. U kunt de afhankelijke bestanden niet wijzigen. Voor meer details, zie [&#x200B; Controle-uit dossiers &#x200B;](#id195HC020TS4).
 - **annuleert controle-uit**: Annuleert het uitgecheckte dossier, sluit het dossier van de redacteur, en keert de veranderingen in de laatste versie van het dossier terug dat op de server wordt bewaard.
 - **verfrist zich**: In het geval van een dossier, haalt het recentste exemplaar van het dossier van de AEM bewaarplaats. Voor een map worden de mapstructuur en de status van het bestand opgehaald. Dit betekent dat er een bestand is toegevoegd en dat het vervolgens wordt weergegeven in de AEM Guides-weergave. Als een bestand is uitgecheckt op AEM server, wordt het bestand ook weergegeven als uitgecheckt bij Vernieuwen in Zuurstofauteur. Nochtans, werkt dit niet de dossierlijst in de *Uitgecheckte Dossiers in de Mening van AEM Guides* bij.
 - **verfrist uitgecheckte Dossiers**: Verfrist de lijst van uitgecheckte dossiers in de *Uitgecheckte Dossiers in de Mening van AEM Guides*. Als een dossier op AEM server wordt gecontroleerd, dan zal het doen vernieuwen de lijst van gecontroleerde dossiers in de *Uitgecheckte Dossiers in AEM Guides* Mening bijwerken. Als er echter een nieuw bestand is toegevoegd of de status van een bestand is gewijzigd, wordt dit niet bijgewerkt in de boomstructuurweergave van AEM Guides. Als u de status van bestanden op AEM wilt bijwerken, moet u een vernieuwen uitvoeren.
-- **Controle-binnen**: Controleert in een dossiers die u hebt gecontroleerd. Voor meer details, zie [ Controle in een dossier ](#id182CF0J0FHS).
-- **Controle-binnen met gebiedsdelen**: Als u dossiers met gebiedsdelen hebt uitgecheckt, dan controleert deze optie in het belangrijkste dossier samen met zijn gebiedsdelen. Voor meer details, zie [ Controle in een dossier ](#id182CF0J0FHS).
+- **Controle-binnen**: Controleert in een dossiers die u hebt gecontroleerd. Voor meer details, zie [&#x200B; Controle in een dossier &#x200B;](#id182CF0J0FHS).
+- **Controle-binnen met gebiedsdelen**: Als u dossiers met gebiedsdelen hebt uitgecheckt, dan controleert deze optie in het belangrijkste dossier samen met zijn gebiedsdelen. Voor meer details, zie [&#x200B; Controle in een dossier &#x200B;](#id182CF0J0FHS).
 - **creeert Omslag**: Creeert een omslag in de AEM bewaarplaats. Deze optie is alleen beschikbaar op mapniveau.
-- **uploadt Dossier \(s \)**: Uploadt enige of veelvoudige dossiers. Voor meer details, zie [ dossiers en omslagen uploaden ](#id195HC03F03J).
-- **uploadt met gebiedsdelen**: Uploadt DITA- dossiers \(XML, DITA, de kaart van het Boek, of kaart DITA \) met zijn gebiedsdelen. Voor meer details, zie [ dossiers en omslagen uploaden ](#id195HC03F03J).
-- **uploadt Omslag**: Uploadt een omslag op de AEM bewaarplaats. Voor meer details, zie [ dossiers en omslagen uploaden ](#id195HC03F03J).
+- **uploadt Dossier \(s \)**: Uploadt enige of veelvoudige dossiers. Voor meer details, zie [&#x200B; dossiers en omslagen uploaden &#x200B;](#id195HC03F03J).
+- **uploadt met gebiedsdelen**: Uploadt DITA- dossiers \(XML, DITA, de kaart van het Boek, of kaart DITA \) met zijn gebiedsdelen. Voor meer details, zie [&#x200B; dossiers en omslagen uploaden &#x200B;](#id195HC03F03J).
+- **uploadt Omslag**: Uploadt een omslag op de AEM bewaarplaats. Voor meer details, zie [&#x200B; dossiers en omslagen uploaden &#x200B;](#id195HC03F03J).
 - **voeg aan Favorieten** toe: Voegt een omslag aan de *Favorieten* omslag in het paneel van AEM Guides toe. U wordt aangeraden hier uw werkmap toe te voegen, zodat bestanden en de status van het bestand gemakkelijker kunnen worden gesynchroniseerd vanaf AEM.
-- **verwijder uit Favorieten**: Verwijdert een omslag uit *Favorieten*. Voor meer details, zie [ Favorieten ](#id195HC04405P) toevoegen of verwijderen.
-- **Metagegevens van de Mening**: Toont de meta-gegevens zoals Klasse DITA, de Titel van het document, Type, UUID, en andere informatie verbonden aan een dossier. Voor meer details, zie [ de meta-gegevens van een dossier ](#id195GHN0H05C) bekijken.
-- **Versies van de Mening**: Toont de versiegeschiedenis van een dossier. Voor meer details, zie [ Mening de versiegeschiedenis van een dossier ](#id195GI000D5Q).
+- **verwijder uit Favorieten**: Verwijdert een omslag uit *Favorieten*. Voor meer details, zie [&#x200B; Favorieten &#x200B;](#id195HC04405P) toevoegen of verwijderen.
+- **Metagegevens van de Mening**: Toont de meta-gegevens zoals Klasse DITA, de Titel van het document, Type, UUID, en andere informatie verbonden aan een dossier. Voor meer details, zie [&#x200B; de meta-gegevens van een dossier &#x200B;](#id195GHN0H05C) bekijken.
+- **Versies van de Mening**: Toont de versiegeschiedenis van een dossier. Voor meer details, zie [&#x200B; Mening de versiegeschiedenis van een dossier &#x200B;](#id195GI000D5Q).
 
 ### Een bestand openen in Oxygen XML Author {#id195GHJ0A0UB}
 
@@ -351,7 +351,7 @@ Nadat u verbinding hebt gemaakt met de AEM opslagplaats, kunt u bestanden openen
 
    Het bestand wordt geopend in de Editor van de Oxygen XML-auteur.
 
-   ![ Geleider in dossierlusje ](images/guid-in-file-tab.png) {width="800" align="left"}
+   ![&#x200B; Geleider in dossierlusje &#x200B;](images/guid-in-file-tab.png) {width="800" align="left"}
 
    Wanneer u de muisaanwijzer boven het tabblad van een bestand plaatst, wordt het serverpad en de bijbehorende UUID weergegeven. In de bovenstaande schermafbeelding wordt de UUID van het document gemarkeerd.
 
@@ -400,7 +400,7 @@ Als u het **auto-Checkout Dossier wanneer Opened** optie \ (in de dialoog van de
 
 Wanneer een bestand is uitgecheckt, verandert het pictogram van het bestand om de vergrendelde status weer te geven.
 
-![ Controle uit een dossier ](images/check-out-file.png){width="650" align="left"}
+![&#x200B; Controle uit een dossier &#x200B;](images/check-out-file.png){width="650" align="left"}
 
 In de bovenstaande schermafbeelding wordt een bestand dat door een andere gebruiker is uitgecheckt, weergegeven met een zwart gekleurd vergrendelingspictogram \(A\). Het bestand dat door de huidige gebruiker is uitgecheckt, wordt weergegeven met een groene kleurvergrendeling \(B\).
 
@@ -427,7 +427,7 @@ Wanneer u een bestand incheckt, wordt de lokale kopie van uw systeem opgeslagen 
 
    Als u afhankelijke bestanden niet hebt uitgecheckt en deze optie kiest, worden alleen de afhankelijke bestanden die u \(afzonderlijk\) hebt uitgecheckt, ingecheckt. Er wordt een lijst weergegeven met bestanden die niet kunnen worden ingecheckt:
 
-   ![ controle in fouten ](images/check-in-error.png){width="800" align="left"}
+   ![&#x200B; controle in fouten &#x200B;](images/check-in-error.png){width="800" align="left"}
 
    Het wordt sterk aanbevolen om een uitgecheckt bestand niet te verplaatsen. Als een uitgecheckt bestand echter naar een andere locatie wordt verplaatst, moet u het uitchecken van dat bestand annuleren. Als u updates wilt uitvoeren op dat bestand, checkt u het bestand opnieuw uit, brengt u wijzigingen aan en checkt u het opnieuw in. Als u een bestand probeert in te checken dat van de oorspronkelijke locatie is verplaatst, wordt er een fout weergegeven.
 
@@ -445,7 +445,7 @@ Wanneer u een bestand incheckt, wordt de lokale kopie van uw systeem opgeslagen 
 
    Als uw beheerder een lijst met labels vooraf heeft gedefinieerd en deze in het `label.json` -bestand heeft geüpload, worden deze labels weergegeven als een vervolgkeuzelijst. U kunt een of meer labels kiezen in de vervolgkeuzelijst.
 
-   ![ Controle in dialoog ](images/checkin-dropdown-labels.png){width="550" align="left"}
+   ![&#x200B; Controle in dialoog &#x200B;](images/checkin-dropdown-labels.png){width="550" align="left"}
 
    U kunt veelvoudige etiketten (die door komma&#39;s worden gescheiden) aan de zelfde versie van een onderwerp toevoegen.  Bijvoorbeeld, *Adobe*, *AEM*, *Gidsen*.
 Nochtans, kunt u niet het zelfde etiket aan de verschillende versies van een onderwerp toevoegen. Als u een label toevoegt dat u al aan een eerdere versie hebt toegevoegd, wordt het toegevoegd aan de meest recente versie en verwijderd uit de vorige versie.
@@ -469,7 +469,7 @@ Wanneer u in meerdere mappen werkt, is het niet eenvoudig om te bepalen hoeveel 
 
    De uitgecheckte bestanden in de weergave AEM Guides worden weergegeven.
 
-   ![ uitgecheckte dossiers ](images/files-checkedout-view.png){width="550" align="left"}
+   ![&#x200B; uitgecheckte dossiers &#x200B;](images/files-checkedout-view.png){width="550" align="left"}
 
 1. Klik met de rechtermuisknop op een bestand in deze weergave voor de volgende opties:
 
@@ -539,7 +539,7 @@ Voer de volgende stappen uit om de versiegeschiedenis van een bestand weer te ge
 
    De versiegeschiedenis van het bestand wordt weergegeven in het dialoogvenster Versies.
 
-   ![ de geschiedenis van de Versie ](images/version-history.png){width="550" align="left"}
+   ![&#x200B; de geschiedenis van de Versie &#x200B;](images/version-history.png){width="550" align="left"}
 
 
 ### De metagegevens van een bestand weergeven {#id195GHN0H05C}
@@ -552,7 +552,7 @@ Voer de volgende stappen uit om de metagegevens van een bestand weer te geven:
 
    De metagegevens van het bestand, zoals de klasse DITA, de documentstatus, de wijzigingsdatum, de grootte, de titel en UUID, worden weergegeven in het dialoogvenster Metagegevens.
 
-   ![ meta-gegevens van de Mening ](images/metadata.png){width="550" align="left"}
+   ![&#x200B; meta-gegevens van de Mening &#x200B;](images/metadata.png){width="550" align="left"}
 
 
 ## Een onderwerp zoeken in de AEM {#id1826J20405Z}
@@ -567,7 +567,7 @@ Voer de volgende stappen uit om onderwerpen te zoeken:
 
    Het resultaat wordt op het tabblad Zoekresultaten weergegeven als een lijst met het bestandspad. Als er geen overeenkomend resultaat voor uw zoekopdracht beschikbaar is, worden geen resultaten weergegeven in het bericht &lt;pad van de geselecteerde map\>.
 
-   ![ Resultaten van onderzoek ](images/search.png){width="550" align="left"}
+   ![&#x200B; Resultaten van onderzoek &#x200B;](images/search.png){width="550" align="left"}
 
 1. \(Optioneel\) Dubbelklik op een bestand in het zoekresultaat om het te openen in Oxygen XML Author.
 1. Voer een van de volgende handelingen uit om terug te gaan naar de AEM Repository-weergave:
@@ -576,7 +576,7 @@ Voer de volgende stappen uit om onderwerpen te zoeken:
 
 ## Open DITA-onderwerp in Oxygen XML Author vanuit AEM webinterface {#id182CE0I905Z}
 
-U kunt uw onderwerp DITA in de Auteur van XML van Zuurstof van de AEM Webinterface openen en uitgeven. U moet een pakket in AEM installeren om deze optie in te schakelen. Voor meer informatie over pakketinstallatie, zie [ het pakket voor het toelaten van document het uitgeven eigenschap van AEM Webinterface ](#id182CE0Q0TY4) installeren.
+U kunt uw onderwerp DITA in de Auteur van XML van Zuurstof van de AEM Webinterface openen en uitgeven. U moet een pakket in AEM installeren om deze optie in te schakelen. Voor meer informatie over pakketinstallatie, zie [&#x200B; het pakket voor het toelaten van document het uitgeven eigenschap van AEM Webinterface &#x200B;](#id182CE0Q0TY4) installeren.
 
 >[!NOTE]
 >
@@ -609,7 +609,7 @@ Voer de volgende stappen uit om een onderwerp DITA in de Auteur van XML van Zuur
 1. Bewerk het onderwerp in Oxygen XML Author.
 1. Inchecken van het onderwerp van de insteekmodule Zuurstof voor AEM Guides.
 
-   Voor meer informatie over het controleren-binnen een onderwerp dat Oxygen Insteekmodule voor AEM Guides gebruikt, zie [ Controle in een dossier ](#id182CF0J0FHS).
+   Voor meer informatie over het controleren-binnen een onderwerp dat Oxygen Insteekmodule voor AEM Guides gebruikt, zie [&#x200B; Controle in een dossier &#x200B;](#id182CF0J0FHS).
 
    >[!NOTE]
    >
@@ -640,7 +640,7 @@ Met AEM Guides kunt u eenvoudig voorwaardelijke kenmerken maken en koppelen met 
 
 >[!NOTE]
 >
->Zorg ervoor dat u de voorwaardelijke attributen in AEM hebt toegevoegd en [ Voorkeur voor het profileren van attributenaanpassing ](#id1827K0D0OHT) geplaatst alvorens u voorwaardelijke attributen aan uw inhoud toevoegt.
+>Zorg ervoor dat u de voorwaardelijke attributen in AEM hebt toegevoegd en [&#x200B; Voorkeur voor het profileren van attributenaanpassing &#x200B;](#id1827K0D0OHT) geplaatst alvorens u voorwaardelijke attributen aan uw inhoud toevoegt.
 
 Voer de volgende stappen uit om voorwaardelijke kenmerken toe te voegen aan uw inhoud in Oxygen XML Author:
 
@@ -648,13 +648,13 @@ Voer de volgende stappen uit om voorwaardelijke kenmerken toe te voegen aan uw i
 1. Selecteer het gedeelte van de inhoud waarop u de voorwaardelijke kenmerken wilt toepassen.
 1. Dubbelklik op het voorwaardelijke kenmerk in het deelvenster Kenmerken van de Oxygen XML-auteur.
 
-   ![ kenmerkenpaneel ](images/attribute-panel.png){width="300" align="left"}
+   ![&#x200B; kenmerkenpaneel &#x200B;](images/attribute-panel.png){width="300" align="left"}
 
 1. In de **Beschikbare** kolom van de Edit dialoog van Attributen, selecteer de attributen \(s \) en klik **toevoegen**.
 
    In het volgende scherm worden `audience` -kenmerken weergegeven.
 
-   ![ geef attributendialoog ](images/edit-attributes.png){width="550" align="left"} uit
+   ![&#x200B; geef attributendialoog &#x200B;](images/edit-attributes.png){width="550" align="left"} uit
 
 1. Klik **OK**.
 
@@ -697,7 +697,7 @@ Oplossing 3:
 
 **Uitgave** - wanneer u om het even welke transformatie DITA-OT op dossiers in werking stelt die door de Insteekmodule worden verwerkt, ontbreekt de transformatie met de volgende fout:
 
-![ fout van de transformatiefout DITA-OT ](images/proxy-server-path-error-new.png){width="800" align="left"}
+![&#x200B; fout van de transformatiefout DITA-OT &#x200B;](images/proxy-server-path-error-new.png){width="800" align="left"}
 
 **Oplossing** - Deze kwestie is opgelost door een volmachtsserver binnen-tussen DITA-OT en de Insteekmodule toe te voegen. Deze proxyserver verwerkt en deelt alle bestanden die door DITA-OT zijn aangevraagd voor transformaties. De standaardpoort waarop deze server is geconfigureerd, is: `5972` . Als u deze poort voor een andere server gebruikt, kunt u een andere poort voor de proxyserver opgeven.
 

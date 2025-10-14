@@ -28,4 +28,4 @@ Voer de volgende stappen uit om de vertaalstatus van een kaart te bekijken DITA:
 
    ![](images/translation-status-new.png){align="left"}
 
-**Bovenliggend onderwerp:**&#x200B;[ het vertaaloverzicht van de Inhoud ](translation.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; het vertaaloverzicht van de Inhoud &#x200B;](translation.md)

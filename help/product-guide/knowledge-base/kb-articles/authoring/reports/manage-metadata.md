@@ -46,7 +46,7 @@ U kunt ook bestaande tags verwijderen die veel voorkomen in geselecteerde bestan
 
 ### Lijst in beheren->metagegevens zijn leeg of onvolledig
 
-`If list is empty or  incomplete then you may need to run the indexing on your ditamap, You can refer` [ de instructies van de Verbetering (Index uw inhoud) ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/download-install-upgrade-aemg/upgrade-xml-documentation.html?lang=nl-NL#steps-to-index-the-existing-content-to-use-the-new-find-and-replace%3A)
+`If list is empty or  incomplete then you may need to run the indexing on your ditamap, You can refer` [&#x200B; de instructies van de Verbetering (Index uw inhoud) &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/download-install-upgrade-aemg/upgrade-xml-documentation.html?lang=nl-NL#steps-to-index-the-existing-content-to-use-the-new-find-and-replace%3A)
 
 ### Aangepaste metagegevens komen niet voor in de lijst
 
@@ -57,9 +57,9 @@ U kunt ook bestaande tags verwijderen die veel voorkomen in geselecteerde bestan
 
 ## Overige nuttige bronnen
 
-- [ Bulk Tagging die het Dashboard van de Kaart gebruikt (Assets UI) ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/manaege-metadata/map-editor-bulk-tagging.html?lang=nl-NL)
-- [ Ditamap Rapporten in web-editor ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/reports-aem-guide/reports-web-editor.html?lang=nl-NL)
-- [ Tags toevoegen in AEM ](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/configuring/tagging.html?lang=nl-NL)
+- [&#x200B; Bulk Tagging die het Dashboard van de Kaart gebruikt (Assets UI) &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/manaege-metadata/map-editor-bulk-tagging.html?lang=nl-NL)
+- [&#x200B; Ditamap Rapporten in web-editor &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/reports-aem-guide/reports-web-editor.html?lang=nl-NL)
+- [&#x200B; Tags toevoegen in AEM &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/configuring/tagging.html?lang=nl-NL)
 
 
 **Contacteer uw respectieve CSM voor om het even welke andere vragen**

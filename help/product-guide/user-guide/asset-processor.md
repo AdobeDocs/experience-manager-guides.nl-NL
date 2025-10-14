@@ -28,7 +28,7 @@ Voer de onderstaande stappen uit om de elementen te verwerken of opnieuw te verw
 1. In het **paneel van Hulpmiddelen** uitgezocht **Gidsen**.
 1. Selecteer de **Tegel van de Bewerker van 0&rbrace; Activa.**
 
-   ![ stroom-activa-bewerker ](images/flow-asset-processor.png){align="left"}
+   ![&#x200B; stroom-activa-bewerker &#x200B;](images/flow-asset-processor.png){align="left"}
 
 1. Het venster van de Bewerker van de Activa van Hulplijnen opent met de hieronder getoonde details. Bovendien worden alleen de gegevens over de laatste vijf migraties weergegeven in dit venster.
 
@@ -44,11 +44,11 @@ Voer de onderstaande stappen uit om de elementen te verwerken of opnieuw te verw
 
    - **Status**: Punten aan het statuut van opwerking zoals Bezig, Voltooid of Geannuleerd.
 
-   ![ gidsen-activa-bewerker ](images/guides-asset-processor.png){align="left"}
+   ![&#x200B; gidsen-activa-bewerker &#x200B;](images/guides-asset-processor.png){align="left"}
 
 1. Selecteer **Nieuw Proces** lusje op de hoogste juiste hoek van het venster om een nieuwe verwerkingstaak te beginnen.
 
-   ![ nieuw-proces-activa-bewerker ](images/new-process-asset-processor.png){width="550" align="left"}
+   ![&#x200B; nieuw-proces-activa-bewerker &#x200B;](images/new-process-asset-processor.png){width="550" align="left"}
 
 1. Selecteer de map die u wilt verwerken of opnieuw wilt verwerken. U kunt ook de mappen selecteren (in de bovenliggende geselecteerde map) die u wilt uitsluiten of negeren.
 
@@ -58,7 +58,7 @@ Voer de onderstaande stappen uit om de elementen te verwerken of opnieuw te verw
 
 1. Selecteer **Maken**. U krijgt pop-up die **Succes tonen en het Proces met succes** zoals aangetoond in het fragment teweeggebracht. Dit wordt ook in de lijst weergegeven. U kunt de status van de opverwerkingstaak in het venster zien.
 
-   ![ bericht-activa-bewerker ](images/message-asset-processor.png){width="550" align="left"}
+   ![&#x200B; bericht-activa-bewerker &#x200B;](images/message-asset-processor.png){width="550" align="left"}
 
 
 ## Aanvullende opties voor de verwerkingstaken
@@ -67,16 +67,16 @@ Er zijn extra opties beschikbaar voor de verwerkingstaak nadat deze is gestart. 
 
 - **Begin** opnieuw: Herstart de eerder succesvolle taak van de activaverwerking.
 
-  ![ opnieuw beginnen-activa-bewerker ](images/restart-asset-processor.png){align="left"}
+  ![&#x200B; opnieuw beginnen-activa-bewerker &#x200B;](images/restart-asset-processor.png){align="left"}
 
 - **hervatten**: Hervat de eerder geannuleerde of ontbroken taak van de activaverwerking.
 
-  ![ hervat-activa-bewerker ](images/resume-asset-processor.png){align="left"}
+  ![&#x200B; hervat-activa-bewerker &#x200B;](images/resume-asset-processor.png){align="left"}
 
 - **annuleert**: Annuleert de momenteel lopende taak van de activaverwerking.
 
-  ![ annuleren-activa-bewerker ](images/cancel-asset-processor.png){align="left"}
+  ![&#x200B; annuleren-activa-bewerker &#x200B;](images/cancel-asset-processor.png){align="left"}
 
 - **Logboeken van de Mening**: Toont de logboeken voor de taak van de activaverwerking. Voor lopende taken, toont het logboek gedetailleerde verwerkingsinformatie, met inbegrip van geschatte resterende tijd en activastatus. In deze logbestandlijst worden maximaal de laatste 500 berichten weergegeven. Het volledige logboek kan worden gedownload.
 
-  ![ logboeken-activa-bewerker ](images/logs-asset-processor.png){align="left"}
+  ![&#x200B; logboeken-activa-bewerker &#x200B;](images/logs-asset-processor.png){align="left"}

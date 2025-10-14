@@ -24,7 +24,7 @@ Voer de volgende stappen uit om een streepjescode te genereren:
 
 ### De CSS van de sjabloon bijwerken om een streepjescodewaarde te renderen
 
-Wijzig het bestand `layout.css` om een streepjescode te renderen tijdens het genereren van de PDF. Verschillende typen streepjescodes, zoals &#39;qrcode&#39; en &#39;pdf417&#39;, worden ondersteund.  Voor meer details, mening [ de types van Streepjescode ](#barcode-types).
+Wijzig het bestand `layout.css` om een streepjescode te renderen tijdens het genereren van de PDF. Verschillende typen streepjescodes, zoals &#39;qrcode&#39; en &#39;pdf417&#39;, worden ondersteund.  Voor meer details, mening [&#x200B; de types van Streepjescode &#x200B;](#barcode-types).
 
 
 

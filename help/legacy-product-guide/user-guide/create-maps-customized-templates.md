@@ -32,7 +32,7 @@ Met AEM Guides kunt u aangepaste mappen en onderwerpen maken in de map dita-temp
 
 
 U kunt kaart en onderwerpmalplaatjes op de volgende manieren tot stand brengen:
-1. De ruit van Malplaatjes van het [ Linkerpaneel ](./web-editor-features.md#left-panel-id2051ea0m0hs)
+1. De ruit van Malplaatjes van het [&#x200B; Linkerpaneel &#x200B;](./web-editor-features.md#left-panel-id2051ea0m0hs)
 1. [Sjablonen in gebruikersinterface van Assets](#templates-assets-ui)
 1. [Menu Opties](#templates-in-assets-ui)
 
@@ -98,13 +98,13 @@ Gebaseerd op uw opstelling leert hoe te om de weg van de malplaatjeomslag van do
 <details>
     <summary> Cloud Services </summary>
 
-Leer hoe te [ om de weg van de malplaatjeomslag van douaneDITA ](/help/product-guide/install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) in de Gids van de Installatie en van de Configuratie van de Diensten van de Wolk te vormen.
+Leer hoe te [&#x200B; om de weg van de malplaatjeomslag van douaneDITA &#x200B;](/help/product-guide/install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) in de Gids van de Installatie en van de Configuratie van de Diensten van de Wolk te vormen.
 </details>
 
 <details>
     <summary> Software op locatie</summary>
 
-Leer hoe te om [ de weg van de malplaatjeomslag van douaneDITA ](/help/product-guide/cs-install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) in de Gids van de Installatie en van de Configuratie op locatie te vormen.
+Leer hoe te om [&#x200B; de weg van de malplaatjeomslag van douaneDITA &#x200B;](/help/product-guide/cs-install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) in de Gids van de Installatie en van de Configuratie op locatie te vormen.
 </details>
 
 ## De titel doorgeven die is gedefinieerd in de sjablonen
@@ -190,4 +190,4 @@ De kaart genereert alle elementen waarnaar in de sjabloonmap wordt verwezen. Som
 
 - Als een andere kaart of een onderwerp op het zelfde niveau in de omslag wordt gecreeerd, dan worden de namen van de pas gecreëerde activa toegevoegd met 0.1.2, etc. U kunt ervoor kiezen de kaart te openen om het kaartbestand te bewerken of op te slaan in de opslagplaats.
 
-**Bovenliggend onderwerp:**&#x200B;[ Werk met de Redacteur van de Kaart ](map-editor.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Werk met de Redacteur van de Kaart &#x200B;](map-editor.md)

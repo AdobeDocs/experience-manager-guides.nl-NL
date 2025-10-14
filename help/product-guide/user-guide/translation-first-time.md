@@ -49,7 +49,7 @@ Voer de volgende stappen uit om de te gebruiken service voor het vertalen van me
 
    >[!NOTE]
    >
-   > De mening [ Vormend het Kader van de Integratie van de Vertaling ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=nl-NL) in documentatie van Adobe Experience Manager voor details bij het integreren met de diensten van de derdeconversie.
+   > De mening [&#x200B; Vormend het Kader van de Integratie van de Vertaling &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=nl-NL) in documentatie van Adobe Experience Manager voor details bij het integreren met de diensten van de derdeconversie.
 
 1. Selecteer **sparen &amp; sluit** om de bijgewerkte omslageigenschappen te bewaren.
 
@@ -71,7 +71,7 @@ Voer de volgende stappen uit om de vertaaltaak te starten:
 1. Om het statuut van de vertaalbaan te bekijken, selecteer de ellips bij de bodem van de **tegel van de VertaalBaan**.
 
 
-Nadat de vertaling voltooit, verandert het statuut van de vertaalbaan in *Klaar aan Overzicht*. Om het vertaalproces te voltooien, moet u de vertaalde exemplaar en activa meta-gegevens van de Taaktegel van de Vertaling in de console van het Project goedkeuren. Als u een nieuw vertaalproject wilt beginnen, mening [ creeer een vertaalproject ](translate-documents-web-editor.md#create-a-translation-project).
+Nadat de vertaling voltooit, verandert het statuut van de vertaalbaan in *Klaar aan Overzicht*. Om het vertaalproces te voltooien, moet u de vertaalde exemplaar en activa meta-gegevens van de Taaktegel van de Vertaling in de console van het Project goedkeuren. Als u een nieuw vertaalproject wilt beginnen, mening [&#x200B; creeer een vertaalproject &#x200B;](translate-documents-web-editor.md#create-a-translation-project).
 
 >[!NOTE]
 >
@@ -79,4 +79,4 @@ Nadat de vertaling voltooit, verandert het statuut van de vertaalbaan in *Klaar 
 >- Als u verwerpt, schrapt of annuleert de vertaalbaan voor een onderwerp aanwezig in veelvoudige projecten (voor om het even welke projecten), keert de **Bezig** vertaalstatus van het onderwerp niet terug maar dat project wordt verwijderd uit **Bezig** projectlijst voor dat bepaalde activa.
 >- Bovendien, als u annuleert of de vertaalbaan schrapt of het volledige project schrapt, keert de **Bezig** vertaalstatus terug naar hun originele status.
 
-**Bovenliggend onderwerp:**&#x200B;[ het vertaaloverzicht van de Inhoud ](translation.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; het vertaaloverzicht van de Inhoud &#x200B;](translation.md)

@@ -87,7 +87,7 @@ http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/publishlistener
 |----|----|--------|-----------|
 | `:operation` | String | Ja | Naam van de bewerking die wordt aangeroepen. De waarde van deze parameter is ``saveoutput``.<br> **Nota:** de waarde is case-insensitive. |
 | `sourcePath` | String | Ja | Absoluut pad van het DITA-kaartbestand. |
-| `outputObj` | String | Ja | Een JSON-object dat eigenschappen bevat van de uitvoervoorinstelling die wordt bijgewerkt. De eigenschap `outputObj.outputName` bevat de naam van de uitvoervoorinstelling die moet worden bijgewerkt. Voor het formaat van het voorwerp JSON, zie de **waarden van de Reactie** lijst in [ krijgt alle outputvoorinstellingen voor een kaart DITA ](#get-output-presets-dita-map). |
+| `outputObj` | String | Ja | Een JSON-object dat eigenschappen bevat van de uitvoervoorinstelling die wordt bijgewerkt. De eigenschap `outputObj.outputName` bevat de naam van de uitvoervoorinstelling die moet worden bijgewerkt. Voor het formaat van het voorwerp JSON, zie de **waarden van de Reactie** lijst in [&#x200B; krijgt alle outputvoorinstellingen voor een kaart DITA &#x200B;](#get-output-presets-dita-map). |
 
 **waarden van de Reactie**:
 Retourneert een HTTP 200 \(Successful\) reactie.

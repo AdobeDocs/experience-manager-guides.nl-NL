@@ -46,7 +46,7 @@ Voer de volgende stappen uit om een kaartbestand te maken:
 
    ![](images/first-version-map-none.png){width="650" align="left"}
 
-   De versieinformatie voor een pas gecreëerde kaart wordt getoond als *niets*. Wanneer u een nieuwe versie opslaat, krijgt deze een versienummer toegewezen als 1.0. Voor meer informatie over het bewaren van een nieuwe versie, zie [ sparen als Nieuwe Versie ](web-editor-features.md#save-as-new-version-id209ME400GXA).
+   De versieinformatie voor een pas gecreëerde kaart wordt getoond als *niets*. Wanneer u een nieuwe versie opslaat, krijgt deze een versienummer toegewezen als 1.0. Voor meer informatie over het bewaren van een nieuwe versie, zie [&#x200B; sparen als Nieuwe Versie &#x200B;](web-editor-features.md#save-as-new-version-id209ME400GXA).
 
    U kunt de kaart openen om te bewerken in de geconfigureerde kaarteditor, of het kaartbestand opslaan in de AEM-opslagplaats.
 
@@ -55,4 +55,4 @@ Voer de volgende stappen uit om een kaartbestand te maken:
    > Om de Geavanceerde Redacteur van de Kaart te gebruiken, heb toegang tot het kaartdossier in de Redacteur van het Web. Als uw beheerder de Geavanceerde Redacteur van de Kaart als standaardredacteur in de kaartdossiers heeft gevormd, dan wordt het kaartdossier geopend direct in de Geavanceerde Redacteur van de Kaart voor het uitgeven. Zie *plaats de Geavanceerde Redacteur van de Kaart als standaard* sectie in installeer en vorm Adobe Experience Manager Guides as a Cloud Service.
 
 
-**Bovenliggend onderwerp:**&#x200B;[ Werk met de Redacteur van de Kaart ](map-editor.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Werk met de Redacteur van de Kaart &#x200B;](map-editor.md)

@@ -24,7 +24,7 @@ Het vormen van DITA inhoudsonderzoek impliceert de volgende taken:
 1. [Aangepaste elementen of kenmerken toevoegen in zoekopdracht](#id192SF0G10YK)
 1. [Metagegevens uit bestaande inhoud extraheren](#id192SF0GA0HT)
 
-Naast het toevoegen van onderzoeksvermogen, kunt u de omslagen ook vormen die niet in het onderzoek zouden moeten worden omvat. Voor meer details, zie [ Tijdelijke dossiers van onderzoeksresultaten uitsluiten ](#id197AHI0035Z).
+Naast het toevoegen van onderzoeksvermogen, kunt u de omslagen ook vormen die niet in het onderzoek zouden moeten worden omvat. Voor meer details, zie [&#x200B; Tijdelijke dossiers van onderzoeksresultaten uitsluiten &#x200B;](#id197AHI0035Z).
 
 ## DITA Element-zoekcomponent toevoegen in Assets UI {#id192SF0F50HS}
 
@@ -182,7 +182,7 @@ Het uitpakken van meta-gegevens uit bestaande DITA- dossiers impliceert twee tak
 1. De optie voor het extraheren van metagegevens inschakelen in configMgr
 1. De workflow voor het uitnemen van metagegevens uitvoeren
 
-Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](download-install-additional-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende \(eigenschap\) gegevens op om de optie voor het uitnemen van metagegevens te configureren:
+Gebruik de instructies die in [&#x200B; worden gegeven met voeten treedt van de Configuratie &#x200B;](download-install-additional-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende \(eigenschap\) gegevens op om de optie voor het uitnemen van metagegevens te configureren:
 
 | PID | Eigenschappensleutel | Waarde van eigenschap |
 |---|------------|--------------|
@@ -219,7 +219,7 @@ Voer de volgende stappen uit om de tijdelijke vertaalmap uit te sluiten van de z
 
 >[!NOTE]
 >
-> Met deze procedure kunt u elke andere maplocatie aan de lijst met uitsluitingen toevoegen. Voor meer details over het werken met indexen, zie [ Inhoud Onderzoek en het Indexeren ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html?lang=nl-NL).
+> Met deze procedure kunt u elke andere maplocatie aan de lijst met uitsluitingen toevoegen. Voor meer details over het werken met indexen, zie [&#x200B; Inhoud Onderzoek en het Indexeren &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html?lang=nl-NL).
 
 1. Voeg de volgende eigenschap toe aan de aangepaste damAssetLucene-index:
 

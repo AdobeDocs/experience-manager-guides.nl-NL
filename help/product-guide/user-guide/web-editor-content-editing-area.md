@@ -19,10 +19,10 @@ Linksonder in het inhoudsbewerkingsgebied bevindt zich de breadcrumb van het ele
 
 ![](images/content-editing-area.png)
 
-Meer over de meningen van de Redacteur beschikbaar voor een onderwerpdossier in het inhoud het uitgeven gebied, mening [ meningen van de Redacteur ](./web-editor-views.md).
+Meer over de meningen van de Redacteur beschikbaar voor een onderwerpdossier in het inhoud het uitgeven gebied, mening [&#x200B; meningen van de Redacteur &#x200B;](./web-editor-views.md).
 
 >[!NOTE]
 >
 > Als u aan een kaartdossier werkt, dan worden de verschillende opties of de meningen getoond op het inhoud het uitgeven gebied, met inbegrip van a **Lay-out** mening voor het kaartdossier. Voor meer details, de redacteurseigenschappen van de Kaart van de mening [&#128279;](./map-editor-advanced-map-editor.md).
 
-**Bovenliggend onderwerp:**&#x200B;[ Inleiding aan de Redacteur ](web-editor.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Inleiding aan de Redacteur &#x200B;](web-editor.md)

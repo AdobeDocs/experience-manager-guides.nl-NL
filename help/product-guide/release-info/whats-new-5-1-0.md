@@ -13,9 +13,9 @@ ht-degree: 0%
 
 Dit artikel behandelt de nieuwe en verbeterde functies die zijn geïntroduceerd met versie 5.1.0 van Adobe Experience Manager Guides.
 
-Voor de lijst van kwesties die in deze versie zijn bevestigd, mening [ Vaste kwesties in de 5.1.0 versie ](fixed-issues-5-1-0.md).
+Voor de lijst van kwesties die in deze versie zijn bevestigd, mening [&#x200B; Vaste kwesties in de 5.1.0 versie &#x200B;](fixed-issues-5-1-0.md).
 
-Leer over [ verbeteringsinstructies voor de 5.1.0 versie ](../release-info/upgrade-instructions-5-1-0.md).
+Leer over [&#x200B; verbeteringsinstructies voor de 5.1.0 versie &#x200B;](../release-info/upgrade-instructions-5-1-0.md).
 
 
 ## Verbeterde revisieworkflow
@@ -31,7 +31,7 @@ Met deze verbeteringen kunnen gebruikers nu verwachten:
 - Efficiënte en tijdige revisiecycli
 - Minder handmatige inspanningen tijdens feedbackuitwisseling
 
-Voor meer details, bekijk [ Inleiding aan overzicht ](../user-guide/review.md)
+Voor meer details, bekijk [&#x200B; Inleiding aan overzicht &#x200B;](../user-guide/review.md)
 
 ## Verbeterde ervaring voor het maken en gebruiken van DITAVAL-bestanden
 
@@ -40,7 +40,7 @@ Deze update introduceert verschillende verbeteringen die het maken, beheren en t
 De belangrijkste hooglichten zijn:
 
 - **Verbeterde het vlaggen steun in het ontwerpen van DITAVAL dossiers:** Experience Manager Guides brengt nieuwe mogelijkheden voor het aanpassen van de inhoud het publiceren door verbeterde het vlaggen steun in DITAVAL dossiers. U kunt nu begin- en eindmarkeringen toepassen rond specifieke inhoud, waaronder afbeeldingen, en secties met een vlag verrijken met opmaakopties zoals vet, cursief en meer. Om voorwaarde te behandelen overlapt, kan het **conflict van de Stijl** worden gevormd, dat het plaatsen van een standaardachtergrond en tekstkleur omvat, die duidelijkheid en consistentie in de output verzekeren. Deze markeringen worden volledig ondersteund in de native PDF-generatie en de resulterende uitvoer weerspiegelt op nauwkeurige en uitgebreide wijze alle toegepaste opmaakelementen.
-Voor meer details, mening [ Gebruik de DITAVAL Redacteur ](../user-guide/ditaval-editor.md).
+Voor meer details, mening [&#x200B; Gebruik de DITAVAL Redacteur &#x200B;](../user-guide/ditaval-editor.md).
 
   ![](assets/ditaval-flag-style-new.png){width="350" align="left"}
 
@@ -48,7 +48,7 @@ Voor meer details, mening [ Gebruik de DITAVAL Redacteur ](../user-guide/ditaval
 
   Bovendien verbetert deze update het maken van voorinstellingen voor uitvoer door bewerkbare DITAVAL-velden in verschillende indelingen in te schakelen, zodat gebruikers handmatig DITAVAL-paden kunnen opgeven.
 
-  Voor meer details, begrijpt de mening [ de output vooraf instelt ](../user-guide/generate-output-understand-presets.md) in Experience Manager Guides.
+  Voor meer details, begrijpt de mening [&#x200B; de output vooraf instelt &#x200B;](../user-guide/generate-output-understand-presets.md) in Experience Manager Guides.
 
 ## Verbeteringen voor publiceren
 
@@ -58,7 +58,7 @@ De volgende publicatieverbeteringen zijn doorgevoerd in het kader van de nieuwe 
 
 Deze versie brengt in verbeteringen UI aan het logboekfiltrerend vermogen van de outputgeneratie. U kunt de logboeken van de outputgeneratie nu beter voor alle vier verschillende niveaus filtreren; **Info**, **waarschuwen**, **Fout** (met inbegrip van zowel fouten als uitzonderingen), en **Fataal**; met betere en intuïtieve kleur-gecodeerde indicatoren die analyse en scherpte zichtbaarheid over de logboekstroom vereenvoudigen. Dankzij deze verbetering kunt u efficiënter door logbestanden navigeren en de kritieke problemen nauwkeurig opsporen.
 
-Voor meer details, mening [ Basis het oplossen van problemen ](../user-guide/generate-output-basic-troubleshooting.md).
+Voor meer details, mening [&#x200B; Basis het oplossen van problemen &#x200B;](../user-guide/generate-output-basic-troubleshooting.md).
 
 ![](./assets/log-file-new.png){align="left"}
 
@@ -69,7 +69,7 @@ De meest recente publicatieverbeteringen aan Experience Manager Guides voegen nu
 
 Het bestand `system_config.xml` bevat AEM-instantiedetails, zoals de URL van de auteur, de lokale URL en de URL voor publiceren, die een duidelijkere context bieden en de traceerbaarheid van de gedownloade URL&#39;s verbeteren.
 
-Voor meer details, begrijpt de mening [ de output vooraf instelt ](../user-guide/generate-output-understand-presets.md).
+Voor meer details, begrijpt de mening [&#x200B; de output vooraf instelt &#x200B;](../user-guide/generate-output-understand-presets.md).
 
 ### Ondersteuning voor variabele uitvoerpaden voor het genereren van uitvoer
 
@@ -77,19 +77,19 @@ Deze update introduceert een dynamische `output path` configuratie voor uitvoerv
 
 Alle uitvoerpaden die zijn gekoppeld aan de algemene voorinstellingen van het mapprofiel worden automatisch gemigreerd om de nieuwe variabele van het basisuitvoerpad te gebruiken. Voor aangepaste omslagprofielen, echter, is de migratie niet automatisch; u wordt geadviseerd om het team van het Succes van de Klant voor hulp te contacteren.
 
-Voor meer details, begrijpt de mening [ de output vooraf instelt ](../user-guide/generate-output-understand-presets.md).
+Voor meer details, begrijpt de mening [&#x200B; de output vooraf instelt &#x200B;](../user-guide/generate-output-understand-presets.md).
 
 ### Geëxporteerde basislijn bevat nu de documentstatus
 
 De eigenschap van de Basislijn van de Uitvoer omvat nu de **documentstaat** naast zeer belangrijke details zoals titel, dossiernaam, dossiertype, en versieaantal in de basislijnmomentopname. Deze verbetering verbetert het basislijnbeheer door een uitgebreider overzicht van de basislijn te verstrekken.
 
-Voor meer details, leidt de mening [ basislijnen van de console van de Kaart ](../user-guide/web-editor-baseline.md#manage-baselines) tot en beheert.
+Voor meer details, leidt de mening [&#x200B; basislijnen van de console van de Kaart &#x200B;](../user-guide/web-editor-baseline.md#manage-baselines) tot en beheert.
 
 ### Ondersteuning voor incrementele publicatie op basislijn via kaartdashboard voor AEM Sites-uitvoer met behulp van toewijzing van oudere componenten
 
 Het stijgende proces van de outputgeneratie is verbeterd om het publiceren specifieke versies van onderwerpen te steunen die in de geselecteerde basislijn voor de plaatsen van AEM worden bepaald gebruikend erfeniscomponentenafbeelding, die nauwkeurige propagatie van de inhoud in de output verzekeren.
 
-Voor meer details, bekijk [ Incrementele outputgeneratie ](../user-guide/generate-output-aem-site.md).
+Voor meer details, bekijk [&#x200B; Incrementele outputgeneratie &#x200B;](../user-guide/generate-output-aem-site.md).
 
 ## Verbeteringen in de Editor
 
@@ -99,7 +99,7 @@ De volgende verbeteringen in de Editor zijn doorgevoerd als onderdeel van de nie
 
 Experience Manager Guides introduceert een verbeterde zoekervaring in het deelvenster Herbruikbare inhoud. Bij deze update worden bij het zoeken naar trefwoorden nu alle bestanden gescand die zijn toegevoegd als herbruikbare inhoud, en niet alleen de geopende bestanden. Op deze manier kunt u de exacte positie van het trefwoord in alle gevallen vinden, ongeacht of de containers zijn geopend of samengevouwen. Wanneer u de zoekbalk wist, blijft bovendien de oorspronkelijke staat van alle containers behouden, wat een efficiëntere en gebruikersvriendelijkere zoekfunctionaliteit biedt.
 
-Voor meer details, mening [ Herbruikbare inhoud ](../user-guide/web-editor-features.md#reusable-content).
+Voor meer details, mening [&#x200B; Herbruikbare inhoud &#x200B;](../user-guide/web-editor-features.md#reusable-content).
 
 ### &#39;Format&#39;-kenmerk toegevoegd voor verwijzingskoppelingen
 
@@ -115,7 +115,7 @@ Bovendien, zullen de dossiers met a **.xml** uitbreiding ook hun formaat hebben 
 
 Experience Manager Guides introduceert een nieuwe **Echte het dossiernamen van het Gebruik** optie in de **kaart van de Download** dialoog. Wanneer u nu kaartbestanden downloadt, kunt u ervoor kiezen de oorspronkelijke bestandsnamen te behouden in plaats van de standaard-UUID&#39;s, waardoor het veel eenvoudiger wordt om uw bestanden te herkennen en te beheren. Deze optie is slechts beschikbaar als u **selecteert behoud dossierhiërarchie** en gehandicapt wanneer u **kiest afvlakken dossierhiërarchie**, die u meer flexibiliteit geeft in het organiseren van uw gedownloade kaarten.
 
-Voor meer details, mening [ dossiers van de Download ](../user-guide/authoring-download-assets.md#download-a-dita-map-file-from-the-editor).
+Voor meer details, mening [&#x200B; dossiers van de Download &#x200B;](../user-guide/authoring-download-assets.md#download-a-dita-map-file-from-the-editor).
 
 ![](assets/download-map-dialog-new.png){width="300" align="left"}
 
@@ -125,13 +125,13 @@ Er verschijnt nu een pop-upbericht waarin u wordt gewaarschuwd wanneer uw Adobe 
 
 ![](assets/sign-out-prompt.png)
 
-Leer meer over [ herinnering van de zittingsonderbreking ](../user-guide/session-timeout-prompt.md) in Experience Manager Guides.
+Leer meer over [&#x200B; herinnering van de zittingsonderbreking &#x200B;](../user-guide/session-timeout-prompt.md) in Experience Manager Guides.
 
 ### Verbeterde `navref` afhandeling in de Editor
 
 De meest recente verbeteringen aan de Editor verbeteren de verwerking van `navref` -elementen in een DITA-kaart. Nu, wanneer u een `navref` element aan een kaart toevoegt, opent de **Uitgezochte weg** dialoog, toestaand u om de kaartverwijzingen gemakkelijk te kiezen om als navigatiekoppelingen in uw kaart te omvatten. Nadat de titel van de toegevoegde kaart is toegevoegd, wordt deze zowel in de ontwerpweergave als in de layoutweergave weergegeven, zodat de opgenomen navigatie tijdens het ontwerpen beter zichtbaar is.  Bovendien wordt het toegevoegde `navref` -element automatisch omgezet om de doorverwezen kaart in de Editor weer te geven.
 
-Voor meer details, voegt de mening [ navigatieverwijzingen ](../user-guide/map-editor-other-features.md#add-navigation-references) toe.
+Voor meer details, voegt de mening [&#x200B; navigatieverwijzingen &#x200B;](../user-guide/map-editor-other-features.md#add-navigation-references) toe.
 
 
 ### UI-verbeteringen op de werkbalk van de Editor en gebruikersvoorkeuren
@@ -140,7 +140,7 @@ Met deze versie zijn de montages binnen de **voorkeur van de Gebruiker** op de H
 
 Bovendien, in de toolbar van de Redacteur worden sommige snel-toegangsknevels voor het toelaten van of het onbruikbaar maken van de Veranderingen van het Spoor, de Markeringen, en de niet-BreakSpaties nu gegroepeerd onder **toon** optie binnen dropdown van het Menu voor betere bruikbaarheid.
 
-Voor meer details, mening [ Toolbar in de Redacteur ](../user-guide/web-editor-toolbar.md#menu-dropdown).
+Voor meer details, mening [&#x200B; Toolbar in de Redacteur &#x200B;](../user-guide/web-editor-toolbar.md#menu-dropdown).
 
 
 

@@ -40,12 +40,12 @@ In deze sessie hebt u kennis genomen van het volgende:
 
 ### Documentatie
 
-- [ Schema&#39;s van Meta-gegevens ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/manage/metadata-schemas)
-- [ Profielen van meta-gegevens ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/manage/metadata-profiles)
-- [ Beherend meta-gegevens in activa DITA ](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/knowledge-base/kb-articles/authoring/reports/manage-metadata)
-- [ Extraheer meta DITA als meta-gegevens ](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/install-guide/cs-ig/aem-asset-search-cs/conf-dita-search#id192SF0G10YK)
-- [ meta-gegevens van het Gebruik in output DITA-OT ](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/conf-output-generation#id191LF0U0TY4)
-- [ meta-gegevens van het Gebruik in Inheemse PDF ](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/user-guide/output-gen/web-editor/native-pdf-web-editor#native-pdf-publishing)
+- [&#x200B; Schema&#39;s van Meta-gegevens &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/manage/metadata-schemas)
+- [&#x200B; Profielen van meta-gegevens &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/manage/metadata-profiles)
+- [&#x200B; Beherend meta-gegevens in activa DITA &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/knowledge-base/kb-articles/authoring/reports/manage-metadata)
+- [&#x200B; Extraheer meta DITA als meta-gegevens &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/install-guide/cs-ig/aem-asset-search-cs/conf-dita-search#id192SF0G10YK)
+- [&#x200B; meta-gegevens van het Gebruik in output DITA-OT &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/conf-output-generation#id191LF0U0TY4)
+- [&#x200B; meta-gegevens van het Gebruik in Inheemse PDF &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/user-guide/output-gen/web-editor/native-pdf-web-editor#native-pdf-publishing)
 
 
 ### Forum van de Gemeenschap

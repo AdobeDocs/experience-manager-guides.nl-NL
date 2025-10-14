@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Dit artikel behandelt de nieuwe en verbeterde eigenschappen in versie April 2023 van Adobe Experience Manager Guides (later genoemd als *as a Cloud Service van AEM Guides*).
 
-Voor meer details op de verbeteringsinstructies, verenigbaarheidsmatrijs, en de kwesties die in deze versie worden bevestigd, zie het [ de nota&#39;s van de Versie ](release-notes-2023-4-0.md) artikel.
+Voor meer details op de verbeteringsinstructies, verenigbaarheidsmatrijs, en de kwesties die in deze versie worden bevestigd, zie het [&#x200B; de nota&#39;s van de Versie &#x200B;](release-notes-2023-4-0.md) artikel.
 
 ## Geavanceerde ondersteuning voor metagegevens in PDF-publicaties
 
@@ -44,4 +44,4 @@ De omtrekweergave biedt de volgende verbeteringen:
 AEM Guides as a Cloud Service biedt de functie om grote publicatiewerklasten tegelijk uit te voeren met op microservices gebaseerde publicaties en het toonaangevende Adobe I/O Runtime-serverloze platform te benutten.
 
 Nu in de versie van April kunt u veelvoudige het publiceren verzoeken tezelfdertijd in werking stellen en bulkoutput van PDF zeer efficiënt produceren gebruikend de op microdienst-gebaseerde Inheemse PDF het publiceren.
-Voor meer details, zie [ nieuwe op microservice-gebaseerde het publiceren voor AEM Guides as a Cloud Service ](../knowledge-base/publishing/configure-microservices.md) vormen.
+Voor meer details, zie [&#x200B; nieuwe op microservice-gebaseerde het publiceren voor AEM Guides as a Cloud Service &#x200B;](../knowledge-base/publishing/configure-microservices.md) vormen.

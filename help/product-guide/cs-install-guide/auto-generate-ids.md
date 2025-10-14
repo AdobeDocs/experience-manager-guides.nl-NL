@@ -18,7 +18,7 @@ AEM Guides genereert een document-id voor elk nieuw document dat u maakt. Wannee
 
 AEM Guides biedt eenvoudige configuratie-instellingen waarbij u de elementen moet definiëren waarop een id automatisch wordt gegenereerd en een patroon voor de id. Standaard zijn bepaalde elementen, zoals `section` , `table` , `ul` en `ol` , geconfigureerd voor het automatisch genereren van een id. U kunt andere elementen aan deze lijst toevoegen zodat wanneer deze elementen in een document worden opgenomen, AEM Guides een id genereert en toewijst op basis van het opgegeven patroon
 
-Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](download-install-additional-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende \(eigenschap\)-details op om automatisch gegenereerde element-id&#39;s te configureren:
+Gebruik de instructies die in [&#x200B; worden gegeven met voeten treedt van de Configuratie &#x200B;](download-install-additional-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende \(eigenschap\)-details op om automatisch gegenereerde element-id&#39;s te configureren:
 
 | PID | Eigenschappensleutel | Waarde van eigenschap |
 |---|------------|--------------|
@@ -30,4 +30,4 @@ Als u een patroon voor automatisch gegenereerde id wilt configureren, maakt u ee
 |---|------------|--------------|
 | `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.pattern` | De standaardwaarde voor dit veld is ingesteld op `${elementName}_${id}` . De waarde `${elementName}` wordt vervangen door de naam van het element. De variabele `${id}` genereert een volgnummer voor het element. Als u bijvoorbeeld het alinea-element toewijst voor automatisch gegenereerde id&#39;s, krijgt de eerste alinea van het onderwerp of document een id zoals p\_1, de volgende alinea krijgt p\_2 enzovoort. In een ander document wordt het genereren van de id echter opnieuw gestart. Dit betekent dat id&#39;s zoals p\_1 en p\_2 in een ander document kunnen worden toegewezen aan alinea-elementen. **Standaardwaarde**: ``${elementName}_${id}`` |
 
-**Bovenliggend onderwerp:**&#x200B;[ pas de Redacteur van het Web ](conf-web-editor.md) aan
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; pas de Redacteur van het Web &#x200B;](conf-web-editor.md) aan

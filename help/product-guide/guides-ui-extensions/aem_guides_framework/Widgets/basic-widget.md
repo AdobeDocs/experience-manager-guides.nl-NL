@@ -49,4 +49,4 @@ Hier, is `@languages` een serie die in het model van `widget_languages` wordt be
 
 De gerenderde basiswidget ziet er als volgt uit:
 
-![ basic_widget ](imgs/basic_widget.png " Basis widget ")
+![&#x200B; basic_widget &#x200B;](imgs/basic_widget.png " Basis widget ")

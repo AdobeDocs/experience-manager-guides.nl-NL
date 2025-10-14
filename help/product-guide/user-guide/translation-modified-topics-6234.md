@@ -78,4 +78,4 @@ Voer de volgende stappen uit om een gewijzigd onderwerp voor re-vertaling te ver
 1. Navigeer terug naar het DITA-kaartbestand in de brontaalmap in de gebruikersinterface van Assets. De opnieuw vertaalde onderwerpen zijn nu synchroon.
 
 
-**Bovenliggend onderwerp:**&#x200B;[ het vertaaloverzicht van de Inhoud ](translation.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; het vertaaloverzicht van de Inhoud &#x200B;](translation.md)

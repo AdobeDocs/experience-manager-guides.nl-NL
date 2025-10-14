@@ -35,7 +35,7 @@ Voordat u verdergaat met de installatie, moet u controleren of aan de volgende v
 ## Installatie van pakketten met CRX Package Manager
 
 1. **installeer het Pakket van Componenten:**
-   1. Navigeer aan [**de Manager van het Pakket van CRX** ](http://&lt;your-name-instance>/crx/packmgr).
+   1. Navigeer aan [**de Manager van het Pakket van CRX** &#x200B;](http://&lt;your-name-instance>/crx/packmgr).
    2. Upload en installeer het zip-pakket on-prem-guides-components.all-1.x.0.zip.
 
 2. **installeer het Pakket van Plaatsen:** upload en installeer het pakket aemg-docs.all-1.x.0.zip gebruikend de Manager van het Pakket van CRX.
@@ -51,7 +51,7 @@ Voordat u verdergaat met de installatie, moet u controleren of aan de volgende v
    5. Uncheck het **plaatsen van de erfeniscomponentenafbeelding van het Gebruik**.
    6. Selecteer **toevoegen** om vooraf ingesteld tot stand te brengen.
 
-      ![ Nieuwe output vooraf ingestelde dialoog ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/new-output-preset.png){width="350" align="left"}
+      ![&#x200B; Nieuwe output vooraf ingestelde dialoog &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/new-output-preset.png){width="350" align="left"}
 
 
 2. **vorm de Vooraf ingestelde Plaats van AEM:** Er zijn twee opties om de uit-van-de-doos (OTB) plaats te vormen:
@@ -63,14 +63,14 @@ Voordat u verdergaat met de installatie, moet u controleren of aan de volgende v
       - Publicatiepad: aemg-docs/nl/docs/product1
       - Sjabloon voor onderwerppagina: onderwerppagina.
 
-      ![ Vervolgkeuzelijst van de Plaats van het Gebruik ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown.png){width="350" align="left"}
+      ![&#x200B; Vervolgkeuzelijst van de Plaats van het Gebruik &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown.png){width="350" align="left"}
 
    **Optie 2: Gebruik de Weg van de Plaats**
 
    1. Plaats de **weg van de Plaats** manueel als /content/aemg-docs/en/docs/product1.
    2. Verifieer dat het **paginamalplaatje van het Onderwerp** automatisch aan de Pagina van het Onderwerp wordt geplaatst.
 
-      ![ Pad van de Plaats van het Gebruik ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path.png){width="350" align="left"}
+      ![&#x200B; Pad van de Plaats van het Gebruik &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path.png){width="350" align="left"}
 
 3. **sparen vooraf ingesteld:** sparen de veranderingen die aan vooraf ingesteld worden aangebracht.
 
@@ -85,11 +85,11 @@ Voordat u verdergaat met de installatie, moet u controleren of aan de volgende v
    2. Maak een nieuwe productpagina onder de OOTB-sitestructuur.
    3. Navigeer aan **Dokken van AEMG** > **Engels** > **Dokken**.
 
-      ![ Pagina maken in AEM-sitestructuur ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-page.png){width="350" align="left"}
+      ![&#x200B; Pagina maken in AEM-sitestructuur &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-page.png){width="350" align="left"}
 
    4. Selecteer de **pagina van het Huis** tegel en selecteer dan **daarna**.
 
-      ![ Uitgezochte de tegel van de homepage ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/home-page-tile.png){width="350" align="left"}
+      ![&#x200B; Uitgezochte de tegel van de homepage &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/home-page-tile.png){width="350" align="left"}
 
    5. Ga de **Titel** en **Naam** voor de pagina in.
    6. Selecteer **creeer**.

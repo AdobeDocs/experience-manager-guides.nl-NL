@@ -19,9 +19,9 @@ Met artikel kunt u FMPS instellen en uitvoeren met AEM Guides.
 
 ## Verenigbaarheid van FMPS met AEM Guides
 
-- Verenigbaarheid met 4.1 AEM Guides: [ 4.1 verenigbaarheidsmatrijs ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.1.html?lang=nl-NL/#compatibility-matrix)
-- Verenigbaarheid met 4.0 AEM Guides: [ 4.0 verenigbaarheidsmatrijs ](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html/#Compatibility%20matrix)
-- Laatste Versie: [ Latest versie info ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/latest-release-info.html?lang=nl-NL)
+- Verenigbaarheid met 4.1 AEM Guides: [&#x200B; 4.1 verenigbaarheidsmatrijs &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.1.html?lang=nl-NL/#compatibility-matrix)
+- Verenigbaarheid met 4.0 AEM Guides: [&#x200B; 4.0 verenigbaarheidsmatrijs &#x200B;](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html/#Compatibility%20matrix)
+- Laatste Versie: [&#x200B; Latest versie info &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/latest-release-info.html?lang=nl-NL)
 
 ## Installatie
 
@@ -29,11 +29,11 @@ Raadpleeg de volgende secties voor installatie en configuratie van AEM Guides en
 
 ### AEM Guides
 
-De installatie en de configuratie verwijzen: [ 4.1 installatie &amp; configuraties ](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-1-2/Adobe-Experience-Manager-Guides_Installation-Configuration-Guide_EN.pdf)
+De installatie en de configuratie verwijzen: [&#x200B; 4.1 installatie &amp; configuraties &#x200B;](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-1-2/Adobe-Experience-Manager-Guides_Installation-Configuration-Guide_EN.pdf)
 
 ### FMPS
 
-Voor installatie FMPS kunt u bepaalde [ verbinding van YouTube ](https://www.youtube.com/watch?v=2deelyM5VA8&amp;t) of [ installatie FMPS en configuratie ](https://help.adobe.com/en_US/framemaker/server/index.html#t=fmps-user-guide%2Finstall_config_fmps.html%23install_config_fmps&amp;rhtocid=_2) verwijzen
+Voor installatie FMPS kunt u bepaalde [&#x200B; verbinding van YouTube &#x200B;](https://www.youtube.com/watch?v=2deelyM5VA8&t) of [&#x200B; installatie FMPS en configuratie &#x200B;](https://help.adobe.com/en_US/framemaker/server/index.html#t=fmps-user-guide%2Finstall_config_fmps.html%23install_config_fmps&amp;rhtocid=_2) verwijzen
 
 ## Vereiste configuraties
 
@@ -41,7 +41,7 @@ U kunt FrameMaker Publishing Server (FMPS) gebruiken om uw DITA-inhoud te genere
 
 Ga naar http://\&lt;servernaam\>:\&lt;poort\>/system/console/configMgr om de webconsole te openen.
 
-**de eigenschappen van de Configuratie en hun beschrijving** [ 4.1 installatie en configuratie ](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-1-2/Adobe-Experience-Manager-Guides_Installation-Configuration-Guide_EN.pdf#page=89)
+**de eigenschappen van de Configuratie en hun beschrijving** [&#x200B; 4.1 installatie en configuratie &#x200B;](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-1-2/Adobe-Experience-Manager-Guides_Installation-Configuration-Guide_EN.pdf#page=89)
 
 ## Test uitvoeren:
 
@@ -62,7 +62,7 @@ Dit is een conflict als u de FMPS-voorinstelling hebt gekozen en ook aangepaste 
 
 U kunt uw reeds gemaakte basislijnen publiceren met versie FMPS2020.0.2 of hoger.
 
-**de montageendossier van de Steekproef FMPS (.sts) om begonnen te worden:** [ de montagesdossier van de Steekproef FMPS ](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:ef750752-7a7e-4e51-923e-6b7d9861ed54) (unzip dit dossier)
+**de montageendossier van de Steekproef FMPS (.sts) om begonnen te worden:** [&#x200B; de montagesdossier van de Steekproef FMPS &#x200B;](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:ef750752-7a7e-4e51-923e-6b7d9861ed54) (unzip dit dossier)
 
 ## Veelgestelde vragen en problemen oplossen:
 
@@ -91,10 +91,10 @@ U kunt uw reeds gemaakte basislijnen publiceren met versie FMPS2020.0.2 of hoger
 
 ## Overige bronnen:
 
-[ FMPS leren en Steun ](https://helpx.adobe.com/nl/support/framemaker-publishing-server.html)
+[&#x200B; FMPS leren en Steun &#x200B;](https://helpx.adobe.com/nl/support/framemaker-publishing-server.html)
 
-[ AEM Guides Leren en Steun ](https://helpx.adobe.com/in/support/xml-documentation-for-experience-manager.html)
+[&#x200B; AEM Guides Leren en Steun &#x200B;](https://helpx.adobe.com/in/support/xml-documentation-for-experience-manager.html)
 
-[ FrameMaker en gemeenschap FMPS ](https://community.adobe.com/t5/framemaker/ct-p/ct-framemaker?page=1&amp;sort=latest_replies&amp;lang=all&amp;tabid=all)
+[&#x200B; FrameMaker en gemeenschap FMPS &#x200B;](https://community.adobe.com/t5/framemaker/ct-p/ct-framemaker?page=1&sort=latest_replies&lang=all&tabid=all)
 
-[ Gemeenschap van AEM Guides ](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)
+[&#x200B; Gemeenschap van AEM Guides &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)

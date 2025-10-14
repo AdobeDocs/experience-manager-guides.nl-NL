@@ -27,7 +27,7 @@ Wanneer u zich aanmeldt bij Experience Manager, wordt de navigatiepagina weergeg
 
 ![](images/web-editor-from-navigation-page.png){align="left"}
 
-Het selecteren van de **verbinding van Gidsen** neemt u aan de [ homepage van Adobe Experience Manager Guides ](./intro-home-page.md).
+Het selecteren van de **verbinding van Gidsen** neemt u aan de [&#x200B; homepage van Adobe Experience Manager Guides &#x200B;](./intro-home-page.md).
 
 ![](images/aem-home-page.png){align="left"}
 
@@ -39,7 +39,7 @@ Terwijl u de Editor hebt gestart zonder een bestand te selecteren, wordt een lee
 
 ![](images/web-editor-launch-page.png){align="left"}
 
-Alternatief, kunt u de Redacteur ook lanceren door de bestaande dossiers te openen huidig in de **Recente dossiers** widget en **Inzamelingen** widget van [ de ervaring van de Homepage van Adobe Experience Manager Guides ](./intro-home-page.md).
+Alternatief, kunt u de Redacteur ook lanceren door de bestaande dossiers te openen huidig in de **Recente dossiers** widget en **Inzamelingen** widget van [&#x200B; de ervaring van de Homepage van Adobe Experience Manager Guides &#x200B;](./intro-home-page.md).
 
 
 Als u terug wilt gaan naar de Experience Manager Navigation-pagina, selecteert u het Adobe Experience Manager-logo in de linkerbovenhoek van de bovenste koptekst.
@@ -133,4 +133,4 @@ Voer de volgende stappen uit om de Editor te openen vanuit de kaartconsole:
 
 
 
-**Bovenliggend onderwerp**: [ Inleiding aan de Redacteur ](web-editor.md)
+**Bovenliggend onderwerp**: [&#x200B; Inleiding aan de Redacteur &#x200B;](web-editor.md)

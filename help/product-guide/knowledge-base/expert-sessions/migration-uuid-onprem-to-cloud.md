@@ -50,9 +50,9 @@ En stappen om hulplijnen (uuid) naar de cloud te verplaatsen:
 
 ### Documentatie
 
-- [ Bewegend aan AEM Cloud ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/migration-journey/getting-started)
+- [&#x200B; Bewegend aan AEM Cloud &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/migration-journey/getting-started)
 - [AEM Guides: UUID-inhoud verplaatsen van on-premise/AMS naar cloud](../../cs-install-guide/migrate-on-premise-content-cloud.md)
-- [ het Hulpmiddel van de Overdracht van de Inhoud: Veelgestelde vragen ](https://experienceleague.adobe.com/nl/docs/experience-manager-learn/cloud-service/migration/moving-to-aem-as-a-cloud-service/content-migration/faq)
+- [&#x200B; het Hulpmiddel van de Overdracht van de Inhoud: Veelgestelde vragen &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-learn/cloud-service/migration/moving-to-aem-as-a-cloud-service/content-migration/faq)
 - [AEM Guides: niet-uuid-inhoud migreren naar Cloud](../../install-guide/migrate-uuid-non-uuid.md)
 
 ### Forum van de Gemeenschap

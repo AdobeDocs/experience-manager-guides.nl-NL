@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # Bestaande DITA-inhoud uploaden {#id176FF000JUI}
 
-U hebt waarschijnlijk een opslagplaats voor bestaande DITA-inhoud die u met de AEM Guides wilt gebruiken. Voor dergelijke bestaande inhoud, kunt u om het even welke gesteunde methodes gebruiken die in [ worden verklaard digitale activa aan Adobe Experience Manager as a Cloud Service Assets ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=nl-NL) toevoegen.
+U hebt waarschijnlijk een opslagplaats voor bestaande DITA-inhoud die u met de AEM Guides wilt gebruiken. Voor dergelijke bestaande inhoud, kunt u om het even welke gesteunde methodes gebruiken die in [&#x200B; worden verklaard digitale activa aan Adobe Experience Manager as a Cloud Service Assets &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=nl-NL) toevoegen.
 
 ## Patroon UUID-bestandsnaam configureren
 
 Wanneer u inhoud importeert, is het niet nodig dat de bestandsnamen worden gebaseerd op de UUID. In een systeem dat op UUID-Gebaseerde dossiernamen gebruikt, is het verplicht dat alle dossiers worden bedoeld gebruikend hun UUIDs eerder dan hun originele dossiernamen. Als een geïmporteerd bestand geen op UUID gebaseerde bestandsnamen heeft, kunt u het systeem zo configureren dat een UUID wordt toegevoegd aan de eigenschap file. Deze UUID wordt vervolgens gebruikt om te verwijzen naar bestanden waarin UUID niet wordt gebruikt voor het benoemen van de bestanden.
 
-Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](download-install-additional-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende \(eigenschap\) gegevens op om het patroon van de UUID-bestandsnaam te configureren:
+Gebruik de instructies die in [&#x200B; worden gegeven met voeten treedt van de Configuratie &#x200B;](download-install-additional-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende \(eigenschap\) gegevens op om het patroon van de UUID-bestandsnaam te configureren:
 
 | PID | Eigenschappensleutel | Waarde van eigenschap |
 |---|------------|--------------|
@@ -81,4 +81,4 @@ Geef de volgende parameters op om metagegevensinformatie toe te voegen:
 - `<metadata node path>`: volledig mappad, inclusief bestandsnaam en het bijbehorende metagegevensknooppunt. Als u bijvoorbeeld het pad opgeeft als `http://192.168.1.1:4502/content/dam/projects/AEM-Guides/intro.xml/jcr:content/metadata` , wordt de opgegeven metagegevens ingesteld in het `intro.xml` -bestand.
 
 
-**Bovenliggend onderwerp:**&#x200B;[ Migreer bestaande inhoud ](migrate-content.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Migreer bestaande inhoud &#x200B;](migrate-content.md)

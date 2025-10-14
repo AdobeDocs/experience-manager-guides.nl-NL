@@ -28,17 +28,17 @@ Voer de volgende stappen uit om output voor een specifiek onderwerp of een groep
 
 Voer de volgende stappen uit om incrementele uitvoer voor AEM Sites te genereren met behulp van Kaartconsole:
 
-1. [ open het DITA kaartdossier in de console van de Kaart ](./open-files-map-console.md).
+1. [&#x200B; open het DITA kaartdossier in de console van de Kaart &#x200B;](./open-files-map-console.md).
 1. Selecteer de AEM Sites-voorinstelling waarvoor u incrementele uitvoer wilt genereren.
 1. In het **lusje van Onderwerpen**, selecteer de onderwerpen die u wilt publiceren.
 
    - Zonder basislijn
 
-     ![ het onderwerpenlijst van plaatsen ](images/aem-presets-topic-list.png) {align="left"}
+     ![&#x200B; het onderwerpenlijst van plaatsen &#x200B;](images/aem-presets-topic-list.png) {align="left"}
 
    - Met basislijn
 
-     ![ lijst van het het onderwerp van de a- plaatsen met basislijn ](images/aem-presets-topic-list-new.png) {align="left"}
+     ![&#x200B; lijst van het het onderwerp van de a- plaatsen met basislijn &#x200B;](images/aem-presets-topic-list-new.png) {align="left"}
 
    >[!NOTE]
    >
@@ -75,7 +75,7 @@ Voer de volgende stappen uit om incrementele uitvoer voor AEM Sites te genereren
 
 1. Selecteer de uitvoervoorinstelling die u wilt gebruiken om de geselecteerde onderwerpen opnieuw te genereren.
 
-   Als er een basislijn is geselecteerd voor een AEM Sites-uitvoervoorinstelling die gebruikmaakt van oudere componenttoewijzing, worden de onderwerpversies die zijn opgenomen in de geselecteerde basislijn gebruikt voor het genereren van uitvoer. Bovendien, zou het stijgende publiceren van de lijst van Onderwerpen slechts moeten worden gebruikt wanneer er geen veranderingen in de kaartstructuur zijn. Als er een verandering in de kaartstructuur/TOC is, dan zou de volledige kaart eens moeten worden gepubliceerd om TOC bij te werken. Voor details bij het gebruiken van de plaats van AEM vooraf ingesteld, bekijkt [ AEM Sites vooraf instelt op het kaartdashboard ](./generate-output-aem-site-map-dashboard.md).
+   Als er een basislijn is geselecteerd voor een AEM Sites-uitvoervoorinstelling die gebruikmaakt van oudere componenttoewijzing, worden de onderwerpversies die zijn opgenomen in de geselecteerde basislijn gebruikt voor het genereren van uitvoer. Bovendien, zou het stijgende publiceren van de lijst van Onderwerpen slechts moeten worden gebruikt wanneer er geen veranderingen in de kaartstructuur zijn. Als er een verandering in de kaartstructuur/TOC is, dan zou de volledige kaart eens moeten worden gepubliceerd om TOC bij te werken. Voor details bij het gebruiken van de plaats van AEM vooraf ingesteld, bekijkt [&#x200B; AEM Sites vooraf instelt op het kaartdashboard &#x200B;](./generate-output-aem-site-map-dashboard.md).
 
 
 1. Selecteer **Regenereren** om het proces van de outputgeneratie te beginnen.
@@ -85,8 +85,8 @@ Voer de volgende stappen uit om incrementele uitvoer voor AEM Sites te genereren
 >
 > Als u een onderwerptitel anders noemt en het onderwerp regenereert, reflecteert de bijgewerkte onderwerptitel niet in de DITA kaartlijst van inhoud. Om de onderwerptitel in TOC bij te werken, moet u de volledige kaart DITA produceren.
 
-U kunt het huidige statuut van het verzoek van de outputgeneratie in de **Uitvoer** tabel bekijken. Voor meer informatie, mening [ bekijk het statuut van de taak van de outputgeneratie ](#view-the-status-of-the-output-generation-task).
+U kunt het huidige statuut van het verzoek van de outputgeneratie in de **Uitvoer** tabel bekijken. Voor meer informatie, mening [&#x200B; bekijk het statuut van de taak van de outputgeneratie &#x200B;](#view-the-status-of-the-output-generation-task).
 
 
 
-**Bovenliggend onderwerp:** [ Begrijpend de output stelt ](generate-output-understand-presets.md) vooraf in
+**Bovenliggend onderwerp:** [&#x200B; Begrijpend de output stelt &#x200B;](generate-output-understand-presets.md) vooraf in

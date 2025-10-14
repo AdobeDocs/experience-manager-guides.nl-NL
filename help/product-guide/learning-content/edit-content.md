@@ -20,7 +20,7 @@ Voer de volgende stappen uit om het Onderwerp uit te geven:
 
    ![](assets/lock-learning-content.png){width="650" align="left"}
 
-1. Om inhoud aan een onderwerp toe te voegen, kunt u [ basisbouwstenen ](./lc-basic-blocks.md) zoals tekst, multimedia, samen met diverse [ interactieve widgets ](./lc-widgets.md) toevoegen.
+1. Om inhoud aan een onderwerp toe te voegen, kunt u [&#x200B; basisbouwstenen &#x200B;](./lc-basic-blocks.md) zoals tekst, multimedia, samen met diverse [&#x200B; interactieve widgets &#x200B;](./lc-widgets.md) toevoegen.
 1. Om uw werk te bewaren, gebruik **sparen als nieuwe versie** om een nieuwe versie tot stand te brengen, of druk `Ctrl+S` om het bestaande dossier te beschrijven.
 
    ![](assets/saving-learning-content.png){width="650" align="left"}

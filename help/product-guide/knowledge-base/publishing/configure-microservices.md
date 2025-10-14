@@ -17,13 +17,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> De geloofsbrieven van de Rekening van de Dienst (JWT) zijn afgekeurd ten gunste van de geloofsbrieven van de Server-aan-Server OAuth. Uw toepassingen die gebruikmaken van de JWT-referenties (Service Account) werken niet meer na 1 januari 2025. U moet vóór 1 januari 2025 naar de nieuwe referentie migreren om ervoor te zorgen dat uw toepassing blijft werken. Leer meer over [ migrerend van de Rekening van de Dienst (JWT) credential aan OAuth Server-aan-Server credential ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/).
+> De geloofsbrieven van de Rekening van de Dienst (JWT) zijn afgekeurd ten gunste van de geloofsbrieven van de Server-aan-Server OAuth. Uw toepassingen die gebruikmaken van de JWT-referenties (Service Account) werken niet meer na 1 januari 2025. U moet vóór 1 januari 2025 naar de nieuwe referentie migreren om ervoor te zorgen dat uw toepassing blijft werken. Leer meer over [&#x200B; migrerend van de Rekening van de Dienst (JWT) credential aan OAuth Server-aan-Server credential &#x200B;](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/).
 
 
 
 Op microservice gebaseerde publicatie in voor Adobe Experience Manager Guides as a Cloud Service biedt ondersteuning voor PDF (zowel op basis van Native als DITA-OT), HTML5, JSON en CUSTOM-typen van uitvoervoorinstellingen.
 
-Aangezien de JWT-gegevens (Service Account) zijn afgekeurd, wordt het aanbevolen om op Adobe IMS gebaseerde verificatie te gebruiken. Leer hoe te [ op microservice-gebaseerde het publiceren met authentificatie OAuth ](configure-microservices-imt-config.md) vormen.
+Aangezien de JWT-gegevens (Service Account) zijn afgekeurd, wordt het aanbevolen om op Adobe IMS gebaseerde verificatie te gebruiken. Leer hoe te [&#x200B; op microservice-gebaseerde het publiceren met authentificatie OAuth &#x200B;](configure-microservices-imt-config.md) vormen.
 
 Voor de service voor publicatie in de cloud die wordt beveiligd door verificatie op basis van Adobe IMS JWT, moeten klanten onderstaande stappen volgen om hun omgevingen te integreren met beveiligde tokengebaseerde verificatieworkflows van de Adobe en de nieuwe, op de cloud gebaseerde schaalbare publicatieoplossing te gaan gebruiken.
 
@@ -86,7 +86,7 @@ Voer de volgende stappen uit om configuratie IMS aan het milieu toe te voegen:
 
 Zodra u de configuratie IMS aan het milieu hebt toegevoegd, voer de volgende stappen uit om deze eigenschappen met Experience Manager Guides te verbinden gebruikend OSGi:
 
-1. In u het projectcode van de Git van de wolkenmanager, voeg hieronder twee dossiers toe (voor dossierinhoud, zie [ Bijlage ](#appendix)).
+1. In u het projectcode van de Git van de wolkenmanager, voeg hieronder twee dossiers toe (voor dossierinhoud, zie [&#x200B; Bijlage &#x200B;](#appendix)).
 
    * `com.adobe.aem.guides.eventing.ImsConfiguratorService.cfg.json`
    * `com.adobe.fmdita.publishworkflow.PublishWorkflowConfigurationService.xml`

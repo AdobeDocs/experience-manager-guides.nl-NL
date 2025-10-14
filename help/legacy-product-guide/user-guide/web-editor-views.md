@@ -46,7 +46,7 @@ De mening van Source toont onderliggende XML die omhoog het onderwerp maakt. Als
   In de bovenstaande schermafbeelding wordt een kruismarkering gebruikt om de regel met onjuiste XML te laten aanwijzen.
 
 - Met de functie Zoeken en vervangen kunt u zoeken naar tekst, elementen of kenmerken in de weergave Source.
-Voor meer details, zie **Vondst en vervang** eigenschapbeschrijving in de [ Belangrijkste toolbar ](web-editor-features.md#id#id2051EA0G05Z) sectie.
+Voor meer details, zie **Vondst en vervang** eigenschapbeschrijving in de [&#x200B; Belangrijkste toolbar &#x200B;](web-editor-features.md#id#id2051EA0G05Z) sectie.
 
 - De Source-weergave bevat veel sneltoetsen waarmee u snel door een document kunt navigeren en aan een document kunt werken. In de volgende tabel worden de ondersteunde acties en de bijbehorende sneltoetsen weergegeven:
 
@@ -152,4 +152,4 @@ Voer de volgende stappen uit om een onderwerp als PDF te exporteren:
    De PDF wordt gegenereerd en geopend op een nieuw tabblad of er wordt een dialoogvenster weergegeven waarin u de PDF op uw lokale systeem kunt opslaan.
 
 
-**Bovenliggend onderwerp:**&#x200B;[ Werk met de Redacteur van het Web ](web-editor.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Werk met de Redacteur van het Web &#x200B;](web-editor.md)

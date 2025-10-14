@@ -18,7 +18,7 @@ Met AEM Guides kunt u diverse gestructureerde en ongestructureerde documenten om
 
 >[!TIP]
 >
-> Zie de *migratie van de Inhoud en upload* sectie [ Appendix.md ](appendix.md) in de Beste praktijken gids voor beste praktijken rond het gebruiken van het migreren en het uploaden van bestaande inhoud.
+> Zie de *migratie van de Inhoud en upload* sectie [&#x200B; Appendix.md &#x200B;](appendix.md) in de Beste praktijken gids voor beste praktijken rond het gebruiken van het migreren en het uploaden van bestaande inhoud.
 
 - **[upload bestaande inhoud DITA](migrate-content-upload-existing-dita-content.md)**
 

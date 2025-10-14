@@ -159,4 +159,4 @@ Voorbeeldbestand:
 
 Terwijl het publiceren van de Fragmenten van de Ervaring van de Redacteur van het Web, selecteer `Template` van dropdown in **produceer de dialoogdoos van het Fragment van de Ervaring** om de afbeelding beschikbaar voor het malplaatje op het **In kaart brengende** gebied te bekijken. Als er geen aangepaste toewijzing voor een sjabloon aanwezig is, wordt de standaardtoewijzing weergegeven. U kunt de standaardafbeelding gebruiken om het hele onderwerp als een fragment van de Ervaring te publiceren.
 
-Voor meer details, mening [ de Fragmenten van de Ervaring van Publish ](../user-guide/publish-experience-fragment.md).
+Voor meer details, mening [&#x200B; de Fragmenten van de Ervaring van Publish &#x200B;](../user-guide/publish-experience-fragment.md).

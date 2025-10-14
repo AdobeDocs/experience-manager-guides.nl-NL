@@ -59,4 +59,4 @@ Het kenmerk `platform` wordt opgeslagen in het systeem. Wanneer een auteur beslu
 
 ![](images/properties-tab.png){width="350" align="left"}
 
-**Bovenliggend onderwerp:**&#x200B;[ Productie van de Output ](generate-output.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Productie van de Output &#x200B;](generate-output.md)

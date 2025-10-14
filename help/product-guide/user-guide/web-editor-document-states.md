@@ -114,4 +114,4 @@ Als een document is gemarkeerd als goedgekeurd, kan het niet meer worden bewerkt
    De status van het document wordt gewijzigd in Concept en het document wordt geopend in de Editor in de bewerkingsmodus.
 
 
-**Bovenliggend onderwerp:**&#x200B;[ Inleiding aan de Redacteur ](web-editor.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Inleiding aan de Redacteur &#x200B;](web-editor.md)

@@ -71,7 +71,7 @@ Voer de volgende stappen uit om het Rapport van de Kaart DITA te bekijken:
 
    - **gebruikt binnen**: Toont een lijst van andere onderwerpen of kaarten waar het onderwerp wordt gebruikt. De UUID van al dergelijke onderwerpen en kaarten is ook vermeld.
 
-Naast het rapport voor elk individueel onderwerp, hebben de beheerders ook toegang tot informatie zoals het publiceren geschiedenis van een kaart DITA. Voor meer informatie over de geschiedenis van geproduceerde output, zie [ Mening het statuut van de taak van de outputgeneratie ](generate-output-for-a-dita-map.md#viewing_output_history).
+Naast het rapport voor elk individueel onderwerp, hebben de beheerders ook toegang tot informatie zoals het publiceren geschiedenis van een kaart DITA. Voor meer informatie over de geschiedenis van geproduceerde output, zie [&#x200B; Mening het statuut van de taak van de outputgeneratie &#x200B;](generate-output-for-a-dita-map.md#viewing_output_history).
 
 ## CSV genereren van DITA-kaartrapport
 
@@ -96,4 +96,4 @@ Voer de volgende stappen uit om CSV van een DITA kaartrapport te produceren:
 
 Zodra het rapport in Inbox wordt gedownload kunt u het rapport ook selecteren en het Open pictogram op de bovenkant gebruiken om het geselecteerde rapport te openen.
 
-**Bovenliggend onderwerp:**&#x200B;[ Rapporten ](reports-intro.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Rapporten &#x200B;](reports-intro.md)

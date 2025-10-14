@@ -130,7 +130,7 @@ Als u een publicatiemicroservice voor het eerst wilt gebruiken, werkt u de confi
 
 Zodra u de configuratie IMS aan het milieu hebt toegevoegd, voer de volgende stappen uit om deze eigenschappen met Experience Manager Guides te verbinden gebruikend OSGi:
 
-1. In uw het projectcode van de Git van de wolkenmanager, voeg de volgende twee dossiers in `/apps/fmditaCustom/config` toe (voor dossierinhoud, mening [ Bijlage ](#appendix)).
+1. In uw het projectcode van de Git van de wolkenmanager, voeg de volgende twee dossiers in `/apps/fmditaCustom/config` toe (voor dossierinhoud, mening [&#x200B; Bijlage &#x200B;](#appendix)).
 
    * `com.adobe.aem.guides.eventing.ImsConfiguratorService.cfg.json`
    * `com.adobe.fmdita.publishworkflow.PublishWorkflowConfigurationService.xml`

@@ -38,11 +38,11 @@ Bijvoorbeeld:
      Als u geen toegestane sjabloon voor een map definieert, worden de sjablonen standaard gekozen uit de bovenliggende map of de sjabloonmap.
    * **Bestelbaar**: Staat u toe om de orde van de activa binnen een omslag te veranderen.
 
-     ![ voeg de details van de wolkenconfiguratie in de omslageigenschappen ](images/experience-fragment-folder-properties.png){width="650" align="left"} toe
+     ![&#x200B; voeg de details van de wolkenconfiguratie in de omslageigenschappen &#x200B;](images/experience-fragment-folder-properties.png){width="650" align="left"} toe
      *voeg de wolkenconfiguratie in de omslageigenschappen toe om het met de fragmentmalplaatjes te verbinden.*
-1. Om een Fragment van de Ervaring te produceren, selecteer **Nieuwe Output ![ nieuw outputpictogram ](./images/Add_icon.svg) van de** Output **sectie in de** Eigenschappen van het Dossier **van een onderwerp.**
+1. Om een Fragment van de Ervaring te produceren, selecteer **Nieuwe Output ![&#x200B; nieuw outputpictogram &#x200B;](./images/Add_icon.svg) van de** Output **sectie in de** Eigenschappen van het Dossier **van een onderwerp.**
 1. Selecteer **Fragment van de Ervaring**.\
-   ![ dossier eigenschappen opties tabel ](./images/file-properties-outputs.png){width="300" align="left"}
+   ![&#x200B; dossier eigenschappen opties tabel &#x200B;](./images/file-properties-outputs.png){width="300" align="left"}
 
    *voeg een nieuw Fragment van de Ervaring van de Eigenschappen van het Dossier van een onderwerp* toe.
 
@@ -51,7 +51,7 @@ Bijvoorbeeld:
    > U kunt een Fragment van de Ervaring van de **Mening van de Bewaarplaats** ook publiceren. Selecteer het onderwerp dat u als Fragment van de Ervaring wilt publiceren. Dan, van het **menu van Opties**, uitgezocht **publiceer als** > **Fragment van de Ervaring**.
 
 1. In **produceer de dialoogdoos van het Fragment van de Ervaring**, vul de volgende details in:
-   ![ voeg het fragmentmodel en de kaartdetails in toe publiceren als de dialoog van het Fragment van de Ervaring ](images/experience-fragment-generate.png){width="500" align="left"}
+   ![&#x200B; voeg het fragmentmodel en de kaartdetails in toe publiceren als de dialoog van het Fragment van de Ervaring &#x200B;](images/experience-fragment-generate.png){width="500" align="left"}
 
    *voeg de weg, het malplaatje, en kaartdetails toe om een onderwerp of zijn elementen als Fragment van de Ervaring te publiceren. U kunt een bestaand Fragment van de Ervaring beschrijven.*
 
@@ -63,7 +63,7 @@ Bijvoorbeeld:
 
 
 
-     Uw beheerder kan de afbeeldingen in het {*dossier toevoegen 0} experienceFragmentMapping.json.*  Leer meer over hoe te om [ een afbeelding tussen een onderwerp en een Fragment van de Ervaring ](/help/product-guide/cs-install-guide/conf-experience-fragment-mapping-cs.md) in de Gids van de Installatie en van de Configuratie tot stand te brengen.
+     Uw beheerder kan de afbeeldingen in het {*dossier toevoegen 0} experienceFragmentMapping.json.*  Leer meer over hoe te om [&#x200B; een afbeelding tussen een onderwerp en een Fragment van de Ervaring &#x200B;](/help/product-guide/cs-install-guide/conf-experience-fragment-mapping-cs.md) in de Gids van de Installatie en van de Configuratie tot stand te brengen.
 
    * U kunt ook verschillende voorwaarden selecteren om de inhoud te publiceren.  Selecteer een van de volgende opties:
 
@@ -81,7 +81,7 @@ Bijvoorbeeld:
 1. Klik **produceren** om het Fragment van de Ervaring te publiceren.
 1. U kunt de Fragmenten van de Ervaring voor een onderwerp onder de **sectie van Output** in de **Eigenschappen van het Dossier** bekijken. De fragmenten van de Ervaring verschijnen volgens de datum en de tijd van hun publicatie, met als laatste als eerste.
 
-   ![ Mening de Fragmenten van de Ervaring voor een onderwerp ](images/experience-fragment-outputs.png) {width=300 align=&quot;links&quot;}
+   ![&#x200B; Mening de Fragmenten van de Ervaring voor een onderwerp &#x200B;](images/experience-fragment-outputs.png) {width=300 align=&quot;links&quot;}
 
    *Mening de Fragments van de Ervaring aanwezig voor een onderwerp en herpubliceer hen.*
 

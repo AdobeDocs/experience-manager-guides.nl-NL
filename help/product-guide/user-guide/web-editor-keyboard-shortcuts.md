@@ -51,4 +51,4 @@ In de Editor kunt u veel bewerkingen uitvoeren met behulp van sneltoetsen. In de
 | Laatste handeling opnieuw | ***CTRL*** + **Y** | ***Bevel*** + **Y** |
 | Vaste spatie invoegen `(&nbsp;)` | ***Alt*** + **Ruimte** | ***Optie*** + **Ruimte** |
 
-**Bovenliggend onderwerp:** [ Werk met de Redacteur van het Web ](web-editor.md)
+**Bovenliggend onderwerp:** [&#x200B; Werk met de Redacteur van het Web &#x200B;](web-editor.md)

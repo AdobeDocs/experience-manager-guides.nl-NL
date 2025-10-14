@@ -42,7 +42,7 @@ Voer de volgende stappen uit om toegang te krijgen tot en gebruik te maken van h
 
 1. Selecteer een revisietaak.
 
-   U wordt getoond geeft Eigenschappen uit en [ 1&rbrace; opties van de Status &lbrace;in de toolbar.](#check-review-status-id199RF0A0UHS)
+   U wordt getoond geeft Eigenschappen uit en [&#x200B; 1&rbrace; opties van de Status &lbrace;in de toolbar.](#check-review-status-id199RF0A0UHS)
 
 1. Als u **klikt geef Eigenschappen** uit, wordt de pagina van de Details van de Taak getoond.
 
@@ -56,13 +56,13 @@ Voer de volgende stappen uit om toegang te krijgen tot en gebruik te maken van h
 U kunt de volgende acties onder de **Taak** tabel uitvoeren:
 
 - Wijzig de titel van de taak op het **gebied van de Titel**.
-- Voeg standaardwijzers in **toe toewijzen aan** drop-down lijst. De revisoren die u hier toevoegt, hebben toegang tot alle onderwerpen die deel uitmaken van deze revisietaak. U kunt verkiezen om meer recensenten aan specifieke onderwerpen te verwijderen of selectief toe te voegen van het [ lusje van Revisoren ](#reviewer-tab-id199RF0N0MUI).
+- Voeg standaardwijzers in **toe toewijzen aan** drop-down lijst. De revisoren die u hier toevoegt, hebben toegang tot alle onderwerpen die deel uitmaken van deze revisietaak. U kunt verkiezen om meer recensenten aan specifieke onderwerpen te verwijderen of selectief toe te voegen van het [&#x200B; lusje van Revisoren &#x200B;](#reviewer-tab-id199RF0N0MUI).
 - Werk de beschrijving van de taak op het **gebied van de Beschrijving** bij.
 - Wijzig **Verschuldigde Datum**. U kunt de deadline voor het voltooien van de taak voorbereiden of uitstellen.
 - Selecteer de optie om gebruikers te beperken tot het bekijken van alleen die onderwerpen die aan hen zijn toegewezen.
 - Klik **Update** om de gewijzigde details bij te werken.
 - Klik **Voltooien** om de overzichtstaak te merken zoals volledig vóór de vervaldatum. Wanneer de taak van een individueel onderwerp als Voltooid wordt duidelijk, wordt de overzicht van het geselecteerde onderwerp gesloten. Nochtans, in het geval van onderwerpen die voor overzicht door een kaart DITA worden gedeeld, zal het merken van de DITA kaarttaak als Voltooid de overzicht van alle onderwerpen binnen de kaart sluiten die voor overzicht werden gedeeld.
-- Klik **Dupliceren** om een exemplaar van de overzichtstaak tot stand te brengen. Het maken van een dubbele revisietaak lijkt op het maken van een nieuwe revisietaak. Zodra u de gedupliceerde taakwerkstroom start, wordt de pagina Revisietaak maken weergegeven. U moet de nieuwe taakdetails verstrekken zoals die in [ worden verklaard verzendt onderwerpen voor overzicht ](review-send-topics-for-review.md#).
+- Klik **Dupliceren** om een exemplaar van de overzichtstaak tot stand te brengen. Het maken van een dubbele revisietaak lijkt op het maken van een nieuwe revisietaak. Zodra u de gedupliceerde taakwerkstroom start, wordt de pagina Revisietaak maken weergegeven. U moet de nieuwe taakdetails verstrekken zoals die in [&#x200B; worden verklaard verzendt onderwerpen voor overzicht &#x200B;](review-send-topics-for-review.md#).
 
   Als u een overzichtstaak hebt geselecteerd die van een kaart DITA wordt gecreeerd, dan wordt u getoond de onderwerpen die een deel van de kaart zijn. U kunt dan de onderwerpen kiezen die u in de nieuwe overzichtstaak wilt omvatten.
 
@@ -125,4 +125,4 @@ Het statusrapport voor de controletaak bevat de volgende details:
 - Het totale aantal opmerkingen over alle onderwerpen. In het geval van veelvoudige onderwerpen onder overzicht, wordt het aantal commentaren voor elk onderwerp vermeld \ (tussen haakjes \) naast de onderwerpnaam.
 - De datum waarop een onderwerp voor het laatst is geopend door de revisor.
 
-**Bovenliggend onderwerp:**&#x200B;[ onderwerpen of kaarten van het Overzicht ](review.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; onderwerpen of kaarten van het Overzicht &#x200B;](review.md)

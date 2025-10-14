@@ -13,9 +13,9 @@ ht-degree: 0%
 
 Dit artikel behandelt de nieuwe en verbeterde functies die zijn geïntroduceerd met de release 2024.10.0 van Adobe Experience Manager Guides as a Cloud Service.
 
-Voor de lijst van kwesties die in deze versie worden bevestigd, mening [ Vaste kwesties in de versie 2024.10.0 ](fixed-issues-2024-10-0.md).
+Voor de lijst van kwesties die in deze versie worden bevestigd, mening [&#x200B; Vaste kwesties in de versie 2024.10.0 &#x200B;](fixed-issues-2024-10-0.md).
 
-Leer over [ verbeteringsinstructies voor de versie 2024.10.0 ](../release-info/upgrade-instructions-2024-10-0.md).
+Leer over [&#x200B; verbeteringsinstructies voor de versie 2024.10.0 &#x200B;](../release-info/upgrade-instructions-2024-10-0.md).
 
 
 ## Verbeteringen voor publiceren
@@ -40,16 +40,16 @@ Experience Manager Guides biedt ook enkele nuttige verbeteringen in Content Frag
 
 Bij het publiceren van inhoudsfragmenten wordt alleen de toegewezen inhoud vervangen in plaats van het volledige inhoudsfragment te overschrijven. Met deze functie kan een inhoudsfragment gegevens uit meerdere bronnen bevatten, zoals meerdere onderwerpen of de editor voor inhoudsfragmenten.
 
-![ voeg het fragmentmodel en toewijzingsdetails in Publish toe als de dialoog van het Fragment van de Inhoud ](assets/content-fragment-mapping.png)
+![&#x200B; voeg het fragmentmodel en toewijzingsdetails in Publish toe als de dialoog van het Fragment van de Inhoud &#x200B;](assets/content-fragment-mapping.png)
 
-Voor meer details, mening [ de Fragmenten van de Inhoud van Publish ](../user-guide/publish-content-fragment.md).
+Voor meer details, mening [&#x200B; de Fragmenten van de Inhoud van Publish &#x200B;](../user-guide/publish-content-fragment.md).
 
 
 ### Publish Experience Fragment varianten based on condition filters
 
 Met Experience Manager Guides kunt u een onderwerp of de elementen ervan publiceren naar een ervaringsfragment. U kunt nu ook variabelen voor ervaringsfragmenten maken met behulp van de voorwaarde- of DITAVAL-filters en deze filters opnieuw gebruiken op verschillende kanalen of voor verschillende doelgroepen.
 
-Leer meer over hoe te [ de Fragmenten van de Ervaring van Publish ](../user-guide/publish-experience-fragment.md).
+Leer meer over hoe te [&#x200B; de Fragmenten van de Ervaring van Publish &#x200B;](../user-guide/publish-experience-fragment.md).
 
 
 ### AEM Sites-voorinstelling opnieuw ingedeeld voor gebruiksgemak
@@ -74,11 +74,11 @@ U kunt de het publiceren context voor een lijst van dwars-kaartverwijzingen naar
 
 Als het zelfde onderwerp naar meer dan eens in een dossier wordt verwezen, dan kunt u een verschillende het publiceren context voor elke instantie toevoegen. Dit biedt meer flexibiliteit en controle over de inhoud ervan. Bijvoorbeeld, is Onderwerp 3 aanwezig in zowel Kaart B als Kaart C. Onderwerp 1 bevat twee verwijzingen naar Onderwerp 3. U kunt Kaart B als ouderkaart voor de eerste verbinding en Kaart C als ouder voor de tweede verbinding kiezen.
 
-![ Verouderde vooraf ingestelde AEM Sites ](assets/aem-sites-legacy.png)
+![&#x200B; Verouderde vooraf ingestelde AEM Sites &#x200B;](assets/aem-sites-legacy.png)
 
 *specificeer de het publiceren context voor de verbonden onderwerpen van de **Verwijzingen van de kaart**&#x200B;lusje van **AEM Sites**&#x200B;vooraf ingesteld.*
 
-Leer meer over [ AEM Sites vooraf instelt ](../user-guide/generate-output-aem-site.md).
+Leer meer over [&#x200B; AEM Sites vooraf instelt &#x200B;](../user-guide/generate-output-aem-site.md).
 
 ### Optie voor het kiezen van een platte of geneste bestandshiërarchie voor HTML5-uitvoer
 
@@ -86,7 +86,7 @@ Nu, staat Experience Manager Guides u toe om de vlakke omslaghiërarchie voor de
 Als u er niet voor kiest om de bestandshiërarchie af te vlakken, wordt de HTML5-uitvoer gegenereerd in een geneste mappenhiërarchie. Dit houdt in dat de oorspronkelijke mapstructuur van de inhoud, met bestanden die in submappen zijn ingedeeld, in de uitvoer wordt gerepliceerd. Deze geneste maphiërarchie maakt een complexere organisatie en categorisering van bestanden mogelijk, waardoor het eenvoudiger wordt om grote gegevensvolumes te beheren en te navigeren.
 
 
-Leer meer over hoe te [ HTML5 output ](../user-guide/generate-output-html5.md) produceren.
+Leer meer over hoe te [&#x200B; HTML5 output &#x200B;](../user-guide/generate-output-html5.md) produceren.
 
 
 ## Verbeteringen in de Editor
@@ -103,20 +103,20 @@ U kunt tot de **mening van de Lay-out** voor read-only kaarten ook toegang hebbe
 >
 > Uw beheerders van het omslagprofiel moeten *ui_config.json* bijwerken zodat u tot de read-only dossiers in de Auteur, Source, en wijzen van de Lay-out kunt harmonieus toegang hebben.
 
-![ gesloten dossierredacteur ](./assets/locked-file-editor.png)
+![&#x200B; gesloten dossierredacteur &#x200B;](./assets/locked-file-editor.png)
 *Mening de gesloten dossiers op Auteur en de wijze van Source.*
 
 
-Leer hoe te [ open gesloten dossiers in de wijzen van de Auteur en van Source ](../user-guide/web-editor-edit-topics.md#open-locked-files-in-author-and-source-modes).
+Leer hoe te [&#x200B; open gesloten dossiers in de wijzen van de Auteur en van Source &#x200B;](../user-guide/web-editor-edit-topics.md#open-locked-files-in-author-and-source-modes).
 
 
 ### Gegroepeerde voorwaarden voor verbeterde inhoudsorganisatie
 
 Met Experience Manager Guides kunt u nu voorwaarden groeperen en presenteren in een geneste hiërarchie, zodat u meerdere voorwaarden aan één groep kunt toevoegen. Door de voorwaarden te groeperen, kunt u hen beter organiseren en toepassen over uw inhoud.
 
-![ voorwaarden die in een genestelde hiërarchie ](assets/conditions-nested-hierarchy.png){width="300" align="left"} worden georganiseerd
+![&#x200B; voorwaarden die in een genestelde hiërarchie &#x200B;](assets/conditions-nested-hierarchy.png){width="300" align="left"} worden georganiseerd
 
-Leer meer over de **de eigenschapbeschrijving van de Voorwaarden** in de [ Linkerpaneel ](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.
+Leer meer over de **de eigenschapbeschrijving van de Voorwaarden** in de [&#x200B; Linkerpaneel &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.
 
 
 

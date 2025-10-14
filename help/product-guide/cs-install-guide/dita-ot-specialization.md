@@ -20,7 +20,7 @@ Als u Ant-parameters wilt verwerken terwijl u uitvoer publiceert, biedt AEM Guid
 
 >[!NOTE]
 >
-> AEM Guides wordt geleverd met DITA-OT versie 3.3.2, maar ondersteunt een reeks versies van DITA-OT 1.7 tot DITA-OT 4.x. Voor een uitvoerige lijst van versies DITA-OT, zie [ versies DITA-OT ](http://www.dita-ot.org/download).
+> AEM Guides wordt geleverd met DITA-OT versie 3.3.2, maar ondersteunt een reeks versies van DITA-OT 1.7 tot DITA-OT 4.x. Voor een uitvoerige lijst van versies DITA-OT, zie [&#x200B; versies DITA-OT &#x200B;](http://www.dita-ot.org/download).
 
 >[!TIP]
 >
@@ -52,7 +52,7 @@ Voer de volgende stappen uit om aangepaste DITA-OT-plug-in te uploaden naar de A
 
    >[!NOTE]
    >
-   > Het wordt aanbevolen het standaard DITA-OT-pakket niet te overschrijven. U moet het aangepaste DITA-OT-pakket uploaden dat de map Plug-in /var/dxml/dita\_resources/dita-ot bevat. U kunt het ook doen gebruikend de pijpleiding van Cloud Manager, zie [ Opstellend aan AEM as a Cloud Service ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=nl-NL) in de documentatie van AEM voor meer details.
+   > Het wordt aanbevolen het standaard DITA-OT-pakket niet te overschrijven. U moet het aangepaste DITA-OT-pakket uploaden dat de map Plug-in /var/dxml/dita\_resources/dita-ot bevat. U kunt het ook doen gebruikend de pijpleiding van Cloud Manager, zie [&#x200B; Opstellend aan AEM as a Cloud Service &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=nl-NL) in de documentatie van AEM voor meer details.
 
 1. U kunt het standaardprofiel bewerken, een nieuw profiel maken of instellingen in het standaardprofiel dupliceren om een nieuw profiel te maken.
 
@@ -67,7 +67,7 @@ Voer de volgende stappen uit om aangepaste DITA-OT-plug-in te uploaden naar de A
    | **Eigenschappen van het Profiel** |
    | Profielnaam | Geef dit profiel een unieke naam. |
    | Uitvoer opnieuw gebruiken | *\(Optioneel\)* Als uw profiel op een bestaand profiel gebaseerd is, dan selecteer deze optie. Als u deze optie selecteert, zorgt AEM Guides ervoor dat de inhoud van het DITA-OT-pakket niet opnieuw wordt geëxtraheerd en wordt het bestaande DITA-OT-pakket opnieuw gebruikt. |
-   | Pad voor exporteren van profiel | *\ (Facultatief \)* specificeer de weg waar DITA-OT op schijf wordt gehouden. Standaard bundelt AEM Guides een DITA-OT-pakket in de opslagplaats en wordt het op de schijf opgehaald bij dit pad. <br> **NOTA** U kunt deze weg bepalen gebruikend om het even welk bestaand systeemvariabele of bezit. Zie beschrijving het [ DITA-OT bezit van de Variabelen van het Milieu ](#id181NH0YN0AX) voor meer informatie. |
+   | Pad voor exporteren van profiel | *\ (Facultatief \)* specificeer de weg waar DITA-OT op schijf wordt gehouden. Standaard bundelt AEM Guides een DITA-OT-pakket in de opslagplaats en wordt het op de schijf opgehaald bij dit pad. <br> **NOTA** U kunt deze weg bepalen gebruikend om het even welk bestaand systeemvariabele of bezit. Zie beschrijving het [&#x200B; DITA-OT bezit van de Variabelen van het Milieu &#x200B;](#id181NH0YN0AX) voor meer informatie. |
    | Toegewezen pad | \ (*Facultatief* \) specificeer de weg in uw inhoudsbewaarplaats waarvoor dit profiel van toepassing is. U kunt meerdere locaties opgeven. |
    | **DITA-OT Eigenschappen** |
    | Tijdslimiet DITA-OT | \ (*Facultatief* \) specificeer de tijd \ (in seconden \) waarvoor AEM Guides op een reactie van de stop DITA-OT wacht. Als er geen reactie is ontvangen binnen de opgegeven tijd, wordt de publicatietaak beëindigd en wordt de taak gemarkeerd als mislukt. Ook, worden de mislukkingslogboeken ter beschikking gesteld in het dossier van het outputgeneratie. <br> Standaardwaarde: 300 seconden \(5 minuten\) |
@@ -141,6 +141,6 @@ Voer de volgende stappen uit om een nieuw profiel te maken en dit te configurere
    >
    > Selecteer deze optie alleen als er items voor openbare id&#39;s ontbreken in de catalogus of als de DITA-bestanden alleen de systeem-id&#39;s gebruiken die relatief zijn ten opzichte van het lokale bestandspad van waaruit ze worden geüpload.
 
-   Voor meer informatie over andere eigenschappen op de pagina van Profielen, zie de eigenschappen lijst in [ Stap 6 ](#id17A9F0D075Z) van de [ douane DITA-OT stop-ins van het Gebruik &lbrace;](#id181NH1020L7) sectie.
+   Voor meer informatie over andere eigenschappen op de pagina van Profielen, zie de eigenschappen lijst in [&#x200B; Stap 6 &#x200B;](#id17A9F0D075Z) van de [&#x200B; douane DITA-OT stop-ins van het Gebruik &lbrace;](#id181NH1020L7) sectie.
 
 1. Klik **Gedaan** om het profiel te bewaren.

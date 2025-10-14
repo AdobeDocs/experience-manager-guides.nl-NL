@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Dit artikel behandelt de nieuwe en verbeterde eigenschappen in versie Februari 2023 van Adobe Experience Manager Guides (later genoemd als *as a Cloud Service van AEM Guides*).
 
-Voor meer details op de verbeteringsinstructies, verenigbaarheidsmatrijs, en de kwesties die in deze versie worden bevestigd, zie het [ de nota&#39;s van de Versie ](release-notes-2023-2-0.md) artikel.
+Voor meer details op de verbeteringsinstructies, verenigbaarheidsmatrijs, en de kwesties die in deze versie worden bevestigd, zie het [&#x200B; de nota&#39;s van de Versie &#x200B;](release-notes-2023-2-0.md) artikel.
 
 
 ## Rapporten genereren vanuit de webeditor
@@ -126,7 +126,7 @@ Met de nieuwe publicatiemicroservice kunt u grote publicatiewerklasten tegelijke
 
 Voor elke publicatieaanvraag voert AEM Guides as a Cloud Service een aparte container uit die horizontaal wordt geschaald volgens de gebruikersaanvragen. Hierdoor kunt u meerdere publicatieverzoeken uitvoeren en de prestaties verbeteren.
 
-Voor meer details, zie [ nieuwe op microservice-gebaseerde het publiceren voor AEM Guides as a Cloud Service ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/publishing/configure-microservices.md) vormen.
+Voor meer details, zie [&#x200B; nieuwe op microservice-gebaseerde het publiceren voor AEM Guides as a Cloud Service &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/publishing/configure-microservices.md) vormen.
 
 ## Native PDF | Een aangepaste bladwijzer toevoegen in PDF-uitvoer
 

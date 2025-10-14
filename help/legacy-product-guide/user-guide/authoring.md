@@ -22,7 +22,7 @@ Enkele belangrijke concepten voor inhoudsbeheer in AEM zijn:
 
 **Beheer van Activa**
 
-AEM Guides gebruikt AEM Digital Asset Management \(DAM\) om uw DITA-bestanden te beheren. De bestanden die u uploadt of incheckt in de DAM worden opgeslagen als digitale elementen. U kunt uw middelen in AEM Assets beheren en bewerken. Voor meer informatie over activabeheer, zie [ activa ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=nl-NL) beheren.
+AEM Guides gebruikt AEM Digital Asset Management \(DAM\) om uw DITA-bestanden te beheren. De bestanden die u uploadt of incheckt in de DAM worden opgeslagen als digitale elementen. U kunt uw middelen in AEM Assets beheren en bewerken. Voor meer informatie over activabeheer, zie [&#x200B; activa &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=nl-NL) beheren.
 
 **het beheer van de Verbinding**
 
@@ -32,7 +32,7 @@ Verplaats of wijzig de naam van bestanden of wijzig de mapstructuur in de opslag
 
 AEM Guides biedt versiebeheer voor uw digitale middelen. U kunt deze functionaliteit gemakkelijk van een DITA auteurstoepassing van keus toelaten. Uw schrijvers toestaan de standaardfuncties voor versiebeheer uit te voeren, zoals inchecken en uitchecken.
 
-Voor meer informatie over het creëren van versies of het terugkeren naar een specifieke versie, zie [ Tak, terugkeren, en verdere versioning ](web-editor-preview-topics.md#id193PG0Y051X).
+Voor meer informatie over het creëren van versies of het terugkeren naar een specifieke versie, zie [&#x200B; Tak, terugkeren, en verdere versioning &#x200B;](web-editor-preview-topics.md#id193PG0Y051X).
 
 **Inheemse behandeling DITA**
 
@@ -54,7 +54,7 @@ De volgende lijst maakt een lijst van diverse taken en de groepen die die taken 
 | DITA-kaart maken | Ja |   | Ja |
 | Verzamelingen toewijzen | Ja |   | Ja |
 | Revisietaak maken | Ja |   | Ja |
-| Het Onderwerp van het overzicht [ 1 ](#fntarg_1) | Ja | Ja | Ja |
+| Het Onderwerp van het overzicht [&#x200B; 1 &#x200B;](#fntarg_1) | Ja | Ja | Ja |
 | Belangrijkste resolutie | Ja |   | Ja |
 | Uitchecken/Inchecken | Ja |   | Ja |
 | Onderwerp bewerken | Ja |   | Ja |
@@ -65,7 +65,7 @@ De volgende lijst maakt een lijst van diverse taken en de groepen die die taken 
 | Delen | Ja |   | Ja |
 | **de staat van het Document** |
 | Profiel documentstatus maken/bewerken |   |   | Ja |
-| De documentstaat van de verandering [ 2 ](#fntarg_2) | Ja | Ja | Ja |
+| De documentstaat van de verandering [&#x200B; 2 &#x200B;](#fntarg_2) | Ja | Ja | Ja |
 | **Eigenschappen beschikbaar in DITA kaartconsole \ (Output stelt lusje \ vooraf in)** |
 | Genereren |   |   | Ja |
 | Bewerken |   |   | Ja |
@@ -86,9 +86,9 @@ De volgende lijst maakt een lijst van diverse taken en de groepen die die taken 
 | **Eigenschappen beschikbaar in DITA kaartconsole \ (Voorinstellingen van de Voorwaarde \)** |
 | Voorinstelling voorwaarde maken/bewerken |   |   | Ja |
 
-[ 1 ](#fnsrc_1) als *Auteurs* en *Uitgevers* voor een overzicht worden uitgenodigd.
+[&#x200B; 1 &#x200B;](#fnsrc_1) als *Auteurs* en *Uitgevers* voor een overzicht worden uitgenodigd.
 
-[ 2 ](#fnsrc_2) afhankelijk van de rechten die aan de gebruiker in het profiel van de documentstaat worden gegeven.
+[&#x200B; 2 &#x200B;](#fnsrc_2) afhankelijk van de rechten die aan de gebruiker in het profiel van de documentstaat worden gegeven.
 
 ## Voorwaarden voor het ontwerpen van inhoud
 

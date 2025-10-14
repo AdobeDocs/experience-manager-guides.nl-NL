@@ -13,9 +13,9 @@ ht-degree: 0%
 In dit artikel worden de bugs beschreven die zijn gecorrigeerd in verschillende gebieden met 5.0.0 release van Adobe Experience Manager Guides.
 
 
-Voor meer informatie over de nieuwe eigenschappen en de verhogingen, mening [ wat in de 5.0.0 versie ](whats-new-5-0-0.md) nieuw is.
+Voor meer informatie over de nieuwe eigenschappen en de verhogingen, mening [&#x200B; wat in de 5.0.0 versie &#x200B;](whats-new-5-0-0.md) nieuw is.
 
-Leer over [ verbeteringsinstructies voor de 5.0.0 versie ](upgrade-instructions-5-0-0.md).
+Leer over [&#x200B; verbeteringsinstructies voor de 5.0.0 versie &#x200B;](upgrade-instructions-5-0-0.md).
 
 
 ## Authoring

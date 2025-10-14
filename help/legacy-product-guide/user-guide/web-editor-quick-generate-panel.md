@@ -30,4 +30,4 @@ Voer de volgende stappen uit om de output van **Snelle te produceren** paneel:
 1. Klik **produceren** om de output voor geselecteerde vooraf instelt te produceren. Er wordt een succesbericht weergegeven bij het genereren van de uitvoer. Er wordt een foutbericht weergegeven als het genereren mislukt. U kunt het foutenlogboek ook bekijken om de details van de fout te zien die in het generatieproces voorkwam.
 1. Klik **Uitvoer van de Mening** \ ( ![](images/view-output-icon.svg) \) pictogram van een specifieke vooraf ingesteld om de output te bekijken die voor vooraf ingesteld wordt geproduceerd.
 
-**Bovenliggend onderwerp:**&#x200B;[ Werk met de Redacteur van het Web ](web-editor.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Werk met de Redacteur van het Web &#x200B;](web-editor.md)

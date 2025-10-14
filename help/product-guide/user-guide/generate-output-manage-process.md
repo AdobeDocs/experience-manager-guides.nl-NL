@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Met Adobe Experience Manager Guides kunt u de volgende handelingen uitvoeren op de gegenereerde uitvoer:
 
-- [ Mening het statuut van de taak van de outputgeneratie ](#view-the-status-of-the-output-generation-task)
+- [&#x200B; Mening het statuut van de taak van de outputgeneratie &#x200B;](#view-the-status-of-the-output-generation-task)
 - [Een uitvoergeneratietaak annuleren](#cancel-an-output-generation-task)
 - [Een uitvoertaak verwijderen](#delete-an-output-task)
 
@@ -35,7 +35,7 @@ Zodra u de taak van de outputgeneratie voor een kaart in werking stelt of gesele
 
      Vermeldt de output die of wachten om worden geproduceerd of onder generatieproces zijn. De taken in de wachtrij of die momenteel worden uitgevoerd, worden vóór de naam van de voorinstelling weergegeven met een blauw kleurenpictogram. U kunt ook de instelling of voorinstelling voor het genereren van uitvoer vinden die wordt gebruikt voor de taak in de wachtrij, het type, de gebruiker die de taak heeft gestart, de tijd sinds het moment waarop de taak in de wachtrij wordt geplaatst en de huidige status.
 
-     Selecteer de verbinding om tot **toegang te hebben publiceer Dashboard** en bekijk de huidige lopende status. Een lijst met alle actieve publicatietaken is beschikbaar op het dashboard Publiceren. De **In een rij gevormde Output** en **publiceren de verbinding van het Dashboard** wordt getoond slechts wanneer er output is die of wachten om te worden geproduceerd of onder generatieproces zijn. Zij verschijnen niet wanneer de outputtaken zijn voltooid.Voor meer details op Publish Dashboard, publiceert de mening [ taken gebruikend het Publish Dashboard ](generate-output-publish-dashboard.md#).
+     Selecteer de verbinding om tot **toegang te hebben publiceer Dashboard** en bekijk de huidige lopende status. Een lijst met alle actieve publicatietaken is beschikbaar op het dashboard Publiceren. De **In een rij gevormde Output** en **publiceren de verbinding van het Dashboard** wordt getoond slechts wanneer er output is die of wachten om te worden geproduceerd of onder generatieproces zijn. Zij verschijnen niet wanneer de outputtaken zijn voltooid.Voor meer details op Publish Dashboard, publiceert de mening [&#x200B; taken gebruikend het Publish Dashboard &#x200B;](generate-output-publish-dashboard.md#).
 
    - **Gegenereerde Output**
 
@@ -43,7 +43,7 @@ Zodra u de taak van de outputgeneratie voor een kaart in werking stelt of gesele
 
      In deze lijst kunt u taken uitvoeren die met succes zijn uitgevoerd, taken die met een bericht zijn uitgevoerd of mislukte taken. De geslaagde taken worden weergegeven met een groen kleurpictogram, de taken met een bericht hebben een oranje kleurpictogram en de mislukte taken worden weergegeven met een rood kleurpictogram.
 
-     Voor alle taken maakt het publicatieproces een logbestand \(logs.txt\) dat kan worden geopend door de koppeling te selecteren in de kolom Gegenereerd op. Voor taken die hebben ontbroken of berichten hebben, kunt u het logboekdossier controleren, dat in de sectie [ Mening wordt verklaard en het logboekdossier ](generate-output-basic-troubleshooting.md#id1822G0P0CHS) controleert.
+     Voor alle taken maakt het publicatieproces een logbestand \(logs.txt\) dat kan worden geopend door de koppeling te selecteren in de kolom Gegenereerd op. Voor taken die hebben ontbroken of berichten hebben, kunt u het logboekdossier controleren, dat in de sectie [&#x200B; Mening wordt verklaard en het logboekdossier &#x200B;](generate-output-basic-troubleshooting.md#id1822G0P0CHS) controleert.
 
      >[!NOTE]
      >
@@ -52,7 +52,7 @@ Zodra u de taak van de outputgeneratie voor een kaart in werking stelt of gesele
 
 ## Een uitvoergeneratietaak annuleren
 
-Experience Manager Guides biedt uitgevers een eenvoudige en eenvoudige manier om lopende publicatietaken te annuleren. Als uitgever, kunt u aan de gang zijnde het publiceren taak van de DITA kaartconsole of [ annuleren Dashboard ](generate-output-publish-dashboard.md#).
+Experience Manager Guides biedt uitgevers een eenvoudige en eenvoudige manier om lopende publicatietaken te annuleren. Als uitgever, kunt u aan de gang zijnde het publiceren taak van de DITA kaartconsole of [&#x200B; annuleren Dashboard &#x200B;](generate-output-publish-dashboard.md#).
 
 Voer de volgende stappen uit om een taak van de outputgeneratie van de DITA kaartconsole te annuleren:
 

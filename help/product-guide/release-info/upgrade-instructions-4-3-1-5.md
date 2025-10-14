@@ -15,7 +15,7 @@ ht-degree: 0%
 Dit artikel behandelt de upgrade-instructies en de compatibiliteitsmatrix voor de release van Adobe Experience Manager Guides 4.3.1.5.
 
 
-Voor de lijst van kwesties die in deze versie zijn bevestigd, mening [ Vaste kwesties in de 4.3.1.5 versie ](../release-info/fixed-issues-4-3-1-5.md).
+Voor de lijst van kwesties die in deze versie zijn bevestigd, mening [&#x200B; Vaste kwesties in de 4.3.1.5 versie &#x200B;](../release-info/fixed-issues-4-3-1-5.md).
 
 
 
@@ -76,7 +76,7 @@ U kunt uw huidige versie van Hulplijnen eenvoudig upgraden naar versie 4.3.1.5. 
 
 - Als u versie 4.0 gebruikt, moet u een upgrade naar versie 4.2 uitvoeren voordat u een upgrade naar versie 4.3.x uitvoert.
 - Als u versie 3.8.5 gebruikt, moet u een upgrade naar versie 4.0 uitvoeren voordat u een upgrade naar versie 4.2 uitvoert.
-- Als u op een versie voorafgaand aan 3.8.5 bent, verwijs naar de sectie van Experience Manager Guides van de Verbetering in de product-specifieke installatiegids beschikbaar op [ Adobe Experience Manager Guides help PDF archive ](https://helpx.adobe.com/nl/xml-documentation-for-experience-manager/archive.html).
+- Als u op een versie voorafgaand aan 3.8.5 bent, verwijs naar de sectie van Experience Manager Guides van de Verbetering in de product-specifieke installatiegids beschikbaar op [&#x200B; Adobe Experience Manager Guides help PDF archive &#x200B;](https://helpx.adobe.com/nl/xml-documentation-for-experience-manager/archive.html).
 
 
 
@@ -84,4 +84,4 @@ U kunt uw huidige versie van Hulplijnen eenvoudig upgraden naar versie 4.3.1.5. 
 >
 >U moet AEM servicepack installeren voordat u de Experience Manager Guides-versie kunt upgraden.
 
-Voor details, mening [ de instructies van de Verbetering voor de On-premise versies ](../install-guide/upgrade-xml-documentation.md) van Experience Manager Guides.
+Voor details, mening [&#x200B; de instructies van de Verbetering voor de On-premise versies &#x200B;](../install-guide/upgrade-xml-documentation.md) van Experience Manager Guides.

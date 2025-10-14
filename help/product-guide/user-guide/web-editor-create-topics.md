@@ -33,7 +33,7 @@ Voer de volgende stappen uit om een onderwerp van de Redacteur tot stand te bren
 
    ![](images/create-topic-option.png){width="500" align="left"}
 
-   U kunt tot deze optie van de [ Homepage van Experience Manager Guides ](./intro-home-page.md) en tot het optiemenu van een omslag in de mening van de Opslag ook toegang hebben.
+   U kunt tot deze optie van de [&#x200B; Homepage van Experience Manager Guides &#x200B;](./intro-home-page.md) en tot het optiemenu van een omslag in de mening van de Opslag ook toegang hebben.
 
 2. Het **Nieuwe onderwerp** dialoogvakje wordt getoond.
 
@@ -93,4 +93,4 @@ Voer de volgende stappen uit om een onderwerp van Assets UI tot stand te brengen
 
 4. Zodra u uw onderwerp DITA hebt gecreeerd, houd sparen de veranderingen in uw het werk exemplaar en creeer een nieuwe versie zodra u de updates aan uw onderwerp hebt voltooid.
 
-**Bovenliggend onderwerp:**&#x200B;[ creeer en voorproef onderwerpen ](create-preview-topics.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; creeer en voorproef onderwerpen &#x200B;](create-preview-topics.md)

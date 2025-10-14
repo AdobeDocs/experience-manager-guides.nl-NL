@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Dit artikel behandelt de nieuwe en verbeterde eigenschappen in versie Juli 2023 van Adobe Experience Manager Guides (later die als *wordt bedoeld as a Cloud Service van AEM Guides*).
 
-Voor meer details op de verbeteringsinstructies, verenigbaarheidsmatrijs, en de kwesties die in deze versie worden bevestigd, zie [ de nota&#39;s van de Versie ](release-notes-2023-7-0.md).
+Voor meer details op de verbeteringsinstructies, verenigbaarheidsmatrijs, en de kwesties die in deze versie worden bevestigd, zie [&#x200B; de nota&#39;s van de Versie &#x200B;](release-notes-2023-7-0.md).
 
 ## Verbind met een gegevensbron en neem gegevens in uw onderwerpen op
 
@@ -29,7 +29,7 @@ Zodra toegevoegd, kunt u de gevormde schakelaars bekijken die onder het **paneel
 
 U kunt een inhoudsfragmentgenerator tot stand brengen om de gegevens van een verbonden gegevensbron te halen. U kunt de gegevens in uw onderwerpen dan opnemen en het uitgeven.
 
-Zodra u een inhoudsfragmentgenerator hebt gecreeerd, kunt u het opnieuw gebruiken om de gegevens in om het even welk onderwerp op te nemen. Voor meer details, neemt de mening [ een inhoudsfragment van uw gegevensbron ](../user-guide/web-editor-content-snippet.md) op.
+Zodra u een inhoudsfragmentgenerator hebt gecreeerd, kunt u het opnieuw gebruiken om de gegevens in om het even welk onderwerp op te nemen. Voor meer details, neemt de mening [&#x200B; een inhoudsfragment van uw gegevensbron &#x200B;](../user-guide/web-editor-content-snippet.md) op.
 
 
 
@@ -39,7 +39,7 @@ Nu maakt AEM Guides uw revisies naadloos. Het biedt het deelvenster Revisies in 
 
 Als auteur kunt u met deze functie gemakkelijk de revisietaken openen, de opmerkingen bekijken en de opmerkingen snel in een gecentraliseerde weergave adresseren.
 ![](assets/active-review-task-comments.png){width="800" align="left"}
-Voor meer details, bekijk de **2&rbrace; eigenschapbeschrijving van het Overzicht &lbrace;binnen de** Linkerpaneel [ sectie.](../user-guide/web-editor-features.md#id2051EA0M0HS)
+Voor meer details, bekijk de **2&rbrace; eigenschapbeschrijving van het Overzicht &lbrace;binnen de** Linkerpaneel [&#x200B; sectie.](../user-guide/web-editor-features.md#id2051EA0M0HS)
 
 
 ## Verbeteringen voor kaartverzameling
@@ -51,7 +51,7 @@ Met een kaartverzameling kunt u meerdere toewijzingen ordenen en in batches publ
 - U kunt nu niet alleen een individuele voorinstelling selecteren, maar u kunt ook alle voorinstellingen voor het mapprofiel voor een DITA-kaart in één keer inschakelen.
   ![](assets/edit-map-collection.png){width="800" align="left"}
 
-Voor meer details, mening [ de Inzameling van de Kaart van het Gebruik voor outputgeneratie ](../user-guide/generate-output-use-map-collection-output-generation.md).
+Voor meer details, mening [&#x200B; de Inzameling van de Kaart van het Gebruik voor outputgeneratie &#x200B;](../user-guide/generate-output-use-map-collection-output-generation.md).
 
 ## Mogelijkheid om toegang te krijgen tot tijdelijke HTML-bestanden terwijl de native PDF-uitvoer wordt gegenereerd
 
@@ -61,13 +61,13 @@ Met deze functie krijgt u meer inzicht in het generatieproces dankzij toegang to
 
 ![](assets/native-pdf-advanced-settings.png){width="800" align="left"}
 
-Voor meer details, mening [ creeer een de uitvoervooraf ingestelde PDF ](../web-editor/native-pdf-web-editor.md#create-output-preset).
+Voor meer details, mening [&#x200B; creeer een de uitvoervooraf ingestelde PDF &#x200B;](../web-editor/native-pdf-web-editor.md#create-output-preset).
 
 ## Op microservices gebaseerde publicaties om HTML5 en aangepaste uitvoer te genereren
 
 Met de nieuwe publicatiemicroservice kunt u grote publicatiewerklasten tegelijkertijd uitvoeren op AEM Guides as a Cloud Service en het toonaangevende Adobe I/O Runtime-serverloze platform benutten. Nu u de microservice gebruikt, kunt u ook de HTML5 en de aangepaste uitvoer genereren.
 U kunt meerdere publicatieverzoeken uitvoeren en de prestaties verbeteren om deze uitvoerindelingen te genereren.
-Voor meer details, vorm de mening [ microservice-based het publiceren voor AEM Guides as a Cloud Service ](../knowledge-base/publishing/configure-microservices.md).
+Voor meer details, vorm de mening [&#x200B; microservice-based het publiceren voor AEM Guides as a Cloud Service &#x200B;](../knowledge-base/publishing/configure-microservices.md).
 
 ## AEM Guides-versiedetails weergeven in het venster Info
 

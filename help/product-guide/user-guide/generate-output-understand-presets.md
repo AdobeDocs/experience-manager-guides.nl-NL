@@ -20,7 +20,7 @@ U kunt uitvoervoorinstellingen op twee manieren maken en beheren:
 - **van de console van de Kaart**: U kunt AEM Sites, PDF, Kennisbank, HTML5, Douane, en JSON- output tot stand brengen vooraf ingesteld en de respectieve output produceren.
 - **van het dashboard van de Kaart**: U kunt AEM Sites tot stand brengen, PDF, HTML5, EPUB, en douaneoutput vooraf ingesteld en de respectieve output produceren.
 
-Voor meer details, leidt de mening [ tot, geeft uit, dupliceert, of verwijdert vooraf ingestelde output ](./generate-output-create-edit-preset.md).
+Voor meer details, leidt de mening [&#x200B; tot, geeft uit, dupliceert, of verwijdert vooraf ingestelde output &#x200B;](./generate-output-create-edit-preset.md).
 
 ## Typen uitvoervoorinstellingen worden ondersteund in Experience Manager Guides
 
@@ -40,6 +40,6 @@ De volgende voorinstellingsopties zijn beschikbaar voor de ondersteunde uitvoeri
 
 - **[JSON](generate-output-json.md)**
 
-Als beheerder kunt u met Experience Manager Guides uitvoervoorinstellingen voor de algemene profielen en de mapprofielen maken en beheren. Voor meer details, bekijkt [ de Globale en output van het Profiel van de Omslag vooraf instelt ](./web-editor-manage-output-presets.md).
+Als beheerder kunt u met Experience Manager Guides uitvoervoorinstellingen voor de algemene profielen en de mapprofielen maken en beheren. Voor meer details, bekijkt [&#x200B; de Globale en output van het Profiel van de Omslag vooraf instelt &#x200B;](./web-editor-manage-output-presets.md).
 
-**Bovenliggend onderwerp:**&#x200B;[ Productie van de Output ](generate-output.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Productie van de Output &#x200B;](generate-output.md)

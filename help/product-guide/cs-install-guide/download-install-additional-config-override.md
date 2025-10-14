@@ -65,4 +65,4 @@ Voer de volgende stappen uit om de gebruikersinterface van Experience Manager Gu
 
 
 
-**Bovenliggend onderwerp:**&#x200B;[ Download en installeer ](download-install.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Download en installeer &#x200B;](download-install.md)

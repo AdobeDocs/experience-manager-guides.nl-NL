@@ -20,4 +20,4 @@ Adobe Experience Manager Guides beschikt over een krachtige functie voor het mak
 - **[Voorproef een onderwerp](web-editor-preview-topics.md)**
 
 
-**Bovenliggend onderwerp:**&#x200B;[ Inleiding aan de Redacteur ](web-editor.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Inleiding aan de Redacteur &#x200B;](web-editor.md)

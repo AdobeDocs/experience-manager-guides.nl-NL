@@ -171,4 +171,4 @@ Voer de volgende stappen uit om een vertaalde basislijn te exporteren:
 1. \ (Facultatief \) om een Basislijn uit te voeren die reeds wordt uitgevoerd, uitgezocht **Overschrijf Bestaande Basislijn** en selecteer dan **Basislijn van de Uitvoer**.
 
 
-**Bovenliggend onderwerp:**&#x200B;[ Productie van de Output ](generate-output.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Productie van de Output &#x200B;](generate-output.md)

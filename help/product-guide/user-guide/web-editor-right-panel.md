@@ -41,15 +41,15 @@ U kunt tot de **eigenschappen van de Inhoud** eigenschap toegang hebben door het
 
 1. Selecteer **toevoegen**.
 
-   ![ attributen in inhoudseigenschappen ](images/properties-tab-attributes_cs.png){width="300" align="left"}
+   ![&#x200B; attributen in inhoudseigenschappen &#x200B;](images/properties-tab-attributes_cs.png){width="300" align="left"}
 
 1. In het **dropdown paneel van Attributen** &lbrace;, selecteer de attributen van de dropdown lijst en specificeer de waarde van een attribuut.  Dan selecteer **toevoegen**.
 
-   ![ deelvenster Kenmerken met meerdere kenmerken ](images/attributes-multiple-properties.png){width="300" align="left"}
+   ![&#x200B; deelvenster Kenmerken met meerdere kenmerken &#x200B;](images/attributes-multiple-properties.png){width="300" align="left"}
 
-1. Om de attributen uit te geven, over het te bewegen en **te selecteren geef** ![ uit uitgeven-pictogram ](images/edit_pencil_icon.svg).
+1. Om de attributen uit te geven, over het te bewegen en **te selecteren geef** ![&#x200B; uit uitgeven-pictogram &#x200B;](images/edit_pencil_icon.svg).
 
-1. Om de attributen te schrappen, over het te bewegen en **te selecteren schrap** ![ schrapping-pictogram ](images/Delete_icon.svg).
+1. Om de attributen te schrappen, over het te bewegen en **te selecteren schrap** ![&#x200B; schrapping-pictogram &#x200B;](images/Delete_icon.svg).
 
 </details>
 
@@ -72,7 +72,7 @@ De eigenschappen File hebben de volgende twee secties:
 
 In het gedeelte Algemeen hebt u toegang tot de volgende functies:
 
-![ dossier-eigenschappen ](images/file-properties-general.png){width="300" align="left"}
+![&#x200B; dossier-eigenschappen &#x200B;](images/file-properties-general.png){width="300" align="left"}
 
 - **Naam van het Dossier**: Toont filename van het geselecteerde onderwerp. De bestandsnaam is gekoppeld aan de eigenschappenpagina van het geselecteerde bestand.
 - **identiteitskaart**: Toont identiteitskaart van het geselecteerde onderwerp.
@@ -82,7 +82,7 @@ In het gedeelte Algemeen hebt u toegang tot de volgende functies:
 - **creeerde op**: De datum en de tijd van vertoningen waarop het onderwerp werd gecreeerd.
 - **Gewijzigd op**: Toont de datum en de tijd waarop het onderwerp werd gewijzigd.
 - **die door** wordt vergrendeld: Toont de gebruiker die het onderwerp sloot.
-- **de staat van het Document**: U kunt de documentstaat van het momenteel geopende onderwerp selecteren en bijwerken. Voor meer details, mening [ de Staat van het Document ](web-editor-document-states.md#).
+- **de staat van het Document**: U kunt de documentstaat van het momenteel geopende onderwerp selecteren en bijwerken. Voor meer details, mening [&#x200B; de Staat van het Document &#x200B;](web-editor-document-states.md#).
 
 >[!NOTE]
 >
@@ -123,7 +123,7 @@ Met het deelvenster Review kunt u reacties op de opmerkingen over het onderwerp 
 >
 > Het commentaarvakje en het antwoordvakje steunen multi-line ingangen en staan gebruikers toe om het uit te breiden zoals nodig voor het verstrekken van uitvoerige commentaren evenals gedetailleerd antwoord op de commentaren. U kunt **Verschuiving** gebruiken + **gaat** binnen om naar de volgende lijn te gaan terwijl het schrijven van de commentaren of de antwoorden.
 
-Voor meer informatie, bekijk [ de revisiecommentaren van het Adres ](review-address-review-comments.md#).
+Voor meer informatie, bekijk [&#x200B; de revisiecommentaren van het Adres &#x200B;](review-address-review-comments.md#).
 
 ## Wijzigingen bijhouden
 
@@ -131,14 +131,14 @@ Met de functie Bijgehouden wijzigingen in het rechterdeelvenster kunt u de infor
 
 >[!NOTE]
 >
-> De geleide veranderingseigenschap toont alle updates die gebruikend de Enable/Disable eigenschap van de Veranderingen van het Spoor van de [ bar van het Lusje ](./web-editor-tab-bar.md) zijn gevolgd.
+> De geleide veranderingseigenschap toont alle updates die gebruikend de Enable/Disable eigenschap van de Veranderingen van het Spoor van de [&#x200B; bar van het Lusje &#x200B;](./web-editor-tab-bar.md) zijn gevolgd.
 
 ## Schematron
 
 &quot;Schematron&quot; verwijst naar een op regels gebaseerde validatietaal die wordt gebruikt om tests voor een XML-bestand te definiëren. De Editor ondersteunt Schematron-bestanden. U kunt de Schematron-bestanden importeren en deze ook bewerken in de Editor. Met behulp van een Schematron-bestand kunt u bepaalde regels definiëren en deze vervolgens valideren voor een DITA-onderwerp of een kaart.
 
-Leer hoe te met de dossiers van Schematron in Experience Manager Guides te werken, verwijs naar [ Steun voor dossiers Schematron ](./support-schematron-file.md).
+Leer hoe te met de dossiers van Schematron in Experience Manager Guides te werken, verwijs naar [&#x200B; Steun voor dossiers Schematron &#x200B;](./support-schematron-file.md).
 
 
 
-**Bovenliggend onderwerp:**&#x200B;[ Inleiding aan de Redacteur ](web-editor.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Inleiding aan de Redacteur &#x200B;](web-editor.md)

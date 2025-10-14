@@ -21,7 +21,7 @@ U kunt een verzameling bulkactiveringskaarten verwijderen als deze niet meer nod
 
 1. Selecteer het **Bulk publiceer dashboard** tegel.
 
-   Het bulkpublicatiedashboard wordt weergegeven met een lijst met bulkactiveringskaartverzamelingen. U kunt tot dit dashboard van het Linkerpaneel van de [ Homepage van Adobe Experience Manager Guides ](intro-home-page.md) ook toegang hebben.
+   Het bulkpublicatiedashboard wordt weergegeven met een lijst met bulkactiveringskaartverzamelingen. U kunt tot dit dashboard van het Linkerpaneel van de [&#x200B; Homepage van Adobe Experience Manager Guides &#x200B;](intro-home-page.md) ook toegang hebben.
 
 
 1. Selecteer de inzameling die u wilt uitgeven en selecteren **Schrapping**.
@@ -33,4 +33,4 @@ U kunt een verzameling bulkactiveringskaarten verwijderen als deze niet meer nod
    De verzameling van de bulkactiveringskaart wordt uit het systeem verwijderd.
 
 
-**Bovenliggend onderwerp:**&#x200B;[ Bulk Activering van gepubliceerde inhoud ](conf-bulk-activation.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Bulk Activering van gepubliceerde inhoud &#x200B;](conf-bulk-activation.md)
