@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: f8a8dfd3-19de-49ff-b4d4-265b3ac09488
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: 1e08dce0bd64d1a15d42baf4c9720405a9eec146
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
@@ -25,14 +25,14 @@ Met Experience Manager Guides kunt u een onderwerp of de elementen ervan publice
 
 Voer de volgende stappen uit om een inhoudsfragment te maken:
 
-1. Creeer het model van het Fragment van de a [ Inhoud ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/content-fragments/content-fragments-models.html?lang=nl-NL) in Adobe Experience Manager Assets.
+1. Creeer het model van het Fragment van de a [ Inhoud ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/content-fragments/content-fragments-models.html?lang=en) in Adobe Experience Manager Assets.
 1. Maak een map waarin u de inhoudsfragmenten wilt opslaan die u maakt op basis van het model Inhoudsfragment. Bijvoorbeeld &#39;stock-content-fragments&#39;.
 1. Bewerk de eigenschappen van de map (bijvoorbeeld &quot;stock-content-fragments&quot;) en voeg het pad van de map toe, die het model Content Fragment bevat in de cloudconfiguratie.
 Voeg bijvoorbeeld `/conf/we-retail` toe in de cloudconfiguratie. Deze configuratie verbindt alle modellen van het Fragment van de Inhoud met de omslag.\
    ![ voeg de details van de wolkenconfiguratie in de omslageigenschappen ](images/fragment-folder-cloud-configuration.png){width="650" align="left"} toe
    *voeg de wolkenconfiguratie in de omslageigenschappen toe om het met de fragmentmodellen te verbinden.*
 
-1. Om een Fragment van de Inhoud te produceren, selecteer **Nieuwe Output ![ nieuw outputpictogram ](./images/Add_icon.svg) van de** Uitvoer **sectie in de** Eigenschappen van het Dossier **van een onderwerp.**
+1. Om een Fragment van de Inhoud te produceren, selecteer **Nieuwe Output** nieuw outputpictogram ![ van de ](./images/Add_icon.svg) Uitvoer **sectie in de** Eigenschappen van het Dossier **van een onderwerp.**
 1. Selecteer **het Fragment van de Inhoud**.\
    ![ dossier eigenschappen opties tabel ](./images/file-properties-outputs-tab.png) {width="300" align="left"}
 
@@ -50,7 +50,6 @@ Voeg bijvoorbeeld `/conf/we-retail` toe in de cloudconfiguratie. Deze configurat
    * **Naam**: Type de naam van het Fragment van de Inhoud. Door gebrek, wordt de naam bevolkt met de titel van het onderwerp, en de ruimten worden vervangen met &quot;_&quot;. Bijvoorbeeld, *sample_content_fragment*. U kunt het bestand bewerken.  Deze naam wordt gebruikt om de URL voor het inhoudsfragment te genereren.
 
    * U kunt verschillende voorwaarden selecteren om varianten van inhoudsfragmenten te maken. Selecteer een van de volgende opties:
-
      >[!NOTE]
      > 
      > De voorwaarden worden toegelaten slechts als voorwaardelementen in het onderwerp worden bepaald.
@@ -113,4 +112,4 @@ U kunt de volgende acties voor een Fragment van de Inhoud van het **menu van Opt
 
 Het nieuwe script voor de migratie van UUID-inhoud is aanzienlijk geoptimaliseerd, waardoor de migratie van inhoud van niet-UUID naar UUID 30 keer sneller verloopt dan het eerdere script. Het omvat functies zoals het hervatten vanaf controleposten, live inzichten, geschatte voltooiingstijd en gedetailleerde rapportage, waardoor een harmonieus migratieproces wordt gewaarborgd. Met name blijven de metagegevens van de elementen tijdens het migratieproces behouden. Het script is getest en geverifieerd op een grote dataset van 3 miljoen activa, die zijn efficiency en betrouwbaarheid voor grootschalige migraties bevestigt.
 
-Leer meer over [ niet-UUID aan de inhoudsmigratie van UUID ](/help/product-guide/install-guide/migrate-non-uuid-uuid.md).
+Leer meer over [ niet-UUID aan de inhoudsmigratie van UUID ](/help/product-guide/install-guide/migrate-non-uuid-4-3.md).

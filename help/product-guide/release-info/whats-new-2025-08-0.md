@@ -2,7 +2,8 @@
 title: Opmerkingen bij de release | Nieuwe functies in de Adobe Experience Manager Guides 2025.08.0-release
 description: Meer informatie over de nieuwe en verbeterde functies in de 2025.08.0-release van Adobe Experience Manager Guides
 role: Leader
-source-git-commit: d418ffb254b11430509609b91e0174690815cf73
+exl-id: c3461d0a-6394-4275-9d54-b2b1545d7c18
+source-git-commit: 1a44af3522060ebc531393d4d01b1cd00eb02c10
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 0%
@@ -39,7 +40,7 @@ De recentste update introduceert verbeterde configuratie voor **Authoring snelle
 
 Zodra de **AI Medewerker** knevel wordt toegelaten, kunnen de Beheerders kiezen welke snelle acties onder het **Authoring** lusje zichtbaar zijn, die auteursinteractie helpen stroomlijnen. Deze zichtbaarheidsinstellingen gelden specifiek voor elk mapprofiel.
 
-Leer meer over [ AI medewerker in de montages van de Redacteur ](../user-guide/web-editor-settings.md#general) in Experience Manager Guides.
+Leer meer over [ AI medewerker in de montages van de Redacteur ](../cs-install-guide/workspace-settings.md#general) in Experience Manager Guides.
 
 ![](assets/authoring-quick-actions.png){width="350" align="left"}
 
@@ -93,9 +94,3 @@ Met deze versie zijn de montages binnen de **voorkeur van de Gebruiker** op de H
 Bovendien, in de toolbar van de Redacteur worden sommige snel-toegangsknevels voor het toelaten van of het onbruikbaar maken van de Veranderingen van het Spoor, de Markeringen, en de niet-BreakSpaties nu gegroepeerd onder **toon** optie binnen dropdown van het Menu voor betere bruikbaarheid.
 
 Voor meer details, mening [ Toolbar in de Redacteur ](../user-guide/web-editor-toolbar.md#menu-dropdown).
-
-
-
-
-
-

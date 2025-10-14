@@ -4,9 +4,9 @@ description: Krijg het linkerpaneel in de Redacteur te kennen. Leer meer over de
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 92496d39-b423-4635-8b05-c67fd6af47de
-source-git-commit: 97e80f9115f84291a7190cf4c4cf25426b3a83bb
+source-git-commit: 0d713f9ff4bd48aa90bce368d6ad7abf86ecbbf7
 workflow-type: tm+mt
-source-wordcount: '9390'
+source-wordcount: '9542'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Standaard kunt u de bestanden op titels weergeven. Terwijl u de cursor op een be
 
 >[!NOTE]
 >
-> Als beheerder kunt u de lijst met bestanden ook weergeven op bestandsnamen in de Editor. Selecteer de **optie van de Naam van het 0&rbrace; Dossier {van de** 3} sectie van de de vertoningsconfiguratie van de dossiers van de Redacteur in **voorkeur van de Gebruiker**.**&#x200B;**
+> Als beheerder kunt u de lijst met bestanden ook weergeven op bestandsnamen in de Editor. Selecteer de **optie van de Naam van het 0} Dossier {van de** 3} sectie van de de vertoningsconfiguratie van de dossiers van de Redacteur in **voorkeur van de Gebruiker**.****
 
 <details>
     <summary> Een nieuwe verzameling maken </summary>
@@ -122,7 +122,7 @@ Als u het pictogram Opslagplaats selecteert, wordt een lijst met bestanden en ma
 
 >[!NOTE]
 >
-> Als beheerder kunt u de lijst met bestanden ook weergeven op bestandsnamen in de Editor. Selecteer de **optie van de Naam van het 0&rbrace; Dossier {van de** 3} sectie van de de vertoningsconfiguratie van de dossiers van de Redacteur in **voorkeur van de Gebruiker**.**&#x200B;**
+> Als beheerder kunt u de lijst met bestanden ook weergeven op bestandsnamen in de Editor. Selecteer de **optie van de Naam van het 0} Dossier {van de** 3} sectie van de de vertoningsconfiguratie van de dossiers van de Redacteur in **voorkeur van de Gebruiker**.****
 
 Er worden 75 bestanden tegelijk geladen. Telkens als u **selecteert Laad meer**.. worden 75 dossiers geladen, en de knoopeinden die worden getoond wanneer alle dossiers zijn vermeld. Het laden van deze batch is efficiënt en u hebt sneller toegang tot de bestanden dan tot het laden van alle bestanden in een map.
 
@@ -143,7 +143,7 @@ De Editor biedt verbeterde filters voor het zoeken naar tekst. U kunt zoeken en 
 
 *pas filters op onderzoek naar de dossiers toe die de tekst bevatten`personal spaceship.`*
 
-Selecteer het **\ van het Filteronderzoek van 0&rbrace; Filter &lbrace;(** het filterpictogram van het Onderzoek ![ \) pictogram om pop-up van de Filter te openen.](images/filter-search-icon.svg)
+Selecteer het **\ van het Filteronderzoek van 0} Filter {(** het filterpictogram van het Onderzoek ![ \) pictogram om pop-up van de Filter te openen.](images/filter-search-icon.svg)
 
 >[!NOTE]
 >
@@ -179,6 +179,15 @@ U kunt de volgende opties onder de **Algemene** bekijken en **Geavanceerde** lus
 Dit is synchroon met het zoekvak in het venster Opslagplaats. Bijvoorbeeld, als u `general purpose` in het onderzoeksvakje op het bewaarplaats paneel typt, verschijnt het ook in het **Geavanceerde de filterdoos** dialoogdoos en vice versa.
 
 - **Onderzoek in**: Selecteer de weg waar u de dossiers huidig in de bewaarplaats van Adobe Experience Manager wilt zoeken.
+- **DITA Dossiers**: U kunt alle **Onderwerpen DITA** zoeken, en **Kaarten DITA** aanwezig op de geselecteerde weg. Deze zijn standaard geselecteerd.
+- **niet-DITA Dossiers**: U kunt naar **Ditaval Dossiers** zoeken, **Dossiers van het Beeld**, **Multimedia**, **Documenten**, en **JSON** in de geselecteerde weg.
+- **Vergrendeld door**: Toont een lijst van gebruikers. De lijst wordt gepagineerd en wordt asynchroon geladen, waarbij een beperkte set gebruikers tegelijk wordt weergegeven en meer wordt opgehaald terwijl u schuift of navigeert. Hierdoor worden de laadsnelheid en algemene prestaties verbeterd, vooral wanneer u met een groot aantal gebruikers werkt.
+- **Gewijzigd na** / **Gewijzigd vóór**: Inhoud van de filter die op wijzigingsdatum wordt gebaseerd. Selecteer een datumbereik in de kalender of kies een van de volgende tijdframeopties:
+   - In de afgelopen twee uur
+   - In vorige week
+   - In vorige maand
+   - In vorig jaar
+- **Markeringen**: Inhoud van de filter die op markeringen wordt gebaseerd.
 
 **Geavanceerd**
 
@@ -426,7 +435,7 @@ Standaard kunt u de bestanden op titels weergeven. Terwijl u de cursor op een be
 
 >[!NOTE]
 >
->Als beheerder kunt u ook de bestandsnaam bekijken van de bovenliggende kaart die momenteel is geopend in de kaartweergave. Selecteer de **optie van de Naam van het 0&rbrace; Dossier {van de** 3} sectie van de de vertoningsconfiguratie van de dossiers van de Redacteur in **voorkeur van de Gebruiker**.**&#x200B;**
+>Als beheerder kunt u ook de bestandsnaam bekijken van de bovenliggende kaart die momenteel is geopend in de kaartweergave. Selecteer de **optie van de Naam van het 0} Dossier {van de** 3} sectie van de de vertoningsconfiguratie van de dossiers van de Redacteur in **voorkeur van de Gebruiker**.****
 
 
 Wanneer u een kaart opent in de kaartweergave, wordt de titel van de huidige kaart weergegeven in het midden van de balk met tabbladen. Als de titel te lang is, wordt een ovaal weergegeven en kunt u de muisaanwijzer boven de titel houden om de volledige titel in de knopinfo weer te geven.
@@ -552,11 +561,11 @@ Standaard kunt u de bestanden op titels weergeven. Terwijl u de cursor op een be
 
 >[!NOTE]
 >
-> Als beheerder kunt u de lijst met bestanden ook weergeven op bestandsnamen in de Editor. Selecteer de **optie van de Naam van het 0&rbrace; Dossier {van de** 3} sectie van de de vertoningsconfiguratie van de dossiers van de Redacteur in **voorkeur van de Gebruiker**.**&#x200B;**
+> Als beheerder kunt u de lijst met bestanden ook weergeven op bestandsnamen in de Editor. Selecteer de **optie van de Naam van het 0} Dossier {van de** 3} sectie van de de vertoningsconfiguratie van de dossiers van de Redacteur in **voorkeur van de Gebruiker**.****
 
 Als u een DITA-bestand wilt toevoegen aan het deelvenster Herbruikbare inhoud, gebruikt u een van de volgende methoden:
 
-- Selecteer het pictogram **+** naast Herbruikbare inhoud om het dialoogvenster Bladeren te openen. Selecteer het dossier dat u wilt toevoegen en dan selecteren **&#x200B;**&#x200B;toevoegen om het proces te voltooien.
+- Selecteer het pictogram **+** naast Herbruikbare inhoud om het dialoogvenster Bladeren te openen. Selecteer het dossier dat u wilt toevoegen en dan selecteren **** toevoegen om het proces te voltooien.
 
 - In de mening van de Bewaarplaats, selecteer het **pictogram van Opties** van het gewenste dossier en kies **toevoegen aan** > **Herbruikbare inhoud** van het contextmenu.
 
@@ -635,10 +644,8 @@ Als een blokelement zijn eigen tekst heeft, wordt het getoond samen met dat blok
 
 ![](images/outline-view-block-element.png){width="550" align="left"}
 
-Als uw beheerder een profiel voor attributen heeft gecreeerd, dan zult u die attributen samen met hun gevormde waarden krijgen. U kunt vertoningsattributen ook toewijzen die door uw beheerder onder de **attributen van de Vertoning** worden gevormd lusje in de **Montages**. De kenmerken die voor een element zijn gedefinieerd, worden weergegeven in de layoutweergave en in de contourweergave.
+Als uw beheerder een profiel voor attributen heeft gecreeerd, dan zult u die attributen samen met hun gevormde waarden krijgen. U kunt vertoningsattributen ook toewijzen die door uw beheerder onder de **attributen van de Vertoning** worden gevormd lusje in de **montages van Workspace** (verschijnen als **Montages** voor **op-Prem**). De kenmerken die voor een element zijn gedefinieerd, worden weergegeven in de layoutweergave en in de contourweergave.
 
-
-Voor meer details, bekijk de *attributen van de Vertoning* binnen de *de eigenschapbeschrijving van Montages* in het linkerpaneel.
 
 **eigenschap van het Onderzoek**
 
@@ -677,7 +684,7 @@ U kunt de volgende instellingen configureren voor het gereedschap Hotspot:
 
 - **Onderwerpen**: Kies of het **Huidige onderwerp** dat in de Redacteur wordt geopend, alle **Geopende onderwerpen** in de huidige kaart, of de **Huidige kaart** die in de Redacteur van de Kaart wordt uitgegeven om de termijnen te zoeken.
 - **Onderwerpen van de Filter door Status**: U kunt verkiezen om het onderzoek tot onderwerpen te beperken die de geselecteerde documentstatus hebben. De onderwerpen kunnen in Ontwerp zijn, uitgeven, In-Overzicht, Goedgekeurd, herzien, Klaar status, of in om het even welke staat zoals gevormd door de organisatie.
-- **Actie**: U kunt verkiezen om of de verklarende woordenlijstsleutels **manueel voor elk onderwerp** of **automatisch voor alle onderwerpen** te zoeken. Als u **manueel voor elk onderwerp** kiest, zet het u ertoe aan om te bevestigen alvorens elke termijn in elk onderwerp om te zetten. Als u **&lbrace;automatisch voor alle onderwerpen** kiest, zet het alle termijnen in alle onderwerpen automatisch om.
+- **Actie**: U kunt verkiezen om of de verklarende woordenlijstsleutels **manueel voor elk onderwerp** of **automatisch voor alle onderwerpen** te zoeken. Als u **manueel voor elk onderwerp** kiest, zet het u ertoe aan om te bevestigen alvorens elke termijn in elk onderwerp om te zetten. Als u **{automatisch voor alle onderwerpen** kiest, zet het alle termijnen in alle onderwerpen automatisch om.
 - **zet** om: U kunt of een gezochte **Tekst in verklarende woordenlijsttermijn** of **Verklarende woordenlijsttermijn in tekst omzetten.**
 - **Opties**: U kunt uit de volgende opties selecteren:
    - **case-sensitive gelijke**: Zoekt naar een termijn om de gelijke te vinden die het zelfde casing heeft. &#39;USB&#39; komt bijvoorbeeld niet overeen met &#39;usb&#39;.
@@ -933,7 +940,7 @@ U kunt de waarden ook wijzigen vanuit de vervolgkeuzelijst van het kenmerk in de
 
 U kunt het onderwerpschema ook weergeven en toepassen vanuit het deelvenster Voorwaarden.
 
-Om de onderwerpregeling van het paneel van Voorwaarden te bekijken, moet uw systeembeheerder **onderworpen regeling in de het paneeloptie van Voorwaarden van de Show** onder het Algemene lusje in Montages selecteren. Voor meer details, bekijk de **sectie van Montages** in de [ bar van het Lusje ](./web-editor-tab-bar.md).
+Om de onderwerpregeling van het paneel van Voorwaarden te bekijken, moet uw systeembeheerder de **Show onderwerpregeling in het paneel van Voorwaarden** optie onder het Algemene lusje in **de montages van Workspace** (verschijnen als **Montages** voor **op-Prem**) selecteren. Voor meer details, bekijk de [ bar van het Lusje ](./web-editor-tab-bar.md).
 
 In het deelvenster Voorwaarden wordt de vlakke verticale structuur van de onderwerpdefinities in het onderwerpschema weergegeven.
 
@@ -987,7 +994,7 @@ Standaard kunt u de bestanden op titels weergeven. Terwijl u de cursor op een sj
 
 >[!NOTE]
 >
-> Als beheerder kunt u de lijst met bestanden ook weergeven in de Editor. Selecteer de **optie van de Naam van het 0&rbrace; Dossier {van de** 3} sectie van de de vertoningsconfiguratie van de dossiers van de Redacteur in **voorkeur van de Gebruiker**.**&#x200B;**
+> Als beheerder kunt u de lijst met bestanden ook weergeven in de Editor. Selecteer de **optie van de Naam van het 0} Dossier {van de** 3} sectie van de de vertoningsconfiguratie van de dossiers van de Redacteur in **voorkeur van de Gebruiker**.****
 
 Leren hoe te om douanesjablonen tot stand te brengen, [ kaarten creëren die op aangepaste malplaatjes ](./create-maps-customized-templates.md) worden gebaseerd.
 
@@ -1018,7 +1025,7 @@ Standaard kunt u de bestanden op titels weergeven. Terwijl u de cursor op een be
 
 >[!NOTE]
 >
-> Als beheerder kunt u ook de lijst met bestandsnamen weergeven in de Editor. Selecteer de **optie van de Naam van het 0&rbrace; Dossier {van de** 3} sectie van de de vertoningsconfiguratie van de dossiers van de Redacteur in **voorkeur van de Gebruiker**.**&#x200B;**
+> Als beheerder kunt u ook de lijst met bestandsnamen weergeven in de Editor. Selecteer de **optie van de Naam van het 0} Dossier {van de** 3} sectie van de de vertoningsconfiguratie van de dossiers van de Redacteur in **voorkeur van de Gebruiker**.****
 
 <details>
     <summary> Het algemene zoeken en vervangen uitvoeren </summary>
@@ -1056,9 +1063,9 @@ Voer de volgende stappen uit om de algemene zoek- en vervangactie uit te voeren:
 1. Selecteer **één enkel voorkomen** \ ( ![](images/replace-icon.svg) \) vervangen om de momenteel benadrukte onderzoekstermijn in het onderwerp te vervangen of Volgende gelijke te selecteren ![](images/next-match-in-search.png) of ![](images/previous-match-in-search.png) Vorige gelijke om naar het volgende of vorige voorkomen van de tekst te bewegen.
 1. Selecteer **vervangen allen** \ ( ![](images/replace-all-in-file-icon.svg) \) om alle voorkomen van de gezochte termijn in één enkel dossier met te vervangen termijn in één enkele klik. Er wordt een melding weergegeven nadat u alle instanties in het geselecteerde bestand hebt vervangen.
 
-Om **toe te laten vervang allen** pictogram, moet uw systeembeheerder de optie **selecteren toelaten vervangt allen** onder het **Algemene** lusje in **Montages**.
+Om **toe te laten vervang allen** pictogram, moet uw systeembeheerder de optie **selecteren toelaten vervangt allen** onder het **Algemene** lusje in **montages van Workspace** (verschijnen als **Montages** voor **op-Prem**).
 
-    >[ !NOTA] 
+    >[!NOTA] 
     > 
     > Hover over een dossier van de lijst van het onderzoeksresultaat om te bekijken vervangen allen in het pictogram van het Dossier op het recht van het. U kunt ook het pictogram Bestand negeren gebruiken om het bestand uit het zoekresultaat te verwijderen. De dossiers die u negeert worden verwijderd uit de lijst en de gezochte termijn wordt niet vervangen in hen.
 
@@ -1084,7 +1091,7 @@ De revisietaken worden weergegeven in het deelvenster. Standaard kunt u de besta
 
 >[!NOTE]
 >
-> Als beheerder kunt u de lijst met bestanden ook weergeven op bestandsnamen in de Editor. Selecteer de **optie van de Naam van het 0&rbrace; Dossier {van de** 3} sectie van de de vertoningsconfiguratie van de dossiers van de Redacteur in **voorkeur van de Gebruiker**.**&#x200B;**
+> Als beheerder kunt u de lijst met bestanden ook weergeven op bestandsnamen in de Editor. Selecteer de **optie van de Naam van het 0} Dossier {van de** 3} sectie van de de vertoningsconfiguratie van de dossiers van de Redacteur in **voorkeur van de Gebruiker**.****
 
 Als auteur, kunt u de commentaren in een onderwerp richten gebruikend de Redacteur.
 
@@ -1110,7 +1117,12 @@ Voer de volgende stappen uit om de revisieopmerkingen weer te geven in de actiev
 
      ![](images/active-review-select-project.png){width="300" align="left"}
 
-     Laat de **Taken toe die door me** optie in werking worden gesteld om slechts de taken te bekijken die u hebt in werking gesteld. De schakelstatus van deze optie blijft behouden, zelfs nadat de pagina is vernieuwd. Laat **toe tonen slechts actieve taken** optie om de projectlijst te filtreren om taken te tonen die momenteel actief zijn.
+     Het **dialoog van de Filter** omvat ook de volgende opties die kunnen worden toegelaten of worden onbruikbaar gemaakt gebruikend de knevel:
+
+      - **Taken die door me** in werking worden gesteld: Wanneer toegelaten, toont slechts de taken die u hebt in werking gesteld.
+      - **toon slechts actieve taken**: Wanneer toegelaten, filters de projectlijst om slechts taken te tonen die momenteel actief zijn.
+
+     Standaard zijn beide opties uitgeschakeld. De geselecteerde schakelstatus blijft ook behouden nadat de pagina is vernieuwd.
 
 1. Door gebrek, in uw overzichtsproject zult u een vlakke lijst van onderwerpen bekijken die commentaren verbonden aan hen hebben. Pas de vereiste filters van de linkerspoorstaaf toe om de onderwerpen te filtreren die op de overzichtscommentaren worden gebaseerd in hen:
 
@@ -1123,11 +1135,11 @@ Voer de volgende stappen uit om de revisieopmerkingen weer te geven in de actiev
 
    >[!NOTE]
    > 
-   > Het **paneel van de Overzicht** en het **3&rbrace; paneel van Commentaren &lbrace;zijn in synchronisatie op elk ogenblik.** In het venster Opmerkingen worden de opmerkingen geladen op basis van de revisietaak die in het deelvenster Revisie is geladen.
+   > Het **paneel van de Overzicht** en het **3} paneel van Commentaren {zijn in synchronisatie op elk ogenblik.** In het venster Opmerkingen worden de opmerkingen geladen op basis van de revisietaak die in het deelvenster Revisie is geladen.
    >U kunt de taken voor gesloten revisies weergeven in de linkertrack van het Revisiepanel, samen met de actieve revisietaken.
    >Bovendien, voor een gesloten overzichtstaak kunt u de overzichtscommentaren in het paneel van Commentaren op het recht bekijken maar **de Commentaren van de Invoer** en **terugkeren de knopen van de Versie** worden onbruikbaar gemaakt.
    >Voor meer informatie over hoe te om de commentaren te richten, bekijk [ de revisiecommentaren van het Adres ](review-address-review-comments.md#).
 
 </details>
 
-**Bovenliggend onderwerp:**&#x200B;[ Inleiding aan de Redacteur ](web-editor.md)
+**Bovenliggend onderwerp:**[ Inleiding aan de Redacteur ](web-editor.md)

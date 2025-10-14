@@ -4,9 +4,9 @@ description: Leer meer over de kaartconsole en de verschillende beschikbare func
 feature: Publishing
 role: User
 exl-id: b273b1ae-fbb2-4b35-abce-0df78eeb2e11
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: e14b19ff7c128899b4536d5b8c4290c476991bef
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,12 @@ De de consoleinterface van de Kaart is hoofdzakelijk verdeeld in twee secties - 
 
    - **schakelaar van de Navigatie**: Staat naadloze navigatie aan andere pagina&#39;s - de Redacteur of de pagina van het Huis toe:
    - **Geselecteerd kaartdossier**: Toont de naam van het momenteel geselecteerde kaartdossier. U kunt het in de Redacteur openen of een verschillend kaartdossier voor de console van de Kaart kiezen.
-   - **Meer acties**: Verstrekt opties om aan **Assets te navigeren UI** en **Montages**. Voor details, verwijs naar **Meer acties** sectie van [ ken het de eigenschappen van de Redacteur ](./web-editor-features.md#tab-bar) document.
+   - **Meer acties**: Verstrekt opties om aan **Assets te navigeren UI** en **montages van Workspace**. Voor details, bekijk de [ bar van het Lusje ](./web-editor-tab-bar.md).
+
+  >[!NOTE]
+  >
+  > Als het gebruiken van Adobe Experience Manager Guides in een opstelling op locatie, blijft de de montagesoptie van Workspace als **Montages** onder het Meer actiemenu verschijnen.
+
    - **breid mening** uit: Staat u toe om de paginamening uit te breiden gebruikend **breid** pictogram uit. In deze weergave is de kopbalk verborgen en wordt de ruimte van de inhoud gemaximaliseerd. Om aan de standaardmening terug te keren, gebruik **Uitgang het uitgebreide meningspictogram**.
 
   >[!NOTE]
@@ -50,7 +55,7 @@ Voor meer details, de generatie van de menings[ Output ](./generate-output.md).
 
 **de verwezenlijking en het beheer van het Rapport**
 
-In een organisatorische opstelling, wilt u de algemene volledigheid van uw technische documentatie verifiëren alvorens u aan het begint te werken of de documenten levend te duwen. Een dergelijke behoefte wordt zelfs nog belangrijker in omgevingen met meerdere gebruikers en op grote schaal. Met de Kaartenconsole krijgt u toegang tot Experience Manager Guides-rapporten die een nuttig inzicht geven in de algemene status van de inhoud in uw opslagplaats en hoe inhoud wordt gebruikt in het documentatieproces.
+In een organisatorische opstelling, wilt u de algemene volledigheid van uw technische documentatie verifiëren alvorens u aan het begint te werken of de documenten levend te duwen. Een dergelijke behoefte wordt zelfs nog belangrijker in omgevingen met meerdere gebruikers en op grote schaal. Met de Kaartenconsole krijgt u toegang tot Experience Manager Guides-rapporten die een nuttige insight geven over de algemene status van de inhoud in uw opslagplaats en over de manier waarop inhoud wordt gebruikt in het documentatieproces.
 
 Voor meer details, mening [ Rapporten in Experience Manager Guides ](./reports-intro.md).
 

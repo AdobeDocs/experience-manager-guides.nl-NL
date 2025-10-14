@@ -4,9 +4,9 @@ description: Meer informatie over de workflow voor het sluiten van een revisieta
 feature: Reviewing
 role: User
 exl-id: d2119bbe-3a0c-4da3-b4f8-7872496fa61f
-source-git-commit: 439be49e8f4c8cfacb16679257352f4197574365
+source-git-commit: e38cd858201ea657ce276eb4b358b0d4eff502b2
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> De nieuwe functies die in dit artikel worden beschreven, zijn standaard ingeschakeld met de release van 2508 Experience Manager Guides als Cloud Services. Revisies die vóór de migratie zijn gemaakt, worden niet beïnvloed en blijven gebruikmaken van de eerdere workflow. Als u de bestaande functies zonder deze updates wilt blijven gebruiken, neemt u contact op met het team voor succes van de klant om de nieuwe functies uit te schakelen.
+> De nieuwe functies die in dit artikel worden beschreven, zijn standaard ingeschakeld met de release 2508 van Experience Manager Guides as a Cloud Service. Revisies die vóór de migratie zijn gemaakt, worden niet beïnvloed en blijven gebruikmaken van de eerdere workflow. Als u de bestaande functies zonder deze updates wilt blijven gebruiken, neemt u contact op met het team voor succes van de klant om de nieuwe functies uit te schakelen.
 
 Wanneer een overzichtstaak wordt duidelijk zoals voltooid door een Recensent, wordt een bericht teweeggebracht aan de taakinitiatiefnemer, toelatend hen om tot de taak en verwante commentaren op taakniveau toegang te hebben en te herzien.
 
@@ -28,15 +28,15 @@ Als initiatiefnemer van de overzichtstaak, kunt u dan beslissen hoe te te te wer
 
 Voer de volgende stappen uit om een revisie aan te vragen of een revisietaak te sluiten:
 
-1. Open de revisietaak in de Editor.
-2. In het paneel van het Overzicht, selecteer de overzichtstaak van de **Actieve taken** lijst.
+1. Open het **paneel van het Overzicht** van het linkerpaneel van de Redacteur.
+2. Selecteer de overzichtstaak u voor overzicht van de **Actieve taken** lijst wilt sluiten of opnieuw voorleggen.
 
    >[!NOTE]
    >
    > U kunt de taak ook in het taakdashboard openen voor een uitgebreidere weergave. Om dit te doen, selecteer **Open in taakdashboard** van het menu van Opties van om het even welke actieve overzichtstaak. Dit opent de taakdetails in de console van Projecten.
 
    ![](images/task-dashboard-selection-author-view.png)
-3. Selecteer de **commentaren van de Taak** dialoog om tot de commentaren van het taakniveau toegang te hebben en te herzien die door de Recensent worden toegevoegd.
+3. Selecteer het **pictogram van de commentaren van de Taak** om tot de commentaren van het taakniveau toegang te hebben en te herzien die door de Recensent worden toegevoegd.
 
    ![](images/task-comments-selection-author-view.png).
 
@@ -46,7 +46,7 @@ Voer de volgende stappen uit om een revisie aan te vragen of een revisietaak te 
 4. Selecteer **de taak van de Update** om verdere actie op de geselecteerde overzichtstaak te voeren.
 5. In de **taak van de Update** dialoog, kies één van de volgende acties:
 
-   - **verzoek een herbeoordeling**: Initieert een andere ronde van overzicht. U kunt een andere versie van het onderwerp voor overzicht selecteren. Door gebrek, wordt de recentste (of laatste-uitgegeven) versie van het onderwerp of kaartdossier die voor overzicht wordt verzonden geselecteerd. U kunt **ook gebruiken uitgeeft versies** optie om de versie van geselecteerde onderwerpen aan **Latest versie**, **Versie op**, en **Basislijn** te plaatsen zoals per de behoefte.  Revisoren die de vorige revisie hebben voltooid, ontvangen een melding om feedback te geven over de bijgewerkte versie. Andere Revisoren, die de overzichtstaak niet als volledig hebben gemerkt, worden op de hoogte gebracht over de onderwerpupdate.
+   - **verzoek een herbeoordeling**: Initieert een andere ronde van overzicht. U kunt een andere versie van het onderwerp voor overzicht selecteren. Door gebrek, wordt de recentste (of laatste-uitgegeven) versie van het onderwerp of kaartdossier die voor overzicht wordt verzonden geselecteerd. U kunt **ook gebruiken uitgeeft versies** optie om de versie van geselecteerde onderwerpen aan **Latest versie** of **Basislijn** te plaatsen zoals per de behoefte.  Revisoren die de vorige revisie hebben voltooid, ontvangen een melding om feedback te geven over de bijgewerkte versie. Andere controleurs, die de overzichtstaak niet als volledig hebben gemerkt, worden op de hoogte gebracht over de onderwerpupdate.
 
    - **dicht overzicht**: Sluit de overzichtstaak. De **taak van de Update** knoop aanwezig bij de bodem van het paneel van het Overzicht verandert in **Gesloten** en een bericht wordt verzonden naar alle gebruikers betrokken bij de overzichtstaak die op zijn sluiting wijzen.
 
@@ -54,10 +54,9 @@ Voer de volgende stappen uit om een revisie aan te vragen of een revisietaak te 
 
    ![](images/update-task-dialog.png){width="350" align="left"}
 
-   >[!NOTE]
-   >
-   > Het **de taakdialoog van de Update** zal ook de de staatskolom van a **Doc** omvatten om op de huidige staat van de vermelde overzichtsonderwerpen te wijzen wanneer het gebruiken van Experience Manager Guides als Diensten van de Wolk.
+   U kunt ook [ de status van uw overzichtstaak ](./review-manage-tasks-review-dashboard.md#check-the-status-of-a-review-task) controleren gebruikend de **de revisiestatus van de Controle** optie huidig in de de taakdialoog van de Update. Als u deze optie selecteert, gaat u naar het revisiedashboard waar het statusrapport van de revisietaak wordt weergegeven.
 
+   ![](images/check-review-status-icon.png){width="650" align="left"}
 
 6. Selecteer **bevestigen**.
 
@@ -69,3 +68,7 @@ Als Auteur of initiatiefnemer van een overzichtstaak, wanneer u de taak sluit, w
 Ook, blijft de **taak van de Update** knoop huidig in het paneel van het Overzicht gehandicapt voor de andere gebruikers van de overzichtstaak. Bijvoorbeeld, als één van de recensenten van een overzichtstaak, als u de taak in de Redacteur opent, zal de de taakknoop van de Update met een bericht **worden onbruikbaar gemaakt u hebt geen toestemming om op deze taak** te handelen. Alleen de aanvrager van een revisietaak heeft toestemming om de taak bij te werken vanuit de Editor.
 
 ![](images/update-task-button-disabled.png){width="350" align="left"}
+
+
+
+

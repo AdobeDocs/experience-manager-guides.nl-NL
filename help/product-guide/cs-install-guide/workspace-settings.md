@@ -3,17 +3,16 @@ title: Workspace-instellingen in Experience Manager Guides
 description: Leer meer over de verschillende instellingen die beschikbaar zijn in de Editor-interface van Experience Manager Guides.
 feature: Authoring, Features of Web Editor
 role: User
-exl-id: fad2874f-dab5-4538-8502-f7112c51d941
-source-git-commit: a1e0571e596a44ee67d49658a718e24d9ab3b467
+source-git-commit: 1e08dce0bd64d1a15d42baf4c9720405a9eec146
 workflow-type: tm+mt
-source-wordcount: '2113'
+source-wordcount: '2132'
 ht-degree: 0%
 
 ---
 
 # Workspace-instellingen
 
-De **de montages van Workspace** optie huidig in de [ bar van het Lusje ](./web-editor-tab-bar.md) van de Redacteur is beschikbaar slechts voor beheerders en de beheerders van het omslagprofiel, en staat het vormen van de volgende montages toe:
+De **de montages van Workspace** optie huidig in de [ bar van het Lusje ](../user-guide/web-editor-tab-bar.md) van de Redacteur is beschikbaar slechts voor beheerders en de beheerders van het omslagprofiel, en staat het vormen van de volgende montages toe:
 
 - [Algemeen](#general)
 - [Deelvensters](#panels)
@@ -29,20 +28,21 @@ De **de montages van Workspace** optie huidig in de [ bar van het Lusje ](./web-
 
 >[!NOTE]
 >
-> Als u standaardinstellingen bijwerkt, moet u documenten opnieuw openen om de wijzigingen van kracht te laten worden.
+> - Als het gebruiken van Adobe Experience Manager Guides in een opstelling op locatie, blijft de de montagesoptie van Workspace als **Montages** onder het Meer actiemenu verschijnen.
+> - Als u standaardinstellingen bijwerkt, moet u documenten opnieuw openen om de wijzigingen van kracht te laten worden.
 
 ## Algemeen
 
 Met de Algemene instellingen kunt u de instellingen configureren voor gebruik van de Editor. Dit lusje bevat vijf secties: **AI Medewerker**, **Authoring**, **Bevelingen**, **Voorwaarde**, en **controle van de Spel**.
 
-![](images/editor-setting-general.png){width="350" align="left"}
+![](../user-guide/images/editor-setting-general.png){width="350" align="left"}
 
 - **AI Medewerker**
-Selecteer dit om de [ AI Medewerker ](./ai-assistant.md) eigenschap in Experience Manager Guides toe te laten. Hef de selectie op om de functie uit te schakelen.
+Selecteer dit om de [ AI Medewerker ](../user-guide/ai-assistant.md) eigenschap in Experience Manager Guides toe te laten. Hef de selectie op om de functie uit te schakelen.
 
   Na het toelaten van de **AI Medewerker** knevel, kunt u vormen welke opties onder het **Authoring lusje** voor auteurs verschijnen gebruikend het **Authoring snelle acties** menu zoals hieronder getoond.\
   Deze wijzigingen gelden voor het specifieke mapprofiel waarmee u werkt. Als u een nieuw omslagprofiel creeert, zal het de montages van Workspace erven die in het **Globale** worden bepaald omslagprofiel door gebrek. U kunt deze montages wijzigen zoals nodig gebruikend de **montages van Workspace** en sparen de bijgewerkte configuratie.\
-  Voor een gedetailleerd overzicht van de beschikbare opties voor Authoring die AI Medewerker gebruiken, bekijk [ de documenten van de Auteur met AI Medewerker ](./ai-assistant-right-panel.md).
+  Voor een gedetailleerd overzicht van de beschikbare opties voor Authoring die AI Medewerker gebruiken, bekijk [ de documenten van de Auteur met AI Medewerker ](../user-guide/ai-assistant-right-panel.md).
 
   Van het **Authoring snelle acties** menu, kunt u:
 
@@ -50,7 +50,7 @@ Selecteer dit om de [ AI Medewerker ](./ai-assistant.md) eigenschap in Experienc
 
    - wijzigt u de volgorde waarin de opties worden weergegeven, en sleept u deze naar wens.
 
-  ![](images/authoring-quick-actions-new.png){width="350" align="left"}
+  ![](../user-guide/images/authoring-quick-actions-new.png){width="350" align="left"}
 
 
 
@@ -60,7 +60,7 @@ Selecteer dit om de [ AI Medewerker ](./ai-assistant.md) eigenschap in Experienc
 
 - **Bevelingen**
 
-  Wijzig de stijl van de citaten. Kies de citaatstijl van drop-down u in uw project wilt gebruiken. Voor meer details, mening [ de citaatstijlen van de Verandering ](./web-editor-apply-citations.md#change-citation-style).
+  Wijzig de stijl van de citaten. Kies de citaatstijl van drop-down u in uw project wilt gebruiken. Voor meer details, mening [ de citaatstijlen van de Verandering ](../user-guide/web-editor-apply-citations.md#change-citation-style).
 
 - **Voorwaarde**
 
@@ -70,7 +70,7 @@ Selecteer dit om de [ AI Medewerker ](./ai-assistant.md) eigenschap in Experienc
 
    - **toon sleutel met de titel in het Onderwerppaneel van het Regeling**: Selecteer dit om de sleutels samen met titels in de onderwerpregeling te tonen. Als u deze optie niet selecteert, worden alleen de titels weergegeven. Hier worden bijvoorbeeld de toetsen &#39;os&#39;, &#39;publiek&#39; en &#39;ander&#39; ook samen met titels weergegeven.
 
-     ![](images/subject-scheme-title.png){width="550" align="left"}
+     ![](../user-guide/images/subject-scheme-title.png){width="550" align="left"}
 
    - **toon onderwerpregeling in het paneel van Voorwaarden**: selecteer dit om een onderwerpregeling in het voorwaardenpaneel te bekijken. Als u deze optie uitschakelt, worden de gedefinieerde voorwaarden weergegeven in het deelvenster Voorwaarden.
 
@@ -82,11 +82,11 @@ Er zijn twee opties — **de spellingcontrole van AEM** en **Browser spellingcon
 
 Deze instelling bepaalt de deelvensters die worden weergegeven in de deelvensters links en rechts in de Editor en de kaartconsole. U kunt de knop in- of uitschakelen om het gewenste deelvenster weer te geven of te verbergen.
 
-![](images/editor-setting-panel.png){width="650" align="left"}
+![](../user-guide/images/editor-setting-panel.png){width="650" align="left"}
 
 U kunt ook de volgorde definiëren waarin de functies in deelvensters worden weergegeven. Als u de standaardvolgorde van de beschikbare functies in de deelvensters wilt wijzigen, selecteert u de stippelbalken om de tabbladen met functies naar de gewenste locatie te slepen. Een eigenschap kan ook van de **Meer** sectie aan de belangrijkste sectie van een paneel worden bewogen, en vice versa zoals per het vereiste. Als de functies eenmaal opnieuw zijn geordend, staan deze in dezelfde volgorde in het rechter- en linkerdeelvenster.
 
-![](images/panels-screen.png){width="650" align="left"}
+![](../user-guide/images/panels-screen.png){width="650" align="left"}
 
 
 U kunt maximaal acht deelvensters tegelijk weergeven. Wijzigingen die u aanbrengt in de deelvensterinstellingen worden direct toegepast.
@@ -100,23 +100,23 @@ U kunt maximaal acht deelvensters tegelijk weergeven. Wijzigingen die u aanbreng
 
 Als beheerder kunt u de lijst met elementen beheren die een auteur in een bestand kan invoegen en ook de weergavenaam voor het element definiëren. Met de instelling voor de Elements-lijst kunt u de naam van het element opgeven volgens de DITA-specificaties en een label dat u wilt gebruiken in plaats van de door DITA gedefinieerde elementnaam:
 
-![](images/editor-setting-element-list.png){width="650" align="left"}
+![](../user-guide/images/editor-setting-element-list.png){width="650" align="left"}
 
 In de bovenstaande schermafbeelding heeft het element `p` een label Alinea gekregen en krijgt `codeblock` een label Codeblok samen met enkele andere elementen. Als u het **Gebruik slechts boven elementen** optie selecteert, dan slechts zullen de geldige elementen \ (op huidig toevoegingspunt \) van deze lijst in het **het element van het Tussenvoegsel** dialoogvakje worden getoond.
 
 In het volgende schermafbeelding worden slechts 3 van de 4 geconfigureerde elementen van de vorige schermafbeelding in de huidige context getoond:
 
-![](images/editor-setting-insert-element-list.PNG){width="300" align="left"}
+![](../user-guide/images/editor-setting-insert-element-list.PNG){width="300" align="left"}
 
 ## Lijst met kenmerken
 
 Net als in de lijst met elementen kunt u de lijst met kenmerken en hun weergavenamen bepalen die in de lijst met kenmerken van een element moeten worden weergegeven. In het volgende schermschot, slechts zijn 3 attributen gevormd om in de de attributenlijst van een element te worden getoond:
 
-![](images/editor-setting-attributes-list.png){width="650" align="left"}
+![](../user-guide/images/editor-setting-attributes-list.png){width="650" align="left"}
 
 Met deze instelling kunt u bij het toevoegen van een kenmerk aan een element alleen de lijst weergeven met kenmerken die in de lijst zijn geconfigureerd.
 
-![](images/editor-setting-add-attributes-list.png){width="300" align="left"}
+![](../user-guide/images/editor-setting-add-attributes-list.png){width="300" align="left"}
 
 
 ## Kleuren
@@ -148,7 +148,7 @@ Dit bevat de Profielen die kunnen worden gebruikt om de **output van de Kennisba
 
    - Om een profiel van Salesforce tot stand te brengen, selecteer de **Salesforce** Kennisbank van het **type van Server** dropdown. Voer een profielnaam in. In de **Plaats URL**, ga de consumentenplaats in u zou gebruiken om de output te publiceren en dan de **Consumentensleutel** toe te voegen en **Geheime consument** die door de de consumentenplaats van Salesforce wordt verstrekt. Dan, **bevestigt** en **sparen** het pas gecreëerde profiel.
 
-     ![ salesforce publiceert profiel in werkruimtemontages ](./images/salesforce-publish-profile.png){width="550" align="left"}
+     ![ salesforce publiceert profiel in werkruimtemontages ](../user-guide/images/salesforce-publish-profile.png){width="550" align="left"}
 
      >[!NOTE]
      >
@@ -173,7 +173,7 @@ Vorm de server ServiceNow om de activa te uploaden.
 
 - Om een profiel tot stand te brengen, selecteer de Kennisbank ServiceNow van het **type van Server** dropdown. Ga een profiel **Naam** in. In **ServiceNow URL**, ga de consumentenplaats in u voor het publiceren van de output zou gebruiken en dan de **Gebruikersnaam** en **Wachtwoord** toevoegde die} door de plaats van de consument ServiceNow wordt verstrekt. Dan, **bevestigt** en **sparen** het pas gecreëerde profiel.
 
-  ![ ServiceNow publiceert profiel ](./images/service-now-publish-profile.png){width="550" align="left"}
+  ![ ServiceNow publiceert profiel ](../user-guide/images/service-now-publish-profile.png){width="550" align="left"}
 
   Nadat u bevestigt, kunt u het Publish Profiel in de outputvoorinstellingen van een Kaart selecteren DITA en het gebruiken om de output aan de **Salesforce** of **** server te produceren ServiceNow die u hebt gekozen.
 
@@ -190,7 +190,7 @@ Dit tabblad bevat opties voor het configureren van de Schematron-validaties in d
   >
   > Het geselecteerde schemabestand of de geselecteerde schemabestanden blijven aanwezig voor het geselecteerde mapprofiel.
 
-  ![ Bevestiging in werkruimtemontages ](./images/editor-setting-validation.png){width="550" align="left"}
+  ![ Bevestiging in werkruimtemontages ](../user-guide/images/editor-setting-validation.png){width="550" align="left"}
 
   Hiermee voorkomt u dat gebruikers een bestand opslaan dat een regel verbreekt die is gedefinieerd in de geselecteerde Schema-bestanden. Als u deze optie niet selecteert, wordt het bestand niet gevalideerd voordat de wijzigingen worden opgeslagen.
 
@@ -203,13 +203,13 @@ Net als in de lijst Kenmerken kunt u de lijst met kenmerken instellen die in de 
 
 De kenmerken die voor een element zijn gedefinieerd, worden weergegeven in de layoutweergave en in de contourweergave.
 
-![](images/editor-settings-display-attributes.png){width="550" align="left"}
+![](../user-guide/images/editor-settings-display-attributes.png){width="550" align="left"}
 
 ## Vertaling
 
 Dit lusje bevat de opties om taalgroepen tot stand te brengen, de bronetiketten aan de doelversie te verspreiden, en het vertaalproject schoon te maken.
 
-![](images/editor-setting-translation.png){width="550" align="left"}
+![](../user-guide/images/editor-setting-translation.png){width="550" align="left"}
 
 - **Groepen van de Taal**: Als beheerder, kunt u een groep talen tot stand brengen en hen gebruiken als reeks om de inhoud te vertalen.
 
@@ -227,7 +227,7 @@ Dit lusje bevat de opties om taalgroepen tot stand te brengen, de bronetiketten 
       >
       > Knevel **tonen meer** aan **tonen minder** en bekijken slechts een paar talen.
 
-   1. Beweeg over de talen in een groep om ![ uit te geven geef pictogram ](images/edit_pencil_icon.svg) uit of schrap ![ ](images/Delete_icon.svg) de taalgroepen schrappen.
+   1. Beweeg over de talen in een groep om ![ uit te geven geef pictogram ](../user-guide/images/edit_pencil_icon.svg) uit of schrap ![ ](../user-guide/images/Delete_icon.svg) de taalgroepen schrappen.
    1. Sparen de **Montages**.
 
       >[!NOTE]
@@ -250,7 +250,7 @@ De metagegevens kunnen worden gekozen uit elke eigenschap onder het knooppunt `/
 Er wordt een fout weergegeven als het pad naar de metagegevens leeg is. Als u het label leeg laat, wordt het laatste element als label gekozen.
 
 
-![ meta-gegevenslusje in de werkruimtemontages ](images/editor-setting-metadata.png){width="550" align="left"}
+![ meta-gegevenslusje in de werkruimtemontages ](../user-guide/images/editor-setting-metadata.png){width="550" align="left"}
 
 *vorm de meta-gegevens voor het **de dialoogvakje van de Geschiedenis van de Versie**.*
 
@@ -259,4 +259,4 @@ Er wordt een fout weergegeven als het pad naar de metagegevens leeg is. Als u he
 U kunt ook de volgorde definiëren waarin deze metagegevenstags worden weergegeven. Als u de standaardvolgorde van deze tags wilt wijzigen, selecteert u de stippelbalken om de tags naar de gewenste locatie te slepen.
 De meta-gegevensetiketten verschijnen in de zelfde opeenvolging in het **de geschiedenisdialoogvakje van de Versie** van de Redacteur.
 
-**Bovenliggend onderwerp:**[ Inleiding aan de Redacteur ](web-editor.md)
+

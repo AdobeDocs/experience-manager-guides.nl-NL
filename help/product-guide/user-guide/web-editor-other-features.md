@@ -4,9 +4,9 @@ description: Andere functies van de Editor in Adobe Experience Manager Guides ve
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: c8ea6eae180ce7045a0364713604711aae2bb6bd
+source-git-commit: b00f8ba0e27cc26c48e1b058e25c05c4b6e9dffd
 workflow-type: tm+mt
-source-wordcount: '2556'
+source-wordcount: '2652'
 ht-degree: 0%
 
 ---
@@ -158,7 +158,7 @@ De Editor ondersteunt verklarende woordenlijsten die u kunt invoegen door `term`
 
 ### MathML-vergelijkingen invoegen
 
-Experience Manager Guides geeft u een out-of-the-box steun voor het opnemen van de vergelijkingen van MathML door integratie met [&#128279;](https://docs.wiris.com/en/mathtype/mathtype_web/intro) toepassing van het Web MathType . Om een vergelijking van MathML op te nemen, selecteer het **pictogram van het Element** en type mathml. Wanneer u mathml element van de lijst selecteert, wordt de **dialoog van MathML van het Tussenvoegsel** getoond:
+Experience Manager Guides geeft u een out-of-the-box steun voor het opnemen van de vergelijkingen van MathML door integratie met [ toepassing van het Web MathType ](https://docs.wiris.com/en/mathtype/mathtype_web/intro). Om een vergelijking van MathML op te nemen, selecteer het **pictogram van het Element** en type mathml. Wanneer u mathml element van de lijst selecteert, wordt de **dialoog van MathML van het Tussenvoegsel** getoond:
 
 ![ neem mathml vergelijking in mathml redacteur op ](images/insert-mathml-equation.png){width="550" align="left"}
 
@@ -246,8 +246,19 @@ Ga als volgt te werk om automatisch een id voor een of meerdere elementen te gen
 1. Selecteer de inhoud waarop u id&#39;s wilt toewijzen.
 1. Klik met de rechtermuisknop en selecteer **Generate IDs** van het contextmenu.
 
-   Alternatief kunt u in breadcrumb met de rechtermuisknop klikken en **selecteren produceert IDs**.
+Alternatief kunt u in breadcrumb met de rechtermuisknop klikken en **selecteren produceert IDs**.
 
+## Id&#39;s voor elementen in een kaart of onderwerp identificeren in de weergave Auteur
+
+Als een bepaald onderwerp of een kaart elementen met dubbele IDs bevat, verschijnt a **Dubbele IDs** knoop bij de bodem-juiste hoek van het het uitgeven gebied van de Inhoud naast de meningen van de Redacteur.
+
+![](images/duplicate-element-IDs.png){width="350" align="left"}
+
+Het selecteren van **Dubbele IDs** opent een popover lijst van alle dubbele IDs. U kunt de weergegeven id selecteren in de pop-up om naar het bijbehorende element te navigeren en deze bij te werken met een unieke id.
+
+>[!NOTE]
+>
+> De **Dubbele knoop IDs** is beschikbaar slechts in **Auteur** mening, en gelijkaardige element IDs wordt toegelaten over verschillende genestelde onderwerpen.
 
 
 ## Grote bestanden verwerken in de Editor
@@ -268,4 +279,4 @@ De belangrijkste kenmerken voor een betere afhandeling van grote bestanden zijn 
 
 - Het waarschuwingsbericht is alleen beschikbaar voor DITA-bestanden en is in alle weergaven zichtbaar: Auteur, Source en Layout.
 
-**Bovenliggend onderwerp:**&#x200B;[ Inleiding aan de Redacteur ](web-editor.md)
+**Bovenliggend onderwerp:**[ Inleiding aan de Redacteur ](web-editor.md)

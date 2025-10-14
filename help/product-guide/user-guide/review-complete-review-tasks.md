@@ -3,7 +3,8 @@ title: De revisietaak voltooien als Revisor
 description: Weet hoe u een taak kunt markeren als voltooid als Revisor in AEM Guides.
 feature: Reviewing
 role: User
-source-git-commit: 8e750fc6b20859ffd953c8c2b7a12cbe633ab02c
+exl-id: 99b64fb5-c509-41cf-b091-ba78b90db481
+source-git-commit: e38cd858201ea657ce276eb4b358b0d4eff502b2
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> De nieuwe functies die in dit artikel worden beschreven, zijn standaard ingeschakeld met de release van 2508 Experience Manager Guides als Cloud Services. Revisies die vóór de migratie zijn gemaakt, worden niet beïnvloed en blijven gebruikmaken van de eerdere workflow. Als u de bestaande functies zonder deze updates wilt blijven gebruiken, neemt u contact op met het team voor succes van de klant om de nieuwe functies uit te schakelen.
+> De nieuwe functies die in dit artikel worden beschreven, zijn standaard ingeschakeld met de release 2508 van Experience Manager Guides as a Cloud Service. Revisies die vóór de migratie zijn gemaakt, worden niet beïnvloed en blijven gebruikmaken van de eerdere workflow. Als u de bestaande functies zonder deze updates wilt blijven gebruiken, neemt u contact op met het team voor succes van de klant om de nieuwe functies uit te schakelen.
 
 Als recensent kunt u een revisietaak markeren als voltooid zodra u alle inhoud hebt gecontroleerd en de auteur op de hoogte wilt stellen. U kunt in dit stadium ook alle definitieve opmerkingen achterlaten.
 
@@ -66,4 +67,3 @@ De opmerkingen in het dialoogvenster worden in chronologische volgorde weergegev
 De **commentaren van de Taak** dialoog is toegankelijk voor alle gebruikers betrokken bij de overzichtstaak, met inbegrip van de Auteur of initiatiefnemer van de overzichtstaak en andere Reviewers. Daarom kunnen de opmerkingen van andere revisoren (indien van toepassing) ook worden weergegeven in het dialoogvenster Taakopmerkingen. Dit helpt duidelijke en traceerbare communicatie door het revisieproces te verzekeren.
 
 Na het controleren van de feedback op taakniveau kan de auteur om een nieuwe beoordeling vragen of de controletaak sluiten. In beide gevallen, blijven alle commentaren die tijdens het overzichtsproces worden gevangen beschikbaar in de **commentaren van de Taak** dialoog voor verwijzing.
-

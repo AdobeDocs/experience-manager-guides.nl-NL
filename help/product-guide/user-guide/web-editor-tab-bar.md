@@ -3,9 +3,10 @@ title: Tabbalk in de Editor
 description: Krijg om de bar van het Lusje in de Redacteur te kennen. Leer meer over de Editor-interface en -functies in Adobe Experience Manager Guides.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: b3597cac602cf5a22aff9d8db108e3652591d662
+exl-id: 02e45d34-898f-411c-bd80-bd4f2364b7d7
+source-git-commit: e14b19ff7c128899b4536d5b8c4290c476991bef
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -22,7 +23,7 @@ Toont de momenteel geopende onderwerpen in de Redacteur als dossierlusjes. U kun
 
 >[!NOTE]
 >
-> Als beheerder kunt u de lijst met bestanden ook weergeven op bestandsnamen op de tabbladen. Selecteer de **Filename** optie van de **3&rbrace; sectie van de de vertoningsconfiguratie van de dossiers van de Redacteur in [ voorkeur van de Gebruiker ](./intro-home-page.md#user-preferences).**
+> Als beheerder kunt u de lijst met bestanden ook weergeven op bestandsnamen op de tabbladen. Selecteer de **Filename** optie van de **3} sectie van de de vertoningsconfiguratie van de dossiers van de Redacteur in** voorkeur van de Gebruiker [.](./intro-home-page.md#user-preferences)
 
 Als u het tabblad Bestand selecteert, wordt een contextmenu geopend met de opties Opslaan als nieuwe versie, Kopiëren, Zoeken in, Toevoegen aan, Eigenschappen, Splitsen, Downloaden als PDF en Sluiten.
 
@@ -50,6 +51,10 @@ Een krachtig, door AI aangedreven hulpmiddel dat wordt ontworpen om uw productiv
    - **de Diensten van de Wolk**: Als u de Diensten van de Wolk gebruikt, die de **Assets** optie selecteren neemt u aan de pagina van de Navigatie van AEM.
 
    - **Op-gebouwSoftware**: Als u Adobe Experience Manager Guides (4.2.1 en later) gebruikt, die de **optie van Assets** selecteert neemt u aan uw huidige dossierweg in Assets UI.
-- **Montages**: Neemt u aan de dialoog van de Montages van de Redacteur. Voor details, verwijs naar [ Werkend met de Montages van de Redacteur ](./web-editor-settings.md).
+- **de montages van Workspace**: Neemt u aan de de montagedialoog van Workspace. Voor details, vorm de mening [ de montages van Workspace ](../cs-install-guide/workspace-settings.md).
 
-**Bovenliggend onderwerp:**&#x200B;[ Inleiding aan de Redacteur ](web-editor.md)
+>[!NOTE]
+>
+> Als het gebruiken van Adobe Experience Manager Guides in een opstelling op locatie, blijft de de montagesoptie van Workspace als **Montages** onder het Meer actiemenu verschijnen.
+
+**Bovenliggend onderwerp:**[ Inleiding aan de Redacteur ](web-editor.md)

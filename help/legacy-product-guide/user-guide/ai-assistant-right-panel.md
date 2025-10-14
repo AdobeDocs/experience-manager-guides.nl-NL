@@ -2,7 +2,8 @@
 title: De AI-assistent gebruiken om documenten slim te maken
 description: Leer hoe u de AI-assistent gebruikt om documenten met slimme efficiëntie te ontwerpen in de webeditor.
 hide: true
-source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
+exl-id: c7d37da8-e838-47a2-b469-287bcd841933
+source-git-commit: 8659035c57ce2b6f760b342fa9d88d656fcabf23
 workflow-type: tm+mt
 source-wordcount: '1054'
 ht-degree: 0%
@@ -16,8 +17,8 @@ Experience Manager Guides biedt een AI Assistant-hulpprogramma waarmee u sneller
 
 >[!NOTE]
 >
-> Om de AI Hulpeigenschap in het juiste paneel toe te voegen, moet uw systeembeheerder de **AI Medewerker** optie onder het **Panelen** lusje in het **pictogram van de Montages van de Redacteur** ![ van de Montages van de Redacteur ](./images/editor_settings_icon.svg) selecteren.
-> U moet ook het document uitchecken om het AI-assistent-pictogram weer te geven.
+> Om de AI Hulpeigenschap in het juiste paneel toe te voegen, moet uw systeembeheerder de **AI Medewerker** optie onder het **3} lusje van Comités {in het** de montages van Workspace **** de montagespictogram van Workspace ![ selecteren.](./images/editor_settings_icon.svg)
+> > U moet ook het document uitchecken om het AI-assistent-pictogram weer te geven.
 
 Deze functie is alleen beschikbaar voor DITA-onderwerpen. Na het selecteren van de tekst in een onderwerp, kunt u verkiezen om het even welke AI Hulpacties uit te voeren:
 
@@ -57,7 +58,7 @@ U kunt een tekstprompt gebruiken om de inhoud te wijzigen en een uitvoer te gene
    - Typ de vraag in het tekstvak.
 
 
-1. Selecteer **![ Regenereer pictogram ](./images/refresh-icon.svg) voor een andere reactie of output die op uw herinnering, als de hulpmiddelen van AI wordt gebaseerd.**
+1. Selecteer **** Regenereer pictogram ![ voor een andere reactie of output die op uw herinnering, als de hulpmiddelen van AI wordt gebaseerd.](./images/refresh-icon.svg)
 
 1. (Facultatief) Uitgezochte **breid** uit ![ ](./images/expand-icon.svg) om de **de tekstherinnering van het Gebruik** redacteur te openen. De huidige en de gegenereerde inhoud worden weergegeven. U kunt de inhoud van de bronlay-out bewerken en de voorvertoning controleren.
 
@@ -70,7 +71,7 @@ U kunt een tekstprompt gebruiken om de inhoud te wijzigen en een uitvoer te gene
 
 1. U kunt de vraag in de redacteur ook uitgeven en de reactie regenereren. U kunt bijvoorbeeld de vraag wijzigen om de tekst overzichtelijker te maken in ongeveer 40 woorden.
 
-   ![ de snelle redacteur van de hulptekst van de ai &lbrace;](./images/ai-assisstant-text-prompt.png)
+   ![ de snelle redacteur van de hulptekst van de ai {](./images/ai-assisstant-text-prompt.png)
 
 1. U kunt de bron van de gegenereerde inhoud verifiëren en deze indien nodig bewerken.
 

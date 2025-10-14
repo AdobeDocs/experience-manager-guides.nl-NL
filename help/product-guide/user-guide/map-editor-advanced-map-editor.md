@@ -4,9 +4,9 @@ description: Ken de eigenschappen van de Redacteur van de Kaart in Adobe Experie
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 02a149bbb40615c07d2744f0899a370c91eb83d2
+source-git-commit: 6235af9bf85b2d0e2007bd2279d8ac018f82ffc1
 workflow-type: tm+mt
-source-wordcount: '2578'
+source-wordcount: '2563'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Toont de dialoog van het onderwerponderzoek. Navigeer aan het onderwerp/kaartdos
 
 **de groep van het Onderwerp** - ![](images/topic-group.svg)
 
-Voeg het element `topicgroup` in. Voor meer informatie over het groeperen van onderwerpen, bekijk de [ documentatie 0&rbrace; topicgroup &lbrace;in de Specificatie van de Taal van OASIS DITA.](https://docs.oasis-open.org/dita/v1.0/langspec/topicgroup.html)
+Voeg het element `topicgroup` in. Voor meer informatie over het groeperen van onderwerpen, bekijk de [ documentatie 0} topicgroup {in de Specificatie van de Taal van OASIS DITA.](https://docs.oasis-open.org/dita/v1.0/langspec/topicgroup.html)
 
 **Zeer belangrijke definitie** - ![](images/key-definition.svg)
 
@@ -146,7 +146,7 @@ Bovendien kunt u de volgende pictogrammen weergeven en de verwante taken uitvoer
 
 **Tussenvoegsel vóór/Tussenvoegsel na** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
-Geeft het element **Invoegen voor of &#x200B;** Element invoegen na dialoogvenster weer. Selecteer het element dat u op de kaart wilt invoegen. Afhankelijk van de bewerking wordt het nieuwe element ingevoegd voor of na het huidige element op de kaart.
+Geeft het element **Invoegen voor of **Element invoegen na dialoogvenster weer. Selecteer het element dat u op de kaart wilt invoegen. Afhankelijk van de bewerking wordt het nieuwe element ingevoegd voor of na het huidige element op de kaart.
 
 **Element** - ![](images/Add_icon.svg)
 
@@ -343,12 +343,12 @@ In het rechterdeelvenster worden de eigenschappen Inhoud en Kaart weergegeven in
 
 Het deelvenster Eigenschappen voor inhoud bevat informatie over het type onderwerp dat op dat moment in de kaart is geselecteerd, de koppeling-URL en de bijbehorende kenmerken. Voor meer details, mening [ Eigenschappen van de Inhoud ](web-editor-features.md#right-panel) in de Redacteur.
 
-- **Andere Attributen** als uw beheerder een profiel voor attributen heeft gecreeerd, dan zult u die attributen samen met hun gevormde waarden krijgen. Gebruikend het paneel van inhoudseigenschappen, kunt u die attributen kiezen en hen toewijzen aan relevante inhoud in uw onderwerp. U kunt attributen ook toewijzen die door uw beheerder onder het **worden gevormd attributen van de Vertoning** lusje in de redacteursmontages. De kenmerken die voor een element zijn gedefinieerd, worden weergegeven in de layoutweergave en in de contourweergave. Dit helpt u om een snelle blik bij alle onderwerpen in een kaart te hebben waarvoor een bepaald attribuut wordt bepaald. Alle onderwerpen met het kenmerk `audience` worden bijvoorbeeld gedefinieerd als `US` .
+- **Andere Attributen** als uw beheerder een profiel voor attributen heeft gecreeerd, dan zult u die attributen samen met hun gevormde waarden krijgen. Gebruikend het paneel van inhoudseigenschappen, kunt u die attributen kiezen en hen toewijzen aan relevante inhoud in uw onderwerp. U kunt attributen ook toewijzen die door uw beheerder onder **worden gevormd attributen van de Vertoning**. De kenmerken die voor een element zijn gedefinieerd, worden weergegeven in de layoutweergave en in de contourweergave. Dit helpt u om een snelle blik bij alle onderwerpen in een kaart te hebben waarvoor een bepaald attribuut wordt bepaald. Alle onderwerpen met het kenmerk `audience` worden bijvoorbeeld gedefinieerd als `US` .
 
   ![ lay-outweergave ](images/layout-inline-attributes.png){width="650" align="left"}
 
 
-  Voor meer details, bekijk de *attributen van de Vertoning* binnen de *3&rbrace; eigenschapbeschrijving van Montages &lbrace;in de* Redacteur [.](web-editor-features.md#main-toolbar)
+  Voor meer details, mening [ attributen van de Vertoning ](../cs-install-guide/workspace-settings.md#display-attributes).
 
 - **Meta-gegevens** Gebruikend de meta-gegevens, kunt u de meta-gegevensinformatie plaatsen. U kunt de NAV-titel, Tekst koppelen, Korte beschrijving en Trefwoorden definiëren.
 

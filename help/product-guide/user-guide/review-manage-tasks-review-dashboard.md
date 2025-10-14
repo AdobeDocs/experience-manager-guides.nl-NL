@@ -1,12 +1,12 @@
 ---
 title: Revisietaken beheren met het dashboard Revisie
-description: Revisietaken beheren via het revisiedashboard in AEM Guides. Leer de handelingen uitvoeren onder de taak, inhoud, tabblad revisoren en controleer de status van een revisietaak.
+description: Revisietaken beheren via het revisiedashboard in AEM Guides. Leer de handelingen uitvoeren onder de taak, inhoud, tabblad Revisoren en controleer de status van een revisietaak.
 exl-id: 4fef5653-1c73-4b68-adf2-b24145555142
 feature: Reviewing
 role: User
-source-git-commit: 19e521ed790a7ac25afab88e8878250f943d9bff
+source-git-commit: e38cd858201ea657ce276eb4b358b0d4eff502b2
 workflow-type: tm+mt
-source-wordcount: '1348'
+source-wordcount: '1437'
 ht-degree: 0%
 
 ---
@@ -39,13 +39,17 @@ Voer de volgende stappen uit om toegang te krijgen tot en gebruik te maken van h
 
    Het revisiedashboard bevat de details over de revisietaak, zoals de taaknaam, die de revisie heeft gestart, de datum waarop de revisie is gestart, de datum waarop de revisie is gestart, de status, het aantal nieuwe opmerkingen dat niet is geaccepteerd of afgewezen door de auteur en de naam van de controleurs. De taken worden weergegeven in de volgorde van nieuw gemaakte taken naar oudere taken.
 
+   In het dashboard van het Overzicht, kan het **gebied van de Status** één van de volgende waarden tonen:
+   - **Bezig**: Dit wijst erop dat het overzicht nog lopend is.
+   - **Gesloten**: Dit wijst erop dat de overzichtstaak is voltooid.
+
    >[!NOTE]
    >
    > Als u de verbinding van de Taak van het Overzicht selecteert, wordt het onderwerp of kaartdossier dat voor overzicht wordt verzonden geopend.
 
 1. Selecteer een revisietaak.
 
-   U wordt getoond geeft Eigenschappen uit en [ 1&rbrace; opties van de Status &lbrace;in de toolbar.](#check-review-status-id199RF0A0UHS)
+   U wordt getoond geeft Eigenschappen uit en [ 1} opties van de Status {in de toolbar.](#check-review-status-id199RF0A0UHS)
 
 1. Als u **selecteert geef Eigenschappen** uit, wordt de pagina van de Details van de Taak getoond.
 
@@ -59,7 +63,7 @@ Voer de volgende stappen uit om toegang te krijgen tot en gebruik te maken van h
 U kunt de volgende acties onder de **Taak** tabel uitvoeren:
 
 - Wijzig de titel van de taak op het **gebied van de Titel**.
-- Voeg standaardwijzers in **toe toewijzen aan** drop-down lijst. De revisoren die u hier toevoegt, hebben toegang tot alle onderwerpen die deel uitmaken van deze revisietaak. U kunt verkiezen om meer recensenten aan specifieke onderwerpen te verwijderen of selectief toe te voegen van het [ lusje van Revisoren ](#reviewer-tab-id199RF0N0MUI).
+- Voeg standaardwijzers in **toe toewijzen aan** drop-down lijst. De revisoren die u hier toevoegt, hebben toegang tot alle onderwerpen die deel uitmaken van deze revisietaak. U kunt verkiezen om meer recensenten aan specifieke onderwerpen te verwijderen of selectief toe te voegen van het [ lusje van Revisoren ](#Reviewer-tab-id199RF0N0MUI).
 - Werk de beschrijving van de taak op het **gebied van de Beschrijving** bij.
 - Wijzig **Verschuldigde Datum**. U kunt de deadline voor het voltooien van de taak voorbereiden of uitstellen.
 - Selecteer de optie om gebruikers te beperken tot het bekijken van alleen die onderwerpen die aan hen zijn toegewezen.
@@ -83,7 +87,7 @@ U kunt de volgende acties onder de **Inhoud** tabel uitvoeren:
 
 - Wijzig de versie van het onderwerp dat ter controle wordt verzonden. U kunt de recentste versie van het onderwerp, versie zoals op datum, versie met specifiek etiket, of versie met een specifieke basislijn kiezen \(voor een kaart DITA \).
 
-- Selecteer **Update** om de bijgewerkte versie van het onderwerp met de recensenten te delen. De controleurs krijgen een e-mailbericht met de mededeling dat de nieuwere versie van het onderwerp ter controle is verzonden. De volgende keer dat een revisor het onderwerp opent, wordt de bijgewerkte versie van het onderwerp weergegeven.
+- Selecteer **Update** om de bijgewerkte versie van het onderwerp met de recensenten te delen. De controleurs krijgen een e-mailbericht met de mededeling dat de nieuwere versie van het onderwerp ter controle is verzonden. De volgende keer dat een recensent het onderwerp opent, bekijken zij de bijgewerkte versie van het onderwerp.
 
   >[!NOTE]
   >
@@ -94,7 +98,7 @@ U kunt de volgende acties onder de **Inhoud** tabel uitvoeren:
 - Selecteer **Dupliceer** om een nieuwe overzichtstaak tot stand te brengen gebruikend de huidige taak als basis.
 
 
-## Het tabblad Revisoren {#reviewer-tab-id199RF0N0MUI}
+## Het tabblad Revisoren {#Reviewer-tab-id199RF0N0MUI}
 
 ![](images/reviewers-tab.png){align="left"}
 
@@ -107,27 +111,33 @@ U kunt de volgende acties onder **Recensenten** tabel uitvoeren:
   >
   > U kunt een onderwerp ook individueel selecteren of schrappen door op checkbox naast het onderwerp te selecteren.
 
-- **voeg toe**: Toont de Add dialoog van Recensenten. U kunt de naam typen van een revisor of gebruikersrol \(of groep\) die u als controleur wilt toevoegen aan de geselecteerde onderwerpen.
-- **verwijder**: Toont de Remove dialoog van Recensenten. U kunt de naam typen van een revisor of gebruikersrol \(of groep\) die u als controleur wilt verwijderen uit de geselecteerde onderwerpen.
+- **voeg toe**: Toont de Add dialoog van Recensenten. U kunt de naam typen van een revisor of gebruikersrol \(of groep\) die u als Revisor wilt toevoegen aan de geselecteerde onderwerpen.
+- **verwijder**: Toont de Remove dialoog van Recensenten. U kunt de naam typen van een revisor of gebruikersrol \(of groep\) die u als Revisor wilt verwijderen uit de geselecteerde onderwerpen.
 - **opnieuw toewijzen**: Toont het Opnieuw toewijzen van de dialoog van Revisoren. U kunt de naam typen van een revisor of gebruikersrol \(of groep\) waaraan u de revisietaak wilt toewijzen. Hiermee verwijdert u alle bestaande revisoren uit de geselecteerde onderwerpen en wijst u de nieuw geselecteerde revisoren toe aan deze onderwerpen.
-- **Uitvoer**: Staat u toe om de details van de overzichtstaak in een Csv- dossier uit te voeren. Het bestand bevat details zoals het pad en de titel van het onderwerp, de naam van de controleur en de versie van de onderwerpen die ter controle zijn verzonden.
+- **Uitvoer**: Staat u toe om de details van de overzichtstaak in een Csv- dossier uit te voeren. Het bestand bevat details zoals het pad en de titel van het onderwerp, de naam van de revisor en de versie van de onderwerpen die ter controle zijn verzonden.
 - **geeft Recensenten** uit: Selecterend het ![](images/edit_pencil_icon.svg) pictogram in de onderwerpenlijst toont de Edit dialoog van Reviewers. U kunt revisoren voor het geselecteerde onderwerp toevoegen aan of verwijderen uit dit dialoogvenster.
 
 ## De status van een revisietaak controleren {#check-review-status-id199RF0A0UHS}
 
-Van de belangrijkste pagina van het Dashboard van het Overzicht, als u een overzichtstaak selecteert en **Status** kiest, wordt het statusrapport van de overzichtstaak getoond.
+In Experience Manager Guides heeft elke controletaak een status die de huidige status weerspiegelt. Van het Dashboard van het Overzicht, kunt u tot deze informatie toegang hebben door een taak te selecteren en de **optie van de Status** te kiezen.
 
-![](images/review-status-report.png){align="left"}
+![](images/review-dashboard-select-option.png){width="650" align="left"}
+
+Hiermee wordt een statusrapport van de revisietaak geopend, zoals hieronder wordt getoond:
+
+![](images/check-review-status-dashboard.png){width="650" align="left"}
+
+Alternatief, kunt u tot het statusrapport van het [ paneel van het Overzicht ](./web-editor-left-panel.md#review) in de Redacteur direct toegang hebben. Open een actieve overzichtstaak van het paneel van het Overzicht, de uitgezochte **taak van de Update** en kies **de revisiestatus van de Controle**.
 
 Het statusrapport voor de controletaak bevat de volgende details:
 
-- Naam of namen van de controleur aan wie de revisietaak is toegewezen.
+- Naam of namen van de revisor aan wie de revisietaak is toegewezen.
 - De kolom Status geeft de revisiestatus aan. De status kan een van de volgende zijn:
-   - **niet Begonnen**: De recensent heeft nog niet de overzichtsverbinding geopend.
-   - **Bezig**: De recensent heeft de overzichtsverbinding geopend en is bezig het onderwerp te herzien.
-   - **Voltooid**: De recensent heeft de overzicht door de overzichtstaak te voltooien die aan hen wordt toegewezen. De revisietaak bevindt zich in het aanmeldingsvak van AEM voor elke revisor.
+   - **niet begonnen**: De recensent heeft nog niet de overzichtstaak geopend.
+   - **Bezig**: De recensent heeft de overzichtstaak geopend en is bezig het onderwerp te herzien.
+   - **Volledig**: De recensent heeft de revisie voltooid en de taak duidelijk zoals volledig in het Overzicht UI. De revisietaak vindt u in het aanmeldingsvak van AEM voor elke revisor.
 - Wanneer een recensent een overzichtsverbinding opent en aan een bepaald onderwerp navigeert dat het onderwerp aan de Onderwerpen Gereviseerde lijst wordt toegevoegd. Op deze manier kunnen auteurs bepalen of de revisoren hun respectievelijke secties al dan niet hebben geopend. Eventuele opmerkingen worden tussen haakjes weergegeven.
 - Het totale aantal opmerkingen over alle onderwerpen. In het geval van veelvoudige onderwerpen onder overzicht, wordt het aantal commentaren voor elk onderwerp vermeld \ (tussen haakjes \) naast de onderwerpnaam.
-- De datum waarop een onderwerp voor het laatst is geopend door de revisor.
+- De datum waarop een onderwerp voor het laatst is geopend door de Revisor.
 
-**Bovenliggend onderwerp:**&#x200B;[ Inleiding aan overzicht ](review.md)
+**Bovenliggend onderwerp:**[ Inleiding aan overzicht ](review.md)

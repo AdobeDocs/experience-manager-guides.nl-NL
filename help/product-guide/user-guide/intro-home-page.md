@@ -4,9 +4,9 @@ description: Meer weten over de startpagina van de Adobe Experience Manager Guid
 feature: Authoring
 role: User
 exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
-source-git-commit: 03f117381bda7d31b50085b83f309e24f9a75210
+source-git-commit: f9b879d6d374334a08a1d3b0a47b0cb419f02140
 workflow-type: tm+mt
-source-wordcount: '1824'
+source-wordcount: '1966'
 ht-degree: 0%
 
 ---
@@ -50,6 +50,18 @@ De functies in de navigatiebalk worden als volgt uitgelegd:
   De [ AI Medewerker ](./ai-assistant.md) eigenschap is momenteel slechts beschikbaar voor Adobe Experience Manager als Cloud Service.
 - **pas overzichtssectie** aan: Staat u toe om widgets in de sectie te verbergen of te tonen Widgets.
 - **profiel van de Omslag in gebruik**: Toont het omslagprofiel dat momenteel wordt gebruikt.
+- **Meer acties**: Verleent toegang tot extra opties. Als u deze knop selecteert, wordt een menu geopend met de volgende opties:
+
+   - **Assets**: Neemt u aan een bestemming die op uw opstelling wordt gebaseerd.
+      - **de Diensten van de Wolk**: Als u de Diensten van de Wolk gebruikt, die de **Assets** optie selecteren neemt u aan de pagina van de Navigatie van AEM.
+
+      - **Op-gebouwSoftware**: Als u Adobe Experience Manager Guides (4.2.1 en later) gebruikt, die de **optie van Assets** selecteert neemt u aan uw huidige dossierweg in Assets UI.
+   - **de montages van Workspace**: Neemt u aan de **de montages van Workspace** dialoog. Voor details, vorm de mening [ de montages van Workspace ](../cs-install-guide/workspace-settings.md).
+
+     >[!NOTE]
+     >
+     > Op de startpagina is de optie Workspace-instellingen alleen beschikbaar voor de installatie van Cloud-services. In een installatie op locatie is de optie Meer handelingen niet beschikbaar op de startpagina. U kunt de relevante instellingen echter wel openen via de Editor-interface en de kaartconsole door naar Meer opties > Instellingen te navigeren.
+
 - **breid mening** uit: Staat u toe om de paginamening uit te breiden gebruikend **breid** pictogram uit. In deze weergave is de kopbalk verborgen en wordt de ruimte van de inhoud gemaximaliseerd. Om aan de standaardmening terug te keren, gebruik **Uitgang het uitgebreide meningspictogram**.
 
 ## Deelvenster Links
@@ -101,7 +113,7 @@ De volgende widgets zijn aanwezig in de sectie Widgets:
   De volgende opties zijn beschikbaar wanneer u de muisaanwijzer op een bestand plaatst:
 
    - **Open in redacteur**: Staat u toe om het dossier in de Redacteur te openen. U kunt een bestand ook openen door het te selecteren.
-   - **Vastzetten/unpin**: Staat u toe om één of meerdere dossiers aan Recente dossiers widget vast te zetten. Vastgezette bestanden worden bovenaan in de widgetlijst weergegeven. Om een dossier los te maken, gebruik **&#x200B;**&#x200B;optie vrijmaken.
+   - **Vastzetten/unpin**: Staat u toe om één of meerdere dossiers aan Recente dossiers widget vast te zetten. Vastgezette bestanden worden bovenaan in de widgetlijst weergegeven. Om een dossier los te maken, gebruik **** optie vrijmaken.
    - **verwijder**: Staat u toe om het dossier uit Recente dossiers widget te verwijderen.
 
   **creeer nieuw dossier van het Nieuwe dossier dropdown menu**
@@ -169,9 +181,9 @@ De gebruikersvoorkeuren zijn beschikbaar voor alle auteurs. Met de voorkeuren ku
 
 - **Verschijning**: Het lusje van de Verschijning voorziet u van de opties om de thema&#39;s voor de toepassing en de bronmening van het inhoudsuitgevende gebied te selecteren. Op dit tabblad kunt u de volgende instellingen configureren:
 
-  ![](images/user_preference_editor_appearance-new.png){align="left"}
+  ![](images/user_preference_editor_appearance.png){align="left"}
 
-   - **het thema van de Toepassing en de mening van Source**: U kunt van de Lichte of Donkere thema&#39;s voor de toepassing en bronmening kiezen. In het geval van het thema Licht gebruiken de werkbalken en deelvensters een lichtgrijze achtergrond. In het geval van het thema Donker gebruiken de werkbalken en deelvensters een achtergrond met een zwarte kleur. Selecteer **thema van het apparaat van 0&rbrace; Gebruik &lbrace;om Experience Manager Guides toe te staan om de lichte en donkere thema&#39;s te selecteren die op het thema van uw apparaat worden gebaseerd.**
+   - **het thema van de Toepassing en de mening van Source**: U kunt van de Lichte of Donkere thema&#39;s voor de toepassing en bronmening kiezen. In het geval van het thema Licht gebruiken de werkbalken en deelvensters een lichtgrijze achtergrond. In het geval van het thema Donker gebruiken de werkbalken en deelvensters een achtergrond met een zwarte kleur. Selecteer **thema van het apparaat van 0} Gebruik {om Experience Manager Guides toe te staan om de lichte en donkere thema&#39;s te selecteren die op het thema van uw apparaat worden gebaseerd.**
 
      In alle thema&#39;s wordt het bewerkingsgebied van de inhoud weergegeven in een witte-kleurenachtergrond in de weergave Auteur.
 

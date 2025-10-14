@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lees de productdocumentatie voor Adobe Experience Manager Guides.
 breadcrumb-title: Documentatie voor AEM Guides
-source-git-commit: fc250384e887f28ab22248e787d1b003d1fa966c
+source-git-commit: fc262885e33f7874dd4a9a09cf3c90d3e6b805d5
 workflow-type: tm+mt
-source-wordcount: '2373'
-ht-degree: 2%
+source-wordcount: '2401'
+ht-degree: 1%
 
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 2%
       - Cloud Services {#cloud-release-notes}
          - [Implementatieinstructies](./release-info/deploy-xml-on-aemaacs.md)
          - Versies van 2025 {#2025-releases}
+            - 2025.10.0 Release {#2510-release}
+               - [Nieuwe functies](./release-info/whats-new-2025-10-0.md)
+               - [Opgeloste problemen](./release-info/fixed-issues-2025-10-0.md)
+               - [Upgradeinstructies](./release-info/upgrade-instructions-2025-10-0.md)
             - 2025.08.0 Release {#2508-release}
                - [Nieuwe functies](./release-info/whats-new-2025-08-0.md)
                - [Opgeloste problemen](./release-info/fixed-issues-2025-08-0.md)
@@ -151,8 +155,8 @@ ht-degree: 2%
                - [4.2.1 Opmerkingen bij de release](./release-info/release-notes-4-2-1.md)
                - [4.2 Opmerkingen bij de release](./release-info/release-notes-4-2.md)
          - [Opmerkingen bij de release 4.1.x](./release-info/release-notes-4-1.md)
-         - [ 4.0.x de Nota&#39;s van de Versie ](https://helpx.adobe.com/nl/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [ 3.8.x de Nota&#39;s van de Versie ](https://helpx.adobe.com/nl/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [ 4.0.x de Nota&#39;s van de Versie ](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [ 3.8.x de Nota&#39;s van de Versie ](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Handboek (nieuwe gebruikersinterface) {#user-guide}
    - Inleiding {#about-aemg}
       - [Info  [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -180,8 +184,7 @@ ht-degree: 2%
             - [Deelvenster Links](./user-guide/web-editor-left-panel.md)
             - [Inhoudsbewerkingsgebied](./user-guide/web-editor-content-editing-area.md)
             - [Rechterdeelvenster](./user-guide/web-editor-right-panel.md)
-         - [Extra functies in de Editor](./user-guide/web-editor-other-features.md)
-         - [Werken met de Editor-instellingen](./user-guide/web-editor-settings.md)
+         - [ Extra eigenschappen in de Redacteur ](./user-guide/web-editor-other-features.md)
          - [Sneltoetsen in de Editor](./user-guide/web-editor-keyboard-shortcuts.md)
          - [Weergaven in Editor](./user-guide/web-editor-views.md)
          - [Ondersteuning voor Schematron-bestanden](./user-guide/support-schematron-file.md)
@@ -350,7 +353,7 @@ ht-degree: 2%
       - Problemen oplossen {#troubleshooting}
          - [Time-out sessie](./user-guide/session-timeout-prompt.md)
 - Handboek (oude gebruikersinterface) {#user-guide-old-ui}
-   - [ overzicht van AEM Guides](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [ overzicht van AEM Guides ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installatie en configuratie {#install-guide}
    - Op locatie {#on-prem-ig}
       - [Basisbegrippen op locatie](./install-guide/introduction.md)
@@ -369,8 +372,8 @@ ht-degree: 2%
       - Contentmigratie {#content-migration}
          - [Migratie van niet-UUID naar UUID-inhoud](./install-guide/migrate-uuid-non-uuid.md)
          - Migratieproces {#migration-process}
-            - [Niet-UUID-inhoud migreren met versies](./install-guide/migrate-non-uuid-uuid.md)
-            - [ Migreer niet-UUID inhoud met versies (erfenis) ](./install-guide/migrate-non-uuid-uuid-with-versions-legacy.md)
+            - [4.3.1 Niet-UUID naar 4.3.2 migratie van UUID-inhoud](./install-guide/migrate-non-uuid-4-3.md)
+            - [ 4.6.0 niet-UUID aan 4.6.1 de migratie van de inhoud UUID ](./install-guide/migrate-non-uuid-uuid-4-6.md)
          - [Bestaande inhoud migreren](./install-guide/migrate-content.md)
          - [Bestaande DITA-inhoud uploaden](./install-guide/migrate-content-upload-existing-dita-content.md)
          - [Niet-DITA-inhoud migreren](./install-guide/migrate-content-non-dita.md)
@@ -475,6 +478,8 @@ ht-degree: 2%
          - [Aangepaste DITA-toewijzingssjabloon configureren](./cs-install-guide/conf-template-tags-custom-dita-map-templates.md)
       - Werken met documentstatussen {#doc-state-cs}
          - [Documentstatussen configureren](./cs-install-guide/customize-doc-state.md)
+      - Workspace-instellingen configureren {#workspace-configs}
+         - [ de montages van Workspace ](./cs-install-guide/workspace-settings.md)
       - Werken met de webeditorconfiguraties {#web-editor-configs-cs}
          - [Webeditor aanpassen](./cs-install-guide/conf-web-editor.md)
          - [Werkbalk Aanpassen](./cs-install-guide/conf-web-editor-customize-toolbar.md)
@@ -538,6 +543,7 @@ ht-degree: 2%
    - [Java-API om te werken met mapprofielen](./api-reference/folder-profile-java.md)
    - [Java-API voor het maken en activeren van pakketten](./api-reference/create-activate-package-java.md)
    - [Gebeurtenishandler voor nabewerking](./api-reference/post-process-event.md)
+   - [API om de status van naverwerking voor een map of middel bij te houden](./api-reference/track-post-processing-status.md)
    - [Bulkactivering voltooid, gebeurtenishandler](./api-reference/bulk-activation-complete-event.md)
    - [Omzetproces, gebeurtenishandler](./api-reference/conversion-complete-event.md)
 - Kennisbank {#knowledge-base}

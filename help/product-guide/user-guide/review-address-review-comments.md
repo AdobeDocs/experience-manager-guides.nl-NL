@@ -4,16 +4,16 @@ description: Leer hoe u revisieopmerkingen als auteur in AEM Guides kunt behande
 exl-id: 4c969788-f700-4fd6-8afa-8e5b411b59f3
 feature: Reviewing
 role: User
-source-git-commit: f8320d0e0b5982d932c9df46f8ccf35d5f44dbac
+source-git-commit: 35480e842f6c05811333a14e80c0e9b6431e9176
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1228'
 ht-degree: 0%
 
 ---
 
 # Opmerkingen voor revisie van adres {#id2056B0X0KBI}
 
-Als auteur, kunt u commentaren in een onderwerp richten gebruikend de Redacteur. De opmerkingen worden geladen op basis van de revisietaak die is geselecteerd in het deelvenster Revisie. Voor meer details, bekijk de **paneel** eigenschapbeschrijving van het Overzicht ![](images/active-review-tasklist-icon.svg) &lbrace;in de [ Linkerpaneel ](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.
+Als auteur, kunt u commentaren in een onderwerp richten gebruikend de Redacteur. De opmerkingen worden geladen op basis van de revisietaak die is geselecteerd in het deelvenster Revisie. Voor meer details, bekijk de **paneel** eigenschapbeschrijving van het Overzicht ![](images/active-review-tasklist-icon.svg) {in de [ Linkerpaneel ](../user-guide/web-editor-features.md#id2051EA0M0HS) sectie.
 
 De volgende secties beschrijven manieren om commentaren in de Redacteur te richten.
 
@@ -61,7 +61,7 @@ In de Editor bevat het rechterdeelvenster de pictogrammen Revisie en Wijzigingen
 
   >[!IMPORTANT]
   >
-  > De functie Opmerkingen importeren werkt alleen voor de documenten die niet zijn gewijzigd sinds ze zijn gedeeld voor revisie. Als u om het even welke verandering na het verzenden van het document voor overzicht hebt aangebracht, zult u een alarm aan **krijgen van de Invoer van de Kracht** commentaren in uw document. Dit leidt echter tot het verlies van alle updates die u in uw document hebt gemaakt. Het **alarm van de Invoer van 0&rbrace; Kracht wordt ook getoond als het document buiten wordt gecreeerd en dan voor overzicht wordt gedeeld.** U kunt de opmerkingen importeren.
+  > De functie Opmerkingen importeren werkt alleen voor de documenten die niet zijn gewijzigd sinds ze zijn gedeeld voor revisie. Als u om het even welke verandering na het verzenden van het document voor overzicht hebt aangebracht, zult u een alarm aan **krijgen van de Invoer van de Kracht** commentaren in uw document. Dit leidt echter tot het verlies van alle updates die u in uw document hebt gemaakt. Het **alarm van de Invoer van 0} Kracht wordt ook getoond als het document buiten wordt gecreeerd en dan voor overzicht wordt gedeeld.** U kunt de opmerkingen importeren.
 
   Als en wanneer u een opmerking accepteert of afwijst, wordt deze verwijderd uit de lijst Bijgehouden wijzigingen. Dit is ook een indicator voor het aantal opmerkingen dat in het document moet worden behandeld.
 
@@ -69,9 +69,10 @@ In de Editor bevat het rechterdeelvenster de pictogrammen Revisie en Wijzigingen
 - **G**: Onderzoek naar een tekst binnen commentaren.
 - **H**: Accepteer of verwerp een commentaar.
 
-- **I**: Pas een filter op de commentaren toe. U kunt filteren om opmerkingen weer te geven op basis van het revisietype \(alle, gemarkeerde, verwijderde, ingevoegde of notitie\), de revisiestatus \(alle, geaccepteerde, geweigerde of geen\), de revisoren \(alle of specifieke revisoren\(s\)\) of de versies van het onderwerp.
+- **I**: Pas een filter op de commentaren toe. U kunt filteren om opmerkingen weer te geven op basis van het revisietype \(alle, gemarkeerde, verwijderde, ingevoegde of notitie\), de revisiestatus \(alle, geaccepteerde, geweigerde of geen\), de revisoren \(alle of specifieke revisoren\(s\)\) of de versies van het onderwerp. Standaard zijn geen van de filters geselecteerd.
 
-**Antwoord aan een commentaar door andere gebruikers te etiketteren**
+  ![](images/review-comments-author-filter.png){width="350" align="left"}
+  **Antwoord aan een commentaar door andere gebruikers te etiketteren**
 
 Als auteur en initiator van de revisietaak kunt u reageren op revisieopmerkingen en andere gebruikers die bij dezelfde revisietaak zijn betrokken, een tag toewijzen om hun aandacht te richten of follow-ups toe te wijzen. Deze functionaliteit is alleen beschikbaar voor actieve revisietaken.
 
@@ -90,4 +91,4 @@ Als u de initiatiefnemer of Auteur van een overzichtstaak bent en het van de **c
 
 ![](images/review-comments-toolbar-disabled.png){width="350" align="left"}
 
-**Bovenliggend onderwerp:**&#x200B;[ Inleiding aan overzicht ](review.md)
+**Bovenliggend onderwerp:**[ Inleiding aan overzicht ](review.md)

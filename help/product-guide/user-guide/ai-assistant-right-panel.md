@@ -2,7 +2,7 @@
 title: De AI-assistent gebruiken om documenten slim te maken
 description: Leer hoe u de AI Assistant gebruikt om documenten met slimme efficiëntie te maken.
 exl-id: 47d37323-20bf-4444-a2c9-41c44b2c8daf
-source-git-commit: 3d344a1d1b8d51ddadd618db5296531f549dc70b
+source-git-commit: 8659035c57ce2b6f760b342fa9d88d656fcabf23
 workflow-type: tm+mt
 source-wordcount: '1058'
 ht-degree: 0%
@@ -15,7 +15,7 @@ Adobe Experience Manager Guides biedt een AI Assistant-hulpprogramma waarmee u s
 
 >[!NOTE]
 >
-> Deze eigenschap van de Authoring is beschikbaar voor slechts onderwerpen DITA, en kan van de interface van de Redacteur slechts worden betreden. Op de pagina van het Huis en de console van de Kaart, slechts wordt het **paneel van de Hulp** getoond. De opties die beschikbaar zijn onder de ontwerpfunctie worden geconfigureerd op mapprofielniveau door de beheerders met behulp van de Editor-instellingen.
+> Deze eigenschap van de Authoring is beschikbaar voor slechts onderwerpen DITA, en kan van de interface van de Redacteur slechts worden betreden. Op de pagina van het Huis en de console van de Kaart, slechts wordt het **paneel van de Hulp** getoond. De opties die beschikbaar zijn onder de ontwerpfunctie worden geconfigureerd op mapprofielniveau door de beheerders met de Workspace-instellingen.
 
 Na het selecteren van de tekst in een onderwerp, kunt u verkiezen om het even welke AI Hulpacties uit te voeren:
 
@@ -52,7 +52,7 @@ U kunt een tekstprompt gebruiken om de inhoud te wijzigen. Bijvoorbeeld, kunt u 
 
 1. (Facultatief) Uitgezochte **breid** uit ![ ](./images/expand-icon.svg) om de **de tekstherinnering van het Gebruik** redacteur te openen. De huidige en de gegenereerde inhoud worden weergegeven. U kunt de inhoud van de bronlay-out bewerken en de voorvertoning controleren.
 
-   ![ de snelle redacteur van de hulptekst van de ai &lbrace;](./images/text-prompt.png)
+   ![ de snelle redacteur van de hulptekst van de ai {](./images/text-prompt.png)
 
 
    >[!NOTE]

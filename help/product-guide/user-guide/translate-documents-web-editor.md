@@ -4,9 +4,9 @@ description: Vertaal uw inhoud vanuit de webeditor naar meerdere talen. Leer hoe
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 0d713f9ff4bd48aa90bce368d6ad7abf86ecbbf7
 workflow-type: tm+mt
-source-wordcount: '2365'
+source-wordcount: '2376'
 ht-degree: 0%
 
 ---
@@ -113,7 +113,7 @@ In een XLIFF-project wordt de inhoud geëxporteerd naar de industriestandaard XL
    - U kunt **selecteren creeert een nieuw meertalig vertaalproject** dat vertaalbanen voor alle talen zal omvatten die u voor vertaling hebt geselecteerd. Als u bijvoorbeeld Frans, Duits en Spaans hebt geselecteerd, wordt er een project met vertaalbanen voor alle drie de talen gemaakt.
    - Als u reeds een vertaalproject hebt, kunt u onderwerpen aan dat project toevoegen. Selecteer **toevoegen aan bestaande vertaalproject** optie van de lijst van het Project en kies een project van de Bestaande lijst van het Project van de Vertaling. U kunt deze projecten op meest recente, stijgende, of dalende orde sorteren.
 
-   - Als u **aan bestaand vertaalproject** selecteert, werkt deze verrichting de bestaande activaingang in het project bij als de activa reeds wordt toegevoegd en de verwante staat van de vertaalbaan in de *3&rbrace; staat van het Ontwerp &lbrace;is.*
+   - Als u **aan bestaand vertaalproject** selecteert, werkt deze verrichting de bestaande activaingang in het project bij als de activa reeds wordt toegevoegd en de verwante staat van de vertaalbaan in de *3} staat van het Ontwerp {is.*
       - Als de bestemmingstaal niet aanwezig in het project is, wordt een nieuw project gecreeerd voor het enig-taalvertaalproject, en een nieuwe baan wordt gecreeerd voor meertalig vertaalproject.
 
       - Als de baan reeds voor de bestemmingstaal aanwezig is en de baanstatus niet in de *staat van het Ontwerp* is, wordt een nieuwe baan gecreeerd binnen het zelfde project om de activa voor vertaling toe te voegen.
@@ -124,7 +124,7 @@ In een XLIFF-project wordt de inhoud geëxporteerd naar de industriestandaard XL
 
    - Als u het werkingsgebied voor een te vertalen project moet tot stand brengen, kunt u **selecteren creeert een nieuw scoping vertaalproject**. Hierdoor worden de kopieën niet voor vertaling verzonden en blijft de oorspronkelijke vertaalstatus van de bestanden behouden. Er is geen effect op het exemplaar van de bestemmingstaal van de genoemde onderwerpen die voor scoping worden verzonden.
 
-1. Op het **gebied van de Titel van het 0&rbrace; Project, ga een titel voor het project in.**
+1. Op het **gebied van de Titel van het 0} Project, ga een titel voor het project in.**
 1. Selecteer **voorleggen** om een nieuw vertaalproject tot stand te brengen.
 
 Een nieuw vertaalproject wordt gecreeerd met de geselecteerde versie van de onderwerpen. Op dit moment wordt een pop-upbericht weergegeven met de bevestiging dat het vertaalproject is gemaakt. Zodra alle exemplaren van de doeltaal in het vertaalproject beschikbaar zijn, krijgt u een bericht in Inbox. Zodra de doeltaalkopieën beschikbaar zijn in het vertaalproject, kunt u de vertaaltaak starten. Voor detailmening, [ Begin de vertaalbaan ](translation-first-time.md#id225IK030OE8).
@@ -157,7 +157,7 @@ Voor details bij vestiging globale en omslag-vlakke profielen, de mening *vormt 
 
 Met Experience Manager Guides kunt u het label van het bronbestand aan het doelbestand doorgeven. Zo kunt u gemakkelijk de bronversie van het vertaalde bestand identificeren.
 
-Om het bronversielabel in het doelexemplaar toe te voegen, moet uw systeembeheerder **toelaten doorgeven bronversielabels aan de optie van de doelversie** onder het **Vertaling** lusje in **Montages**.
+Om het bronversielabel in het doelexemplaar toe te voegen, moet uw systeembeheerder **toelaten doorgeven bronversielabels aan de optie van de doelversie** onder het **Vertaling** lusje in **montages van Workspace** (die als **Montages** voor **op-Prem** verschijnen).
 
 Als er bijvoorbeeld bronbestanden zijn waarop het versielabel `Release 1.0` is toegepast, kunt u ook het bronlabel \(`Release 1.0`\) aan het vertaalde bestand doorgeven.
 
@@ -179,7 +179,7 @@ Selecteer het **verschil** pictogram \ van de Tonen (![](images/show-difference-
 >
 > **toon verschil** pictogram \ (![](images/show-difference-icon.svg) \) verschijnt slechts voor DITA- dossiers die de vertaalstatus als **uit Synchronisatie** hebben.
 
-Het **dialoog van het Verschil van de Versie 0&rbrace; &lbrace;verschijnt.** Het toont de **Laatste vertaalde versie** en het **Geselecteerde versie** aantal op de linkerzijde. Het voorproefvenster toont de verschillen tussen de laatste vertaalde versie en de geselecteerde versie van het onderwerp.
+Het **dialoog van het Verschil van de Versie 0} {verschijnt.** Het toont de **Laatste vertaalde versie** en het **Geselecteerde versie** aantal op de linkerzijde. Het voorproefvenster toont de verschillen tussen de laatste vertaalde versie en de geselecteerde versie van het onderwerp.
 
 ![](images/version-diff.png){width="650" align="left"}
 
@@ -219,11 +219,11 @@ Selecteer de naam van de verwijzing in het dialoogvenster om deze te openen in d
 > 
 >Deze functie is beschikbaar voor de nieuwe vertaalprojecten die u maakt met Experience Manager Guides 2404 of hoger.  Dit heeft geen gevolgen voor bestaande projecten.
 
-Uw beheerder kan de **Opschoning van het Vertaalproject na voltooiing** optie onder het **Vertaling** lusje in **Montages van de Redacteur** vormen om de vertaalprojecten automatisch onbruikbaar te maken of te schrappen.
+Uw beheerder kan de **Opschoning van het Vertaalproject na voltooiing** optie onder het **Vertaling** lusje in **Workspace montages** vormen (verschijnen als **Montages** voor **op-Prem**) om de vertaalprojecten automatisch onbruikbaar te maken of te schrappen.
 
 Voor het uitvoeren van documentbeheer biedt Experience Manager Guides de mogelijkheid om de vertaalprojecten te verwijderen nadat u de vertaling hebt voltooid.
 
 U kunt de vertaalprojecten ook onbruikbaar maken als u hen later wilt gebruiken. Als u een project verwijdert, worden alle bestanden en mappen in het project verwijderd. Als u een project uitschakelt, wordt het niet verwijderd, maar in de opslagplaats bewaard. Maar u kunt een gehandicapt project niet bijwerken of uitgeven.  Het verwijderen of uitschakelen van een project heeft geen invloed op de vertaalstatus van verwijzingen.
 
 
-**Bovenliggend onderwerp:**&#x200B;[ Inleiding aan de Redacteur ](web-editor.md)
+**Bovenliggend onderwerp:**[ Inleiding aan de Redacteur ](web-editor.md)
