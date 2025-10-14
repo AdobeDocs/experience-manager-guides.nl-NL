@@ -24,7 +24,7 @@ Voer de volgende stappen uit om uw inhoud te migreren van niet-UUID versie 4.3.1
 >   1. Alle actieve revisies zijn gesloten.
 >   1. Alle vertaaltaken zijn afgesloten.
 > * Voordat u inhoud migreert naar de UUID-server, moet u controleren of er een niet-UUID-server is geïnstalleerd waarop een compatibele AEM Guides-versie is geïnstalleerd.
-> * Als u een versie gebruikt die ouder is dan 4.3.1, voert u een upgrade uit naar versie 4.3.1. Volg de [ verbeteringsinstructies ](./upgrade-xml-documentation.md) specifiek voor de vergunning gegeven versie van uw product.
+> * Als u een versie gebruikt die ouder is dan 4.3.1, voert u een upgrade uit naar versie 4.3.1. Volg de [&#x200B; verbeteringsinstructies &#x200B;](./upgrade-xml-documentation.md) specifiek voor de vergunning gegeven versie van uw product.
 > * Momenteel worden versies na 4.3.1 niet ondersteund voor migratie.
 
 
@@ -33,15 +33,15 @@ Voer de volgende stappen uit om uw inhoud te migreren van niet-UUID versie 4.3.1
 Download de vereiste pakketten van Adobe Software Distribution Portal, op basis van uw versie:
 
 
-1. **pre-migratie**: [ com.adobe.guides.pre-uuid-migratie-1.2.27.zip ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F3-0%2Fcom.adobe.guides.pre-uuid-migration-1.2.27.zip)
-1. **versie van UUID van de Download UUID 4.3.2**: [ com.adobe.fmdita-6.5-uuid-4.3.2.1977.zip ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F3-0%2Fcom.adobe.fmdita-6.5-uuid-4.3.2.1977.zip)
-1. **Migratie**: [ com.adobe.guides.uuid-verbetering-1.2.110.zip ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F3-0%2Fcom.adobe.guides.uuid-upgrade-1.2.110.zip)
+1. **pre-migratie**: [&#x200B; com.adobe.guides.pre-uuid-migratie-1.2.27.zip &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F3-0%2Fcom.adobe.guides.pre-uuid-migration-1.2.27.zip)
+1. **versie van UUID van de Download UUID 4.3.2**: [&#x200B; com.adobe.fmdita-6.5-uuid-4.3.2.1977.zip &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F3-0%2Fcom.adobe.fmdita-6.5-uuid-4.3.2.1977.zip)
+1. **Migratie**: [&#x200B; com.adobe.guides.uuid-verbetering-1.2.110.zip &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F3-0%2Fcom.adobe.guides.uuid-upgrade-1.2.110.zip)
 
 ## Premigratiecontroles
 
 Voer de volgende controles uit op niet-UUID versie 4.3.1:
 
-1. Installeer het pre-migratiepakket [ com.adobe.guides.pre-uuid-migratie-1.2.27.zip ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F3-0%2Fcom.adobe.guides.pre-uuid-migration-1.2.27.zip) over versie 4.3.1.
+1. Installeer het pre-migratiepakket [&#x200B; com.adobe.guides.pre-uuid-migratie-1.2.27.zip &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F3-0%2Fcom.adobe.guides.pre-uuid-migration-1.2.27.zip) over versie 4.3.1.
 
    >[!NOTE]
    >
@@ -60,7 +60,7 @@ Voer de volgende controles uit op niet-UUID versie 4.3.1:
    * Aantal bestanden met fouten
    * Bestanden met GUID-bestandsnaam
 
-   ![ lusje van de verenigbaarheidsbeoordeling in migratie ](assets/migration-compatibility-assessment-4-3-1.png)
+   ![&#x200B; lusje van de verenigbaarheidsbeoordeling in migratie &#x200B;](assets/migration-compatibility-assessment-4-3-1.png)
 
 
 1. Als de fout verschijnt, analyseert u de logboeken en corrigeert u deze fouten. U kunt de compatibiliteitsmatrix opnieuw uitvoeren nadat u de fouten hebt gecorrigeerd.
@@ -69,7 +69,7 @@ Voer de volgende controles uit op niet-UUID versie 4.3.1:
 
    Door meerdere en grote DITA-kaarten te selecteren, kunt u controleren of alle inhoud zonder problemen is gemigreerd. Als u voorinstellingen met basislijnen selecteert, zorgt u er ook voor dat basislijnen en versies correct worden gemigreerd.
 
-   ![ vormt het lusje van Bevestigingen in migratie ](assets/migration-configure-validation-4-3-1.png)
+   ![&#x200B; vormt het lusje van Bevestigingen in migratie &#x200B;](assets/migration-configure-validation-4-3-1.png)
 
 
 1. (Optioneel) Voer versiebeheer uit op de inhoud om overbodige versies te verwijderen en het migratieproces te versnellen. Om versie het zuiveren uit te voeren, selecteer de optie **Woorden van de Versie** van het migratiescherm en ga naar het gebruikersinterface gebruikend URL `http://<server- name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
@@ -77,7 +77,7 @@ Voer de volgende controles uit op niet-UUID versie 4.3.1:
    >
    >Dit hulpprogramma verwijdert geen versies die in basislijnen of revisies worden gebruikt of heeft labels.
 
-Voor meer details, zuiveren de mening [ oudere versies ](../install-guide/version-management.md#purge-older-versions-of-dita-files).
+Voor meer details, zuiveren de mening [&#x200B; oudere versies &#x200B;](../install-guide/version-management.md#purge-older-versions-of-dita-files).
 
 
 ## Migratievoorwaarden
@@ -89,10 +89,10 @@ Voor meer details, zuiveren de mening [ oudere versies ](../install-guide/versio
    * Stelt **Offline Tar samenpersen** alvorens deze activiteit te beginnen.
    * Zorg ervoor dat er tijdens het venster van deze migratie geen indexering of systeemonderhoud wordt gepland.
 
-1. Installeer de UUID-versie van de ondersteunde versie op de niet-UUID-versie. Bijvoorbeeld, als u 4.3.1 niet-UUID bouwt gebruikt, moet u versie UUID 4.3.2 [ com.adobe.fmdita-6.5-uuid-4.3.2.1977.zip ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F3-0%2Fcom.adobe.fmdita-6.5-uuid-4.3.2.1977.zip)) installeren en de migratie in werking stellen.
+1. Installeer de UUID-versie van de ondersteunde versie op de niet-UUID-versie. Bijvoorbeeld, als u 4.3.1 niet-UUID bouwt gebruikt, moet u versie UUID 4.3.2 [&#x200B; com.adobe.fmdita-6.5-uuid-4.3.2.1977.zip &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F3-0%2Fcom.adobe.fmdita-6.5-uuid-4.3.2.1977.zip)) installeren en de migratie in werking stellen.
 
 
-1. Installeer het uid pakket van de migratieverbetering [ com.adobe.guides.uuid-verbetering-1.2.110.zip ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F3-0%2Fcom.adobe.guides.uuid-upgrade-1.2.110.zip).
+1. Installeer het uid pakket van de migratieverbetering [&#x200B; com.adobe.guides.uuid-verbetering-1.2.110.zip &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F3-0%2Fcom.adobe.guides.uuid-upgrade-1.2.110.zip).
 1. Schakel draagraketten voor de volgende workflows uit met de URL: `http://<server-name>/libs/cq/workflow/content/console.html` .
 
    * Workflow voor DAM-update-middelen
@@ -126,7 +126,7 @@ Voor meer details, zuiveren de mening [ oudere versies ](../install-guide/versio
 
 1. Start `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html` .
 
-   ![ de verbeteringslusje van het Systeem in migratie ](assets/migration-system-upgrade-4-3-1.png)
+   ![&#x200B; de verbeteringslusje van het Systeem in migratie &#x200B;](assets/migration-system-upgrade-4-3-1.png)
    >[!NOTE]
    >
    > Als u &quot;DITA-elementback-up inschakelen&quot; kiest, worden de tijdelijke back-upbestanden opgeslagen onder `/content/uuid-upgrade` en worden de back-ups van het DITA-bestand verwijderd wanneer de migratie van een bestand is voltooid.
@@ -156,7 +156,7 @@ Voor meer details, zuiveren de mening [ oudere versies ](../install-guide/versio
 
 1. Zodra alle dossiers worden gemigreerd, uitgezochte **Verbetering van de Basislijn/van het Overzicht** van het linkerpaneel om de basislijnen en overzicht op het omslagniveau te migreren.
 
-![ Basislijn en overzicht lusje in migratie ](assets/migration-baseline-review-upgrade-4-3-1.png)
+![&#x200B; Basislijn en overzicht lusje in migratie &#x200B;](assets/migration-baseline-review-upgrade-4-3-1.png)
 
 >[!NOTE]
 >
@@ -190,7 +190,7 @@ Voor meer details, zuiveren de mening [ oudere versies ](../install-guide/versio
 
 1. Zodra de migratie wordt voltooid, bevestigt de uitgezochte **systeemverbetering** van het linkerpaneel en bevestigt de outputdossiers vóór en na de migratie om ervoor te zorgen dat de migratie succesvol is.
 
-   ![ bevestigt systeemverbeteringslusje in migratie ](assets/migration-validate-system-upgrade-4-3-1.png)
+   ![&#x200B; bevestigt systeemverbeteringslusje in migratie &#x200B;](assets/migration-validate-system-upgrade-4-3-1.png)
 
 1. Nadat de server is gemigreerd, kunt u de volgende workflows en configuraties (inclusief alle andere workflows die aanvankelijk tijdens de migratie waren uitgeschakeld) inschakelen om te blijven werken aan de server:
 

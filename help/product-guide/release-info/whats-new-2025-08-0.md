@@ -14,9 +14,9 @@ ht-degree: 0%
 
 Dit artikel behandelt de nieuwe en verbeterde functies die zijn geïntroduceerd met de release 2025.08.0 van Adobe Experience Manager Guides as a Cloud Service.
 
-Voor de lijst van kwesties die in deze versie worden bevestigd, mening [ Vaste kwesties in de versie 2025.08.0 ](fixed-issues-2025-08-0.md).
+Voor de lijst van kwesties die in deze versie worden bevestigd, mening [&#x200B; Vaste kwesties in de versie 2025.08.0 &#x200B;](fixed-issues-2025-08-0.md).
 
-Leer over [ verbeteringsinstructies voor de versie 2025.08.0 ](../release-info/upgrade-instructions-2025-08-0.md).
+Leer over [&#x200B; verbeteringsinstructies voor de versie 2025.08.0 &#x200B;](../release-info/upgrade-instructions-2025-08-0.md).
 
 
 ## Verbeterde revisieworkflow
@@ -32,7 +32,7 @@ Met deze verbeteringen kunnen gebruikers nu verwachten:
 - Efficiënte en tijdige revisiecycli
 - Minder handmatige inspanningen tijdens feedbackuitwisseling
 
-Voor meer details, bekijk [ Inleiding aan overzicht ](../user-guide/review.md)
+Voor meer details, bekijk [&#x200B; Inleiding aan overzicht &#x200B;](../user-guide/review.md)
 
 ## Configureerbare AI Assistant-handelingen in de Editor-instellingen
 
@@ -40,7 +40,7 @@ De recentste update introduceert verbeterde configuratie voor **Authoring snelle
 
 Zodra de **AI Medewerker** knevel wordt toegelaten, kunnen de Beheerders kiezen welke snelle acties onder het **Authoring** lusje zichtbaar zijn, die auteursinteractie helpen stroomlijnen. Deze zichtbaarheidsinstellingen gelden specifiek voor elk mapprofiel.
 
-Leer meer over [ AI medewerker in de montages van de Redacteur ](../cs-install-guide/workspace-settings.md#general) in Experience Manager Guides.
+Leer meer over [&#x200B; AI medewerker in de montages van de Redacteur &#x200B;](../cs-install-guide/workspace-settings.md#general) in Experience Manager Guides.
 
 ![](assets/authoring-quick-actions.png){width="350" align="left"}
 
@@ -52,7 +52,7 @@ Deze update introduceert verschillende verbeteringen die het maken, beheren en t
 De belangrijkste hooglichten zijn:
 
 - **Verbeterde het vlaggen steun in het ontwerpen van DITAVAL dossiers:** Experience Manager Guides brengt nieuwe mogelijkheden voor het aanpassen van de inhoud het publiceren door verbeterde het vlaggen steun in DITAVAL dossiers. U kunt nu begin- en eindmarkeringen toepassen rond specifieke inhoud, waaronder afbeeldingen, en secties met een vlag verrijken met opmaakopties zoals vet, cursief en meer. Om voorwaarde te behandelen overlapt, kan het **conflict van de Stijl** worden gevormd, dat het plaatsen van een standaardachtergrond en tekstkleur omvat, die duidelijkheid en consistentie in de output verzekeren. Deze markeringen worden volledig ondersteund in de native PDF-generatie en de resulterende uitvoer weerspiegelt op nauwkeurige en uitgebreide wijze alle toegepaste opmaakelementen.
-Voor meer details, mening [ Gebruik de DITAVAL Redacteur ](../user-guide/ditaval-editor.md).
+Voor meer details, mening [&#x200B; Gebruik de DITAVAL Redacteur &#x200B;](../user-guide/ditaval-editor.md).
 
   ![](assets/ditaval-flag-style-new.png){width="350" align="left"}
 
@@ -60,13 +60,13 @@ Voor meer details, mening [ Gebruik de DITAVAL Redacteur ](../user-guide/ditaval
 
   Bovendien verbetert deze update het maken van voorinstellingen voor uitvoer door bewerkbare DITAVAL-velden in verschillende indelingen in te schakelen, zodat gebruikers handmatig DITAVAL-paden kunnen opgeven.
 
-  Voor meer details, begrijpt de mening [ de output vooraf instelt ](../user-guide/generate-output-understand-presets.md) in Experience Manager Guides.
+  Voor meer details, begrijpt de mening [&#x200B; de output vooraf instelt &#x200B;](../user-guide/generate-output-understand-presets.md) in Experience Manager Guides.
 
 ## Verbeterde logboekfiltering voor uitvoergeneratie
 
 Deze versie brengt in verbeteringen UI aan het logboekfiltrerend vermogen van de outputgeneratie. U kunt de logboeken van de outputgeneratie nu beter voor alle vier verschillende niveaus filtreren; **Info**, **waarschuwen**, **Fout** (met inbegrip van zowel fouten als uitzonderingen), en **Fataal**; met betere en intuïtieve kleur-gecodeerde indicatoren die analyse en scherpte zichtbaarheid over de logboekstroom vereenvoudigen. Dankzij deze verbetering kunt u efficiënter door logbestanden navigeren en de kritieke problemen nauwkeurig opsporen.
 
-Voor meer details, mening [ Basis het oplossen van problemen ](../user-guide/generate-output-basic-troubleshooting.md).
+Voor meer details, mening [&#x200B; Basis het oplossen van problemen &#x200B;](../user-guide/generate-output-basic-troubleshooting.md).
 
 ![](./assets/log-file-new.png){align="left"}
 
@@ -77,7 +77,7 @@ De meest recente publicatieverbeteringen aan Experience Manager Guides voegen nu
 
 Het bestand `system_config.xml` bevat AEM-instantiedetails, zoals de URL van de auteur, de lokale URL en de URL voor publiceren, die een duidelijkere context bieden en de traceerbaarheid van de gedownloade URL&#39;s verbeteren.
 
-Voor meer details, begrijpt de mening [ de output vooraf instelt ](../user-guide/generate-output-understand-presets.md).
+Voor meer details, begrijpt de mening [&#x200B; de output vooraf instelt &#x200B;](../user-guide/generate-output-understand-presets.md).
 
 ## Ondersteuning voor variabele uitvoerpaden voor het genereren van uitvoer
 
@@ -85,7 +85,7 @@ Deze update introduceert een dynamische `output path` configuratie voor uitvoerv
 
 Alle uitvoerpaden die zijn gekoppeld aan de algemene voorinstellingen van het mapprofiel worden automatisch gemigreerd om de nieuwe variabele van het basisuitvoerpad te gebruiken. Voor aangepaste omslagprofielen, echter, is de migratie niet automatisch; u wordt geadviseerd om het team van het Succes van de Klant voor hulp te contacteren.
 
-Voor meer details, begrijpt de mening [ de output vooraf instelt ](../user-guide/generate-output-understand-presets.md).
+Voor meer details, begrijpt de mening [&#x200B; de output vooraf instelt &#x200B;](../user-guide/generate-output-understand-presets.md).
 
 ## UI-verbeteringen op de werkbalk van de Editor en gebruikersvoorkeuren
 
@@ -93,4 +93,4 @@ Met deze versie zijn de montages binnen de **voorkeur van de Gebruiker** op de H
 
 Bovendien, in de toolbar van de Redacteur worden sommige snel-toegangsknevels voor het toelaten van of het onbruikbaar maken van de Veranderingen van het Spoor, de Markeringen, en de niet-BreakSpaties nu gegroepeerd onder **toon** optie binnen dropdown van het Menu voor betere bruikbaarheid.
 
-Voor meer details, mening [ Toolbar in de Redacteur ](../user-guide/web-editor-toolbar.md#menu-dropdown).
+Voor meer details, mening [&#x200B; Toolbar in de Redacteur &#x200B;](../user-guide/web-editor-toolbar.md#menu-dropdown).

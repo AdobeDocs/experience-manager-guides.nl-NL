@@ -42,11 +42,11 @@ Voer de volgende stappen uit om een overzichtstaak te voltooien:
    ![](images/complete-task-dialog.png){width="350" align="left"}
 
 
-U hebt met succes de taak zoals voltooid gemerkt, en zijn status wordt nu geplaatst aan **Voltooid**. Er zijn geen verdere acties toegestaan als de taak is gemarkeerd als voltooid. Er wordt een kennisgeving verzonden naar de auteur of aanvrager van de toetsingstaak om hun directe aandacht te vestigen. Voor meer details op hoe de heroverwegingsberichten teweegbrengen, mening [ het Begrip van heroverwegingsberichten ](./review-understanding-review-notifications.md).
+U hebt met succes de taak zoals voltooid gemerkt, en zijn status wordt nu geplaatst aan **Voltooid**. Er zijn geen verdere acties toegestaan als de taak is gemarkeerd als voltooid. Er wordt een kennisgeving verzonden naar de auteur of aanvrager van de toetsingstaak om hun directe aandacht te vestigen. Voor meer details op hoe de heroverwegingsberichten teweegbrengen, mening [&#x200B; het Begrip van heroverwegingsberichten &#x200B;](./review-understanding-review-notifications.md).
 
 ![](images/task-completed-status.png){width="350" align="left"}
 
-Gebaseerd op terugkoppelt, als de Auteur of de initiatiefnemer van de taak beslist om [ de overzichtstaak ](./review-close-review-task.md) te sluiten, wordt de taakstatus op het Overzicht UI veranderd in **Gesloten**.
+Gebaseerd op terugkoppelt, als de Auteur of de initiatiefnemer van de taak beslist om [&#x200B; de overzichtstaak &#x200B;](./review-close-review-task.md) te sluiten, wordt de taakstatus op het Overzicht UI veranderd in **Gesloten**.
 
 ![](images/review-status-closed-review-ui.png){width="350" align="left"}
 

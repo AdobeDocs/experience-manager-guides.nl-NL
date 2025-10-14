@@ -19,13 +19,13 @@ Adobe Experience Manager Guides biedt een AI Assistant-hulpprogramma waarmee u s
 
 Na het selecteren van de tekst in een onderwerp, kunt u verkiezen om het even welke AI Hulpacties uit te voeren:
 
-![ Hulp ai ](./images/ai-assistant-panel.png){width="300" align="left"}
+![&#x200B; Hulp ai &#x200B;](./images/ai-assistant-panel.png){width="300" align="left"}
 
 ## Herbruikbare inhoud voorstellen
 
 
-Gebruik het **Voorstellen herbruikbare inhoud** ![ probeert opnieuw te gebruiken inhoudspictogram ](./images/ai-suggest-reusable-content-icon.svg) eigenschap aan auteursinhoud constant en nauwkeurig voor te stellen. U kunt de inhoud selecteren en Experience Manager Guides geeft suggesties voor het hergebruik van de bestaande inhoud in uw opslagplaats.
-Leer meer over het gebruiken van [ AI-Aangedreven slimme suggesties aan auteursinhoud ](authoring-ai-based-smart-suggestions.md).
+Gebruik het **Voorstellen herbruikbare inhoud** ![&#x200B; probeert opnieuw te gebruiken inhoudspictogram &#x200B;](./images/ai-suggest-reusable-content-icon.svg) eigenschap aan auteursinhoud constant en nauwkeurig voor te stellen. U kunt de inhoud selecteren en Experience Manager Guides geeft suggesties voor het hergebruik van de bestaande inhoud in uw opslagplaats.
+Leer meer over het gebruiken van [&#x200B; AI-Aangedreven slimme suggesties aan auteursinhoud &#x200B;](authoring-ai-based-smart-suggestions.md).
 
 
 ## Tekstprompt gebruiken
@@ -35,7 +35,7 @@ Een tekstprompt is een instructie, vraag of instructie die de AI Assistant begel
 U kunt een tekstprompt gebruiken om de inhoud te wijzigen. Bijvoorbeeld, kunt u de inhoud van uw huidig onderwerp selecteren en gebruiken de herinnering *maakt de tekst beknopter*. U kunt ook een tekstprompt gebruiken om een kenmerk toe te voegen aan de code die wordt gebruikt in de geselecteerde inhoud.
 
 1. Selecteer de tekst waarvoor u de tekstprompt wilt gebruiken.
-1. Selecteer **de tekstherinnering van het Gebruik** ![ ai pictogram van de gebruikstekstherinnering ](./images/ai-use-text-prompt.svg) van het **Authoring** paneel.
+1. Selecteer **de tekstherinnering van het Gebruik** ![&#x200B; ai pictogram van de gebruikstekstherinnering &#x200B;](./images/ai-use-text-prompt.svg) van het **Authoring** paneel.
 1. Geef een herinnering op één van de volgende manieren:
 
    - Kies een vraag van de voorgestelde herinneringen.
@@ -48,11 +48,11 @@ U kunt een tekstprompt gebruiken om de inhoud te wijzigen. Bijvoorbeeld, kunt u 
    - Typ de vraag in het tekstvak.
 
 
-1. Selecteer **Regenerate** ![ pictogram Regenerate ](./images/refresh-icon.svg) voor een andere reactie of output die op uw herinnering wordt gebaseerd.
+1. Selecteer **Regenerate** ![&#x200B; pictogram Regenerate &#x200B;](./images/refresh-icon.svg) voor een andere reactie of output die op uw herinnering wordt gebaseerd.
 
-1. (Facultatief) Uitgezochte **breid** uit ![ ](./images/expand-icon.svg) om de **de tekstherinnering van het Gebruik** redacteur te openen. De huidige en de gegenereerde inhoud worden weergegeven. U kunt de inhoud van de bronlay-out bewerken en de voorvertoning controleren.
+1. (Facultatief) Uitgezochte **breid** uit ![&#x200B; &#x200B;](./images/expand-icon.svg) om de **de tekstherinnering van het Gebruik** redacteur te openen. De huidige en de gegenereerde inhoud worden weergegeven. U kunt de inhoud van de bronlay-out bewerken en de voorvertoning controleren.
 
-   ![ de snelle redacteur van de hulptekst van de ai {](./images/text-prompt.png)
+   ![&#x200B; de snelle redacteur van de hulptekst van de ai &lbrace;](./images/text-prompt.png)
 
 
    >[!NOTE]
@@ -77,14 +77,14 @@ U kunt een tekstprompt gebruiken om de inhoud te wijzigen. Bijvoorbeeld, kunt u 
 Gebruik **verbeter inhoud** eigenschap om de kwaliteit van de geselecteerde inhoud van het huidige onderwerp te verbeteren. U kunt de inhoud selecteren om spelling, taal en grammaticale structuur te controleren en een betere versie van de inhoud voor te stellen. Het verbetert ook de kwaliteit van zinnen.
 
 1. Selecteer de inhoud.
-1. Selecteer **verbetert inhoud** ![ verbetert inhoudspictogram ](./images/ai-improve-icon.svg) om de suggesties voor de betere inhoud te vinden.
+1. Selecteer **verbetert inhoud** ![&#x200B; verbetert inhoudspictogram &#x200B;](./images/ai-improve-icon.svg) om de suggesties voor de betere inhoud te vinden.
 1. Selecteer **Regenerate** voor een andere suggestie van betere inhoud.
 
 1. (Optioneel) Selecteer **Uitbreiden** om de verbeterde inhoudseditor te openen. De huidige en gegenereerde inhoud wordt weergegeven. U kunt de inhoud in de bronlay-out bewerken en ook de voorvertoning controleren.
 
 
 
-   ![ hulp verbetert hulpmedewerker inhoudsredacteur ](./images/ai-assisstant-improve-content.png)
+   ![&#x200B; hulp verbetert hulpmedewerker inhoudsredacteur &#x200B;](./images/ai-assisstant-improve-content.png)
 
 Accepteer de suggestie, bewerk de reactie in de bronweergave voordat u de aanvraag accepteert, regenereer deze voor een andere reactie of annuleer de actie om terug te keren naar de vorige status.
 
@@ -100,7 +100,7 @@ U kunt bijvoorbeeld een overzicht van de systeemvereisten geven en een korte bes
 
 
 1. Selecteer de inhoud.
-1. Selecteer **creeer kortere weg** ![ wil korte beschrijvingspictogram ](./images/ai-create-shortdesc-icon.svg) creëren om een korte beschrijving voor het huidige onderwerp tot stand te brengen.
+1. Selecteer **creeer kortere weg** ![&#x200B; wil korte beschrijvingspictogram &#x200B;](./images/ai-create-shortdesc-icon.svg) creëren om een korte beschrijving voor het huidige onderwerp tot stand te brengen.
 1. Selecteer **Accepteren** om een nieuwe korte beschrijving tot stand te brengen als de korte beschrijving niet reeds aanwezig is. Als er een korte beschrijving bestaat, moet u deze bevestigen voordat u deze vervangt door de nieuwe korte beschrijving.
 
 U kunt ook de volgende handelingen uitvoeren:
@@ -108,7 +108,7 @@ U kunt ook de volgende handelingen uitvoeren:
 - Selecteer **Regenereer** om een andere korte beschrijving voor uw onderwerp te produceren.
 - Selecteer **uitbreiden** om **te openen creeer kortere weg** redacteur.
 
-  ![ de medewerker van de ai creeert korte beschrijvingsredacteur ](./images/ai-assistant-create-short-desc.png)
+  ![&#x200B; de medewerker van de ai creeert korte beschrijvingsredacteur &#x200B;](./images/ai-assistant-create-short-desc.png)
 
 
 
@@ -117,12 +117,12 @@ U kunt ook de volgende handelingen uitvoeren:
 
 Met deze functie wordt een geselecteerde alinea op intelligente wijze omgezet in een lijst.  De inhoud wordt geanalyseerd en er wordt een logische lijst met items gemaakt. U hoeft de items niet handmatig te maken. Als u bijvoorbeeld een alinea hebt waarin de stappen voor het maken van een gebruikersaccount worden beschreven, kan het programma deze stap voor stap omzetten in een lijst, zodat items niet handmatig één voor één hoeven te worden gemaakt.
 
-![ AI hulpondergeschikt specificeer inhoudspictogram ](./images/ai-assisstant-itemise-content.png)
+![&#x200B; AI hulpondergeschikt specificeer inhoudspictogram &#x200B;](./images/ai-assisstant-itemise-content.png)
 
 
 
 1. Selecteer de inhoud.
-1. Selecteer **inhoud** specificeren ![ ai specificeer inhoudspictogram ](./images/ai-itemize-icon.svg) om de geselecteerde inhoud in een lijst om te zetten.
+1. Selecteer **inhoud** specificeren ![&#x200B; ai specificeer inhoudspictogram &#x200B;](./images/ai-itemize-icon.svg) om de geselecteerde inhoud in een lijst om te zetten.
 Met het ontwerpgereedschap in het deelvenster AI-assistent zet u de inhoud slim om in een lijst met items.
 1. (Facultatief) Uitgezochte **breid** uit om de **inhoud** redacteur van het Punt te openen.
 1. Als uw lijst gereed is, accepteert u de wijzigingen in de gegenereerde inhoud. De gegenereerde inhoud vervangt vervolgens de geselecteerde inhoud.
@@ -136,10 +136,10 @@ Met deze intelligente functie kunt u de geselecteerde inhoud vertalen naar de do
 Voer de volgende stappen uit om de inhoud te vertalen:
 
 1. Selecteer de inhoud die u wilt vertalen.
-1. Selecteer **Vertaal inhoud** ![ ai vertaalt inhoudspictogram ](./images/ai-translate-content-icon.svg) van het **Authoring** paneel.
+1. Selecteer **Vertaal inhoud** ![&#x200B; ai vertaalt inhoudspictogram &#x200B;](./images/ai-translate-content-icon.svg) van het **Authoring** paneel.
 1. Selecteer de doeltaal in het vervolgkeuzemenu. De vertaalde inhoud wordt weergegeven in het deelvenster AI Assistant.
 
 1. (Facultatief) Uitgezochte **breid** uit om de **Vertaalde inhoud** redacteur te openen.
 1. U kunt ook een andere taal selecteren in het vervolgkeuzemenu en de inhoud opnieuw genereren in de gekozen taal. Bijvoorbeeld, als u Frans selecteert en dan **selecteert Regenerate**, wordt de inhoud vertaald in Frans.
 
-![ de hulpmedewerker van ai vertaalt inhoud ](./images/ai-assisstant-translate-content.png)
+![&#x200B; de hulpmedewerker van ai vertaalt inhoud &#x200B;](./images/ai-assisstant-translate-content.png)

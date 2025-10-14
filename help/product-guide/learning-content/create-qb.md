@@ -32,4 +32,4 @@ De **Nieuwe vraagbank** dialoog opent. U kunt de sjabloon selecteren in het verv
 
 1. Selecteer **creeer**.
 Een vraagbank wordt toegevoegd als onderdeel van de cursus en wordt weergegeven in het deelvenster Cursusmanager.
-1. U kunt vragen aan de vraagbank op de zelfde manier toevoegen zoals u voor een quiz doet, terwijl ook het hebben van de flexibiliteit om de eigenschappen van elke vraag tijdens het proces te vormen. Voor meer details, mening [ voegt vragen in een quiz ](./quiz-insert-questions.md) in.
+1. U kunt vragen aan de vraagbank op de zelfde manier toevoegen zoals u voor een quiz doet, terwijl ook het hebben van de flexibiliteit om de eigenschappen van elke vraag tijdens het proces te vormen. Voor meer details, mening [&#x200B; voegt vragen in een quiz &#x200B;](./quiz-insert-questions.md) in.

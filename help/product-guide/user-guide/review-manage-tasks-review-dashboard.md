@@ -29,7 +29,7 @@ Voer de volgende stappen uit om toegang te krijgen tot en gebruik te maken van h
 
    >[!NOTE]
    >
-   > U kunt het projectdashboard ook rechtstreeks openen vanuit het linkerdeelvenster van de Editor. Open het [ paneel van het Overzicht ](./web-editor-left-panel.md#review) en gebruik **Open het** pictogram van het projectdashboard dat tegen elk overzichtsproject wordt geplaatst dat in het paneel van het Overzicht wordt vermeld.
+   > U kunt het projectdashboard ook rechtstreeks openen vanuit het linkerdeelvenster van de Editor. Open het [&#x200B; paneel van het Overzicht &#x200B;](./web-editor-left-panel.md#review) en gebruik **Open het** pictogram van het projectdashboard dat tegen elk overzichtsproject wordt geplaatst dat in het paneel van het Overzicht wordt vermeld.
 
 1. Selecteer de drie punten in de **tegel van Revisies**.
 
@@ -49,7 +49,7 @@ Voer de volgende stappen uit om toegang te krijgen tot en gebruik te maken van h
 
 1. Selecteer een revisietaak.
 
-   U wordt getoond geeft Eigenschappen uit en [ 1} opties van de Status {in de toolbar.](#check-review-status-id199RF0A0UHS)
+   U wordt getoond geeft Eigenschappen uit en [&#x200B; 1&rbrace; opties van de Status &lbrace;in de toolbar.](#check-review-status-id199RF0A0UHS)
 
 1. Als u **selecteert geef Eigenschappen** uit, wordt de pagina van de Details van de Taak getoond.
 
@@ -63,7 +63,7 @@ Voer de volgende stappen uit om toegang te krijgen tot en gebruik te maken van h
 U kunt de volgende acties onder de **Taak** tabel uitvoeren:
 
 - Wijzig de titel van de taak op het **gebied van de Titel**.
-- Voeg standaardwijzers in **toe toewijzen aan** drop-down lijst. De revisoren die u hier toevoegt, hebben toegang tot alle onderwerpen die deel uitmaken van deze revisietaak. U kunt verkiezen om meer recensenten aan specifieke onderwerpen te verwijderen of selectief toe te voegen van het [ lusje van Revisoren ](#Reviewer-tab-id199RF0N0MUI).
+- Voeg standaardwijzers in **toe toewijzen aan** drop-down lijst. De revisoren die u hier toevoegt, hebben toegang tot alle onderwerpen die deel uitmaken van deze revisietaak. U kunt verkiezen om meer recensenten aan specifieke onderwerpen te verwijderen of selectief toe te voegen van het [&#x200B; lusje van Revisoren &#x200B;](#Reviewer-tab-id199RF0N0MUI).
 - Werk de beschrijving van de taak op het **gebied van de Beschrijving** bij.
 - Wijzig **Verschuldigde Datum**. U kunt de deadline voor het voltooien van de taak voorbereiden of uitstellen.
 - Selecteer de optie om gebruikers te beperken tot het bekijken van alleen die onderwerpen die aan hen zijn toegewezen.
@@ -71,7 +71,7 @@ U kunt de volgende acties onder de **Taak** tabel uitvoeren:
 
   Er wordt een pop-upbericht weergegeven om te bevestigen of de update is gelukt of niet.
 - Selecteer **Voltooid** om de overzichtstaak te merken zoals volledig vóór de vervaldatum. Wanneer de taak van een individueel onderwerp als Voltooid wordt duidelijk, wordt de overzicht van het geselecteerde onderwerp gesloten. Nochtans, in het geval van onderwerpen die voor overzicht door een kaart DITA worden gedeeld, zal het merken van de DITA kaarttaak als Voltooid de overzicht van alle onderwerpen binnen de kaart sluiten die voor overzicht werden gedeeld.
-- Selecteer **Dupliceer** om een exemplaar van de overzichtstaak tot stand te brengen. Het maken van een dubbele revisietaak lijkt op het maken van een nieuwe revisietaak. Zodra u de gedupliceerde taakwerkstroom start, wordt de pagina Revisietaak maken weergegeven. U moet de nieuwe taakdetails verstrekken zoals die in [ worden verklaard verzendt onderwerpen voor overzicht ](review-send-topics-for-review.md#).
+- Selecteer **Dupliceer** om een exemplaar van de overzichtstaak tot stand te brengen. Het maken van een dubbele revisietaak lijkt op het maken van een nieuwe revisietaak. Zodra u de gedupliceerde taakwerkstroom start, wordt de pagina Revisietaak maken weergegeven. U moet de nieuwe taakdetails verstrekken zoals die in [&#x200B; worden verklaard verzendt onderwerpen voor overzicht &#x200B;](review-send-topics-for-review.md#).
 
   Als u een overzichtstaak hebt geselecteerd die van een kaart DITA wordt gecreeerd, dan wordt u getoond de onderwerpen die een deel van de kaart zijn. U kunt dan de onderwerpen kiezen die u in de nieuwe overzichtstaak wilt omvatten.
 
@@ -127,7 +127,7 @@ Hiermee wordt een statusrapport van de revisietaak geopend, zoals hieronder word
 
 ![](images/check-review-status-dashboard.png){width="650" align="left"}
 
-Alternatief, kunt u tot het statusrapport van het [ paneel van het Overzicht ](./web-editor-left-panel.md#review) in de Redacteur direct toegang hebben. Open een actieve overzichtstaak van het paneel van het Overzicht, de uitgezochte **taak van de Update** en kies **de revisiestatus van de Controle**.
+Alternatief, kunt u tot het statusrapport van het [&#x200B; paneel van het Overzicht &#x200B;](./web-editor-left-panel.md#review) in de Redacteur direct toegang hebben. Open een actieve overzichtstaak van het paneel van het Overzicht, de uitgezochte **taak van de Update** en kies **de revisiestatus van de Controle**.
 
 Het statusrapport voor de controletaak bevat de volgende details:
 
@@ -140,4 +140,4 @@ Het statusrapport voor de controletaak bevat de volgende details:
 - Het totale aantal opmerkingen over alle onderwerpen. In het geval van veelvoudige onderwerpen onder overzicht, wordt het aantal commentaren voor elk onderwerp vermeld \ (tussen haakjes \) naast de onderwerpnaam.
 - De datum waarop een onderwerp voor het laatst is geopend door de Revisor.
 
-**Bovenliggend onderwerp:**[ Inleiding aan overzicht ](review.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Inleiding aan overzicht &#x200B;](review.md)
