@@ -26,7 +26,7 @@ U kunt uw huidige versie van Experience Manager Guides upgraden naar versie 5.1.
 - Als u versie 4.3.x, 4.2, 4.2.1 (Hotfix 4.2.1.3), 4.1 of 4.1.x gebruikt, moet u een upgrade naar versie 4.4 uitvoeren voordat u een upgrade naar versie 5.0.0 uitvoert.
 - Als u versie 4.0 gebruikt, moet u een upgrade naar versie 4.2 uitvoeren voordat u een upgrade naar versie 4.3.x uitvoert.
 - Als u versie 3.8.5 gebruikt, moet u een upgrade naar versie 4.0 uitvoeren voordat u een upgrade naar versie 4.2 uitvoert.
-- Als u op een versie voorafgaand aan 3.8.5 bent, verwijs naar de sectie van Experience Manager Guides van de Verbetering in de product-specifieke installatiegids beschikbaar op [&#x200B; Adobe Experience Manager Guides Help het archief van PDF &#x200B;](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
+- Als u op een versie voorafgaand aan 3.8.5 bent, verwijs naar de sectie van Experience Manager Guides van de Verbetering in de product-specifieke installatiegids beschikbaar op [&#x200B; Adobe Experience Manager Guides Help het archief van PDF &#x200B;](https://helpx.adobe.com/nl/xml-documentation-for-experience-manager/archive.html).
 
 
 >[!NOTE]
@@ -59,7 +59,7 @@ Voordat u het proces uitvoert, moet u bepaalde taken uitvoeren. De volgende subs
 
 >[!NOTE]
 >
-> Dit upgradeproces is alleen van toepassing van versie 3.8.5 tot versie 4.0. Voor het proces om van versie 3.4 of hoger aan 3.8.5 te bevorderen, verwijs naar de *sectie van de Verbetering Experience Manager Guides* in de product-specifieke installatiegids beschikbaar op [&#x200B; Adobe Experience Manager Guides Help PDF archief &#x200B;](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
+> Dit upgradeproces is alleen van toepassing van versie 3.8.5 tot versie 4.0. Voor het proces om van versie 3.4 of hoger aan 3.8.5 te bevorderen, verwijs naar de *sectie van de Verbetering Experience Manager Guides* in de product-specifieke installatiegids beschikbaar op [&#x200B; Adobe Experience Manager Guides Help PDF archief &#x200B;](https://helpx.adobe.com/nl/xml-documentation-for-experience-manager/archive.html).
 
 
 
@@ -1299,7 +1299,7 @@ Aangezien de waarde van `'order'` tijdens deze upgrade is gewijzigd van 1000 in 
 
 ## Stappen om de damAssetLucene opnieuw te indexeren
 
-De indexdefinitie wordt bijgewerkt voor damAssetLucene met gidsen. Verwijs naar [&#x200B; dit artikel &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) voor het opnieuw indexeren van damAssetLucene na bevordering aan versie 5.0.0.
+De indexdefinitie wordt bijgewerkt voor damAssetLucene met gidsen. Verwijs naar [&#x200B; dit artikel &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-16460) voor het opnieuw indexeren van damAssetLucene na bevordering aan versie 5.0.0.
 
 >[!NOTE]
 >
@@ -1309,7 +1309,7 @@ De indexdefinitie wordt bijgewerkt voor damAssetLucene met gidsen. Verwijs naar 
 
 >[!IMPORTANT]
 >
-> Als u momenteel op AEM 6.5 werkt en van plan bent over te stappen op AEM 6.5 LTS, dient u eerst de AEM-upgrade te voltooien voordat u verdergaat met de Experience Manager Guides 5.1.0-upgrade. Voor details, mening [&#x200B; Bevorderend aan Adobe Experience Manager (AEM) 6.5 LTS &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
+> Als u momenteel op AEM 6.5 werkt en van plan bent over te stappen op AEM 6.5 LTS, dient u eerst de AEM-upgrade te voltooien voordat u verdergaat met de Experience Manager Guides 5.1.0-upgrade. Voor details, mening [&#x200B; Bevorderend aan Adobe Experience Manager (AEM) 6.5 LTS &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
 
 **Eerste vereisten**
 
@@ -1466,7 +1466,7 @@ Aangezien de waarde van `'order'` tijdens deze upgrade is gewijzigd van 1000 in 
 
 ## Stappen om de damAssetLucene opnieuw te indexeren
 
-De indexdefinitie wordt bijgewerkt voor damAssetLucene met gidsen. Verwijs naar [&#x200B; dit artikel &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) voor het opnieuw indexeren van damAssetLucene na bevordering aan versie 5.1.0.
+De indexdefinitie wordt bijgewerkt voor damAssetLucene met gidsen. Verwijs naar [&#x200B; dit artikel &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-16460) voor het opnieuw indexeren van damAssetLucene na bevordering aan versie 5.1.0.
 
 >[!NOTE]
 >
