@@ -17,10 +17,10 @@ In de opstelling op-gebouw, verschijnt de **optie van Montages** in de het tabba
 Alle bestaande configuratieopties beschikbaar onder **montages van de Redacteur** blijven onveranderd.
 
 
-![ het plaatsen van de Redacteur voor On-premise ](assets/editor-settings-on-prem.png){width="650" align="left"}
+![&#x200B; het plaatsen van de Redacteur voor On-premise &#x200B;](assets/editor-settings-on-prem.png){width="650" align="left"}
 
 
-Om over de beschikbare configuratieopties te leren, mening [ vormen de montages van Workspace ](../cs-install-guide/workspace-settings.md).
+Om over de beschikbare configuratieopties te leren, mening [&#x200B; vormen de montages van Workspace &#x200B;](../cs-install-guide/workspace-settings.md).
 
 
 
