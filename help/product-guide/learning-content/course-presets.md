@@ -19,4 +19,4 @@ Wanneer u een cursus publiceert, kunt u SCORM en PDF kiezen om uw inhoud in de m
 
 - **PDF:** de output van PDF stelt u toe om cursusinhoud in een professioneel, druk-klaar formaat te publiceren. De PDF-indeling is ideaal voor het delen van inhoud voor revisie- of archiveringsdoeleinden.
 
-Voor een videooverzicht op om tot stand te brengen, te vormen en output voor vooraf ingesteld te produceren, mening [ Gesteunde voorinstellingen ](https://video.tv.adobe.com/v/3469529/aem-guides-learning-content) ![](assets/Smock_VideoCheckedOut_18_N.svg).
+Voor een videooverzicht op om tot stand te brengen, te vormen en output voor vooraf ingesteld te produceren, mening [&#x200B; Gesteunde voorinstellingen &#x200B;](https://video.tv.adobe.com/v/3469529/aem-guides-learning-content) ![](assets/Smock_VideoCheckedOut_18_N.svg).
