@@ -4,9 +4,9 @@ description: Leer hoe u een vragenbank kunt maken in de producttraining en -trai
 feature: Authoring
 role: User
 exl-id: c658af49-b0e6-4188-b3ba-8f3223b12632
-source-git-commit: 6f0643ca4b43f88ead42bbeade4e3e7252263f32
+source-git-commit: b914c69f9d29884382ce43f163a8f766567b10bf
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '230'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,9 @@ Voordat we in de stap-voor-stap procedure duiken, is hier een korte doorlichting
 
 >[!VIDEO](https://video.tv.adobe.com/v/3475212/learning-content-aem-guides)
 
-Voer de volgende stappen uit om een vraagbank te maken:
+**Stappen om een vraagbank** te creëren
 
->[!VIDEO](https://video.tv.adobe.com/v/3469321)
+Voer de volgende stappen uit om een vraagbank te maken:
 
 1. Open een cursus in de **manager van de Cursus** en selecteer **voeg nieuw** van het **menu van Opties** toe.
 1. Selecteer **bank van de Vraag**.
@@ -32,4 +32,4 @@ De **Nieuwe vraagbank** dialoog opent. U kunt de sjabloon selecteren in het verv
 
 1. Selecteer **creeer**.
 Een vraagbank wordt toegevoegd als onderdeel van de cursus en wordt weergegeven in het deelvenster Cursusmanager.
-1. U kunt vragen aan de vraagbank op de zelfde manier toevoegen zoals u voor een quiz doet, terwijl ook het hebben van de flexibiliteit om de eigenschappen van elke vraag tijdens het proces te vormen. Voor meer details, mening [&#x200B; voegt vragen in een quiz &#x200B;](./quiz-insert-questions.md) in.
+1. U kunt vragen aan de vraagbank op de zelfde manier toevoegen zoals u voor een quiz doet, terwijl ook het hebben van de flexibiliteit om de eigenschappen van elke vraag tijdens het proces te vormen. Voor meer details, mening [ voegt vragen in een quiz ](./quiz-insert-questions.md) in.
