@@ -24,10 +24,10 @@ Voer de volgende stappen uit om nieuwe inhoud aan uw cursus toe te voegen:
    ![](assets/learning-course-content.png)
 2. Selecteer het type inhoud dat u wilt maken. De beschikbare opties zijn:
    - **Overzicht**: Het eerste onderwerp van uw cursus dat een snelle inleiding aan verstrekt wat de cursus behandelt.
-   - **Onderwerp**: Het belangrijkste materiaal in een cursus bestaat uit korte, geconcentreerde stukken zoals stappen, voorbeelden, of verklaringen die een specifieke vaardigheid of een idee onderwijzen. Voor meer details, leidt de mening [ tot en past Onderwerp ](./create-content.md) aan.
+   - **Onderwerp**: Het belangrijkste materiaal in een cursus bestaat uit korte, geconcentreerde stukken zoals stappen, voorbeelden, of verklaringen die een specifieke vaardigheid of een idee onderwijzen. Voor meer details, leidt de mening [&#x200B; tot en past Onderwerp &#x200B;](./create-content.md) aan.
    - **Samenvatting**: Een snelle overzicht aan het eind van een cursushoofdstuk dat studenten aan de belangrijkste punten herinnert zij enkel leerden.
-   - **Quiz**: Een reeks vragen die worden gebruikt om te controleren hoe goed iemand begrijpt wat zij hebben geleerd. Voor meer details, leidt de mening [ tot en leidt Quiz ](./create-quiz.md).
-   - **bank van de Vraag**: Een gedeelde pool van herbruikbare vragen die kunnen worden gebruikt om quizzen snel en verenigbaar tot stand te brengen. Voor meer details, bekijk [ bank van de Vraag ](./create-qb.md).
+   - **Quiz**: Een reeks vragen die worden gebruikt om te controleren hoe goed iemand begrijpt wat zij hebben geleerd. Voor meer details, leidt de mening [&#x200B; tot en leidt Quiz &#x200B;](./create-quiz.md).
+   - **bank van de Vraag**: Een gedeelde pool van herbruikbare vragen die kunnen worden gebruikt om quizzen snel en verenigbaar tot stand te brengen. Voor meer details, bekijk [&#x200B; bank van de Vraag &#x200B;](./create-qb.md).
    - **Groep**: De hulp van een het leren groep organiseert verwante onderwerpen zoals hoofdstukken, onderwerpen, en andere modules in een logische orde, bouwend een duidelijke hiërarchie die het gemakkelijker maakt om trainingsmaterialen te beheren en te hergebruiken.
 3. Selecteer **creeer**.
 
