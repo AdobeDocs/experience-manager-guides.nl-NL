@@ -4,9 +4,9 @@ description: Biedt een inleiding op de ondersteunde voorinstellingen voor het pu
 feature: Authoring
 role: User
 exl-id: 32f30bba-4600-4d75-b0bb-1093490ec11e
-source-git-commit: 40ce03adef1b9a50afd6698de49c09b65e565b3e
+source-git-commit: 26fe86ea790432dfef40ca404ff497722164b593
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
@@ -19,4 +19,4 @@ Wanneer u een cursus publiceert, kunt u SCORM en PDF kiezen om uw inhoud in de m
 
 - **PDF:** de output van PDF stelt u toe om cursusinhoud in een professioneel, druk-klaar formaat te publiceren. De PDF-indeling is ideaal voor het delen van inhoud voor revisie- of archiveringsdoeleinden.
 
-Bekijk [![](assets/Smock_VideoCheckedOut_18_N.svg)](https://video.tv.adobe.com/v/3469529/aem-guides-learning-content) voor een video-overzicht van het maken, configureren en genereren van uitvoer voor een voorinstelling.
+Voor een videooverzicht op om tot stand te brengen, te vormen en output voor vooraf ingesteld te produceren, mening [ Gesteunde voorinstellingen ](https://video.tv.adobe.com/v/3469529/aem-guides-learning-content) ![](assets/Smock_VideoCheckedOut_18_N.svg).

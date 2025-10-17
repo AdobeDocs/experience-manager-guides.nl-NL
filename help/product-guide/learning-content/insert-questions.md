@@ -4,9 +4,9 @@ description: Leer hoe u vragen kunt invoegen van de Vraag in Quiz voor producttr
 feature: Authoring
 role: User
 exl-id: dfc247f7-31f9-4bcf-84e2-151993603b89
-source-git-commit: 40ce03adef1b9a50afd6698de49c09b65e565b3e
+source-git-commit: 26fe86ea790432dfef40ca404ff497722164b593
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
@@ -38,4 +38,4 @@ Voer de volgende stappen uit om vragen van de vraagbank in de quiz op te nemen:
    ![](assets/inserted-question.png){width="650" align="left"}
 
 
-Voor een snel video-overzicht, [![](assets/Smock_VideoCheckedOut_18_N.svg)](https://video.tv.adobe.com/v/3475212/learning-content-aem-guides).
+Voor een snel videooverzicht, [ neem vragen van de bank van de Vraag ](https://video.tv.adobe.com/v/3475212/learning-content-aem-guides) ![](assets/Smock_VideoCheckedOut_18_N.svg) op.
