@@ -4,9 +4,9 @@ description: Leer meer over de verschillende functies in Experience Manager Guid
 feature: Authoring
 role: User
 exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
-source-git-commit: 6a61f404892dee8256e969a0b3433b8425f84c6c
+source-git-commit: 40ce03adef1b9a50afd6698de49c09b65e565b3e
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -24,14 +24,14 @@ Voer de volgende stappen uit om nieuwe inhoud aan uw cursus toe te voegen:
    ![](assets/learning-course-content.png)
 2. Selecteer het type inhoud dat u wilt maken. De beschikbare opties zijn:
    - **Overzicht**: Het eerste onderwerp van uw cursus dat een snelle inleiding aan verstrekt wat de cursus behandelt.
-   - **Onderwerp**: Het belangrijkste materiaal in een cursus bestaat uit korte, geconcentreerde stukken zoals stappen, voorbeelden, of verklaringen die een specifieke vaardigheid of een idee onderwijzen. Voor meer details, leidt de mening [&#x200B; tot en past Onderwerp &#x200B;](./create-content.md) aan.
+   - **Onderwerp**: Het belangrijkste materiaal in een cursus bestaat uit korte, geconcentreerde stukken zoals stappen, voorbeelden, of verklaringen die een specifieke vaardigheid of een idee onderwijzen. Voor meer details, leidt de mening [ tot en past Onderwerp ](./create-content.md) aan.
    - **Samenvatting**: Een snelle overzicht aan het eind van een cursushoofdstuk dat studenten aan de belangrijkste punten herinnert zij enkel leerden.
-   - **Quiz**: Een reeks vragen die worden gebruikt om te controleren hoe goed iemand begrijpt wat zij hebben geleerd. Voor meer details, leidt de mening [&#x200B; tot en leidt Quiz &#x200B;](./create-quiz.md).
-   - **bank van de Vraag**: Een gedeelde pool van herbruikbare vragen die kunnen worden gebruikt om quizzen snel en verenigbaar tot stand te brengen. Voor meer details, bekijk [&#x200B; bank van de Vraag &#x200B;](./create-qb.md).
+   - **Quiz**: Een reeks vragen die worden gebruikt om te controleren hoe goed iemand begrijpt wat zij hebben geleerd. Voor meer details, leidt de mening [ tot en leidt Quiz ](./create-quiz.md).
+   - **bank van de Vraag**: Een gedeelde pool van herbruikbare vragen die kunnen worden gebruikt om quizzen snel en verenigbaar tot stand te brengen. Voor meer details, bekijk [ bank van de Vraag ](./create-qb.md).
    - **Groep**: De hulp van een het leren groep organiseert verwante onderwerpen zoals hoofdstukken, onderwerpen, en andere modules in een logische orde, bouwend een duidelijke hiërarchie die het gemakkelijker maakt om trainingsmaterialen te beheren en te hergebruiken.
 3. Selecteer **creeer**.
 
-De geselecteerde inhoud wordt gemaakt en aan de cursus toegevoegd. Voor een videooverzicht, mening [&#x200B; voeg nieuwe inhoud aan een cursus &#x200B;](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on) toe.
+De geselecteerde inhoud wordt gemaakt en aan de cursus toegevoegd. Bekijk [![](assets/Smock_VideoCheckedOut_18_N.svg)](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on) voor een video-overzicht.
 
 ## Bestaande inhoud toevoegen
 
@@ -50,7 +50,7 @@ De geselecteerde cursusinhoud wordt vanuit de opslagplaats aan de cursus toegevo
 >
 >U kunt **ook gebruiken toevoegt Bestaand** > **Dossier (het slechts ZIP van het Middel)** optie om een ZIP dossier te omvatten dat wordt uitgepakt en in de omslagstructuur van de definitieve output SCORM geïntegreerd. Hierdoor wordt het verpakken van bronnen tijdens het publiceren van cursussen gestroomlijnd.
 
-Voor een videooverzicht, voegt de mening [&#x200B; bestaande inhoud aan cursus &#x200B;](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on) toe.
+Bekijk [![](assets/Smock_VideoCheckedOut_18_N.svg)](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on) voor een video-overzicht.
 
 ## Inhoud verwijderen
 
@@ -58,7 +58,8 @@ U kunt om het even welk onderwerp uit de cursus verwijderen door het **menu van 
 
 ![](assets/remove-learning-content.png)
 
-Voor een videooverzicht, verwijdert de mening [&#x200B; inhoud uit cursus &#x200B;](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides).
+Bekijk [![](assets/Smock_VideoCheckedOut_18_N.svg)](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides) voor een video-overzicht.
+
 
 ## Cursusversies maken
 
@@ -82,4 +83,4 @@ De **toon** optie bepaalt hoe de onderwerpen worden getoond. U kunt verkiezen om
 
 ![](assets/course-display-settings.png)
 
-Voor een videooverzicht, mening [&#x200B; tonen opties &#x200B;](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides).
+Bekijk [![](assets/Smock_VideoCheckedOut_18_N.svg)](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides) voor een video-overzicht.
