@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Eigenschappen van Kaart-editor {#id1942D0S0IHS}
 
-De toolbar in de Redacteur van de Kaart is gelijkaardig aan de onderwerpredacteur. De basisbewerkingen zoals het in- en uitschakelen van het linkerdeelvenster, het opslaan van een kaart, het maken van een nieuwe versie van de kaart, het ongedaan maken/opnieuw uitvoeren van de laatste bewerking en het verwijderen van de geselecteerde elementen komen in beide editors veel voor. Voor detail over hoe deze verrichtingen werken, mening [ Toolbar in de sectie van de Redacteur ](web-editor-toolbar.md#).
+De toolbar in de Redacteur van de Kaart is gelijkaardig aan de onderwerpredacteur. De basisbewerkingen zoals het in- en uitschakelen van het linkerdeelvenster, het opslaan van een kaart, het maken van een nieuwe versie van de kaart, het ongedaan maken/opnieuw uitvoeren van de laatste bewerking en het verwijderen van de geselecteerde elementen komen in beide editors veel voor. Voor detail over hoe deze verrichtingen werken, mening [&#x200B; Toolbar in de sectie van de Redacteur &#x200B;](web-editor-toolbar.md#).
 
 De opties die u in de redacteurstoolbar bekijkt zijn gebaseerd op de mening van de Redacteur van de Kaart. Er zijn vier weergaven beschikbaar in de Kaarteditor:
 
@@ -43,7 +43,7 @@ Toont de dialoog van het onderwerponderzoek. Navigeer aan het onderwerp/kaartdos
 
 **de groep van het Onderwerp** - ![](images/topic-group.svg)
 
-Voeg het element `topicgroup` in. Voor meer informatie over het groeperen van onderwerpen, bekijk de [ documentatie 0} topicgroup {in de Specificatie van de Taal van OASIS DITA.](https://docs.oasis-open.org/dita/v1.0/langspec/topicgroup.html)
+Voeg het element `topicgroup` in. Voor meer informatie over het groeperen van onderwerpen, bekijk de [&#x200B; documentatie 0&rbrace; topicgroup &lbrace;in de Specificatie van de Taal van OASIS DITA.](https://docs.oasis-open.org/dita/v1.0/langspec/topicgroup.html)
 
 **Zeer belangrijke definitie** - ![](images/key-definition.svg)
 
@@ -81,7 +81,7 @@ Hiermee wordt een vergrendeling op het kaartbestand opgehaald en wordt de vergre
 
 **Fusie** - ![](images/merge.svg)
 
-Voor meer details over het samenvoegen van inhoud van een verschillende versie van het zelfde of een verschillend dossier, mening [ samenvoegen ](web-editor-features.md#menu-dropdown) in de Redacteur.
+Voor meer details over het samenvoegen van inhoud van een verschillende versie van het zelfde of een verschillend dossier, mening [&#x200B; samenvoegen &#x200B;](web-editor-features.md#menu-dropdown) in de Redacteur.
 
 **de geschiedenis van de Versie** - ![](images/version-history-web-editor-ico.svg)
 
@@ -146,7 +146,7 @@ Bovendien kunt u de volgende pictogrammen weergeven en de verwante taken uitvoer
 
 **Tussenvoegsel vóór/Tussenvoegsel na** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
-Geeft het element **Invoegen voor of **Element invoegen na dialoogvenster weer. Selecteer het element dat u op de kaart wilt invoegen. Afhankelijk van de bewerking wordt het nieuwe element ingevoegd voor of na het huidige element op de kaart.
+Geeft het element **Invoegen voor of &#x200B;** Element invoegen na dialoogvenster weer. Selecteer het element dat u op de kaart wilt invoegen. Afhankelijk van de bewerking wordt het nieuwe element ingevoegd voor of na het huidige element op de kaart.
 
 **Element** - ![](images/Add_icon.svg)
 
@@ -223,7 +223,7 @@ Hiermee kunt u het kenmerk `@navtitle` en het element `title` van een bestand wa
 
 >[!NOTE]
 >
-> Uw beheerder kan verkiezen om deze knoop in de toolbar van de Redacteur van de Kaart te tonen of te verbergen gebruikend een configuratiebezit. Ze kunnen ook automatische toevoeging van het kenmerk `@navtitle` inschakelen wanneer bestanden aan een kaart worden toegevoegd. Voor meer details, omvat de mening [ attributen @navtitle door gebrek ](../cs-install-guide/auto-add-navtitle.md)* in installeer en vorm Adobe Experience Manager Guides as a Cloud Service.
+> Uw beheerder kan verkiezen om deze knoop in de toolbar van de Redacteur van de Kaart te tonen of te verbergen gebruikend een configuratiebezit. Ze kunnen ook automatische toevoeging van het kenmerk `@navtitle` inschakelen wanneer bestanden aan een kaart worden toegevoegd. Voor meer details, omvat de mening [&#x200B; attributen @navtitle door gebrek &#x200B;](../cs-install-guide/auto-add-navtitle.md)* in installeer en vorm Adobe Experience Manager Guides as a Cloud Service.
 
 **Markeringen**
 
@@ -231,11 +231,11 @@ Hiermee toont of verbergt u de XML-labels. De tags dienen als visuele aanwijzing
 
 **de veranderingen van het Spoor** - ![](images/track-changes.svg)
 
-U kunt alle in het kaartbestand aangebrachte updates bijhouden door de modus Wijzigingen bijhouden in te schakelen. Nadat u wijzigingen in de track hebt ingeschakeld, worden alle invoegingen en verwijderingen vastgelegd in het document. Voor meer details, de veranderingen van het overzicht [ Spoor ](web-editor-features.md#track-changes) in de Redacteur.
+U kunt alle in het kaartbestand aangebrachte updates bijhouden door de modus Wijzigingen bijhouden in te schakelen. Nadat u wijzigingen in de track hebt ingeschakeld, worden alle invoegingen en verwijderingen vastgelegd in het document. Voor meer details, de veranderingen van het overzicht [&#x200B; Spoor &#x200B;](web-editor-features.md#track-changes) in de Redacteur.
 
 **creeer overzichtstaak** - ![](images/create-review-task.svg)
 
-U kunt een overzichtstaak van het huidige onderwerp of kaartdossier direct van de Redacteur tot stand brengen. Open het dossier waarvoor u de overzichtstaak wilt tot stand brengen en **selecteren creeer overzichtstaak** om het proces van de overzichtsverwezenlijking in werking te stellen. Volg de instructies die in de [ Inleiding worden gegeven om ](review.md#) voor meer details te herzien.
+U kunt een overzichtstaak van het huidige onderwerp of kaartdossier direct van de Redacteur tot stand brengen. Open het dossier waarvoor u de overzichtstaak wilt tot stand brengen en **selecteren creeer overzichtstaak** om het proces van de overzichtsverwezenlijking in werking te stellen. Volg de instructies die in de [&#x200B; Inleiding worden gegeven om &#x200B;](review.md#) voor meer details te herzien.
 
 ## Source-weergave
 
@@ -341,20 +341,20 @@ In het rechterdeelvenster worden de eigenschappen Inhoud en Kaart weergegeven in
 
 **eigenschappen van de Inhoud**
 
-Het deelvenster Eigenschappen voor inhoud bevat informatie over het type onderwerp dat op dat moment in de kaart is geselecteerd, de koppeling-URL en de bijbehorende kenmerken. Voor meer details, mening [ Eigenschappen van de Inhoud ](web-editor-features.md#right-panel) in de Redacteur.
+Het deelvenster Eigenschappen voor inhoud bevat informatie over het type onderwerp dat op dat moment in de kaart is geselecteerd, de koppeling-URL en de bijbehorende kenmerken. Voor meer details, mening [&#x200B; Eigenschappen van de Inhoud &#x200B;](web-editor-features.md#right-panel) in de Redacteur.
 
 - **Andere Attributen** als uw beheerder een profiel voor attributen heeft gecreeerd, dan zult u die attributen samen met hun gevormde waarden krijgen. Gebruikend het paneel van inhoudseigenschappen, kunt u die attributen kiezen en hen toewijzen aan relevante inhoud in uw onderwerp. U kunt attributen ook toewijzen die door uw beheerder onder **worden gevormd attributen van de Vertoning**. De kenmerken die voor een element zijn gedefinieerd, worden weergegeven in de layoutweergave en in de contourweergave. Dit helpt u om een snelle blik bij alle onderwerpen in een kaart te hebben waarvoor een bepaald attribuut wordt bepaald. Alle onderwerpen met het kenmerk `audience` worden bijvoorbeeld gedefinieerd als `US` .
 
-  ![ lay-outweergave ](images/layout-inline-attributes.png){width="650" align="left"}
+  ![&#x200B; lay-outweergave &#x200B;](images/layout-inline-attributes.png){width="650" align="left"}
 
 
-  Voor meer details, mening [ attributen van de Vertoning ](../cs-install-guide/workspace-settings.md#display-attributes).
+  Voor meer details, mening [&#x200B; attributen van de Vertoning &#x200B;](../cs-install-guide/workspace-settings.md#display-attributes).
 
 - **Meta-gegevens** Gebruikend de meta-gegevens, kunt u de meta-gegevensinformatie plaatsen. U kunt de NAV-titel, Tekst koppelen, Korte beschrijving en Trefwoorden definiëren.
 
-Voor meer informatie over de standaardonderwerpattributen en meta-gegevens, bekijk de [ topicref ](https://docs.oasis-open.org/dita/v1.2/os/spec/langref/topicref.html) documentatie in de Specificatie van de Taal OASIS DITA.
+Voor meer informatie over de standaardonderwerpattributen en meta-gegevens, bekijk de [&#x200B; topicref &#x200B;](https://docs.oasis-open.org/dita/v1.2/os/spec/langref/topicref.html) documentatie in de Specificatie van de Taal OASIS DITA.
 
 
 
 
-**Bovenliggend onderwerp:** [ Inleiding aan de Redacteur van de Kaart ](map-editor.md)
+**Bovenliggend onderwerp:** [&#x200B; Inleiding aan de Redacteur van de Kaart &#x200B;](map-editor.md)
