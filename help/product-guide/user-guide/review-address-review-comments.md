@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Opmerkingen voor revisie van adres {#id2056B0X0KBI}
 
-Als auteur, kunt u commentaren in een onderwerp richten gebruikend de Redacteur. De opmerkingen worden geladen op basis van de revisietaak die is geselecteerd in het deelvenster Revisie. Voor meer details, bekijk de **paneel** eigenschapbeschrijving van het Overzicht ![](images/active-review-tasklist-icon.svg) {in de [ Linkerpaneel ](../user-guide/web-editor-left-panel.md) sectie.
+Als auteur, kunt u commentaren in een onderwerp richten gebruikend de Redacteur. De opmerkingen worden geladen op basis van de revisietaak die is geselecteerd in het deelvenster Revisie. Voor meer details, bekijk de **paneel** eigenschapbeschrijving van het Overzicht ![](images/active-review-tasklist-icon.svg) &lbrace;in de [&#x200B; Linkerpaneel &#x200B;](../user-guide/web-editor-left-panel.md) sectie.
 
 De volgende secties beschrijven manieren om commentaren in de Redacteur te richten.
 
@@ -43,7 +43,7 @@ In de Editor bevat het rechterdeelvenster de pictogrammen Revisie en Wijzigingen
 
 - **C**: Als u uw onderwerp na het in werking stellen van het overzicht hebt bijgewerkt, dan terugkeert het selecteren van **Onderwerp aan het pictogram van de Versie van het Overzicht** uw het werk exemplaar terug naar de versie die voor overzicht werd gedeeld. Hierdoor kunt u de revisie-feedback rechtstreeks opnemen in de versie die ter controle is gedeeld. Na het opnemen van terugkoppelt, kunt u veranderingen in de omgekeerde versie bewaren of een nieuwe revisie van uw onderwerp tot stand brengen. Als u verkiest om een nieuwe revisie van uw onderwerp tot stand te brengen, dan wordt een nieuwe tak gecreeerd van de onderwerpversie die voor overzicht werd gedeeld. Als u bijvoorbeeld versie `1.2` van een onderwerp hebt gedeeld voor revisie terwijl de huidige ontwerpversie `1.3` is, kunt u dit pictogram gebruiken om terug te gaan naar versie `1.2` voor het opnemen van revisieopmerkingen. Als u een nieuwe revisie maakt nadat u wijzigingen in versie `1.2` hebt ingevoegd, wordt een nieuwe vertakking met versie `1.2.0` gemaakt voor het onderwerp.
 
-  Typisch, na het opnemen van overzicht terugkoppelt, zou u veranderingen van de recentste versie van het onderwerp willen samenvoegen. Om dit te doen, gebruik de [ eigenschap van de Fusie ](web-editor-features.md#id205DF04E0HS) om alle die updates te krijgen nadat het onderwerp voor overzicht werd gedeeld.
+  Typisch, na het opnemen van overzicht terugkoppelt, zou u veranderingen van de recentste versie van het onderwerp willen samenvoegen. Om dit te doen, gebruik de [&#x200B; eigenschap van de Fusie &#x200B;](web-editor-features.md#id205DF04E0HS) om alle die updates te krijgen nadat het onderwerp voor overzicht werd gedeeld.
 
 - **D**: Open de zij-aan-zij mening om de gecommentarieerde versie van het onderwerp te tonen. Zoals in het bovenstaande schermafbeelding te zien is, is de meest linkse sectie de nieuwste versie van het onderwerp waarin u wijzigingen kunt aanbrengen. De volgende sectie is de gecommenteerde versie van het onderwerp. Aangezien u tussen commentaren in het onderwerp navigeert, verandert de zijmening en toont die versie van het onderwerp waarop de commentaar werd gemaakt. Elke opmerking in het opmerkingenvenster is gekoppeld aan de corresponderende tekst in deze sectie. Hiermee kunt u de tekst met opmerkingen herkennen. De opmerkingen worden weergegeven in de volgorde van de tekst met opmerkingen in het document.
 
@@ -61,7 +61,7 @@ In de Editor bevat het rechterdeelvenster de pictogrammen Revisie en Wijzigingen
 
   >[!IMPORTANT]
   >
-  > De functie Opmerkingen importeren werkt alleen voor de documenten die niet zijn gewijzigd sinds ze zijn gedeeld voor revisie. Als u om het even welke verandering na het verzenden van het document voor overzicht hebt aangebracht, zult u een alarm aan **krijgen van de Invoer van de Kracht** commentaren in uw document. Dit leidt echter tot het verlies van alle updates die u in uw document hebt gemaakt. Het **alarm van de Invoer van 0} Kracht wordt ook getoond als het document buiten wordt gecreeerd en dan voor overzicht wordt gedeeld.** U kunt de opmerkingen importeren.
+  > De functie Opmerkingen importeren werkt alleen voor de documenten die niet zijn gewijzigd sinds ze zijn gedeeld voor revisie. Als u om het even welke verandering na het verzenden van het document voor overzicht hebt aangebracht, zult u een alarm aan **krijgen van de Invoer van de Kracht** commentaren in uw document. Dit leidt echter tot het verlies van alle updates die u in uw document hebt gemaakt. Het **alarm van de Invoer van 0&rbrace; Kracht wordt ook getoond als het document buiten wordt gecreeerd en dan voor overzicht wordt gedeeld.** U kunt de opmerkingen importeren.
 
   Als en wanneer u een opmerking accepteert of afwijst, wordt deze verwijderd uit de lijst Bijgehouden wijzigingen. Dit is ook een indicator voor het aantal opmerkingen dat in het document moet worden behandeld.
 
@@ -78,12 +78,12 @@ Als auteur en initiator van de revisietaak kunt u reageren op revisieopmerkingen
 
 >[!NOTE]
 >
-> Om de lijst van gebruikers te bekijken die aan een overzichtstaak worden toegewezen en hen in een commentaar etiketteren, moet u *Gelezen toegang* op `/home/users and /home/groups` knopen hebben. Voor details, mening [ gebruikersbeleid en veiligheid ](../cs-install-guide/user-admin-sec.md#additional-notes-on-user-groups). <br> Als er na het bevestigen van de toegang nog steeds geen codes beschikbaar zijn, moet uw beheerder mogelijk een `user-admin` -licentie toewijzen om deze functionaliteit in te schakelen.
+> Om de lijst van gebruikers te bekijken die aan een overzichtstaak worden toegewezen en hen in een commentaar etiketteren, moet u *Gelezen toegang* op `/home/users and /home/groups` knopen hebben. Voor details, mening [&#x200B; gebruikersbeleid en veiligheid &#x200B;](../cs-install-guide/user-admin-sec.md#additional-notes-on-user-groups). <br> Als er na het bevestigen van de toegang nog steeds geen codes beschikbaar zijn, moet uw beheerder mogelijk een `user-admin` -licentie toewijzen om deze functionaliteit in te schakelen.
 
 ![](images/tag-users-review.png){width="350" align="left"}
 *de gebruikers van de Titel :Tag als initiatiefnemer/Auteur*
 
-Gelabelde gebruikers ontvangen zowel een e-mail als een AEM-melding, zodat ze direct op de hoogte worden gesteld. Voor meer details op hoe de heroverwegingsberichten teweegbrengen, mening [ het Begrip van heroverwegingsberichten ](./review-understanding-review-notifications.md).
+Gelabelde gebruikers ontvangen zowel een e-mail als een AEM-melding, zodat ze direct op de hoogte worden gesteld. Voor meer details op hoe de heroverwegingsberichten teweegbrengen, mening [&#x200B; het Begrip van heroverwegingsberichten &#x200B;](./review-understanding-review-notifications.md).
 
 **de revisiecommentaren van de Toegang gebruikend het Overzicht UI**
 
@@ -91,4 +91,4 @@ Als u de initiatiefnemer of Auteur van een overzichtstaak bent en het van de **c
 
 ![](images/review-comments-toolbar-disabled.png){width="350" align="left"}
 
-**Bovenliggend onderwerp:**[ Inleiding aan overzicht ](review.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Inleiding aan overzicht &#x200B;](review.md)
