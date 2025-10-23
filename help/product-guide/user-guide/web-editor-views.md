@@ -4,7 +4,7 @@ description: De onderwerpen van de mening in auteur, bron, en voorproefwijze. Le
 exl-id: 74db2902-4507-4904-85d8-6b52e4af4c55
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
 workflow-type: tm+mt
 source-wordcount: '1447'
 ht-degree: 0%
@@ -49,7 +49,7 @@ De mening van Source toont onderliggende XML die omhoog het onderwerp maakt. Als
   In de bovenstaande schermafbeelding wordt een kruismarkering gebruikt om de regel met onjuiste XML te laten aanwijzen.
 
 * Met de functie Zoeken en vervangen kunt u zoeken naar tekst, elementen of kenmerken in de weergave Source.
-Voor meer details, bekijk de **Vondst en vervang** eigenschapbeschrijving in de [&#x200B; bar van het Lusje &#x200B;](web-editor-features.md#tab-bar) sectie.
+Voor meer details, bekijk de **Vondst en vervang** eigenschapbeschrijving in de [ bar van het Lusje ](web-editor-tab-bar.md) sectie.
 
 * De Source-weergave bevat veel sneltoetsen waarmee u snel door een document kunt navigeren en aan een document kunt werken. In de volgende tabel worden de ondersteunde acties en de bijbehorende sneltoetsen weergegeven:
 
@@ -149,4 +149,4 @@ Voer de volgende stappen uit om een onderwerp als PDF te exporteren:
    De PDF wordt gegenereerd en geopend op een nieuw tabblad of er wordt een dialoogvenster weergegeven waarin u de PDF op uw lokale systeem kunt opslaan.
 
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; Inleiding aan de Redacteur &#x200B;](web-editor.md)
+**Bovenliggend onderwerp:**[ Inleiding aan de Redacteur ](web-editor.md)

@@ -4,7 +4,7 @@ description: Leer een aangepaste sjabloon te maken, deze te gebruiken om nieuwe 
 exl-id: 9cb0035f-bf81-4ab5-a575-53851bbff494
 feature: Authoring, Map Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
 workflow-type: tm+mt
 source-wordcount: '1541'
 ht-degree: 0%
@@ -37,7 +37,7 @@ U kunt kaart en onderwerpmalplaatjes op de volgende manieren tot stand brengen:
 
 ### Aangepaste sjablonen maken vanuit de Editor
 
-De **eigenschap van Malplaatjes** is aanwezig in het [&#x200B; Linkerpaneel van de interface van de Redacteur &#x200B;](./web-editor-features.md#left-panel), en is slechts beschikbaar voor beheerders. Met dit deelvenster kunnen beheerders eenvoudig sjablonen maken en beheren die vervolgens door de auteurs kunnen worden gebruikt. Door gebrek, zijn de malplaatjes gecategoriseerd onder *kaart* en *onderwerp* typesjablonen.
+De **eigenschap van Malplaatjes** is aanwezig in het [ Linkerpaneel van de interface van de Redacteur ](./web-editor-left-panel.md), en is slechts beschikbaar voor beheerders. Met dit deelvenster kunnen beheerders eenvoudig sjablonen maken en beheren die vervolgens door de auteurs kunnen worden gebruikt. Door gebrek, zijn de malplaatjes gecategoriseerd onder *kaart* en *onderwerp* typesjablonen.
 
 ![](images/templates-panel_cs.png){width="300" align="left"}
 
@@ -45,7 +45,7 @@ Standaard kunt u de bestanden op titels weergeven. Terwijl u de cursor op een sj
 
 >[!NOTE]
 >
-> Als beheerder kunt u de lijst met bestanden ook weergeven in de Editor. Selecteer de **optie van de Naam van het 0&rbrace; Dossier {van de** 3} sectie van de de vertoningsconfiguratie van de dossiers van de Redacteur in **voorkeur van de Gebruiker**.**&#x200B;**
+> Als beheerder kunt u de lijst met bestanden ook weergeven in de Editor. Selecteer de **optie van de Naam van het 0} Dossier {van de** 3} sectie van de de vertoningsconfiguratie van de dossiers van de Redacteur in **voorkeur van de Gebruiker**.****
 
 Voer de volgende stappen uit om een onderwerp of kaartmalplaatje van de Redacteur tot stand te brengen:
 
@@ -75,7 +75,7 @@ Ook, kies het type van malplaatje dat u van de **Malplaatje** drop-down lijst wi
 
 Nadat u de sjabloon hebt gemaakt, moet u deze toevoegen aan uw algemene profiel of mapprofiel. Nadat het malplaatje wordt toegevoegd, zullen uw auteurs beginnen het nieuwe malplaatje in het onderwerp/kaartcreatieproces te bekijken.
 
-Gebruikend het **menu van Opties** op een bestaand malplaatje, kunt u verkiezen om **uit te geven** of **&#x200B;**&#x200B;het dupliceren. In geval van duplicatie blijven de structuur en het type \(van document\) van de sjabloon behouden en kunt u deze opnieuw gebruiken om er een andere sjabloon van te maken.
+Gebruikend het **menu van Opties** op een bestaand malplaatje, kunt u verkiezen om **uit te geven** of **** het dupliceren. In geval van duplicatie blijven de structuur en het type \(van document\) van de sjabloon behouden en kunt u deze opnieuw gebruiken om er een andere sjabloon van te maken.
 
 ![](images/template-options-menu-editor.png){width="500" align="left"}
 
@@ -124,13 +124,13 @@ Gebaseerd op uw opstelling leert hoe te om de weg van de malplaatjeomslag van do
 <details>
     <summary> Cloud Services </summary>
 
-Leer hoe te [&#x200B; om de weg van de malplaatjeomslag van douaneDITA &#x200B;](../install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) in de Gids van de Installatie en van de Configuratie van de Diensten van de Wolk te vormen.
+Leer hoe te [ om de weg van de malplaatjeomslag van douaneDITA ](../install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) in de Gids van de Installatie en van de Configuratie van de Diensten van de Wolk te vormen.
 </details>
 
 <details>
     <summary> Software op locatie</summary>
 
-Leer hoe te om [&#x200B; de weg van de malplaatjeomslag van douaneDITA &#x200B;](../cs-install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) in de Gids van de Installatie en van de Configuratie op locatie te vormen.
+Leer hoe te om [ de weg van de malplaatjeomslag van douaneDITA ](../cs-install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) in de Gids van de Installatie en van de Configuratie op locatie te vormen.
 </details>
 
 ## De titel doorgeven die is gedefinieerd in de sjablonen
@@ -230,4 +230,4 @@ De kaart genereert alle elementen waarnaar in de sjabloonmap wordt verwezen. Som
 
 - Als een andere kaart of een onderwerp op het zelfde niveau in de omslag wordt gecreeerd, dan worden de namen van de pas gecreëerde activa toegevoegd met 0.1.2, etc. U kunt ervoor kiezen de kaart te openen om het kaartbestand te bewerken of op te slaan in de opslagplaats.
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; Inleiding aan de Redacteur van de Kaart &#x200B;](map-editor.md)
+**Bovenliggend onderwerp:**[ Inleiding aan de Redacteur van de Kaart ](map-editor.md)
