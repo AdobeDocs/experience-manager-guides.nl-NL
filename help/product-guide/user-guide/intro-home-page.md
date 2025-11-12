@@ -43,11 +43,11 @@ De functies in de navigatiebalk worden als volgt uitgelegd:
 
 - **de schakelaars van de Navigatie**: Staat naadloze navigatie aan andere pagina&#39;s toe:
    - **Huis**: De standaardpagina die u wanneer het registreren in Experience Manager Guides bekijkt.
-   - **Redacteur**: Een makkelijk te gebruiken web-based Redacteur die u toestaat om gestructureerde documenten in Experience Manager Guides tot stand te brengen en te beheren. [ krijgt om de interface van de Redacteur ](./web-editor.md) te kennen.
-   - **console van de Kaart**: Verstrekt u een specifieke werkruimte om alle aspecten van kaartbeheer en het publiceren te behandelen. [ krijgt om de de consoleinterface van de Kaart te kennen ](./map-console-overview.md).
+   - **Redacteur**: Een makkelijk te gebruiken web-based Redacteur die u toestaat om gestructureerde documenten in Experience Manager Guides tot stand te brengen en te beheren. [&#x200B; krijgt om de interface van de Redacteur &#x200B;](./web-editor.md) te kennen.
+   - **console van de Kaart**: Verstrekt u een specifieke werkruimte om alle aspecten van kaartbeheer en het publiceren te behandelen. [&#x200B; krijgt om de de consoleinterface van de Kaart te kennen &#x200B;](./map-console-overview.md).
 - **AI Medewerker**: Een krachtig, AI-gedreven hulpmiddel dat wordt ontworpen om uw productiviteit door slimme hulpeigenschappen te verbeteren. Als u werkt in de Editor-interface, kunt u bovendien gebruikmaken van de slimme ontwerpmogelijkheden van AI Assistant die het ontwerpproces slimmer en sneller maken door intelligente suggesties voor hergebruik en optimalisatie van inhoud.
 
-  De [ AI Medewerker ](./ai-assistant.md) eigenschap is momenteel slechts beschikbaar voor Adobe Experience Manager als Cloud Service.
+  De [&#x200B; AI Medewerker &#x200B;](./ai-assistant.md) eigenschap is momenteel slechts beschikbaar voor Adobe Experience Manager als Cloud Service.
 - **pas overzichtssectie** aan: Staat u toe om widgets in de sectie te verbergen of te tonen Widgets.
 - **profiel van de Omslag in gebruik**: Toont het omslagprofiel dat momenteel wordt gebruikt.
 - **Meer acties**: Verleent toegang tot extra opties. Als u deze knop selecteert, wordt een menu geopend met de volgende opties:
@@ -56,7 +56,7 @@ De functies in de navigatiebalk worden als volgt uitgelegd:
       - **de Diensten van de Wolk**: Als u de Diensten van de Wolk gebruikt, die de **Assets** optie selecteren neemt u aan de pagina van de Navigatie van AEM.
 
       - **Op-gebouwSoftware**: Als u Adobe Experience Manager Guides (4.2.1 en later) gebruikt, die de **optie van Assets** selecteert neemt u aan uw huidige dossierweg in Assets UI.
-   - **de montages van Workspace**: Neemt u aan de **de montages van Workspace** dialoog. Voor details, vorm de mening [ de montages van Workspace ](../cs-install-guide/workspace-settings.md).
+   - **de montages van Workspace**: Neemt u aan de **de montages van Workspace** dialoog. Voor details, vorm de mening [&#x200B; de montages van Workspace &#x200B;](../cs-install-guide/workspace-settings.md).
 
      >[!NOTE]
      >
@@ -85,14 +85,14 @@ De functies in het linkerdeelvenster worden als volgt uitgelegd:
 
 - [Overzicht](#overview)
 - [Bewaarplaats](#repository)
-- [ Verzamelingen van de Kaart ](#map-collections)
+- [&#x200B; Verzamelingen van de Kaart &#x200B;](#map-collections)
 - [Bulk publiceren](#bulk-publish)
 - [Wachtrij publiceren](#publish-queue)
-- [ Voorkeur van de Gebruiker ](#user-preferences)
+- [&#x200B; Voorkeur van de Gebruiker &#x200B;](#user-preferences)
 
 >[!NOTE]
 >
-> Bovendien als uw beheerder de integratie van Adobe Workfront in het systeem heeft gevormd, dan wordt de optie van a **Workfront** ook getoond in het linkerpaneel. Leer over [ integratie van Adobe Workfront ](./workfront-integration.md) in Experience Manager Guides.
+> Bovendien als uw beheerder de integratie van Adobe Workfront in het systeem heeft gevormd, dan wordt de optie van a **Workfront** ook getoond in het linkerpaneel. Leer over [&#x200B; integratie van Adobe Workfront &#x200B;](./workfront-integration.md) in Experience Manager Guides.
 
 
 ### Overzicht
@@ -113,12 +113,12 @@ De volgende widgets zijn aanwezig in de sectie Widgets:
   ![](images/aem-home-recent-files-sort-resize-options.png){align="left"}
 
 
-  Van [ Voorkeur van de Gebruiker ](#user-preferences), kunt u het maximumaantal dossiers plaatsen die in deze widget kunnen worden getoond. Door gebrek, wordt deze grens geplaatst aan **20**.
+  Van [&#x200B; Voorkeur van de Gebruiker &#x200B;](#user-preferences), kunt u het maximumaantal dossiers plaatsen die in deze widget kunnen worden getoond. Door gebrek, wordt deze grens geplaatst aan **20**.
 
   De volgende opties zijn beschikbaar wanneer u de muisaanwijzer op een bestand plaatst:
 
    - **Open in redacteur**: Staat u toe om het dossier in de Redacteur te openen. U kunt een bestand ook openen door het te selecteren.
-   - **Vastzetten/unpin**: Staat u toe om één of meerdere dossiers aan Recente dossiers widget vast te zetten. Vastgezette bestanden worden bovenaan in de widgetlijst weergegeven. Om een dossier los te maken, gebruik **** optie vrijmaken.
+   - **Vastzetten/unpin**: Staat u toe om één of meerdere dossiers aan Recente dossiers widget vast te zetten. Vastgezette bestanden worden bovenaan in de widgetlijst weergegeven. Om een dossier los te maken, gebruik **&#x200B;**&#x200B;optie vrijmaken.
    - **verwijder**: Staat u toe om het dossier uit Recente dossiers widget te verwijderen.
 
   **creeer nieuw dossier van het Nieuwe dossier dropdown menu**
@@ -154,25 +154,25 @@ De volgende widgets zijn aanwezig in de sectie Widgets:
 
 >[!NOTE]
 >
-> Bovendien als uw beheerder de integratie van Adobe Workfront in het systeem heeft gevormd, dan **wordt Uw taken** widget ook getoond in de sectie Widgets. Leer meer over [ integratie van Adobe Workfront ](./workfront-integration.md#working-with-the-your-tasks-widget) in Experience Manager Guides.
+> Bovendien als uw beheerder de integratie van Adobe Workfront in het systeem heeft gevormd, dan **wordt Uw taken** widget ook getoond in de sectie Widgets. Leer meer over [&#x200B; integratie van Adobe Workfront &#x200B;](./workfront-integration.md#working-with-the-your-tasks-widget) in Experience Manager Guides.
 
 ### Bewaarplaats
 
-De Repository fungeert als een gecentraliseerde hub voor het eenvoudig ontdekken van mappen en bestanden. Het biedt een uitgebreide tabelweergave van alle bestanden en mappen, samen met de contextafhankelijke details. Via deze uniforme interface kunt u naadloos door bestanden bladeren en zoeken met robuuste filteropties, waardoor u verzekerd bent van efficiëntie en een verbeterde ervaring. Leer meer over [ Bewaarplaats ](./home-page-repository-view.md).
+De Repository fungeert als een gecentraliseerde hub voor het eenvoudig ontdekken van mappen en bestanden. Het biedt een uitgebreide tabelweergave van alle bestanden en mappen, samen met de contextafhankelijke details. Via deze uniforme interface kunt u naadloos door bestanden bladeren en zoeken met robuuste filteropties, waardoor u verzekerd bent van efficiëntie en een verbeterde ervaring. Leer meer over [&#x200B; Bewaarplaats &#x200B;](./home-page-repository-view.md).
 
 ### Kaartverzamelingen
 
-Experience Manager Guides voorziet u van de capaciteit om uw inhoud voor het publiceren te organiseren door een dashboard te gebruiken genoemd **inzamelingen van de Kaart**. Om deze eigenschap te gebruiken, selecteer **inzamelingen van de Kaart** van het linkerpaneel. Het neemt u aan de pagina van de inzamelingen van de Kaart in **Assets UI** waar u kaartinzameling voor outputgeneratie kunt [ gebruiken.](./generate-output-use-map-collection-output-generation.md)
+Experience Manager Guides voorziet u van de capaciteit om uw inhoud voor het publiceren te organiseren door een dashboard te gebruiken genoemd **inzamelingen van de Kaart**. Om deze eigenschap te gebruiken, selecteer **inzamelingen van de Kaart** van het linkerpaneel. Het neemt u aan de pagina van de inzamelingen van de Kaart in **Assets UI** waar u kaartinzameling voor outputgeneratie kunt [&#x200B; gebruiken.](./generate-output-use-map-collection-output-generation.md)
 
 ### Bulkpublicatie
 
-Met de functie Bulk activeren kunt u uw inhoud snel en eenvoudig activeren, van ontwerpen tot publicatie-instantie. Om deze eigenschap te gebruiken, uitgezocht **Bulk publiceert** van het linkerpaneel. Het neemt u aan de Bulk pagina van de Inzamelingen van de Activering in Assets UI waar u [ Bulk activering van gepubliceerde inhoud ](./conf-bulk-activation.md) kunt tot stand brengen en beheren.
+Met de functie Bulk activeren kunt u uw inhoud snel en eenvoudig activeren, van ontwerpen tot publicatie-instantie. Om deze eigenschap te gebruiken, uitgezocht **Bulk publiceert** van het linkerpaneel. Het neemt u aan de Bulk pagina van de Inzamelingen van de Activering in Assets UI waar u [&#x200B; Bulk activering van gepubliceerde inhoud &#x200B;](./conf-bulk-activation.md) kunt tot stand brengen en beheren.
 
 ### Wachtrij publiceren
 
 Wanneer u een grote reeks het publiceren taken hebt die op uw systeem lopen, wordt het praktisch onmogelijk om elke kaart afzonderlijk te controleren DITA om zijn het publiceren taak te controleren. Experience Manager Guides geeft de beheerders en uitgevers één enkele mening van alle het publiceren taken die in het systeem lopen.
 
-Om deze eigenschap te gebruiken, uitgezocht **publiceer rij** van het linkerpaneel. Het neemt u aan de Publish dashboardpagina in Assets UI waar u kunt [ leiden publiceer taken gebruikend het publiceer dashboard ](./generate-output-publish-dashboard.md).
+Om deze eigenschap te gebruiken, uitgezocht **publiceer rij** van het linkerpaneel. Het neemt u aan de Publish dashboardpagina in Assets UI waar u kunt [&#x200B; leiden publiceer taken gebruikend het publiceer dashboard &#x200B;](./generate-output-publish-dashboard.md).
 
 ### Gebruikersvoorkeuren
 
@@ -184,7 +184,7 @@ De gebruikersvoorkeuren zijn beschikbaar voor alle auteurs. Met de voorkeuren ku
 
    - **het profiel van de Omslag**: Het profiel van de Omslag controleert diverse configuraties met betrekking tot voorwaardelijke attributen, auteursmalplaatjes, output stelt vooraf in en de configuraties van de Redacteur. Het profiel Algemeen wordt standaard weergegeven. Als uw beheerder mapprofielen heeft geconfigureerd in het systeem, worden deze mapprofielen ook weergegeven in de lijst Mapprofielen.
    - **de weg van de Basis**: Door gebrek, wanneer u tot de bewaarplaats van Experience Manager Guides van de Redacteur toegang hebt, wordt u getoond activa van de /content/dam plaats. De werkmap bevat hoogstwaarschijnlijk enkele mappen in de map /content/dam/. U kunt het basispad instellen op de werkmap en in de weergave Opslagplaats geeft u de inhoud van die locatie vooraf weer. Hierdoor neemt de tijd voor toegang tot uw werkmap af. Wanneer u een referentie- of mediabestand invoegt in uw onderwerp, begint de locatie van het bestand bovendien met de map die is ingesteld in het basispad.
-   - **Uitgezochte Kaart van de Wortel**: Selecteer een DITA kaartdossier om zeer belangrijke verwijzingen of verklarende woordenlijstingangen op te lossen. De geselecteerde hoofdmap heeft de hoogste prioriteit om toetsverwijzingen op te lossen. Voor meer details, lost de mening [ zeer belangrijke verwijzingen ](./map-editor-other-features.md) op.
+   - **Uitgezochte Kaart van de Wortel**: Selecteer een DITA kaartdossier om zeer belangrijke verwijzingen of verklarende woordenlijstingangen op te lossen. De geselecteerde hoofdmap heeft de hoogste prioriteit om toetsverwijzingen op te lossen. Voor meer details, lost de mening [&#x200B; zeer belangrijke verwijzingen &#x200B;](./map-editor-other-features.md) op.
    - **Maximum aantal recente dossiers**: Gebruik dit gebied, om een maximumgrens op de dossiers te plaatsen die in Recente dossiers widget worden getoond.
    - **het Openen voorkeur voor Kaarten**: Hier, kunt u een standaardgedrag selecteren het systeem zal volgen terwijl het openen van een DITA kaartdossier.
 
@@ -192,7 +192,7 @@ De gebruikersvoorkeuren zijn beschikbaar voor alle auteurs. Met de voorkeuren ku
 
   ![](images/user_preference_editor_appearance.png){align="left"}
 
-   - **het thema van de Toepassing en de mening van Source**: U kunt van de Lichte of Donkere thema&#39;s voor de toepassing en bronmening kiezen. In het geval van het thema Licht gebruiken de werkbalken en deelvensters een lichtgrijze achtergrond. In het geval van het thema Donker gebruiken de werkbalken en deelvensters een achtergrond met een zwarte kleur. Selecteer **thema van het apparaat van 0} Gebruik {om Experience Manager Guides toe te staan om de lichte en donkere thema&#39;s te selecteren die op het thema van uw apparaat worden gebaseerd.**
+   - **het thema van de Toepassing en de mening van Source**: U kunt van de Lichte of Donkere thema&#39;s voor de toepassing en bronmening kiezen. In het geval van het thema Licht gebruiken de werkbalken en deelvensters een lichtgrijze achtergrond. In het geval van het thema Donker gebruiken de werkbalken en deelvensters een achtergrond met een zwarte kleur. Selecteer **thema van het apparaat van 0&rbrace; Gebruik &lbrace;om Experience Manager Guides toe te staan om de lichte en donkere thema&#39;s te selecteren die op het thema van uw apparaat worden gebaseerd.**
 
      In alle thema&#39;s wordt het bewerkingsgebied van de inhoud weergegeven in een witte-kleurenachtergrond in de weergave Auteur.
 

@@ -13,18 +13,18 @@ ht-degree: 0%
 
 Dit artikel behandelt de nieuwe en verbeterde functies die zijn geïntroduceerd met de release van 2025.11.0 van Adobe Experience Manager Guides as a Cloud Service.
 
-Voor de lijst van kwesties die in deze versie worden bevestigd, mening [ Vaste kwesties in de versie 2025.11.0 ](fixed-issues-2025-11-0.md).
+Voor de lijst van kwesties die in deze versie worden bevestigd, mening [&#x200B; Vaste kwesties in de versie 2025.11.0 &#x200B;](fixed-issues-2025-11-0.md).
 
-Leer over [ verbeteringsinstructies voor de versie 2025.11.0 ](../release-info/upgrade-instructions-2025-11-0.md).
+Leer over [&#x200B; verbeteringsinstructies voor de versie 2025.11.0 &#x200B;](../release-info/upgrade-instructions-2025-11-0.md).
 
 
 ## Introductie van nieuwe opslagplaats op de startpagina en verbeterde zoekervaring
 
-De Repository, die nu rechtstreeks vanaf de Startpagina toegankelijk is, fungeert als een gecentraliseerde ruimte voor betere ontdekkingsmogelijkheden voor mappen en bestanden. Het kenmerkt gewijd **navigatievenster van de Omslag** en een klantgerichte **tabelvormige mening van Bewaarplaats**. Dankzij de vernieuwde zoek- en filterervaring is het aanzienlijk eenvoudiger om bestanden te zoeken en te zoeken. Voor meer details, zie [ de interface van de Bewaarplaats ](../user-guide/home-page-repository-view.md) kennen.
+De Repository, die nu rechtstreeks vanaf de Startpagina toegankelijk is, fungeert als een gecentraliseerde ruimte voor betere ontdekkingsmogelijkheden voor mappen en bestanden. Het kenmerkt gewijd **navigatievenster van de Omslag** en een klantgerichte **tabelvormige mening van Bewaarplaats**. Dankzij de vernieuwde zoek- en filterervaring is het aanzienlijk eenvoudiger om bestanden te zoeken en te zoeken. Voor meer details, zie [&#x200B; de interface van de Bewaarplaats &#x200B;](../user-guide/home-page-repository-view.md) kennen.
 
 ![](assets/repository-view-home.png){align="left"}
 
-De ervaring met zoeken en filteren voor bestanden in de Editor is nu consistent met de startpagina. Een nieuw [ paneel van het Onderzoek ](../user-guide/search-panel-explorer.md) dat bij de bodem van de interface van de Redacteur wordt gevestigd wordt geïntroduceerd om onderzoeksresultaten te tonen. Bovendien, wordt de Bewaarplaats nu anders genoemd aan **Ontdekkingsreiziger** in de Redacteur, toestaand u om omslagen en dossiers te doorbladeren zoals voordien.
+De ervaring met zoeken en filteren voor bestanden in de Editor is nu consistent met de startpagina. Een nieuw [&#x200B; paneel van het Onderzoek &#x200B;](../user-guide/search-panel-explorer.md) dat bij de bodem van de interface van de Redacteur wordt gevestigd wordt geïntroduceerd om onderzoeksresultaten te tonen. Bovendien, wordt de Bewaarplaats nu anders genoemd aan **Ontdekkingsreiziger** in de Redacteur, toestaand u om omslagen en dossiers te doorbladeren zoals voordien.
 
 ![](assets/search-panel-explorer.png){align="left"}
 
@@ -33,7 +33,7 @@ De ervaring met zoeken en filteren voor bestanden in de Editor is nu consistent 
 
 U kunt de status van elke indexeringspoging voor slimme suggesties in AI Assistant nu eenvoudig bijhouden met nieuwe statusindicatoren: indexeren voltooid, niet synchroon, Bezig en indexeren mislukt. De laatste indexerende tijdstempel wordt nu opgenomen op het mapprofielniveau voor een betere traceerbaarheid. Bovendien worden beperkingen voor bovenliggende en onderliggende mappen afgedwongen wanneer een map of bestandspad wordt opgegeven voor indexering.
 
-Voor meer details, vormt de mening [ AI Medewerker voor slimme hulp en creatie ](../cs-install-guide/conf-folder-level.md#configure-ai-assistant-for-smart-help-and-authoring).
+Voor meer details, vormt de mening [&#x200B; AI Medewerker voor slimme hulp en creatie &#x200B;](../cs-install-guide/conf-folder-level.md#configure-ai-assistant-for-smart-help-and-authoring).
 
 ## Prestatieverbeteringen
 
@@ -43,7 +43,7 @@ Om de efficiëntie van het systeem te handhaven en congestie van de bronnen te v
 
 Het systeem identificeert kandidaten voor schoonmaak intelligent en voert geautomatiseerde verwijdering uit. Bovendien, is deze eigenschap configureerbaar, die Beheerders controle over zijn gedrag geven dat op operationele behoeften wordt gebaseerd.
 
-Voor meer details, vorm de mening [ B-boom schoonmaak ](../cs-install-guide/configure-btree-cleanup-cs.md).
+Voor meer details, vorm de mening [&#x200B; B-boom schoonmaak &#x200B;](../cs-install-guide/configure-btree-cleanup-cs.md).
 
 ### Verbeterde verwerking van DITA-kaarten met een groot aantal toetsen
 
@@ -55,7 +55,7 @@ Na de upgrade van de build kan het systeem worden geconfronteerd met een tijdeli
 
 Er is een geautomatiseerd proces geïntroduceerd om elementen in de `/content/dam` up-to-date te houden. Het systeem activeert de herverwerking van bedrijfsmiddelen om de 15 minuten. Tijdens elke cyclus worden elementen die nieuw zijn toegevoegd of niet zijn verwerkt binnen het meest recente interval van 15 minuten opgehaald en opnieuw verwerkt, waardoor de efficiëntie en consistentie in de gehele inhoudsplaats worden verbeterd.
 
-Voor meer details, mening [ activa van het Proces ](../user-guide/asset-processor.md).
+Voor meer details, mening [&#x200B; activa van het Proces &#x200B;](../user-guide/asset-processor.md).
 
 
 

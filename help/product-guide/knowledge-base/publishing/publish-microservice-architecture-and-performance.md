@@ -27,7 +27,7 @@ Als u de nieuwe service niet gebruikt, gebeurt alle publicaties op dezelfde pod 
 
 Deze beperking van bronnen was de belangrijkste motivatie om een speciale service te ontwikkelen waarmee we meerdere gelijktijdige en grote publicatiewerklasten in de cloud kunnen uitvoeren.
 
-Om meer over het publiceren werkschema&#39;s op wolk te leren, mening [ Veelgestelde vragen over het publiceren werkschema en scalability ](/help/product-guide/user-guide/publishing-scalability-faq.md).
+Om meer over het publiceren werkschema&#39;s op wolk te leren, mening [&#x200B; Veelgestelde vragen over het publiceren werkschema en scalability &#x200B;](/help/product-guide/user-guide/publishing-scalability-faq.md).
 
 ## Inleiding tot de nieuwe architectuur
 
@@ -82,4 +82,4 @@ Als u een grote kaart op prem publiceert, dan zou u de heap parameters van Java 
 
 Een deel van elke publicatieaanvraag moet in AEM worden uitgevoerd om de juiste publicatie-inhoud op te halen die naar de microservice moet worden verzonden. De nieuwe cloudarchitectuur gebruikt AEM-taken in plaats van AEM-workflows, zoals in de oude architectuur het geval was. Met deze wijziging kunnen AEM Guides-beheerders de instellingen voor de wachtrij voor publicatie van wolken afzonderlijk configureren zonder dat dit gevolgen heeft voor andere AEM-taken of workflowconfiguraties.
 
-De details op hoe te om nieuwe te vormen publiceren microservice kunnen hier worden gevonden: [ vormen Microservice ](configure-microservices.md)
+De details op hoe te om nieuwe te vormen publiceren microservice kunnen hier worden gevonden: [&#x200B; vormen Microservice &#x200B;](configure-microservices.md)

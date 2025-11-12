@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!INFO]
 >
->Van versie 2025.11.0, **wordt de Bewaarplaats van 0} {anders genoemd aan** Ontdekkingsreiziger **.** Voor installatie op locatie blijft de opslagruimte beschikbaar tot de release van Experience Manager Guides 5.1.
+>Van versie 2025.11.0, **wordt de Bewaarplaats van 0&rbrace; &lbrace;anders genoemd aan** Ontdekkingsreiziger **.** Voor installatie op locatie blijft de opslagruimte beschikbaar tot de release van Experience Manager Guides 5.1.
 
 Adobe Experience Manager Guides biedt twee out-of-the-box kaartsjablonen: DITA-kaart en Bookmap. U kunt ook uw eigen kaartsjablonen maken en deze delen met uw auteurs om kaartbestanden te maken.
 
@@ -25,7 +25,7 @@ Voer de volgende stappen uit om een kaart te maken:
 
    ![](images/create-map-options.png){align="left"}
 
-   U kunt tot deze optie van de [ Homepage van Experience Manager Guides ](./intro-home-page.md) en tot het optiesmenu van een omslag in de mening van de Ontdekkingsreiziger ook toegang hebben.
+   U kunt tot deze optie van de [&#x200B; Homepage van Experience Manager Guides &#x200B;](./intro-home-page.md) en tot het optiesmenu van een omslag in de mening van de Ontdekkingsreiziger ook toegang hebben.
 
 2. De **Nieuwe kaart** dialoogdoos wordt getoond.
 
@@ -60,19 +60,19 @@ Voer de volgende stappen uit om onderwerpen aan een kaartdossier van de console 
    ![](images/new-map-file-in-editor.png){align="left"}
 
 
-   - **A** - \ (*bar van het Lusje* \): Dit is gelijkaardig aan de het tabbar van de Redacteur. De bar van het lusje van de mening [ ](./web-editor-tab-bar.md) in de Redacteur voor meer details.
+   - **A** - \ (*bar van het Lusje* \): Dit is gelijkaardig aan de het tabbar van de Redacteur. De bar van het lusje van de mening [&#x200B; &#x200B;](./web-editor-tab-bar.md) in de Redacteur voor meer details.
 
-   - **B** - \ (*Toolbar* \) dit is de toolbar die u toestaat om met kaartdossiers te werken. Voor meer informatie over de functies beschikbaar door de toolbar, mening [ Eigenschappen beschikbaar in de toolbar van de Redacteur van de Kaart ](#features-available-in-the-map-editors-toolbar).
+   - **B** - \ (*Toolbar* \) dit is de toolbar die u toestaat om met kaartdossiers te werken. Voor meer informatie over de functies beschikbaar door de toolbar, mening [&#x200B; Eigenschappen beschikbaar in de toolbar van de Redacteur van de Kaart &#x200B;](#features-available-in-the-map-editors-toolbar).
 
    - **C** - \ (*de meningen van de Kaart* \): Staat u toe om de Redacteur van de Kaart tussen de Lay-out, de Auteur, Source en de Voorproef te schakelen. De **mening van de Lay-out** staat u toe om de onderwerpen in een kaart te organiseren DITA. Dit geeft de boom of de hiërarchische mening van de kaart. De **mening van de Auteur** staat u toe om de onderwerpen in de Redacteur van de Kaart uit te geven. Dit geeft ook de WYSIWYG-weergave van het kaartbestand. De **mening van Source** staat u toe om met onderliggende XML van het kaartdossier te werken. De Voorproef geeft u een geconsolideerde mening van al onderwerp en submaps binnen het kaartdossier.
 
-   - **D** - \ (*Linkerpaneel* \): Verleent toegang tot het linkerpaneel dat u toegang tot de Inzamelingen, de Ontdekkingsreiziger, de Kaart, het Overzicht en andere eigenschappen geeft. U kunt het uit- of samenvouwen door het pictogram Uitvouwen/Samenvouwen te selecteren. Voor meer details over de eigenschappen beschikbaar in het linkerpaneel, mening [ Linkerpaneel ](./web-editor-left-panel.md) in de Redacteur.
+   - **D** - \ (*Linkerpaneel* \): Verleent toegang tot het linkerpaneel dat u toegang tot de Inzamelingen, de Ontdekkingsreiziger, de Kaart, het Overzicht en andere eigenschappen geeft. U kunt het uit- of samenvouwen door het pictogram Uitvouwen/Samenvouwen te selecteren. Voor meer details over de eigenschappen beschikbaar in het linkerpaneel, mening [&#x200B; Linkerpaneel &#x200B;](./web-editor-left-panel.md) in de Redacteur.
 
    - **E** - \ (*Midden Gebied* \): De inhoud van de kaart het uitgeven gebied.
 
-   - **F** - \ (*Juiste Comité* \): verleent toegang tot het paneel van Eigenschappen. U kunt de inhoudseigenschappen en de kaarteigenschappen van het geselecteerde onderwerp of de kaart bekijken. Voor meer details over de functionaliteit beschikbaar in dit paneel, mening [ Juiste paneel ](web-editor-right-panel.md) in de Redacteur.
+   - **F** - \ (*Juiste Comité* \): verleent toegang tot het paneel van Eigenschappen. U kunt de inhoudseigenschappen en de kaarteigenschappen van het geselecteerde onderwerp of de kaart bekijken. Voor meer details over de functionaliteit beschikbaar in dit paneel, mening [&#x200B; Juiste paneel &#x200B;](web-editor-right-panel.md) in de Redacteur.
 
-1. In het LinkerComité, schakelaar aan de **1} mening van de Ontdekkingsreiziger {.**
+1. In het LinkerComité, schakelaar aan de **1&rbrace; mening van de Ontdekkingsreiziger &lbrace;.**
 
 1. Navigeer in Adobe Experience Manager Explorer naar de map met de onderwerpen of submappen die u wilt toevoegen.
 
@@ -80,7 +80,7 @@ Voer de volgende stappen uit om onderwerpen aan een kaartdossier van de console 
 
    Het onderwerp wordt toegevoegd in de kaart.
 
-   ![ kaartredacteur voegt onderwerp ](images/map-editor-add-topic.png){align="left"} toe
+   ![&#x200B; kaartredacteur voegt onderwerp &#x200B;](images/map-editor-add-topic.png){align="left"} toe
 
 1. Als u volgende onderwerpen of een submap wilt toevoegen, sleept u het onderwerp of de submap naar de gewenste locatie in de kaart en zet u deze neer.
 
@@ -138,7 +138,7 @@ Voer de volgende stappen uit om een kaart te maken van de gebruikersinterface va
 
    ![](images/first-version-map-none.png){align="left"}
 
-   De versieinformatie voor een pas gecreëerde kaart wordt getoond als *niets*. Wanneer u een nieuwe versie opslaat, krijgt deze een versienummer toegewezen als 1.0. Voor meer informatie over het bewaren van een nieuwe versie, mening [ sparen als nieuwe versie ](web-editor-features.md#save-as-new-version).
+   De versieinformatie voor een pas gecreëerde kaart wordt getoond als *niets*. Wanneer u een nieuwe versie opslaat, krijgt deze een versienummer toegewezen als 1.0. Voor meer informatie over het bewaren van een nieuwe versie, mening [&#x200B; sparen als nieuwe versie &#x200B;](web-editor-features.md#save-as-new-version).
 
    U kunt verkiezen om de kaart voor het uitgeven in de gevormde kaartredacteur te openen, of het kaartdossier in de Ontdekkingsreiziger op te slaan.
 
@@ -170,9 +170,9 @@ Voer de volgende stappen uit om onderwerpen aan een kaartdossier van Assets UI t
 
    ![](images/edit-map-action-menu.png){align="left"}
 
-   Het kaartbestand wordt geopend voor bewerking in de Editor. Om onderwerpen aan het kaartdossier toe te voegen, volg de stappen (4-8) in [ onderwerpen aan een kaartdossier ](#add-topics-to-a-map-file) toevoegen.
+   Het kaartbestand wordt geopend voor bewerking in de Editor. Om onderwerpen aan het kaartdossier toe te voegen, volg de stappen (4-8) in [&#x200B; onderwerpen aan een kaartdossier &#x200B;](#add-topics-to-a-map-file) toevoegen.
 
 
 
 
-**Bovenliggend onderwerp: [ Inleiding aan de Redacteur van de Kaart ](map-editor.md)
+**Bovenliggend onderwerp: [&#x200B; Inleiding aan de Redacteur van de Kaart &#x200B;](map-editor.md)

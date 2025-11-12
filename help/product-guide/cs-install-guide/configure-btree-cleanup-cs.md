@@ -19,7 +19,7 @@ Stel de opschoontaak van de B-boomstructuur in en beheer de instelling `Guides B
 
 Voer de volgende stappen uit om B-boom schoonmaakbaan te vormen:
 
-1. Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](../cs-install-guide/download-install-additional-config-override.md) om het configuratiedossier tot stand te brengen.
+1. Gebruik de instructies die in [&#x200B; worden gegeven met voeten treedt van de Configuratie &#x200B;](../cs-install-guide/download-install-additional-config-override.md) om het configuratiedossier tot stand te brengen.
 
 1. Geef in het configuratiebestand de volgende gegevens (eigenschap) op:
 
@@ -32,7 +32,7 @@ Voer de volgende stappen uit om B-boom schoonmaakbaan te vormen:
 
 Voer de volgende stappen uit om de instelling in te schakelen:
 
-1. Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](../cs-install-guide/download-install-additional-config-override.md) om het configuratiedossier tot stand te brengen.
+1. Gebruik de instructies die in [&#x200B; worden gegeven met voeten treedt van de Configuratie &#x200B;](../cs-install-guide/download-install-additional-config-override.md) om het configuratiedossier tot stand te brengen.
 
 1. Geef in het configuratiebestand de volgende gegevens (eigenschap) op:
 
