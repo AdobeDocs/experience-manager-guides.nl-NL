@@ -499,7 +499,7 @@ Houd bij het indexeren van mappen rekening met de volgende punten om ervoor te z
 
 Voor Experience Manager Guides as a Cloud Service (![&#x200B; wolk van AEM &#x200B;](assets/aem-cloud-icon.svg)).
 
-U kunt de AI-Gedreven slimme **Hulp** vormen om de Auteurs te helpen vragen stellen en gemakkelijk de vereiste inhoud van de [&#x200B; documentatie van Experience Manager Guides &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview) vinden.
+U kunt de AI-Gedreven slimme **Hulp** vormen om de Auteurs te helpen vragen stellen en gemakkelijk de vereiste inhoud van de [&#x200B; documentatie van Experience Manager Guides &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/overview) vinden.
 
 Het **lusje van de Configuratie van de Redacteur van XML** staat u toe om de standaardvragen van het **deelvenster van de Hulp** te vormen.
 
@@ -551,7 +551,7 @@ Standaard bevat de XML-editor een heleboel functies waarmee uw auteurs DITA-docu
 
 Met deze instelling kunt u JSON-extensies maken die wijzigingen weerspiegelen die in het `ui_config.json` -bestand zijn aangebracht. U kunt deze extensies afzonderlijk uploaden op het niveau van het mapprofiel, zodat u over meer flexibiliteit en aanpassingsmogelijkheden beschikt. Bijvoorbeeld, wanneer u veranderingen in de **Configuratie van de Redacteur van XML** aanbrengt, zoals het bijwerken van een knoop, identificeert het systeem automatisch de verschillen. Door deze veranderingen in de **Configuratie UI van de Redacteur van XML te uploaden** en hen in uitbreidingen om te zetten JSON gebruikend **zet UI Config in JSON** knoop om, produceert het systeem een uitbreiding die de nieuwe functionaliteit opneemt.
 
-Leer meer over [&#x200B; het aanpassen van configuraties JSON en het omzetten van configuraties UI voor de nieuwe Redacteur van AEM Guides &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+Leer meer over [&#x200B; het aanpassen van configuraties JSON en het omzetten van configuraties UI voor de nieuwe Redacteur van AEM Guides &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 >[!NOTE]
 >
