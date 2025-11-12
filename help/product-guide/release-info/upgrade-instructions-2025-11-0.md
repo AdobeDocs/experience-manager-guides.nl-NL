@@ -1,37 +1,37 @@
 ---
-title: Opmerkingen bij de release | Upgradeinstructies en opgeloste problemen in Adobe Experience Manager Guides, release 2025.10.0
-description: Leer meer over de compatibiliteitsmatrix en hoe u een upgrade uitvoert naar de release van 2025.10.0 van Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 25bfa20f469930b3b683e4753812227abdf36f24
+title: Opmerkingen bij de release | Upgradeinstructies en opgeloste problemen in Adobe Experience Manager Guides, release 2025.11.0
+description: Leer meer over de compatibiliteitsmatrix en hoe u een upgrade uitvoert naar de release 2025.11.0 van Adobe Experience Manager Guides as a Cloud Service.
+source-git-commit: b33f9385cd0364009a70c1a5fddcc1a5c118b08b
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1039'
 ht-degree: 0%
 
 ---
 
-# Upgrade-instructies voor de release van 2025.10.0
+# Upgrade-instructies voor de release van 2025.11.0
 
-Dit artikel behandelt de upgrade-instructies en de compatibiliteitsmatrix voor de release 2025.10.0 van Adobe Experience Manager Guides as a Cloud Service.
+Dit artikel behandelt de upgrade-instructies en de compatibiliteitsmatrix voor de release 2025.11.0 van Adobe Experience Manager Guides as a Cloud Service.
 
-Voor meer informatie over de nieuwe eigenschappen en de verhogingen, mening [ wat in de versie 2025.10.0 ](whats-new-2025-10-0.md) nieuw is.
+Voor meer informatie over de nieuwe eigenschappen en de verhogingen, mening [ wat in de versie 2025.11.0 ](whats-new-2025-11-0.md) nieuw is.
 
-Voor de lijst van kwesties die in deze versie worden bevestigd, mening [ Vaste kwesties in de versie 2025.10.0 ](fixed-issues-2025-10-0.md).
+Voor de lijst van kwesties die in deze versie worden bevestigd, mening [ Vaste kwesties in de versie 2025.11.0 ](fixed-issues-2025-11-0.md).
 
 ## Compatibiliteitsmatrix
 
-In deze sectie wordt de compatibiliteitsmatrix voor de softwaretoepassingen vermeld die worden ondersteund door de release 2025.10.0 van Experience Manager Guides as a Cloud Service.
+In deze sectie wordt de compatibiliteitsmatrix voor de softwaretoepassingen vermeld die worden ondersteund door de release 2025.11.0 van Experience Manager Guides as a Cloud Service.
 
 ### FrameMaker en FrameMaker Publishing Server
 
 | Experience Manager Guides als Cloud Release | FMPS | FrameMaker |
 | --- | --- | --- |
-| 2025 10,0 | Niet compatibel | 2022 of hoger |
+| 2025 11,0 | Niet compatibel | 2022 of hoger |
 
 
 ### Zuurstofaansluiting
 
 | Experience Manager Guides als Cloud Release | Oxygeenaansluiting, Windows | Oxygeenconnector Mac | Bewerken in Oxygen Windows | Bewerken in Oxygen Mac |
 | --- | --- | --- | --- | --- |
-| 2025 10,0 | 3,8-uuid 1 | 3,8-uuid 1 | 2,3 | 2,3 |
+| 2025 11,0 | 3,8-uuid 1 | 3,8-uuid 1 | 2,3 | 2,3 |
 
 
 ### Versie van basissjabloon
@@ -48,13 +48,9 @@ In deze sectie wordt de compatibiliteitsmatrix voor de softwaretoepassingen verm
 | guides-components.all-1.4.0 | aemg-sites-template-1.3.0 |
 
 
-## Upgrade naar 2025.10.0 release
+## Upgrade naar 2025.11.0-release
 
 Experience Manager Guides wordt automatisch bijgewerkt na de upgrade naar de nieuwste versie van Experience Manager as a Cloud Service.
-
->[!NOTE]
->
-> Deze versie bevat updates voor de instellingen van het mapprofiel (ui_config.json). Als u aangepaste instellingen gebruikt, moet u een back-up van deze instellingen maken voordat u de upgrade uitvoert. Nadat u de update hebt uitgevoerd, kunt u de instellingen controleren en aanpassen en deze aanpassen aan de wijzigingen die u in de nieuwste versie hebt aangebracht.
 
 Voer de volgende stappen uit voor Experience Manager Guides as a Cloud Service als u dit nog niet eerder hebt gedaan voor uw bestaande release:
 
@@ -177,7 +173,7 @@ http://<aem_domain>/var/dxml/executor-locks/cf-reference-store-btree-migration/1
 
 ### Stappen om zoekfilters toe te passen op DITAVAL-bestanden voor alle uitvoervoorinstellingen
 
-Om ervoor te zorgen dat de onderzoeksfilters behoorlijk voor DITAVAL dossiers werken, wijzig het `ui_config.json` dossier door de volgende updates onder het **browseFilters** gebied binnen de **niet-DITA- dossiers** sectie toe te passen:
+Werk ui_config.json bij om ervoor te zorgen dat filters correct werken. Verander de eigenschappen die onder **worden vermeld browseFilters** > **niet-DITA dossiers** > **Ditaval Dossiers** zoals hieronder getoond:
 
 ```
 {

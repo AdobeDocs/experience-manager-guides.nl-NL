@@ -4,9 +4,9 @@ description: Krijg het linkerpaneel in de Redacteur te kennen. Leer meer over de
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 92496d39-b423-4635-8b05-c67fd6af47de
-source-git-commit: 0d713f9ff4bd48aa90bce368d6ad7abf86ecbbf7
+source-git-commit: 565f7b9b8139bfa3e21c91c4b60b6c9757b67429
 workflow-type: tm+mt
-source-wordcount: '9542'
+source-wordcount: '9769'
 ht-degree: 0%
 
 ---
@@ -17,12 +17,13 @@ In het linkerdeelvenster hebt u snel toegang tot verzamelingen, de weergave Opsl
 
 >[!NOTE]
 >
-> U kunt het formaat van het linkerdeelvenster wijzigen. Als u het formaat van het deelvenster wilt wijzigen, plaatst u de cursor op de deelvenstergrens, verandert de cursor in een dubbele pijl, selecteert en sleept u om het formaat van het deelvenster te wijzigen.
+>U kunt het formaat van het linkerdeelvenster wijzigen. Als u het formaat van het deelvenster wilt wijzigen, plaatst u de cursor op de deelvenstergrens, verandert de cursor in een dubbele pijl, selecteert en sleept u om het formaat van het deelvenster te wijzigen.
 
 In het linkerdeelvenster hebt u toegang tot de volgende functies:
 
 - [Verzamelingen](#collections)
 - [Bewaarplaats](#repository)
+- [Verkenner](#explorer)
 - [Kaart](#map)
 - [Herbruikbare inhoud](#reusable-content)
 - [Omtrek](#outline)
@@ -44,11 +45,11 @@ Sommige eigenschappen in het linkerpaneel zijn beschikbaar onder **Meer** sectie
 
 Een extra die optie als **wordt geëtiketteerd Workfront** wordt ook getoond in het linkerpaneel als Adobe Workfront wordt gevormd.
 
-Voor details, mening [&#x200B; de integratie van Workfront &#x200B;](./workfront-integration.md).
+Voor details, mening [ de integratie van Workfront ](./workfront-integration.md).
 
 >[!NOTE]
 >
-> De functies in het linkerdeelvenster worden beheerd door uw beheerder, zodat u de afzonderlijke functies in het linkerdeelvenster kunt in- of uitschakelen. Alleen ingeschakelde functies worden in het linkerdeelvenster weergegeven. Voor meer details, bekijk de **panelen** sectie van [&#x200B; bar van het Lusje &#x200B;](./web-editor-tab-bar.md).
+> De functies in het linkerdeelvenster worden beheerd door uw beheerder, zodat u de afzonderlijke functies in het linkerdeelvenster kunt in- of uitschakelen. Alleen ingeschakelde functies worden in het linkerdeelvenster weergegeven. Voor meer details, bekijk de **panelen** sectie van [ bar van het Lusje ](./web-editor-tab-bar.md).
 
 De gedetailleerde uitleg van de functies in het linkerdeelvenster is als volgt:
 
@@ -60,7 +61,7 @@ Standaard kunt u de bestanden op titels weergeven. Terwijl u de cursor op een be
 
 >[!NOTE]
 >
-> Als beheerder kunt u de lijst met bestanden ook weergeven op bestandsnamen in de Editor. Selecteer de **optie van de Naam van het 0&rbrace; Dossier {van de** 3} sectie van de de vertoningsconfiguratie van de dossiers van de Redacteur in **voorkeur van de Gebruiker**.**&#x200B;**
+> Als beheerder kunt u de lijst met bestanden ook weergeven op bestandsnamen in de Editor. Selecteer de **optie van de Naam van het 0} Dossier {van de** 3} sectie van de de vertoningsconfiguratie van de dossiers van de Redacteur in **voorkeur van de Gebruiker**.****
 
 <details>
     <summary> Een nieuwe verzameling maken </summary>
@@ -74,7 +75,7 @@ Voer een titel en beschrijving in voor de verzameling die u wilt maken. Als u **
 
 >[!NOTE]
 >
-> U kunt ook een verzameling maken op de startpagina van Experience Manager Guides. Open de homepage, navigeer aan **inzamelingen** widget in de [&#x200B; sectie van het Overzicht &#x200B;](./intro-home-page.md#overview), en selecteer **Nieuwe inzameling**.
+> U kunt ook een verzameling maken op de startpagina van Experience Manager Guides. Open de homepage, navigeer aan **inzamelingen** widget in de [ sectie van het Overzicht ](./intro-home-page.md#overview), en selecteer **Nieuwe inzameling**.
 
 </details>
 
@@ -118,11 +119,15 @@ U kunt ook een groot aantal handelingen uitvoeren via het menu Opties dat beschi
 
 ## Bewaarplaats
 
+>[!NOTE]
+>
+> Beginnend met versie 2025.11.0, **Bewaarplaats** in de Redacteur zal worden afgekeurd en door **Ontdekkingsreiziger** voor **de dienst van de Wolk** opstelling vervangen. Voor **op-plaats** opstelling, zult u Repository door de interface van de Redacteur tot 5.1 versie van Experience Manager Guides blijven bekijken en gebruiken.
+
 Als u het pictogram Opslagplaats selecteert, wordt een lijst met bestanden en mappen beschikbaar in DAM. Standaard kunt u de bestanden op titels weergeven. Terwijl u de cursor op een bestand plaatst, kunt u de bestandstitel en de bestandsnaam als knopinfo weergeven.
 
 >[!NOTE]
 >
-> Als beheerder kunt u de lijst met bestanden ook weergeven op bestandsnamen in de Editor. Selecteer de **optie van de Naam van het 0&rbrace; Dossier {van de** 3} sectie van de de vertoningsconfiguratie van de dossiers van de Redacteur in **voorkeur van de Gebruiker**.**&#x200B;**
+> Als beheerder kunt u de lijst met bestanden ook weergeven op bestandsnamen in de Editor. Selecteer de **optie van de Naam van het 0} Dossier {van de** 3} sectie van de de vertoningsconfiguratie van de dossiers van de Redacteur in **voorkeur van de Gebruiker**.****
 
 Er worden 75 bestanden tegelijk geladen. Telkens als u **selecteert Laad meer**.. worden 75 dossiers geladen, en de knoopeinden die worden getoond wanneer alle dossiers zijn vermeld. Het laden van deze batch is efficiënt en u hebt sneller toegang tot de bestanden dan tot het laden van alle bestanden in een map.
 
@@ -132,22 +137,22 @@ U kunt ook een audio- of videobestand selecteren en afspelen in de Editor. U kun
 de weergave van de video. In het snelmenu hebt u ook de opties om te downloaden, het afspelen te wijzigen
 -snelheid of beeld-in-beeld bekijken.
 
-Selecteer een kaart en druk binnengaan of tweemaal klikken om het in de **mening van de Kaart** te openen. Voor meer details, bekijk de **eigenschapbeschrijving van de mening van de Kaart** in het linkerpaneel. Selecteer een onderwerp en druk binnengaan of tweemaal klikken om het in het [&#x200B; het uitgeven gebied van de Inhoud &#x200B;](./web-editor-content-editing-area.md) te openen. Als u rechtstreeks vanuit de Editor naar een bestand kunt navigeren en dit kunt openen, bespaart u tijd en verhoogt u de productiviteit.
+Selecteer een kaart en druk binnengaan of tweemaal klikken om het in de **mening van de Kaart** te openen. Voor meer details, bekijk de **eigenschapbeschrijving van de mening van de Kaart** in het linkerpaneel. Selecteer een onderwerp en druk binnengaan of tweemaal klikken om het in het [ het uitgeven gebied van de Inhoud ](./web-editor-content-editing-area.md) te openen. Als u rechtstreeks vanuit de Editor naar een bestand kunt navigeren en dit kunt openen, bespaart u tijd en verhoogt u de productiviteit.
 
-**Onderzoek van de Filter in Bewaarplaats**
+## Filterzoekopdracht in gegevensopslagruimte
 
 De Editor biedt verbeterde filters voor het zoeken naar tekst. U kunt zoeken en filteren naar tekst in de bestanden die zich op het geselecteerde pad van de Adobe Experience Manager-opslagplaats bevinden. Deze zoekt in de titel, de bestandsnaam en de inhoud in de bestanden.
 
 
-![&#x200B; onderzoeksdossiers in bewaarplaatmening &#x200B;](images/repository-filter-search.png){width="300" align="left"}
+![ onderzoeksdossiers in bewaarplaatmening ](images/repository-filter-search.png){width="300" align="left"}
 
 *pas filters op onderzoek naar de dossiers toe die de tekst bevatten`personal spaceship.`*
 
-Selecteer het **\ van het Filteronderzoek van 0&rbrace; Filter &lbrace;(** het filterpictogram van het Onderzoek ![&#x200B; \) pictogram om pop-up van de Filter te openen.](images/filter-search-icon.svg)
+Selecteer het **\ van het Filteronderzoek van 0} Filter {(** het filterpictogram van het Onderzoek ![ \) pictogram om pop-up van de Filter te openen.](images/filter-search-icon.svg)
 
 >[!NOTE]
 >
-> Wanneer u om het even welke tekst of filter om het even welke dossiers zoekt, verschijnt een blauwe punt op het **Onderzoek van de Filter** \ (![&#x200B; het filterpictogram van het Onderzoek &#x200B;](images/filter-search-icon.svg) \) om erop te wijzen dat wij op het onderzoekspaneel zijn en dat sommige filters zijn toegepast.
+> Wanneer u om het even welke tekst of filter om het even welke dossiers zoekt, verschijnt een blauwe punt op het **Onderzoek van de Filter** \ (![ het filterpictogram van het Onderzoek ](images/filter-search-icon.svg) \) om erop te wijzen dat wij op het onderzoekspaneel zijn en dat sommige filters zijn toegepast.
 
 
 U hebt de volgende opties om de bestanden te filteren en uw zoekopdracht in de Adobe Experience Manager-opslagplaats te beperken:
@@ -155,7 +160,7 @@ U hebt de volgende opties om de bestanden te filteren en uw zoekopdracht in de A
 - **DITA Dossiers**: U kunt alle **Onderwerpen DITA** zoeken, en **Kaarten DITA** aanwezig op de geselecteerde weg. Deze zijn standaard geselecteerd.
 - **niet-DITA Dossiers**: U kunt naar **Ditaval Dossiers** zoeken, **Dossiers van het Beeld**, **Multimedia**, **Documenten**, en **JSON** in de geselecteerde weg.
 
-  ![&#x200B; snel zoekfilter &#x200B;](images/repository-filter-search-quick.png) {width="300" align="left"}
+  ![ snel zoekfilter ](images/repository-filter-search-quick.png) {width="300" align="left"}
 
   *gebruik de snelle filters om naar DITA en niet-DITA dossiers te zoeken.*
 
@@ -165,11 +170,11 @@ U hebt de volgende opties om de bestanden te filteren en uw zoekopdracht in de A
 
 **Geavanceerd filtreren**
 
-Selecteer het **Geavanceerde het filtreren** ![&#x200B; geavanceerde filterpictogram &#x200B;](images/advanced-filter-gear-icon.svg) pictogram om het **Geavanceerde de filterdialoog** te bekijken.
+Selecteer het **Geavanceerde het filtreren** ![ geavanceerde filterpictogram ](images/advanced-filter-gear-icon.svg) pictogram om het **Geavanceerde de filterdialoog** te bekijken.
 
 U kunt de volgende opties onder de **Algemene** bekijken en **Geavanceerde** lusjes.
 
-![&#x200B; geavanceerd de dialoogvakje van de filterdialoog &#x200B;](images/repository-filter-search-advanced.png) {width="650" align="left"}
+![ geavanceerd de dialoogvakje van de filterdialoog ](images/repository-filter-search-advanced.png) {width="650" align="left"}
 
 
 **Algemeen**
@@ -198,7 +203,7 @@ Dit is synchroon met het zoekvak in het venster Opslagplaats. Bijvoorbeeld, als 
 - Selecteer **ontruimen allen** om alle toegepaste filters te ontruimen.
 
 
-- Selecteer het **Dichte filter** ![&#x200B; dichte pictogram &#x200B;](images/close-icon.svg) pictogram om de filter te sluiten en aan de boommening van de bewaarplaats terug te keren.
+- Selecteer het **Dichte filter** ![ dichte pictogram ](images/close-icon.svg) pictogram om de filter te sluiten en aan de boommening van de bewaarplaats terug te keren.
 
   >[!NOTE]
   >
@@ -206,7 +211,7 @@ Dit is synchroon met het zoekvak in het venster Opslagplaats. Bijvoorbeeld, als 
   >
   >De lijst met gefilterde bestanden die de gezochte tekst bevatten, wordt weergegeven. De bestanden die de tekst `personal spaceship` bevatten, worden bijvoorbeeld weergegeven in de vorige schermafbeelding. U kunt meerdere bestanden in de gefilterde lijst selecteren en ze naar een kaart slepen die u wilt bewerken.
 
-**het menu van Opties**
+### Menu Opties
 
 Naast het openen van bestanden vanuit het linkerdeelvenster kunt u ook een groot aantal handelingen uitvoeren via het menu Opties in de weergave Opslag. U geeft verschillende opties weer, afhankelijk van of u een map, onderwerpbestand of een mediabestand kiest.
 
@@ -254,7 +259,7 @@ Stappen om een nieuwe kaart te creëren DITA:
    - *\(Optioneel\)* De bestandsnaam voor de kaart. De bestandsnaam wordt automatisch voorgesteld op basis van de kaartitel. Als de beheerder automatische bestandsnamen heeft ingeschakeld op basis van de UUID-instelling, wordt het veld Naam niet weergegeven.
    - Een sjabloon waarop de kaart wordt gebaseerd. Bijvoorbeeld, voor een uit-van-de-doos opstelling, kunt u van de de kaartmalplaatjes kiezen van Bookmap of DITA.
    - Pad waarin u het kaartbestand wilt opslaan. Standaard wordt het pad van de geselecteerde map in de opslagplaats weergegeven in het veld Pad.
-4. Selecteer **Maken**. De kaart wordt gemaakt en toegevoegd in de map die is opgegeven in het veld Pad. De kaart wordt ook geopend in de Kaartweergave. U kunt het kaartdossier in de Redacteur van de Kaart openen en onderwerp aan het toevoegen. Voor meer informatie over het toevoegen van onderwerpen aan een kaartdossier, leidt de mening [&#x200B; tot een kaart &#x200B;](map-editor-create-map.md#). Alternatief, selecteer **Open in kaartconsole** om de kaart in de console van de Kaart te openen.
+4. Selecteer **Maken**. De kaart wordt gemaakt en toegevoegd in de map die is opgegeven in het veld Pad. De kaart wordt ook geopend in de Kaartweergave. U kunt het kaartdossier in de Redacteur van de Kaart openen en onderwerp aan het toevoegen. Voor meer informatie over het toevoegen van onderwerpen aan een kaartdossier, leidt de mening [ tot een kaart ](map-editor-create-map.md#). Alternatief, selecteer **Open in kaartconsole** om de kaart in de console van de Kaart te openen.
 </details>
 
 <details>
@@ -323,11 +328,11 @@ U krijgt toegang tot verschillende opties in het menu Opties, afhankelijk van he
 - Eigenschappen
 
 
-![&#x200B; optiemenu van een dossier in de mening van de bewaarplaats &#x200B;](images/options-menu-repo-view-file-level.png){width="550" align="left"}
+![ optiemenu van een dossier in de mening van de bewaarplaats ](images/options-menu-repo-view-file-level.png){width="550" align="left"}
 
 De verschillende opties in het menu Opties worden hieronder uitgelegd:
 
-- **geef** uit: Open het dossier voor het uitgeven. In het geval van een.ditamap/.bookmap- dossier, wordt het geopend in de [&#x200B; Redacteur van de Kaart &#x200B;](map-editor-advanced-map-editor.md#) voor het uitgeven.
+- **geef** uit: Open het dossier voor het uitgeven. In het geval van een.ditamap/.bookmap- dossier, wordt het geopend in de [ Redacteur van de Kaart ](map-editor-advanced-map-editor.md#) voor het uitgeven.
 
 - **Dupliceer**: Gebruik deze optie om een dubbel of een exemplaar van het geselecteerde dossier tot stand te brengen. U kunt de naam van het gedupliceerde bestand ook wijzigen in de vraag Elementen dupliceren. Standaard wordt het bestand gemaakt met het achtervoegsel \(zoals bestandsnaam\_1.extension\). De titel van het bestand blijft dezelfde als het bronbestand en het nieuwe bestand begint met versie 1.0. Alle verwijzingen, markeringen, en meta-gegevens worden gekopieerd terwijl de basislijnen niet in het dubbele dossier worden gekopieerd.
 - **Slot**: Krijg een slot op het geselecteerde dossier voor het uitgeven. Als het dossier wordt gesloten, die de muiswijzer over het slotpictogram bedekken toont **door u** wordt gesloten als u het, of **door [ gebruikersbenaming]** wordt gesloten als een andere gebruiker het heeft gesloten.
@@ -418,7 +423,7 @@ De verschillende opties in het menu Opties worden hieronder uitgelegd:
 
   >[!NOTE]
   >
-  >Neem contact op met het team voor succes van uw klant om deze functie in de omgeving in te schakelen. Dit wordt niet toegelaten als deel van uit-van-de-doos steun. Voor meer details, bekijk [&#x200B; de optie vormen om in sectie Oxygen &#x200B;](../cs-install-guide/conf-edit-in-oxygen.md) in de Gids van de Installatie en van de Configuratie uit te geven.
+  >Neem contact op met het team voor succes van uw klant om deze functie in de omgeving in te schakelen. Dit wordt niet toegelaten als deel van uit-van-de-doos steun. Voor meer details, bekijk [ de optie vormen om in sectie Oxygen ](../cs-install-guide/conf-edit-in-oxygen.md) in de Gids van de Installatie en van de Configuratie uit te geven.
 
 
 - **Mening in Assets UI**: Gebruik dit om een voorproef van een.dita/.xml- dossier in Assets UI te tonen. In het geval van een .ditamap/.bookmap- dossier, worden alle onderwerpdossiers binnen de kaart getoond in één enkele verenigde pagina-door-pagina mening.
@@ -426,6 +431,23 @@ De verschillende opties in het menu Opties worden hieronder uitgelegd:
 - **Download als PDF**: Gebruik de optie om de output van PDF te produceren en het te downloaden.
 
 - **produceer**: Gebruik de optie om een kaart of onderwerpen binnen een kaart aan een pagina van Plaatsen, een tevreden Fragment, of het Fragment van de Ervaring te publiceren.
+
+## Verkenner
+
+>[!NOTE]
+>
+> Beginnend met de versie 2025.11.0, zal de term Bewaarplaats in de Redacteur door **Ontdekkingsreiziger** voor de dienstopstelling van de Wolk worden vervangen. Op locatie wordt de Repository in de Editor weergegeven en geopend.
+
+De Ontdekkingsreiziger verstrekt de meeste mogelijkheden eerder beschikbaar in Bewaarplaats, die omvatten:
+
+- Navigeren door bestanden en mappen
+- Menu Opties voor bestanden en mappen
+
+Maar het introduceert een verbeterde ervaring van het Onderzoek en van het filtreren, die wordt ontworpen om bruikbaarheid en efficiency te verbeteren.
+
+Voor gedetailleerde informatie over het contextmenu voor dossiers en omslagen, mening [ menu van Opties ](#options-menu).
+
+Voor gedetailleerde informatie over de ervaring van het Onderzoek, mening [ paneel van het Onderzoek ](./search-panel-explorer.md).
 
 ## Kaart
 
@@ -435,16 +457,16 @@ Standaard kunt u de bestanden op titels weergeven. Terwijl u de cursor op een be
 
 >[!NOTE]
 >
->Als beheerder kunt u ook de bestandsnaam bekijken van de bovenliggende kaart die momenteel is geopend in de kaartweergave. Selecteer de **optie van de Naam van het 0&rbrace; Dossier {van de** 3} sectie van de de vertoningsconfiguratie van de dossiers van de Redacteur in **voorkeur van de Gebruiker**.**&#x200B;**
+>Als beheerder kunt u ook de bestandsnaam bekijken van de bovenliggende kaart die momenteel is geopend in de kaartweergave. Selecteer de **optie van de Naam van het 0} Dossier {van de** 3} sectie van de de vertoningsconfiguratie van de dossiers van de Redacteur in **voorkeur van de Gebruiker**.****
 
 
 Wanneer u een kaart opent in de kaartweergave, wordt de titel van de huidige kaart weergegeven in het midden van de balk met tabbladen. Als de titel te lang is, wordt een ovaal weergegeven en kunt u de muisaanwijzer boven de titel houden om de volledige titel in de knopinfo weer te geven.
 
 Wanneer u zeer belangrijke attributen voor het onderwerp of kaartverwijzingen bepaalt, kunt u de titel, het overeenkomstige pictogram, en de sleutel in het linkerpaneel bekijken. De toets wordt weergegeven als `keys=<key-name>` .
 
-![&#x200B; sleutels in kaartmening &#x200B;](images/view-key-title-map-view.png){width="300" align="left"}
+![ sleutels in kaartmening ](images/view-key-title-map-view.png){width="300" align="left"}
 
-Als u bewerkingsrechten hebt voor de kaartbestanden, kunt u de bestanden ook bewerken. Voor meer informatie over het openen van en het uitgeven van een onderwerp door kaart DITA, geeft de mening [&#x200B; onderwerpen door kaart DITA &#x200B;](map-editor-advanced-map-editor.md#id17ACJ0F0FHS) uit.
+Als u bewerkingsrechten hebt voor de kaartbestanden, kunt u de bestanden ook bewerken. Voor meer informatie over het openen van en het uitgeven van een onderwerp door kaart DITA, geeft de mening [ onderwerpen door kaart DITA ](map-editor-advanced-map-editor.md#id17ACJ0F0FHS) uit.
 
 De volgende opties zijn beschikbaar voor een kaartbestand in de Kaartweergave:
 
@@ -474,7 +496,7 @@ U kunt de volgende handelingen uitvoeren met het menu Opties van het kaartbestan
    - **UUID van het Exemplaar**: Kopieer UUID van het kaartdossier aan Klembord.
    - **Weg van het Exemplaar**: Kopieer volledige weg van het kaartdossier aan Klembord.
 
-- **plaats in bewaarplaats**: Toont de plaats van het kaartdossier in de bewaarplaats \ (of DAM \).
+- **plaats in ontdekkingsreiziger**: Toont de plaats van het kaartdossier in ontdekkingsreiziger \ (of DAM \).
 
 - **voeg aan** toe: U kunt van de volgende opties kiezen:
    - **Verzamelingen**: Voegt het kaartdossier aan inzamelingen toe. U kunt desgewenst toevoegen aan een bestaande of nieuwe verzameling.
@@ -490,7 +512,7 @@ U kunt de volgende handelingen uitvoeren met het menu Opties van het kaartbestan
 
   In het **de dialoogvakje van de Kaart van de Download**, kunt u de volgende opties kiezen:
 
-  **Basislijn van het Gebruik**: Selecteer deze optie om een lijst van Basislijnen te krijgen die voor de kaart DITA worden gecreeerd. Als u het kaartbestand en de inhoud ervan wilt downloaden op basis van een specifieke basislijn, selecteert u de basislijn in de vervolgkeuzelijst. Voor meer details over het werken met Basislijnen, mening [&#x200B; Werk met Basislijn &#x200B;](./generate-output-use-baseline-for-publishing.md).
+  **Basislijn van het Gebruik**: Selecteer deze optie om een lijst van Basislijnen te krijgen die voor de kaart DITA worden gecreeerd. Als u het kaartbestand en de inhoud ervan wilt downloaden op basis van een specifieke basislijn, selecteert u de basislijn in de vervolgkeuzelijst. Voor meer details over het werken met Basislijnen, mening [ Werk met Basislijn ](./generate-output-use-baseline-for-publishing.md).
 
   **de Hiërarchie van het Dossier van de Afvlakking**: Selecteer deze optie om alle referenced onderwerpen en media dossiers in één enkele omslag te bewaren.
 
@@ -514,7 +536,7 @@ De volgende schermafbeelding toont het menu Opties voor een bestand in de kaartw
 
 U kunt de volgende handelingen uitvoeren met het menu Opties:
 
-- **geef** uit: Open het dossier voor het uitgeven. In het geval van een.ditamap/.bookmap- dossier, wordt het geopend in de [&#x200B; Redacteur van de Kaart &#x200B;](map-editor-advanced-map-editor.md#) voor het uitgeven.
+- **geef** uit: Open het dossier voor het uitgeven. In het geval van een.ditamap/.bookmap- dossier, wordt het geopend in de [ Redacteur van de Kaart ](map-editor-advanced-map-editor.md#) voor het uitgeven.
 
 - **Slot**: Vergrendelt het geselecteerde dossier. Voor een gesloten dossier, verandert deze optie in **Ontgrendelen**.
 
@@ -531,7 +553,7 @@ U kunt de volgende handelingen uitvoeren met het menu Opties:
    - **Weg van het Exemplaar**: Kopieer volledige weg van het geselecteerde dossier aan Klembord.
 
 
-- **plaats in bewaarplaats**: Toont de plaats van het geselecteerde dossier in de bewaarplaats \ (of DAM \).
+- **plaats in ontdekkingsreiziger**: Toont de plaats van het geselecteerde dossier in ontdekkingsreiziger \ (of DAM \).
 - **breid alle** uit: Breid alle onderwerpen in de kaartdossiers uit.
 
 - **Vouw allen** samen: Vouw alle onderwerpen samen die een deel van het huidige kaartdossier zijn.
@@ -561,11 +583,11 @@ Standaard kunt u de bestanden op titels weergeven. Terwijl u de cursor op een be
 
 >[!NOTE]
 >
-> Als beheerder kunt u de lijst met bestanden ook weergeven op bestandsnamen in de Editor. Selecteer de **optie van de Naam van het 0&rbrace; Dossier {van de** 3} sectie van de de vertoningsconfiguratie van de dossiers van de Redacteur in **voorkeur van de Gebruiker**.**&#x200B;**
+> Als beheerder kunt u de lijst met bestanden ook weergeven op bestandsnamen in de Editor. Selecteer de **optie van de Naam van het 0} Dossier {van de** 3} sectie van de de vertoningsconfiguratie van de dossiers van de Redacteur in **voorkeur van de Gebruiker**.****
 
 Als u een DITA-bestand wilt toevoegen aan het deelvenster Herbruikbare inhoud, gebruikt u een van de volgende methoden:
 
-- Selecteer het pictogram **+** naast Herbruikbare inhoud om het dialoogvenster Bladeren te openen. Selecteer het dossier dat u wilt toevoegen en dan selecteren **&#x200B;**&#x200B;toevoegen om het proces te voltooien.
+- Selecteer het pictogram **+** naast Herbruikbare inhoud om het dialoogvenster Bladeren te openen. Selecteer het dossier dat u wilt toevoegen en dan selecteren **** toevoegen om het proces te voltooien.
 
 - In de mening van de Bewaarplaats, selecteer het **pictogram van Opties** van het gewenste dossier en kies **toevoegen aan** > **Herbruikbare inhoud** van het contextmenu.
 
@@ -630,7 +652,7 @@ De weergave Omtrek biedt de volgende functies:
 
 >[!NOTE]
 >
->Voor meer details bij produceer identiteitskaart, het element van het Tussenvoegsel vóór of na het huidige element, en ontvang een element, mening [&#x200B; Andere eigenschappen in de Redacteur &#x200B;](web-editor-other-features.md#).
+>Voor meer details bij produceer identiteitskaart, het element van het Tussenvoegsel vóór of na het huidige element, en ontvang een element, mening [ Andere eigenschappen in de Redacteur ](web-editor-other-features.md#).
 
 **Mening vormt**
 
@@ -684,7 +706,7 @@ U kunt de volgende instellingen configureren voor het gereedschap Hotspot:
 
 - **Onderwerpen**: Kies of het **Huidige onderwerp** dat in de Redacteur wordt geopend, alle **Geopende onderwerpen** in de huidige kaart, of de **Huidige kaart** die in de Redacteur van de Kaart wordt uitgegeven om de termijnen te zoeken.
 - **Onderwerpen van de Filter door Status**: U kunt verkiezen om het onderzoek tot onderwerpen te beperken die de geselecteerde documentstatus hebben. De onderwerpen kunnen in Ontwerp zijn, uitgeven, In-Overzicht, Goedgekeurd, herzien, Klaar status, of in om het even welke staat zoals gevormd door de organisatie.
-- **Actie**: U kunt verkiezen om of de verklarende woordenlijstsleutels **manueel voor elk onderwerp** of **automatisch voor alle onderwerpen** te zoeken. Als u **manueel voor elk onderwerp** kiest, zet het u ertoe aan om te bevestigen alvorens elke termijn in elk onderwerp om te zetten. Als u **&lbrace;automatisch voor alle onderwerpen** kiest, zet het alle termijnen in alle onderwerpen automatisch om.
+- **Actie**: U kunt verkiezen om of de verklarende woordenlijstsleutels **manueel voor elk onderwerp** of **automatisch voor alle onderwerpen** te zoeken. Als u **manueel voor elk onderwerp** kiest, zet het u ertoe aan om te bevestigen alvorens elke termijn in elk onderwerp om te zetten. Als u **{automatisch voor alle onderwerpen** kiest, zet het alle termijnen in alle onderwerpen automatisch om.
 - **zet** om: U kunt of een gezochte **Tekst in verklarende woordenlijsttermijn** of **Verklarende woordenlijsttermijn in tekst omzetten.**
 - **Opties**: U kunt uit de volgende opties selecteren:
    - **case-sensitive gelijke**: Zoekt naar een termijn om de gelijke te vinden die het zelfde casing heeft. &#39;USB&#39; komt bijvoorbeeld niet overeen met &#39;usb&#39;.
@@ -737,7 +759,7 @@ U kunt `/` gebruiken en subgroepen definiëren, zoals `AEM Guides/Cloud Service`
 
 
 
-![&#x200B; voorwaarden die in een genestelde hiërarchie &#x200B;](images/conditions-nested-hierarchy.png){width="300" align="left"} worden georganiseerd
+![ voorwaarden die in een genestelde hiërarchie ](images/conditions-nested-hierarchy.png){width="300" align="left"} worden georganiseerd
 
 
 Om een voorwaarde uit te geven, verkies **uitgeven** van het menu van Opties. Het dialoogvenster Voorwaarde bewerken wordt weergegeven:
@@ -940,7 +962,7 @@ U kunt de waarden ook wijzigen vanuit de vervolgkeuzelijst van het kenmerk in de
 
 U kunt het onderwerpschema ook weergeven en toepassen vanuit het deelvenster Voorwaarden.
 
-Om de onderwerpregeling van het paneel van Voorwaarden te bekijken, moet uw systeembeheerder de **Show onderwerpregeling in het paneel van Voorwaarden** optie onder het Algemene lusje in **de montages van Workspace** (verschijnen als **Montages** voor **op-Prem**) selecteren. Voor meer details, bekijk de [&#x200B; bar van het Lusje &#x200B;](./web-editor-tab-bar.md).
+Om de onderwerpregeling van het paneel van Voorwaarden te bekijken, moet uw systeembeheerder de **Show onderwerpregeling in het paneel van Voorwaarden** optie onder het Algemene lusje in **de montages van Workspace** (verschijnen als **Montages** voor **op-Prem**) selecteren. Voor meer details, bekijk de [ bar van het Lusje ](./web-editor-tab-bar.md).
 
 In het deelvenster Voorwaarden wordt de vlakke verticale structuur van de onderwerpdefinities in het onderwerpschema weergegeven.
 
@@ -956,26 +978,32 @@ Fragmenten zijn kleine inhoudsfragmenten die over verschillende onderwerpen in u
 
 ![](images/snippets-panel_cs.png){align="left"}
 
+**creeer een fragment**
+
 Gebruik een van de volgende methoden om een fragment toe te voegen:
 
-- Selecteer het **+** pictogram naast Fragmenten om het **Nieuwe de dialoogvakje van het Fragment** te openen.
+1. Selecteer het **+** pictogram naast Fragmenten om het **Nieuwe de dialoogvakje van het Fragment** te openen.
 
-  ![](images/snippet-new-dialog.png){width="300" align="left"}
+   ![](images/snippet-new-dialog.png){width="300" align="left"}
 
-  Geef in het dialoogvenster Nieuw fragment een titel op die wordt weergegeven in het paneel Fragmenten, een beschrijving en XML-code van de fragmentinhoud die u wilt maken. Selecteer **creeer** om het fragment te bewaren en tot stand te brengen.
+   Geef in het dialoogvenster Nieuw fragment een titel op die in het paneel Fragmenten wordt weergegeven, een beschrijving, selecteer een indeling (DITA of HTML) voor de inhoud en geef een code op voor de inhoud van het fragment die u wilt maken. Selecteer **creeer** om het fragment te bewaren en tot stand te brengen.
 
-- In de inhoud die gebied uitgeeft, klik op de broodkruimel van het element met de rechtermuisknop aan die u als fragment wilt gebruiken en **kiezen creeer Fragment** van het contextmenu. De Nieuwe dialoog van het Fragment verschijnt met de code van XML van het geselecteerde element dat op het **wordt bevolkt van de Inhoud** gebied. Ga de **Titel** en **Beschrijving** voor het fragment in en selecteer **creeer** om het fragment te bewaren.
+2. In de inhoud die gebied uitgeeft, klik op de broodkruimel van het element met de rechtermuisknop aan die u als fragment wilt gebruiken en **kiezen creeer Fragment** van het contextmenu. De Nieuwe dialoog van het Fragment verschijnt met de code van XML van het geselecteerde element dat op het **wordt bevolkt van de Inhoud** gebied. Ga de **Titel** en **Beschrijving** voor het fragment in en selecteer **creeer** om het fragment te bewaren.
 
-- In de inhoud die gebied uitgeeft, klik overal op de inhoud met de rechtermuisknop aan die u als fragment wilt gebruiken en **kiezen creeer Fragment** van het contextmenu. Het Nieuwe de dialoogvakje van het Fragment verschijnt met de code van XML van het geselecteerde element dat op het **wordt bevolkt van de Inhoud** gebied. Ga de **Titel** en **Beschrijving** voor het fragment in en selecteer **creeer** om het fragment te bewaren.
+3. In de inhoud die gebied uitgeeft, klik overal op de inhoud met de rechtermuisknop aan die u als fragment wilt gebruiken en **kiezen creeer Fragment** van het contextmenu. Het Nieuwe de dialoogvakje van het Fragment verschijnt met de code van XML van het geselecteerde element dat op het **wordt bevolkt van de Inhoud** gebied. Ga de **Titel** en **Beschrijving** voor het fragment in en selecteer **creeer** om het fragment te bewaren.
 
-  In de volgende schermafbeelding worden de breadcrumb en het inhoudsgebied gemarkeerd waaruit u het contextmenu kunt aanroepen.
+   In de volgende schermafbeelding worden de breadcrumb en het inhoudsgebied gemarkeerd waaruit u het contextmenu kunt aanroepen.
 
-  ![](images/snippet-create-from-breadcrumb-content.png){width="350" align="left"}
+   ![](images/snippet-create-from-breadcrumb-content.png){width="350" align="left"}
 
+**neem een fragment** op
 
 Gebruik een van de volgende methoden om een fragment in te voegen:
 
-- Selecteer een fragment in het paneel Fragmenten en sleep het naar de gewenste locatie in het onderwerp.
+- Selecteer een fragment in het paneel Fragmenten en sleep het naar de gewenste locatie in het onderwerp. U kunt ook de filteropties boven in het paneel Fragmenten gebruiken om de weergave te verfijnen:
+
+   - **toon alle fragmenten**: Maakt een lijst van alle beschikbare fragmenten, met inbegrip van zowel formaten DITA als HTML.
+   - **toon slechts toepasselijke fragmenten**: Filters de lijst om slechts die fragmenten te tonen die voor uw huidige onderwerp of context relevant zijn. Als u bijvoorbeeld aan een DITA-onderwerp werkt, worden HTML-fragmenten uit de lijst verwijderd om ervoor te zorgen dat ze contextafhankelijk zijn.
 
 - Plaats de invoegpositie op de plaats waar u het fragment wilt invoegen en kies Fragment invoegen in het menu Opties van het gewenste fragment.
 
@@ -994,25 +1022,25 @@ Standaard kunt u de bestanden op titels weergeven. Terwijl u de cursor op een sj
 
 >[!NOTE]
 >
-> Als beheerder kunt u de lijst met bestanden ook weergeven in de Editor. Selecteer de **optie van de Naam van het 0&rbrace; Dossier {van de** 3} sectie van de de vertoningsconfiguratie van de dossiers van de Redacteur in **voorkeur van de Gebruiker**.**&#x200B;**
+> Als beheerder kunt u de lijst met bestanden ook weergeven in de Editor. Selecteer de **optie van de Naam van het 0} Dossier {van de** 3} sectie van de de vertoningsconfiguratie van de dossiers van de Redacteur in **voorkeur van de Gebruiker**.****
 
-Leren hoe te om douanesjablonen tot stand te brengen, [&#x200B; kaarten creëren die op aangepaste malplaatjes &#x200B;](./create-maps-customized-templates.md) worden gebaseerd.
+Leren hoe te om douanesjablonen tot stand te brengen, [ kaarten creëren die op aangepaste malplaatjes ](./create-maps-customized-templates.md) worden gebaseerd.
 
 ## Kaarten
 
 In Experience Manager Guides kunt u citaten toevoegen en importeren en deze op uw inhoud toepassen. U kunt deze citaten toevoegen vanuit elke bron van boeken, websites en tijdschriften.
 
-Voor details, voegt de mening [&#x200B; citaties in uw inhoud &#x200B;](./web-editor-apply-citations.md) toe en beheert.
+Voor details, voegt de mening [ citaties in uw inhoud ](./web-editor-apply-citations.md) toe en beheert.
 
 ## Taalvariabelen
 
 Experience Manager Guides biedt de functie voor het gebruik van taalvariabelen in de uitvoer van native PDF. U kunt taalvariabelen gebruiken om gelokaliseerde koorden in de output van PDF te bepalen of om het even welke statische tekst in de outputmalplaatjes te lokaliseren. U kunt CSS stijlen gebruiken om de koorden te lokaliseren die uit CSS komen.
 
-Voor details, mening [&#x200B; Steun voor taalvariabelen &#x200B;](../native-pdf/native-pdf-language-variables.md).
+Voor details, mening [ Steun voor taalvariabelen ](../native-pdf/native-pdf-language-variables.md).
 
 ## Variabelen
 
-Met Experience Manager Guides kunt u variabelen maken en beheren voor publiceren in eigen PDF. Voor details, mening [&#x200B; Variabelen in de output van PDF &#x200B;](../native-pdf/native-pdf-variables.md).
+Met Experience Manager Guides kunt u variabelen maken en beheren voor publiceren in eigen PDF. Voor details, mening [ Variabelen in de output van PDF ](../native-pdf/native-pdf-variables.md).
 
 
 ## Zoeken en vervangen
@@ -1025,7 +1053,7 @@ Standaard kunt u de bestanden op titels weergeven. Terwijl u de cursor op een be
 
 >[!NOTE]
 >
-> Als beheerder kunt u ook de lijst met bestandsnamen weergeven in de Editor. Selecteer de **optie van de Naam van het 0&rbrace; Dossier {van de** 3} sectie van de de vertoningsconfiguratie van de dossiers van de Redacteur in **voorkeur van de Gebruiker**.**&#x200B;**
+> Als beheerder kunt u ook de lijst met bestandsnamen weergeven in de Editor. Selecteer de **optie van de Naam van het 0} Dossier {van de** 3} sectie van de de vertoningsconfiguratie van de dossiers van de Redacteur in **voorkeur van de Gebruiker**.****
 
 <details>
     <summary> Het algemene zoeken en vervangen uitvoeren </summary>
@@ -1065,7 +1093,7 @@ Voer de volgende stappen uit om de algemene zoek- en vervangactie uit te voeren:
 
 Om **toe te laten vervang allen** pictogram, moet uw systeembeheerder de optie **selecteren toelaten vervangt allen** onder het **Algemene** lusje in **montages van Workspace** (verschijnen als **Montages** voor **op-Prem**).
 
-    >[ !NOTA] 
+    >[!NOTA] 
     > 
     > Hover over een dossier van de lijst van het onderzoeksresultaat om te bekijken vervangen allen in het pictogram van het Dossier op het recht van het. U kunt ook het pictogram Bestand negeren gebruiken om het bestand uit het zoekresultaat te verwijderen. De dossiers die u negeert worden verwijderd uit de lijst en de gezochte termijn wordt niet vervangen in hen.
 
@@ -1081,7 +1109,7 @@ U kunt de **Vondst in kaart brengen** optie van het **menu van Opties** van een 
 
 ## PDF-sjablonen
 
-Hiermee kunt u met verschillende PDF-sjablonen werken. Voor details, mening [&#x200B; de malplaatjes van PDF &#x200B;](../native-pdf/pdf-template.md).
+Hiermee kunt u met verschillende PDF-sjablonen werken. Voor details, mening [ de malplaatjes van PDF ](../native-pdf/pdf-template.md).
 
 ## Controleren
 
@@ -1091,7 +1119,7 @@ De revisietaken worden weergegeven in het deelvenster. Standaard kunt u de besta
 
 >[!NOTE]
 >
-> Als beheerder kunt u de lijst met bestanden ook weergeven op bestandsnamen in de Editor. Selecteer de **optie van de Naam van het 0&rbrace; Dossier {van de** 3} sectie van de de vertoningsconfiguratie van de dossiers van de Redacteur in **voorkeur van de Gebruiker**.**&#x200B;**
+> Als beheerder kunt u de lijst met bestanden ook weergeven op bestandsnamen in de Editor. Selecteer de **optie van de Naam van het 0} Dossier {van de** 3} sectie van de de vertoningsconfiguratie van de dossiers van de Redacteur in **voorkeur van de Gebruiker**.****
 
 Als auteur, kunt u de commentaren in een onderwerp richten gebruikend de Redacteur.
 
@@ -1135,11 +1163,11 @@ Voer de volgende stappen uit om de revisieopmerkingen weer te geven in de actiev
 
    >[!NOTE]
    > 
-   > Het **paneel van de Overzicht** en het **3&rbrace; paneel van Commentaren &lbrace;zijn in synchronisatie op elk ogenblik.** In het venster Opmerkingen worden de opmerkingen geladen op basis van de revisietaak die in het deelvenster Revisie is geladen.
+   > Het **paneel van de Overzicht** en het **3} paneel van Commentaren {zijn in synchronisatie op elk ogenblik.** In het venster Opmerkingen worden de opmerkingen geladen op basis van de revisietaak die in het deelvenster Revisie is geladen.
    >U kunt de taken voor gesloten revisies weergeven in de linkertrack van het Revisiepanel, samen met de actieve revisietaken.
    >Bovendien, voor een gesloten overzichtstaak kunt u de overzichtscommentaren in het paneel van Commentaren op het recht bekijken maar **de Commentaren van de Invoer** en **terugkeren de knopen van de Versie** worden onbruikbaar gemaakt.
-   >Voor meer informatie over hoe te om de commentaren te richten, bekijk [&#x200B; de revisiecommentaren van het Adres &#x200B;](review-address-review-comments.md#).
+   >Voor meer informatie over hoe te om de commentaren te richten, bekijk [ de revisiecommentaren van het Adres ](review-address-review-comments.md#).
 
 </details>
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; Inleiding aan de Redacteur &#x200B;](web-editor.md)
+**Bovenliggend onderwerp:**[ Inleiding aan de Redacteur ](web-editor.md)

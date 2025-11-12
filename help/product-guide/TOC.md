@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Lees de productdocumentatie voor Adobe Experience Manager Guides.
 breadcrumb-title: Documentatie voor AEM Guides
-source-git-commit: c0a75668d283458049d9b4a3bbc23335117ea660
+source-git-commit: e1b332b100cc8e3937557e4617d66352c1a0dc3c
 workflow-type: tm+mt
-source-wordcount: '2414'
+source-wordcount: '2428'
 ht-degree: 1%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 1%
       - Cloud Services {#cloud-release-notes}
          - [Implementatieinstructies](./release-info/deploy-xml-on-aemaacs.md)
          - Versies van 2025 {#2025-releases}
+            - 2025.11.0 Release {#2511-release}
+               - [Nieuwe functies](./release-info/whats-new-2025-11-0.md)
+               - [Opgeloste problemen](./release-info/fixed-issues-2025-11-0.md)
+               - [Upgradeinstructies](./release-info/upgrade-instructions-2025-11-0.md)
             - 2025.10.0 Release {#2510-release}
                - [Nieuwe functies](./release-info/whats-new-2025-10-0.md)
                - [Opgeloste problemen](./release-info/fixed-issues-2025-10-0.md)
@@ -124,17 +128,17 @@ ht-degree: 1%
             - [Opgeloste problemen](./release-info/fixed-issues-5-0-0.md)
             - [Upgradeinstructies](./release-info/upgrade-instructions-5-0-0.md)
          - 4.6.0 SP4-release {#460-sp4-release}
-            - [&#x200B; Vaste kwesties &#x200B;](./release-info/fixed-issues-4-6-0-sp4.md)
+            - [ Vaste kwesties ](./release-info/fixed-issues-4-6-0-sp4.md)
             - [Upgradeinstructies](./release-info/upgrade-instructions-4-6-0-sp4.md)
          - 4.6.0 SP3 Release {#460-sp3-release}
-            - [&#x200B; Vaste kwesties &#x200B;](./release-info/fixed-issues-4-6-0-sp2.md)
+            - [ Vaste kwesties ](./release-info/fixed-issues-4-6-0-sp2.md)
             - [Upgradeinstructies](./release-info/upgrade-instructions-4-6-0-sp2.md)
          - 4.6.0 SP1-release {#460-sp1-release}
-            - [&#x200B; Vaste kwesties &#x200B;](./release-info/fixed-issues-4-6-0-sp1.md)
-            - [&#x200B; de instructies van de Verbetering &#x200B;](./release-info/upgrade-instructions-4-6-0-sp1.md)
+            - [ Vaste kwesties ](./release-info/fixed-issues-4-6-0-sp1.md)
+            - [ de instructies van de Verbetering ](./release-info/upgrade-instructions-4-6-0-sp1.md)
          - 4.6.0 Release {#460-release}
             - [Nieuwe functies](./release-info/whats-new-4-6.md)
-            - [&#x200B; Vaste kwesties &#x200B;](./release-info/fixed-issues-4-6-0.md)
+            - [ Vaste kwesties ](./release-info/fixed-issues-4-6-0.md)
             - [Upgradeinstructies](./release-info/upgrade-instructions-4-6-0.md)
          - 4.4.0 Release {#440-release}
             - [Nieuwe functies](./release-info/whats-new-4-4.md)
@@ -158,8 +162,8 @@ ht-degree: 1%
                - [4.2.1 Opmerkingen bij de release](./release-info/release-notes-4-2-1.md)
                - [4.2 Opmerkingen bij de release](./release-info/release-notes-4-2.md)
          - [Opmerkingen bij de release 4.1.x](./release-info/release-notes-4-1.md)
-         - [&#x200B; 4.0.x de Nota&#39;s van de Versie &#x200B;](https://helpx.adobe.com/nl/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [&#x200B; 3.8.x de Nota&#39;s van de Versie &#x200B;](https://helpx.adobe.com/nl/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [ 4.0.x de Nota&#39;s van de Versie ](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [ 3.8.x de Nota&#39;s van de Versie ](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Handboek (nieuwe gebruikersinterface) {#user-guide}
    - Inleiding {#about-aemg}
       - [Info  [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -168,6 +172,7 @@ ht-degree: 1%
          - [Belangrijke  [!DNL AEM Guides]  eigenschappen](./user-guide/intro-dxml-features.md)
    - Homepage {#home-page}
       - [[!DNL AEM Guides] Introductiepagina](./user-guide/intro-home-page.md)
+      - [Repository-interface](./user-guide/home-page-repository-view.md)
    - Inhoud auteur {#author-content}
       - [Overzicht van ontwerpen](./user-guide/authoring-content.md)
       - [Manieren om inhoud te ontwerpen met AEM Guides](./user-guide/authoring-content-xml-doc.md)
@@ -181,19 +186,21 @@ ht-degree: 1%
             - [Een voorvertoning van een onderwerp weergeven](./user-guide/web-editor-preview-topics.md)
          - [De functies van de Editor leren kennen](./user-guide/web-editor-features.md)
          - De interface en functies van de Editor kennen {#editor-interface-features}
+            - [Overzicht](./user-guide/intro-editor-interface.md)
             - [Kopbalk](./user-guide/web-editor-header-bar.md)
             - [Tabbalk](./user-guide/web-editor-tab-bar.md)
             - [Werkbalk](./user-guide/web-editor-toolbar.md)
             - [Deelvenster Links](./user-guide/web-editor-left-panel.md)
             - [Inhoudsbewerkingsgebied](./user-guide/web-editor-content-editing-area.md)
             - [Rechterdeelvenster](./user-guide/web-editor-right-panel.md)
-         - [&#x200B; Extra eigenschappen in de Redacteur &#x200B;](./user-guide/web-editor-other-features.md)
+            - [Deelvenster Zoeken](./user-guide/search-panel-explorer.md)
+         - [ Extra eigenschappen in de Redacteur ](./user-guide/web-editor-other-features.md)
          - [Sneltoetsen in de Editor](./user-guide/web-editor-keyboard-shortcuts.md)
          - [Weergaven in Editor](./user-guide/web-editor-views.md)
          - [Ondersteuning voor Schematron-bestanden](./user-guide/support-schematron-file.md)
          - [Auteur Markdown-documenten van de Editor](./user-guide/web-editor-markdown-topic.md)
          - [citaten toevoegen aan uw inhoud](./user-guide/web-editor-apply-citations.md)
-         - [&#x200B; gegevens van het Gebruik van uw gegevensbronnen &#x200B;](./user-guide/web-editor-content-snippet.md)
+         - [ gegevens van het Gebruik van uw gegevensbronnen ](./user-guide/web-editor-content-snippet.md)
          - [Documentstatus](./user-guide/web-editor-document-states.md)
          - [Labels gebruiken](./user-guide/web-editor-use-label.md)
       - Kaarteditor {#map-editor}
@@ -210,7 +217,7 @@ ht-degree: 1%
    - Inhoud controleren {#review}
       - [Inleiding tot herziening](./user-guide/review.md)
       - [Een DITA-project maken](./user-guide/authoring-create-dita-project.md)
-      - [&#x200B; verzendt onderwerpen voor overzicht &#x200B;](./user-guide/review-send-topics-for-review.md)
+      - [ verzendt onderwerpen voor overzicht ](./user-guide/review-send-topics-for-review.md)
       - [Onderwerpen bekijken](./user-guide/review-topics.md)
       - [Revisietaak opnieuw toewijzen met behulp van melding](./user-guide/reassign-review-using-notification.md)
       - [De revisietaak voltooien als Revisor](./user-guide/review-complete-review-tasks.md)
@@ -235,7 +242,7 @@ ht-degree: 1%
          - [DITA-kaartrapport van het kaartdashboard](./user-guide/reports-ditamap.md)
          - [Rapport voor hergebruik van inhoud](./user-guide/reports-content-reuse.md)
          - [Conversiestatus rapport](./user-guide/reports-convertion-status.md)
-         - [&#x200B; het teruggekaatste rapport van de dossierversie &#x200B;](./user-guide/reports-reverted-file-version-history.md)
+         - [ het teruggekaatste rapport van de dossierversie ](./user-guide/reports-reverted-file-version-history.md)
       - Inhoud omzetten {#translate-content}
          - [Overzicht van vertalingen van inhoud](./user-guide/translation.md)
          - [Aanbevolen procedures voor het vertalen van inhoud](./user-guide/translation-first-time.md)
@@ -280,6 +287,7 @@ ht-degree: 1%
          - [Uitvoerproductieproces beheren](./user-guide/generate-output-manage-process.md)
          - [Publicatietaken beheren met het dashboard Publiceren](./user-guide/generate-output-publish-dashboard.md)
          - [Basisprobleemoplossing](./user-guide/generate-output-basic-troubleshooting.md)
+         - [Veelgestelde vragen over publicatieworkflow en schaalbaarheid](./user-guide/publishing-scalability-faq.md)
       - Bulkactivering van inhoud {#bulk-activation}
          - [Bulkactivering van gepubliceerde inhoud](./user-guide/conf-bulk-activation.md)
          - [Een verzameling bulkactiveringskaarten maken](./user-guide/conf-bulk-activation-create-map-collection.md)
@@ -299,13 +307,13 @@ ht-degree: 1%
       - [Adobe Generation AI-gebruikersinformatie](./user-guide/adobe-generative-ai-disclosures.md)
       - [Overzicht van AI-assistent](./user-guide/ai-assistant.md)
       - [Intelligente AI-hulp om inhoud te zoeken](./user-guide/ai-based-smart-help.md)
-      - [&#x200B; AI Medewerker Authoring aan auteursdocumenten slim &#x200B;](./user-guide/ai-assistant-right-panel.md)
+      - [ AI Medewerker Authoring aan auteursdocumenten slim ](./user-guide/ai-assistant-right-panel.md)
       - [Intelligente suggesties voor het schrijven van inhoud door AI](./user-guide/authoring-ai-based-smart-suggestions.md)
       - [Veelgestelde vragen](./user-guide/ai-assistant-faq.md)
    - Leerinhoud beheren {#learning-training-content}
       - Aan de slag - handleiding {#get-started}
          - Inleiding {#intro-lc}
-            - [&#x200B; Overzicht van het Leren en de inhoud van de Opleiding &#x200B;](./learning-content/intro.md)
+            - [ Overzicht van het Leren en de inhoud van de Opleiding ](./learning-content/intro.md)
          - Uw cursus instellen {#setup-course}
             - [Cursusoverzicht](./learning-content/course-overview.md)
             - [Onderzoek de interface en de eerste vereisten](./learning-content/access-lc-interface-preq.md)
@@ -324,10 +332,10 @@ ht-degree: 1%
             - [Quiz maken](./learning-content/create-quiz.md)
             - [Quiz bewerken](./learning-content/edit-quiz.md)
             - [Vragen invoegen in een quiz](./learning-content/quiz-insert-questions.md)
-            - [&#x200B; Quizeigenschappen &#x200B;](./learning-content/quiz-properties.md)
+            - [ Quizeigenschappen ](./learning-content/quiz-properties.md)
             - Vragenbank {#question-bank}
                - [Vraag-bank maken](./learning-content/create-qb.md)
-               - [&#x200B; de vragen van het Tussenvoegsel van de bank van de Vraag &#x200B;](./learning-content/insert-questions.md)
+               - [ de vragen van het Tussenvoegsel van de bank van de Vraag ](./learning-content/insert-questions.md)
          - Uw cursus publiceren {#publish-course}
             - [Informatie over cursuspublicaties](./learning-content/publish-overview.md)
             - [Ondersteunde voorinstellingen](./learning-content/course-presets.md)
@@ -343,7 +351,7 @@ ht-degree: 1%
          - [Over deze handleiding](./lc-config-guide/introduction.md)
          - [Mapprofielen configureren](./lc-config-guide/lc-folder-profile.md)
          - [Aanbevolen procedures voor het instellen van een mappenstructuur](./lc-config-guide/best-practices-folder-structure.md)
-         - [&#x200B; vorm andere montages &#x200B;](./lc-config-guide/lc-other-settings.md)
+         - [ vorm andere montages ](./lc-config-guide/lc-other-settings.md)
       - Videozelfstudies {#lc-video}
          - [Auteur-workflow](./lc-video-tutorials/author-workflow.md)
          - [Beheerderstroom](./lc-video-tutorials/admin-workflow.md)
@@ -352,11 +360,11 @@ ht-degree: 1%
          - [Belangrijke concepten, rollen en machtigingen, en vereisten](./user-guide/authoring.md)
          - [Bestanden uploaden](./user-guide/authoring-upload-existing-files.md)
          - [Bestanden en mappen beheren](./user-guide/authoring-file-management.md)
-         - [Elementen verwerken of opnieuw verwerken](./user-guide/asset-processor.md)
+         - [Proceselementen](./user-guide/asset-processor.md)
       - Problemen oplossen {#troubleshooting}
          - [Time-out sessie](./user-guide/session-timeout-prompt.md)
 - Handboek (oude gebruikersinterface) {#user-guide-old-ui}
-   - [&#x200B; overzicht van AEM Guides](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [ overzicht van AEM Guides ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installatie en configuratie {#install-guide}
    - Op locatie {#on-prem-ig}
       - [Basisbegrippen op locatie](./install-guide/introduction.md)
@@ -376,7 +384,7 @@ ht-degree: 1%
          - [Migratie van niet-UUID naar UUID-inhoud](./install-guide/migrate-uuid-non-uuid.md)
          - Migratieproces {#migration-process}
             - [4.3.1 Niet-UUID naar 4.3.2 migratie van UUID-inhoud](./install-guide/migrate-non-uuid-4-3.md)
-            - [&#x200B; 4.6.0 niet-UUID aan 4.6.1 de migratie van de inhoud UUID &#x200B;](./install-guide/migrate-non-uuid-uuid-4-6.md)
+            - [ 4.6.0 niet-UUID aan 4.6.1 de migratie van de inhoud UUID ](./install-guide/migrate-non-uuid-uuid-4-6.md)
          - [Bestaande inhoud migreren](./install-guide/migrate-content.md)
          - [Bestaande DITA-inhoud uploaden](./install-guide/migrate-content-upload-existing-dita-content.md)
          - [Niet-DITA-inhoud migreren](./install-guide/migrate-content-non-dita.md)
@@ -395,7 +403,7 @@ ht-degree: 1%
       - Werken met documentstatussen {#doc-state}
          - [Documentstatussen configureren](./install-guide/customize-doc-state.md)
       - Editor-instellingen {#editor-configs}
-         - [&#x200B; vorm de montages van de Redacteur &#x200B;](./install-guide/editor-settings.md)
+         - [ vorm de montages van de Redacteur ](./install-guide/editor-settings.md)
       - Werken met de webeditorconfiguraties {#web-editor-configs}
          - [Webeditor aanpassen](./install-guide/conf-web-editor.md)
          - [Werkbalk Aanpassen](./install-guide/conf-web-editor-customize-toolbar.md)
@@ -451,6 +459,10 @@ ht-degree: 1%
          - [Inhoud vertalen](./install-guide/translation.md)
       - Werken met AEM Assets-zoekopdracht {#aem-asset-search}
          - [Zoeken naar gebruikersinterface van AEM Assets configureren](./install-guide/conf-dita-search.md)
+      - Werken met middelenverwerking {#asset-processing-on-prem}
+         - [ vorm de eigenschap van de activaverwerking ](./install-guide/configure-asset-processing.md)
+      - Werken met B-boomstructuur opruimen{#btree-cleanup}
+         - [B-boomstructuur opschonen configureren](./install-guide/configure-btree-clean-up-job.md)
       - [Bijlage](./install-guide/appendix.md)
    - Cloud Services {#cs-ig}
       - [Over deze handleiding](./cs-install-guide/introduction.md)
@@ -484,15 +496,15 @@ ht-degree: 1%
       - Werken met documentstatussen {#doc-state-cs}
          - [Documentstatussen configureren](./cs-install-guide/customize-doc-state.md)
       - Workspace-instellingen configureren {#workspace-configs}
-         - [&#x200B; de montages van Workspace &#x200B;](./cs-install-guide/workspace-settings.md)
+         - [ de montages van Workspace ](./cs-install-guide/workspace-settings.md)
       - Werken met de webeditorconfiguraties {#web-editor-configs-cs}
          - [Webeditor aanpassen](./cs-install-guide/conf-web-editor.md)
          - [Werkbalk Aanpassen](./cs-install-guide/conf-web-editor-customize-toolbar.md)
-         - [&#x200B; vorm de AI-Aangedreven slimme suggesties voor het schrijven &#x200B;](./cs-install-guide/conf-smart-suggestions.md)
+         - [ vorm de AI-Aangedreven slimme suggesties voor het schrijven ](./cs-install-guide/conf-smart-suggestions.md)
          - [De door AI aangedreven Smart Help configureren om inhoud te zoeken](./cs-install-guide/conf-smart-help.md)
          - [Standaardwaarde voor de weergave Codes configureren](./cs-install-guide/configure-default-value-tags-view.md)
          - [Weergave van op UUID gebaseerde koppelingen configureren](./cs-install-guide/conf-uuid-based-links.md)
-         - [&#x200B; vorm vertoning van geplakte lijsten &#x200B;](./cs-install-guide/conf-pasted-tables.md)
+         - [ vorm vertoning van geplakte lijsten ](./cs-install-guide/conf-pasted-tables.md)
          - [DITA-onderwerp of toewijzingsbestanden openen op hetzelfde tabblad](./cs-install-guide/open-dita-files-same-tab.md)
          - [Een aangepast deelvenster configureren in het linkerdeelvenster](./cs-install-guide/configure-custom-panel.md)
          - [Bestanden automatisch opslaan in de webeditor configureren](./cs-install-guide/auto-save-in-editor.md)
@@ -532,7 +544,11 @@ ht-degree: 1%
          - [Inhoud vertalen](./cs-install-guide/translation.md)
       - Werken met AEM Assets-zoekopdracht {#aem-asset-search-cs}
          - [Zoeken naar gebruikersinterface van AEM Assets configureren](./cs-install-guide/conf-dita-search.md)
-      - [&#x200B; Bijlage &#x200B;](./cs-install-guide/appendix.md)
+      - Werken met middelenverwerking {#asset-processing-cloud}
+         - [Functie voor middelenverwerking configureren](./cs-install-guide/configure-asset-processing-cs.md)
+      - Werken met B-boomstructuur opruimen{#btree-cleanup-cs}
+         - [ vorm B-boom schoonmaakbeurt ](./cs-install-guide/configure-btree-cleanup-cs.md)
+      - [ Bijlage ](./cs-install-guide/appendix.md)
 - API-naslag {#api-reference}
    - [Inleiding](./api-reference/introduction.md)
    - [REST API&#39;s voor uitvoerbeheer](./api-reference/output-management.md)
@@ -540,15 +556,10 @@ ht-degree: 1%
    - [REST API om een gegevensbronschakelaar te registreren](./api-reference/data-source-connector.md)
    - [REST API voor werken met voorwaardelijke kenmerken](./api-reference/conditional-attribute.md)
    - [REST API&#39;s voor conversieworkflow](./api-reference/convert-to-dita.md)
-   - [REST API voor het maken en activeren van pakketten](./api-reference/create-activate-package.md)
-   - [Op Java gebaseerde API om met uitvoergeneratie te werken](./api-reference/generate-output.md)
-   - [API&#39;s die zijn gebaseerd op Java om te werken met DITA-kaarten](./api-reference/dita-map-management-java.md)
-   - [Java-API&#39;s voor conversieworkflow](./api-reference/convert-to-dita-java.md)
-   - [API&#39;s die zijn gebaseerd op Java om te werken met basislijnen en labels](./api-reference/create-baseline-label-java.md)
-   - [Java-API om te werken met mapprofielen](./api-reference/folder-profile-java.md)
-   - [Java-API voor het maken en activeren van pakketten](./api-reference/create-activate-package-java.md)
+   - [ REST API voor het creëren van en het activeren van pakketten ](./api-reference/create-activate-package.md)
    - [Gebeurtenishandler voor nabewerking](./api-reference/post-process-event.md)
    - [API om de status van naverwerking voor een map of middel bij te houden](./api-reference/track-post-processing-status.md)
+   - [API om bulkverwerking voor middelen te starten](./api-reference/bulk-assets-processing.md)
    - [Bulkactivering voltooid, gebeurtenishandler](./api-reference/bulk-activation-complete-event.md)
    - [Omzetproces, gebeurtenishandler](./api-reference/conversion-complete-event.md)
 - Kennisbank {#knowledge-base}
@@ -617,7 +628,7 @@ ht-degree: 1%
                - [Aangepast dialoogvenster](./guides-ui-extensions/customisations/ReviewApp/custom-dialog.md)
       - Externe gegevensbron {#external-data-source}
          - [Gegevensbronnen integreren](../product-guide/knowledge-base/kb-articles/data-source/integrate-data-sources.md)
-         - [&#x200B; vorm een gegevensbronschakelaar &#x200B;](../product-guide/knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md)
+         - [ vorm een gegevensbronschakelaar ](../product-guide/knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md)
       - Publiceren {#publishing}
          - Oorspronkelijke PDF {#native-pdf}
             - [Aangepaste lettertypen toevoegen aan uw eigen DITA PDF](./knowledge-base/kb-articles/publishing/add-custom-font-native-pdf.md)
@@ -631,11 +642,11 @@ ht-degree: 1%
             - [AEM Sites-sjablonen voor Cloud-services downloaden en installeren](./knowledge-base/kb-articles/publishing/download-install-aem-sites-templates-cs-kb.md)
             - [AEM Sites-sjablonen voor services op locatie downloaden en installeren](./knowledge-base/kb-articles/publishing/download-install-aem-sites-templates-prem-kb.md)
             - [Bestaande AEM Sites-sjablonen aanpassen](./knowledge-base/kb-articles/publishing/customize-exsisting-site-template-kb.md)
-         - [&#x200B; FMPS en Gidsen &#x200B;](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
+         - [ FMPS en Gidsen ](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
          - [Microservice architectuur en prestaties](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
          - [Op microservice gebaseerde publicaties configureren met JWT-verificatie](./knowledge-base/publishing/configure-microservices.md)
          - [Op microservice gebaseerde publicaties configureren met OAuth-verificatie](./knowledge-base/publishing/configure-microservices-imt-config.md)
-         - [&#x200B; het Publiceren benchmarks op de wolk van AEM &#x200B;](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
+         - [ het Publiceren benchmarks op de wolk van AEM ](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
       - Workflows {#workflows}
          - [Workflow na generatie](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
       - Vertaling {#translation}

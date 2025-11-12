@@ -5,16 +5,16 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: 63e81b6213e293dd6b6e7e46b611b25d8cb6a815
+source-git-commit: 1ea27a0ca99e61049d08f89a0cf5e0584b38edae
 workflow-type: tm+mt
-source-wordcount: '4794'
+source-wordcount: '5127'
 ht-degree: 0%
 
 ---
 
 # Profielen op algemeen niveau of mapniveau configureren {#id181AH2003PF}
 
-In een onderneming, kunnen de verschillende groepen of de producten verschillende auteursmalplaatjes, outputmalplaatjes, voorwaardelijke attributenprofielen \ (of onderwerpregelingen \), en de configuraties van de Redacteur van het Web gebruiken. Als u deze alleen op ondernemingsniveau \(of algemeen\) configureert, kunnen auteurs problemen ondervinden omdat ze sjablonen of profielen zien die voor hen niet relevant zijn.
+In een onderneming, kunnen de verschillende groepen of de producten verschillende auteursmalplaatjes, outputmalplaatjes, voorwaardelijke attributenprofielen \ (of onderwerpregelingen \), en de configuraties van de Redacteur van het Web gebruiken. Als u deze alleen op ondernemingsniveau \(of globaal\) configureert, kan de ervaring van auteurs moeilijk worden, aangezien sjablonen of profielen die voor hen niet relevant zijn, worden weergegeven.
 
 Met AEM Guides kunt u ontwerpsjablonen \(onderwerp of kaart\), uitvoersjablonen, voorwaardelijke kenmerken en webeditorconfiguraties op ondernemingsniveau en op mapniveau configureren. Op deze manier kunt u de configuraties voor verschillende afdelingen of producten in uw onderneming van elkaar scheiden.
 
@@ -28,7 +28,7 @@ Met de tegel Mapprofielen in de instellingen voor hulplijnen kunt u instellingen
 
 - **Voorwaardelijke Attributen**: Gebruik dit lusje om voorwaardelijke attributen op globaal of omslag-niveau te vormen. Een voorwaardelijk kenmerk is een combinatie van de naam en de waarde van het kenmerk en u kunt er ook een label voor definiëren. U kunt de standaard attributen DITA of uw eigen douanekenmerken gebruiken. De voorwaardelijke attributen die u op het globale niveau bepaalt worden ter beschikking gesteld aan alle gebruikers over projecten. Als u voorwaardelijke kenmerken op mapniveau hebt gedefinieerd, worden deze samengevoegd met de algemeen gedefinieerde voorwaardelijke kenmerken.
 
-- **Malplaatjes**: Gebruik dit lusje om de malplaatjes te vormen die uw auteurs zullen gebruiken om inhoud te creëren of te publiceren DITA. De volgende onderwerpmalplaatjes zijn beschikbaar uit-van-de-doos:
+- **Malplaatjes**: Gebruik dit lusje om de malplaatjes te vormen die uw Auteurs zullen gebruiken om inhoud te creëren of te publiceren DITA. De volgende onderwerpmalplaatjes zijn beschikbaar uit-van-de-doos:
 
    - Verklarende woordenlijst
 
@@ -50,7 +50,7 @@ Met de tegel Mapprofielen in de instellingen voor hulplijnen kunt u instellingen
   >
   > U kunt alle bestaande sjablonen als basis gebruiken om nieuwe sjablonen te maken. De lege DITA-sjabloon bevat geen structuur of elementen zoals de andere sjablonen. U kunt om het even welke malplaatjes OOTB DITA als basis gebruiken, wijzigingen aanbrengen aan het, en het bewaren met een verschillende naam. Nadat u de vereiste wijzigingen hebt aangebracht, voegt u de bijgewerkte sjabloon toe aan de configuratie van de algemene ontwerpsjablonen of de ontwerpsjablonen op mapniveau en wordt deze vervolgens beschikbaar voor ontwerpen.
 
-  Samen met onderwerpmalplaatjes, kunt u de kaartmalplaatjes ook bepalen die aan auteurs ter beschikking zullen worden gesteld. De volgende kaartsjablonen zijn beschikbaar buiten de box:
+  Samen met onderwerpmalplaatjes, kunt u de kaartmalplaatjes ook bepalen die aan Auteurs ter beschikking zullen worden gesteld. De volgende kaartsjablonen zijn beschikbaar buiten de box:
 
    - Kaart
 
@@ -68,7 +68,7 @@ Met de tegel Mapprofielen in de instellingen voor hulplijnen kunt u instellingen
 
    - Aangepast
 
-  Uitgevers kunnen deze voorinstellingen voor uitvoer buiten de doos gebruiken om inhoud te publiceren. Deze voorinstellingen kunnen worden geconfigureerd door een beheerder van het algemene profiel of het mapprofiel. Zodra gevormd, worden de het publiceren voorinstellingen beschikbaar aan de uitgevers voor pas gecreëerde kaarten DITA. U kunt het publiceren ook toepassen vooraf instelt op bestaande kaarten DITA, zie [&#x200B; vooraf ingestelde veranderingen &#x200B;](#id18AGD0K0OHS) voor meer details toepassen.
+  Uitgevers kunnen deze voorinstellingen voor uitvoer buiten de doos gebruiken om inhoud te publiceren. Deze voorinstellingen kunnen worden geconfigureerd door een beheerder van het algemene profiel of het mapprofiel. Zodra gevormd, worden de het publiceren voorinstellingen beschikbaar aan de uitgevers voor pas gecreëerde kaarten DITA. U kunt het publiceren ook toepassen vooraf instelt op bestaande kaarten DITA, zie [ vooraf ingestelde veranderingen ](#id18AGD0K0OHS) voor meer details toepassen.
 
 - **de Configuraties van de Redacteur van XML**: Gebruik dit lusje om het blik-en-gevoel en diverse eigenschappen van de Redacteur van het Web aan te passen. De volgende configureerbare montages zijn beschikbaar voor de Redacteur van het Web:
 
@@ -94,7 +94,7 @@ Voer de volgende stappen uit om het algemene profiel te configureren:
 
 1. Klik op de verbinding van Adobe Experience Manager bij de bovenkant en kies **Hulpmiddelen**.
 
-1. Selecteer **Gidsen** van de lijst van hulpmiddelen en klik de **Profielen van de Omslag**.
+1. Selecteer **Gidsen** van de lijst van hulpmiddelen en klik de **Profiles van de Omslag** tegel.
 
    Voor het eerst wordt op de pagina Mapprofielen alleen de algemene profieltegel weergegeven.
 
@@ -102,13 +102,13 @@ Voer de volgende stappen uit om het algemene profiel te configureren:
 
 1. Klik op de **Globale tegel van het Profiel**.
 
-1. Om **Voorwaardelijke Attributen** te vormen, zie [&#x200B; voorwaardelijke attributen voor globale of omslag-vlakke profielen &#x200B;](#id1889D0I305Z) vormen.
+1. Om **Voorwaardelijke Attributen** te vormen, zie [ voorwaardelijke attributen voor globale of omslag-vlakke profielen ](#id1889D0I305Z) vormen.
 
-1. Om **Malplaatjes** te vormen, zie [&#x200B; creatieve malplaatjes &#x200B;](#id1889D0IL0Y4) vormen.
+1. Om **Malplaatjes** te vormen, zie [ creatieve malplaatjes ](#id1889D0IL0Y4) vormen.
 
-1. Om **Output te vormen stelt** vooraf in, zie [&#x200B; output vooraf instelt &#x200B;](#id18AGD0IH0Y4) vormen.
+1. Om **Output te vormen stelt** vooraf in, zie [ output vooraf instelt ](#id18AGD0IH0Y4) vormen.
 
-1. Om de Configuratie van de Redacteur van XML te vormen, zie [&#x200B; de Redacteur van XML &#x200B;](#id2065G300O5Z) vormen en aanpassen.
+1. Om de Configuratie van de Redacteur van XML te vormen, zie [ de Redacteur van XML ](#id2065G300O5Z) vormen en aanpassen.
 
 1. Na het maken van alle vereiste updates, sparen en sluit het **Globale Profiel**.
 
@@ -170,7 +170,7 @@ Nu kunt u de voorwaardelijke kenmerken, sjablonen, uitvoervoorinstellingen en de
 
 >[!IMPORTANT]
 >
-> Wanneer u een omslagprofiel creeert, door gebrek bevat het geen malplaatjes. U moet de vereiste sjablonen toevoegen aan het mappenprofiel om deze beschikbaar te maken voor de auteurs.
+> Wanneer u een omslagprofiel creeert, door gebrek bevat het geen malplaatjes. U moet de vereiste sjablonen toevoegen aan het mappenprofiel om deze beschikbaar te maken voor uw auteurs.
 
 ## Voorwaardelijke kenmerken voor algemene profielen of mapprofielen configureren {#id1889D0I305Z}
 
@@ -217,7 +217,7 @@ Als u een aangepast kenmerk gebruikt, moet dit een geldig DITA-kenmerk zijn dat 
 
    >[!IMPORTANT]
    >
-   > Het gespecialiseerde DTD-bestand moet onderdeel zijn van de implementatie van aangepaste code. DTD&#39;s onder /apps maken deel uit van de productimplementatie en worden daarom overschreven door de installatie van nieuwe releases. Het wordt geadviseerd om gespecialiseerde DTD onder /var/dxml/dita\_resources binnen de projectomslag toe te voegen, en de weg DTD/catalogus in het profiel te omvatten DITA.Voor meer informatie, zie [&#x200B; specialisatie DITA &#x200B;](dita-ot-specialization.md#id211MB0E00XA) integreren.
+   > Het gespecialiseerde DTD-bestand moet onderdeel zijn van de implementatie van aangepaste code. DTD&#39;s onder /apps maken deel uit van de productimplementatie en worden daarom overschreven door de installatie van nieuwe releases. Het wordt geadviseerd om gespecialiseerde DTD onder /var/dxml/dita\_resources binnen de projectomslag toe te voegen, en de weg DTD/catalogus in het profiel te omvatten DITA.Voor meer informatie, zie [ specialisatie DITA ](dita-ot-specialization.md#id211MB0E00XA) integreren.
 
 1. Gebruik Pakketbeheer om het bestand /libs/fmdita/config/condAttrList.xml te downloaden:
 
@@ -234,7 +234,7 @@ Als u een aangepast kenmerk gebruikt, moet dit een geldig DITA-kenmerk zijn dat 
 
 AEM Guides komt met 7 uit-van-de-doos onderwerpmalplaatjes, 2 DITA kaartmalplaatjes, en 3 malplaatjes van PDF. U kunt ervoor kiezen om slechts een paar sjablonen beschikbaar te hebben voor uw auteurs en uitgevers. Als u een douanemalplaatje gebruikt, kan het zelfde worden gevormd en ter beschikking gesteld voor creatie en het publiceren. U gebruikt het **lusje van Malplaatjes** in de configuratie van de Profielen van de Omslag om onderwerp, kaart, of de malplaatjes van PDF van globale of omslag-vlakke profielen toe te voegen of te verwijderen.
 
-Zelfs alvorens het onderwerp, de kaart, of de malplaatjes van PDF op globaal of omslag-niveau te vormen, kunt u een plaats ook bepalen om uw douanesjablonen op te slaan. Om een douaneplaats te vormen om de malplaatjes op te slaan, zie [&#x200B; de weg van de malplaatjeomslag van douaneDITA &#x200B;](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z) vormen.
+Zelfs alvorens het onderwerp, de kaart, of de malplaatjes van PDF op globaal of omslag-niveau te vormen, kunt u een plaats ook bepalen om uw douanesjablonen op te slaan. Om een douaneplaats te vormen om de malplaatjes op te slaan, zie [ de weg van de malplaatjeomslag van douaneDITA ](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z) vormen.
 
 Voer de volgende stappen uit om het onderwerp, de kaart, of de malplaatjes van PDF in een omslagprofiel toe te voegen:
 
@@ -257,7 +257,7 @@ Voer de volgende stappen uit om het onderwerp, de kaart, of de malplaatjes van P
 
    >[!NOTE]
    >
-   > Door gebrek, worden alle malplaatjes opgeslagen in /content/dam/dita-templates omslag. De map `dita-templates` bevat `topics` , `maps` en `PDF` submappen waarin het onderwerp, de kaart en de PDF-sjablonen worden opgeslagen. U kunt uw aangepaste sjablonen \(.dita, .xml of .ditamapfiles\) toevoegen in de standaardsjabloonmappen. Nadat u de sjabloon in de standaardmap hebt toegevoegd, kunt u deze toevoegen in het algemene profiel of in het mappenprofiel. Voor meer informatie over het creëren van douanesjablonen die de Redacteur van het Web gebruiken, zie [&#x200B; douane creërend malplaatje &#x200B;](#id1917D0EG0HJ).
+   > Door gebrek, worden alle malplaatjes opgeslagen in /content/dam/dita-templates omslag. De map `dita-templates` bevat `topics` , `maps` en `PDF` submappen waarin het onderwerp, de kaart en de PDF-sjablonen worden opgeslagen. U kunt uw aangepaste sjablonen \(.dita, .xml of .ditamapfiles\) toevoegen in de standaardsjabloonmappen. Nadat u de sjabloon in de standaardmap hebt toegevoegd, kunt u deze toevoegen in het algemene profiel of in het mappenprofiel. Voor meer informatie over het creëren van douanesjablonen die de Redacteur van het Web gebruiken, zie [ douane creërend malplaatje ](#id1917D0EG0HJ).
 
    ![](assets/search-author-temp.png){width="800" align="left"}
 
@@ -304,7 +304,7 @@ Voer de volgende stappen uit om een aangepaste ontwerpsjabloon te maken:
 
    >[!NOTE]
    >
-   > Om een douaneplaats te vormen om onderwerp op te slaan of malplaatjes in kaart te brengen, zie [&#x200B; de weg van de malplaatjeomslag van douane DITA &#x200B;](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z) vormen
+   > Om een douaneplaats te vormen om onderwerp op te slaan of malplaatjes in kaart te brengen, zie [ de weg van de malplaatjeomslag van douane DITA ](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z) vormen
 
 1. Klik **creëren** \> **Sjabloon DITA**.
 
@@ -411,15 +411,15 @@ Als u een bestaande uitvoervoorinstelling hebt bijgewerkt of als u een nieuwe ui
 
 ## AI-assistent configureren voor slimme hulp en ontwerpen
 
-Voor Experience Manager Guides as a Cloud Service (![&#x200B; wolk van AEM &#x200B;](assets/aem-cloud-icon.svg)).
+Voor Experience Manager Guides as a Cloud Service (![ wolk van AEM ](assets/aem-cloud-icon.svg)).
 
-De AI Assistant in Adobe Experience Manager Guides is een krachtig, door AI aangedreven hulpmiddel dat is ontworpen om uw inhoud te verbeteren door middel van intelligente authoring en hergebruik van inhoud. Het verenigt twee robuuste eigenschappen AI - **Authoring** en **Hulp** - in de interface van Experience Manager Guides, toelatend u aan auteursdocumenten en toegangsinformatie sneller en efficiënter.
+De AI Assistant in Adobe Experience Manager Guides is een krachtig, door AI aangedreven hulpmiddel dat is ontworpen om uw inhoud te verbeteren door middel van intelligente authoring en hergebruik van inhoud. Het verenigt twee robuuste eigenschappen AI - **Authoring** en **Hulp** - in de interface van Experience Manager Guides, toelatend u aan Authordocuments en toegangsinformatie sneller en efficiënter.
 
-Voor configuratiedetails, de Configuratie van de mening [&#x200B; AI Medewerker &#x200B;](./conf-smart-suggestions.md).
+Voor configuratiedetails, de Configuratie van de mening [ AI Medewerker ](./conf-smart-suggestions.md).
 
 **vorm AI-Verpletterde slimme suggesties**
 
-U kunt de door AI aangedreven slimme suggesties configureren en de auteurs helpen de bestaande inhoud opnieuw te gebruiken en eenvoudig correcte en consistente inhoudsverwijzingen maken. Het **AI lusje van de Configuratie** staat u toe om de montages van **te controleren stelt opnieuw bruikbare inhoud** van het AI Hulppaneel in de Redacteur van het Web voor.
+U kunt de door AI aangedreven slimme suggesties configureren en de auteurs helpen de bestaande inhoud opnieuw te gebruiken en eenvoudig correcte en consistente inhoudsverwijzingen maken. Het **AI lusje van de Configuratie** staat u toe om de montages van **te controleren stelt herbruikbare inhoud** van het AI Hulppaneel in de Redacteur voor.
 
 Voer de volgende stappen uit om standaardAI configuratie op het globale of omslag-vlakke profiel te vormen:
 1. Meld u aan bij Adobe Experience Manager als beheerder of gebruiker met beheerdersrechten voor een profiel op mapniveau.
@@ -433,30 +433,73 @@ Voer de volgende stappen uit om standaardAI configuratie op het globale of omsla
 
 1. Voor de profielpagina, selecteer de **AI Configuratie** tabel.
 
-   ![&#x200B; AI configuratielusje in globaal profiel &#x200B;](assets/global-profile-AI-configuration-cs.png) {width="800" align="left"}
+   ![ AI configuratielusje in globaal profiel ](assets/global-profile-AI-configuration-cs.png) {width="800" align="left"}
 
 1. Selecteer **uitgeven**.
 1. Als beheerder kunt u de volgende instellingen configureren:
 
-   **Minimale karakters**: Ga het minimumaantal karakters in dat de auteurs binnen moeten typen om de suggesties te krijgen. Als dit getal bijvoorbeeld 7 is, moet de auteur ten minste 7 tekens toevoegen om een slimme suggestie weer te geven.
+   **Minimale karakters**: Ga het minimumaantal karakters in dat de Auteurs moeten selecteren om de suggesties te krijgen. Als dit getal bijvoorbeeld 40 is, moet de auteur ten minste 40 tekens selecteren om een slimme suggestie weer te geven.
 
-   **Maximale suggesties**: Ga het maximumaantal suggesties in de auteurs kunnen krijgen terwijl het ontwerpen van de inhoud. Als dit getal bijvoorbeeld 5 is, kan de auteur maximaal vijf slimme suggesties weergeven.
+   Voor selecties die niet aan de minimale tekenvereisten voldoen, wordt het volgende bericht weergegeven in het deelvenster AI Assistant:
 
-   **Dossiers en omslagen**: Selecteer de dossiers of de omslagen waarvan de slimme suggesties zouden moeten worden getoond. *voor consistentie van inhoud, wordt het geadviseerd dat geen twee ingangen in de lijst gemeenschappelijke dossiers tussen hen* hebben. Nadat u de bestanden en mappen hebt geselecteerd, worden deze weergegeven.
+   ![](assets/smart-suggestions-character-limit.png)
+
+   Voor algemene selecties waarvoor geen suggesties beschikbaar zijn, wordt het volgende bericht weergegeven:
+
+   ![](assets/smart-suggestions-select-another-text-message.png)
+
+   Op deze manier kunnen auteurs begrijpen of suggesties niet beschikbaar zijn omdat er onvoldoende tekens zijn geselecteerd of omdat er geen overeenkomende inhoud is.
+
+   **Maximale suggesties**: Ga het maximumaantal suggesties in de Auteurs terwijl het ontwerpen van de inhoud kunnen krijgen. Als dit getal bijvoorbeeld 5 is, kan de auteur maximaal vijf slimme suggesties weergeven.
+
+   **Dossiers en omslagen**: Selecteer de omslagen waarvan de slimme suggesties zouden moeten worden getoond. Alleen onderliggende mappen van het opgegeven mappad in een mapprofiel kunnen worden geselecteerd. Voor meer details, de het profielbeperkingen van de mening [ Omslag ](#folder-profile-restrictions).
+
+   *om consistentie van inhoud te handhaven, adviseert het dat geen twee ingangen in de lijst gemeenschappelijke dossiers tussen hen* hebben. Nadat u de bestanden en mappen hebt geselecteerd, worden deze weergegeven.
 
 1. Klik **sparen**.
 
    >[!NOTE]
    >
-   > De laatste geïndexeerde statusdetails worden bovenaan weergegeven nadat u het bestand hebt opgeslagen.
+   > De laatst geïndexeerde status van het mapprofiel wordt bovenaan weergegeven nadat u het bestand hebt opgeslagen.
 
-Leer meer over om [&#x200B; op AI-Gebaseerde slimme suggesties &#x200B;](../user-guide/authoring-ai-based-smart-suggestions.md) te bekijken en toe te voegen om inhoudsverwijzingen toe te voegen terwijl het ontwerpen in de Redacteur van het Web.
+Leer meer over om [ op AI-Gebaseerde slimme suggesties ](../user-guide/authoring-ai-based-smart-suggestions.md) te bekijken en toe te voegen om inhoudsverwijzingen toe te voegen terwijl het ontwerpen in de Redacteur van het Web.
+
+### Beperkingen voor mapprofielen
+
+Houd bij het indexeren van mappen rekening met de volgende punten om ervoor te zorgen dat slimme suggesties effectief werken:
+
+1. De AI-assistent moet de inhoud via mapprofielen indexeren om slimme suggesties aan auteurs te kunnen geven.
+2. Wanneer u een map opgeeft voor indexering, kunnen alleen mappen worden toegevoegd die zich onder het huidige mapprofiel bevinden. Als u probeert mappen toe te voegen buiten dit mapprofiel, wordt een waarschuwing weergegeven.
+
+   ![](assets/warning-message-indexing.png)
+
+   Deze beperking geldt alleen voor profielen op mapniveau. Het algemene profiel dwingt geen padbeperkingen af en kan mappen indexeren die niet onder een ander mapprofiel vallen.
+3. Als een bovenliggende map wordt toegevoegd om te indexeren, worden de al vermelde onderliggende mappen automatisch verwijderd om dubbel werk te voorkomen. Het toevoegen van een kindomslag van reeds geïndexeerde ouder zal ook een waarschuwing teweegbrengen.
+
+   ![](assets/parent-child-warning-message-indexing.png)
+4. Bij het bijwerken, verplaatsen of verwijderen van bestanden in geïndexeerde mappen wordt het automatisch opnieuw indexeren of verwijderen van de index geactiveerd.
+5. Voor elke poging tot indexering worden de volgende indexeringsstatussen weergegeven:
+
+   - Bezig: geeft aan dat de indexering wordt uitgevoerd.
+   - Indexeren voltooid: geeft aan dat de indexering is voltooid.
+   - Indexeren is mislukt: geeft aan dat het indexeren is mislukt.
+   - Niet synchroon: geeft aan dat indexering niet synchroon is, meestal waargenomen na een upgrade of migratie, wanneer de huidige indexeringsstatus niet kon worden geverifieerd. U kunt opnieuw proberen indexerend om de status te verfrissen en bij te werken.
+
+   Wanneer het indexeren ontbreekt, wordt u voorzien van de foutenlogboeken van de opties **Mening** en **probeert opnieuw indexerend** om de kwestie problemen op te lossen en op te lossen.
+
+   ![](assets/indexing-failed-options.png)
+
+   De foutenlogboeken worden getoond zoals hieronder getoond:
+
+   ![ alt tekst ](index-error-log.png)
+
+6. Voor elk mapprofiel wordt een tijdstempel voor de laatste indextijd weergegeven.
 
 **pas de standaardvragen voor slimme hulp** aan
 
-Voor Experience Manager Guides as a Cloud Service (![&#x200B; wolk van AEM &#x200B;](assets/aem-cloud-icon.svg)).
+Voor Experience Manager Guides as a Cloud Service (![ wolk van AEM ](assets/aem-cloud-icon.svg)).
 
-U kunt de AI-Verleende slimme **Hulp** vormen om de auteurs te helpen vragen stellen en gemakkelijk de vereiste inhoud van de [&#x200B; documentatie van Experience Manager Guides &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/overview) vinden.
+U kunt de AI-Gedreven slimme **Hulp** vormen om de Auteurs te helpen vragen stellen en gemakkelijk de vereiste inhoud van de [ documentatie van Experience Manager Guides ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview) vinden.
 
 Het **lusje van de Configuratie van de Redacteur van XML** staat u toe om de standaardvragen van het **deelvenster van de Hulp** te vormen.
 
@@ -475,7 +518,7 @@ Voer de volgende stappen uit om de standaardvragen te vormen:
    >
    >U kunt standaardvragen voor het **Slimme paneel van de Hulp** aan het globale of een omslag-niveau profiel vormen.
 
-1. Selecteer het **lusje van de Configuratie van de Redacteur van 0&rbrace; XML.**
+1. Selecteer het **lusje van de Configuratie van de Redacteur van 0} XML.**
 
 1. Klik **uitgeven** pictogram op de bovenkant.
 1. In de **UI van de Redacteur van XML configuratie** sectie, selecteer het **pictogram van de Download** om het `ui_config.json` dossier op uw lokaal systeem te downloaden.
@@ -497,7 +540,7 @@ Voer de volgende stappen uit om de standaardvragen te vormen:
    > De standaardvragen verschijnen in het **Slimme paneel van de Hulp** nadat u het dossier opslaat.
 
 
-Leer meer over het gebruiken van de [&#x200B; AI-Aangedreven Slimme Hulp &#x200B;](../user-guide/ai-based-smart-help.md) om de vereiste inhoud van de documentatie van Experience Manager Guides te vinden.
+Leer meer over het gebruiken van de [ AI-Aangedreven Slimme Hulp ](../user-guide/ai-based-smart-help.md) om de vereiste inhoud van de documentatie van Experience Manager Guides te vinden.
 
 
 ## De XML-editor configureren en aanpassen {#id2065G300O5Z}
@@ -508,7 +551,7 @@ Standaard bevat de XML-editor een heleboel functies waarmee uw auteurs DITA-docu
 
 Met deze instelling kunt u JSON-extensies maken die wijzigingen weerspiegelen die in het `ui_config.json` -bestand zijn aangebracht. U kunt deze extensies afzonderlijk uploaden op het niveau van het mapprofiel, zodat u over meer flexibiliteit en aanpassingsmogelijkheden beschikt. Bijvoorbeeld, wanneer u veranderingen in de **Configuratie van de Redacteur van XML** aanbrengt, zoals het bijwerken van een knoop, identificeert het systeem automatisch de verschillen. Door deze veranderingen in de **Configuratie UI van de Redacteur van XML te uploaden** en hen in uitbreidingen om te zetten JSON gebruikend **zet UI Config in JSON** knoop om, produceert het systeem een uitbreiding die de nieuwe functionaliteit opneemt.
 
-Leer meer over [&#x200B; het aanpassen van configuraties JSON en het omzetten van configuraties UI voor de nieuwe Redacteur van AEM Guides &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+Leer meer over [ het aanpassen van configuraties JSON en het omzetten van configuraties UI voor de nieuwe Redacteur van AEM Guides ](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 >[!NOTE]
 >
@@ -520,11 +563,11 @@ Deze eigenschap staat u toe om CSS dossiers te uploaden om de nieuwe uitbreiding
 
 **Configuratie van de Redacteur van XML**
 
-Met deze instelling bepaalt u de werkbalk en de andere gebruikersinterface-elementen van de Editor. Selecteer het **pictogram van de Download** om het `ui\_config.json` dossier op uw lokaal systeem te downloaden. Vervolgens kunt u het bestand wijzigen en het bestand uploaden. Afhankelijk van de plaats waar u het bestand uploadt op, algemeen profiel of mapniveau, worden de wijzigingen dienovereenkomstig toegepast. Voor meer details over hoe te om de Redacteur van XML aan te passen gebruikend `ui\_config.json file`, mening [&#x200B; pas toolbar &#x200B;](conf-web-editor-customize-toolbar.md#) aan.
+Met deze instelling bepaalt u de werkbalk en de andere gebruikersinterface-elementen van de Editor. Selecteer het **pictogram van de Download** om het `ui\_config.json` dossier op uw lokaal systeem te downloaden. Vervolgens kunt u het bestand wijzigen en het bestand uploaden. Afhankelijk van de plaats waar u het bestand uploadt op, algemeen profiel of mapniveau, worden de wijzigingen dienovereenkomstig toegepast. Voor meer details over hoe te om de Redacteur van XML aan te passen gebruikend `ui\_config.json file`, mening [ pas toolbar ](conf-web-editor-customize-toolbar.md#) aan.
 
 >[!NOTE]
 >
-> Voor de release van AEM Guides 2502 en nieuwere versies wordt aangeraden de extensie JSON te gebruiken in plaats van `ui_config.json` voor aanpassing. Voor details, verwijs naar de **sectie van de Configuratie van de Redacteur UI van 0&rbrace; XML hierboven.**
+> Voor de release van AEM Guides 2502 en nieuwere versies wordt aangeraden de extensie JSON te gebruiken in plaats van `ui_config.json` voor aanpassing. Voor details, verwijs naar de **sectie van de Configuratie van de Redacteur UI van 0} XML hierboven.**
 
 **CSS de Lay-out van het Malplaatje**
 
@@ -566,7 +609,7 @@ U moet de volgende gegevens opgeven om een fragment te maken:
 
 **Etiketten van de Versie van de Inhoud van XML**
 
-Auteurs kunnen standaard zelf labels maken en deze koppelen aan hun onderwerpbestanden. Nochtans, kan dit tot vele variaties van het zelfde etiket leiden, bijvoorbeeld zou &quot;Versie 1.0&quot;, &quot;Versie-1.0&quot;, &quot;versie 1&quot;etiketten voor het identificeren van het zelfde stadium van een onderwerp kunnen hebben. Om dergelijke inconsistente etikettering in het systeem te voorkomen, kunt u een vooraf gedefinieerde lijst met labels maken waaruit auteurs kunnen kiezen. Dankzij consistente labels kunt u bestanden beter beheren in uw systeem.
+Door gebrek, worden de Auteurs toegestaan om etiketten van hun keus tot stand te brengen en hen te associëren met hun onderwerpdossiers. Nochtans, kan dit tot vele variaties van het zelfde etiket leiden, bijvoorbeeld zou &quot;Versie 1.0&quot;, &quot;Versie-1.0&quot;, &quot;versie 1&quot;etiketten voor het identificeren van het zelfde stadium van een onderwerp kunnen hebben. Om dergelijke inconsistente etikettering in het systeem te voorkomen, kunt u een vooraf gedefinieerde lijst met labels maken waaruit auteurs kunnen kiezen. Dankzij consistente labels kunt u bestanden beter beheren in uw systeem.
 
 Met de configuratie van het versielabel kunt u een lijst met geldige labels voor uw organisatie uploaden. Download het standaard label.json-bestand en wijzig het bestand zoals hieronder wordt weergegeven:
 
@@ -581,7 +624,7 @@ Met de configuratie van het versielabel kunt u een lijst met geldige labels voor
 }
 ```
 
-In het bovenstaande voorbeeld is &quot;label1&quot; de id voor de labelvolgorde en wordt het toegevoegd door het label dat wordt weergegeven aan de auteurs waar een label is vereist. Sla dit bestand op en upload het in de sectie Labels voor XML-inhoudsversie.
+In het bovenstaande voorbeeld is &quot;label1&quot; de id voor de labelvolgorde en wordt het toegevoegd door het label dat aan de Auteurs wordt weergegeven wanneer een label wordt vereist. Sla dit bestand op en upload het in de sectie Labels voor XML-inhoudsversie.
 
 >[!IMPORTANT]
 >

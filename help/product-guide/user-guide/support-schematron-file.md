@@ -4,9 +4,9 @@ description: Leer hoe te om een DITA- onderwerp in te voeren en te bevestigen, d
 exl-id: ed07a5ec-6adc-43a3-8f03-248b8c963e9a
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: ee784edcbaef0641784cd1eb18748fc12a4f90bb
+source-git-commit: 64d2f0027c35396a549d11a0186e218dd513b22a
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
@@ -45,10 +45,19 @@ Wanneer u een onderwerp opent in de Redacteur, verschijnt een paneel van de Beve
 
 1. Selecteer het pictogram Schematron () om het deelvenster Schematron te openen.
 1. Het gebruik **voegt het Dossier van Schematron** toe om dossiers Schematron toe te voegen.
+
+   >[!NOTE]
+   >
+   > Wanneer een ongeldig schemabestand wordt toegevoegd, wordt een foutenmelding getoond in het paneel van de Bevestiging.
+
+   ![](images/schematron-panel-error.png){width="300" align="left"}
+
 1. Als het Schematron-bestand geen fouten bevat, wordt het toegevoegd en weergegeven in het deelvenster Validatie. Er wordt een foutbericht weergegeven voor het Schematron-bestand dat fouten bevat.
+
    >[!NOTE]
    >
    >U kunt het kruispictogram bij de naam van het Schematron-bestand gebruiken om het te verwijderen.
+
 1. Selecteer **Valideren met Schematron** om het onderwerp te bevestigen.
 
    * Als het onderwerp geen regels breekt, wordt het bericht van het bevestigingssucces getoond voor het dossier.

@@ -4,9 +4,9 @@ description: Andere functies van de Editor in Adobe Experience Manager Guides ve
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
+source-git-commit: c84a95b4d0b5df5b29d16efa7478bbfdc953bc5b
 workflow-type: tm+mt
-source-wordcount: '2652'
+source-wordcount: '2678'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ De verschillende opties in het contextmenu worden hieronder uitgelegd:
 
 ***sparen als Nieuwe Versie***
 
-Om een nieuwe versie van het dossier tot stand te brengen, uitgezocht **sparen als Nieuwe Versie**. Voor meer details over **sparen** en **sparen als Nieuwe Versie**, mening [&#x200B; Toolbar in de Redacteur &#x200B;](web-editor-toolbar.md).
+Om een nieuwe versie van het dossier tot stand te brengen, uitgezocht **sparen als Nieuwe Versie**. Voor meer details over **sparen** en **sparen als Nieuwe Versie**, mening [ Toolbar in de Redacteur ](web-editor-toolbar.md).
 
 ***Exemplaar***: U kunt van de volgende opties kiezen:
 
@@ -61,14 +61,17 @@ Om een nieuwe versie van het dossier tot stand te brengen, uitgezocht **sparen a
 
 - **Kaart**: Als u een grote kaart DITA hebt geopend en de nauwkeurige plaats van een dossier in de kaart wilt vinden, dan **plaats in \> Kaart**. Wanneer u de optie Zoeken op kaart selecteert, wordt het bestand \(vanwaar de optie wordt aangeroepen\) in de kaarthiërarchie geplaatst en gemarkeerd. Als u deze functie wilt gebruiken, moet u het kaartbestand openen in de Editor. Als de Kaartweergave verborgen is, wordt bij het aanroepen van deze functie de Kaartweergave weergegeven en wordt het bestand gemarkeerd in de kaarthiërarchie.
 
-- **Bewaarplaats**: Gelijkaardig aan plaats in Kaart, **plaats in \> Bewaarplaats** toont de plaats van het dossier in de bewaarplaats \ (of DAM \). De Weergave opslagplaats wordt geopend en het geselecteerde bestand wordt gemarkeerd in de opslagplaats. Als het bestand zich in een map bevindt, wordt die map uitgevouwen om de locatie van het geselecteerde bestand in de opslagplaats weer te geven.
+- **Ontdekkingsreiziger**: Gelijkaardig om in Kaart te vinden, **plaats in \> Ontdekkingsreiziger** toont de plaats van het dossier in de Ontdekkingsreiziger \ (of DAM \). De Explorer-weergave wordt geopend en het geselecteerde bestand wordt gemarkeerd in de Verkenner. Als het bestand zich in een map bevindt, wordt die map uitgevouwen om de locatie van het geselecteerde bestand in de Verkenner weer te geven.
 
+  >[!NOTE]
+  >
+  >Van versie 2025.11.0, **wordt de Bewaarplaats van 0} {anders genoemd aan** Ontdekkingsreiziger **.** Voor installatie op locatie blijft de opslagruimte beschikbaar tot de release van Experience Manager Guides 5.1.
 
 ***voeg aan*** toe: U kunt van de volgende opties kiezen:
 
-- **Inzamelingen**: Om het geselecteerde dossier aan inzamelingen toe te voegen, uitgezocht **voeg aan \> Inzamelingen** toe. Voor meer details, bekijk de **de eigenschapbeschrijving van Inzamelingen** in de [&#x200B; Linkerpaneel &#x200B;](web-editor-left-panel.md) sectie.
+- **Inzamelingen**: Om het geselecteerde dossier aan inzamelingen toe te voegen, uitgezocht **voeg aan \> Inzamelingen** toe. Voor meer details, bekijk de **de eigenschapbeschrijving van Inzamelingen** in de [ Linkerpaneel ](web-editor-left-panel.md) sectie.
 
-- **Herbruikbare inhoud**: Om het geselecteerde dossier aan de herbruikbare inhoudslijst te kopiëren, uitgezocht **voeg aan \> Herbruikbare inhoud** toe. Voor meer details, bekijk de **Herbruikbare inhoud** eigenschapbeschrijving in de [&#x200B; Linkerpaneel &#x200B;](web-editor-left-panel.md) sectie.
+- **Herbruikbare inhoud**: Om het geselecteerde dossier aan de herbruikbare inhoudslijst te kopiëren, uitgezocht **voeg aan \> Herbruikbare inhoud** toe. Voor meer details, bekijk de **Herbruikbare inhoud** eigenschapbeschrijving in de [ Linkerpaneel ](web-editor-left-panel.md) sectie.
 
 ***Eigenschappen***
 
@@ -114,7 +117,7 @@ Uw ervaring met het opslaan van bestanden is afhankelijk van de volgende drie sc
 U kunt de volgende opties weergeven, afhankelijk van het feit of het bestand vergrendeld/ontgrendeld is en of de wijzigingen zijn opgeslagen of niet opgeslagen:
 
 - **Ontgrendelen en Sluiten**: Het slot op het dossier wordt vrijgegeven, en het dossier wordt gesloten.
-- **sparen als nieuwe versie**: Dit zal de veranderingen bewaren u in uw inhoud hebt aangebracht en tot een nieuwe versie van uw dossier leiden. U kunt ook labels en opmerkingen toevoegen voor de zojuist opgeslagen versie. Voor meer informatie over het bewaren van een nieuwe versie, mening [&#x200B; sparen als nieuwe versie &#x200B;](web-editor-toolbar.md#version-information-and-save-as-new-version).
+- **sparen als nieuwe versie**: Dit zal de veranderingen bewaren u in uw inhoud hebt aangebracht en tot een nieuwe versie van uw dossier leiden. U kunt ook labels en opmerkingen toevoegen voor de zojuist opgeslagen versie. Voor meer informatie over het bewaren van een nieuwe versie, mening [ sparen als nieuwe versie ](web-editor-toolbar.md#version-information-and-save-as-new-version).
 
 - **ontgrendel het dossier**: Als u verkiest om een dossier te ontgrendelen, zal het de slot op uw dossier vrijgeven en de veranderingen worden bewaard in de huidige versie van het dossier.
 
@@ -144,11 +147,11 @@ De Editor biedt een dialoogvenster voor het bladeren van slimme bestanden. De ed
 
 ## Ondersteuning voor op artikelen gebaseerde publicaties
 
-Van de Redacteur, kunt u de output voor één of meerdere onderwerpen, of de volledige kaart produceren DITA. U moet outputvoorinstellingen voor uw kaart creëren DITA en dan kunt u de output voor één of meerdere onderwerpen gemakkelijk produceren. Als u een paar onderwerpen in uw kaart hebt bijgewerkt, kunt u de output slechts voor die onderwerpen van de Redacteur ook produceren. Voor meer details, mening [&#x200B; op artikel-gebaseerde het publiceren &#x200B;](web-editor-article-publishing.md#id218CK0U019I).
+Van de Redacteur, kunt u de output voor één of meerdere onderwerpen, of de volledige kaart produceren DITA. U moet outputvoorinstellingen voor uw kaart creëren DITA en dan kunt u de output voor één of meerdere onderwerpen gemakkelijk produceren. Als u een paar onderwerpen in uw kaart hebt bijgewerkt, kunt u de output slechts voor die onderwerpen van de Redacteur ook produceren. Voor meer details, mening [ op artikel-gebaseerde het publiceren ](web-editor-article-publishing.md#id218CK0U019I).
 
 ## Ondersteuning voor opmaakdocumenten
 
-In de Editor kunt u Markeringen gebruiken voor documenten \(.md\) samen met uw DITA-documenten. U kunt een document van de Prijsverhoging in de Redacteur gemakkelijk ontwerpen en voorproef en het ook toevoegen in uw kaartdossier door de DITA kaartredacteur. Voor meer details, bekijk [&#x200B; documenten van de Prijsverhoging van de Auteur van de Redacteur &#x200B;](web-editor-markdown-topic.md#).
+In de Editor kunt u Markeringen gebruiken voor documenten \(.md\) samen met uw DITA-documenten. U kunt een document van de Prijsverhoging in de Redacteur gemakkelijk ontwerpen en voorproef en het ook toevoegen in uw kaartdossier door de DITA kaartredacteur. Voor meer details, bekijk [ documenten van de Prijsverhoging van de Auteur van de Redacteur ](web-editor-markdown-topic.md#).
 
 ## Steun voor DITA verklarende woordenlijstterm onderwerp
 
@@ -158,9 +161,9 @@ De Editor ondersteunt verklarende woordenlijsten die u kunt invoegen door `term`
 
 ### MathML-vergelijkingen invoegen
 
-Experience Manager Guides geeft u een out-of-the-box steun voor het opnemen van de vergelijkingen van MathML door integratie met [&#x200B; toepassing van het Web MathType &#x200B;](https://docs.wiris.com/en/mathtype/mathtype_web/intro). Om een vergelijking van MathML op te nemen, selecteer het **pictogram van het Element** en type mathml. Wanneer u mathml element van de lijst selecteert, wordt de **dialoog van MathML van het Tussenvoegsel** getoond:
+Experience Manager Guides geeft u een out-of-the-box steun voor het opnemen van de vergelijkingen van MathML door integratie met [ toepassing van het Web MathType ](https://docs.wiris.com/en/mathtype/mathtype_web/intro). Om een vergelijking van MathML op te nemen, selecteer het **pictogram van het Element** en type mathml. Wanneer u mathml element van de lijst selecteert, wordt de **dialoog van MathML van het Tussenvoegsel** getoond:
 
-![&#x200B; neem mathml vergelijking in mathml redacteur op &#x200B;](images/insert-mathml-equation.png){width="550" align="left"}
+![ neem mathml vergelijking in mathml redacteur op ](images/insert-mathml-equation.png){width="550" align="left"}
 
 Gebruikend de de vergelijkingshulpmiddelen van MathML, creeer uw vergelijking en selecteer **Tussenvoegsel** om het aan uw document toe te voegen. De vergelijking wordt ingevoegd met een lichtgrijze achtergrond.
 
@@ -171,7 +174,7 @@ Op elk ogenblik kunt u een vergelijking bijwerken door op een bestaande vergelij
 Experience Manager Guides valideert MathML-vergelijkingen wanneer u een onderwerp opslaat dat ze bevat.
 Als u een vergelijking invoegt met de MathML-editor, wordt de vergelijking rood gemarkeerd als er syntaxisproblemen zijn. U kunt dit corrigeren voordat u het invoegt. Als u geen veranderingen aanbrengt maar **uitgezocht Tussenvoegsel** selecteert, toont het een waarschuwing.
 
-![&#x200B; bevestigt mathml vergelijking &#x200B;](images/validate-mathml-equation.png){width="400" align="left"}
+![ bevestigt mathml vergelijking ](images/validate-mathml-equation.png){width="400" align="left"}
 
 Als u de vergelijking van MathML opneemt die een syntaxisfout bevat, komt een bevestigingsfout voor wanneer u probeert om het onderwerp op te slaan.
 
@@ -230,7 +233,7 @@ DITA-elementen die regeleinde en spaties bevatten, worden ondersteund en weergeg
 
 ## Afhandeling van vaste spaties in de Editor
 
-- U kunt vaste ruimten in uw document opnemen gebruikend het **Symobol** ![](images/symbol-icon.svg) pictogram of **Alt** + **de kortere wegsleutels van de Ruimte**.  Deze vaste spaties worden weergegeven als een indicator terwijl u een onderwerp bewerkt in de Editor. U kunt de vertoning van de vaste ruimten met **tonen niet-breekruimtemindicator op de auteurswijze** optie van de **Verschijning** tabel van [&#x200B; de voorkeur van de Gebruiker &#x200B;](./intro-home-page.md#user-preferences) uitzetten.
+- U kunt vaste ruimten in uw document opnemen gebruikend het **Symobol** ![](images/symbol-icon.svg) pictogram of **Alt** + **de kortere wegsleutels van de Ruimte**.  Deze vaste spaties worden weergegeven als een indicator terwijl u een onderwerp bewerkt in de Editor. U kunt de vertoning van de vaste ruimten met **tonen niet-breekruimtemindicator op de auteurswijze** optie van de **Verschijning** tabel van [ de voorkeur van de Gebruiker ](./intro-home-page.md#user-preferences) uitzetten.
 
 - Als u inhoud met een vaste ruimte van om het even welke externe bronnen in de **auteur** mening kopieert en kleeft, wordt de vaste ruimte omgezet in een ruimte.
 Nochtans, als u inhoud met een vaste ruimte van de **auteur** mening kopieert en kleeft, wordt het bewaard.
@@ -279,4 +282,4 @@ De belangrijkste kenmerken voor een betere afhandeling van grote bestanden zijn 
 
 - Het waarschuwingsbericht is alleen beschikbaar voor DITA-bestanden en is in alle weergaven zichtbaar: Auteur, Source en Layout.
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; Inleiding aan de Redacteur &#x200B;](web-editor.md)
+**Bovenliggend onderwerp:**[ Inleiding aan de Redacteur ](web-editor.md)

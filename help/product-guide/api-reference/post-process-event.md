@@ -5,7 +5,7 @@ exl-id: 3b105ff5-02d4-40e3-a713-206a7fcf18b2
 feature: Post-Processing Event Handler
 role: Developer
 level: Experienced
-source-git-commit: 8e57d4048f4aa13d7f77f25082d4e7aa329ee355
+source-git-commit: 6f212862855e5ce1125137f462b88c933d23ed26
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 0%
@@ -42,7 +42,7 @@ com/adobe/guides/postprocess/complete
 |----|----|-----------|
 | `path` | String | Het pad van het bestand dat deze gebeurtenis heeft geactiveerd. Dit is doorgaans het bestand waarop een bewerking is uitgevoerd. |
 | `eventType` | String | Het type gebeurtenis, dat wil zeggen CREATE of MODIFY. |
-| `status` | String | De geretourneerde status voor de uitgevoerde bewerking. De mogelijke opties zijn: - <br> - SUCCESS: de naverwerkingbewerking is voltooid. <br> - MISLUKT: de naverwerkingbewerking is mislukt als gevolg van een fout. |
+| `status` | String | De geretourneerde status voor de uitgevoerde bewerking. De mogelijke opties zijn: <br> - SUCCESS: de naverwerkingbewerking is voltooid. <br> - MISLUKT: de naverwerkingbewerking is mislukt als gevolg van een fout. |
 | `errorMsg` | String | Het foutbericht in het geval van een fout met de naverwerkingshandeling. |
 | `uuid` | String | De UUID van het bestand dat deze gebeurtenis heeft geactiveerd. Dit is doorgaans het bestand waarop een bewerking is uitgevoerd. |
 
@@ -110,6 +110,6 @@ com/adobe/fmdita/postprocess/complete
 | Naam | Type | Beschrijving |
 |----|----|-----------|
 | `path` | String | Het pad van het bestand dat deze gebeurtenis heeft geactiveerd. Dit is doorgaans het bestand waarop een bewerking is uitgevoerd. |
-| `status` | String | De geretourneerde status voor de uitgevoerde bewerking. De mogelijke opties zijn: - <br> - SUCCESS: de naverwerkingbewerking is voltooid. <br> - IS VOLTOOID MET FOUTEN: de naverwerkingsbewerking is voltooid, maar met enkele fouten. <br> - MISLUKT: de naverwerkingbewerking is mislukt als gevolg van een fout. |
+| `status` | String | De geretourneerde status voor de uitgevoerde bewerking. De mogelijke opties zijn: <br> - SUCCESS: de naverwerkingbewerking is voltooid. <br> - IS VOLTOOID MET FOUTEN: de naverwerkingsbewerking is voltooid, maar met enkele fouten. <br> - MISLUKT: de naverwerkingbewerking is mislukt als gevolg van een fout. |
 | `message` | String | Als de status IS VOLTOOID MET FOUTEN of MISLUKT, bevat deze parameter de details over de fout of de oorzaak van de fout. |
 | `operation` | String | De nabewerking die op het bestand is uitgevoerd. De mogelijke opties zijn:<br> - Toevoeging <br> - Bijwerken <br> - Verwijderen |

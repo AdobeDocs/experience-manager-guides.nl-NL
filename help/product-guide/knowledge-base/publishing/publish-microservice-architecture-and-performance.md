@@ -4,9 +4,9 @@ description: Begrijp hoe de nieuwe microservice schaalbare publicatie op AEMaaCS
 exl-id: 948fce3f-b989-48f0-9a85-e921717e2986
 feature: Microservice in AEM Guides
 role: User, Admin
-source-git-commit: 462647f953895f1976af5383124129c3ee869fe9
+source-git-commit: a860507b71f25a22aac7c09824f94c4e1a2b0f6b
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '737'
 ht-degree: 0%
 
 ---
@@ -17,19 +17,21 @@ In dit artikel wordt uitgelegd wat de architectuur en prestatienummers zijn van 
 
 >[!NOTE]
 >
-> Op microservices gebaseerde publicaties in AEM Guides ondersteunen de typen uitvoervoorinstellingen PDF (zowel op basis van Native als DITA-OT), HTML5, JSON en CUSTOM.
+> Op microservices gebaseerde publicaties in AEM Guides ondersteunen PDF (zowel op basis van native als op basis van DITA-OT), AEM Site (met samengestelde componenttoewijzing), HTML5, JSON en CUSTOM typen uitvoervoorinstellingen.
 
 ## Problemen met bestaande publicatieworkflows in de cloud
 
-DITA Publishing is een hulpbronnenintensief proces dat voornamelijk afhankelijk is van het beschikbare systeemgeheugen en de CPU. De behoefte aan deze middelen neemt verder toe als de uitgevers grote kaarten met vele onderwerpen publiceren of als veelvoudige parallelle het publiceren verzoeken teweeggebracht worden.
+DITA Publishing is een hulpbronnenintensief proces dat voornamelijk afhankelijk is van het beschikbare systeemgeheugen en CPU. De behoefte aan deze middelen neemt verder toe als de uitgevers grote kaarten met vele onderwerpen publiceren of als veelvoudige parallelle het publiceren verzoeken teweeggebracht worden.
 
-Als u de nieuwe service niet gebruikt, gebeurt alle publicaties op dezelfde pod Kubernetes (k8) die ook de AEM cloudserver uitvoert. Een standaard k8-pod heeft een limiet voor de hoeveelheid geheugen en CPU die deze kan gebruiken. Als AEM Guides-gebruikers grote of parallelle werklasten publiceren, kan deze limiet snel worden overschreden. K8 start pods opnieuw die meer bronnen proberen te gebruiken dan de geconfigureerde limiet en die ernstige gevolgen kunnen hebben voor de AEM cloudinstantie zelf.
+Als u de nieuwe service niet gebruikt, gebeurt alle publicaties op dezelfde pod Kubernetes (k8) die ook de AEM-cloudserver uitvoert. Een normale k8-pod heeft een limiet voor de hoeveelheid geheugen en CPU die deze kan gebruiken. Als AEM Guides-gebruikers grote of parallelle werklasten publiceren, kan deze limiet snel worden overschreden. K8 start pods opnieuw die meer bronnen proberen te gebruiken dan de geconfigureerde limiet en die ernstige gevolgen kunnen hebben voor de AEM-cloudinstantie zelf.
 
 Deze beperking van bronnen was de belangrijkste motivatie om een speciale service te ontwikkelen waarmee we meerdere gelijktijdige en grote publicatiewerklasten in de cloud kunnen uitvoeren.
 
+Om meer over het publiceren werkschema&#39;s op wolk te leren, mening [ Veelgestelde vragen over het publiceren werkschema en scalability ](/help/product-guide/user-guide/publishing-scalability-faq.md).
+
 ## Inleiding tot de nieuwe architectuur
 
-De service maakt gebruik van de meest geavanceerde cloudoplossingen van de Adobe, zoals App Builder, IO Event en IMS. Deze diensten zijn zelf gebaseerd op de algemeen aanvaarde industriestandaarden zoals Kubernetes en docker.
+De service maakt gebruik van geavanceerde Adobe-cloudoplossingen, zoals App Builder, IO Event en IMS, om een serverloos aanbod te maken. Deze diensten zijn zelf gebaseerd op de algemeen aanvaarde industriestandaarden zoals Kubernetes en docker.
 
 Elk verzoek aan de nieuwe het publiceren microservice wordt uitgevoerd in een geïsoleerde docker container die slechts één het publiceren verzoek tegelijkertijd in werking stelt. Er worden automatisch meerdere nieuwe containers gemaakt voor het geval nieuwe publicatieverzoeken worden ontvangen. Deze enige container per verzoekconfiguratie staat microservice toe om de beste prestaties aan de klanten te leveren zonder enige veiligheidsrisico&#39;s te introduceren. Deze containers worden verwijderd zodra de publicatie is voltooid, waardoor ongebruikte bronnen vrijkomen.
 
@@ -39,7 +41,7 @@ Al deze communicatie wordt beveiligd door Adobe IMS met behulp van JWT-verificat
 
 >[!NOTE]
 >
-> Het publiceren proces voert sommige inhoud afhankelijke delen van het verzoek op de AEM server zelf uit, zoals de productie van de gebiedslijst. De meest uitgebreide onderdelen van het publicatieproces, zoals het uitvoeren van DITA-OT- of native engine, zijn echter naar de nieuwe service verschoven.
+> Tijdens het publicatieproces worden bepaalde inhoudsafhankelijke delen van het verzoek op de AEM-server zelf uitgevoerd, zoals het genereren van een lijst met afhankelijkheden. De meest uitgebreide onderdelen van het publicatieproces, zoals het uitvoeren van DITA-OT- of native engine, zijn echter naar de nieuwe service verschoven.
 
 
 ## Prestatieanalyse
@@ -58,7 +60,7 @@ Als u een grote kaart op prem publiceert, dan zou u de heap parameters van Java 
 
 * On-prem
 
-  De resultaten van één publicatie zijn beter op de oude cloudarchitectuur of op de voorgrond, omdat de volledige publicatie plaatsvindt op dezelfde pod/computer waarop AEM wordt uitgevoerd.
+  De resultaten van één publicatie zijn beter op de oude cloudarchitectuur of op de voorgrond, aangezien de volledige publicatie plaatsvindt op dezelfde pod/computer waarop AEM wordt uitgevoerd.
 
   <img src="assets/onprem_single_publish.png" alt="tabblad Projecten" width="600">
 
@@ -78,6 +80,6 @@ Als u een grote kaart op prem publiceert, dan zou u de heap parameters van Java 
 
 ## Aanvullende voordelen
 
-Een deel van elke publicatieaanvraag moet op de AEM worden uitgevoerd om de juiste publicatie-inhoud op te halen die naar de microservice moet worden verzonden. De nieuwe cloudarchitectuur gebruikt AEM taken in plaats van AEM workflows, zoals in de oude architectuur het geval was. Met deze wijziging kunnen AEM Guides-beheerders de instellingen voor de wachtrij voor publicatie van wolken afzonderlijk configureren zonder dat dit gevolgen heeft voor andere AEM taken of workflowconfiguraties.
+Een deel van elke publicatieaanvraag moet in AEM worden uitgevoerd om de juiste publicatie-inhoud op te halen die naar de microservice moet worden verzonden. De nieuwe cloudarchitectuur gebruikt AEM-taken in plaats van AEM-workflows, zoals in de oude architectuur het geval was. Met deze wijziging kunnen AEM Guides-beheerders de instellingen voor de wachtrij voor publicatie van wolken afzonderlijk configureren zonder dat dit gevolgen heeft voor andere AEM-taken of workflowconfiguraties.
 
-De details op hoe te om nieuwe te vormen publiceren microservice kunnen hier worden gevonden: [&#x200B; vormen Microservice &#x200B;](configure-microservices.md)
+De details op hoe te om nieuwe te vormen publiceren microservice kunnen hier worden gevonden: [ vormen Microservice ](configure-microservices.md)
