@@ -5,7 +5,7 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: c787947a-b235-4c12-a9cc-eac5136d31db
-source-git-commit: e5d02c6047c3ed74efa1777ce6585efc391af426
+source-git-commit: b511f12dab6c4980091aabe57446cbbd84d79080
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
@@ -57,6 +57,6 @@ Voer de volgende stappen uit om tot het Terugkeren rapport van de Geschiedenis t
 
    - **Commentaar**: Om het even welke die commentaar door de gebruiker wordt gegeven die het dossier terugkeerde.
 
-{{test}}
+{{$include /help/_includes/overview.md}}
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; Rapporten &#x200B;](reports-intro.md)
+**Bovenliggend onderwerp:**[ Rapporten ](reports-intro.md)
