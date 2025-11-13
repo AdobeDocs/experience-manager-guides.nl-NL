@@ -59,4 +59,4 @@ Voer de volgende stappen uit om tot het Terugkeren rapport van de Geschiedenis t
 
 {{$include /help/_includes/overview.md}}
 
-**Bovenliggend onderwerp:**[ Rapporten ](reports-intro.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Rapporten &#x200B;](reports-intro.md)
