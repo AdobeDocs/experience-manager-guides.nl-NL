@@ -3,7 +3,7 @@ title: Deelvenster Zoeken in de Editor-interface
 description: Leer hoe u het deelvenster Zoeken in de Editor-interface gebruikt.
 feature: Authoring
 role: User
-source-git-commit: bdf838da24d7e426c34265cdad454d52f657cfae
+source-git-commit: 5b4aebce91d6cad7c99bf97e3d6d592ad38fa373
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 0%
@@ -16,11 +16,11 @@ Het deelvenster Zoeken in de Editor verbetert de productiviteit door snel toegan
 
 Het deelvenster Zoeken is toegankelijk via:
 
-- **interface van de Redacteur**: Selecterend het **pictogram van het Onderzoek** van het **paneel van de Ontdekkingsreiziger** of door het **pictogram van het Onderzoek** van de bodem-linkerhoek van het **Inhoud het uitgeven gebied** te gebruiken. Voor details, mening [&#x200B; Onderzoek van het paneel van de Ontdekkingsreiziger &#x200B;](#search-from-the-explorer-panel).
+- **interface van de Redacteur**: Selecterend het **pictogram van het Onderzoek** van het **paneel van de Ontdekkingsreiziger** of door het **pictogram van het Onderzoek** van de bodem-linkerhoek van het **Inhoud het uitgeven gebied** te gebruiken. Voor details, mening [ Onderzoek van het paneel van de Ontdekkingsreiziger ](#search-from-the-explorer-panel).
 
   ![](images/search-icon-editor.png){align="left"}
 
-- **Homepage van het Huis**: Gebruikend **tonen in het paneel van het Onderzoek** optie wanneer het navigeren van de interface van de Bewaarplaats op de Homepage. Voor detailmening, [&#x200B; Onderzoek van de Bewaarplaats &#x200B;](#search-from-repository-interface-on-the-home-page).
+- **Homepage van het Huis**: Gebruikend **tonen in het paneel van het Onderzoek** optie wanneer het navigeren van de interface van de Bewaarplaats op de Homepage. Voor detailmening, [ Onderzoek van de Bewaarplaats ](#search-from-the-repository-interface-on-the-home-page).
 
   ![](images/search-panel-repo.png){align="left"}
 
@@ -42,7 +42,7 @@ Wanneer u in de Editor-interface werkt, kunt u de set bestanden filteren om een 
 
    ![](images/search-repo-dialog.png){align="left"}
 
-2. Voer de zoekopdracht uit en pas indien nodig filters toe. Voor gedetailleerde instructies op onderzoek en filteropties, mening [&#x200B; Onderzoek en filterervaring &#x200B;](./home-page-repository-view.md#search-and-filter-experience).
+2. Voer de zoekopdracht uit en pas indien nodig filters toe. Voor gedetailleerde instructies op onderzoek en filteropties, mening [ Onderzoek en filterervaring ](./home-page-repository-view.md#search-and-filter-experience).
 
 3. Zodra uw onderzoek volledig is, uitgezochte **tonen in het paneel van het Onderzoek**. Uw recente zoekopdrachten worden vervolgens weergegeven in het deelvenster Zoeken onder aan de Editor.
 
@@ -60,7 +60,7 @@ Nadat de zoekresultaten worden weergegeven in het deelvenster Zoeken, kunt u erm
 
 Wanneer u een onderzoek uitvoert en filters in de interface van de Bewaarplaats op de Homepage toepast, die **toont in onderzoekspaneel** selecteert richt u aan de interface van de Redacteur opnieuw. Alle zoekresultaten worden weerspiegeld in het deelvenster Zoeken onder aan de Editor-interface.
 
-Van het paneel van het Onderzoek, kunt u **dossiers van 0&rbrace; slepen en laten vallen in uw huidig onderwerp om verwijzingen foutloos vast te maken, of veelvoudige dossiers tezelfdertijd uit te geven.** Bovendien, kunt u uw onderzoeksresultaten verfijnen door **te gebruiken wijzigt onderzoek** optie beschikbaar in het paneel van het Onderzoek.
+Van het paneel van het Onderzoek, kunt u **dossiers van 0} slepen en laten vallen in uw huidig onderwerp om verwijzingen foutloos vast te maken, of veelvoudige dossiers tezelfdertijd uit te geven.** Bovendien, kunt u uw onderzoeksresultaten verfijnen door **te gebruiken wijzigt onderzoek** optie beschikbaar in het paneel van het Onderzoek.
 
 ![](images/search-panel-from-home.png){align="left"}
 
