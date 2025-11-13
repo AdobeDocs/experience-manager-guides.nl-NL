@@ -5,14 +5,31 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: 1a61fc05-b2b4-4665-a15a-0058fbbc2942
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: 6f6bf3f7968837d3988b01e0ed0133d412577d57
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '451'
 ht-degree: 0%
 
 ---
 
 # Rapport voor hergebruik van inhoud {#id205BB900OQD}
+
+<table>
+  <tr>
+    <td style="width:100px;">Van toepassing op</th>
+    <td style="width:350px;">Experience Manager Guides Cloud Service, Experience Manager Guides On-Premise</th>
+
+</tr>
+  <tr>
+    <td style="width:125px;">Ondersteunde versie <br> (Cloud Service)</td>
+    <td style="width:100px;">2025.11.00, 2025.12.00 uur</td>
+    </tr>
+    <tr>
+    <td style="width:125px;">Ondersteunde versie <br> (op locatie)</td>
+    <td style="width:100px;">4.6.0, 5.1.0</td>       
+  </tr>
+</table>
+
 
 Een ander nuttig rapport dat u kunt produceren is het Rapport van de Hergebruik van de Inhoud. Dit rapport berekent het gemiddelde percentage van het inhoudsgebruik, dat zeer nuttig voor projectmanagers en bedrijfseigenaars is om de hoeveelheid inhoud te zien die wordt opnieuw gebruikt.
 
@@ -26,7 +43,7 @@ Voer de volgende stappen uit om het Rapport voor hergebruik van inhoud weer te g
 
 1. Selecteer **Gidsen** van de lijst van hulpmiddelen.
 
-1. Klik op de **tegel van het Rapport van de Hergebruik van de Inhoud 0&rbrace;**.
+1. Klik op de **tegel van het Rapport van de Hergebruik van de Inhoud 0}**.
 
 1. Klik **doorbladeren** om een weg te kiezen waar uw onderwerpen verblijven of manueel de weg ingaan.
 
@@ -63,4 +80,4 @@ Voer de volgende stappen uit om het Rapport voor hergebruik van inhoud weer te g
 >
 > U kunt het Rapport voor hergebruik van inhoud ook exporteren in CSV-indeling. Klik hiertoe op de koppeling Exporteren naar CSV in de linkerbovenhoek van het scherm en kies een locatie waar u het CSV-bestand wilt opslaan. U kunt dit CSV-bestand vervolgens openen in elke CSV-editor.
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; Rapporten &#x200B;](reports-intro.md)
+**Bovenliggend onderwerp:**[ Rapporten ](reports-intro.md)
