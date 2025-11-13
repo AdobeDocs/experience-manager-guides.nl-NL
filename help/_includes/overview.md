@@ -25,6 +25,6 @@ Met [!DNL AEM Guides] -oplossing kunnen bedrijven naadloze en gepersonaliseerde 
 
 ## Aanvullende bronnen
 
-* [[!DNL AEM Guides]  Gids van de Gebruiker (Nieuwe UI) &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview)
-* [[!DNL AEM Guides]  Leren &amp; Steun &#x200B;](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
-* [&#x200B; Experience League - verken AEM &#x200B;](https://business.adobe.com/products/experience-manager/adobe-experience-manager.html)
+* [[!DNL AEM Guides]  Gids van de Gebruiker (Nieuwe UI) &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/overview)
+* [[!DNL AEM Guides]  Leren &amp; Steun &#x200B;](https://helpx.adobe.com/nl/support/xml-documentation-for-experience-manager.html)
+* [&#x200B; Experience League - verken AEM &#x200B;](https://business.adobe.com/nl/products/experience-manager/adobe-experience-manager.html)
