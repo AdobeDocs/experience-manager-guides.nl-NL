@@ -4,16 +4,16 @@ description: Vind tutorialvideo's voor Experience Manager Guides (voorheen XML D
 feature: AEM Guides Tutorials
 role: User
 hide: true
-source-git-commit: b511f12dab6c4980091aabe57446cbbd84d79080
+source-git-commit: 67c4458180ff7e5690bc1ee51fe9e46bce57c9d5
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 10%
+source-wordcount: '220'
+ht-degree: 11%
 
 ---
 
 # Overzicht van tests
 
-[!DNL Experience Manager Guides] (waarnaar wordt verwezen in _[!DNL AEM Guides]_&#x200B;hieronder) is een krachtige CCMS-oplossing (Component Content Management Solution) op bedrijfsniveau. Het maakt native DITA-ondersteuning in Experience Manager mogelijk, waardoor AEM inhoud kan maken en leveren op basis van DITA. Auteurs kunnen hiermee inhoud maken met elk offline DITA-ontwerpgereedschap, zoals Adobe FrameMaker of een gebruiksvriendelijke ingebouwde webeditor.
+[!DNL Experience Manager Guides] (waarnaar wordt verwezen in _[!DNL AEM Guides]_hieronder) is een krachtige CCMS-oplossing (Component Content Management Solution) op bedrijfsniveau. Het maakt native DITA-ondersteuning in Experience Manager mogelijk, waardoor AEM inhoud kan maken en leveren op basis van DITA. Auteurs kunnen hiermee inhoud maken met elk offline DITA-ontwerpgereedschap, zoals Adobe FrameMaker of een gebruiksvriendelijke ingebouwde webeditor.
 
 De oplossing van [!DNL AEM Guides] verstrekt alle kernfuncties CCMS, zoals samenwerking, overzicht, vertaling, onderzoek, en rapporten voor inhoud DITA, toelatend auteurs om meer in minder tijd door efficiënt inhoudshergebruik en krachtige werkschema&#39;s te doen. Bovendien kunnen gebruikers hun best-in-klasse, enig-klik het publiceren capaciteit gebruiken om op DITA-Gebaseerde output voor de populairste formaten - Experience Manager Sites, PDF, HTML5, EPUB, en douaneoutput door DITA-OT te produceren.
 
@@ -23,8 +23,3 @@ Met [!DNL AEM Guides] -oplossing kunnen bedrijven naadloze en gepersonaliseerde 
 > 
 > Adobe Experience Manager Guides werd vroeger gemerkt als _XML Documentation voor Adobe Experience Manager_. Houd er rekening mee dat bepaalde verwijzingen in de documentatie mogelijk nog steeds verwijzen naar eerdere branding, maar nog steeds van toepassing zijn op de huidige aanbieding.
 
-## Aanvullende bronnen
-
-* [[!DNL AEM Guides]  Gids van de Gebruiker (Nieuwe UI) &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/overview)
-* [[!DNL AEM Guides]  Leren &amp; Steun &#x200B;](https://helpx.adobe.com/nl/support/xml-documentation-for-experience-manager.html)
-* [&#x200B; Experience League - verken AEM &#x200B;](https://business.adobe.com/nl/products/experience-manager/adobe-experience-manager.html)
