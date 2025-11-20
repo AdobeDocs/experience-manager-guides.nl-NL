@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # Downloaden en installeren {#id1645E0O04MK}
 
-AEM Guides wordt beschikbaar gesteld via de Adobe Software Distribution Portal. U kunt AEM Guides downloaden van uw Adobe Software Distribution Portal-account en deze installeren op alle Adobe Experience Manager \(AEM\)-instanties in uw installatie. Meestal worden uw ontwerpinstantie en productieexemplaar van AEM op verschillende servers gehost. U moet AEM Guides installeren op alle exemplaren van AEM die u wilt gebruiken.
+AEM Guides wordt beschikbaar gesteld via de Adobe Software Distribution Portal. U kunt AEM Guides downloaden van uw Adobe Software Distribution Portal-account en deze installeren op alle Adobe Experience Manager \(AEM\)-exemplaren in uw installatie. Meestal worden uw ontwerpexemplaar en productiefunctie van AEM op verschillende servers gehost. U moet AEM Guides installeren op alle exemplaren van AEM die u wilt gebruiken.
 
 Voordat u begint met downloaden en installeren, moet u controleren of uw systeem voldoet aan de technische vereisten voor het installeren van AEM Guides.
 
@@ -32,4 +32,4 @@ Voordat u begint met downloaden en installeren, moet u controleren of uw systeem
 
 - **[desinstall AEM Guides](download-install-unistall-aemg.md)**
 
-- **[Recommendations voor prestatiesoptimalisering](download-install-recommend-perf-optimiz.md)**
+- **[Aanbevelingen voor prestatiesoptimalisering](download-install-recommend-perf-optimiz.md)**
