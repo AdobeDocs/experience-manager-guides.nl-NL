@@ -5,7 +5,7 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: c787947a-b235-4c12-a9cc-eac5136d31db
-source-git-commit: 5081aa032c13ca684c6882149448b05c77028a90
+source-git-commit: 692a4fe0fbe461d5febfab060f67c91651b859a2
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
@@ -17,8 +17,6 @@ ht-degree: 0%
 Wanneer u aan veelvoudige gelijktijdige versies samen met veelvoudige auteurs werkt, is uw inhoud verbindend om veelvoudige versies te hebben. Er zou wat gemeenschappelijke informatie over veelvoudige versies kunnen zijn, die verschillende auteurs in hun project konden gebruiken. Om dergelijke werktoewijzingen af te handelen, kunnen auteurs meerdere versies van bestanden gebruiken. Dergelijke versies kunnen gewoon een nieuwere versie van een bestand zijn of een eerdere versie. Het is een complexe taak om vast te stellen wanneer een bestand is teruggezet en waarom.
 
 Met AEM Guides kunt u een versiehistorierapport genereren voor een afzonderlijk bestand of voor alle bestanden in een map. Deze versiegeschiedenis geeft u een geconsolideerde mening van alle versies van een dossier dat werd teruggedraaid en wie die versies en de reden creeerde om die versies tot stand te brengen.
-
-{{$include /help/_includes/overview.md}}
 
 U kunt dit rapport openen op de volgende plaatsen:
 
@@ -61,4 +59,4 @@ Voer de volgende stappen uit om tot het Terugkeren rapport van de Geschiedenis t
 
 
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; Rapporten &#x200B;](reports-intro.md)
+**Bovenliggend onderwerp:**[ Rapporten ](reports-intro.md)
