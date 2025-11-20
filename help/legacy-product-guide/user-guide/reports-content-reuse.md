@@ -5,31 +5,14 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: 1a61fc05-b2b4-4665-a15a-0058fbbc2942
-source-git-commit: f867f2deceddf46b5242163c6ea0b4cc1c4f1ca2
+source-git-commit: 5081aa032c13ca684c6882149448b05c77028a90
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
 
 # Rapport voor hergebruik van inhoud {#id205BB900OQD}
-
-<table style="border-collapse: collapse;">
-  <tr>
-    <td style="width:150px; white-space: nowrap;">Is van toepassing op:</td>
-    <td style="width:500px; white-space: nowrap;">Experience Manager Guides as a Cloud Service, Experience Manager Guides On-Premise</td>
-  </tr>
-  <tr>
-    <td style="width:150px; white-space: nowrap;">Versie:</td>
-    <td style="width:500px; white-space: nowrap;">2025.11.00, 2025.12.00 uur</td>
-  </tr>
-  <tr>
-    <td style="width:150px; white-space: nowrap;">Versie:</td>
-    <td style="width:500px; white-space: nowrap;">4.6.0, 5.1.0</td>
-  </tr>
-</table>
-
-![](./images/test-version-info-table.svg)
 
 Een ander nuttig rapport dat u kunt produceren is het Rapport van de Hergebruik van de Inhoud. Dit rapport berekent het gemiddelde percentage van het inhoudsgebruik, dat zeer nuttig voor projectmanagers en bedrijfseigenaars is om de hoeveelheid inhoud te zien die wordt opnieuw gebruikt.
 
@@ -43,7 +26,7 @@ Voer de volgende stappen uit om het Rapport voor hergebruik van inhoud weer te g
 
 1. Selecteer **Gidsen** van de lijst van hulpmiddelen.
 
-1. Klik op de **tegel van het Rapport van de Hergebruik van de Inhoud 0&rbrace;**.
+1. Klik op de **tegel van het Rapport van de Hergebruik van de Inhoud 0}**.
 
 1. Klik **doorbladeren** om een weg te kiezen waar uw onderwerpen verblijven of manueel de weg ingaan.
 
@@ -80,4 +63,4 @@ Voer de volgende stappen uit om het Rapport voor hergebruik van inhoud weer te g
 >
 > U kunt het Rapport voor hergebruik van inhoud ook exporteren in CSV-indeling. Klik hiertoe op de koppeling Exporteren naar CSV in de linkerbovenhoek van het scherm en kies een locatie waar u het CSV-bestand wilt opslaan. U kunt dit CSV-bestand vervolgens openen in elke CSV-editor.
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; Rapporten &#x200B;](reports-intro.md)
+**Bovenliggend onderwerp:**[ Rapporten ](reports-intro.md)
