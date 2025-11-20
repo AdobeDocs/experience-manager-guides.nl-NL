@@ -25,24 +25,24 @@ Met [!DNL AEM Guides] -oplossing kunnen bedrijven naadloze en gepersonaliseerde 
 
 ## Nieuwe functies
 
-- **[[!DNL Experience Manager Guides] Begonnen het Worden Cursus &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/getting-started/overview.html){target="blank"}**
+- **[[!DNL Experience Manager Guides] Begonnen het Worden Cursus &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/getting-started/overview.html?lang=nl-NL){target="blank"}**
 
   _Leer hoe te om inhoud met [!DNL Adobe Experience Manager Guides] tot stand te brengen, te organiseren, te schrijven en te publiceren._
 
-- **[[!DNL Experience Manager Guides] Authoring in de ingebouwde Redacteur &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html){target="blank"}**
+- **[[!DNL Experience Manager Guides] Authoring in de ingebouwde Redacteur &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=nl-NL){target="blank"}**
 
   _Leer hoe te om inhoud te schrijven gebruikend de inheemse Redacteur van het Web in [!DNL Adobe Experience Manager Guides]. Verbeter volledig inzicht in gebruikersvoorkeur, redacteurs montages, configuratie, toolbars en meer._
 
-- **[Productie van de Output met  [!DNL Experience Manager Guides] &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/overview.html){target="blank"}**
+- **[Productie van de Output met  [!DNL Experience Manager Guides] &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/overview.html?lang=nl-NL){target="blank"}**
 
   _Leer hoe te om output te produceren gebruikend [!DNL Adobe Experience Manager Guides]. Leer over diverse eigenschappen beschikbaar voor outputproductie - rapporten, basislijnen, voorwaarden, het oplossen van problemen, bulkpublicatie en activering._
 
 
 ## Aanvullende bronnen
 
-- [[!DNL Experience Manager Guides]  Gids van de Gebruiker (Oude UI) &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
-- [[!DNL AEM Guides]  Leren &amp; Steun &#x200B;](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
-- [&#x200B; Experience League - verken AEM &#x200B;](https://business.adobe.com/products/experience-manager/adobe-experience-manager.html)
+- [[!DNL Experience Manager Guides]  Gids van de Gebruiker (Oude UI) &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+- [[!DNL AEM Guides]  Leren &amp; Steun &#x200B;](https://helpx.adobe.com/nl/support/xml-documentation-for-experience-manager.html)
+- [&#x200B; Experience League - verken AEM &#x200B;](https://business.adobe.com/nl/products/experience-manager/adobe-experience-manager.html)
 
 
 
