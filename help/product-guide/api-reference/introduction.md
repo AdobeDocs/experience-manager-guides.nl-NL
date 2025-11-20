@@ -5,9 +5,9 @@ exl-id: d8ee9cf7-1d67-4b4a-aa80-64e893a99463
 feature: API Introduction
 role: Developer
 level: Experienced
-source-git-commit: 67e844faece8b6bb8988bb0e67f357cda1db9a4d
+source-git-commit: bf7838690d7632cd74fef0db3aaf7bdc48a50a2c
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ U kunt op Java gebaseerde API&#39;s die beschikbaar zijn in Experience Manager G
 
 >[!INFO]
 >
->De mening [![&#x200B; javadoc &#x200B;](https://javadoc.io/badge2/com.adobe.aem/aem-dox-sdk-api/javadoc.svg) &#x200B;](https://javadoc.io/doc/com.adobe.aem/aem-dox-sdk-api/latest/index.html) voor de recentste en gedetailleerde documentatie bij het gebruiken van op Java-Gebaseerde API voor Experience Manager Guides as a Cloud Service.
+>De mening [![ javadoc ](./images/javadoc-cs-icon.svg) ](https://javadoc.io/doc/com.adobe.aem/aem-dox-sdk-api/latest/index.html) voor de recentste en gedetailleerde documentatie bij het gebruiken van op Java-Gebaseerde API voor Experience Manager Guides as a Cloud Service.
 
 Om de dienst API JARs van Maven bewaarplaats in uw projecten te vormen en te gebruiken, voeg API SDK als projectgebiedsdeel in het `pom.xml` dossier van uw project toe zoals hieronder getoond.
 
@@ -55,9 +55,9 @@ Om de dienst API JARs van Maven bewaarplaats in uw projecten te vormen en te geb
 
 >[!INFO]
 >
->De mening [![&#x200B; javadoc &#x200B;](https://javadoc.io/badge2/com.adobe.aem/aem-guides-sdk-api/javadoc.svg) &#x200B;](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api/latest/index.html) voor de recentste en gedetailleerde documentatie bij het gebruiken van op Java-Gebaseerde API voor de opstelling van Experience Manager Guides op-gebouw.
+>De mening [![ javadoc ](https://javadoc.io/badge2/com.adobe.aem/aem-guides-sdk-api/javadoc.svg) ](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api/latest/index.html) voor de recentste en gedetailleerde documentatie bij het gebruiken van op Java-Gebaseerde API voor de opstelling van Experience Manager Guides op-gebouw.
 
-Om de dienst API JARs voor plaatsingen op-gebouw te vormen en te gebruiken, voeg de dienst API JAR als projectgebiedsdeel in het `pom.xml` dossier van uw project toe &lbrace;zoals hieronder getoond:
+Om de dienst API JARs voor plaatsingen op-gebouw te vormen en te gebruiken, voeg de dienst API JAR als projectgebiedsdeel in het `pom.xml` dossier van uw project toe {zoals hieronder getoond:
 
      &quot;XML 
      &lt;dependency> 
@@ -122,9 +122,9 @@ Voor gedetailleerde informatie over gebruik API, parameters, en voorbeeldverzoek
 
 ## Aanvullende bronnen
 
-Na is een lijst van andere nuttige middelen van AEM Guides, die op [&#x200B; &#x200B;](https://helpx.adobe.com/nl/support/xml-documentation-for-experience-manager.html) pagina Leren &amp; van de Steun beschikbaar zijn:
+Na is een lijst van andere nuttige middelen van AEM Guides, die op [ ](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html) pagina Leren &amp; van de Steun beschikbaar zijn:
 
 - Handboek
 - Installatie- en configuratiehandleiding
 - Handleiding voor snel starten
-- [&#x200B; de Archiefpagina van het Archief van de Hulp &#x200B;](https://helpx.adobe.com/nl/xml-documentation-for-experience-manager/archive.html) \ (de documentatie van de toegangsoudere versie \)
+- [ de Archiefpagina van het Archief van de Hulp ](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \ (de documentatie van de toegangsoudere versie \)
