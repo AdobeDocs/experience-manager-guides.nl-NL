@@ -57,7 +57,7 @@ Gebruik de omslagprofielen om *ui_config.json* onder het lusje van de Configurat
 }
 ```
 
-[&#x200B; gebruik deze verbinding om meer over het profiel van de Omslag te leren en het vormen ui_config.json &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=en)
+[&#x200B; gebruik deze verbinding om meer over het profiel van de Omslag te leren en het vormen ui_config.json &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=nl-NL)
 
 
 ### De klikgebeurtenis voor de nieuwe knop afhandelen

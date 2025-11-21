@@ -18,13 +18,13 @@ Als u functies in AEM Guides wilt openen en configureren, moet u gebruikers make
 
 De volgende onderwerpen in de documentatie van AEM zullen u helpen de gebruikersbeleid en veiligheid-gerelateerde concepten en eigenschappen begrijpen:
 
-- [&#x200B; Gebruikers en Groepen in AEM &#x200B;](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)
+- [&#x200B; Gebruikers en Groepen in AEM &#x200B;](https://helpx.adobe.com/nl/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)
 
-- [&#x200B; Toestemmingen in AEM &#x200B;](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)
+- [&#x200B; Toestemmingen in AEM &#x200B;](https://helpx.adobe.com/nl/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)
 
-- [&#x200B; het Leiden Gebruikers en Groepen &#x200B;](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)
+- [&#x200B; het Leiden Gebruikers en Groepen &#x200B;](https://helpx.adobe.com/nl/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)
 
-- [&#x200B; het Leiden Toestemmingen &#x200B;](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingPermissions)
+- [&#x200B; het Leiden Toestemmingen &#x200B;](https://helpx.adobe.com/nl/experience-manager/6-5/sites/administering/using/security.html#ManagingPermissions)
 
 
 ## Gebruikersgroepen gemaakt door AEM Guides {#id181TF0K0MHT}
