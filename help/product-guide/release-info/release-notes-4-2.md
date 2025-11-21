@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Deze versienota behandelt de verbeteringsinstructies, verenigbaarheidsmatrijs, en kwesties die in versie 4.2 van Adobe Experience Manager Guides (later als *worden bedoeld AEM Guides*) worden bevestigd.
 
-Voor meer informatie over de nieuwe eigenschappen en de verhogingen, zie [ wat in versie 4.2 van Adobe Experience Manager Guides ](whats-new-4-2-release.md) nieuw is.
+Voor meer informatie over de nieuwe eigenschappen en de verhogingen, zie [&#x200B; wat in versie 4.2 van Adobe Experience Manager Guides &#x200B;](whats-new-4-2-release.md) nieuw is.
 
 ## Upgrade naar versie 4.2 van AEM Guides
 
@@ -28,7 +28,7 @@ U kunt uw huidige versie van AEM Guides eenvoudig upgraden naar versie 4.2. Voor
 >
 >U moet AEM Service Pack installeren voordat u de AEM Guides-versie kunt upgraden.
 
-Voor details, zie [ instructies van de Verbetering ](assets/Adobe-Experience-Manager-Guides-Upgrade-Instructions-EN.pdf).
+Voor details, zie [&#x200B; instructies van de Verbetering &#x200B;](assets/Adobe-Experience-Manager-Guides-Upgrade-Instructions-EN.pdf).
 
 ## Compatibiliteitsmatrix
 
@@ -77,7 +77,7 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 * `<conref>` -notitie in een para-tag wordt niet weergegeven in de voorvertoningsmodus. (10559)
 * Als u de backspace aan het einde van een lijstitem aanpast, wordt de hele lijst verwijderd. 10540
 * Het scherm wordt als leeg weergegeven in Chrome v106 bij het slepen en neerzetten van een element vanuit de gebruikersinterface (bijvoorbeeld vanuit het deelvenster Voorwaarden). 10524
-* De auto knoop van de Inspringing mist van de toolbar in de **** mening van Source. (10448)
+* De auto knoop van de Inspringing mist van de toolbar in de **&#x200B;**&#x200B;mening van Source. (10448)
 * Het eerste teken van een lijstitem gaat soms verloren wanneer de lijst in de editor wordt geschreven.(10447)
 * **ongedaan maken** of **opnieuw** werkt niet correct aan sommige dossiers. 10373
 * Aangepaste metagegevens blijven niet behouden bij kopiëren en plakken. 10367

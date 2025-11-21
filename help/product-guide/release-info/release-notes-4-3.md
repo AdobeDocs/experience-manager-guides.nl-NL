@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Deze versienota behandelt de verbeteringsinstructies, verenigbaarheidsmatrijs, en kwesties die in versie 4.3.0 van Adobe Experience Manager Guides (later als *worden bedoeld AEM Guides*) worden bevestigd.
 
-Voor meer informatie over de nieuwe eigenschappen en de verhogingen, zie [ wat in versie 4.3.0 van Adobe Experience Manager Guides ](./whats-new-4-3-release.md) nieuw is.
+Voor meer informatie over de nieuwe eigenschappen en de verhogingen, zie [&#x200B; wat in versie 4.3.0 van Adobe Experience Manager Guides &#x200B;](./whats-new-4-3-release.md) nieuw is.
 
 ## Upgrade naar versie 4.3.0 van AEM Guides
 
@@ -35,7 +35,7 @@ U kunt uw huidige versie van AEM Guides upgraden naar versie 4.3.0
 >
 >U moet AEM Service Pack installeren voordat u de AEM Guides-versie kunt upgraden.
 
-Voor details, zie [ instructies van de Verbetering ](../install-guide/upgrade-xml-documentation.md).
+Voor details, zie [&#x200B; instructies van de Verbetering &#x200B;](../install-guide/upgrade-xml-documentation.md).
 
 ## Compatibiliteitsmatrix
 
@@ -120,7 +120,7 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 - Oorspronkelijke PDF | Xref drukt de inhoud van href onderwerptitel in plaats van het etiket Xref. (11322)
 - Oorspronkelijke PDF | Kan de PDF-sjablooninstellingen niet opslaan. 10751
 - Oorspronkelijke PDF | De tekst breidt zich voorbij de kolombreedte uit bij het opnemen van meerdere Xrefs. 10876
-- Oorspronkelijke PDF | `<note>``</note>` -element genereert geen extra bereiktitel van het type. 10549
+- Oorspronkelijke PDF | `<note>` `</note>` -element genereert geen extra bereiktitel van het type. 10549
 - JSON-uitvoer | De eigenschap `fmUuid` op het JCr :content -knooppunt van JSON is anders dan de eigenschap &quot;id&quot; in de JSON. 11564
 - JSON-uitvoer | Als de kaart en het onderwerp met zelfde filename aanwezig zijn, wordt JSON voor de kaart verwijderd. 11524
 

@@ -27,14 +27,14 @@ NOTA: De redacteur van het Web steunt het Schematron van ISO.
 
 ### Schematron-regels configureren
 
-Verwijs sectie &quot;Steun voor de dossiers van Schematron&quot;in de [ Gids van de Gebruiker ](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_User-Guide_EN.pdf#page=148)
+Verwijs sectie &quot;Steun voor de dossiers van Schematron&quot;in de [&#x200B; Gids van de Gebruiker &#x200B;](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_User-Guide_EN.pdf#page=148)
 
 
 ### Validatieregels toepassen bij het opslaan van bestanden
 
-Met de instellingen van Webeditor kunnen de stroomgebruikers Schematron-regels/bestanden instellen die worden uitgevoerd telkens wanneer een gebruiker de inhoud bijwerkt. Voor meer details verwijs sectie &quot;Bevestiging&quot;in [ Gids van de Gebruiker ](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_User-Guide_EN.pdf#page=58)
+Met de instellingen van Webeditor kunnen de stroomgebruikers Schematron-regels/bestanden instellen die worden uitgevoerd telkens wanneer een gebruiker de inhoud bijwerkt. Voor meer details verwijs sectie &quot;Bevestiging&quot;in [&#x200B; Gids van de Gebruiker &#x200B;](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_User-Guide_EN.pdf#page=58)
 
-![ vastgestelde regels van Web-editor montages ](../../../assets/authoring/schematron-editorsettings-validation-tab.png)
+![&#x200B; vastgestelde regels van Web-editor montages &#x200B;](../../../assets/authoring/schematron-editorsettings-validation-tab.png)
 
 
 ### Kan validatie handmatig worden uitgevoerd?
@@ -43,13 +43,13 @@ Ja, als auteur/gebruiker tijdens het maken van inhoud kunt u het deelvenster Sch
 
 Dit werkt alleen als beheerders van mapprofielen alle gebruikers de mogelijkheid bieden om schemabestanden toe te voegen in het deelvenster Validatie. Zie editorinstellingen (bovenstaande screenshot)
 
-![ kies het dossier van het Schema ](../../../assets/authoring/schematron-rightpanel-validation-addsch.png)
-![ bevestiging van de Looppas ](../../../assets/authoring/schematron-rightpanel-validation-runsch.png)
+![&#x200B; kies het dossier van het Schema &#x200B;](../../../assets/authoring/schematron-rightpanel-validation-addsch.png)
+![&#x200B; bevestiging van de Looppas &#x200B;](../../../assets/authoring/schematron-rightpanel-validation-runsch.png)
 
 
 ### Ondersteunde regels
 
-De huidige versie van AEM Guides biedt alleen ondersteuning voor validatie met behulp van &#39;Assertion&#39;-regels. (zie [ activa vs rapport ](https://schematron.com/document/205.html))
+De huidige versie van AEM Guides biedt alleen ondersteuning voor validatie met behulp van &#39;Assertion&#39;-regels. (zie [&#x200B; activa vs rapport &#x200B;](https://schematron.com/document/205.html))
 Regels die zijn gebaseerd op &#39;Rapporten&#39; worden nog niet ondersteund.
 
 
@@ -101,6 +101,6 @@ Regels die zijn gebaseerd op &#39;Rapporten&#39; worden nog niet ondersteund.
 
 #### Bronnen
 
-- Het begrip [ Basisprincipes van Schematron ](https://da2022.xatapult.com/#what-is-schematron)
-- Meer over [ de regels van de Bevestiging in Schematron ](https://www.xml.com/pub/a/2003/11/12/schematron.html#Assertions)
+- Het begrip [&#x200B; Basisprincipes van Schematron &#x200B;](https://da2022.xatapult.com/#what-is-schematron)
+- Meer over [&#x200B; de regels van de Bevestiging in Schematron &#x200B;](https://www.xml.com/pub/a/2003/11/12/schematron.html#Assertions)
 - [Voorbeeld van schemabestand](../../../assets/authoring/sample_schematron.sch)

@@ -49,7 +49,7 @@ AEM Guides as a Cloud Service biedt een groot aantal verbeteringen en nieuwe fun
 
 Nu kunt u de volledige lay-out van een kaart DITA in de Redacteur van de Kaart bekijken. Wanneer u een kaart voor het uitgeven opent, opent het de **mening van de Lay-out** van de Redacteur van de Kaart. In deze weergave kunt u de kaarthiërarchie in een boomstructuurweergave zien en de onderwerpen in een kaart ordenen of structureren.
 
-![ lay-outweergave ](assets/layout-view-map.png)
+![&#x200B; lay-outweergave &#x200B;](assets/layout-view-map.png)
 
 De layoutweergave bevat een aparte werkbalk waarmee u veel taken kunt uitvoeren met betrekking tot de onderwerpen in een kaart.
 U kunt onderwerpverwijzingen, onderwerpgroep, zeer belangrijke definities in een kaart opnemen. U kunt de onderwerpen in een kaart reorganiseren door ze omhoog, omlaag, links of rechts te verplaatsen. U kunt de onderwerpen ook slepen en neerzetten om ze in een kaart te verplaatsen. De Kaarteditor verstrekt ook de pictogrammen om dossiers te sluiten of te ontgrendelen, de versiegeschiedenis te controleren, en een beheer van het versielabel te doen.
@@ -58,7 +58,7 @@ U kunt onderwerpverwijzingen, onderwerpgroep, zeer belangrijke definities in een
 De mening van de Lay-out verstrekt ook de **Opties van de Mening** om lijnaantal te tonen of te verbergen, of controledoos te tonen of te verbergen, of de dossier - naam of titel voor de onderwerpen in een kaart te tonen.
 
 
-![ mening-opties ](assets/view-options.png)
+![&#x200B; mening-opties &#x200B;](assets/view-options.png)
 
 U kunt de onderwerpen ook bekijken die op de voorwaardelijke filters worden gebaseerd die op hen worden toegepast.
 
@@ -68,16 +68,16 @@ In het rechterdeelvenster worden de eigenschappen Inhoud en Kaart weergegeven in
 
 Nu kunt u de meta-gegevensinformatie voor de onderwerpen of de kaart ook plaatsen. U kunt de Titel Nav, de Tekst van de Verbinding, Korte Beschrijving, en Sleutelwoorden voor het geselecteerde onderwerp of de kaart bepalen.
 
-![ het juiste paneel van de lay-outweergave ](assets/layout-inline-attributes.png)
+![&#x200B; het juiste paneel van de lay-outweergave &#x200B;](assets/layout-inline-attributes.png)
 
-Voor meer details, zie *sectie van de mening van de Lay-out van 0} in het Gebruiken van Adobe Experience Manager Guides as a Cloud Service.*
+Voor meer details, zie *sectie van de mening van de Lay-out van 0&rbrace; in het Gebruiken van Adobe Experience Manager Guides as a Cloud Service.*
 
 ### Inline-kenmerken in de Editor-instellingen
 
 AEM Guides staat nu de configuratie van **Gealigneerde Attributen** door uw beheerder van de **Montages van de Redacteur** toe. U kunt nieuwe gealigneerde attributen ook toevoegen of bestaande degenen van het **Gealigneerde lusje van Attributen** in de Montages van de Redacteur schrappen.
 De gevormde Inline Attributen die voor een onderwerp worden bepaald worden getoond tegen het onderwerp in de mening van de Lay-out.
 
-![ Montages van de Redacteur ](assets/editor-settings-inline-attributes.png)
+![&#x200B; Montages van de Redacteur &#x200B;](assets/editor-settings-inline-attributes.png)
 
 
 ### Extra filters in de weergave Opslagplaats
@@ -86,7 +86,7 @@ De filterzoekopdracht in de dataweergave is nu krachtiger gemaakt. Twee nieuwe o
 * **Laatste Gewijzigd**: U kunt naar dossiers zoeken die na een geselecteerde datum maar vóór een geselecteerde datum zijn gewijzigd. U kunt ook de vooraf gedefinieerde criteria gebruiken en zoeken naar bestanden die de laatste twee uur, vorige week, vorige maand of vorig jaar zijn gewijzigd.
 * **Markeringen**: U kunt dossiers ook zoeken die specifieke markeringen hebben op hen worden toegepast. U kunt de tag typen of deze selecteren in de vervolgkeuzelijst.
 
-![ de meningsfilters van de Bewaarplaats ](assets/repo-filter-search.png)
+![&#x200B; de meningsfilters van de Bewaarplaats &#x200B;](assets/repo-filter-search.png)
 
 
 ## Opgeloste problemen

@@ -61,24 +61,24 @@ AEM Guides as a Cloud Service biedt een groot aantal verbeteringen en nieuwe fun
 AEM Guides beschikt nu over de functie om dynamische basislijnen te maken op basis van labels. Als u een basislijn genereert, een basislijn downloadt of een vertaalproject maakt met een basislijn, worden de bestanden dynamisch gekozen op basis van de bijgewerkte labels. Deze functie is handig omdat u de basislijn niet hoeft te wijzigen wanneer u de labels bijwerkt.
 U kunt de momentopname van de basislijn als CSV ook uitvoeren.
 
-![ creeer basislijnen ](assets/dynamic-baseline.png)
+![&#x200B; creeer basislijnen &#x200B;](assets/dynamic-baseline.png)
 
 ### Tekst zoeken en vervangen op kaartniveau
 
 U kunt nu zoeken naar bestanden in een kaart die specifieke tekst bevatten. De gezochte tekst wordt benadrukt in de dossiers. U kunt het gezochte woord of de gezochte uitdrukking met een ander woord of een uitdrukking binnen de dossiers ook vervangen.
 Selecteer **vervangen** pictogram om het huidige voorkomen te vervangen en **vervangen allen in dossier** pictogram om alle voorkomen in het geselecteerde dossier te vervangen.
 
-![ vinden Vervangen in kaart ](assets/map-find-replace.png)
+![&#x200B; vinden Vervangen in kaart &#x200B;](assets/map-find-replace.png)
 
 Door gebrek, worden het dossier van de optiecontrole **alvorens** te vervangen en **nieuwe versie na vervangen** geselecteerd, zodat wordt een dossier gecontroleerd alvorens u de tekst vervangt, en een nieuwe versie wordt gecreeerd nadat de tekst wordt vervangen.
 
 ### Het versieverschil voor uit-synchronisatiebestanden van het vertaaldashboard weergeven
 
 U kunt nu verkiezen om **uit de dossiers van de Synchronisatie** te vertalen die op de veranderingen worden gebaseerd die tussen de twee versies van een onderwerp worden gedaan.\
-![ Vertaal dashboard ](assets/translation-version-diff.png)
+![&#x200B; Vertaal dashboard &#x200B;](assets/translation-version-diff.png)
 Vanuit het vertaaldashboard kunt u eenvoudig zien wat de verschillen zijn tussen de laatste vertaalde versie en de huidige versie van het geselecteerde bestand.
 
-![ de dialoog van het versieverschil ](assets/version-diff.png)
+![&#x200B; de dialoog van het versieverschil &#x200B;](assets/version-diff.png)
 
 Gebaseerd op de verschillen, kunt u beslissen of u een onderwerp wilt vertalen of niet.
 
@@ -87,7 +87,7 @@ Gebaseerd op de verschillen, kunt u beslissen of u een onderwerp wilt vertalen o
 U kunt de metagegevens instellen vanuit de uitvoervoorinstelling van een DITA-kaart. U kunt de metagegevens Titel, Auteur, Onderwerp en Trefwoorden instellen. Deze metagegevens worden toegewezen aan de metagegevens in de bestandseigenschappen van de PDF-uitvoer.
 Deze metagegevens overschrijven de metagegevens die op boekniveau zijn gedefinieerd. U kunt de metagegevens specifiek definiëren voor elke uitvoervoorinstelling en deze doorgeven aan de PDF-uitvoervoorinstelling.
 
-![ Meta-gegevens in Vooraf ingesteld ](assets/preset-metadata.png)
+![&#x200B; Meta-gegevens in Vooraf ingesteld &#x200B;](assets/preset-metadata.png)
 
 
 ## Opgeloste problemen
@@ -103,7 +103,7 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 * Het paneel van het overzicht toont geen inhoud wanneer geschakeld van **Auteur** aan **Source** wijze. 10319
 * Conref in een nieuw gecreeerd onderwerp gebruikend een inhoud in het onderwerpmalplaatje werkt niet. De gekopieerde hash-id wordt niet bijgewerkt in de inhoudskopie. 9890
 * Web-editor | Er bestaat geen lader tijdens het maken van een kaart van de kaartsjabloon. 9891
-* Nieuwe kaarteditor | De toegevoegde gewaagde of Cursieve tekst in de kaarttitel wordt niet behouden als wij van **Auteur** aan de **3} mening van de Lay-out {schakelen.** 10218
+* Nieuwe kaarteditor | De toegevoegde gewaagde of Cursieve tekst in de kaarttitel wordt niet behouden als wij van **Auteur** aan de **3&rbrace; mening van de Lay-out &lbrace;schakelen.** 10218
 * Nieuwe kaarteditor | De voorwaarden die op een verwijzing worden toegepast, kunnen niet uit de layoutweergave worden verwijderd. 10213
 * Nieuwe kaarteditor | Het toepassen van voorwaardenverwijzingen werkt niet in de mening van de Lay-out zoals de mening van de Auteur. (10198)
 * Nieuwe kaarteditor | Met de optie Naar links verplaatsen in het contextmenu wordt de verwijzing verwijderd als deze niet naar links kan worden verplaatst. 10219

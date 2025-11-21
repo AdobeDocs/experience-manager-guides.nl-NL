@@ -64,7 +64,7 @@ Er zijn veel verbeteringen en nieuwe functies toegevoegd aan de webeditor:
 
 Op basis van de configuratie kunt u de wijzigingen opslaan en een nieuwe versie van het document maken. U kunt ook het bestand inchecken en de wijzigingen in de huidige versie opslaan.
 
-![ Dossier dicht ](assets/file-close-save-changes-unlock.png)
+![&#x200B; Dossier dicht &#x200B;](assets/file-close-save-changes-unlock.png)
 
 Voor meer details, zie *Dossier sluiten en scenario&#39;s* in de Gids van de Gebruiker opslaan.
 
@@ -78,7 +78,7 @@ Voor meer details, zie *Dossier sluiten en scenario&#39;s* in de Gids van de Geb
 
 Wanneer u selecteert om de kaart te downloaden DITA, wordt het verzoek een rij gevormd, en u ontvangt een bericht zodra de kaart klaar is om te downloaden. U kunt ervoor kiezen het kaartbestand direct te downloaden of later te downloaden via de koppeling in het AEM-meldingsvak.
 
-![ download van de Kaart ](assets/download-map-prompt.png)
+![&#x200B; download van de Kaart &#x200B;](assets/download-map-prompt.png)
 
 ### Controleren
 

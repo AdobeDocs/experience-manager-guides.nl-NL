@@ -136,7 +136,7 @@ U kunt ook aangepaste DITA Open Toolkit \(DITA-OT\)-plug-ins met AEM Guides gebr
 
 >[!TIP]
 >
-> Zie de *het publiceren van de Plaats van AEM* sectie in de gids van Beste praktijken [ appendix.md \#](appendix.md#) voor beste praktijken rond het creëren van de output van de Plaats van AEM.
+> Zie de *het publiceren van de Plaats van AEM* sectie in de gids van Beste praktijken [&#x200B; appendix.md \#](appendix.md#) voor beste praktijken rond het creëren van de output van de Plaats van AEM.
 
 ### Ontwerpsjabloon aanpassen voor het genereren van uitvoer {#customize_xml-add-on}
 
@@ -185,7 +185,7 @@ Voer de volgende stappen uit om uw eigen ontwerpsjabloon op te geven die moet wo
 >
 > Nadat u een aangepaste ontwerpsjabloonnode hebt gemaakt, moet u de optie Ontwerpen in de uitvoervoorinstellingen van de AEM-site bijwerken om het aangepaste ontwerpsjabloonknooppunt te kunnen gebruiken.
 
-Voor meer informatie, zie [ Creërend uw Eerste Adobe Experience Manager 6.3 website ](https://helpx.adobe.com/experience-manager/using/first_aem63_website.html) en [ de Grondbeginselen ](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/the-basics.html) van het ontwikkelen van uw eigen website op AEM.
+Voor meer informatie, zie [&#x200B; Creërend uw Eerste Adobe Experience Manager 6.3 website &#x200B;](https://helpx.adobe.com/experience-manager/using/first_aem63_website.html) en [&#x200B; de Grondbeginselen &#x200B;](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/the-basics.html) van het ontwikkelen van uw eigen website op AEM.
 
 ### Documenttitel gebruiken om uitvoer van AEM-sites te genereren
 
@@ -195,7 +195,7 @@ Bij het genereren van de uitvoer van de AEM-site speelt de manier waarop URL&#39
 
 >[!NOTE]
 >
-> U kunt regels verder configureren om alleen een set tekens toe te staan in de URL&#39;s van een AEM-site-uitvoer. Voor meer details, zie [ filename ontsmettingsregels voor het creëren van onderwerpen en het publiceren van de output van de Plaats van AEM ](#id2164D0KD0XA) vormen.
+> U kunt regels verder configureren om alleen een set tekens toe te staan in de URL&#39;s van een AEM-site-uitvoer. Voor meer details, zie [&#x200B; filename ontsmettingsregels voor het creëren van onderwerpen en het publiceren van de output van de Plaats van AEM &#x200B;](#id2164D0KD0XA) vormen.
 
 Voer de volgende stappen uit om het genereren van URL&#39;s in AEM Site-uitvoer te configureren:
 
@@ -332,7 +332,7 @@ Als u het element `table` wilt uitsluiten van afvlakking, voegt u de volgende ei
 
 ### De versie voor verwijderde pagina&#39;s configureren in AEM Site-uitvoer
 
-Wanneer u de output van de Plaats van AEM met **schrapping en** creeert ****optie die voor het Bestaande plaatsen van de Pagina&#39;s van de Output wordt geselecteerd, wordt een versie gecreeerd voor pagina \(s \) die worden geschrapt. U kunt het systeem vormen om de verwezenlijking van een versie vóór schrapping tegen te houden.
+Wanneer u de output van de Plaats van AEM met **schrapping en** creeert **&#x200B;**&#x200B;optie die voor het Bestaande plaatsen van de Pagina&#39;s van de Output wordt geselecteerd, wordt een versie gecreeerd voor pagina \(s \) die worden geschrapt. U kunt het systeem vormen om de verwezenlijking van een versie vóór schrapping tegen te houden.
 
 Voer de volgende stappen uit om te stoppen met het maken van een versie voor de pagina\(s\) die wordt verwijderd:
 
@@ -642,11 +642,11 @@ AEM Guides biedt de categorie `apps.fmdita.dashboard-extn` voor het aanpassen va
 
 >[!NOTE]
 >
-> Voor meer informatie over het creëren van de Bibliotheek van de Cliënt van AEM, zie [ Gebruikend cliënt-Kant Bibliotheken ](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/clientlibs.html).
+> Voor meer informatie over het creëren van de Bibliotheek van de Cliënt van AEM, zie [&#x200B; Gebruikend cliënt-Kant Bibliotheken &#x200B;](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/clientlibs.html).
 
 ## Afbeeldingsuitvoering afhandelen tijdens het genereren van de uitvoer {#id177BF0G0VY4}
 
-AEM wordt geleverd met een set standaardworkflows en mediapandgrepen voor het verwerken van middelen. In AEM zijn er vooraf gedefinieerde workflows voor het verwerken van elementen voor de meest gangbare MIME-typen. Doorgaans maakt AEM voor elke afbeelding die u uploadt, meerdere uitvoeringen van dezelfde indeling in binaire indeling. Deze vertoningen kunnen van verschillende grootte, met een verschillende resolutie, met een toegevoegd watermerk, of één of andere andere veranderde eigenschap zijn. Voor meer informatie over hoe AEM activa behandelt, zie [ Assets die de Handlers en de Werkschema&#39;s van Media van de Verwerking gebruikt ](https://helpx.adobe.com/experience-manager/6-5/assets/using/media-handlers.html) in de documentatie van AEM.
+AEM wordt geleverd met een set standaardworkflows en mediapandgrepen voor het verwerken van middelen. In AEM zijn er vooraf gedefinieerde workflows voor het verwerken van elementen voor de meest gangbare MIME-typen. Doorgaans maakt AEM voor elke afbeelding die u uploadt, meerdere uitvoeringen van dezelfde indeling in binaire indeling. Deze vertoningen kunnen van verschillende grootte, met een verschillende resolutie, met een toegevoegd watermerk, of één of andere andere veranderde eigenschap zijn. Voor meer informatie over hoe AEM activa behandelt, zie [&#x200B; Assets die de Handlers en de Werkschema&#39;s van Media van de Verwerking gebruikt &#x200B;](https://helpx.adobe.com/experience-manager/6-5/assets/using/media-handlers.html) in de documentatie van AEM.
 
 Met AEM Guides kunt u configureren welke afbeeldingsuitvoering moet worden gebruikt wanneer uitvoer voor uw documenten wordt gegenereerd. U kunt bijvoorbeeld kiezen uit een van de standaardafbeeldingsuitvoeringen of een uitvoering maken en hetzelfde gebruiken om uw documenten te publiceren. Toewijzing van afbeeldingsuitvoering voor het publiceren van uw documenten wordt opgeslagen in het `/libs/fmdita/config/ **renditionmap.xml**` -bestand. Een fragment van het bestand `renditionmap.xml` ziet er als volgt uit:
 
@@ -706,9 +706,9 @@ Voer de volgende stappen uit om een dag en tijd in te stellen voor het wissen va
 
 1. Onderzoek naar en klik op **com.adobe.fmdita.config.ConfigManager** bundel.
 
-1. In het **bezit van de Aanzuivering van de Geschiedenis van de Output van 0} {het aantal dagen waarna de outputgeschiedenis samen met outputlogboeken wordt gezuiverd.** De standaardwaarde is 5 dagen. Als u deze functie wilt uitschakelen, stelt u deze eigenschap in op 0.
+1. In het **bezit van de Aanzuivering van de Geschiedenis van de Output van 0&rbrace; &lbrace;het aantal dagen waarna de outputgeschiedenis samen met outputlogboeken wordt gezuiverd.** De standaardwaarde is 5 dagen. Als u deze functie wilt uitschakelen, stelt u deze eigenschap in op 0.
 
-1. In het **bezit van de Opschoontijd van de Geschiedenis van de Output 0} {de tijd specificeren wanneer het het zuiveren proces in werking wordt gesteld.** Door gebrek, wordt het geplaatst aan 0 :00 \ (of 12 :00 middernacht \). Elke dag op dit ogenblik, wordt het het zuiveren proces uitgevoerd op output die vóór het aantal dagen wordt geproduceerd in het **Periode van de Aanzuivering van de Geschiedenis van de Output** bezit wordt gespecificeerd.
+1. In het **bezit van de Opschoontijd van de Geschiedenis van de Output 0&rbrace; &lbrace;de tijd specificeren wanneer het het zuiveren proces in werking wordt gesteld.** Door gebrek, wordt het geplaatst aan 0 :00 \ (of 12 :00 middernacht \). Elke dag op dit ogenblik, wordt het het zuiveren proces uitgevoerd op output die vóór het aantal dagen wordt geproduceerd in het **Periode van de Aanzuivering van de Geschiedenis van de Output** bezit wordt gespecificeerd.
 
    >[!NOTE]
    >
@@ -723,10 +723,10 @@ U kunt het maximumaantal geproduceerde output veranderen die in het lusje van Ou
 
 >[!TIP]
 >
-> Zie de *de geschiedenissectie van de Output* in de gids van Beste praktijken [ appendix.md \#](appendix.md#) voor beste praktijken rond het werken met outputgeschiedenis.
+> Zie de *de geschiedenissectie van de Output* in de gids van Beste praktijken [&#x200B; appendix.md \#](appendix.md#) voor beste praktijken rond het werken met outputgeschiedenis.
 
 ## Optimalisatie van uitvoerprestaties {#id176LB050VUI}
 
 AEM Guides staat u toe om de grootte van de de generatieprocessen van de outputproductie te vormen die het aantal processen van de outputgeneratie controleert die gelijktijdig lopen. Standaard is de grootte van de procespool ingesteld op het aantal verwerkingskernen dat beschikbaar is in uw systeem plus één. U kunt deze waarde wijzigen in 1 als u opeenvolgende publicaties wilt. In dit geval wordt de eerste publicatietaak uitgevoerd en wordt de volgende publicatietaak opgeslagen in de publicatiereeks.
 
-Om de grootte van de de verwerkingspool van de outputgeneratie te veranderen, werk de **het plaatsen van de Grootte van de Pool van de 1} generatie in de** bundel bij.`com.adobe.fmdita.publish.manager.PublishThreadManagerImpl`
+Om de grootte van de de verwerkingspool van de outputgeneratie te veranderen, werk de **het plaatsen van de Grootte van de Pool van de 1&rbrace; generatie in de** bundel bij.`com.adobe.fmdita.publish.manager.PublishThreadManagerImpl`

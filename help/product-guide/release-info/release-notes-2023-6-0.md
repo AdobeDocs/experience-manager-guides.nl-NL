@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Deze versienota behandelt de verbeteringsinstructies, verenigbaarheidsmatrijs, en kwesties die in versie Juni 2023 van Adobe Experience Manager Guides (later als *worden bedoeld as a Cloud Service van AEM Guides*) worden bevestigd.
 
-Voor meer informatie over de nieuwe eigenschappen en de verhogingen, zie [ wat in Juni 2023 versie van AEM Guides as a Cloud Service ](whats-new-2023-6-0.md) nieuw is.
+Voor meer informatie over de nieuwe eigenschappen en de verhogingen, zie [&#x200B; wat in Juni 2023 versie van AEM Guides as a Cloud Service &#x200B;](whats-new-2023-6-0.md) nieuw is.
 
 ## Upgrade naar juni 2023
 
@@ -154,7 +154,7 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 - Oorspronkelijke PDF | Xref drukt de inhoud van href onderwerptitel in plaats van het etiket Xref. (11322)
 - Oorspronkelijke PDF | Kan de PDF-sjablooninstellingen niet opslaan. 10751
 - Oorspronkelijke PDF | De tekst breidt zich voorbij de kolombreedte uit bij het opnemen van meerdere Xrefs. 10876
-- Oorspronkelijke PDF | `<note>``</note>` -element genereert geen extra bereiktitel van het type. 10549
+- Oorspronkelijke PDF | `<note>` `</note>` -element genereert geen extra bereiktitel van het type. 10549
 - Oorspronkelijke PDF | De taalmetagegevens kunnen niet in de gegenereerde PDF worden ingesteld om te voldoen aan WCAG 2.0. (12296)
 
 

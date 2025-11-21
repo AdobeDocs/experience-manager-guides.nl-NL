@@ -283,4 +283,4 @@ Bijvoorbeeld: `/content/dam/jira.json`
 
 U kunt de configuratie registreren met REST API. Voor meer details, bekijk *REST API om een sectie van de gegevensbronschakelaar* in de API Verwijzing voor Adobe Experience Manager Guides te registreren.
 
-Zodra u de gegevensbron hebt gevormd, is de schakelaar vermeld onder het paneel van Gegevensbronnen in de Redacteur van het Web. U kunt dan met de gegevensbron verbinden en een inhoudsfragment opnemen in uw onderwerpen. Voor meer details, neemt de mening [ een inhoudsfragment van uw gegevensbron ](../user-guide/web-editor-content-snippet.md) op.
+Zodra u de gegevensbron hebt gevormd, is de schakelaar vermeld onder het paneel van Gegevensbronnen in de Redacteur van het Web. U kunt dan met de gegevensbron verbinden en een inhoudsfragment opnemen in uw onderwerpen. Voor meer details, neemt de mening [&#x200B; een inhoudsfragment van uw gegevensbron &#x200B;](../user-guide/web-editor-content-snippet.md) op.

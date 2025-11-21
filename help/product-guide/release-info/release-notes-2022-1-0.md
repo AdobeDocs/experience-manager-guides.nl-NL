@@ -48,7 +48,7 @@ Met de versie van Januari, hebben wij een op artikel-gebaseerde het publiceren e
 
 Deze eigenschap staat de gebruikers toe om de kaart DITA op een additieve manier te bouwen en onderwerpen te publiceren aangezien en wanneer zij klaar zijn. Zodra u uw kaart hebt gepubliceerd, gebruikt u de op artikel gebaseerde publicatiefunctie om alleen voor de bijgewerkte artikelen incrementele publicaties te maken.
 
-![ Op artikel-gebaseerde het publiceren ](assets/article-based-publishing.png)
+![&#x200B; Op artikel-gebaseerde het publiceren &#x200B;](assets/article-based-publishing.png)
 
 Naast AEM kunt u deze unieke functie gebruiken om uw artikelen te publiceren naar alle bekende portalen, zoals Salesforce. Deze functie wordt ook geleverd met een sjabloon voor OOTB-inhoud, die is gebaseerd op AEM-kerncomponenten en waarmee u een op kennis gebaseerde opslagplaats voor de technische inhoud kunt maken. Wat geweldig is aan deze sjabloon, is dat deze volledig aanpasbaar is aan uw organisatorische vereisten en ook ondersteuning biedt voor gebruiksgevallen zoals intranetportalen van bedrijven.
 U kunt de artikelen ook filteren op basis van de documentstatus en de gewijzigde tijd.
@@ -63,20 +63,20 @@ Er zijn veel verhogingen en nieuwe eigenschappen die in de Redacteur van het Web
 
 * De steun voor onderwerpregeling is ook toegevoegd in de Redacteur van het Web. U kunt nu een onderwerpschema maken en gebruiken via het venster Onderwerpschema. Met de toevoeging van onderwerpschema, kunt u eigen collectieve meta-gegevens en taxonomie nu gebruiken.
 
-![ Onderwerpregeling ](assets/subject-scheme-panel.png)
+![&#x200B; Onderwerpregeling &#x200B;](assets/subject-scheme-panel.png)
 
 * Deze versie bevat een nieuw hulpprogramma voor woordenlijsten en hotspots voor het beheer van woordenlijsten. Met dit gereedschap kunt u snel tekst omzetten in een verklarende woordenlijst en een verklarende woordenlijst in termen die bulksgewijs worden gebruikt voor een geselecteerde kaart of open onderwerpen.
 
-![ Verklarende woordenlijst hotspot ](assets/glossary-hotspot-tool.png)
+![&#x200B; Verklarende woordenlijst hotspot &#x200B;](assets/glossary-hotspot-tool.png)
 
 * Functionaliteit voor vernieuwen is toegevoegd in het deelvenster Herbruikbare inhoud, waarmee u de herbruikbare inhoud in referentiebestanden snel kunt vernieuwen.
 * De nieuwe het werk exemplaarindicator toont u of uw huidig (werkende exemplaar) van dossier met de bewaarde versie of niet synchroon is.
 
-![ de indicator van de Versie ](assets/version-update-indicator.png)
+![&#x200B; de indicator van de Versie &#x200B;](assets/version-update-indicator.png)
 
 * Het zoekfilter in het deelvenster Opslag en het dialoogvenster Bladeren van bestanden is verbeterd en biedt nu meer filteropties die u verder kunt aanpassen.
 
-![ filters van het Onderzoek in bewaarplaats ](assets/repository-filter-search.png)
+![&#x200B; filters van het Onderzoek in bewaarplaats &#x200B;](assets/repository-filter-search.png)
 
 * U kunt .docx dossiers van de Redacteur van het Web nu uploaden.
 
@@ -97,13 +97,13 @@ Een nieuw vertaaldashboard is geïntroduceerd in de Redacteur van het Web met de
 * Er is een meertalig vertaalmechanisme geïntroduceerd om te voorkomen dat er meerdere projecten voor elke taal worden gemaakt wanneer een vertaalaanvraag voor meer dan één taal wordt ingediend.
 * Introduceerde een configuratie om het vertaallusje in kaartdashboard te verbergen. Standaard is deze zichtbaar. U kunt ervoor kiezen om inhoud te vertalen met behulp van het kaartdashboard of de webeditor.
 
-![ Vertaal dashboard ](assets/translation-from-web-editor.png)
+![&#x200B; Vertaal dashboard &#x200B;](assets/translation-from-web-editor.png)
 
 ### Verbeterde publicatie
 
 * Auteurs kunnen nu metagegevens op kaart- en onderwerpniveau doorgeven aan DITA-OT-publicaties. Dit is handig wanneer aangepaste PDF-sjablonen zijn ontworpen voor het gebruik van eigenschappen van metagegevens voor bestanden, zoals tags, auteur, documentstatus en meer.
 
-![ meta-gegevens DITA-OT ](assets/custom-meta-data-output-preset.png)
+![&#x200B; meta-gegevens DITA-OT &#x200B;](assets/custom-meta-data-output-preset.png)
 
 * Een nieuwe configuratie is toegevoegd om gebruikers toe te staan om de versies van de onderwerpen te behouden of te schrappen die worden geschrapt wanneer **schrapping en creeer** optie in de de outputgeneratie van de Plaats van AEM wordt gebruikt.
 
@@ -112,12 +112,12 @@ Een nieuw vertaaldashboard is geïntroduceerd in de Redacteur van het Web met de
 De volgende verbeteringen zijn nu zichtbaar tijdens het werken met bestanden in AEM Assets:
 * Er is een nieuwe ervaring met het uploaden van bestanden en een nieuwe dialoog geïntroduceerd om een strategie voor het oplossen van conflicten te kiezen.
 
-![ het uploadconflict van het Dossier ](assets/file-upload-name-conflict.png)
+![&#x200B; het uploadconflict van het Dossier &#x200B;](assets/file-upload-name-conflict.png)
 
 * Mogelijkheid om een nieuwe versie van het geüploade bestand te maken met de mogelijkheid te voorkomen dat een uitgecheckt bestand wordt overschreven.
 * Nu kunt u een voorvertoning van afbeeldingen direct bekijken in de weergave Versiehistorie. Ook, voor DITA en niet-DITA- dossiers, toont de Geschiedenis van de Versie de huidige versieinformatie afzonderlijk.
 
-![ de geschiedenisduimnagel van de Versie ](assets/version-history-preview-image.png)
+![&#x200B; de geschiedenisduimnagel van de Versie &#x200B;](assets/version-history-preview-image.png)
 
 * Telkens wanneer de gebruiker een DITA-bestand maakt, wordt de standaardbestandsnaam in kleine hoofdletters weergegeven om in overeenstemming te zijn met het scenario voor het maken van de Native AEM-map.
 
@@ -125,7 +125,7 @@ De volgende verbeteringen zijn nu zichtbaar tijdens het werken met bestanden in 
 
 Rapporten zijn zeer nuttig om de gezondheid van uw inhoud te identificeren. [!DNL AEM Guides] as a Cloud Service geeft verschillende rapporten om de controle over uw inhoud te krijgen. Nu, kunt u niet alleen de rapporten bekijken, maar ook de rapportgegevens in een Csv- dossier naar mening en met uw groter team delen. Rapportgegevens kunnen u een kort overzicht geven van verbroken koppelingen of ontbrekende afbeeldingen.
 
-![ de uitvoer van het Rapport ](assets/export-report.png)
+![&#x200B; de uitvoer van het Rapport &#x200B;](assets/export-report.png)
 
 ### Verbeterde Oxygen DAM-vernieuwingservaring
 

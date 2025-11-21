@@ -24,7 +24,7 @@ U kunt uw huidige versie van AEM Guides eenvoudig upgraden naar versie 4.1.3. Vo
 * Als u versie 3.8.5 gebruikt, moet u een upgrade naar versie 4.0.x uitvoeren voordat u een upgrade naar versie 4.1 uitvoert.
 * Als u een versie hebt die ouder is dan 3.8.5, raadpleegt u de upgradesectie in de productspecifieke installatiegids.
 
-Voor details, zie [ instructies van de Verbetering ](assets/Adobe-Experience-Manager-Guides-Upgrade-Instructions-EN.pdf).
+Voor details, zie [&#x200B; instructies van de Verbetering &#x200B;](assets/Adobe-Experience-Manager-Guides-Upgrade-Instructions-EN.pdf).
 
 ## 4.1.3. | Opmerkingen bij de release
 
@@ -185,7 +185,7 @@ AEM Guides biedt de op artikelen gebaseerde publicatiefunctie om incrementeel ee
 
 Een DITA inhoudsbelangrijkste verwijzing neemt een deel van inhoud van één onderwerp in een andere op. Er wordt een toets gebruikt om de inhoud te zoeken. De belangrijkste verwijzingen verbonden aan een onderwerp DITA moeten worden opgelost. De geselecteerde hoofdmap heeft de hoogste prioriteit om toetsverwijzingen op te lossen.
 
-![ dialoog van gebruikersvoorkeur ](assets/user-preferences.png)
+![&#x200B; dialoog van gebruikersvoorkeur &#x200B;](assets/user-preferences.png)
 
 Nu worden de belangrijkste verwijzingen opgelost op basis van de wortelkaart die in de volgende orde van prioriteit wordt geplaatst:
 
@@ -203,13 +203,13 @@ Nu kunt u een aangepast deelvenster toevoegen in het linkerdeelvenster van de we
 
 Nu kunt u de documentstaat van geselecteerde onderwerpen binnen een kaart gemakkelijk veranderen DITA. U kunt de eigenschappen van geselecteerde onderwerpen in een kaart DITA van het **Meer menu van Opties** bij de bodem van het paneel van de Mening van de Kaart ook openen en uitgeven.
 
-![ geselecteerde onderwerpeigenschappen ](assets/map-view-properties.png)
+![&#x200B; geselecteerde onderwerpeigenschappen &#x200B;](assets/map-view-properties.png)
 
 * **informatie van de Versie die op de wijze van de Voorproef wordt getoond**
 
 De Redacteur van het Web helpt u in het beheren van uw versies. Nu kunt u de versie van het actieve onderwerp of kaart DITA in de hoogste juiste hoek van het het dossierlusje van het onderwerp op de wijze van de Voorproef van een onderwerp ook zien.
 
-![ voorproefversie ](assets/preview-version.png)
+![&#x200B; voorproefversie &#x200B;](assets/preview-version.png)
 
 
 * **Verbeterde Redacteur van het Web verfrist gedrag**
@@ -228,18 +228,18 @@ niet-opgeslagen wijzigingen worden geopend voor bewerking. U wordt gevraagd uw b
 
 Nu krijgt u de krachtige eigenschap om aangepaste kaartmalplaatjes tot stand te brengen. U kunt hen gebruiken om kaarten DITA samen met de onderwerpmalplaatjes en kaartmalplaatjes tot stand te brengen die in het kaartmalplaatje van verwijzingen worden voorzien.
 
-![ dita malplaatjes ](assets/dita-templates.png)
+![&#x200B; dita malplaatjes &#x200B;](assets/dita-templates.png)
 
 U kunt naar andere kaartmalplaatjes en onderwerpmalplaatjes van het aangepaste kaartmalplaatje ook verwijzen. De genoemde kaartmalplaatjes kunnen naar diverse kaartmalplaatjes, onderwerpmalplaatjes, onderwerpen, kaarten, beelden, video&#39;s, en andere activa verwijzen.
 
-![ creeer bewerkingsmalplaatjes ](assets/create-dita-template.png)
+![&#x200B; creeer bewerkingsmalplaatjes &#x200B;](assets/create-dita-template.png)
 
 Het aangepaste kaartsjabloon kan u zeer gemakkelijk helpen de kaartsjablonen en de volledige doorverwezen omslagstructuur te herhalen. Deze aangepaste sjablonen zijn vooral handig voor het maken en opnieuw maken van meerdere kaarten met recursieve structuren en verwijzingen.
 
 * **de steun van Schematron**
 &quot;Schematron&quot; verwijst naar een op regels gebaseerde validatietaal die wordt gebruikt om tests voor een XML-bestand te definiëren. Met behulp van een Schematron-bestand kunt u bepaalde regels definiëren en deze vervolgens valideren voor een DITA-onderwerp of een kaart. De redacteur van het Web steunt dossiers Schematron. U kunt de Schematron dossiers invoeren en hen ook uitgeven in de Redacteur van het Web. De steun van het Schematron in de Redacteur van het Web helpt u in het bevestigen van de dossiers tegen een reeks regels en het handhaven van consistentie en correctheid over de onderwerpen.
 
-![ bevestigt schema ](assets/schematron-validate.png)
+![&#x200B; bevestigt schema &#x200B;](assets/schematron-validate.png)
 
 * **Verbeterde dialoog op dossierdichte**
 
@@ -247,23 +247,23 @@ AEM Guides vraagt u om uw wijzigingen op te slaan en vergrendelde bestanden te o
 
 Op basis van de configuratie kunt u de wijzigingen opslaan en een nieuwe versie van het document maken. U kunt ook het bestand inchecken en de wijzigingen in de huidige versie opslaan.
 
-![ Dossier dicht ](assets/file-close-save-changes-unlock.png)
+![&#x200B; Dossier dicht &#x200B;](assets/file-close-save-changes-unlock.png)
 
 Voor meer details, zie *Dossier sluiten en sparen scenario&#39;s* sectie in de Gebruikende gids van Adobe Experience Manager Guides.* De **eigenschap van het Trefwoord van het Tussenvoegsel** is verbeterd. U kunt nu gemakkelijker een trefwoord vinden dat moet worden ingevoegd omdat de trefwoorden in alfabetische volgorde worden weergegeven. U kunt ook naar trefwoorden zoeken door een zoektekenreeks in het vak Zoeken te typen.
 
-![ neem sleutelwoord ](assets/insert-keyword.png) op
+![&#x200B; neem sleutelwoord &#x200B;](assets/insert-keyword.png) op
 
 * **Steun voor de documenten van de Prijsverhoging**
 Markering is een eenvoudige opmaaktaal waarmee u opmaakelementen kunt toevoegen aan gewone tekstdocumenten. De Redacteur van het Web staat u toe om de documenten van de Prijsverhoging (.md) samen met uw documenten te gebruiken DITA. U kunt een document van de Prijsverhoging in de Redacteur van het Web gemakkelijk ontwerpen en voorproef en het ook toevoegen in uw kaartdossier door DITA kaartredacteur.  Voor meer details, zie *documenten van de Prijsverlaging van de Auteur van het Web* sectie in het Gebruiken van de gids van Adobe Experience Manager Guides.
 
-![ steun prijsdown ](assets/create-markdown-dita-topic.png)
+![&#x200B; steun prijsdown &#x200B;](assets/create-markdown-dita-topic.png)
 
 * **Mogelijkheid om een standaardmarkeringsmening te vormen**
 Als een gebruiker de Mening van Markeringen van de Redacteur van het Web toelaat, blijft het toegelaten zelfs over de zittingen.  Dit betekent dat u de mening van Markeringen niet moet toelaten om tot het later toegang te hebben. Uw beheerder kan de standaardstaat voor de Mening van Markeringen in de Redacteur van het Web vormen. De standaardwaarde voor de Mening van Markeringen voor de zitting van een nieuwe gebruiker wordt bepaald door het bezit tagsView in het ui_config.json- dossier.
 
 * In de weergavebestanden voor opslagplaatsen worden nu batches geladen. Alle bestanden in de hoofdmap of `/content/dam folder` worden weergegeven. Maar vanaf het volgende niveau of de secundaire map worden 75 bestanden tegelijk geladen. Het laden van deze batch is efficiënt en u hebt sneller toegang tot de bestanden dan tot het laden van alle bestanden in een map.
 
-![ lading meer dossiers ](assets/load-more-files.png)
+![&#x200B; lading meer dossiers &#x200B;](assets/load-more-files.png)
 
 ### Nieuw basislijndashboard
 
@@ -273,11 +273,11 @@ AEM Guides 4.1 release biedt de functie Basislijn die in de webeditor is geïnte
 
 Gebruik deze functie om een basislijn met een specifieke versie van de onderwerpen tot stand te brengen beschikbaar op een specifieke datum en een tijd. Bovendien kunt u met de API-ondersteuning een basislijn maken of bijwerken met een label dat is gedefinieerd voor een versie van onderwerpen.
 
-![ basislijn beheert lusje ](assets/baseline-manage.png)
+![&#x200B; basislijn beheert lusje &#x200B;](assets/baseline-manage.png)
 
 U kunt de bestanden doorzoeken op bestandsnamen of op de bestandslocatie. U kunt ook de onderwerpen filteren die in het basislijnbewerkingsvenster moeten worden weergegeven en ze sorteren op basis van specifieke kolommen.
 
-![ basislijn beheert lusje ](assets/baseline-filter.png)
+![&#x200B; basislijn beheert lusje &#x200B;](assets/baseline-filter.png)
 
 De prestaties voor het basisproces voor het maken zijn verder verbeterd. Het proces om basislijnen tot stand te brengen is asynchroon, zodat kunt u andere dossiers in de Redacteur van het Web blijven uitgeven terwijl de basislijn wordt gecreeerd. Voor meer details, zie *basislijnen van de Redacteur van het Web* tot stand brengen en beheren in de Gebruikende gids van Adobe Experience Manager Guides.
 
@@ -290,11 +290,11 @@ Opmerking: het tabblad Basislijn op het kaartdashboard is standaard verborgen. U
 * **Mogelijkheid om een scoping vertaalproject** tot stand te brengen
 Als u slechts het werkingsgebied voor een te vertalen project moet tot stand brengen, kunt u **selecteren creeert een nieuw scoping vertaalproject**. Hierdoor worden de kopieën niet voor vertaling verzonden en blijft de oorspronkelijke vertaalstatus van de bestanden behouden.
 
-![ scoping vertaalproject ](assets/scoping-translation-project.png)
+![&#x200B; scoping vertaalproject &#x200B;](assets/scoping-translation-project.png)
 
 * De **Talen** lijst toont de taalomslagen samen met hun taalcodes. Bijvoorbeeld Frans (fr) en Duits (de).
 
-![ taal vertaalde vertaling ](assets/translation-languages.png)
+![&#x200B; taal vertaalde vertaling &#x200B;](assets/translation-languages.png)
 
 Voor meer details op vertaling, zie *documenten van de sectie van de Redacteur van het Web* in het Gebruiken van de gids van Adobe Experience Manager Guides vertalen.
 
@@ -303,7 +303,7 @@ Voor meer details op vertaling, zie *documenten van de sectie van de Redacteur v
 
 * U kunt tot **toegang hebben publiceer Dashboard** van het lusje van Output terwijl u output van het kaartdashboard produceert. Een lijst met alle actieve publicatietaken is beschikbaar op het dashboard Publiceren.
 
-![ een rij gevormde output ](assets/queued-output.png)
+![&#x200B; een rij gevormde output &#x200B;](assets/queued-output.png)
 
 * Via het kaartdashboard kunt u meerdere DITAVAL-bestanden selecteren om geconditioneerde inhoud te genereren. U kunt de bestandsvolgorde behouden door bestanden toe te voegen of te verwijderen. U kunt de muisaanwijzer ook boven de bestandsnaam plaatsen om het pad te zien in de AEM-opslagplaats waar het bestand is opgeslagen.
 
@@ -315,7 +315,7 @@ Voor meer details op vertaling, zie *documenten van de sectie van de Redacteur v
 
 Wanneer u selecteert om de kaart te downloaden DITA, wordt het verzoek een rij gevormd, en u ontvangt een bericht zodra de kaart klaar is om te downloaden. U kunt ervoor kiezen het kaartbestand direct te downloaden of later te downloaden via de koppeling in het AEM-meldingsvak.
 
-![ download van de Kaart ](assets/download-map-prompt.png)
+![&#x200B; download van de Kaart &#x200B;](assets/download-map-prompt.png)
 
 ### Andere functies
 

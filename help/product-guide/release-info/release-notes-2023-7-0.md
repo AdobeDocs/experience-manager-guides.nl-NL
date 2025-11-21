@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Deze versienota behandelt de verbeteringsinstructies, verenigbaarheidsmatrijs, en kwesties die in versie worden bevestigd juli 2023 van Adobe Experience Manager Guides (later die als *wordt bedoeld as a Cloud Service van AEM Guides*).
 
-Voor meer informatie over de nieuwe eigenschappen en de verhogingen, zie [ wat in de versie van juli 2023 van AEM Guides as a Cloud Service ](whats-new-2023-7-0.md) nieuw is.
+Voor meer informatie over de nieuwe eigenschappen en de verhogingen, zie [&#x200B; wat in de versie van juli 2023 van AEM Guides as a Cloud Service &#x200B;](whats-new-2023-7-0.md) nieuw is.
 
 ## Upgrade naar release juli 2023
 

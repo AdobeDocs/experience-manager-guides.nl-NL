@@ -30,10 +30,10 @@ Experience Manager Guides staat u toe om de schakelaars aan uw vereisten aan te 
 
 ## Een connector aanpassen voor Experience Manager Guides {#customize-connector}
 
-U kunt een schakelaar voor een gegevensbron aanpassen of vormen gebruikend de vooraf bepaalde interfaces en abstracte klassen. De volledige broncode is beschikbaar in [ https://github.com/adobe/guides-data-source-connectors/tree/main/konnect-definitions ](https://github.com/adobe/guides-data-source-connectors/tree/main/konnect-definitions).
+U kunt een schakelaar voor een gegevensbron aanpassen of vormen gebruikend de vooraf bepaalde interfaces en abstracte klassen. De volledige broncode is beschikbaar in [&#x200B; https://github.com/adobe/guides-data-source-connectors/tree/main/konnect-definitions &#x200B;](https://github.com/adobe/guides-data-source-connectors/tree/main/konnect-definitions).
 
 
-Verwijs naar [![ javadoc ](https://javadoc.io/badge2/com.adobe.aem.addon.guides/konnect-definitions/javadoc.svg) ](https://javadoc.io/doc/com.adobe.aem.addon.guides/konnect-definitions) voor konnect-definities.
+Verwijs naar [![&#x200B; javadoc &#x200B;](https://javadoc.io/badge2/com.adobe.aem.addon.guides/konnect-definitions/javadoc.svg) &#x200B;](https://javadoc.io/doc/com.adobe.aem.addon.guides/konnect-definitions) voor konnect-definities.
 
 ## Implementeer de verbindingsinterface {#implement-interface}
 

@@ -20,7 +20,7 @@ Als u Ant-parameters wilt verwerken terwijl u uitvoer publiceert, biedt AEM Guid
 
 >[!NOTE]
 >
-> AEM Guides wordt geleverd met DITA-OT versie 3.3.2. AEM Guides biedt echter wel ondersteuning voor DITA-OT versie 1.7 en hoger. Voor de volledige lijst van versies DITA-OT, zie [ versies DITA-OT ](http://www.dita-ot.org/download).
+> AEM Guides wordt geleverd met DITA-OT versie 3.3.2. AEM Guides biedt echter wel ondersteuning voor DITA-OT versie 1.7 en hoger. Voor de volledige lijst van versies DITA-OT, zie [&#x200B; versies DITA-OT &#x200B;](http://www.dita-ot.org/download).
 
 >[!TIP]
 >
@@ -84,7 +84,7 @@ Voer de volgende stappen uit om een nieuw profiel te maken en dit te configurere
 
 1. Selecteer **Gidsen** van de lijst van hulpmiddelen.
 
-1. Klik op de **1} tegel van Profielen DITA {.**
+1. Klik op de **1&rbrace; tegel van Profielen DITA &lbrace;.**
 
    >[!NOTE]
    >
@@ -103,7 +103,7 @@ Voer de volgende stappen uit om een nieuw profiel te maken en dit te configurere
    | **Eigenschappen van het Profiel** |  |
    | Profielnaam | Geef dit profiel een unieke naam. |
    | Uitvoer opnieuw gebruiken | *\(Optioneel\)* Als uw profiel op een bestaand profiel gebaseerd is, dan selecteer deze optie. Als u deze optie selecteert, zorgt AEM Guides ervoor dat de inhoud van het DITA-OT-pakket niet opnieuw wordt geëxtraheerd en wordt het bestaande DITA-OT-pakket opnieuw gebruikt. |
-   | Pad voor exporteren van profiel | *\ (Facultatief \)* specificeer de weg waar DITA-OT op schijf wordt gehouden. Standaard bundelt AEM Guides een DITA-OT-pakket in de opslagplaats en wordt het op de schijf opgehaald bij dit pad.<br>**Nota** U kunt deze weg bepalen gebruikend om het even welk bestaand systeemvariabele of bezit. Zie beschrijving het [ DITA-OT bezit van de Variabelen van het Milieu ](#id181NH0YN0AX) voor meer informatie. |
+   | Pad voor exporteren van profiel | *\ (Facultatief \)* specificeer de weg waar DITA-OT op schijf wordt gehouden. Standaard bundelt AEM Guides een DITA-OT-pakket in de opslagplaats en wordt het op de schijf opgehaald bij dit pad.<br>**Nota** U kunt deze weg bepalen gebruikend om het even welk bestaand systeemvariabele of bezit. Zie beschrijving het [&#x200B; DITA-OT bezit van de Variabelen van het Milieu &#x200B;](#id181NH0YN0AX) voor meer informatie. |
    | Toegewezen pad | \ (*Facultatief* \) specificeer de weg in uw inhoudsbewaarplaats waarvoor dit profiel van toepassing is. U kunt meerdere locaties opgeven. |
    | **DITA-OT Eigenschappen** |  |
    | Tijdslimiet DITA-OT | \ (*Facultatief* \) specificeer de tijd \ (in seconden \) waarvoor AEM Guides op een reactie van de stop DITA-OT wacht. Als er geen reactie is ontvangen binnen de opgegeven tijd, wordt de publicatietaak beëindigd en wordt de taak gemarkeerd als mislukt. Ook, worden de mislukkingslogboeken ter beschikking gesteld in het dossier van het outputgeneratie. <br> Standaardwaarde: 300 seconden \(5 minuten\) |
@@ -118,7 +118,7 @@ Voer de volgende stappen uit om een nieuw profiel te maken en dit te configurere
    | DITA-OT plug-inpad | Pad van de aangepaste plug-in. Deze plug-in wordt automatisch geïntegreerd met het hoofdpakket DITA-OT. |
    | Catalogi integreren | \ (*Facultatieve* \) Weg van de douane DTD en XSD catalog.xml- dossiers in de bewaarplaats van AEM. Dit moet alleen worden opgegeven wanneer de catalogi ontbreken in het DITA-OT-pakket. Deze catalogi worden automatisch als een plug-in geïntegreerd met de hoofdmap DITA-OT. |
    | Catalogus systeem-id toevoegen | \ (*Facultatieve* \) selecteer deze optie slechts als er ontbrekende Publieke ingangen van identiteitskaart in de catalogus zijn of als de DITA- dossiers slechts systeem IDs gebruiken die met betrekking tot de serverweg van waar zij worden geupload zijn. |
-   | DITA-OT tijdelijk pad | *\(Optioneel\)* Geef een tijdelijke locatie op waar DITA-bestanden worden gekopieerd voor verwerking. Voordat DITA-OT bestanden verwerkt, worden ze naar deze tijdelijke locatie gekopieerd. De tijdelijke opslaglocatie is standaard: <br> **Nota** U kunt deze weg bepalen gebruikend om het even welk bestaand systeemvariabele of bezit. Zie beschrijving het [ DITA-OT bezit van de Variabelen van het Milieu ](#id181NH0YN0AX) voor meer informatie. |
+   | DITA-OT tijdelijk pad | *\(Optioneel\)* Geef een tijdelijke locatie op waar DITA-bestanden worden gekopieerd voor verwerking. Voordat DITA-OT bestanden verwerkt, worden ze naar deze tijdelijke locatie gekopieerd. De tijdelijke opslaglocatie is standaard: <br> **Nota** U kunt deze weg bepalen gebruikend om het even welk bestaand systeemvariabele of bezit. Zie beschrijving het [&#x200B; DITA-OT bezit van de Variabelen van het Milieu &#x200B;](#id181NH0YN0AX) voor meer informatie. |
 
    >[!NOTE]
    >
@@ -129,7 +129,7 @@ Voer de volgende stappen uit om een nieuw profiel te maken en dit te configurere
 
 >[!NOTE]
 >
-> U kunt het aangepaste DITA-profiel exporteren als een pakket en uploaden naar de andere AEM Guides-instanties om tijd te besparen. Voor meer informatie, zie [ Bijlage ](appendix.md).
+> U kunt het aangepaste DITA-profiel exporteren als een pakket en uploaden naar de andere AEM Guides-instanties om tijd te besparen. Voor meer informatie, zie [&#x200B; Bijlage &#x200B;](appendix.md).
 
 ## DITA-specialisatie integreren {#id211MB0E00XA}
 
@@ -165,7 +165,7 @@ Voer de volgende stappen uit om een nieuw profiel te creëren en het te vormen o
 
 1. Selecteer **Gidsen** van de lijst van hulpmiddelen.
 
-1. Klik op de **1} tegel van Profielen DITA {.**
+1. Klik op de **1&rbrace; tegel van Profielen DITA &lbrace;.**
 
    >[!NOTE]
    >
@@ -193,11 +193,11 @@ Voer de volgende stappen uit om een nieuw profiel te creëren en het te vormen o
    >
    > Selecteer deze optie alleen als er items voor openbare id&#39;s ontbreken in de catalogus of als de DITA-bestanden alleen de systeem-id&#39;s gebruiken die relatief zijn ten opzichte van het lokale bestandspad van waaruit ze worden geüpload.
 
-   Voor meer informatie over andere eigenschappen op de pagina van Profielen, zie de eigenschappen lijst in [ Stap 6 ](#id17A9F0D075Z) van de [ douane DITA-OT stop-ins van het Gebruik {](#id181NH1020L7) sectie.
+   Voor meer informatie over andere eigenschappen op de pagina van Profielen, zie de eigenschappen lijst in [&#x200B; Stap 6 &#x200B;](#id17A9F0D075Z) van de [&#x200B; douane DITA-OT stop-ins van het Gebruik &lbrace;](#id181NH1020L7) sectie.
 
 1. Klik **Gedaan** om het profiel te bewaren.
 
 
 >[!NOTE]
 >
-> U kunt het aangepaste DITA-profiel exporteren als een pakket en uploaden naar de andere AEM Guides-instanties om tijd te besparen. Voor meer informatie, zie [ Appendix.md ](appendix.md).
+> U kunt het aangepaste DITA-profiel exporteren als een pakket en uploaden naar de andere AEM Guides-instanties om tijd te besparen. Voor meer informatie, zie [&#x200B; Appendix.md &#x200B;](appendix.md).

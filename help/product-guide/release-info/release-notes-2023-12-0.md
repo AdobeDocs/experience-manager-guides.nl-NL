@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Deze versienota behandelt de verbeteringsinstructies, verenigbaarheidsmatrijs, en kwesties die in versie December 2023 van Adobe Experience Manager Guides as a Cloud Service worden bevestigd (later die als *wordt bedoeld Experience Manager Guides as a Cloud Service*).
 
-Voor meer informatie over de nieuwe eigenschappen en de verhogingen, mening [ wat in de versie van December 2023 van Experience Manager Guides as a Cloud Service ](whats-new-2023-12-0.md) nieuw is.
+Voor meer informatie over de nieuwe eigenschappen en de verhogingen, mening [&#x200B; wat in de versie van December 2023 van Experience Manager Guides as a Cloud Service &#x200B;](whats-new-2023-12-0.md) nieuw is.
 
 ## Upgrade naar release december 2023
 
@@ -104,7 +104,7 @@ Voer de volgende stappen uit om de bestaande inhoud te indexeren en de nieuwe vo
 
 Experience Manager Guides heeft de module van de a [**douane die herschrijver**](../cs-install-guide/conf-output-generation.md#custom-rewriter) voor de behandeling van de verbindingen in het geval van dwars-kaarten (verbindingen tussen de onderwerpen van twee verschillende kaarten) worden geproduceerd.
 
-Als u nog een aangepaste schrijfbewerking voor tekenreeksen in uw codebase hebt, gebruikt u een `'order'` -waarde groter dan 50, omdat Experience Manager Guides anders `'order'` 50 gebruikt.  Als u dit wilt overschrijven, hebt u een waarde > 50 nodig. Voor meer details, mening [ Output die pijplijnen herschrijft ](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
+Als u nog een aangepaste schrijfbewerking voor tekenreeksen in uw codebase hebt, gebruikt u een `'order'` -waarde groter dan 50, omdat Experience Manager Guides anders `'order'` 50 gebruikt.  Als u dit wilt overschrijven, hebt u een waarde > 50 nodig. Voor meer details, mening [&#x200B; Output die pijplijnen herschrijft &#x200B;](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
 
 Aangezien de waarde van `'order'` tijdens deze upgrade is gewijzigd van 1000 in 50, moet u eventueel de bestaande aangepaste rewriter samenvoegen met `'fmdita-rewriter'` .
 
@@ -147,7 +147,7 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 - Foutberichten voor dubbele kaartnamen in de gebruikersinterface van Assets worden niet bijgewerkt. 14320
 - Er treedt een fout op in de logica voor het maken van versies tijdens het slepen en neerzetten van elementen. 14291
 - Herbruikbare inhoud slaat de element-id&#39;s over. 14213
-- De plaatsende controle om **paneel van de Variabelen van de Taal te verbergen** onder **lusje van de Output {ontbreekt.** (14194)
+- De plaatsende controle om **paneel van de Variabelen van de Taal te verbergen** onder **lusje van de Output &lbrace;ontbreekt.** (14194)
 - De Redacteur van het Web werpt toepassingsfouten wanneer het toevoegen van een nieuwe verwijzing of een onderwerp gebruikend een gespecialiseerd schema in de mening van de Lay-out. (14094)
 - Een ankerkoppeling naar `<dlentry>` of `<dt>` -element geeft de koppelingstekst niet weer. 13543
 - De **inzameling van Favorieten** in de Redacteur van het Web slaagt er niet in om te laden. 13495

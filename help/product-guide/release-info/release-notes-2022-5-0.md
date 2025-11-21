@@ -51,21 +51,21 @@ AEM Guides as a Cloud Service biedt een groot aantal verbeteringen en nieuwe fun
 
 Nu krijgt u de krachtige eigenschap om aangepaste kaartmalplaatjes tot stand te brengen. U kunt hen gebruiken om kaarten DITA samen met de onderwerpmalplaatjes en kaartmalplaatjes tot stand te brengen die in het kaartmalplaatje van verwijzingen worden voorzien.
 
-![ dita malplaatjes ](assets/dita-templates.png)
+![&#x200B; dita malplaatjes &#x200B;](assets/dita-templates.png)
 
 U kunt naar andere kaartmalplaatjes en onderwerpmalplaatjes van het aangepaste kaartmalplaatje ook verwijzen. De genoemde kaartmalplaatjes kunnen naar diverse kaartmalplaatjes, onderwerpmalplaatjes, onderwerpen, kaarten, beelden, video&#39;s, en andere activa verwijzen.
 
-![ creeer bewerkingsmalplaatjes ](assets/create-dita-template.png)
+![&#x200B; creeer bewerkingsmalplaatjes &#x200B;](assets/create-dita-template.png)
 
 Het aangepaste kaartsjabloon kan u zeer gemakkelijk helpen de kaartsjablonen en de volledige doorverwezen omslagstructuur te herhalen. Deze aangepaste sjablonen zijn vooral handig voor het maken en opnieuw maken van meerdere kaarten met recursieve structuren en verwijzingen.
 
 * De **eigenschap van het Trefwoord van het Tussenvoegsel** is verbeterd. U kunt nu gemakkelijker een trefwoord vinden dat moet worden ingevoegd omdat de trefwoorden in alfabetische volgorde worden weergegeven. U kunt ook naar trefwoorden zoeken door een zoektekenreeks in het vak Zoeken te typen.
 
-![ neem sleutelwoord ](assets/insert-keyword.png) op
+![&#x200B; neem sleutelwoord &#x200B;](assets/insert-keyword.png) op
 
 * In de weergavebestanden voor opslagplaatsen worden nu batches geladen. Er worden 75 bestanden tegelijk geladen. Het laden van deze batch is efficiënt en u hebt sneller toegang tot de bestanden dan tot het laden van alle bestanden in een map.
 
-![ lading meer dossiers ](assets/load-more-files.png)
+![&#x200B; lading meer dossiers &#x200B;](assets/load-more-files.png)
 
 * U kunt SVG-afbeeldingen renderen die ingesloten gegevens of koppelingen bevatten in alle schermen van XML-editors, inclusief maar niet beperkt tot de weergave Voorbeeld en Auteur.
 
@@ -76,7 +76,7 @@ Het aangepaste kaartsjabloon kan u zeer gemakkelijk helpen de kaartsjablonen en 
 * **Mogelijkheid om een scoping vertaalproject** tot stand te brengen
 Als u slechts het werkingsgebied voor een te vertalen project moet tot stand brengen, kunt u **selecteren creeert een nieuw scoping vertaalproject**. Hierdoor worden de kopieën niet voor vertaling verzonden en blijft de oorspronkelijke vertaalstatus van de bestanden behouden.
 
-![ scoping vertaalproject ](assets/scoping-translation-project.png)
+![&#x200B; scoping vertaalproject &#x200B;](assets/scoping-translation-project.png)
 
 * Als u de vertaling voor één of meerdere onderwerpen in een vertaalbaan verwerpt, herstelt de Bezig vertaalstatus van alle verworpen onderwerpen aan hun originele status.
 
@@ -84,7 +84,7 @@ Als u slechts het werkingsgebied voor een te vertalen project moet tot stand bre
 
 * De vertaalfunctie ondersteunt nu ook de taalcode die zowel het land als de taal omvat. Bijvoorbeeld `fr-fr` , `en-us` .
 
-![ taal vertaalde vertaling ](assets/translation-languages.png)
+![&#x200B; taal vertaalde vertaling &#x200B;](assets/translation-languages.png)
 
 * Bij het laden van een kaart DITA die buiten de taalomslag is, wordt geen uitzondering geregistreerd bij het achtereind.
 
@@ -95,7 +95,7 @@ Voor meer details op vertaling, zie *documenten van de sectie van de Redacteur v
 
 * U kunt tot **toegang hebben publiceer Dashboard** van het lusje van Output terwijl u output van het kaartdashboard produceert. Een lijst met alle actieve publicatietaken is beschikbaar op het dashboard Publiceren.
 
-![ een rij gevormde output ](assets/queued-output.png)
+![&#x200B; een rij gevormde output &#x200B;](assets/queued-output.png)
 
 * Via het kaartdashboard kunt u meerdere DITAVAL-bestanden selecteren om geconditioneerde inhoud te genereren. U kunt de bestandsvolgorde behouden door bestanden toe te voegen of te verwijderen. U kunt de muisaanwijzer ook boven de bestandsnaam plaatsen om het pad te zien in de AEM-opslagplaats waar het bestand is opgeslagen.
 

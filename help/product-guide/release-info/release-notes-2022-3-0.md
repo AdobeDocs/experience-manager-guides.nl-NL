@@ -51,11 +51,11 @@ Nota: Voor bevorderd systeem, te werk gelieve recentste **ui_config.json** voor 
 
 Gebruik deze functie om een basislijn met een specifieke versie van de onderwerpen tot stand te brengen beschikbaar op een specifieke datum en een tijd. Bovendien kunt u met de API-ondersteuning een basislijn maken of bijwerken met een label dat is gedefinieerd voor een versie van onderwerpen.
 
-![ basislijn beheert lusje ](assets/baseline-manage.png)
+![&#x200B; basislijn beheert lusje &#x200B;](assets/baseline-manage.png)
 
 U kunt de bestanden doorzoeken op bestandsnamen of op de bestandslocatie. U kunt ook de onderwerpen filteren die in het basislijnbewerkingsvenster moeten worden weergegeven en ze sorteren op basis van specifieke kolommen.
 
-![ basislijn beheert lusje ](assets/baseline-filter.png)
+![&#x200B; basislijn beheert lusje &#x200B;](assets/baseline-filter.png)
 
 De prestaties voor het basisproces voor het maken zijn verder verbeterd. Het proces om basislijnen tot stand te brengen is asynchroon, zodat kunt u andere dossiers in de Redacteur van het Web blijven uitgeven terwijl de basislijn wordt gecreeerd. Voor meer details, zie *basislijnen van de Redacteur van het Web* in de Gids van de Gebruiker creëren en leiden.
 
