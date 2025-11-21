@@ -1,28 +1,28 @@
 ---
 title: Opmerkingen bij de release | Adobe Experience Manager Guides as a Cloud Service, release april 2022
-description: Release Adobe Experience Manager Guides as a Cloud Service in april
+description: Release van Adobe Experience Manager Guides as a Cloud Service in april
 exl-id: c735ba24-a803-454b-8723-57dacf90061b
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '809'
 ht-degree: 0%
 
 ---
 
-# Release Adobe Experience Manager Guides as a Cloud Service in april
+# Release van Adobe Experience Manager Guides as a Cloud Service in april
 
 ## Upgrade naar de release van april
 
-Voer de volgende stappen uit om de huidige instelling voor [!DNL Adobe Experience Manager Guides] as a Cloud Service (later *[!DNL AEM Guides]as a Cloud Service* genoemd) bij te werken:
-1. Controle uit de code van Git van Cloud Servicen en schakelaar aan de tak die in de pijpleiding van Cloud Servicen wordt gevormd die aan het milieu beantwoordt u wilt bevorderen.
-1. Werk de eigenschap `<dox.version>` in het `/dox/dox.installer/pom.xml` -bestand van de Git-code van de Cloud Service bij naar 2022.4.133.
-1. Leg de wijzigingen vast en voer de pijplijn met Cloud Servicen uit om naar de release van april van [!DNL AEM Guides] as a Cloud Service te upgraden.
+Voer de volgende stappen uit om de huidige installatie van [!DNL Adobe Experience Manager Guides] as a Cloud Service (later ook wel *[!DNL AEM Guides]as a Cloud Service* genoemd) bij te werken:
+1. Bekijk de Git-code van Cloud Services en schakel over naar de vertakking die is geconfigureerd in de Cloud Services-pijplijn die overeenkomt met de omgeving die u wilt upgraden.
+1. Werk de eigenschap `<dox.version>` in het `/dox/dox.installer/pom.xml` -bestand van de Git-code voor Cloud Services bij naar 2022.4.133.
+1. Leg de wijzigingen vast en voer de Cloud Services-pijplijn uit om naar de release van april van [!DNL AEM Guides] as a Cloud Service te upgraden.
 
 ## Compatibiliteitsmatrix
 
-Deze sectie bevat een overzicht van de compatibiliteitsmatrix voor de softwaretoepassingen die worden ondersteund door de release van [!DNL AEM Guides] as a Cloud Service april 2022.
+Deze sectie bevat een overzicht van de compatibiliteitsmatrix voor de softwaretoepassingen die worden ondersteund door de release van [!DNL AEM Guides] as a Cloud Service April 2022.
 
 ### FrameMaker en FrameMaker Publishing Server
 
@@ -49,7 +49,7 @@ Er zijn veel verbeteringen en nieuwe functies toegevoegd aan de webeditor:
 
 Een DITA inhoudsbelangrijkste verwijzing neemt een deel van inhoud van één onderwerp in een andere op. Er wordt een toets gebruikt om de inhoud te zoeken. De belangrijkste verwijzingen verbonden aan een onderwerp DITA moeten worden opgelost. De geselecteerde hoofdmap heeft de hoogste prioriteit om toetsverwijzingen op te lossen.
 
-![&#x200B; dialoog van gebruikersvoorkeur &#x200B;](assets/user-preferences.png)
+![ dialoog van gebruikersvoorkeur ](assets/user-preferences.png)
 
 Nu worden de belangrijkste verwijzingen opgelost op basis van de wortelkaart die in de volgende orde van prioriteit wordt geplaatst:
 
@@ -67,13 +67,13 @@ Nu kunt u een aangepast deelvenster toevoegen in het linkerdeelvenster van de we
 
 Nu kunt u de documentstaat van geselecteerde onderwerpen binnen een kaart gemakkelijk veranderen DITA. U kunt de eigenschappen van geselecteerde onderwerpen in een kaart DITA van het **Meer menu van Opties** bij de bodem van het paneel van de Mening van de Kaart ook openen en uitgeven.
 
-![&#x200B; geselecteerde onderwerpeigenschappen &#x200B;](assets/map-view-properties.png)
+![ geselecteerde onderwerpeigenschappen ](assets/map-view-properties.png)
 
 ### Versiegegevens die worden weergegeven in de modus Voorbeeld
 
 De Redacteur van het Web helpt u in het beheren van uw versies. Nu kunt u de versie van het actieve onderwerp of kaart DITA in de hoogste juiste hoek van het het dossierlusje van het onderwerp op de wijze van de Voorproef van een onderwerp ook zien.
 
-![&#x200B; voorproefversie &#x200B;](assets/preview-version.png)
+![ voorproefversie ](assets/preview-version.png)
 
 ## Opgeloste problemen
 
@@ -86,21 +86,21 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 * Zoeken terwijl u typt, leidt tot ongewenste zoekverzoeken in de weergave Opslag. 9307
 * Problemen treden op wanneer een trefwoord wordt gebruikt in de titel voor tab. 9318
 * Basislijn mislukt bij het toevoegen van een label met spaties. 9362
-* AEM site-uitvoer geeft het glossusage-element niet correct weer. 8936
+* Bij uitvoer op de AEM-site wordt het glansingselement niet correct weergegeven. 8936
 * De fout van de console komt bij het openen van het **lusje van de Output** in de Redacteur van het Web voor. 8715
 * Foutbericht dat wordt weergegeven bij het publiceren van een handmatig recordtype via Salesforce is niet intuïtief. 8952
 * De instelling Valideren met voorwaardenkenmerken wordt niet onmiddellijk geopend. De gebruiker moet het bestand opnieuw openen om de validaties te kunnen zien. 9300
 * Metagegevens kunnen niet worden verwijderd als een DITA-kaart met metagegevens is gepubliceerd.  (9178)
 * Het deelvenster Vertaling is zelfs zichtbaar bij het openen van de DITA-kaart in de Kaarteditor. 9053
 * Aangepaste DTD die door de gebruiker is gedefinieerd, heeft geen voorrang op standaard-DITA DTD die is ingesloten in DITA-OT. (9104)
-* In de functie Native PDF mislukt het uploaden van de sjablonen voor niet-DITA- en niet-afbeeldingsbestanden. 9070
+* In de functie Native PDF mislukt het uploaden in de sjablonen voor niet-DITA- en niet-afbeeldingsbestanden. 9070
 * Het mechanisme van de vergunning voert twee vragen in plaats van één uit, in sommige gespecialiseerde scenario&#39;s. (9221)
-* Het publiceren van de AEM-site mislukt bij het gebruik van aangepaste DTD. 9243
-* Met de voetnoot &#39;Bij gebruik naar referentie&#39; wordt niet naar de voetnootsectie in AEM site-uitvoer geschoven. 9234
+* Het publiceren van de uitvoer van de AEM-site mislukt bij het gebruik van aangepaste DTD. 9243
+* Met de voetnoot &#39;Bij gebruik naar referentie&#39; wordt niet naar de voetnootsectie in de AEM-site-uitvoer geschoven. 9234
 
 ## Bekende problemen
 
-Adobe heeft het volgende bekende probleem geïdentificeerd in de release van [!DNL AEM Guides] as a Cloud Service april.
+Adobe heeft het volgende bekende probleem geïdentificeerd in de release van [!DNL AEM Guides] as a Cloud Service April.
 
 * De Redacteur van het Web meldt geen fout wanneer twee of meer basislijnen met de zelfde naam worden gecreeerd maar ruimte of gevalverschillen hebben. Bijvoorbeeld &quot;adobe&quot; en &quot;Adobe &quot; of &quot;Adobe&quot;.
 * De zuurstofaansluiting loopt af en toe vast tijdens het frequent aanmelden of afmelden of schakelen tussen verschillende verificatietypen.

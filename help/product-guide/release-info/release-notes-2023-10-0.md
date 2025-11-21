@@ -4,7 +4,7 @@ description: Meer informatie over de opgeloste problemen en hoe u een upgrade ui
 exl-id: 536d2ec2-31a0-4533-9c29-16a27525acca
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1045'
 ht-degree: 0%
@@ -13,21 +13,21 @@ ht-degree: 0%
 
 # Release van Adobe Experience Manager Guides as a Cloud Service in oktober 2023
 
-Deze versienota behandelt de verbeteringsinstructies, verenigbaarheidsmatrijs, en kwesties die in versie Oktober 2023 van Adobe Experience Manager Guides worden bevestigd (later die als *wordt bedoeld AEM Guides as a Cloud Service*).
+Deze versienota behandelt de verbeteringsinstructies, verenigbaarheidsmatrijs, en kwesties die in versie Oktober 2023 van Adobe Experience Manager Guides (later als *worden bedoeld as a Cloud Service van AEM Guides*) worden bevestigd.
 
-Voor meer informatie over de nieuwe eigenschappen en de verhogingen, zie [&#x200B; wat in de versie van Oktober 2023 van AEM Guides as a Cloud Service &#x200B;](whats-new-2023-10-0.md) nieuw is.
+Voor meer informatie over de nieuwe eigenschappen en de verhogingen, zie [ wat in de versie van Oktober 2023 van AEM Guides as a Cloud Service ](whats-new-2023-10-0.md) nieuw is.
 
 ## Upgrade naar oktober 2023
 
 Voer de volgende stappen uit om uw huidige AEM Guides as a Cloud Service-installatie bij te werken:
 
-1. Controle uit de code van Git van Cloud Servicen en schakelaar aan de tak die in de pijpleiding van Cloud Servicen wordt gevormd die aan het milieu beantwoordt dat u wilt bevorderen.
-2. Werk de eigenschap `<dox.version>` in het `/dox/dox.installer/pom.xml` -bestand van de Git-code van de Cloud Service bij naar 2023.10.0.373.
-3. Leg de wijzigingen vast en voer de pijplijn met Cloud Servicen uit om te upgraden naar de release van AEM Guides as a Cloud Service in oktober 2023.
+1. Bekijk de Git-code van Cloud Services en schakel over naar de vertakking die is geconfigureerd in de Cloud Services-pijplijn die overeenkomt met de omgeving die u wilt upgraden.
+2. Werk de eigenschap `<dox.version>` in het `/dox/dox.installer/pom.xml` -bestand van de Git-code voor Cloud Services bij naar 2023.10.0.373.
+3. Leg de wijzigingen vast en voer de Cloud Services-pijplijn uit om naar de release van oktober 2023 van AEM Guides as a Cloud Service te upgraden.
 
 ## Stappen om de trigger van een script via een servlet in te schakelen
 
-(Alleen als u een versie hebt die ouder is dan de release van AEM Guides as a Cloud Service in juni 2023)
+(Alleen als u een versie hebt die ouder is dan de release van AEM Guides as a Cloud Service van juni 2023)
 
 Nadat u de installatie hebt voltooid, kunt u ervoor kiezen om de trigger te HIT om de vertaaltaak te starten:
 
@@ -62,31 +62,31 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 ## Stappen om de bestaande inhoud te posten om het verbroken koppelingsrapport te gebruiken
 
-(Alleen als u een versie hebt die ouder is dan de release van AEM Guides as a Cloud Service in juni 2023)
+(Alleen als u een versie hebt die ouder is dan de release van AEM Guides as a Cloud Service van juni 2023)
 
 Voer de volgende stappen uit voor de nabewerking van de bestaande inhoud en het gebruik van het nieuwe verbroken koppelingsrapport:
 
 1. (Optioneel) Als er zich meer dan 100.000 DITA-bestanden in het systeem bevinden, werkt u `queryLimitReads` under `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` bij tot een hogere waarde (een waarde die groter is dan het aantal aanwezige elementen, bijvoorbeeld 200.000) en herstelt u deze vervolgens.
 
-   - Gebruik de instructies die in de *sectie van de Configuratie worden gegeven met voeten treedt* in installeer en vorm as a Cloud Service Adobe Experience Manager Guides, om het configuratiedossier tot stand te brengen.
+   - Gebruik de instructies die in de *sectie van de Configuratie worden gegeven met voeten treedt* in installeer en vorm Adobe Experience Manager Guides as a Cloud Service, om het configuratiedossier tot stand te brengen.
    - In het configuratiedossier, verstrek de volgende (bezit) details om de queryLimitReads optie te vormen:
 
      | PID | Eigenschappensleutel | Waarde van eigenschap |
      |---|---|---|
      | org.apache.jackrabbit.oak.query.QueryEngineSettingsService | queryLimitReads | Waarde: 200000 Standaardwaarde: 100000 |
 
-1. Voer een verzoek van de POST op de server uit (met correcte authentificatie) - `http://<server:port>//bin/guides/reports/upgrade`.
+1. Voer een POST-aanvraag uit op de server (met correcte verificatie) - `http://<server:port>//bin/guides/reports/upgrade` .
 
-1. De API retourneert een jobId. Als u de status van de taak wilt controleren, kunt u een aanvraag voor een GET met taak-id naar hetzelfde eindpunt verzenden - `http://<server:port>/bin/guides/reports/upgrade?jobId= {jobId}`
+1. De API retourneert een jobId. Als u de status van de taak wilt controleren, kunt u een GET-aanvraag met taak-id naar hetzelfde eindpunt verzenden - `http://<server:port>/bin/guides/reports/upgrade?jobId= {jobId}`
 (Bijvoorbeeld: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
-1. Zodra de baan wordt voltooid, antwoordt het vorige verzoek van de GET met succes. Als de taak om een of andere reden mislukt, kan de fout worden gezien in serverlogboeken.
+1. Zodra de taak is voltooid, reageert het vorige GET-verzoek met succes. Als de taak om een of andere reden mislukt, kan de fout worden gezien in serverlogboeken.
 
 1. Keer terug naar de standaardwaarde of vorige bestaande waarde van `queryLimitReads` als u deze in stap 1 hebt gewijzigd.
 
 ## Stappen om de bestaande inhoud te indexeren om de nieuwe zoek- en vervangings- en onderwerpenlijst onder het tabblad Rapporten te gebruiken:
 
-(Alleen als u een versie hebt die ouder is dan de release van AEM Guides as a Cloud Service in juni 2023)
+(Alleen als u een versie hebt die ouder is dan de release van AEM Guides as a Cloud Service van juni 2023)
 
 Voer de volgende stappen uit om de bestaande inhoud te indexeren en de nieuwe vondst en vervangt tekst op kaartniveau en onderwerpenlijst onder het rapportlusje te gebruiken:
 
@@ -94,14 +94,14 @@ Voer de volgende stappen uit om de bestaande inhoud te indexeren en de nieuwe vo
 
 1. U kunt ook een hoofdmap doorgeven om de DITA-kaarten van een specifieke map (en de bijbehorende submappen) te indexeren. Bijvoorbeeld `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test` . Wanneer zowel de parameter paths als de hoofdparameter worden doorgegeven, wordt alleen de parameter paths gebruikt.
 
-1. De API retourneert een jobId. Als u de status van de taak wilt controleren, kunt u een aanvraag van een GET met taak-id naar hetzelfde eindpunt verzenden - `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(bijvoorbeeld: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
+1. De API retourneert een jobId. Als u de status van de taak wilt controleren, kunt u een GET-aanvraag met taak-id naar hetzelfde eindpunt verzenden - `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(bijvoorbeeld: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
 
 
-1. Zodra de baan wordt voltooid, antwoordt het vorige verzoek van de GET met succes en vermeld als om het even welke kaarten ontbrak. De met succes geïndexeerde kaarten kunnen van de serverlogboeken worden bevestigd.
+1. Nadat de taak is voltooid, reageert het vorige GET-verzoek met succes en wordt vermeld of kaarten zijn mislukt. De met succes geïndexeerde kaarten kunnen van de serverlogboeken worden bevestigd.
 
 ## Compatibiliteitsmatrix
 
-Deze sectie bevat een overzicht van de compatibiliteitsmatrix voor de softwaretoepassingen die worden ondersteund door de AEM Guides as a Cloud Service oktober 2023-release.
+Deze sectie bevat een overzicht van de compatibiliteitsmatrix voor de softwaretoepassingen die worden ondersteund door de AEM Guides as a Cloud Service-release van oktober 2023.
 
 ### FrameMaker en FrameMaker Publishing Server
 
@@ -116,7 +116,7 @@ Deze sectie bevat een overzicht van de compatibiliteitsmatrix voor de softwareto
 | AEM Guides als Cloud Release | Oxygeenaansluiting, Windows | Oxygeenconnector Mac | Bewerken in Oxygen Windows | Bewerken in Oxygen Mac |
 | --- | --- | --- | --- | --- |
 | 2023 10,0 | 3.2-uuid 5 | 3.2-uuid 5 | 2,3 | 2,3 |
-|  |  |  |  |
+|  |  |  |  |  |
 
 
 ### Versie van basissjabloon
@@ -139,11 +139,11 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 
 ### Publiceren
 
-- Native PDF | De orde van de onderwerpen is niet vast wanneer de output van de PDF wordt geproduceerd. 13157
+- Oorspronkelijke PDF | De volgorde van de onderwerpen is niet vast wanneer de PDF-uitvoer wordt gegenereerd. 13157
 - Oorspronkelijke PDF| Geen standaardstijlmarkering is beschikbaar voor `<p>` element. (12559)
-- Native PDF | Inline stijlen die worden toegepast op het inhoudsgebied, worden niet toegepast op de onderwerpen voor- en achtermaterie. 13510
-- Het kenmerk `DeliveryTarget` wordt niet doorgegeven bij het genereren van de AEM Site-uitvoer.  13132
-- Het **Publish** werkschema wordt geplakt terwijl het produceren van AEM output van de Plaats voor inhoud met bepaalde fouten. 12000
+- Oorspronkelijke PDF | Inline stijlen die worden toegepast op het inhoudsgebied, worden niet toegepast op de onderwerpen voor- en achtermaterie. 13510
+- Het kenmerk `DeliveryTarget` wordt niet doorgegeven bij het genereren van de uitvoer van de AEM-site.  13132
+- Het **publiceer** werkschema wordt geplakt terwijl het produceren van de output van de Plaats van AEM voor inhoud met bepaalde fouten. 12000
 
 ### Beheer
 
@@ -164,6 +164,6 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 
 ## Bekend probleem
 
-Adobe heeft de volgende bekende kwestie voor de release van oktober 2023 geïdentificeerd.
+Adobe heeft het volgende bekende probleem voor de release van oktober 2023 geïdentificeerd.
 
 - Opnieuw publiceren van inhoudsfragment mislukt.

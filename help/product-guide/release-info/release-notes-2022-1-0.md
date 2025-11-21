@@ -4,25 +4,25 @@ description: De versie van januari van  [!DNL Adobe Experience Manager Guides]  
 exl-id: b2da77fa-f17c-440b-be59-acaafcd9a57c
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '2441'
+source-wordcount: '2440'
 ht-degree: 0%
 
 ---
 
-# Release van januari [!DNL Adobe Experience Manager Guides] as a Cloud Service
+# Release januari van [!DNL Adobe Experience Manager Guides] as a Cloud Service
 
 ## Upgrade naar de release van januari
 
-Voer de volgende stappen uit om de huidige [!DNL Adobe Experience Manager Guides] as a Cloud Service instelling (later [!DNL AEM Guides] as a Cloud Service genoemd) bij te werken:
-1. Controle uit de code van Git van Cloud Servicen en schakelaar aan de tak die in de pijpleiding van Cloud Servicen wordt gevormd die aan het milieu beantwoordt u wilt bevorderen.
-1. Werk de eigenschap `<dox.version>` in het `/dox/dox.installer/pom.xml` -bestand van de Git-code van de Cloud Service bij naar 202.1.78.
-1. Leg de wijzigingen vast en voer de pijplijn met Cloud Servicen uit om naar de release van januari van [!DNL AEM Guides] as a Cloud Service te upgraden.
+Voer de volgende stappen uit om uw huidige installatie van [!DNL Adobe Experience Manager Guides] as a Cloud Service (later ook wel [!DNL AEM Guides] as a Cloud Service genoemd) te upgraden:
+1. Bekijk de Git-code van Cloud Services en schakel over naar de vertakking die is geconfigureerd in de Cloud Services-pijplijn die overeenkomt met de omgeving die u wilt upgraden.
+1. Werk de eigenschap `<dox.version>` in het `/dox/dox.installer/pom.xml` -bestand van de Git-code voor Cloud Services bij naar 202.1.78.
+1. Leg de wijzigingen vast en voer de Cloud Services-pijplijn uit om naar de release van januari van [!DNL AEM Guides] as a Cloud Service te upgraden.
 
 ## Compatibiliteitsmatrix
 
-Deze sectie bevat een overzicht van de compatibiliteitsmatrix voor de softwaretoepassingen die worden ondersteund door de release van [!DNL AEM Guides] as a Cloud Service januari 2022.
+Deze sectie bevat een overzicht van de compatibiliteitsmatrix voor de softwaretoepassingen die worden ondersteund door de release van [!DNL AEM Guides] as a Cloud Service January 2022.
 
 ### FrameMaker en FrameMaker Publishing Server
 
@@ -37,7 +37,7 @@ Deze sectie bevat een overzicht van de compatibiliteitsmatrix voor de softwareto
 | [!DNL AEM Guides] Cloud Release | Oxygeenaansluiting, Windows | Oxygeenconnector Mac | Bewerken in Oxygen Windows | Bewerken in Oxygen Mac |
 | --- | --- | --- | --- | --- |
 | 2022,1,0 | 2.4.0. | 2.4.0. | 2,2 | 2,2 |
-|  |  |  |  |  |
+|  |  |  |  |  |  |
 
 
 ## Nieuwe en verbeterde functies
@@ -48,9 +48,9 @@ Met de versie van Januari, hebben wij een op artikel-gebaseerde het publiceren e
 
 Deze eigenschap staat de gebruikers toe om de kaart DITA op een additieve manier te bouwen en onderwerpen te publiceren aangezien en wanneer zij klaar zijn. Zodra u uw kaart hebt gepubliceerd, gebruikt u de op artikel gebaseerde publicatiefunctie om alleen voor de bijgewerkte artikelen incrementele publicaties te maken.
 
-![&#x200B; Op artikel-gebaseerde het publiceren &#x200B;](assets/article-based-publishing.png)
+![ Op artikel-gebaseerde het publiceren ](assets/article-based-publishing.png)
 
-Naast AEM kunt u deze unieke functie gebruiken om uw artikelen te publiceren naar alle bekende portalen zoals Salesforce. Deze functie wordt ook geleverd met een sjabloon voor OOTB-inhoud, die is gebaseerd op AEM kerncomponenten, waarmee u een op kennis gebaseerde opslagplaats voor de technische inhoud kunt maken. Wat geweldig is aan deze sjabloon, is dat deze volledig aanpasbaar is aan uw organisatorische vereisten en ook ondersteuning biedt voor gebruiksgevallen zoals intranetportalen van bedrijven.
+Naast AEM kunt u deze unieke functie gebruiken om uw artikelen te publiceren naar alle bekende portalen, zoals Salesforce. Deze functie wordt ook geleverd met een sjabloon voor OOTB-inhoud, die is gebaseerd op AEM-kerncomponenten en waarmee u een op kennis gebaseerde opslagplaats voor de technische inhoud kunt maken. Wat geweldig is aan deze sjabloon, is dat deze volledig aanpasbaar is aan uw organisatorische vereisten en ook ondersteuning biedt voor gebruiksgevallen zoals intranetportalen van bedrijven.
 U kunt de artikelen ook filteren op basis van de documentstatus en de gewijzigde tijd.
 
 Dit op behoefte-gebaseerde op artikel het publiceren van onderweg geeft u niet alleen volledige controle over uw inhoud het publiceren, maar vermindert ook de algemene tijd om uw bijgewerkte inhoud te publiceren.
@@ -63,29 +63,29 @@ Er zijn veel verhogingen en nieuwe eigenschappen die in de Redacteur van het Web
 
 * De steun voor onderwerpregeling is ook toegevoegd in de Redacteur van het Web. U kunt nu een onderwerpschema maken en gebruiken via het venster Onderwerpschema. Met de toevoeging van onderwerpschema, kunt u eigen collectieve meta-gegevens en taxonomie nu gebruiken.
 
-![&#x200B; Onderwerpregeling &#x200B;](assets/subject-scheme-panel.png)
+![ Onderwerpregeling ](assets/subject-scheme-panel.png)
 
 * Deze versie bevat een nieuw hulpprogramma voor woordenlijsten en hotspots voor het beheer van woordenlijsten. Met dit gereedschap kunt u snel tekst omzetten in een verklarende woordenlijst en een verklarende woordenlijst in termen die bulksgewijs worden gebruikt voor een geselecteerde kaart of open onderwerpen.
 
-![&#x200B; Verklarende woordenlijst hotspot &#x200B;](assets/glossary-hotspot-tool.png)
+![ Verklarende woordenlijst hotspot ](assets/glossary-hotspot-tool.png)
 
 * Functionaliteit voor vernieuwen is toegevoegd in het deelvenster Herbruikbare inhoud, waarmee u de herbruikbare inhoud in referentiebestanden snel kunt vernieuwen.
 * De nieuwe het werk exemplaarindicator toont u of uw huidig (werkende exemplaar) van dossier met de bewaarde versie of niet synchroon is.
 
-![&#x200B; de indicator van de Versie &#x200B;](assets/version-update-indicator.png)
+![ de indicator van de Versie ](assets/version-update-indicator.png)
 
 * Het zoekfilter in het deelvenster Opslag en het dialoogvenster Bladeren van bestanden is verbeterd en biedt nu meer filteropties die u verder kunt aanpassen.
 
-![&#x200B; filters van het Onderzoek in bewaarplaats &#x200B;](assets/repository-filter-search.png)
+![ filters van het Onderzoek in bewaarplaats ](assets/repository-filter-search.png)
 
 * U kunt .docx dossiers van de Redacteur van het Web nu uploaden.
 
 ### Auteur met FrameMaker
 
-Nu kunt u documenten ontwerpen en publiceren in FrameMaker. FrameMaker wordt geleverd met een out-of-the-box aansluiting op Adobe Experience Manager. In de FrameMaker krijgt u een gebruiksvriendelijke interface waarmee u versies van uw documenten kunt onderhouden in een gedistribueerde omgeving met samenwerking.
+Nu kunt u documenten ontwerpen en publiceren in FrameMaker. FrameMaker wordt geleverd met een out-of-the-box aansluiting op Adobe Experience Manager. In FrameMaker beschikt u over een gebruiksvriendelijke interface waarmee u versies van uw documenten kunt onderhouden in een gedistribueerde omgeving waarin u kunt samenwerken.
 
-Nadat u de inhoud hebt gemaakt, kunt u met FrameMaker uw documenten in verschillende indelingen publiceren: PDF, HTML,5, EPUB en DITA. U kunt ook de verschillende bestandsbeheerbewerkingen uitvoeren, zoals uitchecken, uitchecken met afhankelijke personen, inchecken, vernieuwen enzovoort.
-Naar auteur met FrameMaker in [!DNL AEM Guides] as a Cloud Service versie van de FrameMaker 2020.4 en hoger.
+Nadat u de inhoud hebt gemaakt, kunt u in FrameMaker uw documenten in verschillende indelingen publiceren: PDF, HTML5, EPUB en DITA. U kunt ook de verschillende bestandsbeheerbewerkingen uitvoeren, zoals uitchecken, uitchecken met afhankelijke personen, inchecken, vernieuwen enzovoort.
+Als u in [!DNL AEM Guides] as a Cloud Service met FrameMaker wilt ontwerpen, gebruikt u FrameMaker versie 202.4 en hoger.
 
 ### Nieuw vertaaldashboard
 
@@ -97,39 +97,39 @@ Een nieuw vertaaldashboard is geïntroduceerd in de Redacteur van het Web met de
 * Er is een meertalig vertaalmechanisme geïntroduceerd om te voorkomen dat er meerdere projecten voor elke taal worden gemaakt wanneer een vertaalaanvraag voor meer dan één taal wordt ingediend.
 * Introduceerde een configuratie om het vertaallusje in kaartdashboard te verbergen. Standaard is deze zichtbaar. U kunt ervoor kiezen om inhoud te vertalen met behulp van het kaartdashboard of de webeditor.
 
-![&#x200B; Vertaal dashboard &#x200B;](assets/translation-from-web-editor.png)
+![ Vertaal dashboard ](assets/translation-from-web-editor.png)
 
 ### Verbeterde publicatie
 
-* Auteurs kunnen nu metagegevens op kaart- en onderwerpniveau doorgeven aan DITA-OT-publicaties. Dit is handig wanneer aangepaste PDF-sjablonen zijn ontworpen voor het gebruik van eigenschappen van bestandsmetagegevens, zoals tags, auteur, documentstatus en meer.
+* Auteurs kunnen nu metagegevens op kaart- en onderwerpniveau doorgeven aan DITA-OT-publicaties. Dit is handig wanneer aangepaste PDF-sjablonen zijn ontworpen voor het gebruik van eigenschappen van metagegevens voor bestanden, zoals tags, auteur, documentstatus en meer.
 
-![&#x200B; meta-gegevens DITA-OT &#x200B;](assets/custom-meta-data-output-preset.png)
+![ meta-gegevens DITA-OT ](assets/custom-meta-data-output-preset.png)
 
-* Een nieuwe configuratie is toegevoegd om gebruikers toe te staan om de versies van de onderwerpen te behouden of te schrappen die worden geschrapt wanneer **schrapping en creeer** optie wordt gebruikt in de de outputgeneratie van de AEM.
+* Een nieuwe configuratie is toegevoegd om gebruikers toe te staan om de versies van de onderwerpen te behouden of te schrappen die worden geschrapt wanneer **schrapping en creeer** optie in de de outputgeneratie van de Plaats van AEM wordt gebruikt.
 
 ### Verbeterde bestandsafhandeling
 
 De volgende verbeteringen zijn nu zichtbaar tijdens het werken met bestanden in AEM Assets:
 * Er is een nieuwe ervaring met het uploaden van bestanden en een nieuwe dialoog geïntroduceerd om een strategie voor het oplossen van conflicten te kiezen.
 
-![&#x200B; het uploadconflict van het Dossier &#x200B;](assets/file-upload-name-conflict.png)
+![ het uploadconflict van het Dossier ](assets/file-upload-name-conflict.png)
 
 * Mogelijkheid om een nieuwe versie van het geüploade bestand te maken met de mogelijkheid te voorkomen dat een uitgecheckt bestand wordt overschreven.
 * Nu kunt u een voorvertoning van afbeeldingen direct bekijken in de weergave Versiehistorie. Ook, voor DITA en niet-DITA- dossiers, toont de Geschiedenis van de Versie de huidige versieinformatie afzonderlijk.
 
-![&#x200B; de geschiedenisduimnagel van de Versie &#x200B;](assets/version-history-preview-image.png)
+![ de geschiedenisduimnagel van de Versie ](assets/version-history-preview-image.png)
 
-* Telkens wanneer de gebruiker een DITA-bestand maakt, wordt de standaardbestandsnaam in kleine letters weergegeven om inline te zijn met het scenario dat de map Native AEM maakt.
+* Telkens wanneer de gebruiker een DITA-bestand maakt, wordt de standaardbestandsnaam in kleine hoofdletters weergegeven om in overeenstemming te zijn met het scenario voor het maken van de Native AEM-map.
 
 ### Nieuwe functie voor exporteren van rapport
 
-Rapporten zijn zeer nuttig om de gezondheid van uw inhoud te identificeren. [!DNL AEM Guides] as a Cloud Service biedt verschillende rapporten die controle kunnen verkrijgen over uw inhoud. Nu, kunt u niet alleen de rapporten bekijken, maar ook de rapportgegevens in een Csv- dossier naar mening en met uw groter team delen. Rapportgegevens kunnen u een kort overzicht geven van verbroken koppelingen of ontbrekende afbeeldingen.
+Rapporten zijn zeer nuttig om de gezondheid van uw inhoud te identificeren. [!DNL AEM Guides] as a Cloud Service geeft verschillende rapporten om de controle over uw inhoud te krijgen. Nu, kunt u niet alleen de rapporten bekijken, maar ook de rapportgegevens in een Csv- dossier naar mening en met uw groter team delen. Rapportgegevens kunnen u een kort overzicht geven van verbroken koppelingen of ontbrekende afbeeldingen.
 
-![&#x200B; de uitvoer van het Rapport &#x200B;](assets/export-report.png)
+![ de uitvoer van het Rapport ](assets/export-report.png)
 
 ### Verbeterde Oxygen DAM-vernieuwingservaring
 
-Wanneer u bestanden vernieuwt van AEM Server in Oxygen, wordt een waarschuwingsbericht weergegeven als u niet-opgeslagen bestanden in uw huidige Zuurstofsessie hebt. U kunt desgewenst de vernieuwingsbewerking annuleren om niet-opgeslagen bestanden op te slaan. Zonder deze functie verloren gebruikers niet-opgeslagen gegevens in hun documenten.
+Wanneer u bestanden vernieuwt vanaf AEM Server in Oxygen, wordt een waarschuwingsbericht weergegeven als u niet-opgeslagen bestanden in de huidige Zuurstofsessie hebt. U kunt desgewenst de vernieuwingsbewerking annuleren om niet-opgeslagen bestanden op te slaan. Zonder deze functie verloren gebruikers niet-opgeslagen gegevens in hun documenten.
 
 
 ### Overige functieverbeteringen
@@ -151,22 +151,22 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 * Ph-conref die in een tabelcel wordt toegevoegd, wordt in rode kleur weergegeven. 8083
 * Koppelingen in de controletaak worden niet bijgewerkt wanneer de te controleren bestanden worden verplaatst. 8080
 * De Redacteur van het Web geeft correct geen beelden terug die het schrapen bezit geplaatst aan 75% of hoger hebben. 8073
-* Afbeeldingen van GIFFEN worden als statische afbeeldingen gerenderd in de webeditor. 8024
+* GIF-afbeeldingen worden als statische afbeeldingen gerenderd in de webeditor. 8024
 * Een conkeyref in een nota-element wordt niet getoond in de voorproef van de Redacteur van het Web of in de output. 8006
 * xref naar een element dat zelf een conref is wordt niet opgelost in de redacteur. (7933)
 * Titel met sleutel wordt niet correct weergegeven in de voorvertoning van de editor en in het deelvenster Opslagplaats. 7909
 * Fragmenten met speciale tekens worden niet correct opgeslagen. 7908
-* Het opslaan van een onderwerp na het formatteren van vergelijkingen MathML resulteert in een fout. 7954
-* keydef (tm) wordt niet correct teruggegeven in de redacteur en de AEM plaatsuitvoer bevatte dubbele symbolen TM. 7859
+* Het opslaan van een onderwerp na het formatteren van de vergelijkingen van MathML resulteert in een fout. 7954
+* keydef (tm) wordt niet correct weergegeven in de editor en de AEM-site-uitvoer bevat dubbele TM-symbolen. 7859
 * Het slepen en neerzetten van een fragment werkt niet volgens de DTD&#39;s. 7758
-* HTML negeert aangepaste, gedefinieerde afmetingen voor afbeeldingen. 7718
+* HTML negeert aangepaste gedefinieerde afmetingen voor afbeeldingen. 7718
 * conrefend-kenmerk wordt niet bijgewerkt wanneer het bronbestand wordt verplaatst. 7698
 * Het werken met het onderwerptypedocumenten van de Verwijzing leidt tot verscheidene kwesties UI. 7656
 * DITAVAL-bestanden worden niet weergegeven wanneer de auteur ditavalref toevoegt aan een kaart. 7594
 * Onverwachte ruimte wordt gevonden in elk leeg `<entry>` -element wanneer het attribuut outputclass wordt toegevoegd aan het `<tgroup>` -element. 7532
 * De knop Source werkt niet voor onderwerpen die worden geopend via het dashboard voor kaarten. 7465
-* Bij de mooie afdruk worden lege regels en spaties ingevoegd die zichtbaar zijn wanneer het bestand wordt geopend in FrameMaker of Zuurstof. 7408
-* Kaarten met href=&quot;/&quot; in een van de onderwerpen publiceren niet op AEM sites. 7405
+* Bij vrij afdrukken worden lege regels en spaties ingevoegd die zichtbaar zijn wanneer het bestand wordt geopend in FrameMaker of oxygen. 7408
+* Kaarten met href=&quot;/&quot; in een van de onderwerpen publiceren niet op AEM-sites. 7405
 * De kwesties van prestaties die in de redacteur worden gevonden wanneer de wortelkaart groot aantal keydefs heeft. 7400
 * De documentstatus voor een kaart met een aangepaste sjabloon wordt niet overgenomen van het corresponderende statusprofiel. 7359
 * `<tm>` -element onjuist weergegeven als een blokelement. 7286
@@ -187,7 +187,7 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 
 * Bestanden waarvan de bovenliggende map speciale tekens bevat, geven een fout weer bij het laden in oxygen. 8054
 * Wanneer een nieuw gecreeerd document in Zuurstof wordt geopend, het &quot;kan GUID&quot;fout vinden. 7856
-* De optie Inchecken is uitgeschakeld nadat het bestand is uitgecheckt uit AEM met Bewerken in zuurstof. (7471)
+* De optie Inchecken is uitgeschakeld nadat het bestand uit AEM is uitgecheckt met Bewerken in zuurstof. (7471)
 
 
 ### Controleren
@@ -197,7 +197,7 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 ### Kaartdashboard
 
 * Kan conref-inhoud niet zien in de titel van een onderwerp in de onderwerpen of rapporten van het kaartdashboard. 8263
-* AEM Sites-uitvoer | jcr:titel van de gegenereerde sitepagina wordt niet bijgewerkt wanneer de titel van het DITA-onderwerp wordt bijgewerkt. 8131
+* AEM Sites-uitvoer | jcr :title van de geproduceerde plaatspagina werkt niet bij wanneer DITA onderwerptitel wordt bijgewerkt. 8131
 * Met MAP downloaden worden de videobestanden die in de onderwerpen worden gebruikt, niet gedownload. 8070
 * Mediabestanden worden niet gedownload wanneer de objecttag wordt gebruikt via de API voor het downloaden van bladwijzers. 8057
 * Het onjuiste rapport wordt getoond in het lusje van Rapporten als om het even welk onderwerp conref aan dossier heeft waarvan titel met conref begint. 4698
@@ -216,9 +216,9 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 * Paginatitel wordt niet gebruikt voor het genereren van URL-uitvoerbestanden, ook al is die instelling ingeschakeld. 8257
 * Basislijnpublicatie kiest de huidige versie van de afbeeldingen in plaats van het bevroren knooppunt. Dit wordt ook weergegeven als een afbeelding spatie of speciale tekens in de bestandsnaam bevat. (8274, 832)
 * Incrementeel publiceren mislukt voor DITA-kaart met hoofdletteronderwerpregeling. 8218)
-* Null wordt toegevoegd wanneer een kaart wordt toegevoegd aan het Bulk Publish-dashboard. 8695
+* Null wordt toegevoegd wanneer een kaart wordt toegevoegd aan het dashboard voor bulkpublicaties. 8695
 * Bij het gebruiken van basislijnpubliceren met beeld als conref in het onderwerp, wordt het beeld niet gepubliceerd in de output. 8564
-* Publiceren mislukt, met een uitzondering als de basislijn die wordt gebruikt in AEM publicatie van de site wordt verwijderd. 8572
+* Publiceren mislukt, met een uitzondering als de basislijn die wordt gebruikt in AEM-sitepublicaties, wordt verwijderd. 8572
 * De regeneratie van onderwerpen werkt niet. 8091
 * Er zijn problemen met het publiceren van voetnoten in tabellen. 4709
 
@@ -238,12 +238,12 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 
 * HTML naar DITA-conversie | Tabel met &#39;tr&#39; met lege &#39;td&#39;-items veroorzaakt extra rijen in de uitvoer. 8132
 * HTML naar DITA-conversie | HTML met een tabel met meerdere hoofdletters mislukt, met uitzondering van de tabel. 7940
-* HTML naar DITA-conversie | fouten uit als bron HTML opmerkingen heeft. 7937
+* HTML naar DITA-conversie | fouten worden weergegeven als de bron-HTML opmerkingen heeft. 7937
 * Het importeren van DITA 1.3 DITA-bestanden zorgt ervoor dat sommige href wordt getransformeerd naar onjuist gevormde koppelingen. 8019
 
 ## Bekende problemen
 
-Adobe heeft de volgende bekende problemen vastgesteld voor de release van [!DNL AEM Guides] as a Cloud Service januari 2022.
+Adobe heeft de volgende bekende problemen geïdentificeerd voor de release van [!DNL AEM Guides] as a Cloud Service January 2022.
 
 
 ### Bekende problemen met tijdelijke oplossing

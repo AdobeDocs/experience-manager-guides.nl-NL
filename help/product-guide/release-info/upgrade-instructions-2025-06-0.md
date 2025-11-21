@@ -1,7 +1,8 @@
 ---
 title: Opmerkingen bij de release | Upgradeinstructies en opgeloste problemen in Adobe Experience Manager Guides, release 2025.06.0
 description: Leer meer over de compatibiliteitsmatrix en hoe u een upgrade uitvoert naar de release van 2025.06.0 van Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 4fab80deeb889c8e370e85d695e971611accf091
+exl-id: 7603af44-7160-44f8-82f0-adf999ecd0d9
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1035'
 ht-degree: 0%
@@ -12,9 +13,9 @@ ht-degree: 0%
 
 Dit artikel behandelt de upgrade-instructies en de compatibiliteitsmatrix voor de release 2025.06.0 van Adobe Experience Manager Guides as a Cloud Service.
 
-Voor meer informatie over de nieuwe eigenschappen en de verhogingen, mening [&#x200B; wat in de versie 2025.06.0 &#x200B;](whats-new-2025-06-0.md) nieuw is.
+Voor meer informatie over de nieuwe eigenschappen en de verhogingen, mening [ wat in de versie 2025.06.0 ](whats-new-2025-06-0.md) nieuw is.
 
-Voor de lijst van kwesties die in deze versie worden bevestigd, mening [&#x200B; Vaste kwesties in de versie 2025.06.0 &#x200B;](fixed-issues-2025-06-0.md).
+Voor de lijst van kwesties die in deze versie worden bevestigd, mening [ Vaste kwesties in de versie 2025.06.0 ](fixed-issues-2025-06-0.md).
 
 ## Compatibiliteitsmatrix
 
@@ -138,7 +139,7 @@ Voer de volgende stappen uit om de bestaande inhoud te indexeren en de nieuwe vo
 
 Experience Manager Guides heeft de module van de a [**douane die herschrijver**](../cs-install-guide/conf-output-generation.md#custom-rewriter) voor de behandeling van de verbindingen in het geval van dwars-kaarten (verbindingen tussen de onderwerpen van twee verschillende kaarten) worden geproduceerd.
 
-Als u nog een aangepaste schrijfbewerking voor tekenreeksen in uw codebase hebt, gebruikt u een `'order'` -waarde groter dan 50, omdat Experience Manager Guides anders `'order'` 50 gebruikt. Als u dit wilt overschrijven, hebt u een waarde > 50 nodig. Voor meer details, mening [&#x200B; Output die pijplijnen herschrijft &#x200B;](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
+Als u nog een aangepaste schrijfbewerking voor tekenreeksen in uw codebase hebt, gebruikt u een `'order'` -waarde groter dan 50, omdat Experience Manager Guides anders `'order'` 50 gebruikt. Als u dit wilt overschrijven, hebt u een waarde > 50 nodig. Voor meer details, mening [ Output die pijplijnen herschrijft ](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
 
 Aangezien de waarde van `'order'` tijdens deze upgrade is gewijzigd van 1000 in 50, moet u eventueel de bestaande aangepaste rewriter samenvoegen met `fmdita-rewriter` .
 

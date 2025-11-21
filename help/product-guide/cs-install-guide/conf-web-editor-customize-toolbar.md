@@ -5,9 +5,9 @@ exl-id: ba82af48-9357-4f29-90ce-6793366ab432
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 5778ed2855287d1010728e689abbe6020ad56574
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '989'
 ht-degree: 0%
 
 ---
@@ -18,12 +18,11 @@ Standaard wordt de webeditor geleverd met de meest voorkomende redactionele func
 
 >[!NOTE]
 >
-> Wanneer u van de oude gebruikersinterface naar de nieuwe gebruikersinterface van AEM Guides migreert (van toepassing vanaf de release van AEM Guides 2502 en 5.0), moeten updates naar `ui_config` worden omgezet in flexibelere en modulaire gebruikersinterfaceconfiguraties. Met dit framework kunt u naadloos wijzigingen aanbrengen in de editor_toolbar en andere doelwidget, indien van toepassing. Voor details, mening [&#x200B; Overzicht van Omzetten UI Config &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+> Wanneer u van de oude gebruikersinterface naar de nieuwe gebruikersinterface van AEM Guides migreert (van toepassing vanaf de release van AEM Guides 2502 en 5.0), moeten updates naar `ui_config` worden omgezet in flexibelere en modulaire gebruikersinterfaceconfiguraties. Met dit framework kunt u naadloos wijzigingen aanbrengen in de editor_toolbar en andere doelwidget, indien van toepassing. Voor details, mening [ Overzicht van Omzetten UI Config ](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 Er zijn twee manieren om de toolbar van de Redacteur van het Web aan te passen:
 
 - Nieuwe functionaliteit toevoegen aan de werkbalk
-
 - Bestaande functies van de werkbalk verwijderen
 
 
@@ -50,19 +49,19 @@ Voer de volgende stappen uit om een eigenschap aan de toolbar van de Redacteur v
 
    **punten**:   Geef de definitie van alle groepen op de werkbalk op. Elke groep kan een of meerdere werkbalkpictogrammen bevatten. Als u pictogrammen in een werkbalkgroep wilt definiëren, moet u het kenmerk `type` opnieuw definiëren in de `items` -sectie en de waarde ervan instellen op `buttonGroup` . Geef een of meer klassenamen op in de eigenschap `extraclass` . Geef de functienaam op in de eigenschap `label` . In het volgende fragment uit het bestand `ui_config.json` wordt de definitie van het hoofdwerkbalkblok weergegeven, gevolgd door de definitie `buttonGroup` :
 
-       &quot;
-        &quot;toolbar&quot;: 
-        &quot;type&quot;: &quot;blockGroup&quot;, 
-        &quot;extraclass&quot;:
-        &quot;toolbarverrichtingen&quot;, 
-        &quot;items&quot;: &lbrack;
-       &lbrace;
-        &quot;type&quot;: &quot;buttonGroup&quot;, 
-        &quot;extraclass&quot;: &quot;left-controls&quot;, 
-        &quot;label&quot;: &quot;Left Controls&quot;, 
-        &quot;items&quot;: &lbrack;
-       &quot;
-   
+   ```
+   "toolbar": {    
+   "type": "blockGroup",    
+   "extraclass": 
+   "toolbar operations",    
+   "items": [      
+   {        
+       "type": "buttonGroup",        
+       "extraclass": "left-controls",        
+       "label": "Left Controls",        
+       "items": [
+   ```
+
    In de `items` -verzameling moet u de definitie voor een of meer werkbalkpictogrammen opgeven.
 
    U moet de volgende eigenschappen definiëren om een werkbalkpictogram toe te voegen:
@@ -77,10 +76,10 @@ Voer de volgende stappen uit om een eigenschap aan de toolbar van de Redacteur v
 
    **on-click**:   Geef de opdrachtnaam op die voor de functie in het JavaScript-bestand is gedefinieerd. Als voor uw opdracht invoerparameters zijn vereist, geeft u de opdrachtnaam op als:
 
-        &quot;JavaScript 
-        &quot;on-click&quot;: {&quot;name&quot;: &quot;AUTHOR_INSERT_ELEMENT&quot;, &quot;args&quot;: &quot;simpletable&quot;} 
-       &quot;
-   
+   ```Javascript
+   "on-click": {"name": "AUTHOR_INSERT_ELEMENT", "args": "simpletable"}
+   ```
+
    **toon of verberg**:   Als u de eigenschap `show` definieert, geeft u de modi op waarin het pictogram wordt weergegeven. Mogelijke waarden zijn - `@isAuthorMode`, `@isSourceMode`, `@isPreviewMode`, `true` \(weergeven in alle modi\) of `false` \(verbergen in alle modi\).
 
    In plaats van `show` kunt u ook de eigenschap `hide` definiëren. De mogelijke waarden zijn gelijk aan die in de eigenschap `show` , met het enige verschil dat het pictogram niet wordt weergegeven voor de opgegeven modus.
@@ -145,4 +144,4 @@ Voer de volgende stappen uit om ongewenste functies van de werkbalk te verwijder
 1. Sparen het {*dossier 0} ui\_config.json en laad de Redacteur van het Web opnieuw.*
 
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; pas de Redacteur van het Web &#x200B;](conf-web-editor.md) aan
+**Bovenliggend onderwerp:**[ pas de Redacteur van het Web ](conf-web-editor.md) aan

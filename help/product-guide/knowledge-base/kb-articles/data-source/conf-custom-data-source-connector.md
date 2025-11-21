@@ -4,7 +4,8 @@ description: Leer hoe te om een douaneschakelaar voor de gegevensbronnen te vorm
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: fdd19363c6768860ffa2f70c934b6f71c811c08b
+exl-id: ef7ab117-7541-4e89-9ba4-22254a17efc0
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1521'
 ht-degree: 0%
@@ -29,10 +30,10 @@ Experience Manager Guides staat u toe om de schakelaars aan uw vereisten aan te 
 
 ## Een connector aanpassen voor Experience Manager Guides {#customize-connector}
 
-U kunt een schakelaar voor een gegevensbron aanpassen of vormen gebruikend de vooraf bepaalde interfaces en abstracte klassen. De volledige broncode is beschikbaar in [&#x200B; https://github.com/adobe/guides-data-source-connectors/tree/main/konnect-definitions &#x200B;](https://github.com/adobe/guides-data-source-connectors/tree/main/konnect-definitions).
+U kunt een schakelaar voor een gegevensbron aanpassen of vormen gebruikend de vooraf bepaalde interfaces en abstracte klassen. De volledige broncode is beschikbaar in [ https://github.com/adobe/guides-data-source-connectors/tree/main/konnect-definitions ](https://github.com/adobe/guides-data-source-connectors/tree/main/konnect-definitions).
 
 
-Verwijs naar [![&#x200B; javadoc &#x200B;](https://javadoc.io/badge2/com.adobe.aem.addon.guides/konnect-definitions/javadoc.svg) &#x200B;](https://javadoc.io/doc/com.adobe.aem.addon.guides/konnect-definitions) voor konnect-definities.
+Verwijs naar [![ javadoc ](https://javadoc.io/badge2/com.adobe.aem.addon.guides/konnect-definitions/javadoc.svg) ](https://javadoc.io/doc/com.adobe.aem.addon.guides/konnect-definitions) voor konnect-definities.
 
 ## Implementeer de verbindingsinterface {#implement-interface}
 
@@ -120,6 +121,6 @@ Met Experience Manager Guides kunt u ook aangepaste bronnen voor logo&#39;s en s
 Om ze bruikbaar te maken door de connector is het verplicht om deze verbindingsfuncties te implementeren:
 
 
-- `getLogoSvg` - Retourneert de SVG van het logo als een tekenreeks.
+- `getLogoSvg` - Retourneert het logo SVG als een tekenreeks.
 
 - `getTemplates` - Geeft als resultaat de lijst met sjablonen in de opgegeven indeling.

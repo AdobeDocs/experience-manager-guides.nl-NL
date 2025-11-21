@@ -5,20 +5,20 @@ exl-id: d7cd412b-89ea-43a5-97b3-09944863bbee
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 873542cb2e8e1b7e80e0ecc113cae4f603b18592
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '883'
 ht-degree: 0%
 
 ---
 
 # Vorm een gegevensbronschakelaar van het gebruikersinterface
 
-Experience Manager Guides komt met het **hulpmiddel van Gegevensbronnen** dat u helpt uit-van-de-doosschakelaars voor gegevensbronnen vormen. U kunt opstelling JIRA, SQL (MySQL, PostgreSQL, de Server van Microsoft SQL, SQLite, MariaDB, H2DB), de schakelaars van de Cliënt van de Handel van Adobe, Elasticsearch, en Algemene REST.
+Experience Manager Guides komt met het **hulpmiddel van Gegevensbronnen** dat u helpt uit-van-de-doosschakelaars voor gegevensbronnen vormen. U kunt de verbindingen JIRA, SQL (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce, Elasticsearch en Generic REST Client instellen.
 
 
-Naast deze kant-en-klare connectors biedt Experience Manager Guides de connectors voor Salsify-, Akeneo- en Microsoft Azure DevOps Boards (ADO)-gegevensbronnen. U kunt deze open-bronschakelaars van de [&#x200B; Gemaakt Centrale bewaarplaats downloaden en installeren &#x200B;](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides). De gebruikers kunnen deze schakelaars dan vormen.
-Leer hoe te [&#x200B; een open-bronschakelaar &#x200B;](#install-open-source-connector) installeren.
+Naast deze kant-en-klare connectors biedt Experience Manager Guides de connectors voor Salsify-, Akeneo- en Microsoft Azure DevOps Boards (ADO)-gegevensbronnen. U kunt deze open-bronschakelaars van de [ Gemaakt Centrale bewaarplaats downloaden en installeren ](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides). De gebruikers kunnen deze schakelaars dan vormen.
+Leer hoe te [ een open-bronschakelaar ](#install-open-source-connector) installeren.
 
 
 
@@ -35,8 +35,10 @@ Voer de volgende stappen uit om een connector te configureren:
    <img src="./assets/data-sources-create-window.png" alt= "gegevensbronnen vermeld op de pagina met gegevensbronnen" width="800">
 
    *Mening of creeer een gegevensbronschakelaar.*
+
 1. Klik **creëren**.
-1. Selecteer het gegevensbestand waarvoor u de schakelaar wilt tot stand brengen. Bijvoorbeeld, de schakelaar van de Elasticsearch.
+1. Selecteer het gegevensbestand waarvoor u de schakelaar wilt tot stand brengen. Bijvoorbeeld de Elasticsearch-aansluiting.
+
    >[!NOTE]
    >
    >Alle beschikbare out-of-the-box gegevensbestanden zijn vermeld.
@@ -47,7 +49,7 @@ Voer de volgende stappen uit om een connector te configureren:
    >[!TIP]
    >
    >* Overslaan <img src="./assets/info-details.svg" alt= "info icon" width="25"> in de buurt van het veld voor meer informatie.
-   > * Velden met * zijn verplicht. U kunt bijvoorbeeld de volgende gegevens invoeren voor de aansluiting van de Elasticsearch.
+   >* Velden met * zijn verplicht. U kunt bijvoorbeeld de volgende gegevens invoeren voor de Elasticsearch-aansluiting.
 
    * **Naam**: Ga de naam van de gegevensbron in.
    * **Type van Authentificatie**: Selecteer het type van authentificatie van drop-down. Voorbeeld: Basic username-password authentication
@@ -57,12 +59,7 @@ Voer de volgende stappen uit om een connector te configureren:
 
 
 1. Selecteer de **Uitgesloten fabrieksmalplaatjes** optie om de fabrieksmalplaatjes van voor onderwerp en fragmentgeneratie uit te sluiten worden gebruikt. Zij zullen niet onder het **de kaartmalplaatje van Gegevens** dropdown in **verschijnen toevoegen inhoudsfragmentgenerator** of **toevoegen onderwerpgenerator** dialoogdoos.
-
-
 1. Selecteer **verbinding van de Test**. U kunt de **toegelaten knoop van de Verbinding van de Test** bekijken slechts nadat u de vereiste details toevoegt. Een succesbericht weergeven als de verbindingsgegevens juist zijn. Anders wordt mogelijk een foutbericht weergegeven.
-
-
-
 1. Selecteer **sparen** op de bovenkant om de schakelaar te bewaren.     Bekijk **sparen** toegelaten knoop nadat u alle details vult en de verbinding succesvol is.
 
 
@@ -74,11 +71,10 @@ U kunt veelvoudige middelen toevoegen of gebruiken die op verschillende URLs voo
 
 Voer de volgende stappen uit om een bron te maken:
 
-1. Selecteer ![&#x200B; pictogram &#x200B;](assets/Add_icon.svg) in de **het middelsectie van URL** toevoegen om een middel voor elke URL toe te voegen.
+1. Selecteer ![ pictogram ](assets/Add_icon.svg) in de **het middelsectie van URL** toevoegen om een middel voor elke URL toe te voegen.
 1. Vorm alle details in **voeg middel** dialoogdoos toe.
 1. Klik **toevoegen**.
-1. U kunt ![&#x200B; uitgeven pictogram &#x200B;](assets/edit_pencil_icon.svg) of schrapt ![&#x200B; &#x200B;](assets/Delete_icon.svg) het middel van de URL middellijst.
-
+1. U kunt ![ uitgeven pictogram ](assets/edit_pencil_icon.svg) of schrapt ![ ](assets/Delete_icon.svg) het middel van de URL middellijst.
 1. U kunt ook de standaardbronnen gebruiken die beschikbaar zijn voor gegevensbronnen zoals Salsify, Akeneo en Microsoft ADO. Schakel de opties UIT voor de bron die u niet wilt configureren voor een gegevensbron.
 
 Dit helpt u om gegevens van om het even welke middelen voor een bepaalde gegevensbron in één enkel inhoudsfragment of onderwerp snel te halen.
@@ -87,7 +83,7 @@ Dit helpt u om gegevens van om het even welke middelen voor een bepaalde gegeven
 
 ## Een opensource-connector installeren{#install-open-source-connector}
 
-Om een gebiedsdeel te publiceren dat op de [&#x200B; Gemaakt Centrale bewaarplaats &#x200B;](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides) aan de Cloud Servicen aanwezig is, moet u het gebiedsdeel voor een open-bronschakelaar omvatten en inbedden.
+Om een gebiedsdeel te publiceren dat op de [ Gemaakt Centrale bewaarplaats ](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides) aan de Diensten van de Wolk aanwezig is, moet u het gebiedsdeel voor een open-bronschakelaar omvatten en inbedden.
 
 1. Voeg de afhankelijkheid in `all/pom.xml` toe in de projectcode van Git voor cloudbeheer. U kunt bijvoorbeeld de volgende afhankelijkheid toevoegen voor de gegevensbronaansluiting van Microsoft Azure DevOps Boards.
 
@@ -103,16 +99,16 @@ Om een gebiedsdeel te publiceren dat op de [&#x200B; Gemaakt Centrale bewaarplaa
 
 1. Sluit de toegevoegde afhankelijkheid in.
 
-       &quot;
-        &lt;embedded>
-       &lt;groupId>com.adobe.name.addon.guides&lt;/groupId>
-       &lt;artifactId>konnect-azure-devops&lt;/artifactId> 
-       &lt;type>jar&lt;/type>
-       &lt;target>/apps/aemdoxonaemcsstageprogram-vendor-packages/content/install&lt;/target>
-       &lt;/embedded>
-       &quot;
-   
-1. Stel de pijpleiding in werking om de veranderingen in de Cloud Servicen toe te passen.
+   ```
+   <embedded>
+       <groupId>com.adobe.aem.addon.guides</groupId>
+       <artifactId>konnect-azure-devops</artifactId>
+       <type>jar</type>
+       <target>/apps/aemdoxonaemcsstageprogram-vendor-packages/content/install</target>
+   </embedded> 
+   ```
+
+1. Voer de pijplijn uit om de wijzigingen in de Cloud Services toe te passen.
 De connector wordt in uw omgeving geïnstalleerd.
 
 
@@ -137,4 +133,4 @@ U bekijkt een fout als de schakelaar met de zelfde naam bestaat.
 * **Schrapping**: Schrap de geselecteerde schakelaar.
 
 
-Zodra u de gegevensbron hebt gevormd, is de schakelaar vermeld onder het **paneel van Gegevensbronnen** in de Redacteur van het Web. U kunt dan met de gegevensbron verbinden en een inhoudsfragment opnemen in uw onderwerpen. Voor meer details, neemt de mening [&#x200B; een inhoudsfragment van uw gegevensbron &#x200B;](../user-guide/web-editor-content-snippet.md) op.
+Zodra u de gegevensbron hebt gevormd, is de schakelaar vermeld onder het **paneel van Gegevensbronnen** in de Redacteur van het Web. U kunt dan met de gegevensbron verbinden en een inhoudsfragment opnemen in uw onderwerpen. Voor meer details, neemt de mening [ een inhoudsfragment van uw gegevensbron ](../user-guide/web-editor-content-snippet.md) op.

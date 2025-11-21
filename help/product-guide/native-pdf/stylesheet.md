@@ -1,11 +1,11 @@
 ---
-title: Native PDF Publish-functie | Werken met algemene inhoudsstijlen
+title: Systeemeigen PDF-publicatiefunctie | Werken met algemene inhoudsstijlen
 description: Leer hoe u gebruiksstijlen maakt en stijlen voor uw inhoud maakt.
 exl-id: 42ba7347-d81d-45d9-9627-8d164e4f9539
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: f98aa2b4b196ee0fd46542317894163b64b8a486
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '3778'
 ht-degree: 0%
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Werken met algemene inhoudsstijlen {#work-with-common-styles}
 
-Een stijlpagina bevat de definities van stijlen voor de elementen die in uw uitvoer van PDF worden gebruikt. U kunt ervoor kiezen om met de voorbeeldopmaakmodellen te werken of nieuwe opmaakmodellen te maken. In de meeste gevallen kunt u snel aan de slag door een kopie van de OOTB-voorbeeldstijlpagina te maken.
+Een stijlpagina bevat de definities van stijlen voor de elementen die in uw PDF-uitvoer worden gebruikt. U kunt ervoor kiezen om met de voorbeeldopmaakmodellen te werken of nieuwe opmaakmodellen te maken. In de meeste gevallen kunt u snel aan de slag door een kopie van de OOTB-voorbeeldstijlpagina te maken.
 
-De stijleneditor is een WYSIWYG-editor die alle complexe aspecten van een CSS-code achter de gebruikersinterface verbergt. Met de stijleditor kunt u de stijlen voor de elementen van uw keuze gemakkelijk en zeer snel aanpassen. De stijlen worden onder de volgende koppen gecategoriseerd:
+De stijleneditor is een WYSIWYG-editor die alle complexe onderdelen van een CSS-code achter de gebruikersinterface verbergt. Met de stijleditor kunt u de stijlen voor de elementen van uw keuze gemakkelijk en zeer snel aanpassen. De stijlen worden onder de volgende koppen gecategoriseerd:
 
 * Stijlen kop
 * Alineastijlen
@@ -29,7 +29,7 @@ De stijleneditor is een WYSIWYG-editor die alle complexe aspecten van een CSS-co
 * Paginastijlen
 * Overige stijlen
 
-Wanneer het werken met gestructureerde inhoud DITA, is de stijlafbeelding voor de meeste elementen DITA op zijn plaats in het standaardstijlblad. Als u met standaard-DITA-elementen werkt, kunt u hun uiterlijk wijzigen door de stijldefinitie rechtstreeks te wijzigen. Deze stijldefinities zijn beschikbaar onder de categorie Andere stijl. Voor meer details, zie [&#x200B; Werk met andere stijlen &#x200B;](#other-styles) later in dit onderwerp.
+Wanneer het werken met gestructureerde inhoud DITA, is de stijlafbeelding voor de meeste elementen DITA op zijn plaats in het standaardstijlblad. Als u met standaard-DITA-elementen werkt, kunt u hun uiterlijk wijzigen door de stijldefinitie rechtstreeks te wijzigen. Deze stijldefinities zijn beschikbaar onder de categorie Andere stijl. Voor meer details, zie [ Werk met andere stijlen ](#other-styles) later in dit onderwerp.
 
 In de volgende secties worden de meest gebruikte stijlinstellingen in de vorm van voorbeelden besproken.
 
@@ -43,20 +43,20 @@ Met de kopstijlen worden alle basisstijlen ingekapseld voor de koppen die in de 
 
 >[!NOTE]
 >
->U kunt uw eigen stijlen van de douanekop tot stand brengen en die kunnen in uw inhoud worden gebruikt gebruikend de outputklasse. Voor meer details, zie Stap 4 in [&#x200B; de paginarichting van het Gebruik en meningsomwenteling &#x200B;](design-page-layout.md#page-orientation-rotation) voorbeeld.
+>U kunt uw eigen stijlen van de douanekop tot stand brengen en die kunnen in uw inhoud worden gebruikt gebruikend de outputklasse. Voor meer details, zie Stap 4 in [ de paginarichting van het Gebruik en meningsomwenteling ](design-page-layout.md#page-orientation-rotation) voorbeeld.
 
 ### Aangepaste koppen op hoofdstukniveau maken {#create-chapter-level-heading}
 
 In een boek (of een boekenkaart), werkt u met Hoofdstuk. De stijlen van de basiskop zijn zodanig ontworpen dat ze zonder aanpassingen op hoofdstukniveau worden toegepast. Als u echter speciale koppen voor uw inhoud wilt maken, moet u die koppen maken. De standaardkop `h1.chapter` wordt bijvoorbeeld toegepast op de titel van het hoofdstuk. Als u de hoofdstuktitel in een andere stijl wilt weergeven, moet u de stijl `h1.chapter` aanpassen. Op dezelfde manier kunt u aangepaste stijlen voor subkoppen in uw hoofdstuk maken. Bijvoorbeeld, als u een douanestijl voor alle 2 <sup> en </sup> en 3 <sup> de 3 </sup> niveaurubrieken in uw hoofdstuk wilt tot stand brengen, dan moet u een nieuwe stijl als `h2.chatper` en `h3.chatper` tot stand brengen.
 
-Aangezien de functie Native PDF Publishing de basisstijldefinities bevat voor de meest voorkomende stijlen, wordt de standaardstijl toegepast op de inhoud, zelfs als u per ongeluk een stijl verwijdert. Als er bijvoorbeeld geen stijldefinitie voor h2-stijl voorkomt in uw stijlblad, wordt met de functie Native PDF Publishing een basisstijl toegepast op h2-inhoud.
+Aangezien de functie Native PDF Publishing de basisstijldefinities bevat voor de meest gebruikte stijlen, wordt de standaardstijl toegepast op de inhoud, zelfs als u per ongeluk een stijl verwijdert. Als er bijvoorbeeld geen stijldefinitie voor h2-stijl voorkomt in uw stijlpagina, wordt met de functie Native PDF Publishing een basisstijl toegepast op h2-inhoud.
 
 In dit voorbeeld maken we een hoofdstukstijl op het tweede niveau:
 
 1. Open de vereiste stijlpagina voor bewerking.
    >[!NOTE]
    >
-   >Zie [&#x200B; een vooraf bepaalde of nieuwe stijl &#x200B;](components-pdf-template.md#customize-style) sectie aanpassen voor het openen van een stylesheet voor aanpassing of het uitgeven.
+   >Zie [ een vooraf bepaalde of nieuwe stijl ](components-pdf-template.md#customize-style) sectie aanpassen voor het openen van een stylesheet voor aanpassing of het uitgeven.
 
 1. In de **lijst van Stijlen**, breid de **Stijlen van de Kop** uit.
 1. Klik op **Stijlen van de Kop** met de rechtermuisknop aan en kies **Nieuwe Stijl**.
@@ -77,7 +77,7 @@ In dit voorbeeld zullen we de koppen van niveau 1 tot niveau 3 aanpassen om auto
 
    >[!NOTE]
    >
-   >Zie [&#x200B; een vooraf bepaalde of nieuwe stijl &#x200B;](components-pdf-template.md#customize-style) sectie aanpassen voor het openen van een stylesheet voor aanpassing of het uitgeven.
+   >Zie [ een vooraf bepaalde of nieuwe stijl ](components-pdf-template.md#customize-style) sectie aanpassen voor het openen van een stylesheet voor aanpassing of het uitgeven.
 
 1. In de **lijst van Stijlen**, breid de **Stijlen van de Kop** uit.
 
@@ -93,7 +93,7 @@ De eigenschappen voor de h1-stijl worden samen met de voorvertoning weergegeven 
    De stijlen die u op de auto-aantallijst kunt toepassen worden getoond onder het bezit Autonumber.
 
 1. Stel de volgende eigenschappen in:
-   * **Stijl**: Uitgezocht van een brede waaier van scènespecifieke of generische nummeringsstijlen. U kunt stijlen kiezen zoals Arabisch-Indic, Devanagari, Georgisch, Decimaal, Lagere Alpha en meer. Selecteer `upper-alpha` voor het huidige voorbeeld.
+   * **Stijl**: Uitgezocht van een brede waaier van scènespecifieke of generische nummeringsstijlen. U kunt stijlen kiezen zoals Arabisch-Indic, Devanagari, Georgisch, Decimaal, Lower-Alpha en meer. Selecteer `upper-alpha` voor het huidige voorbeeld.
 
    * **Formaat**: Het standaardformaat wordt geplaatst aan `<x>`, waar de `x` waarde met de nummeringsStijl wordt vervangen die u in het bezit van de Stijl selecteerde. Als u bijvoorbeeld de stijl `decimal` (1) hebt geselecteerd, wordt de waarde van `x` auto-increment voor elke instantie van de stijl `h1` gebruikt en wordt deze waarde ingesteld op 2, 3, enzovoort. U kunt ook aangepaste tekst in het veld toevoegen om de kopstijl op te maken. Als u bijvoorbeeld wilt dat alle h1-koppen een voorvoegsel `Chapter` hebben, moet u dit veld instellen als `Chapter <x>` .
 
@@ -141,7 +141,6 @@ De eigenschappen voor de h1-stijl worden samen met de voorvertoning weergegeven 
    |  | Indeling | `Section <2>.<x>:` |  |
    |  | Voorvoegselbreedte | 125 px |  |
    |  | Font > Text Alignment | Links | Zorg ervoor dat Opmaak toepassen op is ingesteld op Nummering |
-   |  |
 
    <img src="./assets/auto-number-output.png" width="500">
 
@@ -159,7 +158,7 @@ In het volgende voorbeeld wordt een initiaalstijl gemaakt:
 
    >[!NOTE]
    >
-   >Zie [&#x200B; een vooraf bepaalde of nieuwe stijl &#x200B;](components-pdf-template.md#customize-style) sectie aanpassen voor het openen van een stylesheet voor aanpassing of het uitgeven.
+   >Zie [ een vooraf bepaalde of nieuwe stijl ](components-pdf-template.md#customize-style) sectie aanpassen voor het openen van een stylesheet voor aanpassing of het uitgeven.
 
 1. In de **lijst van Stijlen**, breid de **Stijlen van de Paragraaf** uit.
 
@@ -169,7 +168,7 @@ In het volgende voorbeeld wordt een initiaalstijl gemaakt:
 
 1. Klik **Gedaan**.
 
-   Een nieuwe genoemde paragraafstijl `::first-letter` wordt gecreeerd en onder de **2&rbrace; lijst van de Stijlen van de Paragraaf toegevoegd &lbrace;toegevoegd.**
+   Een nieuwe genoemde paragraafstijl `::first-letter` wordt gecreeerd en onder de **2} lijst van de Stijlen van de Paragraaf toegevoegd {toegevoegd.**
 
 1. Selecteer `::first-letter` onder de stijl p en stel de volgende eigenschappen in:
 
@@ -195,7 +194,7 @@ In het volgende voorbeeld wordt een inline tekenstijl gemaakt:
 
    >[!NOTE]
    >
-   >Zie [&#x200B; een vooraf bepaalde of nieuwe stijl &#x200B;](components-pdf-template.md#customize-style) sectie aanpassen voor het openen van een stylesheet voor aanpassing of het uitgeven.
+   >Zie [ een vooraf bepaalde of nieuwe stijl ](components-pdf-template.md#customize-style) sectie aanpassen voor het openen van een stylesheet voor aanpassing of het uitgeven.
 
 1. In de **lijst van Stijlen**, breid de **Stijlen van het Karakter** uit.
 
@@ -215,7 +214,7 @@ In het volgende voorbeeld wordt een inline tekenstijl gemaakt:
 
      >[!NOTE]
      >
-     >U kunt ook lettertypen toevoegen aan uw sjabloon. Deze lettertypen worden opgeslagen in het gedeelte Bronnen van uw sjabloon. Voor meer details over het toevoegen van doopvonten en het werken met Middelen, zie [&#x200B; Werk met middelen &#x200B;](components-pdf-template.md#work-with-resources).
+     >U kunt ook lettertypen toevoegen aan uw sjabloon. Deze lettertypen worden opgeslagen in het gedeelte Bronnen van uw sjabloon. Voor meer details over het toevoegen van doopvonten en het werken met Middelen, zie [ Werk met middelen ](components-pdf-template.md#work-with-resources).
 
    * **Lay-out**: U kunt de lay-out-related eigenschappen zoals Hoogte en Breedte, Marge, het Opvullen, Uitlijning, en meer plaatsen.
 
@@ -239,7 +238,7 @@ In het volgende voorbeeld wordt de stijl van de genummerde of geordende lijst aa
 
    >[!NOTE]
    >
-   >Zie [&#x200B; een vooraf bepaalde of nieuwe stijl &#x200B;](components-pdf-template.md#customize-style) sectie aanpassen voor het openen van een stylesheet voor aanpassing of het uitgeven.
+   >Zie [ een vooraf bepaalde of nieuwe stijl ](components-pdf-template.md#customize-style) sectie aanpassen voor het openen van een stylesheet voor aanpassing of het uitgeven.
 
 1. In de **lijst van Stijlen**, breid de **Stijlen van de Lijst** uit.
 
@@ -299,7 +298,7 @@ In het volgende voorbeeld ziet u hoe u een tabelstijl en de verschillende opties
 
    >[!NOTE]
    >
-   >Zie [&#x200B; een vooraf bepaalde of nieuwe stijl &#x200B;](components-pdf-template.md#customize-style) sectie aanpassen voor het openen van een stylesheet voor aanpassing of het uitgeven.
+   >Zie [ een vooraf bepaalde of nieuwe stijl ](components-pdf-template.md#customize-style) sectie aanpassen voor het openen van een stylesheet voor aanpassing of het uitgeven.
 
 1. In de **lijst van Stijlen**, klik op de **Stijl van de Lijst** met de rechtermuisknop aan en kies **Nieuwe Stijl**.
 
@@ -329,7 +328,7 @@ In het volgende voorbeeld ziet u hoe u een tabelstijl en de verschillende opties
 
      >[!NOTE]
      >
-     >De volgende montages zijn beschikbaar onder de **1&rbrace; sectie van de Cel wanneer** Formatterend op **wordt geplaatst aan** Gehele Lijst **.**
+     >De volgende montages zijn beschikbaar onder de **1} sectie van de Cel wanneer** Formatterend op **wordt geplaatst aan** Gehele Lijst **.**
 
    * **het Opvullen**: Specificeer binnen het opvullen tussen lijstcellen. U kunt verschillende opvullingswaarden opgeven voor de boven-, onder-, linker- en rechterzijde.
 
@@ -345,7 +344,7 @@ In het volgende voorbeeld ziet u hoe u een tabelstijl en de verschillende opties
 
 ## Werken met andere stijlen {#other-styles}
 
-Als u met gestructureerde (DITA) inhoud werkt, dan zult u merken dat bijna alle elementen DITA een stijlafbeelding in het standaardstijlblad hebben. Bijvoorbeeld, wordt de stijl van een `<shortdesc>` element bepaald onder **Andere Stijl** > **.shortdesc** stijldefinitie. U kunt al deze stijlen eenvoudig aanpassen en ze worden automatisch toegepast in de PDF-uitvoer die wordt gegenereerd uit uw gestructureerde inhoud. Dit betekent dat u, in tegenstelling tot andere aangepaste stijlen, geen attribuut `outputclass` hoeft toe te voegen aan de inhoud voor deze stijlen.
+Als u met gestructureerde (DITA) inhoud werkt, dan zult u merken dat bijna alle elementen DITA een stijlafbeelding in het standaardstijlblad hebben. Bijvoorbeeld, wordt de stijl van een `<shortdesc>` element bepaald onder **Andere Stijl** > **.shortdesc** stijldefinitie. U kunt al deze stijlen eenvoudig aanpassen en ze worden automatisch toegepast in de PDF-uitvoer die wordt gegenereerd op basis van uw gestructureerde inhoud. Dit betekent dat u, in tegenstelling tot andere aangepaste stijlen, geen attribuut `outputclass` hoeft toe te voegen aan de inhoud voor deze stijlen.
 
 Als u een stijldefinitie voor om het even welk element wilt tot stand brengen dat niet door gebrek beschikbaar is of u een douaneelement hebt, dan kunt u het gemakkelijk tot stand brengen in het stijlblad. Het enige punt dat u moet overwegen, is het maken van de stijl met dezelfde naam als de naam van het gestructureerde element.
 
@@ -355,7 +354,7 @@ In het volgende voorbeeld, zullen wij de titel (`wintitle`) stijl van een nieuw 
 
    >[!NOTE]
    >
-   >Zie [&#x200B; een vooraf bepaalde of nieuwe stijl &#x200B;](components-pdf-template.md#customize-style) sectie aanpassen voor het openen van een stylesheet voor aanpassing of het uitgeven.
+   >Zie [ een vooraf bepaalde of nieuwe stijl ](components-pdf-template.md#customize-style) sectie aanpassen voor het openen van een stylesheet voor aanpassing of het uitgeven.
 
 1. In de **lijst van Stijlen**, breid **Andere Stijlen** uit.
 
@@ -367,7 +366,7 @@ In het volgende voorbeeld, zullen wij de titel (`wintitle`) stijl van een nieuw 
 
 1. Klik **Gedaan**.
 
-   Een nieuwe stijl genoemd `.wintitle` wordt gecreeerd en onder de **Andere 2&rbrace; lijst van Stijlen &lbrace;toegevoegd.**
+   Een nieuwe stijl genoemd `.wintitle` wordt gecreeerd en onder de **Andere 2} lijst van Stijlen {toegevoegd.**
 
 1. Selecteer .wintitle van de **Andere lijst van Stijlen**, en plaats de eigenschappen zoals vereist.
 
@@ -378,7 +377,7 @@ In de volgende schermafbeelding wordt de stijl van de venstertitel weergegeven d
 
 ## Een unieke stijl voor een lay-out van één pagina definiëren
 
-Bij het publiceren van de uitvoer van de eigen PDF worden alle stijlen samengevoegd in de uiteindelijke PDF. Het is van cruciaal belang dat u een unieke stijl toewijst aan elke sjabloon in de CSS.
+Bij het publiceren van de eigen PDF-uitvoer worden alle stijlen samengevoegd in de uiteindelijke PDF. Het is van cruciaal belang dat u een unieke stijl toewijst aan elke sjabloon in de CSS.
 Gebruik verschillende CSS-stijlnamen om specifieke lettertypen en stijlen toe te passen op verschillende secties van een PDF. U kunt bijvoorbeeld het gewenste lettertype voor de omslagpagina definiëren met behulp van de volgende CSS.
 
 ```css
@@ -406,12 +405,12 @@ U kunt bijvoorbeeld de volgende stijlen definiëren om tekengrootte 18 te defini
 
 >[!NOTE]
 >
->In het vorige voorbeeld zijn &quot;Voor&quot; en &quot;Terug&quot; de voorbeeldnamen van de lay-outbestanden die u in de sjablonen kunt gebruiken.
+> In het vorige voorbeeld zijn &quot;Voor&quot; en &quot;Terug&quot; de voorbeeldnamen van de lay-outbestanden die u in de sjablonen kunt gebruiken.
 
 
 ## Aangepaste CSS-stijl definiëren voor voor- en achtervoegselinhoud
 
-Als u aangepaste CSS-stijlen definieert, krijgen deze de eerste prioriteit tijdens het genereren van de uitvoer van de native PDF.
+Als u aangepaste CSS-stijlen definieert, krijgen deze de eerste prioriteit tijdens het genereren van de eigen PDF-uitvoer.
 In de volgende standaard CSS-stijl worden zowel voor- als achtervoegselinhoud verborgen.
 
 ```css

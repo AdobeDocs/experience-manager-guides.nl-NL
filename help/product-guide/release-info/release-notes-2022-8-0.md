@@ -4,7 +4,7 @@ description: Release van Adobe Experience Manager Guides as a Cloud Service in a
 exl-id: a01bfe8a-4715-438c-bb94-aa1d31f6662d
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 0%
@@ -15,14 +15,14 @@ ht-degree: 0%
 
 ## Upgrade naar de release van augustus
 
-Bevorder uw huidige as a Cloud Service Adobe Experience Manager Guides (later als *wordt bedoeld AEM Guides as a Cloud Service*) opstelling door de volgende stappen uit te voeren:
-1. Controle uit de code van Git van Cloud Servicen en schakelaar aan de tak die in de pijpleiding van Cloud Servicen wordt gevormd die aan het milieu beantwoordt u wilt bevorderen.
-1. Werk de eigenschap `<dox.version>` in het `/dox/dox.installer/pom.xml` -bestand van de Git-code van de Cloud Service bij naar 2022.8.167.
-1. Leg de wijzigingen vast en voer de pijplijn met Cloud Servicen uit om de release van AEM Guides as a Cloud Service in augustus te upgraden.
+Bevorder uw huidige die Adobe Experience Manager Guides as a Cloud Service (later als *wordt bedoeld AEM Guides as a Cloud Service*) opstelling door de volgende stappen uit te voeren:
+1. Bekijk de Git-code van Cloud Services en schakel over naar de vertakking die is geconfigureerd in de Cloud Services-pijplijn die overeenkomt met de omgeving die u wilt upgraden.
+1. Werk de eigenschap `<dox.version>` in het `/dox/dox.installer/pom.xml` -bestand van de Git-code voor Cloud Services bij naar 202.8.167.
+1. Leg de wijzigingen vast en voer de Cloud Services-pijplijn uit om naar de release van AEM Guides as a Cloud Service in augustus te upgraden.
 
 ## Compatibiliteitsmatrix
 
-In deze sectie wordt een overzicht gegeven van de compatibiliteitsmatrix voor de softwaretoepassingen die worden ondersteund door de AEM Guides-release van as a Cloud Service augustus 2022.
+In deze sectie wordt een overzicht gegeven van de compatibiliteitsmatrix voor de softwaretoepassingen die worden ondersteund door de AEM Guides as a Cloud Service-release van augustus 2022.
 
 ### FrameMaker en FrameMaker Publishing Server
 
@@ -43,13 +43,13 @@ In deze sectie wordt een overzicht gegeven van de compatibiliteitsmatrix voor de
 
 ## Nieuwe en verbeterde functies
 
-AEM Guides as a Cloud Service biedt veel verbeteringen en nieuwe functies in de release van augustus:
+AEM Guides as a Cloud Service biedt een groot aantal verbeteringen en nieuwe functies in de release van augustus:
 
 ### Layoutweergave in de Kaarteditor
 
 Nu kunt u de volledige lay-out van een kaart DITA in de Redacteur van de Kaart bekijken. Wanneer u een kaart voor het uitgeven opent, opent het de **mening van de Lay-out** van de Redacteur van de Kaart. In deze weergave kunt u de kaarthiërarchie in een boomstructuurweergave zien en de onderwerpen in een kaart ordenen of structureren.
 
-![&#x200B; lay-outweergave &#x200B;](assets/layout-view-map.png)
+![ lay-outweergave ](assets/layout-view-map.png)
 
 De layoutweergave bevat een aparte werkbalk waarmee u veel taken kunt uitvoeren met betrekking tot de onderwerpen in een kaart.
 U kunt onderwerpverwijzingen, onderwerpgroep, zeer belangrijke definities in een kaart opnemen. U kunt de onderwerpen in een kaart reorganiseren door ze omhoog, omlaag, links of rechts te verplaatsen. U kunt de onderwerpen ook slepen en neerzetten om ze in een kaart te verplaatsen. De Kaarteditor verstrekt ook de pictogrammen om dossiers te sluiten of te ontgrendelen, de versiegeschiedenis te controleren, en een beheer van het versielabel te doen.
@@ -58,7 +58,7 @@ U kunt onderwerpverwijzingen, onderwerpgroep, zeer belangrijke definities in een
 De mening van de Lay-out verstrekt ook de **Opties van de Mening** om lijnaantal te tonen of te verbergen, of controledoos te tonen of te verbergen, of de dossier - naam of titel voor de onderwerpen in een kaart te tonen.
 
 
-![&#x200B; mening-opties &#x200B;](assets/view-options.png)
+![ mening-opties ](assets/view-options.png)
 
 U kunt de onderwerpen ook bekijken die op de voorwaardelijke filters worden gebaseerd die op hen worden toegepast.
 
@@ -68,25 +68,25 @@ In het rechterdeelvenster worden de eigenschappen Inhoud en Kaart weergegeven in
 
 Nu kunt u de meta-gegevensinformatie voor de onderwerpen of de kaart ook plaatsen. U kunt de Titel Nav, de Tekst van de Verbinding, Korte Beschrijving, en Sleutelwoorden voor het geselecteerde onderwerp of de kaart bepalen.
 
-![&#x200B; het juiste paneel van de lay-outweergave &#x200B;](assets/layout-inline-attributes.png)
+![ het juiste paneel van de lay-outweergave ](assets/layout-inline-attributes.png)
 
-Voor meer details, zie *sectie van de mening van de Lay-out van 0&rbrace; in het Gebruiken van Adobe Experience Manager Guides as a Cloud Service.*
+Voor meer details, zie *sectie van de mening van de Lay-out van 0} in het Gebruiken van Adobe Experience Manager Guides as a Cloud Service.*
 
 ### Inline-kenmerken in de Editor-instellingen
 
 AEM Guides staat nu de configuratie van **Gealigneerde Attributen** door uw beheerder van de **Montages van de Redacteur** toe. U kunt nieuwe gealigneerde attributen ook toevoegen of bestaande degenen van het **Gealigneerde lusje van Attributen** in de Montages van de Redacteur schrappen.
 De gevormde Inline Attributen die voor een onderwerp worden bepaald worden getoond tegen het onderwerp in de mening van de Lay-out.
 
-![&#x200B; Montages van de Redacteur &#x200B;](assets/editor-settings-inline-attributes.png)
+![ Montages van de Redacteur ](assets/editor-settings-inline-attributes.png)
 
 
 ### Extra filters in de weergave Opslagplaats
 
-De filterzoekopdracht in de dataweergave is nu krachtiger gemaakt. Twee nieuwe onderzoekscriteria, **Laatst Gewijzigde** en **Codes** zijn toegevoegd om de dossiers te filtreren en uw onderzoek in de AEM bewaarplaats te beperken:
+De filterzoekopdracht in de dataweergave is nu krachtiger gemaakt. Twee nieuwe onderzoekscriteria, **Laatst Gewijzigde** en **Codes** zijn toegevoegd om de dossiers te filtreren en uw onderzoek in de bewaarplaats van AEM te beperken:
 * **Laatste Gewijzigd**: U kunt naar dossiers zoeken die na een geselecteerde datum maar vóór een geselecteerde datum zijn gewijzigd. U kunt ook de vooraf gedefinieerde criteria gebruiken en zoeken naar bestanden die de laatste twee uur, vorige week, vorige maand of vorig jaar zijn gewijzigd.
 * **Markeringen**: U kunt dossiers ook zoeken die specifieke markeringen hebben op hen worden toegepast. U kunt de tag typen of deze selecteren in de vervolgkeuzelijst.
 
-![&#x200B; de meningsfilters van de Bewaarplaats &#x200B;](assets/repo-filter-search.png)
+![ de meningsfilters van de Bewaarplaats ](assets/repo-filter-search.png)
 
 
 ## Opgeloste problemen
@@ -97,9 +97,9 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 * Bijgewerkte Node.js wordt niet gebruikt voor het publiceren. 9835
 * Het onderwerp DITA wordt niet automatisch bijgewerkt met de veranderingen die op de **pagina van Eigenschappen** worden gedaan. 8745
 * FrontMattelement wanneer toegevoegd aan een DITA-boekenkaart werkt niet correct. 9507
-* Native PDF | Een lege PDF wordt geproduceerd bij het gebruiken van **snel produceert** voor veelvoudige dossiers wanneer een leeg element wordt geselecteerd. (9822)
-* Native PDF | Aanhangsel wordt gepubliceerd als een hoofdstuk in de uitvoer van PDF. 9829
-* Native PDF | Wanneer een SVG-afbeelding wordt bewerkt, wordt deze niet bijgewerkt weergegeven in de paginalay-out. 9069
+* Oorspronkelijke PDF | Een lege PDF wordt geproduceerd bij het gebruiken van **snel produceert** voor veelvoudige dossiers wanneer een leeg element wordt geselecteerd. (9822)
+* Oorspronkelijke PDF | Bijlage wordt gepubliceerd als een hoofdstuk in de PDF-uitvoer. 9829
+* Oorspronkelijke PDF | Wanneer een SVG-afbeelding wordt bewerkt, wordt deze niet bijgewerkt weergegeven in de paginalay-out. 9069
 * Een regelmatig afbreekkarakter wordt opgenomen wanneer a `Nonbreaking Hyphen` karakter gebruikend het **Speciale Karakter van het Tussenvoegsel** dialoog wordt opgenomen. 8919
 * De Redacteur van XML toont geen bijgewerkte beelden in de onderwerpen als zij zijn uitgegeven. 9500
 * Terwijl het publiceren van de output via de Redacteur, kunnen vooraf instelt niet van de **Output** tabel worden geschrapt. 9100
@@ -114,7 +114,7 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 
 ## Bekende problemen
 
-Adobe heeft de volgende bekende problemen voor de release van AEM Guides as a Cloud Service augustus 2022 vastgesteld.
+Adobe heeft de volgende bekende problemen vastgesteld voor de release van AEM Guides as a Cloud Service in augustus 2022.
 
 ### Bekende problemen met tijdelijke oplossing
 

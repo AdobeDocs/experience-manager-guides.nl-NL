@@ -1,10 +1,10 @@
 ---
 title: Opmerkingen bij de release | Upgradeinstructies en opgeloste problemen in Adobe Experience Manager Guides, release van juli 2023
-description: Meer informatie over de opgeloste problemen en hoe u een upgrade kunt uitvoeren naar de release van Adobe Experience Manager Guides as a Cloud Service in juli 2023
+description: Meer informatie over de opgeloste problemen en hoe u een upgrade kunt uitvoeren naar de release van Adobe Experience Manager Guides as a Cloud Service van juli 2023
 exl-id: f1765c6a-cb8e-4a06-a6f4-f5c225b6bc88
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '926'
 ht-degree: 0%
@@ -13,17 +13,17 @@ ht-degree: 0%
 
 # Release van Adobe Experience Manager Guides as a Cloud Service in juli 2023
 
-Deze versienota behandelt de verbeteringsinstructies, verenigbaarheidsmatrijs, en kwesties die in versie worden bevestigd juli 2023 van Adobe Experience Manager Guides (later die als *wordt bedoeld AEM Guides as a Cloud Service*).
+Deze versienota behandelt de verbeteringsinstructies, verenigbaarheidsmatrijs, en kwesties die in versie worden bevestigd juli 2023 van Adobe Experience Manager Guides (later die als *wordt bedoeld as a Cloud Service van AEM Guides*).
 
-Voor meer informatie over de nieuwe eigenschappen en de verhogingen, zie [&#x200B; wat in de versie van juli 2023 van AEM Guides as a Cloud Service &#x200B;](whats-new-2023-7-0.md) nieuw is.
+Voor meer informatie over de nieuwe eigenschappen en de verhogingen, zie [ wat in de versie van juli 2023 van AEM Guides as a Cloud Service ](whats-new-2023-7-0.md) nieuw is.
 
 ## Upgrade naar release juli 2023
 
 Voer de volgende stappen uit om uw huidige AEM Guides as a Cloud Service-installatie bij te werken:
 
-1. Controle uit de code van Git van Cloud Servicen en schakelaar aan de tak die in de pijpleiding van Cloud Servicen wordt gevormd die aan het milieu beantwoordt dat u wilt bevorderen.
-2. Werk de eigenschap `<dox.version>` in het `/dox/dox.installer/pom.xml` -bestand van de Git-code van de Cloud Service bij naar 2023.7.0.314.
-3. Leg de wijzigingen vast en voer de pijplijn met Cloud Servicen uit om de release van AEM Guides as a Cloud Service van juli 2023 te upgraden.
+1. Bekijk de Git-code van Cloud Services en schakel over naar de vertakking die is geconfigureerd in de Cloud Services-pijplijn die overeenkomt met de omgeving die u wilt upgraden.
+2. Werk de eigenschap `<dox.version>` in het `/dox/dox.installer/pom.xml` -bestand van de Git-code voor Cloud Services bij naar 2023.7.0.314.
+3. Leg de wijzigingen vast en voer de Cloud Services-pijplijn uit om naar de release van juli 2023 van AEM Guides as a Cloud Service te upgraden.
 
 ## Stappen om de trigger van een script via een servlet in te schakelen
 
@@ -69,19 +69,19 @@ Voer de volgende stappen uit voor de naverwerking van de bestaande inhoud en het
 1. (Optioneel) Als het systeem meer dan 100.000 dita-bestanden bevat, werkt u `queryLimitReads` under `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` bij tot een hogere waarde (een waarde die groter is dan het aantal aanwezige elementen, bijvoorbeeld 200.000) en herstelt u deze vervolgens.
 
    - Gebruik de instructies die in *worden gegeven de met voeten treedt van de Configuratie* sectie in installeer en vorm Adobe Experience Manager Guides
-as a Cloud Service om het configuratiebestand te maken.
+as a Cloud Service, om het configuratiebestand te maken.
    - In het configuratiedossier, verstrek de volgende (bezit) details om de queryLimitReads optie te vormen:
 
      | PID | Eigenschappensleutel | Waarde van eigenschap |
      |---|---|---|
      | org.apache.jackrabbit.oak.query.QueryEngineSettingsService | queryLimitReads | Waarde: 200000 Standaardwaarde: 100000 |
 
-1. Voer een verzoek van de POST op de server uit (met correcte authentificatie) - `http://<server:port>//bin/guides/reports/upgrade`.
+1. Voer een POST-aanvraag uit op de server (met correcte verificatie) - `http://<server:port>//bin/guides/reports/upgrade` .
 
-1. De API retourneert een jobId. Als u de status van de taak wilt controleren, kunt u een aanvraag voor een GET met taak-id naar hetzelfde eindpunt verzenden - `http://<server:port>/bin/guides/reports/upgrade?jobId= {jobId}`
+1. De API retourneert een jobId. Als u de status van de taak wilt controleren, kunt u een GET-aanvraag met taak-id naar hetzelfde eindpunt verzenden - `http://<server:port>/bin/guides/reports/upgrade?jobId= {jobId}`
 (Bijvoorbeeld: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
-1. Wanneer de taak is voltooid, reageert de vorige GET-aanvraag met succes. Als de taak om een of andere reden mislukt, kan de fout worden gezien in de serverlogboeken.
+1. Zodra de taak is voltooid, reageert het vorige GET-verzoek met succes. Als de taak om een of andere reden mislukt, kan de fout worden gezien in de serverlogboeken.
 
 1. Terugkeren naar de standaardwaarde of vorige bestaande waarde van `queryLimitReads` als u deze hebt gewijzigd in stap 1.
 
@@ -95,14 +95,14 @@ Voer de volgende stappen uit om de bestaande inhoud te indexeren en de nieuwe vo
 
 1. U kunt ook een hoofdmap doorgeven om de DITA-kaarten van een specifieke map (en de bijbehorende submappen) te indexeren. Bijvoorbeeld `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test` . Wanneer zowel de parameter paths als de hoofdparameter worden doorgegeven, wordt alleen de parameter paths gebruikt.
 
-1. De API retourneert een jobId. Als u de status van de taak wilt controleren, kunt u een aanvraag van een GET met taak-id naar hetzelfde eindpunt verzenden - `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(bijvoorbeeld: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
+1. De API retourneert een jobId. Als u de status van de taak wilt controleren, kunt u een GET-aanvraag met taak-id naar hetzelfde eindpunt verzenden - `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(bijvoorbeeld: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
 
 
-1. Wanneer de taak is voltooid, reageert het vorige verzoek van de GET met succes en wordt vermeld of kaarten zijn mislukt. De met succes geïndexeerde kaarten kunnen van de serverlogboeken worden bevestigd.
+1. Als de taak is voltooid, reageert het vorige GET-verzoek met succes en vermeldt u of kaarten zijn mislukt. De met succes geïndexeerde kaarten kunnen van de serverlogboeken worden bevestigd.
 
 ## Compatibiliteitsmatrix
 
-In deze sectie wordt een overzicht gegeven van de compatibiliteitsmatrix voor de softwaretoepassingen die worden ondersteund door de AEM Guides as a Cloud Service juli 2023-release.
+In deze sectie wordt een overzicht gegeven van de compatibiliteitsmatrix voor de softwaretoepassingen die worden ondersteund door de AEM Guides as a Cloud Service-release van juli 2023.
 
 ### FrameMaker en FrameMaker Publishing Server
 
@@ -117,7 +117,7 @@ In deze sectie wordt een overzicht gegeven van de compatibiliteitsmatrix voor de
 | AEM Guides als Cloud Release | Oxygeenaansluiting, Windows | Oxygeenconnector Mac | Bewerken in Oxygen Windows | Bewerken in Oxygen Mac |
 | --- | --- | --- | --- | --- |
 | 2023,07,0 | 2.9-uuid-2 | 2.9-uuid-2 | 2,3 | 2,3 |
-|  |  |  |  |
+|  |  |  |  |  |
 
 
 ## Opgeloste problemen

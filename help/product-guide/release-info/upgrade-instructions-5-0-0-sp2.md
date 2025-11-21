@@ -1,7 +1,8 @@
 ---
 title: Opmerkingen bij de release | Upgradeinstructies voor Adobe Experience Manager Guides 5.0.0 Service Pack 2-release
 description: Leer over de verenigbaarheidsmatrijs en hoe te aan de 5.0.0 versie Service Pack 2 van Adobe Experience Manager Guides te bevorderen.
-source-git-commit: b5b4c5484593a2f7d9121da1c7bfb28dd2c36a57
+exl-id: c7c6cfb9-8906-41eb-a0d1-86b8d9302b09
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
@@ -12,7 +13,7 @@ ht-degree: 0%
 
 Dit artikel behandelt de verbeteringsinstructies en de verenigbaarheidsmatrijs voor 5.0.0 de versie van Service Pack 2 van Adobe Experience Manager Guides.
 
-Voor de lijst van kwesties die in deze versie zijn bevestigd, mening [&#x200B; Vaste kwesties in 5.0.0 Service Pack 2 versie &#x200B;](../release-info/fixed-issues-5-0-0-sp2.md).
+Voor de lijst van kwesties die in deze versie zijn bevestigd, mening [ Vaste kwesties in 5.0.0 Service Pack 2 versie ](../release-info/fixed-issues-5-0-0-sp2.md).
 
 ## Compatibiliteitsmatrix
 
@@ -24,7 +25,7 @@ In deze sectie wordt een overzicht gegeven van de compatibiliteitsmatrix voor de
 
 Versie 6.5 Service Pack 22, Service Pack 21, en Service Pack 20
 
-Voor meer details, bekijk de [&#x200B; Technische vereisten &#x200B;](../install-guide/download-install-technical-requirements.md) sectie in de Gids van de Installatie en van de Configuratie op locatie.
+Voor meer details, bekijk de [ Technische vereisten ](../install-guide/download-install-technical-requirements.md) sectie in de Gids van de Installatie en van de Configuratie op locatie.
 
 ### FrameMaker en FrameMaker Publishing Server
 
@@ -62,10 +63,10 @@ U kunt uw huidige versie van Gidsen aan versie 5.0.0 Service Pack 2 gemakkelijk 
 - Als u versie 4.3.x, 4.2, 4.2.1 (Hotfix 4.2.1.3), 4.1 of 4.1.x gebruikt, moet u een upgrade naar versie 4.4 uitvoeren voordat u een upgrade naar versie 5.0.0 uitvoert.
 - Als u versie 4.0 gebruikt, moet u een upgrade naar versie 4.2 uitvoeren voordat u een upgrade naar versie 4.3.x uitvoert.
 - Als u versie 3.8.5 gebruikt, moet u een upgrade naar versie 4.0 uitvoeren voordat u een upgrade naar versie 4.2 uitvoert.
-- Als u op een versie voorafgaand aan 3.8.5 bent, verwijs naar de sectie van Experience Manager Guides van de Verbetering in de product-specifieke installatiegids beschikbaar op [&#x200B; Adobe Experience Manager Guides Help het archief van PDF &#x200B;](https://helpx.adobe.com/nl/xml-documentation-for-experience-manager/archive.html).
+- Als u op een versie voorafgaand aan 3.8.5 bent, verwijs naar de sectie van Experience Manager Guides van de Verbetering in de product-specifieke installatiegids beschikbaar op [ Adobe Experience Manager Guides Help het archief van PDF ](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 >[!NOTE]
 >
 >U moet AEM Service Pack installeren voordat u de Experience Manager Guides-versie kunt upgraden.
 
-Voor details, mening [&#x200B; de instructies van de Verbetering voor de On-premise versies &#x200B;](../install-guide/upgrade-xml-documentation.md) van Experience Manager Guides.
+Voor details, mening [ de instructies van de Verbetering voor de On-premise versies ](../install-guide/upgrade-xml-documentation.md) van Experience Manager Guides.

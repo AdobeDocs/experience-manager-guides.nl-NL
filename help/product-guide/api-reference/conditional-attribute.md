@@ -5,7 +5,7 @@ exl-id: 1f0e023a-422c-47b9-917f-b0d80090471c
 feature: Rest API Conditional Attributes
 role: Developer
 level: Experienced
-source-git-commit: 6184bb98c9897e980a6fba2f97476570228188af
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 0%
@@ -18,10 +18,10 @@ Met de volgende REST API kunt u voorwaardelijke kenmerken toevoegen aan een mapp
 
 ## Voorwaardelijk kenmerk toevoegen in een profiel op mapniveau
 
-Een methode van de POST die voorwaardelijke attributen aan een bepaald omslag-vlakke profiel toevoegt.
+Een POST-methode waarmee voorwaardelijke kenmerken worden toegevoegd aan een bepaald mapprofiel.
 
 **Verzoek URL**:\
-http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/fmdita/folderProfile
+http://*<aem-guides-server\>*: *<port-number\>*/bin/fmdita/folderProfile
 
 **Parameters**:
 

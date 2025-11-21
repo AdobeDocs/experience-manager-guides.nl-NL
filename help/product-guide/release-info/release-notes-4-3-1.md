@@ -4,9 +4,9 @@ description: Meer informatie over de opgeloste problemen en hoe u een upgrade ui
 exl-id: 3fb6dc31-ec6e-40f5-ab3f-a6e591da315e
 feature: Release Notes
 role: Leader
-source-git-commit: 1b25f1df67fa2442ab79830dc2ac5a6eabd0394c
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1307'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Deze versienota behandelt de verbeteringsinstructies, verenigbaarheidsmatrijs, en kwesties die in versie 4.3.1 van Adobe Experience Manager Guides (later als *worden bedoeld Experience Manager Guides*) worden bevestigd.
 
-Voor meer informatie over de nieuwe eigenschappen en de verhogingen, zie [&#x200B; wat in versie 4.3.1 van Adobe Experience Manager Guides &#x200B;](./whats-new-4-3-1-release.md) nieuw is.
+Voor meer informatie over de nieuwe eigenschappen en de verhogingen, zie [ wat in versie 4.3.1 van Adobe Experience Manager Guides ](./whats-new-4-3-1-release.md) nieuw is.
 
 ## Upgrade naar versie 4.3.1 van Experience Manager Guides
 
@@ -33,9 +33,9 @@ U kunt uw huidige versie van Experience Manager Guides upgraden naar versie 4.3.
 
 >[!NOTE]
 >
->U moet AEM servicepack installeren voordat u de Experience Manager Guides-versie kunt upgraden.
+>U moet AEM Service Pack installeren voordat u de Experience Manager Guides-versie kunt upgraden.
 
-Voor details, zie [&#x200B; instructies van de Verbetering &#x200B;](../install-guide/upgrade-xml-documentation.md).
+Voor details, zie [ instructies van de Verbetering ](../install-guide/upgrade-xml-documentation.md).
 
 ## Compatibiliteitsmatrix
 
@@ -57,7 +57,7 @@ Voor meer details, zie de *Technische vereisten* sectie in installeer en vorm de
 | --- | --- | --- | --- | --- |
 | 4.3.1 (niet-UUID) | 2022 of hoger | 2020.2 of hoger* | 2022 of hoger | 2020.3 of hoger |
 | 4.3.1 (UUID) | 2022 of hoger | 2020.2 of hoger* | 2022 of hoger | 2020.4 of hoger |
-| | | | |
+| | | | | |
 
 *Basislijn en voorwaarden die in AEM zijn gemaakt, worden vanaf 2020.2 ondersteund in FMPS-releases.
 
@@ -67,7 +67,7 @@ Voor meer details, zie de *Technische vereisten* sectie in installeer en vorm de
 | --- | --- | --- |--- |--- |
 | 4.3.1 (niet-UUID) | 2.3-regelmatig-5 | 2.3-regelmatig-5 | 1,6 | 1,6 |
 | 4.3.1 (UUID) | 3.2-uuid-5 | 3.2-uuid-5 | 2,3 | 2,3 |
-|  |  |   |
+|  |  |   | | |
 
 
 
@@ -107,25 +107,25 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 
 ### Publiceren
 
-- Native PDF | De orde van de onderwerpen is niet vast wanneer de output van de PDF wordt geproduceerd. 13157
+- Oorspronkelijke PDF | De volgorde van de onderwerpen is niet vast wanneer de PDF-uitvoer wordt gegenereerd. 13157
 - Oorspronkelijke PDF| Geen standaardstijlmarkering is beschikbaar voor `<p>` element. (12559)
-- Native PDF | Inline stijlen die worden toegepast op het inhoudsgebied, worden niet toegepast op de onderwerpen voor- en achtermaterie. 13510
-- Het kenmerk `DeliveryTarget` wordt niet doorgegeven bij het genereren van de AEM Site-uitvoer.  13132
-- Het **Publish** werkschema wordt geplakt terwijl het produceren van AEM output van de Plaats voor inhoud met bepaalde fouten. 12000
+- Oorspronkelijke PDF | Inline stijlen die worden toegepast op het inhoudsgebied, worden niet toegepast op de onderwerpen voor- en achtermaterie. 13510
+- Het kenmerk `DeliveryTarget` wordt niet doorgegeven bij het genereren van de uitvoer van de AEM-site.  13132
+- Het **publiceer** werkschema wordt geplakt terwijl het produceren van de output van de Plaats van AEM voor inhoud met bepaalde fouten. 12000
 
-- Native PDF | Als u meerdere Xrefs toevoegt, wordt de tekst breder dan de kolombreedte. 13004
-- Native PDF | Wanneer het onderwerp en de titel zelfde identiteitskaart hebben, leidt het tot een misvormde generatie van de output van PDF. (12644)
-- Native PDF | Bij het toevoegen van een outputklasse aan een ouder `<topicref>` element in een kaart DITA en het toepassen van douanestijl op de outputklasse, wordt het stileren toegepast op elementen binnen het onderwerplichaam, met inbegrip van sectitels. (12166)
+- Oorspronkelijke PDF | Als u meerdere Xrefs toevoegt, wordt de tekst breder dan de kolombreedte. 13004
+- Oorspronkelijke PDF | Wanneer het onderwerp en de titel zelfde identiteitskaart hebben, leidt het tot een misvormde generatie van de output van PDF. (12644)
+- Oorspronkelijke PDF | Bij het toevoegen van een outputklasse aan een ouder `<topicref>` element in een kaart DITA en het toepassen van douanestijl op de outputklasse, wordt het stileren toegepast op elementen binnen het onderwerplichaam, met inbegrip van sectitels. (12166)
 - Incrementeel publiceren werkt niet als een DITA-kaart meerdere databases heeft. (1217)
-- Site AEM | Bij het creëren van een kaart met keydef richtend aan een onderwerp als variabele en toevoegend verwerkings-rol=middel-slechts leidt tot sommige onverwachte pagina&#39;s. (12099)
-- Als om het even welke activa van AEM DAM in om het even welke output buiten de AEM plaats worden gebruikt, dan weerspiegelen de meta-gegevens &quot;jcr:createdBy&quot;niet de naam van de uitgever of de naam van de gebruiker die het DITA- kaart of onderwerp het laatst wijzigde. 12090
+- AEM-site | Bij het creëren van een kaart met keydef richtend aan een onderwerp als variabele en toevoegend verwerkings-rol=middel-slechts leidt tot sommige onverwachte pagina&#39;s. (12099)
+- Als om het even welke activa van AEM DAM in om het even welke output buiten de plaats van AEM worden gebruikt, dan weerspiegelen de meta-gegevens &quot;jcr :createdBy&quot;niet de naam van de uitgever of de naam van de gebruiker die het DITA- kaart of onderwerp het laatst wijzigde. 12090
 - AEM Sites | De DITA-kaart met padgegevens in de navtitle (met niet-ondersteunde tekens) leidt tot onjuiste pagina-URL&#39;s. (1978)
-- Native PDF | Er doen zich problemen voor ter ondersteuning van topichead / topicmeta / navtitle in FrontMatting en Backissue. (1969)
-- Native PDF | Het genereren van PDF voor grote documenten kost veel tijd. (1955)
-- Native PDF | Als de naam van een voorinstelling wordt gewijzigd, wordt een NullPointerException gegenereerd terwijl een PDF-uitvoer wordt gegenereerd. (11889)
+- Oorspronkelijke PDF | Er doen zich problemen voor ter ondersteuning van topichead / topicmeta / navtitle in FrontMatting en Backissue. (1969)
+- Oorspronkelijke PDF | Het genereren van PDF&#39;s voor grote documenten kost veel tijd. (1955)
+- Oorspronkelijke PDF | Als de naam van een voorinstelling wordt gewijzigd, wordt een NullPointerException gegenereerd terwijl een PDF-uitvoer wordt gegenereerd. (11889)
 - De `<conref>` -inhoud wordt niet weergegeven in de PDF-uitvoer. (1131)
 - Er wordt een extra spatie toegevoegd in de `<div>` -elementen bij het schakelen tussen de weergave Auteur en Source in de pagina-indelingseditor. 10750
-- De inhoud die via AEM Cloud Manager wordt gerepliceerd, is niet zichtbaar op de Publish-instantie. 9564
+- De inhoud die in AEM Cloud Manager wordt gerepliceerd, is niet zichtbaar in de instantie Publiceren. 9564
 
 
 ### Beheer
@@ -139,7 +139,7 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 ### Controleren
 
 - In de revisie over een onderwerp worden onjuiste opmerkingen weergegeven. 13453
-- Met de knop Sluiten op de pagina Revisie in de Experience Manager Guides gaan de gebruikers naar de AEM Homepage. 13535
+- Met de knop Sluiten op de pagina Revisie in de Experience Manager Guides gaan de gebruikers naar de startpagina van AEM. 13535
 - De gehechtheid wordt niet getoond op het juiste paneel van de redacteur voor een onderwerp in-overzicht. (1301)
 
 

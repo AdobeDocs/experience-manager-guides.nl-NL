@@ -4,7 +4,7 @@ description: Maart versie van  [!DNL Adobe Experience Manager Guides]  as a Clou
 exl-id: 885edbb5-dfe4-4bdc-bb66-0df64addb094
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 0%
@@ -15,14 +15,14 @@ ht-degree: 0%
 
 ## Upgrade naar de release van maart
 
-Voer de volgende stappen uit om de huidige instelling voor [!DNL Adobe Experience Manager Guides] as a Cloud Service (later *[!DNL AEM Guides]as a Cloud Service* genoemd) bij te werken:
-1. Controle uit de code van Git van Cloud Servicen en schakelaar aan de tak die in de pijpleiding van Cloud Servicen wordt gevormd die aan het milieu beantwoordt u wilt bevorderen.
-1. Werk de eigenschap `<dox.version>` in het `/dox/dox.installer/pom.xml` -bestand van de Git-code van de Cloud Service bij naar 2022.3.123.
-1. Leg de wijzigingen vast en voer de pijplijn met Cloud Servicen uit om naar de release van maart van [!DNL AEM Guides] as a Cloud Service te upgraden.
+Voer de volgende stappen uit om de huidige installatie van [!DNL Adobe Experience Manager Guides] as a Cloud Service (later ook wel *[!DNL AEM Guides]as a Cloud Service* genoemd) bij te werken:
+1. Bekijk de Git-code van Cloud Services en schakel over naar de vertakking die is geconfigureerd in de Cloud Services-pijplijn die overeenkomt met de omgeving die u wilt upgraden.
+1. Werk de eigenschap `<dox.version>` in het `/dox/dox.installer/pom.xml` -bestand van de Git-code voor Cloud Services bij naar 2022.3.123.
+1. Leg de wijzigingen vast en voer de Cloud Services-pijplijn uit om naar de release van maart van [!DNL AEM Guides] as a Cloud Service te upgraden.
 
 ## Compatibiliteitsmatrix
 
-Deze sectie bevat een overzicht van de compatibiliteitsmatrix voor de softwaretoepassingen die worden ondersteund door de release van [!DNL AEM Guides] as a Cloud Service maart 2022.
+In deze sectie wordt een overzicht gegeven van de compatibiliteitsmatrix voor de softwaretoepassingen die worden ondersteund door de release van [!DNL AEM Guides] as a Cloud Service March 2022.
 
 ### FrameMaker en FrameMaker Publishing Server
 
@@ -45,17 +45,17 @@ Deze sectie bevat een overzicht van de compatibiliteitsmatrix voor de softwareto
 
 ### Nieuw basislijndashboard
 
-In de release van [!DNL AEM Guides] as a Cloud Service maart is de functie Basislijn geïntegreerd in de webeditor. U kunt basislijnen van de Redacteur van het Web nu tot stand brengen en hen gebruiken om onderwerpen van verschillende versies te publiceren of te vertalen.
+[!DNL AEM Guides] De release van as a Cloud Service March biedt de functie Basislijn die in de webeditor is geïntegreerd. U kunt basislijnen van de Redacteur van het Web nu tot stand brengen en hen gebruiken om onderwerpen van verschillende versies te publiceren of te vertalen.
 
 Nota: Voor bevorderd systeem, te werk gelieve recentste **ui_config.json** voor het Profiel van de Omslag bij.
 
 Gebruik deze functie om een basislijn met een specifieke versie van de onderwerpen tot stand te brengen beschikbaar op een specifieke datum en een tijd. Bovendien kunt u met de API-ondersteuning een basislijn maken of bijwerken met een label dat is gedefinieerd voor een versie van onderwerpen.
 
-![&#x200B; basislijn beheert lusje &#x200B;](assets/baseline-manage.png)
+![ basislijn beheert lusje ](assets/baseline-manage.png)
 
 U kunt de bestanden doorzoeken op bestandsnamen of op de bestandslocatie. U kunt ook de onderwerpen filteren die in het basislijnbewerkingsvenster moeten worden weergegeven en ze sorteren op basis van specifieke kolommen.
 
-![&#x200B; basislijn beheert lusje &#x200B;](assets/baseline-filter.png)
+![ basislijn beheert lusje ](assets/baseline-filter.png)
 
 De prestaties voor het basisproces voor het maken zijn verder verbeterd. Het proces om basislijnen tot stand te brengen is asynchroon, zodat kunt u andere dossiers in de Redacteur van het Web blijven uitgeven terwijl de basislijn wordt gecreeerd. Voor meer details, zie *basislijnen van de Redacteur van het Web* in de Gids van de Gebruiker creëren en leiden.
 
@@ -77,7 +77,7 @@ niet-opgeslagen wijzigingen worden geopend voor bewerking. U wordt gevraagd uw b
 
 Het publicatieproces is verder verbeterd met de release van [!DNL AEM Guides] as a Cloud Service in maart:
 
-* De basislijnen zijn gerespecteerd voor de metagegevens van AEM site-uitvoer. U kunt de eigenschappen van een basislijnversie ook als metagegevens verwerken. Als geen basislijn wordt bepaald, dan worden de eigenschappen van de recentste versie verwerkt als meta-gegevens.
+* De basislijnen zijn gerespecteerd voor de metagegevens van de AEM-site-uitvoer. U kunt de eigenschappen van een basislijnversie ook als metagegevens verwerken. Als geen basislijn wordt bepaald, dan worden de eigenschappen van de recentste versie verwerkt als meta-gegevens.
 
 * De **Naam van het Dossier** en **DITA-OT de Argumenten van de Lijn van het Bevel** opties zijn toegevoegd voor HTML5, EPUB, en de output van de Douane vooraf instelt. U kunt nu de bestandsnaam opgeven waarmee u de uitvoer wilt opslaan. U kunt ook de aanvullende argumenten opgeven die u met DITA-OT wilt verwerken tijdens het genereren van uitvoer.
 
@@ -95,7 +95,7 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 
 ## Bekende problemen
 
-Adobe heeft het volgende bekende probleem geïdentificeerd in de release van [!DNL AEM Guides] as a Cloud Service maart.
+Adobe heeft het volgende bekende probleem geïdentificeerd in de release van [!DNL AEM Guides] as a Cloud Service March.
 
 * Als u labels op directe verwijzingen verwijdert, worden de labels ook van indirecte verwijzingen verwijderd.
 

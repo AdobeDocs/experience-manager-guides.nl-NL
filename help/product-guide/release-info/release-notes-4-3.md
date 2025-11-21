@@ -4,9 +4,9 @@ description: Meer informatie over de opgeloste problemen en over het upgraden na
 exl-id: 7fb568a0-0b88-4ea0-9b79-2625336348ff
 feature: Release Notes
 role: Leader
-source-git-commit: 5a444e88b0adba7fa3d498437df39b729b10b5eb
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '1086'
+source-wordcount: '1085'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Deze versienota behandelt de verbeteringsinstructies, verenigbaarheidsmatrijs, en kwesties die in versie 4.3.0 van Adobe Experience Manager Guides (later als *worden bedoeld AEM Guides*) worden bevestigd.
 
-Voor meer informatie over de nieuwe eigenschappen en de verhogingen, zie [&#x200B; wat in versie 4.3.0 van Adobe Experience Manager Guides &#x200B;](./whats-new-4-3-release.md) nieuw is.
+Voor meer informatie over de nieuwe eigenschappen en de verhogingen, zie [ wat in versie 4.3.0 van Adobe Experience Manager Guides ](./whats-new-4-3-release.md) nieuw is.
 
 ## Upgrade naar versie 4.3.0 van AEM Guides
 
@@ -33,9 +33,9 @@ U kunt uw huidige versie van AEM Guides upgraden naar versie 4.3.0
 
 >[!NOTE]
 >
->U moet AEM servicepack installeren voordat u de AEM Guides-versie kunt upgraden.
+>U moet AEM Service Pack installeren voordat u de AEM Guides-versie kunt upgraden.
 
-Voor details, zie [&#x200B; instructies van de Verbetering &#x200B;](../install-guide/upgrade-xml-documentation.md).
+Voor details, zie [ instructies van de Verbetering ](../install-guide/upgrade-xml-documentation.md).
 
 ## Compatibiliteitsmatrix
 
@@ -57,7 +57,7 @@ Voor meer details, zie de *Technische vereisten* sectie in installeer en vorm de
 | --- | --- | --- | --- | --- |
 | 4.3.0 (niet-UUID) | 2022 of hoger | 2020.2 of hoger* | 2022 of hoger | 2020.3 of hoger |
 | 4.3.0 (UUID) | 2022 of hoger | 2020.2 of hoger* | 2022 of hoger | 2020.4 of hoger |
-| | | | |
+| | | | | |
 
 *Basislijn en voorwaarden die in AEM zijn gemaakt, worden vanaf 2020.2 ondersteund in FMPS-releases.
 
@@ -67,7 +67,7 @@ Voor meer details, zie de *Technische vereisten* sectie in installeer en vorm de
 | --- | --- | --- |--- |--- |
 | 4.3.0 (niet-UUID) | 2.3-regelmatig-5 | 2.3-regelmatig-5 | 1,6 | 1,6 |
 | 4.3.0 (UUID) | 3.0-uuid-4 | 3.0-uuid-3 | 2,3 | 2,3 |
-|  |  |   |
+|  |  |   |  |  |
 
 ## Opgeloste problemen
 
@@ -111,17 +111,17 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 
 ### Publiceren
 
-- Publiceren mislukt bij het wijzigen van de naam van een Native PDF-voorinstelling. 12564
-- Als u een Native PDF-sjabloon dupliceert, wordt de standaardsjabloonlocatie gebruikt in plaats van de beschikbare aangepaste sjabloonlocatie. 12563
-- Native PDF | De taalmeta-gegevens kunnen niet in geproduceerde PDF worden geplaatst om aan WCAG 2.0 te voldoen. 12407
-- Publiceren naar AEM site mislukt bij het lezen van tijdelijke bestanden uit pod die mogelijk zijn vernieuwd of opnieuw zijn gestart. (1213)
-- Native PDF | Aangepaste kenmerken worden niet doorgegeven aan de HTML- of PDF-engine. (DXML-12005)
-- Native PDF |  Java OutOfMemoryError treedt op bij het publiceren van grote inhoud. (11789)
-- Native PDF | Xref drukt de inhoud van href onderwerptitel in plaats van het etiket Xref. (11322)
-- Native PDF | Kan de sjablooninstellingen voor PDF niet opslaan. 10751
-- Native PDF | De tekst breidt zich voorbij de kolombreedte uit bij het opnemen van meerdere Xrefs. 10876
-- Native PDF | `<note>` `</note>` -element genereert geen extra bereiktitel van het type. 10549
-- JSON-uitvoer | De eigenschap `fmUuid` op het knooppunt jcr:content van JSON verschilt van de eigenschap &quot;id&quot; in de JSON. 11564
+- Publiceren mislukt bij het wijzigen van de naam van een native PDF-voorinstelling. 12564
+- Als u een native PDF-sjabloon dupliceert, wordt de standaardsjabloonlocatie gebruikt in plaats van de beschikbare aangepaste sjabloonlocatie. 12563
+- Oorspronkelijke PDF | De taalmetagegevens kunnen niet in de gegenereerde PDF worden ingesteld om te voldoen aan WCAG 2.0. 12407
+- Het publiceren naar de AEM-site mislukt wanneer tijdelijke bestanden worden gelezen vanuit een pod die mogelijk is vernieuwd of opnieuw is gestart. (1213)
+- Oorspronkelijke PDF | Aangepaste kenmerken worden niet doorgegeven aan de tijdelijke HTML- of PDF-engine. (DXML-12005)
+- Oorspronkelijke PDF |  Java OutOfMemoryError treedt op bij het publiceren van grote inhoud. (11789)
+- Oorspronkelijke PDF | Xref drukt de inhoud van href onderwerptitel in plaats van het etiket Xref. (11322)
+- Oorspronkelijke PDF | Kan de PDF-sjablooninstellingen niet opslaan. 10751
+- Oorspronkelijke PDF | De tekst breidt zich voorbij de kolombreedte uit bij het opnemen van meerdere Xrefs. 10876
+- Oorspronkelijke PDF | `<note>``</note>` -element genereert geen extra bereiktitel van het type. 10549
+- JSON-uitvoer | De eigenschap `fmUuid` op het JCr :content -knooppunt van JSON is anders dan de eigenschap &quot;id&quot; in de JSON. 11564
 - JSON-uitvoer | Als de kaart en het onderwerp met zelfde filename aanwezig zijn, wordt JSON voor de kaart verwijderd. 11524
 
 ## Bekend probleem
@@ -132,7 +132,7 @@ Adobe heeft het volgende bekende probleem voor AEM Guides 4.3.0-release geïdent
 
   Oplossing:
 Voeg de algemene paginalay-out toe als vooromslag en achteromslag dan begint het voor elke pagina te komen.
-- Het probleem doet zich voor in Sitezoekopdrachten terwijl u op de pagina AEM site-uitvoer op AEM Service Pack 16 of 17 zoekt.
+- Het probleem doet zich voor bij het zoeken naar de site op de AEM-uitvoerpagina op AEM Service Pack 16 of 17.
 
   Oplossing:
 

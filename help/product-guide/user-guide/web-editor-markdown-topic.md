@@ -4,7 +4,7 @@ description: Markeringsdocumenten van auteurs uit de Editor. Leer hoe u een Mark
 exl-id: def14e35-27c5-4b90-bc3d-eef7e8f317d2
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 639cd235778f31b139889d615f93bde3334e4988
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1197'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Voer de volgende stappen uit om een onderwerp van de Prijsverhoging van de Redac
 
    >[!NOTE]
    >
-   > In het geval van een upgrade moet u de sjabloon Markering toevoegen aan het huidige mapprofiel dat wordt gebruikt. U kunt [&#x200B; een nieuw prijsdalingsmalplaatje van de Redacteur &#x200B;](./web-editor-features.md#templates) tot stand brengen of een bestaand malplaatje voor prijsdown authoring gebruiken. Voor details op hoe te om auteursmalplaatjes in Experience Manager Guides toe te voegen, mening [&#x200B; vorm globale of omslag-vlakke profielen &#x200B;](../cs-install-guide/conf-folder-level.md).
+   > In het geval van een upgrade moet u de sjabloon Markering toevoegen aan het huidige mapprofiel dat wordt gebruikt. U kunt [ een nieuw prijsdalingsmalplaatje van de Redacteur ](./web-editor-features.md#templates) tot stand brengen of een bestaand malplaatje voor prijsdown authoring gebruiken. Voor details op hoe te om auteursmalplaatjes in Experience Manager Guides toe te voegen, mening [ vorm globale of omslag-vlakke profielen ](../cs-install-guide/conf-folder-level.md).
 1. Selecteer **creeer**.
 
    Het onderwerp van de Prijsverhoging wordt gecreeerd bij de geselecteerde weg en is open voor het uitgeven.
@@ -67,7 +67,7 @@ Features available in the tab bar are explained as follows:
 
 * **Topic tab**: Displays the currently opened topics in a tab. By default, you can view the file titles in the tab. As you hover over a file, you can view the file title and the file path as a tooltip.
 
-    >![NOTE]
+    >[!NOTE]
     >
     > As an administrator, you can also choose to view the list of files by filenames in the tabs. View [User preferences](./intro-home-page.md#user-preferences) for details.
 * **Save all**: Saves the changes you have made in all opened topics. If you have multiple topics opened in the Editor, selecting **Save all** or pressing `Crtl+S` shortcut keys saves all documents in one click. You do not have to individually save each document.
@@ -88,7 +88,7 @@ De werkbalk bevindt zich vlak onder de tabbalk. De functies in de werkbalk worde
 | Handelingen bewerken | Verleent toegang tot diverse document het uitgeven eigenschappen met inbegrip van **Besnoeiing**  ![](images/S_Cut_18_N.svg), **ongedaan maken**  ![](images/S_Undo_18_N.svg), **opnieuw**  ![](images/S_Redo_18_N.svg), **Exemplaar**  ![](images/S_Copy_18_N.svg), **Schrapping**  ![](images/S_Delete_18_N.svg), en **Vondst en vervangt**  ![](images/S_FindAndReplace_18_N.svg) . U kunt tot de beschikbare opties van **toegang hebben** dropdown van het Menu. |
 | Opties voor tekstopmaak | Verleent toegang tot diverse tekst het formatteren opties met inbegrip van **Koppen**  ![](images/S_DisplayHeading_18_N.svg), **Vet**  ![](images/S_TextBold_18_N.svg), **Cursief**  ![](images/S_TextItalic_18_N.svg), **Doorhalen**  ![](images/S_TextStrikethrough_18_N.svg), **Code**  ![](images/S_Code_18_N.svg), en **citaat van het Blok**  ![](images/S_BlockQuoteMultipleLines_18_N.svg) . |
 | Opties voor het invoegen van inhoud | Verstrekt opties om a **Genummerde lijst** op te nemen  ![](images/S_TextNumbered_18_N.svg), **Geordende lijst**  ![](images/S_TextBulleted_18_N.svg), **Lijst**  ![](images/tableAdd.svg), **Beeld** ![](images/S_ImageAdd_18_N.svg), **Kruisverwijzing**  ![](images/S_LinkGlobe_18_N.svg), en **Symbool**  ![](images/S_SpecialCharacter_18_N.svg) in een document.<br><br> **Nota**: U kunt beelden en andere dossiers in de redacteur van de Prijsverhoging ook slepen en laten vallen. Bestanden worden toegevoegd als kruisverwijzingskoppelingen, terwijl afbeeldingen worden weergegeven als standaardelementen voor afbeeldingen. |
-| Versiehistorie | Hiermee kunt u versies van markeringsbestanden maken en de geschiedenis van wijzigingen weergeven. U kunt verschillende versies vergelijken en terugkeren naar vorige versies indien nodig. De de geschiedenisoptie van de Versie is aanwezig in **&#x200B;**&#x200B;dropdown van het Menu. |
+| Versiehistorie | Hiermee kunt u versies van markeringsbestanden maken en de geschiedenis van wijzigingen weergeven. U kunt verschillende versies vergelijken en terugkeren naar vorige versies indien nodig. De de geschiedenisoptie van de Versie is aanwezig in **** dropdown van het Menu. |
 | Opslaan als nieuwe versie | Slaat de veranderingen op die in het onderwerp worden aangebracht en leidt ook tot een nieuwe versie van het onderwerp. Als u aan een nieuw gecreeerd onderwerp werkt, wordt de versieinformatie getoond als niets. |
 | Vergrendelen/ontgrendelen | Hiermee vergrendelt of ontgrendelt u het huidige bestand. Door een bestand te vergrendelen hebt u exclusief schrijftoegang tot het bestand. Hierdoor kunnen andere gebruikers het bestand niet bewerken. Ontgrendel het bestand als u wilt dat anderen bewerkingstoegang hebben. Als beheerder, krijgt u ook toegang tot de **Grijsmacht ontgrendelt** eigenschap die u toestaat om het dossier te ontgrendelen dat door iemand anders wordt gesloten. |
 
@@ -147,7 +147,7 @@ In het gedeelte Algemeen hebt u toegang tot de volgende functies:
 * **creeerde op**: De datum en de tijd van vertoningen waarop het onderwerp werd gecreeerd.
 * **Gewijzigd op**: De datum en de tijd van vertoningen waarop het onderwerp werd gewijzigd.
 * **Vergrendeld door**: Toont de gebruiker die het onderwerp uitcontroleerde.
-* **de staat van het Document**: U kunt de documentstaat van het momenteel geopende onderwerp selecteren en bijwerken. Voor meer details, mening [&#x200B; de Staat van het Document &#x200B;](./web-editor-document-states.md).
+* **de staat van het Document**: U kunt de documentstaat van het momenteel geopende onderwerp selecteren en bijwerken. Voor meer details, mening [ de Staat van het Document ](./web-editor-document-states.md).
 * **Markeringen**: Dit zijn de meta-gegevensmarkeringen van het onderwerp. Deze worden ingesteld vanuit het tagveld op de eigenschappenpagina. U kunt deze typen of selecteren in het vervolgkeuzemenu. De tags worden weergegeven onder de vervolgkeuzelijst. Als u een tag wilt verwijderen, selecteert u het kruispictogram naast de tag.
 * **geef meer eigenschappen** uit: U kunt meer eigenschappen van de pagina van dossiereigenschappen uitgeven.
 
@@ -175,4 +175,4 @@ De volgende Experience Manager Guides-functies zijn momenteel niet van toepassin
 
 
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; Inleiding aan de Redacteur &#x200B;](web-editor.md)
+**Bovenliggend onderwerp:**[ Inleiding aan de Redacteur ](web-editor.md)

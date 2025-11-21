@@ -1,28 +1,28 @@
 ---
 title: Opmerkingen bij de release | Adobe Experience Manager Guides as a Cloud Service, release mei 2022
-description: Release van Adobe Experience Manager Guides as a Cloud Service
+description: Release van Adobe Experience Manager Guides as a Cloud Service in mei
 exl-id: 7928a300-5ec9-492c-b9be-02b6f87638c6
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1887'
 ht-degree: 0%
 
 ---
 
-# Release van Adobe Experience Manager Guides as a Cloud Service
+# Release van Adobe Experience Manager Guides as a Cloud Service in mei
 
 ## Upgrade naar de release van mei
 
-Bevorder uw huidige as a Cloud Service Adobe Experience Manager Guides (later als *wordt bedoeld AEM Guides as a Cloud Service*) opstelling door de volgende stappen uit te voeren:
-1. Controle uit de code van Git van Cloud Servicen en schakelaar aan de tak die in de pijpleiding van Cloud Servicen wordt gevormd die aan het milieu beantwoordt u wilt bevorderen.
-1. Werk de eigenschap `<dox.version>` in het `/dox/dox.installer/pom.xml` -bestand van de Git-code van de Cloud Service bij naar 2022.5.144.
-1. Leg de wijzigingen vast en voer de pijplijn met Cloud Servicen uit om te upgraden naar de release van AEM Guides as a Cloud Service in mei.
+Bevorder uw huidige die Adobe Experience Manager Guides as a Cloud Service (later als *wordt bedoeld AEM Guides as a Cloud Service*) opstelling door de volgende stappen uit te voeren:
+1. Bekijk de Git-code van Cloud Services en schakel over naar de vertakking die is geconfigureerd in de Cloud Services-pijplijn die overeenkomt met de omgeving die u wilt upgraden.
+1. Werk de eigenschap `<dox.version>` in het `/dox/dox.installer/pom.xml` -bestand van de Git-code voor Cloud Services bij naar 2022.5.144.
+1. Leg de wijzigingen vast en voer de Cloud Services-pijplijn uit om te upgraden naar de release van AEM Guides as a Cloud Service in mei.
 
 ## Compatibiliteitsmatrix
 
-Deze sectie bevat een overzicht van de compatibiliteitsmatrix voor de softwaretoepassingen die worden ondersteund door de AEM Guides as a Cloud Service mei 2022-release.
+Deze sectie bevat een overzicht van de compatibiliteitsmatrix voor de softwaretoepassingen die worden ondersteund door de release van AEM Guides as a Cloud Service mei 2022.
 
 ### FrameMaker en FrameMaker Publishing Server
 
@@ -43,7 +43,7 @@ Deze sectie bevat een overzicht van de compatibiliteitsmatrix voor de softwareto
 
 ## Nieuwe en verbeterde functies
 
-AEM Guides as a Cloud Service biedt veel verbeteringen en nieuwe functies in de release van mei:
+AEM Guides as a Cloud Service biedt een groot aantal verbeteringen en nieuwe functies in de release van mei:
 
 ### Verbeterde webeditor
 
@@ -51,23 +51,23 @@ AEM Guides as a Cloud Service biedt veel verbeteringen en nieuwe functies in de 
 
 Nu krijgt u de krachtige eigenschap om aangepaste kaartmalplaatjes tot stand te brengen. U kunt hen gebruiken om kaarten DITA samen met de onderwerpmalplaatjes en kaartmalplaatjes tot stand te brengen die in het kaartmalplaatje van verwijzingen worden voorzien.
 
-![&#x200B; dita malplaatjes &#x200B;](assets/dita-templates.png)
+![ dita malplaatjes ](assets/dita-templates.png)
 
 U kunt naar andere kaartmalplaatjes en onderwerpmalplaatjes van het aangepaste kaartmalplaatje ook verwijzen. De genoemde kaartmalplaatjes kunnen naar diverse kaartmalplaatjes, onderwerpmalplaatjes, onderwerpen, kaarten, beelden, video&#39;s, en andere activa verwijzen.
 
-![&#x200B; creeer bewerkingsmalplaatjes &#x200B;](assets/create-dita-template.png)
+![ creeer bewerkingsmalplaatjes ](assets/create-dita-template.png)
 
 Het aangepaste kaartsjabloon kan u zeer gemakkelijk helpen de kaartsjablonen en de volledige doorverwezen omslagstructuur te herhalen. Deze aangepaste sjablonen zijn vooral handig voor het maken en opnieuw maken van meerdere kaarten met recursieve structuren en verwijzingen.
 
 * De **eigenschap van het Trefwoord van het Tussenvoegsel** is verbeterd. U kunt nu gemakkelijker een trefwoord vinden dat moet worden ingevoegd omdat de trefwoorden in alfabetische volgorde worden weergegeven. U kunt ook naar trefwoorden zoeken door een zoektekenreeks in het vak Zoeken te typen.
 
-![&#x200B; neem sleutelwoord &#x200B;](assets/insert-keyword.png) op
+![ neem sleutelwoord ](assets/insert-keyword.png) op
 
 * In de weergavebestanden voor opslagplaatsen worden nu batches geladen. Er worden 75 bestanden tegelijk geladen. Het laden van deze batch is efficiënt en u hebt sneller toegang tot de bestanden dan tot het laden van alle bestanden in een map.
 
-![&#x200B; lading meer dossiers &#x200B;](assets/load-more-files.png)
+![ lading meer dossiers ](assets/load-more-files.png)
 
-* U kunt SVG-afbeeldingen renderen die ingesloten gegevens of koppelingen bevatten in alle schermen van XML-editors, inclusief maar niet beperkt tot de voorvertoning en de weergave Auteur.
+* U kunt SVG-afbeeldingen renderen die ingesloten gegevens of koppelingen bevatten in alle schermen van XML-editors, inclusief maar niet beperkt tot de weergave Voorbeeld en Auteur.
 
 * De standaard XSD/DTD kan worden bijgewerkt naar de nieuwste versie
 
@@ -76,7 +76,7 @@ Het aangepaste kaartsjabloon kan u zeer gemakkelijk helpen de kaartsjablonen en 
 * **Mogelijkheid om een scoping vertaalproject** tot stand te brengen
 Als u slechts het werkingsgebied voor een te vertalen project moet tot stand brengen, kunt u **selecteren creeert een nieuw scoping vertaalproject**. Hierdoor worden de kopieën niet voor vertaling verzonden en blijft de oorspronkelijke vertaalstatus van de bestanden behouden.
 
-![&#x200B; scoping vertaalproject &#x200B;](assets/scoping-translation-project.png)
+![ scoping vertaalproject ](assets/scoping-translation-project.png)
 
 * Als u de vertaling voor één of meerdere onderwerpen in een vertaalbaan verwerpt, herstelt de Bezig vertaalstatus van alle verworpen onderwerpen aan hun originele status.
 
@@ -84,7 +84,7 @@ Als u slechts het werkingsgebied voor een te vertalen project moet tot stand bre
 
 * De vertaalfunctie ondersteunt nu ook de taalcode die zowel het land als de taal omvat. Bijvoorbeeld `fr-fr` , `en-us` .
 
-![&#x200B; taal vertaalde vertaling &#x200B;](assets/translation-languages.png)
+![ taal vertaalde vertaling ](assets/translation-languages.png)
 
 * Bij het laden van een kaart DITA die buiten de taalomslag is, wordt geen uitzondering geregistreerd bij het achtereind.
 
@@ -93,23 +93,23 @@ Voor meer details op vertaling, zie *documenten van de sectie van de Redacteur v
 
 ### Verbeterde publicatie
 
-* U kunt tot het **dashboard van Publish** van het lusje van Output ook toegang hebben terwijl u output van het kaartdashboard produceert. In het Publish-dashboard vindt u een lijst met alle actieve publicatietaken.
+* U kunt tot **toegang hebben publiceer Dashboard** van het lusje van Output terwijl u output van het kaartdashboard produceert. Een lijst met alle actieve publicatietaken is beschikbaar op het dashboard Publiceren.
 
-![&#x200B; een rij gevormde output &#x200B;](assets/queued-output.png)
+![ een rij gevormde output ](assets/queued-output.png)
 
-* Via het kaartdashboard kunt u meerdere DITAVAL-bestanden selecteren om geconditioneerde inhoud te genereren. U kunt de bestandsvolgorde behouden door bestanden toe te voegen of te verwijderen. U kunt de muisaanwijzer ook boven de bestandsnaam plaatsen om het pad te zien in de AEM opslagplaats waar het bestand is opgeslagen.
+* Via het kaartdashboard kunt u meerdere DITAVAL-bestanden selecteren om geconditioneerde inhoud te genereren. U kunt de bestandsvolgorde behouden door bestanden toe te voegen of te verwijderen. U kunt de muisaanwijzer ook boven de bestandsnaam plaatsen om het pad te zien in de AEM-opslagplaats waar het bestand is opgeslagen.
 
 * **Vervangen Eigenschap**
 AEM as a Cloud Service biedt geen ondersteuning meer voor het genereren van de DITA-uitvoerindeling voor FrameMaker-documenten. Deze optie DITA is ook verwijderd uit de uitvoervoorinstellingen van het kaartdashboard.
 
 ### Verbeterde publicatie op basis van artikelen
 
-De Redacteur van XML verstrekt de capaciteit om meer dan één productcategorie aan een artikel in kaart te brengen terwijl het publiceren aan een profiel Salesforce.
+Met de XML-editor kunt u meer dan één productcategorie aan een artikel toewijzen tijdens het publiceren naar een Salesforce-profiel.
 
 ### Andere functies
 
 * De voorvertoningsmodus ondersteunt ook het attribuut `deliveryTarget` voorwaardelijke verwerking in DITA. Het is beschikbaar als optie in de drop-down filter samen met **publiek**, **platform**, **product**, steunen, **andere props**.
-* Er is een optie beschikbaar waarmee de AEM server in Oxygen en het lokale systeem met kracht kan worden gesynchroniseerd.
+* Er is een optie beschikbaar waarmee de AEM-server in Oxygen en het lokale systeem met kracht kan worden gesynchroniseerd.
 
 ## Opgeloste problemen
 
@@ -138,8 +138,8 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 * In Versiegeschiedenis worden het versienummer en het label niet weergegeven voor de huidige versie. 9446
 * De Editor bevriest wanneer bepaalde inhoudsbestanden worden geopend in de editor. (9443)
 * Als u in het deelvenster Opslagplaats zoekt en in het dialoogvenster Bladeren op onderwerp bladert, wordt het scherm geblokkeerd wanneer de inhoud groot is. 9432
-* Metagegevens die aan AEM site-uitvoer worden doorgegeven, voldoen niet aan de basislijn van de inhoud. 9416
-* Zuurstof controleert een onjuiste versie van een onderwerp nadat een versie in AEM terugkeert. (9411)
+* Metagegevens die aan de AEM-site-uitvoer worden doorgegeven, voldoen niet aan de basislijn van de inhoud. 9416
+* Zuurstof controleert een onjuiste versie van een onderwerp na een versie in AEM. (9411)
 * Uitgeschakelde basislijn schakelt bewerking uit op het tabblad Voorinstelling van het kaartdashboard. 9403
 * Fout wordt altijd geregistreerd op de verwezenlijking van nieuwe inhoud. (9388)
 * Nieuw gemaakte DITA-elementen worden altijd uitgecheckt door een andere gebruiker. 9387
@@ -152,7 +152,7 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 * Kan niet dossiers zoeken gebruikend **vinden Dossiers in Omslag** van het **Meer menu van Opties** en app wordt niet ontvankelijk. (937)
 * Het dialoogvenster Bladeren loopt vast als er een groot aantal toetsen aanwezig is. (932)
 * DITAVAL-bestanden werken niet tijdens het publiceren op basis van artikelen. (9330)
-* De volgorde van voetnoten is onjuist in de uitvoer AEM Site. 9327
+* De volgorde van voetnoten is onjuist in de uitvoer van de AEM-site. 9327
 * De zoekopdracht wordt niet automatisch uitgevoerd wanneer het geselecteerde pad wordt gewijzigd. 9323
 * Wanneer de vertaling is voltooid, wordt een extra versie gemaakt voor het vertaalde element. 9310
 * Kan de gebruikers van de beheerder in het mappenprofiel niet verwijderen. 9306
@@ -169,7 +169,7 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 * `xref` zonder tekst wordt niet weergegeven in op artikelen gebaseerde publicatie-uitvoer. 8764
 * Verwijzingen naar bewegende afbeeldingen of multimediabestanden met een spatie in de bestandsnamen. 8624
 * Verwijzingen worden verbroken wanneer u `Select All` kiest en de multimediabestanden of DITA-inhoud naar een andere map verplaatst. (8622)
-* Uitvoertaken met de status &quot;Wachten&quot; of &quot;Uitvoeren&quot; worden niet opgeschoond in het Publish-dashboard.  8569
+* Uitvoertaken met de status &quot;Wachten&quot; of &quot;Uitvoeren&quot; worden niet opgeschoond in het publicatiedashboard.  8569
 * De functie Uitvoer leegmaken mislukt als er een groot aantal knooppunten in de uitvoergeschiedenis aanwezig zijn. 8568
 * Met DITA toevoegen op pakket voorkomt u dat elementen door DAM worden gedupliceerd. 8417
 * De knop Revisietaak maken is ingeschakeld voor niet-DITA-bestanden. 8401
@@ -177,13 +177,13 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 * Onverwachte ruimte gevonden in elk leeg `entry` -element wanneer het attribuut outputclass wordt toegevoegd aan het `tgroup` -element. 7532
 * Het deelvenster Opslagplaats geeft de pictogrammen voor het in- of uitchecken van bestanden niet weer zodra de handeling is voltooid. 5817
 * Het vergrendelingspictogram wordt weergegeven in de dataweergave, zelfs als het bestand is ingecheckt in de editor.  5756
-* Sites ontbreken in AEM voorinstellingen onder het tabblad Uitvoer. 9567
+* Sites ontbreken in AEM-voorinstellingen onder het tabblad Uitvoer. 9567
 * XML-editor hangt vast bij het bewerken van sommige DITA-bestanden. 9537
 * Als u een zoekopdracht uitvoert in de XML-editor, wordt de pagina vastgezet. 9452
 * Kaart downloaden met basislijn werkt niet als de inhoud naar een andere map wordt verplaatst. (9331)
-* Herladen mislukt in zuurstof wanneer het bestand of de bestanden al in AEM op dezelfde locatie aanwezig zijn. 9328
+* Herladen mislukt in zuurstof wanneer het bestand of de bestanden al op dezelfde locatie in AEM aanwezig zijn. 9328
 * De positie van markering is onjuist in de weergave Naast elkaar. 9305
-* Nadat een document van Oxygen naar AEM is ingecheckt, wordt Japanse inhoud in het document vervangen door vraagtekens (????). 9276
+* Na het inchecken van een document van Oxygen naar AEM wordt Japanse inhoud in het document vervangen door vraagtekens (????). 9276
 * Uploaden van bestanden van Oxygen naar AEM mislukt. (9157)
 * E-mailmelding wordt niet verzonden wanneer een revisietaak opnieuw wordt toegewezen in het Postvak IN. 8376
 
