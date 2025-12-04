@@ -25,7 +25,7 @@ Het artikel bevat een lijst met de belangrijkste parameters die in een SCORM-pak
 | **zicht van TOC en onderwerptelling** | Toont de zichtbaarheid van de inhoudsopgave en de details van de onderwerpvoltooiing | Project.HideTOC, Project.TotalTopics, Project.TopicsCompleted | - |
 | **per onderwerpstatus** | Voltooiing en status doorgeven voor elk onderwerp | Aangepaste status per les | - |
 | **per vraagkeuzestaat** | Volgt de geselecteerde keuzes van de leerling per vraag | value, generated_id, checked | - |
-| **Globale vraag het scoren** | Op vraagniveau behaalde score en aggregaat | {&quot;score&quot;:0, &quot;maxScore&quot;:1 en % | &quot;score&quot;:33.33, &quot;maxScore&quot;:100, &quot;minScore&quot;:0 |
+| **Globale vraag het scoren** | Op vraagniveau behaalde score en aggregaat | &lbrace;&quot;score&quot;:0, &quot;maxScore&quot;:1 en % | &quot;score&quot;:33.33, &quot;maxScore&quot;:100, &quot;minScore&quot;:0 |
 | **Interacties op elk vraagniveau** | Details van studenteninteractie per vraag | id/type/timestamp/correct_response/learner_response/result/latentie | - |
 | **Algemene cursusstatus** | Geeft de voortgang voor slagen en afwijzen aan | success_status, completion_status, score, progress_measurement | Of geslaagd of mislukt |
 | **de details van de Student** | Identificeert leerling op identiteitskaart en naam | cmi.learner_id, cmi.learner_name | Albert |
