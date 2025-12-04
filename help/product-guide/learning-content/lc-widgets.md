@@ -4,9 +4,9 @@ description: Leer meer over de interactieve widgets die u kunt gebruiken in de l
 feature: Authoring
 role: User
 exl-id: e7ca2df1-9d15-4718-9698-8a0f059a86d7
-source-git-commit: 74e5baaf1743986ab188f5c89644d7683f885d0a
+source-git-commit: d4fd08c70c590496fef7a047745d4403546664fe
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -28,33 +28,22 @@ De beschikbare widgets die zijn ontworpen om de gebruikerservaring te verbeteren
 
   ![](assets/carousal-learning-content.png){width="650" align="left"}
 
-- **Hotspots:** voeg hotspots aan een geselecteerd beeld toe. Begin door een beeld te kiezen, dan aan **Tussenvoegsel > Hotspot** te navigeren. Hiermee opent u het dialoogvenster Hotspot, waarin u verschillende opties kunt configureren, zoals het instellen van verschillende hotspots, het toevoegen van corresponderende koppelingen en het aanpassen van de laag door gebieden naar voren of naar achteren te verplaatsen.
+- **Hotspot:** voegt hotspot aan een geselecteerd beeld toe. Begin door een beeld te kiezen, dan aan **Tussenvoegsel > Hotspot** te navigeren. Hiermee opent u het dialoogvenster Hotspot, waarin u verschillende opties kunt configureren, zoals het instellen van verschillende hotspots, het toevoegen van corresponderende koppelingen en het aanpassen van de laag door gebieden naar voren of naar achteren te verplaatsen.
 
   ![](assets/hotspot-learning-content.png){width="650" align="left"}
 
-- **citaten van het Blok:** voegt blokcitaten samen met citaties aan uw inhoud toe.
+- **Lusje:** staat u toe om inhoud in interactieve secties te organiseren.  Elk tabblad kan een afzonderlijk onderwerp of een aparte categorie vertegenwoordigen. Studenten kunnen op de tabbladen klikken of hierop tikken om de bijbehorende inhoud weer te geven. Plaats uw curseur waar u widget van het Lusje in de inhoud wilt verschijnen, en navigeer dan aan **Tussenvoegsel > Widget > Lusje**. Hiermee voegt u een tabcontainer toe aan uw inhoud. Voeg nu inhoud toe aan het tabblad met daarin een tabtitel en de bijbehorende inhoud.
 
-  ![](assets/block-quote-learning-content.png){width="650" align="left"}
+  ![](assets/insert-tab-lc.png)
 
-- **de blokken van de Code:** voegt een codeblok aan uw inhoud toe.
+  Om, de lay-out van het schakelaarlusje (verticale lusjes of horizontale lusjes) toe te voegen te schrappen, te gebruiken, de **eigenschappen van de Inhoud** sectie in het Juiste paneel.
+- **Kaart van de Omslag:** voegt een interactieve kaart aan uw inhoud toe die om extra informatie te openbaren. Elke kaart heeft twee kanten - voor en achter, waardoor studenten op een aantrekkelijke manier informatie kunnen verkennen.  Om een kaart van de Tik op te nemen, plaats uw curseur bij de gewenste plaats en navigeer aan **Tussenvoegsel > Widget > de kaart van de Tik**, die een de kaartcontainer van de Tik aan uw inhoud toevoegt. Vervolgens kunt u een titel en een optionele afbeelding toevoegen aan de voorzijde en de bijbehorende inhoud op de achterzijde invoeren.
 
-  ![](assets/code-block-learning-content.png){width="650" align="left"}
+  ![](assets/insert-flip-card-lc.png)
 
-- **Iframes:** neem een iframe in de inhoud op om externe Web-pagina&#39;s of interactieve middelen in te bedden. U kunt de iframe eigenschappen vormen gebruikend het **eigenschappen van de Inhoud** paneel, met inbegrip van bron URL, breedte, hoogte, groepering, en de titel. U kunt de inhoud bekijken die in iframe wordt toegevoegd door aan de **wijze van de Voorproef** zoals hieronder getoond over te schakelen.
+  Om kaarten toe te voegen of te schrappen, of hun lay-out te veranderen, gebruik de **eigenschappen van de Inhoud** sectie in het Juiste paneel.
+- **klik om te openbaren:** neemt een interactieve widget aan uw inhoud op die inhoud verbergt tot de studenten klikken om het te openbaren. Dit helpt het rommelige beeld te verminderen en exploratie te bevorderen. Neem widget door uw curseur bij de gewenste plaats te plaatsen en **Tussenvoegsel > Widget te selecteren > klikt om** te openbaren. Nadat u de widgetkoptekst hebt ingevoegd, geeft u de titel op voor de widgetkoptekst en definieert u de verborgen inhoud die wordt weergegeven wanneer studenten communiceren.
 
-  **Auteur** mening:
+  ![](assets/insert-click-to-reveal-lc.png)
 
-  ![](assets/iframe-learning-content.png){width="650" align="left"}
-
-
-  **wijze van de Voorproef 0&rbrace; &lbrace;:**
-
-  ![](assets/iframe-learning-content-preview.png){width="650" align="left"}
-
-- **gebied van de Input:** voeg een gebied van de tekstinput samen met een knoop aan uw inhoud toe. U kunt deze combinatie gebruiken om gebruikersinvoer vast te leggen en specifieke handelingen te activeren. Er wordt een afspeelknop toegevoegd aan de inhoud, zoals hieronder wordt weergegeven.
-
-  ![](assets/button-learning-content.png){width="650" align="left"}
-
-- **Meer opties:** u hebt extra opties om uw het leren inhoud te verbeteren, met inbegrip van het opnemen van een horizontale lijn, lijnonderbreking, tekstvakje, geplaatst tekstvakje, en ingebedde HTML.
-
-  ![](assets/more-options-learning-content.png){width="650" align="left"}
+  Om widget toe te voegen of te schrappen, of de widgetrichtlijn te beheren, gebruik de **eigenschappen van de Inhoud** sectie in het Juiste paneel.

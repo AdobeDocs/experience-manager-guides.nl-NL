@@ -4,9 +4,9 @@ description: Meer informatie over de basisbouwstenen die u kunt toevoegen aan uw
 feature: Authoring
 role: User
 exl-id: 171b9df9-3782-4cfa-b450-7824e5fd390d
-source-git-commit: 74e5baaf1743986ab188f5c89644d7683f885d0a
+source-git-commit: 41ea5e91b5ee096ede2eb06dae7a44f01e0c0571
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,9 @@ De volgende video biedt een kort overzicht van de beschikbare functies voor een 
 
 U kunt de basisbewerkingsfuncties gebruiken die beschikbaar zijn op de werkbalk van de Editor, zoals hieronder wordt beschreven:
 
-- **Widgets**: Voeg widgets als accordeon, carrousel, hotspots, en meer aan uw Onderwerp of het leren inhoud toe gebruikend het **3&rbrace; menu van het Tussenvoegsel &lbrace;zoals hieronder getoond.** Voor meer details op interactieve widgets, mening [&#x200B; Gebruik interactieve widgets &#x200B;](./lc-widgets.md).
+- **opties van het Tussenvoegsel**: Verstrekt opties om [ interactieve Widgets ](./lc-widgets.md) toe te voegen zoals Accordion, Carrousel, HotSpot, Lusjes, Kaarten van de Omslag, en te klikken om, evenals [ structurele elementen ](./lc-other-insert-options.md) zoals Iframe, de Citaten van het Blok, het Blok van de Code, en meer te openbaren. Gebruik dit menu om functionaliteit en verscheidenheid aan uw het leren inhoud toe te voegen, die het boeiend en goed-gestructureerd maken.
 
-  ![](assets/widgets-learning-content.png){width="650" align="left"}
+  ![](assets/insert-menu-options-lc.png){width="650" align="left"}
 
 - **componenten van de Tekst**: Voegt rubriek/titels, paragraaf, gealigneerd citaat, superscript, subscript en citaat aan uw inhoud toe.
 
@@ -45,15 +45,33 @@ U kunt de basisbewerkingsfuncties gebruiken die beschikbaar zijn op de werkbalk 
 
   ![](assets/image-learning-content.png){width="650" align="left"}
 
-- **Multimedia**: Voegt video en audio aan de inhoud van het **Meer** menu op de toolbar toe. U kunt hun eigenschappen aanpassen gebruikend het **paneel van de Eigenschappen van de Inhoud**.
+- **Multimedia**: Voegt video en audio aan de inhoud toe. U kunt hun eigenschappen aanpassen gebruikend het **paneel van de Eigenschappen van de Inhoud**.
 
   ![](assets/video-learning-content.png){width="650" align="left"}
 
-- **Symbolen**: Voegt symbolen van uw keus aan de inhoud van een lijst zoals hieronder getoond toe. U kunt het van het **Meer** menu op de toolbar gebruiken.
+- **Herbruikbare inhoud**: Laat u toe om bestaande inhoud van uw activa of bewaarplaats voor herbruikbaarheid op te nemen. Voer de volgende stappen uit om herbruikbare inhoud in te voegen:
+
+   1. Selecteer **Herbruikbare inhoud** van de toolbar.
+Het **hergebruik de dialoog van de Inhoud** opent.
+   2. Navigeer en selecteer het gewenste onderwerp om zijn inhoud in de huidige cursus te omvatten.
+   3. Selecteer de id van de inhoud die u wilt toevoegen. Ter referentie wordt een voorvertoning weergegeven.
+
+      ![](assets/reuse-content-dialog.png){width="650" align="left"}
+
+   4. Kies **Uitgezocht**.
+
+  De inhoud wordt ingevoegd. De sectie over de voertuigstructuur is bijvoorbeeld een inhoudsonderdeel dat opnieuw wordt gebruikt en wordt toegevoegd aan het onderwerp van de cursus. Het type wordt getoond als **Verwijzing**, en zijn **identiteitskaart** wordt weerspiegeld in het **Eigenschappen van de Inhoud** paneel.
+
+  ![](assets/reusable-content.png){width="650" align="left"}
+
+
+- **Symbolen**: Voegt symbolen van uw keus aan de inhoud van een lijst zoals hieronder getoond toe.
 
   ![](assets/symbol-learning-content.png){width="350" align="left"}
 
 
-- **Hyperlinks**: Voegt hyperlinks aan de vereiste plaats in uw inhoud toe. U kunt het van het **Meer** menu op de toolbar gebruiken. Dit kan een bestandsverwijzing, web-URL of een e-mailkoppeling zijn, zoals hieronder wordt weergegeven.
+- **Hyperlinks**: Voegt hyperlinks aan de vereiste plaats in uw inhoud toe. Dit kan een bestandsverwijzing, web-URL of een e-mailkoppeling zijn, zoals hieronder wordt weergegeven.
 
   ![](assets/hyperlink-learning-content.png){width="650" align="left"}
+
+Bovendien, verleent het **menu** dropdown toegang tot het uitgeven acties (Besnoeiing, Exemplaar, Schrapping), vindt en vervangt en het etiket van de Versie.
