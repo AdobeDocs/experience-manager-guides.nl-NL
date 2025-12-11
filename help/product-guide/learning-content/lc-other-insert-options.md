@@ -29,7 +29,7 @@ De andere opties die beschikbaar zijn in het menu Invoegen op de werkbalk van de
   ![](assets/iframe-learning-content.png){width="650" align="left"}
 
 
-  **wijze van de Voorproef 0} {:**
+  **wijze van de Voorproef 0&rbrace; &lbrace;:**
 
   ![](assets/iframe-learning-content-preview.png){width="650" align="left"}
 
@@ -37,7 +37,7 @@ De andere opties die beschikbaar zijn in het menu Invoegen op de werkbalk van de
 
   ![](assets/insert-h5p-lc.png)
 
-  Als u verkiest om de inhoud H5P van uw systeem te gebruiken, dan eerst [ uploadt het dossier in DAM ](../user-guide/authoring-upload-existing-files.md) gebruikend **activa** optie uploaden, en dan het deel van de mening van de Bewaarplaats/Assets hebben.
+  Als u verkiest om de inhoud H5P van uw systeem te gebruiken, dan eerst [&#x200B; uploadt het dossier in DAM &#x200B;](../user-guide/authoring-upload-existing-files.md) gebruikend **activa** optie uploaden, en dan het deel van de mening van de Bewaarplaats/Assets hebben.
 
   ![](assets/upload-assets-option.png)
 
@@ -52,14 +52,14 @@ De andere opties die beschikbaar zijn in het menu Invoegen op de werkbalk van de
 
   ![](./assets/insert-mathml.png){width="350" align="left"}
 
-  De vergelijking wordt ingevoegd met een lichtgrijze achtergrond. Op elk ogenblik kunt u een vergelijking bijwerken door op een bestaande vergelijking met de rechtermuisknop te klikken en **te selecteren geeft de vergelijking van Math** van het contextmenu uit. Voor details bij het bevestigen van de vergelijkingen van MathML in Experience Manager Guides, mening [ Bevestiging van vergelijkingen in de redacteur van MathML ](../user-guide/web-editor-other-features.md#validation-of-equations-in-the-mathml-editor).
+  De vergelijking wordt ingevoegd met een lichtgrijze achtergrond. Op elk ogenblik kunt u een vergelijking bijwerken door op een bestaande vergelijking met de rechtermuisknop te klikken en **te selecteren geeft de vergelijking van Math** van het contextmenu uit. Voor details bij het bevestigen van de vergelijkingen van MathML in Experience Manager Guides, mening [&#x200B; Bevestiging van vergelijkingen in de redacteur van MathML &#x200B;](../user-guide/web-editor-other-features.md#validation-of-equations-in-the-mathml-editor).
 
 - **controle van de Kennis:** staat u toe om vragen in beschikbare formaten (Enige Correct, Veelvoudig Correct, Waar/Onwaar, Gelijke Volgorde het volgende, of tussenvoegsel van de vraagbank) aan uw onderwerp voor overzicht toe te voegen en begrip te bevestigen zonder het sorteren. Deze vragen weerspiegelen de standaardformaten en sluiten het scoring uit, die hen ideaal maken voor zelfbeoordeling en geschikt als deel van cursusinhoud of een onderwerp vóór een quiz of een beoordeling later, als beschikbaar.
 
   ![](assets/knowledge-check-topic.png){width="650" align="left"}
 
 
-  U kunt correcte antwoorden en andere vereiste gebieden door het **eigenschappen van de Inhoud** paneel vormen. Voor meer details, bekijk [ types van Vraag ](./quiz-insert-questions.md). U kunt verschillende vraagtypen toevoegen met de opties voor kenniscontrole, zoals hieronder wordt weergegeven.
+  U kunt correcte antwoorden en andere vereiste gebieden door het **eigenschappen van de Inhoud** paneel vormen. Voor meer details, bekijk [&#x200B; types van Vraag &#x200B;](./quiz-insert-questions.md). U kunt verschillende vraagtypen toevoegen met de opties voor kenniscontrole, zoals hieronder wordt weergegeven.
 
   ![](assets/knowledge-check-content-properties.png){width="650" align="left"}
 
