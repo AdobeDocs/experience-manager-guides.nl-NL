@@ -13,16 +13,16 @@ ht-degree: 0%
 
 Dit artikel behandelt de nieuwe en verbeterde eigenschappen die met versie 5.1.0 Service Pack 3 van Adobe Experience Manager Guides worden geïntroduceerd.
 
-Voor de lijst van kwesties die in deze versie zijn bevestigd, mening [ Vaste kwesties in 5.1.0 Service Pack 3 versie ](fixed-issues-5-1-0-sp3.md).
+Voor de lijst van kwesties die in deze versie zijn bevestigd, mening [&#x200B; Vaste kwesties in 5.1.0 Service Pack 3 versie &#x200B;](fixed-issues-5-1-0-sp3.md).
 
-Leer over [ verbeteringsinstructies voor 5.1.0 Service Pack 3 versie ](../release-info/upgrade-instructions-5-1-0-sp3.md).
+Leer over [&#x200B; verbeteringsinstructies voor 5.1.0 Service Pack 3 versie &#x200B;](../release-info/upgrade-instructions-5-1-0-sp3.md).
 
 
 ## Aangepaste afbeeldingsuitvoeringen configureren voor specifieke uitvoervoorinstellingen
 
 U kunt nu verschillende afbeeldingsuitvoeringen configureren voor afzonderlijke uitvoervoorinstellingen onder hetzelfde uitvoertype door het kenmerk `outputName` in `renditionmapping.xml` te gebruiken. Deze verbetering geeft u meer flexibiliteit wanneer het publiceren van inhoud die verschillende beeldresoluties voor verschillende scenario&#39;s vereist. U wilt bijvoorbeeld een afbeelding met hoge resolutie voor de HTML5-hoofduitvoer terwijl u een kleinere miniatuur voor een lichtgewichtvoorinstelling gebruikt.
 
-Voor meer details, bekijk [ de afbeeldingsvertoning van de Handle in outputgeneratie ](../install-guide/conf-output-generation.md#handle-image-rendition-during-output-generation).
+Voor meer details, bekijk [&#x200B; de afbeeldingsvertoning van de Handle in outputgeneratie &#x200B;](../install-guide/conf-output-generation.md#handle-image-rendition-during-output-generation).
 
 
 
