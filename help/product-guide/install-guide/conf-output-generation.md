@@ -185,7 +185,7 @@ Voer de volgende stappen uit om uw eigen ontwerpsjabloon op te geven die moet wo
 >
 > Nadat u een aangepaste ontwerpsjabloonnode hebt gemaakt, moet u de optie Ontwerpen in de uitvoervoorinstellingen van de AEM-site bijwerken om het aangepaste ontwerpsjabloonknooppunt te kunnen gebruiken.
 
-Voor meer informatie, zie [&#x200B; Creërend uw Eerste Adobe Experience Manager 6.3 website &#x200B;](https://helpx.adobe.com/experience-manager/using/first_aem63_website.html) en [&#x200B; de Grondbeginselen &#x200B;](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/the-basics.html) van het ontwikkelen van uw eigen website op AEM.
+Voor meer informatie, zie [&#x200B; Creërend uw Eerste Adobe Experience Manager 6.3 website &#x200B;](https://helpx.adobe.com/experience-manager/using/first_aem63_website.html) en [&#x200B; de Grondbeginselen &#x200B;](https://helpx.adobe.com/nl/experience-manager/6-3/sites/developing/using/the-basics.html) van het ontwikkelen van uw eigen website op AEM.
 
 ### Documenttitel gebruiken om uitvoer van AEM-sites te genereren
 
@@ -642,11 +642,11 @@ AEM Guides biedt de categorie `apps.fmdita.dashboard-extn` voor het aanpassen va
 
 >[!NOTE]
 >
-> Voor meer informatie over het creëren van de Bibliotheek van de Cliënt van AEM, zie [&#x200B; Gebruikend cliënt-Kant Bibliotheken &#x200B;](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/clientlibs.html).
+> Voor meer informatie over het creëren van de Bibliotheek van de Cliënt van AEM, zie [&#x200B; Gebruikend cliënt-Kant Bibliotheken &#x200B;](https://helpx.adobe.com/nl/experience-manager/6-4/sites/developing/using/clientlibs.html).
 
 ## Afbeeldingsuitvoering afhandelen tijdens het genereren van de uitvoer {#id177BF0G0VY4}
 
-AEM wordt geleverd met een set standaardworkflows en mediapandgrepen voor het verwerken van middelen. In AEM zijn er vooraf gedefinieerde workflows voor het verwerken van elementen voor de meest gangbare MIME-typen. Doorgaans maakt AEM voor elke afbeelding die u uploadt, meerdere uitvoeringen van dezelfde indeling in binaire indeling. Deze vertoningen kunnen van verschillende grootte, met een verschillende resolutie, met een toegevoegd watermerk, of één of andere andere veranderde eigenschap zijn. Voor meer informatie over hoe AEM activa behandelt, zie [&#x200B; Assets die de Handlers en de Werkschema&#39;s van Media van de Verwerking gebruikt &#x200B;](https://helpx.adobe.com/experience-manager/6-5/assets/using/media-handlers.html) in de documentatie van AEM.
+AEM wordt geleverd met een set standaardworkflows en mediapandgrepen voor het verwerken van middelen. In AEM zijn er vooraf gedefinieerde workflows voor het verwerken van elementen voor de meest gangbare MIME-typen. Doorgaans maakt AEM voor elke afbeelding die u uploadt, meerdere uitvoeringen van dezelfde indeling in binaire indeling. Deze vertoningen kunnen van verschillende grootte, met een verschillende resolutie, met een toegevoegd watermerk, of één of andere andere veranderde eigenschap zijn. Voor meer informatie over hoe AEM activa behandelt, zie [&#x200B; Assets die de Handlers en de Werkschema&#39;s van Media van de Verwerking gebruikt &#x200B;](https://helpx.adobe.com/nl/experience-manager/6-5/assets/using/media-handlers.html) in de documentatie van AEM.
 
 Met AEM Guides kunt u configureren welke afbeeldingsuitvoering moet worden gebruikt wanneer uitvoer voor uw documenten wordt gegenereerd. U kunt bijvoorbeeld kiezen uit een van de standaardafbeeldingsuitvoeringen of een uitvoering maken en hetzelfde gebruiken om uw documenten te publiceren. Toewijzing van afbeeldingsuitvoering voor het publiceren van uw documenten wordt opgeslagen in het `/libs/fmdita/config/ **renditionmap.xml**` -bestand. Een fragment van het bestand `renditionmap.xml` ziet er als volgt uit:
 
