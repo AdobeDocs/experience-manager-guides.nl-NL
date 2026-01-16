@@ -2,9 +2,9 @@
 title: Opmerkingen bij de release | Problemen met Adobe Experience Manager Guides 5.1.0 Service Pack 3-release opgelost.
 description: Meer informatie over de opgeloste problemen vindt u in de 5.1.0 Service Pack 3-release van Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 64d7e4f8028ade36c4fee9bb3407e70b10da6869
+source-git-commit: 82eb0e18eb285006c66b1fe2b6ecc3ca86fefe61
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Dit artikel behandelt de fouten die in diverse gebieden van 5.1.0 Service Pack 3 versie van Adobe Experience Manager Guides worden opgelost.
 
-Leer over [&#x200B; verbeteringsinstructies voor 5.1.0 Service Pack 3 versie &#x200B;](upgrade-instructions-5-1-0-sp3.md).
+Leer over [ verbeteringsinstructies voor 5.1.0 Service Pack 3 versie ](upgrade-instructions-5-1-0-sp3.md).
 
 
 ## Authoring
@@ -40,6 +40,12 @@ Leer over [&#x200B; verbeteringsinstructies voor 5.1.0 Service Pack 3 versie &#x
 ## Platform
 
 - Als u `scope="external"` gebruikt voor een verwijzing naar DAM-inhoud binnen een onderwerp of kaart, wordt het relatieve pad van het element vervangen door een GUID. (HIDEN-35605)
+
+## Bekend probleem
+
+Adobe heeft het volgende bekende probleem voor de 5.1.0 Service Pack 3-release geïdentificeerd:
+
+- Wanneer u een overzichtstaak zoals volledig van de pagina van taakdetails merkt, wordt de taak voltooid en gesloten; nochtans, blijft zijn status tonen zoals **Bezig** op het dashboard van het Overzicht. (GUIDEN-39375)
 
 
 
