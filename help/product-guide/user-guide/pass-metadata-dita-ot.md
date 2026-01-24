@@ -38,7 +38,7 @@ Voer de volgende stappen uit om de metagegevens door te geven aan de uitvoer met
 
    Dit bestand kan worden bedekt door: `/apps/fmdita/config/metadataList` .
 
-   Om een douanebezit over te gaan waarvoor u reeds de waarden hebt bepaald, bekijk {de Metagegevens van AEM van het 0} Gebruik in output van DITA-OT PDF [&#128279;](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880).
+   Om een douanebezit over te gaan waarvoor u reeds de waarden hebt bepaald, bekijk {de Metagegevens van AEM van het 0} Gebruik in output van DITA-OT PDF [&#128279;](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880?profile.language=nl).
 
 1. De geselecteerde eigenschappen worden onder het vervolgkeuzemenu weergegeven.
 
@@ -73,7 +73,7 @@ Als het werken op **Assets UI**, voer de volgende stappen uit om de meta-gegeven
 
    Dit bestand kan worden bedekt door: `/apps/fmdita/config/metadataList` .
 
-   Om een douanebezit over te gaan waarvoor u reeds de waarden hebt bepaald, bekijk {de Metagegevens van AEM van het 0} Gebruik in output van DITA-OT PDF [&#128279;](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880).
+   Om een douanebezit over te gaan waarvoor u reeds de waarden hebt bepaald, bekijk {de Metagegevens van AEM van het 0} Gebruik in output van DITA-OT PDF [&#128279;](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880?profile.language=nl).
 
 1. Van **Eigenschappen** dropdown, selecteer de vereiste douane en standaardeigenschappen. Selecteer bijvoorbeeld `author` , `dc:title` en `dc:description` . Dit is de standaard `metadata/properties` die wordt gemaakt wanneer we een bestand maken. De geselecteerde eigenschappen worden onder de dropbox weergegeven.
 

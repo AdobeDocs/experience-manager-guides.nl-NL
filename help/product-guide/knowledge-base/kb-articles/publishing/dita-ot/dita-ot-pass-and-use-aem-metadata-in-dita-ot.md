@@ -166,7 +166,7 @@ Wanneer het bovengenoemde bevel wordt uitgevoerd kunt u de output in de folder &
 
 ### Implementatie
 
-Zodra u de stop DITA-OT hebt ontwikkeld, kunt u dit in DITA-OT integreren gebruikend _dita - installeer_ bevel onder de folder DITA-OT, en het opstellen aan de AEM server [&#x200B; verwijs dit artikel voor meer details &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/steps-to-setup-a-custom-dita-ot/td-p/407659)
+Zodra u de stop DITA-OT hebt ontwikkeld, kunt u dit in DITA-OT integreren gebruikend _dita - installeer_ bevel onder de folder DITA-OT, en het opstellen aan de AEM server [&#x200B; verwijs dit artikel voor meer details &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/steps-to-setup-a-custom-dita-ot/td-p/407659?profile.language=nl)
 
 
 ## Bronnen

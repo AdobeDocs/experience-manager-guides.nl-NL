@@ -44,7 +44,7 @@ In deze sessie leert u over het volgende:
 
 - **Gids van de Gebruiker** - [&#x200B; vertaal inhoud &#x200B;](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Ftranslation.html)
 
-- **Communautair Forum** - voor zitting-specifieke communautaire interactie over Experience League, bezoek [&#x200B; het Forum van AEM Guides &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)
+- **Communautair Forum** - voor zitting-specifieke communautaire interactie over Experience League, bezoek [&#x200B; het Forum van AEM Guides &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=nl)
 
 >[!NOTE]
 >

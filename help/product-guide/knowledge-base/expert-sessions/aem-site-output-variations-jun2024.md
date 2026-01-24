@@ -46,7 +46,7 @@ In deze sessie leert u over het volgende:
 
 - [&#x200B; AEM Malplaatjes &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/implementing/developing/platform/templates/templates)
 
-- **Communautair Forum** - voor zitting-specifieke communautaire interactie over Experience League, bezoek [&#x200B; het Forum van AEM Guides &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Communautair Forum** - voor zitting-specifieke communautaire interactie over Experience League, bezoek [&#x200B; het Forum van AEM Guides &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=nl).
 
 >[!NOTE]
 >

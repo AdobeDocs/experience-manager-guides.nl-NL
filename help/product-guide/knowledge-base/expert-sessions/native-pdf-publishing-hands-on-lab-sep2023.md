@@ -54,7 +54,7 @@ In deze sessie hebt u het volgende geleerd voor het publiceren van Native PDF:
 
 - **Gedocumenteerde gemeenschappelijke gebruiksgevallen** - [&#x200B; op Experience League &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/content-styles/stylesheet.html?lang=nl-NL)
 
-- **Communautair Forum** - voor zitting-specifieke communautaire interactie over Experience League, bezoek [&#x200B; het Forum van AEM Guides &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Communautair Forum** - voor zitting-specifieke communautaire interactie over Experience League, bezoek [&#x200B; het Forum van AEM Guides &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=nl).
 
 >[!NOTE]
 >

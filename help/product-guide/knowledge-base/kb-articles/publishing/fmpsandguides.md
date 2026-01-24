@@ -99,4 +99,4 @@ U kunt uw reeds gemaakte basislijnen publiceren met versie FMPS2020.0.2 of hoger
 
 [&#x200B; FrameMaker en gemeenschap FMPS &#x200B;](https://community.adobe.com/t5/framemaker/ct-p/ct-framemaker?page=1&sort=latest_replies&lang=all&tabid=all)
 
-[&#x200B; Gemeenschap van AEM Guides &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)
+[&#x200B; Gemeenschap van AEM Guides &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=nl)

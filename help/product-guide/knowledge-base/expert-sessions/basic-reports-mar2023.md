@@ -55,7 +55,7 @@ In deze sessie hebt u kennis genomen van het volgende:
 
 - **Gids van de Gebruiker** - [&#x200B; inhoud van de Auteur &#x200B;](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
 
-- **Communautair Forum** - voor zitting-specifieke communautaire interactie over Experience League, bezoek [&#x200B; het Forum van AEM Guides &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Communautair Forum** - voor zitting-specifieke communautaire interactie over Experience League, bezoek [&#x200B; het Forum van AEM Guides &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=nl).
 
 >[!NOTE]
 >

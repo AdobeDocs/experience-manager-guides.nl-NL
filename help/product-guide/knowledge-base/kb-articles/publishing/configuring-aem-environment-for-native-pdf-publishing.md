@@ -185,4 +185,4 @@ Valideer de time-outeigenschapswaarde voor het knooppunt nodejs in /var/dxml/pro
 
 
 
-Als u om het even welke kwesties ontmoet terwijl het uitvoeren van om het even welke bovengenoemde stappen, post uw vraag op het communautair van AEM Guides [&#x200B; forum &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) voor hulp.
+Als u om het even welke kwesties ontmoet terwijl het uitvoeren van om het even welke bovengenoemde stappen, post uw vraag op het communautair van AEM Guides [&#x200B; forum &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=nl) voor hulp.

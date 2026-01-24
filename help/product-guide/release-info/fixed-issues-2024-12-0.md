@@ -59,7 +59,7 @@ Veroorzaakt door: `org.apache.jackrabbit.oak.api.CommitFailedException`: `OakAcc
 
 **Oplossing**: Om deze kwestie op te lossen, voer de volgende tijdelijke stappen uit:
 
-1. Voeg een repointbestand toe. In het geval, bestaat het dossier niet, creeer het dossier door de [&#x200B; steekproef uit te voeren opnieuw richt config aanmaakstappen &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-cloud-questions/repoinit-configuration-for-property-set-on-aem-as-cloud-service/m-p/438854).
+1. Voeg een repointbestand toe. In het geval, bestaat het dossier niet, creeer het dossier door de [&#x200B; steekproef uit te voeren opnieuw richt config aanmaakstappen &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-cloud-questions/repoinit-configuration-for-property-set-on-aem-as-cloud-service/m-p/438854?profile.language=nl).
 2. Voeg de volgende regel in het bestand toe en implementeer de code:
 
    ```

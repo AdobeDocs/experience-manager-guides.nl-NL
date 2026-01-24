@@ -167,4 +167,4 @@ Id&#39;s toewijzen aan fragmenten (Dita-elementen) die u opnieuw wilt gebruiken 
 <br>
 
 
-Plaats op het communautair van AEM Guides [&#x200B; forum &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) voor om het even welke vragen.
+Plaats op het communautair van AEM Guides [&#x200B; forum &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=nl) voor om het even welke vragen.

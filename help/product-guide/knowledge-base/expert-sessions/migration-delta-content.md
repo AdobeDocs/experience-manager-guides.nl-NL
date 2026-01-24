@@ -50,7 +50,7 @@ In deze vergadering hebben we het volgende besproken:
 
 ### Forum van de Gemeenschap
 
-- Voor zitting-specifieke communautaire interactie over Experience League, bezoek {het Forum van AEM Guides van 0} [&#128279;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- Voor zitting-specifieke communautaire interactie over Experience League, bezoek {het Forum van AEM Guides van 0} [&#128279;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=nl).
 
 
 >[!NOTE]

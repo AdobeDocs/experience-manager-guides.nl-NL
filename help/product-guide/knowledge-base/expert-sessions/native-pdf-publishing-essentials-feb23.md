@@ -45,7 +45,7 @@ In deze sessie leert u over het volgende:
 
 - **Gids van de Gebruiker** - [&#x200B; Inheemse PDF het publiceren &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/configuring/config-native-pdf-publish/pdf-template.html?lang=en)
 
-- **Communautair Forum** - voor zitting-specifieke communautaire interactie over Experience League, bezoek [&#x200B; het Forum van AEM Guides &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Communautair Forum** - voor zitting-specifieke communautaire interactie over Experience League, bezoek [&#x200B; het Forum van AEM Guides &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=nl).
 
 >[!NOTE]
 >

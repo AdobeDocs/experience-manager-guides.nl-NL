@@ -53,7 +53,7 @@ Stappen om van niet-uuid naar uuid te gaan
 
 ### Forum van de Gemeenschap
 
-- Voor zitting-specifieke communautaire interactie over Experience League, bezoek {het Forum van AEM Guides 0} [&#128279;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- Voor zitting-specifieke communautaire interactie over Experience League, bezoek {het Forum van AEM Guides 0} [&#128279;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=nl).
 
 
 >[!NOTE]

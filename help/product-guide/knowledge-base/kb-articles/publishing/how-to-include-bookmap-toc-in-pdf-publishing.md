@@ -99,7 +99,7 @@ Als u Ditamap publiceert, geeft Native PDF automatisch functionaliteit om inhoud
 <br>
 <br>
 
-Post op het communautair van AEM Guides [&#x200B; forum &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) voor om het even welke vragen.
+Post op het communautair van AEM Guides [&#x200B; forum &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=nl) voor om het even welke vragen.
 
 
 
