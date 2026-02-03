@@ -4,9 +4,9 @@ description: Genereer DITA-kaartrapporten van de kaartconsole in AEM Guides. Lee
 exl-id: 2f202b41-85d9-4a5a-aa28-e25715ce5e2e
 feature: Report Generation
 role: User
-source-git-commit: 0d713f9ff4bd48aa90bce368d6ad7abf86ecbbf7
+source-git-commit: 11b0082b160a35fee0fc9d6478f5fe896de80d31
 workflow-type: tm+mt
-source-wordcount: '2614'
+source-wordcount: '2645'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ U kunt het rapport van de onderwerpenlijst van een kaart bekijken door de volgen
    >
    > Selecteer **verfrissen zich** om een nieuwe lijst van onderwerpen te krijgen en om het even welke verandering in uw kaartdossier te bekijken of als om het even welke verwijzing binnen uw onderwerpdossier wordt bijgewerkt.
 
-1. Selecteer **Download** om de momentopname van alle onderwerpen in de kaart te downloaden DITA. Het excel blad bevat de geselecteerde kolommen en de onderwerpen die in de **1&rbrace; mening van de Lijst van het Onderwerp &lbrace;worden gefiltreerd.**
+1. Selecteer **Download** om de momentopname van alle onderwerpen in de kaart te downloaden DITA. Het excel blad bevat de geselecteerde kolommen en de onderwerpen die in de **1} mening van de Lijst van het Onderwerp {worden gefiltreerd.**
 
 ## Metagegevensrapport
 
@@ -75,7 +75,7 @@ Het **rapport van Meta-gegevens** verstrekt een gedetailleerd rapport van uw ver
 
 U kunt het meta-gegevensrapport van een kaart bekijken door de volgende stappen uit te voeren:
 
-1. Selecteer **Meta-gegevens** van het paneel van Rapporten. De lijst met alle referenties van een kaart wordt samen met de metagegevens van de kaart weergegeven, zoals codes, documentstatus en aangepaste metagegevens. Om een nieuwe kolom van douanemetagegevens toe te voegen, verwijs naar [&#x200B; kolommen van douanemetagegevens &#x200B;](#add-custom-metadata-columns) sectie toevoegen.
+1. Selecteer **Meta-gegevens** van het paneel van Rapporten. De lijst met alle referenties van een kaart wordt samen met de metagegevens van de kaart weergegeven, zoals codes, documentstatus en aangepaste metagegevens. Om een nieuwe kolom van douanemetagegevens toe te voegen, verwijs naar [ kolommen van douanemetagegevens ](#add-custom-metadata-columns) sectie toevoegen.
 
 
    ![](images/web-editor-metadata-panel-new.png){align="left"}
@@ -87,7 +87,7 @@ U kunt het meta-gegevensrapport van een kaart bekijken door de volgende stappen 
    >
    > Alle filters bevatten een uitgebreide lijst met opties in het systeem.
 
-1. U kunt ook verkiezen om slechts de **Dossiers zonder markeringen** te bekijken of ook specifieke markeringen van de **3&rbrace; filter van Markeringen te kiezen &lbrace;om de dossiers te bekijken verbonden aan hen.**
+1. U kunt ook verkiezen om slechts de **Dossiers zonder markeringen** te bekijken of ook specifieke markeringen van de **3} filter van Markeringen te kiezen {om de dossiers te bekijken verbonden aan hen.**
 1. U kunt ook de volgende opties voor het filteren van onderwerpen gebruiken om de volgende kolommen in de lijst met metagegevens weer te geven:
    - **Titel** \ (die door gebrek wordt geselecteerd \) De titel van het referenced dossier wordt gespecificeerd in de kaart DITA. U kunt het bestand selecteren om het te bewerken.
 
@@ -121,11 +121,13 @@ U kunt markeringen op een individueel onderwerp toepassen of de bulketiketterend
 
 Voer de volgende stappen uit om metagegevens bij te werken:
 
-1. Als u metagegevens wilt bijwerken, selecteert u de bestanden waarvan u de metagegevens wilt bijwerken. U kunt de dossiers selecteren die in het paneel van Meta-gegevens verschijnen, door in de controledoos te controleren die naast **Titel** verschijnt. Als u alle verslagen wilt selecteren, gebruik **Uitgezocht allen** lusje boven de bar van de Titel zoals hieronder getoond.
+1. Als u metagegevens wilt bijwerken, selecteert u het bestand of de bestanden waarvan u de metagegevens wilt bijwerken. U kunt de dossiers selecteren die in het paneel van Meta-gegevens verschijnen, door in de controledoos te controleren die naast **Titel** verschijnt.
+
+   Als u alle verslagen wilt selecteren, gebruik **Uitgezocht allen** lusje boven de bar van de Titel. Aangezien de verslagen progressief laden aangezien u scrolt, zorg ervoor u aan het eind van de lijst scrolt alvorens **te gebruiken selecteer allen**. Dit zorgt ervoor dat bewerkingsmachtigingen en vergrendelingsstatus worden geëvalueerd voor alle bestanden, en niet alleen voor de records die momenteel zichtbaar zijn.
 
    >[!NOTE]
    >
-   > U kunt geen uitgecheckte bestanden selecteren. Er verschijnt ook een uitcheckpictogram naast de titel van een uitgecheckt bestand. U kunt de muisaanwijzer boven het pictogram plaatsen om de naam van de gebruiker weer te geven.
+   > Als een bestand is vergrendeld door een andere gebruiker, kan het niet worden geselecteerd voor het bijwerken van metagegevens. Er wordt ook een slotpictogram weergegeven bij de titel van een vergrendeld bestand. U kunt de muisaanwijzer boven het pictogram plaatsen om de naam van de gebruiker weer te geven.
 
    ![](images/all-selection.png){align="left"}
 
@@ -136,9 +138,7 @@ Voer de volgende stappen uit om metagegevens bij te werken:
 
 1. Als u nieuwe tags wilt toevoegen, selecteert u nieuwe tags in de vervolgkeuzelijst om deze toe te passen op alle geselecteerde onderwerpen. U kunt ook elke tag verwijderen door het kruispictogram bij de tag te selecteren.
 
-   >[!NOTE]
-   >
-   > De gemeenschappelijke markeringen die op alle geselecteerde onderwerpen worden toegepast worden vermeld.
+
 
 1. Selecteer een nieuwe documentstatus als u de documentstatus van alle geselecteerde verwijzingen wilt wijzigen. De drop-down vertoningen de gemeenschappelijke mogelijke staat voor alle geselecteerde onderwerpen. Als de huidige status van uw onderwerpen bijvoorbeeld In-Review is, kunt u de status Concept, Goedgekeurd of Herzien weergeven.
 1. Selecteer **Update** om de meta-gegevens bij te werken. Er wordt een bevestigingsbericht weergegeven voor de metagegevens, ongeacht of deze zijn bijgewerkt of dat de updates zijn mislukt. U selecteert ook **Rapport van de Download** om de momentopname van het rapport te downloaden. Deze momentopname bevat de details van de bijgewerkte status voor de geselecteerde verwijzingen.
@@ -153,7 +153,7 @@ Met deze functie kunt u naar behoefte aangepaste kolommen voor metagegevens toev
    ![](images/custom-metadata-setting.png){width="600" align="left"}
 
 1. Selecteer **Meta-gegevens** op het linkerpaneel van pop-up die verschijnt.
-1. Voeg een nieuw gebied van douanemetagegevens zoals per het vereiste toe gebruikend **&#x200B;**&#x200B;tabel toevoegt.
+1. Voeg een nieuw gebied van douanemetagegevens zoals per het vereiste toe gebruikend **** tabel toevoegt.
 
    ![](images/add-custom-metadata.png){width="600" align="left"}
 
@@ -236,16 +236,16 @@ U kunt het rapport voor verbroken koppelingen weergeven door de volgende stappen
 
 1. U kunt uw gebroken verbindingen filtreren die op het **Type van Dossier** en **het Type van Verbinding** worden gebaseerd. De lijst met verbroken koppelingen wordt weergegeven op basis van uw selectie in de vervolgkeuzelijst. U kunt er bijvoorbeeld voor kiezen alleen de inhoudsverwijzingen in uw DITA-kaart weer te geven en een bestand toont alleen de verbroken inhoudsverwijzingen die erin worden gebruikt.
 
-   Het Onderwerp DITA, Kaart DITA, de Verwijzing van het Dossier, Zeer belangrijke verwijzing, de Verwijzing van de Inhoud, de Verwijzing van het Beeld, de Verwijzing van het Multimedia- Dossier, en Zeer belangrijke Verwijzing zijn beschikbare waarden voor **Type van Verbinding** drop-down, en DITA Onderwerp, Kaart DITA, Document, Beeld, Video, Audio, en anderen zijn beschikbare waarden voor **dropdown.**
+   Het Onderwerp DITA, Kaart DITA, de Verwijzing van het Dossier, Zeer belangrijke verwijzing, de Verwijzing van de Inhoud, de Verwijzing van het Beeld, de Verwijzing van het Multimedia- Dossier, en Zeer belangrijke Verwijzing zijn beschikbare waarden voor **Type van Verbinding** drop-down, en Onderwerp, Kaart, Document, Beeld, Video, Audio, en anderen zijn beschikbare waarden voor **het type van het type van het Dossier** drop-down.
 1. U kunt ook de volgende filteropties gebruiken om de volgende kolommen in de lijst weer te geven:
 
    - **Gebroken Verbinding** (die door gebrek wordt geselecteerd) De weg van de gebroken verbinding wordt gespecificeerd in de kaart DITA.
 
-   - **Type van Verbinding** (die door gebrek wordt geselecteerd) het type van de verbindingen. De beschikbare opties zijn DITA-onderwerp, DITA-kaart, bestandsverwijzing, belangrijke verwijzing, Content Reference, Content Key Reference, Image Reference, Multimedia File Reference en Multimedia Key Reference.
+   - **Type van Verbinding** (die door gebrek wordt geselecteerd) het type van de verbindingen. De beschikbare opties zijn Onderwerp, Kaart, Referentie van het Dossier, Zeer belangrijke verwijzing, Verwijzing van de Inhoud, Belangrijkste Verwijzing van de Inhoud, Verwijzing van het Beeld, Verwijzing van het Multimedia- Dossier, en Zeer belangrijke Verwijzing Multimedia.
 
    - **binnen gebruikt** (die door gebrek wordt geselecteerd) de verwijzingen waarin de gebroken verbinding is gebruikt. U kunt de verwijzing selecteren om deze weer te geven in de modus Schrijver.
 
-   - **Type van Dossier** (die door gebrek wordt geselecteerd) het type van verwijzing - Onderwerp DITA, Kaart DITA, Document, Beeld, Video, Audio, en anderen.
+   - **Type van Dossier** (die door gebrek wordt geselecteerd) het type van verwijzing - Onderwerp, Kaart, Document, Beeld, Video, Audio, en anderen.
 
    Selecteer **verfrissen zich** om een nieuwe lijst van gebroken verbindingen te krijgen en om het even welke verandering in uw kaartdossier te bekijken of als om het even welke gebroken verbinding binnen uw kaart DITA wordt bijgewerkt.
 1. U kunt op het **verbindingspictogram van de Reparatie** (![](images/fix-broken-link.svg)) selecteren om de gebroken verbinding te bevestigen.
@@ -266,4 +266,4 @@ U kunt het rapport voor verbroken koppelingen weergeven door de volgende stappen
 1. Selecteer **Download** om de momentopname van alle gebroken verbindingen in de kaart te downloaden DITA. Het Excel-bestand bevat de geselecteerde kolommen en de verbroken koppelingen die zijn gefilterd in de weergave Verbroken koppelingen.
 
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; Inleiding aan rapporten &#x200B;](reports-intro.md)
+**Bovenliggend onderwerp:**[ Inleiding aan rapporten ](reports-intro.md)

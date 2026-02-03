@@ -4,9 +4,9 @@ description: Vertaal uw inhoud vanuit de webeditor naar meerdere talen. Leer hoe
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: 0d713f9ff4bd48aa90bce368d6ad7abf86ecbbf7
+source-git-commit: 4165535976082c1e8f28bf15f16999b6bfe5bf9a
 workflow-type: tm+mt
-source-wordcount: '2376'
+source-wordcount: '2446'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Voordat u de stappen in deze procedure uitvoert, moet u controleren of u de vere
 
 1. Als gebruiker, kunt u de taalgroepen bekijken die aan uw omslagprofiel worden gevormd. De taalgroepen geven de taalmappen en hun taalcodes weer. De taalgroep met de naam G1 bevat bijvoorbeeld de volgende mappen: Italiaans \(it\), Duits \(de\), Frans \(fr\) en Engels \(en\).
 
-   ![&#x200B; vertaalpaneel &#x200B;](images/translation-languages.png){width="300" align="left"}
+   ![ vertaalpaneel ](images/translation-languages.png){width="300" align="left"}
 
    *selecteer de taalgroepen of de talen waarin u uw documenten wilt vertalen.*
 
@@ -73,7 +73,7 @@ Voordat u de stappen in deze procedure uitvoert, moet u controleren of u de vere
 
    **niets** selecteer deze optie om de standaardversies van de dossiers te vertalen. Deze optie is standaard ingeschakeld.
 
-   **Basislijn van het Gebruik:** u kunt een basislijn selecteren om uw project te vertalen. Selecteer **Basislijn van het Gebruik** en kies een basislijn die op de kaart wordt gecreeerd. Alle bestanden die deel uitmaken van de geselecteerde basislijn, worden weergegeven op de pagina Vertalen. Nadat de inhoud is vertaald, kunt u de vertaalde basislijn exporteren. Voor meer details over het uitvoeren van de vertaalde Basislijn, mening [&#x200B; vertaalde Basislijn van de Uitvoer &#x200B;](generate-output-use-baseline-for-publishing.md#id196SE600GHS).
+   **Basislijn van het Gebruik:** u kunt een basislijn selecteren om uw project te vertalen. Selecteer **Basislijn van het Gebruik** en kies een basislijn die op de kaart wordt gecreeerd. Alle bestanden die deel uitmaken van de geselecteerde basislijn, worden weergegeven op de pagina Vertalen. Nadat de inhoud is vertaald, kunt u de vertaalde basislijn exporteren. Voor meer details over het uitvoeren van de vertaalde Basislijn, mening [ vertaalde Basislijn van de Uitvoer ](generate-output-use-baseline-for-publishing.md#id196SE600GHS).
 
    **de Laatste Versie van het Gebruik zoals op**: verkies om de versie van onderwerpen te filtreren die op hun creatieve datum en tijd worden gebaseerd. Wanneer u een datum en tijd selecteert, wordt alleen de meest recente versie van de bestanden weergegeven die op of voor de geselecteerde datum en tijd zijn gemaakt.
 
@@ -84,7 +84,15 @@ Voordat u de stappen in deze procedure uitvoert, moet u controleren of u de vere
    - **Naam van het Dossier**: Naam van het brondossier
    - **Type van Dossier**: Type van het brondossier. De beschikbare opties zijn Kaart, Onderwerp, en Beeld.
    - **Type van Verwijzing**: Directe of Indirecte verwijzingen
-   - **Versie**: Het aantal van de versie van het brondossier
+   - **Versie**: Het aantal van de versie van het brondossier.
+
+     Als in een bestand wijzigingen zijn opgeslagen die nog niet zijn bijgewerkt (dat wil zeggen dat het bestand niet is opgeslagen als een nieuwe versie op de kaart), wordt naast het bestand een informatiepictogram weergegeven dat aangeeft dat er niet-versiewijzigingen zijn aangebracht.
+
+     ![](images/unversioned-changes-translation.png){width="650" align="left"}
+
+     >
+     >
+     > Om slechts dossiers met unversioned veranderingen te bekijken, laat **activa met unversioned veranderingen slechts** toe die in het paneel van Filters plaatsen. Bovendien is de indicator zonder versioning alleen zichtbaar bij het omzetten van bestanden op basis van de meest recente versies.
    - **Etiket van de Versie**: Etiket voor de geselecteerde versie van het brondossier
    - **Versie van het Doel**: Het aantal van de versie van het doeldossier
    - **de Staat van het Document**: Staat van het brondossier. De beschikbare opties zijn Concept, In-Review en Reviewed.
@@ -113,7 +121,7 @@ In een XLIFF-project wordt de inhoud geëxporteerd naar de industriestandaard XL
    - U kunt **selecteren creeert een nieuw meertalig vertaalproject** dat vertaalbanen voor alle talen zal omvatten die u voor vertaling hebt geselecteerd. Als u bijvoorbeeld Frans, Duits en Spaans hebt geselecteerd, wordt er een project met vertaalbanen voor alle drie de talen gemaakt.
    - Als u reeds een vertaalproject hebt, kunt u onderwerpen aan dat project toevoegen. Selecteer **toevoegen aan bestaande vertaalproject** optie van de lijst van het Project en kies een project van de Bestaande lijst van het Project van de Vertaling. U kunt deze projecten op meest recente, stijgende, of dalende orde sorteren.
 
-   - Als u **aan bestaand vertaalproject** selecteert, werkt deze verrichting de bestaande activaingang in het project bij als de activa reeds wordt toegevoegd en de verwante staat van de vertaalbaan in de *3&rbrace; staat van het Ontwerp &lbrace;is.*
+   - Als u **aan bestaand vertaalproject** selecteert, werkt deze verrichting de bestaande activaingang in het project bij als de activa reeds wordt toegevoegd en de verwante staat van de vertaalbaan in de *3} staat van het Ontwerp {is.*
       - Als de bestemmingstaal niet aanwezig in het project is, wordt een nieuw project gecreeerd voor het enig-taalvertaalproject, en een nieuwe baan wordt gecreeerd voor meertalig vertaalproject.
 
       - Als de baan reeds voor de bestemmingstaal aanwezig is en de baanstatus niet in de *staat van het Ontwerp* is, wordt een nieuwe baan gecreeerd binnen het zelfde project om de activa voor vertaling toe te voegen.
@@ -124,10 +132,10 @@ In een XLIFF-project wordt de inhoud geëxporteerd naar de industriestandaard XL
 
    - Als u het werkingsgebied voor een te vertalen project moet tot stand brengen, kunt u **selecteren creeert een nieuw scoping vertaalproject**. Hierdoor worden de kopieën niet voor vertaling verzonden en blijft de oorspronkelijke vertaalstatus van de bestanden behouden. Er is geen effect op het exemplaar van de bestemmingstaal van de genoemde onderwerpen die voor scoping worden verzonden.
 
-1. Op het **gebied van de Titel van het 0&rbrace; Project, ga een titel voor het project in.**
+1. Op het **gebied van de Titel van het 0} Project, ga een titel voor het project in.**
 1. Selecteer **voorleggen** om een nieuw vertaalproject tot stand te brengen.
 
-Een nieuw vertaalproject wordt gecreeerd met de geselecteerde versie van de onderwerpen. Op dit moment wordt een pop-upbericht weergegeven met de bevestiging dat het vertaalproject is gemaakt. Zodra alle exemplaren van de doeltaal in het vertaalproject beschikbaar zijn, krijgt u een bericht in Inbox. Zodra de doeltaalkopieën beschikbaar zijn in het vertaalproject, kunt u de vertaaltaak starten. Voor detailmening, [&#x200B; Begin de vertaalbaan &#x200B;](translation-first-time.md#id225IK030OE8).
+Een nieuw vertaalproject wordt gecreeerd met de geselecteerde versie van de onderwerpen. Op dit moment wordt een pop-upbericht weergegeven met de bevestiging dat het vertaalproject is gemaakt. Zodra alle exemplaren van de doeltaal in het vertaalproject beschikbaar zijn, krijgt u een bericht in Inbox. Zodra de doeltaalkopieën beschikbaar zijn in het vertaalproject, kunt u de vertaaltaak starten. Voor detailmening, [ Begin de vertaalbaan ](translation-first-time.md#id225IK030OE8).
 
 >[!NOTE]
 >
@@ -179,7 +187,7 @@ Selecteer het **verschil** pictogram \ van de Tonen (![](images/show-difference-
 >
 > **toon verschil** pictogram \ (![](images/show-difference-icon.svg) \) verschijnt slechts voor DITA- dossiers die de vertaalstatus als **uit Synchronisatie** hebben.
 
-Het **dialoog van het Verschil van de Versie 0&rbrace; &lbrace;verschijnt.** Het toont de **Laatste vertaalde versie** en het **Geselecteerde versie** aantal op de linkerzijde. Het voorproefvenster toont de verschillen tussen de laatste vertaalde versie en de geselecteerde versie van het onderwerp.
+Het **dialoog van het Verschil van de Versie 0} {verschijnt.** Het toont de **Laatste vertaalde versie** en het **Geselecteerde versie** aantal op de linkerzijde. Het voorproefvenster toont de verschillen tussen de laatste vertaalde versie en de geselecteerde versie van het onderwerp.
 
 ![](images/version-diff.png){width="650" align="left"}
 
@@ -226,4 +234,4 @@ Voor het uitvoeren van documentbeheer biedt Experience Manager Guides de mogelij
 U kunt de vertaalprojecten ook onbruikbaar maken als u hen later wilt gebruiken. Als u een project verwijdert, worden alle bestanden en mappen in het project verwijderd. Als u een project uitschakelt, wordt het niet verwijderd, maar in de opslagplaats bewaard. Maar u kunt een gehandicapt project niet bijwerken of uitgeven.  Het verwijderen of uitschakelen van een project heeft geen invloed op de vertaalstatus van verwijzingen.
 
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; Inleiding aan de Redacteur &#x200B;](web-editor.md)
+**Bovenliggend onderwerp:**[ Inleiding aan de Redacteur ](web-editor.md)

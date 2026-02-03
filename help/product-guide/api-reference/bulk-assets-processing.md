@@ -4,9 +4,9 @@ description: Meer informatie over de API om bulkverwerking voor middelen te star
 feature: Post-Processing Event Handler
 role: Developer
 level: Experienced
-source-git-commit: e2eca63a5dd56e358aeea047b37f4b0f88dc720b
+source-git-commit: 8671a26bfee2d9e3b4e70a8f2615568c08c0a370
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '587'
 ht-degree: 1%
 
 ---
@@ -26,6 +26,15 @@ A POST method that initiates bulkasset processing for a specified path. Deze API
 | `path` | String | Ja | Absoluut pad van de map of het middel in de AEM-opslagplaats die moet worden verwerkt. |
 | `excludedPaths` | String | Nee | Lijst met paden die moeten worden uitgesloten van verwerking |
 | `type` | String | Ja | Soort verwerking die moet worden uitgevoerd. Bijvoorbeeld: ASSET_PROCESSING. |
+| `filter` | Object | Nee | Filters die zijn toegepast op de geselecteerde elementen |
+
+**de objecten van de Filter gebieden**
+
+| Naam | Type | Beschrijving |
+|----|----|-----------|
+| fileTypes | String | Te verwerken elementtypen. Toegestane waarden: DITATOPIC, DITAMAP, MARKDOWN, HTML/CSS, DITAVAL, ANDERE. |
+| startTime | Geheel | Ondergrens voor aanmaaktijd van elementen |
+| endTime | Geheel | Bovengrens voor aanmaaktijd van middelen |
 
 **Voorbeeld van het Verzoek**
 
@@ -35,7 +44,12 @@ A POST method that initiates bulkasset processing for a specified path. Deze API
   "excludedPaths": [
     "content/dam/status-fetch1/excluded-folder"
   ],
-  "type": "ASSET_PROCESSING"
+  "type": "ASSET_PROCESSING",
+  "filter": {
+        "fileTypes": ["DITAMAP", "DITATOPIC"],
+        "startTime": 1758876933000
+        "endTime": 1764932039000
+    }
 }
 ```
 

@@ -4,9 +4,9 @@ description: Meer informatie over de workflow voor het sluiten van een revisieta
 feature: Reviewing
 role: User
 exl-id: d2119bbe-3a0c-4da3-b4f8-7872496fa61f
-source-git-commit: e38cd858201ea657ce276eb4b358b0d4eff502b2
+source-git-commit: 6f9265b341b4122e7f13a429cc2fecacb14ae39c
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
@@ -33,9 +33,9 @@ Voer de volgende stappen uit om een revisie aan te vragen of een revisietaak te 
 
    >[!NOTE]
    >
-   > U kunt de taak ook in het taakdashboard openen voor een uitgebreidere weergave. Om dit te doen, selecteer **Open in taakdashboard** van het menu van Opties van om het even welke actieve overzichtstaak. Dit opent de taakdetails in de console van Projecten.
+   > U kunt tot de **pagina van de Details van de Taak** toegang hebben om de overzichtstaak te beheren. Om dit te doen, selecteer **Open taakdetails** van het menu van Opties van om het even welke actieve overzichtstaak. Dit opent taakdetails in de console van Projecten.
 
-   ![](images/task-dashboard-selection-author-view.png)
+   ![](images/task-details-selection-author-view.png)
 3. Selecteer het **pictogram van de commentaren van de Taak** om tot de commentaren van het taakniveau toegang te hebben en te herzien die door de Recensent worden toegevoegd.
 
    ![](images/task-comments-selection-author-view.png).
@@ -50,11 +50,11 @@ Voer de volgende stappen uit om een revisie aan te vragen of een revisietaak te 
 
    - **dicht overzicht**: Sluit de overzichtstaak. De **taak van de Update** knoop aanwezig bij de bodem van het paneel van het Overzicht verandert in **Gesloten** en een bericht wordt verzonden naar alle gebruikers betrokken bij de overzichtstaak die op zijn sluiting wijzen.
 
-   Voor details op hoe de heroverwegingsberichten teweegbrengen, mening [&#x200B; het Begrip van heroverwegingsberichten &#x200B;](./review-understanding-review-notifications.md).
+   Voor details op hoe de heroverwegingsberichten teweegbrengen, mening [ het Begrip van heroverwegingsberichten ](./review-understanding-review-notifications.md).
 
    ![](images/update-task-dialog.png){width="350" align="left"}
 
-   U kunt ook [&#x200B; de status van uw overzichtstaak &#x200B;](./review-manage-tasks-review-dashboard.md#check-the-status-of-a-review-task) controleren gebruikend de **de revisiestatus van de Controle** optie huidig in de de taakdialoog van de Update. Als u deze optie selecteert, gaat u naar het revisiedashboard waar het statusrapport van de revisietaak wordt weergegeven.
+   U kunt ook [ de status van uw overzichtstaak ](./review-manage-tasks-review-dashboard.md#check-the-status-of-a-review-task) controleren gebruikend de **de revisiestatus van de Controle** optie huidig in de de taakdialoog van de Update. Als u deze optie selecteert, gaat u naar het revisiedashboard waar het statusrapport van de revisietaak wordt weergegeven.
 
    ![](images/check-review-status-icon.png){width="650" align="left"}
 

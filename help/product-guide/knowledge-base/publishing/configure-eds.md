@@ -4,7 +4,7 @@ description: Begrijp hoe Edge Delivery Services (Beta) de creatie- en publicatie
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 5808d42c530e55e309f192c99a0e71334c888b57
+source-git-commit: 7ca2eeb0356f3c82a8d970f291006fc6d19aca23
 workflow-type: tm+mt
 source-wordcount: '1532'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Adobe Experience Manager Guides staat u toe om uw inhoud DITA aan Edge Delivery Services (EDS), momenteel beschikbaar in *Beta*, door een specifiek op GitHub-Gebaseerd te publiceren profiel. Met deze mogelijkheid kunnen organisaties krachtige, responsieve documentatieervaringen bieden en tegelijk op DITA gebaseerde ontwerpworkflows in Experience Manager Guides onderhouden.
 
-Voor meer details bij het gebruiken van EDS in Adobe Experience Manager, mening [&#x200B; het Overzicht van Edge Delivery Services &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/edge-delivery/overview).
+Voor meer details bij het gebruiken van EDS in Adobe Experience Manager, mening [ het Overzicht van Edge Delivery Services ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/edge-delivery/overview).
 
 Om het publiceren van Experience Manager Guides aan EDS (Beta) toe te laten, moet u een reeks configuratiestappen over GitHub en Experience Manager Guides voltooien. In de onderstaande secties wordt elke stap in de juiste volgorde beschreven en wordt uitgelegd hoe deze in de algemene publicatieworkflow samenwerken.
 
@@ -23,7 +23,7 @@ Om het publiceren van Experience Manager Guides aan EDS (Beta) toe te laten, moe
 2. [Een publicatieprofiel voor EDS (Beta) maken en configureren in Experience Manager Guides](#create-and-configure-a-publish-profile-for-eds-beta-in-experience-manager)
 3. [Uitvoer aanpassen met EDS-blokken](#customize-output-using-eds-blocks)
 
-Voor een snelle videoanalyse, mening [&#x200B; het Publiceren in AEM Guides &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25).
+Voor een snelle videoanalyse, mening [ het Publiceren in AEM Guides ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25).
 
 
 
@@ -37,10 +37,10 @@ EDS (Beta) vereist een GitHub-opslagplaats met een vooraf gedefinieerde structuu
 
 Voer de volgende stappen uit om uw opslagplaats te maken:
 
-1. Open de Experience Manager Guides boilerplate sjabloonopslagplaats [`aem-guides-boilerplate` &#x200B;](https://github.com/adobe/aem-guides-boilerplate) .
+1. Open de Experience Manager Guides boilerplate sjabloonopslagplaats [`aem-guides-boilerplate` ](https://github.com/adobe/aem-guides-boilerplate) .
    ![](assets/eds-boilerplate-template.png){align="left"}
 
-2. Een nieuwe opslagplaats maken met deze sjabloon. Leer over [&#x200B; Creërend een bewaarplaats van een malplaatje &#x200B;](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template). Zorg ervoor dat het bewaarplaatszicht aan *Openbaar* wordt geplaatst zodat kan het door EDS worden betreden.
+2. Een nieuwe opslagplaats maken met deze sjabloon. Leer over [ Creërend een bewaarplaats van een malplaatje ](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template). Zorg ervoor dat het bewaarplaatszicht aan *Openbaar* wordt geplaatst zodat kan het door EDS worden betreden.
 
    ![](assets/eds-create-new-repo.png){align="left"}
 
@@ -54,10 +54,10 @@ Adobe Experience Manager gebruikt een toepassing GitHub genoemd **de Synchronisa
 
 Voer de volgende stappen uit om de *toepassing van de Synchronisatie van de Code van AEM te installeren en te vormen*:
 
-1. Navigeer aan de [&#x200B; pagina van de Synchronisatie van de Code van AEM &#x200B;](https://github.com/apps/aem-code-sync) en selecteer **installeer**.
+1. Navigeer aan de [ pagina van de Synchronisatie van de Code van AEM ](https://github.com/apps/aem-code-sync) en selecteer **installeer**.
 2. *de Synchronisatie van de Code van AEM* controleert bewaarplaatsveranderingen en zorgt ervoor dat de updates correct aan GitHub worden geduwd.
 
-   >
+   >[!NOTE]
    >
    > Terwijl het installeren van de toepassing, zorg ervoor dat u de zelfde rekening GitHub gebruikt die de bewaarplaats bezit.
 
@@ -107,7 +107,7 @@ Voer de volgende stappen uit om een nieuwe OAuth App tot stand te brengen:
    ![](assets/eds-new-oauth-app.png){width="650" align="left"}
 4. Registreer uw toepassing door de volgende verplichte gegevens op te geven:
    - **naam van de Toepassing**: Ga de naam van uw bewaarplaats EDS in
-   - **Homepage URL**: Ga URL aan de instantie van Experience Manager Guides in. (Voor steekproefformaat URL, verwijs naar stap 4 van [&#x200B; creeer een nieuwe sectie van de App GitHub &#x200B;](#create-a-new-github-app)).
+   - **Homepage URL**: Ga URL aan de instantie van Experience Manager Guides in. (Voor steekproefformaat URL, verwijs naar stap 4 van [ creeer een nieuwe sectie van de App GitHub ](#create-a-new-github-app)).
    - **callback URL van de Vergunning**: Zelfde zoals Homepage URL
 5. Selecteer **toelaten de Stroom van het Apparaat** optie en selecteer dan **toepassing van het Register** om de registratie te voltooien.
 
@@ -128,19 +128,19 @@ U configureert als volgt de URL van het montagepunt in het `fstab.yaml` -bestand
    - `your-user-name`
    - `your-repo-name`
 
-   >
+   >[!NOTE]
    >
    > In de URL van het bevestigingspunt geeft `main` de vertakking aan waarop u de inhoud wilt publiceren en `docs` geeft de hoofdmap aan van de EDS (Beta)-opslagplaats waaraan u werkt. Als u verkiest om de taknaam op GitHub te veranderen, dan moet u de zelfde taknaam in *bijwerken montpoint* URL (in het `fstab.yaml` dossier) en overeenkomstige EDS publiceren profiel in Experience Manager Guides.
 
    ![](assets/eds-fstab-yaml-file.png){width="650" align="left"}
 2. Selecteer **veranderingen** vastleggen, ga details in, en bevestig.
-3. Terugkeer aan [&#x200B; montages van de Ontwikkelaar &#x200B;](https://github.com/settings/apps), bepaal de plaats van uw app, en selecteer **uitgeven**.
+3. Terugkeer aan [ montages van de Ontwikkelaar ](https://github.com/settings/apps), bepaal de plaats van uw app, en selecteer **uitgeven**.
 
    ![](assets/eds-edit-github-app.png){width="650" align="left"}
 4. Navigeer aan **installeer App** pagina en selecteer **installeer**.
 
    ![](assets/eds-install-eds-app.png){width="650" align="left"}
-5. Herhaal stap 2 en 3 van [&#x200B; Connect GitHub aan Adobe via de sectie van de Synchronisatie van de Code van AEM &#x200B;](#connect-github-to-adobe-via-aem-code-sync) om de bewaarplaats te machtigen.
+5. Herhaal stap 2 en 3 van [ Connect GitHub aan Adobe via de sectie van de Synchronisatie van de Code van AEM ](#connect-github-to-adobe-via-aem-code-sync) om de bewaarplaats te machtigen.
 
 ## Een publicatieprofiel voor EDS (Beta) maken en configureren in Experience Manager
 
@@ -148,7 +148,7 @@ In de onderstaande secties wordt elke stap in de juiste volgorde beschreven en w
 
 ### Het EDS-publicatieprofiel (Beta) maken
 
-1. Ga naar **[de montages van Workspace]** **>** **publiceer profielen**.
+1. Ga naar **[de montages van Workspace](/help/product-guide/cs-install-guide/workspace-settings.md)** **>** **publiceer profielen**.
 2. Selecteer het pictogram **+** om een nieuw publicatieprofiel te maken en geef de volgende details op:
    - **Type van Server**: Selecteer **Edge Delivery Services GitHub (Beta)** van dropdown.
    - **Naam**: Ga een naam voor dit profiel in.
@@ -156,7 +156,7 @@ In de onderstaande secties wordt elke stap in de juiste volgorde beschreven en w
    - **Gebruikersnaam**: Ga uw GitHub gebruikersbenaming in.
    - **Belangrijkste Tak**: Reeks aan hoofd (gebrek).
    - **omslag van de Wortel**: Reeks aan docs (gebrek).
-   - **identiteitskaart van de Cliënt en Geheim van de Cliënt**: Vets deze van uw App GitHub (verwijs naar [&#x200B; creeer een nieuwe App OAuth &#x200B;](#create-a-new-oauth-app) sectie voor details).
+   - **identiteitskaart van de Cliënt en Geheim van de Cliënt**: Vets deze van uw App GitHub (verwijs naar [ creeer een nieuwe App OAuth ](#create-a-new-oauth-app) sectie voor details).
 3. Selecteer **Login** om voor authentiek te verklaren.
 
    ![](assets/eds-publish-profile.png){width="650" align="left"}
@@ -184,7 +184,7 @@ Uw EDS-publicatieprofiel (Beta) is nu geconfigureerd.
 
 6. Selecteer **sparen**, en dan **produceer output**.
 
->
+>[!NOTE]
 >
 > De geproduceerde output wordt opgeslagen in de **docs** omslag van de bewaarplaats EDS (Beta).
 
@@ -227,7 +227,7 @@ In sommige gevallen wilt u wellicht alleen een specifiek gedeelte van de inhoud 
    - Selecteer **toevoegen**.
      ![](assets/eds-example-tag.png){width="650" align="left"}
 3. Sla de uitvoer op en genereer deze opnieuw.
-4. Maak een nieuwe map met dezelfde naam als de map `outputclass` in de map `blocks` . Leer over [&#x200B; toevoegend dossiers aan een bewaarplaats &#x200B;](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository#adding-a-file-to-a-repository-using-the-command-line).
+4. Maak een nieuwe map met dezelfde naam als de map `outputclass` in de map `blocks` . Leer over [ toevoegend dossiers aan een bewaarplaats ](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository#adding-a-file-to-a-repository-using-the-command-line).
 
    ![](assets/eds-example-folder.png){width="650" align="left"}
 5. Voeg de vereiste `css` en optionele `js` bestanden toe.

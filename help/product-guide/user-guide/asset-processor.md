@@ -5,9 +5,9 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: 27786098-119c-4b7a-8275-8a89d435294f
-source-git-commit: 32ed6c47f8193f955df8a60fc8cdc931b28fa7a4
+source-git-commit: 62221031e445ccdbf1f2567f38fa888ff52017d4
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ In gegevensintensieve workflows, zoals publicaties, is efficiënt beheer van bed
 >[!NOTE]
 >
 > - Voor grote datasets, is het best om verwerking tijdens off-piek uren in werking te stellen om beïnvloedende systeemprestaties te vermijden. Nadat de verwerkingstaak voltooit, kunt u de details herzien om de resultaten te analyseren.<br>
->- Het systeem activeert de verwerking van elementen voor de map `/content/dam` om de 15 minuten. Tijdens elke cyclus worden activa die nieuw zijn toegevoegd of niet zijn verwerkt binnen het meest recente interval van 15 minuten, opgehaald en opnieuw verwerkt. Om de automatische de eigenschapmening van de activaverwerking te vormen, [&#x200B; vorm de eigenschap van de activaverwerking &#x200B;](../cs-install-guide/configure-asset-processing-cs.md).
+>- Het systeem activeert de verwerking van elementen voor de map `/content/dam` om de 15 minuten. Tijdens elke cyclus worden activa die nieuw zijn toegevoegd of niet zijn verwerkt binnen het meest recente interval van 15 minuten, opgehaald en opnieuw verwerkt. Om de automatische de eigenschapmening van de activaverwerking te vormen, [ vorm de eigenschap van de activaverwerking ](../cs-install-guide/configure-asset-processing-cs.md).
 
 ## De elementen verwerken
 
@@ -27,9 +27,9 @@ Voer de onderstaande stappen uit om de elementen te verwerken:
 
 1. Selecteer het embleem van Adobe Experience Manager bij de bovenkant en kies **Hulpmiddelen**.
 1. In het **paneel van Hulpmiddelen** uitgezocht **Gidsen**.
-1. Selecteer de **tegel van de Bewerker van 0&rbrace; Bulk &lbrace;.**
+1. Selecteer de **tegel van de Bewerker van 0} Bulk {.**
 
-   ![&#x200B; stroom-activa-bewerker &#x200B;](images/flow-asset-processor.png){align="left"}
+   ![ stroom-activa-bewerker ](images/flow-asset-processor.png){align="left"}
 
 1. Het venster van de Bewerker van het Bulk van Gidsen opent met de hieronder getoonde details. Bovendien worden alleen de gegevens over de laatste vijf migraties weergegeven in dit venster.
 
@@ -49,39 +49,48 @@ Voer de onderstaande stappen uit om de elementen te verwerken:
 
    - **Status**: Toont de status van verwerking zoals Bezig, Voltooid of Geannuleerd.
 
-   ![&#x200B; gidsen-activa-bewerker &#x200B;](images/guides-asset-processor-new.png){align="left"}
+   ![ gidsen-activa-bewerker ](images/guides-asset-processor-new.png){align="left"}
 
 1. Selecteer **Nieuw Proces** lusje op de hoogste juiste hoek van het venster om een nieuwe verwerkingstaak te beginnen.
 
-   ![&#x200B; nieuw-proces-activa-bewerker &#x200B;](images/new-asset-processor.png){width="350" align="left"}
+   Het **Nieuwe proces** dialoog opent.
 
-1. Selecteer de map die u wilt verwerken. U kunt ook de mappen selecteren (in de bovenliggende geselecteerde map) die u wilt uitsluiten of negeren.
+   ![ nieuw-proces-activa-bewerker ](images/new-asset-processor.png){width="350" align="left"}
+
+1. Geef de volgende gegevens op in het dialoogvenster:
+
+   1. **Type van Eigenschap**: Selecteer **de verwerking van Activa** van het drop verdrinken.
+   1. **Uitgezochte omslagen en dossiers**: Navigeer en kies één of veelvoudige omslagen en dossiers om te verwerken.
+   1. **Uitgezochte omslagen om** te negeren: Naar keuze, selecteer subfolders binnen de gekozen ouderomslag om van verwerking uit te sluiten.
+   1. **Type van Activa**: Van dropdown, selecteer het specifieke activatype aan proces (b.v., Onderwerp DITA, Kaart DITA, Prijsverhoging, HTML/CSS, DITAVAL, of andere dossiers). Alleen het geselecteerde elementtype wordt verwerkt vanuit de map(pen) die u eerder hebt opgegeven.
+Voorbeeld: het selecteren van DITA Onderwerp verwerkt slechts onderwerpen DITA binnen de geselecteerde omslag, toelatend gericht filtreren.
+   1. **creeerde na/Gemaakt vóór**: Pas datumfilters op procesactiva toe die binnen gespecificeerde timeframe worden gecreeerd.
 
    >[!NOTE]
    >
-   >Er kan slechts één map tegelijk worden geselecteerd voor verwerking. Voor specifieke bewerkingen kunt u meerdere mappen uitsluiten.
+   > Als er al een proces voor een map wordt uitgevoerd, kunt u pas een nieuw proces voor dezelfde map starten als de huidige taak is voltooid.
 
-1. Selecteer **Maken**. U krijgt pop-up die **Succes tonen en het Proces met succes** zoals aangetoond in het fragment teweeggebracht. Dit wordt ook in de lijst weergegeven. U kunt de status van de verwerkingstaak in het venster zien.
+1. Selecteer **Maken**. U krijgt pop-up die **Succes toont en het Proces met succes teweeggebracht**. U kunt de status van de verwerkingstaak in het venster zien.
 
-   ![&#x200B; bericht-activa-bewerker &#x200B;](images/message-asset-processor.png){width="350" align="left"}
+   ![ bericht-activa-bewerker ](images/message-asset-processor.png){width="350" align="left"}
 
 
-## Aanvullende opties voor de verwerkingstaken
+## Aanvullende opties voor taken voor het verwerken van bedrijfsmiddelen
 
 Er zijn extra opties beschikbaar voor de verwerkingstaak nadat deze is gestart. U hebt toegang tot deze opties door de muis boven de uitvoerings-id van uw taak te houden. Hieronder vindt u nadere informatie over deze opties:
 
 - **Begin** opnieuw: Herstart de eerder succesvolle taak van de activaverwerking.
 
-  ![&#x200B; opnieuw beginnen-activa-bewerker &#x200B;](images/restart-asset-processor.png){width="650" align="left"}
+  ![ opnieuw beginnen-activa-bewerker ](images/restart-asset-processor.png){width="650" align="left"}
 
 - **hervatten**: Hervat de eerder geannuleerde of ontbroken taak van de activaverwerking.
 
-  ![&#x200B; hervat-activa-bewerker &#x200B;](images/resume-asset-processor.png){width="650" align="left"}
+  ![ hervat-activa-bewerker ](images/resume-asset-processor.png){width="650" align="left"}
 
 - **annuleert**: Annuleert de momenteel lopende taak van de activaverwerking.
 
-  ![&#x200B; annuleren-activa-bewerker &#x200B;](images/cancel-asset-processor.png){width="650" align="left"}
+  ![ annuleren-activa-bewerker ](images/cancel-asset-processor.png){width="650" align="left"}
 
 - **Logboeken van de Mening**: Toont de logboeken voor de taak van de activaverwerking. Voor lopende taken, toont het logboek gedetailleerde verwerkingsinformatie, met inbegrip van geschatte resterende tijd en activastatus. In deze logbestandlijst worden maximaal de laatste 500 berichten weergegeven. Het volledige logboek kan worden gedownload.
 
-  ![&#x200B; logboeken-activa-bewerker &#x200B;](images/logs-asset-processor.png){width="650" align="left"}
+  ![ logboeken-activa-bewerker ](images/logs-asset-processor.png){width="650" align="left"}

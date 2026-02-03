@@ -4,9 +4,9 @@ description: Andere functies van de Editor in Adobe Experience Manager Guides ve
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: c84a95b4d0b5df5b29d16efa7478bbfdc953bc5b
+source-git-commit: f0ba8dce38a6eef5dedc8a81107c8e31ea6b26b3
 workflow-type: tm+mt
-source-wordcount: '2678'
+source-wordcount: '3653'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ De verschillende opties in het contextmenu worden hieronder uitgelegd:
 
 ***sparen als Nieuwe Versie***
 
-Om een nieuwe versie van het dossier tot stand te brengen, uitgezocht **sparen als Nieuwe Versie**. Voor meer details over **sparen** en **sparen als Nieuwe Versie**, mening [&#x200B; Toolbar in de Redacteur &#x200B;](web-editor-toolbar.md).
+Om een nieuwe versie van het dossier tot stand te brengen, uitgezocht **sparen als Nieuwe Versie**. Voor meer details over **sparen** en **sparen als Nieuwe Versie**, mening [ Toolbar in de Redacteur ](web-editor-toolbar.md).
 
 ***Exemplaar***: U kunt van de volgende opties kiezen:
 
@@ -65,13 +65,13 @@ Om een nieuwe versie van het dossier tot stand te brengen, uitgezocht **sparen a
 
   >[!NOTE]
   >
-  >Van versie 2025.11.0, **wordt de Bewaarplaats van 0&rbrace; &lbrace;anders genoemd aan** Ontdekkingsreiziger **.** Voor installatie op locatie blijft de opslagruimte beschikbaar tot de release van Experience Manager Guides 5.1.
+  >Van versie 2025.11.0, **wordt de Bewaarplaats van 0} {anders genoemd aan** Ontdekkingsreiziger **.** Voor installatie op locatie blijft de opslagruimte beschikbaar tot de release van Experience Manager Guides 5.1.
 
 ***voeg aan*** toe: U kunt van de volgende opties kiezen:
 
-- **Inzamelingen**: Om het geselecteerde dossier aan inzamelingen toe te voegen, uitgezocht **voeg aan \> Inzamelingen** toe. Voor meer details, bekijk de **de eigenschapbeschrijving van Inzamelingen** in de [&#x200B; Linkerpaneel &#x200B;](web-editor-left-panel.md) sectie.
+- **Inzamelingen**: Om het geselecteerde dossier aan inzamelingen toe te voegen, uitgezocht **voeg aan \> Inzamelingen** toe. Voor meer details, bekijk de **de eigenschapbeschrijving van Inzamelingen** in de [ Linkerpaneel ](web-editor-left-panel.md) sectie.
 
-- **Herbruikbare inhoud**: Om het geselecteerde dossier aan de herbruikbare inhoudslijst te kopiëren, uitgezocht **voeg aan \> Herbruikbare inhoud** toe. Voor meer details, bekijk de **Herbruikbare inhoud** eigenschapbeschrijving in de [&#x200B; Linkerpaneel &#x200B;](web-editor-left-panel.md) sectie.
+- **Herbruikbare inhoud**: Om het geselecteerde dossier aan de herbruikbare inhoudslijst te kopiëren, uitgezocht **voeg aan \> Herbruikbare inhoud** toe. Voor meer details, bekijk de **Herbruikbare inhoud** eigenschapbeschrijving in de [ Linkerpaneel ](web-editor-left-panel.md) sectie.
 
 ***Eigenschappen***
 
@@ -117,7 +117,7 @@ Uw ervaring met het opslaan van bestanden is afhankelijk van de volgende drie sc
 U kunt de volgende opties weergeven, afhankelijk van het feit of het bestand vergrendeld/ontgrendeld is en of de wijzigingen zijn opgeslagen of niet opgeslagen:
 
 - **Ontgrendelen en Sluiten**: Het slot op het dossier wordt vrijgegeven, en het dossier wordt gesloten.
-- **sparen als nieuwe versie**: Dit zal de veranderingen bewaren u in uw inhoud hebt aangebracht en tot een nieuwe versie van uw dossier leiden. U kunt ook labels en opmerkingen toevoegen voor de zojuist opgeslagen versie. Voor meer informatie over het bewaren van een nieuwe versie, mening [&#x200B; sparen als nieuwe versie &#x200B;](web-editor-toolbar.md#version-information-and-save-as-new-version).
+- **sparen als nieuwe versie**: Dit zal de veranderingen bewaren u in uw inhoud hebt aangebracht en tot een nieuwe versie van uw dossier leiden. U kunt ook labels en opmerkingen toevoegen voor de zojuist opgeslagen versie. Voor meer informatie over het bewaren van een nieuwe versie, mening [ sparen als nieuwe versie ](web-editor-toolbar.md#version-information-and-save-as-new-version).
 
 - **ontgrendel het dossier**: Als u verkiest om een dossier te ontgrendelen, zal het de slot op uw dossier vrijgeven en de veranderingen worden bewaard in de huidige versie van het dossier.
 
@@ -145,13 +145,139 @@ De Editor biedt een dialoogvenster voor het bladeren van slimme bestanden. De ed
 >
 > In het geval van een afbeeldings-, audio- of videobestand bladert het dialoogvenster naar de standaardlocatie van het bestand en niet naar de laatst gebruikte locatie.
 
+## Door bestanden en mappen in Experience Manager Guides bladeren
+
+Experience Manager Guides verstrekt intuïtieve dialogen - **Uitgezochte dossier** en **Uitgezochte weg** - om u te helpen dossiers of omslagen binnen de inhoudsbewaarplaats doorbladeren en kiezen efficiënt.
+
+>[!NOTE]
+>
+> De browser met bestands- en mappaden is in de release 2601 van Experience Manager Guides as a Cloud Service geïntroduceerd met een vernieuwde interface. De nieuwe interface is standaard ingeschakeld. Als u de bestaande interface zonder deze updates wilt blijven gebruiken, neemt u contact op met het team voor succes van de klant om deze nieuwe verbetering uit te schakelen.
+
+### Bladeren door bestanden in Experience Manager Guides
+
+Met de browser voor het bestandspad kunt u snel specifieke bestanden in de opslagplaats voor inhoud zoeken en selecteren. Deze functie is beschikbaar voor taken zoals het toevoegen van een onderwerp aan een kaart, het koppelen van een beeld of verwijzing, het creëren van herbruikbare inhoud, en meer.
+
+![](images/select-file-dialog-new.png){width="350" align="left"}
+
+Wanneer u dossierbrowser lanceert, opent de **Uitgezochte dossier** dialoog. Deze dialoog omvat twee lusjes: **Bewaarplaats** en **Inzamelingen**. Standaard is het tabblad Opslagplaats geselecteerd.
+
+![](images/select-file.png){width="650" align="left"}
+
+**Eigenschappen beschikbaar in het lusje van de Bewaarplaats voor dossier het doorbladeren**
+
+**Tabellulaire mening van dossiers en omslagen**
+
+Op het tabblad Opslagplaats krijgt u een tabelweergave van bestanden en mappen in de opslagplaats voor inhoud, zodat u gemakkelijker het juiste bestandspad kunt vinden. U kunt de broodkruimels bij de bovenkant en het omslagnavigatievenster op de linkerzijde ook gebruiken om door omslagen te bewegen.
+
+![](images/select-file-dialog-navigate-files.png){width="650" align="left"}
+
+**Enige en veelvoudige dossierselectie**
+
+Om een dossier te gebruiken, selecteer eenvoudig het dossier en kies **Uitgezocht**.
+
+![](images/select-file-single-file-selection.png){width="650" align="left"}
+
+In sommige gevallen kunt u ook meerdere bestanden selecteren in dit dialoogvenster van de padbrowser. Wanneer u bijvoorbeeld naar bestanden bladert voor herbruikbare inhoud, kunt u meerdere bestanden selecteren en deze onderdeel maken van de inhoud die u kunt gebruiken.
+
+![](images/select-file-multiple-file-selection.png){width="650" align="left"}
+
+Er zijn momenteel meerdere bestanden geselecteerd voor herbruikbare inhoud, onderwerpverwijzingen, Schematron, Uitvoervoorinstellingen (met DITAVAL) en Workfront.
+
+>[!NOTE]
+>
+> Wanneer u bestanden selecteert in het dialoogvenster van de padbrowser, worden sommige mappen mogelijk uitgeschakeld weergegeven. Dit gedrag beperkt toegang tot specifieke dossiertypes om geldige selecties te verzekeren. Wanneer u bijvoorbeeld herbruikbare inhoud maakt, moeten alleen onderwerpbestanden en kaartbestanden worden gebruikt. Als u wilt voorkomen dat een ongeldig bestandstype wordt gebruikt, zoals een afbeelding, worden de bijbehorende bestanden niet weergegeven of blijven ze uitgeschakeld voor selectie in de padbrowser.
+
+**Voorproef geselecteerde dossiers**
+
+U kunt voorproef de dossiers u hebt geselecteerd gebruikend de **knoop van de Voorproef**, zoals hieronder getoond:
+
+![](images/select-file-preview-button.png){width="650" align="left"}
+
+De voorvertoning van het geselecteerde bestand wordt rechts weergegeven.
+
+![](images/select-file-dialog-preview.png){width="650" align="left"}
+
+Voor meerdere selecties wordt een voorvertoning van alle geselecteerde bestanden weergegeven in het deelvenster Voorbeeld, zodat u deze gemakkelijk kunt bekijken.
+
+![](images/reusable-content-selection-left-panel.png){width="650" align="left"}
+
+U kunt **ook gebruiken verwijdert** pictogram om sommige dossiers van de Voorproef te deselecteren.
+
+![](images/resusable-content-remove-preview.png){width="650" align="left"}
+
+**Onderzoek en filterervaring**
+
+Wanneer u in bestanden in de opslagplaats bladert, kunt u naar bestanden zoeken op naam, titel of inhoud in het geselecteerde pad. U kunt om het even welke, twee, of alle drie criteria voor uw onderzoek gebruiken. Als geen van de criteria wordt geselecteerd, zullen de resultaten gemeenschappelijk zijn voor alle drie de criteria.
+
+![](images/select-file-search.png){width="650" align="left"}
+
+Selecteer het **\ van het Filteronderzoek van de Filter 0} {(** het filterpictogram van het Onderzoek ![ \) pictogram om het paneel van de Filter op het recht te openen.](images/filter-search-icon.svg)
+
+![](images/select-file-filters.png){align="left"}
+
+U hebt de volgende opties om de bestanden te filteren en uw zoekopdracht te beperken:
+
+- **Onderzoek in**: Selecteer de weg waar u de dossiers huidig in de Bewaarplaats wilt zoeken.
+
+- **het type van Dossier**: Filter uw onderzoek dat op een specifiek dossiertype wordt gebaseerd. Beschikbare opties zijn: **Onderwerp**, **Kaart**, **DITAVAL**, **Beeld**, **Multimedia**, **Document**, en **anderen**.
+
+  >[!NOTE]
+  >
+  > In sommige gevallen, wordt het **type van Dossier** filter pre-toegepast op specifiek(e) dossiertype(n) dat op de taak wordt gebaseerd en kan niet worden veranderd. Wanneer u bijvoorbeeld naar een afbeelding bladert, wordt het filter ingesteld om alleen afbeeldingsbestanden weer te geven en wanneer u herbruikbare inhoud maakt, worden alleen onderwerp- en kaartbestanden weergegeven. U kunt nog steeds andere filters aanpassen, zoals documentstatus, codes of datum die als laatste is gewijzigd, om de zoekresultaten te verfijnen.
+
+- **de staat van het Document**: U kunt uw onderzoek filtreren dat op de huidige documentstaat van de dossiers wordt gebaseerd. De beschikbare filterwaarden worden gedefinieerd in het `repositoryFilters` -veld van `ui_config.json file` en zijn gekoppeld aan het mappenprofiel dat u momenteel gebruikt.
+
+  Dit betekent:
+
+   - Als u het Globale Profiel gebruikt, worden de filterwaarden die in het Globale profiel worden gevormd toegepast.
+   - Als u een specifiek mapprofiel selecteert, worden de in dat profiel gedefinieerde filterwaarden opgehaald.
+
+  De standaardfilterwaarden die beschikbaar zijn voor de documentstatus zijn: Concept, Bewerken, In-Review, Goedgekeurd, Reviewed en Done. Voor details bij het aanpassen van filterwaarden voor documentstaten, vormt de mening [ de filters van de documentstaat ](../cs-install-guide/config-doc-state-filters.md).
+
+- **Vergrendeld door**: Toont een lijst van gebruikers. De lijst wordt gepagineerd en wordt asynchroon geladen, waarbij een beperkte set gebruikers tegelijk wordt weergegeven en meer wordt opgehaald terwijl u schuift of navigeert. Hierdoor worden de laadsnelheid en algemene prestaties verbeterd, vooral wanneer u met een groot aantal gebruikers werkt.
+
+- **Laatst gewijzigd**: Inhoud van de filter die op wijzigingsdatum wordt gebaseerd. Selecteer een datumbereik in de kalender of kies een van de volgende tijdframeopties:
+   - In vorige week
+   - In vorige maand
+   - In vorig jaar
+
+- **Markeringen**: Inhoud van de filter die op markeringen wordt gebaseerd.
+
+- **elementen DITA**: De inhoud van de filter die op diverse elementen wordt gebaseerd DITA.
+
+Na het toepassen van alle vereiste filters, selecteert **** van de bodem-juiste hoek van het paneel van Filters van toepassing is.
+
+**Eigenschappen beschikbaar in het lusje van Inzamelingen voor dossier het doorbladeren**
+
+Het **lusje van Inzamelingen** verstrekt een gebogen mening van dossiers beschikbaar in uw Inzamelingen voor snelle toegang en hergebruik. In tegenstelling tot het tabblad Opslagplaats, dat de volledige maphiërarchie weergeeft, kunt u met Verzamelingen veelgebruikte onderwerpen, afbeeldingen en afbeeldingen selecteren zonder door meerdere mappen te navigeren.
+
+![](images/select-file-collections.png)
+
+Op het tabblad Verzamelingen kunt u:
+
+- Gebruik de broodkruimels op de bovenkant en het omslagnavigatievenster op het recht om door uw Collections gemakkelijk te navigeren.
+
+  ![](images/collections-folder-navigation-panel.png)
+- Selecteer bestanden in een specifiek verzamelingspad en bekijk een voorvertoning hiervan in het rechterdeelvenster.
+
+  ![](images/collections-file-preview.png)
+
+
+
+### Browsermappen in de opslagplaats
+
+Het doorbladeren van omslagen die de **Uitgezochte omslag** dialoog gebruiken, concentreert zich bij het selecteren van de correcte omslagweg binnen de Bewaarplaats voor taken zoals het creëren van nieuwe onderwerpen of het specificeren van outputplaatsen voor gepubliceerde inhoud. Het biedt een duidelijke, structuurweergave van mappen, waardoor navigatie intuïtief wordt en ervoor wordt gezorgd dat inhoud op de juiste locatie wordt geplaatst.
+
+![](images/select-path-dialog-new.png){width="300" align="left"}
+
+
 ## Ondersteuning voor op artikelen gebaseerde publicaties
 
-Van de Redacteur, kunt u de output voor één of meerdere onderwerpen, of de volledige kaart produceren DITA. U moet outputvoorinstellingen voor uw kaart creëren DITA en dan kunt u de output voor één of meerdere onderwerpen gemakkelijk produceren. Als u een paar onderwerpen in uw kaart hebt bijgewerkt, kunt u de output slechts voor die onderwerpen van de Redacteur ook produceren. Voor meer details, mening [&#x200B; op artikel-gebaseerde het publiceren &#x200B;](web-editor-article-publishing.md#id218CK0U019I).
+Van de Redacteur, kunt u de output voor één of meerdere onderwerpen, of de volledige kaart produceren DITA. U moet outputvoorinstellingen voor uw kaart creëren DITA en dan kunt u de output voor één of meerdere onderwerpen gemakkelijk produceren. Als u een paar onderwerpen in uw kaart hebt bijgewerkt, kunt u de output slechts voor die onderwerpen van de Redacteur ook produceren. Voor meer details, mening [ op artikel-gebaseerde het publiceren ](web-editor-article-publishing.md#id218CK0U019I).
 
 ## Ondersteuning voor opmaakdocumenten
 
-In de Editor kunt u Markeringen gebruiken voor documenten \(.md\) samen met uw DITA-documenten. U kunt een document van de Prijsverhoging in de Redacteur gemakkelijk ontwerpen en voorproef en het ook toevoegen in uw kaartdossier door de DITA kaartredacteur. Voor meer details, bekijk [&#x200B; documenten van de Prijsverhoging van de Auteur van de Redacteur &#x200B;](web-editor-markdown-topic.md#).
+In de Editor kunt u Markeringen gebruiken voor documenten \(.md\) samen met uw DITA-documenten. U kunt een document van de Prijsverhoging in de Redacteur gemakkelijk ontwerpen en voorproef en het ook toevoegen in uw kaartdossier door de DITA kaartredacteur. Voor meer details, bekijk [ documenten van de Prijsverhoging van de Auteur van de Redacteur ](web-editor-markdown-topic.md#).
 
 ## Steun voor DITA verklarende woordenlijstterm onderwerp
 
@@ -161,9 +287,9 @@ De Editor ondersteunt verklarende woordenlijsten die u kunt invoegen door `term`
 
 ### MathML-vergelijkingen invoegen
 
-Experience Manager Guides geeft u een out-of-the-box steun voor het opnemen van de vergelijkingen van MathML door integratie met [&#x200B; toepassing van het Web MathType &#x200B;](https://docs.wiris.com/en/mathtype/mathtype_web/intro). Om een vergelijking van MathML op te nemen, selecteer het **pictogram van het Element** en type mathml. Wanneer u mathml element van de lijst selecteert, wordt de **dialoog van MathML van het Tussenvoegsel** getoond:
+Experience Manager Guides geeft u een out-of-the-box steun voor het opnemen van de vergelijkingen van MathML door integratie met [ toepassing van het Web MathType ](https://docs.wiris.com/en/mathtype/mathtype_web/intro). Om een vergelijking van MathML op te nemen, selecteer het **pictogram van het Element** en type mathml. Wanneer u mathml element van de lijst selecteert, wordt de **dialoog van MathML van het Tussenvoegsel** getoond:
 
-![&#x200B; neem mathml vergelijking in mathml redacteur op &#x200B;](images/insert-mathml-equation.png){width="550" align="left"}
+![ neem mathml vergelijking in mathml redacteur op ](images/insert-mathml-equation.png){width="550" align="left"}
 
 Gebruikend de de vergelijkingshulpmiddelen van MathML, creeer uw vergelijking en selecteer **Tussenvoegsel** om het aan uw document toe te voegen. De vergelijking wordt ingevoegd met een lichtgrijze achtergrond.
 
@@ -174,7 +300,7 @@ Op elk ogenblik kunt u een vergelijking bijwerken door op een bestaande vergelij
 Experience Manager Guides valideert MathML-vergelijkingen wanneer u een onderwerp opslaat dat ze bevat.
 Als u een vergelijking invoegt met de MathML-editor, wordt de vergelijking rood gemarkeerd als er syntaxisproblemen zijn. U kunt dit corrigeren voordat u het invoegt. Als u geen veranderingen aanbrengt maar **uitgezocht Tussenvoegsel** selecteert, toont het een waarschuwing.
 
-![&#x200B; bevestigt mathml vergelijking &#x200B;](images/validate-mathml-equation.png){width="400" align="left"}
+![ bevestigt mathml vergelijking ](images/validate-mathml-equation.png){width="400" align="left"}
 
 Als u de vergelijking van MathML opneemt die een syntaxisfout bevat, komt een bevestigingsfout voor wanneer u probeert om het onderwerp op te slaan.
 
@@ -233,7 +359,7 @@ DITA-elementen die regeleinde en spaties bevatten, worden ondersteund en weergeg
 
 ## Afhandeling van vaste spaties in de Editor
 
-- U kunt vaste ruimten in uw document opnemen gebruikend het **Symobol** ![](images/symbol-icon.svg) pictogram of **Alt** + **de kortere wegsleutels van de Ruimte**.  Deze vaste spaties worden weergegeven als een indicator terwijl u een onderwerp bewerkt in de Editor. U kunt de vertoning van de vaste ruimten met **tonen niet-breekruimtemindicator op de auteurswijze** optie van de **Verschijning** tabel van [&#x200B; de voorkeur van de Gebruiker &#x200B;](./intro-home-page.md#user-preferences) uitzetten.
+- U kunt vaste ruimten in uw document opnemen gebruikend het **Symobol** ![](images/symbol-icon.svg) pictogram of **Alt** + **de kortere wegsleutels van de Ruimte**.  Deze vaste spaties worden weergegeven als een indicator terwijl u een onderwerp bewerkt in de Editor. U kunt de vertoning van de vaste ruimten met **tonen niet-breekruimtemindicator op de auteurswijze** optie van de **Verschijning** tabel van [ de voorkeur van de Gebruiker ](./intro-home-page.md#user-preferences) uitzetten.
 
 - Als u inhoud met een vaste ruimte van om het even welke externe bronnen in de **auteur** mening kopieert en kleeft, wordt de vaste ruimte omgezet in een ruimte.
 Nochtans, als u inhoud met een vaste ruimte van de **auteur** mening kopieert en kleeft, wordt het bewaard.
@@ -282,4 +408,4 @@ De belangrijkste kenmerken voor een betere afhandeling van grote bestanden zijn 
 
 - Het waarschuwingsbericht is alleen beschikbaar voor DITA-bestanden en is in alle weergaven zichtbaar: Auteur, Source en Layout.
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; Inleiding aan de Redacteur &#x200B;](web-editor.md)
+**Bovenliggend onderwerp:**[ Inleiding aan de Redacteur ](web-editor.md)

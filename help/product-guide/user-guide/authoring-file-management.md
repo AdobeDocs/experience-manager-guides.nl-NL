@@ -4,7 +4,7 @@ description: Leer hoe u bestanden en mappen in AEM Guides beheert. Kopieer en pl
 exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
-source-git-commit: 14bbb3a055d8b528b6ed657be797c5fa96dd3e7e
+source-git-commit: 9e4fc7d482b6a37552d31ba2b07fae53018b4dc6
 workflow-type: tm+mt
 source-wordcount: '3263'
 ht-degree: 0%
@@ -105,7 +105,6 @@ Als u het **Dossier \ (s \) van de Beweging aan Nieuwe Plaats** optie kiest, dan
 
 Als u bij het vervangen of verplaatsen van de bestanden de optie kiest om een versie te maken van de bestaande kopie, wordt een nieuwe versie gemaakt van de werkkopie van het document. Het nieuwe bestand wordt vervangen op de bestaande locatie of verplaatst naar de nieuwe locatie.
 
-
 ## Bestanden bulksgewijs verplaatsen {#move-files-bulk}
 
 Experience Manager Guides wordt geleverd met het gereedschap Bulk verplaatsen, waarmee een beheerder een map met een groot aantal bestanden van de ene locatie naar de andere kan verplaatsen. Met dit programma kunt u bestanden in een of meer mappen gemakkelijk naar een andere map in uw Adobe Experience Manager-opslagplaats verplaatsen. Een van de belangrijkste functies van dit gereedschap is dat het niet alleen een groot aantal bestanden verplaatst, maar ook de verwijzingen naar en van de bestanden die worden verplaatst, behoudt. U kunt het aantal bestanden dat u in batches kunt verplaatsen, bijstellen zonder de ontwerp- en publicatietaken te hinderen.
@@ -135,7 +134,7 @@ Voer de volgende stappen uit om bestanden in bulk te verplaatsen:
 
 1. Selecteer het embleem van Adobe Experience Manager bij de bovenkant en kies **Hulpmiddelen**.
 1. Selecteer **Gidsen** van de lijst van hulpmiddelen.
-1. Selecteer de **tegel van het Hulpmiddel van de Verplaatsing 0&rbrace; Bulk.**
+1. Selecteer de **tegel van het Hulpmiddel van de Verplaatsing 0} Bulk.**
 1. De pagina Bulk verplaatsen wordt weergegeven op basis van uw instellingen. Verstrek de volgende details op de **pagina van het Hulpmiddel van de Beweging van het Bulk**:
 
    <details>
@@ -231,7 +230,7 @@ Adobe Experience Manager herkent standaard geen DITA-inhoud en biedt dus geen me
 
 >[!NOTE]
 >
->Uw systeembeheerder kan de **onderzoekscomponent vormen van het Element 0&rbrace; DITA &lbrace;en dan kunt u de eigenschap van Adobe Experience Manager Assets gebruiken UI.** Voor meer detailmening, *voeg de onderzoekscomponent van het Element DITA in Assets UI* sectie in toe installeer en vorm Adobe Experience Manager Guides as a Cloud Service.
+>Uw systeembeheerder kan de **onderzoekscomponent vormen van het Element 0} DITA {en dan kunt u de eigenschap van Adobe Experience Manager Assets gebruiken UI.** Voor meer detailmening, *voeg de onderzoekscomponent van het Element DITA in Assets UI* sectie in toe installeer en vorm Adobe Experience Manager Guides as a Cloud Service.
 
 Met de zoekfunctie kunt u:
 
@@ -326,4 +325,4 @@ Als uw media dossier om het even welke veranderingen heeft ondergaan, kunt u de 
    ![](images/media-version-preview.png){width="650" align="center"}
 
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; beheert inhoud &#x200B;](authoring.md)
+**Bovenliggend onderwerp:**[ beheert inhoud ](authoring.md)

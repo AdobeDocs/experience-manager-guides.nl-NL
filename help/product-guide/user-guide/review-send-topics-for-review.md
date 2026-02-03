@@ -4,9 +4,9 @@ description: Leer hoe u een overzichtstaak maakt en onderwerpen ter controle ver
 exl-id: c486eb6a-7e1f-4faa-973d-b47252d3e7c5
 feature: Reviewing
 role: User
-source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
+source-git-commit: cd536b9e27b3c422fc723e9f13b12ac432fa3fc9
 workflow-type: tm+mt
-source-wordcount: '2793'
+source-wordcount: '3055'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 0%
 
 De revisiewerkstroom maakt een omgeving met meerdere revisoren waarin de aanvrager een lijst met onderwerpen opgeeft voor revisie, meerdere revisoren toevoegt en een tijdlijn toewijst aan de revisietaak. Met Adobe Experience Manager Guides kunnen gebruikers die tot de groepen Auteurs en Publishers behoren, een revisie starten.
 
-Aangezien het revisiewerkschema project-specifiek is, moet de initiatiefnemer van overzicht een deel van het projectteam zijn of rechten hebben om een project tot stand te brengen. Op het tijdstip van het creëren van een project, bepaalt u de teamleden voor het project en wijst hen diverse rollen of groepen toe. Voor meer informatie over projecten, leidt de mening [&#x200B; tot een project DITA &#x200B;](authoring-create-dita-project.md#).
+Aangezien het revisiewerkschema project-specifiek is, moet de initiatiefnemer van overzicht een deel van het projectteam zijn of rechten hebben om een project tot stand te brengen. Op het tijdstip van het creëren van een project, bepaalt u de teamleden voor het project en wijst hen diverse rollen of groepen toe. Voor meer informatie over projecten, leidt de mening [ tot een project DITA ](authoring-create-dita-project.md#).
 
 U kunt een revisietaak maken op basis van:
 
-- **Redacteur**: Staat u toe om een individueel onderwerp of kaart DITA voor overzicht te verzenden. De workflow voor het maken van een revisietaak wordt gebruikt in de gebruikersinterface van de Editor en Assets. Alleen de methode voor het starten van de revisiewerkstroom verschilt. Voor informatie over het lanceren van het overzichtswerkschema van de Redacteur, bekijk [&#x200B; creeer de Taak van het Overzicht &#x200B;](web-editor-left-panel.md#review) eigenschap in de Redacteur.
+- **Redacteur**: Staat u toe om een individueel onderwerp of kaart DITA voor overzicht te verzenden. De workflow voor het maken van een revisietaak wordt gebruikt in de gebruikersinterface van de Editor en Assets. Alleen de methode voor het starten van de revisiewerkstroom verschilt. Voor informatie over het lanceren van het overzichtswerkschema van de Redacteur, bekijk [ creeer de Taak van het Overzicht ](web-editor-left-panel.md#review) eigenschap in de Redacteur.
 
 - **Assets UI**: Staat u toe om één of veelvoudige onderwerpen en kaart DITA voor overzicht te verzenden. Het delen van documenten voor overzicht van de gebruikersinterface van Assets wordt behandeld onder dit onderwerp.
 
@@ -65,7 +65,7 @@ Voer de volgende stappen uit om een overzichtstaak te maken en onderwerpen ter c
 
    >[!NOTE]
    >
-   > De revisiewerkstroom is projectspecifiek. Wanneer u projecten creeert, voegt u de teamleden aan het project toe en wijst hen aan groepen toe. Dus als je het project hier selecteert, kies je de leden die deel uitmaken van dat project. Voor meer informatie over projecten, leidt de mening [&#x200B; tot een project DITA &#x200B;](authoring-create-dita-project.md#).
+   > De revisiewerkstroom is projectspecifiek. Wanneer u projecten creeert, voegt u de teamleden aan het project toe en wijst hen aan groepen toe. Dus als je het project hier selecteert, kies je de leden die deel uitmaken van dat project. Voor meer informatie over projecten, leidt de mening [ tot een project DITA ](authoring-create-dita-project.md#).
 
 1. Ga a **Beschrijving** voor de taak in.
 
@@ -75,7 +75,7 @@ Voer de volgende stappen uit om een overzichtstaak te maken en onderwerpen ter c
 
    >[!NOTE]
    >
-   > Na het bereiken van de deadline wordt een e-mail verzonden naar de aanvrager met de kennisgeving dat de revisietaak is voltooid. De initiatiefnemer kan de deadline van de overzichtstaak van het [&#x200B; Dashboard van het Overzicht &#x200B;](review-manage-tasks-review-dashboard.md#) uitbreiden.
+   > Na het bereiken van de deadline wordt een e-mail verzonden naar de aanvrager met de kennisgeving dat de revisietaak is voltooid. De initiatiefnemer kan de deadline van de overzichtstaak van het [ Dashboard van het Overzicht ](review-manage-tasks-review-dashboard.md#) uitbreiden.
 
 1. Selecteer de wortelkaart van de **weg Rootmap**. Deze routekaart wordt gebruikt om alle belangrijkste verwijzingen en verklarende woordenlijsttermijnen op te lossen die in de overzichtsinhoud worden gebruikt. Als u niet rootmap selecteert dan worden de belangrijkste verwijzingen of verklarende woordenlijsttermijnen verbonden aan het onderwerp DITA, niet opgelost alvorens het onderwerp voor overzicht te verzenden.
 
@@ -83,7 +83,7 @@ Voer de volgende stappen uit om een overzichtstaak te maken en onderwerpen ter c
 
    >[!NOTE]
    >
-   > De geselecteerde hoofdmap heeft de hoogste prioriteit om toetsverwijzingen op te lossen. Voor meer details, lost de mening [&#x200B; zeer belangrijke verwijzingen &#x200B;](map-editor-other-features.md#id176GD01H05Z) op.
+   > De geselecteerde hoofdmap heeft de hoogste prioriteit om toetsverwijzingen op te lossen. Voor meer details, lost de mening [ zeer belangrijke verwijzingen ](map-editor-other-features.md#id176GD01H05Z) op.
 
 1. Aangezien u verschillende recensenten aan verschillende onderwerpen kunt toewijzen, **Toestaan Assignees om het even welk Onderwerp** optiecontroles te herzien of de recensenten alle onderwerpen in een overzichtstaak of slechts die onderwerpen kunnen herzien die zij aan overzicht worden toegewezen.
 
@@ -139,7 +139,7 @@ Voer de volgende stappen uit om een overzichtstaak te maken en onderwerpen ter c
    - **geeft Recensenten** uit: Selecterend het ![](images/edit_pencil_icon.svg) pictogram in de onderwerpenlijst toont de Edit dialoog van Reviewers. U kunt revisoren voor het geselecteerde onderwerp toevoegen aan of verwijderen uit dit dialoogvenster.
 1. Selecteer **creeer** om de overzichtstaak tot stand te brengen.
 
-   Er wordt een bevestigingsbericht weergegeven wanneer de revisietaak met succes is gemaakt. De [&#x200B; staat van het Document &#x200B;](web-editor-document-states.md#) voor de onderwerpen die voor overzicht worden verzonden wordt geplaatst aan In-Overzicht.
+   Er wordt een bevestigingsbericht weergegeven wanneer de revisietaak met succes is gemaakt. De [ staat van het Document ](web-editor-document-states.md#) voor de onderwerpen die voor overzicht worden verzonden wordt geplaatst aan In-Overzicht.
 
    >[!NOTE]
    >
@@ -192,7 +192,7 @@ Als u een of meerdere onderwerpen samen met het kaartbestand ter controle wilt v
 
    >[!NOTE]
    >
-   > De revisiewerkstroom is projectspecifiek. Wanneer u projecten creeert, voegt u de teamleden aan het project toe en wijst hen aan groepen toe. Dus als je het project hier selecteert, kies je de leden die deel uitmaken van dat project. Voor meer informatie over projecten, leidt de mening [&#x200B; tot een project DITA &#x200B;](authoring-create-dita-project.md#).
+   > De revisiewerkstroom is projectspecifiek. Wanneer u projecten creeert, voegt u de teamleden aan het project toe en wijst hen aan groepen toe. Dus als je het project hier selecteert, kies je de leden die deel uitmaken van dat project. Voor meer informatie over projecten, leidt de mening [ tot een project DITA ](authoring-create-dita-project.md#).
 
 1. Ga a **Beschrijving** voor de taak in.
 
@@ -202,7 +202,7 @@ Als u een of meerdere onderwerpen samen met het kaartbestand ter controle wilt v
 
    >[!NOTE]
    >
-   > Na het bereiken van de deadline wordt een e-mail verzonden naar de aanvrager met de kennisgeving dat de revisietaak is voltooid. De initiatiefnemer kan de deadline van de overzichtstaak van het [&#x200B; Dashboard van het Overzicht &#x200B;](review-manage-tasks-review-dashboard.md#) uitbreiden.
+   > Na het bereiken van de deadline wordt een e-mail verzonden naar de aanvrager met de kennisgeving dat de revisietaak is voltooid. De initiatiefnemer kan de deadline van de overzichtstaak van het [ Dashboard van het Overzicht ](review-manage-tasks-review-dashboard.md#) uitbreiden.
 
 1. Aangezien u verschillende recensenten aan verschillende onderwerpen kunt toewijzen, **Toestaan Assignees om het even welk Onderwerp** optiecontroles te herzien of de recensenten alle onderwerpen in een overzichtstaak of slechts die onderwerpen kunnen herzien die zij aan overzicht worden toegewezen.
 
@@ -256,7 +256,7 @@ Als u een of meerdere onderwerpen samen met het kaartbestand ter controle wilt v
 
 1. Selecteer **creeer** om de overzichtstaak tot stand te brengen.
 
-   Er wordt een bevestigingsbericht weergegeven wanneer de revisietaak met succes is gemaakt. De [&#x200B; staat van het Document &#x200B;](web-editor-document-states.md#) voor de onderwerpen die voor overzicht worden verzonden wordt geplaatst aan In-Overzicht.
+   Er wordt een bevestigingsbericht weergegeven wanneer de revisietaak met succes is gemaakt. De [ staat van het Document ](web-editor-document-states.md#) voor de onderwerpen die voor overzicht worden verzonden wordt geplaatst aan In-Overzicht.
 
    >[!NOTE]
    >
@@ -269,4 +269,41 @@ Als u een of meerdere onderwerpen samen met het kaartbestand ter controle wilt v
 
 Er wordt een e-mail verzonden naar alle revisoren, met de kennisgeving dat aan hen onderwerpen zijn toegewezen voor revisie. De e-mail bevat een directe koppeling die zij kunnen gebruiken om toegang te krijgen tot het onderwerp in een browservenster. De onderwerpen samen met de kaart DITA worden geopend op de overzichtswijze.
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; Inleiding aan overzicht &#x200B;](review.md)
+## Onderwerpen toevoegen aan of verwijderen uit een lopende revisietaak
+
+Als auteur of initiator van een overzichtstaak, kunt u nieuwe onderwerpen aan een aan de gang zijnde overzichtstaak (als zij niet eerder voor overzicht) werden verzonden of onderwerpen uit een aan de gang zijnde overzichtstaak verwijderen zonder het overzichtswerkschema te beïnvloeden.
+
+Voer de volgende stappen uit om onderwerpen toe te voegen of te verwijderen uit een aan de gang zijnde overzichtstaak:
+
+1. In het paneel van het Overzicht, navigeer aan de overzichtstaak u **Open taakdetails** van het contextmenu wijzigen en wilt selecteren.
+
+   De **pagina van de Details van de Taak** wordt getoond.
+
+1. Selecteer het **lusje van de INHOUD** om de onderwerpen momenteel inbegrepen in de overzichtstaak te bekijken.
+1. Herzie de onderwerpenlijst en wijzig zonodig de selectie.
+
+   - Selecteer nieuwe onderwerpen die niet eerder voor overzicht zijn verzonden.
+   - Deselecteer onderwerpen die u uit de revisietaak wilt verwijderen.
+
+   >[!NOTE]
+   >
+   > Ten minste één onderwerp moet geselecteerd blijven om een lopende overzichtstaak bij te werken.
+
+   ![](images/modify-review-topics.png)
+
+1. Zodra u de onderwerpenlijst wijzigt, worden de overeenkomstige updates automatisch verspreid aan **REVIEWERS** lusje van de pagina van de Details van de Taak.
+
+   ![](images/modify-reviewers.png)
+
+   Herzie de bijgewerkte onderwerpenlijst op het lusje van Revisoren. Voor om het even welke nieuwe toegevoegde onderwerpen, moet u recensenten toewijzen tenzij **toewijzers toestaat om het even welk onderwerp** te herzien die voor uw overzichtstaak wordt toegelaten.
+1. Selecteer **Update**.
+
+Nadat de revisietaak is bijgewerkt, ontvangen de revisoren meldingen (zowel AEM als e-mail) op basis van hun revisiestatus:
+
+- **lopend**: De recensenten die nog aan de taak werken worden op de hoogte gebracht dat de taak is bijgewerkt.
+- **Voltooid**: De recensenten die hun overzicht hebben gebeëindigd ontvangen een bericht verzoekend een herbeoordeling.
+
+Voor meer details, mening [ Begrijpende overzichtsberichten ](./review-understanding-review-notifications.md).
+
+
+**Bovenliggend onderwerp:**[ Inleiding aan overzicht ](review.md)

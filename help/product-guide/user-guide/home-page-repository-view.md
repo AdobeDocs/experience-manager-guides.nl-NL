@@ -3,9 +3,9 @@ title: Opslagplaats op startpagina
 description: Meer informatie over de gegevensopslagruimte vindt u op de startpagina. Meer informatie over de interface van Repository en de functies in Adobe Experience Manager Guides op de startpagina.
 feature: Authoring
 role: User
-source-git-commit: 1919e622b1b148d16bcdb85f79e2a1cd706fe33e
+source-git-commit: e45343812a67c6755c76f1b31b68c7201cdd8772
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '1412'
 ht-degree: 0%
 
 ---
@@ -41,12 +41,12 @@ De navigatiebalk voor de opslagplaats, die zich boven aan de interface voor opsl
 - **verfrist zich**: Werkt Repository bij om op de recentste veranderingen te wijzen.
 - **uploadt Assets**: Staat toe om activa aan de huidige omslag direct te uploaden, zoals benadrukt in breadcrumbs.
 - **Nieuw**: Laat de verwezenlijking van nieuwe onderwerpen, kaarten, en omslagen binnen de huidige omslag zoals benadrukt in de broodkruimels toe.
-- **AI Medewerker**: Een krachtig, AI-gedreven hulpmiddel dat wordt ontworpen om uw productiviteit door slimme hulpeigenschappen te verbeteren. De [&#x200B; AI Medewerker &#x200B;](./ai-assistant.md) eigenschap is momenteel slechts beschikbaar voor Adobe Experience Manager als Cloud Service.
+- **AI Medewerker**: Een krachtig, AI-gedreven hulpmiddel dat wordt ontworpen om uw productiviteit door slimme hulpeigenschappen te verbeteren. De [ AI Medewerker ](./ai-assistant.md) eigenschap is momenteel slechts beschikbaar voor Adobe Experience Manager als Cloud Service.
 - **Meer acties**: Verleent toegang tot extra opties. Als u deze knop selecteert, wordt een menu geopend met de volgende opties:
    - **Assets**: Neemt u aan een bestemming die op uw opstelling wordt gebaseerd.
       - **de Diensten van de Wolk**: Als u de Diensten van de Wolk gebruikt, die de **Assets** optie selecteren neemt u aan de pagina van de Navigatie van AEM.
       - **Op-gebouwSoftware**: Als u Adobe Experience Manager Guides (4.2.1 en later) gebruikt, die de **optie van Assets** selecteert neemt u aan uw huidige dossierweg in Assets UI.
-   - **de montages van Workspace**: Neemt u aan de **de montages van Workspace** dialoog. Voor details, vorm de mening [&#x200B; de montages van Workspace &#x200B;](../cs-install-guide/workspace-settings.md).
+   - **de montages van Workspace**: Neemt u aan de **de montages van Workspace** dialoog. Voor details, vorm de mening [ de montages van Workspace ](../cs-install-guide/workspace-settings.md).
 - **breid mening** uit: Staat u toe om de paginamening uit te breiden gebruikend **breid** pictogram uit. In deze weergave is de titelbalk verborgen en wordt de inhoudsruimte gemaximaliseerd. Als u wilt terugkeren naar de standaardweergave, gebruikt u het pictogram Uitgebreide weergave afsluiten.
 
 ## Tabellarische weergave van opslagplaats
@@ -64,7 +64,7 @@ De gegevensopslagruimte fungeert als de centrale ruimte die een tabellijst met a
 - **Uitgevend het dossier**:
 
    - U kunt een of meerdere bestanden in de lijst selecteren om te bewerken.
-   - Na het selecteren van de gewenste dossiers gebruikend checkbox, geeft **&#x200B;**&#x200B;optie uit beschikbaar in de hoger-juiste hoek van de mening van de Bewaarplaats wordt.
+   - Na het selecteren van de gewenste dossiers gebruikend checkbox, geeft **** optie uit beschikbaar in de hoger-juiste hoek van de mening van de Bewaarplaats wordt.
    - Het selecteren **geeft** uit opent het geselecteerde dossier(s) in de interface van de Redacteur, waar u kunt beginnen het dossier uit te geven.
 
      ![](images/edit-repo-view.png){align="left"}
@@ -76,18 +76,18 @@ De gegevensopslagruimte fungeert als de centrale ruimte die een tabellijst met a
    - **Nieuw**: Creeer een nieuw onderwerp DITA, kaart DITA, of een omslag.
    - **uploadt Assets**: Upload een dossier van uw lokaal systeem aan de geselecteerde omslag in bewaarplaats.
    - **voeg aan inzamelingen** toe: Voegt de geselecteerde omslag aan favorieten toe. U kunt desgewenst toevoegen aan een bestaande of nieuwe verzameling.
-   - **opnieuw verwerkings activa**: Triggert de verwerking van alle pas gecreëerde en onverwerkte activa.
+   - **opnieuw verwerkings activa**: Triggert de verwerking voor alle activa in de omslag.
 
 - **menu van Opties voor dossiers**: U kunt de volgende acties uitvoeren gebruikend het **menu van Opties** voor een dossier:
 
-  ![](images/options-file-repo.png){width="350" align="left"}
+  ![](images/options-file-repo-new.png){width="350" align="left"}
 
    - **geef** uit: Open het dossier voor het uitgeven.
    - **geef in Zuurstof** uit: Selecteer deze optie om het geselecteerde dossier in de Oxygeenschakelaarstop uit te geven.
 
      >[!NOTE]
      >
-     >Neem contact op met het team voor succes van uw klant om deze functie in de omgeving in te schakelen. Dit wordt niet toegelaten als deel van uit-van-de-doos steun. Voor meer details, bekijk [&#x200B; de optie vormen om in sectie Oxygen &#x200B;](../cs-install-guide/conf-edit-in-oxygen.md) in de Gids van de Installatie en van de Configuratie uit te geven.
+     >Neem contact op met het team voor succes van uw klant om deze functie in de omgeving in te schakelen. Dit wordt niet toegelaten als deel van uit-van-de-doos steun. Voor meer details, bekijk [ de optie vormen om in sectie Oxygen ](../cs-install-guide/conf-edit-in-oxygen.md) in de Gids van de Installatie en van de Configuratie uit te geven.
 
    - **Open in kaartconsole**: Voor het geval dat het geselecteerde dossier een kaart DITA is, dan opent deze optie de kaartconsole.
    - **Open in kaartdashboard**: Voor het geval dat het geselecteerde dossier een kaart DITA is, dan opent deze optie het kaartdashboard.
@@ -99,16 +99,17 @@ De gegevensopslagruimte fungeert als de centrale ruimte die een tabellijst met a
    - **Schrapping**: Gebruik deze optie om het geselecteerde dossier te schrappen.
    - **voeg aan** toe: verkies om aan Inzamelingen of Herbruikbare inhoud toe te voegen.
    - **Exemplaar**: Kopieert UUID of volledige weg van het dossier.
+   - **opnieuw verwerken activa**: Brekt de verwerking voor de geselecteerde activa.
    - **Eigenschappen**: Gebruik dit om de pagina van Eigenschappen van het geselecteerde dossier te openen.
    - **Download als PDF**: Gebruik de optie om de output van PDF te produceren en het te downloaden.
 
 ### Zoeken en filteren
 
-De **optieshulp van het 0&rbrace; Onderzoek &lbrace;in het zoeken van de vereiste dossiers van Bewaarplaats hoofdzakelijk op basis van** titel van het Dossier **,** Naam van het Dossier **en** Inhoud **.** U kunt om het even welke, twee, of alle drie criteria voor uw onderzoek gebruiken. Als geen van de criteria wordt geselecteerd, zullen de resultaten gemeenschappelijk zijn voor alle drie de criteria.
+De **optieshulp van het 0} Onderzoek {in het zoeken van de vereiste dossiers van Bewaarplaats hoofdzakelijk op basis van** titel van het Dossier **,** Naam van het Dossier **en** Inhoud **.** U kunt om het even welke, twee, of alle drie criteria voor uw onderzoek gebruiken. Als geen van de criteria wordt geselecteerd, zullen de resultaten gemeenschappelijk zijn voor alle drie de criteria.
 
 ![](images/search-in-repository.png){align="left"}
 
-Selecteer het **\ van het Filteronderzoek van de Filter 0&rbrace; &lbrace;(** het filterpictogram van het Onderzoek ![&#x200B; \) pictogram om het paneel van de Filter op het recht te openen.](images/filter-search-icon.svg)
+Selecteer het **\ van het Filteronderzoek van de Filter 0} {(** het filterpictogram van het Onderzoek ![ \) pictogram om het paneel van de Filter op het recht te openen.](images/filter-search-icon.svg)
 
 ![](images/Search-filters-repo.png){align="left"}
 
@@ -116,7 +117,16 @@ U hebt de volgende opties om de bestanden te filteren en uw zoekopdracht te bepe
 
 - **Onderzoek in**: Selecteer de weg waar u de dossiers huidig in de Bewaarplaats wilt zoeken.
 
-- **type van Dossier**: U kunt alle **Onderwerpen DITA** zoeken, **Kaarten DITA**, **DITAVAL Dossiers**, **Dossiers van het Beeld**, **Multimedia**, **Documenten**, en **JSON**.
+- **het type van Dossier**: Filter uw onderzoek dat op een specifiek dossiertype wordt gebaseerd. Beschikbare opties zijn: **Onderwerp**, **Kaart**, **DITAVAL**, **Beeld**, **Multimedia**, **Document**, en **anderen**.
+
+- **de staat van het Document**: U kunt uw onderzoek filtreren dat op de huidige documentstaat van de dossiers wordt gebaseerd. De beschikbare filterwaarden worden gedefinieerd in het `repositoryFilters` -veld van `ui_config.json file` en zijn gekoppeld aan het mappenprofiel dat u momenteel gebruikt.
+
+  Dit betekent:
+
+   - Als u het Globale Profiel gebruikt, worden de filterwaarden die in het Globale profiel worden gevormd toegepast.
+   - Als u een specifiek mapprofiel selecteert, worden de in dat profiel gedefinieerde filterwaarden opgehaald.
+
+  De standaardfilterwaarden die beschikbaar zijn voor de documentstatus zijn: Concept, Bewerken, In-Review, Goedgekeurd, Reviewed en Done. Voor details bij het aanpassen van filterwaarden voor documentstaten, vormt de mening [ de filters van de documentstaat ](../cs-install-guide/config-doc-state-filters.md).
 
 - **Vergrendeld door**: Toont een lijst van gebruikers. De lijst wordt gepagineerd en wordt asynchroon geladen, waarbij een beperkte set gebruikers tegelijk wordt weergegeven en meer wordt opgehaald terwijl u schuift of navigeert. Hierdoor worden de laadsnelheid en algemene prestaties verbeterd, vooral wanneer u met een groot aantal gebruikers werkt.
 
@@ -127,9 +137,9 @@ U hebt de volgende opties om de bestanden te filteren en uw zoekopdracht te bepe
 
 - **Markeringen**: Inhoud van de filter die op markeringen wordt gebaseerd.
 
-- **element DITA**: Inhoud van de filter die op diverse elementen wordt gebaseerd DITA.
+- **elementen DITA**: De inhoud van de filter die op diverse elementen wordt gebaseerd DITA.
 
-Na het toepassen van alle vereiste filters, selecteert **&#x200B;**&#x200B;van de bodem-juiste hoek van het paneel van Filters van toepassing is.
+Na het toepassen van alle vereiste filters, selecteert **** van de bodem-juiste hoek van het paneel van Filters van toepassing is.
 
 Uw onderzoeksresultaten die volgens de geselecteerde filter worden aangepast verschijnen als a **tabelvormige lijst van dossiers slechts** (de omslagen worden niet getoond). U kunt elk filter afzonderlijk of meerdere filters tegelijk verwijderen en de resultaten worden vernieuwd om de bijgewerkte selectie te weerspiegelen.
 
@@ -141,7 +151,7 @@ Nadat de onderzoeksresultaten verschijnen, kunt u of multi-uitgezochte dossiers 
 
 **toon in onderzoekspaneel**
 
-De **Show in het paneel van het Onderzoek** optie wordt beschikbaar na het uitvoeren van een onderzoek in de Bewaarplaats. Deze eigenschap staat u toe om alle gezochte resultaten in het **paneel van het Onderzoek** binnen de Redacteur te tonen. Voor meer details, mening [&#x200B; paneel van het Onderzoek &#x200B;](./search-panel-explorer.md).
+De **Show in het paneel van het Onderzoek** optie wordt beschikbaar na het uitvoeren van een onderzoek in de Bewaarplaats. Deze eigenschap staat u toe om alle gezochte resultaten in het **paneel van het Onderzoek** binnen de Redacteur te tonen. Voor meer details, mening [ paneel van het Onderzoek ](./search-panel-explorer.md).
 
 ![](images/search-panel-repo.png){align="left"}
 

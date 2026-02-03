@@ -4,9 +4,9 @@ description: Los problemen op met basisoplossingen in AEM Guides. Leer om, het l
 exl-id: 57b88291-b5a3-4931-b3ed-f2b2ce7a463c
 feature: Publishing, Troubleshooting
 role: User
-source-git-commit: 262edba89ab4bf65cb6e109bd7c5df177e2e56fe
+source-git-commit: e049cb1f3d091c701285dbe89194058b93d5e2e4
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '776'
 ht-degree: 0%
 
 ---
@@ -42,15 +42,17 @@ Voer de volgende stappen uit om het logboekbestand van de outputgeneratie te bek
    ![](images/log-file-new.png){align="left"}
 
 1. Pas de volgende filters toe om de tekst in het logbestand te markeren:
-   - Onherstelbaar: hiermee worden de fatale fouten in het logbestand met donkerrode kleur gemarkeerd.
-   - Fout: hiermee worden de fouten in het logbestand gemarkeerd met rode kleur. Uitzonderingen worden beschouwd als fouten en worden op dezelfde manier rood gemarkeerd.
-   - Waarschuwing: markeert de waarschuwingen in het logbestand met een amberkleurige kleur.
-   - Info: hiermee worden de informatieberichten in het logbestand gemarkeerd met een groene kleur.
+   - **Dodelijk**: Benadrukt de fatale fouten in het logboekdossier met donkerrode kleur.
+   - **Fout**: Benadrukt de fouten in het logboekdossier met rode kleur. Uitzonderingen worden beschouwd als fouten en worden op dezelfde manier rood gemarkeerd.
+   - **Waarschuwing**: benadrukt de waarschuwingen in het logboekdossier met amberkleur.
+   - **Info**: Benadrukt de informatieberichten in het logboekdossier met groene kleur.
 
-1. Met de navigatieknoppen Omhoog en Omlaag kunt u naar de gemarkeerde tekst in het logbestand gaan.
+1. Met de navigatieknoppen Omhoog en Omlaag kunt u naar de gemarkeerde tekst in het logbestand gaan. U kunt ook door het logbestand bladeren en de berichten controleren.
 
-   U kunt ook door het logbestand bladeren en de berichten controleren.
+1. U kunt de volgende handelingen uitvoeren op het logbestand:
 
+   - **Logboek van de Download**: Als de lijst van logboeken uitgebreid is, selecteer **Logboek van de Download** om het logboekdossier aan uw apparaat voor gemakkelijkere toegang en overzicht te downloaden.
+   - **Logboek van het Exemplaar**: Kopieert de lijst van logboeken aan uw klembord, toestaand u om het aan één of andere tekstredacteur snel te kleven.
 
 ## Het logbestand kopiëren en controleren in een teksteditor
 
@@ -82,6 +84,9 @@ Voer de volgende stappen uit om het logboekdossier van de outputgeneratie in een
    ![](images/process-error-in-log-file.png){width="650" align="left"}
 
 
+
+
+
 ## JSP-compilatiefout oplossen
 
 Als uw onderwerp DITA te groot is, dan zou u de JSP compilatiefout \ (`org.apache.sling.api.request.TooManyCallsException` \) in uw browser kunnen bekijken. Deze fout kan optreden wanneer u een onderwerp opent voor bewerken, reviseren of publiceren.
@@ -99,4 +104,4 @@ Voer de volgende stappen uit om dit probleem op te lossen:
 1. Verhoog de waarde voor het *Aantal Vraag per de parameter van het Verzoek* zoals per uw vereisten.
 
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; Productie van de Output &#x200B;](generate-output.md)
+**Bovenliggend onderwerp:**[ Productie van de Output ](generate-output.md)

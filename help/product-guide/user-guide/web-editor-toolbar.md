@@ -4,9 +4,9 @@ description: Krijg om de Toolbar in de Redacteur te kennen. Meer informatie over
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
-source-git-commit: 172599c2bd99f1779b04255aac5e7d505614b463
+source-git-commit: a17f9c5d5143de2ca8836ef6282a796abb766d78
 workflow-type: tm+mt
-source-wordcount: '6011'
+source-wordcount: '6173'
 ht-degree: 0%
 
 ---
@@ -22,13 +22,13 @@ De werkbalk verschijnt wanneer u een onderwerp of kaart opent voor bewerking in 
 
 >[!NOTE]
 >
-> De bovenstaande functies zijn alleen van toepassing op onderwerpbestanden. Als u met een kaartbestand werkt, worden op basis van de huidige Kaartweergave verschillende opties op de werkbalk weergegeven. Leer over de opties van de de redacteurstoolbar van de Kaart in het [&#x200B; de redacteurseigenschappen van de Kaart &#x200B;](./map-editor-advanced-map-editor.md) document.
+> De bovenstaande functies zijn alleen van toepassing op onderwerpbestanden. Als u met een kaartbestand werkt, worden op basis van de huidige Kaartweergave verschillende opties op de werkbalk weergegeven. Leer over de opties van de de redacteurstoolbar van de Kaart in het [ de redacteurseigenschappen van de Kaart ](./map-editor-advanced-map-editor.md) document.
 
 ## Vervolgkeuzelijst Menu
 
 In het vervolgkeuzemenu Menu hebt u toegang tot de bewerkingsacties, Zoeken en vervangen, Versiegeschiedenis, Versielabel, Samenvoegen, Revisietaak maken en Tonen (inclusief Wijzigingen bijhouden, Codes, Vaste spatie).
 
-![&#x200B; dropdown van het Menu voor de toolbar van de Redacteur &#x200B;](images/editor-toolbar-menu-dropdown-new.png){width="350" align="left"}
+![ dropdown van het Menu voor de toolbar van de Redacteur ](images/editor-toolbar-menu-dropdown-new.png){width="350" align="left"}
 
 Hieronder wordt een gedetailleerde uitleg gegeven van deze kenmerken:
 
@@ -63,11 +63,11 @@ De **geschiedeniseigenschap van de Versie** in de Redacteur staat u toe om de be
 
 
 1. Open een onderwerp in de Redacteur.
-1. Selecteer **geschiedenis van de Versie** van **&#x200B;**&#x200B;dropdown van het Menu.
+1. Selecteer **geschiedenis van de Versie** van **** dropdown van het Menu.
 
    Het **de dialoogvakje van de Geschiedenis van de Versie** verschijnt.
 
-   ![&#x200B; de geschiedenisdialoogdoos van de Versie &#x200B;](images/version-history-dialog-web-editor.png){width="550" align="left"}
+   ![ de geschiedenisdialoogdoos van de Versie ](images/version-history-dialog-web-editor.png){width="550" align="left"}
 
    *Voorproef de veranderingen in de verschillende versies van een onderwerp.*
 
@@ -84,13 +84,13 @@ De **geschiedeniseigenschap van de Versie** in de Redacteur staat u toe om de be
 
    **Meta-gegevens** tabel: De onlangs toegevoegde meta-gegevens is in groene doopvont, en de geschrapte meta-gegevens is in rode doopvont.
 
-   ![&#x200B; Het verschil van meta-gegevens voor versies &#x200B;](images/metadata-version-diff.png){width="550" align="left"}
+   ![ Het verschil van meta-gegevens voor versies ](images/metadata-version-diff.png){width="550" align="left"}
 
    *vergelijk de meta-gegevens van verschillende versies in de geschiedenis van de Versie.*
 
    >[!NOTE]
    >
-   > Uw systeembeheerder kan de meta-gegevens veranderen die van het lusje van Meta-gegevens in de **Montages** moeten worden getoond. Voor details, verwijs naar **Meer acties** sectie van de [&#x200B; bar van het Lusje &#x200B;](./web-editor-tab-bar.md).
+   > Uw systeembeheerder kan de meta-gegevens veranderen die van het lusje van Meta-gegevens in de **Montages** moeten worden getoond. Voor details, verwijs naar **Meer acties** sectie van de [ bar van het Lusje ](./web-editor-tab-bar.md).
 
    U kunt ook de gebruikers- en tijdgegevens weergeven van de huidige en de vergeleken versie.
 
@@ -123,7 +123,7 @@ Met Experience Manager Guides kunt u labels opgeven in een tekstindeling met vri
 
 Deze labels worden in de vorm van een vervolgkeuzelijst weergegeven aan auteurs, waar ze een label moeten opgeven. Dit zorgt ervoor dat alleen vooraf gedefinieerde, consistente labels in het systeem worden gebruikt.
 
-Er zijn verschillende methodes waardoor u etiketten op uw onderwerpen kunt toepassen - [&#x200B; paneel van de geschiedenis van de 1&rbrace; Versie in Assets UI, &#x200B;](web-editor-use-label.md) Basislijnen [&#x200B; UI, en de Redacteur. &#x200B;](/help/product-guide/user-guide/generate-output-use-baseline-for-publishing.md) Met de functie Versielabel in de Editor kunnen auteurs snel en eenvoudig labels toewijzen aan hun onderwerpen.
+Er zijn verschillende methodes waardoor u etiketten op uw onderwerpen kunt toepassen - [ paneel van de geschiedenis van de 1} Versie in Assets UI, ](web-editor-use-label.md) Basislijnen [ UI, en de Redacteur. ](/help/product-guide/user-guide/generate-output-use-baseline-for-publishing.md) Met de functie Versielabel in de Editor kunnen auteurs snel en eenvoudig labels toewijzen aan hun onderwerpen.
 
 <details>
     <summary> Stappen om etiketten aan uw onderwerp van de Redacteur toe te voegen </summary>
@@ -227,7 +227,7 @@ Voer de volgende stappen uit om wijzigingen in een kaartbestand samen te voegen:
 
 **creeer overzichtstaak**
 
-U kunt [&#x200B; een overzichtstaak &#x200B;](./review-send-topics-for-review.md) van het huidige onderwerp of kaartdossier direct van de Redacteur tot stand brengen. Open het dossier waarvoor u de overzichtstaak wilt tot stand brengen en **selecteren creeert overzichtstaak** van dropdown van het Menu om het proces van de overzichtsverwezenlijking in werking te stellen.
+U kunt [ een overzichtstaak ](./review-send-topics-for-review.md) van het huidige onderwerp of kaartdossier direct van de Redacteur tot stand brengen. Open het dossier waarvoor u de overzichtstaak wilt tot stand brengen en **selecteren creeert overzichtstaak** van dropdown van het Menu om het proces van de overzichtsverwezenlijking in werking te stellen.
 
 **toon menu**
 
@@ -251,9 +251,9 @@ In de volgende schermafbeelding wordt de verwijderde en ingevoegde inhoud samen 
 
   >[!NOTE]
   >
-  > In de modus Voorvertoning kunt u het document met of zonder de gewijzigde markeringen van de inhoud weergeven. Voor meer details, bekijk de [&#x200B; wijze van de Voorproef &#x200B;](web-editor-views.md#preview-mode).
+  > In de modus Voorvertoning kunt u het document met of zonder de gewijzigde markeringen van de inhoud weergeven. Voor meer details, bekijk de [ wijze van de Voorproef ](web-editor-views.md#preview-mode).
 
-- **Markeringen:** De **3&rbrace; eigenschap van Markeringen &lbrace;in de Redacteur is een knevelknoop die de zichtbaarheid van elementen DITA controleert.** Als deze optie is ingeschakeld, worden structuurcodes binnen de inhoud weergegeven, zodat u de onderliggende DITA-elementen beter kunt weergeven en beheren. Als deze optie is uitgeschakeld, verbergt de editor deze tags, zodat de ontwerpomgeving schoner en gerichter wordt.
+- **Markeringen:** De **3} eigenschap van Markeringen {in de Redacteur is een knevelknoop die de zichtbaarheid van elementen DITA controleert.** Als deze optie is ingeschakeld, worden structuurcodes binnen de inhoud weergegeven, zodat u de onderliggende DITA-elementen beter kunt weergeven en beheren. Als deze optie is uitgeschakeld, verbergt de editor deze tags, zodat de ontwerpomgeving schoner en gerichter wordt.
 
   In de volgende schermafbeelding ziet u een document waarvoor de weergave Codes is ingeschakeld:
 
@@ -272,7 +272,7 @@ In de volgende schermafbeelding wordt de verwijderde en ingevoegde inhoud samen 
 
   >[!NOTE]
   >
-  > Als een gebruiker de weergave Codes in de Editor inschakelt, blijft deze zelfs tijdens de sessies ingeschakeld. Dit betekent dat u de mening van Markeringen niet moet opnieuw toelaten om tot het later toegang te hebben. De standaardwaarde voor de weergave Codes van een nieuwe gebruikerssessie wordt bepaald door de eigenschap `tagsView` in het `ui\_config.json` -bestand. Voor meer details, bekijk [&#x200B; standaardwaarde voor de sectie van de Mening van Markeringen &#x200B;](../cs-install-guide/configure-default-value-tags-view.md) in installeer en vorm Adobe Experience Manager Guides as a Cloud Service.
+  > Als een gebruiker de weergave Codes in de Editor inschakelt, blijft deze zelfs tijdens de sessies ingeschakeld. Dit betekent dat u de mening van Markeringen niet moet opnieuw toelaten om tot het later toegang te hebben. De standaardwaarde voor de weergave Codes van een nieuwe gebruikerssessie wordt bepaald door de eigenschap `tagsView` in het `ui\_config.json` -bestand. Voor meer details, bekijk [ standaardwaarde voor de sectie van de Mening van Markeringen ](../cs-install-guide/configure-default-value-tags-view.md) in installeer en vorm Adobe Experience Manager Guides as a Cloud Service.
 
 - **Vaste ruimte:** laat deze optie toe om een indicator voor de vaste ruimten te tonen terwijl het uitgeven van het in de Redacteur. Het is zichtbaar slechts in de **Auteur** mening voor onderwerp DITA en kaarten DITA.
 
@@ -292,13 +292,13 @@ Als u zich bijvoorbeeld binnen het inline `<b>` -element bevindt, kunt u op de h
 
 U kunt ook een teken of tekenreeks typen in het zoekvak en zoeken naar de elementen die ermee beginnen.
 
-![&#x200B; tussenvoegselelement &#x200B;](images/insert-element.png){width="300" align="left"}
+![ tussenvoegselelement ](images/insert-element.png){width="300" align="left"}
 
 *ga &quot;t&quot;aan onderzoek naar alle geldige elementen in die met &quot;t&quot;beginnen.*
 
 Als u in een blokelement werkt zoals een `note` , gebruikt u het pictogram Element invoegen om een nieuw element in te voegen na het `note` -element. In het volgende scherm is een notitie-element ingevoegd in het p \(alinea\)-element:
 
-![&#x200B; het element van het Tussenvoegsel in een blokelement &#x200B;](images/note-in-para-insert-element_cs.png){align="left"}
+![ het element van het Tussenvoegsel in een blokelement ](images/note-in-para-insert-element_cs.png){align="left"}
 
 Als u op Enter drukt in het notitie-element, wordt een nieuwe alinea gemaakt in het notitie-element zelf. Om een nieuw element buiten nota op te nemen, selecteer het p element \ (die in het schermafbeelding \) in de elementenbroodkruimel wordt benadrukt en selecteer dan het pictogram van het Element of druk ***Alt*** + ***gaat*** binnen om de het elementendialoogdoos van het Tussenvoegsel te openen. Selecteer vervolgens het gewenste element en druk op Enter om het geselecteerde element in te voegen na het notitie-element.
 
@@ -337,7 +337,7 @@ Hiermee voegt u een tabel in op de huidige of volgende geldige locatie. Selectee
 
 >[!NOTE]
 >
-> U kunt een lijst van MS Word of Excel ook kopiëren en het kleven in het het onderwerpdossier van Experience Manager Guides. De gekopieerde tabel wordt geplakt als `<simpletable>` of `<tgroup>` , afhankelijk van de instellingen die zijn geconfigureerd in de configuratie van de XML-editor. Voor meer details, vormt de mening [&#x200B; de vertoning van gekleefde lijsten &#x200B;](../cs-install-guide/conf-pasted-tables.md).
+> U kunt een lijst van MS Word of Excel ook kopiëren en het kleven in het het onderwerpdossier van Experience Manager Guides. De gekopieerde tabel wordt geplakt als `<simpletable>` of `<tgroup>` , afhankelijk van de instellingen die zijn geconfigureerd in de configuratie van de XML-editor. Voor meer details, vormt de mening [ de vertoning van gekleefde lijsten ](../cs-install-guide/conf-pasted-tables.md).
 
 U kunt opgeven hoeveel rijen en kolommen in de tabel moeten worden opgenomen. Als u de eerste rij als lijstkopbal wilt houden, selecteer de **Reeks eerste rij als kopbal** optie. Als u een titel aan uw tabel wilt toevoegen, voert u deze in het veld Titel in.
 
@@ -365,7 +365,7 @@ Met behulp van het contextmenu van de tabel kunt u:
 U kunt ook kenmerken definiëren voor meerdere cellen, hele rijen of kolommen in een tabel. Als u bijvoorbeeld een tabelcel wilt uitlijnen, sleept u en selecteert u de gewenste cel. In het paneel van Eigenschappen van de Inhoud (op het recht), verandert het bezit **Type** in **ingang**.
 
 1. In de **sectie van Attributen**, uitgezocht **+ voeg** toe.
-1. Selecteer het `@valign` attribuut van de **2&rbrace; dropdown lijst van Attributen &lbrace;.**
+1. Selecteer het `@valign` attribuut van de **2} dropdown lijst van Attributen {.**
 1. Selecteer in de vervolgkeuzelijst Waarde de gewenste tekstuitlijning die u wilt toepassen op de geselecteerde tabelcellen.
 1. Selecteer **toevoegen.**
 
@@ -379,18 +379,35 @@ Hiermee voegt u een afbeelding in op de huidige of volgende geldige locatie. Sel
 
 >[!NOTE]
 >
-> U kunt ook een afbeelding toevoegen door deze van uw lokale systeem naar uw artikel te slepen. In dit geval, wordt het beelddossier toegevoegd gebruikend **uploadt Assets** werkschema.  Voor meer details, bekijk **uploadt Assets** werkschema in de [&#x200B; Linkerpaneel &#x200B;](./web-editor-left-panel.md) sectie.
+> U kunt ook een afbeelding toevoegen door deze van uw lokale systeem naar uw artikel te slepen. In dit geval, wordt het beelddossier toegevoegd gebruikend **uploadt Assets** werkschema.  Voor meer details, bekijk **uploadt Assets** werkschema in de [ Linkerpaneel ](./web-editor-left-panel.md) sectie.
 
 
 ![](images/insert-image-new-dialog.png){width="300" align="left"}
 
-In het dialoogvenster Afbeelding invoegen kunt u een afbeelding/figuurtitel en Alternatieve tekst voor de afbeelding toevoegen.
+
+In de **Uitgezochte dossier** dialoog, kunt u het vereiste beelddossier van **Bewaarplaats** of **Inzamelingen** doorbladeren.
+
+>[!NOTE]
+>
+> De browser met bestands- en mappaden is in de release 2601 van Experience Manager Guides as a Cloud Service geïntroduceerd met een vernieuwde interface. De nieuwe interface is standaard ingeschakeld. Als u de bestaande interface zonder deze updates wilt blijven gebruiken, neemt u contact op met het team voor succes van de klant om deze nieuwe verbetering uit te schakelen.
+
+![](images/select-file-browser-images.png)
+
+Gebruik de broodkruimels op de bovenkant en het omslagnavigatievenster op de linkerzijde om door de omslagen gemakkelijk te navigeren.
+
+![](images/select-file-browser-file-navigation.png)
+
+U kunt naar het vereiste afbeeldingsbestand zoeken op bestandsnaam, bestandstitel en inhoud. U kunt de zoekresultaten ook filteren op Pad \(om in te zoeken\), Documentstatus, Vergrendeld door, Laatst gewijzigd en Labels. Het type van Dossier filter wordt pre-toegepast op **Beelden** en blijft gehandicapt voor andere dossiertypes om geldige dossierselecties toe te staan. Voor meer details bij het gebruiken van filters op deze wegbrowser, mening [ Andere eigenschappen in de Redacteur ](./web-editor-other-features.md).
+
+![](images/select-file-dialog-image-filter.png)
+
+Zodra u het vereiste beelddossier hebt gevonden, selecteer het dossier en kies **Uitgezocht** om het beeld in uw document op te nemen. U kunt verschillende indelingen van afbeeldingsbestanden invoegen, zoals `.png` , `.svg` , `.gif` , `.jpg` , `.eps` , `.ai` , `.psd` en meer.
+
+U kunt ook een afbeelding/figuurtitel en alternatieve tekst voor de afbeelding toevoegen in het dialoogvenster Afbeelding invoegen.
 
 >[!NOTE]
 >
 > Wanneer u een afbeelding invoegt en een alternatieve tekst voor dezelfde afbeelding opgeeft, wordt deze binnen het element `<alt>` toegevoegd in overeenstemming met de meest recente DITA-standaarden. Het gebruik van het kenmerk `@alt` voor alternatieve tekst is afgekeurd, maar wordt wel ondersteund in eerdere DITA-versies.
-
-Gebruikend de **Uitgezochte optie van het Dossier**, kunt u naar het vereiste beelddossier door dossiernaam zoeken. U kunt de zoekresultaten ook filteren op Pad \(om in te zoeken\), Verzamelingen, Bestandstype en Labels. Zodra u het vereiste beelddossier hebt gevonden, selecteer het dossier en kies **Uitgezocht** om het beeld in uw document op te nemen. U kunt verschillende indelingen van afbeeldingsbestanden invoegen, zoals `.png` , `.svg` , `.gif` , `.jpg` , `.eps` , `.ai` , `.psd` en meer.
 
 Nadat u een afbeelding hebt ingevoegd, kunt u de hoogte, breedte, plaatsing en kenmerken wijzigen in het deelvenster Eigenschappen voor inhoud. Selecteer het afbeeldingsbestand en breng wijzigingen aan in het deelvenster Eigenschappen voor inhoud in het rechterdeelvenster.
 
@@ -406,7 +423,7 @@ U kunt andere eigenschappen voor een beelddossier ook toevoegen door de vereiste
 
 >[!NOTE]
 >
->U kunt ook klikbare gebieden \(afbeelding met hyperlinks\) in uw afbeelding definiëren. Voor meer details, bekijk het **Tussenvoegsel/geef de eigenschapbeschrijving van de Kaart van het Beeld** in de [&#x200B; Linkerpaneel &#x200B;](web-editor-left-panel.md) sectie uit.
+>U kunt ook klikbare gebieden \(afbeelding met hyperlinks\) in uw afbeelding definiëren. Voor meer details, bekijk het **Tussenvoegsel/geef de eigenschapbeschrijving van de Kaart van het Beeld** in de [ Linkerpaneel ](web-editor-left-panel.md) sectie uit.
 
 **Contextmenu voor beeld of media dossiers**
 
@@ -426,7 +443,7 @@ Selecteer een afbeelding in het huidige onderwerp en selecteer het pictogram Afb
 
 Kies de voorkeursvormrechthoek ![](images/imagemap-rectangle-toolbar.png), Cirkel ![](images/imagemap-circle-toolbar.png) of Veelhoek ![](images/imagemap-polygon-toolbr.png) om een gebied boven een afbeelding te definiëren dat u als koppeling wilt gebruiken. Nadat u een gebied hebt gedefinieerd, wordt het dialoogvenster Referentie weergegeven waarin u de koppeling naar interne of externe inhoud moet opgeven:
 
-![](images/reference-dialog.png){width="650" align="left"}
+![](images/reference-dialog.png){width="350" align="left"}
 
 Als gebieden elkaar overlappen, kunt u de vorm naar voren halen of terugsturen door op het desbetreffende pictogram op de werkbalk te klikken. U kunt een gebied ook verwijderen door het te selecteren en het pictogram van de Schrapping te klikken. Als u dubbelklikt op een gebied, wordt het dialoogvenster Referentie geopend waarin u de doelkoppeling kunt wijzigen. Zodra u de vereiste gebieden op uw beeld hebt duidelijk, sparen de veranderingen door **Gedaan** te selecteren.
 
@@ -440,13 +457,19 @@ Hiermee voegt u verschillende typen multimediabestanden in. Selecteer het vervol
 - YouTube
 - Vimeo
 
-Als u de optie Audio- of Video-bestand selecteert, wordt de dataweergave weergegeven waarin u door het gewenste bestand kunt bladeren en dit kunt selecteren. Als u YouTube of Vimeo kiest, wordt het dialoogvenster Multimedia invoegen weergegeven. Plak de koppeling van het videobestand in het veld Webkoppeling en selecteer Invoegen om de video toe te voegen op de huidige of volgende geldige locatie in het document.
+Bij het selecteren van de Audio of Video dossieroptie, wordt u getoond het **Uitgezochte dossier** dialoog om het gewenste dossier van Bewaarplaats of Inzamelingen te doorbladeren en te selecteren.
+
+![](images/select-file-dialog-multimedia.png){width="650" align="left"}
+
+Als u YouTube of Vimeo kiest, dan krijgt u het **Multimedia van het Tussenvoegsel** dialoog. Plak de koppeling van het videobestand in het veld Webkoppeling en selecteer Invoegen om de video toe te voegen op de huidige of volgende geldige locatie in het document.
+
+![](images/insert-multimedia-dialog.png){width="350" align="left"}
 
 >[!NOTE]
 >
 > Wanneer u een YouTube-videokoppeling toevoegt, moet u de tekenreeks `watch?v=` vervangen door `embed` in de URL. Als u bijvoorbeeld een YouTube-videokoppeling wilt toevoegen: `https://www.youtube.com/**watch?v**=WlIKQOrmZcs` , moet u deze toevoegen als: `https://www.youtube.com/**embed/**WlIKQOrmZcs` . Deze wijziging zorgt ervoor dat de video wordt ingesloten in de AEM-site en PDF-uitvoer.
 
-U kunt het audio- of videobestand ook toevoegen via het dialoogvenster Multimedia invoegen. Selecteer de optie Audio-/videobestand en selecteer vervolgens het bladerpictogram om de weergave in de repository te starten. Selecteer het audio of videodossier van de bewaarplaats en selecteer **Uitgezochte** om de verbinding van het dossier op het Audio/Video gebied van het Dossier toe te voegen. Als u een videobestand kiest, wordt ook een voorvertoning van het bestand weergegeven in het voorvertoningsgebied. U kunt het videobestand afspelen om de voorvertoning weer te geven.
+U kunt het Audio of Videodossier van het **Tussenvoegsel Multimedia** dialoog ook toevoegen. Selecteer de optie Audio-/videobestand en selecteer vervolgens het bladerpictogram om de weergave in de repository te starten. Selecteer het audio of videodossier van de bewaarplaats en selecteer **Uitgezochte** om de verbinding van het dossier op het Audio/Video gebied van het Dossier toe te voegen. Als u een videobestand kiest, wordt ook een voorvertoning van het bestand weergegeven in het voorvertoningsgebied. U kunt het videobestand afspelen om de voorvertoning weer te geven.
 
 ![](images/insert-multimedia.png){width="650" align="left"}
 
@@ -469,7 +492,7 @@ U kunt ook zoeken met de UUID van het bestand waarnaar u wilt verwijzen. Voer bi
 
 ![](images/insert-content-using-uuid-search.png){width="650" align="left"}
 
-Als uw beheerder de optie UUIDs in *XMLEditorConfig* heeft toegelaten, dan zult u UUID van de referenced inhoud in het **3&rbrace; bezit van de Verbinding &lbrace;bekijken.**
+Als uw beheerder de optie UUIDs in *XMLEditorConfig* heeft toegelaten, dan zult u UUID van de referenced inhoud in het **3} bezit van de Verbinding {bekijken.**
 
 >[!IMPORTANT]
 >
@@ -489,24 +512,33 @@ Als uw beheerder de optie UUIDs in *XMLEditorConfig* heeft toegelaten, dan zult 
 >
 > Bekijk de sectie Referenties in de gids met aanbevolen procedures voor beste werkwijzen rond het verwijzen naar inhoud.
 
-**Onderzoek van de Filter**
+**onderzoek van de Filter in de mening van de Bewaarplaats**
 
-U kunt zoeken naar tekst in de bestanden die aanwezig zijn op het geselecteerde pad van de AEM-opslagplaats. &#39;Algemeen&#39; wordt bijvoorbeeld gezocht in de onderstaande screenshot. U kunt de zoekopdracht ook verkleinen met behulp van verbeterde filters. U kunt alle DITA- Dossiers zoals Onderwerpen DITA en Kaarten DITA aanwezig op de geselecteerde weg zoeken.
+In de **Uitgezochte dossier** dialoog, kunt u naar wat tekst in de dossiers zoeken huidig op de geselecteerde weg van de **Bewaarplaats**. Bijvoorbeeld, *het remmen* wordt gezocht in het hieronder schermschot.
 
-U kunt zoeken naar niet-DITA-bestanden zoals afbeeldingsbestanden, multimedia en documenten in het geselecteerde pad. U kunt ook zoeken naar specifieke waarden in de kenmerken van DITA-elementen. U kunt ook zoeken naar bestanden die door de opgegeven gebruiker zijn uitgecheckt.
+>[!NOTE]
+>
+> De browser File and Path wordt geïntroduceerd met een vernieuwde interface in de release 2601 van Experience Manager Guides as a Cloud Service. De nieuwe interface is standaard ingeschakeld. Als u de bestaande interface zonder deze updates wilt blijven gebruiken, neemt u contact op met het team voor succes van de klant om deze nieuwe verbetering uit te schakelen.
 
 ![](images/reference-search-filters.png){width="650" align="left"}
+
+U kunt de broodkruimels bovenop en omslagnavigatievenster op de linkerzijde gebruiken om door de omslagen gemakkelijk te navigeren.
+
+![](images/select-file-browser-file-navigation.png)
+
+U kunt het vereiste bestand zoeken op bestandsnaam, bestandstitel en inhoud. U kunt de zoekopdracht ook verkleinen met behulp van verbeterde filters in het rechterdeelvenster. Voor meer details, mening [ Andere eigenschappen in de Redacteur ](./web-editor-other-features.md).
+
+![](images/select-file-dialog-image-filter.png)
+
+De lijst met gefilterde bestanden die de gezochte tekst bevatten, wordt weergegeven. U kunt ook een voorvertoning van de inhoud van het bestand weergeven.
 
 >[!NOTE]
 >
 > Uw systeembeheerder kan de tekstfilters ook vormen en andere filters tonen of verbergen. Voor meer details, mening *vorm tekstfilters* sectie in installeer en vorm Adobe Experience Manager Guides as a Cloud Service.
 
-De lijst met gefilterde bestanden die de gezochte tekst bevatten, wordt weergegeven. In het bovenstaande scherm worden bijvoorbeeld de bestanden met de tekst &#39;algemeen&#39; weergegeven. U kunt ook een voorvertoning van de inhoud van het bestand weergeven.
-
-
 **Herbruikbare Inhoud** - ![](images/reusable-content.svg)
 
-Inhoud in andere documenten in uw project opnieuw gebruiken. U kunt inhoud opnemen door rechtstreeks met de inhoud in een dossier te verbinden of door een zeer belangrijke verwijzing te gebruiken, de mening [&#x200B; lost zeer belangrijke verwijzingen &#x200B;](map-editor-other-features.md#id176GD01H05Z) op. Wanneer u het pictogram Herbruikbare inhoud selecteert, wordt het dialoogvenster Inhoud opnieuw gebruiken weergegeven:
+Inhoud in andere documenten in uw project opnieuw gebruiken. U kunt inhoud opnemen door rechtstreeks met de inhoud in een dossier te verbinden of door een zeer belangrijke verwijzing te gebruiken, de mening [ lost zeer belangrijke verwijzingen ](map-editor-other-features.md#id176GD01H05Z) op. Wanneer u het pictogram Herbruikbare inhoud selecteert, wordt het dialoogvenster Inhoud opnieuw gebruiken weergegeven:
 
 ![](images/reuse-content-dialog.png){width="650" align="left"}
 
@@ -542,7 +574,7 @@ Trefwoord invoegen dat is gedefinieerd in uw DITA-kaart. Selecteer de optie Tref
 
 De trefwoorden worden in alfabetische volgorde weergegeven en u kunt ook naar trefwoorden zoeken door een zoektekenreeks te typen in het vak Zoeken. Het zoekresultaat retourneert de trefwoorden met de tekenreeks in ID of Value. De trefwoorden die in de DITA-kaart zijn gedefinieerd, worden in dit dialoogvenster weergegeven. Kies het sleutelwoord dat u **Tussenvoegsel** wilt opnemen en selecteren.
 
-U kunt de kenmerken van het ingevoegde trefwoord ook wijzigen door met de rechtermuisknop op het trefwoord te klikken en de optie Kenmerken te selecteren. Het dialoogvenster **Kenmerken voor trefwoord wordt geopend:
+U kunt de kenmerken van het ingevoegde trefwoord ook wijzigen door met de rechtermuisknop op het trefwoord te klikken en de optie Kenmerken te selecteren. De **Attributen voor het 1} open de dialoogvakje van het Sleutelwoord {:**
 
 ![](images/attributes-for-keyword.png){width="550" align="left"}
 
@@ -550,7 +582,7 @@ U kunt de kenmerken van het trefwoord wijzigen of een nieuw kenmerk aan het tref
 
 **Fragmenten** - ![](images/insert-snippet-icon.svg)
 
-Voeg een fragment in op de huidige of volgende geldige locatie. Deze functie werkt alleen als in uw systeem fragmenten zijn gedefinieerd. Voor meer informatie over het toevoegen van een fragment, bekijk de **eigenschapbeschrijving van het Fragment** &lbrace;in de [&#x200B; Linkerpaneel &#x200B;](./web-editor-left-panel.md) sectie.
+Voeg een fragment in op de huidige of volgende geldige locatie. Deze functie werkt alleen als in uw systeem fragmenten zijn gedefinieerd. Voor meer informatie over het toevoegen van een fragment, bekijk de **eigenschapbeschrijving van het Fragment** {in de [ Linkerpaneel ](./web-editor-left-panel.md) sectie.
 
 Wanneer u de optie Fragmenten selecteert, wordt de catalogus Fragment invoegen weergegeven. De catalogus is contextgevoelig, wat aangeeft dat de fragmenten alleen worden weergegeven als ze op de huidige locatie zijn toegestaan.
 
@@ -564,11 +596,11 @@ Wanneer u een fragment in de lijst kiest, wordt het ingevoegd op de huidige of v
 
 **Bevelingen** - ![](images/Citations_icon.svg)
 
-Maak uitnodigingen en voeg deze toe aan uw inhoud. Leer hoe te [&#x200B; aanhalingstekens in uw inhoud &#x200B;](./web-editor-apply-citations.md) toevoegen en beheren.
+Maak uitnodigingen en voeg deze toe aan uw inhoud. Leer hoe te [ aanhalingstekens in uw inhoud ](./web-editor-apply-citations.md) toevoegen en beheren.
 
 **gegevens van de Vraag** - ![](images/data-sources-new-icon.svg)
 
-Maak verbinding met uw gegevensbron en gebruik de gegevens om inhoud te maken. Leer hoe te [&#x200B; gegevens van uw gegevensbron &#x200B;](./web-editor-content-snippet.md) gebruiken.
+Maak verbinding met uw gegevensbron en gebruik de gegevens om inhoud te maken. Leer hoe te [ gegevens van uw gegevensbron ](./web-editor-content-snippet.md) gebruiken.
 
 ## Versiegegevens en Opslaan als nieuwe versie
 
@@ -608,7 +640,7 @@ Wanneer u de aanwijzer boven de titel van een onderwerp plaatst, ziet u de besta
 
 >[!NOTE]
 >
-> Zodra een versie van uw onderwerp beschikbaar is, kunt u etiketten aan uw onderwerp ook toevoegen. Deze labels kunnen vervolgens worden gebruikt om een basislijn te maken voor het publiceren van een specifieke versie van uw document. Voor meer informatie over het gebruiken van etiketten in uw onderwerpen, mening [&#x200B; de etiketten van het Gebruik &#x200B;](web-editor-use-label.md#).
+> Zodra een versie van uw onderwerp beschikbaar is, kunt u etiketten aan uw onderwerp ook toevoegen. Deze labels kunnen vervolgens worden gebruikt om een basislijn te maken voor het publiceren van een specifieke versie van uw document. Voor meer informatie over het gebruiken van etiketten in uw onderwerpen, mening [ de etiketten van het Gebruik ](web-editor-use-label.md#).
 
 ## Vergrendelen/ontgrendelen
 
@@ -627,4 +659,4 @@ Als een bestand is vergrendeld door een andere gebruiker en u de muisaanwijzer b
 Als beheerder, krijgt u ook toegang tot de **Grijsmacht ontgrendelt** eigenschap die u toestaat om het dossier te ontgrendelen dat door andere gebruikers wordt gesloten. Met deze functie hebt u toegang tot de bewerkingsrechten voor een bestand dat is vergrendeld door andere gebruikers.
 
 ![](images/web-editor-force-unlock-new.png){width="350" align="left"}
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; Inleiding aan de Redacteur &#x200B;](web-editor.md)
+**Bovenliggend onderwerp:**[ Inleiding aan de Redacteur ](web-editor.md)

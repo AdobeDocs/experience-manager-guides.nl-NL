@@ -3,9 +3,10 @@ title: Herzieningsmeldingen
 description: Leer meer over verschillende typen revisiemeldingen en hoe deze worden geactiveerd tijdens de verschillende fasen van de revisiewerkstroom in Experience Manager Guides.
 feature: Reviewing
 role: User
-source-git-commit: b7648fe1d36de3c243ca5a55f42a41f7523056ce
+exl-id: dc452e7d-a317-4168-8015-9fa4a06666ea
+source-git-commit: 16688221c35e0b24c51cbff27953a93892cd0944
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '732'
 ht-degree: 0%
 
 ---
@@ -37,6 +38,7 @@ In de onderstaande tabel vindt u een overzicht van de verschillende typen revisi
 | Revisor niet toegewezen | Niet toegewezen van het Overzicht van de overzichtstaak **Homepage** | Niet toegewezen door **Auteur** | Niet toegewezen van het Overzicht van de overzichtstaak **Homepage** | U bent niet toegewezen van het overzicht taak **Overzicht van de Homepage** onder project **WebDocs Revamp** door **Auteur**. | **Recensent** |
 | Tagverwijzing | Vermeldenseerd in de commentaar van de overzichtstaak voor **Overzicht van de Homepage** | Vernoemd door **Auteur** | Vermeldenseerd in de commentaar van de overzichtstaak voor **Overzicht van de Homepage** | U bent vermeld in een commentaar op taak **Overzicht van de Homepage** onder **WebDocs Revamp** door **Auteur**. **uittreksel van de Commentaar:** *&quot;Gelieve te werken de kopstructuur bij om toegankelijkheidsrichtlijnen te volgen.&quot;* | **Vermelde gebruiker** |
 | Inhoud bijgewerkt tijdens revisie | Onderwerp dat in overzicht wordt bijgewerkt taak **Overzicht van de Homepage** | Bijgewerkt door **Auteur** | Onderwerp dat in overzicht wordt bijgewerkt taak **Overzicht van de Homepage** | **Auteur** heeft de onderwerpversies voor het overzicht van de taak **Overzicht van de Homepage** bijgewerkt. Gelieve te herzien ruim vóór vervaldatum **15 aug 2025**. | **Recensent** |
+| Onderwerpen die zijn toegevoegd, verwijderd of bijgewerkt terwijl een revisietaak bezig is met revisoren | De onderwerpen die in overzichtTaak **Overzicht van de Homepage** worden bijgewerkt | Bijgewerkt door **Auteur** | De onderwerpen die in overzichtTaak **Overzicht van de Homepage** worden bijgewerkt | **Auteur** heeft de onderwerpversies voor het overzicht van de taak **Overzicht van de Homepage** bijgewerkt. Gelieve te herzien ruim vóór vervaldatum **15 aug 2025**. | **Recensent** |
 
 
 In de bovengenoemde lijst, vertegenwoordigt de **tekst in vette** steekproefwaarden en door vooraf bepaalde variabelen gedreven die in berichten kunnen worden gebruikt.
@@ -54,9 +56,9 @@ Als een taak opmerkingen bevat, wordt bovendien een commentaarfragment (een deel
 - Wanneer u een opmerking van tags hebt voorzien, wordt een fragment van de gelabelde opmerking weergegeven in het e-mailbericht.
 - Wanneer een opmerking op taakniveau wordt toegevoegd aan een revisietaak waarvan u deel uitmaakt, wordt een fragment van die opmerking weergegeven in het e-mailbericht.
 
-Voor een volledige lijst van vooraf bepaalde variabelen en de aanpassing van het overzichtsbericht, vormt de mening [&#x200B; en past werkschema&#39;s &#x200B;](../cs-install-guide/customize-workflows.md#customize-email-and-aem-notification-templates) aan.
+Voor een volledige lijst van vooraf bepaalde variabelen en de aanpassing van het overzichtsbericht, vormt de mening [ en past werkschema&#39;s ](../cs-install-guide/customize-workflows.md#customize-email-and-aem-notification-templates) aan.
 
 
 
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; Inleiding aan overzicht &#x200B;](review.md)
+**Bovenliggend onderwerp:**[ Inleiding aan overzicht ](review.md)

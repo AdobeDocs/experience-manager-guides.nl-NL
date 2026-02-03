@@ -4,9 +4,9 @@ description: Publiceer een onderwerp of de elementen binnen een onderwerp aan ee
 feature: Publishing
 role: User
 exl-id: acbc48b7-93a2-41c6-8565-359fbbdd1fb9
-source-git-commit: 144ecbea83b2c649a00c6b88e533327f3ce111f4
+source-git-commit: e1bac3680afda837393d86ee5f19d5877237ffe9
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
@@ -21,13 +21,11 @@ Met deze functie kunt u een onderwerp en de bijbehorende elementen publiceren zo
 Voer de volgende stappen uit om een sitepagina te genereren:
 
 
-1. Open het onderwerp in de Redacteur en selecteer de Eigenschappen van het Dossier van het juiste paneel.
-1. Selecteer **pictogram van de 0&rbrace; Nieuwe output ![&#x200B; nieuw outputpictogram &#x200B;](./images/Add_icon.svg) van de** Uitvoer **sectie.**
+1. Open het onderwerp in de Redacteur en selecteer **eigenschappen van het Dossier** van het Juiste paneel.
+1. Selecteer **pictogram van de 0} Nieuwe output** nieuw outputpictogram ![ van de ](./images/Add_icon.svg) Uitvoer **sectie.**
 1. Selecteer **de pagina van Plaatsen**.
 1. In **produceer de pagina van Plaatsen** dialoogdoos, vul de volgende details in:
-   ![&#x200B; voeg de weg en malplaatjedetails in Generate de pagina van Plaatsen &#x200B;](images/aem-sites-page-generate.png){width="500" align="left"} toe
-
-   *Voeg de weg, de titel, de naam, en malplaatjedetails toe om een onderwerp of zijn elementen als pagina van Plaatsen te publiceren. *
+   ![ voeg de weg en malplaatjedetails in Generate de pagina van Plaatsen ](images/aem-sites-page-generate.png){width="500" align="left"} toe
 
    * **Weg**: Doorblader en selecteer de weg van de omslag waar u de pagina van Plaatsen wilt publiceren.
    * **Titel**: Type de titel van de pagina van Plaatsen. Door gebrek, wordt de titel bevolkt met de titel van het onderwerp. U kunt het bestand bewerken. Deze titel wordt gebruikt om de naam van de pagina van Plaatsen te produceren.
@@ -35,10 +33,10 @@ Voer de volgende stappen uit om een sitepagina te genereren:
    * **malplaatje van de Pagina**: Selecteer het de paginamalplaatje van Plaatsen om uw pagina van Plaatsen tot stand te brengen. U kunt de sjablonen weergeven in de map op het pad dat u selecteert. Uw beheerder kan ook aangepaste sjablonen uploaden.
 
 
-   * U kunt ook verschillende voorwaarden selecteren om de inhoud te publiceren.  Selecteer een van de volgende opties:
+   * U kunt ook verschillende voorwaarden selecteren om de inhoud te publiceren. Selecteer een van de volgende opties:
 
 
-      * **niets**: selecteer deze optie als u geen voorwaarde op de gepubliceerde output wilt toepassen.
+      * **niets**: Selecteer deze optie als u geen voorwaarde op de gepubliceerde output wilt toepassen.
       * **Gebruikend DITAVAL**: Selecteer het DITAVAL dossier om gepersonaliseerde inhoud te produceren. U kunt het DITAVAL-bestand selecteren in het dialoogvenster Bladeren of door het bestandspad te typen.
       * **Gebruikend attributen**: U kunt voorwaardenattributen in uw onderwerpen bepalen DITA. Selecteer vervolgens het kenmerk condition om de relevante inhoud te publiceren.
 
@@ -51,7 +49,7 @@ Voer de volgende stappen uit om een sitepagina te genereren:
 1. Selecteer **produceren** om de pagina van Plaatsen te publiceren.
 1. U kunt de pagina van Plaatsen voor een onderwerp onder de **sectie van Output** in de **Eigenschappen van het Dossier** bekijken. De sitepagina&#39;s worden weergegeven op basis van de datum en het tijdstip van publicatie, met als laatste de eerste pagina.
 
-   ![&#x200B; Mening de pagina van Plaatsen voor een onderwerp &#x200B;](images/aem-sites-output-new.png) {width=300 align=&quot;links&quot;}
+   ![ Mening de pagina van Plaatsen voor een onderwerp ](images/aem-sites-output-new.png){width=300 align="left"}
 
    *Mening de pagina van Plaatsen aanwezig voor een onderwerp en publiceer hen opnieuw.*
 

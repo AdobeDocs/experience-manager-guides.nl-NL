@@ -4,9 +4,9 @@ description: Leer onderwerpen te bewerken in de Editor. U kent verschillende bew
 exl-id: 8da37a81-e8c3-434f-b3f4-4723d87c2ade
 feature: Authoring, Web Editor
 role: User
-source-git-commit: bdf838da24d7e426c34265cdad454d52f657cfae
+source-git-commit: df3da8a0b4dd50ac177c3b51f04a855e9638058e
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '1050'
 ht-degree: 0%
 
 ---
@@ -47,14 +47,14 @@ Als u de geselecteerde inhoud verwijdert, wordt de resterende inhoud na het verw
 - Omring de inhoud met een geldig element: voer de volgende stappen uit om de inhoud te laten omlopen met een geldig element:
 
    - Selecteer de inhoud in een element.
-   - Selecteer ![&#x200B; voeg &#x200B;](images/Add_icon.svg) pictogram van de toolbar op de bovenkant toe om het **element van het Tussenvoegsel** dialoogvakje te bekijken. In het dialoogvenster worden de geldige elementen voor de geselecteerde inhoud weergegeven.
+   - Selecteer ![ voeg ](images/Add_icon.svg) pictogram van de toolbar op de bovenkant toe om het **element van het Tussenvoegsel** dialoogvakje te bekijken. In het dialoogvenster worden de geldige elementen voor de geselecteerde inhoud weergegeven.
      >[!NOTE]
      >
      > U kunt het dialoogvenster Element invoegen ook weergeven door het contextmenu van de geselecteerde inhoud te selecteren.
 
    - Selecteer een element in het dialoogvenster. De geselecteerde inhoud wordt ondergebracht in dat element. Bijvoorbeeld, als u de inhoud in een paragraaf selecteert en dan het `<note>` element van het **het element van het Tussenvoegsel** dialoogvakje kiest, verschijnt de geselecteerde inhoud onder een nota.
 
-     ![&#x200B; de dialoogdoos van het element van het Tussenvoegsel &#x200B;](./images/insert-element-editor.png) {width="300" align="left"}
+     ![ de dialoogdoos van het element van het Tussenvoegsel ](./images/insert-element-editor.png) {width="300" align="left"}
 
 ## Browser vernieuwen tijdens bewerken van bestanden
 
@@ -70,16 +70,19 @@ Het rechterdeelvenster wordt ook opnieuw geopend en geeft dezelfde weergave weer
 
 Experience Manager Guides geeft de werkkopie-indicator weer, waarmee wordt aangegeven of de huidige \(werkkopie\) van het bestand al dan niet synchroon is met de opgeslagen versie. Als u wijzigingen hebt aangebracht in uw huidige kopie en uw bestand niet hebt opgeslagen, wordt een \*-markering weergegeven samen met de titel op het tabblad Bestand van het onderwerp. Deze indicator dient als herinnering om uw wijzigingen op te slaan en verdwijnt wanneer u het bestand opslaat.
 
-![&#x200B; werkende exemplaarindicator &#x200B;](images/working-copy-text-update-indicator.png){width="550" align="left"}
+![ werkende exemplaarindicator ](images/working-copy-text-update-indicator.png){width="550" align="left"}
 
 Experience Manager Guides geeft ook aan of de laatst opgeslagen \(werkende\) kopie van het bestand al dan niet synchroon is met de opgeslagen versie. Als u enkele niet-opgeslagen wijzigingen hebt aangebracht tussen de werkkopie en de laatst opgeslagen versie, wordt een \*-markering weergegeven samen met de versiegegevens die worden weergegeven in de rechterbovenhoek van het tabblad Bestandsbeheer van het onderwerp. Deze indicator dient als herinnering voor het opslaan en maken van een versie van de huidige \(werkende\) versie van het bestand.
 
-![&#x200B; de updateindicator van de Versie &#x200B;](images/version-update-indicator.png){width="550" align="left"}
+>[!NOTE]
+>
+> Om het even welke veranderingen in de meta-gegevensgebieden beschikbaar onder [ eigenschappen van het Dossier ](./web-editor-right-panel.md#file-properties) zullen ook de het werk exemplaarindicator op de documentversie teweegbrengen.
 
+![ de updateindicator van de Versie ](images/version-update-indicator.png){width="550" align="left"}
 
 ## Vergrendelde bestanden openen in de modus Auteur en Source
 
-Wanneer een DITA- of Markdown-bestand is vergrendeld of uitgecheckt door een andere gebruiker, is het niet mogelijk de inhoud te bewerken of te wijzigen. Nochtans, kunt u het dossier in een read-only formaat in zowel de **Auteur** als **Source** wijzen, naast de **&#x200B;**&#x200B;wijze van de Voorproef nog bekijken.
+Wanneer een DITA- of Markdown-bestand is vergrendeld of uitgecheckt door een andere gebruiker, is het niet mogelijk de inhoud te bewerken of te wijzigen. Nochtans, kunt u het dossier in een read-only formaat in zowel de **Auteur** als **Source** wijzen, naast de **** wijze van de Voorproef nog bekijken.
 
 Op de read-only wijze, hebt u de capaciteit om de inhoud, de markeringen, en de attributen binnen de **Auteur** of **Source** wijzen te bekijken. U kunt ook de bestandseigenschappen wijzigen.
 
@@ -111,10 +114,10 @@ You can access the **Layout** view for read-only DITA maps. This view lets you s
 
 Terwijl u een bestand opent in de Editor, biedt Experience Manager Guides de functie om het bestand te zoeken in de Verkenner. Het huidige onderwerp wordt bijvoorbeeld gezocht terwijl u het bewerkt.
 
-U kunt de eigenschap uitzetten om van het dossier met **de plaats te bepalen bepaalt altijd van dossiers in de Ontdekkingsreiziger** optie van het **3&rbrace; lusje van de Verschijning** voorkeur van de Gebruiker **.**
+U kunt de eigenschap uitzetten om van het dossier met **de plaats te bepalen bepaalt altijd van dossiers in de Ontdekkingsreiziger** optie van het **3} lusje van de Verschijning** voorkeur van de Gebruiker **.**
 
 >[!NOTE]
 >
 >Van versie 2025.11.0, het plaatsen **bepaalt altijd van dossiers in de bewaarplaats** wordt anders genoemd aan **bepaalt altijd van dossiers in de ontdekkingsreiziger**. Voor de installatie op locatie blijft deze beschikbaar als Altijd bestanden zoeken in de opslagplaats tot de release van Experience Manager Guides 5.1.
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; Werk met de Redacteur &#x200B;](web-editor.md)
+**Bovenliggend onderwerp:**[ Werk met de Redacteur ](web-editor.md)
