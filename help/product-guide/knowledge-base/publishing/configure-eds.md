@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Adobe Experience Manager Guides staat u toe om uw inhoud DITA aan Edge Delivery Services (EDS), momenteel beschikbaar in *Beta*, door een specifiek op GitHub-Gebaseerd te publiceren profiel. Met deze mogelijkheid kunnen organisaties krachtige, responsieve documentatieervaringen bieden en tegelijk op DITA gebaseerde ontwerpworkflows in Experience Manager Guides onderhouden.
 
-Voor meer details bij het gebruiken van EDS in Adobe Experience Manager, mening [&#x200B; het Overzicht van Edge Delivery Services &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/edge-delivery/overview).
+Voor meer details bij het gebruiken van EDS in Adobe Experience Manager, mening [&#x200B; het Overzicht van Edge Delivery Services &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/edge-delivery/overview).
 
 Om het publiceren van Experience Manager Guides aan EDS (Beta) toe te laten, moet u een reeks configuratiestappen over GitHub en Experience Manager Guides voltooien. In de onderstaande secties wordt elke stap in de juiste volgorde beschreven en wordt uitgelegd hoe deze in de algemene publicatieworkflow samenwerken.
 
@@ -23,7 +23,7 @@ Om het publiceren van Experience Manager Guides aan EDS (Beta) toe te laten, moe
 2. [Een publicatieprofiel voor EDS (Beta) maken en configureren in Experience Manager Guides](#create-and-configure-a-publish-profile-for-eds-beta-in-experience-manager)
 3. [Uitvoer aanpassen met EDS-blokken](#customize-output-using-eds-blocks)
 
-Voor een snelle videoanalyse, mening [&#x200B; het Publiceren in AEM Guides &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25).
+Voor een snelle videoanalyse, mening [&#x200B; het Publiceren in AEM Guides &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25).
 
 
 
