@@ -22,7 +22,7 @@ Op dezelfde manier is het optioneel om een basislijn te selecteren voor het vert
 
 >[!TIP]
 >
-> Het wordt geadviseerd om deze eigenschap van de Basislijn van de console van de Kaart te gebruiken. Nochtans, kunt u kaartdashboard ook [ gebruiken om basislijnen ](./generate-output-use-baseline-for-publishing.md) tot stand te brengen en te beheren.
+> Het wordt geadviseerd om deze eigenschap van de Basislijn van de console van de Kaart te gebruiken. Nochtans, kunt u kaartdashboard ook [&#x200B; gebruiken om basislijnen &#x200B;](./generate-output-use-baseline-for-publishing.md) tot stand te brengen en te beheren.
 
 In het **lusje van de Basislijn**, kunt u de volgende acties uitvoeren:
 
@@ -34,14 +34,14 @@ In het **lusje van de Basislijn**, kunt u de volgende acties uitvoeren:
 
 U kunt een basislijn van de console van de Kaart tot stand brengen door de volgende stappen uit te voeren:
 
-1. [ open het DITA kaartdossier in de console van de Kaart ](./open-files-map-console.md).
+1. [&#x200B; open het DITA kaartdossier in de console van de Kaart &#x200B;](./open-files-map-console.md).
 1. Navigeer aan de **Basislijn** tabel, en selecteer + pictogram bij top-right beginnen een basislijn te creëren.
 1. In het **Nieuwe basislijn** dialoogvakje, verstrek de volgende details:
 
-   ![ het paneel van de Basislijn ](images/baseline-manage.png){width="500" align="left"}
+   ![&#x200B; het paneel van de Basislijn &#x200B;](images/baseline-manage.png){width="500" align="left"}
 
    - Ga een naam voor de basislijn op het **gebied van de Naam** in.
-   - In **Configuratie**, kies [ Handmatige update ](#configuring-baseline-for-manual-update) of [ Automatische update ](#configuring-baseline-for-automatic-update).
+   - In **Configuratie**, kies [&#x200B; Handmatige update &#x200B;](#configuring-baseline-for-manual-update) of [&#x200B; Automatische update &#x200B;](#configuring-baseline-for-automatic-update).
    - Selecteer **toepassen**.
 
 De basislijn wordt gemaakt. Het maken van de basislijn gebeurt asynchroon, zodat u aan andere bestanden kunt blijven werken. Zodra de basislijn wordt gecreeerd, wordt een pop-up bericht getoond bevestigend dat de basislijn is gecreeerd, en u ontvangt ook een Inbox- bericht voor het zelfde.
@@ -78,9 +78,9 @@ Selecteer deze optie voor basislijnverwezenlijking om de onderwerpen volgens het
 
 Basislijnen die zijn gemaakt met de automatische updateconfiguratie worden dynamisch bijgewerkt. Als u een basislijn genereert, een basislijn downloadt of een vertaalproject maakt met een basislijn, worden de bestanden dynamisch gekozen op basis van de bijgewerkte labels. Bijvoorbeeld, als u versie 1.2 van een onderwerp met Versie 1.0 van het Etiket voor de basislijn en recentere bijgewerkte versie 1.5 met Versie 1.0 van het Etiket hebt gebruikt, zal de basislijn dynamisch worden bijgewerkt, en versie 1.5 zal worden gebruikt.
 
-![ creeer een basislijn ](images/dynamic-baseline.png){width="300" align="left"}
+![&#x200B; creeer een basislijn &#x200B;](images/dynamic-baseline.png){width="300" align="left"}
 
-- **Etiketten**: Als de onderwerpen labels hebben voor hen worden gespecificeerd, dan gebruik **Etiketten** dropdown om van de [ vermelde etiketten ](#labels-list) te kiezen.
+- **Etiketten**: Als de onderwerpen labels hebben voor hen worden gespecificeerd, dan gebruik **Etiketten** dropdown om van de [&#x200B; vermelde etiketten &#x200B;](#labels-list) te kiezen.
 
   De eerst geselecteerde labels krijgen een hogere prioriteit dan de latere labels.
 
@@ -109,7 +109,7 @@ U kunt uw bestaande basislijnen beheren met de verschillende functies op het bas
   >
   >Met de bewerking Bewerken in het geval van een dynamische basislijn kunt u de eigenschappen van de basislijn bewerken terwijl de referenties voor dynamische basislijnen bij uitvoering worden gegenereerd met de labels.
 
-  ![ opties van een basislijn ](images/baseline-options.png){align="left"}
+  ![&#x200B; opties van een basislijn &#x200B;](images/baseline-options.png){align="left"}
 
 ### Handelingen beschikbaar voor een bestaande basislijn
 
@@ -119,7 +119,7 @@ U kunt ook de volgende bewerkingen op de basislijn uitvoeren vanuit het menu Opt
 
 U kunt een basislijn dupliceren en deze aanpassen aan uw vereisten.
 
-![ dupliceer een basislijn ](images/baseline-duplicate.png){width="300" align="left"}
+![&#x200B; dupliceer een basislijn &#x200B;](images/baseline-duplicate.png){width="300" align="left"}
 *Dupliceer een basislijn die op een etiket wordt gebaseerd of creeer een nauwkeurige kopie.*
 
 1. Selecteer **Dupliceer** van het menu van Opties van een basislijn. Het **Duplicate basislijn** dialoogvakje opent.
@@ -130,11 +130,11 @@ U kunt een basislijn dupliceren en deze aanpassen aan uw vereisten.
    In **selecteer de versie die op** wordt gebaseerd, kunt u of de **Exacte exemplaar** optie of de **optie van het Etiket** kiezen:
 
    - **Exact exemplaar**: Experience Manager Guides plukt de zelfde versie van alle onderwerpen en leidt tot een nauwkeurige kopie van de gedupliceerde basislijn.
-   - **Etiket**: Gebruikend dropdown, kunt u één van de [ vermelde etiketten ](#labels-list) kiezen. Experience Manager Guides kiest die versies van de onderwerpen met het geselecteerde die etiket voor hen wordt bepaald, terwijl voor de resterende onderwerpen, het de versie van de gedupliceerde basislijn kiest. U selecteert bijvoorbeeld het label `Release 1.0` in het vervolgkeuzemenu en kiest vervolgens de versies van de onderwerpen waarvoor u dit label hebt gedefinieerd. Voor alle andere onderwerpen, kiest het de versie van de gedupliceerde basislijn.
+   - **Etiket**: Gebruikend dropdown, kunt u één van de [&#x200B; vermelde etiketten &#x200B;](#labels-list) kiezen. Experience Manager Guides kiest die versies van de onderwerpen met het geselecteerde die etiket voor hen wordt bepaald, terwijl voor de resterende onderwerpen, het de versie van de gedupliceerde basislijn kiest. U selecteert bijvoorbeeld het label `Release 1.0` in het vervolgkeuzemenu en kiest vervolgens de versies van de onderwerpen waarvoor u dit label hebt gedefinieerd. Voor alle andere onderwerpen, kiest het de versie van de gedupliceerde basislijn.
 1. Selecteer **Dupliceren**.
 
 - **noem** anders, of **schrap** een bestaande basislijn**.
-- **beheer etiketten** die u toestaan om, bestaande etiketten voor statische basislijnen toe te voegen te verwijderen of te maken. Als uw beheerder vooraf gedefinieerde labels heeft geconfigureerd, worden deze labels weergegeven in de vervolgkeuzelijst Label toevoegen. Voor meer informatie over het toevoegen van etiketten, mening [ de etiketten van het Gebruik ](web-editor-use-label.md#).
+- **beheer etiketten** die u toestaan om, bestaande etiketten voor statische basislijnen toe te voegen te verwijderen of te maken. Als uw beheerder vooraf gedefinieerde labels heeft geconfigureerd, worden deze labels weergegeven in de vervolgkeuzelijst Label toevoegen. Voor meer informatie over het toevoegen van etiketten, mening [&#x200B; de etiketten van het Gebruik &#x200B;](web-editor-use-label.md#).
 
   >[!NOTE]
   >
@@ -154,7 +154,7 @@ De labels in de vervolgkeuzelijst zijn gebaseerd op de volgende criteria:
 
 Gebruikend het pictogram van Filters in het **paneel van de Filters van de Basislijn** kunt u filters op de basislijn toepassen die in het basislijn het uitgeven venster wordt geopend:
 
-![ basislijnfilters ](images/baseline-filter.png){width="300" align="left"}
+![&#x200B; basislijnfilters &#x200B;](images/baseline-filter.png){width="300" align="left"}
 
 - De bestanden filteren op bestandsnamen of bestandslocatie.
 - Filter de bestanden op basis van de waarden voor verschillende kolommen, zoals Bestandstype, Referentietype, enzovoort.
@@ -168,5 +168,5 @@ Gebruikend het pictogram van Filters in het **paneel van de Filters van de Basis
 
 Zodra u de basislijn hebt uitgegeven, uitgezocht **sparen** om de veranderingen in de basislijn te bewaren. U kunt **Terugstellen** selecteren als u niet de verandering wilt bewaren en de basislijn terugstellen. Wanneer u **het Terugstellen** selecteert, wordt een waarschuwing getoond dat uw niet bewaarde veranderingen zouden worden verloren.
 
-**Bovenliggend onderwerp:**[ Productie van de Output ](generate-output.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Productie van de Output &#x200B;](generate-output.md)
 

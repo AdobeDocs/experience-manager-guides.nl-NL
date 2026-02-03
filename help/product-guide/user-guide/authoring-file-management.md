@@ -134,7 +134,7 @@ Voer de volgende stappen uit om bestanden in bulk te verplaatsen:
 
 1. Selecteer het embleem van Adobe Experience Manager bij de bovenkant en kies **Hulpmiddelen**.
 1. Selecteer **Gidsen** van de lijst van hulpmiddelen.
-1. Selecteer de **tegel van het Hulpmiddel van de Verplaatsing 0} Bulk.**
+1. Selecteer de **tegel van het Hulpmiddel van de Verplaatsing 0&rbrace; Bulk.**
 1. De pagina Bulk verplaatsen wordt weergegeven op basis van uw instellingen. Verstrek de volgende details op de **pagina van het Hulpmiddel van de Beweging van het Bulk**:
 
    <details>
@@ -230,7 +230,7 @@ Adobe Experience Manager herkent standaard geen DITA-inhoud en biedt dus geen me
 
 >[!NOTE]
 >
->Uw systeembeheerder kan de **onderzoekscomponent vormen van het Element 0} DITA {en dan kunt u de eigenschap van Adobe Experience Manager Assets gebruiken UI.** Voor meer detailmening, *voeg de onderzoekscomponent van het Element DITA in Assets UI* sectie in toe installeer en vorm Adobe Experience Manager Guides as a Cloud Service.
+>Uw systeembeheerder kan de **onderzoekscomponent vormen van het Element 0&rbrace; DITA &lbrace;en dan kunt u de eigenschap van Adobe Experience Manager Assets gebruiken UI.** Voor meer detailmening, *voeg de onderzoekscomponent van het Element DITA in Assets UI* sectie in toe installeer en vorm Adobe Experience Manager Guides as a Cloud Service.
 
 Met de zoekfunctie kunt u:
 
@@ -325,4 +325,4 @@ Als uw media dossier om het even welke veranderingen heeft ondergaan, kunt u de 
    ![](images/media-version-preview.png){width="650" align="center"}
 
 
-**Bovenliggend onderwerp:**[ beheert inhoud ](authoring.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; beheert inhoud &#x200B;](authoring.md)

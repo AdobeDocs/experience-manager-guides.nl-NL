@@ -50,11 +50,11 @@ Voer de volgende stappen uit om een revisie aan te vragen of een revisietaak te 
 
    - **dicht overzicht**: Sluit de overzichtstaak. De **taak van de Update** knoop aanwezig bij de bodem van het paneel van het Overzicht verandert in **Gesloten** en een bericht wordt verzonden naar alle gebruikers betrokken bij de overzichtstaak die op zijn sluiting wijzen.
 
-   Voor details op hoe de heroverwegingsberichten teweegbrengen, mening [ het Begrip van heroverwegingsberichten ](./review-understanding-review-notifications.md).
+   Voor details op hoe de heroverwegingsberichten teweegbrengen, mening [&#x200B; het Begrip van heroverwegingsberichten &#x200B;](./review-understanding-review-notifications.md).
 
    ![](images/update-task-dialog.png){width="350" align="left"}
 
-   U kunt ook [ de status van uw overzichtstaak ](./review-manage-tasks-review-dashboard.md#check-the-status-of-a-review-task) controleren gebruikend de **de revisiestatus van de Controle** optie huidig in de de taakdialoog van de Update. Als u deze optie selecteert, gaat u naar het revisiedashboard waar het statusrapport van de revisietaak wordt weergegeven.
+   U kunt ook [&#x200B; de status van uw overzichtstaak &#x200B;](./review-manage-tasks-review-dashboard.md#check-the-status-of-a-review-task) controleren gebruikend de **de revisiestatus van de Controle** optie huidig in de de taakdialoog van de Update. Als u deze optie selecteert, gaat u naar het revisiedashboard waar het statusrapport van de revisietaak wordt weergegeven.
 
    ![](images/check-review-status-icon.png){width="650" align="left"}
 
