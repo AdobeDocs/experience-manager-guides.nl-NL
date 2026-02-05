@@ -4,7 +4,7 @@ description: Leer hoe u indexinhoud kunt aanpassen
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 7d2d0c21001cd53244588f6b700db184a73ffa77
+source-git-commit: 9a4f0391c464d69ea65ecfdaac6ecdcb17d1a3da
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%
@@ -52,9 +52,6 @@ Maak de volgende indexdefinitie in uw project op:
           compatVersion="{Long}2"
           evaluatePathRestrictions="{Boolean}true"
           includedPaths="[/content/dam]"
-          reindex="{Boolean}false"
-          reindexCount="{Long}1"
-          seed="{Long}958982603885135223"
           selectionPolicy="tag"
           tags="[ditaSearch]"
           type="lucene">
@@ -163,7 +160,7 @@ Maak de volgende indexdefinitie in uw project op:
 
 ## Implementatiestappen
 
-Voor gedetailleerde instructies bij het opstellen van douaneindexen aan AEM as a Cloud Service, bekijk [&#x200B; Inhoud Onderzoek en het Indexeren - AEM as a Cloud Service &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/operations/indexing).
+Voor gedetailleerde instructies bij het opstellen van douaneindexen aan AEM as a Cloud Service, bekijk [ Inhoud Onderzoek en het Indexeren - AEM as a Cloud Service ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/indexing).
 
 ### Belangrijke punten voor deze index
 
@@ -178,7 +175,7 @@ Wanneer het volgen van de plaatsingsgids, gebruik de volgende specificaties voor
 
 ## Opnieuw indexeren
 
-Het opnieuw indexeren wordt behandeld **&#x200B;**&#x200B;automatisch door AEM as a Cloud Service wanneer u de index door de pijpleiding van Cloud Manager CI/CD opstelt.
+Het opnieuw indexeren wordt behandeld **** automatisch door AEM as a Cloud Service wanneer u de index door de pijpleiding van Cloud Manager CI/CD opstelt.
 
 Indexering wordt meestal automatisch afgehandeld. Als de oude gegevens echter ondoorzoekbaar blijven, zelfs na de correcte implementatie en de voltooiing van het indexeringsproces, moet de index eenmaal handmatig opnieuw worden geïndexeerd.
 
@@ -211,7 +208,7 @@ De belangrijkste verificatie is het testen van de functie:
 
 ## Aanvullende bronnen
 
-- [&#x200B; AEM as a Cloud Service Indexing Documentation &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/operations/indexing)
-- [&#x200B; Apache Jackrabbit Oak Indexing Guide &#x200B;](https://jackrabbit.apache.org/oak/docs/query/indexing.html)
-- [&#x200B; Documentatie van AEM Guides &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-guides)
+- [ AEM as a Cloud Service Indexing Documentation ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/indexing)
+- [ Apache Jackrabbit Oak Indexing Guide ](https://jackrabbit.apache.org/oak/docs/query/indexing.html)
+- [ Documentatie van AEM Guides ](https://experienceleague.adobe.com/en/docs/experience-manager-guides)
 - [Documentatie voor Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager)
