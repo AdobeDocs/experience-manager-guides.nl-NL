@@ -5,22 +5,16 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: 1a61fc05-b2b4-4665-a15a-0058fbbc2942
-source-git-commit: beb1ca15fdfb0e7ea30e6e685ac67a2a398cc064
+source-git-commit: 6050e2667698150df9f76068dce4ca9f9b56a443
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
 
 # Rapport voor hergebruik van inhoud {#id205BB900OQD}
 
-![](images/test-version-info-table-new.svg)
-
 ![](images/test-version-info-table-original.svg)
-
-| Van toepassing op | Gidsen van de Manager van de Ervaring Cloud Service, <br> Gidsen van de Manager op locatie van de Ervaring |
-| -------- | ---------------------------- |
-| **Versie** | **4.6** |
 
 Een ander nuttig rapport dat u kunt produceren is het Rapport van de Hergebruik van de Inhoud. Dit rapport berekent het gemiddelde percentage van het inhoudsgebruik, dat zeer nuttig voor projectmanagers en bedrijfseigenaars is om de hoeveelheid inhoud te zien die wordt opnieuw gebruikt.
 
@@ -34,7 +28,7 @@ Voer de volgende stappen uit om het Rapport voor hergebruik van inhoud weer te g
 
 1. Selecteer **Gidsen** van de lijst van hulpmiddelen.
 
-1. Klik op de **tegel van het Rapport van de Hergebruik van de Inhoud 0&rbrace;**.
+1. Klik op de **tegel van het Rapport van de Hergebruik van de Inhoud 0}**.
 
 1. Klik **doorbladeren** om een weg te kiezen waar uw onderwerpen verblijven of manueel de weg ingaan.
 
@@ -71,4 +65,4 @@ Voer de volgende stappen uit om het Rapport voor hergebruik van inhoud weer te g
 >
 > U kunt het Rapport voor hergebruik van inhoud ook exporteren in CSV-indeling. Klik hiertoe op de koppeling Exporteren naar CSV in de linkerbovenhoek van het scherm en kies een locatie waar u het CSV-bestand wilt opslaan. U kunt dit CSV-bestand vervolgens openen in elke CSV-editor.
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; Rapporten &#x200B;](reports-intro.md)
+**Bovenliggend onderwerp:**[ Rapporten ](reports-intro.md)
