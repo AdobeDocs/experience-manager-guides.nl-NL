@@ -33,7 +33,7 @@ AEM Guides staat u toe om uw bestaande documenten van Word \ (`.docx` \) in DITA
 
 Als u een Word-document wilt converteren, moet het document een goede structuur hebben. Uw document moet bijvoorbeeld een titel hebben, gevolgd door Kop 1, Kop 2 enzovoort. Elk van de rubrieken zou wat inhoud in het moeten hebben. Als uw document niet goed gestructureerd is, werkt het proces mogelijk niet naar behoren.
 
-Door gebrek, gebruikt AEM Guides [ Word-aan-DITA \ (Word2DITA \) transformatiekader ](http://www.dita4publishers.org/docs/repo/org.dita4publishers.word2dita/word2dita/word2dita-intro.html). Deze transformatie hangt van het [ stijl-aan-markering van afbeelding ](http://www.dita4publishers.org/docs/repo/org.dita4publishers.word2dita/word2dita/style-to-tag-map-overview.html) configuratiedossier af. Als u de Word2DITA-transformatie met succes wilt kunnen gebruiken, moet u de volgende richtlijnen in overweging nemen voor het voorbereiden van uw Word-document voor conversie:
+Door gebrek, gebruikt AEM Guides [&#x200B; Word-aan-DITA \ (Word2DITA \) transformatiekader &#x200B;](http://www.dita4publishers.org/docs/repo/org.dita4publishers.word2dita/word2dita/word2dita-intro.html). Deze transformatie hangt van het [&#x200B; stijl-aan-markering van afbeelding &#x200B;](http://www.dita4publishers.org/docs/repo/org.dita4publishers.word2dita/word2dita/style-to-tag-map-overview.html) configuratiedossier af. Als u de Word2DITA-transformatie met succes wilt kunnen gebruiken, moet u de volgende richtlijnen in overweging nemen voor het voorbereiden van uw Word-document voor conversie:
 
 >[!NOTE]
 >
@@ -84,7 +84,7 @@ Voer de volgende stappen uit om uw bestaande documenten van Word in DITA onderwe
 
      >[!NOTE]
      >
-     > Voor meer informatie over de structuur van `word-builtin-styles-style2tagmap.xml` dossier en hoe u het kunt aanpassen, zie [ Stijl aan Tagtoewijzing ](http://www.dita4publishers.org/docs/repo/org.dita4publishers.word2dita/word2dita/style-to-tag-map-overview.html) in *DITA voor de Gids van de Gebruiker van Uitgevers*.
+     > Voor meer informatie over de structuur van `word-builtin-styles-style2tagmap.xml` dossier en hoe u het kunt aanpassen, zie [&#x200B; Stijl aan Tagtoewijzing &#x200B;](http://www.dita4publishers.org/docs/repo/org.dita4publishers.word2dita/word2dita/style-to-tag-map-overview.html) in *DITA voor de Gids van de Gebruiker van Uitgevers*.
 
    - In het element props2Propagate, specificeer de eigenschappen die tot de kaart moeten worden overgegaan DITA. Dit bezit wordt vereist om de standaardmeta-gegevens zoals dc :title, dc :subject, dam :keywords over te gaan, dam :category van documentmeta-gegevens aan omgezette activa DITA.
 
@@ -94,7 +94,7 @@ Voer de volgende stappen uit om uw bestaande documenten van Word in DITA onderwe
 
 1. Navigeer naar de locatie van de invoermap \(`wordtodita`\).
 
-1. Upload de Word-brondocumenten naar deze map. Voor informatie bij het uploaden van inhoud op DAM, zie [ Bestaande inhoud uploaden DITA ](migrate-content-upload-existing-dita-content.md#).
+1. Upload de Word-brondocumenten naar deze map. Voor informatie bij het uploaden van inhoud op DAM, zie [&#x200B; Bestaande inhoud uploaden DITA &#x200B;](migrate-content-upload-existing-dita-content.md#).
 
 
 Met behulp van het blok `config` `/config` kunt u een of meer configuraties definiëren voor conversie. De omzettingswerkstroom wordt uitgevoerd en de definitieve output in de vorm van een onderwerp DITA wordt bewaard in de plaats die in het `outputDir` element wordt gespecificeerd.
@@ -128,7 +128,7 @@ Het conversieproces omvat de volgende acties op de achtergrond:
 - Creatie en bevestiging van individuele onderwerpen DITA en DITA kaartdossiers.
 - Verwijderen van tijdelijke bestanden.
 
-Breedweg, vereist het omzettingsproces u om [ InDesign dossiers voor omzetting ](appendix.md#id195DBF0045Z)[ appendix.md voor te bereiden \ #id195DBF0045Z ](appendix.md#id195DBF0045Z) en [ het kaartdossier voor InDesign aan migratie DITA ](appendix.md#id194AF0003HT)[ appendix.md \ #id194AF003HT ](appendix.md#id194AF0003HT), dan hebt u nodig de voorgeschreven procedure voor het uitvoeren van het conversieproces te volgen.
+Breedweg, vereist het omzettingsproces u om [&#x200B; InDesign dossiers voor omzetting &#x200B;](appendix.md#id195DBF0045Z) [&#x200B; appendix.md voor te bereiden \ #id195DBF0045Z &#x200B;](appendix.md#id195DBF0045Z) en [&#x200B; het kaartdossier voor InDesign aan migratie DITA &#x200B;](appendix.md#id194AF0003HT) [&#x200B; appendix.md \ #id194AF003HT &#x200B;](appendix.md#id194AF0003HT), dan hebt u nodig de voorgeschreven procedure voor het uitvoeren van het conversieproces te volgen.
 
 Voer de volgende stappen uit om uw bestaande InDesign-documenten om te zetten in DITA-onderwerpdocument:
 
@@ -175,7 +175,7 @@ Voer de volgende stappen uit om uw bestaande InDesign-documenten om te zetten in
 
      >[!NOTE]
      >
-     > Voor meer informatie over de structuur van `stmap.adobeidml.xml` dossier en hoe u het kunt aanpassen, zie de sectie [ appendix.md \#id194AF003HT ](appendix.md#id194AF0003HT) in Bijlage.
+     > Voor meer informatie over de structuur van `stmap.adobeidml.xml` dossier en hoe u het kunt aanpassen, zie de sectie [&#x200B; appendix.md \#id194AF003HT &#x200B;](appendix.md#id194AF0003HT) in Bijlage.
 
 1. Sla het `idml2dita_io.xml` -bestand op.
 
@@ -183,7 +183,7 @@ Voer de volgende stappen uit om uw bestaande InDesign-documenten om te zetten in
 
 1. Navigeer naar de locatie van de invoermap \(`indesigntodita`\).
 
-1. Upload de InDesign-brondocumenten naar deze map. Voor informatie bij het uploaden van inhoud op DAM, zie [ Bestaande inhoud uploaden DITA ](migrate-content-upload-existing-dita-content.md#).
+1. Upload de InDesign-brondocumenten naar deze map. Voor informatie bij het uploaden van inhoud op DAM, zie [&#x200B; Bestaande inhoud uploaden DITA &#x200B;](migrate-content-upload-existing-dita-content.md#).
 
 
 ## XHTML-documenten migreren {#id1949B04L0Y4}
@@ -287,14 +287,14 @@ Voer de volgende stappen uit om uw bestaande XHTML-document om te zetten in DITA
 
 1. Navigeer naar de locatie van de invoermap \(`xhtmltodita`\).
 
-1. Upload de bron-XHTML-documenten naar deze map. Voor informatie bij het uploaden van inhoud op DAM, zie [ Bestaande inhoud uploaden DITA ](migrate-content-upload-existing-dita-content.md#).
+1. Upload de bron-XHTML-documenten naar deze map. Voor informatie bij het uploaden van inhoud op DAM, zie [&#x200B; Bestaande inhoud uploaden DITA &#x200B;](migrate-content-upload-existing-dita-content.md#).
 
 
 Met behulp van het blok `<config> </config>` kunt u een of meer configuraties definiëren voor conversie. De omzettingswerkstroom wordt uitgevoerd en de definitieve output in de vorm van een onderwerp DITA wordt bewaard in de plaats die in het `outputDir` element wordt gespecificeerd.
 
 ## Niet-gestructureerde FrameMaker-documenten migreren {#id1949B050VUI}
 
-AEM Guides ondersteunt de migratie van ongestructureerde Adobe FrameMaker-inhoud (.fm en .book) naar gestructureerde DITA. Het proces richt zich op het evalueren van bestaande inhoud, het gebruiken van een op malplaatje-gebaseerde benadering, en het in kaart brengen van de stijlen van FrameMaker aan DITA door omzettingslijsten. Na de conversie kan de gestructureerde inhoud worden bewerkt, gevalideerd en gepubliceerd naar indelingen zoals PDF en HTML5 voor mobiele apparaten, met ondersteuning voor uitvoeraanpassing. Voor meer details, mening [ migrerend technische documentatie van ongestructureerd aan DITA in Adobe FrameMaker ](https://migrate-from-unstructured-to-dita-step-by-step-guide.meetus.adobeevents.com/).
+AEM Guides ondersteunt de migratie van ongestructureerde Adobe FrameMaker-inhoud (.fm en .book) naar gestructureerde DITA. Het proces richt zich op het evalueren van bestaande inhoud, het gebruiken van een op malplaatje-gebaseerde benadering, en het in kaart brengen van de stijlen van FrameMaker aan DITA door omzettingslijsten. Na de conversie kan de gestructureerde inhoud worden bewerkt, gevalideerd en gepubliceerd naar indelingen zoals PDF en HTML5 voor mobiele apparaten, met ondersteuning voor uitvoeraanpassing. Voor meer details, mening [&#x200B; migrerend technische documentatie van ongestructureerd aan DITA in Adobe FrameMaker &#x200B;](https://migrate-from-unstructured-to-dita-step-by-step-guide.meetus.adobeevents.com/).
 
 <!-- Deprecated information -
  //The first step is to create style mappings using FrameMaker and save those settings in a .sts file. Next, if you are using custom DITA, then you can map your custom elements with the source FrameMaker formats in the `ditaElems.xml` file. For example, if you have created a custom element named `impnote` to handle all important notes, then you can define this custom element in the `ditaElems.xml` file. Once this custom element is defined, AEM Guides would not raise an error while converting FrameMaker document containing `impnote` element.
@@ -394,9 +394,9 @@ Voer de volgende stappen uit om uw bestaande gestructureerde documenten om te ze
 
 1. Navigeer naar de locatie van de invoermap \(`xsltodita`\).
 
-1. Upload de gestructureerde brondocumenten naar deze map. Voor informatie bij het uploaden van inhoud op DAM, zie [ Bestaande inhoud uploaden DITA ](migrate-content-upload-existing-dita-content.md#).
+1. Upload de gestructureerde brondocumenten naar deze map. Voor informatie bij het uploaden van inhoud op DAM, zie [&#x200B; Bestaande inhoud uploaden DITA &#x200B;](migrate-content-upload-existing-dita-content.md#).
 
 
 Met behulp van het blok `<config> </config>` kunt u een of meer configuraties definiëren voor conversie. De omzettingswerkstroom wordt uitgevoerd en de definitieve output in de vorm van een onderwerp DITA wordt bewaard in de plaats die in het `outputDir` element wordt gespecificeerd.
 
-**Bovenliggend onderwerp:**[ Migreer bestaande inhoud ](migrate-content.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Migreer bestaande inhoud &#x200B;](migrate-content.md)
