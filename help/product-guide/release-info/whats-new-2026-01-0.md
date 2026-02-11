@@ -2,9 +2,10 @@
 title: Opmerkingen bij de release | Nieuwe functies in de Adobe Experience Manager Guides 2026.01.0-release
 description: Meer informatie over de nieuwe en verbeterde functies in de 2026.01.0-release van Adobe Experience Manager Guides
 role: Leader
-source-git-commit: cb3b06e18391fdfc53eb5abd4096553781eab0b8
+exl-id: f24a6f4a-2754-48d9-b0ce-79229dc8dba9
+source-git-commit: 2c20191ba998ad7da98587f1832e1fe8499d023c
 workflow-type: tm+mt
-source-wordcount: '1551'
+source-wordcount: '1591'
 ht-degree: 0%
 
 ---
@@ -13,9 +14,9 @@ ht-degree: 0%
 
 Dit artikel behandelt de nieuwe en verbeterde functies die zijn geïntroduceerd met de release 2026.01.0 van Adobe Experience Manager Guides as a Cloud Service.
 
-Voor de lijst van kwesties die in deze versie worden bevestigd, mening [&#x200B; Vaste kwesties in de 2026.01.0 versie &#x200B;](fixed-issues-2026-01-0.md).
+Voor de lijst van kwesties die in deze versie worden bevestigd, mening [ Vaste kwesties in de 2026.01.0 versie ](fixed-issues-2026-01-0.md).
 
-Leer over [&#x200B; verbeteringsinstructies voor de versie 2026.01.0 &#x200B;](../release-info/upgrade-instructions-2026-01-0.md).
+Leer over [ verbeteringsinstructies voor de versie 2026.01.0 ](../release-info/upgrade-instructions-2026-01-0.md).
 
 
 ## Maak kennis met zoeken in Source-modus in Zoeken en vervangen
@@ -28,7 +29,7 @@ Als u deze modus inschakelt, kunt u niet alleen een algemene zoekopdracht uitvoe
 
 In deze modus kunt u filters toepassen om de zoekopdracht te beperken tot bestandstype, documentstatus, datum van laatste wijziging en meer. U kunt ook een gedetailleerd CSV-rapport downloaden nadat u de bewerking Alle vervangen hebt uitgevoerd. Hiermee wordt een momentopname gegeven van alle vervangacties die samen met hun status van succes en mislukking zijn uitgevoerd.
 
-Voor meer details, mening [&#x200B; vind en vervang &#x200B;](../user-guide/web-editor-left-panel.md#find-and-replace) sectie in _Linkerpaneel in Redacteur_.
+Voor meer details, mening [ vind en vervang ](../user-guide/web-editor-left-panel.md#find-and-replace) sectie in _Linkerpaneel in Redacteur_.
 
 >[!NOTE]
 >
@@ -54,7 +55,7 @@ De **Uitgezochte weg** dialoog kenmerkt ook een betere boom-gestructureerde meni
 
 ![](assets/select-path-dialog-new.png){width="350" align="left"}
 
-Voor meer details, bekijk [&#x200B; het Bladeren dossiers en omslagen in Experience Manager Guides &#x200B;](../user-guide/web-editor-other-features.md#browse-files-and-folders-in-experience-manager-guides) sectie in _Andere eigenschappen in de Redacteur_.
+Voor meer details, bekijk [ het Bladeren dossiers en omslagen in Experience Manager Guides ](../user-guide/web-editor-other-features.md#browse-files-and-folders-in-experience-manager-guides) sectie in _Andere eigenschappen in de Redacteur_.
 
 ## Verbeteringen voor Zoeken en filteren in opslagplaats
 
@@ -64,7 +65,7 @@ Nu filtert u de zoekresultaten voor de opslagplaats op basis van de huidige docu
 
 ![](assets/document-state-filter-repository.png){align="left"}
 
-De standaardfilterwaarden die beschikbaar zijn voor de documentstatus zijn: Concept, Bewerken, In-Review, Goedgekeurd, Reviewed en Done. Voor details bij het aanpassen van de waarden van de standaarddocumentstaatsfilters, vormt de mening [&#x200B; de filters van de documentstaat &#x200B;](../cs-install-guide/config-doc-state-filters.md).
+De standaardfilterwaarden die beschikbaar zijn voor de documentstatus zijn: Concept, Bewerken, In-Review, Goedgekeurd, Reviewed en Done. Voor details bij het aanpassen van de waarden van de standaarddocumentstaatsfilters, vormt de mening [ de filters van de documentstaat ](../cs-install-guide/config-doc-state-filters.md).
 
 >[!NOTE]
 >
@@ -82,9 +83,9 @@ De volgende Editor-verbeteringen zijn doorgevoerd in deze versie:
 
 ### Onderwerpen of kaart vernieuwen in de modus Voorbeeld
 
-Introducerend nieuw **&#x200B;**&#x200B;functionaliteit voor kaarten vernieuwen die reeds op de wijze van de Voorproef worden geopend. Met deze nieuwe eigenschap, kunt u de inhoud van de volledige kaart of individuele onderwerpen gemakkelijk verfrissen huidig binnen het.
+Introducerend nieuw **** functionaliteit voor kaarten vernieuwen die reeds op de wijze van de Voorproef worden geopend. Met deze nieuwe eigenschap, kunt u de inhoud van de volledige kaart of individuele onderwerpen gemakkelijk verfrissen huidig binnen het.
 
-- Om de volledige kaart (met inbegrip van alle onderwerpen) te verfrissen, verfrist een nieuwe **&#x200B;**&#x200B;knoop wordt geïntroduceerd op de hoogste linkerhoek van de Redacteur.
+- Om de volledige kaart (met inbegrip van alle onderwerpen) te verfrissen, verfrist een nieuwe **** knoop wordt geïntroduceerd op de hoogste linkerhoek van de Redacteur.
 
   ![](assets/refresh-map.png){width="600" align="left"}
 
@@ -92,7 +93,7 @@ Introducerend nieuw **&#x200B;**&#x200B;functionaliteit voor kaarten vernieuwen 
 
   ![](assets/refresh-topic.png){width="600" align="left"}
 
-Voor meer details, de redacteurseigenschappen van de Kaart van de mening [&#x200B; &#x200B;](../user-guide/map-editor-advanced-map-editor.md).
+Voor meer details, de redacteurseigenschappen van de Kaart van de mening [ ](../user-guide/map-editor-advanced-map-editor.md).
 
 ### Indicator voor werkkopie voor wijzigingen in metagegevens
 
@@ -100,15 +101,24 @@ Om het even welke veranderingen in de meta-gegevensgebieden beschikbaar onder **
 
 ### Aantal woorden voor onderwerpen en kaarten
 
-U kunt het woordaantal nu volgen aanwezig binnen een kaart of onderwerpdossier. Het nieuwe **gebied van de Telling van 0&rbrace; Word in het Juiste paneel zou het totale aantal woorden tonen huidig binnen een onderwerp (of kaart), waar de woorden die door ruimten worden gescheiden als individuele woorden worden geteld.** Deze wordt automatisch vernieuwd wanneer u wijzigingen opslaat. Voor kruisverwijzingen wordt alleen de weergavetekst opgenomen, terwijl toetsen worden uitgesloten.
+U kunt het woordaantal nu volgen aanwezig binnen een kaart of onderwerpdossier. Het nieuwe **gebied van de Telling van 0} Word in het Juiste paneel zou het totale aantal woorden tonen huidig binnen een onderwerp (of kaart), waar de woorden die door ruimten worden gescheiden als individuele woorden worden geteld.** Deze wordt automatisch vernieuwd wanneer u wijzigingen opslaat. Voor kruisverwijzingen wordt alleen de weergavetekst opgenomen, terwijl toetsen worden uitgesloten.
 
 ![](assets/file-properties-new.png){width="350" align="left"}
 
-Voor details, mening [&#x200B; Juiste paneel in Redacteur &#x200B;](../user-guide/web-editor-right-panel.md#file-properties).
+Voor details, mening [ Juiste paneel in Redacteur ](../user-guide/web-editor-right-panel.md#file-properties).
 
-### Verbeterde verwerking voor alleen-lezen bestanden
+### Eigenschappen van metagegevens kunnen niet meer worden bewerkt voor alleen-lezen bestanden
 
-Het uitgeven van de eigenschappen van het Dossier is nu beperkt voor dossiers die op **Gelezen slechts** wijze zijn. Als een dossier door een andere gebruiker (beschikbaar op Gelezen slechts wijze) wordt gesloten, kunt u geen meta-gegevensbezit veranderen, of van het [&#x200B; Juiste paneel &#x200B;](../user-guide/web-editor-right-panel.md#file-properties), de **3&rbrace; optie van Eigenschappen &lbrace;in het** contextmenu van een dossier [, of het &#x200B;](../user-guide/web-editor-other-features.md#context-menu-functions-on-a-files-tab) Rapport van Meta-gegevens [. &#x200B;](../user-guide/reports-web-editor.md#metadata-report) Zo voorkomt u onbedoelde wijzigingen in alleen-lezen bestanden.
+Met deze versie, wanneer het `Disable Edit Without Checkout` plaatsen wordt toegelaten, kunnen de dossiereigenschappen niet meer worden uitgegeven als een dossier op **read-only** wijze is.
+
+Deze beperking geldt voor alle ingangspunten waar eigenschappen kunnen worden gewijzigd, waaronder:
+
+- Het **Juiste paneel** van de interface van de Redacteur
+- De **optie van Eigenschappen** in het menu van de dossiercontext
+- Metagegevensrapport van een kaart
+- De gebruikersinterface van Assets
+
+Als een bestand alleen-lezen is, moet u het bestand eerst uitchecken voordat u de eigenschappen van het bestand wijzigt. Deze verandering dwingt striktere toestemmingscontroles af en zorgt ervoor dat de bezitsupdates de zelfde controle en het sluiten regels volgen zoals inhoud uitgeeft.
 
 ## Verbeteringen voor revisie
 
@@ -116,7 +126,7 @@ Het uitgeven van de eigenschappen van het Dossier is nu beperkt voor dossiers di
 
 Nu, kunt u nieuwe onderwerpen aan een aan de gang zijnde overzichtstaak toevoegen (als zij niet eerder voor overzicht) werden verzonden of onderwerpen uit een aan de gang zijnde overzichtstaak verwijderen zonder het overzichtswerkschema te beïnvloeden.
 
-Op de **pagina van de Details van de Taak**, kunt u eenvoudig selecteren of onderwerpen losmaken om de onderwerpenlijst te wijzigen. Revisoren worden via AEM en e-mailberichten op de hoogte gesteld (via AEM en e-mail) van wijzigingen in hun toegewezen onderwerpen. Voor meer details, verzendt de mening [&#x200B; onderwerpen voor overzicht &#x200B;](../user-guide/review-send-topics-for-review.md).
+Op de **pagina van de Details van de Taak**, kunt u eenvoudig selecteren of onderwerpen losmaken om de onderwerpenlijst te wijzigen. Revisoren worden via AEM en e-mailberichten op de hoogte gesteld (via AEM en e-mail) van wijzigingen in hun toegewezen onderwerpen. Voor meer details, verzendt de mening [ onderwerpen voor overzicht ](../user-guide/review-send-topics-for-review.md).
 
 ![](assets/modify-review-topics.png){width="650" align="left"}
 
@@ -128,7 +138,7 @@ Wanneer u vertalingen beheert, is het belangrijk ervoor te zorgen dat er een ver
 
 Als een dossier unversioned veranderingen (niet opgeslagen als nieuwe versie in uw kaart) bevat, verschijnt een _info_ pictogram naast het dossier, erop wijzend dat de updates bestaan. Om zich snel op deze dossiers te concentreren, laat **activa met unversioned veranderingen slechts** optie in het paneel van Filters toe.
 
-Voor meer details, mening [&#x200B; vertaal documenten van de Console van de Kaart &#x200B;](../user-guide/translate-documents-web-editor.md).
+Voor meer details, mening [ vertaal documenten van de Console van de Kaart ](../user-guide/translate-documents-web-editor.md).
 
 ![](assets/unversioned-changes-translation.png){width="650" align="left"}
 
@@ -138,7 +148,7 @@ Voor meer details, mening [&#x200B; vertaal documenten van de Console van de Kaa
 
 U kunt nu verschillende afbeeldingsuitvoeringen configureren voor afzonderlijke uitvoervoorinstellingen onder hetzelfde uitvoertype door het kenmerk `outputName` in `renditionmapping.xml` te gebruiken. Deze verbetering geeft u meer flexibiliteit wanneer het publiceren van inhoud die verschillende beeldresoluties voor verschillende scenario&#39;s vereist. U wilt bijvoorbeeld een afbeelding met hoge resolutie voor de HTML5-hoofduitvoer terwijl u een kleinere miniatuur voor een lichtgewichtvoorinstelling gebruikt.
 
-Voor meer details, bekijk [&#x200B; de afbeeldingsvertoning van de Handle in outputgeneratie &#x200B;](../cs-install-guide/conf-output-generation.md#handle-image-rendition-during-output-generation).
+Voor meer details, bekijk [ de afbeeldingsvertoning van de Handle in outputgeneratie ](../cs-install-guide/conf-output-generation.md#handle-image-rendition-during-output-generation).
 
 
 ### Logboeken downloaden voor gegenereerde uitvoer
@@ -148,16 +158,16 @@ Wanneer het produceren van output door Assets UI, is een nieuwe **Logboeken van 
 
 ### Taalvariabelen voor kruisverwijzingen in native PDF-uitvoer
 
-Wanneer het publiceren van Inheemse output van PDF, kunt u [&#x200B; taalvariabelen &#x200B;](../native-pdf/native-pdf-language-variables.md) gebruiken om statische verwijzingstekst als _te vertalen zie in hoofdstuk_ of _zie op pagina_. De variabele gebruikt de taal die in het onderwerp door het `xml:lang` attribuut wordt bepaald.
+Wanneer het publiceren van Inheemse output van PDF, kunt u [ taalvariabelen ](../native-pdf/native-pdf-language-variables.md) gebruiken om statische verwijzingstekst als _te vertalen zie in hoofdstuk_ of _zie op pagina_. De variabele gebruikt de taal die in het onderwerp door het `xml:lang` attribuut wordt bepaald.
 
-Voor details bij het vormen van Inheemse vooraf ingestelde output van PDF en verwijzingsmontages, mening [&#x200B; Inheemse vooraf ingestelde output van PDF &#x200B;](../web-editor/native-pdf-web-editor.md).
+Voor details bij het vormen van Inheemse vooraf ingestelde output van PDF en verwijzingsmontages, mening [ Inheemse vooraf ingestelde output van PDF ](../web-editor/native-pdf-web-editor.md).
 
 
 ### Ondersteuning voor componenttoewijzing op elementniveau in New AEM Sites (met samengestelde componenttoewijzing)-publicaties
 
 Experience Manager Guides ondersteunt nu componenttoewijzing op elementniveau in de AEM Sites-uitvoer (met samengestelde componenttoewijzing), waardoor teams exact kunnen bepalen hoe DITA-elementen worden gerenderd met `componentmapping.json` . Als u `topicref` , titels, afbeeldingen, tabellen en meer toewijst aan de juiste AEM Core-componenten, krijgt u een schonere structuur in plaats van alles wat standaard aan de Text-component wordt toegewezen. Dit resulteert in betere prestaties en ontgrendelt rijkere, modernere Sites-ervaringen.
 
-Voor meer details, bekijk [&#x200B; afbeelding van de Component in AEM Sites &#x200B;](../cs-install-guide/component-mapping.md).
+Voor meer details, bekijk [ afbeelding van de Component in AEM Sites ](../cs-install-guide/component-mapping.md).
 
 ## Verbeteringen voor middelenverwerking
 
@@ -168,27 +178,11 @@ Deze release introduceert de volgende verbeteringen voor de verwerking van bedri
 - Pas op datum gebaseerde filters toe om het verwerkingsbereik voor een bepaald tijdsbestek te beperken.
 - De activa van het herproces direct gebruikend de nieuwe optie (**verwerkt activa**) beschikbaar in het contextmenu van dossiers en omslagen binnen de mening van de Bewaarplaats en het paneel van de Ontdekkingsreiziger.
 
-Voor meer details op verwerkingsactiva, mening [&#x200B; activa van het Proces &#x200B;](../user-guide/asset-processor.md).
+Voor meer details op verwerkingsactiva, mening [ activa van het Proces ](../user-guide/asset-processor.md).
 
 ## API-verbeteringen
 
 De volgende API-verbeteringen zijn doorgevoerd in deze release:
 
-- Nieuwe API&#39;s worden geïntroduceerd om een nieuw vertaalproject te maken en de status ervan te volgen. Deze API&#39;s helpen het vertaalproces te automatiseren, verminderen handmatige inspanningen en verbeteren de efficiëntie. Voor details, mening [&#x200B; creeer vertaalproject &#x200B;](../api-reference/translation-project.md)
-- Verbeterde API&#39;s voor middelenverwerking met verbeterde filtermogelijkheden voor bestanden en mappen. Voor details, mening [&#x200B; activa van het Proces &#x200B;](../api-reference/bulk-assets-processing.md).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- Nieuwe API&#39;s worden geïntroduceerd om een nieuw vertaalproject te maken en de status ervan te volgen. Deze API&#39;s helpen het vertaalproces te automatiseren, verminderen handmatige inspanningen en verbeteren de efficiëntie. Voor details, mening [ creeer vertaalproject ](../api-reference/translation-project.md)
+- Verbeterde API&#39;s voor middelenverwerking met verbeterde filtermogelijkheden voor bestanden en mappen. Voor details, mening [ activa van het Proces ](../api-reference/bulk-assets-processing.md).
