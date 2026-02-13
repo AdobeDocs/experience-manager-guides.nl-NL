@@ -38,11 +38,11 @@ In deze vergadering hebben we het volgende besproken:
 
 ## Gerelateerde bronnen
 
-- [&#x200B; het werkschemadocumentatie van het Overzicht &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/review/review)
+- [&#x200B; het werkschemadocumentatie van het Overzicht &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/user-guide/review/review)
 
-- [&#x200B; de integratie van AEM Guides met Workfront &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/workfront-integration/workfront-integration)
+- [&#x200B; de integratie van AEM Guides met Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/user-guide/workfront-integration/workfront-integration)
 
-- [&#x200B; het Aanpassen van overzicht UI &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/extention-framework/customisations/review-app-customisations/customisation)
+- [&#x200B; het Aanpassen van overzicht UI &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/knowledge-base/kb-articles/extention-framework/customisations/review-app-customisations/customisation)
 
 
 
@@ -55,7 +55,7 @@ In deze vergadering hebben we het volgende besproken:
 
 ### Forum van de Gemeenschap
 
-- Voor zitting-specifieke communautaire interactie over Experience League, bezoek {het Forum van AEM Guides van 0} [.](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)
+- Voor zitting-specifieke communautaire interactie over Experience League, bezoek {het Forum van AEM Guides van 0} [.](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=nl)
 
 
 ## Contact opnemen
