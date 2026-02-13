@@ -38,11 +38,11 @@ In deze vergadering hebben we het volgende besproken:
 
 ## Gerelateerde bronnen
 
-- [ het werkschemadocumentatie van het Overzicht ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/review/review)
+- [&#x200B; het werkschemadocumentatie van het Overzicht &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/review/review)
 
-- [ de integratie van AEM Guides met Workfront ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/workfront-integration/workfront-integration)
+- [&#x200B; de integratie van AEM Guides met Workfront &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/workfront-integration/workfront-integration)
 
-- [ het Aanpassen van overzicht UI ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/extention-framework/customisations/review-app-customisations/customisation)
+- [&#x200B; het Aanpassen van overzicht UI &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/extention-framework/customisations/review-app-customisations/customisation)
 
 
 
