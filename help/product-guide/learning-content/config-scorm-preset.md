@@ -19,7 +19,7 @@ Nadat de voorinstelling is gemaakt, configureert u de instellingen voor de SCORM
 
   ![](assets/scorm-general-tab-v3.png){width="650" align="left"}
 
-  **de ervaring van 0} Leerling**
+  **de ervaring van 0&rbrace; Leerling**
 
    - **Leerlingen moeten door inhoud in een opeenvolgende orde** vorderen: Zorgt studenten zich door de quiz in een vaste opeenvolging bewegen en kan niet vooruit overslaan of tussen vragen springen.
    - **Leerlingen moeten elke vraag proberen te werk te gaan**: vereist studenten om alle vragen te proberen alvorens zij de quiz kunnen voorleggen, die onvolledige voorlegging verhinderen.

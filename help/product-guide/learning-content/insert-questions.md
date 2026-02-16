@@ -38,4 +38,4 @@ Voer de volgende stappen uit om vragen van de vraagbank in de quiz op te nemen:
    ![](assets/inserted-question.png){width="650" align="left"}
 
 
-Voor een snel videooverzicht, mening [ de vragen van het Tussenvoegsel van de bank van de Vraag ](https://video.tv.adobe.com/v/3475212/learning-content-aem-guides) ![](assets/Smock_VideoCheckedOut_18_N.svg).
+Voor een snel videooverzicht, mening [&#x200B; de vragen van het Tussenvoegsel van de bank van de Vraag &#x200B;](https://video.tv.adobe.com/v/3475212/learning-content-aem-guides) ![](assets/Smock_VideoCheckedOut_18_N.svg).
