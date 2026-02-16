@@ -4,9 +4,9 @@ description: Leer hoe u vragen kunt invoegen in een quiz in de producttraining e
 feature: Authoring
 role: User
 exl-id: dff38476-c078-4970-b967-05a902430015
-source-git-commit: 41ea5e91b5ee096ede2eb06dae7a44f01e0c0571
+source-git-commit: 1df47cf35590f10bdfe7fdbc3501d7c47137ed56
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -15,21 +15,38 @@ ht-degree: 0%
 
 Voer de volgende stappen uit om vragen in een quiz in te voegen:
 
-1. Kies het gewenste vraagtype van het **drop-down menu van Vragen** in de toolbar. Gebaseerd op uw vereisten, kunt u vragen toevoegen gebruikend om het even welke vier beschikbare formaten: Waar of Onwaar, Enige correct, Meervoudig en Gelijke het volgende zoals hieronder getoond. Voor meer details, bekijk [&#x200B; types van Vraag &#x200B;](#question-types).
+1. Kies het gewenste vraagtype van het **drop-down menu van Vragen** in de toolbar. Gebaseerd op uw vereisten, kunt u vragen toevoegen gebruikend om het even welke vier beschikbare formaten: Waar of Onwaar, Enige correct, Meervoudig correct, Gelijke het volgende en Korte antwoord zoals hieronder getoond. Voor meer details, bekijk [ types van Vraag ](#question-types).
 
    ![](assets/question-types.png){width="650" align="left"}
 
    Wanneer u een vraag invoegt, wordt de nieuwe vraag standaard toegevoegd als de cursor zich op een vraagblok bevindt.
 
-   Om een vraag tussen de twee bestaande vragen op te nemen, neem eerst [&#x200B; een paragraaf &#x200B;](#insert-paragraph-within-the-quiz) op, en neem dan vragen op.
+   Om een vraag tussen de twee bestaande vragen op te nemen, neem eerst [ een paragraaf ](#insert-paragraph-within-the-quiz) op, en neem dan vragen op.
 
 1. Een vraag wordt ingevoegd in de geselecteerde indeling. Vervolgens kunt u de vraag op basis van uw vereisten bewerken.
 
-1. U kunt om het even welke vraag selecteren en zijn eigenschappen vormen gebruikend het **eigenschappen van de Inhoud** paneel. U kunt bijvoorbeeld het juiste antwoord opgeven, de markeringen instellen die moeten worden toegekend en eventuele sancties voor onjuiste antwoorden definiëren.
+1. U kunt om het even welke vraag selecteren en zijn eigenschappen vormen gebruikend het **eigenschappen van de Inhoud** paneel.
 
    ![](assets/question-properties.png){width="650" align="left"}
 
 1. Sla alle wijzigingen op die u in de quiz hebt aangebracht.
+
+
+## Eigenschappen van Vraag
+
+U kunt de vragen vormen gebruikend de volgende vraageigenschappen van het **Eigenschappen van de Inhoud** paneel:
+
+![](assets/question-properties-new.png){width="350" align="left"}
+
+- **Opties**: Specificeer het correcte antwoord van de vraag
+- **Identiteitskaart van de Vraag**: Specificeert vraagidentiteitskaart voor elke vraag. Als er geen vraag-id aanwezig is, wordt aangeraden deze altijd toe te voegen.
+- **Punten voor correct antwoord**: Specificeer de punten die voor het correcte antwoord moeten worden toegekend.
+- **Straal voor onjuist antwoord**: Specificeer de punten die voor een onjuist antwoord moeten worden afgetrokken.
+- **Etiket van de Vraag**: Laat toe om een vraagetiket toe te voegen.
+- **Terugkoppeling**: Laat toe om te verstrekken terugkoppelt voor correct of onjuist antwoord.
+- **Vastzetten optie aan positie**: Wanneer een specifieke optie voor een vraag wordt vastgezet, blijft het vast in de gespecificeerde positie in de optielijst, zelfs als **antwoordkeuzen van willekeurig formaat voor elke poging** in de SCORM vooraf ingestelde configuratie wordt toegelaten, die anders de beschikbare opties zou veranderen. U kunt de muisaanwijzer boven de gewenste optie voor een vraag plaatsen in het deelvenster Eigenschappen van inhoud en deze vastzetten.
+
+  ![](assets/pin-question.png){width="350" align="left"}
 
 ## Alinea invoegen in de quiz
 
@@ -53,7 +70,7 @@ Voer de volgende stappen uit om een vraag of specifieke optie uit een quiz te ve
 
 De volgende vraagtypen worden ondersteund in een quiz:
 
-- **Enige Correct**: Een vraag met veelvoudige opties waar slechts één antwoord correct is.
+- **Enige correct**: Een vraag met veelvoudige opties waar slechts één antwoord correct is.
 
   ![](assets/single-correct.png){width="650" align="left"}
 
@@ -62,7 +79,7 @@ De volgende vraagtypen worden ondersteund in een quiz:
   ![](assets/true-false.png){width="650" align="left"}
 
 
-- **Veelvoudige Correct**: Een vraag met veelvoudige opties waar meer dan één antwoord correct kan zijn.
+- **Meerdere correcte**: Een vraag met veelvoudige opties waar meer dan één antwoord correct kan zijn.
 
   ![](assets/multi-correct.png){width="650" align="left"}
 
@@ -73,3 +90,8 @@ De volgende vraagtypen worden ondersteund in een quiz:
   In de gepubliceerde output, **gelijke de volgende** vraag verschijnt met dropdown menu voor elk punt, toestaand u om de correcte gelijke van de beschikbare opties te selecteren.
 
   ![](assets/question-type-publishing.png){width="650" align="left"}
+
+
+- **Kort antwoord**: Staat studenten toe om het gebruiken van een korte tekstinput te antwoorden. Alfanumerieke antwoorden worden geaccepteerd, reacties worden niet hoofdlettergevoelig weergegeven en voor zeer lange antwoorden wordt een horizontale schuifbalk weergegeven.
+
+  ![](assets/short-answer.png){width="650" align="left"}
