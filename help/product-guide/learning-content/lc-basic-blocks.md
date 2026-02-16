@@ -21,7 +21,7 @@ De volgende video biedt een kort overzicht van de beschikbare functies voor een 
 
 U kunt de basisbewerkingsfuncties gebruiken die beschikbaar zijn op de werkbalk van de Editor, zoals hieronder wordt beschreven:
 
-- **opties van het Tussenvoegsel**: Verstrekt opties om [ interactieve Widgets ](./lc-widgets.md) toe te voegen zoals Accordion, Carrousel, HotSpot, Lusjes, Kaarten van de Omslag, en te klikken om, evenals [ structurele elementen ](./lc-other-insert-options.md) zoals Iframe, de Citaten van het Blok, het Blok van de Code, en meer te openbaren. Gebruik dit menu om functionaliteit en verscheidenheid aan uw het leren inhoud toe te voegen, die het boeiend en goed-gestructureerd maken.
+- **opties van het Tussenvoegsel**: Verstrekt opties om [&#x200B; interactieve Widgets &#x200B;](./lc-widgets.md) toe te voegen zoals Accordion, Carrousel, HotSpot, Lusjes, Kaarten van de Omslag, en te klikken om, evenals [&#x200B; structurele elementen &#x200B;](./lc-other-insert-options.md) zoals Iframe, de Citaten van het Blok, het Blok van de Code, en meer te openbaren. Gebruik dit menu om functionaliteit en verscheidenheid aan uw het leren inhoud toe te voegen, die het boeiend en goed-gestructureerd maken.
 
   ![](assets/insert-menu-options-lc.png){width="650" align="left"}
 
@@ -29,7 +29,7 @@ U kunt de basisbewerkingsfuncties gebruiken die beschikbaar zijn op de werkbalk 
 
   >[!NOTE]
   >
-  > U kunt ook een titel en ondertitel toevoegen aan uw leerinhoud. Voor details op hoe te om het in de inhoud toe te voegen, mening [ voeg titel en ondertitel aan het leren inhoud ](#add-title-and-subtitle-to-learning-content) toe.
+  > U kunt ook een titel en ondertitel toevoegen aan uw leerinhoud. Voor details op hoe te om het in de inhoud toe te voegen, mening [&#x200B; voeg titel en ondertitel aan het leren inhoud &#x200B;](#add-title-and-subtitle-to-learning-content) toe.
 
   ![](assets/text-learning-content.png){width="650" align="left"}
 
