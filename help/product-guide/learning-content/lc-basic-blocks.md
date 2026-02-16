@@ -4,7 +4,7 @@ description: Meer informatie over de basisbouwstenen die u kunt toevoegen aan uw
 feature: Authoring
 role: User
 exl-id: 171b9df9-3782-4cfa-b450-7824e5fd390d
-source-git-commit: 338213dd1e6f093a82bbf7d3283f81c3fdb96431
+source-git-commit: 16e7f12ddc9e72e4344bf98e65718c0f3681b348
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 0%
@@ -21,7 +21,7 @@ De volgende video biedt een kort overzicht van de beschikbare functies voor een 
 
 U kunt de basisbewerkingsfuncties gebruiken die beschikbaar zijn op de werkbalk van de Editor, zoals hieronder wordt beschreven:
 
-- **opties van het Tussenvoegsel**: Verstrekt opties om [&#x200B; interactieve Widgets &#x200B;](./lc-widgets.md) toe te voegen zoals Accordion, Carrousel, HotSpot, Lusjes, Kaarten van de Omslag, en te klikken om, evenals [&#x200B; structurele elementen &#x200B;](./lc-other-insert-options.md) zoals Iframe, de Citaten van het Blok, het Blok van de Code, en meer te openbaren. Gebruik dit menu om functionaliteit en verscheidenheid aan uw het leren inhoud toe te voegen, die het boeiend en goed-gestructureerd maken.
+- **opties van het Tussenvoegsel**: Verstrekt opties om [ interactieve Widgets ](./lc-widgets.md) toe te voegen zoals Accordion, Carrousel, HotSpot, Lusjes, Kaarten van de Omslag, en te klikken om, evenals [ structurele elementen ](./lc-other-insert-options.md) zoals Iframe, de Citaten van het Blok, het Blok van de Code, en meer te openbaren. Gebruik dit menu om functionaliteit en verscheidenheid aan uw het leren inhoud toe te voegen, die het boeiend en goed-gestructureerd maken.
 
   ![](assets/insert-menu-options-lc.png){width="650" align="left"}
 
@@ -29,7 +29,7 @@ U kunt de basisbewerkingsfuncties gebruiken die beschikbaar zijn op de werkbalk 
 
   >[!NOTE]
   >
-  > U kunt ook een titel en ondertitel toevoegen aan uw leerinhoud. Voor details op hoe te om het in de inhoud toe te voegen, mening [&#x200B; voeg titel en ondertitel aan het leren inhoud &#x200B;](#add-title-and-subtitle-to-learning-content) toe.
+  > U kunt ook een titel en ondertitel toevoegen aan uw leerinhoud. Voor details op hoe te om het in de inhoud toe te voegen, mening [ voeg titel en ondertitel aan het leren inhoud ](#add-title-and-subtitle-to-learning-content) toe.
 
   ![](assets/text-learning-content.png){width="650" align="left"}
 
@@ -94,6 +94,7 @@ Voer de volgende stappen uit om titel en ondertitel aan uw het leren inhoud te o
    >[!NOTE]
    >
    > Als u niet de bestaande rubriek als titel wilt gebruiken, neem eerst een rubriek op gebruikend de component van de Tekst in de toolbar van de Redacteur, en selecteer dan **toevoegen titel**. Dit voegt een steekproef **Titel** toe wordt toegevoegd aan de inhoud, die u zoals nodig kunt uitgeven.
+
 1. In de eigenschappen van het Dossier, voegt de uitgezochte **ondertitel** toe.
 Een steekproef **Ondertitel** wordt toegevoegd aan de inhoud.
 
