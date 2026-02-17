@@ -5,7 +5,7 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: 726420e0-fe52-4334-b72a-8eb8bcae4d6c
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: e0b0df19b7ec691a894130eb42df827921b4890c
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Voer de volgende stappen uit om het `config.xml` -bestand te bedekken en bij te 
 
 1. Navigeer naar het configuratiebestand dat beschikbaar is op de volgende locatie:
 
-   `/libs/fmdita/cq/xssprotection/config.xml`
+   `/libs/cq/xssprotection/config.xml`
 
 1. Maak een overlayknooppunt van de map `xssprotection` in het knooppunt apps.
 
@@ -143,4 +143,4 @@ Afbeeldingskaarten:
 
 
 
-Leer meer over de beste praktijken van [&#x200B; Veiligheid &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/implementing/developing/introduction/security).
+Leer meer over de beste praktijken van [ Veiligheid ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/security).
