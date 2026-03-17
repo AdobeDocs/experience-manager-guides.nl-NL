@@ -4,9 +4,9 @@ description: Leer hoe te om een DITA- onderwerp in te voeren en te bevestigen, d
 exl-id: ed07a5ec-6adc-43a3-8f03-248b8c963e9a
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 64d2f0027c35396a549d11a0186e218dd513b22a
+source-git-commit: dd058ef30707716054279f16527adb286a9deb8d
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '982'
 ht-degree: 0%
 
 ---
@@ -24,8 +24,6 @@ ht-degree: 0%
 
 Voer de volgende stappen uit om de Schematron-bestanden te importeren:
 
-![](images/schematron-panel.png){width="300" align="left"}
-
 1. Navigeer aan de vereiste omslag (waar u de dossiers) in *Bewaarplaats* wilt uploaden.
 1. Selecteer het **pictogram van Opties** om het contextmenu te openen en **te kiezen uploadt activa**.
 1. In **uploadt activa** dialoog, kunt u de bestemmingsomslag in het **Uitgezochte gebied van de Omslag van Activa** veranderen.
@@ -41,16 +39,16 @@ Nadat u Schematron-bestanden hebt geïmporteerd, kunt u deze bewerken in de Edit
 
 Wanneer u een onderwerp opent in de Redacteur, verschijnt een paneel van de Bevestiging van het Schema in het recht. Voer de volgende stappen uit om een onderwerp of een kaart met een dossier toe te voegen en te bevestigen Schematron:
 
-![](images/schematron-panel-file-validated.png){width="500" align="left"}
+![](images/schematron-panel.png){width="350" align="left"}
 
-1. Selecteer het pictogram Schematron () om het deelvenster Schematron te openen.
+1. Selecteer het pictogram Schematron om het deelvenster Schema te openen.
 1. Het gebruik **voegt het Dossier van Schematron** toe om dossiers Schematron toe te voegen.
 
    >[!NOTE]
    >
    > Wanneer een ongeldig schemabestand wordt toegevoegd, wordt een foutenmelding getoond in het paneel van de Bevestiging.
 
-   ![](images/schematron-panel-error.png){width="300" align="left"}
+   ![](images/schematron-panel-error.png){width="350" align="left"}
 
 1. Als het Schematron-bestand geen fouten bevat, wordt het toegevoegd en weergegeven in het deelvenster Validatie. Er wordt een foutbericht weergegeven voor het Schematron-bestand dat fouten bevat.
 
@@ -58,14 +56,42 @@ Wanneer u een onderwerp opent in de Redacteur, verschijnt een paneel van de Beve
    >
    >U kunt het kruispictogram bij de naam van het Schematron-bestand gebruiken om het te verwijderen.
 
-1. Selecteer **Valideren met Schematron** om het onderwerp te bevestigen.
+1. Selecteer **Valideren** om het onderwerp met de toegevoegde dossiers te bevestigen Schematron.
 
    * Als het onderwerp geen regels breekt, wordt het bericht van het bevestigingssucces getoond voor het dossier.
    * Als het onderwerp een regel breekt, bijvoorbeeld, als het geen titel bevat en voor het bovengenoemde Schematron bevestigd is, toont het een bevestigingsfout.
 
+   >[!NOTE]
+   >
+   > Validatieresultaten worden weergegeven op basis van het rolkenmerk dat is gedefinieerd in het Schematron-bestand. Voor meer details, mening [ Begrijpend bevestigingsresultaten en serverniveaus ](#understanding-validation-results-and-serverity-levels).
+
 1. Selecteer het foutenbericht om het element te benadrukken dat de fout in het geopende onderwerp/de kaart bevat.
 
 De steun van het Schema in de Redacteur helpt u in het bevestigen van de dossiers tegen een reeks regels en het handhaven van consistentie en correctheid over de onderwerpen.
+
+## Werken met validatieresultaten en serverniveaus
+
+Validatieresultaten worden weergegeven op basis van het rolkenmerk dat is gedefinieerd in het Schematron-bestand. Kwesties worden gecategoriseerd als `Fatal`, `Error`, `Warn` of `Info` , met een zichtbare telling voor elke categorie in het deelvenster Validatie.
+
+![](images/schematron-validation-errors.png){width="350" align="left"}
+
+Om de strengheid van een kwestie te bepalen, wordt de _geval-gevoelige_ waarde van de rolattributen die in het overeenkomstige dossier van het Schema worden bepaald geëvalueerd.
+
+In het volgende fragment worden de ondersteunde waarden van de rolkenmerken weergegeven die in een Schematron-regel zijn gedefinieerd:
+
+* `<sch:assert role="error" test="@id">Element must have an ID.</sch:assert>`
+* `<sch:report role="info" test="not(@alt)">Image should have an alt attribute.</sch:report>`
+* `<sch:assert role= "fatal" test="b"> Bold must be there in <sch:name/> element</sch:assert>`
+* `<sch:assert role= "warn" test="b"> Recommended formatting is missing in <sch:name/> element</sch:assert>`
+
+Als het kenmerk role niet is opgegeven of als een niet-ondersteunde waarde wordt gebruikt, wordt de uitgave gecategoriseerd als `Error` in het deelvenster Validatie. Dit gedrag is ook van toepassing op bestaande Schematron-bestanden die geen rolkenmerk definiëren. In dergelijke gevallen worden alle problemen gegroepeerd onder `Error` .
+
+**sparen scenario&#39;s van het Dossier**
+
+Het bewaren van een dossier hangt van de **bevestigingscontrole van de Looppas alvorens het dossier** het plaatsen in [ de montages van Workspace ](../cs-install-guide/workspace-settings.md#validation) af:
+
+* Als deze optie is ingeschakeld, kunt u het bestand pas opslaan als de `Fatal` - of `Error` -problemen niet zijn opgelost.
+* Als deze optie is uitgeschakeld, worden de validatiecontroles niet uitgevoerd en kunnen de bestanden worden opgeslagen, zelfs als er problemen op `Fatal` - of `Error` -niveau optreden.
 
 ## Instructies voor bevestigen en rapporteren gebruiken om op regels te controleren{#schematron-assert-report}
 

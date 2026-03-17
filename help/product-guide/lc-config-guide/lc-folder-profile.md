@@ -5,9 +5,9 @@ feature: Authoring
 role: Admin
 level: Experienced
 exl-id: dc26ae48-c953-492c-823a-5f65157b6902
-source-git-commit: 64adc89966e60823f6b46fb062b7659ed150cfc3
+source-git-commit: dedd253dba3d93beed162eb5258125928f6d315c
 workflow-type: tm+mt
-source-wordcount: '1453'
+source-wordcount: '1657'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Een omslagprofiel wordt vereist om de configuraties voor verschillende afdelingen of producten in uw onderneming te scheiden. Voor Leren en Trainingsinhoud, kunt u een omslag-vlakke profiel tot stand brengen en vormen om auteursmalplaatjes, outputmalplaatjes, outputvoorinstellingen, en andere omslag-vlakke montages te beheren.
 
-Leer over [&#x200B; Beste praktijken voor vestiging de omslagstructuur &#x200B;](best-practices-folder-structure.md).
+Leer over [ Beste praktijken voor vestiging de omslagstructuur ](best-practices-folder-structure.md).
 
 Om aan de slag te gaan met de configuratie van het omslagprofiel voor het Leren en Trainingsinhoud, moet u:
 
@@ -30,21 +30,34 @@ Om aan de slag te gaan met de configuratie van het omslagprofiel voor het Leren 
 3. **creeer een omslag om Assets** te beheren: Gelijkaardig aan omslagen, kunt u verschillende omslagen van Assets ook tot stand brengen om aan de behoeften van verschillende afdelingen te voldoen. Op deze manier zorgt u er ook voor dat Auteurs en Uitgevers toegang hebben tot de juiste CSS die in hun sjablonen, afbeeldingen en andere elementen is geconfigureerd.
 
    ![](assets/configure-assets-folder.png){width="350" align="left"}
-4. [&#x200B; creeer een omslagprofiel &#x200B;](../cs-install-guide/conf-folder-level.md#create-and-configure-a-folder-level-profile) aan kaart verschillende omslagen.
-5. **selecteer het profiel van de Omslag dat moet worden gevormd**: Zodra het omslagprofiel wordt gecreeerd, moet u het profiel van de Omslag op de [&#x200B; pagina van de Voorkeur van de Gebruiker selecteren &#x200B;](../user-guide/intro-home-page.md#user-preferences) om ervoor te zorgen dat de Auteurs en de Uitgevers toegang tot de correcte malplaatjes hebben.
+4. [ creeer een omslagprofiel ](../cs-install-guide/conf-folder-level.md#create-and-configure-a-folder-level-profile) aan kaart verschillende omslagen.
+5. **selecteer het profiel van de Omslag dat moet worden gevormd**: Zodra het omslagprofiel wordt gecreeerd, moet u het profiel van de Omslag op de [ pagina van de Voorkeur van de Gebruiker selecteren ](../user-guide/intro-home-page.md#user-preferences) om ervoor te zorgen dat de Auteurs en de Uitgevers toegang tot de correcte malplaatjes hebben.
 
    ![](assets/folder-profile.png){width="650" align="left"}
 
 6. **vorm de montages van het Profiel van de Omslag**: Voor het Leren en de inhoud van de Opleiding, kunnen de volgende montages op een omslagniveau worden gevormd:
-   - [&#x200B; Panelen &#x200B;](#configure-panels)
-   - [Sjablonen](#configure-templates)
+   - [Algemeen](#general)
+   - [ Panelen ](#configure-panels)
+   - [Contentsjablonen](#configure-content-templates)
    - [Uitvoervoorinstellingen](#configure-output-presets)
-   - [&#x200B; redacteur van HTML &#x200B;](#html-editor-settings)
-   - [&#x200B; publiceer profielen &#x200B;](#manage-publish-profiles)
+   - [ redacteur van HTML ](#html-editor-settings)
+   - [ publiceer profielen ](#manage-publish-profiles)
 
-Om tot deze montages toegang te hebben, schakelaar aan de mening van de Redacteur en selecteer **Montages** van het **menu van Opties** zoals hieronder getoond:
+Om tot deze montages toegang te hebben, schakelaar aan de mening van de Redacteur en selecteer **montages van Workspace** van het **menu van Opties** zoals hieronder getoond:
 
 ![](assets/access-editor-settings.png)
+
+## Algemeen
+
+Op het tabblad Algemeen kunt u de volgende instellingen configureren die specifiek zijn voor de functie Producttraining en Leerinhoud:
+
+![](assets/lc-config-settings-general.png){width="350" align="left"}
+
+- **het Leren inhoud**: Gebruik **toelaten het Leren inhoud** knevel om de eigenschap op een omslag-profiel niveau toe te laten of onbruikbaar te maken.
+- **de redacteur van HTML**: Dit het plaatsen staat u toe om de Redacteur voor op HTML-Gebaseerd schrijven te vormen. De belangrijkste configuratieopties die in deze instelling aanwezig zijn, zijn als volgt:
+
+   - **Verberg gealigneerd het stileren**: Laat deze optie toe om Auteurs te verhinderen gealigneerd het formatteren op de cursusinhoud toe te passen. Als deze optie is ingeschakeld, blijven alle inline opmaakopties zoals Lettertypen, Rand, Indeling, Achtergrond en Kolommen in het rechterdeelvenster van de Editor verborgen voor Auteurs. Nochtans, kunnen de Auteurs nog de globale op klasse-gebaseerde het stileren opties gebruiken beschikbaar in het **paneel van Stijlen**. Dit helpt consistentie met de stijlrichtlijnen van uw organisatie te handhaven.
+   - **de mening van Source van de Huid voor Auteurs**: Laat deze optie toe om toegang tot de broncode van HTML te beperken. Dit is handig als u de bewerkervaring wilt vereenvoudigen of wijzigingen in de onderliggende code wilt voorkomen.
 
 ## Deelvensters configureren
 
@@ -60,15 +73,24 @@ Voor het Leren en de inhoud van de Opleiding, zorg ervoor dat slechts de volgend
 **Linkerpaneel**
 
 - **Inzamelingen**: Laat u toe om vaak gebruikte dossiers te organiseren en te bewaren, of tot gedeelde dossiers snel toegang te hebben.
-- **Bewaarplaats**: Staat u toe om tot al uw kaarten, onderwerpen, beelden, en andere activa toegang te hebben die in de inhoudsbewaarplaats worden opgeslagen.
+- **Ontdekkingsreiziger**: Staat u toe om al uw kaarten, onderwerpen, beelden, en andere activa te bekijken en toegang te hebben die in de inhoudsbewaarplaats worden opgeslagen.
 - **manager van de Cursus**: Verstrekt een specifieke werkruimte voor het creëren van en het leiden van cursussen.
+- **Kaart**: Verstrekt een kaartmening van het momenteel geopende kaartdossier.
+- **Overzicht**: Toont de structurele hiërarchie van het momenteel geopende onderwerp of de kaart, die snelle navigatie en element-vlakke toegang toestaat.
+- **Workfront**: Verleent toegang tot robuuste projectbeheereigenschappen bovenop de kernmogelijkheden CCMS van Experience Manager Guides.
+- **Herbruikbare inhoud**: Staat u toe om herbruikbare elementen of onderwerpen te beheren en op te nemen om consistentie te verzekeren en duplicatie over inhoud te verminderen.
+- **Verklarende woordenlijst**: Laat u toe om verklarende woordenlijsttermijnen tot stand te brengen en te leiden en hen over onderwerpen te omvatten om verenigbare terminologie te handhaven.
 - **Fragmenten**: Sta u toe om kleine inhoudsfragmenten over diverse onderwerpen in uw het Leren cursussen tot stand te brengen en opnieuw te gebruiken.
 - **Voorwaarden**: Staat u toe om voorwaardelijke attributen op een globaal en omslagniveau te vormen.
+- **Malplaatjes**: Staat u toe om de cursusmalplaatjes tot stand te brengen en te beheren.
+- **Bevragingen**: Laat u toe om citaties in inhoud toe te voegen en te beheren gebruikend gesteunde citaatstijlen.
+- **variabelen van de Taal**: Laat u toe om taalvariabelen voor gepubliceerde output te bepalen.
 - **Variabelen**: Staat u toe om variabelen tot stand te brengen en te beheren in uw het leren inhoud te gebruiken.
-- **variabelen van de Taal**: Laat u toe om gelokaliseerde koorden voor gepubliceerde output of statische teksten in malplaatjes te bepalen.
-- **Malplaatjes**: Staat u toe om malplaatjes voor gebruik door de Auteurs tot stand te brengen en te beheren.
 - **malplaatjes van de Output**: Laat u toe om outputmalplaatjes tot stand te brengen en te beheren om output in diverse formaten te produceren.
 - **Vondst en vervangt**: Verstrekt opties om naar tekst over dossiers in een kaart of een omslag binnen uw bewaarplaats te zoeken en te vervangen. 
+- **Gegevensbronnen**: Staat u toe om externe gegevensbronnen te verbinden en gegevens binnen uw inhoud opnieuw te gebruiken.
+- **Overzicht**: Staat u toe om overzichtswerkschema&#39;s in Experience Manager Guides tot stand te brengen en te beheren.
+- **de rapporten van het Systeem**: Staat u toe om rapporten tot stand te brengen en te leiden.
 
 **Juiste paneel**
 
@@ -90,9 +112,13 @@ Voor het Leren en de inhoud van de Opleiding, zorg ervoor dat slechts de volgend
 
 - **Filters**: Staat u toe om filters te gebruiken wanneer het werken met rapporten en vertaling.
 
-## Sjablonen configureren
+## Inhoudssjablonen configureren
 
-Dit het plaatsen staat u toe om de auteursende en het publiceren malplaatjes huidig in het [&#x200B; Linkerpaneel in de Redacteur &#x200B;](../user-guide/web-editor-left-panel.md) te beheren. U kunt auteurs- en uitvoersjablonen toevoegen, verwijderen of opnieuw ordenen. Deze sjablonen zijn vervolgens toegankelijk voor auteurs en uitgevers.
+>[!NOTE]
+>
+> Dit het plaatsen is beschikbaar slechts wanneer de het leren inhoudseigenschap in de **montages van Workspace** wordt toegelaten > **Algemeen**.
+
+Dit het plaatsen staat u toe om de auteursende en het publiceren malplaatjes huidig in het [ Linkerpaneel in de Redacteur ](../user-guide/web-editor-left-panel.md) te beheren. U kunt auteurs- en uitvoersjablonen toevoegen, verwijderen of opnieuw ordenen. Deze sjablonen zijn vervolgens toegankelijk voor auteurs en uitgevers.
 
 ![](assets/templates-settings.png){width="350" align="left"}
 
@@ -124,7 +150,7 @@ Om een verschillend malplaatje te gebruiken dan die getoond in de **Uitgezochte 
 
 Als u een andere kaart- of onderwerpsjabloon wilt gebruiken, maakt u een nieuw ontwerpsjabloon in het deelvenster Sjablonen in de Editor. De kaartmalplaatjes van het gebruik om het Leren cursussen en onderwerpmalplaatjes voor het Leren inhoud, Quiz, of het Leren samenvatting tot stand te brengen.
 
-Voor details, leidt de mening [&#x200B; tot aangepaste malplaatjes van de Redacteur &#x200B;](../user-guide/create-maps-customized-templates.md).
+Voor details, leidt de mening [ tot aangepaste malplaatjes van de Redacteur ](../user-guide/create-maps-customized-templates.md).
 
 ![](assets/authoring-templates-editor.png){width="350" align="left"}
 
@@ -180,6 +206,10 @@ U kunt ook de volgorde definiëren waarin de sjablonen in een categorie worden w
 
 ## Uitvoervoorinstellingen configureren
 
+>[!NOTE]
+>
+> Dit het plaatsen is beschikbaar slechts wanneer de het leren inhoudseigenschap in de **montages van Workspace** wordt toegelaten > **Algemeen**.
+
 Op het tabblad Uitvoervoorinstellingen kunt u opgeven welke uitvoerindelingen beschikbaar zijn voor het publiceren van een cursus. Het bevat twee secties: **Toegestane output vooraf ingestelde types** en **Gemeenschappelijke output stelt** vooraf in.
 
 ![](assets/configure-course-output-presets.png){width="350" align="left"}
@@ -191,15 +221,6 @@ Op het tabblad Uitvoervoorinstellingen kunt u opgeven welke uitvoerindelingen be
 - **Gemeenschappelijke output stelt** vooraf in: Deze sectie toont de output die algemeen door Uitgevers aan een specifiek omslagprofiel wordt gecreeerd en wordt toegevoegd. U kunt ook alle voorinstellingen verwijderen die u niet meer nodig hebt.
 
   ![](assets/common-output-presets.png){width="350" align="left"}
-
-## Instellingen van HTML-editor
-
-Met deze instelling kunt u de Editor configureren voor op HTML gebaseerd ontwerpen. De belangrijkste configuratieopties die in deze instelling aanwezig zijn, zijn als volgt:
-
-![](assets/configure-html-editor-setting.png){width="350" align="left"}
-
-- **Verberg gealigneerd het stileren**: Laat deze optie toe om Auteurs te verhinderen gealigneerd het formatteren op de cursusinhoud toe te passen. Als deze optie is ingeschakeld, blijven alle inline opmaakopties zoals Lettertypen, Rand, Indeling, Achtergrond en Kolommen in het rechterdeelvenster van de Editor verborgen voor Auteurs. Nochtans, kunnen de Auteurs nog de globale op klasse-gebaseerde het stileren opties gebruiken beschikbaar in het **paneel van Stijlen**. Dit helpt consistentie met de stijlrichtlijnen van uw organisatie te handhaven.
-- **de mening van Source van de Huid voor Auteurs**: Laat deze optie toe om toegang tot de broncode van HTML te beperken. Dit is handig als u de bewerkervaring wilt vereenvoudigen of wijzigingen in de onderliggende code wilt voorkomen.
 
 ## Publicatieprofielen beheren
 
