@@ -18,5 +18,5 @@ Wanneer de output die van inhoud DITA wordt geproduceerd gebruikend **Snelle pub
 
 Om de onbedoelde replicatie van DITA-inhoud naar het publicatiemilieu te verhinderen en prestatiesproblemen te vermijden, moeten de beheerders DITA activa-replicatie expliciet beheren via de Manager van de Configuratie. Deze configuratie laat beheerders toe om de replicatie van gesteunde activa te controleren DITA, met inbegrip van kaarten DITA, onderwerpen DITA, de dossiers van XML, en Prijsvermindering (.md) dossiers.
 
-Om de eigenschap van de DITA activa replicatie te vormen, vormt de mening [ DITA activa replicatie voor Cloud Service ](../cs-install-guide/configure-dita-assets-replication.md) of [ DITA activa replicatie voor On-Premise ](../install-guide/configure-dita-asset-replication.md) afhankelijk van de opstelling u gebruikt
+Om de eigenschap van de DITA activa replicatie te vormen, vormt de mening [&#x200B; DITA activa replicatie voor Cloud Service &#x200B;](../cs-install-guide/configure-dita-assets-replication.md) of [&#x200B; DITA activa replicatie voor On-Premise &#x200B;](../install-guide/configure-dita-asset-replication.md) afhankelijk van de opstelling u gebruikt
 

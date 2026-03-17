@@ -63,7 +63,7 @@ Wanneer u een onderwerp opent in de Redacteur, verschijnt een paneel van de Beve
 
    >[!NOTE]
    >
-   > Validatieresultaten worden weergegeven op basis van het rolkenmerk dat is gedefinieerd in het Schematron-bestand. Voor meer details, mening [ Begrijpend bevestigingsresultaten en serverniveaus ](#understanding-validation-results-and-serverity-levels).
+   > Validatieresultaten worden weergegeven op basis van het rolkenmerk dat is gedefinieerd in het Schematron-bestand. Voor meer details, mening [&#x200B; Begrijpend bevestigingsresultaten en serverniveaus &#x200B;](#understanding-validation-results-and-serverity-levels).
 
 1. Selecteer het foutenbericht om het element te benadrukken dat de fout in het geopende onderwerp/de kaart bevat.
 
@@ -88,7 +88,7 @@ Als het kenmerk role niet is opgegeven of als een niet-ondersteunde waarde wordt
 
 **sparen scenario&#39;s van het Dossier**
 
-Het bewaren van een dossier hangt van de **bevestigingscontrole van de Looppas alvorens het dossier** het plaatsen in [ de montages van Workspace ](../cs-install-guide/workspace-settings.md#validation) af:
+Het bewaren van een dossier hangt van de **bevestigingscontrole van de Looppas alvorens het dossier** het plaatsen in [&#x200B; de montages van Workspace &#x200B;](../cs-install-guide/workspace-settings.md#validation) af:
 
 * Als deze optie is ingeschakeld, kunt u het bestand pas opslaan als de `Fatal` - of `Error` -problemen niet zijn opgelost.
 * Als deze optie is uitgeschakeld, worden de validatiecontroles niet uitgevoerd en kunnen de bestanden worden opgeslagen, zelfs als er problemen op `Fatal` - of `Error` -niveau optreden.

@@ -12,9 +12,9 @@ ht-degree: 0%
 
 Dit artikel behandelt de upgrade-instructies en de compatibiliteitsmatrix voor de release 2026.03.0 van Adobe Experience Manager Guides as a Cloud Service.
 
-Voor meer informatie over de nieuwe eigenschappen en de verhogingen, mening [ wat in de versie 2026.03.0 ](whats-new-2026-03-0.md) nieuw is.
+Voor meer informatie over de nieuwe eigenschappen en de verhogingen, mening [&#x200B; wat in de versie 2026.03.0 &#x200B;](whats-new-2026-03-0.md) nieuw is.
 
-Voor de lijst van kwesties die in deze versie worden bevestigd, mening [ Vaste kwesties in de 2026.03.0 versie ](fixed-issues-2026-03-0.md).
+Voor de lijst van kwesties die in deze versie worden bevestigd, mening [&#x200B; Vaste kwesties in de 2026.03.0 versie &#x200B;](fixed-issues-2026-03-0.md).
 
 ## Compatibiliteitsmatrix
 
@@ -54,5 +54,5 @@ Experience Manager Guides wordt automatisch bijgewerkt na de upgrade naar de nie
 >
 > Deze versie bevat updates voor de instellingen van het mapprofiel (ui_config.json). Als u aangepaste instellingen gebruikt, moet u een back-up van deze instellingen maken voordat u de upgrade uitvoert. Nadat u de update hebt uitgevoerd, kunt u de instellingen controleren en aanpassen en deze aanpassen aan de wijzigingen die u in de nieuwste versie hebt aangebracht.
 
-Controleer en valideer uw opstellingsconfiguraties om te bevestigen zij correct worden uitgevoerd. Als u om het even welke veranderingen van de douaneconfiguratie hebt geïntroduceerd, mening [ Extra configuratie voor de bevordering van Cloud Service ](../cs-install-guide/additional-config-for-cloud-service.md) voor om het even welke extra procedures van toepassing op de versie u van bevordert.
+Controleer en valideer uw opstellingsconfiguraties om te bevestigen zij correct worden uitgevoerd. Als u om het even welke veranderingen van de douaneconfiguratie hebt geïntroduceerd, mening [&#x200B; Extra configuratie voor de bevordering van Cloud Service &#x200B;](../cs-install-guide/additional-config-for-cloud-service.md) voor om het even welke extra procedures van toepassing op de versie u van bevordert.
 
