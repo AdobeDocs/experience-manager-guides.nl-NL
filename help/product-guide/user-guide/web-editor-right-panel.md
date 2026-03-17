@@ -4,9 +4,9 @@ description: Krijg het juiste paneel in de Redacteur te kennen. Meer informatie 
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 6a0f4ed2-6eca-4b3c-bd3a-3f72f6919b36
-source-git-commit: 05a44af6982a9a23e6bbddeaac52b0700e2e2170
+source-git-commit: ddf28ee20b15ea8bb50c555d1196532ee00d34a5
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1290'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ U kunt tot de **eigenschappen van de Inhoud** eigenschap toegang hebben door het
 
 **Type**: U kunt de markeringen van de volledige hiërarchie voor de huidige markering van dropdown bekijken en selecteren.
 
-**Attributen**: Het **&#x200B;**&#x200B;dropdown paneel van Attributen &lbrace;is beschikbaar in Lay-out, Auteur, en de meningen van Source. U kunt de kenmerken eenvoudig toevoegen, bewerken of verwijderen.
+**Attributen**: Het **** dropdown paneel van Attributen {is beschikbaar in Lay-out, Auteur, en de meningen van Source. U kunt de kenmerken eenvoudig toevoegen, bewerken of verwijderen.
 
 <details>
     <summary> Stappen om kenmerken toe te voegen </summary>
@@ -41,15 +41,15 @@ U kunt tot de **eigenschappen van de Inhoud** eigenschap toegang hebben door het
 
 1. Selecteer **toevoegen**.
 
-   ![&#x200B; attributen in inhoudseigenschappen &#x200B;](images/properties-tab-attributes_cs.png){width="300" align="left"}
+   ![ attributen in inhoudseigenschappen ](images/properties-tab-attributes_cs.png){width="300" align="left"}
 
-1. In het **dropdown paneel van Attributen** &lbrace;, selecteer de attributen van de dropdown lijst en specificeer de waarde van een attribuut.  Dan selecteer **toevoegen**.
+1. In het **dropdown paneel van Attributen** {, selecteer de attributen van de dropdown lijst en specificeer de waarde van een attribuut.  Dan selecteer **toevoegen**.
 
-   ![&#x200B; deelvenster Kenmerken met meerdere kenmerken &#x200B;](images/attributes-multiple-properties.png){width="300" align="left"}
+   ![ deelvenster Kenmerken met meerdere kenmerken ](images/attributes-multiple-properties.png){width="300" align="left"}
 
-1. Om de attributen uit te geven, over het te bewegen en **te selecteren geef** ![&#x200B; uit uitgeven-pictogram &#x200B;](images/edit_pencil_icon.svg).
+1. Om de attributen uit te geven, over het te bewegen en **te selecteren geef** ![ uit uitgeven-pictogram ](images/edit_pencil_icon.svg).
 
-1. Om de attributen te schrappen, over het te bewegen en **te selecteren schrap** ![&#x200B; schrapping-pictogram &#x200B;](images/Delete_icon.svg).
+1. Om de attributen te schrappen, over het te bewegen en **te selecteren schrap** ![ schrapping-pictogram ](images/Delete_icon.svg).
 
 </details>
 
@@ -58,7 +58,7 @@ U kunt tot de **eigenschappen van de Inhoud** eigenschap toegang hebben door het
 >
 > Zelfs als uw onderwerp inhoud waarnaar wordt verwezen bevat, kunt u er kenmerken aan toevoegen via het deelvenster Eigenschappen.
 
-Als uw beheerder een profiel voor attributen heeft gecreeerd, dan zult u die attributen samen met hun gevormde waarden krijgen. Gebruikend het paneel van inhoudseigenschappen, kunt u die attributen kiezen en hen toewijzen aan relevante inhoud in uw onderwerp. Op deze manier kunt u ook voorwaardelijke inhoud maken, die u vervolgens kunt gebruiken om voorwaardelijke uitvoer te maken. Voor meer informatie over het produceren van output die voorwaardelijke voorinstellingen gebruiken, stelt de voorwaarde van het menings&lbrace;[&#x200B; vooraf in.](generate-output-use-condition-presets.md#)
+Als uw beheerder een profiel voor attributen heeft gecreeerd, dan zult u die attributen samen met hun gevormde waarden krijgen. Gebruikend het paneel van inhoudseigenschappen, kunt u die attributen kiezen en hen toewijzen aan relevante inhoud in uw onderwerp. Op deze manier kunt u ook voorwaardelijke inhoud maken, die u vervolgens kunt gebruiken om voorwaardelijke uitvoer te maken. Voor meer informatie over het produceren van output die voorwaardelijke voorinstellingen gebruiken, stelt de voorwaarde van het menings{[ vooraf in.](generate-output-use-condition-presets.md#)
 
 
 
@@ -72,7 +72,7 @@ De eigenschappen File hebben de volgende twee secties:
 
 In het gedeelte Algemeen hebt u toegang tot de volgende functies:
 
-![&#x200B; dossier-eigenschappen &#x200B;](images/file-properties-general.png){width="300" align="left"}
+![ dossier-eigenschappen ](images/file-properties-general.png){width="300" align="left"}
 
 - **Naam van het Dossier**: Toont filename van het geselecteerde onderwerp. De bestandsnaam is gekoppeld aan de eigenschappenpagina van het geselecteerde bestand.
 - **identiteitskaart**: Toont identiteitskaart van het geselecteerde onderwerp.
@@ -80,21 +80,21 @@ In het gedeelte Algemeen hebt u toegang tot de volgende functies:
 
   >[!NOTE]
   >
-  > De **tellings van Word** eigenschap wordt geïntroduceerd in de 2026.01.0 versie van Experience Manager Guides as a Cloud Service. Om het even welke nieuwe onderwerpen DITA u na bevordering aan deze versie creeert zal automatisch de berekende woordtelling in het Juiste paneel hebben. Voor bestaande onderwerpen, [&#x200B; wordt de opwerking van de activa &#x200B;](./asset-processor.md) vereist.
+  > De **tellings van Word** eigenschap wordt geïntroduceerd in de 2026.01.0 versie van Experience Manager Guides as a Cloud Service. Om het even welke nieuwe onderwerpen DITA u na bevordering aan deze versie creeert zal automatisch de berekende woordtelling in het Juiste paneel hebben. Voor bestaande onderwerpen, [ wordt de opwerking van de activa ](./asset-processor.md) vereist.
 
 - **Markeringen**: Dit zijn de meta-gegevensmarkeringen van het onderwerp. Deze worden ingesteld vanuit het tagveld op de eigenschappenpagina. U kunt deze typen of selecteren in het vervolgkeuzemenu.  De tags worden weergegeven onder de vervolgkeuzelijst. Als u een tag wilt verwijderen, selecteert u het kruispictogram naast de tag.
 - **geef meer eigenschappen** uit: U kunt meer eigenschappen (voor dossiers uitgeven die niet in **Gelezen slechts** wijze) van de de eigenschappen van het Dossier pagina zijn.
 
   >[!NOTE]
   >
-  > Om het even welke toevoeging, schrapping, of wijziging van meta-gegevenseigenschappen (of gebrek of douane), zal de [&#x200B; werkende exemplaarindicator &#x200B;](./web-editor-edit-topics.md#working-copy-indicator) op de documentversie teweegbrengen.
+  > Om het even welke toevoeging, schrapping, of wijziging van meta-gegevenseigenschappen (of gebrek of douane), zal de [ werkende exemplaarindicator ](./web-editor-edit-topics.md#working-copy-indicator) op de documentversie teweegbrengen.
 
 
 - **Taal**: Toont de taal van het onderwerp. Deze wordt ingesteld vanuit het taalveld op de eigenschappenpagina.
 - **creeerde op**: De datum en de tijd van vertoningen waarop het onderwerp werd gecreeerd.
 - **Gewijzigd op**: Toont de datum en de tijd waarop het onderwerp werd gewijzigd.
 - **die door** wordt vergrendeld: Toont de gebruiker die het onderwerp sloot.
-- **de staat van het Document**: U kunt de documentstaat van het momenteel geopende onderwerp selecteren en bijwerken. Voor meer details, mening [&#x200B; de Staat van het Document &#x200B;](web-editor-document-states.md#).
+- **de staat van het Document**: U kunt de documentstaat van het momenteel geopende onderwerp selecteren en bijwerken. Voor meer details, mening [ de Staat van het Document ](web-editor-document-states.md#).
 
 >[!NOTE]
 >
@@ -113,13 +113,29 @@ Standaard kunt u de bestanden op titels weergeven. Terwijl u de cursor op een be
 
 >[!NOTE]
 >
-> Als beheerder kunt u de lijst met bestanden ook weergeven op bestandsnamen in de Editor. Selecteer de **optie van de Naam van het 0&rbrace; Dossier {van de** 3} sectie van de de vertoningsconfiguratie van de dossiers van de Redacteur in **voorkeur van de Gebruiker**.**&#x200B;**
+> Als beheerder kunt u de lijst met bestanden ook weergeven op bestandsnamen in de Editor. Selecteer de **optie van de Naam van het 0} Dossier {van de** 3} sectie van de de vertoningsconfiguratie van de dossiers van de Redacteur in **voorkeur van de Gebruiker**.****
 
 >[!NOTE]
 >
 > Alle Gebruikt binnen en Uitgaande verwijzingen zijn hyperlinked aan de documenten. U kunt de gekoppelde documenten gemakkelijk openen en bewerken.
 
-Naast het openen van dossiers, kunt u vele acties ook uitvoeren gebruikend het **menu van Opties** in de sectie van Verwijzingen. Enkele acties die u kunt uitvoeren zijn Bewerken, Voorvertoning, UUID kopiëren, Pad kopiëren, Toevoegen aan verzamelingen, Eigenschappen.
+Naast het openen van dossiers, kunt u vele acties ook uitvoeren gebruikend het **menu van Opties** in de sectie van Verwijzingen. Enkele acties die u kunt uitvoeren zijn Bewerken, Voorvertoning, UUID kopiëren, Pad kopiëren, Toevoegen aan verzamelingen en Eigenschappen.
+
+**Vertalingen**
+
+In deze sectie worden alle beschikbare taalkopieën voor het momenteel geopende element in alfabetische volgorde weergegeven in de Editor. De informatie wordt voorgesteld in een tabelvormige mening, die elke taalcode samen met de overeenkomstige *dossiertitel* tonen (of *dossier - naam* in het geval *dossiertitel* niet beschikbaar is).
+
+>[!INFO]
+>
+> Taalkopieën worden gemaakt wanneer een middel voor vertaling wordt verzonden. Engels (`en`) fungeert als de brontaal en vertaalde kopieën worden gegenereerd in hun respectievelijke doeltaalmappen (bijvoorbeeld `de` voor Duits of `fr` voor Frans). Als een middel slechts in de `en` omslag bestaat, worden geen extra taalexemplaren getoond tot de vertaling voor de doeltalen in werking wordt gesteld en wordt voltooid. Als de activa niet aanwezig in om het even welke taalomslag zijn, **geen beschikbare vertalingen** wordt getoond. Voor meer details, mening [ Beste praktijken voor inhoudsomzetting ](./translation-first-time.md).
+
+![](images/translations-right-panel.png){width="300" align="left"}
+
+Voor elke taalkopie kunt u de muisaanwijzer op het bestand plaatsen om het pad in de opslagplaats te vinden of het bestand selecteren om het te openen in de Editor. Naast het openen van dossiers, kunt u vele acties ook uitvoeren gebruikend het **menu van Opties** in de sectie van Vertalingen. Enkele acties die u kunt uitvoeren zijn Bewerken, Voorvertoning, UUID kopiëren, Pad kopiëren, Toevoegen aan verzamelingen en Eigenschappen.
+
+![](images/translations-right-panel-options-menu.png){width="300" align="left"}
+
+
 
 ## Controleren
 
@@ -135,7 +151,7 @@ Met het deelvenster Review kunt u reacties op de opmerkingen over het onderwerp 
 >
 > Het commentaarvakje en het antwoordvakje steunen multi-line ingangen en staan gebruikers toe om het uit te breiden zoals nodig voor het verstrekken van uitvoerige commentaren evenals gedetailleerd antwoord op de commentaren. U kunt **Verschuiving** gebruiken + **gaat** binnen om naar de volgende lijn te gaan terwijl het schrijven van de commentaren of de antwoorden.
 
-Voor meer informatie, bekijk [&#x200B; de revisiecommentaren van het Adres &#x200B;](review-address-review-comments.md#).
+Voor meer informatie, bekijk [ de revisiecommentaren van het Adres ](review-address-review-comments.md#).
 
 ## Wijzigingen bijhouden
 
@@ -143,14 +159,14 @@ Met de functie Bijgehouden wijzigingen in het rechterdeelvenster kunt u de infor
 
 >[!NOTE]
 >
-> De geleide veranderingseigenschap toont alle updates die gebruikend de Enable/Disable eigenschap van de Veranderingen van het Spoor van de [&#x200B; bar van het Lusje &#x200B;](./web-editor-tab-bar.md) zijn gevolgd.
+> De geleide veranderingseigenschap toont alle updates die gebruikend de Enable/Disable eigenschap van de Veranderingen van het Spoor van de [ bar van het Lusje ](./web-editor-tab-bar.md) zijn gevolgd.
 
 ## Schematron
 
 &quot;Schematron&quot; verwijst naar een op regels gebaseerde validatietaal die wordt gebruikt om tests voor een XML-bestand te definiëren. De Editor ondersteunt Schematron-bestanden. U kunt de Schematron-bestanden importeren en deze ook bewerken in de Editor. Met behulp van een Schematron-bestand kunt u bepaalde regels definiëren en deze vervolgens valideren voor een DITA-onderwerp of een kaart.
 
-Leer hoe te met de dossiers van Schematron in Experience Manager Guides te werken, verwijs naar [&#x200B; Steun voor dossiers Schematron &#x200B;](./support-schematron-file.md).
+Leer hoe te met de dossiers van Schematron in Experience Manager Guides te werken, verwijs naar [ Steun voor dossiers Schematron ](./support-schematron-file.md).
 
 
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; Inleiding aan de Redacteur &#x200B;](web-editor.md)
+**Bovenliggend onderwerp:**[ Inleiding aan de Redacteur ](web-editor.md)
