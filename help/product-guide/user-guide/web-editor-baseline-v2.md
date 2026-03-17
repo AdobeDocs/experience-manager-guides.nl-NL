@@ -69,9 +69,9 @@ Voer de volgende stappen uit om de bestaande basislijn naar de nieuwe basislijn 
 
 1. Selecteer het embleem van Adobe Experience Manager bij de bovenkant en kies **Hulpmiddelen**.
 1. In het **paneel van Hulpmiddelen** uitgezocht **Gidsen**.
-1. Selecteer de **tegel van de Bewerker van 0} Bulk {.**
+1. Selecteer de **tegel van de Bewerker van 0&rbrace; Bulk &lbrace;.**
 
-   ![ stroom-activa-bewerker ](images/flow-asset-processor.png){align="left"}
+   ![&#x200B; stroom-activa-bewerker &#x200B;](images/flow-asset-processor.png){align="left"}
 
    De **pagina van de Bewerker van het Bulk van Gidsen** wordt getoond.
 
@@ -85,7 +85,7 @@ Voer de volgende stappen uit om de bestaande basislijn naar de nieuwe basislijn 
    1. **Uitgezochte omslag(en) en dossier(s)**: Navigeer en kies één of veelvoudige omslagen en dossiers om te verwerken.
    1. **Uitgezochte omslag(en) om** te negeren: Naar keuze, selecteer subfolders binnen de gekozen ouderomslag om van de migratie uit te sluiten.
 
-   ![ nieuw-proces-basislijn ](images/new-process-baseline.png){align="left"}
+   ![&#x200B; nieuw-proces-basislijn &#x200B;](images/new-process-baseline.png){align="left"}
 
 1. Selecteer **creeer**.
 
@@ -93,11 +93,11 @@ Een pop-up die **activa tonen met succes teweeggebrachte verwerking van Activa**
 
 U kunt **Logboeken van de Mening** ook selecteren om de logboeken voor de migratietaak te controleren en te downloaden.
 
-![ mening-logboeken-basislijn ](images/view-logs-baseline.png){align="left"}
+![&#x200B; mening-logboeken-basislijn &#x200B;](images/view-logs-baseline.png){align="left"}
 
 Het lograpport bevat details over de migratie, zoals het aantal kaarten dat is gemigreerd, de basislijnen die met succes zijn gemigreerd en de bijbehorende details.
 
-![ logboeken-detail-basislijn ](images/logs-detail-baseline.png){align="left"}
+![&#x200B; logboeken-detail-basislijn &#x200B;](images/logs-detail-baseline.png){align="left"}
 
 >[!NOTE]
 >
@@ -105,7 +105,7 @@ Het lograpport bevat details over de migratie, zoals het aantal kaarten dat is g
 
 ## De nieuwe basislijn gebruiken
 
-Het nieuwe basislijnmodel gebruikt dezelfde workflows en gebruikersinterface als de bestaande basislijnfunctie in Experience Manager Guides. U kunt [ blijven creëren en basislijn van de console van de Kaart beheren ](./web-editor-baseline.md) gebruikend de beschikbare opties.
+Het nieuwe basislijnmodel gebruikt dezelfde workflows en gebruikersinterface als de bestaande basislijnfunctie in Experience Manager Guides. U kunt [&#x200B; blijven creëren en basislijn van de console van de Kaart beheren &#x200B;](./web-editor-baseline.md) gebruikend de beschikbare opties.
 
 >[!NOTE]
 >
@@ -129,7 +129,7 @@ De volgende updates zijn van toepassing wanneer het werken met gecreeerde basisl
    - **geeft eigenschappen** uit: Staat u toe om de eigenschappen van een bestaande basislijn uit te geven.
    - **herbouwt**: Staat u toe om een dynamische basislijn opnieuw te bouwen wanneer de veranderingen voorkomen.
 
-     ![ rebuild-baseline ](images/rebuild-baseline.png){align="left"}
+     ![&#x200B; rebuild-baseline &#x200B;](images/rebuild-baseline.png){align="left"}
 
 - De **Download** actie steunt gepagineerde downloads. Alle basislijninhoud die overeenkomt met de toegepaste filters, wordt opgenomen in de download en niet alleen de inhoud die zichtbaar is op de huidige pagina.
 - Filter bestanden op GUID, naast bestandsnamen of bestandslocatie. Een extra optie aan **dossiers van de Filter zonder etiketten** is ook beschikbaar.
@@ -148,13 +148,13 @@ De volgende updates zijn van toepassing wanneer het werken met gecreeerde basisl
    - Navigeer naar en houd de muisaanwijzer boven het bestand dat u wilt bewerken.
    - Selecteer **uitgeven** pictogram.
 
-     ![ geef-basislijn-pictogram uit ](images/edit-baseline-icon.png){align="left"}
+     ![&#x200B; geef-basislijn-pictogram uit &#x200B;](images/edit-baseline-icon.png){align="left"}
 
      Het **geeft versie** dialoog uit wordt getoond.
    - Selecteer de vereiste versie van **drop-down van de Versie** (bijvoorbeeld, verandering van versie 1.0 in 1.1).
 
 
-     ![ uitgeven-versie-basislijn ](images/edit-version-baseline.png){align="left"}
+     ![&#x200B; uitgeven-versie-basislijn &#x200B;](images/edit-version-baseline.png){align="left"}
 
      Toegevoegde en verwijderde afhankelijkheden worden geëvalueerd en als voorvertoning weergegeven. Controleer de wijzigingen voordat u ze toepast.
 
