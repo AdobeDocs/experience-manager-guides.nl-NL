@@ -5,16 +5,16 @@ exl-id: 0d3a909c-3499-4ef4-b033-02e412dae959
 feature: Translation
 role: Admin
 level: Experienced
-source-git-commit: ea3083542e955a56c27cd833600370a7962c6b8d
+source-git-commit: bbdf4763e8202891eec0259a5f08a7efa9afc668
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '985'
 ht-degree: 0%
 
 ---
 
 # Inhoud vertalen {#id181GB0400UI}
 
-Automatiseer de vertaling van pagina-inhoud, elementen en door de gebruiker gegenereerde inhoud om meertalige websites te maken en te onderhouden. Om vertaalworkflows te automatiseren, integreert u de leveranciers van vertaaldiensten met AEM en creeert projecten voor het vertalen van inhoud in veelvoudige talen. AEM ondersteunt workflows voor het vertalen van mensen en machines.
+Automatiseer de vertaling van pagina-inhoud, elementen en door de gebruiker gegenereerde inhoud om meertalige websites te maken en te onderhouden. Om vertaalworkflows te automatiseren, integreert u de leveranciers van vertaaldiensten met AEM en creeert u projecten voor het vertalen van inhoud in veelvoudige talen. AEM ondersteunt workflows voor het vertalen van mensen en machines.
 
 - Menselijke vertaling: de inhoud wordt naar uw vertaalbureau verzonden en door professionele vertalers vertaald. Wanneer de vertaalde inhoud is voltooid, wordt deze geretourneerd en in AEM geïmporteerd. Wanneer uw vertaalprovider is geïntegreerd met AEM, wordt inhoud automatisch uitgewisseld tussen AEM en de vertaalprovider
 
@@ -23,24 +23,24 @@ Automatiseer de vertaling van pagina-inhoud, elementen en door de gebruiker gege
 
 Voor het vertalen van inhoud worden de volgende stappen uitgevoerd:
 
-1. Verbind AEM met uw [&#x200B; leverancier van de vertaaldienst &#x200B;](https://helpx.adobe.com/nl/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider) en creeer [&#x200B; configuraties van het kader van de vertaalintegratie &#x200B;](https://helpx.adobe.com/nl/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration).
+1. Verbind AEM met uw [ leverancier van de vertaaldienst ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider) en creeer [ configuraties van het kader van de vertaalintegratie ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration).
 
-1. Koppel de pagina&#39;s van uw taalmeester met de [&#x200B; vertaaldienst en kaderconfiguraties &#x200B;](https://helpx.adobe.com/nl/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation).
+1. Koppel de pagina&#39;s van uw taalmeester met de [ vertaaldienst en kaderconfiguraties ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation).
 
-1. Identificeer het type van [&#x200B; te vertalen inhoud &#x200B;](https://helpx.adobe.com/nl/experience-manager/6-5/sites/administering/using/tc-rules.html).
+1. Identificeer het type van [ te vertalen inhoud ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-rules.html).
 
-1. [&#x200B; bereidt de inhoud voor vertaling &#x200B;](https://helpx.adobe.com/nl/experience-manager/6-5/sites/administering/using/tc-prep.html) voor door de taalmeester te ontwerpen en de wortelpagina&#39;s van taalexemplaren te creëren.
+1. [ bereidt de inhoud voor vertaling ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-prep.html) voor door de taalmeester te ontwerpen en de wortelpagina&#39;s van taalexemplaren te creëren.
 
-1. Creeer [&#x200B; vertaalprojecten &#x200B;](https://helpx.adobe.com/nl/experience-manager/6-5/sites/administering/using/tc-manage.html) om de inhoud te verzamelen om te vertalen en het vertaalproces voor te bereiden.
+1. Creeer [ vertaalprojecten ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html) om de inhoud te verzamelen om te vertalen en het vertaalproces voor te bereiden.
 
-1. Gebruik de vertaalprojecten om [&#x200B; het proces van de inhoudsomzetting &#x200B;](https://helpx.adobe.com/nl/experience-manager/6-5/sites/administering/using/tc-manage.html) te beheren.
+1. Gebruik de vertaalprojecten om [ het proces van de inhoudsomzetting ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html) te beheren.
 
 
-Wanneer uw vertaalservicebureau geen aansluiting voor integratie met AEM biedt, ondersteunt AEM het handmatig exporteren en importeren van vertaalde inhoud in XML-indeling.
+Als uw vertaalservicebureau geen aansluiting voor integratie met AEM biedt, biedt AEM ondersteuning voor het handmatig exporteren en importeren van vertaalde inhoud in XML-indeling.
 
 >[!TIP]
 >
-> Zie de *sectie van de Vertaling* in de Beste praktijken gids voor beste praktijken rond het vertalen van inhoud.
+> Zie de *Vertaling* sectie in de Beste praktijken gids voor beste praktijken rond het vertalen van inhoud.
 
 ## Het tabblad Vertaling op het dashboard voor de DITA-kaart configureren
 
@@ -88,7 +88,7 @@ Op basis van de vertaalworkflow die in uw installatie wordt gebruikt, moet de op
 
    >[!NOTE]
    >
-   > Als u vertaalschakelaar gebruikt, dan zorg ervoor dat u de schakelaar zoals die in *[wordt beschreven vormend het Kader van de Integratie van de Vertaling &#x200B;](https://helpx.adobe.com/nl/experience-manager/6-5/sites/administering/using/tc-tic.html)* onderwerp in AEM documentatie hebt gevormd.
+   > Als u vertaalschakelaar gebruikt, dan zorg ervoor dat u de schakelaar zoals die in *[wordt beschreven het Vormen van het Kader van de Integratie van de Vertaling ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html)* onderwerp in de documentatie van AEM hebt gevormd.
 
 1. Klik **sparen**.
 
@@ -123,6 +123,30 @@ Standaard is de optie voor de verouderde vertaalworkflow uitgeschakeld. U kunt d
 
 1. Klik **sparen**.
 
+## Het gedrag voor eerste vertaling configureren
+
+Wanneer u voor het eerst een vertaling uitvoert, worden standaard lege XML-bestanden gemaakt voor de doeltaal. Deze bestanden worden pas na goedkeuring vertaald. U kunt de instelling `Initialize destination language copy with source content` als volgt inschakelen om dit gedrag te beheren:
+
+>[!NOTE]
+>
+> Deze instelling is alleen van toepassing wanneer de verouderde vertaalworkflow is uitgeschakeld.
+
+1. Open de Adobe Experience Manager Web Console Configuration-pagina.
+
+   De standaard-URL voor toegang tot de configuratiepagina is:
+
+   ```http
+   http://<server name>:<port>/system/console/configMgr
+   ```
+
+1. Onderzoek naar en klik **com.adobe.fmdita.config.ConfigManager** bundel.
+
+1. Selecteer de instelling `Initialize destination language copy with source content` .
+
+   - Wanneer deze optie is ingeschakeld, wordt een niet-versioned kopie met de broninhoud gemaakt op basis van de werkkopie in plaats van tijdens de eerste vertaling lege XML-bestanden te genereren.
+   - (*Gebrek*) wanneer onbruikbaar gemaakt, is het standaardgedrag van toepassing en de lege dossiers van XML worden gecreeerd voor de bestemmingstaal tijdens de eerste - tijdvertaling.
+
+1. Klik **sparen**.
 
 
 
@@ -181,7 +205,7 @@ De optie voor naverwerken van tijdelijke bestanden is standaard uitgeschakeld. U
 
 1. Vorm de **post-procestaal taalexemplaren** optie zoals per uw opstelling:
 
-   - \ (*Gebrek* \) als u niet de post-verwerkingsverrichting op de tijdelijke dossiers wilt in werking stellen, dan **&#x200B; onbruikbaar maken &#x200B;** na-procestaalexemplaren** optie.
+   - \ (*Gebrek* \) als u niet de post-verwerkingsverrichting op de tijdelijke dossiers wilt in werking stellen, dan ** onbruikbaar maken **na-procestaalexemplaren** optie.
 
    - Als u de post-verwerkingsverrichting op de tijdelijke dossiers wilt in werking stellen, dan *laat* de **na-procestaalexemplaren** optie toe.
 
