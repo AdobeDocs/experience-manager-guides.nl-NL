@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Dit artikel heeft betrekking op de fouten die zijn opgelost in de 5.0.0 Service Pack 4-release van Adobe Experience Manager Guides.
 
-Leer over [ verbeteringsinstructies voor 5.0.0 Service Pack 4 versie ](upgrade-instructions-5-0-0-sp4.md).
+Leer over [&#x200B; verbeteringsinstructies voor 5.0.0 Service Pack 4 versie &#x200B;](upgrade-instructions-5-0-0-sp4.md).
 
 ## Vertaling
 
