@@ -82,7 +82,7 @@ Van de Output stelt vooraf in, selecteert **PDF** > **Native-PDF** > **Meta-gege
 
 * **verstrek XMP dossier**
 
-  U kunt de meta-gegevensgebieden ook direct bevolken door [&#x200B; XMP &#x200B;](https://www.adobe.com/products/xmp.html) (het Verlengbare Platform van Meta-gegevens) dossier in te voeren. U kunt hier een voorbeeld-XMP-bestand downloaden.
+  U kunt de meta-gegevensgebieden ook direct bevolken door [&#x200B; XMP &#x200B;](https://www.adobe.com/nl/products/xmp.html) (het Verlengbare Platform van Meta-gegevens) dossier in te voeren. U kunt hier een voorbeeld-XMP-bestand downloaden.
 
 [Downloaden](assets/SampleXMP.xmp)
 
