@@ -4,9 +4,9 @@ description: Maak en beheer nieuwe basislijn (Beta) vanaf de kaartconsole in Ado
 feature: Authoring, Features of Web Editor, Publishing
 role: User
 exl-id: 574806bb-21c5-41fe-b8be-4c6506ce8cce
-source-git-commit: ddf28ee20b15ea8bb50c555d1196532ee00d34a5
+source-git-commit: d7e5af83e88de18cd8ac2e849c9d6e1807988099
 workflow-type: tm+mt
-source-wordcount: '1274'
+source-wordcount: '1294'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,9 @@ ht-degree: 0%
 >
 > Dit artikel is op nieuwe basislijn van toepassing, momenteel beschikbaar als a *Beta* eigenschap, die betere prestaties en stabiliteit beschikbaar met Experience Manager Guides 2026.03.0 versie aanbiedt. Om de nieuwe basislijneigenschap in uw opstelling toe te laten, contacteer het Team van het Succes van de Klant.
 
-De nieuwe basislijneigenschap richt kritieke betrouwbaarheid en prestatieskwesties verbonden aan grote, complexe kaarten. Het wordt geleverd met een herontworpen basislijnarchitectuur die een snellere, stabielere en consistentere basislijnervaring biedt.
+De nieuwe basislijneigenschap richt kritieke betrouwbaarheid en prestatieskwesties verbonden aan grote, complexe kaarten. Het wordt geleverd met een herontworpen basislijnarchitectuur die een snellere, stabielere en consistentere basislijnervaring biedt. Alvorens wij in de details duiken, is hier een korte doorlichtingsvideo die de mogelijkheden van de nieuwe basislijneigenschap benadrukt.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3483154/aem-guides)
 
 Het nieuwe basislijnmodel versterkt basislijnbehandeling door de gemeenschappelijke pijnpunten aan te pakken:
 
@@ -69,9 +71,9 @@ Voer de volgende stappen uit om de bestaande basislijn naar de nieuwe basislijn 
 
 1. Selecteer het embleem van Adobe Experience Manager bij de bovenkant en kies **Hulpmiddelen**.
 1. In het **paneel van Hulpmiddelen** uitgezocht **Gidsen**.
-1. Selecteer de **tegel van de Bewerker van 0&rbrace; Bulk &lbrace;.**
+1. Selecteer de **tegel van de Bewerker van 0} Bulk {.**
 
-   ![&#x200B; stroom-activa-bewerker &#x200B;](images/flow-asset-processor.png){align="left"}
+   ![ stroom-activa-bewerker ](images/flow-asset-processor.png){align="left"}
 
    De **pagina van de Bewerker van het Bulk van Gidsen** wordt getoond.
 
@@ -85,7 +87,7 @@ Voer de volgende stappen uit om de bestaande basislijn naar de nieuwe basislijn 
    1. **Uitgezochte omslag(en) en dossier(s)**: Navigeer en kies één of veelvoudige omslagen en dossiers om te verwerken.
    1. **Uitgezochte omslag(en) om** te negeren: Naar keuze, selecteer subfolders binnen de gekozen ouderomslag om van de migratie uit te sluiten.
 
-   ![&#x200B; nieuw-proces-basislijn &#x200B;](images/new-process-baseline.png){align="left"}
+   ![ nieuw-proces-basislijn ](images/new-process-baseline.png){align="left"}
 
 1. Selecteer **creeer**.
 
@@ -93,11 +95,11 @@ Een pop-up die **activa tonen met succes teweeggebrachte verwerking van Activa**
 
 U kunt **Logboeken van de Mening** ook selecteren om de logboeken voor de migratietaak te controleren en te downloaden.
 
-![&#x200B; mening-logboeken-basislijn &#x200B;](images/view-logs-baseline.png){align="left"}
+![ mening-logboeken-basislijn ](images/view-logs-baseline.png){align="left"}
 
 Het lograpport bevat details over de migratie, zoals het aantal kaarten dat is gemigreerd, de basislijnen die met succes zijn gemigreerd en de bijbehorende details.
 
-![&#x200B; logboeken-detail-basislijn &#x200B;](images/logs-detail-baseline.png){align="left"}
+![ logboeken-detail-basislijn ](images/logs-detail-baseline.png){align="left"}
 
 >[!NOTE]
 >
@@ -105,7 +107,7 @@ Het lograpport bevat details over de migratie, zoals het aantal kaarten dat is g
 
 ## De nieuwe basislijn gebruiken
 
-Het nieuwe basislijnmodel gebruikt dezelfde workflows en gebruikersinterface als de bestaande basislijnfunctie in Experience Manager Guides. U kunt [&#x200B; blijven creëren en basislijn van de console van de Kaart beheren &#x200B;](./web-editor-baseline.md) gebruikend de beschikbare opties.
+Het nieuwe basislijnmodel gebruikt dezelfde workflows en gebruikersinterface als de bestaande basislijnfunctie in Experience Manager Guides. U kunt [ blijven creëren en basislijn van de console van de Kaart beheren ](./web-editor-baseline.md) gebruikend de beschikbare opties.
 
 >[!NOTE]
 >
@@ -129,7 +131,7 @@ De volgende updates zijn van toepassing wanneer het werken met gecreeerde basisl
    - **geeft eigenschappen** uit: Staat u toe om de eigenschappen van een bestaande basislijn uit te geven.
    - **herbouwt**: Staat u toe om een dynamische basislijn opnieuw te bouwen wanneer de veranderingen voorkomen.
 
-     ![&#x200B; rebuild-baseline &#x200B;](images/rebuild-baseline.png){align="left"}
+     ![ rebuild-baseline ](images/rebuild-baseline.png){align="left"}
 
 - De **Download** actie steunt gepagineerde downloads. Alle basislijninhoud die overeenkomt met de toegepaste filters, wordt opgenomen in de download en niet alleen de inhoud die zichtbaar is op de huidige pagina.
 - Filter bestanden op GUID, naast bestandsnamen of bestandslocatie. Een extra optie aan **dossiers van de Filter zonder etiketten** is ook beschikbaar.
@@ -148,13 +150,13 @@ De volgende updates zijn van toepassing wanneer het werken met gecreeerde basisl
    - Navigeer naar en houd de muisaanwijzer boven het bestand dat u wilt bewerken.
    - Selecteer **uitgeven** pictogram.
 
-     ![&#x200B; geef-basislijn-pictogram uit &#x200B;](images/edit-baseline-icon.png){align="left"}
+     ![ geef-basislijn-pictogram uit ](images/edit-baseline-icon.png){align="left"}
 
      Het **geeft versie** dialoog uit wordt getoond.
    - Selecteer de vereiste versie van **drop-down van de Versie** (bijvoorbeeld, verandering van versie 1.0 in 1.1).
 
 
-     ![&#x200B; uitgeven-versie-basislijn &#x200B;](images/edit-version-baseline.png){align="left"}
+     ![ uitgeven-versie-basislijn ](images/edit-version-baseline.png){align="left"}
 
      Toegevoegde en verwijderde afhankelijkheden worden geëvalueerd en als voorvertoning weergegeven. Controleer de wijzigingen voordat u ze toepast.
 
