@@ -15,9 +15,9 @@ ht-degree: 0%
 
 Dit artikel behandelt de nieuwe en verbeterde functies die zijn geïntroduceerd met de release 2026.03.0 van Adobe Experience Manager Guides as a Cloud Service.
 
-Voor de lijst van kwesties die in deze versie worden bevestigd, mening [ Vaste kwesties in de 2026.03.0 versie ](fixed-issues-2026-03-0.md).
+Voor de lijst van kwesties die in deze versie worden bevestigd, mening [&#x200B; Vaste kwesties in de 2026.03.0 versie &#x200B;](fixed-issues-2026-03-0.md).
 
-Leer over [ verbeteringsinstructies voor de versie 2026.03.0 ](../release-info/upgrade-instructions-2026-03-0.md).
+Leer over [&#x200B; verbeteringsinstructies voor de versie 2026.03.0 &#x200B;](../release-info/upgrade-instructions-2026-03-0.md).
 
 ## Introductie van producttraining en leerinhoud in Experience Manager Guides
 
@@ -41,7 +41,7 @@ De belangrijkste mogelijkheden zijn:
 - Toonaangevend vertaalbeheer
 - Multi-channel publishing using out-of-the-box SCORM and PDF output formats
 
-Voor meer details, verwijs naar [ Begonnen gids ](../learning-content/course-overview.md) en [ gids van de Configuratie ](../lc-config-guide/introduction.md).
+Voor meer details, verwijs naar [&#x200B; Begonnen gids &#x200B;](../learning-content/course-overview.md) en [&#x200B; gids van de Configuratie &#x200B;](../lc-config-guide/introduction.md).
 
 
 ## Verbeteringen in de Editor
@@ -62,7 +62,7 @@ De volgende verbeteringen zijn aangebracht in de Schematron-gebruikersinterface 
 
   ![](assets/schematron-validation-errors.png){width="350" align="left"}
 
-Voor meer details bij het gebruiken van de dossiers van Schematron in Experience Manager Guides, mening [ Steun voor de dossiers van Schematron ](../user-guide/support-schematron-file.md).
+Voor meer details bij het gebruiken van de dossiers van Schematron in Experience Manager Guides, mening [&#x200B; Steun voor de dossiers van Schematron &#x200B;](../user-guide/support-schematron-file.md).
 
 ### Vertaal-exemplaren zijn nu beschikbaar in het rechterdeelvenster van de Editor-interface
 
@@ -72,14 +72,14 @@ Een nieuwe **Vertalingen** sectie is nu beschikbaar in het Juiste paneel onder *
 
 Voor elke taalkopie kunt u de muisaanwijzer op het bestand plaatsen om het pad in de opslagplaats te vinden of het bestand selecteren om het te openen in de Editor. Naast het openen van dossiers, kunt u vele acties ook uitvoeren gebruikend het **menu van Opties**. Enkele acties die u kunt uitvoeren zijn Bewerken, Voorvertoning, UUID kopiëren, Pad kopiëren, Toevoegen aan verzamelingen en Eigenschappen.
 
-Voor meer details, mening [ Juiste paneel in de Redacteur ](../user-guide/web-editor-right-panel.md#file-properties).
+Voor meer details, mening [&#x200B; Juiste paneel in de Redacteur &#x200B;](../user-guide/web-editor-right-panel.md#file-properties).
 
 
 ### citaten zoeken in alle velden van het Dagboek
 
-Nu, kunt u citaties over alle gebieden van het Dagboek, zoals *Titel*, *Titel van het Dagboek*, *Auteur*, *Jaar*, *Volume*, *Aantal*, en *Pagina&#39;s* zoeken, gebruikend **Om het even welke gebied** optie in 16} voeg citaat **dialoog toe.** De zoekopdracht retourneert de dichtstbijzijnde overeenkomende vermelding op basis van de ingevoerde tekst.
+Nu, kunt u citaties over alle gebieden van het Dagboek, zoals *Titel*, *Titel van het Dagboek*, *Auteur*, *Jaar*, *Volume*, *Aantal*, en *Pagina&#39;s* zoeken, gebruikend **Om het even welke gebied** optie in 16&rbrace; voeg citaat **dialoog toe.** De zoekopdracht retourneert de dichtstbijzijnde overeenkomende vermelding op basis van de ingevoerde tekst.
 
-Voor meer details bij het toevoegen van citaten in Experience Manager Guides, mening [ voegt toe en beheert citaten in uw inhoud ](../user-guide/web-editor-apply-citations.md).
+Voor meer details bij het toevoegen van citaten in Experience Manager Guides, mening [&#x200B; voegt toe en beheert citaten in uw inhoud &#x200B;](../user-guide/web-editor-apply-citations.md).
 
 ![](assets/add-citations.png){width="350" align="left"}
 
@@ -97,7 +97,7 @@ De volgende verbeteringen zijn beschikbaar voor de functie Revisie in deze relea
 
 Samen zorgen deze verbeteringen ervoor dat de selectie van de recensent nauwkeuriger, efficiënter en beter afgestemd is op projectspecifieke revisieworkflows.
 
-Voor meer details, verzendt de mening [ onderwerpen voor overzicht ](../user-guide/review-send-topics-for-review.md).
+Voor meer details, verzendt de mening [&#x200B; onderwerpen voor overzicht &#x200B;](../user-guide/review-send-topics-for-review.md).
 
 ## Verbeteringen voor middelenbeheer
 
@@ -107,10 +107,10 @@ Deze release introduceert de volgende verbeteringen voor middelenbeheer:
 
 Nu kunt u de optie Eén laag maken gebruiken om een kaart met de oorspronkelijke bestandsnaam te downloaden. Bovendien bevat het gedownloade pakket een `metadata.json` -bestand, waardoor de bijbehorende metagegevens gemakkelijk toegankelijk zijn en opnieuw kunnen worden gebruikt buiten Experience Manager Guides.
 
-Voor meer details bij het downloaden van dossiers in Experience Manager Guides, mening [ de dossiers van de Download ](../user-guide/authoring-download-assets.md).
+Voor meer details bij het downloaden van dossiers in Experience Manager Guides, mening [&#x200B; de dossiers van de Download &#x200B;](../user-guide/authoring-download-assets.md).
 
 ### Regex gebruiken om naverwerking in of uit te schakelen
 
 U kunt regex nu gebruiken om naverwerking voor mappen in of uit te schakelen. Dankzij deze verbetering kunnen beheerders regels voor naverwerking definiëren die van toepassing zijn op meerdere mappen of volledige maphiërarchieën met één configuratie, in plaats van afzonderlijke mappaden op te geven.
 
-Voor meer details, mening [ Regex van het Gebruik om postverwerking ](../cs-install-guide/conf-folder-post-processing.md#use-regex-to-enable-or-disable-post-processing) toe te laten of onbruikbaar te maken.
+Voor meer details, mening [&#x200B; Regex van het Gebruik om postverwerking &#x200B;](../cs-install-guide/conf-folder-post-processing.md#use-regex-to-enable-or-disable-post-processing) toe te laten of onbruikbaar te maken.
