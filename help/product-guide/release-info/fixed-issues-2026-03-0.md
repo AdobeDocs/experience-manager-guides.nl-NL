@@ -1,7 +1,9 @@
 ---
 title: Opmerkingen bij de release | Opgeloste problemen in Adobe Experience Manager Guides, release 2026.03.0
 description: Meer informatie over de opgeloste problemen vindt u in de release 2026.03.0 van Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 764f6cc0b061020b78cd2808e08a5d05bd183c81
+exl-id: 6eca85f5-d7d3-4486-8b32-8af3a6cce4ee
+hidefromtoc: true
+source-git-commit: 22ea3fe3ccb974fe3795299f7815e7aae78d41e7
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 0%
@@ -12,9 +14,9 @@ ht-degree: 0%
 
 Dit artikel heeft betrekking op de fouten die zijn verholpen in verschillende gebieden van de release 2026.03.0 van Adobe Experience Manager Guides as a Cloud Service.
 
-Voor meer informatie over de nieuwe eigenschappen en de verhogingen, mening [&#x200B; wat in de versie 2026.03.0 &#x200B;](whats-new-2026-03-0.md) nieuw is.
+Voor meer informatie over de nieuwe eigenschappen en de verhogingen, mening [ wat in de versie 2026.03.0 ](whats-new-2026-03-0.md) nieuw is.
 
-Leer over [&#x200B; verbeteringsinstructies voor de versie 2026.03.0 &#x200B;](upgrade-instructions-2026-03-0.md).
+Leer over [ verbeteringsinstructies voor de versie 2026.03.0 ](upgrade-instructions-2026-03-0.md).
 
 ## Authoring
 
@@ -60,13 +62,3 @@ Adobe heeft de volgende bekende problemen vastgesteld voor de release 2026.03.0:
 - In Assets UI, wordt de **Beweging** knoop niet toegelaten op de eerste poging wanneer meer dan 2 dossiers of omslagen worden geselecteerd. (HULPLIJNEN-42721) <br> **Oplossing**: Na het selecteren van meer dan twee dossiers of omslagen, wacht op een paar seconden alvorens de bestemmingsomslag te selecteren.
 - Wanneer u aan **voorkeur van de Gebruiker** van de Redacteur navigeert en de wortelkaart bijwerkt terwijl de wijze van de Voorproef in de Redacteur open is, laadt de kaartvoorproef als leeg scherm wanneer u aan de Redacteur terugkeert. (HULPLIJNEN-42412) <br> **Oplossing**: Het verfrissen van de voorproef gebruikend **verfrist** pictogram beschikbaar op de wijze van de Voorproef lost de kwestie.
 - Het anders noemen van een bestaand malplaatje werkt niet de naam in het **malplaatjes van de Output** paneel bij tot de pagina manueel wordt verfrist. (HULPLIJNEN-42528) <br> **Oplossing**: Vernieuw browser om de bijgewerkte malplaatjenaam in het paneel van de malplaatjes van de Output te bekijken.
-
-
-
-
-
-
-
-
-
-

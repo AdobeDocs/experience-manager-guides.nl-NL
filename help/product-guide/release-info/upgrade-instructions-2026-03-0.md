@@ -1,7 +1,9 @@
 ---
-title: Opmerkingen bij de release | Upgradeinstructies en opgeloste problemen in Adobe Experience Manager Guides, release 2026.03.0
+title: Opmerkingen bij de release | Upgrade-instructies en opgeloste problemen in Adobe Experience Manager Guides, release 2026.03.0
 description: Leer meer over de compatibiliteitsmatrix en hoe u een upgrade uitvoert naar de release van 2026.03.0 van Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 91befea8c232cd487762ea71f522004e5ca63ee0
+exl-id: 5700e649-104d-4caf-a195-6e667a71faee
+hidefromtoc: true
+source-git-commit: 22ea3fe3ccb974fe3795299f7815e7aae78d41e7
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 0%
@@ -12,9 +14,9 @@ ht-degree: 0%
 
 Dit artikel behandelt de upgrade-instructies en de compatibiliteitsmatrix voor de release 2026.03.0 van Adobe Experience Manager Guides as a Cloud Service.
 
-Voor meer informatie over de nieuwe eigenschappen en de verhogingen, mening [&#x200B; wat in de versie 2026.03.0 &#x200B;](whats-new-2026-03-0.md) nieuw is.
+Voor meer informatie over de nieuwe eigenschappen en de verhogingen, mening [ wat in de versie 2026.03.0 ](whats-new-2026-03-0.md) nieuw is.
 
-Voor de lijst van kwesties die in deze versie worden bevestigd, mening [&#x200B; Vaste kwesties in de 2026.03.0 versie &#x200B;](fixed-issues-2026-03-0.md).
+Voor de lijst van kwesties die in deze versie worden bevestigd, mening [ Vaste kwesties in de 2026.03.0 versie ](fixed-issues-2026-03-0.md).
 
 ## Compatibiliteitsmatrix
 
@@ -54,5 +56,4 @@ Experience Manager Guides wordt automatisch bijgewerkt na de upgrade naar de nie
 >
 > Deze versie bevat updates voor de instellingen van het mapprofiel (ui_config.json). Als u aangepaste instellingen gebruikt, moet u een back-up van deze instellingen maken voordat u de upgrade uitvoert. Nadat u de update hebt uitgevoerd, kunt u de instellingen controleren en aanpassen en deze aanpassen aan de wijzigingen die u in de nieuwste versie hebt aangebracht.
 
-Controleer en valideer uw opstellingsconfiguraties om te bevestigen zij correct worden uitgevoerd. Als u om het even welke veranderingen van de douaneconfiguratie hebt geïntroduceerd, mening [&#x200B; Extra configuratie voor de bevordering van Cloud Service &#x200B;](../cs-install-guide/additional-config-for-cloud-service.md) voor om het even welke extra procedures van toepassing op de versie u van bevordert.
-
+Controleer en valideer uw opstellingsconfiguraties om te bevestigen zij correct worden uitgevoerd. Als u om het even welke veranderingen van de douaneconfiguratie hebt geïntroduceerd, mening [ Extra configuratie voor de bevordering van Cloud Service ](../cs-install-guide/additional-config-for-cloud-service.md) voor om het even welke extra procedures van toepassing op de versie u van bevordert.
