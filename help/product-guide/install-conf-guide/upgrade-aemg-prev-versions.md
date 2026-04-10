@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Dit artikel verstrekt instructies om **versies van Adobe Experience Manager Guides** **voorafgaand aan 4.6.0** (tot en met omvat **4.4.0**) te bevorderen.
 
-Als u op een versie **voorafgaand aan 3.8.5** bent, verwijs naar de **Verbetering Experience Manager Guides** sectie in de product-specifieke installatiegids beschikbaar op [&#x200B; Adobe Experience Manager Guides Help PDF archief &#x200B;](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
+Als u op een versie **voorafgaand aan 3.8.5** bent, verwijs naar de **Verbetering Experience Manager Guides** sectie in de product-specifieke installatiegids beschikbaar op [&#x200B; Adobe Experience Manager Guides Help PDF archief &#x200B;](https://helpx.adobe.com/nl/xml-documentation-for-experience-manager/archive.html).
 
 Voor verbeteringsinstructies voor nieuwere versies, verwijs naar [&#x200B; Verbetering Adobe Experience Manager Guides voor versie 4.6.0 en hierboven &#x200B;](./upgrade-aemg-latest-version.md).
 
@@ -57,7 +57,7 @@ Voor sommige upgrades moet het logniveau ook worden ingesteld op `INFO` voor een
 
 >[!NOTE]
 >
-> Dit verbeteringsproces is van toepassing **slechts** van **3.8.5** aan **4.0**. Voor verbeteringen van **3.4 of hoger** aan **3.8.5**, verwijs naar de product-specifieke installatiegids beschikbaar op [&#x200B; Adobe Experience Manager Guides Help PDF archiveren &#x200B;](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
+> Dit verbeteringsproces is van toepassing **slechts** van **3.8.5** aan **4.0**. Voor verbeteringen van **3.4 of hoger** aan **3.8.5**, verwijs naar de product-specifieke installatiegids beschikbaar op [&#x200B; Adobe Experience Manager Guides Help PDF archiveren &#x200B;](https://helpx.adobe.com/nl/xml-documentation-for-experience-manager/archive.html).
 
 Als u versie van Experience Manager Guides **3.8.5** gebruikt, kunt u aan versie **4.0** bevorderen zonder de vorige versie te desinstalleren.
 

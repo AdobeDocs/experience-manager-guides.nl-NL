@@ -45,7 +45,7 @@ Raadpleeg de volgende procedures voor meer informatie:
 
 >[!IMPORTANT]
 >
-> Als u momenteel op AEM 6.5 werkt en van plan bent over te stappen op AEM 6.5 LTS, dient u eerst de AEM-upgrade te voltooien voordat u verdergaat met de Experience Manager Guides 5.1.0-upgrade. Voor details, mening [&#x200B; Bevorderend aan Adobe Experience Manager (AEM) 6.5 LTS &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
+> Als u momenteel op AEM 6.5 werkt en van plan bent over te stappen op AEM 6.5 LTS, dient u eerst de AEM-upgrade te voltooien voordat u verdergaat met de Experience Manager Guides 5.1.0-upgrade. Voor details, mening [&#x200B; Bevorderend aan Adobe Experience Manager (AEM) 6.5 LTS &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
 
 **Eerste vereisten**
 
@@ -249,7 +249,7 @@ Aangezien de waarde van `'order'` tijdens deze upgrade is gewijzigd van 1000 in 
 
 ### Stappen om de damAssetLucene opnieuw te indexeren
 
-De indexdefinitie is bijgewerkt voor damAssetLucene met AEM Guides. Na bevordering aan de vereiste versie, verwijs naar [&#x200B; dit artikel &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) voor het opnieuw indexeren van damAssetLucene.
+De indexdefinitie is bijgewerkt voor damAssetLucene met AEM Guides. Na bevordering aan de vereiste versie, verwijs naar [&#x200B; dit artikel &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-16460) voor het opnieuw indexeren van damAssetLucene.
 
 >[!NOTE]
 >

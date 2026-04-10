@@ -25,11 +25,11 @@ Voer de volgende stappen uit om de installatie te verifiëren:
 
 1. Open de Developer Console van je Cloud Service.
 
-   Voor details om tot Developer Console toegang te hebben, zie {de toegang van 0} Developer Console [&#x200B; in de documentatie van AEM.](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html)
+   Voor details om tot Developer Console toegang te hebben, zie {de toegang van 0} Developer Console [&#x200B; in de documentatie van AEM.](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=nl-NL)
 
 1. Open de lijst met OSGi-bundels in AEM.
 
-   Voor details om tot Bundels toegang te hebben, zie [&#x200B; Bundels &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=en#bundles) in de documentatie van AEM.
+   Voor details om tot Bundels toegang te hebben, zie [&#x200B; Bundels &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=nl-NL#bundles) in de documentatie van AEM.
 
 1. Zoek naar fmdita in de lijst van bundels en controleer zijn status.
 

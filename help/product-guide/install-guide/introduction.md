@@ -69,9 +69,9 @@ De informatie in deze handleiding is als volgt geordend:
 
 ## Aanvullende bronnen
 
-Na is een lijst van andere nuttige middelen van AEM Guides, die op [&#x200B; &#x200B;](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html) pagina Leren &amp; van de Steun beschikbaar zijn:
+Na is een lijst van andere nuttige middelen van AEM Guides, die op [&#x200B; &#x200B;](https://helpx.adobe.com/nl/support/xml-documentation-for-experience-manager.html) pagina Leren &amp; van de Steun beschikbaar zijn:
 
 - Handboek
 - API-naslaggids
 - Handleiding voor snel starten
-- [&#x200B; de Archiefpagina van het Archief van de Hulp &#x200B;](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \ (de documentatie van de toegangsoudere versie \)
+- [&#x200B; de Archiefpagina van het Archief van de Hulp &#x200B;](https://helpx.adobe.com/nl/xml-documentation-for-experience-manager/archive.html) \ (de documentatie van de toegangsoudere versie \)

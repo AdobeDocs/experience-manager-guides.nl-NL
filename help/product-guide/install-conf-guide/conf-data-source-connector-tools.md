@@ -175,4 +175,4 @@ U bekijkt een fout als de schakelaar met de zelfde naam bestaat.
 
 Zodra u de gegevensbron hebt gevormd, is de schakelaar vermeld onder het **paneel van Gegevensbronnen** in de Redacteur van het Web. U kunt dan met de gegevensbron verbinden en een inhoudsfragment opnemen in uw onderwerpen. Voor meer details, neemt de mening [&#x200B; een inhoudsfragment van uw gegevensbron &#x200B;](../user-guide/web-editor-content-snippet.md) op.
 
-Alleen voor installatie op locatie kunt u ook aangepaste connectors maken en deze gebruiken met de verschillende gegevensbronnen. Leer hoe te om [&#x200B; douaneschakelaars &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/external-data-source/conf-custom-data-source-connector) te vormen.
+Alleen voor installatie op locatie kunt u ook aangepaste connectors maken en deze gebruiken met de verschillende gegevensbronnen. Leer hoe te om [&#x200B; douaneschakelaars &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/knowledge-base/kb-articles/external-data-source/conf-custom-data-source-connector) te vormen.

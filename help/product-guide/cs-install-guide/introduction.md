@@ -65,18 +65,18 @@ De informatie in deze handleiding is als volgt geordend:
 
 ## Overzicht van Adobe Experience Manager \(AEM\)
 
-[&#x200B; Adobe Experience Manager \ (AEM \) &#x200B;](https://business.adobe.com/products/experience-manager/adobe-experience-manager.html) is een uitvoerige oplossing van het inhoudsbeheer voor de bouw van websites, mobiele apps, en vormen. AEM helpt u bij het beheren van uw marketinginhoud en -middelen. AEM is beschikbaar in as a Cloud Service. Met AEM as a Cloud Service kunt u uw klanten een persoonlijk tintje bieden door de kracht van het AEM Content Management System te combineren met AEM Digital Asset Management.Enkele belangrijke bronnen die u kunnen helpen om aan de slag te gaan en te implementeren in AEM as a Cloud Service zijn:
+[&#x200B; Adobe Experience Manager \ (AEM \) &#x200B;](https://business.adobe.com/nl/products/experience-manager/adobe-experience-manager.html) is een uitvoerige oplossing van het inhoudsbeheer voor de bouw van websites, mobiele apps, en vormen. AEM helpt u bij het beheren van uw marketinginhoud en -middelen. AEM is beschikbaar in as a Cloud Service. Met AEM as a Cloud Service kunt u uw klanten een persoonlijk tintje bieden door de kracht van het AEM Content Management System te combineren met AEM Digital Asset Management.Enkele belangrijke bronnen die u kunnen helpen om aan de slag te gaan en te implementeren in AEM as a Cloud Service zijn:
 
-- [&#x200B; Experience Manager as a Cloud Service Overzicht &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html?lang=en)
-- [&#x200B; Begonnen het worden met de Weg van de Migratie aan AEM as a Cloud Service &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/migration-journey/getting-started.html?lang=en)
-- [&#x200B; Begin aan boord gaan aan Experience Manager as a Cloud Service &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/home.html?lang=enhttps://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/home.html?lang=en)
-- [Applicaties voor AEM as a Cloud Service implementeren](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/home.html?lang=en)
-- [Implementeren naar AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/overview.html?lang=en)
-- [&#x200B; de Gids van as a Cloud Service van Assets &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/home.html?lang=en)
+- [&#x200B; Experience Manager as a Cloud Service Overzicht &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html?lang=nl-NL)
+- [&#x200B; Begonnen het worden met de Weg van de Migratie aan AEM as a Cloud Service &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/migration-journey/getting-started.html?lang=nl-NL)
+- [&#x200B; Begin aan boord gaan aan Experience Manager as a Cloud Service &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/home.html?lang=nl-NLhttps://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/home.html?lang=en)
+- [Applicaties voor AEM as a Cloud Service implementeren](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/home.html?lang=nl-NL)
+- [Implementeren naar AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/overview.html?lang=nl-NL)
+- [&#x200B; de Gids van as a Cloud Service van Assets &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/home.html?lang=nl-NL)
 
 ## Aanvullende bronnen
 
-Na is een lijst van andere nuttige middelen van AEM Guides, die op [&#x200B; &#x200B;](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html) pagina Leren &amp; van de Steun beschikbaar zijn:
+Na is een lijst van andere nuttige middelen van AEM Guides, die op [&#x200B; &#x200B;](https://helpx.adobe.com/nl/support/xml-documentation-for-experience-manager.html) pagina Leren &amp; van de Steun beschikbaar zijn:
 
 - Handboek
 - API-naslaggids

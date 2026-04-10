@@ -94,7 +94,7 @@ Selecteer deze optie om de sjabloon weer te geven in de gebruikersinterface van 
 
 Nadat u de aangepaste sjabloon hebt gemaakt, kunt u deze kiezen in de voorinstelling voor pagina-indelingen in de PDF-uitvoervoorinstelling.
 
-Leer hoe te [&#x200B; een output van PDF &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=en) publiceren.
+Leer hoe te [&#x200B; een output van PDF &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=nl-NL) publiceren.
 
 >[!NOTE]
 >

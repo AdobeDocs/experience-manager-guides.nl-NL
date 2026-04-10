@@ -98,7 +98,7 @@ De eigenschappen van de AEM Guides-ontwerpsjabloon worden in de volgende tabel b
 >
 > Nadat u een aangepaste ontwerpsjabloonnode hebt gemaakt, moet u de optie Ontwerpen in de uitvoervoorinstellingen van de AEM-site bijwerken om het aangepaste ontwerpsjabloonknooppunt te kunnen gebruiken.
 
-Voor meer informatie, zie [&#x200B; Creërend uw eerste website van Adobe Experience Manager &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=en) en [&#x200B; de Grondbeginselen &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=en) van het ontwikkelen van uw eigen website op AEM.
+Voor meer informatie, zie [&#x200B; Creërend uw eerste website van Adobe Experience Manager &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=nl-NL) en [&#x200B; de Grondbeginselen &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=nl-NL) van het ontwikkelen van uw eigen website op AEM.
 
 ## Documenttitel gebruiken om uitvoer van AEM-sites te genereren
 

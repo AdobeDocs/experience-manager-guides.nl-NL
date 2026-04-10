@@ -272,7 +272,7 @@ Op de volgende tabbladen vindt u instructies waarmee u de tijdelijke vertaalmap 
 
 >[!NOTE]
 >
-> Met deze procedure kunt u elke andere maplocatie aan de lijst met uitsluitingen toevoegen. Voor meer details over het werken met indexen, zie [&#x200B; Inhoud Onderzoek en het Indexeren &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html).
+> Met deze procedure kunt u elke andere maplocatie aan de lijst met uitsluitingen toevoegen. Voor meer details over het werken met indexen, zie [&#x200B; Inhoud Onderzoek en het Indexeren &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html?lang=nl-NL).
 
 1. Voeg de volgende eigenschap toe aan de aangepaste damAssetLucene-index:
 

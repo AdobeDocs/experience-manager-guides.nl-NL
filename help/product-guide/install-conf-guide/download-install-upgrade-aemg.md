@@ -26,7 +26,7 @@ Voer de volgende stappen uit voor het upgraden van AEM Guides:
 
 >[!NOTE]
 >
-> Voor meer details over het gebruiken van CI/CD pijpleiding, zie [&#x200B; Gebruik CI/CD Pijpleiding in Adobe Cloud Manager &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/cloud-manager/use-the-cicd-pipeline-in-cloud-manager-for-aem.html).
+> Voor meer details over het gebruiken van CI/CD pijpleiding, zie [&#x200B; Gebruik CI/CD Pijpleiding in Adobe Cloud Manager &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/cloud-manager/use-the-cicd-pipeline-in-cloud-manager-for-aem.html?lang=nl-NL).
 
 ## Browser-cache wissen
 

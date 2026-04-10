@@ -46,10 +46,10 @@ U hebt met succes uw programma voor automatische levering van de oplossing van E
 
 ## Dispatcher configureren
 
-Dispatcher is de Adobe Experience Manager-tool voor cache- en taakverdelingsbewerkingen. Voor meer details, verwijs naar [&#x200B; Dispatcher in de Wolk &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html?lang=en).
+Dispatcher is de Adobe Experience Manager-tool voor cache- en taakverdelingsbewerkingen. Voor meer details, verwijs naar [&#x200B; Dispatcher in de Wolk &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html?lang=nl-NL).
 
-1. Voor het migreren van de vraagconfiguratie van AMS aan de wolkendienst, verwijs naar [&#x200B; het Migreren van de configuratie van Dispatcher van AMS aan AEM as a Cloud Service &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/content-delivery/ams-aem.html?lang=en).
-1. Voor details op hoe te om dispatcher te vormen, zie [&#x200B; Vormend Dispatcher &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=en).
+1. Voor het migreren van de vraagconfiguratie van AMS aan de wolkendienst, verwijs naar [&#x200B; het Migreren van de configuratie van Dispatcher van AMS aan AEM as a Cloud Service &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/content-delivery/ams-aem.html?lang=nl-NL).
+1. Voor details op hoe te om dispatcher te vormen, zie [&#x200B; Vormend Dispatcher &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=nl-NL).
 
 >[!NOTE]
 >

@@ -160,7 +160,7 @@ Maak de volgende indexdefinitie in uw project op:
 
 ## Implementatiestappen
 
-Voor gedetailleerde instructies bij het opstellen van douaneindexen aan AEM as a Cloud Service, bekijk [&#x200B; Inhoud Onderzoek en het Indexeren - AEM as a Cloud Service &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/indexing).
+Voor gedetailleerde instructies bij het opstellen van douaneindexen aan AEM as a Cloud Service, bekijk [&#x200B; Inhoud Onderzoek en het Indexeren - AEM as a Cloud Service &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/operations/indexing).
 
 ### Belangrijke punten voor deze index
 
@@ -208,7 +208,7 @@ De belangrijkste verificatie is het testen van de functie:
 
 ## Aanvullende bronnen
 
-- [&#x200B; AEM as a Cloud Service Indexing Documentation &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/indexing)
+- [&#x200B; AEM as a Cloud Service Indexing Documentation &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/operations/indexing)
 - [&#x200B; Apache Jackrabbit Oak Indexing Guide &#x200B;](https://jackrabbit.apache.org/oak/docs/query/indexing.html)
-- [&#x200B; Documentatie van AEM Guides &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-guides)
+- [&#x200B; Documentatie van AEM Guides &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-guides)
 - [Documentatie voor Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager)

@@ -178,4 +178,4 @@ Installeer het **Pakket van Componenten (gidsen-componenten.all-1.x.x.zip)** en 
 
 >[!NOTE]
 >
-> Voor de opstelling van Cloud Service, zorg ervoor alle configuraties in een non-production milieu alvorens aan productie worden getest. <br><br> verwijs naar het officiële [&#x200B; Opstellen aan de documentatie van AEM as a Cloud Service &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview) voor extra details.
+> Voor de opstelling van Cloud Service, zorg ervoor alle configuraties in een non-production milieu alvorens aan productie worden getest. <br><br> verwijs naar het officiële [&#x200B; Opstellen aan de documentatie van AEM as a Cloud Service &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/implementing/deploying/overview) voor extra details.
