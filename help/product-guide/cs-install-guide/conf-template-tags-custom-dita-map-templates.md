@@ -5,7 +5,8 @@ exl-id: a0eeb43c-06e4-4922-a005-704e8929063f
 feature: Template Configuration
 role: Admin
 level: Experienced
-source-git-commit: 83971ee35a19cf0146ddd034b1ae7a345f587663
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 0%
@@ -24,7 +25,7 @@ Voer de volgende stappen uit om uw malplaatjes van de douanekaart toe te voegen:
 
    >[!NOTE]
    >
-   > Om een douaneplaats te vormen om onderwerp op te slaan of malplaatjes in kaart te brengen, zie [&#x200B; de weg van de malplaatjeomslag van douane DITA &#x200B;](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z) vormen
+   > Om een douaneplaats te vormen om onderwerp op te slaan of malplaatjes in kaart te brengen, zie [ de weg van de malplaatjeomslag van douane DITA ](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z) vormen
 
 1. Klik **creëren** \> **Sjabloon DITA**.
 
@@ -49,7 +50,7 @@ Voer de volgende stappen uit om uw malplaatjes van de douanekaart toe te voegen:
    U kunt de sjabloon openen om te bewerken in de Kaarteditor of het sjabloonbestand opslaan op de opslaglocatie van de sjabloon. Zodra het malplaatje wordt gecreeerd, kunt u de Redacteur van de Kaart gebruiken om het malplaatje aan uw auteursbehoeften aan te passen. Als een sjabloon eenmaal is ingesteld, moet u deze koppelen aan een algemeen profiel of aan een mapprofiel.
 
 
-De volgende keer dat u een nieuwe kaart maakt, wordt de sjabloon weergegeven op de pagina Vervagen. Zie de handleiding Adobe Experience Manager Guides gebruiken voor meer informatie over het maken van een DITA-kaart.
+De volgende keer dat u een nieuwe kaart maakt, wordt de sjabloon weergegeven op de pagina Vervagen. Zie de handleiding Adobe Experience Manager Guides as a Cloud Service gebruiken voor meer informatie over het maken van een DITA-kaart.
 
 >[!TIP]
 >
@@ -61,7 +62,7 @@ De volgende keer dat u een nieuwe kaart maakt, wordt de sjabloon weergegeven op 
 U kunt de drempel voor asynchrone verwerking vormen die op het aantal verwijzingen in de kaart DITA wordt gebaseerd. Standaard worden kaarten met meer dan 5 verwijzingen gemaakt via asynchrone bewerkingen, terwijl kaarten met minder verwijzingen synchrone bewerkingen blijven gebruiken.
 
 
-Gebruik de instructies die in [&#x200B; worden gegeven met voeten treedt van de Configuratie &#x200B;](download-install-additional-config-override.md#) om het configuratiedossier tot stand te brengen. In het configuratiedossier, verstrek de volgende (bezit) details om aantal verwijzingen in het DITA kaartmalplaatje te specificeren om het proces synchroon te houden:
+Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](download-install-additional-config-override.md#) om het configuratiedossier tot stand te brengen. In het configuratiedossier, verstrek de volgende (bezit) details om aantal verwijzingen in het DITA kaartmalplaatje te specificeren om het proces synchroon te houden:
 
 | PID | Eigenschappensleutel | Waarde van eigenschap |
 |---|------------|--------------|
@@ -71,4 +72,4 @@ Wanneer het creëren van een kaart DITA met grote onderwerpverwijzingen gebruike
 
 Om dit te verhinderen, vorm **asynchrone dita kaartverwezenlijking** in XmlEditorConfig die taken om parallel toestaat te lopen en verwerkingstijden voor grotere kaarten te verminderen DITA.
 
-**Bovenliggend onderwerp:** [&#x200B; vorm onderwerp en kaartmalplaatjes &#x200B;](conf-template-tags.md)
+**Bovenliggend onderwerp:** [ vorm onderwerp en kaartmalplaatjes ](conf-template-tags.md)

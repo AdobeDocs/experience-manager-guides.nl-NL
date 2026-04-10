@@ -5,7 +5,8 @@ exl-id: e5e50cb8-45a9-4045-abac-88a3de62803d
 feature: Filename Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '70'
 ht-degree: 0%
@@ -20,4 +21,4 @@ Dit onderwerp behandelt informatie over het werken met filenames voor uw DITA do
 
 - **[vorm Regx voor geldige dossier - noem karakters](conf-file-names-valid-regx.md)**
 
-- **[vorm geldige dossiernamen voor AEM output van de Plaats](conf-file-names-valid-regx-aem-site-output.md)**
+- **[vorm geldige dossiernamen voor de output van de Plaats van AEM](conf-file-names-valid-regx-aem-site-output.md)**

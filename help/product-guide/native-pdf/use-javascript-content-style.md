@@ -1,11 +1,12 @@
 ---
-title: Native PDF Publish-functie | JavaScript gebruiken om te werken met inhoud of stijl
+title: Native PDF-publicatiefunctie | JavaScript gebruiken om te werken met inhoud of stijl
 description: Leer hoe u gebruiksstijlen maakt en stijlen voor uw inhoud maakt.
 exl-id: 2f301f6a-0d1c-4194-84c2-0fddaef8d3ec
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: ad12cac61d14bc68bf73dc407a74a22c8248d7b3
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 0%
@@ -14,12 +15,12 @@ ht-degree: 0%
 
 # JavaScript gebruiken om te werken met inhoud of stijl
 
-Met de functie Native PDF Publishing kunt u JavaScript uitvoeren om de inhoud of stijl die op de inhoud is toegepast, te bewerken voordat de definitieve PDF wordt gegenereerd. Met deze functie hebt u volledige controle over de manier waarop de uiteindelijke uitvoer wordt gegenereerd. U kunt bijvoorbeeld informatie over juridische kennisgevingen toevoegen aan de uitvoer van de PDF, die zich in een andere PDF bevindt. Met JavaScript kunt u de informatie over de juridische kennisgeving toevoegen zodra de PDF is gemaakt voor de basisinhoud, maar voordat de laatste PDF wordt gegenereerd.\
-Ter ondersteuning van JavaScript-uitvoering biedt de functie Native PDF publiceren u de volgende callback-functies:
+Met de functie Native PDF Publishing kunt u JavaScript uitvoeren om de inhoud of stijl die op de inhoud is toegepast, te bewerken voordat de uiteindelijke PDF wordt gegenereerd. Met deze functie hebt u volledige controle over de manier waarop de uiteindelijke uitvoer wordt gegenereerd. U kunt bijvoorbeeld informatie over juridische kennisgevingen toevoegen aan de PDF-uitvoer, die zich in een andere PDF bevindt. Met JavaScript kunt u de informatie over de juridische kennisgeving toevoegen zodra de PDF voor de basisinhoud is gemaakt, maar voordat de uiteindelijke PDF wordt gegenereerd.\
+Ter ondersteuning van JavaScript-uitvoering biedt de functie Native PDF Publishing u de volgende callback-functies:
 
 * `window.pdfLayout.onBeforeCreateTOC(callback)`: deze callback functie wordt uitgevoerd voordat de inhoudsopgave wordt gegenereerd.
 * `window.pdfLayout.onBeforePagination(callback)`: deze callback functie wordt uitgevoerd nadat de inhoudsopgave is gegenereerd, maar voordat pagina-einden in de PDF worden toegevoegd.
-* `window.pdfLayout.onAfterPagination(callback)`: deze callback functie wordt uitgevoerd na de inhoudsopgave en de pagina-einden worden toegevoegd aan de PDF.
+* `window.pdfLayout.onAfterPagination(callback)`: deze callback functie wordt uitgevoerd na de inhoudsopgave en de pagina-einden worden toegevoegd in de PDF.
 
 >[!NOTE]
 >
@@ -76,7 +77,7 @@ De uitvoer die met deze code wordt gegenereerd en de sjabloon geeft de figuurtit
 ## Een watermerk toevoegen aan de PDF-uitvoer voor conceptdocumenten {#watermark-draft-document}
 
 U kunt JavaScript ook gebruiken om voorwaardelijke watermerken toe te voegen. Deze watermerken worden aan het document toegevoegd wanneer aan de gedefinieerde voorwaarde is voldaan.\
-U kunt bijvoorbeeld een JavaScript-bestand met de volgende code maken om een watermerk te maken voor de PDF-uitvoer van het document dat nog niet is goedgekeurd. Dit watermerk wordt niet weergegeven als u de PDF voor het document genereert in de documentstatus &quot;Goedgekeurd&quot;.
+U kunt bijvoorbeeld een JavaScript-bestand met de volgende code maken om een watermerk te maken voor de PDF-uitvoer van het document dat nog niet is goedgekeurd. Dit watermerk wordt niet weergegeven als u de PDF voor het document genereert in de documentstatus &#39;Goedgekeurd&#39;.
 
 ```css
 ...
@@ -101,6 +102,6 @@ window.addEventListener('DOMContentLoaded', function () {
 ...
 ```
 
-De PDF output die gebruikend deze code wordt geproduceerd toont een watermerk *Concept* op de omslagpagina van uw document:
+De output van PDF die gebruikend deze code wordt geproduceerd toont een watermerk *Ontwerp* op de omslagpagina van uw document:
 
 <img src="./assets/draft-watermark.png" width="500">

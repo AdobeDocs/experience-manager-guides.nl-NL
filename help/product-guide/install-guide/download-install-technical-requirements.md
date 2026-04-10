@@ -5,7 +5,8 @@ exl-id: d69245b0-bf20-43c1-b46e-b6c220319690
 feature: Introduction, Installation
 role: Admin
 level: Experienced
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 0%
@@ -23,7 +24,7 @@ Voordat u Adobe Experience Manager Guides installeert, moet u controleren of uw 
 
 >[!NOTE]
 >
-> [&#x200B; leer meer over de versies van Experience Manager Guides en download de bouwstijl &#x200B;](../release-info/latest-release-info.md).
+> [ leer meer over de versies van Experience Manager Guides en download de bouwstijl ](../release-info/latest-release-info.md).
 
 
 | [!DNL AEM Guides] Release | Technische specificaties |
@@ -38,4 +39,4 @@ Voordat u Adobe Experience Manager Guides installeert, moet u controleren of uw 
 | **AEM Guides 3.8.5** <br><br> 3.8.5 is een versie van SP bovenop 3.8.  <br> 3.8-release mag niet <br> zelfstandig worden geïnstalleerd omdat 3.8.5 SP <br> een kritieke oplossing bevat. <br> Klanten moeten eerst 3.8 <br> installeren en vervolgens SP 3.8.5. | **niet-UUID** <br> <ul><li>AEM 6.5 SP9 of SP8 <br> AEM 6.4 SP8 <br> AEM 6.3 SP3   <br><br> <li>Besturingssystemen: <ul><li>Windows Server 2012 R2 <br> <li> Red Hat Linux 7 en 6</ul><br> **UUID** <br><li> AEM 6.5 SP9 of SP8 <br><br> <li> Besturingssystemen: <ul><li>Windows Server 2012 R2 <br> <li>Red Hat Linux 7 en 6 |
 
 
-**Bovenliggend onderwerp:** [&#x200B; Download en installeer &#x200B;](download-install.md)
+**Bovenliggend onderwerp:** [ Download en installeer ](download-install.md)

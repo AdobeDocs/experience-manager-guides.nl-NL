@@ -5,7 +5,8 @@ exl-id: 4693b102-b75a-4904-b2d5-914e774305f3
 feature: Introduction, Installation
 role: Admin
 level: Experienced
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 0%
@@ -14,27 +15,27 @@ ht-degree: 0%
 
 # Adobe Experience Manager installeren {#id213BCI020E8}
 
-AEM Guides is een plug-in die boven op Adobe Experience Manager wordt geïnstalleerd. De installatie AEM vereist inzicht in sommige basis AEM concepten en geadviseerde plaatsingsscenario&#39;s. De volgende koppelingen helpen u aan de slag te gaan met AEM installatie:
+AEM Guides is een plug-in die boven op Adobe Experience Manager wordt geïnstalleerd. Voor de installatie van AEM is het nodig dat u op de hoogte bent van een aantal basisbeginselen van AEM en van de aanbevolen implementatiescenario&#39;s. De volgende koppelingen helpen u aan de slag te gaan met de installatie van AEM:
 
-- [&#x200B; Basis AEM Concepten &#x200B;](https://helpx.adobe.com/nl/experience-manager/6-5/sites/deploying/using/deploy.html#BasicConcepts)
+- [ BasisAEM Concepten ](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/deploy.html#BasicConcepts)
 
-- [&#x200B; geadviseerde AEM Inzettingsaties &#x200B;](https://helpx.adobe.com/nl/experience-manager/6-5/sites/deploying/using/recommended-deploys.html)
+- [ Aanbevolen de Plaatsingen van AEM ](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/recommended-deploys.html)
 
 
 >[!IMPORTANT]
 >
-> Als u Java 11 met AEM 6.5.x gebruikt, zou u een kwestie kunnen onder ogen zien - *JDK 11 oorzaken`NoClassDefFoundError`*. Verwijs [&#x200B; JDK 11 oorzaken NoClassDefFoundError \| AEM artikel 6.5 &#x200B;](https://helpx.adobe.com/experience-manager/kb/jdk-11-causes-noclassdeffounderror---aem-6-5.html) om dit probleem op te lossen.
+> Als u Java 11 met AEM 6.5.x gebruikt, zou u een kwestie kunnen onder ogen zien - *JDK 11 oorzaken`NoClassDefFoundError`*. Verwijs [ JDK 11 oorzaken NoClassDefFoundError \| AEM 6.5 ](https://helpx.adobe.com/experience-manager/kb/jdk-11-causes-noclassdeffounderror---aem-6-5.html) artikel om deze kwestie op te lossen.
 
-Zodra u de plaatsingsstrategie hebt geïdentificeerd die het best voor uw organisatie werkt, voer het installatieproces zoals die in *[wordt beschreven Begonnen &#x200B;](https://helpx.adobe.com/nl/experience-manager/6-5/sites/deploying/using/deploy.html#GettingStarted)* sectie in AEM documentatie uit.
+Zodra u de plaatsingsstrategie hebt geïdentificeerd die het best voor uw organisatie werkt, voer het installatieproces zoals die in *[wordt beschreven Begonnen ](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/deploy.html#GettingStarted)* sectie in de documentatie van AEM uit.
 
-Als u van plan bent om uw AEM instantie te bevorderen, dan moet u de bepaalde opeenvolging volgen:
+Als u van plan bent een upgrade uit te voeren voor uw AEM-exemplaar, moet u de volgende stappen uitvoeren:
 
 1. Verwijder AEM Guides.
-1. Voer een upgrade uit op uw AEM.
+1. Voer een upgrade uit op uw AEM-exemplaar.
 1. AEM Guides installeren.
 
 >[!IMPORTANT]
 >
-> Er zijn een aantal aanbevelingen voor het optimaliseren van de prestaties die u kunt overwegen om de systeemprestaties te verbeteren. Zie [&#x200B; Recommendations voor prestatiesoptimalisering &#x200B;](download-install-recommend-perf-optimiz.md#) voor details.
+> Er zijn een aantal aanbevelingen voor het optimaliseren van de prestaties die u kunt overwegen om de systeemprestaties te verbeteren. Zie [ Aanbevelingen voor prestatiesoptimalisering ](download-install-recommend-perf-optimiz.md#) voor details.
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; Download en installeer &#x200B;](download-install.md)
+**Bovenliggend onderwerp:**[ Download en installeer ](download-install.md)

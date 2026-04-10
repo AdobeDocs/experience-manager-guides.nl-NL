@@ -5,7 +5,8 @@ exl-id: 1ef09820-3b18-4762-b177-4d40926e21f0
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 0%
@@ -18,7 +19,7 @@ Wanneer u werkt in de webeditor, moet u het bladerdialoogvenster voor bestanden 
 
 Voer de volgende stappen uit om uw aangepaste filteropties voor bestanden toe te voegen aan het bladerdialoogvenster van het bestand:
 
-1. Meld u aan bij AEM en open de modus CRXDE Lite.
+1. Meld u aan bij AEM en open de CRXDE Lite-modus.
 
 1. Navigeer naar het standaardconfiguratiebestand dat beschikbaar is op de volgende locatie:
 

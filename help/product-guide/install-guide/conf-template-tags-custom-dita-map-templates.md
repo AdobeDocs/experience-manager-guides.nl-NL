@@ -5,7 +5,8 @@ exl-id: ea8a6687-1a7b-45c7-8cbc-161f9e88a8be
 feature: Template Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 0%
@@ -24,7 +25,7 @@ Voer de volgende stappen uit om uw malplaatjes van de douanekaart toe te voegen:
 
    >[!NOTE]
    >
-   > Om een douaneplaats te vormen om onderwerp op te slaan of malplaatjes in kaart te brengen, zie [&#x200B; de weg van de malplaatjeomslag van douane DITA &#x200B;](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z) vormen
+   > Om een douaneplaats te vormen om onderwerp op te slaan of malplaatjes in kaart te brengen, zie [ de weg van de malplaatjeomslag van douane DITA ](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z) vormen
 
 1. Klik **creëren** \> **Sjabloon DITA**.
 
@@ -55,4 +56,4 @@ De volgende keer dat u een nieuwe kaart maakt, wordt de sjabloon weergegeven op 
 >
 > Zie de *sectie van de Malplaatjes van de Douane* in de Beste praktijken gids voor beste praktijken rond het gebruiken van de malplaatjes van de douanekaart.
 
-**Bovenliggend onderwerp:** [&#x200B; vorm onderwerp en kaartmalplaatjes &#x200B;](conf-template-tags.md)
+**Bovenliggend onderwerp:** [ vorm onderwerp en kaartmalplaatjes ](conf-template-tags.md)

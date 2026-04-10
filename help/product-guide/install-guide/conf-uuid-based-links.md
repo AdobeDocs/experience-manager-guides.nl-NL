@@ -5,7 +5,8 @@ exl-id: ab1b0ecf-cb50-4fcd-b36e-d16a8c396054
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 0%
@@ -28,11 +29,11 @@ Voer de volgende stappen uit om de relatieve weg of UUID van de referenced inhou
 
 1. Onderzoek naar en klik op **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** bundel.
 
-1. In de *montages 0&rbrace; XmlEditorConfig,**laat**&#x200B;optie UUIDs toe wordt toegelaten door gebrek.* Dit impliceert dat UUID van de referenced inhoud in het **bezit van de Verbinding** in het paneel van Eigenschappen wordt getoond.
+1. In de *montages 0} XmlEditorConfig,* laat **optie UUIDs toe wordt toegelaten door gebrek.** Dit impliceert dat UUID van de referenced inhoud in het **bezit van de Verbinding** in het paneel van Eigenschappen wordt getoond.
 
    Als u de relatieve weg van de verbonden inhoud wilt tonen, dan schrap **toelaten UIDs** optie.
 
 1. Klik **sparen**.
 
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; pas de Redacteur van het Web &#x200B;](conf-web-editor.md) aan
+**Bovenliggend onderwerp:**[ pas de Redacteur van het Web ](conf-web-editor.md) aan

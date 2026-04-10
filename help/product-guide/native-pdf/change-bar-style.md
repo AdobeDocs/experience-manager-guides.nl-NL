@@ -1,11 +1,12 @@
 ---
-title: Native PDF Publish-functie | Werken met aangepaste wijzigingsbalken
+title: Native PDF-publicatiefunctie | Werken met aangepaste wijzigingsbalkstijlen
 description: Leer hoe u stijlen toepast op wijzigingsbalken.
 exl-id: a81ec56c-ccbb-4599-a696-8edef7a73cdd
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -14,9 +15,9 @@ ht-degree: 0%
 
 # Werken met aangepaste wijzigingsbalken
 
-Een wijzigingsbalk is een verticale lijn die nieuwe of herziene inhoud visueel identificeert. AEM Guides staat u toe om een veranderingsbar op de linkerzijde van de veranderde inhoud binnen onderwerpen en ook de veranderde onderwerpen in TOC van de output van de PDF te tonen.
+Een wijzigingsbalk is een verticale lijn die nieuwe of herziene inhoud visueel identificeert. AEM Guides staat u toe om een veranderingsbar op de linkerzijde van de veranderde inhoud binnen onderwerpen en ook de veranderde onderwerpen in TOC van de output van PDF te tonen.
 
-Voor meer details bij het tonen van de veranderingsbar, zie *PDF met de Bar van de Verandering tussen Gepubliceerde Versies* het plaatsen in [&#x200B; Uitvoer van de PDF van Publish &#x200B;](../web-editor/native-pdf-web-editor.md) creëren.
+Voor meer details bij het tonen van de veranderingsbar, zie *PDF met de Bar van de Verandering tussen Gepubliceerde Versies* plaatsen in [ publiceren de Output van PDF ](../web-editor/native-pdf-web-editor.md).
 
 ## Gewijzigde inhoud binnen onderwerpen
 
@@ -46,7 +47,7 @@ U kunt bijvoorbeeld het kleurkenmerk in de `.inserted-block` -stijl gebruiken om
 ...
 ```
 
-Op dezelfde manier kunt u de stijl `.deleted-block` gebruiken om te bepalen hoe uw verwijderde inhoud in de gepubliceerde uitvoer van PDF verschijnt.
+Op dezelfde manier kunt u de stijl `.deleted-block` gebruiken om te bepalen hoe uw verwijderde inhoud in de gepubliceerde PDF-uitvoer wordt weergegeven.
 
 ```css
 ...
@@ -83,7 +84,7 @@ U kunt bijvoorbeeld het kenmerk `-ro-change-bar-color` in `.inserted-change-bar`
 
 ## Gewijzigd onderwerp in de Inhoudsopgave (TOC)
 
-U kunt een veranderingsbar op de linkerzijde van de veranderde onderwerpen in TOC van de output van de PDF ook toevoegen. Met het kenmerk `-ro-change-bar-color` in de stijl `.changed-topic` kunt u een wijzigingsbalk in de kleur van uw keuze toevoegen voor de bijgewerkte onderwerpen in de lijst met inhoudsopgave.
+U kunt ook een wijzigingsbalk links van de gewijzigde onderwerpen in de inhoudsopgave van de PDF-uitvoer toevoegen. Met het kenmerk `-ro-change-bar-color` in de stijl `.changed-topic` kunt u een wijzigingsbalk in de kleur van uw keuze toevoegen voor de bijgewerkte onderwerpen in de lijst met inhoudsopgave.
 
 U kunt bijvoorbeeld een wijzigingsbalk met een groene kleur toevoegen.
 

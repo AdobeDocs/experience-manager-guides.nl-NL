@@ -5,18 +5,19 @@ exl-id: 0963606c-010e-4a72-b7bf-850b86b34a84
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
 
 # Tekstfilters configureren {#id21BPD0FK0XA}
 
-AEM Guides biedt de functie om te zoeken naar tekst in de bestanden die zich op het geselecteerde pad van de AEM opslagplaats bevinden. Met filterzoekopdrachten kunt u bestanden zoeken in het paneel van de gegevensopslagruimte of door bestanden bladeren. Wanneer u werkt in de webeditor, moet u het bladerdialoogvenster voor bestanden gebruiken om elementen in te voegen, zoals een afbeelding, verwijzing of een toetsverwijzing.
+AEM Guides biedt de functie om te zoeken naar tekst in de bestanden die zich op het geselecteerde pad van de AEM-opslagplaats bevinden. Met filterzoekopdrachten kunt u bestanden zoeken in het paneel van de gegevensopslagruimte of door bestanden bladeren. Wanneer u werkt in de webeditor, moet u het bladerdialoogvenster voor bestanden gebruiken om elementen in te voegen, zoals een afbeelding, verwijzing of een toetsverwijzing.
 
-Standaard kunt u bepaalde verbeterde filters gebruiken om de bestanden in de AEM te doorzoeken. U kunt alle DITA-bestanden of niet-DITA-bestanden op het geselecteerde pad filteren. U kunt ook zoeken naar specifieke waarden in de kenmerken van DITA-elementen. U kunt ook zoeken naar bestanden die door de opgegeven gebruiker zijn uitgecheckt.
+Standaard kunt u bepaalde verbeterde filters gebruiken om de bestanden in de AEM-opslagplaats te doorzoeken. U kunt alle DITA-bestanden of niet-DITA-bestanden op het geselecteerde pad filteren. U kunt ook zoeken naar specifieke waarden in de kenmerken van DITA-elementen. U kunt ook zoeken naar bestanden die door de opgegeven gebruiker zijn uitgecheckt.
 
 >[!NOTE]
 >
@@ -70,14 +71,14 @@ Voer de volgende stappen uit om de tekstfilters te configureren:
 
       In het bovenstaande codefragment is het eerste filter voor DITA-bestanden. De filterdefinitie heeft de volgende parameters:
 
-      **&#x200B;**&#x200B;Titel&#x200B;**&#x200B;**: De vertoningsnaam van de filter. Deze titel wordt weergegeven als filteroptie in het bladerdialoogvenster van het bestand.
+      ****Titel****: De vertoningsnaam van de filter. Deze titel wordt weergegeven als filteroptie in het bladerdialoogvenster van het bestand.
 
-      **&#x200B;**&#x200B;Bezit&#x200B;**&#x200B;**: Het bezit in de meta-gegevens van het dossier aan te passen. Als u bijvoorbeeld alleen bestanden wilt toestaan die de metagegevens van de klasse dita\_in hun eigenschap hebben, neemt het eigenschapsfilter &quot;jcr:content/metadata/dita\_class&quot; als waarde.
+      ****Bezit****: Het bezit in de meta-gegevens van het dossier aan te passen. Bijvoorbeeld, om slechts die dossiers toe te staan die de dita \_klasse meta-gegevens in hun bezit hebben, neemt de bezitsfilter &quot;jcr :content/metadata/dita\_class&quot;als zijn waarde.
 
-      **&#x200B;**&#x200B;Verrichting **:**&#x200B;specificeer &quot;bestaat&quot;om voor bestaan van de waarde aan te passen die in de bezitsparameter wordt gespecificeerd
+      ****Verrichting **:**specificeer &quot;bestaat&quot;om voor bestaan van de waarde aan te passen die in de bezitsparameter wordt gespecificeerd
 
 1. Upload het bijgewerkte bestand ui\_config.json dat de toegevoegde filters bevat.
 
 De geconfigureerde filters zijn beschikbaar in het deelvenster Filters.
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; pas de Redacteur van het Web &#x200B;](conf-web-editor.md) aan
+**Bovenliggend onderwerp:**[ pas de Redacteur van het Web ](conf-web-editor.md) aan

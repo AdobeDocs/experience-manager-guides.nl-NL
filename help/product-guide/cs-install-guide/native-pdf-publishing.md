@@ -1,11 +1,12 @@
 ---
-title: De publicatiefunctie Native PDF aanpassen en configureren
+title: De functie Native PDF-publicatie aanpassen en configureren
 description: Leer hoe u de verschillende onderdelen van de functie Native PDF aanpast en configureert.
 exl-id: 00bc894a-031e-4d09-bd30-331399fedbc8
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 3bdc3c6370bbad67f9c31f538a49bee105fec0f9
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 0%
@@ -14,9 +15,9 @@ ht-degree: 0%
 
 # Systeemeigen PDF-publicatie
 
-Met AEM Guides, kunt u PDF van individuele onderwerpen of een kaartdossier produceren gebruikend de inheemse eigenschap van de de outputgeneratie van PDF. U kunt PDF sjablonen aanpassen en gebruiken terwijl u de PDF-uitvoer genereert. U kunt paginalay-outs maken en ontwerpen, zodat de verschillende secties naar wens in de PDF-uitvoer worden weergegeven.
+Met AEM Guides kunt u PDF&#39;s van afzonderlijke onderwerpen of een kaartbestand genereren met de functie Eigen PDF-uitvoer genereren. U kunt PDF-sjablonen aanpassen en gebruiken tijdens het genereren van de PDF-uitvoer. U kunt paginalay-outs maken en ontwerpen om de verschillende secties in de PDF-uitvoer naar wens weer te geven.
 
-Bovendien biedt AEM Guides ondersteuning voor taalvariabelen die u helpen gelokaliseerde tekenreeksen te definiëren. U kunt ook stijlen definiëren voor verschillende elementen die aanwezig zijn in de PDF-uitvoer. Geavanceerde gebruikers kunnen ook rechtstreeks met CSS werken om geavanceerde paginalay-outs te maken.
+Bovendien biedt AEM Guides ondersteuning voor taalvariabelen die u helpen gelokaliseerde tekenreeksen te definiëren. Hiermee kunt u ook stijlen definiëren voor verschillende elementen die aanwezig zijn in uw PDF-uitvoer. Geavanceerde gebruikers kunnen ook rechtstreeks met CSS werken om geavanceerde paginalay-outs te maken.
 
 
 Raadpleeg de volgende secties voor meer informatie:

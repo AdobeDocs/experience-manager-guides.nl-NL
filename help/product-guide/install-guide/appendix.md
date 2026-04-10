@@ -1,11 +1,12 @@
 ---
 title: Bijlage
-description: Leer hoe u InDesigns kunt voorbereiden voor conversie
+description: Leer hoe u InDesign-bestanden voorbereidt voor conversie
 exl-id: 02da0e61-7a73-4c4c-9bd7-2664d90fa728
 feature: InDesign File Conversion
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '2851'
 ht-degree: 0%
@@ -14,23 +15,23 @@ ht-degree: 0%
 
 # Bijlage {#id195AD0L60Y4}
 
-## Bestanden van InDesigns voorbereiden voor conversie {#id195DBF0045Z}
+## InDesign-bestanden voorbereiden voor conversie {#id195DBF0045Z}
 
 InDesign biedt auteurs een uitgebreide reeks functies voor het maken van aantrekkelijke en complexe documenten. Dit betekent vaak dat de verschillende delen van een document visueel op de pagina worden geplaatst, maar zonder dat wordt geprobeerd om stroom tussen die tekstkaders tot stand te brengen. Wanneer &quot;*lezingsorde*&quot;van de tekstkaders niet wordt bepaald, zal het IDML- dossier verhalen bevatten die geen zinvolle orde kunnen volgen. Het eindresultaat zal één of meerdere onderwerpen DITA met paragrafen, lijsten en grafiek in een willekeurige orde zijn.
 
-Terwijl het mogelijk is om de inhoud DITA in een zinnige orde in een redacteur uit te geven DITA, is het veel gemakkelijker om het dossier van het InDesign te bevestigen alvorens het IDML- dossier tot stand te brengen. Dit kan worden gedaan zonder de blik van het brondocument te veranderen. Het heeft ook het voordeel dat het brondocument toegankelijk wordt gemaakt door de leesvolgorde correct te definiëren.
+Hoewel het mogelijk is om de inhoud DITA in een zinnige orde in een redacteur uit te geven DITA, is het veel gemakkelijker om het dossier van InDesign te bevestigen alvorens het IDML- dossier te creëren. Dit kan worden gedaan zonder de blik van het brondocument te veranderen. Het heeft ook het voordeel dat het brondocument toegankelijk wordt gemaakt door de leesvolgorde correct te definiëren.
 
 ***het Verbinden tekstkaders***
 
-InDesign gebruikt de term *&quot;threading&quot;* voor het proces om één kader aan een andere te verbinden. Voor meer details over het verbinden van tekstkaders, zie *[Verbindend tekst &#x200B;](https://helpx.adobe.com/in/indesign/using/threading-text.html)* onderwerp in de documentatie van het InDesign.
+InDesign gebruikt de term *&quot;threading&quot;* voor het proces om één kader aan een andere te verbinden. Voor meer details over het verbinden van tekstkaders, zie *[Verbindend tekst ](https://helpx.adobe.com/in/indesign/using/threading-text.html)* onderwerp in de documentatie van InDesign.
 
 ***Overlappende kaders***
 
-Sommige documenten van het InDesign gebruiken niet-verbonden overlappende kaders voor lay-outredenen. Het kan erg moeilijk zijn om deze inhoud samen te voegen in de hoofdthread. De beste optie kan zijn om het resultaat in het milieu uit te geven DITA.
+Sommige InDesign-documenten gebruiken niet-verbonden overlappende frames voor de layout. Het kan erg moeilijk zijn om deze inhoud samen te voegen in de hoofdthread. De beste optie kan zijn om het resultaat in het milieu uit te geven DITA.
 
-***de verhalen van het InDesign***
+***de verhalen van InDesign***
 
-Elke verbonden stroom van inhoud in een document van het InDesign is een genoemd a &#39;*verhaal*&#39;. Voor de beste resultaten is het raadzaam het aantal artikelen beperkt te houden. Er zijn echter delen van uw document die niet nodig zijn in de DITA-uitvoer. Pagina-voetteksten zijn bijvoorbeeld zelden nodig, maar kunnen in het midden van een onderwerp verschijnen als ze niet zorgvuldig worden verwerkt.
+Elke verbonden stroom van inhoud in een document van InDesign is een genoemd a &#39;*verhaal*&#39;. Voor de beste resultaten is het raadzaam het aantal artikelen beperkt te houden. Er zijn echter delen van uw document die niet nodig zijn in de DITA-uitvoer. Pagina-voetteksten zijn bijvoorbeeld zelden nodig, maar kunnen in het midden van een onderwerp verschijnen als ze niet zorgvuldig worden verwerkt.
 
 De gemakkelijkste manier om tekst uit te sluiten die niet in het document wordt vereist is het een speciale *Markering van de Paragraaf* te geven die slechts voor de ongewenste inhoud wordt gebruikt. Bijvoorbeeld, in plaats van het hergebruiken van a *\ [Basisparagraaf \]* voor footer, creeer een specifieke *Voettekst* markering. Dan in het MapStyle- dossier plaats eenvoudig de *Voettekst* paragrafen om als dit te laten vallen:
 
@@ -62,23 +63,23 @@ Als sommige van *Heading1* paragrafen in verschillende DITA documenttypes moeten
 </doctypes>
 ```
 
-***Gestructureerde documenten van het InDesign***
+***Gestructureerde documenten van InDesign***
 
 InDesign heeft een losse relatie met XML. Hoewel een document een XML DTD kan bevatten en het hoofdartikel geldig kan zijn tegen die DTD, is het ook mogelijk om hybride documenten te maken waar sommige inhoud XML is, maar geen DTD is inbegrepen. Dit zijn de ongewenste gevallen van een geslaagde conversie naar DITA. Als een document XML-onderdelen bevat, probeert u de uitvoer op te slaan in XML en controleert u of de resultaten acceptabel zijn. Als dat niet het geval is, bevat de DITA-inhoud ook ongeldige inhoud of kan deze volledig mislukken.
 
 ***het formatteren van de Lijst***
 
-De conversie van InDesign van de de lijsthet formatteren regels aan het gelijkwaardige lijst formatteren in DITA is een complex proces. Dit komt door de rijke opmaakkenmerken die beschikbaar zijn in de bronbestanden in vergelijking met de basisopties in het tabelmodel Oasis \(CALS\) dat wordt gebruikt in DITA. Verticale en horizontale tekstuitlijning is beschikbaar en geeft vergelijkbare resultaten, hoewel uitgevulde tekst altijd wordt uitgevuld volgens de tekstrichting, terwijl InDesign Links uitvullen en Rechts uitgevuld toestaat.
+De conversie van InDesign-regels voor tabelopmaak naar de overeenkomstige tabelopmaak in DITA is een complex proces. Dit komt door de rijke opmaakkenmerken die beschikbaar zijn in de bronbestanden in vergelijking met de basisopties in het tabelmodel Oasis \(CALS\) dat wordt gebruikt in DITA. Verticale en horizontale tekstuitlijning is beschikbaar en geeft vergelijkbare resultaten, hoewel uitgevulde tekst altijd wordt uitgevuld volgens de tekstrichting, terwijl in InDesign Links uitgevuld en Rechts uitgevuld is toegestaan.
 
-De manier waarop InDesigns kolom- en rijscheidingstekens hanteren, is weer veel beter dan de basisopties van het tabelmodel Oasis. InDesign biedt vier celranden: randtype \(effen of patroondikte\), randdikte, randkleur, randtint, randtussenkleur en randtussenruimtetint. Deze moeten allemaal worden toegewezen aan de randen rechts en onder aan elke cel \(entry-element\), waarbij de enige opties 0 of 1 zijn: de rand verbergen of de rand tonen.
+InDesign-afhandeling van kolom- en rijscheidingen is weer veel beter dan de basisopties van het tabelmodel van Oasis. InDesign biedt vier celranden: randtype \(effen of patroon\), randdikte, randkleur, randtint, randtussenruimtekleur en randtussenruimtetint. Deze moeten allemaal worden toegewezen aan de randen rechts en onder aan elke cel \(entry-element\), waarbij de enige opties 0 of 1 zijn: de rand verbergen of de rand tonen.
 
-De grens in InDesign kan op de volgende niveaus worden toegepast:
+Grensregels in InDesign kunnen op de volgende niveaus worden toegepast:
 
 - Tabelstijlen
 - Celstijlen
 - Lokale overschrijvingen op elke cel
 
-Het InDesign naar DITA-omzettingsproces past de grensregeling als volgt toe:
+Bij het conversieproces InDesign naar DITA wordt de grensregeling als volgt toegepast:
 
 - Tabelstijlen worden voor verticale regels toegewezen aan het kenmerk `colspec/@colsep` . Horizontale regels worden toegewezen aan het kenmerk `row/@rowsep` . In beide gevallen wordt het kenmerk niet gemaakt als de rand niet is gedefinieerd.
 - Celstijlen worden toegewezen aan de kenmerken `entry/@colsep` en `entry/@rowsep` . Deze waarden zullen om het even welke van de Stijl van de Lijst afgeleide grensheerser met voeten treden.
@@ -86,13 +87,13 @@ Het InDesign naar DITA-omzettingsproces past de grensregeling als volgt toe:
 
 ***Afwisselende patronen***
 
-Met Tabelstijlen voor InDesigns kunnen de kolom- en cellijnen een wisselend patroon volgen. Hoewel deze functie wordt ondersteund voor conversie, zijn de resultaten alleen duidelijk wanneer een patroongroep de regel \(1\) weergeeft en de andere patroongroep de toewijzingen \(0\) verbergt.
+Met InDesign-tabelstijlen kunnen de kolommen en cellen op elkaar worden afgestemd. Hoewel deze functie wordt ondersteund voor conversie, zijn de resultaten alleen duidelijk wanneer een patroongroep de regel \(1\) weergeeft en de andere patroongroep de toewijzingen \(0\) verbergt.
 
 ## Het toewijzingsbestand voorbereiden voor InDesign naar DITA-migratie {#id194AF0003HT}
 
-Voor de juiste DITA-conversie is een toewijzingsbestand vereist dat overeenkomt met de inhoud van het brondocument. Voor documenten met ongestructureerde InDesigns betekent dit dat alle beschikbare alineastijlen en tekenstijlen moeten worden toegewezen. Voor documenten van het gestructureerde InDesign van XML moeten alle elementen in zijn bijbehorende DTD in kaart worden gebracht.
+Voor de juiste DITA-conversie is een toewijzingsbestand vereist dat overeenkomt met de inhoud van het brondocument. Voor ongestructureerde InDesign-documenten betekent dit dat alle beschikbare alineastijlen en tekenstijlen moeten worden toegewezen. Voor XML gestructureerde InDesign-documenten moeten alle elementen in de bijbehorende DTD worden toegewezen.
 
-De toewijzingsbestanden voor ongestructureerde en gestructureerde documenten van InDesigns zijn verschillend. Dit is toe te schrijven aan de complexere verwerkingsvereisten voor het omzetten van ongestructureerde broninhoud in DITA.
+De toewijzingsbestanden voor ongestructureerde en gestructureerde InDesign-documenten zijn verschillend. Dit is toe te schrijven aan de complexere verwerkingsvereisten voor het omzetten van ongestructureerde broninhoud in DITA.
 
 Hieronder volgt een voorbeeld van het toewijzingsbestand:
 
@@ -195,8 +196,8 @@ In het bovenstaande voorbeeld zijn er twee `paraRule` -elementen voor `@style` =
 
 De kenmerken die worden gebruikt in `doctypeParaRule` worden hieronder uitgelegd:
 
-- `@style`: De naam van een stijl in het document van het bronInDesign.
-- `@local`: Zie [\#id194CG0V005Z &#x200B;](#id194CG0V005Z).
+- `@style`: De naam van een stijl in het InDesign-brondocument.
+- `@local`: Zie [\#id194CG0V005Z ](#id194CG0V005Z).
 - `@mapToDoctype`: De naam van een DITA onderwerptype van een opgesomde lijst van alle geldige `doctypes`.
 
 **Regels van de het verpakken van het Element**
@@ -297,16 +298,16 @@ De elementen van `<paragraphStyleRule>` worden hieronder beschreven:
 
 ***`paraRule`element***
 
-Het element `paraRule` is verplicht. Hiermee geeft u de toewijzingsregels voor alle alineastijlen op. In een document van het InDesign, is al tekst bevat binnen substructuur van de Stijlen van de Paragraaf, zelfs de paragrafen zonder enige stijl worden genoemd `[No paragraph style]`. De vierkante haakjes geven een ingebouwde stijlnaam voor een InDesign aan.
+Het element `paraRule` is verplicht. Hiermee geeft u de toewijzingsregels voor alle alineastijlen op. In een InDesign-document is alle tekst opgenomen in de substructuur van Alineastijlen, zelfs alinea&#39;s zonder stijl krijgen de naam `[No paragraph style]` . De vierkante haakjes geven een ingebouwde InDesign-stijlnaam aan.
 
 >[!NOTE]
 >
-> De vierkante haakjes geven een ingebouwde stijlnaam van een InDesign aan.
+> De vierkante haakjes geven een ingebouwde InDesign-stijlnaam aan.
 
 De kenmerken die worden gebruikt in `paraRule` worden hieronder uitgelegd:
 
-- `@style`: De naam van een stijl in het document van het bronInDesign.
-- `@local`: Zie [\#id194CG0V005Z &#x200B;](#id194CG0V005Z).
+- `@style`: De naam van een stijl in het InDesign-brondocument.
+- `@local`: Zie [\#id194CG0V005Z ](#id194CG0V005Z).
 - `@mapTo`: De naam van een DITA-doelelement.
 
 - `@context`: Dit attribuut wordt gebruikt om aan een specifieke **omslag** regel te verbinden wanneer meer dan één omslagkeus beschikbaar is. Voorbeeld: het `li` -element kan zijn verpakt in een `ol` - of `ul` -element. Als u de verschillende lijsttypen wilt identificeren, kunt u een specifieke stijlnaam of het kenmerk `@local` gebruiken, die het volgende kan weergeven:
@@ -334,12 +335,12 @@ De elementen van `charRule` worden hieronder beschreven:
 
 Dit is een optioneel element.
 
-Dit zijn de toewijzingsregels voor alle tekenstijlen. In een document van het InDesign, is al tekst bevat binnen kindelementen van de Stijlen van het Karakter.
+Dit zijn de toewijzingsregels voor alle tekenstijlen. In een InDesign-document is alle tekst opgenomen in onderliggende elementen van tekenstijlen.
 
 De kenmerken die worden gebruikt in `charRule` worden hieronder uitgelegd:
 
-- `@style`: De naam van een stijl in het document van het bronInDesign.
-- `@local`: Zie [\#id194CG0V005Z &#x200B;](#id194CG0V005Z).
+- `@style`: De naam van een stijl in het InDesign-brondocument.
+- `@local`: Zie [\#id194CG0V005Z ](#id194CG0V005Z).
 - `@mapTo`: De naam van een DITA-doelelement.
 - `@refactor`: Dit optionele kenmerk heeft twee waarden:
    - `unwrap`: het overeenkomende element wordt verwijderd terwijl de inhoud behouden blijft.
@@ -382,7 +383,7 @@ De kenmerken die worden gebruikt in `attributeRules` worden hieronder uitgelegd:
 
 **Lokale het formatteren codes**
 
-In elk document van een InDesign kunnen alineastijlen en tekenstijlen honderden verschillende opmaakoverschrijvingen bevatten. De meeste van deze eigenschappen bieden geen nuttige rol in het conversieproces. We hebben echter een kernset opmaakfuncties geïdentificeerd die wel van invloed zijn op de semantiek van het document en die het conversieproces moeten beïnvloeden.
+In elk InDesign-document is het mogelijk dat alineastijlen en tekenstijlen honderden verschillende opmaakoverschrijvingen hebben. De meeste van deze eigenschappen bieden geen nuttige rol in het conversieproces. We hebben echter een kernset opmaakfuncties geïdentificeerd die wel van invloed zijn op de semantiek van het document en die het conversieproces moeten beïnvloeden.
 
 De `@local` -kenmerken worden weergegeven als een speciale indeling met scheidingstekens, waarbij acht velden worden opgegeven en een voorvoegsel voor het type opmaakoverschrijving. De velden met opmaakcodes worden hieronder weergegeven:
 
@@ -414,13 +415,13 @@ Het element `mapDoctypeElemRule` is verplicht. De attributen van dit element moe
 
 **`elementRules`element** Dit maakt een lijst van alle elementen.
 
-**`elementRule`element** Het element `elementRule` is verplicht. Dit zijn de toewijzingsregels voor alle bronelementen. Terwijl een document van het InDesign ongestructureerde stijlelementen bevat, worden deze genegeerd voor gestructureerde inhoud tenzij de &quot;***hybride wijze***&#39; verwerking wordt toegelaten.
+**`elementRule`element** Het element `elementRule` is verplicht. Dit zijn de toewijzingsregels voor alle bronelementen. Terwijl een document van InDesign ongestructureerde stijlelementen bevat, worden deze genegeerd voor gestructureerde inhoud tenzij de &#39;***hybride wijze***&#39; verwerking wordt toegelaten.
 
 De kenmerken die worden gebruikt in `elementRule` worden hieronder uitgelegd:
 
-- `@elementName`: De naam van een element in het document met het bronelement.
+- `@elementName`: De naam van een element in het InDesign-brondocument.
 
-- `@local`: Zie [\#id194CG0V005Z &#x200B;](#id194CG0V005Z). \(Alleen handig voor hybride documenten\).
+- `@local`: Zie [\#id194CG0V005Z ](#id194CG0V005Z). \(Alleen handig voor hybride documenten\).
 
 - `@mapTo`: De naam van een DITA-doelelement.
 
@@ -453,7 +454,7 @@ Voer de volgende stappen uit om de verwijzingen te controleren, gebruikend het v
 1. Voer het script voor validatie \[`/bin/fmdita/validatebtree?operation=validate`\] uit om te controleren of er nieuwe verbroken verwijzingen zijn.
 1. Als het validate manuscript om het even welke fouten meldt, kunt u het herstellen gebruikend het flardmanuscript.
 1. Registreer de hieronder gegeven details en deel hen indien nodig met uw team van het klantensucces:
-1. &#x200B;
+1. 
    - Wordt afgedrukt door script voor validatie
 - Pakket met &quot;`/content/fmdita/references`&quot;
 - Eventuele andere vereiste details, afhankelijk van het gerapporteerde scenario
@@ -467,8 +468,8 @@ Voer de volgende stappen uit om verbroken verwijzingen te repareren met behulp v
    **Nota:* men adviseert dat u en sparen de logboeken voor verwijzingsdoel kopieert.
 
 1. Nadat het patchscript is uitgevoerd, kunt u de volgende controles uitvoeren:
-1. &#x200B;
-   - Controleren of er een nieuw knooppunt is gemaakt onder `/content/fmdita` `references_backup_<timestamp>"`
+1. 
+   - Controleren of er een nieuw knooppunt is gemaakt onder `references_backup_<timestamp>"``/content/fmdita`
 - Controleer of de referenties zijn gecorrigeerd
 
 **Logger**

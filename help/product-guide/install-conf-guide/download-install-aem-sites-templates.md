@@ -1,0 +1,181 @@
+---
+title: AEM Sites-sjablonen voor Cloud-services downloaden en installeren
+description: Leer hoe u AEM Sites-sjablonen voor Cloud-services kunt downloaden en installeren
+feature: Installation
+role: Admin
+level: Experienced
+source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+workflow-type: tm+mt
+source-wordcount: '845'
+ht-degree: 0%
+
+---
+
+# AEM Sites-sjablonen downloaden en installeren
+
+Deze handleiding bevat stapsgewijze instructies voor het instellen en configureren van de nieuwste AEM Guides-sjabloon voor het genereren van AEM Sites-pagina&#39;s in een cloud-omgeving. Voer de volgende stappen uit om de vereiste pakketten te installeren, voorinstellingen te maken en te configureren en AEM Sites te genereren.
+
+## Vereisten
+
+Op de volgende tabbladen vindt u de benodigde vereisten die zijn gebaseerd op uw Experience Manager Guides-instellingen: Cloud Service of On-Premise.
+
+>[!BEGINTABS]
+
+>[!TAB  Cloud Service ]
+
+- **Adobe Experience Manager (AEM) Wolk**: Een lopende instantie van **AEM as a Cloud Service** met **AEM Guides 2502 of recentere versies**.
+
+- **Vereiste Toestemmingen**: U moet de volgende toestemmingen hebben:
+
+   - Toegang tot **Cloud Manager** om pakketten op te stellen.
+   - Toegang tot **Bewaarplaats van de it** verbonden aan uw milieu.
+   - Machtigingen voor het maken en wijzigen van voorinstellingen in AEM Guides.
+
+- **de Pakketten van de Download**: Download de volgende pakketten van het Portaal van de Distributie van de Software:
+
+   - Componentpakket: guides-components.all-1.x.0.zip
+   - Sitesjabloon: aemg-docs-1.x.0.zip
+
+>[!TAB  Op locatie ]
+
+- **Adobe Experience Manager (AEM):** Een lopende instantie van **AEM 6.5** met **Service Pack** 21, 20, en 19 en **AEM Guides 4.6.0**, of recentere geïnstalleerde versies.
+
+- **Vereiste Toestemmingen**: Zorg ervoor om de volgende toestemmingen te hebben:
+
+   - Toegang tot **Portaal van de Distributie van de Software** om de vereiste pakketten te downloaden
+   - Toegang tot **de Manager van het Pakket van CRX** om pakketten in AEM te installeren.
+   - Machtigingen voor het maken en wijzigen van voorinstellingen in AEM Guides.
+
+- **Pakketten van de Download**: Download de volgende pakketten van **het Portaal van de Distributie van de Software**:
+
+   - Componentpakket: on-prem-guides-components.all-1.x.0.zip
+   - Sites-pakket: aemg-docs.all-1.x.0.zip
+
+>[!ENDTABS]
+
+
+## Pakketinstallatie
+
+Op de volgende tabbladen vindt u instructies voor de installatie van het pakket op basis van uw Experience Manager Guides-instellingen: Cloud Service of On-Premise.
+
+>[!BEGINTABS]
+
+>[!TAB  Cloud Service ]
+
+Installeer het **Pakket van Componenten (gidsen-componenten.all-1.x.x.zip)** en voer de volgende stappen uit
+
+1. **de bewaarplaats van de Git van de Kloon:**
+   1. Navigeer aan **Bewaarplaatsen** in het linkerpaneel van Cloud Manager.
+   2. Selecteer **Info van de Reactie van de Toegang** en kopieer het bevel van de kloonkloon van de it.
+
+      ![ Uitgezochte Info van de Reactie van de Toegang ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/access-repo.png){width="350" align="left"}
+
+   3. Clone the repository to your local system using the provided username and password (generate password if required).
+2. **voeg Pakket aan Geweven Bundel toe:**
+   1. Maak in uw lokaal gekloonde opslagplaats een nieuwe Maven-bundel of voeg deze toe aan een bestaande bundel.
+   2. Controleer of de structuur van `/jcr_root/apps/fmdita/` aanwezig is in het Maven-project.
+
+      ![ Structuur in Geweven project ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/maven-structure.png){width="650" align="left"}
+
+
+   3. Plaats het gedownloade bestand guides-components.all-1.x.x.zip in de installatiemap.
+
+3. **Update filters.xml:**
+
+   1. Open het bestand filters.xml in de map META-INF van de bovenliggende inhoudsmap.
+   2. Voeg het volgende filter toe: filterroot=`/apps/fmdita` mode=`merge`/
+
+
+      ![ voeg filter ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-filter-xml.png){width="650" align="left"} toe
+
+
+4. **vormt pom.xml:** werk het pom.xml- dossier volgens uw milieuvereisten bij.
+5. **duw verandert en looppas Pijpleiding:**
+   1. Verplaats de wijzigingen naar de Git-hoofdopslagplaats.
+   2. Navigeer aan **Pijpleidingen** in Cloud Manager en stel de pijpleiding voor het gewenste milieu in werking.
+6. **verifieer installatie:** Zodra de plaatsing volledig is, zal het componentenpakket op het milieu van de Wolk van AEM worden geïnstalleerd.
+
+>[!TAB  Op locatie ]
+
+1. **installeer het Pakket van Componenten:**
+   1. Navigeer aan [**de Manager van het Pakket van CRX** ](http://<your-name-instance>/crx/packmgr).
+   2. Upload en installeer het zip-pakket on-prem-guides-components.all-1.x.0.zip.
+
+2. **installeer het Pakket van Plaatsen:** upload en installeer het pakket aemg-docs.all-1.x.0.zip gebruikend de Manager van het Pakket van CRX.
+
+>[!ENDTABS]
+
+## Site maken met geïnstalleerde sjablonen (voor Cloud Service)
+
+1. **Sjabloon van Plaatsen van de Invoer:**
+   1. Ga naar de AEM Sites-pagina (servername/sites.html/content).
+   2. Selecteer **creeer** > **Plaats** van Malplaatje.
+   3. Importeer het plaatsmalplaatje aemg-docs-1.x.x.zip gebruikend de **optie van de Invoer**.
+2. **Uitgezochte Malplaatje:** selecteer **AEMG Docs 1.x.x** en selecteer dan **daarna**.
+3. **ga de Details van de Plaats in:** ga de **Titel van de Plaats** in en **Naam van de Plaats**.
+
+   ![ creeer Plaats ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-site.png){width="350" align="left"}
+
+4. Selecteer **creeer**.
+
+## AEM-sitevoorinstelling maken
+
+1. **creeer nieuwe vooraf ingesteld:**
+   1. Open een kaart DITA in AEM Guides en navigeer aan het **paneel van de Output**.
+   2. Selecteer **creeer Vooraf ingesteld**.
+   3. Selecteer het type als **AEM Sites**.
+   4. Voer een naam in voor de voorinstelling.
+   5. Uncheck het **plaatsen van de erfeniscomponentenafbeelding van het Gebruik**.
+   6. Selecteer **toevoegen** om vooraf ingesteld tot stand te brengen.
+
+      ![ creeer nieuwe vooraf ingestelde Plaats van AEM ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/new-output-preset.png){width="350" align="left"}
+
+
+2. **vorm de Vooraf ingestelde Plaats van AEM:** Er zijn twee opties om de uit-van-de-doos (OTB) plaats te vormen:
+
+   **Optie 1: Gebruik Dropdown van de Plaats**
+
+   1. Selecteer **Plaats** zoals hierboven gecreeerd (b.v., de Plaats van Docs AEMG).
+   2. Verifieer dat het **publiceren weg** en **pagina van het Onderwerp** malplaatje automatisch wordt geplaatst aan:
+      - Publicatiepad: Cloud Service: `/content/AEMG-Docs-Site/en/docs/product` en Op locatie: `aemg-docs/en/docs/product1`
+      - Sjabloon voor onderwerppagina:
+
+      ![ Gebruik plaatsdrop-down om de Plaats van AEM ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown-cs.png){width="350" align="left"} te vormen
+
+   **Optie 2: Gebruik de Weg van de Plaats**
+
+   1. Plaats de **weg van de Plaats** manueel als `/content/AEMG-Docs-Site/en/docs/product` voor Cloud Service en `/content/aemg-docs/en/docs/product1` voor Op locatie.
+   2. Verifieer dat het **pagina van het Onderwerp** malplaatje automatisch aan de Pagina van het Onderwerp wordt geplaatst.
+
+      Voor Cloud Service:
+
+      ![ Gebruik de plaatsweg om de Plaats van AEM te vormen ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path-cs.png){width="650" align="left"}
+
+      Voor op locatie:
+
+      ![ Pad van de Plaats van het Gebruik ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path.png){width="350" align="left"}
+
+3. **sparen vooraf ingesteld:** sparen de veranderingen die aan vooraf ingesteld worden aangebracht.
+
+## AEM Sites genereren
+
+1. **produceer Plaats:**
+   1. Als de voorinstelling is geconfigureerd, genereert u de AEM-site voor de corresponderende DITA-kaart.
+   2. De gegenereerde site is beschikbaar via het pad: `/content/AEMG-Docs-Site/en/docs/product` voor Cloud Service en `/content/aemg-docs/en/docs/product1` voor Op locatie.
+2. **verander de StandaardWeg van de Generatie (Facultatief):** als u de standaardweg voor plaatsgeneratie wilt veranderen, voer de volgende stappen uit:
+   1. Navigeer aan **AEM Sites**.
+   2. Maak een nieuwe productpagina onder de OOTB-sitestructuur.
+   3. Navigeer aan **Dokken van AEMG** > **Engels** > **Dokken**.
+
+      ![ creeer pagina ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-page-cs.png){width="650" align="left"}
+
+   4. Selecteer de **pagina van het Huis** tegel en selecteer dan **daarna**.
+
+      ![ Uitgezochte Titel van het Huis ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/home-tile-cs.png){width="650" align="left"}
+
+   5. Ga de **Titel** en **Naam** voor de pagina in.
+   6. Selecteer **creeer**.
+
+>[!NOTE]
+>
+> Voor de opstelling van Cloud Service, zorg ervoor alle configuraties in een non-production milieu alvorens aan productie worden getest. <br><br> verwijs naar het officiële [ Opstellen aan de documentatie van AEM as a Cloud Service ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview) voor extra details.

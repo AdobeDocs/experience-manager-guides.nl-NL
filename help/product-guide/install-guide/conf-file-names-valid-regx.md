@@ -5,7 +5,8 @@ exl-id: 876dfc77-078f-4341-b99d-02a453d2e065
 feature: Filename Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 0%
@@ -34,7 +35,7 @@ Voer de volgende stappen uit om regx te configureren voor geldige \(of toegestan
 
 1. Onderzoek naar en klik op *com.adobe.fmdita.config.ConfigManager* bundel.
 
-1. In **Regex voor Geldige het bezit van Karakters**, zorg ervoor dat het bezit aan \ &lbrack;-a-zA-Z0-9 \ \ \ wordt geplaatst. U kunt meer tekens aan deze lijst toevoegen. De lijst moet echter deze basistekens hebben en de lijst moet beginnen met een koppelteken &quot;-&quot;.
+1. In **Regex voor Geldige het bezit van Karakters**, zorg ervoor dat het bezit aan \ [-a-zA-Z0-9 \ \ \ wordt geplaatst. U kunt meer tekens aan deze lijst toevoegen. De lijst moet echter deze basistekens hebben en de lijst moet beginnen met een koppelteken &quot;-&quot;.
 
    >[!NOTE]
    >
@@ -45,6 +46,6 @@ Voer de volgende stappen uit om regx te configureren voor geldige \(of toegestan
 
 >[!NOTE]
 >
-> Net als in de lijst met geldige bestandsnaamtekens kunt u ook een lijst met geldige bestandsnaamtekens opgeven voor AEM site-uitvoer. Voor meer details, zie [&#x200B; geldige dossiernamen voor AEM output van de Plaats &#x200B;](conf-file-names-valid-regx-aem-site-output.md#) vormen.
+> Net als in de lijst met geldige bestandsnaamtekens kunt u ook een lijst met geldige bestandsnaamtekens opgeven voor uitvoer van de AEM-site. Voor meer details, zie [ geldige dossiernamen voor de output van de Plaats van AEM ](conf-file-names-valid-regx-aem-site-output.md#) vormen.
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; vorm filenames &#x200B;](conf-file-names.md)
+**Bovenliggend onderwerp:**[ vorm filenames ](conf-file-names.md)

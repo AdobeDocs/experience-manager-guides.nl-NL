@@ -5,7 +5,8 @@ exl-id: 8e0afe18-5675-4c7e-b216-6de1a752bd01
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 0%
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 Nadat u AEM Guides hebt geïnstalleerd, moet u controleren of de installatie is gelukt of niet. Voer de volgende stappen uit om het installatieproces te controleren:
 
-1. Meld u aan bij uw AEM en navigeer naar de pagina AEM webconsolegronnen. De standaard-URL voor toegang tot de bundelpagina is:
+1. Meld u aan bij uw AEM-exemplaar en navigeer naar de pagina AEM Web Console Bundles. De standaard-URL voor toegang tot de bundelpagina is:
 
    ```http
    http://<server name>:<port>/system/console/bundles
@@ -28,11 +29,11 @@ Nadat u AEM Guides hebt geïnstalleerd, moet u controleren of de installatie is 
 
    De lijst met bundels wordt gefilterd om de bundels weer te geven die door AEM Guides zijn geïnstalleerd. Als de installatie succesvol was, dan zullen alle geïnstalleerde bundels a **Status** van **Actieve** hebben.
 
-   Als om het even welke bundels geen **Actieve** status heeft, dan controleer de AEM logboeken om de installatiekwestie problemen op te lossen.
+   Als om het even welke bundels geen **Actieve** status heeft, dan controleer de logboeken van AEM om de installatiekwestie problemen op te lossen.
 
 
 >[!IMPORTANT]
 >
-> Er zijn een aantal aanbevelingen voor het optimaliseren van de prestaties die u kunt overwegen om de systeemprestaties te verbeteren. Zie [&#x200B; Recommendations voor prestatiesoptimalisering &#x200B;](download-install-recommend-perf-optimiz.md#) voor details.
+> Er zijn een aantal aanbevelingen voor het optimaliseren van de prestaties die u kunt overwegen om de systeemprestaties te verbeteren. Zie [ Aanbevelingen voor prestatiesoptimalisering ](download-install-recommend-perf-optimiz.md#) voor details.
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; Download en installeer &#x200B;](download-install.md)
+**Bovenliggend onderwerp:**[ Download en installeer ](download-install.md)

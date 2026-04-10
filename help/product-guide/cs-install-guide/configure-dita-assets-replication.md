@@ -4,7 +4,9 @@ description: Leer hoe u replicatie van dita-middelen voor de cloudservice config
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 356ea6edd5e688fb1f77e737c705ed0bd4d2e7f0
+exl-id: 1eafc6b2-2b85-486a-bb2c-0038fae1fef9
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '60'
 ht-degree: 0%
@@ -15,7 +17,7 @@ ht-degree: 0%
 
 Voer de volgende stappen uit om de functie voor elementverwerking te configureren:
 
-1. Gebruik de instructies die in [&#x200B; worden gegeven met voeten treedt van de Configuratie &#x200B;](../cs-install-guide/download-install-additional-config-override.md) om het configuratiedossier tot stand te brengen.
+1. Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](../cs-install-guide/download-install-additional-config-override.md) om het configuratiedossier tot stand te brengen.
 
 1. Geef in het configuratiebestand de volgende gegevens (eigenschap) op:
 

@@ -1,10 +1,12 @@
 ---
-title: Oorspronkelijke PDF | Basisuitvoerlocatie configureren voor het publiceren van PDF for Cloud-services
+title: Native PDF | Basisuitvoerlocatie configureren voor het publiceren van PDF for Cloud-services
 description: Basisuitvoerlocatie configureren voor het publiceren van PDF for Cloud-services
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: ab6f1f09de2ef758d7f05ba0a49194ac9f387dea
+exl-id: d79085d6-938a-4e80-84a2-03562e6b76e0
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 0%
@@ -15,7 +17,7 @@ ht-degree: 0%
 
 Voer de volgende stappen uit om de basisuitvoerlocatie te configureren:
 
-1. Gebruik de instructies die in [&#x200B; worden gegeven met voeten treedt van de Configuratie &#x200B;](../cs-install-guide/download-install-additional-config-override.md) om het configuratiedossier tot stand te brengen.
+1. Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](../cs-install-guide/download-install-additional-config-override.md) om het configuratiedossier tot stand te brengen.
 
 1. In het configuratiedossier, verstrek de volgende (bezit) details om de plaats van de basisoutput te vormen:
 

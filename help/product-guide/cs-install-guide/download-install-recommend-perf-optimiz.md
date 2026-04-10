@@ -1,22 +1,23 @@
 ---
-title: Recommendations for performance optimization
-description: Meer informatie over Recommendations voor optimalisatie van prestaties
+title: Aanbevelingen voor optimalisatie van prestaties
+description: Meer informatie over aanbevelingen voor optimalisatie van prestaties
 exl-id: 92ac1f81-2f51-44b0-82c3-56b39e8f3027
 feature: Performance Optimization
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 0%
 
 ---
 
-# Recommendations for performance optimization {#id213BD0JG0XA}
+# Aanbevelingen voor optimalisatie van prestaties {#id213BD0JG0XA}
 
 Houd rekening met de volgende punten voor het optimaliseren van prestaties:
 
-- Om inhoud en het indexeren ervaring te optimaliseren, zie [&#x200B; het Onderzoek en het Indexeren van de Inhoud &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html?lang=nl-NL) in AEM documentatie optimaliseren.
+- Om inhoud en het indexeren ervaring te optimaliseren, zie [ het Onderzoek en het Indexeren van de Inhoud ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html) in de documentatie van AEM optimaliseren.
 
 - Reparatie Xerces Jar bij gebruik van aangepaste DITA-OT voor publicatie. Dit is een verplichte configuratie, afhankelijk van uw gebruiksgeval. Deze wijziging is alleen vereist als u aangepaste DITA-OT gebruikt voor het publiceren van uitvoer.
 
@@ -25,4 +26,4 @@ Houd rekening met de volgende punten voor het optimaliseren van prestaties:
   Deze verandering vermindert de het publiceren tijd en geheugengebruik terwijl het publiceren van kaarten DITA met een groot aantal onderwerpen.
 
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; Download en installeer &#x200B;](download-install.md)
+**Bovenliggend onderwerp:**[ Download en installeer ](download-install.md)

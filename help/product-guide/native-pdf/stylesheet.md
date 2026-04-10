@@ -1,11 +1,12 @@
 ---
-title: Systeemeigen PDF-publicatiefunctie | Werken met algemene inhoudsstijlen
+title: Native PDF-publicatiefunctie | Werken met de algemene inhoudsstijlen
 description: Leer hoe u gebruiksstijlen maakt en stijlen voor uw inhoud maakt.
 exl-id: 42ba7347-d81d-45d9-9627-8d164e4f9539
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '3778'
 ht-degree: 0%
@@ -29,7 +30,7 @@ De stijleneditor is een WYSIWYG-editor die alle complexe onderdelen van een CSS-
 * Paginastijlen
 * Overige stijlen
 
-Wanneer het werken met gestructureerde inhoud DITA, is de stijlafbeelding voor de meeste elementen DITA op zijn plaats in het standaardstijlblad. Als u met standaard-DITA-elementen werkt, kunt u hun uiterlijk wijzigen door de stijldefinitie rechtstreeks te wijzigen. Deze stijldefinities zijn beschikbaar onder de categorie Andere stijl. Voor meer details, zie [&#x200B; Werk met andere stijlen &#x200B;](#other-styles) later in dit onderwerp.
+Wanneer het werken met gestructureerde inhoud DITA, is de stijlafbeelding voor de meeste elementen DITA op zijn plaats in het standaardstijlblad. Als u met standaard-DITA-elementen werkt, kunt u hun uiterlijk wijzigen door de stijldefinitie rechtstreeks te wijzigen. Deze stijldefinities zijn beschikbaar onder de categorie Andere stijl. Voor meer details, zie [ Werk met andere stijlen ](#other-styles) later in dit onderwerp.
 
 In de volgende secties worden de meest gebruikte stijlinstellingen in de vorm van voorbeelden besproken.
 
@@ -43,7 +44,7 @@ Met de kopstijlen worden alle basisstijlen ingekapseld voor de koppen die in de 
 
 >[!NOTE]
 >
->U kunt uw eigen stijlen van de douanekop tot stand brengen en die kunnen in uw inhoud worden gebruikt gebruikend de outputklasse. Voor meer details, zie Stap 4 in [&#x200B; de paginarichting van het Gebruik en meningsomwenteling &#x200B;](design-page-layout.md#page-orientation-rotation) voorbeeld.
+>U kunt uw eigen stijlen van de douanekop tot stand brengen en die kunnen in uw inhoud worden gebruikt gebruikend de outputklasse. Voor meer details, zie Stap 4 in [ de paginarichting van het Gebruik en meningsomwenteling ](design-page-layout.md#page-orientation-rotation) voorbeeld.
 
 ### Aangepaste koppen op hoofdstukniveau maken {#create-chapter-level-heading}
 
@@ -56,7 +57,7 @@ In dit voorbeeld maken we een hoofdstukstijl op het tweede niveau:
 1. Open de vereiste stijlpagina voor bewerking.
    >[!NOTE]
    >
-   >Zie [&#x200B; een vooraf bepaalde of nieuwe stijl &#x200B;](components-pdf-template.md#customize-style) sectie aanpassen voor het openen van een stylesheet voor aanpassing of het uitgeven.
+   >Zie [ een vooraf bepaalde of nieuwe stijl ](components-pdf-template.md#customize-style) sectie aanpassen voor het openen van een stylesheet voor aanpassing of het uitgeven.
 
 1. In de **lijst van Stijlen**, breid de **Stijlen van de Kop** uit.
 1. Klik op **Stijlen van de Kop** met de rechtermuisknop aan en kies **Nieuwe Stijl**.
@@ -77,7 +78,7 @@ In dit voorbeeld zullen we de koppen van niveau 1 tot niveau 3 aanpassen om auto
 
    >[!NOTE]
    >
-   >Zie [&#x200B; een vooraf bepaalde of nieuwe stijl &#x200B;](components-pdf-template.md#customize-style) sectie aanpassen voor het openen van een stylesheet voor aanpassing of het uitgeven.
+   >Zie [ een vooraf bepaalde of nieuwe stijl ](components-pdf-template.md#customize-style) sectie aanpassen voor het openen van een stylesheet voor aanpassing of het uitgeven.
 
 1. In de **lijst van Stijlen**, breid de **Stijlen van de Kop** uit.
 
@@ -158,7 +159,7 @@ In het volgende voorbeeld wordt een initiaalstijl gemaakt:
 
    >[!NOTE]
    >
-   >Zie [&#x200B; een vooraf bepaalde of nieuwe stijl &#x200B;](components-pdf-template.md#customize-style) sectie aanpassen voor het openen van een stylesheet voor aanpassing of het uitgeven.
+   >Zie [ een vooraf bepaalde of nieuwe stijl ](components-pdf-template.md#customize-style) sectie aanpassen voor het openen van een stylesheet voor aanpassing of het uitgeven.
 
 1. In de **lijst van Stijlen**, breid de **Stijlen van de Paragraaf** uit.
 
@@ -168,7 +169,7 @@ In het volgende voorbeeld wordt een initiaalstijl gemaakt:
 
 1. Klik **Gedaan**.
 
-   Een nieuwe genoemde paragraafstijl `::first-letter` wordt gecreeerd en onder de **2&rbrace; lijst van de Stijlen van de Paragraaf toegevoegd &lbrace;toegevoegd.**
+   Een nieuwe genoemde paragraafstijl `::first-letter` wordt gecreeerd en onder de **2} lijst van de Stijlen van de Paragraaf toegevoegd {toegevoegd.**
 
 1. Selecteer `::first-letter` onder de stijl p en stel de volgende eigenschappen in:
 
@@ -194,7 +195,7 @@ In het volgende voorbeeld wordt een inline tekenstijl gemaakt:
 
    >[!NOTE]
    >
-   >Zie [&#x200B; een vooraf bepaalde of nieuwe stijl &#x200B;](components-pdf-template.md#customize-style) sectie aanpassen voor het openen van een stylesheet voor aanpassing of het uitgeven.
+   >Zie [ een vooraf bepaalde of nieuwe stijl ](components-pdf-template.md#customize-style) sectie aanpassen voor het openen van een stylesheet voor aanpassing of het uitgeven.
 
 1. In de **lijst van Stijlen**, breid de **Stijlen van het Karakter** uit.
 
@@ -214,7 +215,7 @@ In het volgende voorbeeld wordt een inline tekenstijl gemaakt:
 
      >[!NOTE]
      >
-     >U kunt ook lettertypen toevoegen aan uw sjabloon. Deze lettertypen worden opgeslagen in het gedeelte Bronnen van uw sjabloon. Voor meer details over het toevoegen van doopvonten en het werken met Middelen, zie [&#x200B; Werk met middelen &#x200B;](components-pdf-template.md#work-with-resources).
+     >U kunt ook lettertypen toevoegen aan uw sjabloon. Deze lettertypen worden opgeslagen in het gedeelte Bronnen van uw sjabloon. Voor meer details over het toevoegen van doopvonten en het werken met Middelen, zie [ Werk met middelen ](components-pdf-template.md#work-with-resources).
 
    * **Lay-out**: U kunt de lay-out-related eigenschappen zoals Hoogte en Breedte, Marge, het Opvullen, Uitlijning, en meer plaatsen.
 
@@ -238,7 +239,7 @@ In het volgende voorbeeld wordt de stijl van de genummerde of geordende lijst aa
 
    >[!NOTE]
    >
-   >Zie [&#x200B; een vooraf bepaalde of nieuwe stijl &#x200B;](components-pdf-template.md#customize-style) sectie aanpassen voor het openen van een stylesheet voor aanpassing of het uitgeven.
+   >Zie [ een vooraf bepaalde of nieuwe stijl ](components-pdf-template.md#customize-style) sectie aanpassen voor het openen van een stylesheet voor aanpassing of het uitgeven.
 
 1. In de **lijst van Stijlen**, breid de **Stijlen van de Lijst** uit.
 
@@ -298,7 +299,7 @@ In het volgende voorbeeld ziet u hoe u een tabelstijl en de verschillende opties
 
    >[!NOTE]
    >
-   >Zie [&#x200B; een vooraf bepaalde of nieuwe stijl &#x200B;](components-pdf-template.md#customize-style) sectie aanpassen voor het openen van een stylesheet voor aanpassing of het uitgeven.
+   >Zie [ een vooraf bepaalde of nieuwe stijl ](components-pdf-template.md#customize-style) sectie aanpassen voor het openen van een stylesheet voor aanpassing of het uitgeven.
 
 1. In de **lijst van Stijlen**, klik op de **Stijl van de Lijst** met de rechtermuisknop aan en kies **Nieuwe Stijl**.
 
@@ -328,7 +329,7 @@ In het volgende voorbeeld ziet u hoe u een tabelstijl en de verschillende opties
 
      >[!NOTE]
      >
-     >De volgende montages zijn beschikbaar onder de **1&rbrace; sectie van de Cel wanneer** Formatterend op **wordt geplaatst aan** Gehele Lijst **.**
+     >De volgende montages zijn beschikbaar onder de **1} sectie van de Cel wanneer** Formatterend op **wordt geplaatst aan** Gehele Lijst **.**
 
    * **het Opvullen**: Specificeer binnen het opvullen tussen lijstcellen. U kunt verschillende opvullingswaarden opgeven voor de boven-, onder-, linker- en rechterzijde.
 
@@ -354,7 +355,7 @@ In het volgende voorbeeld, zullen wij de titel (`wintitle`) stijl van een nieuw 
 
    >[!NOTE]
    >
-   >Zie [&#x200B; een vooraf bepaalde of nieuwe stijl &#x200B;](components-pdf-template.md#customize-style) sectie aanpassen voor het openen van een stylesheet voor aanpassing of het uitgeven.
+   >Zie [ een vooraf bepaalde of nieuwe stijl ](components-pdf-template.md#customize-style) sectie aanpassen voor het openen van een stylesheet voor aanpassing of het uitgeven.
 
 1. In de **lijst van Stijlen**, breid **Andere Stijlen** uit.
 
@@ -366,7 +367,7 @@ In het volgende voorbeeld, zullen wij de titel (`wintitle`) stijl van een nieuw 
 
 1. Klik **Gedaan**.
 
-   Een nieuwe stijl genoemd `.wintitle` wordt gecreeerd en onder de **Andere 2&rbrace; lijst van Stijlen &lbrace;toegevoegd.**
+   Een nieuwe stijl genoemd `.wintitle` wordt gecreeerd en onder de **Andere 2} lijst van Stijlen {toegevoegd.**
 
 1. Selecteer .wintitle van de **Andere lijst van Stijlen**, en plaats de eigenschappen zoals vereist.
 

@@ -5,7 +5,8 @@ exl-id: 6c6b9692-cdec-426f-bc3b-f09d0091da39
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 0%
@@ -18,7 +19,7 @@ U kunt AEM Guides verwijderen met CRX Package Manager. Tijdens het verwijderen w
 
 Voer de volgende stappen uit om AEM Guides te verwijderen:
 
-1. Meld u aan bij uw AEM en navigeer naar CRX Package Manager. De standaard-URL voor toegang tot pakketbeheer is:
+1. Meld u aan bij uw AEM-exemplaar en navigeer naar CRX Package Manager. De standaard-URL voor toegang tot pakketbeheer is:
 
    ```http
    http://<server name>:<port>/crx/packmgr/index.jsp
@@ -49,4 +50,4 @@ Voer de volgende stappen uit om de resterende bestanden op te schonen nadat u de
 1. Klik **ongeldig het Geheime voorgeheugen**.
 1. Maak de cache van de browser leeg.
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; Download en installeer &#x200B;](download-install.md)
+**Bovenliggend onderwerp:**[ Download en installeer ](download-install.md)

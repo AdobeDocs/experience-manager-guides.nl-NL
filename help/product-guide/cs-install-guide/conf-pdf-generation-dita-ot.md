@@ -1,26 +1,27 @@
 ---
-title: Eén onderwerp PDF genereren
-description: Leer hoe te om enige onderwerpgeneratie te vormen PDF
+title: Eén onderwerp voor PDF-generatie configureren
+description: Leer hoe te om enige onderwerpPDF te vormen generatie
 exl-id: 5b66fd3b-6450-49ce-b06e-d2d5bab37990
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 0%
 
 ---
 
-# Eén onderwerp PDF genereren {#id22ADC70M0XA}
+# Eén onderwerp voor PDF-generatie configureren {#id22ADC70M0XA}
 
-Met AEM Guides kunt u de PDF van afzonderlijke onderwerpen of een volledig kaartbestand genereren. U kunt uw onderwerpen in een formaat van PDF publiceren gebruikend inheemse PDF of methode DITA-OT. Gebruik de native PDF-methode om een PDF-uitvoer met veel functies te genereren op basis van W3C CSS3 en CSS-normen voor gepagineerde media. U kunt de methode DITA-OT gebruiken om een output van PDF voor een kaart van het kaartdashboard te produceren.
+Met de AEM Guides kunt u de PDF van afzonderlijke onderwerpen of een volledig kaartbestand genereren. U kunt uw onderwerpen in PDF-indeling publiceren met behulp van de native PDF- of DITA-OT-methode. Gebruik de native PDF-methode om een veelzijdige PDF-uitvoer te genereren op basis van W3C CSS3 en CSS-normen voor gepagineerde media. U kunt de methode DITA-OT gebruiken om een uitvoer van PDF voor een kaart van het kaartdashboard te produceren.
 
 >[!NOTE]
 >
 > Native PDF is de standaardmethode voor het genereren van een PDF in de huidige versie van AEM Guides.
 
-Om de oude generatie van PDF via DITA-OT van de wijze van de onderwerpvoorproef toe te laten, voer de volgende stappen uit:
+Voer de volgende stappen uit om de oude PDF-generatie via de DITA-OT vanuit de modus voor onderwerpvoorvertoning in te schakelen:
 
 1. Meld u aan bij Adobe Experience Manager als beheerder en download het configuratiebestand voor de gebruikersinterface.
 
@@ -59,4 +60,4 @@ Om de oude generatie van PDF via DITA-OT van de wijze van de onderwerpvoorproef 
 
 Na het uitvoeren van de bovengenoemde stappen, als u het zelfde omslagprofiel van de Voorkeur van de Gebruiker in de Redacteur van het Web kiest, zult u dan de optie voor de generatie van PDF op de voorproefwijze van een onderwerp zien.
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; pas de Redacteur van het Web &#x200B;](conf-web-editor.md) aan
+**Bovenliggend onderwerp:**[ pas de Redacteur van het Web ](conf-web-editor.md) aan

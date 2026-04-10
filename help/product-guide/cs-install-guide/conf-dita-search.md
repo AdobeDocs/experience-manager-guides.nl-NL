@@ -5,9 +5,10 @@ exl-id: 125d247f-1017-4450-9e3f-9ecc7188ca8f
 feature: Search Configuration
 role: Admin
 level: Experienced
-source-git-commit: 8ee4863470f69bca52a9b36cde52703e4d6643bc
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
-source-wordcount: '1578'
+source-wordcount: '1576'
 ht-degree: 0%
 
 ---
@@ -24,7 +25,7 @@ Het vormen van DITA inhoudsonderzoek impliceert de volgende taken:
 1. [Aangepaste elementen of kenmerken toevoegen in zoekopdracht](#id192SF0G10YK)
 1. [Metagegevens uit bestaande inhoud extraheren](#id192SF0GA0HT)
 
-Naast het toevoegen van onderzoeksvermogen, kunt u de omslagen ook vormen die niet in het onderzoek zouden moeten worden omvat. Voor meer details, zie [&#x200B; Tijdelijke dossiers van onderzoeksresultaten uitsluiten &#x200B;](#id197AHI0035Z).
+Naast het toevoegen van onderzoeksvermogen, kunt u de omslagen ook vormen die niet in het onderzoek zouden moeten worden omvat. Voor meer details, zie [ Tijdelijke dossiers van onderzoeksresultaten uitsluiten ](#id197AHI0035Z).
 
 ## DITA Element-zoekcomponent toevoegen in Assets UI {#id192SF0F50HS}
 
@@ -70,7 +71,7 @@ Voer het volgende uit om op UUID-Gebaseerde onderzoekscomponent in AEM Assets UI
 1. In het **lusje van Montages**, verstrek de volgende details voor de onlangs toegevoegde **Predicate** component van het Bezit:
 
    - **Etiket van het Gebied**: UUID
-   - **Naam van het Bezit**: jcr:content/fmUuid
+   - **Naam van het Bezit**: jcr :content/fmUuid
 1. Klik **Gedaan** om uw veranderingen te bewaren.
 
    Wanneer u de optie Filters opent in de gebruikersinterface van Assets, krijgt u de optie voor het filteren van UIS-zoekopdrachten.
@@ -182,7 +183,7 @@ Het uitpakken van meta-gegevens uit bestaande DITA- dossiers impliceert twee tak
 1. De optie voor het extraheren van metagegevens inschakelen in configMgr
 1. De workflow voor het uitnemen van metagegevens uitvoeren
 
-Gebruik de instructies die in [&#x200B; worden gegeven met voeten treedt van de Configuratie &#x200B;](download-install-additional-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende \(eigenschap\) gegevens op om de optie voor het uitnemen van metagegevens te configureren:
+Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](download-install-additional-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende \(eigenschap\) gegevens op om de optie voor het uitnemen van metagegevens te configureren:
 
 | PID | Eigenschappensleutel | Waarde van eigenschap |
 |---|------------|--------------|
@@ -194,7 +195,7 @@ Voer de volgende stappen uit om de workflow voor het uitnemen van metagegevens u
 
 1. Klik op de **verbinding van Adobe Experience Manager** bij de bovenkant en kies **Hulpmiddelen**.
 
-1. Selecteer **Gidsen** van de lijst van hulpmiddelen en klik de **3&rbrace; tegel van de Extractie van Metagegevens DITA &lbrace;.**
+1. Selecteer **Gidsen** van de lijst van hulpmiddelen en klik de **3} tegel van de Extractie van Metagegevens DITA {.**
 
 1. Als u meta-gegevens uit één enkel dossier en zijn gebiedsdelen wilt halen, klik **Uitgezocht een verbinding van het Dossier** en doorblader voor een dossier.
 
@@ -219,7 +220,7 @@ Voer de volgende stappen uit om de tijdelijke vertaalmap uit te sluiten van de z
 
 >[!NOTE]
 >
-> Met deze procedure kunt u elke andere maplocatie aan de lijst met uitsluitingen toevoegen. Voor meer details over het werken met indexen, zie [&#x200B; Inhoud Onderzoek en het Indexeren &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html?lang=nl-NL).
+> Met deze procedure kunt u elke andere maplocatie aan de lijst met uitsluitingen toevoegen. Voor meer details over het werken met indexen, zie [ Inhoud Onderzoek en het Indexeren ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html).
 
 1. Voeg de volgende eigenschap toe aan de aangepaste damAssetLucene-index:
 
@@ -229,7 +230,7 @@ Voer de volgende stappen uit om de tijdelijke vertaalmap uit te sluiten van de z
 
 1. Navigeer naar het lucene knooppunt dat beschikbaar is op de volgende locatie:
 
-   /oak:index/lucene
+   /eikel:index/lucene
 
 1. Voeg de volgende eigenschap toe aan het knooppunt lucene:
 

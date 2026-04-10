@@ -1,22 +1,22 @@
 ---
-title: Native PDF | JVM-vlaggen configureren voor Native PDF Publishing
-description: JVM-vlaggen configureren voor Native PDF Publishing
-exl-id: d5432913-4b5a-48e7-9467-7f6c6e0adbe4
+title: Native PDF | JVM-vlaggen configureren voor native PDF-publicatie
+description: JVM-vlaggen configureren voor native PDF-publicatie
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
 
-# JVM-vlaggen configureren voor Native PDF Publishing
+# JVM-vlaggen configureren voor Native PDF Publishing for On-Premise
 
 Native PDF-publicaties starten een apart JVM-proces om een PDF te genereren. Mogelijk moet u de configuraties van deze JVM aanpassen om verschillende scenario&#39;s te ondersteunen. Als u bijvoorbeeld grotere werklasten wilt uitvoeren, moet u de maximale heapgrootte verhogen die beschikbaar is voor het gepaaide JVM-proces.
 
-Voer de volgende stappen uit om JVM-vlaggen voor AEM Guides Native PDF publiceren te configureren:
+Voer de volgende stappen uit om JVM-vlaggen voor AEM Guides Native PDF Publishing te configureren:
 
 1. Open de Adobe Experience Manager Web Console Configuration-pagina.
 

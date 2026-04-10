@@ -5,7 +5,8 @@ exl-id: d7603b4e-aae4-48ca-be84-8edb51626405
 feature: Document State
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '1131'
 ht-degree: 0%
@@ -126,12 +127,12 @@ Als u de documentstatus niet handmatig wilt wijzigen, kunt u een workflow maken 
 
 Voer de volgende stappen uit om de documentstatuswijziging te automatiseren:
 
-1. Open de werkstroompagina via de URL van de AEM server.
+1. Open de workflowpagina via de URL van de AEM-server.
 
    `<AEM_Server_URL>:<port>/workflow`
 
 1. Open een workflow op de pagina met workflows. Bijvoorbeeld Revisieonderwerp.
-1. Selecteer **Stap van het Proces** van de **3&rbrace; sectie van het Werkschema &lbrace;van de AEM dialoog en belemmering-daling op het werkschema.**
+1. Selecteer **Stap van het Proces** van de **3} sectie van het Werkschema {van de dialoog van AEM en belemmering-daling op het werkschema.**
 
    ![](assets/process-step-workflow.png)
 
@@ -151,7 +152,7 @@ Voer de volgende stappen uit om de documentstatuswijziging te automatiseren:
 
 AEM Guides biedt een workflow voor documentgoedkeuring waarmee u de levenscyclus van het ontwikkelingsproces van uw document kunt bepalen. Voer de volgende stappen uit om de goedkeuringswerkstroom in te schakelen:
 
-1. Meld u aan bij AEM en open de modus CRXDE Lite.
+1. Meld u aan bij AEM en open de CRXDE Lite-modus.
 
 1. Navigeer naar het standaardconfiguratiebestand dat beschikbaar is op de volgende locatie:
 

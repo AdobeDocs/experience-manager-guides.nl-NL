@@ -5,7 +5,8 @@ exl-id: 23fe404c-c76d-43ba-9b28-c49ab1e524de
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 34687ac8f8877d05e545b23cf0830aa0345a25f7
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 0%
@@ -28,11 +29,11 @@ De auto-sparen eigenschap wordt niet toegelaten door gebrek en u moet dit van co
 
 1. Onderzoek naar en klik op **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** bundel.
 
-1. In de *montages 0&rbrace; XmlEditorConfig, selecteer **Auto sparen**&#x200B;optie.*
+1. In de *montages 0} XmlEditorConfig, selecteer* Auto sparen **optie.**
 
 1. Op het **Auto sparen het gebied van het Interval**, specificeer het tijdinterval in seconden om de auto-sparen eigenschap teweeg te brengen.
 
 1. Klik **sparen**.
 
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; pas de Redacteur van het Web &#x200B;](conf-web-editor.md) aan
+**Bovenliggend onderwerp:**[ pas de Redacteur van het Web ](conf-web-editor.md) aan

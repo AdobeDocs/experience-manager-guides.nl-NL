@@ -1,11 +1,12 @@
 ---
-title: Oorspronkelijke PDF | Variabelen gebruiken in de PDF-uitvoer
+title: Native PDF | Variabelen gebruiken in PDF-uitvoer
 description: Variabelen gebruiken in de PDF-uitvoer en -uitvoersjablonen
 feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 96e54aee-52df-4af1-97fd-34986f553be4
-source-git-commit: 594248c42b14c960d858a2e0e6994aa9bb4acd4e
+hidefromtoc: true
+source-git-commit: 34687ac8f8877d05e545b23cf0830aa0345a25f7
 workflow-type: tm+mt
 source-wordcount: '1450'
 ht-degree: 0%
@@ -20,20 +21,20 @@ Een variabele is een naam-waardepaar van gegevens die als herbruikbare informati
 
 Voer de volgende stappen uit om een variabele te maken:
 
-![&#x200B; creeer een nieuwe variabele &#x200B;](assets/add-variable-default.png){width="800" align="left"}
+![ creeer een nieuwe variabele ](assets/add-variable-default.png){width="800" align="left"}
 
 *creeer variabelen en bepaal waarden voor hen.*
 
 
-1. Navigeer in de editor naar het linkerdeelvenster en selecteer **Variabelen** <img alt= "variabele, pictogram" src="./assets/variables-icon.svg" width="25">. Deze optie is beschikbaar onder de sectie Meer.
-1. Selecteer **uitgeven** <img alt= "Het pictogram van het potlood bewerken" src="./assets/edit_pencil_icon.svg" width="25"> om de **Variabelen** redacteur te openen.
+1. In de Redacteur, navigeer aan het Linkerpaneel en selecteer **Variabelen** <img alt= "variabele, pictogram" src="./assets/variables-icon.svg" width="25">. Deze optie is beschikbaar in de sectie Meer.
+1. Selecteer **uitgeven** <img alt= "Pictogram Potlood bewerken" src="./assets/edit_pencil_icon.svg" width="25"> om de **Variabelen** redacteur te openen.
 De variabelen worden in alfabetische volgorde weergegeven.
 1. Ga de veranderlijke naam in de **kolom van de Naam** en zijn waarde in de **kolom van de Waarde** in.
    >[!TIP]
    >
-   >U kunt alle HTML-inhoud gebruiken als variabele om de variabelewaarde in een specifieke opmaak weer te geven. U kunt bijvoorbeeld een `<b>` tag toevoegen aan de variabele waarde om de waarde **Experience Manager Guides** vetgedrukt weer te geven. U kunt ook afbeeldingen uit de opslagplaats als waarden toevoegen.
+   >U kunt elke HTML-inhoud als een variabelewaarde gebruiken om de variabelewaarde in specifieke opmaak weer te geven. Bijvoorbeeld, kunt u a `<b>` markering aan de veranderlijke waarde toevoegen om de waarde **Experience Manager Guides** in vette letters te tonen. U kunt ook afbeeldingen uit de gegevensopslagruimte als waarden toevoegen.
 
-1. Selecteer **Variabele toevoegen** <img alt= "Pictogram toevoegen" src="./assets/add-icon.svg" width="25"> om een nieuwe variabele toe te voegen. U kunt geen variabele maken met dezelfde naam als een bestaande variabele. Er wordt een fout weergegeven.
+1. Selecteer **veranderlijk toevoegen** <img alt= "Pictogram toevoegen" src="./assets/add-icon.svg" width="25"> om een nieuwe variabele toe te voegen. U kunt geen variabele maken met dezelfde naam als een bestaande variabele. Er wordt een fout weergegeven.
 
    >[!NOTE]
    >
@@ -82,7 +83,7 @@ In de voorvertoning van de variabele wordt de standaardwaarde weergegeven. Als u
 1. Selecteer een variabele in het **paneel van Variabelen**.
 1. Beweeg over de variabele om het **menu van Opties** te bekijken en dan de **optie van de Voorproef** te selecteren.
 
-   ![&#x200B; veranderlijke voorproef van het veranderlijke paneel &#x200B;](assets/variables-panel-preview-default.png){width="550" align="left"}
+   ![ veranderlijke voorproef van het veranderlijke paneel ](assets/variables-panel-preview-default.png){width="550" align="left"}
 
 *Voorproef de standaardwaarde voor een variabele.*
 
@@ -110,23 +111,23 @@ U kunt een variabele op twee manieren verwijderen:
 1. Selecteer een variabele in het **paneel van Variabelen**.
 1. Beweeg over de variabele om het **menu van Opties** te bekijken en dan de **schrapping** optie te selecteren.
 
-**Vanuit de editor Variabelen**
+**van de redacteur van Variabelen**
 
-1. Plaats de muisaanwijzer op de variabele in de lijst om het **menu Opties** weer te geven.
+1. Beweeg over de variabele in de lijst om het **menu van Opties** te bekijken.
 1. Selecteer **Schrapping** optie.
 
 De variabele wordt verwijderd uit alle sets met variabelen.
 
 ## Variabelesets voor uitvoervoorinstellingen
 
-Adobe Experience Manager Guides ondersteunt ook variabelesets, waarmee u de variabelen alternatieve waarden kunt toewijzen. Een onderneming kan bijvoorbeeld twee producten, A en B, verkopen. Het heeft verschillende specificaties voor elk van hen. Deze specificaties kunnen bestaan uit de productnaam, het versienummer en de releasedatum. Er kunnen andere verschillen zijn in branding. Met behulp van variabelensets definieert u een andere set waarden voor uw variabelen. Wanneer u de uitvoer genereert, kiest u de juiste variabelenset en produceert u de vereiste uitvoer.
+Adobe Experience Manager Guides ondersteunt ook variabelesets, waarmee u de variabelen alternatieve waarden kunt toewijzen. Een onderneming kan bijvoorbeeld twee producten, A en B, verkopen. Het heeft verschillende specificaties voor elk van hen. Deze specificaties kunnen productnaam, versienummer en releasedatum bevatten. Er kunnen andere verschillen in branding zijn. Met behulp van variabele sets definieert u een andere set waarden voor de variabelen. Wanneer u de uitvoer genereert, kiest u de juiste variabele en produceert u de vereiste uitvoer.
 
-### Variabelensets configureren
+### Variabele-sets configureren
 
-U moet variabelensets configureren voordat u er variabelen aan toevoegt.
+U moet veranderlijke reeksen vormen alvorens om het even welke variabelen aan hen toe te voegen.
 
 1. Selecteer **Montages** <img alt= "Instellingenpictogram" src="./assets/settings-icon.svg" width="25"> om **te openen vormt veranderlijke reeksen** dialoogdoos.
-   ![&#x200B; vorm veranderlijke reeks &#x200B;](assets/configure-variable-set.png){width="550" align="left"}
+   ![ vorm veranderlijke reeks ](assets/configure-variable-set.png){width="550" align="left"}
 1. Ga de veranderlijke vastgestelde naam in de **Naam** kolom in.
 1. Selecteer **veranderlijk toevoegen** <img alt= "Pictogram toevoegen" src="./assets/add-icon.svg" width="25"> om een nieuwe set variabelen toe te voegen. De variabelesets worden in alfabetische volgorde weergegeven.
 1. U kunt **Schrapping** selecteren om een veranderlijke reeks te verwijderen.
@@ -158,7 +159,7 @@ Elke nieuwe variabele wordt toegevoegd aan alle veranderlijke reeksen. Wanneer u
 U kunt ook een voorvertoning van de waarden voor een variabeleset weergeven.
 Bijvoorbeeld, voor veranderlijke reeks *Adobe-Set1*, hebt u de waarde van de variabele ProductName als &quot;ProductA&quot;bepaald, dan toont het deze waarde in de voorproef in de redacteur van Variabelen.
 
-![&#x200B; veranderlijke voorproef van de variabelenredacteur &#x200B;](assets/variables-editor-preview.png){width="550" align="left"}
+![ veranderlijke voorproef van de variabelenredacteur ](assets/variables-editor-preview.png){width="550" align="left"}
 
 *Voorproef de waarde die u in de geselecteerde veranderlijke reeks hebt bepaald.*
 
@@ -179,7 +180,7 @@ Voer de volgende stappen uit om een variabele zoals uw ProductName in het koptek
 
    >[!NOTE]
    >
-   > De mening [&#x200B; past een sectie van de paginalay-out &#x200B;](../native-pdf/components-pdf-template.md#customize-a-page-layout-customize-page-layout) voor het openen van een paginalay-out voor aanpassing of het uitgeven aan.
+   > De mening [ past een sectie van de paginalay-out ](../native-pdf/components-pdf-template.md#customize-a-page-layout-customize-page-layout) voor het openen van een paginalay-out voor aanpassing of het uitgeven aan.
 
 1. Selecteer de koptekst om deze actief te maken en een variabele in te voegen.
 
@@ -194,26 +195,26 @@ Voer de volgende stappen uit om een variabele zoals uw ProductName in het koptek
    1. Selecteer **Variabele/Gebieden van het Tussenvoegsel** <img alt= "variabele, pictogram" src="./assets/variables-icon.svg" width="25">.
    1. In het **Veranderlijke** dialoogvakje, selecteer de naam van de variabele om het in het kopbalgebied op te nemen.
    1. U kunt ook de zoektekenreeks in het tekstvak invoeren. De namen van variabelen die de opgegeven tekenreeks bevatten, worden gefilterd en in de lijst weergegeven. De geselecteerde variabele wordt ingevoegd in het koptekstgebied. U kunt de standaardwaarde van de variabele weergeven.
-   1. Als u een variabele wilt vervangen, dubbelklikt u op de variabelewaarde en selecteert u een andere variabele in het **dialoogvenster Variabele** . De variabele wordt vervangen.
+   1. Om een variabele te vervangen, klik de veranderlijke waarde tweemaal en selecteer een andere variabele van het **Variabele** dialoogvakje. De variabele wordt vervangen.
 
 
 ## PDF-uitvoer genereren met variabelen
 
 U kunt de PDF-uitvoer genereren met de waarden van verschillende variabelen. Alvorens de lay-out te produceren, verkies een veranderlijke reeks van een output vooraf ingesteld **Veranderlijke reeks** drop-down lijst om zijn waarden te kiezen.
 
-![&#x200B; veranderlijke vastgestelde dropdown &#x200B;](assets/output-preset-variable-dropdown.png){width="550" align="left"}
+![ veranderlijke vastgestelde dropdown ](assets/output-preset-variable-dropdown.png){width="550" align="left"}
 
-*Selecteer een variabelenset in de vervolgkeuzelijst in de uitvoervoorinstelling die u wilt gebruiken om de PDF-uitvoer te genereren.*
+*selecteer een veranderlijke reeks van dropdown in de output vooraf ingesteld die u wilt gebruiken om de output van PDF te produceren.*
 
 >[!NOTE]
 >
-> U kunt ook (Standaard) selecteren in de vervolgkeuzelijst om de standaardwaarden voor alle variabelen te publiceren.
+> U kunt ook (Standaard) in het vervolgkeuzemenu selecteren om de standaardwaarden voor alle variabelen te publiceren.
 
-Afhankelijk van de door u gekozen variabelenset, krijgt u een uitvoer die overeenkomt met de variabelewaarden die in de variabelenset zijn gedefinieerd. Als u bijvoorbeeld de variabelenset *Adobe-set1* selecteert, worden de waarden van de variabelen in uw uitvoer weergegeven zoals gedefinieerd in deze set.
+Afhankelijk van de gekozen set met variabelen, krijgt u een uitvoer die overeenkomt met de waarden van variabelen die in de set met variabelen zijn gedefinieerd. Bijvoorbeeld, als u de veranderlijke reeks *Adobe-set1* selecteert, toont uw output de variabelen&#39; waarden zoals die in deze reeks worden bepaald.
 
 
 <img src="assets/variable-pdf-output.png" alt="PDF-uitvoer met variabelen" width="500" border="2px">
 
-*Genereer de PDF-uitvoer met behulp van variabelen in de paginalay-out.*
+*produceer de output van PDF gebruikend variabelen in de paginalay-out.*
 
 U kunt de waarden voor elke variabele die u hebt ingesteld, ook snel bijwerken wanneer dat nodig is en de uitvoer opnieuw genereren. Als u bijvoorbeeld de details voor een versie moet bijwerken, kunt u de waarde van de versie bijwerken in de variabele VersionNumber en de uitvoer opnieuw genereren.

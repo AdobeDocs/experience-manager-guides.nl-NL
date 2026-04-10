@@ -1,23 +1,24 @@
 ---
-title: Recommendations for performance optimization
-description: Meer informatie over de Recommendations voor het optimaliseren van prestaties
+title: Aanbevelingen voor optimalisatie van prestaties
+description: Meer informatie over de Aanbevelingen voor optimalisatie van prestaties
 exl-id: b2a836a0-de82-4d89-aae3-43276997da74
 feature: Performance Optimization
 role: Admin
 level: Experienced
-source-git-commit: b28b7d96cce69f677b0bcf891b94d7ac84eb1eb0
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '904'
 ht-degree: 0%
 
 ---
 
-# Recommendations for performance optimization {#id213BD0JG0XA}
+# Aanbevelingen voor optimalisatie van prestaties {#id213BD0JG0XA}
 
 ## Gegevensopslag \(verplicht\) configureren
 
 **wat is de verandering?**
-Plaats het `minRecordLength` bezit aan een waarde van `100` onder de configuratie `org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.` voor meer informatie over de opslag van de dossierdatum en S3 gegevensopslag, zie [&#x200B; het Vormen knoopopslag en gegevensopslag in AEM 6 &#x200B;](https://helpx.adobe.com/nl/experience-manager/6-5/sites/deploying/using/data-store-config.html) artikel.
+Plaats het `minRecordLength` bezit aan een waarde van `100` onder de configuratie `org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.` voor meer informatie over de opslag van de dossierdatum en S3 gegevensopslag, zie [ het Vormen knoopopslag en gegevensopslag in AEM 6 ](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/data-store-config.html) artikel.
 
 >[!NOTE]
 >
@@ -32,14 +33,14 @@ De DITA-bestanden worden opgeslagen in de gegevensopslag in plaats van in de seg
 ## Lucene-index bijwerken \(verplicht\)
 
 **wat is de verandering?**
-Sluit /var/dxml uit van eiken:index/lucene.
+Sluit /var/dxml van eiken :index/lucene uit.
 
 >[!NOTE]
 >
 > AEM Guides gebruikt nooit Lucene-indexen om te zoeken naar inhoud in het knooppunt /var/dxml.
 
 **Wanneer te vormen?**
-Als u deze wijziging aanbrengt op een nieuw systeem voordat u inhoud migreert, is alleen het bijwerken van de eik:index/glucose vereist. Anders, op een bestaand systeem waar de inhoud reeds gemigreerd is, dan na het aanbrengen van de verandering in eiken:index/lucene, herbouwt indexen voor Luzern \ (*die enkele uren zou kunnen vergen om* \) te voltooien.
+Als u deze verandering op een nieuw systeem alvorens inhoud te migreren aanbrengt, dan slechts wordt het bijwerken van eikel :index /lucene vereist. Anders, op een bestaand systeem waar de inhoud reeds gemigreerd is, dan na het aanbrengen van de verandering in eiken :index/lucene, herbouwt indexen voor Luzern \ (*die enkele uren zou kunnen vergen om* \ te voltooien).
 
 **Resultaat van deze verandering**
 Deze verandering verhindert /var/dxml knoop in de segmentopslag wordt geïndexeerd en wordt opgeslagen.
@@ -47,11 +48,11 @@ Deze verandering verhindert /var/dxml knoop in de segmentopslag wordt geïndexee
 ## Java-geheugenoptimalisatie \(verplicht\)
 
 **wat is de verandering?**
-De JVM-beginparameters moeten zorgvuldig worden ingesteld op basis van de infrastructuur en de schijfgrootte. U wordt aangeraden Adobe Support te raadplegen om hulp te krijgen bij het openen van de ideale configuratie. U kunt echter zelf de volgende configuraties uitproberen:
+De JVM-beginparameters moeten zorgvuldig worden ingesteld op basis van de infrastructuur en de schijfgrootte. U wordt aangeraden Adobe Support te raadplegen voor hulp bij het verkrijgen van toegang tot de ideale configuratie. U kunt echter zelf de volgende configuraties uitproberen:
 
 - Stel de JVM-heapgrootte in op minimaal 1/4e van het totale beschikbare geheugen. Gebruik de parameter `-Xmx<size>` om de grootte van het heapgeheugen in te stellen. Stel de waarde in voor -`Xms` gelijk aan `-Xmx` .
 
-- Inschakelen `-XX:+HeapDumpOnOutOfMemoryError` en het pad instellen voor `-XX:HeapDumpPath=</path/to/folder` `>` .
+- Inschakelen `-XX:+HeapDumpOnOutOfMemoryError` en het pad instellen voor `-XX:HeapDumpPath=</path/to/folder``>` .
 
 - Java GC-logbestand inschakelen als:
 
@@ -80,7 +81,7 @@ Dit resulteert in optimale heapgrootte en gereguleerde uitvoering van GC.
 ## Clientbibliotheekminiatuur op Author-instantie \(optioneel\)
 
 **wat is de verandering?**
-De clientbibliotheken moeten zo worden ingesteld dat ze in de ontwerpinstanties miniaturen. Zo zorgt u ervoor dat er minder bytes worden gedownload wanneer een gebruiker op verschillende locaties naar het systeem bladert. Om deze verandering aan te brengen, plaats de configuratie in **de Manager van de Bibliotheek van de HTML** van de console van Felix.
+De clientbibliotheken moeten zo worden ingesteld dat ze in de ontwerpinstanties miniaturen. Zo zorgt u ervoor dat er minder bytes worden gedownload wanneer een gebruiker op verschillende locaties naar het systeem bladert. Om deze verandering aan te brengen, plaats de configuratie in **de Manager van de Bibliotheek van HTML** van de console van Felix.
 
 **Wanneer te vormen?**
 Dit kan in runtime door de console van Felix of via codeplaatsing worden gedaan.
@@ -93,7 +94,7 @@ Deze wijziging verbetert de laadtijd van pagina&#39;s op de instantie Auteur, aa
 **wat is de verandering?**
 Deze wijziging is vereist als u DITA-OT gebruikt om uitvoer te publiceren en er ook een aantal gelijktijdige publicatiethreads is gedefinieerd.
 
-Standaard stelt AEM Guides de publicatiethreads in op het aantal CPU&#39;s+1. Het wordt echter aanbevolen deze waarde in te stellen op de helft \(1/2\) of een derde \(1/3\) van het totale aantal CPU&#39;s. Om dit te doen, plaats het **bezit van de Grootte van de Pool van de 1&rbrace; Generatie onder de configuratie `com.adobe.fmdita.publish.manager.PublishThreadManagerImpl` zoals volgens de aanbevelingen.**
+Standaard stelt AEM Guides de publicatiethreads in op het aantal CPU&#39;s+1. Het wordt echter aanbevolen deze waarde in te stellen op de helft \(1/2\) of een derde \(1/3\) van het totale aantal CPU&#39;s. Om dit te doen, plaats het **bezit van de Grootte van de Pool van de 1} Generatie onder de configuratie** zoals volgens de aanbevelingen.`com.adobe.fmdita.publish.manager.PublishThreadManagerImpl`
 
 **Wanneer te vormen?**
 Dit kan in runtime door de console van Felix of via codeplaatsing worden gedaan.
@@ -101,18 +102,18 @@ Dit kan in runtime door de console van Felix of via codeplaatsing worden gedaan.
 **Resultaat van deze verandering**
 Deze verandering zorgt ervoor dat op een lopende instantie van de Auteur alle middelen niet voor de het publiceren verrichtingen worden toegewezen. Hierdoor blijven de systeembronnen ook beschikbaar voor auteurs, wat resulteert in een betere gebruikerservaring.
 
-## Batchgrootte van knooppunten configureren voor het genereren van AEM Site-uitvoer \(verplicht, afhankelijk van het gebruiksgeval\)
+## Batchgrootte van knooppunten configureren voor het genereren van uitvoer van AEM Site \(verplicht, afhankelijk van het gebruiksgeval\)
 
 **wat is de verandering?**
 Deze wijziging is vereist als u AEM Sites-uitvoer genereert.
 
-Plaats de **Beperking AEM de Pagina&#39;s van de Plaats in het bezit van de Zeep** onder `com.adobe.fmdita.config.ConfigManager` aan een aantal dat op de configuratie van uw systeem wordt gebaseerd. Deze eigenschap definieert de batchgrootte van knooppunten die moeten worden vastgelegd wanneer de sitepagina&#39;s worden gegenereerd. Op een systeem met bijvoorbeeld een groter aantal CPU&#39;s en heapgrootten kunt u de standaardwaarde van `500` naar een groter aantal verhogen. U moet de uitvoering met de gewijzigde waarde testen om tot een optimale waarde voor deze eigenschap te komen.
+Plaats de **Pagina&#39;s van de Plaats van AEM van de Grens in het bezit van de Zeep** onder `com.adobe.fmdita.config.ConfigManager` aan een aantal dat op de configuratie van uw systeem wordt gebaseerd. Deze eigenschap definieert de batchgrootte van knooppunten die moeten worden vastgelegd wanneer de sitepagina&#39;s worden gegenereerd. Op een systeem met bijvoorbeeld een groter aantal CPU&#39;s en heapgrootten kunt u de standaardwaarde van `500` naar een groter aantal verhogen. U moet de uitvoering met de gewijzigde waarde testen om tot een optimale waarde voor deze eigenschap te komen.
 
 **Wanneer te vormen?**
 Dit kan in runtime door de console van Felix of via codeplaatsing worden gedaan.
 
 **Resultaat van deze verandering**
-Een verhoogd aantal van de **Grens AEM de Pagina&#39;s van de Plaats in het bezit van de Samenvatting** optimaliseert het proces van de AEM de outputproductie van de Plaats.
+Een verhoogd aantal van de **Pagina&#39;s van de Plaats van AEM van de Grens in het bezit van de Samenvatting** optimaliseert het proces van de de outputgeneratie van de Plaats van AEM.
 
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; Download en installeer &#x200B;](download-install.md)
+**Bovenliggend onderwerp:**[ Download en installeer ](download-install.md)

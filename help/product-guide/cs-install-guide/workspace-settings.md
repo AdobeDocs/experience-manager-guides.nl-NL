@@ -4,7 +4,8 @@ description: Leer meer over de verschillende instellingen die beschikbaar zijn i
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 3c3880af-8d32-4d8a-9dca-8be12e9a5fd5
-source-git-commit: dedd253dba3d93beed162eb5258125928f6d315c
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '2440'
 ht-degree: 0%
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 # Workspace-instellingen
 
-De **de montages van Workspace** optie huidig in de [&#x200B; bar van het Lusje &#x200B;](../user-guide/web-editor-tab-bar.md) van de Redacteur is beschikbaar slechts voor beheerders en de beheerders van het omslagprofiel, en staat het vormen van de volgende montages toe:
+De **de montages van Workspace** optie huidig in de [ bar van het Lusje ](../user-guide/web-editor-tab-bar.md) van de Redacteur is beschikbaar slechts voor beheerders en de beheerders van het omslagprofiel, en staat het vormen van de volgende montages toe:
 
 - [Algemeen](#general)
 - [Deelvensters](#panels)
@@ -39,11 +40,11 @@ Met de Algemene instellingen kunt u de instellingen configureren voor gebruik va
 ![](assets/workspace-settings.png){width="350" align="left"}
 
 - **AI Medewerker**
-Selecteer dit om de [&#x200B; AI Medewerker &#x200B;](../user-guide/ai-assistant.md) eigenschap in Experience Manager Guides toe te laten. Hef de selectie op om de functie uit te schakelen.
+Selecteer dit om de [ AI Medewerker ](../user-guide/ai-assistant.md) eigenschap in Experience Manager Guides toe te laten. Hef de selectie op om de functie uit te schakelen.
 
   Na het toelaten van de **AI Medewerker** knevel, kunt u vormen welke opties onder het **Authoring lusje** voor auteurs verschijnen gebruikend het **Authoring snelle acties** menu zoals hieronder getoond.\
   Deze wijzigingen gelden voor het specifieke mapprofiel waarmee u werkt. Als u een nieuw omslagprofiel creeert, zal het de montages van Workspace erven die in het **Globale** worden bepaald omslagprofiel door gebrek. U kunt deze montages wijzigen zoals nodig gebruikend de **montages van Workspace** en sparen de bijgewerkte configuratie.\
-  Voor een gedetailleerd overzicht van de beschikbare opties voor Authoring die AI Medewerker gebruiken, bekijk [&#x200B; de documenten van de Auteur met AI Medewerker &#x200B;](../user-guide/ai-assistant-right-panel.md).
+  Voor een gedetailleerd overzicht van de beschikbare opties voor Authoring die AI Medewerker gebruiken, bekijk [ de documenten van de Auteur met AI Medewerker ](../user-guide/ai-assistant-right-panel.md).
 
   Van het **Authoring snelle acties** menu, kunt u:
 
@@ -61,7 +62,7 @@ Selecteer dit om de [&#x200B; AI Medewerker &#x200B;](../user-guide/ai-assistant
 
 - **Bevelingen**
 
-  Wijzig de stijl van de citaten. Kies de citaatstijl van drop-down u in uw project wilt gebruiken. Voor meer details, mening [&#x200B; de citaatstijlen van de Verandering &#x200B;](../user-guide/web-editor-apply-citations.md#change-citation-style).
+  Wijzig de stijl van de citaten. Kies de citaatstijl van drop-down u in uw project wilt gebruiken. Voor meer details, mening [ de citaatstijlen van de Verandering ](../user-guide/web-editor-apply-citations.md#change-citation-style).
 
 - **Voorwaarde**
 
@@ -76,11 +77,11 @@ Selecteer dit om de [&#x200B; AI Medewerker &#x200B;](../user-guide/ai-assistant
    - **toon onderwerpregeling in het paneel van Voorwaarden**: selecteer dit om een onderwerpregeling in het voorwaardenpaneel te bekijken. Als u deze optie uitschakelt, worden de gedefinieerde voorwaarden weergegeven in het deelvenster Voorwaarden.
 
 - **controle van de Spel**
-Er zijn twee opties — **de spellingcontrole van AEM** en **Browser spellingcontrole**. Standaard gebruikt de editor de functie voor spellingcontrole in de browser, waarbij de spellingcontrole wordt uitgevoerd met behulp van het ingebouwde woordenboek van de browser. U kunt overschakelen naar de spellingcontrole van AEM om het Adobe Experience Manager-woordenboek te gebruiken. Dit kan ook worden aangepast om uw aangepaste woordenlijst toe te voegen. Voor meer informatie over het aanpassen van het woordenboek van AEM, de mening [&#x200B; past de sectie van het standaardwoordenboek van AEM &#x200B;](../cs-install-guide/customize-aem-custom-dictionary.md) in installeert en vormt Adobe Experience Manager Guides as a Cloud Service aan.
+Er zijn twee opties — **de spellingcontrole van AEM** en **Browser spellingcontrole**. Standaard gebruikt de editor de functie voor spellingcontrole in de browser, waarbij de spellingcontrole wordt uitgevoerd met behulp van het ingebouwde woordenboek van de browser. U kunt overschakelen naar de spellingcontrole van AEM om het Adobe Experience Manager-woordenboek te gebruiken. Dit kan ook worden aangepast om uw aangepaste woordenlijst toe te voegen. Voor meer informatie over het aanpassen van het woordenboek van AEM, de mening [ past de sectie van het standaardwoordenboek van AEM ](../cs-install-guide/customize-aem-custom-dictionary.md) in installeert en vormt Adobe Experience Manager Guides as a Cloud Service aan.
 
 - **het Leren inhoud**: Dit het plaatsen staat u toe om de Opleiding van het Product en het Leren inhoudseigenschap voor uw instantie van Experience Manager Guides toe te laten of onbruikbaar te maken. Gebruik **toelaten het Leren inhoud** knevel om de eigenschap op een omslag-profielniveau toe te laten of onbruikbaar te maken. Deze functie blijft standaard uitgeschakeld voor alle instanties.
 
-  Leer meer over [&#x200B; Opleiding van het Product en het Leren inhoud &#x200B;](../learning-content/intro.md) eigenschap.
+  Leer meer over [ Opleiding van het Product en het Leren inhoud ](../learning-content/intro.md) eigenschap.
 
   De volgende functies/opties worden alleen beschikbaar wanneer de instelling voor leerinhoud is ingeschakeld:
 
@@ -90,14 +91,14 @@ Er zijn twee opties — **de spellingcontrole van AEM** en **Browser spellingcon
 
 Als Leerinhoud is uitgeschakeld, zijn alle bovenstaande opties niet beschikbaar in de Experience Manager Guides-interface.
 
-Voor meer details, mening [&#x200B; vormen de profielen van de Omslag &#x200B;](../lc-config-guide/lc-folder-profile.md).
+Voor meer details, mening [ vormen de profielen van de Omslag ](../lc-config-guide/lc-folder-profile.md).
 
 - **de redacteur van HTML**: Voor het leren van inhoud, staat dit plaatsen u toe om de Redacteur voor op HTML-Gebaseerd schrijven te vormen. De belangrijkste configuratieopties die in deze instelling aanwezig zijn, zijn als volgt:
 
    - **Verberg gealigneerd het stileren**: Laat deze optie toe om Auteurs te verhinderen gealigneerd het formatteren op de cursusinhoud toe te passen. Als deze optie is ingeschakeld, blijven alle inline opmaakopties zoals Lettertypen, Rand, Indeling, Achtergrond en Kolommen in het rechterdeelvenster van de Editor verborgen voor Auteurs. Nochtans, kunnen de Auteurs nog de globale op klasse-gebaseerde het stileren opties gebruiken beschikbaar in het **paneel van Stijlen**. Dit helpt consistentie met de stijlrichtlijnen van uw organisatie te handhaven.
    - **de mening van Source van de Huid voor Auteurs**: Laat deze optie toe om toegang tot de broncode van HTML te beperken. Dit is handig als u de bewerkervaring wilt vereenvoudigen of wijzigingen in de onderliggende code wilt voorkomen.
 
-  Voor meer details, mening [&#x200B; creërend en het aanpassen van het leren inhoud &#x200B;](../learning-content/lc-overview.md).
+  Voor meer details, mening [ creërend en het aanpassen van het leren inhoud ](../learning-content/lc-overview.md).
 
 ## Deelvensters
 
@@ -152,7 +153,7 @@ Dit bevat de Profielen die kunnen worden gebruikt om de **output van de Kennisba
 
 **Eerste vereisten**
 
-- Maak een verbonden app voor Salesforce. Voor meer details, verwijs naar [&#x200B; laat OAuth Montages voor API Integratie &#x200B;](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&type=5) toe.
+- Maak een verbonden app voor Salesforce. Voor meer details, verwijs naar [ laat OAuth Montages voor API Integratie ](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&type=5) toe.
 
 - Zorg tijdens het configureren van de verbonden app voor het volgende:
 
@@ -169,11 +170,11 @@ Dit bevat de Profielen die kunnen worden gebruikt om de **output van de Kennisba
 
    - Om een profiel van Salesforce tot stand te brengen, selecteer de **Salesforce** Kennisbank van het **type van Server** dropdown. Voer een profielnaam in. In de **Plaats URL**, ga de consumentenplaats in u zou gebruiken om de output te publiceren en dan de **Consumentensleutel** toe te voegen en **Geheime consument** die door de de consumentenplaats van Salesforce wordt verstrekt. Dan, **bevestigt** en **sparen** het pas gecreëerde profiel.
 
-     ![&#x200B; salesforce publiceert profiel in werkruimtemontages &#x200B;](../user-guide/images/salesforce-publish-profile.png){width="550" align="left"}
+     ![ salesforce publiceert profiel in werkruimtemontages ](../user-guide/images/salesforce-publish-profile.png){width="550" align="left"}
 
      >[!NOTE]
      >
-     >Gebruik Apache HTTP Components Proxy Configuration in AEM om een proxy voor Salesforce in Experience Manager Guides te configureren. Leer hoe te [&#x200B; volmacht voor de Controleur van de Verbinding van AEM &#x200B;](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html) vormen.
+     >Gebruik Apache HTTP Components Proxy Configuration in AEM om een proxy voor Salesforce in Experience Manager Guides te configureren. Leer hoe te [ volmacht voor de Controleur van de Verbinding van AEM ](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html) vormen.
 
 
 **creeer een profiel ServiceNow**
@@ -182,7 +183,7 @@ Dit bevat de Profielen die kunnen worden gebruikt om de **output van de Kennisba
 
 Vorm de server ServiceNow om de activa te uploaden.
 
-- Verbind met de **&#x200B;**&#x200B;server ServiceNow.
+- Verbind met de **** server ServiceNow.
 - Navigeer aan **Eigenschappen van het Systeem** > **Veiligheid**.
 - Schakel de volgende optie uit:
 
@@ -192,13 +193,13 @@ Vorm de server ServiceNow om de activa te uploaden.
 
   Zodra u app hebt gevormd, creeer het **ServiceNow** profiel.
 
-- Om een profiel tot stand te brengen, selecteer de Kennisbank ServiceNow van het **type van Server** dropdown. Ga een profiel **Naam** in. In **ServiceNow URL**, ga de consumentenplaats in u voor het publiceren van de output zou gebruiken en dan de **Gebruikersnaam** en **Wachtwoord** toevoegde die&rbrace; door de plaats van de consument ServiceNow wordt verstrekt. Dan, **bevestigt** en **sparen** het pas gecreëerde profiel.
+- Om een profiel tot stand te brengen, selecteer de Kennisbank ServiceNow van het **type van Server** dropdown. Ga een profiel **Naam** in. In **ServiceNow URL**, ga de consumentenplaats in u voor het publiceren van de output zou gebruiken en dan de **Gebruikersnaam** en **Wachtwoord** toevoegde die} door de plaats van de consument ServiceNow wordt verstrekt. Dan, **bevestigt** en **sparen** het pas gecreëerde profiel.
 
-  ![&#x200B; ServiceNow publiceert profiel &#x200B;](../user-guide/images/service-now-publish-profile.png){width="550" align="left"}
+  ![ ServiceNow publiceert profiel ](../user-guide/images/service-now-publish-profile.png){width="550" align="left"}
 
-  Nadat u bevestigt, kunt u het Publish Profiel in de outputvoorinstellingen van een Kaart selecteren DITA en het gebruiken om de output aan de **Salesforce** of **&#x200B;**&#x200B;server te produceren ServiceNow die u hebt gekozen.
+  Nadat u bevestigt, kunt u het Publish Profiel in de outputvoorinstellingen van een Kaart selecteren DITA en het gebruiken om de output aan de **Salesforce** of **** server te produceren ServiceNow die u hebt gekozen.
 
-  Leer meer over de [&#x200B; vooraf ingestelde output van de Kennisbank &#x200B;](../user-guide/generate-output-knowledge-base.md).
+  Leer meer over de [ vooraf ingestelde output van de Kennisbank ](../user-guide/generate-output-knowledge-base.md).
 
 
 ## Validatie
@@ -212,18 +213,18 @@ Dit tabblad bevat opties voor het configureren van de Schematron-validaties in d
   >- Het geselecteerde schemabestand of de geselecteerde schemabestanden blijven aanwezig voor het geselecteerde mapprofiel.
   >- Wanneer een ongeldig Schematron-bestand wordt toegevoegd, wordt een foutbericht weergegeven, zoals hieronder wordt weergegeven.
 
-  ![&#x200B; Bevestiging in werkruimtemontages &#x200B;](../user-guide/images/editor-setting-validation-error.png){width="550" align="left"}
+  ![ Bevestiging in werkruimtemontages ](../user-guide/images/editor-setting-validation-error.png){width="550" align="left"}
 
   Hiermee voorkomt u dat gebruikers een bestand opslaan dat een regel verbreekt die is gedefinieerd in de geselecteerde Schema-bestanden. Als u deze optie niet selecteert, wordt het bestand niet gevalideerd voordat de wijzigingen worden opgeslagen.
 
 - **staat alle gebruikers toe om schemadossiers in bevestigingspaneel toe te voegen**: Selecteer dit om de gebruikers toe te staan om het even welk dossier van het Schema in het paneel van de Bevestiging van de Redacteur toe te voegen. Dit staat de gebruikers toe om dossiers Schematron toe te voegen en dan de onderwerpen tegen het dossier van Schematron te bevestigen. Als dit niet wordt geselecteerd, is de optie om schematroondossier **toe te voegen Schematroebestand** knoop niet beschikbaar aan de gebruikers in het **paneel van de Bevestiging** van de Redacteur.
 
-  ![&#x200B; Bevestiging in werkruimtemontages &#x200B;](../user-guide/images/editor-setting-validation.png){width="550" align="left"}
+  ![ Bevestiging in werkruimtemontages ](../user-guide/images/editor-setting-validation.png){width="550" align="left"}
 
 
 ## Weergavekenmerken
 
-Net als in de lijst Kenmerken kunt u de lijst met kenmerken instellen die in de lijst met kenmerken van een element moet worden weergegeven. Door gebrek, zijn vier **attributen van de Vertoning** — publiek, platform, product, en steunen gevormd om in de attributenlijst van een element worden getoond. U kunt een vertoningsattribuut ook toevoegen gebruikend **&#x200B;**&#x200B;pictogram op de bovenkant toevoegen. U kunt om het even welke vertoningsattributen ook schrappen gebruikend het **pictogram van de Schrapping**.
+Net als in de lijst Kenmerken kunt u de lijst met kenmerken instellen die in de lijst met kenmerken van een element moet worden weergegeven. Door gebrek, zijn vier **attributen van de Vertoning** — publiek, platform, product, en steunen gevormd om in de attributenlijst van een element worden getoond. U kunt een vertoningsattribuut ook toevoegen gebruikend **** pictogram op de bovenkant toevoegen. U kunt om het even welke vertoningsattributen ook schrappen gebruikend het **pictogram van de Schrapping**.
 
 De kenmerken die voor een element zijn gedefinieerd, worden weergegeven in de layoutweergave en in de contourweergave.
 
@@ -251,7 +252,7 @@ Dit lusje bevat de opties om taalgroepen tot stand te brengen, de bronetiketten 
       >
       > Knevel **tonen meer** aan **tonen minder** en bekijken slechts een paar talen.
 
-   1. Beweeg over de talen in een groep om ![&#x200B; uit te geven geef pictogram &#x200B;](../user-guide/images/edit_pencil_icon.svg) uit of schrap ![&#x200B; &#x200B;](../user-guide/images/Delete_icon.svg) de taalgroepen schrappen.
+   1. Beweeg over de talen in een groep om ![ uit te geven geef pictogram ](../user-guide/images/edit_pencil_icon.svg) uit of schrap ![ ](../user-guide/images/Delete_icon.svg) de taalgroepen schrappen.
    1. Sparen de **Montages**.
 
       >[!NOTE]
@@ -274,7 +275,7 @@ De metagegevens kunnen worden gekozen uit elke eigenschap onder het knooppunt `/
 Er wordt een fout weergegeven als het pad naar de metagegevens leeg is. Als u het label leeg laat, wordt het laatste element als label gekozen.
 
 
-![&#x200B; meta-gegevenslusje in de werkruimtemontages &#x200B;](../user-guide/images/editor-setting-metadata.png){width="550" align="left"}
+![ meta-gegevenslusje in de werkruimtemontages ](../user-guide/images/editor-setting-metadata.png){width="550" align="left"}
 
 *vorm de meta-gegevens voor het **de dialoogvakje van de Geschiedenis van de Versie**.*
 

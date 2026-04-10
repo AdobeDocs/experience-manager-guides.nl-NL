@@ -5,7 +5,8 @@ exl-id: 6387dd19-1bd1-4ce8-9428-968a6b838fbb
 feature: Introduction, Installation
 role: Admin
 level: Experienced
-source-git-commit: 1b25f1df67fa2442ab79830dc2ac5a6eabd0394c
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 8%
@@ -14,7 +15,7 @@ ht-degree: 8%
 
 # Downloaden en installeren {#id1645E0O04MK}
 
-Vanaf release 2024.2.0 is Experience Manager Guides alleen beschikbaar als een geautomatiseerde invoegtoepassing voor Experience Manager as a Cloud Service.
+Vanaf de release 2024.2.0 is Experience Manager Guides alleen beschikbaar als een automatische invoegtoepassing voor Experience Manager as a Cloud Service.
 
 Als u de versies van december 2023 of vroeger gebruikt, kunt u Adobe Experience Manager Guides van de bewaarplaats downloaden GitHub en het installeren.
 
@@ -27,4 +28,4 @@ Als u de versies van december 2023 of vroeger gebruikt, kunt u Adobe Experience 
 
 - **[de met voeten treedt van de Configuratie](download-install-additional-config-override.md)**
 
-- **[Recommendations voor prestatiesoptimalisering](download-install-recommend-perf-optimiz.md)**
+- **[Aanbevelingen voor prestatiesoptimalisering](download-install-recommend-perf-optimiz.md)**

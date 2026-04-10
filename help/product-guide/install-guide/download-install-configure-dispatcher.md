@@ -5,7 +5,8 @@ exl-id: 525de1c3-5a79-4d65-89b4-ca05ae660c2c
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 3%
@@ -14,15 +15,15 @@ ht-degree: 3%
 
 # Dispatcher configureren {#id213BCM0M05U}
 
-Als u van plan bent om een Dispatcher op AEM instantie van de Auteur samen met AEM Guides te gebruiken, dan moet u de volgende extra configuraties uitvoeren om opstelling te voltooien:
+Als u van plan bent om een Dispatcher op de instantie van de Auteur van AEM samen met AEM Guides te gebruiken, dan moet u de volgende extra configuraties uitvoeren om opstelling te voltooien:
 
 >[!NOTE]
 >
-> Dispatcher is de Adobe Experience Manager-tool voor cache- en taakverdelingsbewerkingen. Voor meer details over het gebruiken van Dispatcher, zie [&#x200B; Overzicht van Dispatcher &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html?lang=nl-NL).
+> Dispatcher is de Adobe Experience Manager-tool voor cache- en taakverdelingsbewerkingen. Voor meer details over het gebruiken van Dispatcher, zie [ Overzicht van Dispatcher ](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html?lang=en).
 
 ## EnableEncodedSlashes in URLs inschakelen
 
-URL&#39;s met gecodeerde schuine strepen zijn standaard niet ingeschakeld in AEM dispatcherinstellingen, maar als u in AEM Guides werkt, moet u deze optie inschakelen. Hiervoor moet u de parameter AllowEncodedSlashes instellen op Aan in Apache-configuratie, zoals in het volgende fragment wordt getoond:
+URL&#39;s met gecodeerde slashes zijn niet standaard ingeschakeld in de installatie van AEM-dispatcher, maar als u in AEM Guides werkt, moet u deze optie inschakelen. Hiervoor moet u de parameter AllowEncodedSlashes instellen op Aan in Apache-configuratie, zoals in het volgende fragment wordt getoond:
 
 ```XML
 <VirtualHost *:80>
@@ -41,7 +42,7 @@ URL&#39;s met gecodeerde schuine strepen zijn standaard niet ingeschakeld in AEM
 
 ## Het bestand mime.types configureren voor DITA
 
-Wanneer u een Dispatcher met AEM Guides gebruikt, moet u ervoor zorgen dat de DITA-kaart en onderwerpbestanden worden gerenderd als HTML zodat auteurs de inhoud kunnen bekijken zoals ze \(in plaats van onbewerkte tekstindeling\) verwachten.
+Wanneer u een Dispatcher met AEM Guides gebruikt, moet u ervoor zorgen dat de DITA-kaart en onderwerpbestanden als HTML worden gerenderd zodat auteurs de inhoud kunnen bekijken zoals ze \(in plaats van onbewerkte tekstindeling\) verwachten.
 
 Voer de volgende stappen uit om het bestand mime.types bij te werken:
 
@@ -66,7 +67,7 @@ Deze configuratieupdate zorgt ervoor dat de kaart DITA en onderwerpdossiers die 
 
 Als u een Dispatcher met AEM Guides gebruikt en uw instantie Auteur een verzender op de voorgrond heeft, brengt u de volgende twee wijzigingen aan:
 
-- Whitelist de POST verzoek URL. Hieronder ziet u een voorbeeldregel &quot; `/filters`&quot; - Deze regel toevoegen aan het configuratiebestand van de verzender:
+- Whitelist de URL van de POST-aanvraag. Hieronder ziet u een voorbeeldregel &quot; `/filters`&quot; - Deze regel toevoegen aan het configuratiebestand van de verzender:
 
 ```json
 /xxxx {/type "allow" /method "POST" /url "/home/users/*/preferences"}
@@ -81,4 +82,4 @@ Als u een Dispatcher met AEM Guides gebruikt en uw instantie Auteur een verzende
                 }
 ```
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; Download en installeer &#x200B;](download-install.md)
+**Bovenliggend onderwerp:**[ Download en installeer ](download-install.md)

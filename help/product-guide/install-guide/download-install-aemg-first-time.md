@@ -5,7 +5,8 @@ exl-id: 830a4381-303c-419c-b87f-9563352a7eeb
 feature: Introduction, Installation
 role: Admin
 level: Experienced
-source-git-commit: dbcc625220c9ad1fa60942b2f43c38d3d6778541
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 0%
@@ -20,19 +21,19 @@ Voer de volgende stappen uit om AEM Guides voor het eerst op een computer te dow
 >
 > Als u Livefyre samen met AEM Guides wilt gebruiken, moet u de Livefyre-versies vóór 3.0 installeren voordat u AEM Guides installeert. Als u Livefyre versie 3.0 of hoger gebruikt, is er geen dergelijke beperking.
 
-1. Download AEM Guides van [&#x200B; het Portaal van de Distributie van de Software van de Adobe &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. Download AEM Guides van [ het Portaal van de Distributie van de Software van Adobe ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
 
    >[!NOTE]
    >
-   >Alvorens Experience Manager Guides te installeren, zorg ervoor uw systeem aan de [&#x200B; technische vereisten &#x200B;](../install-guide/download-install-technical-requirements.md) voldoet.
+   >Alvorens Experience Manager Guides te installeren, zorg ervoor uw systeem aan de [ technische vereisten ](../install-guide/download-install-technical-requirements.md) voldoet.
 
-1. Meld u aan bij uw AEM en navigeer naar CRX Package Manager. De standaard-URL voor toegang tot pakketbeheer is:
+1. Meld u aan bij uw AEM-exemplaar en navigeer naar CRX Package Manager. De standaard-URL voor toegang tot pakketbeheer is:
 
    ```http
    http://<server name>:<port>/crx/packmgr/index.jsp
    ```
 
-   De pakketmanager beheert de pakketten op uw lokale AEM installatie. Voor meer informatie over het werken met de Manager van het Pakket, zie [&#x200B; hoe te met Pakketten &#x200B;](https://helpx.adobe.com/nl/experience-manager/6-5/sites/administering/using/package-manager.html) in AEM documentatie werken.
+   Package Manager beheert de pakketten op uw lokale installatie van AEM. Voor meer informatie over het werken met de Manager van het Pakket, zie [ hoe te met Pakketten ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html) in de documentatie van AEM werken.
 
    ![](assets/package-manager.png){width="650" align="left"}
 
@@ -53,6 +54,6 @@ Voer de volgende stappen uit om AEM Guides voor het eerst op een computer te dow
 
 >[!NOTE]
 >
-> Voer de installatieprocedure op alle instanties van AEM servers in uw opstelling uit.
+> Voer de installatieprocedure uit op alle instanties van AEM-servers in uw installatie.
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; Download en installeer &#x200B;](download-install.md)
+**Bovenliggend onderwerp:**[ Download en installeer ](download-install.md)

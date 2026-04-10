@@ -5,7 +5,8 @@ exl-id: d184c97f-8405-4bcd-963d-635f17584897
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 0%
@@ -35,6 +36,6 @@ Wanneer de gebruiker probeert om een dossier te sluiten dat in de Redacteur van 
 
 Wanneer deze configuratie wordt toegelaten, **ontgrendel checkbox van het Dossier** door gebrek in de dialoogdoos wordt geselecteerd.
 
-Voor meer details, zie *Dossier sluiten en sparen scenario&#39;s* sectie in de Gebruikende as a Cloud Service gids van Adobe Experience Manager Guides.
+Voor meer details, zie *Dossier sluiten en sparen scenario&#39;s* sectie in de Gebruikende gids van Adobe Experience Manager Guides as a Cloud Service.
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; pas de Redacteur van het Web &#x200B;](conf-web-editor.md) aan
+**Bovenliggend onderwerp:**[ pas de Redacteur van het Web ](conf-web-editor.md) aan

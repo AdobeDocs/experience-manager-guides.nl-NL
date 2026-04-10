@@ -5,7 +5,8 @@ exl-id: 2a0ac0a0-b2a9-453e-851b-fb04c8903526
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 1eb4fcb33d6f905df3f543232e7040d1da42560b
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 # Vorm een gegevensbronschakelaar van het gebruikersinterface
 
-Experience Manager Guides komt met het **hulpmiddel van Gegevensbronnen** dat u helpt uit-van-de-doosschakelaars voor gegevensbronnen vormen. U kunt opstellingsschakelaars voor JIRA, SQL (MySQL, PostgreSQL, de Server van Microsoft SQL, SQLite, MariaDB, H2DB), de gegevensbestanden van de Handel van Adobe, en van de Elasticsearch.
+Experience Manager Guides komt met het **hulpmiddel van Gegevensbronnen** dat u helpt uit-van-de-doosschakelaars voor gegevensbronnen vormen. U kunt opstellingsschakelaars voor JIRA, SQL (MySQL, PostgreSQL, de Server van Microsoft SQL, SQLite, MariaDB, H2DB), de gegevensbestanden van AdobeCommerce, en Elasticsearch.
 
 Voer de volgende stappen uit om een connector te configureren:
 
@@ -28,7 +29,7 @@ Voer de volgende stappen uit om een connector te configureren:
 
    *Mening of creeer een gegevensbronschakelaar.*
 1. Klik **creëren**.
-1. Selecteer het gegevensbestand waarvoor u de schakelaar wilt tot stand brengen. Bijvoorbeeld, de schakelaar van de Elasticsearch.
+1. Selecteer het gegevensbestand waarvoor u de schakelaar wilt tot stand brengen. Bijvoorbeeld de Elasticsearch-aansluiting.
    >[!NOTE]
    >
    >Alle beschikbare out-of-the-box gegevensbestanden zijn vermeld.
@@ -38,7 +39,7 @@ Voer de volgende stappen uit om een connector te configureren:
 
    >[!TIP]
    >* Overslaan <img src="./assets/info-details.svg" alt= "info icon" width="25"> in de buurt van het veld voor meer informatie.
-   > * Velden met * zijn verplicht. U kunt bijvoorbeeld de volgende gegevens invoeren voor de aansluiting van de Elasticsearch.
+   > * Velden met * zijn verplicht. U kunt bijvoorbeeld de volgende gegevens invoeren voor de Elasticsearch-aansluiting.
 
    * **Naam**: Ga de naam van de gegevensbron in.
    * Verificatietype: selecteer het type verificatie in het keuzemenu. Voorbeeld: Basic username-password authentication
@@ -76,8 +77,8 @@ U bekijkt een fout als de schakelaar met de zelfde naam bestaat.
 * **Schrapping**: Schrap de geselecteerde schakelaar.
 
 
-Zodra u de gegevensbron hebt gevormd, is de schakelaar vermeld onder het **paneel van Gegevensbronnen** in de Redacteur van het Web. U kunt dan met de gegevensbron verbinden en een inhoudsfragment opnemen in uw onderwerpen. Voor meer details, mening [&#x200B; Gegevens van het Gebruik van uw gegevensbron &#x200B;](../user-guide/web-editor-content-snippet.md).
+Zodra u de gegevensbron hebt gevormd, is de schakelaar vermeld onder het **paneel van Gegevensbronnen** in de Redacteur van het Web. U kunt dan met de gegevensbron verbinden en een inhoudsfragment opnemen in uw onderwerpen. Voor meer details, mening [ Gegevens van het Gebruik van uw gegevensbron ](../user-guide/web-editor-content-snippet.md).
 
 >[!NOTE]
 >
->U kunt ook aangepaste connectors maken en deze gebruiken met de verschillende gegevensbronnen. Leer hoe te om [&#x200B; douaneschakelaars &#x200B;](../knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md) te vormen.
+>U kunt ook aangepaste connectors maken en deze gebruiken met de verschillende gegevensbronnen. Leer hoe te om [ douaneschakelaars ](../knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md) te vormen.

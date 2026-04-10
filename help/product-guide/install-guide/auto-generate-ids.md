@@ -5,7 +5,8 @@ exl-id: 8d09ab89-4be5-49f1-9831-9f01c92dc472
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 0%
@@ -30,7 +31,7 @@ Voer de volgende stappen uit om elementen te configureren voor automatisch gegen
 
 1. Onderzoek naar en klik op **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** bundel.
 
-1. In de *montages 0&rbrace; XmlEditorConfig, specificeer één of meerdere elementen in **Auto produceert IDs voor het gebied van de Markeringen van het Element**.*
+1. In de *montages 0} XmlEditorConfig, specificeer één of meerdere elementen in* Auto produceert IDs voor het gebied van de Markeringen van het Element **.**
 
    >[!NOTE]
    >
@@ -45,4 +46,4 @@ Voer de volgende stappen uit om elementen te configureren voor automatisch gegen
 1. Klik **sparen**.
 
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; pas de Redacteur van het Web &#x200B;](conf-web-editor.md) aan
+**Bovenliggend onderwerp:**[ pas de Redacteur van het Web ](conf-web-editor.md) aan

@@ -4,7 +4,9 @@ description: Leer hoe u documentstatusfilters configureert
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 4942b914ff278ebcf09d00da32d6f9c7cc4d7ff9
+exl-id: 682c915b-bc42-4d2e-84a0-9e88734e278e
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 0%
@@ -27,39 +29,39 @@ Voer de volgende stappen uit om de documentstatusfilters te configureren:
 Raadpleeg de volgende sectie in het gedownloade `ui\_config.json` -bestand:
 
        &quot;
-        &quot;repositoryFilters&quot;: &lbrack;
+        &quot;repositoryFilters&quot;: [
         
         &quot;title&quot;: &quot;Documentstatus&quot;, 
         &quot;eigenschap&quot;: &quot;jcr:content/metadata/docstate&quot;, 
-        &quot;children&quot;: &lbrack;
-       &lbrace;
+        &quot;children&quot;: [
+       {
         &quot;title&quot;: &quot;Draft&quot;, 
         &quot;value&quot;: &quot;Draft&quot;
         
-       &lbrace;
+       {
         &quot;title&quot;: &quot;Edit&quot;, 
         &quot;waarde&quot;: &quot;geef uit&quot;
         ,
-       &lbrace;
+       {
         &quot;title&quot;: &quot;In-Review&quot;, 
         &quot;value&quot;: &quot;In-Review&quot;
         
-       &lbrace;
+       {
         &quot;title&quot;: &quot;Goedgekeurd&quot;, 
         &quot;waarde&quot;: &quot;Goedgekeurd&quot;
         
  ,       
-&lbrace;       
+{       
  &quot;title&quot;: &quot;Reviewed&quot;,        
  &quot;waarde&quot;: &quot;Gereviseerde&quot;       
  ,       
-&lbrace;       
+{       
  &quot;title&quot;: &quot;Done&quot;,        
  &quot;value&quot;: &quot;Done&quot;       
         
-&rbrack;       
+]       
       
-   &rbrack;        &quot;
+   ]        &quot;
    Dit fragment vertegenwoordigt de standaarddocumentstatusfilters die beschikbaar zijn in Experience Manager Guides.
 
 1. U kunt de filterwaarden aanpassen op basis van de workflow van uw organisatie. Bijvoorbeeld, om een staat van het douanedocument toe te voegen **in afwachting van**, neem de volgende ingang onder `children` op:
@@ -75,4 +77,4 @@ Raadpleeg de volgende sectie in het gedownloade `ui\_config.json` -bestand:
 
 De gevormde filters worden getoond in het **paneel van Filters** in Bewaarplaats op de pagina van het Huis.
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; pas de Redacteur van het Web &#x200B;](conf-web-editor.md) aan
+**Bovenliggend onderwerp:**[ pas de Redacteur van het Web ](conf-web-editor.md) aan

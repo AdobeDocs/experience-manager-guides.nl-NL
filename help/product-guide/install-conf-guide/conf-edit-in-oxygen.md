@@ -1,0 +1,30 @@
+---
+title: De optie configureren om te bewerken in zuurstof
+description: Leer hoe u de optie voor het bewerken van de insteekmodule Zuurstofconnector configureert.
+feature: Web Editor Configuration
+role: Admin
+level: Experienced
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+workflow-type: tm+mt
+source-wordcount: '107'
+ht-degree: 0%
+
+---
+
+# De optie configureren om te bewerken in zuurstof voor Cloud Service
+
+AEM Guides staat de gebruikers ook toe om hun onderwerpen DITA en kaarten DITA in de Oxygen schakelaarstop uit te geven.
+
+Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](download-install-config-override.md#) om het configuratiedossier tot stand te brengen. In het configuratiedossier, verstrek de volgende (bezit) details om **te vormen geef in Oxygen** optie uit:
+
+
+
+| PID | Eigenschappensleutel | Waarde van eigenschap |
+|---|------------|--------------|
+| `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.editinoxygen` | Boolean \(true/false\). **Standaardwaarde**: vals |
+
+>[!NOTE]
+>
+> Deze configuratie wordt door gebrek onbruikbaar gemaakt en de optie is niet beschikbaar in de Redacteur van het Web.
+
+**Bovenliggend onderwerp:**[ pas de Redacteur van het Web ](customize-overview.md) aan

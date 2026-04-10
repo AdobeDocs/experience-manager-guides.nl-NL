@@ -5,7 +5,8 @@ exl-id: 05e9ca3c-28ff-4f82-8061-3d20307890ff
 feature: Filename Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 0%
@@ -22,7 +23,7 @@ Wanneer u een lijst van geldige karakters bepaalt, herinner dat deze karakters &
 
 Als u de geldige lijst met speciale tekens niet configureert, kan het maken van bestanden onverwachte resultaten opleveren. Om dergelijke fouten te vermijden, wordt sterk geadviseerd om deze configuratieverandering aan te brengen.
 
-Gebruik de instructies die in [&#x200B; worden gegeven met voeten treedt van de Configuratie &#x200B;](download-install-additional-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende \(eigenschap\) gegevens op om regex te configureren voor geldige bestandsnaamtekens:
+Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](download-install-additional-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende \(eigenschap\) gegevens op om regex te configureren voor geldige bestandsnaamtekens:
 
 | PID | Eigenschappensleutel | Waarde van eigenschap |
 |---|------------|--------------|
@@ -30,6 +31,6 @@ Gebruik de instructies die in [&#x200B; worden gegeven met voeten treedt van de 
 
 >[!NOTE]
 >
-> Net als in de lijst met geldige bestandsnaamtekens kunt u ook een lijst met geldige bestandsnaamtekens opgeven voor AEM site-uitvoer. Voor meer details, zie [&#x200B; geldige dossiernamen voor AEM output van de Plaats &#x200B;](conf-file-names-valid-regx-aem-site-output.md#) vormen.
+> Net als in de lijst met geldige bestandsnaamtekens kunt u ook een lijst met geldige bestandsnaamtekens opgeven voor uitvoer van de AEM-site. Voor meer details, zie [ geldige dossiernamen voor de output van de Plaats van AEM ](conf-file-names-valid-regx-aem-site-output.md#) vormen.
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; vorm filenames &#x200B;](conf-file-names.md)
+**Bovenliggend onderwerp:**[ vorm filenames ](conf-file-names.md)

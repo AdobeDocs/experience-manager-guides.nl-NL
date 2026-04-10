@@ -1,11 +1,12 @@
 ---
-title: Native PDF Publish-functie | Aangepaste stijlen gebruiken in voetnoten
+title: Native PDF-publicatiefunctie | Aangepaste stijlen gebruiken in voetnoten
 description: Leer hoe u stijl toepast op de getallen in voetnoten.
 exl-id: f1068f2f-2ace-4bdb-b5a4-46b03d4e43d6
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '667'
 ht-degree: 0%
@@ -80,7 +81,7 @@ De voetnootaanroep is verborgen in de hoofdinhoud, maar de voetnootmarkering wor
 
 ```css
 .fn[id]::footnote-call {
-		display: none;
+        display: none;
                         }
 ```
 
@@ -93,20 +94,20 @@ In het voetnootgedeelte worden alle voetnoten geplaatst, meestal onder aan een p
 
 U kunt de pagina-eigenschappen voor paginalay-outs gebruiken om het voetnootgedeelte in de verschillende secties in een PDF-document op te maken. U kunt bijvoorbeeld de eigenschappen voor marges en opvulling van het voetnootgedeelte in een hoofdstuk opgeven. U kunt ook de rand, stijl, kleur, breedte en straal wijzigen.
 
-Leer over hoe te [&#x200B; met de paginaeigenschappen van een paginalay-out &#x200B;](./design-page-layout.md#page-props-page-layout) werken.
+Leer over hoe te [ met de paginaeigenschappen van een paginalay-out ](./design-page-layout.md#page-props-page-layout) werken.
 
 ### CSS-stijlen
 
-U kunt stijlen toepassen en het voetnootgedeelte in een PDF-document opmaken. U kunt bijvoorbeeld de lengte, stijl, kleur en breedte van de rand wijzigen.
+U kunt stijlen toepassen en het voetnootgedeelte opmaken in een PDF-document. U kunt bijvoorbeeld de lengte, stijl, kleur en breedte van de rand wijzigen.
 
 ```css
-	@page {
-	  @footnote {
-   		border-top-style: solid;
-   		border-top-color: #FF0000;
-   		border-top-width: 3px;
- 		        }
-	      }
+   @page {
+     @footnote {
+           border-top-style: solid;
+           border-top-color: #FF0000;
+           border-top-width: 3px;
+                 }
+         }
 ```
 
 ## De nummering van voetnoten opnieuw starten
@@ -137,7 +138,7 @@ Doorgaans wordt elke voetnoot als een blok weergegeven of begint deze op een nie
 
 ```css
 .fn{
-  	display: inline;
+      display: inline;
               }
 ```
 
@@ -145,7 +146,7 @@ Doorgaans wordt elke voetnoot als een blok weergegeven of begint deze op een nie
 
 U kunt ook meerdere keren naar een voetnoot verwijzen en in de PDF-uitvoer naar dezelfde voetnoot verwijzen. Hierdoor kunt u gemakkelijker meerdere keren naar hetzelfde citaat of gedetailleerde notitie in het document verwijzen zonder dat u er opnieuw een voetnoot voor hoeft te maken.
 
-In de volgende schermafbeelding ziet u bijvoorbeeld hoe met dezelfde voetnoot wordt verwezen naar alle steden in de PDF-uitvoer.
+De volgende schermafbeelding toont bijvoorbeeld hoe naar dezelfde voetnoot wordt verwezen met alle steden in de PDF-uitvoer.
 <img width="550" alt="voetnootverwijzingen in een pdf" src="./assets/link-footnotes.png" border="2px">
 
 *Tussenvoegsel de verwijzing naar een voetnoot.*
@@ -158,8 +159,8 @@ Met CSS-stijlen kunt u ook de kruisverwijzingen naar voetnoten opmaken. U kunt b
 
 ```css
     .xref-fn{
-	background-color: red;
-	}
+    background-color: red;
+    }
 ```
 
 

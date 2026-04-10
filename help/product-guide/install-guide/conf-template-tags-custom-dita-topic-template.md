@@ -5,7 +5,8 @@ exl-id: a9b2c479-7bf6-4c62-addd-fdfe74dc1f69
 feature: Template Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 34687ac8f8877d05e545b23cf0830aa0345a25f7
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 0%
@@ -35,11 +36,11 @@ U kunt om het even welk van deze malplaatjes gebruiken om onderwerpmalplaatjes v
 
 Om DITA onderwerpmalplaatje aan te passen en het voor creatie te gebruiken, moet u de volgende drie hoofdtaken uitvoeren:
 
-1. *\ (Facultatief \)* [&#x200B; vorm de weg van de malplaatjeomslag van DITA &#x200B;](#id191LCF0095Z)
+1. *\ (Facultatief \)* [ vorm de weg van de malplaatjeomslag van DITA ](#id191LCF0095Z)
 
 1. [Aangepaste ontwerpsjabloon maken](conf-folder-level.md#id1917D0EG0HJ)
 
-1. Voeg een douanemalplaatje in het globale of omslag-vlakke profiel toe zoals die in [&#x200B; wordt verklaard creërende malplaatjes &#x200B;](conf-folder-level.md#id1889D0IL0Y4) sectie vormt
+1. Voeg een douanemalplaatje in het globale of omslag-vlakke profiel toe zoals die in [ wordt verklaard creërende malplaatjes ](conf-folder-level.md#id1889D0IL0Y4) sectie vormt
 
 
 ## Aangepast pad voor DITA-sjabloonmap configureren {#id191LCF0095Z}
@@ -77,4 +78,4 @@ Voer de volgende stappen uit om een map voor uw aangepaste DITA-onderwerpsjablon
 
 Als de gespecificeerde plaats in DAM bestaat, dan worden alle standaardkaart en onderwerpmalplaatjes gekopieerd in die omslag. Als de plaats niet bestaat, dan wordt de omslag gecreeerd met alle standaardkaart en onderwerpmalplaatjes.
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; vorm onderwerp en kaartmalplaatjes &#x200B;](conf-template-tags.md)
+**Bovenliggend onderwerp:**[ vorm onderwerp en kaartmalplaatjes ](conf-template-tags.md)

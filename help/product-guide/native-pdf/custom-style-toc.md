@@ -1,11 +1,12 @@
 ---
-title: Native PDF Publish-functie | Aangepaste stijl toepassen op inhoudsopgave-items en onderwerpinhoud
+title: Native PDF-publicatiefunctie | Aangepaste stijl toepassen op inhoudsopgave-items en inhoud van onderwerp
 description: Leer hoe u gebruiksstijlen maakt en stijlen voor uw inhoud maakt.
 exl-id: f65c9683-a1fc-432a-854b-83e8f39d7dae
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: db4c823e592e249e1d828a7071fc0848a5e68c0f
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '399'
 ht-degree: 0%
@@ -37,7 +38,7 @@ Zie hoe elk van deze scenario&#39;s in CSS kan worden bepaald. In de volgende CS
 …
 ```
 
-Deze definitie controleert de kleur van de tekst in TOC en de titel van het onderwerp. In de volgende PDF-uitvoer ziet u de andere kleur die op het inhoudsopgave-item wordt toegepast:
+Deze definitie controleert de kleur van de tekst in TOC en de titel van het onderwerp. De volgende PDF-uitvoer toont de andere kleur die op het inhoudsopgave-item wordt toegepast:
 
 <img src="./assets/pdf-output-toc-entry.jpg" width="500">
 

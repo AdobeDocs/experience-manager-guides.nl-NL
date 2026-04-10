@@ -4,21 +4,22 @@ description: Leer hoe te  [!DNL AEM Guides]  aan uw  [!DNL AEM as a Cloud Servic
 exl-id: a1e020c2-360c-4d71-b5fd-8179d9ceacda
 feature: Installation
 role: Leader
-source-git-commit: 1b25f1df67fa2442ab79830dc2ac5a6eabd0394c
+hidefromtoc: true
+source-git-commit: 55edd53d1dda7a68352e53b2e59eafd15b677fdd
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Experience Manager Guides] as a Cloud Service implementatie
+# [!DNL Adobe Experience Manager Guides] as a Cloud Service-implementatie
 
 Leer hoe u [!DNL Experience Manager Guides] toevoegt aan uw [!DNL Experience Manager as a Cloud Service] -omgeving.
 
 
 >[!NOTE]
 >
-> Vanaf release 2024.2.0 is Experience Manager Guides alleen beschikbaar als een geautomatiseerde invoegtoepassing voor Experience Manager as a Cloud Service. Als u handmatige implementaties voor Experience Manager Guides gebruikt, verwijdert u eerst de regel `<module>dox.installer</module> from file dox/pom.xml` in uw codebase voor kleurbeheer in de cloud voordat u Experience Manager Guides voor uw programma inschakelt.
+> Vanaf de release 2024.2.0 is Experience Manager Guides alleen beschikbaar als een automatische invoegtoepassing voor Experience Manager as a Cloud Service. Als u handmatige implementaties voor Experience Manager Guides gebruikt, verwijdert u eerst de regel `<module>dox.installer</module> from file dox/pom.xml` in uw codebase voor kleurbeheer in de cloud voordat u Experience Manager Guides voor uw programma inschakelt.
 
 1. Meld u aan bij [!UICONTROL Cloud Manager] .
 
@@ -32,7 +33,7 @@ Leer hoe u [!DNL Experience Manager Guides] toevoegt aan uw [!DNL Experience Man
 
 U hebt met succes uw programma voor automatische levering van de oplossing van Experience Manager Guides gevormd.
 
-![&#x200B; Vormend de oplossing van Experience Manager Guides &#x200B;](assets/addon-configuration.png)
+![ Vormend de oplossing van Experience Manager Guides ](assets/addon-configuration.png)
 
 >[!NOTE]
 >

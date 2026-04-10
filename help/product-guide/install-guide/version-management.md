@@ -5,7 +5,8 @@ exl-id: 24e44618-9c4e-4547-a00d-216ef3fb4854
 feature: Version Management
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '1662'
 ht-degree: 0%
@@ -42,7 +43,7 @@ Voer de volgende stappen uit om een nieuwe versie van het geüploade bestand te 
 
    Deze optie is standaard uitgeschakeld.
 
-   Als de optie is geselecteerd, wordt er een nieuw versiebeheermechanisme toegepast dat het standaarduploadgedrag overschrijft dat voor elke volgende upload wordt gebruikt. Hierdoor wordt de inhoud van het geüploade bestand als een nieuwe versie opgeslagen. Als deze optie is uitgeschakeld, gebruikt AEM Guides het AEM standaardmechanisme voor versiebeheer.
+   Als de optie is geselecteerd, wordt er een nieuw versiebeheermechanisme toegepast dat het standaarduploadgedrag overschrijft dat voor elke volgende upload wordt gebruikt. Hierdoor wordt de inhoud van het geüploade bestand als een nieuwe versie opgeslagen. Als deze optie is uitgeschakeld, gebruikt AEM Guides het standaardversiebeheermechanisme van AEM.
 
 1. Klik **sparen**.
 
@@ -152,7 +153,7 @@ Controleer, naast de nieuwe eigenschap index, of de volgende eigenschappen zijn 
 
 ## Verwijderen van bestanden waarnaar wordt verwezen voorkomen
 
-Als beheerder kunt u bepalen wie bestanden uit de AEM kan verwijderen. Als een bestand verwijzingen bevat of door een ander bestand wordt genoemd, kunt u met name bepalen wie dergelijke bestanden kan verwijderen.
+Als beheerder kunt u bepalen wie bestanden uit de AEM-opslagplaats mag verwijderen. Als een bestand verwijzingen bevat of door een ander bestand wordt genoemd, kunt u met name bepalen wie dergelijke bestanden kan verwijderen.
 
 Met deze configuratie kunt u toestaan of weigeren dat alle gebruikers bestanden verwijderen of alleen een bepaalde gebruikersgroep bestanden laten verwijderen. Als het verwijderen van een bestand is toegestaan, wordt het volgende proces uitgevoerd:
 
@@ -212,7 +213,7 @@ Voer de volgende stappen uit om de oudere versies leeg te maken:
 
    ![](assets/preview-purge-report.png){width="350" align="left"}
 
-1. &#x200B;
+1. 
    - **Aantal Versies om van de Laatste Versie** te behouden: ga het aantal versies in die zouden moeten worden behouden en niet worden gezuiverd. Als we bijvoorbeeld 5 invoeren, blijven de laatste 5 versies behouden en worden de versies vóór die versies gekwalificeerd om te worden gewist als aan andere zuiveringsvoorwaarden wordt voldaan.
 - **Behoud Versies die binnen Tijdopnemer \ (in Dagen \)** worden gecreeerd: Ga de maximumleeftijd van een versie in dagen in. De versies ouder dan het opgegeven aantal dagen zijn gekwalificeerd om te worden gewist als aan andere zuiveringsvoorwaarden wordt voldaan. Als we bijvoorbeeld 100 invoeren, kunnen alle versies die vóór 100 dagen zijn gemaakt, worden gewist als aan andere zuiveringsvoorwaarden wordt voldaan.
 - **Weg**: Selecteer de weg van het dossier of de omslag waarvan dossiers u wilt zuiveren.

@@ -3,25 +3,25 @@ title: Aanvullende speciale tekens op de werkbalk van de webeditor configureren
 description: Leer hoe u extra speciale tekens configureert in de webeditor van AEM Guides.
 feature: Web Editor
 role: User
-exl-id: 0fbc05a5-a6b0-4f6b-bbc4-8fca03581d90
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---
 
-# Hoe te om extra speciale karakters in de toolbar van de Redacteur van het Web te vormen
+# Hoe te om extra speciale karakters in de toolbar van de Redacteur van het Web voor Op locatie te vormen
 
 De werkbalk van de webeditor bevat een optie voor sneltoetsen waarmee de auteur de speciale tekens al kan invoegen.
 Hetzelfde geldt voor onderstaande screenshot:
 
-![&#x200B; Speciale Karakters &#x200B;](assets/special-chars.png)
+![ Speciale Karakters ](assets/special-chars.png)
 
 
 Deze lijst met tekens kan hier worden geconfigureerd. Voer de volgende stappen uit als u hier meer tekens aan wilt toevoegen:
 
-+ Meld u aan bij AEM en open de modus CRXDE Lite.
++ Meld u aan bij AEM en open de CRXDE Lite-modus.
 
 + Maak het bestand symbols.json op de volgende locatie: &#39;/apps/fmdita/xmleditor/&#39; (u kunt de standaardinstelling kopiëren vanuit de locatie &#39;/libs/fmdita/clientlibs/clientlibs/xmleditor/symbols.json&#39;).
 
@@ -55,10 +55,10 @@ U kunt meerdere definities definiëren voor speciale tekens in een categorie.
 
 Hiermee wordt een andere categorie toegevoegd in het dialoogvenster Speciale tekens:
 
-![&#x200B; Speciale Categorie van het Symbool &#x200B;](assets/special-char-category.png)
+![ Speciale Categorie van het Symbool ](assets/special-char-category.png)
 
-![&#x200B; Tussenvoegsel Speciaal Karakter &#x200B;](assets/insert-special-char.png)
+![ Tussenvoegsel Speciaal Karakter ](assets/insert-special-char.png)
 
 >[!MORELIKETHIS]
 >
->+ [&#x200B; Gids van de Installatie en van de Configuratie &#x200B;](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/3-6/XML-Documentation-for-Adobe-Experience-Manager_Installation-Configuration-Guide_EN.pdf)
+>+ [ Gids van de Installatie en van de Configuratie ](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/3-6/XML-Documentation-for-Adobe-Experience-Manager_Installation-Configuration-Guide_EN.pdf)

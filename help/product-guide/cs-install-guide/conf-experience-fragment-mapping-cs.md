@@ -5,7 +5,8 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 2b59db60-61b5-4a7e-bbf1-35cab8b89323
-source-git-commit: d525775afeeb89754762ff514126b1c3a3307b3f
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 0%
@@ -46,9 +47,9 @@ Adobe Experience Manager Guides verstrekt de eigenschap om een op JSON-Gebaseerd
 
 1. Sla het bestand op en upload het.
 
-Experience Manager Guides zet het volledige onderwerp in HTML om die dan aan de kerncomponenten kan worden in kaart gebracht die in het Fragment van de Ervaring worden gebruikt. De inhoud van een tag `<p>` kan bijvoorbeeld worden toegewezen om een tekstcomponent te maken in het Experience Fragment.
-* `name`: geef het element HTML op. Bijvoorbeeld `<div>` , `<img>`
-* `class`: geef de DITA-elementtag op die correspondeert met het HTML-element. Bijvoorbeeld: `<p>` `<image>`
+Experience Manager Guides zet het volledige onderwerp in HTML om dat dan aan de kerncomponenten kan worden in kaart gebracht die in het Fragment van de Ervaring worden gebruikt. De inhoud van een tag `<p>` kan bijvoorbeeld worden toegewezen om een tekstcomponent te maken in het Experience Fragment.
+* `name`: geef het HTML-element op. Bijvoorbeeld `<div>` , `<img>`
+* `class`: geef de tag voor het DITA-element op die correspondeert met het HTML-element. Bijvoorbeeld: `<p>` `<image>`
 * `resourceType`: geef het brontype op dat van toepassing is op de component die wordt gebruikt in Experience Fragment. `wcm/foundation/components/text` is bijvoorbeeld het resourceType voor de `text` -component wcm.
 * `attributeMap`: geef aanvullende informatie aan de component, bijvoorbeeld of een tekstcomponent moet worden gerenderd als `RichText` of de `fileReference` van een afbeeldingscomponent bevat.
 
@@ -159,4 +160,4 @@ Voorbeeldbestand:
 
 Terwijl het publiceren van de Fragmenten van de Ervaring van de Redacteur van het Web, selecteer `Template` van dropdown in **produceer de dialoogdoos van het Fragment van de Ervaring** om de afbeelding beschikbaar voor het malplaatje op het **In kaart brengende** gebied te bekijken. Als er geen aangepaste toewijzing voor een sjabloon aanwezig is, wordt de standaardtoewijzing weergegeven. U kunt de standaardafbeelding gebruiken om het hele onderwerp als een fragment van de Ervaring te publiceren.
 
-Voor meer details, mening [&#x200B; de Fragmenten van de Ervaring van Publish &#x200B;](../user-guide/publish-experience-fragment.md).
+Voor meer details, publiceer de mening [ de Fragmenten van de Ervaring ](../user-guide/publish-experience-fragment.md).

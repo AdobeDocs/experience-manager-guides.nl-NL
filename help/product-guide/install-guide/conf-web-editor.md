@@ -5,7 +5,8 @@ exl-id: 6579812b-caa7-420f-a6e4-36fef7d63d34
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 2e52beedb5b3ce13acfae1ecba3b67e8de8e6614
+hidefromtoc: true
+source-git-commit: 34687ac8f8877d05e545b23cf0830aa0345a25f7
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%
@@ -18,29 +19,29 @@ AEM Guides wordt geleverd met een krachtige webeditor waarmee uw auteurs DITA-do
 
 - [Werkbalk Aanpassen](conf-web-editor-customize-toolbar.md)
 
-- [&#x200B; vorm standaardwaarde voor de Mening van Markeringen &#x200B;](configure-default-value-tags-view.md)
+- [ vorm standaardwaarde voor de Mening van Markeringen ](configure-default-value-tags-view.md)
 
 - [Weergave van op UUID gebaseerde koppelingen configureren](conf-uuid-based-links.md)
 
-- [&#x200B; Open DITA- onderwerp of kaartdossiers in zelfde lusje &#x200B;](open-dita-files-same-tab.md)
+- [ Open DITA- onderwerp of kaartdossiers in zelfde lusje ](open-dita-files-same-tab.md)
 
-- [&#x200B; vorm een douanepaneel in het linkerpaneel &#x200B;](configure-custom-panel.md)
+- [ vorm een douanepaneel in het linkerpaneel ](configure-custom-panel.md)
 
 - [Bestanden automatisch opslaan in de webeditor configureren](auto-save-in-editor.md)
 
-- [&#x200B; vorm herinnering om als nieuwe versie op dicht te bewaren &#x200B;](conf-save-as-new-version-close.md)
+- [ vorm herinnering om als nieuwe versie op dicht te bewaren ](conf-save-as-new-version-close.md)
 
 - [Vraag configureren om een bestand bij sluiten in te checken](conf-checkin-file-close.md)
 
-- [&#x200B; vorm toegestane speciale karakters &#x200B;](conf-special-chars.md)
+- [ vorm toegestane speciale karakters ](conf-special-chars.md)
 
-- [&#x200B; auto-produceerde element IDs &#x200B;](auto-generate-ids.md)
+- [ auto-produceerde element IDs ](auto-generate-ids.md)
 
-- [&#x200B; pas AEM standaardwoordenboek &#x200B;](customize-aem-custom-dictionary.md) aan
+- [ pas AEM standaardwoordenboek ](customize-aem-custom-dictionary.md) aan
 
-- [&#x200B; vorm tekstfilters &#x200B;](config-text-filters.md)
+- [ vorm tekstfilters ](config-text-filters.md)
 
-- [&#x200B; vorm het aantal LimitReads voor een vraag &#x200B;](conf-query-limitreads.md)
+- [ vorm het aantal LimitReads voor een vraag ](conf-query-limitreads.md)
 
 - [Pakketten installeren voor publiceren op basis van artikel](configure-article-based-publishing.md)
 

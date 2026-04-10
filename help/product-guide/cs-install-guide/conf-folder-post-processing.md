@@ -5,7 +5,8 @@ feature: Filename Configuration
 role: Admin
 level: Experienced
 exl-id: 42722c6f-1b1c-4a7e-89ef-a373623eb774
-source-git-commit: 635206ca34db633a998b0156e2549d86a83f8131
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 0%
@@ -18,11 +19,11 @@ Standaard worden alle geüploade elementen verwerkt met behulp van de DAM Update
 
 Terwijl het uploaden van uw dossiers en omslagen aan de *Adobe Experience Manager Assets* server, kunt u postprocessing en de generatie van UUIDs ook onbruikbaar maken.
 
-Gebruik de instructies in [&#x200B; met voeten treedt van de Configuratie &#x200B;](download-install-additional-config-override.md#) om het configuratiedossier tot stand te brengen. In het configuratiedossier, verstrek de volgende (bezit) details om postprocessing op een bepaalde weg onbruikbaar te maken of de naverwerking voor een omslag te negeren:
+Gebruik de instructies in [ met voeten treedt van de Configuratie ](download-install-additional-config-override.md#) om het configuratiedossier tot stand te brengen. In het configuratiedossier, verstrek de volgende (bezit) details om postprocessing op een bepaalde weg onbruikbaar te maken of de naverwerking voor een omslag te negeren:
 
 >[!NOTE]
 >
-> U kunt reguliere expressies (regex) ook gebruiken om regels te definiëren die van toepassing zijn op meerdere mappen of een volledige maphiërarchie. Voor meer details, bekijk het [&#x200B; gebruik regex om post-verwerkende &#x200B;](#use-regex-to-enable-or-disable-post-processing) sectie toe te laten of onbruikbaar te maken.
+> U kunt reguliere expressies (regex) ook gebruiken om regels te definiëren die van toepassing zijn op meerdere mappen of een volledige maphiërarchie. Voor meer details, bekijk het [ gebruik regex om post-verwerkende ](#use-regex-to-enable-or-disable-post-processing) sectie toe te laten of onbruikbaar te maken.
 
 | PID | Eigenschappensleutel | Waarde van eigenschap |
 |---|------------|--------------|

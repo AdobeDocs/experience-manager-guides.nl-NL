@@ -5,9 +5,10 @@ exl-id: b920ba7f-e8fc-4af6-aa8a-b8516b1cffc0
 feature: Search Configuration
 role: Admin
 level: Experienced
-source-git-commit: 8ee4863470f69bca52a9b36cde52703e4d6643bc
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
-source-wordcount: '1695'
+source-wordcount: '1692'
 ht-degree: 0%
 
 ---
@@ -26,7 +27,7 @@ Het vormen van DITA inhoudsonderzoek impliceert de volgende taken:
 1. [Aangepaste elementen of kenmerken toevoegen in zoekopdracht](#id192SF0G10YK)
 1. [Metagegevens uit bestaande inhoud extraheren](#id192SF0GA0HT)
 
-Naast het toevoegen van onderzoeksvermogen, kunt u de omslagen ook vormen die niet in het onderzoek zouden moeten worden omvat. Voor meer details, zie [&#x200B; Tijdelijke dossiers van onderzoeksresultaten uitsluiten &#x200B;](#id197AHI0035Z).
+Naast het toevoegen van onderzoeksvermogen, kunt u de omslagen ook vormen die niet in het onderzoek zouden moeten worden omvat. Voor meer details, zie [ Tijdelijke dossiers van onderzoeksresultaten uitsluiten ](#id197AHI0035Z).
 
 ## DITA Element-zoekcomponent toevoegen in Assets UI {#id192SF0F50HS}
 
@@ -72,7 +73,7 @@ Voer het volgende uit om op UUID-Gebaseerde onderzoekscomponent in AEM Assets UI
 1. In het **lusje van Montages**, verstrek de volgende details voor de onlangs toegevoegde **Predicate** component van het Bezit:
 
    - **Etiket van het Gebied**: UUID
-   - **Naam van het Bezit**: jcr:content/fmUuid
+   - **Naam van het Bezit**: jcr :content/fmUuid
 1. Klik **Gedaan** om uw veranderingen te bewaren.
 
    Wanneer u de optie Filters opent in de gebruikersinterface van Assets, krijgt u de optie voor het filteren van UIS-zoekopdrachten.
@@ -178,7 +179,7 @@ Voer de volgende stappen uit om aangepaste DITA-elementen of -kenmerken toe te v
 
 1. Open de Adobe Experience Manager Web Console Configuration-pagina. De standaard-URL voor toegang tot de configuratiepagina is:
 
-   http://&lt;servernaam\>:&lt;poort\>/system/console/configMgr
+   http://<servernaam\>:<poort\>/system/console/configMgr
 
 1. Onderzoek naar en klik op *com.adobe.fmdita.config.ConfigManager* bundel.
 
@@ -202,7 +203,7 @@ Voer de volgende stappen uit om de optie van de meta-gegevensextractie in config
 
 1. Open de Adobe Experience Manager Web Console Configuration-pagina. De standaard-URL voor toegang tot de configuratiepagina is:
 
-   http://&lt;servernaam\>:&lt;poort\>/system/console/configMgr
+   http://<servernaam\>:<poort\>/system/console/configMgr
 
 1. Onderzoek naar en klik op *com.adobe.fmdita.config.ConfigManager* bundel.
 
@@ -217,7 +218,7 @@ Voer de volgende stappen uit om de workflow voor het uitnemen van metagegevens u
 
 1. Klik op de **verbinding van Adobe Experience Manager** bij de bovenkant en kies **Hulpmiddelen**.
 
-1. Selecteer **Gidsen** van de lijst van hulpmiddelen en klik de **3&rbrace; tegel van de Extractie van Metagegevens DITA &lbrace;.**
+1. Selecteer **Gidsen** van de lijst van hulpmiddelen en klik de **3} tegel van de Extractie van Metagegevens DITA {.**
 
 1. Als u meta-gegevens uit één enkel dossier en zijn gebiedsdelen wilt halen, klik **Uitgezocht een verbinding van het Dossier** en doorblader voor een dossier.
 
@@ -248,7 +249,7 @@ Voer de volgende stappen uit om de tijdelijke vertaalmap uit te sluiten van de z
 
 1. Navigeer naar de damAssetLucene-node die beschikbaar is op de volgende locatie:
 
-   /eak:index/damAssetLucene
+   /oak:index/damAssetLucene
 
 1. Voeg de volgende eigenschap toe aan het knooppunt damAssetLucene:
 
@@ -258,7 +259,7 @@ Voer de volgende stappen uit om de tijdelijke vertaalmap uit te sluiten van de z
 
 1. Navigeer naar het lucene knooppunt dat beschikbaar is op de volgende locatie:
 
-   /oak:index/lucene
+   /eikel:index/lucene
 
 1. Voeg de volgende eigenschap toe aan het knooppunt lucene:
 
