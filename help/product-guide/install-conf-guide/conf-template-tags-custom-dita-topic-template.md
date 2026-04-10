@@ -34,11 +34,11 @@ U kunt om het even welk van deze malplaatjes gebruiken om onderwerpmalplaatjes v
 
 Om DITA onderwerpmalplaatje aan te passen en het voor creatie te gebruiken, moet u de volgende drie hoofdtaken uitvoeren:
 
-1. *\ (Facultatief \)* [ vorm de weg van de malplaatjeomslag van DITA ](#id191LCF0095Z)
+1. *\ (Facultatief \)* [&#x200B; vorm de weg van de malplaatjeomslag van DITA &#x200B;](#id191LCF0095Z)
 
 1. [Aangepaste ontwerpsjabloon maken](conf-profiles.md#id1917D0EG0HJ)
 
-1. Voeg een douanemalplaatje in het globale of omslag-vlakke profiel toe zoals die in [ wordt verklaard creërende malplaatjes ](conf-profiles.md#id1889D0IL0Y4) sectie vormt
+1. Voeg een douanemalplaatje in het globale of omslag-vlakke profiel toe zoals die in [&#x200B; wordt verklaard creërende malplaatjes &#x200B;](conf-profiles.md#id1889D0IL0Y4) sectie vormt
 
 
 ## Aangepast pad voor DITA-sjabloonmap configureren {#id191LCF0095Z}
@@ -60,7 +60,7 @@ Op de volgende tabbladen vindt u instructies voor het configureren van het aange
 
 >[!TAB  Cloud Service ]
 
-Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](download-install-config-override.md#) om het configuratiedossier tot stand te brengen. In het configuratiedossier, verstrek de volgende \(bezit \) details om een omslag voor uw douaneDITA onderwerpmalplaatjes te vormen:
+Gebruik de instructies die in [&#x200B; worden gegeven met voeten treedt van de Configuratie &#x200B;](download-install-config-override.md#) om het configuratiedossier tot stand te brengen. In het configuratiedossier, verstrek de volgende \(bezit \) details om een omslag voor uw douaneDITA onderwerpmalplaatjes te vormen:
 
 >[!IMPORTANT]
 >
@@ -99,4 +99,4 @@ Als de gespecificeerde plaats in DAM bestaat, dan worden alle standaardkaart en 
 >[!ENDTABS]
 
 
-**Bovenliggend onderwerp:**[ vorm onderwerp en kaartmalplaatjes ](conf-template-tags.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; vorm onderwerp en kaartmalplaatjes &#x200B;](conf-template-tags.md)

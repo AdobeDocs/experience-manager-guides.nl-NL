@@ -21,7 +21,7 @@ Op de volgende tabbladen vindt u instructies voor het standaard inchecken van ee
 
 >[!TAB  Cloud Service ]
 
-Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](download-install-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende \(eigenschap\)-details op om een vraag te configureren om een bestand bij het sluiten in te checken:
+Gebruik de instructies die in [&#x200B; worden gegeven met voeten treedt van de Configuratie &#x200B;](download-install-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende \(eigenschap\)-details op om een vraag te configureren om een bestand bij het sluiten in te checken:
 
 | PID | Eigenschappensleutel | Waarde van eigenschap |
 |---|------------|--------------|
@@ -58,4 +58,4 @@ Voor meer details, zie *Dossier sluiten en sparen scenario&#39;s* sectie in de G
 
 >[!ENDTABS]
 
-**Bovenliggend onderwerp:**[ pas de Redacteur van het Web ](customize-overview.md) aan
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; pas de Redacteur van het Web &#x200B;](customize-overview.md) aan

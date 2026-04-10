@@ -111,7 +111,7 @@ Voer de volgende stappen uit om een documentstatusprofiel te verwijderen:
 
 1. Klik op de verbinding van Adobe Experience Manager bij de bovenkant en kies **Hulpmiddelen**.
 1. Selecteer **Gidsen** van de lijst van hulpmiddelen.
-1. Klik op de **tegel van de Staten van het 0} Document {.**
+1. Klik op de **tegel van de Staten van het 0&rbrace; Document &lbrace;.**
 
    De pagina Assets States wordt weergegeven.
 
@@ -134,7 +134,7 @@ Op de volgende tabbladen vindt u instructies voor het automatiseren van de wijzi
 1. Klik op de verbinding van Adobe Experience Manager bij de bovenkant en kies **Hulpmiddelen**.
 1. Selecteer **Werkschema** van de lijst van hulpmiddelen.
 
-1. Klik op de **tegel van 0} Modellen {.**
+1. Klik op de **tegel van 0&rbrace; Modellen &lbrace;.**
 
 1. Selecteer de relevante workflow, Lees de onderwerpen van de revisie.
 
@@ -154,7 +154,7 @@ Op de volgende tabbladen vindt u instructies voor het automatiseren van de wijzi
 
 1. In de **drop-down lijst van het Proces**, uitgezochte **plaats de Staat van het Document voor Om het even welk element DAM**.
 
-1. Selecteer de **optie van de vooruitgang van de 0} Handler {.**
+1. Selecteer de **optie van de vooruitgang van de 0&rbrace; Handler &lbrace;.**
 
    ![](assets/update-workflow-doc-state_cs.png)
 
@@ -173,7 +173,7 @@ Op de volgende tabbladen vindt u instructies voor het automatiseren van de wijzi
    `<AEM_Server_URL>:<port>/workflow`
 
 1. Open een workflow op de pagina met workflows. Bijvoorbeeld Revisieonderwerp.
-1. Selecteer **Stap van het Proces** van de **3} sectie van het Werkschema {van de dialoog van AEM en belemmering-daling op het werkschema.**
+1. Selecteer **Stap van het Proces** van de **3&rbrace; sectie van het Werkschema &lbrace;van de dialoog van AEM en belemmering-daling op het werkschema.**
 
    ![](assets/process-step-workflow.png)
 

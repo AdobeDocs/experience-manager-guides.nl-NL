@@ -21,12 +21,12 @@ Op de volgende tabbladen vindt u instructies voor het maken van een AEM-site voo
 
 >[!TAB  Cloud Service ]
 
-1. Download **het Pakket van de Inhoud van de Componenten van XML Documentation voor Cloud Service** van uw [ Portaal van de Distributie van de Software van Adobe ](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html).
+1. Download **het Pakket van de Inhoud van de Componenten van XML Documentation voor Cloud Service** van uw [&#x200B; Portaal van de Distributie van de Software van Adobe &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html).
 1. Open AEM Package Manager. De standaard-URL voor toegang tot pakketbeheer is: `https://<hostname>/crx/packmgr/index.jsp`
 1. Upload XML Documentation Components Content Package voor Cloud Service en installeer deze.
-1. Download het `Knowledge-base-template-for-article-based-publishing-for-cloud-service.zip` dossier van uw [ Portaal van de Distributie van de Software van Adobe ](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html).
+1. Download het `Knowledge-base-template-for-article-based-publishing-for-cloud-service.zip` dossier van uw [&#x200B; Portaal van de Distributie van de Software van Adobe &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html).
 1. Van de Globale Navigatie, uitgezochte **Plaatsen**.
-1. Binnen Plaatsen UI, creeer **** knoop op de top-juiste hoek.
+1. Binnen Plaatsen UI, creeer **&#x200B;**&#x200B;knoop op de top-juiste hoek.
 1. Selecteer **Plaats van malplaatje** van **creeer** dropdown.
 1. Klik de **knoop van de Invoer** en selecteer dan `Knowledge-base-template-for-article-based-publishing-for-cloud-service.zip` die op uw systeem wordt gedownload. Als de sitesjabloon eenmaal is geïmporteerd, wordt deze onderaan weergegeven.
 
@@ -55,4 +55,4 @@ Als u op artikelen gebaseerde publicaties wilt inschakelen, downloadt en install
 >[!ENDTABS]
 
 
-**Bovenliggend onderwerp:**[ pas de Redacteur van het Web ](customize-overview.md) aan
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; pas de Redacteur van het Web &#x200B;](customize-overview.md) aan

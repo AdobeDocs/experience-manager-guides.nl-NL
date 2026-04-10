@@ -15,9 +15,9 @@ ht-degree: 0%
 
 Dit artikel verstrekt instructies om **versies van Adobe Experience Manager Guides** **voorafgaand aan 4.6.0** (tot en met omvat **4.4.0**) te bevorderen.
 
-Als u op een versie **voorafgaand aan 3.8.5** bent, verwijs naar de **Verbetering Experience Manager Guides** sectie in de product-specifieke installatiegids beschikbaar op [ Adobe Experience Manager Guides Help PDF archief ](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
+Als u op een versie **voorafgaand aan 3.8.5** bent, verwijs naar de **Verbetering Experience Manager Guides** sectie in de product-specifieke installatiegids beschikbaar op [&#x200B; Adobe Experience Manager Guides Help PDF archief &#x200B;](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
-Voor verbeteringsinstructies voor nieuwere versies, verwijs naar [ Verbetering Adobe Experience Manager Guides voor versie 4.6.0 en hierboven ](./upgrade-aemg-latest-version.md).
+Voor verbeteringsinstructies voor nieuwere versies, verwijs naar [&#x200B; Verbetering Adobe Experience Manager Guides voor versie 4.6.0 en hierboven &#x200B;](./upgrade-aemg-latest-version.md).
 
 ## Voordat u begint
 
@@ -57,7 +57,7 @@ Voor sommige upgrades moet het logniveau ook worden ingesteld op `INFO` voor een
 
 >[!NOTE]
 >
-> Dit verbeteringsproces is van toepassing **slechts** van **3.8.5** aan **4.0**. Voor verbeteringen van **3.4 of hoger** aan **3.8.5**, verwijs naar de product-specifieke installatiegids beschikbaar op [ Adobe Experience Manager Guides Help PDF archiveren ](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
+> Dit verbeteringsproces is van toepassing **slechts** van **3.8.5** aan **4.0**. Voor verbeteringen van **3.4 of hoger** aan **3.8.5**, verwijs naar de product-specifieke installatiegids beschikbaar op [&#x200B; Adobe Experience Manager Guides Help PDF archiveren &#x200B;](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 Als u versie van Experience Manager Guides **3.8.5** gebruikt, kunt u aan versie **4.0** bevorderen zonder de vorige versie te desinstalleren.
 
@@ -103,7 +103,7 @@ Deze API migreert alle gegevens onder de bronplaats aan de doelplaats.
 ### Versie 4.0 installeren
 
 1. Installeer versie 4.0 slechts als de verbeteringsstappen succesvol waren.
-1. Download 4.0 versiepakket van [ het Portaal van de Distributie van de Software van Adobe ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html):
+1. Download 4.0 versiepakket van [&#x200B; het Portaal van de Distributie van de Software van Adobe &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html):
 
    - Als u de UUID-versie van software gebruikt, zoekt u naar &quot;4.0 UUID Release for XML Documentation solution for AEM 6.5&quot;.
    - Als u niet-UUID versie van software gebruikt, zoek naar &quot;4.0 Non-UUID Release for XML Documentation oplossing for AEM 6.5&quot;.
@@ -138,7 +138,7 @@ Voordat u het Experience Manager Guides 4.2-upgradeproces start, moet u controle
 
 ### Versie 4.2 installeren
 
-1. Download het **4.2** pakket van [ het Portaal van de Distributie van de Software van Adobe ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. Download het **4.2** pakket van [&#x200B; het Portaal van de Distributie van de Software van Adobe &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
 2. Installeer het 4.2-pakket.
 3. Wacht na de installatie op het volgende bericht in de logboeken:
 
@@ -162,7 +162,7 @@ Voordat u het Experience Manager Guides 4.2-upgradeproces start, moet u controle
 >
 > Hi-tech-sjabloon wordt niet weergegeven op een geüpgrade server. Als u de hi-tech sjabloon op uw server wilt opnemen, kunt u deze kopiëren: Source: `/libs/fmdita/pdf/Hi-Tech` Doel: `/content/dam/dita-templates/pdf` .
 
-Dan ga met de gedeelde post-verbeteringstaken in [ Gemeenschappelijke post verbeteringstaken (alle versies) ](#common-postupgrade-tasks-all-versions) te werk.
+Dan ga met de gedeelde post-verbeteringstaken in [&#x200B; Gemeenschappelijke post verbeteringstaken (alle versies) &#x200B;](#common-postupgrade-tasks-all-versions) te werk.
 
 ## Upgrade naar versie 4.2.1
 
@@ -188,9 +188,9 @@ U kunt aan versie **4.2.1** direct bevorderen als u **4.1**, **4.1.x**, of **4.2
 
 ### Versie 4.2.1 installeren
 
-1. Download het **4.2.1** pakket van [ het Portaal van de Distributie van de Software van Adobe ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. Download het **4.2.1** pakket van [&#x200B; het Portaal van de Distributie van de Software van Adobe &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
 2. Installeer het 4.2.1-pakket.
-3. U kunt de upgradetaak van de vertaalkaart optioneel activeren. Voor details, zie [ trekker van manuscript via een Servlet ](#enable-trigger-of-script-via-a-servlet) toelaten.
+3. U kunt de upgradetaak van de vertaalkaart optioneel activeren. Voor details, zie [&#x200B; trekker van manuscript via een Servlet &#x200B;](#enable-trigger-of-script-via-a-servlet) toelaten.
 
 4. Wacht na de installatie op: `Completed the post deployment setup script` in logbestanden.
 
@@ -201,7 +201,7 @@ U kunt aan versie **4.2.1** direct bevorderen als u **4.1**, **4.1.x**, of **4.2
    - `Unable to port translation map from v1 to v2 for property`
 5. (Facultatief) de schakelaarstop van de Verbetering Zuurstof die met versie **4.2** wordt vrijgegeven
 6. Cache van browser wissen.
-7. Ga met [ Gemeenschappelijke post verbeteringstaken (alle versies) ](#common-postupgrade-tasks-all-versions) voort.
+7. Ga met [&#x200B; Gemeenschappelijke post verbeteringstaken (alle versies) &#x200B;](#common-postupgrade-tasks-all-versions) voort.
 
 ### Na installatie van versie 4.2.1
 
@@ -209,7 +209,7 @@ U kunt aan versie **4.2.1** direct bevorderen als u **4.1**, **4.1.x**, of **4.2
 >
 > Hi-tech-sjabloon wordt niet weergegeven op een geüpgrade server. Als u de hi-tech sjabloon op uw server wilt opnemen, kunt u deze kopiëren: Source: `/libs/fmdita/pdf/Hi-Tech` Doel: `/content/dam/dita-templates/pdf` .
 
-Ga met [ Gemeenschappelijke post verbeteringstaken (alle versies) ](#common-postupgrade-tasks-all-versions) en (indien vereist) [ Index bestaande inhoud voor kaart vinden en vervangen ](#index-existing-content-for-map-find-and-replace) te werk.
+Ga met [&#x200B; Gemeenschappelijke post verbeteringstaken (alle versies) &#x200B;](#common-postupgrade-tasks-all-versions) en (indien vereist) [&#x200B; Index bestaande inhoud voor kaart vinden en vervangen &#x200B;](#index-existing-content-for-map-find-and-replace) te werk.
 
 
 ## Upgrade naar versie 4.3.0
@@ -229,7 +229,7 @@ Voordat u het Experience Manager Guides 4.3.0-upgradeproces start, moet u contro
 
 ### Versie 4.3.0 installeren
 
-1. Download 4.3.0 versiepakket van [ het Portaal van de Distributie van de Software van Adobe ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. Download 4.3.0 versiepakket van [&#x200B; het Portaal van de Distributie van de Software van Adobe &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
 1. Installeer versie 4.3.0.
 1. Wis de browsercache nadat u het pakket hebt geïnstalleerd.
 1. Bevorder het `ui_config.json` dossier van het **lusje van de Configuratie van de Redacteur van XML** in het Profiel van de Omslag.
@@ -238,8 +238,8 @@ Voordat u het Experience Manager Guides 4.3.0-upgradeproces start, moet u contro
 
 Doorgaan met:
 
-- [ Gemeenschappelijke post verbeteringstaken (alle versies) ](#common-postupgrade-tasks-all-versions)
-- Indien van toepassing: [ post bestaande inhoud voor gebroken verbindingsrapport ](#post-process-existing-content-for-broken-link-report)
+- [&#x200B; Gemeenschappelijke post verbeteringstaken (alle versies) &#x200B;](#common-postupgrade-tasks-all-versions)
+- Indien van toepassing: [&#x200B; post bestaande inhoud voor gebroken verbindingsrapport &#x200B;](#post-process-existing-content-for-broken-link-report)
 
 ## Upgrade naar versie 4.3.1
 
@@ -259,9 +259,9 @@ Voordat u het Experience Manager Guides 4.3.1-upgradeproces start, moet u contro
 
 ### Versie 4.3.1 installeren
 
-1. Download 4.3.1 versiepakket van [ het Portaal van de Distributie van de Software van Adobe ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. Download 4.3.1 versiepakket van [&#x200B; het Portaal van de Distributie van de Software van Adobe &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
 1. Installeer versie 4.3.1.
-1. U kunt de upgradetaak van de vertaalkaart optioneel activeren. Voor details, zie [ trekker van manuscript via een Servlet ](#enable-trigger-of-script-via-a-servlet) toelaten.
+1. U kunt de upgradetaak van de vertaalkaart optioneel activeren. Voor details, zie [&#x200B; trekker van manuscript via een Servlet &#x200B;](#enable-trigger-of-script-via-a-servlet) toelaten.
 1. Wacht na de installatie op: `Completed the post deployment setup script` in logbestanden.
 Deze fouten rapporteren aan Klantsucces:\
    `Error in post deployment setup script`, `Exception while porting the translation MAP`, `Unable to port translation map from v1 to v2 for property`
@@ -272,9 +272,9 @@ Deze fouten rapporteren aan Klantsucces:\
 
 Doorgaan met:
 
-- [ Gemeenschappelijke post verbeteringstaken (alle versies) ](#common-postupgrade-tasks-all-versions)
-- Indien van toepassing: [ Index bestaande inhoud voor kaart vinden en vervangen ](#index-existing-content-for-map-find-and-replace)
-- Indien van toepassing: [ post bestaande inhoud voor gebroken verbindingsrapport ](#post-process-existing-content-for-broken-link-report)
+- [&#x200B; Gemeenschappelijke post verbeteringstaken (alle versies) &#x200B;](#common-postupgrade-tasks-all-versions)
+- Indien van toepassing: [&#x200B; Index bestaande inhoud voor kaart vinden en vervangen &#x200B;](#index-existing-content-for-map-find-and-replace)
+- Indien van toepassing: [&#x200B; post bestaande inhoud voor gebroken verbindingsrapport &#x200B;](#post-process-existing-content-for-broken-link-report)
 
 
 ## Upgrade naar versie 4.3.1.5
@@ -283,7 +283,7 @@ U kunt aan **4.3.1.5** direct bevorderen als u versie **4.3.1** gebruikt.
 
 ### Versie installeren 4.3.1.5
 
-1. Download het **4.3.1.5** pakket van [ het Portaal van de Distributie van de Software van Adobe ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. Download het **4.3.1.5** pakket van [&#x200B; het Portaal van de Distributie van de Software van Adobe &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
 2. Installeer het pakket 4.3.1.5 .
 3. Wacht tot het installatieproces is voltooid.
 4. De aanpassingen blijven bijwerken zoals in de volgende sectie wordt beschreven.
@@ -324,9 +324,9 @@ Voordat u het Experience Manager Guides 4.4.0-upgradeproces start, moet u contro
 
 ### Versie 4.4.0 installeren
 
-1. Download 4.4.0 versiepakket van [ het Portaal van de Distributie van de Software van Adobe ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. Download 4.4.0 versiepakket van [&#x200B; het Portaal van de Distributie van de Software van Adobe &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
 2. Installeer het 4.4.0-pakket.
-3. U kunt de upgradetaak van de vertaalkaart optioneel activeren. Voor details, zie [ trekker van manuscript via een Servlet ](#enable-trigger-of-script-via-a-servlet) toelaten.
+3. U kunt de upgradetaak van de vertaalkaart optioneel activeren. Voor details, zie [&#x200B; trekker van manuscript via een Servlet &#x200B;](#enable-trigger-of-script-via-a-servlet) toelaten.
 4. Nadat u de pakketinstallatie hebt voltooid, wacht u op het volgende bericht in de logboeken:
 
    `Completed the post deployment setup script`
@@ -343,9 +343,9 @@ Voordat u het Experience Manager Guides 4.4.0-upgradeproces start, moet u contro
 7. Doorgaan met:
 
    - [Algemene taken na de upgrade (alle versies)](#common-ppostupgrade-tasks-all-versions)
-   - [ Index bestaande inhoud voor kaart vindt en vervangt ](#index-existing-content-for-map-find-and-replace) (slechts indien van toepassing)
-   - [ post-proces bestaande inhoud voor gebroken verbindingsrapport ](#post-process-existing-content-for-broken-link-report) (slechts indien van toepassing)
-   - [ Verbetering van de Omzettingskaart (servlet trekker) ](#translation-map-upgrade-servlet-trigger) (slechts als toepasselijk)
+   - [&#x200B; Index bestaande inhoud voor kaart vindt en vervangt &#x200B;](#index-existing-content-for-map-find-and-replace) (slechts indien van toepassing)
+   - [&#x200B; post-proces bestaande inhoud voor gebroken verbindingsrapport &#x200B;](#post-process-existing-content-for-broken-link-report) (slechts indien van toepassing)
+   - [&#x200B; Verbetering van de Omzettingskaart (servlet trekker) &#x200B;](#translation-map-upgrade-servlet-trigger) (slechts als toepasselijk)
 
 
 ## Algemene taken na de upgrade (alle versies)
@@ -362,7 +362,7 @@ Nadat u Experience Manager Guides hebt geïnstalleerd, moet u mogelijk configura
    `http://<host>:4502/libs/cq/workflow/admin/console/content/models.html`
 2. Selecteer **DAM het werkschema van Activa van de Update**.
 3. Selecteer **uitgeven**.
-4. Als de **component van de Initiator van het Proces van 0} DXML {aanwezig is, zorg aanpassingen ervoor worden gesynchroniseerd.**
+4. Als de **component van de Initiator van het Proces van 0&rbrace; DXML &lbrace;aanwezig is, zorg aanpassingen ervoor worden gesynchroniseerd.**
 5. Als de component afwezig is, neem het op:
    1. Klik **component van het Tussenvoegsel** (verantwoordelijk voor Gidsen na verwerking als definitieve stap).
    2. Vorm de **stap van het Proces**:

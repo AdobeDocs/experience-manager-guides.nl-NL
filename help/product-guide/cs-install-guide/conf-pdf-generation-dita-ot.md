@@ -60,4 +60,4 @@ Voer de volgende stappen uit om de oude PDF-generatie via de DITA-OT vanuit de m
 
 Na het uitvoeren van de bovengenoemde stappen, als u het zelfde omslagprofiel van de Voorkeur van de Gebruiker in de Redacteur van het Web kiest, zult u dan de optie voor de generatie van PDF op de voorproefwijze van een onderwerp zien.
 
-**Bovenliggend onderwerp:**[ pas de Redacteur van het Web ](conf-web-editor.md) aan
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; pas de Redacteur van het Web &#x200B;](conf-web-editor.md) aan

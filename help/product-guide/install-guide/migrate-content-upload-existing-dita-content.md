@@ -86,7 +86,7 @@ Voer de volgende stappen uit om bestandsnamen te controleren op basis van een UU
 
 1. Onderzoek naar en klik op *com.adobe.fmdita.config.ConfigManager* bundel.
 
-1. In het **bezit van de Patronen van Filename 0} UUID {, specificeer een patroon om de namen van het ingevoerde dossier te controleren.**
+1. In het **bezit van de Patronen van Filename 0&rbrace; UUID &lbrace;, specificeer een patroon om de namen van het ingevoerde dossier te controleren.**
 
    Als een bestand het opgegeven patroon niet volgt, wordt een UUID toegevoegd aan de eigenschap van het bestand en worden alle verwijzingen naar het bestand bijgewerkt met de UUID die aan het bestand is toegewezen.
 
@@ -98,7 +98,7 @@ Voer de volgende stappen uit om bestandsnamen te controleren op basis van een UU
 U kunt de volgende methoden gebruiken om uw inhoud te uploaden met UUID:
 
 - Sleep inhoud van uw lokale systeem.
-- Gebruik **creeer** \> **** werkschema van Dossiers van de UI van Assets van AEM.
+- Gebruik **creeer** \> **&#x200B;**&#x200B;werkschema van Dossiers van de UI van Assets van AEM.
 - Gebruik een gereedschap zoals WinSCP.
 
 In het geval dat u een hulpmiddel zoals WinSCP gebruikt, kunt u de actie bepalen om op een dubbel dossier uit te voeren door het **oude dossier van de Beweging met Zelfde UUID aan Nieuwe Omslag** optie in configMgr te plaatsen. Met deze optie wordt gedefinieerd welke actie wordt uitgevoerd op een bestand dat op een andere locatie in de AEM-opslagplaats beschikbaar is. Dit het plaatsen is beschikbaar in *com.adobe.fmdita.config.ConfigManager* bundel in configMgr.
@@ -178,4 +178,4 @@ Geef de volgende parameters op om metagegevensinformatie toe te voegen:
 - `<metadata node path>`: volledig mappad, inclusief bestandsnaam en het bijbehorende metagegevensknooppunt. Als u bijvoorbeeld het pad opgeeft als `http://192.168.1.1:4502/content/dam/projects/AEM-Guides/intro.xml/jcr:content/metadata` , wordt de opgegeven metagegevens ingesteld in het `intro.xml` -bestand.
 
 
-**Bovenliggend onderwerp:**[ Migreer bestaande inhoud ](migrate-content.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Migreer bestaande inhoud &#x200B;](migrate-content.md)

@@ -27,7 +27,7 @@ Het vormen van DITA inhoudsonderzoek impliceert de volgende taken:
 1. [Aangepaste elementen of kenmerken toevoegen in zoekopdracht](#id192SF0G10YK)
 1. [Metagegevens uit bestaande inhoud extraheren](#id192SF0GA0HT)
 
-Naast het toevoegen van onderzoeksvermogen, kunt u de omslagen ook vormen die niet in het onderzoek zouden moeten worden omvat. Voor meer details, zie [ Tijdelijke dossiers van onderzoeksresultaten uitsluiten ](#id197AHI0035Z).
+Naast het toevoegen van onderzoeksvermogen, kunt u de omslagen ook vormen die niet in het onderzoek zouden moeten worden omvat. Voor meer details, zie [&#x200B; Tijdelijke dossiers van onderzoeksresultaten uitsluiten &#x200B;](#id197AHI0035Z).
 
 ## DITA Element-zoekcomponent toevoegen in Assets UI {#id192SF0F50HS}
 
@@ -218,7 +218,7 @@ Voer de volgende stappen uit om de workflow voor het uitnemen van metagegevens u
 
 1. Klik op de **verbinding van Adobe Experience Manager** bij de bovenkant en kies **Hulpmiddelen**.
 
-1. Selecteer **Gidsen** van de lijst van hulpmiddelen en klik de **3} tegel van de Extractie van Metagegevens DITA {.**
+1. Selecteer **Gidsen** van de lijst van hulpmiddelen en klik de **3&rbrace; tegel van de Extractie van Metagegevens DITA &lbrace;.**
 
 1. Als u meta-gegevens uit één enkel dossier en zijn gebiedsdelen wilt halen, klik **Uitgezocht een verbinding van het Dossier** en doorblader voor een dossier.
 

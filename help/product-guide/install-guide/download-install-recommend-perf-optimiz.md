@@ -18,7 +18,7 @@ ht-degree: 0%
 ## Gegevensopslag \(verplicht\) configureren
 
 **wat is de verandering?**
-Plaats het `minRecordLength` bezit aan een waarde van `100` onder de configuratie `org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.` voor meer informatie over de opslag van de dossierdatum en S3 gegevensopslag, zie [ het Vormen knoopopslag en gegevensopslag in AEM 6 ](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/data-store-config.html) artikel.
+Plaats het `minRecordLength` bezit aan een waarde van `100` onder de configuratie `org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.` voor meer informatie over de opslag van de dossierdatum en S3 gegevensopslag, zie [&#x200B; het Vormen knoopopslag en gegevensopslag in AEM 6 &#x200B;](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/data-store-config.html) artikel.
 
 >[!NOTE]
 >
@@ -52,7 +52,7 @@ De JVM-beginparameters moeten zorgvuldig worden ingesteld op basis van de infras
 
 - Stel de JVM-heapgrootte in op minimaal 1/4e van het totale beschikbare geheugen. Gebruik de parameter `-Xmx<size>` om de grootte van het heapgeheugen in te stellen. Stel de waarde in voor -`Xms` gelijk aan `-Xmx` .
 
-- Inschakelen `-XX:+HeapDumpOnOutOfMemoryError` en het pad instellen voor `-XX:HeapDumpPath=</path/to/folder``>` .
+- Inschakelen `-XX:+HeapDumpOnOutOfMemoryError` en het pad instellen voor `-XX:HeapDumpPath=</path/to/folder` `>` .
 
 - Java GC-logbestand inschakelen als:
 
@@ -94,7 +94,7 @@ Deze wijziging verbetert de laadtijd van pagina&#39;s op de instantie Auteur, aa
 **wat is de verandering?**
 Deze wijziging is vereist als u DITA-OT gebruikt om uitvoer te publiceren en er ook een aantal gelijktijdige publicatiethreads is gedefinieerd.
 
-Standaard stelt AEM Guides de publicatiethreads in op het aantal CPU&#39;s+1. Het wordt echter aanbevolen deze waarde in te stellen op de helft \(1/2\) of een derde \(1/3\) van het totale aantal CPU&#39;s. Om dit te doen, plaats het **bezit van de Grootte van de Pool van de 1} Generatie onder de configuratie** zoals volgens de aanbevelingen.`com.adobe.fmdita.publish.manager.PublishThreadManagerImpl`
+Standaard stelt AEM Guides de publicatiethreads in op het aantal CPU&#39;s+1. Het wordt echter aanbevolen deze waarde in te stellen op de helft \(1/2\) of een derde \(1/3\) van het totale aantal CPU&#39;s. Om dit te doen, plaats het **bezit van de Grootte van de Pool van de 1&rbrace; Generatie onder de configuratie** zoals volgens de aanbevelingen.`com.adobe.fmdita.publish.manager.PublishThreadManagerImpl`
 
 **Wanneer te vormen?**
 Dit kan in runtime door de console van Felix of via codeplaatsing worden gedaan.
@@ -116,4 +116,4 @@ Dit kan in runtime door de console van Felix of via codeplaatsing worden gedaan.
 Een verhoogd aantal van de **Pagina&#39;s van de Plaats van AEM van de Grens in het bezit van de Samenvatting** optimaliseert het proces van de de outputgeneratie van de Plaats van AEM.
 
 
-**Bovenliggend onderwerp:**[ Download en installeer ](download-install.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Download en installeer &#x200B;](download-install.md)

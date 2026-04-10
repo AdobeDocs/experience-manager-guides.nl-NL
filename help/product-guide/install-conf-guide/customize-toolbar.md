@@ -17,7 +17,7 @@ Standaard wordt de webeditor geleverd met de meest voorkomende redactionele func
 
 >[!NOTE]
 >
-> Wanneer u van de oude gebruikersinterface naar de nieuwe gebruikersinterface van AEM Guides migreert (van toepassing vanaf de release van AEM Guides 2502 en 5.0), moeten updates naar `ui_config` worden omgezet in flexibelere en modulaire gebruikersinterfaceconfiguraties. Met dit framework kunt u naadloos wijzigingen aanbrengen in de editor_toolbar en andere doelwidget, indien van toepassing. Voor details, mening [ Overzicht van Omzetten UI Config ](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+> Wanneer u van de oude gebruikersinterface naar de nieuwe gebruikersinterface van AEM Guides migreert (van toepassing vanaf de release van AEM Guides 2502 en 5.0), moeten updates naar `ui_config` worden omgezet in flexibelere en modulaire gebruikersinterfaceconfiguraties. Met dit framework kunt u naadloos wijzigingen aanbrengen in de editor_toolbar en andere doelwidget, indien van toepassing. Voor details, mening [&#x200B; Overzicht van Omzetten UI Config &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 Er zijn twee manieren om de toolbar van de Redacteur van het Web aan te passen:
 
@@ -58,12 +58,12 @@ Op de volgende tabbladen vindt u instructies die zijn gebaseerd op de Experience
         &quot;type&quot;: &quot;blockGroup&quot;, 
         &quot;extraclass&quot;:
         &quot;toolbarverrichtingen&quot;, 
-        &quot;items&quot;: [
-       {
+        &quot;items&quot;: &lbrack;
+       &lbrace;
         &quot;type&quot;: &quot;buttonGroup&quot;, 
         &quot;extraclass&quot;: &quot;left-controls&quot;, 
         &quot;label&quot;: &quot;Left Controls&quot;, 
-        &quot;items&quot;: [
+        &quot;items&quot;: &lbrack;
        &quot;
    
    In de `items` -verzameling moet u de definitie voor een of meer werkbalkpictogrammen opgeven.
@@ -132,7 +132,7 @@ Op de volgende tabbladen vindt u instructies die zijn gebaseerd op de Experience
 
 1. Voeg in het bestand `ui_config.json` de definitie van de nieuwe functie toe in de sectie Werkbalken. Doorgaans kunt u een nieuwe werkbalkknoopgroep maken en er een of meer werkbalkknoppen aan toevoegen. U kunt ook een nieuwe werkbalkknop toevoegen binnen een bestaande werkbalkgroep. U moet de volgende gegevens opgeven om een nieuwe werkbalkgroep te maken:
 
-   - **type:**Specify `blockGroup` als `type` waarde. Deze waarde geeft aan dat u een blokgroep maakt die een of meer werkbalkgroepen zou bevatten.
+   - **type:**&#x200B;Specify `blockGroup` als `type` waarde. Deze waarde geeft aan dat u een blokgroep maakt die een of meer werkbalkgroepen zou bevatten.
 
    - **extraclass:** Naam van de klasse of de klassen die met ruimte worden gescheiden.
 

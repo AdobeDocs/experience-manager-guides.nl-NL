@@ -23,7 +23,7 @@ Op de volgende tabbladen vindt u instructies voor het configureren van het patro
 
 >[!TAB  Cloud Service ]
 
-Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](download-install-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende \(eigenschap\) gegevens op om het patroon van de UUID-bestandsnaam te configureren:
+Gebruik de instructies die in [&#x200B; worden gegeven met voeten treedt van de Configuratie &#x200B;](download-install-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende \(eigenschap\) gegevens op om het patroon van de UUID-bestandsnaam te configureren:
 
 | PID | Eigenschappensleutel | Waarde van eigenschap |
 |---|------------|--------------|
@@ -43,7 +43,7 @@ Voer de volgende stappen uit om bestandsnamen te controleren op basis van een UU
 
 1. Onderzoek naar en selecteer *com.adobe.fmdita.config.ConfigManager* bundel.
 
-1. In het **bezit van de Patronen van Filename 0} UUID {, specificeer een patroon om de namen van het ingevoerde dossier te controleren.**
+1. In het **bezit van de Patronen van Filename 0&rbrace; UUID &lbrace;, specificeer een patroon om de namen van het ingevoerde dossier te controleren.**
 
    Als een bestand het opgegeven patroon niet volgt, wordt een UUID toegevoegd aan de eigenschap van het bestand en worden alle verwijzingen naar het bestand bijgewerkt met de UUID die aan het bestand is toegewezen.
 

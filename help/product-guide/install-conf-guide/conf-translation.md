@@ -26,32 +26,32 @@ Op de volgende tabbladen vindt u instructies voor het vertalen van inhoud op bas
 
 >[!TAB  Cloud Service ]
 
-1. Verbind AEM met uw [ leverancier van de vertaaldienst ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) en creeer configuraties van het kader van de vertaalintegratie.
+1. Verbind AEM met uw [&#x200B; leverancier van de vertaaldienst &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) en creeer configuraties van het kader van de vertaalintegratie.
 
 1. Koppel de pagina&#39;s van uw taalmaster aan de vertaalservice en frameworkconfiguraties.
 
-1. Identificeer het type van [ te vertalen inhoud ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/rules.html?lang=en).
+1. Identificeer het type van [&#x200B; te vertalen inhoud &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/rules.html?lang=en).
 
-1. [ bereidt de inhoud voor vertaling ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/preparation.html?lang=en) voor door de taalmeester te ontwerpen en de wortelpagina&#39;s van taalexemplaren te creëren.
+1. [&#x200B; bereidt de inhoud voor vertaling &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/preparation.html?lang=en) voor door de taalmeester te ontwerpen en de wortelpagina&#39;s van taalexemplaren te creëren.
 
-1. Creeer [ vertaalprojecten ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en) om de inhoud te verzamelen om te vertalen en het vertaalproces voor te bereiden.
+1. Creeer [&#x200B; vertaalprojecten &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en) om de inhoud te verzamelen om te vertalen en het vertaalproces voor te bereiden.
 
-1. Gebruik de vertaalprojecten om [ het proces van de inhoudsomzetting ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en) te beheren.
+1. Gebruik de vertaalprojecten om [&#x200B; het proces van de inhoudsomzetting &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en) te beheren.
 
 
 >[!TAB  Op locatie ]
 
-1. Verbind AEM met uw [ leverancier van de vertaaldienst ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider) en creeer [ configuraties van het kader van de vertaalintegratie ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration).
+1. Verbind AEM met uw [&#x200B; leverancier van de vertaaldienst &#x200B;](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider) en creeer [&#x200B; configuraties van het kader van de vertaalintegratie &#x200B;](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration).
 
-1. Koppel de pagina&#39;s van uw taalmeester met de [ vertaaldienst en kaderconfiguraties ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation).
+1. Koppel de pagina&#39;s van uw taalmeester met de [&#x200B; vertaaldienst en kaderconfiguraties &#x200B;](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation).
 
-1. Identificeer het type van [ te vertalen inhoud ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-rules.html).
+1. Identificeer het type van [&#x200B; te vertalen inhoud &#x200B;](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-rules.html).
 
-1. [ bereidt de inhoud voor vertaling ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-prep.html) voor door de taalmeester te ontwerpen en de wortelpagina&#39;s van taalexemplaren te creëren.
+1. [&#x200B; bereidt de inhoud voor vertaling &#x200B;](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-prep.html) voor door de taalmeester te ontwerpen en de wortelpagina&#39;s van taalexemplaren te creëren.
 
-1. Creeer [ vertaalprojecten ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html) om de inhoud te verzamelen om te vertalen en het vertaalproces voor te bereiden.
+1. Creeer [&#x200B; vertaalprojecten &#x200B;](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html) om de inhoud te verzamelen om te vertalen en het vertaalproces voor te bereiden.
 
-1. Gebruik de vertaalprojecten om [ het proces van de inhoudsomzetting ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html) te beheren.
+1. Gebruik de vertaalprojecten om [&#x200B; het proces van de inhoudsomzetting &#x200B;](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html) te beheren.
 
 >[!ENDTABS]
 
@@ -69,7 +69,7 @@ Op de volgende tabbladen vindt u instructies voor het verbergen van het tabblad 
 
 >[!TAB  Cloud Service ]
 
-1. Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](download-install-config-override.md#) om het configuratiedossier tot stand te brengen.
+1. Gebruik de instructies die in [&#x200B; worden gegeven met voeten treedt van de Configuratie &#x200B;](download-install-config-override.md#) om het configuratiedossier tot stand te brengen.
 1. Geef in het configuratiebestand de volgende \(eigenschap\)-details op om het tabblad Vertaling op het kaartdashboard te configureren:
 
    | PID | Eigenschappensleutel | Waarde van eigenschap |
@@ -117,7 +117,7 @@ Op de volgende tabbladen vindt u instructies voor de vertaalworkflow op basis va
 
 >[!TAB  Cloud Service ]
 
-Op basis van de vertaalworkflow die in uw installatie wordt gebruikt, moet de optie voor de vertaalworkflow op basis van componenten worden geconfigureerd. Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](download-install-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende \(eigenschap\)-details op om de workflow voor op componenten gebaseerde omzetting te configureren:
+Op basis van de vertaalworkflow die in uw installatie wordt gebruikt, moet de optie voor de vertaalworkflow op basis van componenten worden geconfigureerd. Gebruik de instructies die in [&#x200B; worden gegeven met voeten treedt van de Configuratie &#x200B;](download-install-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende \(eigenschap\)-details op om de workflow voor op componenten gebaseerde omzetting te configureren:
 
 | PID | Eigenschappensleutel | Waarde van eigenschap |
 |---|------------|--------------|
@@ -143,7 +143,7 @@ Op basis van de vertaalworkflow die in uw installatie wordt gebruikt, moet de op
 
    >[!NOTE]
    >
-   > Als u vertaalschakelaar gebruikt, dan zorg ervoor dat u de schakelaar zoals die in *[wordt beschreven het Vormen van het Kader van de Integratie van de Vertaling ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html)* onderwerp in de documentatie van AEM hebt gevormd.
+   > Als u vertaalschakelaar gebruikt, dan zorg ervoor dat u de schakelaar zoals die in *[wordt beschreven het Vormen van het Kader van de Integratie van de Vertaling &#x200B;](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html)* onderwerp in de documentatie van AEM hebt gevormd.
 
 1. Klik **sparen**.
 
@@ -166,7 +166,7 @@ Op de volgende tabbladen vindt u instructies voor het configureren van deze opti
 >
 > Het wordt aanbevolen de nieuwste vertaalworkflow, die beschikbaar is in AEM Guides 2024.06.0 en hoger, te gebruiken voor betere prestaties. Nochtans, als u om het even welke aanpassing in het vertaalproces hebt toegelaten en het door het nieuwe werkschema wordt beïnvloed, denk na terugkerend aan de erfenisvertaalwerkstroom als oplossing.
 
-Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](download-install-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende gegevens (eigenschap) op om de workflow voor veroudering te configureren:
+Gebruik de instructies die in [&#x200B; worden gegeven met voeten treedt van de Configuratie &#x200B;](download-install-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende gegevens (eigenschap) op om de workflow voor veroudering te configureren:
 
 
 | PID | Eigenschappensleutel | Waarde van eigenschap |
@@ -176,7 +176,7 @@ Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configur
 
 >[!NOTE]
 >
-> Als u vertaalschakelaar gebruikt, dan zorg ervoor dat u de schakelaar zoals die in *[wordt beschreven het Vormen van het Kader van de Integratie van de Vertaling ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)* onderwerp in de documentatie van Adobe Experience Manager hebt gevormd.
+> Als u vertaalschakelaar gebruikt, dan zorg ervoor dat u de schakelaar zoals die in *[wordt beschreven het Vormen van het Kader van de Integratie van de Vertaling &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)* onderwerp in de documentatie van Adobe Experience Manager hebt gevormd.
 
 >[!IMPORTANT]
 >
@@ -217,7 +217,7 @@ Op de volgende tabbladen vindt u instructies voor het configureren van deze opti
 
 >[!TAB  Cloud Service ]
 
-Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](download-install-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende \(eigenschap\)-details op om de naverwerking van tijdelijke taalkopieën te configureren:
+Gebruik de instructies die in [&#x200B; worden gegeven met voeten treedt van de Configuratie &#x200B;](download-install-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende \(eigenschap\)-details op om de naverwerking van tijdelijke taalkopieën te configureren:
 
 | PID | Eigenschappensleutel | Waarde van eigenschap |
 |---|------------|--------------|
@@ -241,7 +241,7 @@ Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configur
 
 1. Vorm de **post-procestaal taalexemplaren** optie zoals per uw opstelling:
 
-   - \ (*Gebrek* \) als u niet de post-verwerkingsverrichting op de tijdelijke dossiers wilt in werking stellen, dan ** onbruikbaar maken **na-procestaalexemplaren** optie.
+   - \ (*Gebrek* \) als u niet de post-verwerkingsverrichting op de tijdelijke dossiers wilt in werking stellen, dan **&#x200B; onbruikbaar maken &#x200B;** na-procestaalexemplaren** optie.
 
    - Als u de post-verwerkingsverrichting op de tijdelijke dossiers wilt in werking stellen, dan *laat* de **na-procestaalexemplaren** optie toe.
 

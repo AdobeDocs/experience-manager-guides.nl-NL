@@ -47,7 +47,7 @@ Voer de volgende stappen uit om WinSCP te gebruiken om dossiers te uploaden:
 U kunt de volgende methoden gebruiken om uw inhoud te uploaden met UUID:
 
 - Sleep inhoud van uw lokale systeem.
-- Gebruik **creeer** \> **** werkschema van Dossiers van de UI van Assets van AEM.
+- Gebruik **creeer** \> **&#x200B;**&#x200B;werkschema van Dossiers van de UI van Assets van AEM.
 - Gebruik een gereedschap zoals WinSCP.
 
 In het geval dat u een hulpmiddel zoals WinSCP gebruikt, kunt u de actie bepalen om op een dubbel dossier uit te voeren door het **oude dossier van de Beweging met Zelfde UUID aan Nieuwe Omslag** optie in configMgr te plaatsen. Met deze optie wordt gedefinieerd welke actie wordt uitgevoerd op een bestand dat op een andere locatie in de AEM-opslagplaats beschikbaar is. Deze instelling is beschikbaar in de `*com.adobe.fmdita.config.ConfigManager*` -bundel in configMgr.
@@ -103,4 +103,4 @@ Voer de volgende stappen uit om FrameMaker AEM Connector te gebruiken om inhoud 
 
 
 
-**Bovenliggend onderwerp:**[ Migreer bestaande inhoud ](migrate-content.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Migreer bestaande inhoud &#x200B;](migrate-content.md)

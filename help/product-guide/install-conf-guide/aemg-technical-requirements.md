@@ -24,7 +24,7 @@ Voordat u Adobe Experience Manager Guides voor On-Premise installeert, moet u co
 
 >[!NOTE]
 >
-> Leer meer over de [ versies van Experience Manager Guides en download de bouwstijl ](../release-info/latest-release-info.md).
+> Leer meer over de [&#x200B; versies van Experience Manager Guides en download de bouwstijl &#x200B;](../release-info/latest-release-info.md).
 
 
 | [!DNL AEM Guides] Release | Technische specificaties |

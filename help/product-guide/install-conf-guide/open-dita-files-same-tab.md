@@ -21,7 +21,7 @@ Op de volgende tabbladen vindt u instructies voor het openen van het DITA-onderw
 
 >[!TAB  Cloud Service ]
 
-Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](download-install-config-override.md#) om het configuratiedossier tot stand te brengen. In het configuratiedossier, verstrek de volgende \(bezit \) details om een onderwerp of kaartdossier in een nieuw lusje te openen:
+Gebruik de instructies die in [&#x200B; worden gegeven met voeten treedt van de Configuratie &#x200B;](download-install-config-override.md#) om het configuratiedossier tot stand te brengen. In het configuratiedossier, verstrek de volgende \(bezit \) details om een onderwerp of kaartdossier in een nieuw lusje te openen:
 
 | PID | Eigenschappensleutel | Waarde van eigenschap |
 |---|------------|--------------|
@@ -57,4 +57,4 @@ Deze instelling is van invloed op de volgende plaatsen waar u toegang kunt krijg
 
 - Het lusje van rapporten in de DITA kaartconsole
 
-**Bovenliggend onderwerp:**[ pas de Redacteur van het Web ](customize-overview.md) aan
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; pas de Redacteur van het Web &#x200B;](customize-overview.md) aan

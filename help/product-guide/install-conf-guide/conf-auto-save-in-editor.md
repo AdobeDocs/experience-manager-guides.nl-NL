@@ -23,7 +23,7 @@ Op de volgende tabbladen vindt u instructies voor het inschakelen van de functie
 
 >[!TAB  Cloud Service ]
 
-Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](download-install-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende \(eigenschap\) gegevens op om het automatisch opslaan van het bestand en het automatisch opslaan van het tijdinterval te configureren:
+Gebruik de instructies die in [&#x200B; worden gegeven met voeten treedt van de Configuratie &#x200B;](download-install-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende \(eigenschap\) gegevens op om het automatisch opslaan van het bestand en het automatisch opslaan van het tijdinterval te configureren:
 
 | PID | Eigenschappensleutel | Waarde van eigenschap |
 |---|------------|--------------|
@@ -42,7 +42,7 @@ Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configur
 
 1. Onderzoek naar en klik op **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** bundel.
 
-1. In de *montages 0} XmlEditorConfig, selecteer* Auto sparen **optie.**
+1. In de *montages 0&rbrace; XmlEditorConfig, selecteer* Auto sparen **optie.**
 
 1. Op het **Auto sparen het gebied van het Interval**, specificeer het tijdinterval in seconden om de auto-sparen eigenschap teweeg te brengen.
 

@@ -28,7 +28,7 @@ U kunt ook aangepaste DITA Open Toolkit \(DITA-OT\)-plug-ins gebruiken met de AE
 
 >[!TIP]
 >
-> Zie de *AEM Plaats het publiceren* sectie in de [ gids van Beste praktijken ](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/cs-mar-22/Adobe-Experience-Manager-Guides_Best-Practices_EN.pdf) voor beste praktijken rond het creëren van de output van de Plaats van AEM.
+> Zie de *AEM Plaats het publiceren* sectie in de [&#x200B; gids van Beste praktijken &#x200B;](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/cs-mar-22/Adobe-Experience-Manager-Guides_Best-Practices_EN.pdf) voor beste praktijken rond het creëren van de output van de Plaats van AEM.
 
 
 ## Ontwerpsjabloon aanpassen voor het genereren van uitvoer {#customize_xml-add-on}
@@ -98,7 +98,7 @@ De eigenschappen van de AEM Guides-ontwerpsjabloon worden in de volgende tabel b
 >
 > Nadat u een aangepaste ontwerpsjabloonnode hebt gemaakt, moet u de optie Ontwerpen in de uitvoervoorinstellingen van de AEM-site bijwerken om het aangepaste ontwerpsjabloonknooppunt te kunnen gebruiken.
 
-Voor meer informatie, zie [ Creërend uw eerste website van Adobe Experience Manager ](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=en) en [ de Grondbeginselen ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=en) van het ontwikkelen van uw eigen website op AEM.
+Voor meer informatie, zie [&#x200B; Creërend uw eerste website van Adobe Experience Manager &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=en) en [&#x200B; de Grondbeginselen &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=en) van het ontwikkelen van uw eigen website op AEM.
 
 ## Documenttitel gebruiken om uitvoer van AEM-sites te genereren
 
@@ -110,13 +110,13 @@ Op de volgende tabbladen vindt u instructies voor het configureren van het gener
 
 >[!NOTE]
 >
-> U kunt regels verder configureren om alleen een set tekens toe te staan in de URL&#39;s van een AEM-site-uitvoer. Voor meer details, zie [ filename ontsmettingsregels voor het creëren van onderwerpen en het publiceren van de output van de Plaats van AEM ](#id2164D0KD0XA) vormen.
+> U kunt regels verder configureren om alleen een set tekens toe te staan in de URL&#39;s van een AEM-site-uitvoer. Voor meer details, zie [&#x200B; filename ontsmettingsregels voor het creëren van onderwerpen en het publiceren van de output van de Plaats van AEM &#x200B;](#id2164D0KD0XA) vormen.
 
 >[!BEGINTABS]
 
 >[!TAB  Cloud Service ]
 
-Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](download-install-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende \(eigenschap\)-details op om de URL&#39;s te configureren die worden gegenereerd in AEM Site-uitvoer:
+Gebruik de instructies die in [&#x200B; worden gegeven met voeten treedt van de Configuratie &#x200B;](download-install-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende \(eigenschap\)-details op om de URL&#39;s te configureren die worden gegenereerd in AEM Site-uitvoer:
 
 | PID | Eigenschappensleutel | Waarde van eigenschap |
 |---|------------|--------------|
@@ -152,7 +152,7 @@ U kunt de documenttitels in URL van de output van de Plaats van AEM gebruiken. A
 
 Voer de volgende stappen uit om de paginanamen te configureren:
 
-1. Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](download-install-config-override.md#) om het configuratiedossier tot stand te brengen.
+1. Gebruik de instructies die in [&#x200B; worden gegeven met voeten treedt van de Configuratie &#x200B;](download-install-config-override.md#) om het configuratiedossier tot stand te brengen.
 1. In het configuratiedossier, verstrek de volgende (bezit) details om de paginanamen voor de onderwerpen te vormen.
 
 | PID | Eigenschappensleutel | Waarde van eigenschap |
@@ -180,7 +180,7 @@ Op de volgende tabbladen vindt u instructies voor het configureren van de geldig
 
 >[!TAB  Cloud Service ]
 
-Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](download-install-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende \(eigenschap\) gegevens op om de geldige speciale tekens in bestandsnamen en uitvoer van AEM-site te configureren:
+Gebruik de instructies die in [&#x200B; worden gegeven met voeten treedt van de Configuratie &#x200B;](download-install-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende \(eigenschap\) gegevens op om de geldige speciale tekens in bestandsnamen en uitvoer van AEM-site te configureren:
 
 | PID | Eigenschappensleutel | Waarde van eigenschap |
 |---|------------|--------------|
@@ -270,7 +270,7 @@ Op de volgende tabbladen vindt u instructies voor het afvlakken van de nodestruc
    >
    > Standaard is de eigenschap voor samenvoegen van knooppunten geconfigureerd in het element `p` .
 
-1. Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](download-install-config-override.md#) om het configuratiedossier tot stand te brengen.
+1. Gebruik de instructies die in [&#x200B; worden gegeven met voeten treedt van de Configuratie &#x200B;](download-install-config-override.md#) om het configuratiedossier tot stand te brengen.
 1. Geef in het configuratiebestand de volgende \(eigenschap\)-details op:
 
    | PID | Eigenschappensleutel | Waarde van eigenschap |
@@ -363,7 +363,7 @@ Als u het element `table` wilt uitsluiten van afvlakking, voegt u de volgende ei
 
 ## De versie voor verwijderde pagina&#39;s configureren in AEM Site-uitvoer
 
-Wanneer u de output van de Plaats van AEM met **schrapping en** creeert ****optie die voor het Bestaande plaatsen van de Pagina&#39;s van de Output wordt geselecteerd, wordt een versie gecreeerd voor pagina \(s \) die worden geschrapt. U kunt het systeem vormen om de verwezenlijking van een versie vóór schrapping tegen te houden.
+Wanneer u de output van de Plaats van AEM met **schrapping en** creeert **&#x200B;**&#x200B;optie die voor het Bestaande plaatsen van de Pagina&#39;s van de Output wordt geselecteerd, wordt een versie gecreeerd voor pagina \(s \) die worden geschrapt. U kunt het systeem vormen om de verwezenlijking van een versie vóór schrapping tegen te houden.
 
 Op de volgende tabbladen vindt u instructies om te voorkomen dat er een versie voor de pagina\(s\) wordt gemaakt die wordt verwijderd op basis van de Experience Manager Guides-instellingen: Cloud Service of On-Premise.
 
@@ -371,7 +371,7 @@ Op de volgende tabbladen vindt u instructies om te voorkomen dat er een versie v
 
 >[!TAB  Cloud Service ]
 
-1. Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](download-install-config-override.md#) om het configuratiedossier tot stand te brengen.
+1. Gebruik de instructies die in [&#x200B; worden gegeven met voeten treedt van de Configuratie &#x200B;](download-install-config-override.md#) om het configuratiedossier tot stand te brengen.
 1. In het configuratiedossier, verstrek de volgende \(bezit \) details om **te vormen creeer geen Versie voor Geschrapte Pagina&#39;s** optie:
 
    | PID | Eigenschappensleutel | Waarde van eigenschap |
@@ -406,9 +406,9 @@ Op de volgende tabbladen vindt u instructies om te voorkomen dat er een versie v
 
 ## Aangepaste rewriter instellen met Experience Manager Guides (alleen voor Cloud Service) {#custom-rewriter}
 
-Experience Manager Guides heeft een douane die [**herschrijver** ](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html) module leest voor de behandeling van de verbindingen in het geval van dwars-kaarten (verbindingen tussen de onderwerpen van twee verschillende kaarten) worden geproduceerd. Deze herschrijfconfiguratie is geïnstalleerd op het volgende pad: <br> `/apps/fmdita/config/rewriter/fmdita-crossmap-link-patcher`.
+Experience Manager Guides heeft een douane die [**herschrijver** &#x200B;](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html) module leest voor de behandeling van de verbindingen in het geval van dwars-kaarten (verbindingen tussen de onderwerpen van twee verschillende kaarten) worden geproduceerd. Deze herschrijfconfiguratie is geïnstalleerd op het volgende pad: <br> `/apps/fmdita/config/rewriter/fmdita-crossmap-link-patcher`.
 
-Als u nog een aangepaste schrijfbewerking voor tekenreeksen in uw codebase hebt, gebruikt u een `'order'` -waarde groter dan 50, omdat Experience Manager Guides anders `'order'` 50 gebruikt.  Als u dit wilt overschrijven, hebt u een waarde > 50 nodig. Voor meer details, mening [ Output die pijplijnen herschrijft ](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
+Als u nog een aangepaste schrijfbewerking voor tekenreeksen in uw codebase hebt, gebruikt u een `'order'` -waarde groter dan 50, omdat Experience Manager Guides anders `'order'` 50 gebruikt.  Als u dit wilt overschrijven, hebt u een waarde > 50 nodig. Voor meer details, mening [&#x200B; Output die pijplijnen herschrijft &#x200B;](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
 
 
 

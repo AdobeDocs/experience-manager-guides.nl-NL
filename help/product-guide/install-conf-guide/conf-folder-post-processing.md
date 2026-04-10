@@ -23,7 +23,7 @@ Op de volgende tabbladen vindt u instructies voor het uitschakelen van naverwerk
 
 >[!TAB  Cloud Service ]
 
-Gebruik de instructies in [ met voeten treedt van de Configuratie ](download-install-config-override.md#) om het configuratiedossier tot stand te brengen. In het configuratiedossier, verstrek de volgende (bezit) details om postprocessing op een bepaalde weg onbruikbaar te maken of de naverwerking voor een omslag te negeren:
+Gebruik de instructies in [&#x200B; met voeten treedt van de Configuratie &#x200B;](download-install-config-override.md#) om het configuratiedossier tot stand te brengen. In het configuratiedossier, verstrek de volgende (bezit) details om postprocessing op een bepaalde weg onbruikbaar te maken of de naverwerking voor een omslag te negeren:
 
 | PID | Eigenschappensleutel | Waarde van eigenschap |
 |---|------------|--------------|

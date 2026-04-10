@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Native PDF-publicaties starten een afzonderlijk NodeJs-proces om de bestanden die tijdens het publicatieproces worden gegenereerd, om te zetten in een definitieve PDF. Mogelijk moet u de configuraties van dit Node-proces aanpassen en Native PDF-publicaties uitvoeren om verschillende scenario&#39;s te ondersteunen. Als u bijvoorbeeld grotere werklasten wilt uitvoeren, vergroot u de maximale heapgrootte die beschikbaar is voor het paaide NodeJs-proces.
 
-Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](../install-conf-guide/download-install-config-override.md) om het configuratiedossier.In het configuratiedossier tot stand te brengen, verstrek de volgende (bezit) details:
+Gebruik de instructies die in [&#x200B; worden gegeven met voeten treedt van de Configuratie &#x200B;](../install-conf-guide/download-install-config-override.md) om het configuratiedossier.In het configuratiedossier tot stand te brengen, verstrek de volgende (bezit) details:
 
 | PID | Eigenschappensleutel | Waarde van eigenschap |
 |---|---|---|

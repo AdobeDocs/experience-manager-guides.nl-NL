@@ -29,7 +29,7 @@ Op de volgende tabbladen vindt u instructies voor het standaard opnemen van het 
 1. Klik op de **Globale tegel van het Profiel**.
 1. Selecteer het **lusje van de Configuratie van de Redacteur van XML** en klik **uitgeven** pictogram op de bovenkant
 1. Klik het **pictogram van de Download** om het ui \_config.json- dossier op uw lokaal systeem te downloaden.
-1. U kunt deze wijziging doorvoeren op algemeen niveau of op een mapniveau. Afhankelijk van waar u deze wijziging wilt aanbrengen, moet u het respectievelijke bestand ui\_config.json downloaden. Voor meer informatie over het downloaden ui\_config.json- dossier, zie [ vormen en de Redacteur van het Web van XML aanpassen ](conf-profiles.md#id2065G300O5Z).
+1. U kunt deze wijziging doorvoeren op algemeen niveau of op een mapniveau. Afhankelijk van waar u deze wijziging wilt aanbrengen, moet u het respectievelijke bestand ui\_config.json downloaden. Voor meer informatie over het downloaden ui\_config.json- dossier, zie [&#x200B; vormen en de Redacteur van het Web van XML aanpassen &#x200B;](conf-profiles.md#id2065G300O5Z).
 
 1. Zoek naar de `ditaAttributes` definitie.
 
@@ -61,7 +61,7 @@ Met deze configuratie bevat elk referentiebestand dat u toevoegt aan een kaart s
 
 1. Download het bestand ui\_config.json.
 
-   U kunt deze wijziging doorvoeren op algemeen niveau of op een mapniveau. Afhankelijk van waar u deze wijziging wilt aanbrengen, moet u het respectievelijke bestand ui\_config.json downloaden. Voor meer informatie over het downloaden ui\_config.json- dossier, zie [ vormen en de Redacteur van het Web van XML aanpassen ](conf-profiles.md#id2065G300O5Z).
+   U kunt deze wijziging doorvoeren op algemeen niveau of op een mapniveau. Afhankelijk van waar u deze wijziging wilt aanbrengen, moet u het respectievelijke bestand ui\_config.json downloaden. Voor meer informatie over het downloaden ui\_config.json- dossier, zie [&#x200B; vormen en de Redacteur van het Web van XML aanpassen &#x200B;](conf-profiles.md#id2065G300O5Z).
 
 1. Zoek naar de `ditaAttributes` definitie.
 
@@ -90,4 +90,4 @@ Met deze configuratie bevat elk referentiebestand dat u toevoegt aan een kaart s
 
 >[!ENDTABS]
 
-**Bovenliggend onderwerp:**[ pas de Redacteur van het Web ](customize-overview.md) aan
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; pas de Redacteur van het Web &#x200B;](customize-overview.md) aan

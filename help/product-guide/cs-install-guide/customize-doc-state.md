@@ -111,7 +111,7 @@ Voer de volgende stappen uit om een documentstatusprofiel te verwijderen:
 
 1. Klik op de verbinding van Adobe Experience Manager bij de bovenkant en kies **Hulpmiddelen**.
 1. Selecteer **Gidsen** van de lijst van hulpmiddelen.
-1. Klik op de **tegel van de Staten van het 0} Document {.**
+1. Klik op de **tegel van de Staten van het 0&rbrace; Document &lbrace;.**
 
    De pagina Assets States wordt weergegeven.
 
@@ -128,7 +128,7 @@ Als u de documentstatus niet handmatig wilt wijzigen, kunt u een workflow maken 
 1. Klik op de verbinding van Adobe Experience Manager bij de bovenkant en kies **Hulpmiddelen**.
 1. Selecteer **Werkschema** van de lijst van hulpmiddelen.
 
-1. Klik op de **tegel van 0} Modellen {.**
+1. Klik op de **tegel van 0&rbrace; Modellen &lbrace;.**
 
 1. Selecteer de relevante workflow, Lees de onderwerpen van de revisie.
 
@@ -148,7 +148,7 @@ Als u de documentstatus niet handmatig wilt wijzigen, kunt u een workflow maken 
 
 1. In de **drop-down lijst van het Proces**, uitgezochte **plaats de Staat van het Document voor Om het even welk element DAM**.
 
-1. Selecteer de **optie van de vooruitgang van de 0} Handler {.**
+1. Selecteer de **optie van de vooruitgang van de 0&rbrace; Handler &lbrace;.**
 
    ![](assets/update-workflow-doc-state_cs.png)
 

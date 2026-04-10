@@ -61,4 +61,4 @@ Auteurs moeten hun Web Editor-sessie opnieuw starten om de lijst met aangepaste 
 
 >[!ENDTABS]
 
-**Bovenliggend onderwerp:**[ pas de Redacteur van het Web ](customize-overview.md) aan
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; pas de Redacteur van het Web &#x200B;](customize-overview.md) aan

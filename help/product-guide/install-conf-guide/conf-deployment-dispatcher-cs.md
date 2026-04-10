@@ -17,7 +17,7 @@ Dit artikel bevat informatie over hoe u Experience Manager Guides as a Cloud Ser
 
 ## Experience Manager Guides as a Cloud Service implementeren
 
-U kunt beginnen met het implementeren van Experience Manager Guides via de Cloud Manager. Om de module op te stellen volg de instructies die in [ worden vermeld de plaatsing van as a Cloud Service van AEM Guides ](../release-info/deploy-xml-on-aemaacs.md).
+U kunt beginnen met het implementeren van Experience Manager Guides via de Cloud Manager. Om de module op te stellen volg de instructies die in [&#x200B; worden vermeld de plaatsing van as a Cloud Service van AEM Guides &#x200B;](../release-info/deploy-xml-on-aemaacs.md).
 
 >[!NOTE]
 >
@@ -37,7 +37,7 @@ Voer de volgende stappen uit om de Experience Manager Guides-module te implement
 
 U hebt met succes uw programma voor automatische levering van de oplossing van Experience Manager Guides gevormd.
 
-![ Vormend de oplossing van Experience Manager Guides ](assets/addon-configuration.png)
+![&#x200B; Vormend de oplossing van Experience Manager Guides &#x200B;](assets/addon-configuration.png)
 
 >[!NOTE]
 >
@@ -46,10 +46,10 @@ U hebt met succes uw programma voor automatische levering van de oplossing van E
 
 ## Dispatcher configureren
 
-Dispatcher is de Adobe Experience Manager-tool voor cache- en taakverdelingsbewerkingen. Voor meer details, verwijs naar [ Dispatcher in de Wolk ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html?lang=en).
+Dispatcher is de Adobe Experience Manager-tool voor cache- en taakverdelingsbewerkingen. Voor meer details, verwijs naar [&#x200B; Dispatcher in de Wolk &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html?lang=en).
 
-1. Voor het migreren van de vraagconfiguratie van AMS aan de wolkendienst, verwijs naar [ het Migreren van de configuratie van Dispatcher van AMS aan AEM as a Cloud Service ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/content-delivery/ams-aem.html?lang=en).
-1. Voor details op hoe te om dispatcher te vormen, zie [ Vormend Dispatcher ](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=en).
+1. Voor het migreren van de vraagconfiguratie van AMS aan de wolkendienst, verwijs naar [&#x200B; het Migreren van de configuratie van Dispatcher van AMS aan AEM as a Cloud Service &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/content-delivery/ams-aem.html?lang=en).
+1. Voor details op hoe te om dispatcher te vormen, zie [&#x200B; Vormend Dispatcher &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=en).
 
 >[!NOTE]
 >

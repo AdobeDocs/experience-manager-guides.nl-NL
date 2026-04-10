@@ -25,11 +25,11 @@ Voer de volgende stappen uit om de installatie te verifiëren:
 
 1. Open de Developer Console van je Cloud Service.
 
-   Voor details om tot Developer Console toegang te hebben, zie {de toegang van 0} Developer Console [ in de documentatie van AEM.](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html)
+   Voor details om tot Developer Console toegang te hebben, zie {de toegang van 0} Developer Console [&#x200B; in de documentatie van AEM.](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html)
 
 1. Open de lijst met OSGi-bundels in AEM.
 
-   Voor details om tot Bundels toegang te hebben, zie [ Bundels ](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=en#bundles) in de documentatie van AEM.
+   Voor details om tot Bundels toegang te hebben, zie [&#x200B; Bundels &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=en#bundles) in de documentatie van AEM.
 
 1. Zoek naar fmdita in de lijst van bundels en controleer zijn status.
 
@@ -56,7 +56,7 @@ Voer de volgende stappen uit om de installatie te verifiëren:
 
 >[!IMPORTANT]
 >
-> Er zijn een aantal aanbevelingen voor het optimaliseren van de prestaties die u kunt overwegen om de systeemprestaties te verbeteren. Zie [ Aanbevelingen voor prestatiesoptimalisering ](perf-optimization-on-prem.md#) voor details.
+> Er zijn een aantal aanbevelingen voor het optimaliseren van de prestaties die u kunt overwegen om de systeemprestaties te verbeteren. Zie [&#x200B; Aanbevelingen voor prestatiesoptimalisering &#x200B;](perf-optimization-on-prem.md#) voor details.
 
 >[!ENDTABS]
 

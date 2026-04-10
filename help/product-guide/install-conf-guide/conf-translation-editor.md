@@ -47,4 +47,4 @@ Om **te verbergen leidt** lusje in de Redacteur van het Web, voer de volgende st
 
 Merk op dat **leidt** filter niet meer beschikbaar is.
 
-**Bovenliggend onderwerp:**[ pas de Redacteur van het Web ](customize-overview.md) aan
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; pas de Redacteur van het Web &#x200B;](customize-overview.md) aan

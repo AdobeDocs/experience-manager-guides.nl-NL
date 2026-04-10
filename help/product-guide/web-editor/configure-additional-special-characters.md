@@ -16,7 +16,7 @@ ht-degree: 0%
 De werkbalk van de webeditor bevat een optie voor sneltoetsen waarmee de auteur de speciale tekens al kan invoegen.
 Hetzelfde geldt voor onderstaande screenshot:
 
-![ Speciale Karakters ](assets/special-chars.png)
+![&#x200B; Speciale Karakters &#x200B;](assets/special-chars.png)
 
 
 Deze lijst met tekens kan hier worden geconfigureerd. Voer de volgende stappen uit als u hier meer tekens aan wilt toevoegen:
@@ -55,10 +55,10 @@ U kunt meerdere definities definiëren voor speciale tekens in een categorie.
 
 Hiermee wordt een andere categorie toegevoegd in het dialoogvenster Speciale tekens:
 
-![ Speciale Categorie van het Symbool ](assets/special-char-category.png)
+![&#x200B; Speciale Categorie van het Symbool &#x200B;](assets/special-char-category.png)
 
-![ Tussenvoegsel Speciaal Karakter ](assets/insert-special-char.png)
+![&#x200B; Tussenvoegsel Speciaal Karakter &#x200B;](assets/insert-special-char.png)
 
 >[!MORELIKETHIS]
 >
->+ [ Gids van de Installatie en van de Configuratie ](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/3-6/XML-Documentation-for-Adobe-Experience-Manager_Installation-Configuration-Guide_EN.pdf)
+>+ [&#x200B; Gids van de Installatie en van de Configuratie &#x200B;](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/3-6/XML-Documentation-for-Adobe-Experience-Manager_Installation-Configuration-Guide_EN.pdf)

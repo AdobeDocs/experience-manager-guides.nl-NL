@@ -123,7 +123,7 @@ De variabelen met dezelfde id worden geïmporteerd wanneer u het bestand importe
 >[!NOTE]
 > 
 ><ul><li>Als het dossier geen dossier van XML is, of als het dossier een onjuist formaat bevat dat niet met de taalvariabelen in kaart brengt, bekijkt u een fout dat er een kwestie met het dossier van XML is. 
-&gt;<li>Als het bestand geen variabelen met dezelfde id bevat, wordt u gewaarschuwd dat er geen overeenkomstige taalvariabele in het geïmporteerde bestand wordt gevonden.
+>&gt;<li>Als het bestand geen variabelen met dezelfde id bevat, wordt u gewaarschuwd dat er geen overeenkomstige taalvariabele in het geïmporteerde bestand wordt gevonden.
 
 ### Opties voor een taalvariabele
 
@@ -131,7 +131,7 @@ Beweeg over de variabele om het **menu van Opties** voor het te bekijken.
 
 <img width="550" alt="optiemenu voor taalvariabelen" src="./assets/language-variable-user-options.png">
 
-*gebruik het **menu van Opties**om, een taalvariabele te schrappen voor te vertonen of te dupliceren.*
+*gebruik het **menu van Opties**&#x200B;om, een taalvariabele te schrappen voor te vertonen of te dupliceren.*
 
 U kunt zowel toepassings- als gebruikersvariabelen voorvertonen. Om te bekijken hoe de waarde van de variabele in de output wordt getoond, selecteer **Voorproef** van het **menu van Opties** van de geselecteerde variabele.
 U kunt ook verkiezen om **Schrapping** of **te dupliceren** de gebruikersvariabelen. Als u een variabele uit één taal verwijdert, wordt deze automatisch uit alle talen verwijderd.
@@ -157,7 +157,7 @@ Voer de volgende stappen uit om een taalvariabele zoals de `copyright-label` in 
 
    >[!NOTE]
    >
-   > De mening [ past een sectie van de paginalay-out ](../native-pdf/components-pdf-template.md#customize-a-page-layout-customize-page-layout) voor het openen van een paginalay-out voor aanpassing of het uitgeven aan.
+   > De mening [&#x200B; past een sectie van de paginalay-out &#x200B;](../native-pdf/components-pdf-template.md#customize-a-page-layout-customize-page-layout) voor het openen van een paginalay-out voor aanpassing of het uitgeven aan.
 
 1. Selecteer de koptekst om deze actief te maken en een variabele in te voegen.
 1. Selecteer **Variabele van het Tussenvoegsel**  <img src="./assets/insert-language-variable.svg" width="25"> op de werkbalk.
@@ -186,7 +186,7 @@ Naast de waarde die u aan een taalvariabele toewijst, kunt u ook HTML-tags gebru
   Waarde voor Tamil:
   `<span data-field="page-number" data-format="tamil">1</span>`
 
-U kunt ook taalvariabelen toevoegen en andere velden opmaken die worden vermeld in de functie Velden invoegen van de paginalay-outs. Voor meer details bij het toevoegen van gebieden, mening [ voegt gebieden en meta-gegevens ](../native-pdf/design-page-layout.md#add-fields-metadata) toe.
+U kunt ook taalvariabelen toevoegen en andere velden opmaken die worden vermeld in de functie Velden invoegen van de paginalay-outs. Voor meer details bij het toevoegen van gebieden, mening [&#x200B; voegt gebieden en meta-gegevens &#x200B;](../native-pdf/design-page-layout.md#add-fields-metadata) toe.
 
 - U kunt ook gelokaliseerde afbeeldingen aan de waarden toevoegen. U kunt bijvoorbeeld een afbeeldingspictogram toevoegen in de hoofdstuknummertaal en gelokaliseerde afbeeldingen van het pictogram ophalen in de PDF-uitvoer.
 

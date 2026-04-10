@@ -23,7 +23,7 @@ Op de volgende tabbladen vindt u instructies voor het verbergen van het tabblad 
 
 >[!TAB  Cloud Service ]
 
-1. Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](download-install-config-override.md#) om het configuratiedossier tot stand te brengen.
+1. Gebruik de instructies die in [&#x200B; worden gegeven met voeten treedt van de Configuratie &#x200B;](download-install-config-override.md#) om het configuratiedossier tot stand te brengen.
 1. Geef in het configuratiebestand de volgende \(eigenschap\)-details op om het basislijntabblad op het kaartdashboard te configureren.
 
 | PID | Eigenschappensleutel | Waarde van eigenschap |
@@ -140,7 +140,7 @@ Op de volgende tabbladen vindt u instructies voor het configureren van de basisu
 
 >[!TAB  Cloud Service ]
 
-1. Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](download-install-config-override.md) om het configuratiedossier tot stand te brengen.
+1. Gebruik de instructies die in [&#x200B; worden gegeven met voeten treedt van de Configuratie &#x200B;](download-install-config-override.md) om het configuratiedossier tot stand te brengen.
 
 1. In het configuratiedossier, verstrek de volgende (bezit) details om de plaats van de basisoutput te vormen:
 
@@ -324,7 +324,7 @@ Voor het valideren van de metagegevenswaarden die aan de DITA-OT worden doorgege
 
 Voer de volgende stappen uit om het argumentveld voor de opdrachtregel DITA-OT te gebruiken om metagegevens voor hoofdmapmappen door te geven:
 
-1. Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](download-install-config-override.md#) om het configuratiedossier tot stand te brengen.
+1. Gebruik de instructies die in [&#x200B; worden gegeven met voeten treedt van de Configuratie &#x200B;](download-install-config-override.md#) om het configuratiedossier tot stand te brengen.
 1. In het configuratiedossier, verstrek de volgende \(bezit \) details om het DITA-OT gebied van het bevellijn argument in Vooraf ingesteld te vormen:
 
 | PID | Eigenschappensleutel | Waarde van eigenschap |
@@ -346,11 +346,11 @@ AEM Guides biedt de categorie `apps.fmdita.dashboard-extn` voor het aanpassen va
 
 >[!NOTE]
 >
-> Voor meer informatie over het creëren van de Bibliotheek van de Cliënt van AEM, zie [ Gebruikend cliënt-Kant Bibliotheken ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=en).
+> Voor meer informatie over het creëren van de Bibliotheek van de Cliënt van AEM, zie [&#x200B; Gebruikend cliënt-Kant Bibliotheken &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=en).
 
 ## Afbeeldingsuitvoering afhandelen tijdens het genereren van de uitvoer {#id177BF0G0VY4}
 
-AEM wordt geleverd met een set standaardworkflows en mediapandgrepen voor het verwerken van middelen. In AEM zijn er vooraf gedefinieerde workflows voor het verwerken van elementen voor de meest gangbare MIME-typen. Doorgaans maakt AEM voor elke afbeelding die u uploadt, meerdere uitvoeringen van dezelfde indeling in binaire indeling. Deze vertoningen kunnen van verschillende grootte, met een verschillende resolutie, met een toegevoegd watermerk, of één of andere andere veranderde eigenschap zijn. Voor meer informatie over hoe AEM activa behandelt, zie [ Assets die de Handlers en de Werkschema&#39;s van Media van de Verwerking gebruikt ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=en) in de documentatie van AEM.
+AEM wordt geleverd met een set standaardworkflows en mediapandgrepen voor het verwerken van middelen. In AEM zijn er vooraf gedefinieerde workflows voor het verwerken van elementen voor de meest gangbare MIME-typen. Doorgaans maakt AEM voor elke afbeelding die u uploadt, meerdere uitvoeringen van dezelfde indeling in binaire indeling. Deze vertoningen kunnen van verschillende grootte, met een verschillende resolutie, met een toegevoegd watermerk, of één of andere andere veranderde eigenschap zijn. Voor meer informatie over hoe AEM activa behandelt, zie [&#x200B; Assets die de Handlers en de Werkschema&#39;s van Media van de Verwerking gebruikt &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=en) in de documentatie van AEM.
 
 Met AEM Guides kunt u configureren welke afbeeldingsuitvoering moet worden gebruikt wanneer uitvoer voor uw documenten wordt gegenereerd. U kunt bijvoorbeeld kiezen uit een van de standaardafbeeldingsuitvoeringen of een uitvoering maken en hetzelfde gebruiken om uw documenten te publiceren. Toewijzing van afbeeldingsuitvoering voor het publiceren van uw documenten wordt opgeslagen in het `/libs/fmdita/config/ **renditionmap.xml**` -bestand. Een fragment van het bestand `renditionmap.xml` ziet er als volgt uit:
 
@@ -425,7 +425,7 @@ Op de volgende tabbladen vindt u instructies voor het instellen van een dag en t
 
 >[!TAB  Cloud Service ]
 
-Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](download-install-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende \(eigenschap\)-details op om een dag en tijd in te stellen voor het wissen van de uitvoergeschiedenis en logboeken:
+Gebruik de instructies die in [&#x200B; worden gegeven met voeten treedt van de Configuratie &#x200B;](download-install-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende \(eigenschap\)-details op om een dag en tijd in te stellen voor het wissen van de uitvoergeschiedenis en logboeken:
 
 | PID | Eigenschappensleutel | Waarde van eigenschap |
 |---|------------|--------------|
@@ -444,9 +444,9 @@ Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configur
 
 1. Onderzoek naar en klik op **com.adobe.fmdita.config.ConfigManager** bundel.
 
-1. In het **bezit van de Aanzuivering van de Geschiedenis van de Output van 0} {het aantal dagen waarna de outputgeschiedenis samen met outputlogboeken wordt gezuiverd.** De standaardwaarde is 5 dagen. Als u deze functie wilt uitschakelen, stelt u deze eigenschap in op 0.
+1. In het **bezit van de Aanzuivering van de Geschiedenis van de Output van 0&rbrace; &lbrace;het aantal dagen waarna de outputgeschiedenis samen met outputlogboeken wordt gezuiverd.** De standaardwaarde is 5 dagen. Als u deze functie wilt uitschakelen, stelt u deze eigenschap in op 0.
 
-1. In het **bezit van de Opschoontijd van de Geschiedenis van de Output 0} {de tijd specificeren wanneer het het zuiveren proces in werking wordt gesteld.** Door gebrek, wordt het geplaatst aan 0 :00 \ (of 12 :00 middernacht \). Elke dag op dit ogenblik, wordt het het zuiveren proces uitgevoerd op output die vóór het aantal dagen wordt geproduceerd in het **Periode van de Aanzuivering van de Geschiedenis van de Output** bezit wordt gespecificeerd.
+1. In het **bezit van de Opschoontijd van de Geschiedenis van de Output 0&rbrace; &lbrace;de tijd specificeren wanneer het het zuiveren proces in werking wordt gesteld.** Door gebrek, wordt het geplaatst aan 0 :00 \ (of 12 :00 middernacht \). Elke dag op dit ogenblik, wordt het het zuiveren proces uitgevoerd op output die vóór het aantal dagen wordt geproduceerd in het **Periode van de Aanzuivering van de Geschiedenis van de Output** bezit wordt gespecificeerd.
 
    >[!NOTE]
    >
@@ -464,7 +464,7 @@ U kunt het maximumaantal geproduceerde output veranderen die in het lusje van Ou
 
 >[!TAB  Cloud Service ]
 
-Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](download-install-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende \(eigenschap\)-details op om het aantal uitvoerbestanden te wijzigen dat in de lijst moet worden weergegeven:
+Gebruik de instructies die in [&#x200B; worden gegeven met voeten treedt van de Configuratie &#x200B;](download-install-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende \(eigenschap\)-details op om het aantal uitvoerbestanden te wijzigen dat in de lijst moet worden weergegeven:
 
 | PID | Eigenschappensleutel | Waarde van eigenschap |
 |---|------------|--------------|
@@ -478,13 +478,13 @@ Standaard wordt een lijst met de laatste 25 gegenereerde uitvoerbestanden weerge
 
 >[!TIP]
 >
-> Zie de *de geschiedenissectie van de Output* in de [ gids van Beste praktijken ](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/cs-mar-22/Adobe-Experience-Manager-Guides_Best-Practices_EN.pdf) voor beste praktijken rond het werken met outputgeschiedenis.
+> Zie de *de geschiedenissectie van de Output* in de [&#x200B; gids van Beste praktijken &#x200B;](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/cs-mar-22/Adobe-Experience-Manager-Guides_Best-Practices_EN.pdf) voor beste praktijken rond het werken met outputgeschiedenis.
 
 ## Optimalisatie van uitvoergeneratieprestaties (alleen voor op locatie) {#id176LB050VUI}
 
 AEM Guides staat u toe om de grootte van de de generatieprocessen van de outputproductie te vormen die het aantal processen van de outputgeneratie controleert die gelijktijdig lopen. Standaard is de grootte van de procespool ingesteld op het aantal verwerkingskernen dat beschikbaar is in uw systeem plus één. U kunt deze waarde wijzigen in 1 als u opeenvolgende publicaties wilt. In dit geval wordt de eerste publicatietaak uitgevoerd en wordt de volgende publicatietaak opgeslagen in de publicatiereeks.
 
-Om de grootte van de de verwerkingspool van de outputgeneratie te veranderen, werk de **het plaatsen van de Grootte van de Pool van de 1} generatie in de** bundel bij.`com.adobe.fmdita.publish.manager.PublishThreadManagerImpl`
+Om de grootte van de de verwerkingspool van de outputgeneratie te veranderen, werk de **het plaatsen van de Grootte van de Pool van de 1&rbrace; generatie in de** bundel bij.`com.adobe.fmdita.publish.manager.PublishThreadManagerImpl`
 
 ## FrameMaker Publishing Server configureren (alleen voor op locatie) {#id1678G0Z0TN6}
 

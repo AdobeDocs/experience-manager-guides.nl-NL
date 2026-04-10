@@ -21,13 +21,13 @@ Op de volgende tabbladen vindt u instructies die zijn gebaseerd op de Experience
 
 >[!TAB  Cloud Service ]
 
-Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](download-install-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende \(eigenschap\)-details op om een vraag te configureren om bij het sluiten als een nieuwe versie op te slaan:
+Gebruik de instructies die in [&#x200B; worden gegeven met voeten treedt van de Configuratie &#x200B;](download-install-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende \(eigenschap\)-details op om een vraag te configureren om bij het sluiten als een nieuwe versie op te slaan:
 
 | PID | Eigenschappensleutel | Waarde van eigenschap |
 |---|------------|--------------|
 | `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.savenewversion` | Boolean \( true/ false\). <br>  **Standaardwaarde**: waar |
 
-Wanneer deze configuratie wordt toegelaten, **sparen als Nieuwe 1} checkbox van de Versie {door gebrek in de dialoogdoos wordt geselecteerd.**
+Wanneer deze configuratie wordt toegelaten, **sparen als Nieuwe 1&rbrace; checkbox van de Versie &lbrace;door gebrek in de dialoogdoos wordt geselecteerd.**
 
 Voor meer details, zie *Dossier sluiten en sparen scenario&#39;s* sectie in de Gebruikende gids van Adobe Experience Manager Guides as a Cloud Service.
 
@@ -48,9 +48,9 @@ Voor meer details, zie *Dossier sluiten en sparen scenario&#39;s* sectie in de G
 1. Klik **sparen**.
 
 
-**sparen als Nieuwe 1} checkbox van de Versie {wordt niet toegelaten door gebrek en u moet dit van configMgr toelaten.**
+**sparen als Nieuwe 1&rbrace; checkbox van de Versie &lbrace;wordt niet toegelaten door gebrek en u moet dit van configMgr toelaten.**
 
-Wanneer deze optie wordt geselecteerd, **sparen als Nieuwe 1} checkbox van de Versie wordt geselecteerd door gebrek in de dialoogdoos.**
+Wanneer deze optie wordt geselecteerd, **sparen als Nieuwe 1&rbrace; checkbox van de Versie wordt geselecteerd door gebrek in de dialoogdoos.**
 
 Voor meer details, zie *Dossier sluiten en sparen scenario&#39;s* sectie in de Gebruikende gids van Adobe Experience Manager Guides as a Cloud Service.
 

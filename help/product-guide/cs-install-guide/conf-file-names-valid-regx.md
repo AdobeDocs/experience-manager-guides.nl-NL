@@ -23,7 +23,7 @@ Wanneer u een lijst van geldige karakters bepaalt, herinner dat deze karakters &
 
 Als u de geldige lijst met speciale tekens niet configureert, kan het maken van bestanden onverwachte resultaten opleveren. Om dergelijke fouten te vermijden, wordt sterk geadviseerd om deze configuratieverandering aan te brengen.
 
-Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](download-install-additional-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende \(eigenschap\) gegevens op om regex te configureren voor geldige bestandsnaamtekens:
+Gebruik de instructies die in [&#x200B; worden gegeven met voeten treedt van de Configuratie &#x200B;](download-install-additional-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende \(eigenschap\) gegevens op om regex te configureren voor geldige bestandsnaamtekens:
 
 | PID | Eigenschappensleutel | Waarde van eigenschap |
 |---|------------|--------------|
@@ -31,6 +31,6 @@ Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configur
 
 >[!NOTE]
 >
-> Net als in de lijst met geldige bestandsnaamtekens kunt u ook een lijst met geldige bestandsnaamtekens opgeven voor uitvoer van de AEM-site. Voor meer details, zie [ geldige dossiernamen voor de output van de Plaats van AEM ](conf-file-names-valid-regx-aem-site-output.md#) vormen.
+> Net als in de lijst met geldige bestandsnaamtekens kunt u ook een lijst met geldige bestandsnaamtekens opgeven voor uitvoer van de AEM-site. Voor meer details, zie [&#x200B; geldige dossiernamen voor de output van de Plaats van AEM &#x200B;](conf-file-names-valid-regx-aem-site-output.md#) vormen.
 
-**Bovenliggend onderwerp:**[ vorm filenames ](conf-file-names.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; vorm filenames &#x200B;](conf-file-names.md)

@@ -21,7 +21,7 @@ Op de volgende tabbladen vindt u instructies voor het weergeven van het relatiev
 
 >[!TAB  Cloud Service ]
 
-Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](download-install-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende \(eigenschap\)-details op om het relatieve pad of de UUID van de inhoud waarnaar wordt verwezen, weer te geven in de Editor.
+Gebruik de instructies die in [&#x200B; worden gegeven met voeten treedt van de Configuratie &#x200B;](download-install-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende \(eigenschap\)-details op om het relatieve pad of de UUID van de inhoud waarnaar wordt verwezen, weer te geven in de Editor.
 
 | PID | Eigenschappensleutel | Waarde van eigenschap |
 |---|------------|--------------|
@@ -40,7 +40,7 @@ Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configur
 
 1. Onderzoek naar en klik op **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** bundel.
 
-1. In de *montages 0} XmlEditorConfig,* laat **optie UUIDs toe wordt toegelaten door gebrek.** Dit impliceert dat UUID van de referenced inhoud in het **bezit van de Verbinding** in het paneel van Eigenschappen wordt getoond.
+1. In de *montages 0&rbrace; XmlEditorConfig,* laat **optie UUIDs toe wordt toegelaten door gebrek.** Dit impliceert dat UUID van de referenced inhoud in het **bezit van de Verbinding** in het paneel van Eigenschappen wordt getoond.
 
    Als u de relatieve weg van de verbonden inhoud wilt tonen, dan schrap **toelaten UIDs** optie.
 
@@ -48,4 +48,4 @@ Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configur
 
 >[!ENDTABS]
 
-**Bovenliggend onderwerp:**[ pas de Redacteur van het Web ](customize-overview.md) aan
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; pas de Redacteur van het Web &#x200B;](customize-overview.md) aan

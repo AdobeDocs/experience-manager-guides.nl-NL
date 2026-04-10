@@ -23,7 +23,7 @@ Op de volgende tabbladen vindt u instructies voor het configureren van een opsch
 
 >[!TAB  Cloud Service ]
 
-1. Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](download-install-config-override.md) om het configuratiedossier tot stand te brengen.
+1. Gebruik de instructies die in [&#x200B; worden gegeven met voeten treedt van de Configuratie &#x200B;](download-install-config-override.md) om het configuratiedossier tot stand te brengen.
 
 1. Geef in het configuratiebestand de volgende gegevens (eigenschap) op:
 
@@ -61,7 +61,7 @@ Op de volgende tabbladen vindt u instructies voor het inschakelen van de instell
 
 >[!TAB  Cloud Service ]
 
-1. Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](download-install-config-override.md) om het configuratiedossier tot stand te brengen.
+1. Gebruik de instructies die in [&#x200B; worden gegeven met voeten treedt van de Configuratie &#x200B;](download-install-config-override.md) om het configuratiedossier tot stand te brengen.
 
 1. Geef in het configuratiebestand de volgende gegevens (eigenschap) op:
 

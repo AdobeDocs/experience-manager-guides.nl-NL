@@ -73,11 +73,11 @@ Op de volgende tabbladen vindt u instructies voor het configureren van tekstfilt
 
       In het bovenstaande codefragment is het eerste filter voor DITA-bestanden. De filterdefinitie heeft de volgende parameters:
 
-      ****Titel****: De vertoningsnaam van de filter. Deze titel wordt weergegeven als filteroptie in het bladerdialoogvenster van het bestand.
+      **&#x200B;**&#x200B;Titel&#x200B;**&#x200B;**: De vertoningsnaam van de filter. Deze titel wordt weergegeven als filteroptie in het bladerdialoogvenster van het bestand.
 
-      ****Bezit****: Het bezit in de meta-gegevens van het dossier aan te passen. Bijvoorbeeld, om slechts die dossiers toe te staan die de dita \_klasse meta-gegevens in hun bezit hebben, neemt de bezitsfilter &quot;jcr :content/metadata/dita\_class&quot;als zijn waarde.
+      **&#x200B;**&#x200B;Bezit&#x200B;**&#x200B;**: Het bezit in de meta-gegevens van het dossier aan te passen. Bijvoorbeeld, om slechts die dossiers toe te staan die de dita \_klasse meta-gegevens in hun bezit hebben, neemt de bezitsfilter &quot;jcr :content/metadata/dita\_class&quot;als zijn waarde.
 
-      ****Verrichting **:**specificeer &quot;bestaat&quot;om voor bestaan van de waarde aan te passen die in de bezitsparameter wordt gespecificeerd
+      **&#x200B;**&#x200B;Verrichting **:**&#x200B;specificeer &quot;bestaat&quot;om voor bestaan van de waarde aan te passen die in de bezitsparameter wordt gespecificeerd
 
 1. Upload het bijgewerkte bestand ui\_config.json dat de toegevoegde filters bevat.
 
@@ -165,4 +165,4 @@ De geconfigureerde filters zijn beschikbaar in het deelvenster Filters.
 
 >[!ENDTABS]
 
-**Bovenliggend onderwerp:**[ pas de Redacteur van het Web ](customize-overview.md) aan
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; pas de Redacteur van het Web &#x200B;](customize-overview.md) aan

@@ -21,7 +21,7 @@ Op de volgende tabbladen vindt u instructies voor het configureren van geldige b
 
 >[!TAB  Cloud Service ]
 
-Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](download-install-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende \(eigenschap\)-details op om geldige tekens in te stellen in de uitvoer van de AEM-site:
+Gebruik de instructies die in [&#x200B; worden gegeven met voeten treedt van de Configuratie &#x200B;](download-install-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende \(eigenschap\)-details op om geldige tekens in te stellen in de uitvoer van de AEM-site:
 
 | PID | Eigenschappensleutel | Waarde van eigenschap |
 |---|------------|--------------|

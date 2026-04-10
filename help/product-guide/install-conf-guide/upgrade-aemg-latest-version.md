@@ -23,7 +23,7 @@ U kunt uw huidige versie van Experience Manager Guides upgraden naar versie 5.1.
 
 - Als u versie 5.1.0 of 5.1.x gebruikt, kunt u rechtstreeks upgraden naar versie 5.1.0 Service Pack 3.
 - Als u versie 4.6.0, 4.6.x, 5.0.0, of 5.0.x gebruikt, dan moet u aan versie 5.1.0 bevorderen.
-- Als u op een versie voorafgaand aan 4.6.0 bent, verwijs naar [ Verbetering Adobe Experience Manager Guides voor versie 4.4.0 en vroeger ](./upgrade-aemg-prev-versions.md) voor gedetailleerde verbeteringsinstructies.
+- Als u op een versie voorafgaand aan 4.6.0 bent, verwijs naar [&#x200B; Verbetering Adobe Experience Manager Guides voor versie 4.4.0 en vroeger &#x200B;](./upgrade-aemg-prev-versions.md) voor gedetailleerde verbeteringsinstructies.
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ Raadpleeg de volgende procedures voor meer informatie:
 
 >[!IMPORTANT]
 >
-> Als u momenteel op AEM 6.5 werkt en van plan bent over te stappen op AEM 6.5 LTS, dient u eerst de AEM-upgrade te voltooien voordat u verdergaat met de Experience Manager Guides 5.1.0-upgrade. Voor details, mening [ Bevorderend aan Adobe Experience Manager (AEM) 6.5 LTS ](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
+> Als u momenteel op AEM 6.5 werkt en van plan bent over te stappen op AEM 6.5 LTS, dient u eerst de AEM-upgrade te voltooien voordat u verdergaat met de Experience Manager Guides 5.1.0-upgrade. Voor details, mening [&#x200B; Bevorderend aan Adobe Experience Manager (AEM) 6.5 LTS &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
 
 **Eerste vereisten**
 
@@ -65,7 +65,7 @@ Voordat u het Experience Manager Guides 5.1.0-upgradeproces start, moet u contro
 
 **installeer versie 5.1.0**
 
-Download het 5.1.0 versiepakket van [ het Portaal van de Distributie van de Software van Adobe ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) en volg de instructies die in [ het werkschema van de Installatie en van de post-installatiedesverbetering ](#installation-and-post-installation-upgrade-workflow) worden verstrekt om het verbeteringsproces te voltooien.
+Download het 5.1.0 versiepakket van [&#x200B; het Portaal van de Distributie van de Software van Adobe &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) en volg de instructies die in [&#x200B; het werkschema van de Installatie en van de post-installatiedesverbetering &#x200B;](#installation-and-post-installation-upgrade-workflow) worden verstrekt om het verbeteringsproces te voltooien.
 
 
 ## Upgrade naar versie 5.0.0
@@ -89,7 +89,7 @@ Voordat u het Experience Manager Guides 5.0.0-upgradeproces start, moet u contro
 
 **installeer versie 5.0.0**
 
-Download het 5.0.0 versiepakket van [ het Portaal van de Distributie van de Software van Adobe ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) en volg de instructies die in [ het werkschema van de Installatie en van de post-installatiedesverbetering ](#installation-and-post-installation-upgrade-workflow) worden verstrekt om het verbeteringsproces te voltooien.
+Download het 5.0.0 versiepakket van [&#x200B; het Portaal van de Distributie van de Software van Adobe &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) en volg de instructies die in [&#x200B; het werkschema van de Installatie en van de post-installatiedesverbetering &#x200B;](#installation-and-post-installation-upgrade-workflow) worden verstrekt om het verbeteringsproces te voltooien.
 
 ## Upgrade naar versie 4.6.0
 
@@ -113,7 +113,7 @@ Voordat u het Experience Manager Guides 4.6.0-upgradeproces start, moet u contro
 
 **installeer versie 4.6.0**
 
-Download het 4.6.0 versiepakket van [ het Portaal van de Distributie van de Software van Adobe ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) en volg de instructies die in [ het werkschema van de Installatie en van de post-installatiedesverbetering ](#installation-and-post-installation-upgrade-workflow) worden verstrekt om het verbeteringsproces te voltooien.
+Download het 4.6.0 versiepakket van [&#x200B; het Portaal van de Distributie van de Software van Adobe &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) en volg de instructies die in [&#x200B; het werkschema van de Installatie en van de post-installatiedesverbetering &#x200B;](#installation-and-post-installation-upgrade-workflow) worden verstrekt om het verbeteringsproces te voltooien.
 
 ## Workflow voor installatie en upgrade na installatie
 
@@ -122,7 +122,7 @@ Download het 4.6.0 versiepakket van [ het Portaal van de Distributie van de Soft
 Voer de volgende stappen uit om het versiepakket te installeren:
 
 1. Installeer het versiepakket waarop u een upgrade wilt uitvoeren.
-1. U kunt ervoor kiezen om op de trigger te drukken om de upgrade-taak voor de vertaalkaart te starten. Voor details, zie [ trekker van manuscript via een Servlet ](#enable-trigger-of-script-via-a-servlet) toelaten.
+1. U kunt ervoor kiezen om op de trigger te drukken om de upgrade-taak voor de vertaalkaart te starten. Voor details, zie [&#x200B; trekker van manuscript via een Servlet &#x200B;](#enable-trigger-of-script-via-a-servlet) toelaten.
 
 1. Nadat u de pakketinstallatie hebt voltooid, wacht u op het volgende bericht in de logboeken:
 
@@ -156,8 +156,8 @@ Nadat u Experience Manager Guides hebt geïnstalleerd, kunt u de verschillende c
 
 1. Selecteer **DAM het werkschema van Activa van de Update**.
 1. Selecteer **uitgeven**.
-1. Als de **component van de Initiator van het Proces van 0} DXML {aanwezig is, zorg ervoor dat de aanpassingen worden gesynchroniseerd.**
-1. Als de **component van de Initiator van het Proces van 0} DXML {ontbreekt, voer de volgende stappen uit om het op te nemen:**
+1. Als de **component van de Initiator van het Proces van 0&rbrace; DXML &lbrace;aanwezig is, zorg ervoor dat de aanpassingen worden gesynchroniseerd.**
+1. Als de **component van de Initiator van het Proces van 0&rbrace; DXML &lbrace;ontbreekt, voer de volgende stappen uit om het op te nemen:**
 
    - Selecteer **component van het Tussenvoegsel** \ (Verantwoordelijk voor Experience Manager Guides post-verwerking als definitieve stap in het proces \).
    - Vorm de **stap van het Proces** met hieronder details:
@@ -171,7 +171,7 @@ Nadat u Experience Manager Guides hebt geïnstalleerd, kunt u de verschillende c
      **lusje van het Proces**
 
       - Selecteer **DXML de Initiator van het Proces van het Post** van het **Proces** drop down
-      - Selecteer **de Geavanceerde Behandeling van 0}**
+      - Selecteer **de Geavanceerde Behandeling van 0&rbrace;**
       - Selecteer **Gereed**
 
 1. Selecteer **Synchronisatie** op het hoogste recht na de voltooiing van de veranderingen. Je ontvangt een melding over succes.
@@ -242,14 +242,14 @@ Voer de volgende stappen uit om de bestaande inhoud te indexeren:
 
 Experience Manager Guides heeft de module van de a [**douane die herschrijver**](../install-conf-guide/conf-output-generation.md#custom-rewriter) voor de behandeling van de verbindingen in het geval van dwars-kaarten (verbindingen tussen de onderwerpen van twee verschillende kaarten) worden geproduceerd.
 
-Als u nog een aangepaste schrijfbewerking voor tekenreeksen in uw codebase hebt, gebruikt u een `'order'` -waarde groter dan 50, omdat Experience Manager Guides anders `'order'` 50 gebruikt.  Als u dit wilt overschrijven, hebt u een waarde > 50 nodig. Voor meer details, mening [ Output die pijplijnen herschrijft ](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
+Als u nog een aangepaste schrijfbewerking voor tekenreeksen in uw codebase hebt, gebruikt u een `'order'` -waarde groter dan 50, omdat Experience Manager Guides anders `'order'` 50 gebruikt.  Als u dit wilt overschrijven, hebt u een waarde > 50 nodig. Voor meer details, mening [&#x200B; Output die pijplijnen herschrijft &#x200B;](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
 
 Aangezien de waarde van `'order'` tijdens deze upgrade is gewijzigd van 1000 in 50, moet u eventueel de bestaande aangepaste rewriter samenvoegen met `'fmdita-rewriter'` .
 
 
 ### Stappen om de damAssetLucene opnieuw te indexeren
 
-De indexdefinitie is bijgewerkt voor damAssetLucene met AEM Guides. Na bevordering aan de vereiste versie, verwijs naar [ dit artikel ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) voor het opnieuw indexeren van damAssetLucene.
+De indexdefinitie is bijgewerkt voor damAssetLucene met AEM Guides. Na bevordering aan de vereiste versie, verwijs naar [&#x200B; dit artikel &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) voor het opnieuw indexeren van damAssetLucene.
 
 >[!NOTE]
 >

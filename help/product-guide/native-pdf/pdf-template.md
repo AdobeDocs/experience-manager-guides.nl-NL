@@ -60,7 +60,7 @@ Voer de volgende stappen uit om een bestaande PDF-sjabloon te dupliceren:
 
    <img src="assets/duplicate-template.png" alt="PDF-sjabloon dupliceren" width="350">
 
-   *selecteer een malplaatje om te dupliceren, de duimnagel voor te vertonen, en de titel in de **Dubbele dialoog van het Malplaatje van PDF**bij te werken.*
+   *selecteer een malplaatje om te dupliceren, de duimnagel voor te vertonen, en de titel in de **Dubbele dialoog van het Malplaatje van PDF**&#x200B;bij te werken.*
 
 1. Geef een titel voor de sjabloon op.
 
@@ -94,7 +94,7 @@ Selecteer deze optie om de sjabloon weer te geven in de gebruikersinterface van 
 
 Nadat u de aangepaste sjabloon hebt gemaakt, kunt u deze kiezen in de voorinstelling voor pagina-indelingen in de PDF-uitvoervoorinstelling.
 
-Leer hoe te [ een output van PDF ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=en) publiceren.
+Leer hoe te [&#x200B; een output van PDF &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=en) publiceren.
 
 >[!NOTE]
 >
@@ -104,13 +104,13 @@ Gebaseerd op uw opstelling kan uw beheerder de malplaatjes vormen:
 
 +++ Cloud Services
 
-Voor details bij vestiging globale en omslag-vlakke profielen, de mening [ vormt malplaatjes ](../cs-install-guide/conf-folder-level.md#id1889D0IL0Y4) sectie in de Installatie en configuratiegids voor de Diensten van de Wolk.
+Voor details bij vestiging globale en omslag-vlakke profielen, de mening [&#x200B; vormt malplaatjes &#x200B;](../cs-install-guide/conf-folder-level.md#id1889D0IL0Y4) sectie in de Installatie en configuratiegids voor de Diensten van de Wolk.
 
 +++
 
 +++ Software op locatie
 
-Voor details bij vestiging globale en omslag-vlakke profielen, de mening [ vormt auteursmalplaatjes ](../install-guide/conf-folder-level.md#create-custom-authoring-template-id1917d0eg0hj) sectie in de On-premise gids van de Installatie en van de configuratie.
+Voor details bij vestiging globale en omslag-vlakke profielen, de mening [&#x200B; vormt auteursmalplaatjes &#x200B;](../install-guide/conf-folder-level.md#create-custom-authoring-template-id1917d0eg0hj) sectie in de On-premise gids van de Installatie en van de configuratie.
 
 +++
 
@@ -142,20 +142,20 @@ Voer de volgende stappen uit om een PDF-sjabloon aan te passen:
 
    De verschillende sjablooncomponenten die u kunt aanpassen, worden in de volgende secties gecategoriseerd:
 
-   * Pagina-indelingen: een PDF bevat gewoonlijk verschillende pagina&#39;s, zoals een voorblad of een titelpagina, inhoudsopgave, hoofdstuk, index, citaten en meer. In de sectie Pagina-indelingen kunt u de vormgeving ontwerpen van verschillende pagina&#39;s die de PDF vormen. Voor meer details, bekijk [ Lay-outs van de Pagina ](../native-pdf/components-pdf-template.md#page-layouts).
+   * Pagina-indelingen: een PDF bevat gewoonlijk verschillende pagina&#39;s, zoals een voorblad of een titelpagina, inhoudsopgave, hoofdstuk, index, citaten en meer. In de sectie Pagina-indelingen kunt u de vormgeving ontwerpen van verschillende pagina&#39;s die de PDF vormen. Voor meer details, bekijk [&#x200B; Lay-outs van de Pagina &#x200B;](../native-pdf/components-pdf-template.md#page-layouts).
 
-     Naast het uiterlijk kunt u ook de rangschikking van pagina-elementen definiëren, zoals de kop-, voettekst- en inhoudsgebieden op een pagina. Om meer te weten bij het aanpassen van de lay-out van een pagina, zie [ paginalay-outs ](components-pdf-template.md#create-customize-page-layout) creëren en aanpassen.
+     Naast het uiterlijk kunt u ook de rangschikking van pagina-elementen definiëren, zoals de kop-, voettekst- en inhoudsgebieden op een pagina. Om meer te weten bij het aanpassen van de lay-out van een pagina, zie [&#x200B; paginalay-outs &#x200B;](components-pdf-template.md#create-customize-page-layout) creëren en aanpassen.
 
-   * Stylesheets: Met de instellingen in de sectie Stijlvoorbladen kunt u de vormgeving van de onderdelen van de paginalay-out aanpassen, zoals de inhoudsopgave, index, woordenlijst, citaten en meer. Daarnaast kunt u ook de stijlen voor de DITA-inhoud aanpassen, zoals koppen, alinea&#39;s, lijsten en meer. Om meer te weten bij het gebruiken van de stylesheets, zie [ Stylesheets van het Gebruik om PDF ](components-pdf-template.md#stylesheet-customization) aan te passen.
+   * Stylesheets: Met de instellingen in de sectie Stijlvoorbladen kunt u de vormgeving van de onderdelen van de paginalay-out aanpassen, zoals de inhoudsopgave, index, woordenlijst, citaten en meer. Daarnaast kunt u ook de stijlen voor de DITA-inhoud aanpassen, zoals koppen, alinea&#39;s, lijsten en meer. Om meer te weten bij het gebruiken van de stylesheets, zie [&#x200B; Stylesheets van het Gebruik om PDF &#x200B;](components-pdf-template.md#stylesheet-customization) aan te passen.
    * Bronnen: Sla elementbestanden op die u moet aanpassen of PDF-sjablonen moet ontwerpen. Assets zoals logo&#39;s, aangepaste lettertypen, achtergrondafbeeldingen en meer worden opgeslagen in de Bronnen.
 U kunt ook bronnen gebruiken die zich op een andere locatie in de opslagplaats bevinden. U hoeft geen dubbele bronnen voor elke sjabloon te maken en u kunt deze in een gedeelde map bewaren en ze in alle native PDF-sjablonen gebruiken.
 
-     Meer weten bij het gebruiken van middelen, zie [ Werk met middelen ](components-pdf-template.md#work-with-resources).
+     Meer weten bij het gebruiken van middelen, zie [&#x200B; Werk met middelen &#x200B;](components-pdf-template.md#work-with-resources).
 
    * Instellingen: configureer de uitvoerinstellingen voor het genereren van een PDF met behulp van de sjabloon. In deze sectie kunt u sjabloontoewijzing definiëren voor verschillende pagina&#39;s in een PDF, beginpagina voor hoofdstukken, afdrukmarkeringen, citaten en meer.
 
    U kunt ook de volgorde bepalen waarin ze in de uiteindelijke PDF-uitvoer worden weergegeven.
-Voor meer informatie bij het toepassen van montages, zie [ Geavanceerde Montages van PDF ](components-pdf-template.md#advanced-pdf-settings).
+Voor meer informatie bij het toepassen van montages, zie [&#x200B; Geavanceerde Montages van PDF &#x200B;](components-pdf-template.md#advanced-pdf-settings).
 
 
 1. Als u een sjablooncomponent wilt aanpassen, dubbelklikt u op een sjablooncomponent of selecteert u het pictogram > ervoor.

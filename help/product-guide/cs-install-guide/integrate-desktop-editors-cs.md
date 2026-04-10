@@ -24,7 +24,7 @@ Met FrameMaker of een andere DITA-editor kunt u DITA-inhoud maken en bijwerken. 
 
 Door gebrek, zien uw gebruikers niet **Open in FrameMaker** knoop op de toolbar van AEM. Voer de volgende stappen uit om deze knop toe te voegen op de werkbalk van AEM:
 
-Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](download-install-additional-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende \(eigenschap\) gegevens op om deze knop toe te voegen op de werkbalk van AEM:
+Gebruik de instructies die in [&#x200B; worden gegeven met voeten treedt van de Configuratie &#x200B;](download-install-additional-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende \(eigenschap\) gegevens op om deze knop toe te voegen op de werkbalk van AEM:
 
 
 | PID | Eigenschappensleutel | Waarde van eigenschap |

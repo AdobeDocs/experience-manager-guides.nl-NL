@@ -23,7 +23,7 @@ Op de volgende tabbladen vindt u instructies voor het configureren van elementen
 
 >[!TAB  Cloud Service ]
 
-Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](download-install-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende \(eigenschap\)-details op om automatisch gegenereerde element-id&#39;s te configureren:
+Gebruik de instructies die in [&#x200B; worden gegeven met voeten treedt van de Configuratie &#x200B;](download-install-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende \(eigenschap\)-details op om automatisch gegenereerde element-id&#39;s te configureren:
 
 | PID | Eigenschappensleutel | Waarde van eigenschap |
 |---|------------|--------------|
@@ -47,7 +47,7 @@ Als u een patroon voor automatisch gegenereerde id wilt configureren, maakt u ee
 
 1. Onderzoek naar en klik op **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** bundel.
 
-1. In de *montages 0} XmlEditorConfig, specificeer één of meerdere elementen in* Auto produceert IDs voor het gebied van de Markeringen van het Element **.**
+1. In de *montages 0&rbrace; XmlEditorConfig, specificeer één of meerdere elementen in* Auto produceert IDs voor het gebied van de Markeringen van het Element **.**
 
    >[!NOTE]
    >
@@ -63,4 +63,4 @@ Als u een patroon voor automatisch gegenereerde id wilt configureren, maakt u ee
 
 >[!ENDTABS]
 
-**Bovenliggend onderwerp:**[ pas de Redacteur van het Web ](customize-overview.md) aan
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; pas de Redacteur van het Web &#x200B;](customize-overview.md) aan

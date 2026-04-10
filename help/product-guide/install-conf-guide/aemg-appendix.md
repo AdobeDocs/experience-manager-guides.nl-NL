@@ -33,7 +33,7 @@ Voer de volgende stappen uit om de verwijzingen te controleren, gebruikend het v
 1. Voer het script voor validatie \[`/bin/fmdita/validatebtree?operation=validate`\] uit om te controleren of er nieuwe verbroken verwijzingen zijn.
 1. Als het validate manuscript om het even welke fouten meldt, kunt u het herstellen gebruikend het flardmanuscript.
 1. Registreer de hieronder gegeven details en deel hen indien nodig met uw team van het klantensucces:
-1. 
+1. &#x200B;
    - Wordt afgedrukt door script voor validatie
 - Pakket met &quot;`/content/fmdita/references`&quot;
 - Eventuele andere vereiste details, afhankelijk van het gerapporteerde scenario
@@ -49,8 +49,8 @@ Voer de volgende stappen uit om verbroken verwijzingen te repareren met behulp v
 > Het wordt aanbevolen de logbestanden te kopiëren en op te slaan ter referentie.
 
 1. Nadat het patchscript is uitgevoerd, kunt u de volgende controles uitvoeren:
-1. 
-   - Controleren of er een nieuw knooppunt is gemaakt onder `references_backup_<timestamp>"``/content/fmdita`
+1. &#x200B;
+   - Controleren of er een nieuw knooppunt is gemaakt onder `references_backup_<timestamp>"` `/content/fmdita`
 - Controleer of de referenties zijn gecorrigeerd
 
 **Logger**
@@ -70,7 +70,7 @@ Hoewel het mogelijk is om de inhoud DITA in een zinnige orde in een redacteur ui
 
 ***het Verbinden tekstkaders***
 
-InDesign gebruikt de term *&quot;threading&quot;* voor het proces om één kader aan een andere te verbinden. Voor meer details over het verbinden van tekstkaders, zie *[Verbindend tekst ](https://helpx.adobe.com/in/indesign/using/threading-text.html)* onderwerp in de documentatie van InDesign.
+InDesign gebruikt de term *&quot;threading&quot;* voor het proces om één kader aan een andere te verbinden. Voor meer details over het verbinden van tekstkaders, zie *[Verbindend tekst &#x200B;](https://helpx.adobe.com/in/indesign/using/threading-text.html)* onderwerp in de documentatie van InDesign.
 
 ***Overlappende kaders***
 
@@ -244,7 +244,7 @@ In het bovenstaande voorbeeld zijn er twee `paraRule` -elementen voor `@style` =
 De kenmerken die worden gebruikt in `doctypeParaRule` worden hieronder uitgelegd:
 
 - `@style`: De naam van een stijl in het InDesign-brondocument.
-- `@local`: Zie [\#id194CG0V005Z ](#id194CG0V005Z).
+- `@local`: Zie [\#id194CG0V005Z &#x200B;](#id194CG0V005Z).
 - `@mapToDoctype`: De naam van een DITA onderwerptype van een opgesomde lijst van alle geldige `doctypes`.
 
 **Regels van de het verpakken van het Element**
@@ -343,7 +343,7 @@ In het volgende voorbeeld wordt getoond hoe u een `title` naar een `table` verpl
 
 De elementen van `paragraphStyleRule` worden hieronder beschreven:
 
-** `paraRule` element**
+**&#x200B; `paraRule` element**
 
 Het element `paraRule` is verplicht. Hiermee geeft u de toewijzingsregels voor alle alineastijlen op. In een InDesign-document is alle tekst opgenomen in de substructuur van Alineastijlen, zelfs alinea&#39;s zonder stijl krijgen de naam `\[No paragraph style\]` . De vierkante haakjes geven een ingebouwde InDesign-stijlnaam aan.
 
@@ -354,7 +354,7 @@ Het element `paraRule` is verplicht. Hiermee geeft u de toewijzingsregels voor a
 De kenmerken die worden gebruikt in `paraRule` worden hieronder uitgelegd:
 
 - `@style`: De naam van een stijl in het InDesign-brondocument.
-- `@local`: Zie [\#id194CG0V005Z ](#id194CG0V005Z).
+- `@local`: Zie [\#id194CG0V005Z &#x200B;](#id194CG0V005Z).
 - `@mapTo`: De naam van een DITA-doelelement.
 
 - `@context`: Dit attribuut wordt gebruikt om aan een specifieke **omslag** regel te verbinden wanneer meer dan één omslagkeus beschikbaar is. Voorbeeld: het `li` -element kan zijn verpakt in een `ol` - of `ul` -element. Als u de verschillende lijsttypen wilt identificeren, kunt u een specifieke stijlnaam of het kenmerk `@local` gebruiken, die het volgende kan weergeven:
@@ -387,7 +387,7 @@ Dit zijn de toewijzingsregels voor alle tekenstijlen. In een InDesign-document i
 De kenmerken die worden gebruikt in `charRule` worden hieronder uitgelegd:
 
 - `@style`: De naam van een stijl in het InDesign-brondocument.
-- `@local`: Zie [\#id194CG0V005Z ](#id194CG0V005Z).
+- `@local`: Zie [\#id194CG0V005Z &#x200B;](#id194CG0V005Z).
 - `@mapTo`: De naam van een DITA-doelelement.
 - `@refactor`: Dit optionele kenmerk heeft twee waarden:
    - `unwrap`: het overeenkomende element wordt verwijderd terwijl de inhoud behouden blijft.
@@ -460,11 +460,11 @@ Het element `mapDoctypeElemRule` is verplicht. De attributen van dit element moe
 
 **Regels van de het verpakken van het Element**
 
-Zie [\#id194CG600NY4 ](#id194CG600NY4).
+Zie [\#id194CG600NY4 &#x200B;](#id194CG600NY4).
 
 **`elementRules`element**
 
-Dit maakt een lijst van alle [ \#id194CGC00SHS ](#id194CGC00SHS) elementen.
+Dit maakt een lijst van alle [&#x200B; \#id194CGC00SHS &#x200B;](#id194CGC00SHS) elementen.
 
 **`elementRule`element**
 
@@ -474,7 +474,7 @@ De kenmerken die worden gebruikt in `elementRule` worden hieronder uitgelegd:
 
 - `@elementName`: De naam van een element in het InDesign-brondocument.
 
-- `@local`: Zie [\#id194CG0V005Z ](#id194CG0V005Z). \(Alleen handig voor hybride documenten\).
+- `@local`: Zie [\#id194CG0V005Z &#x200B;](#id194CG0V005Z). \(Alleen handig voor hybride documenten\).
 
 - `@mapTo`: De naam van een DITA-doelelement.
 

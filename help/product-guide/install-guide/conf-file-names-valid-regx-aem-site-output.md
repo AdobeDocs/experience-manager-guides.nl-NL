@@ -17,4 +17,4 @@ ht-degree: 0%
 
 Net als bij de lijst met geldige bestandsnaamtekens die zijn toegestaan voor DITA-onderwerpen, kunt u ook een lijst met geldige bestandsnaamtekens configureren voor AEM Site-uitvoer. Enkele bekende tekens die niet in een URL zijn toegestaan, zijn: ```'<>`@$``` . Deze tekens zijn geconfigureerd om automatisch om te zetten in een onderstrepingsteken &quot;_&quot; wanneer ze worden gevonden tijdens het genereren van namen voor uitvoerbestanden van de AEM-site. De configuratie waarmee u geldige tekens kunt instellen in AEM Site-uitvoer is aanwezig in de `com.adobe.fmdita.common.SanitizeNodeNameImpl` -bundel. **plaats het Geweigerde Karakter voor het Publiceren aan AEM Sites** plaatsen om karakters te omvatten die u met een onderstrepingsteken in de de uitvoerdossiernamen van de Plaats van AEM wilt vervangen.
 
-**Bovenliggend onderwerp:**[ vorm filenames ](conf-file-names.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; vorm filenames &#x200B;](conf-file-names.md)

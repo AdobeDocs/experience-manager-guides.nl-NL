@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Een wijzigingsbalk is een verticale lijn die nieuwe of herziene inhoud visueel identificeert. AEM Guides staat u toe om een veranderingsbar op de linkerzijde van de veranderde inhoud binnen onderwerpen en ook de veranderde onderwerpen in TOC van de output van PDF te tonen.
 
-Voor meer details bij het tonen van de veranderingsbar, zie *PDF met de Bar van de Verandering tussen Gepubliceerde Versies* plaatsen in [ publiceren de Output van PDF ](../web-editor/native-pdf-web-editor.md).
+Voor meer details bij het tonen van de veranderingsbar, zie *PDF met de Bar van de Verandering tussen Gepubliceerde Versies* plaatsen in [&#x200B; publiceren de Output van PDF &#x200B;](../web-editor/native-pdf-web-editor.md).
 
 ## Gewijzigde inhoud binnen onderwerpen
 

@@ -38,4 +38,4 @@ Wanneer deze configuratie wordt toegelaten, **ontgrendel checkbox van het Dossie
 
 Voor meer details, zie *Dossier sluiten en sparen scenario&#39;s* sectie in de Gebruikende gids van Adobe Experience Manager Guides as a Cloud Service.
 
-**Bovenliggend onderwerp:**[ pas de Redacteur van het Web ](conf-web-editor.md) aan
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; pas de Redacteur van het Web &#x200B;](conf-web-editor.md) aan

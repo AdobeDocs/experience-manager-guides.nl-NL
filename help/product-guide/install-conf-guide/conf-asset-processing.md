@@ -19,7 +19,7 @@ Op de volgende tabbladen vindt u instructies voor het configureren van de functi
 
 >[!TAB  Cloud Service ]
 
-1. Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](download-install-config-override.md) om het configuratiedossier tot stand te brengen.
+1. Gebruik de instructies die in [&#x200B; worden gegeven met voeten treedt van de Configuratie &#x200B;](download-install-config-override.md) om het configuratiedossier tot stand te brengen.
 
 1. Geef in het configuratiebestand de volgende gegevens (eigenschap) op:
 

@@ -31,7 +31,7 @@ De volgende lusjes verstrekken instructies om **toe te laten creëren nieuwe ver
 
 >[!TAB  Cloud Service ]
 
-1. Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](download-install-config-override.md#) om het configuratiedossier tot stand te brengen.
+1. Gebruik de instructies die in [&#x200B; worden gegeven met voeten treedt van de Configuratie &#x200B;](download-install-config-override.md#) om het configuratiedossier tot stand te brengen.
 1. In het configuratiedossier, verstrek de volgende \ (bezit \) details om **te vormen creeer nieuwe versie voor geupload dossier** optie:
 
 
@@ -83,7 +83,7 @@ Op de volgende tabbladen vindt u instructies voor het configureren van instellin
 
 >[!TAB  Cloud Service ]
 
-Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](download-install-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende \(eigenschap\) gegevens op om het bewerken van uitgecheckte bestanden te configureren:
+Gebruik de instructies die in [&#x200B; worden gegeven met voeten treedt van de Configuratie &#x200B;](download-install-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende \(eigenschap\) gegevens op om het bewerken van uitgecheckte bestanden te configureren:
 
 | PID | Eigenschappensleutel | Waarde van eigenschap |
 |---|------------|--------------|
@@ -139,7 +139,7 @@ Op de volgende tabbladen vindt u instructies waarmee gebruikers het uploadbestan
 
 >[!TAB  Cloud Service ]
 
-1. Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](download-install-config-override.md#) om het configuratiedossier tot stand te brengen.
+1. Gebruik de instructies die in [&#x200B; worden gegeven met voeten treedt van de Configuratie &#x200B;](download-install-config-override.md#) om het configuratiedossier tot stand te brengen.
 1. In het configuratiedossier, verstrek de volgende \(bezit \) details om het **overschrijven Uitgecheckt Dossier op Upload** optie te vormen:
 
 
@@ -180,7 +180,7 @@ Op de volgende tabbladen vindt u instructies om te voorkomen dat gebruikers per 
 
 >[!TAB  Cloud Service ]
 
-Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](download-install-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende \(eigenschap\) gegevens op om te voorkomen dat gebruikers per ongeluk uitgecheckte bestanden verwijderen:
+Gebruik de instructies die in [&#x200B; worden gegeven met voeten treedt van de Configuratie &#x200B;](download-install-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende \(eigenschap\) gegevens op om te voorkomen dat gebruikers per ongeluk uitgecheckte bestanden verwijderen:
 
 | PID | Eigenschappensleutel | Waarde van eigenschap |
 |---|------------|--------------|
@@ -243,7 +243,7 @@ Op de volgende tabbladen vindt u instructies voor het verwijderen van een bestan
 
 >[!TAB  Cloud Service ]
 
-Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](download-install-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende \(eigenschap\)-details op om te bepalen wie een bestand kan verwijderen dat verwijzingen bevat of waarnaar wordt verwezen door andere bestanden:
+Gebruik de instructies die in [&#x200B; worden gegeven met voeten treedt van de Configuratie &#x200B;](download-install-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende \(eigenschap\)-details op om te bepalen wie een bestand kan verwijderen dat verwijzingen bevat of waarnaar wordt verwezen door andere bestanden:
 
 | PID | Eigenschappensleutel | Waarde van eigenschap |
 |---|------------|--------------|
@@ -313,7 +313,7 @@ Voer de volgende stappen uit om de oudere versies leeg te maken:
 
    ![](assets/preview-purge-report.png)
 
-1. 
+1. &#x200B;
    - **Aantal Versies om van de Laatste Versie** te behouden: ga het aantal versies in die zouden moeten worden behouden en niet worden gezuiverd. Als we bijvoorbeeld 5 invoeren, blijven de laatste 5 versies behouden en worden de versies vóór die versies gekwalificeerd om te worden gewist als aan andere zuiveringsvoorwaarden wordt voldaan.
    - **Behoud Versies die binnen Tijdopnemer \ (in Dagen \)** worden gecreeerd: Ga de maximumleeftijd van een versie in dagen in. De versies ouder dan het opgegeven aantal dagen zijn gekwalificeerd om te worden gewist als aan andere zuiveringsvoorwaarden wordt voldaan. Als we bijvoorbeeld 100 invoeren, kunnen alle versies die vóór 100 dagen zijn gemaakt, worden gewist als aan andere zuiveringsvoorwaarden wordt voldaan.
    - **Weg**: Selecteer de weg van het dossier of de omslag waarvan dossiers u wilt zuiveren.

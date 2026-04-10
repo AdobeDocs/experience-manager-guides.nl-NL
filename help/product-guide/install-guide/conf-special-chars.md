@@ -49,4 +49,4 @@ De structuur van het bestand `symbols.json` wordt hieronder uitgelegd:
   U kunt meerdere definities definiëren voor speciale tekens in een categorie.
 
 
-**Bovenliggend onderwerp:**[ pas de Redacteur van het Web ](conf-web-editor.md) aan
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; pas de Redacteur van het Web &#x200B;](conf-web-editor.md) aan
