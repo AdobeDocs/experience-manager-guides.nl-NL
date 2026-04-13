@@ -4,9 +4,10 @@ description: Leer hoe te om dossier te vormen automatisch sparen in de Redacteur
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 142a588a-3d26-48ee-a3fe-23882922243c
+source-git-commit: 2749c0df3bd5640c9491dce3ab6c96f707625969
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
@@ -23,7 +24,7 @@ Op de volgende tabbladen vindt u instructies voor het inschakelen van de functie
 
 >[!TAB  Cloud Service ]
 
-Gebruik de instructies die in [&#x200B; worden gegeven met voeten treedt van de Configuratie &#x200B;](download-install-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende \(eigenschap\) gegevens op om het automatisch opslaan van het bestand en het automatisch opslaan van het tijdinterval te configureren:
+Gebruik de instructies die in [ worden gegeven met voeten treedt van de Configuratie ](download-install-config-override.md#) om het configuratiedossier tot stand te brengen. Geef in het configuratiebestand de volgende \(eigenschap\) gegevens op om het automatisch opslaan van het bestand en het automatisch opslaan van het tijdinterval te configureren:
 
 | PID | Eigenschappensleutel | Waarde van eigenschap |
 |---|------------|--------------|
@@ -42,7 +43,7 @@ Gebruik de instructies die in [&#x200B; worden gegeven met voeten treedt van de 
 
 1. Onderzoek naar en klik op **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** bundel.
 
-1. In de *montages 0&rbrace; XmlEditorConfig, selecteer* Auto sparen **optie.**
+1. In de *montages 0} XmlEditorConfig, selecteer* Auto sparen **optie.**
 
 1. Op het **Auto sparen het gebied van het Interval**, specificeer het tijdinterval in seconden om de auto-sparen eigenschap teweeg te brengen.
 
