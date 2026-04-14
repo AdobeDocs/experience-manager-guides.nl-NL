@@ -27,15 +27,15 @@ Dit proces omvat drie stappen:
 
 ## Stap 1: Upload het douanedoopvont aan de middelomslag van uw malplaatje
 
-![ Aangepaste upload en import van lettertypen ](../assets/publishing/custom-font1.png)
+![&#x200B; Aangepaste upload en import van lettertypen &#x200B;](../assets/publishing/custom-font1.png)
 
 ## Stap 2: Breng de noodzakelijke wijzigingen aan in het stijlblad van PDF-sjablonen
 
-![ Lettertype in stijlblad van PDF-sjabloon ](../assets/publishing/custom-font2.png)
+![&#x200B; Lettertype in stijlblad van PDF-sjabloon &#x200B;](../assets/publishing/custom-font2.png)
 
 ## Stap 3 (Optioneel): gebruikt lettertype insluiten in PDF
 
-![ Aangepast font dat is ingesloten in DITA PDF ](../assets/publishing/custom-font3.png)
+![&#x200B; Aangepast font dat is ingesloten in DITA PDF &#x200B;](../assets/publishing/custom-font3.png)
 
 ## Veelgestelde vragen
 
@@ -47,7 +47,7 @@ Dit proces omvat drie stappen:
 >
 > Plak de inhoud in CSS en wijzig de inhoud in het CSS-bestand.
 
-![ de doopvont van de Adobe van het gebruik in DITA PDF ](../assets/publishing/custom-font4.png)
+![&#x200B; de doopvont van de Adobe van het gebruik in DITA PDF &#x200B;](../assets/publishing/custom-font4.png)
 
 
 ### Mijn lettertype wordt niet weergegeven in PDF
