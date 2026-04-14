@@ -93,13 +93,13 @@ Als u Ditamap publiceert, biedt Native PDF automatisch functionaliteit voor het 
 
 ## Aanvullende bronnen:
 
-- [&#x200B; Inheemse documentatie van de het ontwerppagina van PDF &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/design-page-layout)
-- [&#x200B; Eigen de essentiële elementen van PDF pre-geregistreerde Deskundige zitting &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23)
+- [&#x200B; Inheemse documentatie van de het ontwerppagina van PDF &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/design-page-layout)
+- [&#x200B; Eigen de essentiële elementen van PDF pre-geregistreerde Deskundige zitting &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23)
 
 <br>
 <br>
 
-Plaats op het communautair van AEM Guides [&#x200B; forum &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) voor om het even welke vragen.
+Plaats op het communautair van AEM Guides [&#x200B; forum &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=nl) voor om het even welke vragen.
 
 
 
