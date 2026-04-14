@@ -4,7 +4,7 @@ description: In dit korte artikel wordt uitgelegd hoe u met AEM Guides en DITA t
 role: User, Admin
 author: Pulkit Nagpal(punagpal)
 exl-id: 1522ebf5-2aea-4d8f-ade7-367227b31dd9
-source-git-commit: f971be4be9e2d32618616727cd9c682941dd3fb2
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Opnieuw gebruiken van inhoud in AEM Guides
 
-Adobe AEM Guides maakt gebruik van de sterke punten van DITA om een gebruikersvriendelijke interface voor hergebruik van inhoud te bieden.
+Adobe AEM Guides maakt gebruik van de sterke punten van DITA om een gebruikersvriendelijke interface te bieden voor hergebruik van inhoud.
 
 In dit artikel wordt gesproken over:
 
@@ -85,12 +85,12 @@ Kyc_procedure.dita blijft de enige informatiebron. Als de regelgevende veranderi
 AEM Guides gebruiken, twee klikken
 
 Stap 1: klik op Herbruikbare inhoud invoegen
-![&#x200B; toolbar &#x200B;](../../assets/publishing/content-reusability_image1.png)
+![ toolbar ](../../assets/publishing/content-reusability_image1.png)
 
 <br>
 
 Stap 2: Selecteer het bestand en het fragment dat u opnieuw wilt gebruiken.
-![&#x200B; conref &#x200B;](../../assets/publishing/content-reusability_image2.png)
+![ conref ](../../assets/publishing/content-reusability_image2.png)
 
 Net als bij &#39;conref&#39; kunt u &#39;conkeyref&#39; ook gebruiken waar u in plaats van een inhoudspad naar inhoud verwijst via key
 
@@ -129,10 +129,10 @@ Hier wordt het onderwerppad gewijzigd van &quot;kyc_procedure_2020.dita&quot; in
 AEM Guides gebruiken, twee klikken
 
 Stap 1: klik op Herbruikbare inhoud invoegen
-![&#x200B; toolbar &#x200B;](../../assets/publishing/content-reusability_image1.png)
+![ toolbar ](../../assets/publishing/content-reusability_image1.png)
 
 Stap 2: Selecteer (facultatief) uw wortelkaart, sleutel, en fragment dat opnieuw moet worden gebruikt.
-![&#x200B; conkeyref &#x200B;](../../assets/publishing/content-reusability_image3.png)
+![ conkeyref ](../../assets/publishing/content-reusability_image3.png)
 
 Hier is de hoofdmap automatisch geselecteerd omdat deze al was geopend in de kaartweergave.
 
@@ -143,23 +143,23 @@ AEM Guides biedt de mogelijkheid om inhoud met één muisklik opnieuw te gebruik
 
 Stap 1: Voeg een generisch onderwerp aan Herbruikbare inhoud toe
 
-![&#x200B; voeg Herbruikbare inhoud &#x200B;](../../assets/publishing/content-reusability_image4.png) toe
+![ voeg Herbruikbare inhoud ](../../assets/publishing/content-reusability_image4.png) toe
 
 Stap 2: Zodra toegevoegd, belemmering, en laat vallen het fragment dat u in om het even welk van uw bestemmingsonderwerpen wilt opnieuw gebruiken.
 
-![&#x200B; voeg Herbruikbare inhoud GIF &#x200B;](../../assets/publishing/content-reusability_image5.gif) toe
+![ voeg Herbruikbare inhoud GIF ](../../assets/publishing/content-reusability_image5.gif) toe
 
 
 
 ## Veelgestelde vragen
 
-- ### Alle inhoud wordt niet weergegeven nadat u een bestand/sleutel hebt geselecteerd in het dialoogvenster Inhoud opnieuw gebruiken
+### Alle inhoud wordt niet weergegeven nadat u een bestand/sleutel hebt geselecteerd in het dialoogvenster Inhoud opnieuw gebruiken
 
 Id&#39;s toewijzen aan fragmenten (Dita-elementen) die u opnieuw wilt gebruiken in andere onderwerpen
 
-- ## Toetsen worden niet weergegeven in het dialoogvenster Inhoud opnieuw gebruiken
+## Toetsen worden niet weergegeven in het dialoogvenster Inhoud opnieuw gebruiken
 
-  Zorg ervoor dat u de hoofdmap/bovenliggende kaart hebt geopend in de kaartweergave, die een sleuteldefinitie heeft of voeg het pad van de hoofdmap handmatig toe in hetzelfde dialoogvenster.
+Zorg ervoor dat u de hoofdmap/bovenliggende kaart hebt geopend in de kaartweergave, die een sleuteldefinitie heeft of voeg het pad van de hoofdmap handmatig toe in hetzelfde dialoogvenster.
 
 
 <br>
@@ -167,4 +167,4 @@ Id&#39;s toewijzen aan fragmenten (Dita-elementen) die u opnieuw wilt gebruiken 
 <br>
 
 
-Plaats op het communautair van AEM Guides [&#x200B; forum &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=nl) voor om het even welke vragen.
+Plaats op het communautair van AEM Guides [ forum ](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) voor om het even welke vragen.

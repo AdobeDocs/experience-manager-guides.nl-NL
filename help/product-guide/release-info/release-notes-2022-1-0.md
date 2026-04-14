@@ -4,7 +4,7 @@ description: De versie van januari van  [!DNL Adobe Experience Manager Guides]  
 exl-id: b2da77fa-f17c-440b-be59-acaafcd9a57c
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '2440'
 ht-degree: 0%
@@ -36,9 +36,7 @@ Deze sectie bevat een overzicht van de compatibiliteitsmatrix voor de softwareto
 
 | [!DNL AEM Guides] Cloud Release | Oxygeenaansluiting, Windows | Oxygeenconnector Mac | Bewerken in Oxygen Windows | Bewerken in Oxygen Mac |
 | --- | --- | --- | --- | --- |
-| 2022,1,0 | 2.4.0. | 2.4.0. | 2,2 | 2,2 |
-|  |  |  |  |  |  |
-
+| 2022.1.0 | 2.4.0. | 2.4.0. | 2,2 | 2,2 |
 
 ## Nieuwe en verbeterde functies
 
@@ -48,9 +46,9 @@ Met de versie van Januari, hebben wij een op artikel-gebaseerde het publiceren e
 
 Deze eigenschap staat de gebruikers toe om de kaart DITA op een additieve manier te bouwen en onderwerpen te publiceren aangezien en wanneer zij klaar zijn. Zodra u uw kaart hebt gepubliceerd, gebruikt u de op artikel gebaseerde publicatiefunctie om alleen voor de bijgewerkte artikelen incrementele publicaties te maken.
 
-![&#x200B; Op artikel-gebaseerde het publiceren &#x200B;](assets/article-based-publishing.png)
+![ Op artikel-gebaseerde het publiceren ](assets/article-based-publishing.png)
 
-Naast AEM kunt u deze unieke functie gebruiken om uw artikelen te publiceren naar alle bekende portalen, zoals Salesforce. Deze functie wordt ook geleverd met een sjabloon voor OOTB-inhoud, die is gebaseerd op AEM-kerncomponenten en waarmee u een op kennis gebaseerde opslagplaats voor de technische inhoud kunt maken. Wat geweldig is aan deze sjabloon, is dat deze volledig aanpasbaar is aan uw organisatorische vereisten en ook ondersteuning biedt voor gebruiksgevallen zoals intranetportalen van bedrijven.
+Naast AEM kunt u deze unieke functie gebruiken om uw artikelen te publiceren naar alle bekende portalen, zoals Salesforce. Deze functie wordt ook geleverd met een sjabloon voor OOTB-inhoud, die is gebaseerd op AEM-kerncomponenten en waarmee u een op kennis gebaseerde opslagplaats voor de technische inhoud kunt maken. Wat aan dit malplaatje geweldig is is dat het volledig aanpasbaar is om uw organisatorische vereisten aan te passen en gebruiksgevallen zoals collectieve Intranetportals kan ook steunen.
 U kunt de artikelen ook filteren op basis van de documentstatus en de gewijzigde tijd.
 
 Dit op behoefte-gebaseerde op artikel het publiceren van onderweg geeft u niet alleen volledige controle over uw inhoud het publiceren, maar vermindert ook de algemene tijd om uw bijgewerkte inhoud te publiceren.
@@ -63,20 +61,20 @@ Er zijn veel verhogingen en nieuwe eigenschappen die in de Redacteur van het Web
 
 * De steun voor onderwerpregeling is ook toegevoegd in de Redacteur van het Web. U kunt nu een onderwerpschema maken en gebruiken via het venster Onderwerpschema. Met de toevoeging van onderwerpschema, kunt u eigen collectieve meta-gegevens en taxonomie nu gebruiken.
 
-![&#x200B; Onderwerpregeling &#x200B;](assets/subject-scheme-panel.png)
+![ Onderwerpregeling ](assets/subject-scheme-panel.png)
 
 * Deze versie bevat een nieuw hulpprogramma voor woordenlijsten en hotspots voor het beheer van woordenlijsten. Met dit gereedschap kunt u snel tekst omzetten in een verklarende woordenlijst en een verklarende woordenlijst in termen die bulksgewijs worden gebruikt voor een geselecteerde kaart of open onderwerpen.
 
-![&#x200B; Verklarende woordenlijst hotspot &#x200B;](assets/glossary-hotspot-tool.png)
+![ Verklarende woordenlijst hotspot ](assets/glossary-hotspot-tool.png)
 
 * Functionaliteit voor vernieuwen is toegevoegd in het deelvenster Herbruikbare inhoud, waarmee u de herbruikbare inhoud in referentiebestanden snel kunt vernieuwen.
 * De nieuwe het werk exemplaarindicator toont u of uw huidig (werkende exemplaar) van dossier met de bewaarde versie of niet synchroon is.
 
-![&#x200B; de indicator van de Versie &#x200B;](assets/version-update-indicator.png)
+![ de indicator van de Versie ](assets/version-update-indicator.png)
 
 * Het zoekfilter in het deelvenster Opslag en het dialoogvenster Bladeren van bestanden is verbeterd en biedt nu meer filteropties die u verder kunt aanpassen.
 
-![&#x200B; filters van het Onderzoek in bewaarplaats &#x200B;](assets/repository-filter-search.png)
+![ filters van het Onderzoek in bewaarplaats ](assets/repository-filter-search.png)
 
 * U kunt .docx dossiers van de Redacteur van het Web nu uploaden.
 
@@ -97,13 +95,13 @@ Een nieuw vertaaldashboard is geïntroduceerd in de Redacteur van het Web met de
 * Er is een meertalig vertaalmechanisme geïntroduceerd om te voorkomen dat er meerdere projecten voor elke taal worden gemaakt wanneer een vertaalaanvraag voor meer dan één taal wordt ingediend.
 * Introduceerde een configuratie om het vertaallusje in kaartdashboard te verbergen. Standaard is deze zichtbaar. U kunt ervoor kiezen om inhoud te vertalen met behulp van het kaartdashboard of de webeditor.
 
-![&#x200B; Vertaal dashboard &#x200B;](assets/translation-from-web-editor.png)
+![ Vertaal dashboard ](assets/translation-from-web-editor.png)
 
 ### Verbeterde publicatie
 
 * Auteurs kunnen nu metagegevens op kaart- en onderwerpniveau doorgeven aan DITA-OT-publicaties. Dit is handig wanneer aangepaste PDF-sjablonen zijn ontworpen voor het gebruik van eigenschappen van metagegevens voor bestanden, zoals tags, auteur, documentstatus en meer.
 
-![&#x200B; meta-gegevens DITA-OT &#x200B;](assets/custom-meta-data-output-preset.png)
+![ meta-gegevens DITA-OT ](assets/custom-meta-data-output-preset.png)
 
 * Een nieuwe configuratie is toegevoegd om gebruikers toe te staan om de versies van de onderwerpen te behouden of te schrappen die worden geschrapt wanneer **schrapping en creeer** optie in de de outputgeneratie van de Plaats van AEM wordt gebruikt.
 
@@ -112,12 +110,12 @@ Een nieuw vertaaldashboard is geïntroduceerd in de Redacteur van het Web met de
 De volgende verbeteringen zijn nu zichtbaar tijdens het werken met bestanden in AEM Assets:
 * Er is een nieuwe ervaring met het uploaden van bestanden en een nieuwe dialoog geïntroduceerd om een strategie voor het oplossen van conflicten te kiezen.
 
-![&#x200B; het uploadconflict van het Dossier &#x200B;](assets/file-upload-name-conflict.png)
+![ het uploadconflict van het Dossier ](assets/file-upload-name-conflict.png)
 
 * Mogelijkheid om een nieuwe versie van het geüploade bestand te maken met de mogelijkheid te voorkomen dat een uitgecheckt bestand wordt overschreven.
 * Nu kunt u een voorvertoning van afbeeldingen direct bekijken in de weergave Versiehistorie. Ook, voor DITA en niet-DITA- dossiers, toont de Geschiedenis van de Versie de huidige versieinformatie afzonderlijk.
 
-![&#x200B; de geschiedenisduimnagel van de Versie &#x200B;](assets/version-history-preview-image.png)
+![ de geschiedenisduimnagel van de Versie ](assets/version-history-preview-image.png)
 
 * Telkens wanneer de gebruiker een DITA-bestand maakt, wordt de standaardbestandsnaam in kleine hoofdletters weergegeven om in overeenstemming te zijn met het scenario voor het maken van de Native AEM-map.
 
@@ -125,7 +123,7 @@ De volgende verbeteringen zijn nu zichtbaar tijdens het werken met bestanden in 
 
 Rapporten zijn zeer nuttig om de gezondheid van uw inhoud te identificeren. [!DNL AEM Guides] as a Cloud Service geeft verschillende rapporten om de controle over uw inhoud te krijgen. Nu, kunt u niet alleen de rapporten bekijken, maar ook de rapportgegevens in een Csv- dossier naar mening en met uw groter team delen. Rapportgegevens kunnen u een kort overzicht geven van verbroken koppelingen of ontbrekende afbeeldingen.
 
-![&#x200B; de uitvoer van het Rapport &#x200B;](assets/export-report.png)
+![ de uitvoer van het Rapport ](assets/export-report.png)
 
 ### Verbeterde Oxygen DAM-vernieuwingservaring
 
@@ -197,7 +195,7 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 ### Kaartdashboard
 
 * Kan conref-inhoud niet zien in de titel van een onderwerp in de onderwerpen of rapporten van het kaartdashboard. 8263
-* AEM Sites-uitvoer | jcr :title van de geproduceerde plaatspagina werkt niet bij wanneer DITA onderwerptitel wordt bijgewerkt. 8131
+* AEM Sites Output | jcr :title van de gegenereerde sitepagina wordt niet bijgewerkt wanneer de DITA-onderwerptitel wordt bijgewerkt. 8131
 * Met MAP downloaden worden de videobestanden die in de onderwerpen worden gebruikt, niet gedownload. 8070
 * Mediabestanden worden niet gedownload wanneer de objecttag wordt gebruikt via de API voor het downloaden van bladwijzers. 8057
 * Het onjuiste rapport wordt getoond in het lusje van Rapporten als om het even welk onderwerp conref aan dossier heeft waarvan titel met conref begint. 4698
@@ -237,8 +235,8 @@ De fouten die in verschillende gebieden zijn gecorrigeerd, worden hieronder weer
 ### Inhoud importeren
 
 * HTML naar DITA-conversie | Tabel met &#39;tr&#39; met lege &#39;td&#39;-items veroorzaakt extra rijen in de uitvoer. 8132
-* HTML naar DITA-conversie | HTML met een tabel met meerdere hoofdletters mislukt, met uitzondering van de tabel. 7940
-* HTML naar DITA-conversie | fouten worden weergegeven als de bron-HTML opmerkingen heeft. 7937
+* HTML naar DITA-conversie | HTML heeft een tabel met meerdere hoofdletters en kleine letters mislukt, met uitzondering van een tabel. 7940
+* HTML naar DITA-conversie | fouten worden weergegeven als bron-HTML opmerkingen heeft. 7937
 * Het importeren van DITA 1.3 DITA-bestanden zorgt ervoor dat sommige href wordt getransformeerd naar onjuist gevormde koppelingen. 8019
 
 ## Bekende problemen

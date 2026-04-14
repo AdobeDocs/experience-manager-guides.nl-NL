@@ -5,14 +5,14 @@ feature: Native PDF Output
 author: Pulkit Nagpal(punagpal)
 role: User, Admin
 exl-id: c551f0a8-f973-4c5a-bd34-f52890a91342
-source-git-commit: 7638f3634ad45bbadda64ec6e3f706cbb65d696c
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 0%
 
 ---
 
-# Inhoudsopgave van boekmap genereren in PDF-publicatie
+# Inhoudsopgave van boekmap genereren in PDF-publicaties
 
 ## Uw boekmap instellen
 
@@ -68,38 +68,38 @@ Voorbeeldstructuur van een boekenkaart met inhoudsopgave, figuurlijst en tabelli
 
 De inhoudsopgave en de opnamelijsten worden automatisch gegenereerd op basis van de structuur die in uw boekenkaart is gedefinieerd.
 
-Zodra uw boekenkaart opstelling is, gebruik inheemse PDF om de output van de PDF te produceren. De bladwijzerstructuur en verwijzingen worden verwerkt, inclusief de inhoudsopgave en de opnamelijsten.
+Zodra uw boekenkaart opstelling is, gebruik inheemse PDF om de output van PDF te produceren. De bladwijzerstructuur en verwijzingen worden verwerkt, inclusief de inhoudsopgave en de opnamelijsten.
 
 ## Ontwerp van inhoudsopgave en de volgorde ervan in PDF
 
-De functie Native PDF biedt een handige methode voor het aanpassen van de lay-out en het ontwerp van de inhoudsopgave.
+De native PDF-functionaliteit biedt een handige methode voor het aanpassen van de lay-out en het ontwerp van uw inhoudsopgave.
 
 U kunt het ontwerp beheren door de paginalay-out voor de inhoudsopgave en de stijlen te scheiden via layout.css.
 
-Inhoudsopgave en andere volgorde voor opnamelijsten in PDF zijn alleen gebaseerd op de structuur van de boekmap.
+Inhoudsopgave en andere volgorde voor opnamelijsten in PDF zijn alleen gebaseerd op de structuur van de boekenkaart.
 
-![&#x200B; toc &#x200B;](../assets/publishing/toc.png)
+![ toc ](../assets/publishing/toc.png)
 
 
 ## Veelgestelde vragen
 
-- ### Hoe te om TOC van een Ditamap in een PDF op te nemen
+### Hoe te om TOC van een Ditamap in een PDF op te nemen
 
 Ditamaps hebben zelf niet direct een inhoudsopgave (TOC) zoals een boekenkaart. Nochtans, spelen ditamaps een cruciale rol bij het bepalen van de structuur voor uw inhoud en onrechtstreeks bijdragen aan het proces van de Inhoudsopgave.
 
-Als u Ditamap publiceert, geeft Native PDF automatisch functionaliteit om inhoudsopgave en bladlist te genereren, kunt u genereren van inhoudsopgave bij ditamap inschakelen/uitschakelen vanuit native PDF-instellingen.
+Als u Ditamap publiceert, biedt Native PDF automatisch functionaliteit voor het genereren van inhoudsopgave en boekenlijst. U kunt het genereren van inhoudsopgave bij ditamap vanuit native PDF-instellingen in- en uitschakelen.
 
-![&#x200B; laat onbruikbaar maken TOC &#x200B;](../assets/publishing/pageorder.png) toe
+![ laat onbruikbaar maken TOC ](../assets/publishing/pageorder.png) toe
 
 ## Aanvullende bronnen:
 
-- [&#x200B; de inheemse documentatie van de het ontwerppagina van de PDF pagina &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/design-page-layout)
-- [&#x200B; Eigen de essentiële PDF eerste zitting van de pre-geregistreerde Deskundige zitting &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23)
+- [ Inheemse documentatie van de het ontwerppagina van PDF ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/design-page-layout)
+- [ Eigen de essentiële elementen van PDF pre-geregistreerde Deskundige zitting ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23)
 
 <br>
 <br>
 
-Post op het communautair van AEM Guides [&#x200B; forum &#x200B;](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=nl) voor om het even welke vragen.
+Plaats op het communautair van AEM Guides [ forum ](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) voor om het even welke vragen.
 
 
 

@@ -4,7 +4,8 @@ description: Leer hoe gebruikersbeheer en beveiliging werken
 feature: User Management
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: c5ac6537-d7e8-4408-b85d-b82d7c038591
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '731'
 ht-degree: 0%
@@ -19,7 +20,7 @@ De volgende onderwerpen in de documentatie van Adobe Experience Manager zullen u
 
 | Cloud Services | Op locaties |
 |---|---|
-| [&#x200B; AEM gebruikers, groepen en toestemmingen &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html?lang=nl-NL) <br>[&#x200B; het Beleid van de Gebruiker en Veiligheid &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?lang=nl-NL) | [&#x200B; Gebruikers en Groepen in AEM &#x200B;](https://helpx.adobe.com/nl/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM) <br>[&#x200B; Toestemmingen in AEM &#x200B;](https://helpx.adobe.com/nl/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM) <br>[&#x200B; het Leiden Gebruikers en Groepen &#x200B;](https://helpx.adobe.com/nl/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups) <br>[&#x200B; het Leiden Toestemmingen &#x200B;](https://helpx.adobe.com/nl/experience-manager/6-5/sites/administering/using/security.html#ManagingPermissions) |
+| [ AEM gebruikers, groepen en toestemmingen ](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html) <br>[ het Beleid van de Gebruiker en Veiligheid ](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html) | [ Gebruikers en Groepen in AEM ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM) <br>[ Toestemmingen in AEM ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM) <br>[ het Leiden Gebruikers en Groepen ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups) <br>[ het Leiden Toestemmingen ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingPermissions) |
 
 
 ## Gebruikersgroepen gemaakt door AEM Guides {#id181TF0K0MHT}
@@ -38,7 +39,7 @@ De volgende lijst maakt een lijst van diverse taken en de groepen die die taken 
 | DITA-kaart maken | Ja |   | Ja |
 | Verzamelingen toewijzen | Ja |   | Ja |
 | Revisietaak maken | Ja |   | Ja |
-| Het Onderwerp van het overzicht [&#x200B; 1 &#x200B;](#fntarg_1) | Ja | Ja | Ja |
+| Het Onderwerp van het overzicht [ 1 ](#fntarg_1) | Ja | Ja | Ja |
 | Belangrijkste resolutie | Ja |   | Ja |
 | Uitchecken/Inchecken | Ja |   | Ja |
 | Onderwerp bewerken | Ja |   | Ja |
@@ -47,27 +48,27 @@ De volgende lijst maakt een lijst van diverse taken en de groepen die die taken 
 | Kopiëren | Ja |   | Ja |
 | Verwijderen | Ja |   | Ja |
 | Delen | Ja |   | Ja |
-| **de staat van het Document** |
+| **de staat van het Document** |  |  |  |
 | Profiel documentstatus maken/bewerken |   |   | Ja |
-| De documentstaat van de verandering [&#x200B; 2 &#x200B;](#fntarg_2) | Ja | Ja | Ja |
-| **Eigenschappen beschikbaar in DITA kaartconsole \ (Output stelt lusje \ vooraf in)** |
+| De documentstaat van de verandering [ 2 ](#fntarg_2) | Ja | Ja | Ja |
+| **Eigenschappen beschikbaar in DITA kaartconsole \ (Output stelt lusje \ vooraf in)** |  |  |  |
 | Genereren |   |   | Ja |
 | Bewerken |   |   | Ja |
 | Dupliceren |   |   | Ja |
 | Maken |   |   | Ja |
 | Voorinstelling verwijderen |   |   | Ja |
-| **Eigenschappen beschikbaar in DITA kaartconsole \ (Output tabel \)** |
+| **Eigenschappen beschikbaar in DITA kaartconsole \ (Output tabel \)** |  |  |  |
 | Gegenereerde uitvoer weergeven | Ja |   | Ja |
-| **Eigenschappen beschikbaar in DITA kaartconsole \ (Onderwerpen lusje \)** |
+| **Eigenschappen beschikbaar in DITA kaartconsole \ (Onderwerpen lusje \)** |  |  |  |
 | Revisietaak maken | Ja |   | Ja |
 | Bewerken | Ja |   | Ja |
-| **Eigenschappen beschikbaar in DITA kaartconsole \ (het lusje van Basislijnen \)** |
+| **Eigenschappen beschikbaar in DITA kaartconsole \ (het lusje van Basislijnen \)** |  |  |  |
 | Maken |   |   | Ja |
 | Bewerken |   |   | Ja |
 | Dupliceren |   |   | Ja |
 | Verwijderen |   |   | Ja |
 | DITA-kaartconsole \(tabblad Rapporten\) | Ja |   | Ja |
-| **Eigenschappen beschikbaar in DITA kaartconsole \ (Voorinstellingen van de Voorwaarde \)** |
+| **Eigenschappen beschikbaar in DITA kaartconsole \ (Voorinstellingen van de Voorwaarde \)** |  |  |  |
 | Voorinstelling voorwaarde maken/bewerken |   |   | Ja |
 
 ## Aanvullende opmerkingen over gebruikersgroepen
@@ -82,7 +83,7 @@ De volgende lijst bevat enkele aanbevelingen en punten die betrekking hebben op 
 
 - *de recensenten* kunnen tot revisiecommentaren op een onderwerp toegang hebben en toevoegen onder overzicht van de console van het Project of van inbox berichtverbinding. Deze toegang is ook alleen beschikbaar tot de tijd dat de revisietaak is geopend.
 
-- Door gebrek, *worden de Uitgevers van 0&rbrace; toegang en toestemmingen verleend op de volgende omslagen in DAM:*
+- Door gebrek, *worden de Uitgevers van 0} toegang en toestemmingen verleend op de volgende omslagen in DAM:*
 
    - `/content/fmdita` -\> Lezen en schrijven (van toepassing op: ![](./assets/Smock_Cloud_18_N.svg)) <br>``/var/dxml`` -\> Lezen en schrijven (van toepassing op: ![](./assets/Smock_Building_18_N.svg))
 
@@ -102,9 +103,4 @@ De volgende lijst bevat enkele aanbevelingen en punten die betrekking hebben op 
 
 - Als u een gebruiker rechten wilt geven om een documentstatus te wijzigen, moet u de gebruiker toevoegen in het gedeelte over statusovergang van het documentstatusprofiel.
 
-[&#x200B; 1 &#x200B;](#fnsrc_1) als *Auteurs* en *Uitgevers* voor een overzicht worden uitgenodigd.[&#x200B; 2 &#x200B;](#fnsrc_2) afhankelijk van de rechten die aan de gebruiker in het profiel van de documentstaat worden gegeven.
-
-
-
-
-
+[ 1 ](#fnsrc_1) als *Auteurs* en *Uitgevers* voor een overzicht worden uitgenodigd.[ 2 ](#fnsrc_2) afhankelijk van de rechten die aan de gebruiker in het profiel van de documentstaat worden gegeven.

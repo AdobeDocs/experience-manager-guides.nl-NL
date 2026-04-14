@@ -3,7 +3,7 @@ title: Systeemeigen PDF-publicatiefunctie | Streepjescode toevoegen
 description: Leer hoe u streepjescodes kunt toevoegen.
 exl-id: 206bdcf9-2bcd-4bf1-815a-c97cdf0dc415
 hidefromtoc: true
-source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Voer de volgende stappen uit om een streepjescode te genereren:
 
 ### De CSS van de sjabloon bijwerken om een streepjescodewaarde te renderen
 
-Wijzig het `layout.css` -bestand om een streepjescode te renderen tijdens het genereren van PDF. Verschillende typen streepjescodes, zoals &#39;qrcode&#39; en &#39;pdf417&#39;, worden ondersteund.  Voor meer details, mening [&#x200B; de types van Streepjescode &#x200B;](#barcode-types).
+Wijzig het `layout.css` -bestand om een streepjescode te renderen tijdens het genereren van PDF. Verschillende typen streepjescodes, zoals &#39;qrcode&#39; en &#39;pdf417&#39;, worden ondersteund.  Voor meer details, mening [ de types van Streepjescode ](#barcode-types).
 
 
 

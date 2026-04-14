@@ -4,7 +4,7 @@ description: Inhoud beheren en uw rollen en machtigingen in AEM Guides identific
 exl-id: 84926dc2-1180-48ef-85d0-50e3478bf26a
 feature: Content Management
 role: User
-source-git-commit: 461692ce786f914dd196f289efef726e42bf9660
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Enkele belangrijke concepten voor inhoudsbeheer in Adobe Experience Manager zijn
 
 **Beheer van Activa**
 
-Experience Manager Guides gebruikt Adobe Experience Manager Digital Asset Management \(DAM\) om uw DITA-bestanden te beheren. De bestanden die u uploadt of incheckt in de DAM worden opgeslagen als digitale elementen. U kunt uw middelen in Adobe Experience Manager Assets beheren en bewerken. Voor meer informatie over activabeheer, mening [&#x200B; beheert activa &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=nl-NL).
+Experience Manager Guides gebruikt Adobe Experience Manager Digital Asset Management \(DAM\) om uw DITA-bestanden te beheren. De bestanden die u uploadt of incheckt in de DAM worden opgeslagen als digitale elementen. U kunt uw middelen in Adobe Experience Manager Assets beheren en bewerken. Voor meer informatie over activabeheer, mening [ beheert activa ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=en).
 
 **het beheer van de Verbinding**
 
@@ -31,7 +31,7 @@ Verplaats of wijzig de naam van bestanden of wijzig de mapstructuur in de opslag
 
 Experience Manager Guides biedt versiebeheer voor uw digitale middelen. U kunt deze functionaliteit gemakkelijk van een DITA auteurstoepassing van keus toelaten. Uw schrijvers toestaan de standaardfuncties voor versiebeheer uit te voeren, zoals inchecken en uitchecken.
 
-Voor meer informatie over het creëren van versies of het terugkeren naar een specifieke versie, mening [&#x200B; Tak, keer terug, en verdere versioning &#x200B;](web-editor-preview-topics.md#branch-revert-and-subsequent-versioning).
+Voor meer informatie over het creëren van versies of het terugkeren naar een specifieke versie, mening [ Tak, keer terug, en verdere versioning ](web-editor-preview-topics.md#branch-revert-and-subsequent-versioning).
 
 **Inheemse behandeling DITA**
 
@@ -53,7 +53,7 @@ De volgende lijst maakt een lijst van diverse taken en de groepen die die taken 
 | DITA-kaart maken | Ja |   | Ja |
 | Verzamelingen toewijzen | Ja |   | Ja |
 | Revisietaak maken | Ja |   | Ja |
-| Het Onderwerp van het overzicht [&#x200B; 1 &#x200B;](#fntarg_1) | Ja | Ja | Ja |
+| Het Onderwerp van het overzicht [ 1 ](#fntarg_1) | Ja | Ja | Ja |
 | Belangrijkste resolutie | Ja |   | Ja |
 | Uitchecken/Inchecken | Ja |   | Ja |
 | Onderwerp bewerken | Ja |   | Ja |
@@ -62,29 +62,29 @@ De volgende lijst maakt een lijst van diverse taken en de groepen die die taken 
 | Kopiëren | Ja |   | Ja |
 | Verwijderen | Ja |   | Ja |
 | Delen | Ja |   | Ja |
-| **de staat van het Document** |
+| **de staat van het Document** |  |  |  |
 | Profiel documentstatus maken/bewerken |   |   | Ja |
-| De documentstaat van de verandering [&#x200B; 2 &#x200B;](#fntarg_2) | Ja | Ja | Ja |
-| **Eigenschappen beschikbaar in DITA kaartconsole \ (Output stelt lusje \ vooraf in)** |
+| De documentstaat van de verandering [ 2 ](#fntarg_2) | Ja | Ja | Ja |
+| **Eigenschappen beschikbaar in DITA kaartconsole \ (Output stelt lusje \ vooraf in)** |  |  |  |
 | Genereren |   |   | Ja |
 | Bewerken |   |   | Ja |
 | Dupliceren |   |   | Ja |
 | Maken |   |   | Ja |
 | Voorinstelling verwijderen |   |   | Ja |
-| **Eigenschappen beschikbaar in DITA kaartconsole \ (Output tabel \)** |
+| **Eigenschappen beschikbaar in DITA kaartconsole \ (Output tabel \)** |  |  |  |
 | Gegenereerde uitvoer weergeven | Ja |   | Ja |
-| **Eigenschappen beschikbaar in DITA kaartconsole \ (Onderwerpen lusje \)** |
+| **Eigenschappen beschikbaar in DITA kaartconsole \ (Onderwerpen lusje \)** |  |  |  |
 | Revisietaak maken | Ja |   | Ja |
 | Bewerken | Ja |   | Ja |
-| **Eigenschappen beschikbaar in DITA kaartconsole \ (het lusje van Basislijnen \)** |
+| **Eigenschappen beschikbaar in DITA kaartconsole \ (het lusje van Basislijnen \)** |  |  |  |
 | Maken |   |   | Ja |
 | Bewerken |   |   | Ja |
 | Dupliceren |   |   | Ja |
 | Verwijderen |   |   | Ja |
 | DITA-kaartconsole \(tabblad Rapporten\) | Ja |   | Ja |
-| **Eigenschappen beschikbaar in DITA kaartconsole \ (Voorinstellingen van de Voorwaarde \)** |
+| **Eigenschappen beschikbaar in DITA kaartconsole \ (Voorinstellingen van de Voorwaarde \)** |  |  |  |
 | Voorinstelling voorwaarde maken/bewerken |   |   | Ja |
 
-[&#x200B; 1 &#x200B;](#fnsrc_1) als *Auteurs* en *Uitgevers* voor een overzicht worden uitgenodigd.
+[ 1 ](#fnsrc_1) als *Auteurs* en *Uitgevers* voor een overzicht worden uitgenodigd.
 
-[&#x200B; 2 &#x200B;](#fnsrc_2) afhankelijk van de rechten die aan de gebruiker in het profiel van de documentstaat worden gegeven.
+[ 2 ](#fnsrc_2) afhankelijk van de rechten die aan de gebruiker in het profiel van de documentstaat worden gegeven.

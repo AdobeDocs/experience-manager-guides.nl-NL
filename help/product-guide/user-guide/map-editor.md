@@ -4,7 +4,7 @@ description: Werken met de Kaarteditor in AEM Guides. Leer een kaartbestand make
 exl-id: 1c780ae2-6917-474f-8222-cb93807426e2
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 594e348fc1188e66cf2f4648702ed2b17f1f8f33
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 0%
@@ -17,11 +17,11 @@ Met de Kaarteditor van Adobe Experience Manager Guides kunt u kaartbestanden mak
 
 De profielconfiguratie Algemeen en Map is alleen beschikbaar voor beheerders op mapniveau. Voor de details bij vestiging globale en omslag-vlakke profielen, mening *vormen auteursmalplaatjes* in installeer en vorm Adobe Experience Manager Guides voor uw opstelling.
 
-<!------------------------------------
+<!--
 
 The Map Editor comes in two modes — the Basic Map Editor and the Advanced Map Editor. The Basic Map Editor is available only through configuration. If your administrator has enabled it, then only the Basic Map Editor will be available for use. By default, all new maps are opened for editing in the Advanced Map Editor. The Advanced Map Editor is available within the Editor itself, which is used for editing DITA topic files.
 
--------->
+-->
 
 Dit onderwerp begeleidt u door het proces om een kaart te creëren DITA en dan de Redacteur van de Kaart te gebruiken om kaartdossiers uit te geven.
 
@@ -38,4 +38,4 @@ Dit onderwerp begeleidt u door het proces om een kaart te creëren DITA en dan d
 - **[Extra eigenschappen in de Redacteur van de Kaart](map-editor-other-features.md)**
 
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; Inhoud van de Auteur gebruikend AEM Guides &#x200B;](authoring-content-xml-doc.md)
+**Bovenliggend onderwerp:**[ Inhoud van de Auteur gebruikend AEM Guides ](authoring-content-xml-doc.md)
