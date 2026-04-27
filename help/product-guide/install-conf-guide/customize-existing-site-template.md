@@ -4,14 +4,15 @@ description: Leer hoe u bestaande AEM Site-sjablonen voor AEM Guides kunt aanpas
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: eabaec57-e717-45a9-8321-4057b993d7fb
+source-git-commit: d5dbd67ba44735cf1545291e9a03e3096acd8166
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '944'
 ht-degree: 0%
 
 ---
 
-# Bestaande AEM-sitesjablonen aanpassen
+# Nieuwe AEM-sitesjablonen aanpassen
 
 Deze gids verstrekt geleidelijke instructies om bestaande malplaatjes van de Plaats van AEM voor gebruik met AEM Guides aan te passen om AEM Sites van kaarten DITA en onderwerpen te produceren.
 
@@ -52,16 +53,16 @@ De sjabloon Documentatiecontainerpagina wordt gebruikt om de Containerpagina voo
 - Het dient als ingangspunt of startpagina voor een specifieke reeks documentatie (bijvoorbeeld een producthandleiding of gids).
 - Voeg id= &quot;categorie-pagina&quot;bezit aan jcr :content van de aanvankelijke knoop van het malplaatje toe. Op deze manier worden alle pagina&#39;s die met deze sjabloon zijn gemaakt, automatisch door AEM Guides behandeld als documentcontainers.
 
-  ![&#x200B; Toevoegend id= &quot;categorie-pagina&quot;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-id-category-page.png){width="650" align="left"}
+  ![ Toevoegend id= &quot;categorie-pagina&quot;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-id-category-page.png){width="650" align="left"}
 
 - Voeg een component Text toe met de verplichte eigenschap: text=&quot;$category.html$&quot;.
 
-  ![&#x200B; Toevoegend tekstcomponent &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component.png){width="650" align="left"}
+  ![ Toevoegend tekstcomponent ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component.png){width="650" align="left"}
 
 - Bevat doorgaans navigatie-elementen, zoals koppelingen naar secties of onderwerpen in de documentatie.
 - Het kan worden aangepast om branding, kopballen, footers, en andere ontwerpelementen te omvatten.
 
-**het gebruiksgeval van het Voorbeeld:**
+**het gebruiksgeval van het voorbeeld:**
 Als u een kaart DITA voor een producthandboek hebt, zal het malplaatje van de documentatiecontainerpagina de homepage voor die handleiding produceren, die een overzicht en verbindingen met individuele onderwerpen toont.
 
 ### Sjabloon voor onderwerppagina
@@ -70,18 +71,18 @@ Als u een kaart DITA voor een producthandboek hebt, zal het malplaatje van de do
 - Elk onderwerp in een kaart DITA wordt teruggegeven als afzonderlijke pagina gebruikend dit malplaatje.
 - Bevat de component van de a **Tekst** met het verplichte bezit: text= &quot;$topic.content$&quot;.
 
-  ![&#x200B; Toevoegend tekstcomponent met verplicht bezit &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component-mandatory-property.png){width="650" align="left"}
+  ![ Toevoegend tekstcomponent met verplicht bezit ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-text-component-mandatory-property.png){width="650" align="left"}
 
 - Deze placeholder wordt vervangen met de daadwerkelijke inhoud van het onderwerp DITA tijdens plaatsgeneratie.
    - De tekstcomponent wordt typisch geplaatst binnen de component van de a **Container** om juiste lay-out en het stileren te verzekeren.
    - Kan worden aangepast om consistente kopteksten, footers, en navigatieelementen over alle onderwerppagina&#39;s te omvatten.
 
-**het gebruiksgeval van het Voorbeeld:**
+**het gebruiksgeval van het voorbeeld:**
 Als u een onderwerp DITA over &quot;de Instructies van de Installatie hebt,&quot;zal het malplaatje van de onderwerppagina een pagina produceren die de inhoud van dat onderwerp toont.
 
 **component van de Container:**
 
-![&#x200B; Toevoegend containercomponent &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-component.png){width="650" align="left"}
+![ Toevoegend containercomponent ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-component.png){width="650" align="left"}
 
 >[!NOTE]
 >
@@ -89,7 +90,7 @@ Als u een onderwerp DITA over &quot;de Instructies van de Installatie hebt,&quot
 
 Voeg hetzelfde element (container en tekstcomponent) toe aan de structuur van dezelfde sjabloon:
 
-![&#x200B; Toevoegend container en tekstcomponent &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-and-text-component.png){width="650" align="left"}
+![ Toevoegend container en tekstcomponent ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-container-and-text-component.png){width="650" align="left"}
 
 ## Hulplijncomponenten renderen in aangepaste sjablonen
 
@@ -123,7 +124,7 @@ Standaard worden de clientbibliotheken (clientlibs) in het AEM Guides-componente
    1. Open de **Pagina van het Product** in **Wijze van de Redacteur**.
    2. Selecteer **uitgeven Malplaatje** (dit zal URL zoals conf/settings/wcm/templates/structure.html openen).
 
-      ![&#x200B; geef malplaatje &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/edit-template.png){width="650" align="left"} uit
+      ![ geef malplaatje ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/edit-template.png){width="650" align="left"} uit
 
 2. **het Beleid van de Pagina van de Update:**
 
@@ -134,9 +135,9 @@ Standaard worden de clientbibliotheken (clientlibs) in het AEM Guides-componente
 
 3. **sparen veranderingen:** sparen het malplaatje na het toevoegen van de vereiste cliëntbibliotheken.
 
-   ![&#x200B; voegt cliëntbibliotheken &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-client-libraries.png){width="650" align="left"} toe
+   ![ voegt cliëntbibliotheken ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-client-libraries.png){width="650" align="left"} toe
 
 
 >[!NOTE]
 >
-> Zorg ervoor dat de sjablonen worden getest in een niet-productieomgeving voordat u ze implementeert op productie.<br><br> verwijs naar de officiële [&#x200B; AEM Guides &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/overview) en [&#x200B; AEM Sites &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-core-components/using/get-started/authoring) documentatie voor extra details.
+> Zorg ervoor dat de sjablonen worden getest in een niet-productieomgeving voordat u ze implementeert op productie.<br><br> verwijs naar de officiële [ AEM Guides ](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview) en [ AEM Sites ](https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/get-started/authoring) documentatie voor extra details.
