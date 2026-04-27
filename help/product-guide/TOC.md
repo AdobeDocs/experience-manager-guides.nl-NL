@@ -27,7 +27,7 @@ ht-degree: 0%
             - 2026.03.0 Release {#2603-release}
                - [Nieuwe functies](./release-info/whats-new-2026-03-0.md)
                - [Opgeloste problemen](./release-info/fixed-issues-2026-03-0.md)
-               - [ de instructies van de Verbetering ](./release-info/upgrade-instructions-2026-03-0.md)
+               - [&#x200B; de instructies van de Verbetering &#x200B;](./release-info/upgrade-instructions-2026-03-0.md)
             - 2026.01.0 Release {#2601-release}
                - [Nieuwe functies](./release-info/whats-new-2026-01-0.md)
                - [Opgeloste problemen](./release-info/fixed-issues-2026-01-0.md)
@@ -142,7 +142,7 @@ ht-degree: 0%
             - [Upgradeinstructies](./release-info/upgrade-instructions-5-0-0-sp4.md)
          - 5.0.0 SP3-release {#500-sp3-release}
             - [Opgeloste problemen](./release-info/fixed-issues-5-0-0-sp3.md)
-            - [ de instructies van de Verbetering ](./release-info/upgrade-instructions-5-0-0-sp3.md)
+            - [&#x200B; de instructies van de Verbetering &#x200B;](./release-info/upgrade-instructions-5-0-0-sp3.md)
          - 5.0.0 SP2-release {#500-sp2-release}
             - [Opgeloste problemen](./release-info/fixed-issues-5-0-0-sp2.md)
             - [Upgradeinstructies](./release-info/upgrade-instructions-5-0-0-sp2.md)
@@ -154,17 +154,17 @@ ht-degree: 0%
             - [Opgeloste problemen](./release-info/fixed-issues-5-0-0.md)
             - [Upgradeinstructies](./release-info/upgrade-instructions-5-0-0.md)
          - 4.6.0 SP4-release {#460-sp4-release}
-            - [ Vaste kwesties ](./release-info/fixed-issues-4-6-0-sp4.md)
+            - [&#x200B; Vaste kwesties &#x200B;](./release-info/fixed-issues-4-6-0-sp4.md)
             - [Upgradeinstructies](./release-info/upgrade-instructions-4-6-0-sp4.md)
          - 4.6.0 SP3 Release {#460-sp3-release}
-            - [ Vaste kwesties ](./release-info/fixed-issues-4-6-0-sp2.md)
+            - [&#x200B; Vaste kwesties &#x200B;](./release-info/fixed-issues-4-6-0-sp2.md)
             - [Upgradeinstructies](./release-info/upgrade-instructions-4-6-0-sp2.md)
          - 4.6.0 SP1-release {#460-sp1-release}
-            - [ Vaste kwesties ](./release-info/fixed-issues-4-6-0-sp1.md)
-            - [ de instructies van de Verbetering ](./release-info/upgrade-instructions-4-6-0-sp1.md)
+            - [&#x200B; Vaste kwesties &#x200B;](./release-info/fixed-issues-4-6-0-sp1.md)
+            - [&#x200B; de instructies van de Verbetering &#x200B;](./release-info/upgrade-instructions-4-6-0-sp1.md)
          - 4.6.0 Release {#460-release}
             - [Nieuwe functies](./release-info/whats-new-4-6.md)
-            - [ Vaste kwesties ](./release-info/fixed-issues-4-6-0.md)
+            - [&#x200B; Vaste kwesties &#x200B;](./release-info/fixed-issues-4-6-0.md)
             - [Upgradeinstructies](./release-info/upgrade-instructions-4-6-0.md)
          - 4.4.0 Release {#440-release}
             - [Nieuwe functies](./release-info/whats-new-4-4.md)
@@ -220,13 +220,13 @@ ht-degree: 0%
             - [Inhoudsbewerkingsgebied](./user-guide/web-editor-content-editing-area.md)
             - [Rechterdeelvenster](./user-guide/web-editor-right-panel.md)
             - [Deelvenster Zoeken](./user-guide/search-panel-explorer.md)
-         - [ Extra eigenschappen in de Redacteur ](./user-guide/web-editor-other-features.md)
+         - [&#x200B; Extra eigenschappen in de Redacteur &#x200B;](./user-guide/web-editor-other-features.md)
          - [Sneltoetsen in de Editor](./user-guide/web-editor-keyboard-shortcuts.md)
          - [Weergaven in Editor](./user-guide/web-editor-views.md)
          - [Ondersteuning voor Schematron-bestanden](./user-guide/support-schematron-file.md)
          - [Auteur Markdown-documenten van de Editor](./user-guide/web-editor-markdown-topic.md)
          - [citaten toevoegen aan uw inhoud](./user-guide/web-editor-apply-citations.md)
-         - [ gegevens van het Gebruik van uw gegevensbronnen ](./user-guide/web-editor-content-snippet.md)
+         - [&#x200B; gegevens van het Gebruik van uw gegevensbronnen &#x200B;](./user-guide/web-editor-content-snippet.md)
          - [Documentstatus](./user-guide/web-editor-document-states.md)
          - [Labels gebruiken](./user-guide/web-editor-use-label.md)
       - Kaarteditor {#map-editor}
@@ -243,7 +243,7 @@ ht-degree: 0%
    - Inhoud controleren {#review}
       - [Inleiding tot herziening](./user-guide/review.md)
       - [Een DITA-project maken](./user-guide/authoring-create-dita-project.md)
-      - [ verzendt onderwerpen voor overzicht ](./user-guide/review-send-topics-for-review.md)
+      - [&#x200B; verzendt onderwerpen voor overzicht &#x200B;](./user-guide/review-send-topics-for-review.md)
       - [Onderwerpen bekijken](./user-guide/review-topics.md)
       - [Revisietaak opnieuw toewijzen met behulp van melding](./user-guide/reassign-review-using-notification.md)
       - [De revisietaak voltooien als Revisor](./user-guide/review-complete-review-tasks.md)
@@ -268,7 +268,7 @@ ht-degree: 0%
          - [DITA-kaartrapport van het kaartdashboard](./user-guide/reports-ditamap.md)
          - [Rapport voor hergebruik van inhoud](./user-guide/reports-content-reuse.md)
          - [Conversiestatus rapport](./user-guide/reports-convertion-status.md)
-         - [ het teruggekaatste rapport van de dossierversie ](./user-guide/reports-reverted-file-version-history.md)
+         - [&#x200B; het teruggekaatste rapport van de dossierversie &#x200B;](./user-guide/reports-reverted-file-version-history.md)
       - Inhoud omzetten {#translate-content}
          - [Overzicht van vertalingen van inhoud](./user-guide/translation.md)
          - [Aanbevolen procedures voor het vertalen van inhoud](./user-guide/translation-first-time.md)
@@ -298,7 +298,7 @@ ht-degree: 0%
          - Basislijn gebruiken {#work-with-baseline}
             - [Basislijnen maken en beheren vanuit de kaartconsole](./user-guide/web-editor-baseline.md)
             - [Basislijnen maken en beheren vanaf het dashboard Kaart](./user-guide/generate-output-use-baseline-for-publishing.md)
-            - [ creeer en beheer nieuwe Baselines van de console van de Kaart ](./user-guide/web-editor-baseline-v2.md)
+            - [&#x200B; creeer en beheer nieuwe Baselines van de console van de Kaart &#x200B;](./user-guide/web-editor-baseline-v2.md)
          - [Uitvoervoorinstellingen voor Algemeen en Mapprofiel beheren](./user-guide/web-editor-manage-output-presets.md)
          - [Variabelen gebruiken voor het instellen van de opties Doelpad, Sitenaam of Bestandsnaam](./user-guide/generate-output-use-variables.md)
          - [Geef de metagegevens door aan de uitvoer met DITA-OT](./user-guide/pass-metadata-dita-ot.md)
@@ -335,7 +335,7 @@ ht-degree: 0%
       - [Adobe Generation AI-gebruikersinformatie](./user-guide/adobe-generative-ai-disclosures.md)
       - [Overzicht van AI-assistent](./user-guide/ai-assistant.md)
       - [Intelligente AI-hulp om inhoud te zoeken](./user-guide/ai-based-smart-help.md)
-      - [ AI Medewerker Authoring aan auteursdocumenten slim ](./user-guide/ai-assistant-right-panel.md)
+      - [&#x200B; AI Medewerker Authoring aan auteursdocumenten slim &#x200B;](./user-guide/ai-assistant-right-panel.md)
       - [Intelligente suggesties voor het schrijven van inhoud door AI](./user-guide/authoring-ai-based-smart-suggestions.md)
       - [Veelgestelde vragen](./user-guide/ai-assistant-faq.md)
    - Leerinhoud beheren {#learning-training-content}
@@ -343,7 +343,7 @@ ht-degree: 0%
          - Inleiding {#intro-lc}
             - [Aanvullende informatie](./release-info-lt/release-notes-lt-2025-12-v2.md)
             - [Aanvullende informatie](./release-info-lt/release-notes-lt-2026-02-v3.md)
-            - [ Overzicht van het Leren en de inhoud van de Opleiding ](./learning-content/intro.md)
+            - [&#x200B; Overzicht van het Leren en de inhoud van de Opleiding &#x200B;](./learning-content/intro.md)
          - Uw cursus instellen {#setup-course}
             - [Cursusoverzicht](./learning-content/course-overview.md)
             - [Onderzoek de interface en de eerste vereisten](./learning-content/access-lc-interface-preq.md)
@@ -363,10 +363,10 @@ ht-degree: 0%
             - [Quiz maken](./learning-content/create-quiz.md)
             - [Quiz bewerken](./learning-content/edit-quiz.md)
             - [Vragen invoegen in een quiz](./learning-content/quiz-insert-questions.md)
-            - [ Quizeigenschappen ](./learning-content/quiz-properties.md)
+            - [&#x200B; Quizeigenschappen &#x200B;](./learning-content/quiz-properties.md)
             - Vragenbank {#question-bank}
                - [Vraag-bank maken](./learning-content/create-qb.md)
-               - [ de vragen van het Tussenvoegsel van de bank van de Vraag ](./learning-content/insert-questions.md)
+               - [&#x200B; de vragen van het Tussenvoegsel van de bank van de Vraag &#x200B;](./learning-content/insert-questions.md)
          - Uw cursus publiceren {#publish-course}
             - [Informatie over cursuspublicaties](./learning-content/publish-overview.md)
             - [Ondersteunde voorinstellingen](./learning-content/course-presets.md)
@@ -383,7 +383,7 @@ ht-degree: 0%
          - [Mapprofielen configureren](./lc-config-guide/lc-folder-profile.md)
          - [Aanbevolen procedures voor het instellen van een mappenstructuur](./lc-config-guide/best-practices-folder-structure.md)
          - [Andere instellingen configureren](./lc-config-guide/lc-other-settings.md)
-         - [ SCORM zeer belangrijke metriek ](./lc-config-guide/learning-course-parameters.md)
+         - [&#x200B; SCORM zeer belangrijke metriek &#x200B;](./lc-config-guide/learning-course-parameters.md)
       - Videozelfstudies {#lc-video}
          - [Auteur-workflow](./lc-video-tutorials/author-workflow.md)
          - [Beheerderstroom](./lc-video-tutorials/admin-workflow.md)
@@ -416,7 +416,7 @@ ht-degree: 0%
          - [Migratie van niet-UUID naar UUID-inhoud](./install-guide/migrate-uuid-non-uuid.md)
          - Migratieproces {#migration-process}
             - [4.3.1 Niet-UUID naar 4.3.2 migratie van UUID-inhoud](./install-guide/migrate-non-uuid-4-3.md)
-            - [ 4.6.0 niet-UUID aan 4.6.1 de migratie van de inhoud UUID ](./install-guide/migrate-non-uuid-uuid-4-6.md)
+            - [&#x200B; 4.6.0 niet-UUID aan 4.6.1 de migratie van de inhoud UUID &#x200B;](./install-guide/migrate-non-uuid-uuid-4-6.md)
          - [Bestaande inhoud migreren](./install-guide/migrate-content.md)
          - [Bestaande DITA-inhoud uploaden](./install-guide/migrate-content-upload-existing-dita-content.md)
          - [Niet-DITA-inhoud migreren](./install-guide/migrate-content-non-dita.md)
@@ -434,7 +434,7 @@ ht-degree: 0%
       - Werken met documentstatussen {#doc-state}
          - [Documentstatussen configureren](./install-guide/customize-doc-state.md)
       - Editor-instellingen {#editor-configs}
-         - [ vorm de montages van de Redacteur ](./install-guide/editor-settings.md)
+         - [&#x200B; vorm de montages van de Redacteur &#x200B;](./install-guide/editor-settings.md)
       - Werken met de webeditorconfiguraties {#web-editor-configs}
          - [Webeditor aanpassen](./install-guide/conf-web-editor.md)
          - [Werkbalk Aanpassen](./install-guide/conf-web-editor-customize-toolbar.md)
@@ -491,13 +491,13 @@ ht-degree: 0%
       - Werken met AEM Assets-zoekopdracht {#aem-asset-search}
          - [Zoeken naar gebruikersinterface van AEM Assets configureren](./install-guide/conf-dita-search.md)
       - Werken met middelenverwerking {#asset-processing-on-prem}
-         - [ vorm de eigenschap van de activaverwerking ](./install-guide/configure-asset-processing.md)
+         - [&#x200B; vorm de eigenschap van de activaverwerking &#x200B;](./install-guide/configure-asset-processing.md)
       - Werken met B-boomstructuur opruimen{#btree-cleanup}
          - [B-boomstructuur opschonen configureren](./install-guide/configure-btree-clean-up-job.md)
       - Aangepaste indexering{#custom-indexing}
          - [Aangepaste index gebruiken voor Zoeken en vervangen (Source-weergave)](./install-guide/custom-indexing-prem.md)
       - Werken met replicatie van DITA-elementen{#dita-assets-replication}
-         - [ vorm DITA activa replicatie ](./install-guide/configure-dita-asset-replication.md)
+         - [&#x200B; vorm DITA activa replicatie &#x200B;](./install-guide/configure-dita-asset-replication.md)
       - [Bijlage](./install-guide/appendix.md)
    - Cloud Services {#cs-ig}
       - [Over deze handleiding](./cs-install-guide/introduction.md)
@@ -533,15 +533,15 @@ ht-degree: 0%
          - [Documentstatussen configureren](./cs-install-guide/customize-doc-state.md)
          - [Documentstatusfilters configureren](./cs-install-guide/config-doc-state-filters.md)
       - Workspace-instellingen configureren {#workspace-configs}
-         - [ de montages van Workspace ](./cs-install-guide/workspace-settings.md)
+         - [&#x200B; de montages van Workspace &#x200B;](./cs-install-guide/workspace-settings.md)
       - Werken met de webeditorconfiguraties {#web-editor-configs-cs}
          - [Webeditor aanpassen](./cs-install-guide/conf-web-editor.md)
          - [Werkbalk Aanpassen](./cs-install-guide/conf-web-editor-customize-toolbar.md)
-         - [ vorm de AI-Aangedreven slimme suggesties voor het schrijven ](./cs-install-guide/conf-smart-suggestions.md)
+         - [&#x200B; vorm de AI-Aangedreven slimme suggesties voor het schrijven &#x200B;](./cs-install-guide/conf-smart-suggestions.md)
          - [De door AI aangedreven Smart Help configureren om inhoud te zoeken](./cs-install-guide/conf-smart-help.md)
          - [Standaardwaarde voor de weergave Codes configureren](./cs-install-guide/configure-default-value-tags-view.md)
          - [Weergave van op UUID gebaseerde koppelingen configureren](./cs-install-guide/conf-uuid-based-links.md)
-         - [ vorm vertoning van geplakte lijsten ](./cs-install-guide/conf-pasted-tables.md)
+         - [&#x200B; vorm vertoning van geplakte lijsten &#x200B;](./cs-install-guide/conf-pasted-tables.md)
          - [DITA-onderwerp of toewijzingsbestanden openen op hetzelfde tabblad](./cs-install-guide/open-dita-files-same-tab.md)
          - [Een aangepast deelvenster configureren in het linkerdeelvenster](./cs-install-guide/configure-custom-panel.md)
          - [Bestanden automatisch opslaan in de webeditor configureren](./cs-install-guide/auto-save-in-editor.md)
@@ -585,12 +585,12 @@ ht-degree: 0%
       - Werken met middelenverwerking {#asset-processing-cloud}
          - [Functie voor middelenverwerking configureren](./cs-install-guide/configure-asset-processing-cs.md)
       - Werken met B-boomstructuur opruimen {#btree-cleanup-cs}
-         - [ vorm B-boom schoonmaakbeurt ](./cs-install-guide/configure-btree-cleanup-cs.md)
+         - [&#x200B; vorm B-boom schoonmaakbeurt &#x200B;](./cs-install-guide/configure-btree-cleanup-cs.md)
       - Aangepaste indexering {#custom-indexing-cs}
-         - [ die douaneindex voor Vondst opstellen en vervangen (de mening van Source) ](./cs-install-guide/custom-indexing.md)
+         - [&#x200B; die douaneindex voor Vondst opstellen en vervangen (de mening van Source) &#x200B;](./cs-install-guide/custom-indexing.md)
       - Werken met replicatie van DITA-elementen {#dita-assets-replication-cs}
-         - [ vorm DITA activa replicatie ](./cs-install-guide/configure-dita-assets-replication.md)
-      - [ Bijlage ](./cs-install-guide/appendix.md)
+         - [&#x200B; vorm DITA activa replicatie &#x200B;](./cs-install-guide/configure-dita-assets-replication.md)
+      - [&#x200B; Bijlage &#x200B;](./cs-install-guide/appendix.md)
 - Installatie en configuratie {#install-conf-guide}
    - [Downloaden, installeren en upgraden](./install-conf-guide/introduction.md)
    - Installatieproces voor Cloud Service {#deploy-conf-aemg-cs}
@@ -608,22 +608,22 @@ ht-degree: 0%
          - [Aanvullende configuratie voor het upgraden van AEM Guides als Cloud Service](./install-conf-guide/additional-config-for-upgrade.md)
          - [Configuratieoverschrijvingen voor Cloud Service](./install-conf-guide/download-install-config-override.md)
       - Op locatie {#on-prem}
-         - [ Verbetering AEM Guides On-Premise 4.6.0 en hierboven ](./install-conf-guide/upgrade-aemg-latest-version.md)
-         - [ Verbetering AEM Guides op-Premise vroegere versies ](./install-conf-guide/upgrade-aemg-prev-versions.md)
+         - [&#x200B; Verbetering AEM Guides On-Premise 4.6.0 en hierboven &#x200B;](./install-conf-guide/upgrade-aemg-latest-version.md)
+         - [&#x200B; Verbetering AEM Guides op-Premise vroegere versies &#x200B;](./install-conf-guide/upgrade-aemg-prev-versions.md)
    - Aanbevelingen voor optimalisatie van prestaties {#performance-optimization-aemg}
       - [Prestaties optimaliseren voor Cloud Service](./install-conf-guide/perf-optimization-cs.md)
-      - [ optimalisering van Prestaties voor Op locatie ](./install-conf-guide/perf-optimization-on-prem.md)
+      - [&#x200B; optimalisering van Prestaties voor Op locatie &#x200B;](./install-conf-guide/perf-optimization-on-prem.md)
    - Inhoud migreren {#migrate-content-cs}
       - [Bestaande inhoud migreren](./install-conf-guide/migrate-content.md)
       - [Bestaande DITA-inhoud uploaden met Framemaker en WebDav voor Op locatie](./install-conf-guide/upload-dita-content.md)
       - [De opdracht Krullen gebruiken om DITA-inhoud te uploaden](./install-conf-guide/use-curl-command.md)
       - [UUID-bestandspatroon configureren](./install-conf-guide/conf-uuid-filename-pattern.md)
       - [Niet-DITA-inhoud migreren](./install-conf-guide/non-dita-content.md)
-      - [ Migreer inhoud van On-premise aan Cloud Service ](./install-conf-guide/migrate-on-premise-content-cloud.md)
+      - [&#x200B; Migreer inhoud van On-premise aan Cloud Service &#x200B;](./install-conf-guide/migrate-on-premise-content-cloud.md)
       - Migratieproces voor on-premise {#migration-process-on-prem}
          - [Migratie van niet-UUID naar UUID-inhoud](./install-conf-guide/uuid-non-uuid.md)
          - [4.3.1 Niet-UUID naar 4.3.2 migratie van UUID-inhoud](./install-conf-guide/non-uuid-4-3.md)
-         - [ 4.6.0 niet-UUID aan 4.6.1 de migratie van de inhoud UUID ](./install-conf-guide/non-uuid-uuid-4-6.md)
+         - [&#x200B; 4.6.0 niet-UUID aan 4.6.1 de migratie van de inhoud UUID &#x200B;](./install-conf-guide/non-uuid-uuid-4-6.md)
    - Aangepaste DITA-OT en specialisatie {#custom-dita-ot-cs}
       - [Aangepaste DITA-OT en DITA-specialisatie gebruiken](./install-conf-guide/dita-ot-specialization.md)
    - Gebruikersgroepen en beveiliging {#user-group-sec-cs}
@@ -632,13 +632,13 @@ ht-degree: 0%
       - Op UUID en niet-UUID gebaseerde bestandsnamen configureren {#conf-filename}
          - [Bestandsnamen configureren](./install-conf-guide/conf-file-names-overview.md)
          - [Automatische bestandsnamen configureren op basis van UUID](./install-conf-guide/auto-uuid-filenames.md)
-         - [ vorm Regx voor geldige dossier - noem karakters ](./install-conf-guide/file-names-valid-regx.md)
+         - [&#x200B; vorm Regx voor geldige dossier - noem karakters &#x200B;](./install-conf-guide/file-names-valid-regx.md)
       - Middelverwerking {#asset-processing}
          - [Functie voor middelenverwerking configureren](./install-conf-guide/conf-asset-processing.md)
          - [Nabewerking voor een map configureren](./install-conf-guide/conf-folder-post-processing.md)
-      - [ het beheer van de Versie ](./install-conf-guide/version-management.md)
-      - [ vorm B-boom schoonmaakbeurt ](./install-conf-guide/conf-btree-cleanup.md)
-      - [ vorm DITA activa replicatie ](./install-conf-guide/conf-dita-asset-replication.md)
+      - [&#x200B; het beheer van de Versie &#x200B;](./install-conf-guide/version-management.md)
+      - [&#x200B; vorm B-boom schoonmaakbeurt &#x200B;](./install-conf-guide/conf-btree-cleanup.md)
+      - [&#x200B; vorm DITA activa replicatie &#x200B;](./install-conf-guide/conf-dita-asset-replication.md)
    - Editor-configuraties {#editor-configs}
       - [Editor aanpassen](./install-conf-guide/customize-overview.md)
       - [Werkbalk Aanpassen](./install-conf-guide/customize-toolbar.md)
@@ -648,20 +648,20 @@ ht-degree: 0%
       - [@navtitle-kenmerk standaard opnemen](./install-conf-guide/auto-add-navtitle.md)
       - [Weergave van op UUID gebaseerde koppelingen configureren](./install-conf-guide/conf-uuid-based-links.md)
       - [DITA-onderwerp of toewijzingsbestanden openen op hetzelfde tabblad](./install-conf-guide/open-dita-files-same-tab.md)
-      - [ plaats de Geavanceerde Redacteur van de Kaart als gebrek ](./install-conf-guide/conf-default-map-editor.md)
+      - [&#x200B; plaats de Geavanceerde Redacteur van de Kaart als gebrek &#x200B;](./install-conf-guide/conf-default-map-editor.md)
       - [Bestanden automatisch opslaan in de webeditor configureren](./install-conf-guide/conf-auto-save-in-editor.md)
       - [Vraag configureren om bij het sluiten als een nieuwe versie op te slaan](./install-conf-guide/conf-save-as-new-version-close.md)
       - [Vraag configureren om een bestand bij sluiten in te checken](./install-conf-guide/conf-checkin-file-close.md)
       - [Toegestane speciale tekens configureren](./install-conf-guide/conf-special-chars.md)
       - [Standaard AEM-woordenboek aanpassen](./install-conf-guide/customize-aem-default-dictionary.md)
       - [Tekstfilters configureren](./install-conf-guide/conf-text-filters.md)
-      - [ vorm filters voor dossier doorbladert dialoog ](./install-conf-guide/conf-custom-file-filters.md)
+      - [&#x200B; vorm filters voor dossier doorbladert dialoog &#x200B;](./install-conf-guide/conf-custom-file-filters.md)
       - [Pakketten installeren voor publiceren op basis van artikel](./install-conf-guide/conf-article-based-publishing.md)
       - Editor-instelling voor Cloud Service {#editor-cloud-settings}
-         - [ vorm de AI-Aangedreven slimme suggesties voor auteursrecht voor Cloud Service ](./install-conf-guide/conf-smart-suggestions.md)
+         - [&#x200B; vorm de AI-Aangedreven slimme suggesties voor auteursrecht voor Cloud Service &#x200B;](./install-conf-guide/conf-smart-suggestions.md)
          - [De door AI aangedreven Smart Help configureren om inhoud te zoeken naar Cloud Service](./install-conf-guide/conf-smart-help.md)
          - [De optie configureren om te bewerken in zuurstof voor Cloud Service](./install-conf-guide/conf-edit-in-oxygen.md)
-         - [ vorm vertoning van gekleefde lijsten voor Cloud Service ](./install-conf-guide/conf-pasted-tables.md)
+         - [&#x200B; vorm vertoning van gekleefde lijsten voor Cloud Service &#x200B;](./install-conf-guide/conf-pasted-tables.md)
          - [Eén onderwerp voor PDF-generatie configureren voor Cloud Service](./install-conf-guide/conf-pdf-generation-dita-ot.md)
          - [De vertaalfunctie in de webeditor voor Cloud Service configureren](./install-conf-guide/conf-translation-editor.md)
       - Editor-instelling voor Op locatie {#editor-on-prem-settings}
@@ -672,46 +672,46 @@ ht-degree: 0%
          - [Vorm een gegevensbronschakelaar van het gebruikersinterface](./install-conf-guide/conf-data-source-connector-tools.md)
          - [Een gegevensbronaansluiting voor Cloud Service configureren](./install-conf-guide/conf-data-source-connector-cs.md)
    - Profielen op algemeen niveau en mapniveau {#global-folder-profiles}
-      - [ vorm globale of omslag-vlakke profielen ](./install-conf-guide/conf-profiles.md)
+      - [&#x200B; vorm globale of omslag-vlakke profielen &#x200B;](./install-conf-guide/conf-profiles.md)
    - Onderwerp- en kaartsjablonen {#topic-map-template}
       - [Onderwerp- en kaartsjablonen configureren](./install-conf-guide/conf-template-tags.md)
       - [Aangepaste DITA-onderwerpsjabloon configureren](./install-conf-guide/conf-template-tags-custom-dita-topic-template.md)
       - [Aangepaste DITA-toewijzingssjabloon configureren](./install-conf-guide/conf-template-tags-custom-dita-map-templates.md)
    - Documentstatussen {#doc-state}
-      - [ vorm documentstaten ](./install-conf-guide/customize-doc-state.md)
-      - [ vorm de filters van de documentstaat voor Cloud Service ](./install-conf-guide/conf-doc-state-filters.md)
+      - [&#x200B; vorm documentstaten &#x200B;](./install-conf-guide/customize-doc-state.md)
+      - [&#x200B; vorm de filters van de documentstaat voor Cloud Service &#x200B;](./install-conf-guide/conf-doc-state-filters.md)
    - Workspace-instellingen configureren {#workspace-configs}
-      - [ de montages van Workspace ](./install-conf-guide/workspace-settings.md)
+      - [&#x200B; de montages van Workspace &#x200B;](./install-conf-guide/workspace-settings.md)
    - AEM Assets-zoekopdracht {#aem-asset-search}
-      - [ vorm onderzoek naar AEM Assets UI ](./install-conf-guide/conf-dita-search.md)
+      - [&#x200B; vorm onderzoek naar AEM Assets UI &#x200B;](./install-conf-guide/conf-dita-search.md)
    - Instellingen voor het genereren van uitvoer {#output-gen-config}
-      - [ vorm de montages van de outputgeneratie ](./install-conf-guide/conf-output-generation.md)
+      - [&#x200B; vorm de montages van de outputgeneratie &#x200B;](./install-conf-guide/conf-output-generation.md)
       - Uitvoerinstellingen voor AEM-site configureren {#conf-aem-sites-output}
          - [AEM Sites-sjablonen downloaden en installeren](./install-conf-guide/download-install-aem-sites-templates.md)
          - [Algemene instructies voor het aanpassen van nieuwe AEM-sitesjablonen](./install-conf-guide/customize-existing-site-template.md)
          - [Bestaande AEM-site-uitvoer aanpassen](./install-conf-guide/customize-aem-site-output.md)
-         - [ pas DITA elementenafbeelding met de componenten van AEM voor de output van de Plaats van erfenisAEM ](./install-conf-guide/customize-dita-element-mapping-aem-components.md) aan
+         - [&#x200B; pas DITA elementenafbeelding met de componenten van AEM voor de output van de Plaats van erfenisAEM  aan](./install-conf-guide/customize-dita-element-mapping-aem-components.md)
          - [Bedekking HTML-tags in AEM Sites-uitvoer voor Op locatie](./install-conf-guide/overlay-html-tags-aem-sites-on-prem.md)
          - [Geldige bestandsnamen voor AEM Site-uitvoer configureren](./install-conf-guide/conf-file-names-valid-regx-aem-site-output.md)
       - Systeemeigen PDF-publicatie {#config-native-pdf-publish}
          - [Systeemeigen PDF-publicatiesjablonen en inhoudsstijlen](./install-conf-guide/template-content-styles.md)
-         - [ vorm het proces van de Knoop voor het Inheemse Publiceren van PDF voor Cloud Service ](./native-pdf/conf-node-options-cs.md)
+         - [&#x200B; vorm het proces van de Knoop voor het Inheemse Publiceren van PDF voor Cloud Service &#x200B;](./native-pdf/conf-node-options-cs.md)
          - [JVM-vlaggen configureren voor Native PDF Publishing for On-Premise](./native-pdf/conf-jvm-flags-on-prem.md)
       - Inhoud en ervaringsfragmenten configureren voor Cloud Service {#conf-content-exp-fragment}
          - [Een koppeling maken tussen een onderwerp en een inhoudsfragment](./install-conf-guide/conf-mapping-topic-content-fragment-cs.md)
          - [Een koppeling maken tussen een onderwerp en een ervaringsfragment](./install-conf-guide/conf-mapping-topic-content-exp-cs.md)
    - Workflowaanpassing {#workflow}
-      - [ vorm en pas werkschema&#39;s ](./install-conf-guide/conf-customize-workflows.md) aan
+      - [&#x200B; vorm en pas werkschema&#39;s  aan](./install-conf-guide/conf-customize-workflows.md)
    - Integraties {#aemg-integrations}
       - [XML-editors die zijn gebaseerd op een desktopcomputer integreren](./install-conf-guide/integrate-desktop-editors.md)
       - [Workfront voor Cloud Service configureren](./install-conf-guide/conf-workfront.md)
       - [Vertaling configureren](./install-conf-guide/conf-translation.md)
    - De functies uitbreiden {#aemg-customization}
       - [Aangepaste index gebruiken voor de functie Zoeken en vervangen voor Cloud Service](./install-conf-guide/custom-indexing-cs.md)
-      - [ Reindex voor Vondst en vervang eigenschap voor Op-Premise ](./install-conf-guide/custom-indexing-on-prem.md)
+      - [&#x200B; Reindex voor Vondst en vervang eigenschap voor Op-Premise &#x200B;](./install-conf-guide/custom-indexing-on-prem.md)
       - [Componenttoewijzing voor AEM Sites](./install-conf-guide/component-mapping.md)
    - Bijlage {#appendix}
-      - [ Bijlage ](./install-conf-guide/aemg-appendix.md)
+      - [&#x200B; Bijlage &#x200B;](./install-conf-guide/aemg-appendix.md)
 
 - API-naslag {#api-reference}
    - [Inleiding](./api-reference/introduction.md)
@@ -720,7 +720,7 @@ ht-degree: 0%
    - [REST API om een gegevensbronschakelaar te registreren](./api-reference/data-source-connector.md)
    - [REST API voor werken met voorwaardelijke kenmerken](./api-reference/conditional-attribute.md)
    - [REST API&#39;s voor conversieworkflow](./api-reference/convert-to-dita.md)
-   - [ REST API voor het creëren van en het activeren van pakketten ](./api-reference/create-activate-package.md)
+   - [&#x200B; REST API voor het creëren van en het activeren van pakketten &#x200B;](./api-reference/create-activate-package.md)
    - [Gebeurtenishandler voor nabewerking](./api-reference/post-process-event.md)
    - [API om de status van naverwerking voor een map of middel bij te houden](./api-reference/track-post-processing-status.md)
    - [API om bulkverwerking voor middelen te starten](./api-reference/bulk-assets-processing.md)
@@ -794,7 +794,7 @@ ht-degree: 0%
                - [Aangepast dialoogvenster](./guides-ui-extensions/customisations/ReviewApp/custom-dialog.md)
       - Externe gegevensbron {#external-data-source}
          - [Gegevensbronnen integreren](../product-guide/knowledge-base/kb-articles/data-source/integrate-data-sources.md)
-         - [ vorm een gegevensbronschakelaar ](../product-guide/knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md)
+         - [&#x200B; vorm een gegevensbronschakelaar &#x200B;](../product-guide/knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md)
       - Publiceren {#publishing}
          - Oorspronkelijke PDF {#native-pdf}
             - [Aangepaste lettertypen toevoegen aan uw eigen DITA PDF](./knowledge-base/kb-articles/publishing/add-custom-font-native-pdf.md)
@@ -808,12 +808,12 @@ ht-degree: 0%
             - [AEM Sites-sjablonen voor Cloud-services downloaden en installeren](./knowledge-base/kb-articles/publishing/download-install-aem-sites-templates-cs-kb.md)
             - [AEM Sites-sjablonen voor services op locatie downloaden en installeren](./knowledge-base/kb-articles/publishing/download-install-aem-sites-templates-prem-kb.md)
             - [Bestaande AEM Sites-sjablonen aanpassen](./knowledge-base/kb-articles/publishing/customize-exsisting-site-template-kb.md)
-         - [ FMPS en Gidsen ](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
+         - [&#x200B; FMPS en Gidsen &#x200B;](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
          - [Microservice architectuur en prestaties](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
          - [Op microservice gebaseerde publicaties configureren met JWT-verificatie](./knowledge-base/publishing/configure-microservices.md)
          - [Op microservice gebaseerde publicaties configureren met OAuth-verificatie](./knowledge-base/publishing/configure-microservices-imt-config.md)
          - [Edge Delivery Services (Beta) configureren](./knowledge-base/publishing/configure-eds.md)
-         - [ het Publiceren benchmarks op de wolk van AEM ](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
+         - [&#x200B; het Publiceren benchmarks op de wolk van AEM &#x200B;](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
       - Workflows {#workflows}
          - [Workflow na generatie](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
       - Vertaling {#translation}
