@@ -140,4 +140,4 @@ Standaard worden de clientbibliotheken (clientlibs) in het AEM Guides-componente
 
 >[!NOTE]
 >
-> Zorg ervoor dat de sjablonen worden getest in een niet-productieomgeving voordat u ze implementeert op productie.<br><br> verwijs naar de officiële [&#x200B; AEM Guides &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview) en [&#x200B; AEM Sites &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/get-started/authoring) documentatie voor extra details.
+> Zorg ervoor dat de sjablonen worden getest in een niet-productieomgeving voordat u ze implementeert op productie.<br><br> verwijs naar de officiële [&#x200B; AEM Guides &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/overview) en [&#x200B; AEM Sites &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-core-components/using/get-started/authoring) documentatie voor extra details.
