@@ -5,9 +5,9 @@ feature: Publishing
 role: User
 hide: true
 exl-id: f770dd7e-0c52-4a97-ba93-ddd12832d5ae
-source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '327'
 ht-degree: 0%
 
 ---
@@ -78,4 +78,4 @@ Voer de volgende stappen uit om een bestaande uitvoervoorinstelling te verwijder
    De voorinstelling wordt verwijderd uit de lijst Voorinstellingen uitvoer.
 
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; Productie van de Output &#x200B;](generate-output.md)
+**Bovenliggend onderwerp:**[ Productie van de Output ](generate-output.md)

@@ -5,9 +5,9 @@ feature: Publishing FrameMaker Documents
 role: User
 hide: true
 exl-id: 691773e5-547f-4638-9ce0-f6d08e1153d7
-source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '89'
 ht-degree: 0%
 
 ---
@@ -18,4 +18,4 @@ AEM Guides ondersteunt het maken van uitvoer voor FrameMaker-documenten in PDF-,
 
 In de volgende secties worden de opties beschreven die beschikbaar zijn voor de ondersteunde uitvoerindelingen.
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; produceer output van de documenten van FrameMaker &#x200B;](fm-output-generatation.md)
+**Bovenliggend onderwerp:**[ produceer output van de documenten van FrameMaker ](fm-output-generatation.md)

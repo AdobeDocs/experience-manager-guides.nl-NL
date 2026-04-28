@@ -5,9 +5,9 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: c787947a-b235-4c12-a9cc-eac5136d31db
-source-git-commit: 692a4fe0fbe461d5febfab060f67c91651b859a2
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -59,4 +59,4 @@ Voer de volgende stappen uit om tot het Terugkeren rapport van de Geschiedenis t
 
 
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; Rapporten &#x200B;](reports-intro.md)
+**Bovenliggend onderwerp:**[ Rapporten ](reports-intro.md)

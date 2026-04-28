@@ -5,9 +5,9 @@ feature: Authoring, Desktop Tools
 role: User
 hide: true
 exl-id: c6395d35-b8fd-446e-a17a-df7f5a432053
-source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
@@ -20,4 +20,4 @@ U kunt uitvoerbestanden in PDF, ePub, HTML en vele andere indelingen maken met d
 
 *contacteer uw team van het klantensucces om deze eigenschap te krijgen die in het milieu wordt toegelaten. Dit wordt niet toegelaten als deel van uit-van-de-doos steun.*
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; Inhoud van de Auteur gebruikend Desktophulpmiddelen &#x200B;](author-desktop-tools.md)
+**Bovenliggend onderwerp:**[ Inhoud van de Auteur gebruikend Desktophulpmiddelen ](author-desktop-tools.md)

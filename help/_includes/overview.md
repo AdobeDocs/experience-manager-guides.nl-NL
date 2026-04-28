@@ -1,19 +1,19 @@
 ---
 title: Zelfstudies voor Experience Manager Guides
-description: Vind tutorialvideo's voor Experience Manager Guides (voorheen XML Documentation voor Adobe Experience Manager). Lees meer over ondersteuning voor native DITA en gestructureerde authoring in Experience Manager.
+description: Bekijk zelfstudievideo's voor Experience Manager Guides (voorheen XML Documentation voor Adobe Experience Manager). Meer informatie over ondersteuning voor native DITA en gestructureerde authoring in Experience Manager.
 feature: AEM Guides Tutorials
 role: User
 hide: true
-source-git-commit: 5081aa032c13ca684c6882149448b05c77028a90
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 8%
+source-wordcount: '373'
+ht-degree: 0%
 
 ---
 
 # Overzicht van tests
 
-[!DNL Experience Manager Guides] (waarnaar wordt verwezen in _[!DNL AEM Guides]_&#x200B;hieronder) is een krachtige CCMS-oplossing (Component Content Management Solution) op bedrijfsniveau. Het maakt native DITA-ondersteuning in Experience Manager mogelijk, waardoor AEM inhoud kan maken en leveren op basis van DITA. Auteurs kunnen hiermee inhoud maken met elk offline DITA-ontwerpgereedschap, zoals Adobe FrameMaker of een gebruiksvriendelijke ingebouwde webeditor.
+[!DNL Experience Manager Guides] (waarnaar wordt verwezen in _[!DNL AEM Guides]_hieronder) is een krachtige CCMS-oplossing (Component Content Management Solution) op bedrijfsniveau. Het maakt native DITA-ondersteuning in Experience Manager mogelijk, waardoor AEM inhoud kan maken en leveren op basis van DITA. Auteurs kunnen hiermee inhoud maken met elk offline DITA-ontwerpgereedschap, zoals Adobe FrameMaker of een gebruiksvriendelijke ingebouwde webeditor.
 
 De oplossing van [!DNL AEM Guides] verstrekt alle kernfuncties CCMS, zoals samenwerking, overzicht, vertaling, onderzoek, en rapporten voor inhoud DITA, toelatend auteurs om meer in minder tijd door efficiënt inhoudshergebruik en krachtige werkschema&#39;s te doen. Bovendien kunnen gebruikers hun best-in-klasse, enig-klik het publiceren capaciteit gebruiken om op DITA-Gebaseerde output voor de populairste formaten - Experience Manager Sites, PDF, HTML5, EPUB, en douaneoutput door DITA-OT te produceren.
 
@@ -25,24 +25,24 @@ Met [!DNL AEM Guides] -oplossing kunnen bedrijven naadloze en gepersonaliseerde 
 
 ## Nieuwe functies
 
-- **[[!DNL Experience Manager Guides] Begonnen het Worden Cursus &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/getting-started/overview.html?lang=nl-NL){target="blank"}**
+- **[[!DNL Experience Manager Guides] Begonnen het Worden Cursus ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/getting-started/overview.html){target="blank"}**
 
   _Leer hoe te om inhoud met [!DNL Adobe Experience Manager Guides] tot stand te brengen, te organiseren, te schrijven en te publiceren._
 
-- **[[!DNL Experience Manager Guides] Authoring in de ingebouwde Redacteur &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=nl-NL){target="blank"}**
+- **[[!DNL Experience Manager Guides] Authoring in de ingebouwde Redacteur ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html){target="blank"}**
 
   _Leer hoe te om inhoud te schrijven gebruikend de inheemse Redacteur van het Web in [!DNL Adobe Experience Manager Guides]. Verbeter volledig inzicht in gebruikersvoorkeur, redacteurs montages, configuratie, toolbars en meer._
 
-- **[Productie van de Output met  [!DNL Experience Manager Guides] &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/overview.html?lang=nl-NL){target="blank"}**
+- **[Productie van de Output met  [!DNL Experience Manager Guides] ](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/overview.html){target="blank"}**
 
   _Leer hoe te om output te produceren gebruikend [!DNL Adobe Experience Manager Guides]. Leer over diverse eigenschappen beschikbaar voor outputproductie - rapporten, basislijnen, voorwaarden, het oplossen van problemen, bulkpublicatie en activering._
 
 
 ## Aanvullende bronnen
 
-- [[!DNL Experience Manager Guides]  Gids van de Gebruiker (Oude UI) &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
-- [[!DNL AEM Guides]  Leren &amp; Steun &#x200B;](https://helpx.adobe.com/nl/support/xml-documentation-for-experience-manager.html)
-- [&#x200B; Experience League - verken AEM &#x200B;](https://business.adobe.com/nl/products/experience-manager/adobe-experience-manager.html)
+- [[!DNL Experience Manager Guides] Handboek (oude gebruikersinterface)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+- [[!DNL AEM Guides] Leren en ondersteunen](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
+- [Experience League - Verken AEM](https://business.adobe.com/products/experience-manager/adobe-experience-manager.html)
 
 
 

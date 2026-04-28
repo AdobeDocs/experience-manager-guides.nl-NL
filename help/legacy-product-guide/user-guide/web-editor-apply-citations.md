@@ -5,9 +5,9 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: 832dbc5d-85f7-41fd-8f5d-789732b46f80
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1887'
+source-wordcount: '1896'
 ht-degree: 0%
 
 ---
@@ -33,17 +33,17 @@ AEM Guides ondersteunt meerdere aanhalingstekens, zoals de Modern Language Assoc
 
 Ga als volgt te werk om citaten toe te voegen:
 
-1. Selecteer het **&#x200B;**&#x200B;pictogram van citaten ![&#x200B; van de citaten &#x200B;](images/citations-icon.svg) Bevelingen &lbrace;in het linkerpaneel.
+1. Selecteer het **![ pictogram van citaten ](images/citations-icon.svg) van de citaten** Bevelingen {in het linkerpaneel.
 Het **paneel van Bevragingen** opent.
 
    ![](images/citation-panel.png){width="300" align="left"}
 
-1. In het **paneel van de Bevragingen**, uitgezocht ![&#x200B; voeg pictogram &#x200B;](images/Add_icon.svg) toe. In het vervolgkeuzemenu kunt u kiezen of u een nieuwe animatie wilt toevoegen of een animatie wilt importeren.
+1. In het **paneel van de Bevragingen**, uitgezocht ![ voeg pictogram ](images/Add_icon.svg) toe. In het vervolgkeuzemenu kunt u kiezen of u een nieuwe animatie wilt toevoegen of een animatie wilt importeren.
 
 1. Selecteer **Nieuwe Bevoegdheid** om een nieuwe citatie toe te voegen.
 **voegt de dialoogdoos van de Aanhaling** open.
 
-   ![&#x200B; citeringspaneel in de Webredacteur &#x200B;](images/citation-add.png) {width="300" align="left"}
+   ![ citeringspaneel in de Webredacteur ](images/citation-add.png) {width="300" align="left"}
 
 
 1. Vul de gebieden in **in toevoegen de dialoogdoos van de Aanhaling**.
@@ -55,7 +55,7 @@ Het **paneel van Bevragingen** opent.
    | Boek | Website | Dagboek |
    | --- | ---|---|
    | **Source** <br> van drop-down, selecteer de bron van de citatie als Boek. | **Source**<br> van drop-down, selecteer de bron van de citatie als Website. | **Source** <br> van drop-down, selecteer de bron van de citatie als Dagboek. |
-   | **Onderzoek door** <br> Uitgezochte **ISBN** of **DOI** van drop-down aan onderzoek naar digitale identiteitskaart verbonden aan de citatie.  <br> DOI: Digital Object Identifier <br> ISBN: unieke numerieke boek-id | **Onderzoek door** <br> Uitgezocht **DOI** van drop-down aan onderzoek naar digitale identiteitskaart verbonden aan de citatie. | **Onderzoek door** <br> Uitgezocht **DOI** of identiteitskaart PubMed van drop-down aan onderzoek naar digitale identiteitskaart verbonden aan de citatie. <br>  <br> |
+   | **Onderzoek door** <br> Uitgezochte **ISBN** of **DOI** van drop-down aan onderzoek naar digitale identiteitskaart verbonden aan de citatie.  <br> DOI: Digitale object-id <br> ISBN: unieke numerieke boek-id | **Onderzoek door** <br> Uitgezocht **DOI** van drop-down aan onderzoek naar digitale identiteitskaart verbonden aan de citatie. | **Onderzoek door** <br> Uitgezocht **DOI** of identiteitskaart PubMed van drop-down aan onderzoek naar digitale identiteitskaart verbonden aan de citatie. <br>  <br> |
    | **Auteur** <br> voegt de eerste en familienaam van de auteur van de citatie toe. Selecteer ![](images/Add_icon.svg) om meer namen toe te voegen. | **Auteur** <br> voegt de eerste en familienaam van de auteur van de citatie toe. Selecteer ![](images/Add_icon.svg) om meer namen toe te voegen. | **Auteur** <br> voegt de eerste en familienaam van de auteur van de citatie toe. Selecteer ![](images/Add_icon.svg) om meer namen toe te voegen. |
    | **Titel** <br> voegt de titel van het boek toe. | **Titel** <br> voegt de titel van de Web-pagina toe. | **Titel** <br> voegt de titel van het artikel toe. |
    | **Redacteur** <br> voegt de redacteur van het boek toe. | **de Naam van de Website** <br> voegt de naam van de website toe. | **Titel van het Dagboek** <br> voegt de titel van het werk toe waarin het artikel wordt gevonden. |
@@ -84,11 +84,11 @@ Het **paneel van Bevragingen** opent.
 
 Voer de volgende stappen uit om citaten te importeren:
 
-1. In het linkerpaneel, uitgezochte **&#x200B;**&#x200B;citationenpictogram van 1&rbrace; Cites ![.](images/citations-icon.svg)
+1. In het linkerpaneel, uitgezochte **![ citationenpictogram van 1} Cites ](images/citations-icon.svg).**
 
    Het **paneel van Bevragingen** opent.
 
-1. In het **paneel van de Bevragingen**, uitgezocht ![&#x200B; voeg pictogram &#x200B;](images/Add_icon.svg) toe, en selecteer dan **Invoer** van dropdown.
+1. In het **paneel van de Bevragingen**, uitgezocht ![ voeg pictogram ](images/Add_icon.svg) toe, en selecteer dan **Invoer** van dropdown.
 1. Blader naar een .bib-bestand van uw systeem en importeer het.
 
    >[!TIP]
@@ -99,7 +99,7 @@ Voer de volgende stappen uit om citaten te importeren:
 
    >[!NOTE]
    > <ol><li> AEM Guides importeert alleen citaten die uniek zijn en nog niet aanwezig zijn.
-   > &gt; <li> AEM Guides kan citaten importeren uit een boek, journaal of website. Momenteel ondersteunt het geen citaten uit andere bronnen.
+    &gt; <li> AEM Guides kan citaten importeren uit een boek, journaal of website. Momenteel ondersteunt het geen citaten uit andere bronnen.
 
 ## citaten beheren
 
@@ -136,7 +136,7 @@ De volgende opties zijn beschikbaar in het vervolgkeuzemenu:
 | MLA | APA | Chicago | IEEE | AHA |
 |---|---|---|---|---|
 | Moderne taalassociatiestijl <br> | American Psychological Association Style | Handleiding Chicago | Institute for Electrical and Electronics Engineers Style | American Heart Association Style |
-| Voorbeeld:<br> Crawford, Claire, et al. *Emotionele Inhoud van Donkere Herinneringen*.Bewerkt door Geheugen, vol 16, 2010, Amsterdam. | Voorbeeld: <br> Crawford, C., J., &amp; , C. (2010). *Emotionele Inhoud van Donkere Herinneringen* (505-16 ed.). 10.1080/09658210902067289 | Voorbeeld: <br> Crawford, Claire, et al. *Emotionele Inhoud van Donkere Herinneringen*. 505-16, 2010. | Voorbeeld: <br> C. Crawford, J., en C., *Emotionele Inhoud van Donkere Herinneringen*. Amsterdam, 2010. | Voorbeeld: <br> C. Crawford, J., en C., *Emotionele Inhoud van Donkere Herinneringen*. Amsterdam, 2010. |
+| Voorbeeld:<br> Crawford, Claire, et al. *Emotionele Inhoud van Donkere Herinneringen*.Bewerkt door Geheugen, vol 16, 2010, Amsterdam. | Voorbeeld: <br> Crawford, C., J., &amp; , C. (2010). *Emotionele Inhoud van Donkere Herinneringen* (505-16 ed.). 10.1080/ 09658210902067289 | Voorbeeld: <br> Crawford, Claire, et al. *Emotionele Inhoud van Donkere Herinneringen*. 505-16, 2010. | Voorbeeld: <br> C. Crawford, J. en C. , *Emotionele Inhoud van Donkere Herinneringen*. Amsterdam, 2010. | Voorbeeld: <br> C. Crawford, J. en C. , *Emotionele Inhoud van Donkere Herinneringen*. Amsterdam, 2010. |
 
 
 ## Een citaat bewerken
@@ -147,7 +147,7 @@ Voer de volgende stappen uit om de uitnodiging te bewerken:
 
 1. Selecteer **uitgeven**.
 
-Het **geeft 1&rbrace; dialoogvakje van de Aanhaling uit opent.**
+Het **geeft 1} dialoogvakje van de Aanhaling uit opent.**
 
 1. Breng de gewenste wijzigingen aan. Selecteer **Gereed**.
 Het geselecteerde citaat wordt uitgegeven.
@@ -189,9 +189,9 @@ U kunt citaten aan het onderwerp van de belangrijkste toolbar of het linkerpanee
 
 ### Van de hoofdwerkbalk
 
-1. Selecteer het **&#x200B;**&#x200B;pictogram van citaten 1&rbrace; ![&#x200B; van de citaten &#x200B;](images/citations-icon.svg) Bevelingen &lbrace;in de belangrijkste toolbar.
+1. Selecteer het **![ pictogram van citaten 1} ](images/citations-icon.svg) van de citaten** Bevelingen {in de belangrijkste toolbar.
 1. In de **dialoog van de Bevragingen**, kies de citatie. U kunt ook meerdere citaten selecteren.
-   ![&#x200B; citeringsdialoog &#x200B;](images/citation-dialog-main-toolbar.png){width="300" align="left"}
+   ![ citeringsdialoog ](images/citation-dialog-main-toolbar.png){width="300" align="left"}
 1. U kunt citaties filtreren door de eerste paar alfabeten in het onderzoekspaneel van het **de dialoogvakje van de Aanhaling** te typen.
 
 1. Klik **Gedaan**.
@@ -204,12 +204,12 @@ Het geselecteerde citaat wordt toegevoegd bij de cursorplaats in uw onderwerp.
 > 
 >Om het **pictogram van de Bevragingen** van het linkerpaneel te bekijken, moet uw systeembeheerder de **optie van de Bevragingen** in het **paneel** lusje in **Montages van de Redacteur** selecteren.
 
-1. Selecteer **&#x200B;**&#x200B;het pictogram van citaten ![&#x200B; van de citaten &#x200B;](images/citations-icon.svg) Bevelingen &lbrace;in het linkerpaneel.
+1. Selecteer **![ het pictogram van citaten ](images/citations-icon.svg) van de citaten** Bevelingen {in het linkerpaneel.
 1. Sleep de citatie van het **paneel van Cites** en laat vallen het bij de aangewezen plaats in het onderwerp.
 
    U kunt **Tussenvoegsel** van ![](images/options.svg) **Opties** ook selecteren om een citaat op te nemen.
 
-   ![&#x200B; tussenvoegselcitaties &#x200B;](images/citation-panel-insert.png)
+   ![ tussenvoegselcitaties ](images/citation-panel-insert.png)
 1. Om veelvoudige citaties te selecteren, klik een citaat in het onderwerp met de rechtermuisknop aan en selecteer **Bevestiging** van het kortere wegmenu wijzigen.
 1. Selecteer de citaten die u van de **dialoog van de Aanhaling** wilt opnemen.
 1. Selecteer **Gedaan** om hen aan het onderwerp toe te voegen.
@@ -242,7 +242,7 @@ Ga als volgt te werk om een citaat te verwijderen dat al in het onderwerp wordt 
 In het onderwerp, plaats uw curseur aan het eind van de citatie.
 
 1. Klik een citaat in het onderwerp met de rechtermuisknop aan en selecteer **Bevestiging** van het kortere wegmenu wijzigen. Het dialoogvenster Aanwijzing wordt geopend.
-   ![&#x200B; kortere wegmenu van een citatie &#x200B;](./images/modify-citation.png)
+   ![ kortere wegmenu van een citatie ](./images/modify-citation.png)
 
 1. U kunt de citaten kiezen u in het document wilt opnemen.
 
@@ -259,10 +259,10 @@ Nadat u citaten in het onderwerp hebt ingevoegd, kunt u inhoud met citaten publi
 
 In de native PDF-uitvoer worden de citaten weergegeven binnen de inhoud waarin u ze hebt ingevoegd. U kunt ook een bibliografiepagina maken. Wanneer u op een aanhalingsteken klikt, wordt u omgeleid naar de bibliografiepagina.
 
-Creeer de paginalay-out van de a **Bevelen** in de malplaatjes van PDF, en neem het in uw document op. Alle citaten die in het boek worden gebruikt, worden weergegeven op één pagina die in de PDF-uitvoer wordt weergegeven. Meer leren over het creëren van een paginalay-out, mening [&#x200B; creeer een paginalay-out &#x200B;](/help/product-guide/native-pdf/components-pdf-template.md#create-page-layout).
+Creeer de paginalay-out van de a **Bevelen** in de malplaatjes van PDF, en neem het in uw document op. Alle citaten die in het boek worden gebruikt, worden weergegeven op één pagina die in de PDF-uitvoer wordt weergegeven. Meer leren over het creëren van een paginalay-out, mening [ creeer een paginalay-out ](/help/product-guide/native-pdf/components-pdf-template.md#create-page-layout).
 
 
-Om de mening en het gevoel van de citaatpagina te veranderen, past de mening [&#x200B; de malplaatjes van PDF &#x200B;](/help/product-guide/native-pdf/pdf-template.md) aan.
+Om de mening en het gevoel van de citaatpagina te veranderen, past de mening [ de malplaatjes van PDF ](/help/product-guide/native-pdf/pdf-template.md) aan.
 
 
 
@@ -274,4 +274,4 @@ Pas het formatteren op de citatie toe wanneer toegevoegd aan het onderwerp.
 
 1. Zoek in het deelvenster Zoeken naar `<cite>` .
 
-Om meer over stijlen te leren, mening [&#x200B; Werk met de gemeenschappelijke inhoudsstijlen &#x200B;](/help/product-guide/native-pdf/stylesheet.md).
+Om meer over stijlen te leren, mening [ Werk met de gemeenschappelijke inhoudsstijlen ](/help/product-guide/native-pdf/stylesheet.md).

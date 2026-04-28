@@ -5,9 +5,9 @@ feature: Publishing FrameMaker Documents
 role: User
 hide: true
 exl-id: 3a8cb163-94ac-48b1-ae6b-1309179f462a
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -41,4 +41,4 @@ De volgende opties zijn beschikbaar voor PDF Output:
 | Doelpad | Het pad in uw AEM-opslagplaats waar de PDF-uitvoer wordt opgeslagen. |
 | Workflow na generatie uitvoeren | Als u deze optie kiest, wordt een nieuwe vervolgkeuzelijst Werkstroom na generatie weergegeven met alle werkstromen die in AEM zijn geconfigureerd. U moet een werkstroom selecteren die u wilt uitvoeren nadat de werkstroom van de outputgeneratie is voltooid. |
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; produceer output van de documenten van FrameMaker &#x200B;](fm-output-generatation.md)
+**Bovenliggend onderwerp:**[ produceer output van de documenten van FrameMaker ](fm-output-generatation.md)

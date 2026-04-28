@@ -5,9 +5,9 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: 1a61fc05-b2b4-4665-a15a-0058fbbc2942
-source-git-commit: 6050e2667698150df9f76068dce4ca9f9b56a443
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '428'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Voer de volgende stappen uit om het Rapport voor hergebruik van inhoud weer te g
 
 1. Selecteer **Gidsen** van de lijst van hulpmiddelen.
 
-1. Klik op de **tegel van het Rapport van de Hergebruik van de Inhoud 0&rbrace;**.
+1. Klik op de **tegel van het Rapport van de Hergebruik van de Inhoud 0}**.
 
 1. Klik **doorbladeren** om een weg te kiezen waar uw onderwerpen verblijven of manueel de weg ingaan.
 
@@ -58,11 +58,11 @@ Voer de volgende stappen uit om het Rapport voor hergebruik van inhoud weer te g
 
       - **Aantal Hergebruikte Tijden**: Aantal tijden het overeenkomstige onderwerp is opnieuw gebruikt. Dit is berekend als de som van de vermeldingen in de kolommen waarnaar wordt verwezen min 1.
 
-      - **die door** wordt verwezen: De onderwerpen waarin het overeenkomstige onderwerp is van verwijzingen voorzien. Hier worden alleen de directe verwijzingen \(first level\) in overweging genomen. Meerdere onderwerpen worden gescheiden door komma&#39;s. UUID van het referenced dossier wordt ook vermeld tussen haakjes.Het klikken op de de titelverbinding van het onderwerp opent de onderwerpvoorproef.
+      - **die door** wordt verwezen: De onderwerpen waarin het overeenkomstige onderwerp is van verwijzingen voorzien. Hier worden alleen de directe verwijzingen \(first level\) in overweging genomen. Meerdere onderwerpen worden gescheiden door komma&#39;s. De UUID van het bestand waarnaar wordt verwezen, wordt ook tussen haakjes vermeld.Als u op de titelkoppeling van het onderwerp klikt, wordt de voorvertoning van het onderwerp geopend.
 
 
 >[!NOTE]
 >
 > U kunt het Rapport voor hergebruik van inhoud ook exporteren in CSV-indeling. Klik hiertoe op de koppeling Exporteren naar CSV in de linkerbovenhoek van het scherm en kies een locatie waar u het CSV-bestand wilt opslaan. U kunt dit CSV-bestand vervolgens openen in elke CSV-editor.
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; Rapporten &#x200B;](reports-intro.md)
+**Bovenliggend onderwerp:**[ Rapporten ](reports-intro.md)

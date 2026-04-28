@@ -5,16 +5,16 @@ feature: Content Management
 role: User
 hide: true
 exl-id: b04a0abe-a029-44ac-b8f4-138d78908d44
-source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
 
 # Bestanden downloaden {#id216MC0H0BE8}
 
-U kunt elementen downloaden, zoals DITA- en niet-DITA-bestanden. Er zijn meerdere manieren waarop u elementen kunt downloaden. Sommige methoden zijn native voor AEM en andere worden ondersteund door AEM Guides. Voor de inheemse informatie van de activadownload van AEM, zie [&#x200B; activa van Adobe Experience Manager &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html?lang=nl-NL) in de documentatie van AEM downloaden. In de volgende sectie wordt uitgelegd hoe u bestanden downloadt via de DITA-kaartconsole in AEM Guides.
+U kunt elementen downloaden, zoals DITA- en niet-DITA-bestanden. Er zijn meerdere manieren waarop u elementen kunt downloaden. Sommige methoden zijn native voor AEM en andere worden ondersteund door AEM Guides. Voor de inheemse informatie van de activadownload van AEM, zie [ activa van Adobe Experience Manager ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html) in de documentatie van AEM downloaden. In de volgende sectie wordt uitgelegd hoe u bestanden downloadt via de DITA-kaartconsole in AEM Guides.
 
 ## Een DITA-toewijzingsbestand exporteren
 
@@ -36,9 +36,8 @@ Voer de volgende stappen uit om een DITA kaartdossier samen met zijn afhankelijk
 
 1. Klik **Download**. In het dialoogvenster Kaart downloaden kunt u de volgende opties kiezen:
 
-   - **Basislijn van het Gebruik**: Selecteer deze optie om een lijst van Basislijnen te krijgen die voor de kaart DITA worden gecreeerd. Als u het kaartbestand en de inhoud ervan wilt downloaden op basis van een specifieke basislijn, selecteert u de basislijn in de vervolgkeuzelijst. Voor meer details over het werken met Basislijnen, zie [&#x200B; Werk met Basislijn &#x200B;](generate-output-use-baseline-for-publishing.md#).
+   - **Basislijn van het Gebruik**: Selecteer deze optie om een lijst van Basislijnen te krijgen die voor de kaart DITA worden gecreeerd. Als u het kaartbestand en de inhoud ervan wilt downloaden op basis van een specifieke basislijn, selecteert u de basislijn in de vervolgkeuzelijst. Voor meer details over het werken met Basislijnen, zie [ Werk met Basislijn ](generate-output-use-baseline-for-publishing.md#).
    - **de Hiërarchie van het Dossier van de Afvlakking**: Selecteer deze optie om alle referenced onderwerpen en media dossiers in één enkele omslag te bewaren.
-
    >[!NOTE]
    >
    > U kunt het kaartbestand ook downloaden zonder een optie te selecteren. In dat geval wordt de laatste voortgezette versie van de onderwerpen waarnaar wordt verwezen en de mediabestanden gedownload.
@@ -59,4 +58,4 @@ Voer de volgende stappen uit om een DITA kaartdossier samen met zijn afhankelijk
 
 Nadat de kaart is gedownload, kunt u de kaart selecteren en het pictogram Openen bovenaan gebruiken om het geselecteerde rapport te openen.
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; beheert inhoud &#x200B;](authoring.md)
+**Bovenliggend onderwerp:**[ beheert inhoud ](authoring.md)

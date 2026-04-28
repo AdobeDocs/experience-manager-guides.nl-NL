@@ -5,9 +5,9 @@ feature: Authoring, Features of Web Editor, Publishing
 role: User
 hide: true
 exl-id: ffdc2426-dc78-4deb-93cc-3292fd4fcbd8
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Voer de volgende stappen uit om output voor meer dan één onderwerp in uw kaart
 
    ![](images/generate-output-multiple-topics_cs.png){width="650" align="left"}
 
-1. U zult de status van het proces van de outputgeneratie zien.Om de output te bekijken, beweegt de muiswijzer over het onderwerp en klikt de Output van de Mening.
+1. De status van het productieproces van de uitvoer wordt weergegeven.Als u de uitvoer wilt weergeven, plaatst u de muisaanwijzer boven het onderwerp en klikt u op Uitvoer weergeven.
 
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; Op artikel-gebaseerde het publiceren van de Redacteur van het Web &#x200B;](web-editor-article-publishing.md)
+**Bovenliggend onderwerp:**[ Op artikel-gebaseerde het publiceren van de Redacteur van het Web ](web-editor-article-publishing.md)

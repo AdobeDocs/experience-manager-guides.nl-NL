@@ -5,9 +5,9 @@ feature: Authoring, Features of Web Editor, Document State
 role: User
 hide: true
 exl-id: f8367f84-dd46-4140-8748-c3bda0cf933a
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '945'
 ht-degree: 0%
 
 ---
@@ -36,39 +36,39 @@ U kunt de documentstatus voor een of meerdere documenten ook handmatig wijzigen.
 
 Voer de volgende stappen uit om de status van een document te wijzigen:
 
-1. Selecteer in de gebruikersinterface van Assets een of meer documenten waarvan u de documentstatus wilt wijzigen.
-1. In de belangrijkste toolbar, klik **Eigenschappen**.
-1. Selecteer de nieuwe staat van de **drop-down Staat van het Document**. U kunt alleen de documentstatussen selecteren die zijn toegestaan in het gedeelte Overgang status van het profiel Documentstatus.
+1. In the Assets UI, select one ore more document for which you want to change the document state.
+1. In the main toolbar, click **Properties**.
+1. Select the new state from the **Document State** drop-down. You can select only those document states that are allowed in the State Transition section of the Document State profile.
 
    >[!NOTE]
    >
-   >Beheerders kunnen alle documentstatussen weergeven en het document wijzigen in een willekeurige status.
+   >Administrators can see all document states and change the document to any possible state.
 
 1. Klik **sparen &amp; Sluiten**.
 
-## Documentstatus weergeven
+## View document state
 
-De kaartmening van Assets UI toont de huidige staat samen met de aanmaakdatum en de grootte van het respectieve onderwerp DITA of kaart DITA.
+The card view of the Assets UI shows the current state along with the creation date and size of the respective DITA topic or DITA map.
 
 ![](images/document_state.png){width="800" align="left"}
 
-## Documentstatussen gebruiken in DDLC
+## Use document states in DDLC
 
-Documentstatussen spelen een belangrijke rol bij het beheer van de levenscyclus van documenten in DDLC. Als uw organisatie strikt de DDLC volgt, dan wordt het hebben van een mechanisme om het uitgeven documenten te controleren die op hun staat worden gebaseerd een essentiële eigenschap. Bijvoorbeeld, kunt u het uitgeven documenten toestaan wanneer zij in *Ontwerp* of *in overzicht* staten zijn. Als een document echter eenmaal is gereviseerd en klaar is om te publiceren, moet er een manier zijn om verdere wijzigingen van documenten te voorkomen.
+Document states play an important role in managing the lifecycle of documents in DDLC. If your organization strictly follows the DDLC, then having a mechanism to control editing documents based on their state becomes an essential feature. For example, you can allow editing documents when they are in *Draft* or *In-review* states. However, once a document is reviewed and is ready to publish, then there should be a way to prevent further modification of documents.
 
-AEM Guides biedt een workflow voor documentgoedkeuring waarmee u de levenscyclus van het ontwikkelingsproces van uw document kunt bepalen. Als een document gereed is om te publiceren of de voorlaatste status heeft bereikt, kunt u het markeren als goedgekeurd. Nadat een document is goedgekeurd, maakt AEM Guides een nieuwe versie van het document en maakt het alleen-lezen. Vervolgens kunt u het document verplaatsen voor publicatie of een basislijn maken voor verdere verwerking.
+AEM Guides provides document approval workflow, which helps you to control the lifecycle of your document development process. Once a document is ready to publish or has reached the penultimate state, you can mark it as approved. Once a document is approved, AEM Guides creates a new version of the document and makes it read-only. You can then move the document for publishing or create a baseline for further processing.
 
-Een auteur moet een nieuwe versie starten om een nieuwe versie te starten van de documenten die zijn gemarkeerd als goedgekeurd. De aanvang van een nieuwe versie verandert opnieuw de documentstaat in *Ontwerp*. Door de documentstaat in *Ontwerp* te veranderen, wordt het document opnieuw editable gemaakt en u kunt aan de volgende versie blijven werken.
+To start a new release form the documents that are marked as approved, an author has to start a new release. Starting a new release changes the document state to *Draft* again. By changing the document state to *Draft*, the document is again made editable and you can continue working on the next release.
 
-Voer de volgende stappen uit om de functie voor documentgoedkeuring te gebruiken:
+To use the document approval feature, perform the following steps:
 
 >[!NOTE]
 >
-> De beheerder moet de functie voor de goedkeuringswerkstroom inschakelen. Voor meer details, zie *goedkeuringswerkschema* sectie van het goedkeuringswerkschema in installeren en vormen Adobe Experience Manager Guides as a Cloud Service.
+> The approval workflow feature must be enabled by your administrator. For more details, see *Enable approval workflow* section in the Install and configure Adobe Experience Manager Guides as a Cloud Service.
 
-1. Open in de webeditor het document dat u ter goedkeuring wilt markeren.
+1. In the Web Editor, open the document that you to mark for approval.
 
-1. Klik het **Goedgekeurde Teken**![](images/mark_approve_icon.svg) pictogram.
+1. Click the **Mark Approved**![](images/mark_approve_icon.svg) icon.
 
 1. Als het document de status heeft die als goedgekeurd moet worden gemarkeerd, wordt het volgende dialoogvenster weergegeven:
 
@@ -104,4 +104,4 @@ Als een document is gemarkeerd als goedgekeurd, kan het niet meer worden bewerkt
    De staat van het document wordt veranderd in Ontwerp en het document wordt geopend in de Redacteur van het Web op uitgeeft wijze.
 
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; Werk met de Redacteur van het Web &#x200B;](web-editor.md)
+**Bovenliggend onderwerp:**[ Werk met de Redacteur van het Web ](web-editor.md)

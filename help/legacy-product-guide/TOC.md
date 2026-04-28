@@ -1,12 +1,12 @@
 ---
 user-guide-title: Experience Manager Guides Old UI
-user-guide-description: Lees de productdocumentatie voor Adobe Experience Manager Guides via de oude gebruikersinterface.
-breadcrumb-title: Documentatie voor AEM Guides
+user-guide-description: Read product documentation for Adobe Experience Manager Guides using the old user interface.
+breadcrumb-title: AEM Guides-documentatie
 hide: true
-badgeAll: label="Oude UI-gids - Meer informatie" type="Informative" url="/help/legacy-product-guide/disclaimer.md" tooltip="Oude UI-gids"
-source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
+badgeAll: label="Old UI Guide - More Info" type="Informative" url="/help/legacy-product-guide/disclaimer.md" tooltip="Old UI Guide"
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
@@ -15,12 +15,12 @@ ht-degree: 0%
 # [!DNL Adobe Experience Manager Guides Old UI] {#using-old-ui}
 
 - [Disclaimer](disclaimer.md)
-- [[!DNL AEM Guides] overzicht](overview.md)
-- [&#x200B; de informatie van de Versie](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/release-info/aem-guides-releases-roadmap){target="_blank"}
+- [[!DNL AEM Guides]-overzicht](overview.md)
+- [Gegevens vrijgeven](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/release-info/aem-guides-releases-roadmap){target="_blank"}
 - Handboek (oude gebruikersinterface) {#user-guide}
    - Inleiding {#about-aem-guide}
       - [Info  [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
-      - [!DNL AEM Guides] Werken en Belangrijke functies {#aemg-works-features}
+      - [!DNL AEM Guides] werken en belangrijke functies {#aemg-works-features}
          - [Hoe  [!DNL AEM Guides]  werkt](./user-guide/intro-how-dxml-works.md)
          - [Belangrijke  [!DNL AEM Guides]  eigenschappen](./user-guide/intro-dxml-features.md)
    - Inhoud beheren {#manage-content}
@@ -28,7 +28,7 @@ ht-degree: 0%
       - [Bestanden uploaden](./user-guide/authoring-upload-existing-files.md)
       - [Bestanden en mappen beheren](./user-guide/authoring-file-management.md)
       - [Bestanden downloaden](./user-guide/authoring-download-assets.md)
-   - Inhoud auteur {#author-content}
+   - Author Content {#author-content}
       - [Overzicht van ontwerpen](./user-guide/authoring-content.md)
       - Onderwerpen maken en voorvertonen {#create-preview-topics}
          - [Onderwerpen maken en voorvertonen](./user-guide/create-preview-topics.md)
@@ -52,7 +52,7 @@ ht-degree: 0%
                - [citaten toevoegen aan uw inhoud](./user-guide/web-editor-apply-citations.md)
                - [Gegevens uit uw gegevensbronnen gebruiken](./user-guide/web-editor-content-snippet.md)
                - [Uitvoervoorinstellingen voor Algemeen en Mapprofiel beheren](./user-guide/web-editor-manage-output-presets.md)
-               - Publiceren op basis van artikelen {#article-based-pub}
+               - Publicaties op basis van artikelen {#article-based-pub}
                   - [Publiceren op basis van artikelen vanuit de webeditor](./user-guide/web-editor-article-publishing.md)
                   - [Uitvoervoorinstellingen maken vanuit de webeditor](./user-guide/web-editor-article-publishing-presets.md)
                   - [Uitvoer genereren via het deelvenster Opslagplaats of Kaartweergave](./user-guide/web-editor-article-publishing-output.md)
@@ -68,7 +68,7 @@ ht-degree: 0%
                - [Werken met de Geavanceerde Kaarteditor](./user-guide/map-editor-advanced-map-editor.md)
                - [Werken met de basiskaarteditor](./user-guide/map-editor-basic-map-editor.md)
                - [Andere functies in de kaarteditors](./user-guide/map-editor-other-features.md)
-            - DITAVAL-editor {#ditaval-editor}
+            - DITAVAL Editor {#ditaval-editor}
                - [Werken met de DITAVAL-editor](./user-guide/ditaval-editor.md)
          - Bureaubladgereedschappen voor het ontwerpen van inhoud {#author-using-desktop-tools}
             - [Inhoud ontwerpen met bureaubladgereedschappen](./user-guide/author-desktop-tools.md)
@@ -97,7 +97,7 @@ ht-degree: 0%
    - Uitvoergeneratie {#output-gen}
       - [Grondbeginselen van het genereren van uitvoer](./user-guide/generate-output.md)
       - [Inleiding tot uitvoervoorinstellingen](./user-guide/generate-output-understand-presets.md)
-      - Voorinstellingen uitvoer in AEM Guides {#output-presets-aemg}
+      - Uitvoervoorinstellingen in AEM Guides {#output-presets-aemg}
          - [AEM-site](./user-guide/generate-output-aem-site.md)
          - [AEM Sites-voorinstellingen op het kaartdashboard](./user-guide/generate-output-aem-site-map-dashboard.md)
          - [AEM Sites-voorinstellingen in de webeditor](./user-guide/generate-output-aem-site-web-editor.md)
@@ -142,5 +142,5 @@ ht-degree: 0%
       - [Rapport voor hergebruik van inhoud](./user-guide/reports-content-reuse.md)
       - [Conversiestatus rapport](./user-guide/reports-convertion-status.md)
       - [Rapport voor versiehistorie van teruggedraaide bestanden](./user-guide/reports-reverted-file-version-history.md)
-- [&#x200B; GEBRUIKERSGIDS (NIEUWE UI) &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-guides/using/user-guide/about-aemg/intro)
+- [GEBRUIKERSHANDLEIDING (NIEUWE UI)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/about-aemg/intro)
 

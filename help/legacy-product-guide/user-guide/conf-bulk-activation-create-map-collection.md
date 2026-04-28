@@ -5,7 +5,7 @@ feature: Publishing, Bulk Activation
 role: User
 hide: true
 exl-id: a242efde-2b29-4d2b-8a50-fd4ae7e8f239
-source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
 source-wordcount: '735'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Voer de volgende stappen uit om een bulkactiveringskaartverzameling te maken:
 
 De DITA kaartdossiers worden toegevoegd aan uw bulkactiveringskaartinzameling.
 
-![&#x200B; Gemaakte bulkactivering inzameling &#x200B;](images/bulk-activation-collection-created.png){width="800" align="left"}
+![ Gemaakte bulkactivering inzameling ](images/bulk-activation-collection-created.png){width="800" align="left"}
 
 ## Tabblad Kaarten en voorinstellingen
 
@@ -85,9 +85,9 @@ Het **lusje van de Geschiedenis van de Controle** stelt informatie over de geact
 
 - **Gewijzigd**: Wijst op als de kaart DITA na de laatste publicatie werd bijgewerkt. Op basis van deze informatie kunt u beslissen of u de uitvoer voor deze DITA-kaart wilt activeren.
 - **Gepubliceerd**: Toont de datum en de tijd van de laatste gepubliceerde (of geactiveerde) output. Als u de koppeling selecteert, wordt de pagina Activeringsresultaten weergegeven. Deze pagina bevat de logbestanden met informatie over het hoofdpad waar de inhoud is geactiveerd.
-  ![&#x200B; gecreeerde bulkactivering inzamelingsgeschiedenis tabel &#x200B;](images/bulk-collection-audit-history.png){width="800" align="left"}
+  ![ gecreeerde bulkactivering inzamelingsgeschiedenis tabel ](images/bulk-collection-audit-history.png){width="800" align="left"}
 
-  *Mening de informatie over de geactiveerde kaartoutput in de **Geschiedenis van de Controle**&#x200B;tabel.*
+  *Mening de informatie over de geactiveerde kaartoutput in de **Geschiedenis van de Controle**tabel.*
 
 
   >[!NOTE]
@@ -101,9 +101,9 @@ Het **lusje van de Geschiedenis van de Controle** stelt informatie over de geact
 De volgende filteropties zijn beschikbaar in het linkerdeelvenster:
 
 - **Gewijzigd**: U kunt ja of Nr selecteren. Als u ja selecteert, slechts worden de gewijzigde kaarten DITA getoond. Een gewijzigde kaart is een kaart die is gegenereerd sinds deze voor het laatst is gepubliceerd.
-- **vooraf ingesteld**: Selecteer vooraf ingesteld waarvoor u de kaartdossiers wilt uit filtreren. In deze kolom wordt de titel weergegeven van de uitvoervoorinstelling die in het kaartbestand is geconfigureerd. Bijvoorbeeld, als u *vooraf ingesteld van de Plaats van 0&rbrace; AEM kiest, dan slechts worden die kaarten getoond die de* vooraf ingestelde 3&rbrace; output van de Plaats van AEM hebben die op hen wordt gevormd.**
+- **vooraf ingesteld**: Selecteer vooraf ingesteld waarvoor u de kaartdossiers wilt uit filtreren. In deze kolom wordt de titel weergegeven van de uitvoervoorinstelling die in het kaartbestand is geconfigureerd. Bijvoorbeeld, als u *vooraf ingesteld van de Plaats van 0} AEM kiest, dan slechts worden die kaarten getoond die de* vooraf ingestelde 3} output van de Plaats van AEM hebben die op hen wordt gevormd.**
 - **Taal**: U kunt om het even welke beschikbare taalcodes selecteren en slechts de geselecteerde taal tonen in de Kaarten en stelt tabel vooraf in.
 
 De filters worden bijgewerkt wanneer u van de **Kaarten en vooraf instelt** lusje aan het **lusje van de Geschiedenis van de Controle** schakelt en vice versa.
 
-**Bovenliggend onderwerp: &#x200B;** [&#x200B; Bulk Activering van gepubliceerde inhoud &#x200B;](conf-bulk-activation.md)
+**Bovenliggend onderwerp: **[ Bulk Activering van gepubliceerde inhoud ](conf-bulk-activation.md)

@@ -5,9 +5,9 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: f6bf1033-9c2f-42c7-9ad5-e1060e2c9770
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Voer de volgende stappen uit om het rapport Conversiestatus weer te geven:
 
 1. Selecteer **Gidsen** van de lijst van hulpmiddelen.
 
-1. Klik op de **tegel van het Rapport van de Status van de Omzetting 0&rbrace; &lbrace;.**
+1. Klik op de **tegel van het Rapport van de Status van de Omzetting 0} {.**
 
    Het rapport Conversiestatus wordt weergegeven voor alle conversietaken die op het systeem worden uitgevoerd.
 
@@ -57,4 +57,4 @@ Voer de volgende stappen uit om het rapport Conversiestatus weer te geven:
       - **Output**: Weg van het met succes omgezette document. Als u op de koppeling Uitvoer klikt, gaat u naar de locatie waar de uitvoer is opgeslagen.
 
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; Rapporten &#x200B;](reports-intro.md)
+**Bovenliggend onderwerp:**[ Rapporten ](reports-intro.md)

@@ -5,9 +5,9 @@ feature: Translation
 role: User
 hide: true
 exl-id: 09e813fd-ec22-4d2e-9ee7-098d562ad44f
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1295'
+source-wordcount: '1315'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Voer de volgende stappen uit om de te gebruiken service voor het vertalen van me
 
    >[!NOTE]
    >
-   > Zie [&#x200B; Vormend het Kader van de Integratie van de Vertaling &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=nl-NL) in de documentatie van AEM voor details bij het integreren met de diensten van de derdevertaling.
+   > Zie [ Vormend het Kader van de Integratie van de Vertaling ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) in de documentatie van AEM voor details bij het integreren met de diensten van de derdevertaling.
 
 1. Klik **sparen &amp; Sluiten** om de bijgewerkte omslageigenschappen te bewaren.
 
@@ -65,7 +65,7 @@ Voer de volgende stappen uit om een vertaalproject te maken:
 
 >[!NOTE]
 >
-> Alvorens stappen in deze procedure uit te voeren, zorg ervoor dat u de vereiste taalwortel en doelomslagen zoals die in [&#x200B; worden beschreven Beste praktijken voor inhoudsomzetting &#x200B;](#id1678G0S702F) hebt gecreeerd.
+> Alvorens stappen in deze procedure uit te voeren, zorg ervoor dat u de vereiste taalwortel en doelomslagen zoals die in [ worden beschreven Beste praktijken voor inhoudsomzetting ](#id1678G0S702F) hebt gecreeerd.
 
 1. Klik in de gebruikersinterface van Assets op het DITA-kaartbestand.
 
@@ -91,7 +91,7 @@ Voer de volgende stappen uit om een vertaalproject te maken:
    - **Onderzoek**: Ga één of veelvoudige termijnen in in in de onderwerptitels te zoeken.
    - **Type van Source**: verkies aan filteronderwerpen die op hun dossiertypes worden gebaseerd. De beschikbare opties zijn: All, DITA, DITA Map, Resource.
    - **Gewijzigde Versie van Source na**: verkies om onderwerp te filtreren dat op hun wijzigingsdatum en tijd wordt gebaseerd. Alle onderwerpen die na de gespecificeerde datum en de tijd worden gewijzigd worden getoond in de lijst.
-   - **Basislijn**: Klik Basislijn van het Gebruik en kies een basislijn die op de kaart wordt gecreeerd. Alle bestanden die deel uitmaken van de geselecteerde basislijn, worden weergegeven op de pagina Vertalen. U kunt de gewenste bestanden vanaf de basislijn kiezen en doorgaan met het vertaalproces. Nadat de inhoud is vertaald, kunt u de vertaalde basislijn exporteren. Voor meer details over het uitvoeren van de vertaalde Basislijn, zie [&#x200B; Uitvoer vertaalde Basislijn &#x200B;](generate-output-use-baseline-for-publishing.md#id196SE600GHS).
+   - **Basislijn**: Klik Basislijn van het Gebruik en kies een basislijn die op de kaart wordt gecreeerd. Alle bestanden die deel uitmaken van de geselecteerde basislijn, worden weergegeven op de pagina Vertalen. U kunt de gewenste bestanden vanaf de basislijn kiezen en doorgaan met het vertaalproces. Nadat de inhoud is vertaald, kunt u de vertaalde basislijn exporteren. Voor meer details over het uitvoeren van de vertaalde Basislijn, zie [ Uitvoer vertaalde Basislijn ](generate-output-use-baseline-for-publishing.md#id196SE600GHS).
 1. Klik **creëren/de Exemplaren van de Taal van de Update** bij de bodem van het paneel van de Filter.
 
 1. Van de **lijst van het Project**, uitgezochte **creeer een Nieuw Vertaalproject**.
@@ -100,7 +100,7 @@ Voer de volgende stappen uit om een vertaalproject te maken:
    >
    > Als u reeds een vertaalproject hebt, kunt u onderwerpen aan dat project toevoegen. Selecteer **toevoegen aan de Bestaande optie van het Project van de Vertaling** van de **lijst van het Project** en kies een project van de **Bestaande lijst van het Project van de Vertaling**.
 
-1. Op het **gebied van de Titel van het 0&rbrace; Project, ga een titel voor het project in.**
+1. Op het **gebied van de Titel van het 0} Project, ga een titel voor het project in.**
 
 1. Selecteer **omvatten de Kaart DITA** optie om de kaart voor vertaling te verzenden.
 1. Klik **Begin** om een nieuw vertaalproject tot stand te brengen.
@@ -141,4 +141,4 @@ Nadat de vertaling voltooit, verandert het statuut van de vertaalbaan in *Klaar 
 >
 > Als u de vertaling voor één of meerdere onderwerpen in een vertaalbaan verwerpt, keert de **Bezig** vertaalstatus van alle verworpen onderwerpen terug naar hun originele status. De status van de bedoelde onderwerpen wordt gecontroleerd en teruggezet volgens de meest recente vertaalstatus. Ook, worden de vertaaldossiers die in het bestemmingsproject worden gecreeerd niet geschrapt zelfs als de vertaling voor hen wordt verworpen.
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; vertaal inhoud &#x200B;](translation.md)
+**Bovenliggend onderwerp:**[ vertaal inhoud ](translation.md)

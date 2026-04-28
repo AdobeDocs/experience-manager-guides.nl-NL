@@ -5,9 +5,9 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: 371d89b8-fe05-4477-9bf8-cc47c0899108
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '2351'
+source-wordcount: '2362'
 ht-degree: 0%
 
 ---
@@ -147,11 +147,11 @@ De taken die u kunt uitvoeren via het venster Opmerkingen worden hieronder besch
 
 - Als u een onderwerp opent in de modus Voorvertoning, ziet u hoe een onderwerp wordt weergegeven wanneer een onderwerp wordt bekeken door een auteur nadat alle wijzigingen zijn toegepast. Alle ingevoegde tekst wordt bijvoorbeeld als normale tekst weergegeven en alle verwijderde \(verwijderde\) tekst wordt uit de inhoud verwijderd.
 
-- De volgende het schermschot toont de inhoud op *1&rbrace; wijze van het Overzicht &lbrace;:*
+- De volgende het schermschot toont de inhoud op *1} wijze van het Overzicht {:*
 
 ![](images/review-author-mode.png){width="550" align="left"}
 
-De volgende het schermschot toont de inhoud op *1&rbrace; wijze van de Voorproef &lbrace;:*
+De volgende het schermschot toont de inhoud op *1} wijze van de Voorproef {:*
 
 ![](images/review-preview-mode.png){width="550" align="left"}
 
@@ -250,4 +250,4 @@ Selecteer één of meerdere van de volgende het filtreren opties van het **Type 
 
 Om de filter te verwijderen en alle commentaren te bekijken, schrap alle filters van het **Type van Filter** dialoog en klik **toepassen**.
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; onderwerpen of kaarten van het Overzicht &#x200B;](review.md)
+**Bovenliggend onderwerp:**[ onderwerpen of kaarten van het Overzicht ](review.md)

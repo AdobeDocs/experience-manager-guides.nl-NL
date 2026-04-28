@@ -5,9 +5,9 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: 045cafac-393f-49e9-9432-6533a4c6dc01
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '18802'
+source-wordcount: '18945'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Wanneer u de aanwijzer boven de titel van een onderwerp plaatst, worden het best
 
 >[!NOTE]
 >
-> Zodra een versie van uw onderwerp beschikbaar is, kunt u etiketten aan uw onderwerp ook toevoegen. Deze labels kunnen vervolgens worden gebruikt om een basislijn te maken voor het publiceren van een specifieke versie van uw document. Voor meer informatie over het gebruiken van etiketten in uw onderwerpen, zie {de etiketten van het 0} Gebruik [&#128279;](web-editor-use-label.md#).
+> Zodra een versie van uw onderwerp beschikbaar is, kunt u etiketten aan uw onderwerp ook toevoegen. Deze labels kunnen vervolgens worden gebruikt om een basislijn te maken voor het publiceren van een specifieke versie van uw document. Voor meer informatie over het gebruiken van etiketten in uw onderwerpen, zie {de etiketten van het 0} Gebruik ](web-editor-use-label.md#).[
 
 **ongedaan maken en opnieuw** - ![](images/Undo_icon.svg) / ![](images/Redo_icon.svg)
 
@@ -120,8 +120,8 @@ De Editor-instellingen zijn alleen beschikbaar voor gebruikers met administratie
       - **laat Vervangen toe allen**: Selecteer dit om Alle pictogram van de Vervangen in het paneel van de Vondst en van de Vervangen te zien.
 
 
-   - **Bevelingen**
-Wijzig de stijl van de citaten. Kies de citaatstijl van drop-down u in uw project wilt gebruiken. Voor meer details zie [&#x200B; de citaatstijlen van de Verandering &#x200B;](./web-editor-apply-citations.md#change-citation-style).
+   - **Bijschriften**
+Wijzig de stijl van de citaten. Kies de citaatstijl van drop-down u in uw project wilt gebruiken. Voor meer details zie [ de citaatstijlen van de Verandering ](./web-editor-apply-citations.md#change-citation-style).
 
 
 **Panelen**: Dit het plaatsen controleert de panelen die in het linkerpaneel van de redacteur worden getoond. U kunt schakelen tussen het tonen of verbergen van het gewenste deelvenster.
@@ -132,7 +132,7 @@ Wijzig de stijl van de citaten. Kies de citaatstijl van drop-down u in uw projec
 >
 > Als er een aangepast deelvenster is geconfigureerd, wordt dit ook weergegeven in de lijst met deelvensters. U kunt schakelen tussen het weergeven of verbergen van het aangepaste deelvenster. Voor meer details op de configuratie, zie *een douanepaneel in de linkerpaneel* sectie in installeren en vormen Adobe Experience Manager Guides as a Cloud Service vormen.
 
-- **Lijst van Elementen**: Als beheerder, kunt u de lijst van elementen controleren die een auteur kan opnemen gebruikend [&#x200B; het Element van het Tussenvoegsel &#x200B;](#id204SG30105Z) pop-up, en ook de vertoningsnaam voor het element bepalen. Met de instelling Elements List kunt u de naam van het element opgeven volgens de DITA-specificaties en een label dat u wilt gebruiken in plaats van de door DITA gedefinieerde elementnaam:
+- **Lijst van Elementen**: Als beheerder, kunt u de lijst van elementen controleren die een auteur kan opnemen gebruikend [ het Element van het Tussenvoegsel ](#id204SG30105Z) pop-up, en ook de vertoningsnaam voor het element bepalen. Met de instelling Elements List kunt u de naam van het element opgeven volgens de DITA-specificaties en een label dat u wilt gebruiken in plaats van de door DITA gedefinieerde elementnaam:
 
   ![](images/editor-setting-element-list.png){width="650" align="left"}
 
@@ -150,13 +150,13 @@ In het volgende schermafbeelding worden slechts 3 van de 4 geconfigureerde eleme
 
   ![](images/editor-setting-add-attributes-list.png-to-element.PNG){width="300" align="left"}
 
-- **publiceer Profiel**: Dit bevat de Publish Profielen die kunnen worden gebruikt om de **3&rbrace; output van de Kennisbank &lbrace;te publiceren.** U kunt een nieuw profiel voor een doelkennisbasis tot stand brengen. Bijvoorbeeld Salesforce of ServiceNow.
+- **publiceer Profiel**: Dit bevat de Publish Profielen die kunnen worden gebruikt om de **3} output van de Kennisbank {te publiceren.** U kunt een nieuw profiel voor een doelkennisbasis tot stand brengen. Bijvoorbeeld Salesforce of ServiceNow.
 
    - **creeer een Salesforce publiceer Profiel**
 
      **Eerste vereisten**
 
-      - Maak een verbonden app voor Salesforce. Voor meer details, verwijs naar [&#x200B; laat OAuth Montages voor API Integratie &#x200B;](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&type=5) toe.
+      - Maak een verbonden app voor Salesforce. Voor meer details, verwijs naar [ laat OAuth Montages voor API Integratie ](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&type=5) toe.
 
       - Zorg tijdens het configureren van de verbonden app voor het volgende:
 
@@ -174,12 +174,11 @@ In het volgende schermafbeelding worden slechts 3 van de 4 geconfigureerde eleme
 
 
    - Om Salesforce tot stand te brengen publiceer Profiel, selecteer de **Salesforce** Kennisbank van **het Type van Server** dropdown. Voer een profielnaam in. In de **Plaats URL**, ga de consumentenplaats in u zou gebruiken om de output te publiceren en dan de **Consumentensleutel** toe te voegen en **Geheime consument** die door de de consumentenplaats van Salesforce wordt verstrekt. Dan, **bevestigt** en **sparen** het pas gecreëerde profiel.
-
-     ![&#x200B; salesforce publiceert profiel in redacteursmontages &#x200B;](./images/salesforce-publish-profile.png){width="550" align="left"}
+     ![ salesforce publiceert profiel in redacteursmontages ](./images/salesforce-publish-profile.png){width="550" align="left"}
 
      >[!NOTE]
      >
-     >Gebruik Apache HTTP Components Proxy Configuration in AEM om een proxy voor Salesforce in Experience Manager Guides te configureren. Leer hoe te [&#x200B; volmacht voor de Controleur van de Verbinding van AEM &#x200B;](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html) vormen.
+     >Gebruik Apache HTTP Components Proxy Configuration in AEM om een proxy voor Salesforce in Experience Manager Guides te configureren. Leer hoe te [ volmacht voor de Controleur van de Verbinding van AEM ](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html) vormen.
 
 
    - **creeer een ServiceNow publiceer Profiel**
@@ -187,7 +186,7 @@ In het volgende schermafbeelding worden slechts 3 van de 4 geconfigureerde eleme
      **Eerste vereisten**
 
      Vorm de server ServiceNow om de activa te uploaden.
-      - Verbind met de **&#x200B;**&#x200B;server ServiceNow.
+      - Verbind met de **** server ServiceNow.
       - Navigeer aan **Eigenschappen van het Systeem** > **Veiligheid**.
       - Schakel de volgende optie uit:
 
@@ -196,13 +195,13 @@ In het volgende schermafbeelding worden slechts 3 van de 4 geconfigureerde eleme
       - Klik **sparen**.
 
      Zodra u app hebt gevormd, creeer **ServiceNow** publiceer Profiel.
-   - Om een Publish Profiel tot stand te brengen, selecteer de Kennisbank ServiceNow van het **drop-down Type van Server 0&rbrace;.** Ga een profiel **Naam** in. In **ServiceNow URL**, ga de consumentenplaats in u voor het publiceren van de output zou gebruiken en dan de **Gebruikersnaam** en **Wachtwoord** toevoegde die&rbrace; door de plaats van de consument ServiceNow wordt verstrekt. Dan, **bevestigt** en **sparen** het pas gecreëerde profiel.
+   - Om een Publish Profiel tot stand te brengen, selecteer de Kennisbank ServiceNow van het **drop-down Type van Server 0}.** Ga een profiel **Naam** in. In **ServiceNow URL**, ga de consumentenplaats in u voor het publiceren van de output zou gebruiken en dan de **Gebruikersnaam** en **Wachtwoord** toevoegde die} door de plaats van de consument ServiceNow wordt verstrekt. Dan, **bevestigt** en **sparen** het pas gecreëerde profiel.
 
-     ![&#x200B; ServiceNow publiceert profiel &#x200B;](./images/service-now-publish-profile.png){width="550" align="left"}
+     ![ ServiceNow publiceert profiel ](./images/service-now-publish-profile.png){width="550" align="left"}
 
-  Nadat u bevestigt, kunt u het Publish Profiel in de outputvoorinstellingen van een Kaart selecteren DITA en het gebruiken om de output aan de **Salesforce** of **&#x200B;**&#x200B;server te produceren ServiceNow die u hebt gekozen.
+  Nadat u bevestigt, kunt u het Publish Profiel in de outputvoorinstellingen van een Kaart selecteren DITA en het gebruiken om de output aan de **Salesforce** of **** server te produceren ServiceNow die u hebt gekozen.
 
-  Leer meer over de [&#x200B; vooraf ingestelde output van de Kennisbank &#x200B;](../user-guide/generate-output-knowledge-base.md).
+  Leer meer over de [ vooraf ingestelde output van de Kennisbank ](../user-guide/generate-output-knowledge-base.md).
 
 
 - **Bevestiging**: Dit lusje bevat opties om de Bevestigingen Schematron in de redacteur van het Web te vormen. U kunt de volgende functies inschakelen:
@@ -212,13 +211,13 @@ In het volgende schermafbeelding worden slechts 3 van de 4 geconfigureerde eleme
      >[!NOTE]
      >Het geselecteerde schemabestand of de geselecteerde schemabestanden blijven aanwezig voor het geselecteerde mapprofiel.
 
-     ![&#x200B; Bevestiging in redacteursmontages &#x200B;](./images/editor-setting-validation.png){width="550" align="left"}
+     ![ Bevestiging in redacteursinstellingen](./images/editor-setting-validation.png){width="550" align="left"}
 Hiermee voorkomt u dat gebruikers een bestand opslaan dat een regel verbreekt die is gedefinieerd in de geselecteerde Schema-bestanden. Als u deze optie niet selecteert, wordt het bestand niet gevalideerd voordat de wijzigingen worden opgeslagen.
 
    - **staat alle gebruikers toe om schemadossiers in bevestigingspaneel toe te voegen**: Selecteer dit om de gebruikers toe te staan om het even welk dossier van het Schema in het paneel van de Bevestiging van de Redacteur van het Web toe te voegen. Dit staat de gebruikers toe om dossiers Schematron toe te voegen en dan de onderwerpen tegen het dossier van Schematron te bevestigen. Als dit niet wordt geselecteerd **voeg het Dossier van het Schema** knoop toe is niet beschikbaar aan de gebruikers in het **paneel van de Bevestiging** van de Redacteur van het Web.
 
 
-- **Attributen van de Vertoning**: Als de Lijst van Attributen, kunt u de lijst van attributen controleren die in de attributenlijst van een element moeten worden getoond. Door gebrek, zijn vier **Attributen van de Vertoning** — publiek, platform, product, en steunen gevormd om in de attributenlijst van een element worden getoond. U kunt een vertoningsattribuut ook toevoegen gebruikend **&#x200B;**&#x200B;pictogram op de bovenkant toevoegen. U kunt om het even welke vertoningsattributen ook schrappen gebruikend het **pictogram van de Schrapping**.
+- **Attributen van de Vertoning**: Als de Lijst van Attributen, kunt u de lijst van attributen controleren die in de attributenlijst van een element moeten worden getoond. Door gebrek, zijn vier **Attributen van de Vertoning** — publiek, platform, product, en steunen gevormd om in de attributenlijst van een element worden getoond. U kunt een vertoningsattribuut ook toevoegen gebruikend **** pictogram op de bovenkant toevoegen. U kunt om het even welke vertoningsattributen ook schrappen gebruikend het **pictogram van de Schrapping**.
 
   De kenmerken die voor een element zijn gedefinieerd, worden weergegeven in de layoutweergave en in de contourweergave.
 
@@ -229,7 +228,7 @@ Hiermee voorkomt u dat gebruikers een bestand opslaan dat een regel verbreekt di
 
    - **Groepen van de Taal**: Als beheerder, kunt u een groep talen tot stand brengen en hen gebruiken als reeks om de inhoud te vertalen.\
      Voer de volgende stappen uit om een nieuwe taalgroep te maken:
-      1. Selecteer toevoegen ![&#x200B; pictogram &#x200B;](images/Add_icon.svg) pictogram &lbrace;toevoegen.
+      1. Selecteer toevoegen ![ pictogram ](images/Add_icon.svg) pictogram {toevoegen.
       1. Voer de naam van de taalgroep in. Elke taal moet een unieke naam hebben. U kunt een fout weergeven als het naamveld leeg is of als de naam niet uniek is.
       1. Selecteer de talen in het vervolgkeuzemenu. U kunt meerdere talen selecteren.
 
@@ -240,7 +239,7 @@ Hiermee voorkomt u dat gebruikers een bestand opslaan dat een regel verbreekt di
          >
          > Knevel **tonen meer** aan **tonen minder** en bekijken slechts een paar talen.
 
-      1. Beweeg over de talen in een groep om ![&#x200B; uit te geven geef pictogram &#x200B;](images/edit_pencil_icon.svg) uit of schrap ![&#x200B; &#x200B;](images/Delete_icon.svg) de taalgroepen schrappen.
+      1. Beweeg over de talen in een groep om ![ uit te geven geef pictogram ](images/edit_pencil_icon.svg) uit of schrap ![ ](images/Delete_icon.svg) de taalgroepen schrappen.
       1. Sparen de **montages van de Redacteur**.
 
          >[!NOTE]
@@ -263,7 +262,7 @@ Hiermee voorkomt u dat gebruikers een bestand opslaan dat een regel verbreekt di
 
 
 
-  ![&#x200B; meta-gegevenslusje in de redacteursmontages &#x200B;](images/editor-setting-metadata.png){width="550" align="left"}
+  ![ meta-gegevenslusje in de redacteursmontages ](images/editor-setting-metadata.png){width="550" align="left"}
 
   *vorm de meta-gegevens voor het **de dialoogvakje van de Geschiedenis van de Versie**.*
 
@@ -275,7 +274,7 @@ De meta-gegevensetiketten verschijnen in de zelfde opeenvolging in de **Geschied
 
 
 
-**de voorkeur van de Gebruiker** - ![&#x200B; pictogram van de gebruikersvoorkeur &#x200B;](images/user_preference_editor_icon.svg)
+**de voorkeur van de Gebruiker** - ![ pictogram van de gebruikersvoorkeur ](images/user_preference_editor_icon.svg)
 
 De gebruikersvoorkeuren zijn beschikbaar voor alle auteurs. Met de voorkeuren kan een auteur de volgende instellingen configureren:
 
@@ -283,7 +282,7 @@ De gebruikersvoorkeuren zijn beschikbaar voor alle auteurs. Met de voorkeuren ka
 
 - **Algemeen**: Het Algemene lusje staat u toe om de volgende montages te vormen:
 
-  ![&#x200B; Algemene lusje van gebruikersvoorkeur &#x200B;](images/user_preference_editor.PNG){width="550" align="left"}
+  ![ Algemene lusje van gebruikersvoorkeur ](images/user_preference_editor.PNG){width="550" align="left"}
 
    - **Profielen van de Omslag**: De controles van het Profiel van de Omslag diverse configuraties met betrekking tot voorwaardelijke attributen, auteursmalplaatjes, output stellen vooraf in en de configuraties van de Redacteur van het Web. Het algemene profiel wordt standaard weergegeven. Als uw beheerder mapprofielen heeft geconfigureerd in het systeem, worden deze mapprofielen ook weergegeven in de lijst Mapprofielen.
 
@@ -295,7 +294,7 @@ De gebruikersvoorkeuren zijn beschikbaar voor alle auteurs. Met de voorkeuren ka
 
    - **Weg van de Basis**: Door gebrek, wanneer u tot de bewaarplaats van AEM van de Redacteur van het Web toegang hebt, wordt u getoond activa van de /content/dam plaats. De werkmap bevat hoogstwaarschijnlijk enkele mappen in de map /content/dam/. Het zou u een paar klikken nemen om de werkende omslag telkens te bereiken. U kunt het Basispad instellen op uw werkmap en vervolgens in de weergave Opslagplaats de inhoud van die locatie vooraf weergeven. Hierdoor neemt de tijd voor toegang tot uw werkmap af. Ook, wanneer u om het even welk verwijzing of media dossier in uw onderwerp opneemt, doorbladert het dossier plaats begint met de omslag die in de Weg van de Basis wordt geplaatst.
 
-   - **Uitgezochte Kaart van de Wortel**: Selecteer een DITA kaartdossier om zeer belangrijke verwijzingen of verklarende woordenlijstingangen op te lossen. De geselecteerde hoofdmap heeft de hoogste prioriteit om toetsverwijzingen op te lossen. Voor meer details, zie [&#x200B; zeer belangrijke verwijzingen &#x200B;](map-editor-other-features.md#id176GD01H05Z) oplossen.
+   - **Uitgezochte Kaart van de Wortel**: Selecteer een DITA kaartdossier om zeer belangrijke verwijzingen of verklarende woordenlijstingangen op te lossen. De geselecteerde hoofdmap heeft de hoogste prioriteit om toetsverwijzingen op te lossen. Voor meer details, zie [ zeer belangrijke verwijzingen ](map-editor-other-features.md#id176GD01H05Z) oplossen.
 
      >[!NOTE]
      >    
@@ -303,7 +302,7 @@ De gebruikersvoorkeuren zijn beschikbaar voor alle auteurs. Met de voorkeuren ka
 
 - **Verschijning**: Selecteer de thema&#39;s voor de toepassing van de Redacteur van het Web en de bronmening van het inhoud het uitgeven gebied.
 
-  ![&#x200B; vormgevingslusje van gebruikersvoorkeur &#x200B;](images/user_preference_editor_appearance.png){width="550" align="left"}
+  ![ vormgevingslusje van gebruikersvoorkeur ](images/user_preference_editor_appearance.png){width="550" align="left"}
 
    - **dossiers van de Mening door**: Selecteer de standaardmanier om de dossiers in de Redacteur van het Web te bekijken. U kunt de lijst van dossiers door de titels of de filenames van de diverse panelen in de **Auteur** mening bekijken.
 
@@ -311,7 +310,7 @@ De gebruikersvoorkeuren zijn beschikbaar voor alle auteurs. Met de voorkeuren ka
      >
      > Standaard worden de bestanden op titel weergegeven in de webeditor.
 
-   - **thema van de Toepassing**: U kunt van de **Lichte** of **Donkere** thema&#39;s voor de toepassing kiezen. In het geval van het **Lichte** thema, gebruiken de toolbars en de panelen een lichtgrijze kleurenachtergrond. In het geval van het **Donkere** thema, gebruiken de toolbars en de panelen een zwarte kleurenachtergrond. Selecteer **het apparatenthema van het Gebruik** om Experience Manager Guides toe te staan om de lichte en donkere thema&#39;s te selecteren die op het thema van uw apparaat worden gebaseerd.  In alle thema&#39;s, wordt het inhoud het uitgeven gebied getoond in witte kleurenachtergrond in de **1&rbrace; mening van de Auteur &lbrace;.**
+   - **thema van de Toepassing**: U kunt van de **Lichte** of **Donkere** thema&#39;s voor de toepassing kiezen. In het geval van het **Lichte** thema, gebruiken de toolbars en de panelen een lichtgrijze kleurenachtergrond. In het geval van het **Donkere** thema, gebruiken de toolbars en de panelen een zwarte kleurenachtergrond. Selecteer **het apparatenthema van het Gebruik** om Experience Manager Guides toe te staan om de lichte en donkere thema&#39;s te selecteren die op het thema van uw apparaat worden gebaseerd.  In alle thema&#39;s, wordt het inhoud het uitgeven gebied getoond in witte kleurenachtergrond in de **1} mening van de Auteur {.**
 
    - **de meningsthema van Source**: - U kunt van de **Lichte** of **Donkere** thema&#39;s voor de inhoud kiezen die gebied in bronmening uitgeeft. In het geval van het **Lichte** thema, gebruikt het inhoud het uitgeven gebied een lichtgrijze kleurenachtergrond voor de bronmening terwijl in het geval van **Donker** thema, het een zwarte kleurenachtergrond gebruikt. Selecteer **het apparatenthema van het Gebruik** om Experience Manager Guides toe te staan om de lichte en donkere thema&#39;s te selecteren die op het thema van uw apparaat worden gebaseerd.
 
@@ -321,7 +320,7 @@ De gebruikersvoorkeuren zijn beschikbaar voor alle auteurs. Met de voorkeuren ka
 
 **Auteur, Source, en de wijzen van de Voorproef**
 
-Voor details over de diverse het schrijven en document het bekijken wijzen, zie {de meningen van de Redacteur van het 0} Web [&#128279;](web-editor-views.md#).
+Voor details over de diverse het schrijven en document het bekijken wijzen, zie {de meningen van de Redacteur van het 0} Web ](web-editor-views.md#).[
 
 ## Secundaire werkbalk {#id2051EA0J0Y4}
 
@@ -344,13 +343,13 @@ Als u zich bijvoorbeeld binnen het inline `<b>` -element bevindt, kunt u op de h
 U kunt ook een teken of tekenreeks typen in het zoekvak en zoeken naar de elementen die ermee beginnen.
 
 
-![&#x200B; tussenvoegselelement &#x200B;](images/insert-element.png){width="300" align="left"}
+![ tussenvoegselelement ](images/insert-element.png){width="300" align="left"}
 
 *ga &quot;t&quot;aan onderzoek naar alle geldige elementen in die met &quot;t&quot;beginnen.*
 
 Als u in een blokelement werkt zoals een `note` , gebruikt u het pictogram Element invoegen om een nieuw element in te voegen na het `note` -element. In het volgende scherm is een notitie-element ingevoegd in het p \(alinea\)-element:
 
-![&#x200B; het element van het Tussenvoegsel in een blokelement &#x200B;](images/note-in-para-insert-element_cs.png){width="800" align="left"}
+![ het element van het Tussenvoegsel in een blokelement ](images/note-in-para-insert-element_cs.png){width="800" align="left"}
 
 Als u op Enter drukt in het notitie-element, wordt een nieuwe alinea gemaakt in het notitie-element zelf. Om een nieuw element buiten nota op te nemen, klik het p element \ (die in schermafbeelding \) in de elementenbroodkruimel wordt benadrukt en klik op het pictogram van het Element van het Tussenvoegsel of druk ***Alt*** + ***gaat*** binnen om het Element pop-up van het Tussenvoegsel te openen. Selecteer vervolgens het gewenste element en druk op Enter om het geselecteerde element in te voegen na het notitie-element.
 
@@ -410,7 +409,7 @@ Met behulp van het contextmenu van de tabel kunt u:
 U kunt ook kenmerken definiëren voor meerdere cellen, hele rijen of kolommen in een tabel. Als u bijvoorbeeld een tabelcel wilt uitlijnen, sleept u en selecteert u de gewenste cel. In het paneel van Eigenschappen van de Inhoud (op het recht), verandert het bezit **Type** in **Veelvoudige Ingang**.
 
 1. In de **sectie van Attributen**, klik **+ voeg** toe.
-1. Selecteer het `@valign` attribuut van de **2&rbrace; dropdown lijst van Attributen &lbrace;.**
+1. Selecteer het `@valign` attribuut van de **2} dropdown lijst van Attributen {.**
 1. Selecteer in de vervolgkeuzelijst Waarde de gewenste tekstuitlijning die u wilt toepassen op de geselecteerde tabelcellen.
 1. Klik **toevoegen.**
 
@@ -422,7 +421,7 @@ Hiermee voegt u een afbeelding in op de huidige of volgende geldige locatie. Kli
 
 >[!NOTE]
 >
-> U kunt ook een afbeelding toevoegen door deze van uw lokale systeem naar uw artikel te slepen. In dit geval, wordt het beelddossier toegevoegd gebruikend **uploadt Assets** werkschema.  Voor meer details, zie **Assets** werkschema uploaden in de [&#x200B; Linkerpaneel &#x200B;](web-editor-features.md#id2051EA0M0HS) sectie.
+> U kunt ook een afbeelding toevoegen door deze van uw lokale systeem naar uw artikel te slepen. In dit geval, wordt het beelddossier toegevoegd gebruikend **uploadt Assets** werkschema.  Voor meer details, zie **Assets** werkschema uploaden in de [ Linkerpaneel ](web-editor-features.md#id2051EA0M0HS) sectie.
 
 
 ![](images/insert-image.png){width="650" align="left"}
@@ -445,7 +444,7 @@ U kunt andere eigenschappen voor een beelddossier ook toevoegen door de vereiste
 
 >[!NOTE]
 >
->U kunt ook klikbare gebieden \(afbeelding met hyperlinks\) in uw afbeelding definiëren. Voor meer details, zie het **Tussenvoegsel/geef de eigenschapbeschrijving van de Kaart van het Beeld** in de [&#x200B; Linkerpaneel &#x200B;](web-editor-features.md#id2051EA0M0HS) sectie uit.
+>U kunt ook klikbare gebieden \(afbeelding met hyperlinks\) in uw afbeelding definiëren. Voor meer details, zie het **Tussenvoegsel/geef de eigenschapbeschrijving van de Kaart van het Beeld** in de [ Linkerpaneel ](web-editor-features.md#id2051EA0M0HS) sectie uit.
 
 **Contextmenu voor beeld of media dossiers**
 
@@ -494,7 +493,7 @@ U kunt ook zoeken met de UUID van het bestand waarnaar u wilt verwijzen. Voer bi
 
 ![](images/insert-content-using-uuid-search.png){width="650" align="left"}
 
-Als uw beheerder de optie UUIDs in *XMLEditorConfig* heeft toegelaten, dan zult u UUID van de referenced inhoud in het **3&rbrace; bezit van de Verbinding &lbrace;zien.**
+Als uw beheerder de optie UUIDs in *XMLEditorConfig* heeft toegelaten, dan zult u UUID van de referenced inhoud in het **3} bezit van de Verbinding {zien.**
 
 ![](images/ref-link-uuid_cs.png){width="800" align="left"}
 
@@ -526,7 +525,7 @@ De lijst met gefilterde bestanden die de gezochte tekst bevatten, wordt weergege
 
 **Tussenvoegsel Herbruikbare Inhoud** - ![](images/content-reuse-icon.svg)
 
-Inhoud in andere documenten in uw project opnieuw gebruiken. U kunt inhoud opnemen door rechtstreeks met de inhoud in een dossier te verbinden of door een zeer belangrijke verwijzing te gebruiken, zie [&#x200B; zeer belangrijke verwijzingen &#x200B;](map-editor-other-features.md#id176GD01H05Z) oplossen. Wanneer u op het pictogram Herbruikbare inhoud invoegen klikt, wordt het dialoogvenster Inhoud opnieuw gebruiken weergegeven:
+Inhoud in andere documenten in uw project opnieuw gebruiken. U kunt inhoud opnemen door rechtstreeks met de inhoud in een dossier te verbinden of door een zeer belangrijke verwijzing te gebruiken, zie [ zeer belangrijke verwijzingen ](map-editor-other-features.md#id176GD01H05Z) oplossen. Wanneer u op het pictogram Herbruikbare inhoud invoegen klikt, wordt het dialoogvenster Inhoud opnieuw gebruiken weergegeven:
 
 ![](images/reuse-content-dialog.png){width="650" align="left"}
 
@@ -570,7 +569,7 @@ U kunt de kenmerken van het trefwoord wijzigen of een nieuw kenmerk aan het tref
 
 **Fragment van het Tussenvoegsel** - ![](images/insert-snippet-icon.svg)
 
-Voeg een fragment in op de huidige of volgende geldige locatie. Deze functie werkt alleen als in uw systeem fragmenten zijn gedefinieerd. Voor meer informatie over het toevoegen van een fragment, zie de **eigenschapbeschrijving van het Fragment** &lbrace;in de [&#x200B; Linkerpaneel &#x200B;](web-editor-features.md#id2051EA0M0HS) sectie.
+Voeg een fragment in op de huidige of volgende geldige locatie. Deze functie werkt alleen als in uw systeem fragmenten zijn gedefinieerd. Voor meer informatie over het toevoegen van een fragment, zie de **eigenschapbeschrijving van het Fragment** {in de [ Linkerpaneel ](web-editor-features.md#id2051EA0M0HS) sectie.
 
 Wanneer u op het pictogram Fragment invoegen klikt, wordt de catalogus Fragment invoegen weergegeven. De catalogus is contextgevoelig, wat aangeeft dat de fragmenten alleen worden weergegeven als ze op de huidige locatie zijn toegestaan.
 
@@ -608,7 +607,7 @@ Als u in de Kaartweergave werkt en de bovenliggende kaart uitvouwt, kunt u met �
 
 De knopinfo voor In- en uitchecken wordt bepaald door de eigenschap title in het `ui_config.json` -bestand.
 
-Voor meer details, vormt de mening [&#x200B; de titel voor Controle binnen en Controle uit pictogrammen &#x200B;](/help/product-guide/install-guide/conf-checkin-checkout-title.md) in de On-premise Gids van de Installatie en van de configuratie.
+Voor meer details, vormt de mening [ de titel voor Controle binnen en Controle uit pictogrammen ](/help/product-guide/install-guide/conf-checkin-checkout-title.md) in de On-premise Gids van de Installatie en van de configuratie.
 
 
 **de Mening van Markeringen van de knevel** - ![](images/Label_icon.svg)
@@ -632,7 +631,7 @@ De volgende bewerkingen kunnen worden uitgevoerd in een document met de codeweer
 
 >[!NOTE]
 >
-> Als een gebruiker de Mening van Markeringen van de Redacteur van het Web toelaat, blijft het toegelaten zelfs over de zittingen. Dit betekent dat u niet de Mening van Markeringen moet opnieuw toelaten om tot het later toegang te hebben.De standaardwaarde voor de Mening van Markeringen voor de zitting van een nieuwe gebruiker wordt bepaald door het bezit tagsView in het ui \_config.json- dossier. Voor meer details, zie *standaardwaarde voor de sectie van de Mening van Markeringen* in installeer en vorm Adobe Experience Manager Guides as a Cloud Service.
+> Als een gebruiker de Mening van Markeringen van de Redacteur van het Web toelaat, blijft het toegelaten zelfs over de zittingen. Dit betekent dat u de mening van Markeringen niet moet toelaten om tot het later toegang te hebben.De standaardwaarde voor de Mening van Markeringen voor een nieuwe gebruikerszitting wordt bepaald door het bezit tagsView in het ui \_config.json- dossier. Voor meer details, zie *standaardwaarde voor de sectie van de Mening van Markeringen* in installeer en vorm Adobe Experience Manager Guides as a Cloud Service.
 
 **toelaten/onbruikbaar de Veranderingen van het Spoor** ![](images/track-change-icon.svg)
 
@@ -656,7 +655,7 @@ Als u alle veranderingen met één enkele klik wilt goedkeuren of verwerpen, keu
 
 >[!NOTE]
 >
-> In de modus Voorvertoning kunt u het document met of zonder de gewijzigde markeringen van de inhoud weergeven. Voor meer details, zie de [&#x200B; wijze van de Voorproef &#x200B;](web-editor-views.md#preview-mode-id19AAGL00163).
+> In de modus Voorvertoning kunt u het document met of zonder de gewijzigde markeringen van de inhoud weergeven. Voor meer details, zie de [ wijze van de Voorproef ](web-editor-views.md#preview-mode-id19AAGL00163).
 
 **Fusie** - ![](images/merge-icon.svg)
 
@@ -735,7 +734,7 @@ Ga als volgt te werk om de versiegeschiedenis te openen en terug te keren naar e
 
    Het **de dialoogvakje van de Geschiedenis van de Versie** verschijnt.
 
-   ![&#x200B; de geschiedenisdialoogdoos van de Versie &#x200B;](images/version-history-dialog-web-editor.png){width="550" align="left"}
+   ![ De dialoogdoos van de historie van de Versie](images/version-history-dialog-web-editor.png){width="550" align="left"}
    *Voorproef de veranderingen in de verschillende versies van een onderwerp.*
 
 1. Kies een versie van het onderwerp dat u wilt vergelijken of terugkeren aan in **vergelijken met** dropdown lijst.
@@ -753,7 +752,7 @@ Ga als volgt te werk om de versiegeschiedenis te openen en terug te keren naar e
    **Voorproef** tabel: De onlangs toegevoegde inhoud is in groene doopvont, en de geschrapte inhoud is in rode doopvont.
 
    **Meta-gegevens** tabel: De onlangs toegevoegde meta-gegevens is in groene doopvont, en de geschrapte meta-gegevens is in rode doopvont.
-   ![&#x200B; Het verschil van meta-gegevens voor versies &#x200B;](images/metadata-version-diff.png){width="550" align="left"}
+   ![ het verschil van Meta-gegevens voor versies ](images/metadata-version-diff.png){width="550" align="left"}
    *vergelijk de meta-gegevens van verschillende versies in de geschiedenis van de Versie.*
 
    >[!NOTE]
@@ -792,7 +791,7 @@ Met AEM Guides kunt u labels opgeven in een tekstindeling met vrije vorm of een 
 
 Deze labels worden in de vorm van een vervolgkeuzelijst weergegeven aan auteurs, waar ze een label moeten opgeven. Dit zorgt ervoor dat alleen vooraf gedefinieerde, consistente labels in het systeem worden gebruikt.
 
-Er zijn verschillende methodes waardoor u etiketten op uw onderwerpen kunt toepassen - [&#128279;](web-editor-use-label.md) paneel van de Geschiedenis van de Versie  in Assets UI, [&#x200B; Basislijnen &#x200B;](/help/product-guide/user-guide/generate-output-use-baseline-for-publishing.md) UI, en de Redacteur van het Web. De eigenschap van het Etiket van de Versie in de Redacteur van het Web geeft auteurs snelle en gemakkelijke manier om etiketten aan hun onderwerpen toe te wijzen.
+Er zijn verschillende methodes waardoor u etiketten op uw onderwerpen kunt toepassen - ](web-editor-use-label.md) paneel van de Geschiedenis van de Versie [ in Assets UI, [ Basislijnen ](/help/product-guide/user-guide/generate-output-use-baseline-for-publishing.md) UI, en de Redacteur van het Web. De eigenschap van het Etiket van de Versie in de Redacteur van het Web geeft auteurs snelle en gemakkelijke manier om etiketten aan hun onderwerpen toe te wijzen.
 
 Om etiketten aan uw onderwerp van de Redacteur van het Web toe te voegen, voer de volgende stappen uit:
 
@@ -835,7 +834,7 @@ U kunt een overzichtstaak van het huidige onderwerp of kaartdossier direct van d
 >
 > U kunt ook een revisietaak maken via het deelvenster Revisie \(aan de rechterkant\).
 
-Volg de instructies die in de [&#x200B; onderwerpen of kaarten van het Overzicht &#x200B;](review.md#) voor meer details worden gegeven.
+Volg de instructies die in de [ onderwerpen of kaarten van het Overzicht ](review.md#) voor meer details worden gegeven.
 
 ## Deelvenster Links {#id2051EA0M0HS}
 
@@ -855,7 +854,7 @@ Standaard kunt u de bestanden op titels weergeven. Terwijl u de cursor op een be
 
 >[!NOTE]
 >
-> Als beheerder, kunt u ook verkiezen om de lijst van dossiers door filenames in de Redacteur van het Web te bekijken. Selecteer de **optie van de Naam van het 0&rbrace; Dossier &lbrace;van de** dossiers van de Mening door **sectie in** voorkeur van de Gebruiker **![](images/user_preference_editor_icon.svg).**
+> Als beheerder, kunt u ook verkiezen om de lijst van dossiers door filenames in de Redacteur van het Web te bekijken. Selecteer de **optie van de Naam van het 0} Dossier {van de** dossiers van de Mening door **sectie in** voorkeur van de Gebruiker **![](images/user_preference_editor_icon.svg).**
 
 Als u een favoriete lijst of verzameling wilt maken, klikt u op het pictogram + naast het deelvenster Favorieten om het logboek New Collection Media weer te geven:
 
@@ -901,7 +900,7 @@ Wanneer u op het pictogram Weergave opslagplaats klikt, wordt een lijst met best
 
 >[!NOTE]
 >
-> Als beheerder, kunt u ook verkiezen om de lijst van dossiers door filenames in de Redacteur van het Web te bekijken. Selecteer de **optie van de Naam van het 0&rbrace; Dossier &lbrace;van de** dossiers van de Mening door **sectie in** voorkeur van de Gebruiker **![](images/user_preference_editor_icon.svg).**
+> Als beheerder, kunt u ook verkiezen om de lijst van dossiers door filenames in de Redacteur van het Web te bekijken. Selecteer de **optie van de Naam van het 0} Dossier {van de** dossiers van de Mening door **sectie in** voorkeur van de Gebruiker **![](images/user_preference_editor_icon.svg).**
 
 
 Er worden 75 bestanden tegelijk geladen. Telkens als u **klikt Lading meer**... 75 dossiers worden geladen, en de knoopeinden die worden getoond wanneer alle dossiers zijn vermeld. Het laden van deze batch is efficiënt en u hebt sneller toegang tot de bestanden dan tot het laden van alle bestanden in een map.
@@ -914,22 +913,22 @@ de weergave van de video. In het snelmenu hebt u ook de opties om te downloaden,
 
 
 
-Selecteer een kaart en druk binnengaan of tweemaal klikken om het in de **Mening van de Kaart** te openen. Voor meer details, zie de **de eigenschapbeschrijving van de Mening van de Kaart** in de [&#x200B; Linkerpaneel &#x200B;](web-editor-features.md#id2051EA0M0HS) sectie. Selecteer een onderwerp en druk binnengaan of tweemaal klikken om het in het [&#x200B; het uitgeven gebied van de Inhoud &#x200B;](#id2051EB000UI) te openen. Als u een bestand rechtstreeks vanuit de webeditor kunt openen en er kunt navigeren, bespaart u tijd en verhoogt u de productiviteit.
+Selecteer een kaart en druk binnengaan of tweemaal klikken om het in de **Mening van de Kaart** te openen. Voor meer details, zie de **de eigenschapbeschrijving van de Mening van de Kaart** in de [ Linkerpaneel ](web-editor-features.md#id2051EA0M0HS) sectie. Selecteer een onderwerp en druk binnengaan of tweemaal klikken om het in het [ het uitgeven gebied van de Inhoud ](#id2051EB000UI) te openen. Als u een bestand rechtstreeks vanuit de webeditor kunt openen en er kunt navigeren, bespaart u tijd en verhoogt u de productiviteit.
 
 **Onderzoek van de Filter**
 
 De webeditor biedt verbeterde filters voor het zoeken naar tekst. U kunt zoeken en filteren naar tekst in de bestanden die zich op het geselecteerde pad van de Adobe Experience Manager-opslagplaats bevinden. Deze zoekt in de titel, de bestandsnaam en de inhoud in de bestanden.
 
 
-![&#x200B; onderzoeksdossiers in bewaarplaatmening &#x200B;](images/repository-filter-search.png){width="300" align="left"}
+![ onderzoeksdossiers in bewaarplaatmening ](images/repository-filter-search.png){width="300" align="left"}
 
 *pas filters op onderzoek naar de dossiers toe die de tekst bevatten`general purpose.`*
 
-Selecteer het **\ van het Filteronderzoek van 0&rbrace; Filter &lbrace;(![&#x200B; het filterpictogram van het Onderzoek &#x200B;](images/filter-search-icon.svg) \) pictogram om de Filter door pop-up te openen.**
+Selecteer het **\ van het Filteronderzoek van 0} Filter {(![ het filterpictogram van het Onderzoek ](images/filter-search-icon.svg) \) pictogram om de Filter door pop-up te openen.**
 
 >[!NOTE]
 >
-> Wanneer u om het even welke tekst of filter om het even welke dossiers zoekt, verschijnt een blauwe punt op het **Onderzoek van de Filter** \ (![&#x200B; het filterpictogram van het Onderzoek &#x200B;](images/filter-search-icon.svg) \) om erop te wijzen dat wij op het onderzoekspaneel zijn en dat sommige filters zijn toegepast.
+> Wanneer u om het even welke tekst of filter om het even welke dossiers zoekt, verschijnt een blauwe punt op het **Onderzoek van de Filter** \ (![ het filterpictogram van het Onderzoek ](images/filter-search-icon.svg) \) om erop te wijzen dat wij op het onderzoekspaneel zijn en dat sommige filters zijn toegepast.
 
 
 U hebt de volgende opties om de bestanden te filteren en uw zoekopdracht in de Adobe Experience Manager-opslagplaats te beperken:
@@ -937,17 +936,17 @@ U hebt de volgende opties om de bestanden te filteren en uw zoekopdracht in de A
 - **DITA Dossiers**: U kunt alle **Onderwerpen DITA** zoeken en **Kaarten DITA** aanwezig op de geselecteerde weg. Deze zijn standaard geselecteerd.
 - **niet-DITA Dossiers**: U kunt naar **Ditaval Dossiers** zoeken, **Dossiers van het Beeld**, **Multimedia**, **Documenten**, en **Json** in de geselecteerde weg.
 
-![&#x200B; snel zoekfilter &#x200B;](images/repository-filter-search-quick.png) {width="300" align="left"}
+![ snel zoekfilter ](images/repository-filter-search-quick.png) {width="300" align="left"}
 
 *gebruik de snelle filters om naar DITA en niet-DITA dossiers te zoeken.*
 
 **Geavanceerd het Filtreren**
 
-Selecteer het **Geavanceerde het Filtreren** ![&#x200B; geavanceerde filterpictogram &#x200B;](images/advanced-filter-gear-icon.svg) pictogram om het **Geavanceerde de filterdoos** te bekijken.
+Selecteer het **Geavanceerde het Filtreren** ![ geavanceerde filterpictogram ](images/advanced-filter-gear-icon.svg) pictogram om het **Geavanceerde de filterdoos** te bekijken.
 
 U kunt de volgende opties onder de **Algemene** bekijken en **Geavanceerde** lusjes.
 
-![&#x200B; geavanceerd de dialoogvakje van de filterdialoog &#x200B;](images/repository-filter-search-advanced.png) {width="800" align="left"}
+![ geavanceerd de dialoogvakje van de filterdialoog ](images/repository-filter-search-advanced.png) {width="800" align="left"}
 
 
 **Algemeen**
@@ -967,13 +966,13 @@ Dit is synchroon met het zoekvak in het venster Opslagplaats. Bijvoorbeeld, als 
 **Geavanceerd**
 
 - **Elementen DITA**: U kunt naar specifieke waarden in de attributen van de gespecificeerde elementen ook zoeken DITA.
-   - Selecteer **toevoegen element** ![&#x200B; pictogram &#x200B;](images/Add_icon.svg) om de elementen, de attributen, en de waarden toe te voegen.
+   - Selecteer **toevoegen element** ![ pictogram ](images/Add_icon.svg) om de elementen, de attributen, en de waarden toe te voegen.
    - Pas de filters toe die u hebt geselecteerd.
 
 - Selecteer **ontruimen allen** om alle toegepaste filters te ontruimen.
 
 
-- Selecteer het **Dichte filter** ![&#x200B; dichte pictogram &#x200B;](images/close-icon.svg) pictogram om de filter te sluiten en aan de boommening van de bewaarplaats terug te keren.
+- Selecteer het **Dichte filter** ![ dichte pictogram ](images/close-icon.svg) pictogram om de filter te sluiten en aan de boommening van de bewaarplaats terug te keren.
 
   >[!NOTE]
   >
@@ -995,7 +994,7 @@ U kunt de volgende acties uitvoeren gebruikend het menu van Opties beschikbaar v
 ![](images/options-menu-folder_cs.PNG){width="550" align="left"}
 
 
-- **creeer**: Creeer een nieuw onderwerp DITA, kaart DITA, of een omslag. Voor meer details, zie **onderwerpen van de Bewaarplaats** procedure van de Mening van de Bewaarplaats in de [&#x200B; Linkerpaneel &#x200B;](web-editor-features.md#id2051EA0M0HS) sectie creëren.
+- **creeer**: Creeer een nieuw onderwerp DITA, kaart DITA, of een omslag. Voor meer details, zie **onderwerpen van de Bewaarplaats** procedure van de Mening van de Bewaarplaats in de [ Linkerpaneel ](web-editor-features.md#id2051EA0M0HS) sectie creëren.
 
 
 
@@ -1041,14 +1040,14 @@ U ziet verschillende opties in het menu Opties, afhankelijk van het feit of u ee
 - Kopiëren
 - Alles samenvouwen
 - Toevoegen aan Favorieten
-- Eigenschappen
+- Properties
 - Weergeven in gebruikersinterface van Assets
 
-![&#x200B; optiemenu van een dossier in de mening van de bewaarplaats &#x200B;](images/options-menu-repo-view-file-level.png){width="550" align="left"}
+![ optiemenu van een dossier in de mening van de bewaarplaats ](images/options-menu-repo-view-file-level.png){width="550" align="left"}
 
 De verschillende opties in het menu Opties worden hieronder uitgelegd:
 
-- **geef** uit: Open het dossier voor het uitgeven. In het geval van een.ditamap/.bookmap- dossier, wordt het geopend in de [&#x200B; Geavanceerde Redacteur van de Kaart &#x200B;](map-editor-advanced-map-editor.md#) voor het uitgeven.
+- **geef** uit: Open het dossier voor het uitgeven. In het geval van een.ditamap/.bookmap- dossier, wordt het geopend in de [ Geavanceerde Redacteur van de Kaart ](map-editor-advanced-map-editor.md#) voor het uitgeven.
 
 - **Dupliceer**: Gebruik deze optie om een dubbel of een exemplaar van het geselecteerde dossier tot stand te brengen. U kunt de naam van het gedupliceerde bestand ook wijzigen in de vraag Elementen dupliceren. Standaard wordt het bestand gemaakt met het achtervoegsel \(zoals bestandsnaam\_1.extension\). De titel van het bestand blijft dezelfde als het bronbestand en het nieuwe bestand begint met versie 1.0. Alle verwijzingen, markeringen, en meta-gegevens worden gekopieerd terwijl de basislijnen niet in het dubbele dossier worden gekopieerd.
 - **Controle uit**: Krijg een slot op het geselecteerde dossier voor het uitgeven. Voor een gesloten dossier, verandert deze optie in **Controle binnen**.
@@ -1145,7 +1144,7 @@ De verschillende opties in het menu Opties worden hieronder uitgelegd:
 
   >[!NOTE]
   >
-  >Neem contact op met het team voor succes van uw klant om deze functie in de omgeving in te schakelen. Dit wordt niet toegelaten als deel van uit-van-de-doos steun. Voor meer details, bekijk [&#x200B; de optie vormen om in sectie Oxygen &#x200B;](/help/product-guide/cs-install-guide/conf-edit-in-oxygen.md) in de Gids van de Installatie en van de Configuratie uit te geven.
+  >Neem contact op met het team voor succes van uw klant om deze functie in de omgeving in te schakelen. Dit wordt niet toegelaten als deel van uit-van-de-doos steun. Voor meer details, bekijk [ de optie vormen om in sectie Oxygen ](/help/product-guide/cs-install-guide/conf-edit-in-oxygen.md) in de Gids van de Installatie en van de Configuratie uit te geven.
 
 
 - **Mening in Assets UI**: Gebruik dit om een voorproef van een.dita/.xml- dossier in Assets UI te tonen. In het geval van een .ditamap/.bookmap- dossier, worden alle onderwerpdossiers binnen de kaart getoond in één enkele verenigde pagina-door-pagina mening.
@@ -1154,7 +1153,7 @@ De verschillende opties in het menu Opties worden hieronder uitgelegd:
 
 - **publiceer als**: Gebruik de optie om een onderwerp of de elementen binnen een onderwerp aan een inhoudsfragment te publiceren.
 
-- **Snel produceert**: Genereer de output voor het geselecteerde dossier. Uitvoer kan alleen worden gegenereerd voor bestanden die deel uitmaken van een uitvoervoorinstelling. Voor meer details, zie [&#x200B; Op artikel-gebaseerde het publiceren van de Redacteur van het Web &#x200B;](web-editor-article-publishing.md#id218CK0U019I).
+- **Snel produceert**: Genereer de output voor het geselecteerde dossier. Uitvoer kan alleen worden gegenereerd voor bestanden die deel uitmaken van een uitvoervoorinstelling. Voor meer details, zie [ Op artikel-gebaseerde het publiceren van de Redacteur van het Web ](web-editor-article-publishing.md#id218CK0U019I).
 
 
 **creeer onderwerpen van de Mening van de Bewaarplaats**
@@ -1203,7 +1202,7 @@ In **creeer Nieuwe de dialoog van de Kaart**, verstrek de volgende details:
   Als de beheerder automatische bestandsnamen heeft ingeschakeld op basis van de UUID-instelling, wordt het veld Naam niet weergegeven.
 
 
-Wanneer u **klikt creeer**, wordt de kaart gecreeerd en binnen de omslag toegevoegd die op het gebied van de Weg wordt gespecificeerd. De kaart wordt ook geopend in de Kaartweergave. U kunt het kaartdossier in de Redacteur van de Kaart openen en onderwerp aan het toevoegen. Voor meer informatie over het toevoegen van onderwerpen aan een kaartdossier, zie [&#x200B; een kaart &#x200B;](map-editor-create-map.md#) creëren.
+Wanneer u **klikt creeer**, wordt de kaart gecreeerd en binnen de omslag toegevoegd die op het gebied van de Weg wordt gespecificeerd. De kaart wordt ook geopend in de Kaartweergave. U kunt het kaartdossier in de Redacteur van de Kaart openen en onderwerp aan het toevoegen. Voor meer informatie over het toevoegen van onderwerpen aan een kaartdossier, zie [ een kaart ](map-editor-create-map.md#) creëren.
 
 ***creeer een omslag***
 
@@ -1221,16 +1220,16 @@ Standaard kunt u de bestanden op titels weergeven. Terwijl u de cursor op een be
 
 >[!NOTE]
 >
->Als beheerder kunt u ook de bestandsnaam bekijken van de bovenliggende kaart die momenteel is geopend in de kaartweergave. Selecteer de **optie van de Naam van het 0&rbrace; Dossier &lbrace;van de** dossiers van de Mening door **sectie in** voorkeur van de Gebruiker **![](images/user_preference_editor_icon.svg).**
+>Als beheerder kunt u ook de bestandsnaam bekijken van de bovenliggende kaart die momenteel is geopend in de kaartweergave. Selecteer de **optie van de Naam van het 0} Dossier {van de** dossiers van de Mening door **sectie in** voorkeur van de Gebruiker **![](images/user_preference_editor_icon.svg).**
 
 
 Wanneer u een kaart opent in de kaartweergave, wordt de titel van de huidige kaart weergegeven in het midden van de hoofdwerkbalk. Als de titel te lang is, wordt een ovaal weergegeven en kunt u de muisaanwijzer boven de titel houden om de volledige titel in de knopinfo weer te geven.
 
 Wanneer u zeer belangrijke attributen voor het onderwerp of kaartverwijzingen bepaalt, kunt u de titel, het overeenkomstige pictogram, en de sleutel in het linkerpaneel bekijken. De toets wordt weergegeven als `keys=<key-name>` .
 
-![&#x200B; sleutels in kaartmening &#x200B;](images/view-key-title-map-view.png){width="300" align="left"}
+![ sleutels in kaartmening ](images/view-key-title-map-view.png){width="300" align="left"}
 
-Als u bewerkingsrechten hebt voor de kaartbestanden, kunt u de bestanden ook bewerken. Voor meer informatie over het openen en het uitgeven van een onderwerp door kaart DITA, zie [&#x200B; onderwerpen door kaart DITA &#x200B;](map-editor-advanced-map-editor.md#id17ACJ0F0FHS) uitgeven.
+Als u bewerkingsrechten hebt voor de kaartbestanden, kunt u de bestanden ook bewerken. Voor meer informatie over het openen en het uitgeven van een onderwerp door kaart DITA, zie [ onderwerpen door kaart DITA ](map-editor-advanced-map-editor.md#id17ACJ0F0FHS) uitgeven.
 
 
 U kunt de volgende handelingen uitvoeren met het menu Opties van het kaartbestand:
@@ -1271,7 +1270,7 @@ U kunt de volgende handelingen uitvoeren met het menu Opties van het kaartbestan
 
 In het **de dialoogvakje van de Kaart van de Download**, kunt u de volgende opties kiezen:
 
-- **Basislijn van het Gebruik**: Selecteer deze optie om een lijst van Basislijnen te krijgen die voor de kaart DITA worden gecreeerd. Als u het kaartbestand en de inhoud ervan wilt downloaden op basis van een specifieke basislijn, selecteert u de basislijn in de vervolgkeuzelijst. Voor meer details over het werken met Basislijnen, mening [&#x200B; werk met Basislijn &#x200B;](./generate-output-use-baseline-for-publishing.md).
+- **Basislijn van het Gebruik**: Selecteer deze optie om een lijst van Basislijnen te krijgen die voor de kaart DITA worden gecreeerd. Als u het kaartbestand en de inhoud ervan wilt downloaden op basis van een specifieke basislijn, selecteert u de basislijn in de vervolgkeuzelijst. Voor meer details over het werken met Basislijnen, mening [ werk met Basislijn ](./generate-output-use-baseline-for-publishing.md).
 - **de Hiërarchie van het Dossier van de Afvlakking**: Selecteer deze optie om alle referenced onderwerpen en media dossiers in één enkele omslag te bewaren.
 
   U kunt het kaartbestand ook downloaden zonder een optie te selecteren. In dat geval worden de laatste voortgezette versies van de onderwerpen waarnaar wordt verwezen en de mediabestanden gedownload.
@@ -1286,7 +1285,7 @@ In het **de dialoogvakje van de Kaart van de Download**, kunt u de volgende opti
   >
   >  Standaard blijven de gedownloade kaarten vijf dagen in het AEM-berichtvenster Inbox staan.
 
-- **produceer Output**: produceer de output voor het geselecteerde kaartdossier. Uitvoer kan alleen worden gegenereerd voor bestanden die deel uitmaken van een uitvoervoorinstelling. Voor meer details, zie [&#x200B; Op artikel-gebaseerde het publiceren van de Redacteur van het Web &#x200B;](web-editor-article-publishing.md#id218CK0U019I).
+- **produceer Output**: produceer de output voor het geselecteerde kaartdossier. Uitvoer kan alleen worden gegenereerd voor bestanden die deel uitmaken van een uitvoervoorinstelling. Voor meer details, zie [ Op artikel-gebaseerde het publiceren van de Redacteur van het Web ](web-editor-article-publishing.md#id218CK0U019I).
 - **dicht**: Sluit het kaartdossier.
 
 
@@ -1297,7 +1296,7 @@ De volgende het schermopname toont het menu van Opties voor een dossier in de Me
 
 U kunt de volgende handelingen uitvoeren met het menu Opties:
 
-- **geef** uit: Open het dossier voor het uitgeven. In het geval van een.ditamap/.bookmap- dossier, wordt het geopend in de [&#x200B; Geavanceerde Redacteur van de Kaart &#x200B;](map-editor-advanced-map-editor.md#) voor het uitgeven.
+- **geef** uit: Open het dossier voor het uitgeven. In het geval van een.ditamap/.bookmap- dossier, wordt het geopend in de [ Geavanceerde Redacteur van de Kaart ](map-editor-advanced-map-editor.md#) voor het uitgeven.
 
 - **Controle uit**: Controle uit het geselecteerde dossier. Voor een gecontroleerd uit dossier, verandert deze optie in **Controle binnen**.
 
@@ -1328,7 +1327,7 @@ U kunt de volgende handelingen uitvoeren met het menu Opties:
 
 - **Mening in Assets UI**: Gebruik dit om een voorproef van een.dita/.xml- dossier in Assets UI te tonen. In het geval van een .ditamap/.bookmap- dossier, worden alle onderwerpdossiers binnen de kaart getoond in één enkele verenigde pagina-door-pagina mening.
 
-- **Snel produceert**: Genereer de output voor het geselecteerde dossier. Uitvoer kan alleen worden gegenereerd voor bestanden die deel uitmaken van een uitvoervoorinstelling. Voor meer details, zie [&#x200B; Op artikel-gebaseerde het publiceren van de Redacteur van het Web &#x200B;](web-editor-article-publishing.md#id218CK0U019I).
+- **Snel produceert**: Genereer de output voor het geselecteerde dossier. Uitvoer kan alleen worden gegenereerd voor bestanden die deel uitmaken van een uitvoervoorinstelling. Voor meer details, zie [ Op artikel-gebaseerde het publiceren van de Redacteur van het Web ](web-editor-article-publishing.md#id218CK0U019I).
 
 >[!NOTE]
 >
@@ -1350,7 +1349,7 @@ De omtrekweergave biedt de volgende functies:
 
 - Gebruik de vervolgkeuzelijst met filters om alle elementen of alleen de verbroken verwijzingen weer te geven:
 
-- Wanneer u op een element in de omtrekweergave klikt, wordt de inhoud van het element geselecteerd in de weergave Auteur of Source. De omtrekweergave blijft synchroon met de weergave Auteur en Source. Als u wijzigingen aanbrengt in een weergave, kunt u deze weergeven in de weergave Overzicht. Als u bijvoorbeeld een alinea toevoegt of een element bijwerkt in de weergave Auteur, wordt deze weergegeven in de weergave Overzicht.
+- Als u op een element klikt in de weergave Omtrek, wordt de inhoud van het element geselecteerd in de weergave Auteur of Source.De weergave Omtrek blijft synchroon met de weergave Auteur en Source. Als u wijzigingen aanbrengt in een weergave, kunt u deze weergeven in de weergave Overzicht. Als u bijvoorbeeld een alinea toevoegt of een element bijwerkt in de weergave Auteur, wordt deze weergegeven in de weergave Overzicht.
 
   ![](images/select-element-content-outline-view_cs.png){width="650" align="left"}
 
@@ -1366,7 +1365,7 @@ De omtrekweergave biedt de volgende functies:
 
 >[!NOTE]
 >
->Voor meer details bij produceer identiteitskaart, het element van het Tussenvoegsel vóór of na het huidige element, en ontrap een element, zie [&#x200B; Andere eigenschappen in de Redacteur van het Web &#x200B;](web-editor-other-features.md#).
+>Voor meer details bij produceer identiteitskaart, het element van het Tussenvoegsel vóór of na het huidige element, en ontrap een element, zie [ Andere eigenschappen in de Redacteur van het Web ](web-editor-other-features.md#).
 
 **Opties van de Mening voor het paneel van de Mening van het Overzicht**
 
@@ -1383,9 +1382,9 @@ Als een blokelement zijn eigen tekst heeft, wordt het getoond samen met dat blok
 Als uw beheerder een profiel voor attributen heeft gecreeerd, dan zult u die attributen samen met hun gevormde waarden krijgen. U kunt vertoningsattributen ook toewijzen die door uw beheerder onder het **lusje van Attributen van de Vertoning** in de redacteursmontages worden gevormd. De kenmerken die voor een element zijn gedefinieerd, worden weergegeven in de layoutweergave en in de contourweergave.
 
 
-Voor meer details, zie de *Attributen van de Vertoning* binnen de *eigenschapbeschrijving van de Montages van de Redacteur* in de [&#x200B; Linkerpaneel &#x200B;](web-editor-features.md#id2051EA0M0HS) sectie.
+Voor meer details, zie de *Attributen van de Vertoning* binnen de *eigenschapbeschrijving van de Montages van de Redacteur* in de [ Linkerpaneel ](web-editor-features.md#id2051EA0M0HS) sectie.
 
-**eigenschap van het Onderzoek**
+**Zoekfunctie**
 Met de zoekfunctie kunt u naar een element zoeken op basis van de naam, id, tekst of kenmerkwaarde.
 
 De zoekopdracht is niet hoofdlettergevoelig en komt exact overeen met de tekenreeks. De zoekresultaten worden gesorteerd op basis van de positie van het element in het document.
@@ -1404,7 +1403,7 @@ Standaard kunt u de bestanden op titels weergeven. Terwijl u de cursor op een be
 
 >[!NOTE]
 >
-> Als beheerder, kunt u ook verkiezen om de lijst van dossiers door filenames in de Redacteur van het Web te bekijken. Selecteer de **optie van de Naam van het 0&rbrace; Dossier &lbrace;van de** dossiers van de Mening door **sectie in** voorkeur van de Gebruiker **![](images/user_preference_editor_icon.svg).**
+> Als beheerder, kunt u ook verkiezen om de lijst van dossiers door filenames in de Redacteur van het Web te bekijken. Selecteer de **optie van de Naam van het 0} Dossier {van de** dossiers van de Mening door **sectie in** voorkeur van de Gebruiker **![](images/user_preference_editor_icon.svg).**
 
 Als u een DITA-bestand wilt toevoegen aan het deelvenster Herbruikbare inhoud, gebruikt u een van de volgende methoden:
 
@@ -1524,7 +1523,7 @@ U kunt `/` gebruiken en subgroepen definiëren als `AEM Guides/Cloud Service` .
 
 
 
-![&#x200B; voorwaarden die in een genestelde hiërarchie &#x200B;](images/conditions-nested-hierarchy.png){width="300" align="left"} worden georganiseerd
+![ voorwaarden die in een genestelde hiërarchie ](images/conditions-nested-hierarchy.png){width="300" align="left"} worden georganiseerd
 
 
 Om een voorwaarde uit te geven, verkies **uitgeven** van het menu van Opties. Het dialoogvenster Voorwaarde bewerken wordt geopend:
@@ -1707,7 +1706,7 @@ U kunt de waarde van de onderwerpregeling ook veranderen gebruikend **Attributen
 Voer de volgende stappen uit om de waarde te wijzigen:
 
 1. Selecteer een attribuut van **Attribuut** dropdown.
-1. Selecteer **uitgeven** ![&#x200B; uitgeven-pictogram &#x200B;](images/edit_pencil_icon.svg).
+1. Selecteer **uitgeven** ![ uitgeven-pictogram ](images/edit_pencil_icon.svg).
 1. Selecteer de vereiste waarde van **drop-down Waarde**.
 1. Klik **Update**.
 
@@ -1725,7 +1724,7 @@ U kunt de waarden ook wijzigen vanuit de vervolgkeuzelijst van het kenmerk in de
 
 U kunt het onderwerpschema ook weergeven en toepassen vanuit het deelvenster Voorwaarden.
 
-Om de onderwerpregeling van het paneel van Voorwaarden te bekijken, moet uw systeembeheerder de optie **selecteren toont de Regeling van het Onderwerp in het paneel van Voorwaarden** onder het lusje van de Voorwaarde in de Montages van de Redacteur. Voor meer details zie, [&#x200B; het lusje van de Voorwaarde &#x200B;](#id21BMNE0602V).
+Om de onderwerpregeling van het paneel van Voorwaarden te bekijken, moet uw systeembeheerder de optie **selecteren toont de Regeling van het Onderwerp in het paneel van Voorwaarden** onder het lusje van de Voorwaarde in de Montages van de Redacteur. Voor meer details zie, [ het lusje van de Voorwaarde ](#id21BMNE0602V).
 
 In het deelvenster Voorwaarden wordt de vlakke verticale structuur van de onderwerpdefinities in het onderwerpschema weergegeven.
 
@@ -1781,7 +1780,7 @@ Standaard kunt u de bestanden op titels weergeven. Terwijl u de cursor op een sj
 
 >[!NOTE]
 >
-> Als beheerder, kunt u ook verkiezen om de lijst van dossiers in de Redacteur van het Web te bekijken. Selecteer de **optie van de Naam van het 0&rbrace; Dossier &lbrace;van de** dossiers van de Mening door **sectie in** voorkeur van de Gebruiker **![](images/user_preference_editor_icon.svg).**
+> Als beheerder, kunt u ook verkiezen om de lijst van dossiers in de Redacteur van het Web te bekijken. Selecteer de **optie van de Naam van het 0} Dossier {van de** dossiers van de Mening door **sectie in** voorkeur van de Gebruiker **![](images/user_preference_editor_icon.svg).**
 
 Als u een sjabloon wilt maken, klikt u op het pictogram + naast Sjablonen en kiest u een sjabloon die u wilt maken. Als u **Malplaatje van het Onderwerp** selecteert, verschijnt de Create Nieuwe dialoog van het Malplaatje van het Onderwerp:
 
@@ -1795,7 +1794,7 @@ Kies het type van malplaatje dat u van de **drop-down lijst van het Malplaatje**
 
 Nadat u de sjabloon hebt gemaakt, moet u deze toevoegen aan uw algemene profiel of mapprofiel. Nadat het malplaatje wordt toegevoegd, zullen uw auteurs beginnen het nieuwe malplaatje in het onderwerp/kaartcreatieproces te zien.
 
-Gebruikend het menu van Opties op een bestaand malplaatje, kunt u verkiezen om **uit te geven** of **&#x200B;**&#x200B;het dupliceren. In geval van duplicatie blijven de structuur en het type \(van document\) van de sjabloon behouden en kunt u deze opnieuw gebruiken om er een andere sjabloon van te maken.
+Gebruikend het menu van Opties op een bestaand malplaatje, kunt u verkiezen om **uit te geven** of **** het dupliceren. In geval van duplicatie blijven de structuur en het type \(van document\) van de sjabloon behouden en kunt u deze opnieuw gebruiken om er een andere sjabloon van te maken.
 
 **Overzicht** - ![](images/active-review-tasklist-icon.svg)
 
@@ -1805,7 +1804,7 @@ De revisietaken worden weergegeven in het deelvenster. Standaard kunt u de besta
 
 >[!NOTE]
 >
-> Als beheerder, kunt u ook verkiezen om de lijst van dossiers door filenames in de Redacteur van het Web te bekijken. Selecteer de **optie van de Naam van het 0&rbrace; Dossier &lbrace;van de** dossiers van de Mening door **sectie in** voorkeur van de Gebruiker **![](images/user_preference_editor_icon.svg).**
+> Als beheerder, kunt u ook verkiezen om de lijst van dossiers door filenames in de Redacteur van het Web te bekijken. Selecteer de **optie van de Naam van het 0} Dossier {van de** dossiers van de Mening door **sectie in** voorkeur van de Gebruiker **![](images/user_preference_editor_icon.svg).**
 
 Als auteur, kunt u de commentaren in een onderwerp richten gebruikend de Redacteur van het Web.
 
@@ -1821,7 +1820,6 @@ Voer de volgende stappen uit om de revisieopmerkingen weer te geven in de actiev
    - Voer de zoekterm of tekst in die u wilt zoeken in de titel van het project. Druk vervolgens op Enter om de zoekopdracht uit te voeren. U kunt bijvoorbeeld alle projecten doorzoeken met de term &#39;ruimte&#39; in de titel.
 
    - Selecteer ![](images/filter-search-icon.svg) om de **dialoog van de Filter** te openen. U kunt alle of alleen specifieke projecten selecteren. De geselecteerde projecten zijn vermeld in het **paneel van de Overzicht**.
-
      ![](images/active-review-select-project.png){width="300" align="left"}
 
      De **Taken die door me** worden in werking gesteld optie wordt toegelaten door gebrek. Het staat u toe om slechts de taken te bekijken die u hebt in werking gesteld. De schakelstatus van deze optie blijft behouden, zelfs nadat de pagina is vernieuwd.
@@ -1837,9 +1835,9 @@ Voer de volgende stappen uit om de revisieopmerkingen weer te geven in de actiev
 
    >[!NOTE]
    > 
-   > Het **paneel van de Overzicht** en het **3&rbrace; paneel van Commentaren &lbrace;zijn in synchronisatie op elk ogenblik.** In het venster Opmerkingen worden de opmerkingen geladen op basis van de revisietaak die in het deelvenster Revisie is geladen.
+   > Het **paneel van de Overzicht** en het **3} paneel van Commentaren {zijn in synchronisatie op elk ogenblik.** In het venster Opmerkingen worden de opmerkingen geladen op basis van de revisietaak die in het deelvenster Revisie is geladen.
    >
-   > Voor meer informatie over hoe te om de commentaren te richten, bekijk [&#x200B; de revisiecommentaren van het Adres &#x200B;](review-address-review-comments.md#).
+   > Voor meer informatie over hoe te om de commentaren te richten, bekijk [ de revisiecommentaren van het Adres ](review-address-review-comments.md#).
 
 **Vondst en vervangt** - ![](images/FindAndReplace_icon.svg)
 
@@ -1851,7 +1849,7 @@ Standaard kunt u de bestanden op titels weergeven. Terwijl u de cursor op een be
 
 >[!NOTE]
 >
-> Als beheerder, kunt u ook verkiezen om de lijst van filenames in de Redacteur van het Web te bekijken. Selecteer de **optie van de Naam van het 0&rbrace; Dossier &lbrace;van de** dossiers van de Mening door **sectie in** voorkeur van de Gebruiker **![](images/user_preference_editor_icon.svg).**
+> Als beheerder, kunt u ook verkiezen om de lijst van filenames in de Redacteur van het Web te bekijken. Selecteer de **optie van de Naam van het 0} Dossier {van de** dossiers van de Mening door **sectie in** voorkeur van de Gebruiker **![](images/user_preference_editor_icon.svg).**
 
 Voer de volgende stappen uit om de algemene zoek- en vervangactie uit te voeren:
 
@@ -1941,7 +1939,7 @@ Standaard kunt u de bestandstitels op de tabbladen weergeven. Terwijl u de curso
 
 >[!NOTE]
 >
-> Als beheerder kunt u de lijst met bestanden ook weergeven op bestandsnamen op de tabbladen. Selecteer de **optie van de Naam van het 0&rbrace; Dossier &lbrace;van de** dossiers van de Mening door **sectie in** voorkeur van de Gebruiker **![](images/user_preference_editor_icon.svg).**
+> Als beheerder kunt u de lijst met bestanden ook weergeven op bestandsnamen op de tabbladen. Selecteer de **optie van de Naam van het 0} Dossier {van de** dossiers van de Mening door **sectie in** voorkeur van de Gebruiker **![](images/user_preference_editor_icon.svg).**
 
 Onder het lusje van het dossier, hebt u de broodkruimel van het element bij huidige curseurplaats. In de rechterbovenhoek van het inhoudsbewerkingsgebied wordt het versienummer van het huidige onderwerp weergegeven.
 
@@ -1957,33 +1955,33 @@ Het rechterdeelvenster is een permanent deelvenster dat informatie bevat over he
 
 In het rechterdeelvenster hebt u toegang tot de volgende functies:
 
-**Eigenschappen van de Inhoud** - ![&#x200B; inhoudseigenschappen &#x200B;](images/content-properties-icon.svg)
+**Eigenschappen van de Inhoud** - ![ inhoudseigenschappen ](images/content-properties-icon.svg)
 
 U kunt tot de **eigenschap van de Eigenschappen van de Inhoud** toegang hebben door het **pictogram van de Eigenschappen van de Inhoud** in het juiste paneel te selecteren. Het **paneel van de Eigenschappen van de Inhoud** bevat informatie over het type van momenteel geselecteerd element in het document en zijn attributen.
 
 **Type**: U kunt de markeringen van de volledige hiërarchie voor de huidige markering van dropdown bekijken en selecteren.
 
-**Attributen**: Het **&#x200B;**&#x200B;dropdown paneel van Attributen &lbrace;is beschikbaar in Lay-out, Auteur, en de meningen van Source. U kunt de kenmerken eenvoudig toevoegen, bewerken of verwijderen.
+**Attributen**: Het **** dropdown paneel van Attributen {is beschikbaar in Lay-out, Auteur, en de meningen van Source. U kunt de kenmerken eenvoudig toevoegen, bewerken of verwijderen.
 
 1. Klik op **+ Toevoegen** .
 
-   ![&#x200B; attributen in inhoudseigenschappen &#x200B;](images/properties-tab-attributes_cs.png){width="300" align="left"}
+   ![ attributen in inhoudseigenschappen ](images/properties-tab-attributes_cs.png){width="300" align="left"}
 
-1. In het **dropdown paneel van Attributen** &lbrace;, selecteer de attributen van de dropdown lijst en specificeer de waarde van een attribuut.  Dan klik **toevoegen**.
+1. In het **dropdown paneel van Attributen** {, selecteer de attributen van de dropdown lijst en specificeer de waarde van een attribuut.  Dan klik **toevoegen**.
 
-   ![&#x200B; deelvenster Kenmerken met meerdere kenmerken &#x200B;](images/attributes-multiple-properties.png){width="300" align="left"}
+   ![ deelvenster Kenmerken met meerdere kenmerken ](images/attributes-multiple-properties.png){width="300" align="left"}
 
-1. Om de attributen uit te geven, over het te bewegen en **te selecteren geef** ![&#x200B; uit uitgeven-pictogram &#x200B;](images/edit_pencil_icon.svg).
-   ![&#x200B; geef attributen uit &#x200B;](images/edit-attributes-content-properties.png){width="300" align="left"}
+1. Om de attributen uit te geven, over het te bewegen en **te selecteren geef** ![ uit uitgeven-pictogram ](images/edit_pencil_icon.svg).
+   ![ geef attributen uit ](images/edit-attributes-content-properties.png){width="300" align="left"}
 
-1. Om de attributen te schrappen, over het te bewegen en **te selecteren schrap** ![&#x200B; schrapping-pictogram &#x200B;](images/Delete_icon.svg).
+1. Om de attributen te schrappen, over het te bewegen en **te selecteren schrap** ![ schrapping-pictogram ](images/Delete_icon.svg).
 
 
 >[!NOTE]
 >
 > Zelfs als uw onderwerp inhoud waarnaar wordt verwezen bevat, kunt u er kenmerken aan toevoegen via het deelvenster Eigenschappen.
 
-Als uw beheerder een profiel voor attributen heeft gecreeerd, dan zult u die attributen samen met hun gevormde waarden krijgen. Gebruikend het paneel van inhoudseigenschappen, kunt u die attributen kiezen en hen toewijzen aan relevante inhoud in uw onderwerp. Op deze manier kunt u ook voorwaardelijke inhoud maken, die u vervolgens kunt gebruiken om voorwaardelijke uitvoer te maken. Voor meer informatie over het produceren van output die voorwaardelijke vooraf instelt gebruiken, zie [&#x200B; Voorinstellingen van de Voorwaarde van het Gebruik &#x200B;](generate-output-use-condition-presets.md#).
+Als uw beheerder een profiel voor attributen heeft gecreeerd, dan zult u die attributen samen met hun gevormde waarden krijgen. Gebruikend het paneel van inhoudseigenschappen, kunt u die attributen kiezen en hen toewijzen aan relevante inhoud in uw onderwerp. Op deze manier kunt u ook voorwaardelijke inhoud maken, die u vervolgens kunt gebruiken om voorwaardelijke uitvoer te maken. Voor meer informatie over het produceren van output die voorwaardelijke vooraf instelt gebruiken, zie [ Voorinstellingen van de Voorwaarde van het Gebruik ](generate-output-use-condition-presets.md#).
 
 
 
@@ -1997,7 +1995,7 @@ De bestandseigenschappen hebben de volgende twee secties:
 
 In het gedeelte Algemeen hebt u toegang tot de volgende functies:
 
-![&#x200B; dossier-eigenschappen &#x200B;](images/file-properties-general.png){width="300" align="left"}
+![ dossier-eigenschappen ](images/file-properties-general.png){width="300" align="left"}
 
 - **Naam**: Toont filename van het geselecteerde onderwerp. De bestandsnaam is gekoppeld aan de eigenschappenpagina van het geselecteerde bestand.
 - **identiteitskaart**: Toont identiteitskaart van het geselecteerde onderwerp.
@@ -2006,7 +2004,7 @@ In het gedeelte Algemeen hebt u toegang tot de volgende functies:
 - **Taal**: Toont de taal van het onderwerp. Deze wordt ingesteld vanuit het taalveld op de eigenschappenpagina.
 - **creeerde op**: De datum en de tijd van vertoningen waarop het onderwerp werd gecreeerd.
 - **die uit door** wordt gecontroleerd: Toont de gebruiker die het onderwerp controleerde.
-- **de Staat van het Document**: U kunt de documentstaat van het momenteel geopende onderwerp selecteren en bijwerken. Voor meer details, zie [&#x200B; de Staat van het Document &#x200B;](web-editor-document-states.md#)*.*
+- **de Staat van het Document**: U kunt de documentstaat van het momenteel geopende onderwerp selecteren en bijwerken. Voor meer details, zie [ de Staat van het Document ](web-editor-document-states.md#)*.*
 
 **Nota:** u kunt de attributenwaarden van de diverse gebieden in de eigenschappen van het Dossier aan het klembord kopiëren.
 
@@ -2023,7 +2021,7 @@ Standaard kunt u de bestanden op titels weergeven. Terwijl u de cursor op een be
 
 >[!NOTE]
 >
-> Als beheerder, kunt u ook verkiezen om de lijst van dossiers door filenames in de Redacteur van het Web te bekijken. Selecteer de **optie van de Naam van het 0&rbrace; Dossier &lbrace;van de** dossiers van de Mening door **sectie in** voorkeur van de Gebruiker **![](images/user_preference_editor_icon.svg).**
+> Als beheerder, kunt u ook verkiezen om de lijst van dossiers door filenames in de Redacteur van het Web te bekijken. Selecteer de **optie van de Naam van het 0} Dossier {van de** dossiers van de Mening door **sectie in** voorkeur van de Gebruiker **![](images/user_preference_editor_icon.svg).**
 
 **Nota:** Alle Gebruikte binnen en Uitgaande verwijzingen zijn hyperlinked aan de documenten. U kunt de gekoppelde documenten gemakkelijk openen en bewerken.
 
@@ -2039,7 +2037,7 @@ Als u meerdere revisieprojecten hebt gemaakt, kunt u een van de vervolgkeuzelijs
 
 Met het deelvenster Review kunt u reacties op de opmerkingen over het onderwerp weergeven en posten. U kunt de opmerkingen een voor een accepteren of afwijzen.
 
-Voor meer informatie, zie {de commentaren van het 0} Overzicht van het Adres [&#128279;](review-address-review-comments.md#).
+Voor meer informatie, zie {de commentaren van het 0} Overzicht van het Adres ](review-address-review-comments.md#).[
 
 **Getraceerde Veranderingen** - ![](images/track-change-icon.svg)
 
@@ -2047,6 +2045,6 @@ Met de functie Bijgehouden wijzigingen in het rechterdeelvenster kunt u de infor
 
 >[!NOTE]
 >
-> De functie Bijgehouden wijzigingen toont alle updates die zijn bijgehouden met de functie Wijzigingen bijhouden inschakelen/uitschakelen op de hoofdwerkbalk. Voor meer details, zie [&#x200B; toelaten/onbruikbaar maken de Veranderingen van het Spoor &#x200B;](#id205DF0203Y4).
+> De functie Bijgehouden wijzigingen toont alle updates die zijn bijgehouden met de functie Wijzigingen bijhouden inschakelen/uitschakelen op de hoofdwerkbalk. Voor meer details, zie [ toelaten/onbruikbaar maken de Veranderingen van het Spoor ](#id205DF0203Y4).
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; Werk met de Redacteur van het Web &#x200B;](web-editor.md)
+**Bovenliggend onderwerp:**[ Werk met de Redacteur van het Web ](web-editor.md)

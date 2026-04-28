@@ -5,9 +5,9 @@ feature: Publishing FrameMaker Documents
 role: User
 hide: true
 exl-id: bf5a4365-0183-43d5-a39a-b9eb8a34b27d
-source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
@@ -37,4 +37,4 @@ Voer de volgende stappen uit om de rij van de outputgeneratie te bekijken:
      In deze lijst kunt u taken uitvoeren die zijn uitgevoerd of taken die zijn mislukt. Voor de taken die met succes zijn voltooid, maakt het publicatieproces een logbestand \(logs.txt\) dat kan worden geopend door op de koppeling in de kolom Gegenereerd bij te klikken.
 
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; produceer output van de documenten van FrameMaker &#x200B;](fm-output-generatation.md)
+**Bovenliggend onderwerp:**[ produceer output van de documenten van FrameMaker ](fm-output-generatation.md)

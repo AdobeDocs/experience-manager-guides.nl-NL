@@ -5,7 +5,7 @@ feature: Authoring, Features of Web Editor, Publishing
 role: User
 hide: true
 exl-id: ce8e3614-907b-4172-a8f0-e81e4dc096df
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Voer de volgende stappen uit om outputvoorinstellingen voor uw kaart te creëren
 
    >[!NOTE]
    >
-   > U kunt om het even welk onderwerp van de kaart toevoegen of schrappen gebruikend de Geavanceerde Redacteur van de Kaart. Voor meer details, zie [&#x200B; Werk met de Geavanceerde Redacteur van de Kaart &#x200B;](map-editor-advanced-map-editor.md#).
+   > U kunt om het even welk onderwerp van de kaart toevoegen of schrappen gebruikend de Geavanceerde Redacteur van de Kaart. Voor meer details, zie [ Werk met de Geavanceerde Redacteur van de Kaart ](map-editor-advanced-map-editor.md#).
 
 1. In het **lusje van de Output**, selecteer + pictogram om tot een output vooraf ingesteld voor uw kaart te leiden DITA.
 
@@ -48,7 +48,7 @@ Voer de volgende stappen uit om outputvoorinstellingen voor uw kaart te creëren
 
    ![](images/add-preset-articles-tab_cs.png){width="800" align="left"}
 
-1. De status van het productieproces van de uitvoer wordt weergegeven. De **kolom van Onderwerpen** maakt een lijst van de onderwerpen waarvoor de output wordt geproduceerd terwijl de **3&rbrace; kolom van de Status &lbrace;toont de het publiceren status van elk onderwerp.**
+1. De status van het productieproces van de uitvoer wordt weergegeven. De **kolom van Onderwerpen** maakt een lijst van de onderwerpen waarvoor de output wordt geproduceerd terwijl de **3} kolom van de Status {toont de het publiceren status van elk onderwerp.**
 
    Als u de uitvoer wilt weergeven, plaatst u de muisaanwijzer boven het onderwerp en klikt u op Uitvoer weergeven.
 
@@ -61,4 +61,4 @@ Voer de volgende stappen uit om outputvoorinstellingen voor uw kaart te creëren
 
 ![](images/edit-preset_cs.png){width="550" align="left"}
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; Op artikel-gebaseerde het publiceren van de Redacteur van het Web &#x200B;](web-editor-article-publishing.md)
+**Bovenliggend onderwerp:**[ Op artikel-gebaseerde het publiceren van de Redacteur van het Web ](web-editor-article-publishing.md)

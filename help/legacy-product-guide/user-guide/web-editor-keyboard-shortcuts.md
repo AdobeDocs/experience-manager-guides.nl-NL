@@ -5,9 +5,9 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: 418412ab-cce6-4398-9f84-6f63285ffc6d
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
@@ -37,19 +37,19 @@ Er zijn vele verrichtingen in de Redacteur van het Web die u het gebruiken van d
 | De cursor één woord naar links verplaatsen. | ***CTRL*** + ***Linkerpijl*** | ***Optie*** + ***Linkerpijl*** |
 | De cursor één woord naar rechts verplaatsen. | ***CTRL*** + ***Juiste Pijl*** | ***Optie*** + ***Juiste Pijl*** |
 | De cursor naar het begin van de huidige regel verplaatsen. | ***Huis*** | ***Bevel*** + ***Linkerpijl*** |
-| De cursor naar het einde van de huidige regel verplaatsen. | **Eind** | ***Bevel*** + ***Juiste Pijl*** |
-| De cursor naar het begin van het volgende element verplaatsen. | ***Lusje*** | ***Lusje*** |
-| Plaats het lijstitem op het volgende niveau. | ***Lusje*** | ***Lusje*** |
-| De cursor naar het einde van het vorige element verplaatsen. | ***Verschuiving*** + ***Lusje*** | ***Verschuiving*** + ***Lusje*** |
-| Het lijstitem uitspringen naar het vorige niveau. | ***Verschuiving*** + ***Lusje*** | ***Verschuiving*** + ***Lusje*** |
-| XML automatisch laten inspringen in Source-weergave | ***CTRL*** + ***Alt*** + ***L*** | ***Bevel*** + ***Optie*** + ***L*** |
-| Het huidige element splitsen | ***ga*** binnen | ***Terugkeer*** |
-| Geselecteerde tekst kopiëren | ***CTRL*** + **C** | ***Bevel*** + **C** |
-| Plakken | ***CTRL*** + **V** | ***Bevel*** + **V** |
+| De cursor naar het einde van de huidige regel verplaatsen. | **End** | ***Command***+***Right Arrow*** |
+| Move the cursor to the beginning of the next element. | ***Tab*** | ***Tab*** |
+| Indent the list item to the next level. | ***Tab*** | ***Tab*** |
+| Move the cursor to the end of the previous element. | ***Verschuiving*** + ***Lusje*** | ***Verschuiving*** + ***Lusje*** |
+| Outdent the list item to the previous level. | ***Verschuiving*** + ***Lusje*** | ***Verschuiving*** + ***Lusje*** |
+| Auto indent XML in Source view | ***Ctrl***+***Alt***+***L*** | ***Command***+***Option***+***L*** |
+| Split the current element | ***Enter*** | ***Return*** |
+| Copy selected text | ***Ctrl***+**C** | ***Command***+**C** |
+| Paste | ***Ctrl***+**V** | ***Bevel*** + **V** |
 | Opmaak plakken en aanpassen | ***CTRL*** + ***Verschuiving*** + **V** | ***Bevel*** + ***Verschuiving*** + **V** |
 | Dialoogvenster Afdrukken openen | ***CTRL*** + **P** | ***Bevel*** + **P** |
 | Laatste handeling ongedaan maken | ***CTRL*** + **Z** | ***Bevel*** + **Z** |
 | Laatste handeling opnieuw | ***CTRL*** + **Y** | ***Bevel*** + **Y** |
 | Vaste spatie invoegen `(&nbsp;)` | ***Alt*** + **Ruimte** | ***Optie*** + **Ruimte** |
 
-**Bovenliggend onderwerp:** [&#x200B; Werk met de Redacteur van het Web &#x200B;](web-editor.md)
+**Bovenliggend onderwerp:** [ Werk met de Redacteur van het Web ](web-editor.md)

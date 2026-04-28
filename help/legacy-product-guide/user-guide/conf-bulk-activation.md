@@ -5,9 +5,9 @@ feature: Publishing, Bulk Activation
 role: User
 hide: true
 exl-id: 4b60bf50-f6c2-4e87-8af6-fd1c26d4898f
-source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ In een echt scenario zouden uw auteurs toegang hebben tot de ontwerpinstantie va
 
 >[!NOTE]
 >
-> Voor meer details over hoe te om de auteur te plaatsen en instantie in AEM te publiceren, zie [&#x200B; Auteur en publiceer het Overzicht van de Architectuur &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=nl-NL#prerequisites).
+> Voor meer details over hoe te om de auteur te plaatsen en instantie in AEM te publiceren, zie [ Auteur en publiceer het Overzicht van de Architectuur ](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#prerequisites).
 
 Met de functie AEM Guides Bulk Activation kunt u uw inhoud snel en eenvoudig activeren, van ontwerpen tot het publiceren van een exemplaar. Met de functie voor bulkactivering kunt u:
 
@@ -42,4 +42,4 @@ JSON-uitvoervoorinstellingen.
 - **[Schrap een bulkactivering kaartinzameling](conf-bulk-activation-delete-map-collection.md)**
 
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; Productie van de Output &#x200B;](generate-output.md)
+**Bovenliggend onderwerp:**[ Productie van de Output ](generate-output.md)

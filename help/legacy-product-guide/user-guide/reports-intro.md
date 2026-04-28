@@ -5,16 +5,16 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: 377664ec-b7e5-48b9-ae47-ddae8968736b
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 1%
+source-wordcount: '191'
+ht-degree: 0%
 
 ---
 
 # Rapporten {#id1645H9007MZ}
 
-In een organisatorische opstelling, wilt u de algemene volledigheid van uw technische documentatie verifiëren alvorens u aan het begint te werken of de documenten levend te duwen. Een dergelijke behoefte wordt zelfs nog belangrijker in omgevingen met meerdere gebruikers en op grote schaal. AEM Guides biedt een aantal rapporten die een nuttig inzicht geven in de algemene gezondheid van de inhoud in uw opslagplaats en in de manier waarop inhoud wordt gebruikt in het documentatieproces.
+In een organisatorische opstelling, wilt u de algemene volledigheid van uw technische documentatie verifiëren alvorens u aan het begint te werken of de documenten levend te duwen. Een dergelijke behoefte wordt zelfs nog belangrijker in omgevingen met meerdere gebruikers en op grote schaal. AEM Guides geeft een aantal rapporten die een nuttig insight een overzicht geven van de algemene status van de inhoud in uw opslagplaats en van de manier waarop inhoud wordt gebruikt in het documentatieproces.
 
 U kunt DITA-kaartrapporten op twee manieren maken:
 

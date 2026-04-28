@@ -5,9 +5,9 @@ feature: Authoring, Web Editor
 role: User
 hide: true
 exl-id: a5b0d107-4e17-4d0c-99dd-0228189e2449
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '227'
 ht-degree: 0%
 
 ---
@@ -47,4 +47,4 @@ Ook, is de Redacteur van het Web DITA-bewust en het steunt DITA 1.3, 1.2 normen,
 - **[de etiketten van het Gebruik](web-editor-use-label.md)**
 
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; Inhoud van de Auteur gebruikend AEM Guides &#x200B;](authoring-content-xml-doc.md)
+**Bovenliggend onderwerp:**[ Inhoud van de Auteur gebruikend AEM Guides ](authoring-content-xml-doc.md)

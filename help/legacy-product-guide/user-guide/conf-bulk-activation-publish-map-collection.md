@@ -5,9 +5,9 @@ feature: Publishing, Bulk Activation
 role: User
 hide: true
 exl-id: de1fd057-60c6-4b1a-9e55-f32969eb0079
-source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '449'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Bekijk de verschillende manieren om uw inzameling te activeren die op uw opstell
 <details>
 <summary> Cloud Services </summary>
 
-![&#x200B; bulksgewijs-inzameling-publiceert op de wolkendienst &#x200B;](images/bulk-activation-collection-quick-publish-CS.png){width="650" align="left"}
+![ bulksgewijs-inzameling-publiceert op de wolkendienst ](images/bulk-activation-collection-quick-publish-CS.png){width="650" align="left"}
 
 U kunt de output aan de **Voorproef** activeren of **publiceren** instanties.
 
@@ -75,7 +75,7 @@ Voer een van de volgende handelingen uit:
 
 * Om de output van geselecteerde kaarten te activeren, selecteer de vooraf geproduceerde kaartoutput en selecteer **Snel publiceren**.
 * Om de output van alle kaarten DITA met hun gevormde voorinstellingen te activeren, selecteer checkbox naast de Kaart (kolom), en selecteer dan **Snel publiceren.**
-  ![&#x200B; bulk-inzameling-publiceer &#x200B;](images/bulk-activation-collection-quick-publish.png){width="650" align="left"}
+  ![ bulk-inzameling-publiceer ](images/bulk-activation-collection-quick-publish.png){width="650" align="left"}
 
   >[!NOTE]
   > 
@@ -86,4 +86,4 @@ Er wordt een succesbericht weergegeven wanneer de kaartuitvoer in een wachtrij w
 
 Nadat de uitvoer voor de geselecteerde kaartbestanden is geactiveerd, wordt het tabblad voor de auditgeschiedenis bijgewerkt en wordt de meest recente geactiveerde uitvoer bovenaan weergegeven. De **Gepubliceerde** kolom wordt bijgewerkt met de het publiceren datum en tijd.
 
-**Bovenliggend onderwerp: &#x200B;** [&#x200B; Bulk Activering van gepubliceerde inhoud &#x200B;](conf-bulk-activation.md)
+**Bovenliggend onderwerp: **[ Bulk Activering van gepubliceerde inhoud ](conf-bulk-activation.md)

@@ -5,9 +5,9 @@ feature: Authoring, Map Editor
 role: User
 hide: true
 exl-id: 0f86ac98-7ba4-4e15-8a1f-83456afa7570
-source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1111'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Met AEM Guides kunt u aangepaste mappen en onderwerpen maken in de map dita-temp
 
 
 U kunt kaart en onderwerpmalplaatjes op de volgende manieren tot stand brengen:
-1. De ruit van Malplaatjes van het [&#x200B; Linkerpaneel &#x200B;](./web-editor-features.md#left-panel-id2051ea0m0hs)
+1. De ruit van Malplaatjes van het [ Linkerpaneel ](./web-editor-features.md#left-panel-id2051ea0m0hs)
 1. [Sjablonen in gebruikersinterface van Assets](#templates-assets-ui)
 1. [Menu Opties](#templates-in-assets-ui)
 
@@ -76,13 +76,13 @@ Voer de volgende stappen uit om een kaartsjabloon te maken:
    >
    > De bestandsnaam moet de extensie .ditamap hebben.
 
-1. (Facultatief \) voeg een beschrijving toe.Klik **creeer**. Het bericht voor het maken van de kaartsjabloon wordt weergegeven. Vervolgens kunt u de kaartsjabloon openen en bewerken. U kunt de verwijzingen voor de onderwerpmalplaatjes, kaartmalplaatjes, en ook andere activa in het kaartmalplaatje toevoegen.
+1. (Optioneel\) Voeg een beschrijving toe.Klik **creëren**. Het bericht voor het maken van de kaartsjabloon wordt weergegeven. Vervolgens kunt u de kaartsjabloon openen en bewerken. U kunt de verwijzingen voor de onderwerpmalplaatjes, kaartmalplaatjes, en ook andere activa in het kaartmalplaatje toevoegen.
 
 ### Menu Opties {#options-menu}
 
 Voer de volgende stappen uit om een kaart- of onderwerpsjabloon te maken:
 
-1. Selecteer de **omslag van de Kaart** of **Onderwerp** in de huidige malplaatjemap. Bijvoorbeeld de map `dita-templates`.
+1. Selecteer de **omslag van de Kaart** of **Onderwerp** in de huidige malplaatjemap. Bijvoorbeeld de map `dita-templates` .
 1. Van het **menu van Opties**, creeer **het Malplaatje van de Kaart** of **creeer het Malplaatje van het Onderwerp**.
 
    **creeer Nieuw Malplaatje van de Kaart** of **creeer Nieuw Malplaatje van het Onderwerp** dialoog opent.
@@ -98,13 +98,13 @@ Gebaseerd op uw opstelling leert hoe te om de weg van de malplaatjeomslag van do
 <details>
     <summary> Cloud Services </summary>
 
-Leer hoe te [&#x200B; om de weg van de malplaatjeomslag van douaneDITA &#x200B;](/help/product-guide/install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) in de Gids van de Installatie en van de Configuratie van de Diensten van de Wolk te vormen.
+Leer hoe te [ om de weg van de malplaatjeomslag van douaneDITA ](/help/product-guide/install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) in de Gids van de Installatie en van de Configuratie van de Diensten van de Wolk te vormen.
 </details>
 
 <details>
     <summary> Software op locatie</summary>
 
-Leer hoe te om [&#x200B; de weg van de malplaatjeomslag van douaneDITA &#x200B;](/help/product-guide/cs-install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) in de Gids van de Installatie en van de Configuratie op locatie te vormen.
+Leer hoe te om [ de weg van de malplaatjeomslag van douaneDITA ](/help/product-guide/cs-install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) in de Gids van de Installatie en van de Configuratie op locatie te vormen.
 </details>
 
 ## De titel doorgeven die is gedefinieerd in de sjablonen
@@ -190,4 +190,4 @@ De kaart genereert alle elementen waarnaar in de sjabloonmap wordt verwezen. Som
 
 - Als een andere kaart of een onderwerp op het zelfde niveau in de omslag wordt gecreeerd, dan worden de namen van de pas gecreëerde activa toegevoegd met 0.1.2, etc. U kunt ervoor kiezen de kaart te openen om het kaartbestand te bewerken of op te slaan in de opslagplaats.
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; Werk met de Redacteur van de Kaart &#x200B;](map-editor.md)
+**Bovenliggend onderwerp:**[ Werk met de Redacteur van de Kaart ](map-editor.md)

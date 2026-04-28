@@ -5,9 +5,9 @@ feature: Authoring
 role: User
 hide: true
 exl-id: 6d898419-b8f9-4a22-a6be-8b7b0e96a461
-source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '96'
 ht-degree: 0%
 
 ---
@@ -27,4 +27,4 @@ AEM Guides wordt geleverd met de drie editors uit de doos. U kunt deze gebruiken
 - **[DITAVAL redacteur](ditaval-editor.md)**
 
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; Inhoud van de Auteur &#x200B;](authoring-content.md)
+**Bovenliggend onderwerp:**[ Inhoud van de Auteur ](authoring-content.md)

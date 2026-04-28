@@ -5,16 +5,16 @@ feature: Introduction
 role: User
 hide: true
 exl-id: b3e17f62-70d0-470e-9e52-73489510c62f
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '985'
 ht-degree: 0%
 
 ---
 
 # Belangrijke AEM Guides-functies {#id167G9I060SI}
 
-**Krachtig DITA creatie en inhoudsbeheer**
+**Krachtig DITA authoring en inhoudsbeheer**
 De productiviteit van het ontwerpen aanzienlijk verbeteren door modulaire informatie uit één leverancier te gebruiken die is geoptimaliseerd voor effectief hergebruik op granulair niveau \(modules, componenten, woorden, afbeeldingen, multimedia en vertalingen\).
 
 Met de ingebouwde webeditor kunt u eenvoudig DITA-onderwerpen, -kaarten en DITAVAL-bestanden ontwerpen en beheren. De ingebouwde editor heeft een eenvoudige en intuïtieve interface voor tekstverwerking, die een eenvoudige ingang biedt voor experts in het onderwerp, medewerkers en revisoren die mogelijk niet zijn opgeleid voor het gebruik van DITA. Met de intelligente functionaliteit van het Element van het Tussenvoegsel, moet u zich geen zorgen maken over het plaatsen van een element bij de correcte plaats. Een element wordt altijd ingevoegd bij de volgende beschikbare geldige locatie.
@@ -34,19 +34,19 @@ Momenteel, steunt de ingebouwde redacteur de volgende normen DITA:
 >
 > Lichtgewicht DITA staat nog steeds onder de ontwerpstatus en is nog geen DITA-standaard geworden.
 
-**samenwerking van volgende gen door web-based overzicht**
+**Samenwerking van volgende gen door web-based overzicht**
 Zorg ervoor dat teams met meerdere auteurs en meerdere revisoren die gedistribueerd zijn, probleemloos samenwerken via een krachtige workflow voor samengestelde revisies op internet, waardoor het aantal handmatige fouten in het proces tot een minimum wordt beperkt.
 
 AEM Guides biedt krachtige maar gebruiksvriendelijke mogelijkheden voor webrevisie. U kunt veelvoudige onderwerpen DITA voor overzicht gelijktijdig verzenden. Met de revisiefunctie kunt u ervoor zorgen dat de documentinhoud op efficiënte wijze wordt gecontroleerd. Auteurs en revisoren kunnen moeiteloos samenwerken aan wijzigingen tijdens lopende revisies. Revisoren kunnen de verschillen met eerdere versies controleren om na te gaan of feedback correct is verwerkt. De beheerders kunnen de geschiedenis van de overzichtstaak volgen gebruikend het eigenschap-rijke beheersdashboard.
 
 Elk document in uw DAM krijgt nu een documentstatus. Deze documentstatus helpt u te identificeren welke status in het documentatieproces het document is. Als beheerder van het systeem kunt u de documentstatussen, de standaardstart- en eindstatussen en de overgang van de documentstatus voor uw documenten definiëren.
 
-**industrie-leidende vertaalbeheer en localisatiesteun**
+**Toonaangevende ondersteuning voor vertaalbeheer en lokalisatie**
 U bespaart veel vertaaltijd en kosten en zorgt ervoor dat gepubliceerde inhoud vrij is van vertaalfouten.
 
 Adobe Experience Manager wordt geleverd met ingebouwde connectors voor toonaangevende vertaalbureaus. Gebruik deze connectors om landspecifieke inhoud te beheren. Maak volledig gebruik van de gedetailleerde out-of-the-box vertaalrapporten om onvertaalde inhoud te identificeren alvorens te publiceren en neem aangewezen correctieve acties. U kunt de status van vertaalde inhoud met betrekking tot mastertaalupdates beheren en alleen voor de bijgewerkte DITA-bestanden vertaling uitvoeren. Tijdrovende, handmatige identificatie van bestanden die u wilt verzenden voor vertaling is niet vereist.
 
-**best-in-klasse multichannel het publiceren van inhoud DITA**
+**best-in-klasse multi-channel het publiceren van inhoud DITA**
 Stroomlijn de publicatie van bedrijfscontent met een naadloze, one-touch aanpak die de tijd tot aan de markt versnelt.
 
 Als de native DITA-ondersteuning aan Experience Manager is toegevoegd, genereert u uitvoer voor Experience Manager Sites, PDF, HTML5, EPUBS of aangepaste uitvoer via DITA-OT. U kunt de volledig configureerbare uitvoer benutten om eindgebruikers zeer gepersonaliseerde, relevante en indrukwekkende content-ervaringen te bieden. U kunt ook gemakkelijk batch-productie uitvoeren of Basislijn gebruiken om een specifieke versie van uw documentatie te publiceren.
@@ -60,7 +60,7 @@ Maak het publiceren foutloos door inhoud eenvoudig te controleren en te corriger
 **Uitgebreide steun van het markeringsbeheer voor gepersonaliseerde output**\
 Verdere betrokkenheid van eindgebruikers en acceptatie van inhoud bevorderen via zeer relevante ervaringen met inhoud. Met AEM Guides kunt u de uitgebreide ondersteuning voor tagbeheer in Experience Manager gebruiken om relevante tags toe te passen op DITA-broninhoud. Gebruik deze tags om eindgebruikers een zeer persoonlijke ervaring met inhoud te bieden.
 
-**Inheemse integratie met Adobe FrameMaker**
+**Geïntegreerde integratie met Adobe FrameMaker**
 Geniet van een snelle en naadloze ervaring wanneer u werkt met Experience Manager en FrameMaker (release 2015) Update 4 of hoger.
 
 Dankzij de nauwe integratie van Experience Manager en FrameMaker via een ingebouwde connector kunt u naadloos werken met de Experience Manager-opslagplaats voor inhoud. Gebruik de connector om snel aan de slag te gaan met ontwerpen, evalueren en doorzoeken van DITA-inhoud.
@@ -69,11 +69,11 @@ Met de AEM-connector in FrameMaker kunt u uw FrameMaker-bestanden beheren. Met d
 
 ## Aanvullende bronnen
 
-Na is een lijst van andere nuttige middelen van AEM Guides, die op [&#128279;](https://helpx.adobe.com/nl/support/xml-documentation-for-experience-manager.html) pagina Leren &amp; van de Steun beschikbaar zijn:
+Na is een lijst van andere nuttige middelen van AEM Guides, die op [ ](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html) pagina Leren &amp; van de Steun beschikbaar zijn:
 
 * Handboek
 * API-naslaggids
 * Handleiding voor snel starten
-* [&#x200B; Help* de Pagina van het Archief &#x200B;](https://helpx.adobe.com/nl/xml-documentation-for-experience-manager/archive.html) (de documentatie van de toegangsoudere versie)
+* [ Help* de Pagina van het Archief ](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) (de documentatie van de toegangsoudere versie)
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; Ongeveer Adobe Experience Manager Guides as a Cloud Service &#x200B;](../user-guide/intro.md)
+**Bovenliggend onderwerp:**[ Ongeveer Adobe Experience Manager Guides as a Cloud Service ](../user-guide/intro.md)

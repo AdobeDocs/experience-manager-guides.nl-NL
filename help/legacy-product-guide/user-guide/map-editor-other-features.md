@@ -5,7 +5,7 @@ feature: Authoring, Map Editor
 role: User
 hide: true
 exl-id: d6e00884-e17c-499e-9568-0807a75051ad
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 0%
@@ -42,4 +42,4 @@ Deze hoofdmap is van toepassing op alle elementen \(mappen en submappen\) die bi
 
 **het Onderwerp geeft mening** uit - klik op het Zeer belangrijke pictogram van de Resolutie terwijl het uitgeven van een onderwerp DITA en selecteer het DITA- dossier voor het oplossen van de belangrijkste verwijzingen te gebruiken.
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; Werk met de Redacteur van de Kaart &#x200B;](map-editor.md)
+**Bovenliggend onderwerp:**[ Werk met de Redacteur van de Kaart ](map-editor.md)

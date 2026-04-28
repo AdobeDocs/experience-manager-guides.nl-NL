@@ -5,9 +5,9 @@ feature: Authoring
 role: User
 hide: true
 exl-id: 70ab9226-82d4-4e6a-aa0b-0e298f266c2a
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '603'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Voer de volgende stappen uit om een onderwerp tot stand te brengen:
 
 1. In Assets UI, navigeer aan de plaats waar u het onderwerp wilt tot stand brengen.
 
-1. Om een nieuw onderwerp tot stand te brengen, creeer **&#x200B;**&#x200B;\> **Onderwerp DITA**.
+1. Om een nieuw onderwerp tot stand te brengen, creeer **** \> **Onderwerp DITA**.
 
 1. Voor de pagina van de Vervaging, selecteer het type van document DITA u **daarna** tot stand brengen en wilt klikken.
 
@@ -50,7 +50,7 @@ Voer de volgende stappen uit om een onderwerp tot stand te brengen:
 
    ![](images/topic-version-none_cs.png){width="550" align="left"}
 
-   De versieinformatie voor een pas gecreeerd onderwerp wordt getoond als *niets*. Wanneer u een nieuwe versie opslaat, krijgt deze een versienummer toegewezen als 1.0. Voor meer informatie over het bewaren van een nieuwe versie, zie [&#x200B; sparen als Nieuwe Versie &#x200B;](web-editor-features.md#save-as-new-version-id209ME400GXA).
+   De versieinformatie voor een pas gecreeerd onderwerp wordt getoond als *niets*. Wanneer u een nieuwe versie opslaat, krijgt deze een versienummer toegewezen als 1.0. Voor meer informatie over het bewaren van een nieuwe versie, zie [ sparen als Nieuwe Versie ](web-editor-features.md#save-as-new-version-id209ME400GXA).
 
 
 >[!NOTE]
@@ -61,4 +61,4 @@ Voer de volgende stappen uit om een onderwerp tot stand te brengen:
 >
 > Zodra u uw onderwerp DITA hebt gecreeerd, houd sparen de veranderingen in uw het werk exemplaar en creeer een nieuwe versie zodra u de updates aan uw onderwerp hebt voltooid.
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; creeer en voorproef onderwerpen &#x200B;](create-preview-topics.md)
+**Bovenliggend onderwerp:**[ creeer en voorproef onderwerpen ](create-preview-topics.md)

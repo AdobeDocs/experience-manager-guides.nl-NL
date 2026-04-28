@@ -1,36 +1,36 @@
 ---
-title: Publiceren op basis van artikelen vanuit de webeditor
-description: Leer hoe u een of meer artikelen publiceert vanuit de webeditor. Produceer output voor één of meerdere onderwerpen in een kaart DITA in AEM Guides.
+title: Article-based publishing from the Web Editor
+description: Learn how to publish one or more articles from the web editor. Generate output for one or more topics in a DITA map in AEM Guides.
 feature: Authoring, Features of Web Editor, Publishing
 role: User
 hide: true
 exl-id: ddd6da80-d179-4da3-bff2-915c17bb6e5a
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '326'
 ht-degree: 0%
 
 ---
 
-# Publiceren op basis van artikelen vanuit de webeditor {#id218CL05J0M1}
+# Article-based publishing from the Web Editor {#id218CL05J0M1}
 
-AEM Guides komt met een op artikel-gebaseerde het publiceren eigenschap die binnen de Redacteur van het Web wordt geïntegreerd die de gebruikers toestaat om één of meerdere onderwerpen gelijktijdig te publiceren.
+AEM Guides comes with an article-based publishing feature integrated inside the Web Editor that allows the users to publish one or more topics simultaneously.
 
-Deze engine wordt ook geleverd met een sjabloon voor OOTB-inhoud, die is gebaseerd op AEM-kerncomponenten, waarmee gebruikers een op kennis gebaseerde opslagplaats voor de technische inhoud kunnen maken. Deze sjabloon kan worden aangepast aan de behoeften van de klanten. Met deze engine kunnen de gebruikers de DITA-kaart op een additieve manier bouwen en onderwerpen publiceren wanneer ze klaar zijn. U kunt de uitvoervoorinstellingen voor uw kaart gemakkelijk maken die in het deelvenster Kaartweergave worden geopend en snel de uitvoer voor een of meer onderwerpen van dezelfde kaart genereren.
+This engine also comes with an OOTB content template, built on top of AEM core components, that lets users create a knowledge-based repository of the technical content. This template can be customized to suit the needs of the customers.This engine allows the users to build the DITA map in an additive fashion and publish topics as and when they are ready. You can easily create the output presets for your map opened in the Map View panel and quickly generate the output for one or more topics of the same map.
 
-Als u de inhoud slechts voor een paar onderwerpen in uw kaart DITA hebt bijgewerkt, moet u niet altijd de volledige kaart publiceren. U kunt slechts de bijgewerkte onderwerpen van de Redacteur van het Web selecteren en publiceren.
+If you have updated the content only for a few topics in your DITA map, you do not always have to publish the entire map. You can select and publish only the updated topics from the Web Editor.
 
 >[!NOTE]
 >
-> Publiceren op basis van artikelen is alleen van toepassing op AEM Site-uitvoer.
+> Article-based publishing is applicable only for AEM Site output.
 
-Voor op artikel-gebaseerde het publiceren, moet u de output vooraf ingesteld voor uw kaart DITA van de Redacteur van het Web tot stand brengen. Uw kaart moet de onderwerpen omvatten die u wilt publiceren. U kunt ook voorwaarden toepassen en de AEM-sitedetails voor de uitvoervoorinstelling opgeven. Vervolgens kunt u uitvoer genereren met de functie Voorinstelling genereren.
+For article-based publishing, you need to create the output preset for your DITA map from the Web Editor. Your map must include the topics that you want to publish. You can also apply conditions and specify the AEM Site details for the output preset. Then, you can generate output using the Generate Preset feature.
 
-U kunt ook de uitvoervoorinstellingen gebruiken die voor uw DITA-kaart zijn gemaakt, om de uitvoer te genereren vanuit het deelvenster Opslagplaats of Kaart. U kunt de output voor één of meerdere onderwerpen, of voor de volledige kaart produceren DITA.
+You can also use the output presets created for your DITA map to generate the output from the Repository panel or the Map view panel. You can generate the output for one or more topics, or for the entire DITA map.
 
-- **[creeer outputvoorinstellingen van de Redacteur van het Web](web-editor-article-publishing-presets.md)**
+- **[Create output presets from the Web Editor](web-editor-article-publishing-presets.md)**
 
-- **[produceer output van het paneel van de Bewaarplaats of het paneel van de Mening van de Kaart](web-editor-article-publishing-output.md)**
+- **[Generate output from the Repository panel or the Map View panel](web-editor-article-publishing-output.md)**
 
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; Werk met de Redacteur van het Web &#x200B;](web-editor.md)
+**Bovenliggend onderwerp:**[ Werk met de Redacteur van het Web ](web-editor.md)

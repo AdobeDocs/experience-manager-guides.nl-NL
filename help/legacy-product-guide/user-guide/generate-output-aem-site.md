@@ -5,9 +5,9 @@ feature: Publishing
 role: User
 hide: true
 exl-id: b8e49fd3-1f98-471f-b285-572fd07df33a
-source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '165'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ U kunt de AEM Sites-voorinstellingen maken en configureren vanuit de webeditor o
 1. Selecteer op het tabblad Uitvoer het pictogram + om een uitvoervoorinstelling te maken.
 1. Selecteer de Plaats van AEM van het type drop-down in de **Nieuwe output vooraf ingestelde** dialoogdoos.
 
-Leer meer over [&#x200B; AEM Sites vooraf instelt in de Redacteur van het Web &#x200B;](generate-output-aem-site-web-editor.md).
+Leer meer over [ AEM Sites vooraf instelt in de Redacteur van het Web ](generate-output-aem-site-web-editor.md).
 
 
 **van het kaartdashboard**
@@ -32,6 +32,6 @@ Leer meer over [&#x200B; AEM Sites vooraf instelt in de Redacteur van het Web &#
 
 1. Als u uitvoervoorinstellingen voor de AEM-site wilt openen, selecteert u een DITA-toewijzingsbestand in de gebruikersinterface van Assets.
 1. Selecteer de Uitvoervoorinstellingen en selecteer vervolgens de uitvoeroptie voor de AEM-site.
-1. In het kaartdashboard, geeft de klik **&#x200B;**&#x200B;op de bovenkant uit om de diverse configuraties bij te werken, en klikt dan **sparen**.
+1. In het kaartdashboard, geeft de klik **** op de bovenkant uit om de diverse configuraties bij te werken, en klikt dan **sparen**.
 
-Leer meer over [&#x200B; AEM Sites vooraf instelt op het kaartdashboard &#x200B;](generate-output-aem-site-map-dashboard.md).
+Leer meer over [ AEM Sites vooraf instelt op het kaartdashboard ](generate-output-aem-site-map-dashboard.md).

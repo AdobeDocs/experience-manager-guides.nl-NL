@@ -5,9 +5,9 @@ feature: Publishing
 role: User
 hide: true
 exl-id: d4892eca-2715-4bd6-8ac8-0a8edff2c4f8
-source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1960'
+source-wordcount: '1972'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Met de functie Basislijn kunt u een versie van uw onderwerpen en elementen maken
 
 Het selecteren van een Basislijn is facultatief voor output vooraf instelt en een kaart DITA kan meer dan één Basislijn hebben. Elke uitvoervoorinstelling in een DITA-kaart kan echter maar aan één basislijn worden gekoppeld. Als er geen basislijn is opgegeven op het moment van publicatie, wordt de uitvoer gepubliceerd met de meest recente versie van de inhoud.
 
-Op dezelfde manier is het optioneel om een basislijn te selecteren voor het vertalen van inhoud. Als u inhoud echter wilt vertalen met een basislijn, wordt de inhoud van de basislijn samen met de vertaalde kopieën opgeslagen. Vervolgens kunt u de vertaalde basislijn gebruiken om verdere bewerkingen uit te voeren, zoals deze delen met externe uitgevers of archiveren. Voor meer informatie over het uitvoeren van een vertaalde Basislijn, zie [&#x200B; Vertaalde Basislijn van de Uitvoer &#x200B;](#id196SE600GHS).
+Op dezelfde manier is het optioneel om een basislijn te selecteren voor het vertalen van inhoud. Als u inhoud echter wilt vertalen met een basislijn, wordt de inhoud van de basislijn samen met de vertaalde kopieën opgeslagen. Vervolgens kunt u de vertaalde basislijn gebruiken om verdere bewerkingen uit te voeren, zoals deze delen met externe uitgevers of archiveren. Voor meer informatie over het uitvoeren van een vertaalde Basislijn, zie [ Vertaalde Basislijn van de Uitvoer ](#id196SE600GHS).
 
 >[!TIP]
 >
@@ -44,16 +44,16 @@ U kunt een Basislijn met een specifieke versie van de onderwerpen en van verwijz
 
 Voer de volgende stappen uit om een basislijn te maken:
 
-1. Voor de pagina van Basislijnen, leidt de klik **&#x200B;**&#x200B;tot.
+1. Voor de pagina van Basislijnen, leidt de klik **** tot.
 1. Ga een naam voor de Basislijn in **Naam van de Basislijn** in.
-   ![&#x200B; creeer een basislijn &#x200B;](images/create-baseline.png){width="800" align="left"}
+   ![ creeer een basislijn ](images/create-baseline.png){width="800" align="left"}
 1. In **plaats de Versie die op** wordt gebaseerd, selecteer één van de volgende opties:
 
    - **Etiket**: Selecteer deze optie om de onderwerpen volgens het etiket te kiezen dat op hen wordt toegepast. Voer een label in om de lijst te filteren op basis van de ingevoerde tekenreeks. In de uitgefilterde lijst kunt u een label kiezen om onderwerpen en andere elementen met het opgegeven label te selecteren.
 
-   Wanneer u **Etiket** selecteert, wordt u ook een extra optie gegeven om de recentste versie van onderwerpen te gebruiken die niet het gespecificeerde etiket hebben dat op hen wordt toegepast. Als u deze optie niet selecteert en er een onderwerp- of mediabestand is dat niet het opgegeven label heeft, mislukt het proces voor het maken van de basislijn. Voor meer informatie over het toevoegen van etiketten, zie {de etiketten van het 0} Gebruik [&#128279;](web-editor-use-label.md#).
+   Wanneer u **Etiket** selecteert, wordt u ook een extra optie gegeven om de recentste versie van onderwerpen te gebruiken die niet het gespecificeerde etiket hebben dat op hen wordt toegepast. Als u deze optie niet selecteert en er een onderwerp- of mediabestand is dat niet het opgegeven label heeft, mislukt het proces voor het maken van de basislijn. Voor meer informatie over het toevoegen van etiketten, zie {de etiketten van het 0} Gebruik ](web-editor-use-label.md#).[
 
-   - **Versie op** &lt; *tijdstempel* \>: Past de versie van onderwerpen zoals op de gespecificeerde datum en de tijd. De tijd die u hier opgeeft, komt overeen met de tijdzone van uw AEM-server. Als uw server bij een verschillende timezone is, dan zullen de onderwerpen volgens timezone van uw server en niet uw lokale timezone worden opgepikt.
+   - **Versie op** &lt;*tijdstempel* \>: Past de versie van de onderwerpen zoals op de gespecificeerde datum en de tijd. De tijd die u hier opgeeft, komt overeen met de tijdzone van uw AEM-server. Als uw server bij een verschillende timezone is, dan zullen de onderwerpen volgens timezone van uw server en niet uw lokale timezone worden opgepikt.
 
    Nadat u een label of versie hebt geselecteerd als op datum, worden alle onderwerpen waarnaar wordt verwezen en mediabestanden in de kaart dienovereenkomstig geselecteerd. Deze selectie van onderwerpen wordt niet getoond op het gebruikersinterface, maar het wordt bewaard in het achterste eind.
 
@@ -183,4 +183,4 @@ Voer de volgende stappen uit om een vertaalde basislijn te exporteren:
 1. \ (Facultatief \) om een Basislijn uit te voeren die reeds wordt uitgevoerd, uitgezocht **Overschrijf Bestaande Basislijn** en klik dan **de Basislijn van de Uitvoer**.
 
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; Productie van de Output &#x200B;](generate-output.md)
+**Bovenliggend onderwerp:**[ Productie van de Output ](generate-output.md)

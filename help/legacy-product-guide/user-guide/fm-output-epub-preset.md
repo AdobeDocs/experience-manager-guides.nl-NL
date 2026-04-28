@@ -5,9 +5,9 @@ feature: Publishing FrameMaker Documents
 role: User
 hide: true
 exl-id: b8d16ae9-5cbd-4fa1-b231-f06307e8ee17
-source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
@@ -28,4 +28,4 @@ De volgende opties zijn beschikbaar voor de EPUB-uitvoer:
 | Doelpad | Het pad in uw AEM-opslagplaats waar de EPUB-uitvoer wordt opgeslagen. |
 | Workflow na generatie uitvoeren | Als u deze optie kiest, wordt een nieuwe vervolgkeuzelijst Werkstroom na generatie weergegeven met alle werkstromen die in AEM zijn geconfigureerd. U moet een werkstroom selecteren die u wilt uitvoeren nadat de werkstroom van de outputgeneratie is voltooid. |
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; produceer output van de documenten van FrameMaker &#x200B;](fm-output-generatation.md)
+**Bovenliggend onderwerp:**[ produceer output van de documenten van FrameMaker ](fm-output-generatation.md)

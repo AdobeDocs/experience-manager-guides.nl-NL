@@ -5,9 +5,9 @@ feature: Authoring, Map Editor
 role: User
 hide: true
 exl-id: 194caf31-15ae-436d-bbd4-3ea4907c7877
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1508'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 > De Basic Map Editor, die voorheen beschikbaar was in Experience Manager Guides, is vanaf versie 4.3 en 2307 vervangen. U kunt tot de Basis Redacteur van de Kaart niet toegang hebben om kaarten te creëren en te beheren DITA.
->U wordt geadviseerd om de Geavanceerde Redacteur van de Kaart te gebruiken. De geavanceerde Kaarteditor biedt verbeterde functies en betere aanpassingsopties. Onderzoek meer over hoe te met de [&#x200B; Geavanceerde Redacteur van de Kaart &#x200B;](../user-guide/map-editor-advanced-map-editor.md) te werken.
+>U wordt geadviseerd om de Geavanceerde Redacteur van de Kaart te gebruiken. De geavanceerde Kaarteditor biedt verbeterde functies en betere aanpassingsopties. Onderzoek meer over hoe te met de [ Geavanceerde Redacteur van de Kaart ](../user-guide/map-editor-advanced-map-editor.md) te werken.
 
 De Basis Redacteur van de Kaart verstrekt een gemakkelijke belemmering-en-dalingseigenschap om onderwerpen van uw bewaarplaats van AEM toe te voegen om de kaart DITA of bookmap tot stand te brengen. U kunt geneste onderwerpen, relatietabellen \(reltable\), attributen en meta-gegevensinformatie toevoegen, en ook de kaart voor correctheid bevestigen.
 
@@ -41,7 +41,7 @@ Voer de volgende stappen uit om uw kaartbestand te maken:
    >
    > Als u eenmaal een exclusief kaartbestand hebt vergrendeld, kunnen andere gebruikers de kaart niet meer bewerken. Ze kunnen echter wel aan de onderwerpen in het kaartbestand werken.
 
-1. Met het geselecteerde kaartdossier, geeft de klik **&#x200B;**&#x200B;uit.
+1. Met het geselecteerde kaartdossier, geeft de klik **** uit.
 
    Het kaartbestand wordt geopend voor bewerking in de Kaarteditor. Gebruikend de Redacteur van de Kaart, bouwt u een kaart door de momenteel beschikbare onderwerpen te gebruiken die in de spoorstaaf van Verwijzingen worden getoond.
 
@@ -86,7 +86,7 @@ Voer de trefwoorden in waarnaar u wilt zoeken. Deze trefwoorden komen overeen me
 
 **B: Groep**
 
-Klik checkbox links van de onderwerpen en klik Groep in de toolbar om de geselecteerde onderwerpen te groeperen. Voor meer informatie over het groeperen van onderwerpen, zie de [&#128279;](https://docs.oasis-open.org/dita/v1.0/langspec/topicgroup.html) documentatie 0&rbrace; topicgroup &lbrace;in de Specificatie van de Taal van OASIS DITA.
+Klik checkbox links van de onderwerpen en klik Groep in de toolbar om de geselecteerde onderwerpen te groeperen. Voor meer informatie over het groeperen van onderwerpen, zie de ](https://docs.oasis-open.org/dita/v1.0/langspec/topicgroup.html) documentatie 0} topicgroup {in de Specificatie van de Taal van OASIS DITA.[
 
 **C: Schrapping**
 
@@ -112,7 +112,7 @@ In de **StandaardWijze**, toont het klikken van een onderwerpverbinding de voorp
 
 **G: De Eigenschappen van de kaart**
 
-Geef het dialoogvenster Eigenschappen kaart weer waarin u de kenmerken en metagegevens voor de kaart kunt instellen. Om een attribuut toe te voegen, klik **voeg** knoop bij de bodem-linkerhoek van de dialoog toe om de **3&rbrace; drop-down lijst van Attributen &lbrace;te krijgen.** Selecteer in de lijst het kenmerk dat u wilt toevoegen. Als voor het geselecteerde kenmerk vooraf gedefinieerde waarden zijn opgegeven in het DTD-bestand, worden deze waarden weergegeven in een nieuwe vervolgkeuzelijst. U kunt de gewenste waarde selecteren in de vervolgkeuzelijst. Als er geen vooraf gedefinieerde waarde is, wordt een tekstvak weergegeven waarin u een waarde voor het geselecteerde kenmerk kunt invoeren.
+Geef het dialoogvenster Eigenschappen kaart weer waarin u de kenmerken en metagegevens voor de kaart kunt instellen. Om een attribuut toe te voegen, klik **voeg** knoop bij de bodem-linkerhoek van de dialoog toe om de **3} drop-down lijst van Attributen {te krijgen.** Selecteer in de lijst het kenmerk dat u wilt toevoegen. Als voor het geselecteerde kenmerk vooraf gedefinieerde waarden zijn opgegeven in het DTD-bestand, worden deze waarden weergegeven in een nieuwe vervolgkeuzelijst. U kunt de gewenste waarde selecteren in de vervolgkeuzelijst. Als er geen vooraf gedefinieerde waarde is, wordt een tekstvak weergegeven waarin u een waarde voor het geselecteerde kenmerk kunt invoeren.
 
 ![](images/map-properties.png){width="300" align="left"}
 
@@ -128,7 +128,7 @@ Klik op de pictogrammen voor pijl-links of pijl-rechts om het onderwerp naar lin
 
 **B: Eigenschappen**
 
-Klik op het pictogram Eigenschappen om het dialoogvenster Eigenschappen van Topicref te openen. In dit dialoogvenster kunt u de onderwerpkenmerken en metagegevens instellen. Voor meer informatie over de standaardonderwerpattributen en meta-gegevens, zie de [&#x200B; topicref &#x200B;](https://docs.oasis-open.org/dita/v1.2/os/spec/langref/topicref.html) documentatie in de Specificatie van de Taal OASIS DITA.
+Klik op het pictogram Eigenschappen om het dialoogvenster Eigenschappen van Topicref te openen. In dit dialoogvenster kunt u de onderwerpkenmerken en metagegevens instellen. Voor meer informatie over de standaardonderwerpattributen en meta-gegevens, zie de [ topicref ](https://docs.oasis-open.org/dita/v1.2/os/spec/langref/topicref.html) documentatie in de Specificatie van de Taal OASIS DITA.
 
 
 ![](images/map-properties-metadata.png){width="350" align="left"}
@@ -155,9 +155,9 @@ Voer de volgende stappen uit om met relatietabellen in de BasisRedacteur van de 
 
    >[!TIP]
    >
-   > Het lusje van Onderwerpen geeft u een optie om het kaartdossier met zijn gebiedsdelen te downloaden. Voor meer details, zie [&#x200B; Exporteer een DITA kaartdossier &#x200B;](authoring-download-assets.md#id218UBA00IXA).
+   > Het lusje van Onderwerpen geeft u een optie om het kaartdossier met zijn gebiedsdelen te downloaden. Voor meer details, zie [ Exporteer een DITA kaartdossier ](authoring-download-assets.md#id218UBA00IXA).
 
-1. In de belangrijkste toolbar, geeft de klik **&#x200B;**&#x200B;uit.
+1. In de belangrijkste toolbar, geeft de klik **** uit.
 
    Het kaartbestand wordt geopend in de Basic Map Editor.
 
@@ -196,4 +196,4 @@ Als u een onderwerp van uw lijst wilt schrappen, klik het dwarspictogram naast h
 
 Als u de relatietabel wilt verwijderen, klikt u ergens buiten de relatietabel en klikt u op Verwijderen.
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; Werk met de Redacteur van de Kaart &#x200B;](map-editor.md)
+**Bovenliggend onderwerp:**[ Werk met de Redacteur van de Kaart ](map-editor.md)

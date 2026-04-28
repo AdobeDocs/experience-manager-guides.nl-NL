@@ -5,9 +5,9 @@ feature: Content Management
 role: User
 hide: true
 exl-id: 35663aa1-9e52-4909-aaee-0f01cf47dc64
-source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '3109'
+source-wordcount: '3144'
 ht-degree: 0%
 
 ---
@@ -127,7 +127,7 @@ Voer de volgende stappen uit om bestanden in bulk te verplaatsen:
 
 1. Klik op de verbinding van Adobe Experience Manager bij de bovenkant en kies **Hulpmiddelen**.
 1. Selecteer **Gidsen** van de lijst van hulpmiddelen.
-1. Klik op de **tegel van het Hulpmiddel van de Beweging van het Bulk** &lbrace;.
+1. Klik op de **tegel van het Hulpmiddel van de Beweging van het Bulk** {.
 1. De pagina Bulk verplaatsen wordt weergegeven op basis van uw instellingen. Verstrek de volgende details op de **pagina van het Hulpmiddel van de Beweging van het Bulk**:
 
    <details>
@@ -223,7 +223,7 @@ AEM herkent standaard geen DITA-inhoud en biedt dus geen mechanisme om DITA-inho
 
 >[!NOTE]
 >
->Uw systeembeheerder kan de **onderzoekscomponent vormen van het Element 0&rbrace; DITA &lbrace;en dan kunt u de eigenschap van AEM Assets gebruiken UI.** Voor meer details zie, *toevoegen de onderzoekscomponent van het Element DITA in Assets UI* sectie in installeer en vorm Adobe Experience Manager Guides as a Cloud Service.
+>Uw systeembeheerder kan de **onderzoekscomponent vormen van het Element 0} DITA {en dan kunt u de eigenschap van AEM Assets gebruiken UI.** Voor meer details zie, *toevoegen de onderzoekscomponent van het Element DITA in Assets UI* sectie in installeer en vorm Adobe Experience Manager Guides as a Cloud Service.
 
 Met de zoekfunctie kunt u:
 
@@ -318,4 +318,4 @@ Als uw media dossier om het even welke veranderingen heeft ondergaan, kunt u de 
    ![](images/media-version-preview.png){width="650" align="center"}
 
 
-**Bovenliggend onderwerp:**&#x200B;[&#x200B; beheert inhoud &#x200B;](authoring.md)
+**Bovenliggend onderwerp:**[ beheert inhoud ](authoring.md)
