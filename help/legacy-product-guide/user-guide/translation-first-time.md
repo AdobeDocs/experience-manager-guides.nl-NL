@@ -50,7 +50,7 @@ Voer de volgende stappen uit om de te gebruiken service voor het vertalen van me
 
    >[!NOTE]
    >
-   > Zie [&#x200B; Vormend het Kader van de Integratie van de Vertaling &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) in de documentatie van AEM voor details bij het integreren met de diensten van de derdevertaling.
+   > Zie [&#x200B; Vormend het Kader van de Integratie van de Vertaling &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=nl-NL) in de documentatie van AEM voor details bij het integreren met de diensten van de derdevertaling.
 
 1. Klik **sparen &amp; Sluiten** om de bijgewerkte omslageigenschappen te bewaren.
 
