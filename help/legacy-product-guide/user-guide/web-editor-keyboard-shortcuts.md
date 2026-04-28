@@ -52,4 +52,4 @@ Er zijn vele verrichtingen in de Redacteur van het Web die u het gebruiken van d
 | Laatste handeling opnieuw | ***CTRL*** + **Y** | ***Bevel*** + **Y** |
 | Vaste spatie invoegen `(&nbsp;)` | ***Alt*** + **Ruimte** | ***Optie*** + **Ruimte** |
 
-**Bovenliggend onderwerp:** [ Werk met de Redacteur van het Web ](web-editor.md)
+**Bovenliggend onderwerp:** [&#x200B; Werk met de Redacteur van het Web &#x200B;](web-editor.md)

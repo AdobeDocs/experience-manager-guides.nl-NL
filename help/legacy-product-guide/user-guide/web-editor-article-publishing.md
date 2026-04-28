@@ -33,4 +33,4 @@ You can also use the output presets created for your DITA map to generate the ou
 - **[Generate output from the Repository panel or the Map View panel](web-editor-article-publishing-output.md)**
 
 
-**Bovenliggend onderwerp:**[ Werk met de Redacteur van het Web ](web-editor.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Werk met de Redacteur van het Web &#x200B;](web-editor.md)

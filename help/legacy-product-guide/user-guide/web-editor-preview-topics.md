@@ -67,7 +67,7 @@ Als uw onderwerp voorwaardelijke inhoud heeft, dan zult u het A/B pictogram op d
 
 **geeft** uit
 
-- Open het onderwerp voor het uitgeven in de Redacteur van het Web. De **geeft** optie uit zal niet beschikbaar zijn als uw beheerder **uitgeeft onbruikbaar maakt zonder Controle** optie heeft toegelaten. Met de toegelaten optie, zult u **** optie slechts na het controleren van een onderwerpdossier zien uitgeven.
+- Open het onderwerp voor het uitgeven in de Redacteur van het Web. De **geeft** optie uit zal niet beschikbaar zijn als uw beheerder **uitgeeft onbruikbaar maakt zonder Controle** optie heeft toegelaten. Met de toegelaten optie, zult u **&#x200B;**&#x200B;optie slechts na het controleren van een onderwerpdossier zien uitgeven.
 
 **Zeer belangrijke Resolutie**
 
@@ -186,7 +186,7 @@ Als de Uitgecheckte kolom niet zichtbaar is, de uitgezochte **Montages van de Me
 
       >[!NOTE]
       >
-      > Een lijst van versies beschikbaar voor het geselecteerde onderwerp wordt getoond. Elke versie bevat timestamp, gebruikersnaam, versiecommentaar, en [ etiket ](web-editor-use-label.md#) informatie.
+      > Een lijst van versies beschikbaar voor het geselecteerde onderwerp wordt getoond. Elke versie bevat timestamp, gebruikersnaam, versiecommentaar, en [&#x200B; etiket &#x200B;](web-editor-use-label.md#) informatie.
 
    1. Selecteer een versie van waar u een vertakking wilt maken. In de volgende schermafbeelding is versie 1.2 geselecteerd voor het maken van een vertakking.
 
@@ -217,6 +217,6 @@ Als de Uitgecheckte kolom niet zichtbaar is, de uitgezochte **Montages van de Me
    1. Klik **OK**.
 
 
-  Een nieuwe tak wordt gecreeerd van de geselecteerde versie van het onderwerp. Het bovenstaande proces is ook van toepassing voor het terugkeren naar een specifieke versie van een onderwerp. Het terugkeren naar een specifieke versie betekent technisch dat u een nieuwe tak van de geselecteerde versie creeert en die versie het huidige werkende exemplaar van het onderwerp maakt. U kunt de geschiedenis van dossiers ook bekijken die in het rapport van de Geschiedenis van de Versie zijn teruggekeerd. Voor meer details over dit rapport, zie [ het Teruggedraaide rapport van de dossierversie ](reports-reverted-file-version-history.md#).
+  Een nieuwe tak wordt gecreeerd van de geselecteerde versie van het onderwerp. Het bovenstaande proces is ook van toepassing voor het terugkeren naar een specifieke versie van een onderwerp. Het terugkeren naar een specifieke versie betekent technisch dat u een nieuwe tak van de geselecteerde versie creeert en die versie het huidige werkende exemplaar van het onderwerp maakt. U kunt de geschiedenis van dossiers ook bekijken die in het rapport van de Geschiedenis van de Versie zijn teruggekeerd. Voor meer details over dit rapport, zie [&#x200B; het Teruggedraaide rapport van de dossierversie &#x200B;](reports-reverted-file-version-history.md#).
 
-**Bovenliggend onderwerp:**[ creeer en voorproef onderwerpen ](create-preview-topics.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; creeer en voorproef onderwerpen &#x200B;](create-preview-topics.md)

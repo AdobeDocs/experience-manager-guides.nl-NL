@@ -63,7 +63,7 @@ Voer de volgende stappen uit om de metagegevens van uw verwijzingen in de huidig
    ![](images/web-editor-metadata-panel.png){width="800" align="left"}
 
 1. Van het **paneel van Filters** kunt u uw onderwerpen filtreren die op de **Staat van het Document** \ (de huidige staat van uw onderwerpen worden gebaseerd. Bijvoorbeeld als uw onderwerpen in Edit, In-Overzicht, of Gereviseerde staat zijn, zijn deze vermeld \), **Verwijzingen** \ (direct of indirect \), **Type van Dossier** \ (Kaart, Onderwerp, en Beeld \) van de verwijzing.
-1. U kunt ook verkiezen om slechts de **Dossiers zonder markeringen** te bekijken of ook specifieke markeringen van de **3} filter van Markeringen te kiezen {om de dossiers te bekijken verbonden aan hen.**
+1. U kunt ook verkiezen om slechts de **Dossiers zonder markeringen** te bekijken of ook specifieke markeringen van de **3&rbrace; filter van Markeringen te kiezen &lbrace;om de dossiers te bekijken verbonden aan hen.**
    1. U kunt ook de volgende opties voor het filteren van onderwerpen gebruiken om de volgende kolommen in de lijst met metagegevens weer te geven:
       - **Titel** \ (die door gebrek wordt geselecteerd \) De titel van het referenced dossier wordt gespecificeerd in de kaart DITA. U kunt op het bestand klikken om het te bewerken.U kunt ook op een audio- of videobestand in de webeditor klikken en dit afspelen. U kunt het volume of de weergave van de video wijzigen. In het snelmenu hebt u ook de mogelijkheid om de afspeelsnelheid te downloaden, te wijzigen of de afbeelding in beeld te bekijken.
 
@@ -194,4 +194,4 @@ Klik **verfrissen zich** om een nieuwe lijst van gebroken verbindingen te krijge
 1. Klik **CSV van de Download** om de huidige momentopname van de gebroken verbindingen in de kaart te downloaden DITA. CSV bevat de geselecteerde kolommen en de verbroken verbindingen die in de Gebroken mening van Verbindingen worden gefiltreerd. U kunt dit CSV-bestand vervolgens openen en weergeven in elke CSV-editor.
 
 
-**Bovenliggend onderwerp:**[ Rapporten ](reports-intro.md)
+**Bovenliggend onderwerp:**&#x200B;[&#x200B; Rapporten &#x200B;](reports-intro.md)

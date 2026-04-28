@@ -20,7 +20,7 @@ U kunt ook verbinding maken met JSON-gegevensbestanden via een bestandsconnector
 
 ## Deelvenster Gegevensbronnen
 
-Selecteer **Gegevensbronnen** ![ gegevensbron ](images/data-source-icon.svg) in het linkerpaneel om de verbonden gegevensbronnen te bekijken. Het paneel van Gegevensbronnen opent en toont alle verbonden gegevensbronnen.
+Selecteer **Gegevensbronnen** ![&#x200B; gegevensbron &#x200B;](images/data-source-icon.svg) in het linkerpaneel om de verbonden gegevensbronnen te bekijken. Het paneel van Gegevensbronnen opent en toont alle verbonden gegevensbronnen.
 
 Gebaseerd op uw opstelling kan uw beheerder een gegevensbronschakelaar vormen:
 
@@ -28,18 +28,18 @@ Gebaseerd op uw opstelling kan uw beheerder een gegevensbronschakelaar vormen:
 <summary> Cloud Services </summary>
 
 
-- Als u de versie van Oktober 2023 of recenter gebruikt, leer hoe te [ een gegevensbronschakelaar van het gebruikersinterface ](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md) in de Gids van de Installatie en van de Configuratie van de Diensten van de Wolk vormen.
+- Als u de versie van Oktober 2023 of recenter gebruikt, leer hoe te [&#x200B; een gegevensbronschakelaar van het gebruikersinterface &#x200B;](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md) in de Gids van de Installatie en van de Configuratie van de Diensten van de Wolk vormen.
 
-- Als u de versie van juli 2023 of September 2023 gebruikt, leer hoe te [ een gegevensbronschakelaar ](/help/product-guide/cs-install-guide/conf-data-source-connector.md) in de Gids van de Installatie en van de Configuratie van de Diensten van de Wolk vormen.
+- Als u de versie van juli 2023 of September 2023 gebruikt, leer hoe te [&#x200B; een gegevensbronschakelaar &#x200B;](/help/product-guide/cs-install-guide/conf-data-source-connector.md) in de Gids van de Installatie en van de Configuratie van de Diensten van de Wolk vormen.
 
 </details>
 
 <details>    
 <summary>  Software op locatie </summary>
 
-- Als u de versie 4.3.1 of recenter gebruikt, leer hoe te [ een gegevensbronschakelaar van het gebruikersinterface ](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md) in de Gids van de Installatie en van de Configuratie op locatie vormen.
+- Als u de versie 4.3.1 of recenter gebruikt, leer hoe te [&#x200B; een gegevensbronschakelaar van het gebruikersinterface &#x200B;](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md) in de Gids van de Installatie en van de Configuratie op locatie vormen.
 
-- Als u de versie 4.3 gebruikt, leer hoe te [ een gegevensbronschakelaar ](/help/product-guide/cs-install-guide/conf-data-source-connector.md) in de Gids van de Installatie op-gebouw en van de Configuratie vormen.
+- Als u de versie 4.3 gebruikt, leer hoe te [&#x200B; een gegevensbronschakelaar &#x200B;](/help/product-guide/cs-install-guide/conf-data-source-connector.md) in de Gids van de Installatie op-gebouw en van de Configuratie vormen.
 </details>
 
 
@@ -88,7 +88,7 @@ Voer de volgende stappen uit om een inhoudsfragment tot stand te brengen gebruik
 
 1. Selecteer **toevoegen** om een nieuwe generator van het inhoudsfragment toe te voegen. Het **voegt de generator van het inhoudsfragment** paneel opent.
 
-1. Ga de vraag in het **tekstvakje van de vraag van 0} Gegevens in.** Selecteer **de steekproefvraag van het Exemplaar** om een gegevensvraag snel te kopiëren. In plaats van manueel het creëren van de vraag, kunt u de steekproefvraag in het **vakje van de de vraagtekst van Gegevens** kopiëren en kleven. Dan, geef eenvoudig de vraag volgens uw gegevensvereisten uit.
+1. Ga de vraag in het **tekstvakje van de vraag van 0&rbrace; Gegevens in.** Selecteer **de steekproefvraag van het Exemplaar** om een gegevensvraag snel te kopiëren. In plaats van manueel het creëren van de vraag, kunt u de steekproefvraag in het **vakje van de de vraagtekst van Gegevens** kopiëren en kleven. Dan, geef eenvoudig de vraag volgens uw gegevensvereisten uit.
 
    >[!NOTE]
    >
@@ -107,9 +107,9 @@ De out-of-the-box malplaatjes voor de geselecteerde gegevensbron worden getoond 
    >  
    > Als uw beheerder aangepaste malplaatjes heeft gevormd, dan wordt u ook getoond die malplaatjes in de drop-down lijst (die op de configuraties van de malplaatjeweg door uw beheerder wordt gebaseerd).
    >   
-   >U kunt ook de gereedschappen Snelheid gebruiken in de sjablonen. Leer meer over hoe te [ de hulpmiddelen van de gebruiksSnelheid ](#use-velocity-tools).
+   >U kunt ook de gereedschappen Snelheid gebruiken in de sjablonen. Leer meer over hoe te [&#x200B; de hulpmiddelen van de gebruiksSnelheid &#x200B;](#use-velocity-tools).
 
-1. Het **dropdown van het Middel 0} verschijnt voor sommige schakelaars zoals de Cliënt van het TerugSTEL, Salsify, Akeneo, en Microsoft ADO.** Selecteer om het even welk middel van dropdown en verbind met het om een inhoudsfragment of een onderwerp tot stand te brengen gebruikend de generator voor het.
+1. Het **dropdown van het Middel 0&rbrace; verschijnt voor sommige schakelaars zoals de Cliënt van het TerugSTEL, Salsify, Akeneo, en Microsoft ADO.** Selecteer om het even welk middel van dropdown en verbind met het om een inhoudsfragment of een onderwerp tot stand te brengen gebruikend de generator voor het.
 
    >[!NOTE]
    >
@@ -189,7 +189,7 @@ Voer de volgende stappen uit om een onderwerp tot stand te brengen gebruikend de
 
    *voeg de Vraag van Gegevens, het kaartmalplaatje van Gegevens, en de details van de wortelknoop voor de onderwerpgenerator toe en geef het een unieke naam in het paneel van de Configuratie van de Ophalen.*
 
-   1. Ga de vraag in het **tekstvakje van de vraag van 0} Gegevens in.** Selecteer **de steekproefvraag van het Exemplaar** om een gegevensvraag snel te kopiëren. In plaats van manueel het creëren van de vraag, kunt u de steekproefvraag in het **vakje van de de vraagtekst van Gegevens** kopiëren en kleven. Dan, geef eenvoudig de vraag volgens uw gegevensvereisten uit.
+   1. Ga de vraag in het **tekstvakje van de vraag van 0&rbrace; Gegevens in.** Selecteer **de steekproefvraag van het Exemplaar** om een gegevensvraag snel te kopiëren. In plaats van manueel het creëren van de vraag, kunt u de steekproefvraag in het **vakje van de de vraagtekst van Gegevens** kopiëren en kleven. Dan, geef eenvoudig de vraag volgens uw gegevensvereisten uit.
 
       >[!NOTE]
       >
@@ -281,7 +281,7 @@ Klik op een onderwerpgenerator met de rechtermuisknop aan om de **Opties** te op
 
 ## De hulpmiddelen van de Snelheid van het gebruik in de gegevensbronmalplaatjes {#use-velocity-tools}
 
-Experience Manager-sjablonen ondersteunen ook de snelheidsgereedschappen (versie 2.0). Met deze gereedschappen kunt u verschillende functies toepassen op de gegevens die u ophaalt van de gegevensbronnen. Leer meer over het gebruik van de [ hulpmiddelen van de Snelheid ](https://velocity.apache.org/tools/2.0/generic.html) en de functies die u kunt toepassen.
+Experience Manager-sjablonen ondersteunen ook de snelheidsgereedschappen (versie 2.0). Met deze gereedschappen kunt u verschillende functies toepassen op de gegevens die u ophaalt van de gegevensbronnen. Leer meer over het gebruik van de [&#x200B; hulpmiddelen van de Snelheid &#x200B;](https://velocity.apache.org/tools/2.0/generic.html) en de functies die u kunt toepassen.
 
 Voer de volgende stappen uit om een hulpmiddel van de Snelheid in een malplaatje te gebruiken:
 1. Bewerk een snelheidssjabloon in de webeditor.
